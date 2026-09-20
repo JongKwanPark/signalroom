@@ -34,8 +34,14 @@ function isCurrent(href: string): boolean {
       >
         Search <kbd aria-hidden="true">⌘K</kbd>
       </button>
-      <button class="sr-btn" type="button" data-theme-toggle>
-        <span data-theme-label>Theme</span>
+      <button
+        class="sr-btn"
+        type="button"
+        data-theme-toggle
+        aria-label="Switch to light theme"
+        aria-pressed="false"
+      >
+        <span data-theme-label>Light</span>
       </button>
     </div>
   </div>

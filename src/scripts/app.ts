@@ -32,15 +32,17 @@ function writeStored(key: string, value: string): void {
 function effectiveTheme(): Theme {
   const attr = document.documentElement.getAttribute('data-theme');
   if (attr === 'light' || attr === 'dark') return attr;
-  return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+  return 'dark';
 }
 
 function paintThemeControls(): void {
-  const next: Theme = effectiveTheme() === 'dark' ? 'light' : 'dark';
+  const current = effectiveTheme();
+  const next: Theme = current === 'dark' ? 'light' : 'dark';
   for (const button of document.querySelectorAll<HTMLButtonElement>('[data-theme-toggle]')) {
     const label = button.querySelector('[data-theme-label]');
     if (label) label.textContent = next === 'light' ? 'Light' : 'Dark';
     button.setAttribute('aria-label', `Switch to ${next} theme`);
+    button.setAttribute('aria-pressed', String(current === 'light'));
   }
 }
 
@@ -52,10 +54,6 @@ for (const button of document.querySelectorAll<HTMLButtonElement>('[data-theme-t
     paintThemeControls();
   });
 }
-
-window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', () => {
-  if (!document.documentElement.hasAttribute('data-theme')) paintThemeControls();
-});
 
 paintThemeControls();
 

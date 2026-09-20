@@ -37,14 +37,15 @@ const pageTitle = title === SITE.name ? title : `${title} · ${SITE.name}`;
 ---
 
 <!doctype html>
-<html lang="en" data-vertical={vertical}>
+<html lang="en" data-theme="dark" data-vertical={vertical}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="dark light" />
-    <meta name="theme-color" content="#0a0d12" media="(prefers-color-scheme: dark)" />
-    <meta name="theme-color" content="#f6f7f9" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0a0d12" />
     <script is:inline>
+      // Dark is the default identity. Override only on an explicit,
+      // previously stored user choice — never on OS preference.
       (function () {
         try {
           var theme = localStorage.getItem('sr-theme');
@@ -52,7 +53,7 @@ const pageTitle = title === SITE.name ? title : `${title} · ${SITE.name}`;
             document.documentElement.setAttribute('data-theme', theme);
           }
         } catch (error) {
-          /* private mode: fall back to system preference */
+          /* private mode: keep server-rendered dark default */
         }
       })();
     </script>
