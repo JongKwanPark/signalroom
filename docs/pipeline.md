@@ -27,7 +27,10 @@ src/content/editions/{date}/{vertical}.json      (draft editions)
 scripts/validate.ts        (schema mirror + publish gates; exit != 0 on violation)
         |
         v
-GitHub Action commit  ->  human approval gate  ->  site publish
+automation commit (paseo schedule; GitHub Action when re-enabled)
+        |
+        v
+human approval gate  ->  site publish
 ```
 
 ## Architecture
@@ -96,9 +99,24 @@ npm test
 - Every published story needs >= 2 distinct sources and a citation set that
   fully resolves; the editor pass sets `confidence`.
 
+## Automation
+
+The daily job runs from a **paseo schedule at 07:00 KST**, which collects,
+synthesizes and commits drafts to this repo.
+
+The GitHub Actions `schedule:` triggers in `collect.yml` and `publish.yml` are
+**commented out on purpose**: both paths run the same daily job, so leaving the
+crons on would double-run collection and drafting. Run either workflow manually
+with `workflow_dispatch` if needed.
+
+**Re-enable the schedules once the LLM provider key (and the other collector
+keys below) are configured as repository secrets** — and retire the paseo
+schedule at the same time so the two automation paths never run together.
+
 ## Hybrid publishing flow
 
-1. `collect.yml` (cron every 30 min) refreshes raw/normalized data and drafts.
+1. `collect.yml` (`workflow_dispatch`; cron disabled) refreshes raw/normalized
+   data and drafts.
 2. `synth.ts` auto-drafts an edition JSON per vertical (or an agent edits with
    `--input-json`).
 3. The **AI editor pass** (`scripts/prompts/editor.md`) checks duplicates,
@@ -106,16 +124,17 @@ npm test
 4. **Approval gate**: a human reviews the draft commit before the Astro site
    build/publish picks it up. Auto-committed editions are drafts; only
    approved editions are published.
-5. `publish.yml` (cron daily 06:00 UTC) runs collect -> synth -> validate,
-   commits drafts only when changed (`git diff --quiet` guard), and includes a
-   keepalive empty commit so the 60-day GitHub inactivity rule never disables
-   the schedules.
+5. `publish.yml` (`workflow_dispatch`; cron disabled) runs collect -> synth ->
+   validate, commits drafts only when changed (`git diff --quiet` guard), and
+   includes a keepalive empty commit so the 60-day GitHub inactivity rule never
+   disables the schedules once they are re-enabled.
 
 ## Monthly cost estimate
 
-- Data collection: all sources are free APIs; ~3,000 CI runs/month at ~2 min
-  CPU each is within free-tier GitHub Actions for public repos (or ~$0-$3 on
-  private-repo minutes).
+- Data collection: all sources are free APIs; when the schedules are enabled,
+  ~3,000 CI runs/month at ~2 min CPU each is within free-tier GitHub Actions
+  for public repos (or ~$0-$3 on private-repo minutes). Runs are currently
+  driven by the paseo schedule and `workflow_dispatch`, so CI cost is ~$0.
 - Synthesis: one LLM call per vertical per day at ~6-10k input + ~4k output
   tokens = ~40k tokens/day x 4 verticals ~ 4.8M tokens/month, roughly
   **$1-5/month** with mid-tier models (Flash/4o-mini class), <$10 with premium

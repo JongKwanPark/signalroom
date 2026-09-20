@@ -1,8 +1,11 @@
 name: collect
 
 on:
-  schedule:
-    - cron: "*/30 * * * *"
+  # Schedule disabled: the paseo schedule already runs this daily job, so a cron
+  # here would double-run. Re-enable once LLM/source API keys exist as repo
+  # secrets (see docs/pipeline.md).
+  # schedule:
+  #   - cron: "*/30 * * * *"
   workflow_dispatch:
 
 permissions:

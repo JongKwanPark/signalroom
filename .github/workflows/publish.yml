@@ -1,8 +1,11 @@
 name: publish
 
 on:
-  schedule:
-    - cron: "0 6 * * *"
+  # Schedule disabled: the paseo schedule already runs this daily job, so a cron
+  # here would double-run. Re-enable once LLM/source API keys exist as repo
+  # secrets (see docs/pipeline.md).
+  # schedule:
+  #   - cron: "0 6 * * *"
   workflow_dispatch:
 
 permissions:
