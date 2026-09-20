@@ -1,0 +1,194 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import CitationChip from '../../components/CitationChip.astro';
+import ClusterLinks from '../../components/ClusterLinks.astro';
+import EditorNote from '../../components/EditorNote.astro';
+import TldrList from '../../components/TldrList.astro';
+import TypeBadge from '../../components/TypeBadge.astro';
+import VerticalChip from '../../components/VerticalChip.astro';
+import WhyItMatters from '../../components/WhyItMatters.astro';
+import {
+  editionHref,
+  getEditions,
+  getStoryRefs,
+  sourceCount,
+  storyHref,
+  timeLabel,
+  verticalHref,
+  type StoryRef,
+} from '../../lib/editions';
+import { CONFIDENCE_LABEL, VERTICAL_META } from '../../lib/site';
+import { formatDateLong, pluralize } from '../../lib/format';
+import { articleJsonLd, breadcrumbJsonLd } from '../../lib/seo';
+
+export async function getStaticPaths() {
+  const refs = await getStoryRefs();
+  return refs.map((ref) => ({ params: { slug: ref.slug }, props: { ref } }));
+}
+
+const { ref } = Astro.props as { ref: StoryRef };
+const { story, vertical } = ref;
+const meta = VERTICAL_META[vertical];
+
+const sourcesById = new Map(story.sources.map((source) => [source.id, source]));
+const orderedSources = [...story.sources].sort((a, b) => a.id - b.id);
+
+const editions = await getEditions();
+const edition = editions.find((entry) => entry.id === ref.editionId);
+const siblings = edition?.data.stories ?? [];
+const position = siblings.findIndex((item) => item.slug === ref.slug);
+const previous = position > 0 ? siblings[position - 1] : null;
+const following = position >= 0 && position < siblings.length - 1 ? siblings[position + 1] : null;
+
+const jsonLd = [
+  articleJsonLd(ref),
+  breadcrumbJsonLd([
+    { name: 'Home', path: '/' },
+    { name: meta.name, path: verticalHref(vertical) },
+    { name: formatDateLong(ref.date), path: editionHref(ref.date) },
+    { name: story.headline, path: ref.href },
+  ]),
+];
+
+function hostname(url: string): string {
+  try {
+    return new URL(url).hostname.replace(/^www\./, '');
+  } catch {
+    return url;
+  }
+}
+---
+
+<BaseLayout
+  title={story.headline}
+  description={story.dek ?? story.tldr[0]}
+  path={ref.href}
+  type="article"
+  image={`/og/${ref.slug}.svg`}
+  publishedTime={ref.generatedAt}
+  modifiedTime={ref.generatedAt}
+  jsonLd={jsonLd}
+  vertical={vertical}
+>
+  <nav class="sr-micro sr-story-crumbs" aria-label="Breadcrumb">
+    <a href="/">Home</a>
+    <span aria-hidden="true">/</span>
+    <a href={editionHref(ref.date)}>{formatDateLong(ref.date)}</a>
+    <span aria-hidden="true">/</span>
+    <a href={verticalHref(vertical)}>{meta.label}</a>
+  </nav>
+
+  <article class="sr-story">
+    <header class="sr-story__head">
+      <div class="sr-row__meta sr-micro">
+        <VerticalChip vertical={vertical} href={verticalHref(vertical)} />
+        <TypeBadge type={story.type} />
+        <span>{pluralize(sourceCount(story), 'source')}</span>
+        <span>·</span>
+        <span>{story.readMinutes} min</span>
+        <span>·</span>
+        <span>cluster {story.cluster.length}</span>
+        <span>·</span>
+        <span>updated {timeLabel(ref.generatedAt)} UTC</span>
+      </div>
+
+      <h1 style={`view-transition-name: story-${ref.slug}`}>{story.headline}</h1>
+      {story.dek && <p class="sr-story__dek">{story.dek}</p>}
+    </header>
+
+    <div class="sr-story__body">
+      <TldrList items={story.tldr} />
+
+      {
+        story.body.map((block) => (
+          <p>
+            {block.text}
+            <span class="sr-cites">
+              {block.citations.map((citationId) => {
+                const citation = sourcesById.get(citationId);
+                return citation ? <CitationChip citation={citation} /> : null;
+              })}
+            </span>
+          </p>
+        ))
+      }
+    </div>
+
+    <div class="sr-story__aside">
+      <WhyItMatters text={story.whyItMatters} />
+      <EditorNote text={story.editorNote} />
+    </div>
+
+    <div class="sr-story__footer">
+      <ClusterLinks links={story.cluster} />
+
+      <section class="sr-section" aria-labelledby="sources-heading">
+        <div class="sr-section__head">
+          <h2 class="sr-section__title" id="sources-heading">
+            Sources
+          </h2>
+          <span class="sr-micro">{pluralize(orderedSources.length, 'citation')} · external</span>
+        </div>
+        <ol>
+          {
+            orderedSources.map((source) => (
+              <li class="sr-source" id={`source-${source.id}`}>
+                <span class="sr-source__n">[{source.id}]</span>
+                <div>
+                  <a
+                    href={source.url}
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    aria-label={`Open ${source.source}${source.title ? `: ${source.title}` : ''} in a new tab`}
+                  >
+                    {source.title ?? hostname(source.url)}
+                    <span class="sr-ext" aria-hidden="true"> ↗</span>
+                  </a>
+                  <p class="sr-micro">
+                    {source.source}
+                    {source.publishedAt ? ` · ${source.publishedAt}` : ''} · {hostname(source.url)}
+                  </p>
+                </div>
+              </li>
+            ))
+          }
+        </ol>
+      </section>
+
+      <div class="sr-actions-inline sr-story__tags">
+        <span class="sr-micro">confidence: {CONFIDENCE_LABEL[story.confidence]}</span>
+        <span class="sr-micro" aria-hidden="true">·</span>
+        <span class="sr-micro">
+          {story.tags.map((tag) => <span class="sr-tag">{tag} </span>)}
+        </span>
+      </div>
+
+      <nav class="sr-pager sr-micro" aria-label="Story navigation">
+        <span>
+          {previous ? <a href={storyHref(previous.slug)}>← {previous.headline}</a> : 'First in edition'}
+        </span>
+        <span>
+          {following ? <a href={storyHref(following.slug)}>{following.headline} →</a> : (
+            <a href={editionHref(ref.date)}>Full edition →</a>
+          )}
+        </span>
+      </nav>
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .sr-story-crumbs {
+    display: flex;
+    gap: var(--sp-2);
+    padding-top: var(--sp-5);
+  }
+
+  .sr-story-crumbs a:hover {
+    color: var(--text);
+  }
+
+  .sr-story__tags {
+    margin-top: var(--sp-4);
+  }
+</style>

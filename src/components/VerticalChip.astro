@@ -1,0 +1,15 @@
+---
+import { VERTICAL_META, type Vertical } from '../lib/site';
+
+interface Props {
+  vertical: Vertical;
+  href?: string;
+  label?: string;
+}
+
+const { vertical, href, label } = Astro.props;
+const text = label ?? VERTICAL_META[vertical].label;
+const Tag = href ? 'a' : 'span';
+---
+
+<Tag class="sr-vchip" data-vertical={vertical} href={href}>{text}</Tag>

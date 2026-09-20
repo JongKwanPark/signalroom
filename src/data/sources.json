@@ -1,0 +1,130 @@
+{
+  "sources": [
+    {
+      "id": "reuters",
+      "name": "Reuters",
+      "url": "https://www.reuters.com/",
+      "kind": "wire",
+      "note": "Original reporting and cross-checks for all four verticals."
+    },
+    {
+      "id": "ap",
+      "name": "Associated Press",
+      "url": "https://apnews.com/",
+      "kind": "wire",
+      "note": "Wire confirmation and regional coverage."
+    },
+    {
+      "id": "ft",
+      "name": "Financial Times",
+      "url": "https://www.ft.com/",
+      "kind": "newsroom",
+      "note": "Markets, industrial policy and supply chains."
+    },
+    {
+      "id": "bloomberg",
+      "name": "Bloomberg",
+      "url": "https://www.bloomberg.com/",
+      "kind": "newsroom",
+      "note": "Rates, commodities and company filings coverage."
+    },
+    {
+      "id": "stat",
+      "name": "STAT News",
+      "url": "https://www.statnews.com/",
+      "kind": "newsroom",
+      "note": "Health and biotech reporting."
+    },
+    {
+      "id": "endpoints",
+      "name": "Endpoints News",
+      "url": "https://endpts.com/",
+      "kind": "newsroom",
+      "note": "Biopharma pipeline and commercial coverage."
+    },
+    {
+      "id": "federal-register",
+      "name": "Federal Register",
+      "url": "https://www.federalregister.gov/",
+      "kind": "primary-document",
+      "note": "Rules, notices and final agency text."
+    },
+    {
+      "id": "sec-edgar",
+      "name": "SEC EDGAR",
+      "url": "https://www.sec.gov/edgar/searchedgar/companysearch",
+      "kind": "primary-document",
+      "note": "Filings used for guidance and disclosure claims."
+    },
+    {
+      "id": "eia",
+      "name": "US Energy Information Administration",
+      "url": "https://www.eia.gov/",
+      "kind": "data",
+      "note": "Inventories, utilization and energy balances."
+    },
+    {
+      "id": "iea",
+      "name": "International Energy Agency",
+      "url": "https://www.iea.org/",
+      "kind": "data",
+      "note": "Commodity and energy market reports."
+    },
+    {
+      "id": "un",
+      "name": "United Nations",
+      "url": "https://www.un.org/",
+      "kind": "primary-document",
+      "note": "Statements, resolutions and readouts."
+    },
+    {
+      "id": "who",
+      "name": "World Health Organization",
+      "url": "https://www.who.int/",
+      "kind": "primary-document",
+      "note": "Health guidance and surveillance data."
+    },
+    {
+      "id": "nejm",
+      "name": "New England Journal of Medicine",
+      "url": "https://www.nejm.org/",
+      "kind": "journal",
+      "note": "Peer-reviewed trial results."
+    },
+    {
+      "id": "nature",
+      "name": "Nature",
+      "url": "https://www.nature.com/",
+      "kind": "journal",
+      "note": "Life and physical sciences research."
+    },
+    {
+      "id": "arxiv",
+      "name": "arXiv",
+      "url": "https://arxiv.org/",
+      "kind": "journal",
+      "note": "Preprints; labelled as non-peer-reviewed."
+    },
+    {
+      "id": "treasurydirect",
+      "name": "US TreasuryDirect",
+      "url": "https://www.treasurydirect.gov/",
+      "kind": "data",
+      "note": "Auction results and issuance data."
+    },
+    {
+      "id": "lloydslist",
+      "name": "Lloyd's List",
+      "url": "https://www.lloydslist.com/",
+      "kind": "newsroom",
+      "note": "Shipping, ports and maritime risk."
+    },
+    {
+      "id": "unctad",
+      "name": "UNCTAD",
+      "url": "https://unctad.org/",
+      "kind": "data",
+      "note": "Trade, shipping and throughput statistics."
+    }
+  ]
+}

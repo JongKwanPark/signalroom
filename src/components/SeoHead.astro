@@ -1,0 +1,50 @@
+---
+import { SITE } from '../lib/site';
+import { absoluteUrl, canonicalUrl, type JsonLd } from '../lib/seo';
+
+interface Props {
+  title: string;
+  description?: string;
+  path?: string;
+  type?: 'website' | 'article';
+  image?: string;
+  publishedTime?: string;
+  modifiedTime?: string;
+  jsonLd?: JsonLd | JsonLd[];
+  noindex?: boolean;
+}
+
+const {
+  title,
+  description = SITE.description,
+  path,
+  type = 'website',
+  image,
+  publishedTime,
+  modifiedTime,
+  jsonLd,
+  noindex = false,
+} = Astro.props;
+
+const canonical = canonicalUrl(path ?? Astro.url.pathname);
+const imageUrl = image ? absoluteUrl(image) : undefined;
+const blocks = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
+---
+
+<meta name="description" content={description} />
+<link rel="canonical" href={canonical} />
+{noindex && <meta name="robots" content="noindex" />}
+<meta property="og:site_name" content={SITE.name} />
+<meta property="og:locale" content={SITE.locale} />
+<meta property="og:type" content={type} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonical} />
+{imageUrl && <meta property="og:image" content={imageUrl} />}
+{publishedTime && <meta property="article:published_time" content={publishedTime} />}
+{modifiedTime && <meta property="article:modified_time" content={modifiedTime} />}
+<meta name="twitter:card" content={imageUrl ? 'summary_large_image' : 'summary'} />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+{imageUrl && <meta name="twitter:image" content={imageUrl} />}
+{blocks.map((block) => <script type="application/ld+json" set:html={JSON.stringify(block)} />)}

@@ -1,0 +1,63 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import VerticalChip from '../components/VerticalChip.astro';
+import { VERTICALS, VERTICAL_META } from '../lib/site';
+---
+
+<BaseLayout
+  title="Page not found"
+  description="That page does not exist on Signal Room. Jump back to today's cover, the archive, or a vertical feed."
+  path="/404"
+  noindex={true}
+>
+  <header class="sr-page-head">
+    <p class="sr-micro sr-micro--accent">404</p>
+    <h1>No signal on this channel.</h1>
+    <p class="sr-page-head__lede">
+      The page you asked for does not exist. It may have been an edition that was never published, a
+      story that was removed under the corrections policy, or a mistyped address.
+    </p>
+  </header>
+
+  <section class="sr-section" aria-labelledby="recover-heading">
+    <div class="sr-section__head">
+      <h2 class="sr-section__title" id="recover-heading">
+        Where to go instead
+      </h2>
+      <span class="sr-micro">Four verticals, one archive</span>
+    </div>
+    <div class="sr-index">
+      <article class="sr-row">
+        <a class="sr-row__link" href="/">
+          <span class="sr-row__meta sr-micro"><span>Start</span><span>· today’s cover</span></span>
+          <span class="sr-row__title">Today’s cover — bento, ranked index and a start-here pick</span>
+        </a>
+      </article>
+      <article class="sr-row">
+        <a class="sr-row__link" href="/archive">
+          <span class="sr-row__meta sr-micro"><span>Browse</span><span>· every edition</span></span>
+          <span class="sr-row__title">Archive by month and date</span>
+        </a>
+      </article>
+      <article class="sr-row">
+        <a class="sr-row__link" href="/search">
+          <span class="sr-row__meta sr-micro"><span>Find</span><span>· static index</span></span>
+          <span class="sr-row__title">Search every story</span>
+        </a>
+      </article>
+      {
+        VERTICALS.map((vertical) => (
+          <article class="sr-row">
+            <a class="sr-row__link" href={`/${vertical}`}>
+              <span class="sr-row__meta sr-micro">
+                <VerticalChip vertical={vertical} />
+                <span>· feed</span>
+              </span>
+              <span class="sr-row__title">{VERTICAL_META[vertical].name}</span>
+            </a>
+          </article>
+        ))
+      }
+    </div>
+  </section>
+</BaseLayout>

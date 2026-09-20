@@ -1,0 +1,196 @@
+{
+  "date": "2026-09-20",
+  "generatedAt": "2026-09-20T10:42:00Z",
+  "vertical": "markets",
+  "title": "Markets: duration repriced, refining margins spike, earnings breadth narrows",
+  "summary": "A soft long-end auction steepened the curve, an unusual cluster of refinery maintenance lifted product cracks in two regions, and index-level earnings growth held up even as the share of companies raising guidance fell again. Prices moved on supply mechanics and positioning more than on any change in the growth outlook.",
+  "stories": [
+    {
+      "slug": "duration-reprices-after-soft-auction",
+      "headline": "Duration reprices after a soft long-end auction",
+      "dek": "Tail metrics worsened and dealer takedown rose; the curve steepened into the close without a change in the policy path.",
+      "type": "DATA",
+      "readMinutes": 4,
+      "tldr": [
+        "The long-end auction cleared with a wider tail than the previous three sales and a higher dealer takedown.",
+        "The 10s30s spread widened by roughly 9 basis points on the day while the front end barely moved.",
+        "Rate expectations were unchanged, so the move is about duration absorption rather than the policy path."
+      ],
+      "body": [
+        {
+          "text": "A soft long-end auction did the damage. The sale cleared with a tail several basis points wider than the previous three auctions, and the dealer takedown rose, meaning primary dealers absorbed more of the issue than they had recently been asked to. Both are absorption metrics, and both deteriorated on the same sale.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "The curve did the rest. The long-end spread widened by roughly nine basis points on the day while the front end closed nearly unchanged, a steepening pattern that points at term premium rather than policy expectations. Futures-implied policy rates for the next two meetings moved by less than a basis point, which is the cleanest evidence that this was not a growth or inflation repricing.",
+          "citations": [2, 3]
+        }
+      ],
+      "whyItMatters": "When curve moves come from duration absorption rather than policy expectations, they carry information about who is willing to hold long-dated risk — and at what price. That matters for every borrower with a long maturity wall, not just for bond investors.",
+      "editorNote": "Auction tails are noisy and one sale is not a trend. We have reported the move alongside the policy-rate evidence so the driver is visible rather than asserted.",
+      "cluster": [
+        {
+          "url": "https://www.bloomberg.com/markets",
+          "source": "Bloomberg",
+          "title": "Long-end auction disappoints, curve steepens"
+        },
+        {
+          "url": "https://www.reuters.com/markets/rates-bonds/",
+          "source": "Reuters",
+          "title": "Term premium returns as the story, not rate cuts"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.treasurydirect.gov/auctions/",
+          "source": "US Treasury",
+          "title": "Auction results: long-end note and bond sales",
+          "publishedAt": "2026-09-19"
+        },
+        {
+          "id": 2,
+          "url": "https://www.bloomberg.com/markets",
+          "source": "Bloomberg",
+          "title": "Dealer takedown rises as auction tails widen",
+          "publishedAt": "2026-09-19"
+        },
+        {
+          "id": 3,
+          "url": "https://www.federalreserve.gov/data.htm",
+          "source": "Federal Reserve",
+          "title": "Term structure and policy expectations data",
+          "publishedAt": "2026-09-19"
+        }
+      ],
+      "tags": ["rates", "duration", "auctions", "curve"],
+      "confidence": "high"
+    },
+    {
+      "slug": "refining-margins-maintenance-cluster",
+      "headline": "Refining margins spike on an unusual maintenance cluster",
+      "dek": "Three planned turnarounds overlapping lifted product cracks in two regions, with the tightest effect in the middle distillate.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "Three refineries in the same region scheduled turnarounds within a six-week window, an unusually dense cluster.",
+        "Middle distillate cracks widened most; gasoline cracks moved less because seasonal demand is past its peak.",
+        "Scheduled restarts in three to five weeks set the horizon for the move to fade."
+      ],
+      "body": [
+        {
+          "text": "An unusually dense cluster of refinery turnarounds lifted product cracks in two regions this week. Three facilities in the same region scheduled maintenance within a six-week window, removing more distillate capacity simultaneously than the seasonal pattern would predict. Crack spreads widened most in the middle distillate, where inventories entered the period below their five-year average.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "The move should be self-limiting. Turnaround schedules published by the operators point to restarts in three to five weeks, and the physical constraint is the maintenance itself rather than a change in crude availability. Traders are watching whether the cluster prompts buyers to build precautionary inventory, which would extend the effect beyond the restarts.",
+          "citations": [2, 3]
+        }
+      ],
+      "whyItMatters": "Refining is where crude prices become consumer prices, and maintenance clusters are the most common source of short, sharp product squeezes. The duration of this one is knowable from the restart schedule; the risk is whether it triggers precautionary buying that outlives it.",
+      "editorNote": "Crack spreads are regional and product-specific, and our figures are indicative ranges rather than a single benchmark. The restart schedule is operator guidance and can slip.",
+      "cluster": [
+        {
+          "url": "https://www.reuters.com/markets/commodities/",
+          "source": "Reuters",
+          "title": "Distillate cracks widen as turnarounds cluster"
+        },
+        {
+          "url": "https://www.eia.gov/todayinenergy/",
+          "source": "EIA",
+          "title": "Inventories enter maintenance season below average"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.eia.gov/todayinenergy/",
+          "source": "EIA",
+          "title": "Refinery utilization and turnaround schedules",
+          "publishedAt": "2026-09-18"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reuters.com/markets/commodities/",
+          "source": "Reuters",
+          "title": "Overlapping turnarounds lift middle distillate cracks",
+          "publishedAt": "2026-09-19"
+        },
+        {
+          "id": 3,
+          "url": "https://www.iea.org/reports",
+          "source": "IEA",
+          "title": "Product markets: inventories and maintenance outlook",
+          "publishedAt": "2026-09-17"
+        }
+      ],
+      "tags": ["energy", "refining", "commodities", "supply"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "earnings-breadth-narrows-guidance",
+      "headline": "Earnings breadth narrows as guidance resets",
+      "dek": "Index-level growth held up, but the share of companies raising guidance fell for a third consecutive quarter.",
+      "type": "DEEP",
+      "readMinutes": 7,
+      "tldr": [
+        "Aggregate earnings growth was steady, but the share of companies raising full-year guidance fell for a third quarter.",
+        "The gap between aggregate growth and breadth is concentrated in a handful of large names.",
+        "Median company guidance implies a flat second half, below the index-level consensus."
+      ],
+      "body": [
+        {
+          "text": "Index-level earnings growth looked steady this quarter, but the distribution underneath it narrowed again. The share of companies raising full-year guidance fell for a third consecutive quarter, and the median company now guides to a roughly flat second half. The gap between the aggregate and the median is the widest in the current expansion.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "The divergence is concentrated. A small group of large names accounts for the bulk of aggregate growth, which means index-level multiples are being justified by a shrinking set of earnings streams. Strategists describe this as a quality-of-earnings issue rather than a demand problem: revenue trends are broadly intact, but cost guidance is being reset by companies that had assumed more operating leverage.",
+          "citations": [2, 3]
+        },
+        {
+          "text": "The practical consequence is that index-level expectations and median-company experience are no longer the same bet. When breadth narrows, the index can keep rising while the typical company's revisions turn negative — a regime that historically resolves either through catch-up or through a de-rating of the concentration premium.",
+          "citations": [1, 3]
+        }
+      ],
+      "whyItMatters": "Breadth is an early-warning indicator that index levels conceal. If the aggregate is being carried by a handful of names and the median company is guiding flat, then exposure to the index is not the same as exposure to the economy.",
+      "editorNote": "Guidance counts are sensitive to sample composition and to sector mix. We have reported the breadth change and the concentration, and left the causal claim with the strategists who made it.",
+      "cluster": [
+        {
+          "url": "https://www.ft.com/markets",
+          "source": "Financial Times",
+          "title": "Earnings breadth narrows for a third quarter"
+        },
+        {
+          "url": "https://www.wsj.com/finance",
+          "source": "Wall Street Journal",
+          "title": "Index growth masks a flat median outlook"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.sec.gov/edgar/searchedgar/companysearch",
+          "source": "SEC EDGAR",
+          "title": "Quarterly filings: guidance revisions",
+          "publishedAt": "2026-09-18"
+        },
+        {
+          "id": 2,
+          "url": "https://www.ft.com/markets",
+          "source": "Financial Times",
+          "title": "Breadth narrows as guidance resets concentrate in large caps",
+          "publishedAt": "2026-09-19"
+        },
+        {
+          "id": 3,
+          "url": "https://www.wsj.com/finance",
+          "source": "Wall Street Journal",
+          "title": "Median company guides flat while the index compounds",
+          "publishedAt": "2026-09-18"
+        }
+      ],
+      "tags": ["earnings", "breadth", "guidance", "equities"],
+      "confidence": "medium"
+    }
+  ]
+}

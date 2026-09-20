@@ -1,0 +1,39 @@
+---
+interface Props {
+  items: string[];
+  label?: string;
+  compact?: boolean;
+}
+
+const { items, label = 'TL;DR', compact = false } = Astro.props;
+---
+
+<div class:list={['sr-tldr', compact && 'sr-tldr--compact']}>
+  <p class="sr-micro sr-micro--accent sr-tldr__label">{label}</p>
+  <ol class="sr-tldr__list">
+    {
+      items.map((item, index) => (
+        <li>
+          <span class="sr-tldr__n" aria-hidden="true">{String(index + 1).padStart(2, '0')}</span>
+          <span>{item}</span>
+        </li>
+      ))
+    }
+  </ol>
+</div>
+
+<style>
+  .sr-tldr__label {
+    margin-bottom: var(--sp-2);
+  }
+
+  .sr-tldr__list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--sp-2);
+  }
+
+  .sr-tldr--compact :global(li) {
+    font-size: var(--fs-sm);
+  }
+</style>

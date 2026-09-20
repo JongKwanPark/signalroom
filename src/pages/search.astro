@@ -1,0 +1,53 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getStoryRefs } from '../lib/editions';
+
+const refs = await getStoryRefs();
+---
+
+<BaseLayout
+  title="Search"
+  description="Search every Signal Room story by headline, tag, vertical or date. The index is static and runs in your browser."
+  path="/search"
+  noindex={true}
+>
+  <header class="sr-page-head">
+    <p class="sr-micro sr-micro--accent">Search</p>
+    <h1>Find a story</h1>
+    <p class="sr-page-head__lede">
+      {refs.length} stories indexed across four verticals. Search runs entirely in your browser against a
+      static index — no query leaves this page.
+    </p>
+  </header>
+
+  <section class="sr-section" aria-labelledby="search-heading">
+    <h2 class="sr-visually-hidden" id="search-heading">Search stories</h2>
+
+    <form class="sr-search__field" role="search" action="/search" method="get">
+      <label class="sr-visually-hidden" for="q">Search stories</label>
+      <input
+        id="q"
+        name="q"
+        type="search"
+        data-search-input
+        placeholder="Try: chips, rates, trial, grid"
+        autocomplete="off"
+        spellcheck="false"
+      />
+      <button class="sr-btn" type="submit">Search</button>
+    </form>
+
+    <p class="sr-search__count sr-micro" data-search-count aria-live="polite"></p>
+    <ul data-search-results></ul>
+  </section>
+
+  <noscript>
+    <div class="sr-empty">
+      <p class="sr-micro sr-micro--text">JavaScript is off</p>
+      <p>
+        Search needs JavaScript to filter the static index. The <a href="/archive">archive</a> and
+        <a href="/rss.xml">RSS feed</a> cover the same stories.
+      </p>
+    </div>
+  </noscript>
+</BaseLayout>

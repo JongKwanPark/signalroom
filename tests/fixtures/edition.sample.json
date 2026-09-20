@@ -1,0 +1,47 @@
+{
+  "date": "2026-01-01",
+  "generatedAt": "2026-01-01T00:00:00Z",
+  "vertical": "ai",
+  "title": "Fixture edition",
+  "summary": "Minimal schema-valid edition used by fixture tests and content tooling. Not published.",
+  "stories": [
+    {
+      "slug": "fixture-story",
+      "headline": "Fixture story headline",
+      "dek": "Optional dek present so tooling exercises the optional field.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "First fixture takeaway.",
+        "Second fixture takeaway.",
+        "Third fixture takeaway."
+      ],
+      "body": [
+        {
+          "text": "A single body block that cites exactly one source, which must resolve to sources[].id.",
+          "citations": [1]
+        }
+      ],
+      "whyItMatters": "Fixture text explaining why the fixture matters.",
+      "editorNote": "Fixture editor note describing remaining uncertainty.",
+      "cluster": [
+        {
+          "url": "https://example.com/cluster-item",
+          "source": "Example Wire",
+          "title": "Example cluster item"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://example.com/primary-document",
+          "source": "Example Wire",
+          "title": "Example primary document",
+          "publishedAt": "2026-01-01"
+        }
+      ],
+      "tags": ["fixture", "schema"],
+      "confidence": "high"
+    }
+  ]
+}

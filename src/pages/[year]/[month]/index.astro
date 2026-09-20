@@ -1,0 +1,88 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import VerticalChip from '../../../components/VerticalChip.astro';
+import { dateEntries, editionHref, getEditions, monthEntries, monthHref } from '../../../lib/editions';
+import { VERTICAL_META, VERTICALS, type Vertical } from '../../../lib/site';
+import { formatDateLong, formatMonthYear, formatWeekday, pluralize } from '../../../lib/format';
+import { breadcrumbJsonLd } from '../../../lib/seo';
+
+export async function getStaticPaths() {
+  const editions = await getEditions();
+  return monthEntries(editions).map((entry) => ({
+    params: { year: entry.year, month: entry.month },
+  }));
+}
+
+const editions = await getEditions();
+const { year, month } = Astro.params;
+const label = formatMonthYear(year as string, month as string);
+const months = monthEntries(editions);
+const current = months.find((entry) => entry.year === year && entry.month === month);
+const entries = current?.dates ?? dateEntries(editions);
+const index = months.findIndex((entry) => entry.year === year && entry.month === month);
+const newer = index > 0 ? months[index - 1] : null;
+const older = index >= 0 && index < months.length - 1 ? months[index + 1] : null;
+const jsonLd = breadcrumbJsonLd([
+  { name: 'Home', path: '/' },
+  { name: 'Archive', path: '/archive' },
+  { name: label, path: `/${year}/${month}` },
+]);
+---
+
+<BaseLayout
+  title={label}
+  description={`Every Signal Room edition published in ${label}: ${pluralize(current?.storyCount ?? 0, 'story', 'stories')} across ${pluralize(entries.length, 'day')}.`}
+  path={`/${year}/${month}`}
+  jsonLd={jsonLd}
+>
+  <header class="sr-page-head">
+    <p class="sr-micro sr-micro--accent">Month index</p>
+    <h1>{label}</h1>
+    <p class="sr-page-head__lede">
+      {pluralize(entries.length, 'edition')} · {pluralize(current?.storyCount ?? 0, 'story', 'stories')}
+    </p>
+    <nav class="sr-pager sr-micro" aria-label="Month navigation">
+      <span>{older ? <a href={monthHref(`${older.year}-${older.month}-01`)}>← {formatMonthYear(older.year, older.month)}</a> : 'Oldest month'}</span>
+      <span>{newer ? <a href={monthHref(`${newer.year}-${newer.month}-01`)}>{formatMonthYear(newer.year, newer.month)} →</a> : 'Latest month'}</span>
+    </nav>
+  </header>
+
+  <section class="sr-section" aria-labelledby="dates-heading">
+    <div class="sr-section__head">
+      <h2 class="sr-section__title" id="dates-heading">Editions</h2>
+      <span class="sr-micro">Newest first</span>
+    </div>
+    <div class="sr-index">
+      {
+        entries.map((entry) => (
+          <article class="sr-row">
+            <a class="sr-row__link" href={editionHref(entry.date)} data-nav-item>
+              <span class="sr-row__meta sr-micro">
+                <span>{formatWeekday(entry.date)}</span>
+                <span>{formatDateLong(entry.date)}</span>
+                <span>· {pluralize(entry.storyCount, 'story', 'stories')}</span>
+                <span>· {pluralize(entry.sourceCount, 'source citation')}</span>
+              </span>
+              <span class="sr-row__title">
+                {entry.editions.map((edition) => edition.data.title).join(' / ')}
+              </span>
+            </a>
+            <span class="sr-row__aside sr-micro">
+              <span class="sr-actions-inline">
+                {entry.editions.map((edition) => (
+                  <VerticalChip vertical={edition.data.vertical as Vertical} />
+                ))}
+              </span>
+            </span>
+          </article>
+        ))
+      }
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .sr-row__aside {
+    text-align: right;
+  }
+</style>

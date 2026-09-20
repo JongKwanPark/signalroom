@@ -1,0 +1,29 @@
+---
+interface Props {
+  id?: string;
+}
+
+const { id = 'search-palette' } = Astro.props;
+---
+
+<dialog class="sr-palette" id={id} data-palette aria-label="Search Signal Room">
+  <div class="sr-palette__head">
+    <label class="sr-visually-hidden" for={`${id}-input`}>Search stories, tags and verticals</label>
+    <input
+      class="sr-palette__input"
+      id={`${id}-input`}
+      type="search"
+      data-palette-input
+      placeholder="Search stories, tags, verticals…"
+      autocomplete="off"
+      spellcheck="false"
+    />
+  </div>
+  <ul class="sr-palette__list" data-palette-results></ul>
+  <p class="sr-palette__empty sr-micro" data-palette-status aria-live="polite">Type to search</p>
+  <div class="sr-palette__foot sr-micro">
+    <span>↑↓ navigate</span>
+    <span>↵ open</span>
+    <span>esc close</span>
+  </div>
+</dialog>

@@ -1,0 +1,36 @@
+---
+import type { StorySource } from '../lib/editions';
+
+interface Props {
+  citation: StorySource;
+}
+
+const { citation } = Astro.props;
+
+function hostname(url: string): string {
+  try {
+    return new URL(url).hostname.replace(/^www\./, '');
+  } catch {
+    return url;
+  }
+}
+
+const host = hostname(citation.url);
+const preview = citation.title ?? citation.url;
+const label = `Source ${citation.id}: ${citation.source}${citation.title ? `, ${citation.title}` : `, ${host}`} (opens in a new tab)`;
+---
+
+<span class="sr-cite">
+  <a
+    class="sr-cite__chip"
+    href={citation.url}
+    target="_blank"
+    rel="noopener noreferrer nofollow"
+    aria-label={label}
+  >[{citation.id}]</a>
+  <span class="sr-cite__pop" aria-hidden="true">
+    <span class="sr-micro">{citation.source}{citation.publishedAt ? ` · ${citation.publishedAt}` : ''}</span>
+    <span>{preview}</span>
+    <span class="sr-micro sr-ext">↗ {host}</span>
+  </span>
+</span>

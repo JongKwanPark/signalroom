@@ -1,0 +1,89 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { groupSources, loadSourceRegistry } from '../lib/sources';
+import { breadcrumbJsonLd } from '../lib/seo';
+import { pluralize } from '../lib/format';
+
+const registry = loadSourceRegistry();
+const groups = groupSources(registry);
+const jsonLd = breadcrumbJsonLd([
+  { name: 'Home', path: '/' },
+  { name: 'Sources', path: '/sources' },
+]);
+
+function hostname(url: string): string {
+  try {
+    return new URL(url).hostname.replace(/^www\./, '');
+  } catch {
+    return url;
+  }
+}
+---
+
+<BaseLayout
+  title="Sources"
+  description="The registry of publications and datasets the Signal Room pipeline collects from."
+  path="/sources"
+  jsonLd={jsonLd}
+>
+  <header class="sr-page-head">
+    <p class="sr-micro sr-micro--accent">Sources</p>
+    <h1>Source registry</h1>
+    <p class="sr-page-head__lede">
+      {registry.length > 0
+        ? `${pluralize(registry.length, 'source')} in the collection registry, grouped by type. Only material from these sources can enter an edition, and every published item cites the specific document or report used.`
+        : 'The pipeline collects from a fixed registry of public sources. Every published item cites the specific document or report used.'}
+    </p>
+  </header>
+
+  {
+    registry.length === 0 ? (
+      <section class="sr-section">
+        <div class="sr-empty">
+          <p class="sr-micro sr-micro--text">No registry published</p>
+          <p>
+            The collection registry has not been written to <code>src/data/sources.json</code> yet.
+            Until it is, editions still cite every source inline — open any story and follow the
+            bracket links.
+          </p>
+          <div class="sr-empty__actions">
+            <a class="sr-btn" href="/archive">Browse editions</a>
+            <a class="sr-btn" href="/standards">Sourcing rules</a>
+          </div>
+        </div>
+      </section>
+    ) : (
+      groups.map((group) => (
+        <section class="sr-section" aria-labelledby={`kind-${group.kind}`}>
+          <div class="sr-section__head">
+            <h2 class="sr-section__title" id={`kind-${group.kind}`}>
+              {group.kind}
+            </h2>
+            <span class="sr-micro">{pluralize(group.entries.length, 'source')}</span>
+          </div>
+          <div class="sr-index">
+            {group.entries.map((entry) => (
+              <article class="sr-row">
+                <a
+                  class="sr-row__link"
+                  href={entry.url}
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  data-nav-item
+                >
+                  <span class="sr-row__meta sr-micro">
+                    <span>{entry.id}</span>
+                    <span>· {hostname(entry.url)}</span>
+                    <span>· external ↗</span>
+                  </span>
+                  <span class="sr-row__title">{entry.name}</span>
+                  {entry.note && <span class="sr-row__dek">{entry.note}</span>}
+                </a>
+              </article>
+            ))}
+          </div>
+        </section>
+      ))
+    )
+  }
+</BaseLayout>

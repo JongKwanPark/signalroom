@@ -1,0 +1,48 @@
+---
+import { SITE, VERTICALS, VERTICAL_META } from '../lib/site';
+import { getEditions, newestDate } from '../lib/editions';
+import { formatDateLong } from '../lib/format';
+
+const editions = await getEditions();
+const latest = newestDate(editions);
+const year = new Date().getUTCFullYear();
+---
+
+<footer class="sr-footer">
+  <div class="sr-container">
+    <div class="sr-footer__grid">
+      <div class="sr-stack-sm">
+        <p class="sr-micro sr-micro--text">{SITE.wordmark}</p>
+        <p>{SITE.tagline} Public, no login, no tracking.</p>
+        <p class="sr-micro">
+          AI-assisted drafts · editor-reviewed · primary sources cited inline · not advice
+        </p>
+      </div>
+
+      <nav class="sr-footer__links sr-micro" aria-label="Vertical feeds">
+        <span>Feeds</span>
+        {
+          VERTICALS.map((vertical) => (
+            <a href={`/${vertical}`}>{VERTICAL_META[vertical].label} — {VERTICAL_META[vertical].name}</a>
+          ))
+        }
+      </nav>
+
+      <nav class="sr-footer__links sr-micro" aria-label="Site">
+        <span>Site</span>
+        <a href="/archive">Archive</a>
+        <a href="/search">Search</a>
+        <a href="/sources">Sources</a>
+        <a href="/standards">Standards</a>
+        <a href="/about">About</a>
+        <a href="/rss.xml">RSS</a>
+      </nav>
+    </div>
+
+    <div class="sr-footer__bottom sr-micro">
+      <span>© {year} {SITE.name}</span>
+      <span>{latest ? `Latest edition ${formatDateLong(latest)}` : 'Awaiting first edition'}</span>
+      <span>Timezone: UTC</span>
+    </div>
+  </div>
+</footer>

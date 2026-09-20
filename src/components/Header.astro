@@ -1,0 +1,49 @@
+---
+import { SITE, VERTICALS, VERTICAL_META } from '../lib/site';
+
+const path = Astro.url.pathname.replace(/\/+$/, '') || '/';
+
+function isCurrent(href: string): boolean {
+  if (href === '/') return path === '/';
+  return path === href || path.startsWith(`${href}/`);
+}
+---
+
+<header class="sr-header">
+  <div class="sr-container sr-header__inner">
+    <a class="sr-wordmark" href="/" aria-label={`${SITE.name} home`}>{SITE.wordmark}</a>
+
+    <nav class="sr-nav" aria-label="Vertical feeds">
+      {
+        VERTICALS.map((vertical) => (
+          <a href={`/${vertical}`} aria-current={isCurrent(`/${vertical}`) ? 'page' : undefined}>
+            {VERTICAL_META[vertical].label}
+          </a>
+        ))
+      }
+      <a href="/archive" aria-current={isCurrent('/archive') ? 'page' : undefined}>Archive</a>
+    </nav>
+
+    <div class="sr-actions">
+      <button
+        class="sr-btn"
+        type="button"
+        data-search-open
+        aria-haspopup="dialog"
+        aria-keyshortcuts="Meta+K Control+K"
+      >
+        Search <kbd aria-hidden="true">⌘K</kbd>
+      </button>
+      <button class="sr-btn" type="button" data-theme-toggle>
+        <span data-theme-label>Theme</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<style>
+  [data-theme-toggle] {
+    min-width: 7.5ch;
+    justify-content: center;
+  }
+</style>

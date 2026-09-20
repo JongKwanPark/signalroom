@@ -1,0 +1,93 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import VerticalChip from '../components/VerticalChip.astro';
+import { dateEntries, editionHref, getEditions, monthEntries } from '../lib/editions';
+import { type Vertical } from '../lib/site';
+import { formatDateLong, formatMonthYear, formatWeekday, pluralize } from '../lib/format';
+import { breadcrumbJsonLd } from '../lib/seo';
+
+const editions = await getEditions();
+const months = monthEntries(editions);
+const totalStories = dateEntries(editions).reduce((total, entry) => total + entry.storyCount, 0);
+const jsonLd = breadcrumbJsonLd([
+  { name: 'Home', path: '/' },
+  { name: 'Archive', path: '/archive' },
+]);
+---
+
+<BaseLayout
+  title="Archive"
+  description={`Every Signal Room edition, newest first. ${pluralize(dateEntries(editions).length, 'day')} of coverage across AI, bio, geo and markets.`}
+  path="/archive"
+  jsonLd={jsonLd}
+>
+  <header class="sr-page-head">
+    <p class="sr-micro sr-micro--accent">Archive</p>
+    <h1>Every edition</h1>
+    <p class="sr-page-head__lede">
+      {pluralize(dateEntries(editions).length, 'day')} · {pluralize(months.length, 'month')} · {pluralize(totalStories, 'story', 'stories')}
+    </p>
+  </header>
+
+  {
+    months.length === 0 ? (
+      <section class="sr-section">
+        <div class="sr-empty">
+          <p class="sr-micro sr-micro--text">The archive is empty</p>
+          <p>
+            No editions have been published yet. Once the pipeline writes its first day, every
+            edition is listed here by month and date, with counts per vertical.
+          </p>
+          <div class="sr-empty__actions">
+            <a class="sr-btn" href="/">Today’s cover</a>
+            <a class="sr-btn" href="/standards">Editorial standards</a>
+          </div>
+        </div>
+      </section>
+    ) : (
+      months.map((month) => (
+        <section class="sr-section" aria-labelledby={`m-${month.year}-${month.month}`}>
+          <div class="sr-section__head">
+            <h2 class="sr-section__title" id={`m-${month.year}-${month.month}`}>
+              {formatMonthYear(month.year, month.month)}
+            </h2>
+            <span class="sr-micro">
+              {pluralize(month.dates.length, 'edition')} · {pluralize(month.storyCount, 'story', 'stories')} ·{' '}
+              <a href={`/${month.year}/${month.month}`}>month index →</a>
+            </span>
+          </div>
+          <div class="sr-index">
+            {month.dates.map((entry) => (
+              <article class="sr-row">
+                <a class="sr-row__link" href={editionHref(entry.date)} data-nav-item>
+                  <span class="sr-row__meta sr-micro">
+                    <span>{formatWeekday(entry.date)}</span>
+                    <span>{formatDateLong(entry.date)}</span>
+                    <span>· {pluralize(entry.storyCount, 'story', 'stories')}</span>
+                    <span>· {pluralize(entry.sourceCount, 'source citation')}</span>
+                  </span>
+                  <span class="sr-row__title">
+                    {entry.editions.map((edition) => edition.data.title).join(' / ')}
+                  </span>
+                </a>
+                <span class="sr-row__aside sr-micro">
+                  <span class="sr-actions-inline">
+                    {entry.editions.map((edition) => (
+                      <VerticalChip vertical={edition.data.vertical as Vertical} />
+                    ))}
+                  </span>
+                </span>
+              </article>
+            ))}
+          </div>
+        </section>
+      ))
+    )
+  }
+</BaseLayout>
+
+<style>
+  .sr-row__aside {
+    text-align: right;
+  }
+</style>

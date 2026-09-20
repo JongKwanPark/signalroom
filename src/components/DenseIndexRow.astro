@@ -1,0 +1,63 @@
+---
+import type { StoryRef } from '../lib/editions';
+import { sourceCount, timeLabel, verticalHref } from '../lib/editions';
+import { VERTICAL_META } from '../lib/site';
+import { formatDateShort, joinMeta, pluralize } from '../lib/format';
+import TypeBadge from './TypeBadge.astro';
+
+interface Props {
+  ref: StoryRef;
+  showDek?: boolean;
+  showDate?: boolean;
+  showType?: boolean;
+}
+
+const { ref, showDek = true, showDate = false, showType = true } = Astro.props;
+const { story, vertical } = ref;
+
+const meta = joinMeta([
+  timeLabel(ref.generatedAt),
+  pluralize(sourceCount(story), 'source'),
+  `${story.readMinutes} min`,
+  showDate ? formatDateShort(ref.date) : null,
+]);
+---
+
+<article class="sr-row" data-vertical={vertical}>
+  <a class="sr-row__link" href={ref.href} data-nav-item>
+    <span class="sr-row__meta sr-micro">
+      <span class="sr-vchip" data-vertical={vertical}>{VERTICAL_META[vertical].label}</span>
+      <span>{meta}</span>
+      {story.confidence !== 'high' && <span class="sr-tag">confidence: {story.confidence}</span>}
+    </span>
+    <span class="sr-row__title" style={`view-transition-name: story-${ref.slug}`}>{story.headline}</span>
+    {showDek && story.dek && <span class="sr-row__dek">{story.dek}</span>}
+  </a>
+  <span class="sr-row__aside sr-micro">
+    {showType && <TypeBadge type={story.type} />}
+    <a class="sr-row__vlink" href={verticalHref(vertical)} aria-label={`All ${VERTICAL_META[vertical].name} stories`}>
+      {VERTICAL_META[vertical].label} feed
+    </a>
+  </span>
+</article>
+
+<style>
+  .sr-row__aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: var(--sp-2);
+    text-align: right;
+  }
+
+  .sr-row__vlink {
+    color: var(--muted);
+    border-bottom: 1px solid transparent;
+  }
+
+  .sr-row__vlink:hover {
+    color: var(--text);
+    text-decoration: none;
+    border-bottom-color: var(--hairline-strong);
+  }
+</style>

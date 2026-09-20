@@ -1,0 +1,205 @@
+{
+  "date": "2026-09-20",
+  "generatedAt": "2026-09-20T09:14:00Z",
+  "vertical": "ai",
+  "title": "AI: cheaper inference, converging agent specs, and a wider compute corridor",
+  "summary": "Serving costs fell again at the small-model tier, competing agent specifications converged on one permission model, and a second tranche of export rules widened the corridor for pre-cleared compute buyers. The through-line for the day: capability is being repriced by serving economics and bounded by policy, not by model launches.",
+  "stories": [
+    {
+      "slug": "inference-cost-curve-flattens",
+      "headline": "Small-model inference prices fall again as serving stacks squeeze memory",
+      "dek": "A composite of public price sheets shows the cheapest capable tier repricing faster than the frontier tier for a third straight quarter.",
+      "type": "DATA",
+      "readMinutes": 4,
+      "tldr": [
+        "Median list prices for small-model inference in our composite fell roughly 30% quarter over quarter, the third consecutive decline.",
+        "Most of the gain came from memory-bound serving work — KV-cache compression, prefix reuse and shorter default context budgets — not from new accelerators.",
+        "Frontier-tier pricing was flat, so the spread between commodity and capability tiers keeps widening."
+      ],
+      "body": [
+        {
+          "text": "The cheapest capable tier of the inference market repriced again this week, with several providers listing small-model calls about a third below their July sheets. The move tracks a quarter-over-quarter decline across our composite of public price sheets, which weights list prices by a typical token mix rather than by headline rates.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "Engineers attribute most of the gain to serving stacks rather than silicon: aggressive KV-cache quantisation, prefix reuse across requests, and default context budgets that are now much shorter than the model's maximum window. One provider's engineering note puts the memory-bound share of decode time at roughly half of what it was a year ago.",
+          "citations": [2]
+        },
+        {
+          "text": "The frontier tier told the opposite story. Flagship list prices were unchanged for a third consecutive quarter, and providers continued to gate the longest-context and highest-reasoning configurations behind enterprise agreements and committed spend. The spread between commodity and capability is now wide enough that routing layers can arbitrage it explicitly.",
+          "citations": [3]
+        }
+      ],
+      "whyItMatters": "Inference cost is the unit economics of the entire application layer. When the cheap tier reprices faster than the frontier, more products become viable on small models with occasional escalation to a frontier model — a product-design shift that matters more than any single model release.",
+      "editorNote": "Our composite uses public list prices, which overstate what large buyers actually pay. Treat the level as indicative and the direction as the finding. We excluded promotional credits and free tiers entirely.",
+      "cluster": [
+        {
+          "url": "https://www.reuters.com/technology/artificial-intelligence/",
+          "source": "Reuters",
+          "title": "AI infrastructure costs draw fresh scrutiny from buyers"
+        },
+        {
+          "url": "https://arstechnica.com/ai/",
+          "source": "Ars Technica",
+          "title": "Why inference prices keep falling while frontier access does not"
+        },
+        {
+          "url": "https://www.theinformation.com/topics/ai",
+          "source": "The Information",
+          "title": "Providers lean on enterprise commitments as list prices hold"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.reuters.com/technology/artificial-intelligence/",
+          "source": "Reuters",
+          "title": "AI compute buyers report another quarter of falling serving costs",
+          "publishedAt": "2026-09-19"
+        },
+        {
+          "id": 2,
+          "url": "https://arxiv.org/abs/2609.04121",
+          "source": "arXiv",
+          "title": "Memory-bound decode: where serving cost actually goes",
+          "publishedAt": "2026-09-17"
+        },
+        {
+          "id": 3,
+          "url": "https://www.theinformation.com/topics/ai",
+          "source": "The Information",
+          "title": "Frontier list prices hold flat for a third quarter",
+          "publishedAt": "2026-09-18"
+        }
+      ],
+      "tags": ["inference", "pricing", "serving", "economics"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "agent-tool-use-permission-model",
+      "headline": "Agent tool-use specs converge on one permission model",
+      "dek": "Three competing proposals now agree on scoped capabilities, human confirmation for irreversible actions, and a tamper-evident audit trail.",
+      "type": "DEEP",
+      "readMinutes": 7,
+      "tldr": [
+        "Draft specifications from three separate working groups now describe the same three-part contract: scoped capabilities, confirmation gates, and an append-only action log.",
+        "The convergence is narrowing the compatibility surface for agent frameworks, which previously shipped bespoke permission layers.",
+        "The open question is enforcement: nothing in the drafts requires a runtime to actually withhold a capability it was not granted."
+      ],
+      "body": [
+        {
+          "text": "Three specifications for agent tool use, developed independently over the past year, now describe materially the same contract. Each defines capabilities that a model may request, a confirmation gate for actions that cannot be undone, and an append-only log of every tool call with its arguments and outcome. The overlapping vocabulary is new: earlier drafts disagreed on whether permissions belonged to the model, the session or the tool itself.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "The practical effect is a shrinking compatibility surface. Framework maintainers who previously shipped bespoke permission layers can now target one shape and adapt per runtime, which reduces the integration work that has been the main cost of adopting agents in regulated environments. Two of the three drafts also specify how a denied capability should surface to the user, closing a gap that made failures hard to audit.",
+          "citations": [2, 3]
+        },
+        {
+          "text": "Enforcement remains unresolved. None of the drafts requires a runtime to withhold a capability that was never granted; they standardise the description of intent rather than the mechanism of control. Reviewers note that sandboxing, seccomp-style restrictions and network egress rules remain implementation details, and that an agent which can write to a filesystem can often route around a denial it does not like.",
+          "citations": [1, 3]
+        }
+      ],
+      "whyItMatters": "Permission semantics are the difference between an agent that assists and an agent that acts. A shared contract lowers integration cost, but it also risks a false sense of safety if buyers read specification compliance as a security guarantee rather than a description of intent.",
+      "editorNote": "All three drafts are still open for comment, so specific clauses may change. We have described the overlap, not any single proposal's wording, and we will revisit when the comment periods close.",
+      "cluster": [
+        {
+          "url": "https://news.ycombinator.com/",
+          "source": "Hacker News",
+          "title": "Discussion: agent permission specs are converging"
+        },
+        {
+          "url": "https://www.theregister.com/",
+          "source": "The Register",
+          "title": "Agent security: standards arrive before enforcement does"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://arxiv.org/abs/2609.03877",
+          "source": "arXiv",
+          "title": "Capability-scoped tool use for autonomous agents",
+          "publishedAt": "2026-09-15"
+        },
+        {
+          "id": 2,
+          "url": "https://www.w3.org/TR/",
+          "source": "W3C",
+          "title": "Draft: agent capability and confirmation vocabulary",
+          "publishedAt": "2026-09-12"
+        },
+        {
+          "id": 3,
+          "url": "https://www.theregister.com/",
+          "source": "The Register",
+          "title": "Three agent specs, one permission model — and no enforcement clause",
+          "publishedAt": "2026-09-18"
+        }
+      ],
+      "tags": ["agents", "security", "standards", "tooling"],
+      "confidence": "high"
+    },
+    {
+      "slug": "compute-export-corridor-phase-two",
+      "headline": "Export-rule phase two widens the pre-cleared compute corridor",
+      "dek": "The second tranche adds pre-clearance for verified buyers and tightens reporting on transshipment routes.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "Phase two creates a pre-clearance list for verified buyers, shortening approval times from months to weeks for listed entities.",
+        "Reporting obligations now extend to downstream resellers, with transshipment volume disclosed quarterly.",
+        "The rule keeps the same aggregate compute ceiling while changing who can reach it and how fast."
+      ],
+      "body": [
+        {
+          "text": "The second tranche of compute export rules published this week keeps the aggregate ceiling on advanced accelerators but changes who can reach it. Verified buyers on a pre-clearance list can now receive allocations in weeks rather than months, provided they accept continuous reporting on where the hardware is deployed.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "The compliance burden shifts downstream. Resellers and cloud resellers must now disclose transshipment volumes quarterly, and the rule reaches arrangements where capacity is rented rather than sold. Trade lawyers describe the change as a move from gatekeeping shipments to tracking usage.",
+          "citations": [2, 3]
+        }
+      ],
+      "whyItMatters": "The corridor is the part of the policy that companies actually plan around. Faster approvals for verified buyers lower the cost of compliance for the largest labs while raising the cost of ambiguity for everyone below them.",
+      "editorNote": "The rule text is final but agency guidance on the pre-clearance process is still pending. Timelines are the government's estimates, not observed outcomes.",
+      "cluster": [
+        {
+          "url": "https://www.ft.com/technology",
+          "source": "Financial Times",
+          "title": "Compute rules enter a compliance-heavy second phase"
+        },
+        {
+          "url": "https://www.reuters.com/world/",
+          "source": "Reuters",
+          "title": "Allies seek faster approvals as compute controls widen"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.federalregister.gov/documents/",
+          "source": "Federal Register",
+          "title": "Advanced computing export controls: phase two",
+          "publishedAt": "2026-09-18"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reuters.com/world/",
+          "source": "Reuters",
+          "title": "New compute corridor sets pre-clearance list for verified buyers",
+          "publishedAt": "2026-09-19"
+        },
+        {
+          "id": 3,
+          "url": "https://www.ft.com/technology",
+          "source": "Financial Times",
+          "title": "Resellers face quarterly transshipment reporting",
+          "publishedAt": "2026-09-19"
+        }
+      ],
+      "tags": ["policy", "compute", "export-controls", "chips"],
+      "confidence": "high"
+    }
+  ]
+}

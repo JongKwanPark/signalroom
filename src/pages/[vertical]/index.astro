@@ -1,0 +1,104 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import StoryCard from '../../components/StoryCard.astro';
+import TimelineView from '../../components/TimelineView.astro';
+import {
+  allStoryRefs,
+  bySignal,
+  editionsForVertical,
+  getEditions,
+} from '../../lib/editions';
+import { VERTICALS, VERTICAL_META, isVertical, type Vertical } from '../../lib/site';
+import { pluralize } from '../../lib/format';
+import { itemListJsonLd } from '../../lib/seo';
+
+export function getStaticPaths() {
+  return VERTICALS.map((vertical) => ({ params: { vertical } }));
+}
+
+const { vertical: verticalParam } = Astro.params;
+if (!verticalParam || !isVertical(verticalParam)) {
+  throw new Error(`Unknown vertical: ${verticalParam}`);
+}
+const vertical: Vertical = verticalParam;
+const meta = VERTICAL_META[vertical];
+
+const editions = await getEditions();
+const verticalEditions = editionsForVertical(editions, vertical);
+const refs = allStoryRefs(verticalEditions);
+const newestDate = verticalEditions[0]?.data.date;
+const newestRefs = refs.filter((ref) => ref.date === newestDate);
+const lead = [...newestRefs].sort(bySignal)[0];
+const rest = lead ? refs.filter((ref) => ref.slug !== lead.slug) : refs;
+
+const totalSources = refs.reduce((total, ref) => total + ref.story.sources.length, 0);
+const dates = new Set(refs.map((ref) => ref.date));
+
+const jsonLd =
+  refs.length > 0 ? [itemListJsonLd(refs.slice(0, 25), `${meta.name} — Signal Room`)] : [];
+---
+
+<BaseLayout
+  title={`${meta.label} — ${meta.name}`}
+  description={`${meta.blurb} Daily, sourced and editor-reviewed.`}
+  path={`/${vertical}`}
+  vertical={vertical}
+  jsonLd={jsonLd}
+>
+  <header class="sr-page-head">
+    <p class="sr-micro sr-micro--accent">{meta.label} feed</p>
+    <h1>{meta.name}</h1>
+    <p class="sr-page-head__lede">{meta.blurb}</p>
+    <div class="sr-cover__stats sr-micro">
+      <span>{pluralize(refs.length, 'story', 'stories')}</span>
+      <span>{pluralize(totalSources, 'source citation')}</span>
+      <span>{pluralize(dates.size, 'edition')}</span>
+      <span>
+        Default view: {meta.defaultView === 'timeline' ? 'timeline rail' : 'dense list'}
+      </span>
+      <span>Toggle any time</span>
+    </div>
+  </header>
+
+  {
+    refs.length === 0 ? (
+      <section class="sr-section">
+        <div class="sr-empty">
+          <p class="sr-micro sr-micro--text">No {meta.label} stories yet</p>
+          <p>
+            This feed fills as soon as the first {meta.name} edition publishes. All other verticals
+            update on the same daily cadence.
+          </p>
+          <div class="sr-empty__actions">
+            <a class="sr-btn" href="/archive">Archive</a>
+            <a class="sr-btn" href="/">Today’s cover</a>
+          </div>
+        </div>
+      </section>
+    ) : (
+      <>
+        {lead && (
+          <section class="sr-section" aria-labelledby="lead-heading">
+            <div class="sr-section__head">
+              <h2 class="sr-section__title" id="lead-heading">
+                Lead
+              </h2>
+              <span class="sr-micro">Widest cluster coverage in this feed</span>
+            </div>
+            <StoryCard ref={lead} showTldr={true} />
+          </section>
+        )}
+
+        <section class="sr-section" aria-labelledby="feed-heading">
+          <div class="sr-section__head">
+            <h2 class="sr-section__title" id="feed-heading">
+              {meta.label} timeline
+            </h2>
+            <span class="sr-micro">Newest first · UTC</span>
+          </div>
+          <TimelineView refs={rest} vertical={vertical} defaultView={meta.defaultView} />
+        </section>
+      </>
+    )
+  }
+</BaseLayout>

@@ -1,0 +1,201 @@
+{
+  "date": "2026-09-20",
+  "generatedAt": "2026-09-20T10:05:00Z",
+  "vertical": "geo",
+  "title": "Geo: chokepoint insurance, a minerals communiqué, and narrow talks",
+  "summary": "War-risk premiums at a key maritime chokepoint roughly doubled while observed transits fell by less, a summit communiqué shifted from trade facilitation to processing capacity and stockpiles, and border delegations resumed talks with a deliberately technical agenda. Insurance and language are both moving faster than physical flows.",
+  "stories": [
+    {
+      "slug": "strait-transit-insurance-reprices",
+      "headline": "Transit insurance reprices as strait traffic slows",
+      "dek": "War-risk premiums roughly doubled while observed transits fell by about a fifth — the two are moving at different speeds.",
+      "type": "DATA",
+      "readMinutes": 4,
+      "tldr": [
+        "War-risk premiums for the chokepoint roughly doubled over three weeks, according to broker quotes.",
+        "Observed transit counts fell about 20%, so the premium move is pricing uncertainty rather than an equivalent fall in traffic.",
+        "Diversion capacity is limited: the alternate route adds days and is already absorbing rerouted volume."
+      ],
+      "body": [
+        {
+          "text": "War-risk premiums for transits through the chokepoint have roughly doubled over three weeks, based on indicative broker quotes for standard hull and cargo cover. The move is faster than the observable change in traffic: satellite-based transit counts are down about a fifth over the same period, not the 50% that a proportional repricing would imply.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "Underwriters describe the gap as uncertainty pricing rather than a mechanical response to volume. When the probability distribution around an event widens, quotes move before flows do; the reverse is also true, and premiums historically fall faster than traffic recovers. Shipowners, meanwhile, are weighing diversion costs against insurance costs, and the alternate route already carries congestion from earlier rerouting.",
+          "citations": [2, 3]
+        }
+      ],
+      "whyItMatters": "Insurance is the fastest-moving price signal in maritime security, and it reaches cargo owners long before any official assessment does. A premium-traffic divergence is the clearest warning that the market expects more disruption than is currently visible.",
+      "editorNote": "Broker quotes are indicative and vary widely by vessel flag, cargo and route. We report the direction and the divergence, not a single trader's number as the market rate.",
+      "cluster": [
+        {
+          "url": "https://www.lloydslist.com/",
+          "source": "Lloyd's List",
+          "title": "War-risk premiums widen ahead of physical disruption"
+        },
+        {
+          "url": "https://www.reuters.com/world/",
+          "source": "Reuters",
+          "title": "Shipping reroutes as insurers reassess chokepoint risk"
+        },
+        {
+          "url": "https://www.economist.com/",
+          "source": "The Economist",
+          "title": "Why shipping insurance moves first"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.lloydslist.com/",
+          "source": "Lloyd's List",
+          "title": "War-risk quotes double for strait transits",
+          "publishedAt": "2026-09-18"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reuters.com/world/",
+          "source": "Reuters",
+          "title": "Transit counts fall less than premiums imply",
+          "publishedAt": "2026-09-19"
+        },
+        {
+          "id": 3,
+          "url": "https://unctad.org/statistics",
+          "source": "UNCTAD",
+          "title": "Container throughput and rerouting indicators",
+          "publishedAt": "2026-09-15"
+        }
+      ],
+      "tags": ["shipping", "insurance", "chokepoints", "risk"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "summit-communique-critical-minerals",
+      "headline": "Summit communiqué puts critical minerals at the center",
+      "dek": "Language on processing capacity and strategic stockpiles replaced the usual trade-facilitation boilerplate.",
+      "type": "DEEP",
+      "readMinutes": 8,
+      "tldr": [
+        "The communiqué commits signatories to coordinate processing capacity targets and share stockpile data for a defined list of minerals.",
+        "Trade facilitation language was downgraded to an annex, a shift from the previous two summits.",
+        "There is no binding mechanism: targets are indicative and reporting is voluntary, with a review in 18 months."
+      ],
+      "body": [
+        {
+          "text": "The final communiqué from this week's summit reorganised its priorities around critical minerals. Where previous statements led with trade facilitation, this text leads with processing capacity targets and a commitment to share strategic stockpile data for a defined list of minerals. Trade facilitation survives, but as an annex rather than a headline commitment.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "Delegates describe the shift as a response to two years of bottleneck experience: extraction capacity has grown faster than processing capacity in several categories, and the gap is where price spikes originate. Sharing stockpile data is intended to reduce the risk that several governments buy the same material simultaneously and mistake their own demand for a shortage.",
+          "citations": [2, 3]
+        },
+        {
+          "text": "The mechanism is deliberately soft. Targets are indicative, reporting is voluntary, and the only enforcement is a public review in 18 months. Officials argue that a binding instrument was not negotiable in the time available and that a reviewable commitment is worth more than a vetoed treaty. Critics note that the previous summit's voluntary targets were missed without consequence.",
+          "citations": [1, 3]
+        }
+      ],
+      "whyItMatters": "Processing capacity is the constraint that turns a minerals story into an industrial policy story, and stockpile data sharing is the closest thing to an early-warning system for coordinated buying. The absence of binding terms means the next real test is whether the 18-month review has anything to review.",
+      "editorNote": "Communiqué language is a commitment device, not an outcome. We have quoted what the text obliges signatories to do, and nothing about what they have done so far.",
+      "cluster": [
+        {
+          "url": "https://www.ft.com/world",
+          "source": "Financial Times",
+          "title": "Minerals move to the centre of the summit agenda"
+        },
+        {
+          "url": "https://www.reuters.com/markets/commodities/",
+          "source": "Reuters",
+          "title": "Voluntary targets and stockpile data sharing agreed"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.gov.uk/government/publications",
+          "source": "UK Government",
+          "title": "Summit communiqué: critical minerals annex",
+          "publishedAt": "2026-09-19"
+        },
+        {
+          "id": 2,
+          "url": "https://www.ft.com/world",
+          "source": "Financial Times",
+          "title": "Summit shifts from trade facilitation to processing capacity",
+          "publishedAt": "2026-09-19"
+        },
+        {
+          "id": 3,
+          "url": "https://www.iea.org/reports",
+          "source": "IEA",
+          "title": "Processing capacity gaps in critical minerals",
+          "publishedAt": "2026-09-10"
+        }
+      ],
+      "tags": ["critical-minerals", "supply-chains", "summit", "industrial-policy"],
+      "confidence": "high"
+    },
+    {
+      "slug": "border-talks-resume-narrow-agenda",
+      "headline": "Border talks resume with a deliberately narrow agenda",
+      "dek": "Delegations returned with three technical items and no political declaration attached.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "Talks resumed after a five-month pause on a three-item agenda: crossings, detainee exchanges and monitoring access.",
+        "Both delegations described the meeting as technical, and neither attached a political declaration.",
+        "A monitoring mechanism remains the hinge: without agreed access, the other two items cannot be verified."
+      ],
+      "body": [
+        {
+          "text": "Delegations resumed talks after a five-month pause, with a deliberately narrow agenda of three technical items: crossing procedures, detainee exchanges and monitoring access. Both sides characterised the session as technical and neither attached a political declaration, a framing that officials on both sides said was a condition for restarting at all.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "Monitoring access is the procedural hinge. Without an agreed mechanism to observe and verify, the other two items cannot be confirmed by either side, and previous rounds broke down precisely over verification. Mediators described the current round as a test of whether a monitoring annex can be agreed in isolation from the wider dispute.",
+          "citations": [2, 3]
+        }
+      ],
+      "whyItMatters": "A narrow agenda is not a small step so much as a procedural test: if verification can be agreed in isolation, other technical items become tractable. If it cannot, the process will stall at the same point as the last three rounds.",
+      "editorNote": "Both delegations briefed the talks on condition of limited attribution, and no joint statement was issued. Our account relies on those briefings plus the mediators' readout.",
+      "cluster": [
+        {
+          "url": "https://www.reuters.com/world/",
+          "source": "Reuters",
+          "title": "Border talks resume with technical agenda"
+        },
+        {
+          "url": "https://www.aljazeera.com/",
+          "source": "Al Jazeera",
+          "title": "Verification remains the sticking point in resumed talks"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.un.org/press/en",
+          "source": "United Nations",
+          "title": "Statement on the resumption of talks",
+          "publishedAt": "2026-09-19"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reuters.com/world/",
+          "source": "Reuters",
+          "title": "Technical round restarts with three items on the table",
+          "publishedAt": "2026-09-19"
+        },
+        {
+          "id": 3,
+          "url": "https://www.aljazeera.com/",
+          "source": "Al Jazeera",
+          "title": "Monitoring access is the hinge for the resumed round",
+          "publishedAt": "2026-09-20"
+        }
+      ],
+      "tags": ["diplomacy", "borders", "monitoring", "negotiations"],
+      "confidence": "medium"
+    }
+  ]
+}

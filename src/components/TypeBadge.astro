@@ -1,0 +1,16 @@
+---
+import type { Story } from '../lib/editions';
+
+interface Props {
+  type: Story['type'];
+}
+
+const { type } = Astro.props;
+const HINTS: Record<Story['type'], string> = {
+  BRIEF: 'Brief — a fast read on one development',
+  DEEP: 'Deep — analysis with more reporting',
+  DATA: 'Data — numbers-led item',
+};
+---
+
+<span class="sr-badge" data-type={type} title={HINTS[type]}>{type}</span>

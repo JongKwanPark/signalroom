@@ -1,0 +1,13 @@
+---
+interface Props {
+  text: string;
+  title?: string;
+}
+
+const { text, title = "Editor's note" } = Astro.props;
+---
+
+<section class="sr-callout sr-callout--note" aria-label={title}>
+  <p class="sr-micro">{title}</p>
+  <p>{text}</p>
+</section>

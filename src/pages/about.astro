@@ -1,0 +1,99 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SITE } from '../lib/site';
+import { websiteJsonLd } from '../lib/seo';
+
+const jsonLd = websiteJsonLd();
+---
+
+<BaseLayout
+  title="About"
+  description="What Signal Room is, how to read it, and what it deliberately does not do."
+  path="/about"
+  jsonLd={jsonLd}
+>
+  <header class="sr-page-head">
+    <p class="sr-micro sr-micro--accent">About</p>
+    <h1>One page a day, four verticals, primary sources.</h1>
+    <p class="sr-page-head__lede">
+      Signal Room is a public daily digest. It exists to answer a narrow question well: what actually
+      moved in AI, bio, geopolitics and markets — and where is that claim coming from?
+    </p>
+  </header>
+
+  <div class="sr-prose">
+    <h2>How to read the digest</h2>
+    <p>
+      Each day publishes up to four vertical editions (AI, bio, geo, markets). Every story carries a
+      three-line <strong>TL;DR</strong>, a short <strong>Why it matters</strong> framing, an{' '}
+      <strong>editor’s note</strong> on what is still uncertain, and a list of{' '}
+      <strong>sources</strong>. Numbers in square brackets in the body link straight to the
+      underlying source.
+    </p>
+    <ul>
+      <li>
+        <strong>BRIEF</strong> — a fast read on one development.
+      </li>
+      <li>
+        <strong>DEEP</strong> — analysis with more reporting and context.
+      </li>
+      <li>
+        <strong>DATA</strong> — a numbers-led item, usually with a chart-friendly figure.
+      </li>
+      <li>
+        <strong>Cluster coverage</strong> — other outlets reporting the same story, so you can compare
+        framing rather than trust a single summary.
+      </li>
+      <li>
+        <strong>Confidence</strong> — <em>high</em> means multiple independent primary sources agree;{' '}
+        <em>medium</em> means the claim is credible but thin; <em>low</em> means it is developing and
+        should be treated as provisional.
+      </li>
+    </ul>
+
+    <h2>What it is not</h2>
+    <ul>
+      <li>Not investment, medical or legal advice. Nothing here is a recommendation.</li>
+      <li>Not a login product. There are no accounts, no paywall and no email capture.</li>
+      <li>Not a tracking surface. No analytics scripts, no third-party embeds, no ad tech.</li>
+      <li>Not a replacement for primary reporting. Every item links out to the people who did the work.</li>
+    </ul>
+
+    <h2>How it is produced</h2>
+    <p>
+      A collection pipeline gathers candidate items from a fixed registry of public sources. An AI
+      model drafts a structured summary — headlines, TL;DRs, body blocks, tags and citation links. An
+      editor then reviews, edits, and either approves or rejects each item before it appears here.
+      The full rules live in <a href="/standards">editorial standards</a>.
+    </p>
+
+    <h2>How it is built</h2>
+    <p>
+      A static Astro site. Content ships as JSON, pages are generated at build time, and the only
+      client-side JavaScript covers the command palette, keyboard navigation and the light/dark
+      theme. The full text of every page is in the HTML.
+    </p>
+
+    <h2>Archive and syndication</h2>
+    <ul>
+      <li>
+        <a href="/archive">Archive</a> — every edition by month and date.
+      </li>
+      <li>
+        <a href="/rss.xml">RSS</a> — all stories, newest first.
+      </li>
+      <li>
+        <a href="/llms.txt">/llms.txt</a> — machine-readable summary for language models.
+      </li>
+      <li>
+        <a href="/sources">Sources</a> — the registry the pipeline collects from.
+      </li>
+    </ul>
+
+    <h2>Contact</h2>
+    <p>
+      Signal Room is published at <a href={SITE.url}>{SITE.url.replace(/^https?:\/\//, '')}</a>. For
+      corrections, see <a href="/standards">standards</a>.
+    </p>
+  </div>
+</BaseLayout>

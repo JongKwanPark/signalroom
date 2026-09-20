@@ -1,14 +1,228 @@
 ---
-const title = 'Signal Room';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import DenseIndexRow from '../components/DenseIndexRow.astro';
+import TldrList from '../components/TldrList.astro';
+import VerticalChip from '../components/VerticalChip.astro';
+import TypeBadge from '../components/TypeBadge.astro';
+import {
+  allStoryRefs,
+  bySignal,
+  editionsOnDate,
+  getEditions,
+  newestDate,
+  refsOnDate,
+  editionHref,
+  sourceCount,
+  timeLabel,
+  verticalHref,
+} from '../lib/editions';
+import { HOME_INDEX_CAP, SITE, VERTICALS, VERTICAL_META } from '../lib/site';
+import { formatDateLong, joinMeta, pluralize } from '../lib/format';
+import { itemListJsonLd, websiteJsonLd } from '../lib/seo';
+
+const editions = await getEditions();
+const refs = allStoryRefs(editions);
+const latest = newestDate(editions);
+const todayRefs = latest ? refsOnDate(refs, latest) : [];
+const ranked = [...todayRefs].sort(bySignal);
+const startHere = ranked[0];
+const indexRows = ranked.slice(0, HOME_INDEX_CAP);
+const todaysEditions = latest ? editionsOnDate(editions, latest) : [];
+
+const tiles = VERTICALS.map((vertical) => {
+  const dayRefs = todayRefs.filter((ref) => ref.vertical === vertical);
+  const top = [...dayRefs].sort(bySignal)[0];
+  return { vertical, top, count: dayRefs.length };
+});
+
+const totalSources = todayRefs.reduce((total, ref) => total + ref.story.sources.length, 0);
+const jsonLd = [
+  websiteJsonLd(),
+  ...(indexRows.length > 0
+    ? [itemListJsonLd(indexRows, `Signal Room — ${latest ?? ''} top stories`.trim())]
+    : []),
+];
+
+const pageTitle = latest ? `Signal, ${formatDateLong(latest)}` : SITE.name;
 ---
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{title}</title>
-  </head>
-  <body>
-    <h1>{title}</h1>
-  </body>
-</html>
+
+<BaseLayout
+  title={latest ? pageTitle : SITE.name}
+  description={SITE.description}
+  path="/"
+  jsonLd={jsonLd}
+>
+  {
+    editions.length === 0 ? (
+      <section class="sr-cover">
+        <p class="sr-micro sr-cover__date">Daily digest · No login</p>
+        <h1>Nothing published yet.</h1>
+        <p class="sr-cover__lede">
+          Signal Room has no editions in the archive yet. The digest publishes four verticals — AI,
+          bio, geo and markets — as soon as the collection pipeline produces its first day.
+        </p>
+        <div class="sr-empty" style="margin-top: var(--sp-6)">
+          <p class="sr-micro sr-micro--text">Empty archive</p>
+          <p>
+            When the first edition lands, this page becomes the day’s cover: four vertical tiles, a
+            ranked index and a start-here pick.
+          </p>
+          <div class="sr-empty__actions">
+            <a class="sr-btn" href="/standards">Editorial standards</a>
+            <a class="sr-btn" href="/about">About Signal Room</a>
+            <a class="sr-btn" href="/archive">Archive</a>
+          </div>
+        </div>
+      </section>
+    ) : (
+      <>
+        <section class="sr-cover" aria-labelledby="cover-heading">
+          <p class="sr-micro sr-cover__date">
+            Last edition {formatDateLong(latest as string)} · {pluralize(todayRefs.length, 'story', 'stories')} ·
+            updated {timeLabel(todaysEditions[0]?.data.generatedAt ?? '')} UTC
+          </p>
+          <h1 id="cover-heading">The day’s signal across four verticals.</h1>
+          <p class="sr-cover__lede">
+            Every item is cited to primary sources, drafted with AI assistance and reviewed by an
+            editor before publishing. No login, no tracking, no advice.
+          </p>
+          <div class="sr-cover__stats sr-micro">
+            <span>{pluralize(todayRefs.length, 'story', 'stories')}</span>
+            <span>{pluralize(totalSources, 'source citation')}</span>
+            <span>{todaysEditions.length} vertical editions</span>
+            <span>
+              <a href={editionHref(latest as string)}>Full edition {latest}</a>
+            </span>
+          </div>
+        </section>
+
+        {startHere && (
+          <section class="sr-section" aria-labelledby="start-heading">
+            <div class="sr-section__head">
+              <h2 class="sr-section__title" id="start-heading">
+                Start here
+              </h2>
+              <span class="sr-micro">Widest cluster coverage today</span>
+            </div>
+            <div class="sr-start">
+              <div>
+                <div class="sr-row__meta sr-micro">
+                  <VerticalChip vertical={startHere.vertical} href={verticalHref(startHere.vertical)} />
+                  <TypeBadge type={startHere.story.type} />
+                  <span>
+                    {joinMeta([
+                      timeLabel(startHere.generatedAt),
+                      pluralize(sourceCount(startHere.story), 'source'),
+                      `${startHere.story.readMinutes} min`,
+                      `cluster ${startHere.story.cluster.length}`,
+                    ])}
+                  </span>
+                </div>
+                <h3 style="font-size: var(--fs-xl); margin-top: var(--sp-3)">
+                  <a href={startHere.href}>{startHere.story.headline}</a>
+                </h3>
+                {startHere.story.dek && (
+                  <p class="sr-cover__lede" style="margin-top: var(--sp-2)">
+                    {startHere.story.dek}
+                  </p>
+                )}
+                <div class="sr-start__tldr">
+                  <TldrList items={startHere.story.tldr} compact />
+                </div>
+                <p class="sr-micro" style="margin-top: var(--sp-4)">
+                  <a href={startHere.href}>Read the full item →</a>
+                </p>
+              </div>
+              <div class="sr-start__side">
+                <p class="sr-micro sr-micro--text">Today’s editions</p>
+                <ul>
+                  {todaysEditions.map((edition) => (
+                    <li>
+                      <div class="sr-row__meta sr-micro">
+                        <VerticalChip vertical={edition.data.vertical} href={verticalHref(edition.data.vertical)} />
+                        <span>{pluralize(edition.data.stories.length, 'story', 'stories')}</span>
+                      </div>
+                      <a href={`${editionHref(edition.data.date)}#${edition.data.vertical}`}>
+                        {edition.data.title}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+                <p class="sr-micro" style="margin-top: var(--sp-4)">
+                  Ranked by cluster size, then read time. Index capped at {HOME_INDEX_CAP} rows.
+                </p>
+              </div>
+            </div>
+          </section>
+        )}
+
+        <section class="sr-section" aria-labelledby="verticals-heading">
+          <div class="sr-section__head">
+            <h2 class="sr-section__title" id="verticals-heading">
+              Verticals
+            </h2>
+            <span class="sr-micro">Top story and day count per feed</span>
+          </div>
+          <div class="sr-bento">
+            {tiles.map(({ vertical, top, count }) => (
+              <a class="sr-tile" data-vertical={vertical} href={top ? top.href : verticalHref(vertical)} data-nav-item>
+                <div class="sr-tile__top">
+                  <VerticalChip vertical={vertical} label={VERTICAL_META[vertical].label} />
+                  <span class="sr-micro">{pluralize(count, 'story', 'stories')}</span>
+                </div>
+                {top ? (
+                  <>
+                    <h3>{top.story.headline}</h3>
+                    <p class="sr-tile__dek">{top.story.dek ?? top.story.tldr[0]}</p>
+                    <div class="sr-tile__meta sr-micro">
+                      <span>
+                        {joinMeta([
+                          timeLabel(top.generatedAt),
+                          pluralize(sourceCount(top.story), 'source'),
+                          `${top.story.readMinutes} min`,
+                        ])}
+                      </span>
+                      <span>{VERTICAL_META[vertical].label} feed →</span>
+                    </div>
+                  </>
+                ) : (
+                  <>
+                    <h3>No stories on this date</h3>
+                    <p class="sr-tile__dek">
+                      The {VERTICAL_META[vertical].label} feed has no items in the latest edition. Open
+                      the feed for the full history.
+                    </p>
+                    <div class="sr-tile__meta sr-micro">
+                      <span>0 sources</span>
+                      <span>{VERTICAL_META[vertical].label} feed →</span>
+                    </div>
+                  </>
+                )}
+              </a>
+            ))}
+          </div>
+        </section>
+
+        <section class="sr-section" aria-labelledby="index-heading">
+          <div class="sr-section__head">
+            <h2 class="sr-section__title" id="index-heading">
+              Latest stories
+            </h2>
+            <span class="sr-micro">Ordered by cluster size</span>
+          </div>
+          <div class="sr-index">
+            {indexRows.map((ref) => <DenseIndexRow ref={ref} showDek={false} />)}
+          </div>
+          <div class="sr-pager">
+            <span class="sr-micro">
+              Showing {indexRows.length} of {todayRefs.length} stories
+            </span>
+            <span class="sr-micro">
+              <a href={editionHref(latest as string)}>More — full edition →</a>
+            </span>
+          </div>
+        </section>
+      </>
+    )
+  }
+</BaseLayout>

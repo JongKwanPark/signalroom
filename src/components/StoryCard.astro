@@ -1,0 +1,49 @@
+---
+import type { StoryRef } from '../lib/editions';
+import { sourceCount, timeLabel, verticalHref } from '../lib/editions';
+import { VERTICAL_META } from '../lib/site';
+import { formatDateLong, pluralize } from '../lib/format';
+import VerticalChip from './VerticalChip.astro';
+import TypeBadge from './TypeBadge.astro';
+import TldrList from './TldrList.astro';
+
+interface Props {
+  ref: StoryRef;
+  showTldr?: boolean;
+  showDek?: boolean;
+  showDate?: boolean;
+}
+
+const { ref, showTldr = false, showDek = true, showDate = true } = Astro.props;
+const { story, vertical } = ref;
+---
+
+<article class="sr-card" data-vertical={vertical} data-nav-item-container>
+  <div class="sr-card__meta sr-micro">
+    <VerticalChip vertical={vertical} href={verticalHref(vertical)} />
+    <TypeBadge type={story.type} />
+    {showDate && <span class="sr-mono">{formatDateLong(ref.date)}</span>}
+    <span class="sr-mono">{timeLabel(ref.generatedAt)}</span>
+  </div>
+
+  <h3>
+    <a href={ref.href} data-nav-item style={`view-transition-name: story-${ref.slug}`}>{story.headline}</a>
+  </h3>
+
+  {showDek && story.dek && <p class="sr-card__dek">{story.dek}</p>}
+
+  {showTldr && <TldrList items={story.tldr} compact />}
+
+  <div class="sr-card__meta sr-micro">
+    <span>{pluralize(sourceCount(story), 'source')}</span>
+    <span>·</span>
+    <span>{story.readMinutes} min</span>
+    <span>·</span>
+    <span>cluster: {story.cluster.length}</span>
+    {story.tags.length > 0 && (
+      <span>
+        · {story.tags.slice(0, 3).map((tag) => <span class="sr-tag">{tag} </span>)}
+      </span>
+    )}
+  </div>
+</article>

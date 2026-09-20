@@ -1,0 +1,184 @@
+/* ==========================================================================
+   Signal Room — design tokens
+   Dark-first "signal" aesthetic. See docs/design-system.md for rules.
+
+   Neutrals are exact contract hex values.
+   Vertical accents are OKLCH with hex fallbacks (@supports), one L/C per
+   theme with hue as the only per-vertical difference.
+   ========================================================================== */
+
+:root {
+  color-scheme: dark;
+
+  /* --- typography ------------------------------------------------------ */
+  --font-sans:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  --font-mono:
+    ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono",
+    monospace;
+
+  /* micro / meta = 11px; never use mono for body copy */
+  --fs-2xs: 0.6875rem;
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.8125rem;
+  --fs-base: 1rem;
+  --fs-md: 1.0625rem;
+  --fs-lg: 1.3125rem;
+  --fs-xl: 1.625rem;
+  --fs-2xl: 2.125rem;
+  --fs-3xl: 2.75rem;
+
+  --lh-tight: 1.2;
+  --lh-snug: 1.35;
+  --lh-body: 1.65;
+  --tracking-micro: 0.09em;
+  --tracking-tight: -0.01em;
+
+  /* --- spacing --------------------------------------------------------- */
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.5rem;
+  --sp-6: 2rem;
+  --sp-7: 3rem;
+  --sp-8: 4rem;
+
+  /* --- layout ---------------------------------------------------------- */
+  --page-max: 1180px;
+  --page-pad: clamp(1rem, 4vw, 2rem);
+  --measure: 68ch;
+  --measure-wide: 78ch;
+
+  /* --- chrome ---------------------------------------------------------- */
+  --radius: 0;
+  --hairline-w: 1px;
+  --focus-ring: 2px;
+
+  /* --- palette (dark, exact) ------------------------------------------- */
+  --canvas: #0a0d12;
+  --surface-1: #0e1218;
+  --surface-2: #121722;
+  --hairline: rgba(255, 255, 255, 0.08);
+  --hairline-strong: rgba(255, 255, 255, 0.16);
+  --text: #e8ecf1;
+  --muted: #9aa4b2;
+  --on-accent: #0a0d12;
+  --overlay: rgba(5, 7, 10, 0.72);
+  --selection: rgba(120, 200, 255, 0.28);
+
+  /* --- accents: hex fallback (dark) ------------------------------------ */
+  --accent-ai: #4cd1ee;
+  --accent-bio: #7fd497;
+  --accent-geo: #edb161;
+  --accent-markets: #c3aeff;
+  --accent: #4cd1ee;
+  --accent-soft: rgba(76, 209, 238, 0.12);
+  --positive: #7fd497;
+  --negative: #ff9c9c;
+
+  /* --- elevation ------------------------------------------------------- */
+  --shadow-1: 0 1px 0 rgba(255, 255, 255, 0.04);
+  --shadow-2: 0 12px 32px rgba(0, 0, 0, 0.45);
+}
+
+/* OKLCH accents (dark): L=0.80 C=0.12, hue per vertical. */
+@supports (color: oklch(0.8 0.12 215)) {
+  :root {
+    --accent-ai: oklch(0.8 0.12 215);
+    --accent-bio: oklch(0.8 0.12 152);
+    --accent-geo: oklch(0.8 0.12 72);
+    --accent-markets: oklch(0.8 0.12 295);
+    --accent: var(--accent-ai);
+    --accent-soft: color-mix(in oklab, var(--accent) 12%, transparent);
+  }
+}
+
+/* Light theme tokens. Applied explicitly (toggle) or via system preference
+   when the visitor has made no explicit choice. */
+:root[data-theme="light"] {
+  color-scheme: light;
+  --canvas: #f6f7f9;
+  --surface-1: #ffffff;
+  --surface-2: #eef1f5;
+  --hairline: rgba(10, 13, 18, 0.1);
+  --hairline-strong: rgba(10, 13, 18, 0.2);
+  --text: #10151c;
+  --muted: #4b5563;
+  --on-accent: #ffffff;
+  --overlay: rgba(246, 247, 249, 0.8);
+  --selection: rgba(0, 114, 138, 0.18);
+  --accent-ai: #00728a;
+  --accent-bio: #267543;
+  --accent-geo: #895700;
+  --accent-markets: #68559b;
+  --accent: #00728a;
+  --accent-soft: rgba(0, 114, 138, 0.1);
+  --positive: #267543;
+  --negative: #a4232b;
+  --shadow-1: 0 1px 0 rgba(10, 13, 18, 0.04);
+  --shadow-2: 0 12px 32px rgba(10, 13, 18, 0.12);
+}
+
+@supports (color: oklch(0.5 0.11 215)) {
+  :root[data-theme="light"] {
+    --accent-ai: oklch(0.5 0.11 215);
+    --accent-bio: oklch(0.5 0.11 152);
+    --accent-geo: oklch(0.5 0.11 72);
+    --accent-markets: oklch(0.5 0.11 295);
+    --accent: var(--accent-ai);
+    --accent-soft: color-mix(in oklab, var(--accent) 10%, transparent);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme]) {
+    color-scheme: light;
+    --canvas: #f6f7f9;
+    --surface-1: #ffffff;
+    --surface-2: #eef1f5;
+    --hairline: rgba(10, 13, 18, 0.1);
+    --hairline-strong: rgba(10, 13, 18, 0.2);
+    --text: #10151c;
+    --muted: #4b5563;
+    --on-accent: #ffffff;
+    --overlay: rgba(246, 247, 249, 0.8);
+    --selection: rgba(0, 114, 138, 0.18);
+    --accent-ai: #00728a;
+    --accent-bio: #267543;
+    --accent-geo: #895700;
+    --accent-markets: #68559b;
+    --accent: #00728a;
+    --accent-soft: rgba(0, 114, 138, 0.1);
+    --positive: #267543;
+    --negative: #a4232b;
+    --shadow-1: 0 1px 0 rgba(10, 13, 18, 0.04);
+    --shadow-2: 0 12px 32px rgba(10, 13, 18, 0.12);
+  }
+
+  @supports (color: oklch(0.5 0.11 215)) {
+    :root:not([data-theme]) {
+      --accent-ai: oklch(0.5 0.11 215);
+      --accent-bio: oklch(0.5 0.11 152);
+      --accent-geo: oklch(0.5 0.11 72);
+      --accent-markets: oklch(0.5 0.11 295);
+      --accent: var(--accent-ai);
+      --accent-soft: color-mix(in oklab, var(--accent) 10%, transparent);
+    }
+  }
+}
+
+/* Per-vertical pages set data-vertical on <html>; this maps the generic
+   --accent slot to the vertical hue so components stay vertical-agnostic. */
+:root[data-vertical="ai"] { --accent: var(--accent-ai); }
+:root[data-vertical="bio"] { --accent: var(--accent-bio); }
+:root[data-vertical="geo"] { --accent: var(--accent-geo); }
+:root[data-vertical="markets"] { --accent: var(--accent-markets); }
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --motion-fast: 0ms;
+    --motion-base: 0ms;
+  }
+}

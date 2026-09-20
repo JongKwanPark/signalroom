@@ -1,0 +1,43 @@
+---
+import type { StoryClusterLink } from '../lib/editions';
+
+interface Props {
+  links: StoryClusterLink[];
+  title?: string;
+}
+
+const { links, title = 'Cluster coverage' } = Astro.props;
+
+function hostname(url: string): string {
+  try {
+    return new URL(url).hostname.replace(/^www\./, '');
+  } catch {
+    return url;
+  }
+}
+---
+
+<section aria-labelledby="cluster-heading">
+  <h2 class="sr-micro sr-hairline-b" id="cluster-heading">{title}</h2>
+  <ul class="sr-cluster">
+    {
+      links.map((link) => (
+        <li>
+          <span class="sr-micro">{link.source}</span>
+          <a href={link.url} rel="noopener noreferrer nofollow" target="_blank">
+            {link.title ?? hostname(link.url)}
+            <span class="sr-ext" aria-hidden="true">↗</span>
+          </a>
+          <span class="sr-micro">{hostname(link.url)}</span>
+        </li>
+      ))
+    }
+  </ul>
+</section>
+
+<style>
+  h2 {
+    padding-bottom: var(--sp-2);
+    margin-bottom: var(--sp-2);
+  }
+</style>

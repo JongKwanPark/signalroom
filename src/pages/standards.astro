@@ -1,0 +1,143 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SITE } from '../lib/site';
+import { breadcrumbJsonLd } from '../lib/seo';
+
+const jsonLd = breadcrumbJsonLd([
+  { name: 'Home', path: '/' },
+  { name: 'Standards', path: '/standards' },
+]);
+
+const updated = '2026-09-20';
+---
+
+<BaseLayout
+  title="Editorial standards"
+  description="Signal Room's AI-use disclosure, sourcing rules, confidence levels, corrections policy and independence statement."
+  path="/standards"
+  jsonLd={jsonLd}
+>
+  <header class="sr-page-head">
+    <p class="sr-micro sr-micro--accent">Standards · updated {updated}</p>
+    <h1>Editorial standards</h1>
+    <p class="sr-page-head__lede">
+      These rules are binding for every edition. If an item cannot meet them, it does not publish.
+      Where we fall short, we correct in place and note the change.
+    </p>
+  </header>
+
+  <div class="sr-prose">
+    <h2>1. AI use is disclosed</h2>
+    <p>
+      Every edition is drafted with AI assistance and reviewed by a human editor before publishing.
+      Concretely:
+    </p>
+    <ul>
+      <li>An AI model drafts structure and prose from collected source material.</li>
+      <li>
+        A human editor reviews each item for accuracy, framing, citation correctness and tone, and may
+        rewrite or reject any part of it.
+      </li>
+      <li>
+        No item publishes unreviewed. The “AI-assisted drafts · editor-reviewed” line in the footer is
+        accurate for every page on this site.
+      </li>
+      <li>
+        AI is never used to generate quotes, invent sources, or synthesize a source that does not
+        exist. If a claim has no source, the claim does not ship.
+      </li>
+    </ul>
+
+    <h2>2. Primary sources only</h2>
+    <ul>
+      <li>
+        Every body paragraph cites at least one source, and every citation resolves to a real,
+        publicly reachable URL in the item’s source list.
+      </li>
+      <li>
+        Preference order: the original document (filing, paper, transcript, dataset, official
+        statement), then direct reporting by a newsroom that did original work, then secondary
+        aggregation — which is used only for discovery and never cited as the basis of a claim.
+      </li>
+      <li>
+        Press releases and social posts are labelled as such where they are the source of record, and
+        are never presented as independent confirmation.
+      </li>
+      <li>
+        Cluster coverage exists so readers can compare how multiple outlets framed the same event. It
+        is not an endorsement of any of them.
+      </li>
+    </ul>
+
+    <h2>3. Confidence labels</h2>
+    <ul>
+      <li>
+        <strong>High</strong> — the core claim is documented by two or more independent primary
+        sources, or by one authoritative source with no credible dispute.
+      </li>
+      <li>
+        <strong>Medium</strong> — a single credible source, or sources that agree on the outline but
+        not the details.
+      </li>
+      <li>
+        <strong>Low</strong> — developing, contested, or based on a source with a track record we
+        cannot yet assess. Treated as provisional and edited as the record firms up.
+      </li>
+    </ul>
+    <p>
+      Confidence describes the state of the evidence, not the importance of the story. A low-confidence
+      item can be the most consequential thing in the edition.
+    </p>
+
+    <h2>4. No advice</h2>
+    <p>
+      Nothing on Signal Room is investment, legal, medical or professional advice. We do not publish
+      recommendations, price targets, trading signals, dosing guidance or clinical advice. Items that
+      touch on markets or health describe what happened and what is documented — not what anyone
+      should do about it.
+    </p>
+
+    <h2>5. Corrections</h2>
+    <ul>
+      <li>
+        Factual errors are corrected in place, with the edition page updated and the correction noted
+        in the item’s editor’s note.
+      </li>
+      <li>
+        If an item cannot be corrected to standard, it is removed from the archive and the removal is
+        noted on the edition page.
+      </li>
+      <li>
+        Citation rot is treated as a defect: when a source link dies, we replace it with an archive
+        copy or remove the claim it supported.
+      </li>
+    </ul>
+
+    <h2>6. Independence, privacy and access</h2>
+    <ul>
+      <li>No sponsored content, no affiliate links, no paid placements in the digest.</li>
+      <li>No accounts, no login walls, no email capture, no analytics or advertising scripts.</li>
+      <li>
+        Outbound links carry <code>rel="noopener noreferrer nofollow"</code> and open in a new tab.
+      </li>
+      <li>
+        The only data stored in your browser is your theme and view preference, kept in{' '}
+        <code>localStorage</code> on your device. It is never transmitted.
+      </li>
+    </ul>
+
+    <h2>7. Scope</h2>
+    <p>
+      Four verticals: <strong>AI</strong>, <strong>bio &amp; health</strong>,{' '}
+      <strong>geopolitics &amp; security</strong>, and <strong>markets &amp; macro</strong>. An item
+      is included when it is documented, material to a reader who follows the field, and adds
+      information rather than repeating the previous day’s coverage.
+    </p>
+
+    <h2>Questions</h2>
+    <p>
+      Questions about these standards, or a correction request, can be raised against the published
+      site at <a href={SITE.url}>{SITE.url.replace(/^https?:\/\//, '')}</a>.
+    </p>
+  </div>
+</BaseLayout>

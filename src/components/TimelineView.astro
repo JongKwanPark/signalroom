@@ -1,0 +1,122 @@
+---
+import type { StoryRef } from '../lib/editions';
+import { sourceCount, timeLabel } from '../lib/editions';
+import { VERTICAL_META, type Vertical } from '../lib/site';
+import { formatDateLong, pluralize } from '../lib/format';
+import TypeBadge from './TypeBadge.astro';
+import VerticalChip from './VerticalChip.astro';
+
+interface Props {
+  refs: StoryRef[];
+  vertical: Vertical;
+  defaultView: 'list' | 'timeline';
+}
+
+const { refs, vertical, defaultView } = Astro.props;
+
+const groups: Array<{ date: string; items: StoryRef[] }> = [];
+for (const ref of refs) {
+  const last = groups[groups.length - 1];
+  if (last && last.date === ref.date) {
+    last.items.push(ref);
+  } else {
+    groups.push({ date: ref.date, items: [ref] });
+  }
+}
+---
+
+<div class="sr-view" data-view={defaultView} data-view-key={vertical}>
+  <div class="sr-viewbar">
+    <span class="sr-micro">View</span>
+    <button
+      class="sr-btn"
+      type="button"
+      data-view-btn="timeline"
+      aria-pressed={defaultView === 'timeline' ? 'true' : 'false'}
+      hidden
+    >
+      Timeline
+    </button>
+    <button
+      class="sr-btn"
+      type="button"
+      data-view-btn="list"
+      aria-pressed={defaultView === 'list' ? 'true' : 'false'}
+      hidden
+    >
+      List
+    </button>
+  </div>
+
+  {
+    groups.map((group) => (
+      <section aria-label={formatDateLong(group.date)}>
+        <h2 class="sr-tl-date sr-micro sr-micro--text">
+          {formatDateLong(group.date)} · {pluralize(group.items.length, 'story', 'stories')}
+        </h2>
+        <ol class="sr-timeline">
+          {group.items.map((ref) => (
+            <li class="sr-tl-item" data-vertical={vertical}>
+              <a
+                class="sr-tl-item__headline"
+                href={ref.href}
+                data-nav-item
+                style={`view-transition-name: story-${ref.slug}`}
+              >
+                {ref.story.headline}
+              </a>
+              <p class="sr-tl-item__dek sr-muted">{ref.story.dek ?? ref.story.tldr[0]}</p>
+              <div class="sr-tl-item__meta sr-micro">
+                <VerticalChip vertical={vertical} />
+                <TypeBadge type={ref.story.type} />
+                <span>{pluralize(sourceCount(ref.story), 'source')}</span>
+                <span>·</span>
+                <span>{ref.story.readMinutes} min</span>
+                <span>·</span>
+                <span>cluster {ref.story.cluster.length}</span>
+              </div>
+              <div class="sr-tl-item__rail sr-mono">
+                {timeLabel(ref.generatedAt)} · {VERTICAL_META[vertical].label}
+              </div>
+            </li>
+          ))}
+        </ol>
+      </section>
+    ))
+  }
+</div>
+
+<style>
+  .sr-viewbar {
+    justify-content: flex-end;
+    margin-bottom: var(--sp-2);
+  }
+
+  .sr-tl-item__headline {
+    font-size: var(--fs-md);
+    font-weight: 580;
+    line-height: var(--lh-snug);
+    display: block;
+    max-width: var(--measure-wide);
+  }
+
+  .sr-tl-item__headline:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-color: var(--timeline-accent, var(--accent));
+  }
+
+  .sr-tl-item__dek {
+    font-size: var(--fs-sm);
+    margin-top: var(--sp-1);
+    max-width: var(--measure);
+  }
+
+  .sr-tl-item__meta {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--sp-2);
+    margin-top: var(--sp-2);
+  }
+</style>
