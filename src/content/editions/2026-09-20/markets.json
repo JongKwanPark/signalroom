@@ -1,196 +1,508 @@
 {
   "date": "2026-09-20",
-  "generatedAt": "2026-09-20T10:42:00Z",
+  "generatedAt": "2026-09-20T15:25:13.000Z",
   "vertical": "markets",
-  "title": "Markets: duration repriced, refining margins spike, earnings breadth narrows",
-  "summary": "A soft long-end auction steepened the curve, an unusual cluster of refinery maintenance lifted product cracks in two regions, and index-level earnings growth held up even as the share of companies raising guidance fell again. Prices moved on supply mechanics and positioning more than on any change in the growth outlook.",
+  "title": "The Fed's first hike in three years meets an oil shock and a sour consumer",
+  "summary": "The Fed raised rates a quarter point in a 12-0 vote, its first hike in three years, landing on a war-driven energy shock. AI-guarantee risk, near-5% Treasury yields and downbeat consumer sentiment round out the week's cross-asset picture.",
   "stories": [
     {
-      "slug": "duration-reprices-after-soft-auction",
-      "headline": "Duration reprices after a soft long-end auction",
-      "dek": "Tail metrics worsened and dealer takedown rose; the curve steepened into the close without a change in the policy path.",
-      "type": "DATA",
-      "readMinutes": 4,
+      "slug": "fed-first-hike-three-years-rate-path",
+      "headline": "Federal Reserve issues FOMC statement",
+      "dek": "The first hike in three years, a 12-0 vote, and a chair who has said he will not telegraph the next move.",
+      "type": "DEEP",
+      "readMinutes": 5,
       "tldr": [
-        "The long-end auction cleared with a wider tail than the previous three sales and a higher dealer takedown.",
-        "The 10s30s spread widened by roughly 9 basis points on the day while the front end barely moved.",
-        "Rate expectations were unchanged, so the move is about duration absorption rather than the policy path."
+        "The FOMC raised the federal funds target range by a quarter point to 3.75%-4% on Sept. 16 in a 12-0 vote, its first hike in three years.",
+        "The Dow fell 1.7% for a third straight losing week as banks led declines; the S&P 500 slipped 0.08% and the Nasdaq gained 0.7%.",
+        "Futures implied roughly even odds of another hike at the October meeting, Reuters reported, leaving the path contested."
       ],
       "body": [
         {
-          "text": "A soft long-end auction did the damage. The sale cleared with a tail several basis points wider than the previous three auctions, and the dealer takedown rose, meaning primary dealers absorbed more of the issue than they had recently been asked to. Both are absorption metrics, and both deteriorated on the same sale.",
-          "citations": [1, 2]
+          "text": "The Federal Open Market Committee raised the target range for the federal funds rate by a quarter percentage point to 3.75% to 4% on Sept. 16 in a 12-0 vote. In its statement, the committee said economic activity is expanding at a solid pace, cited resilient domestic spending alongside strong productivity growth and robust capital investment, and said inflation remains elevated. It described the move as supporting a 'timelier return' to its 2% goal.",
+          "citations": [1]
         },
         {
-          "text": "The curve did the rest. The long-end spread widened by roughly nine basis points on the day while the front end closed nearly unchanged, a steepening pattern that points at term premium rather than policy expectations. Futures-implied policy rates for the next two meetings moved by less than a basis point, which is the cleanest evidence that this was not a growth or inflation repricing.",
-          "citations": [2, 3]
+          "text": "Equities split under the new rate regime, per CNBC: the Dow fell 1.7% for its third straight losing week, with banks hit hardest and Goldman Sachs down nearly 8.5%; Wells Fargo, BNY and Capital One also fell sharply. The S&P 500 slipped 0.08% for the week and the Nasdaq gained 0.7% as investors returned to AI stocks after an early-week sell-off.",
+          "citations": [6]
+        },
+        {
+          "text": "What comes next is unresolved. Reuters reported the hike, the first in three years, was widely expected but left investors uncertain about how many more may follow; fed funds futures late Thursday implied roughly even odds of a hike at the October meeting, just before the midterms. Because Chair Kevin Warsh has said he wants to avoid forward guidance, strategists said individual Fed speakers matter more. Minneapolis Fed's Neel Kashkari said separately that inflation remains too high and goes beyond oil prices.",
+          "citations": [3, 5]
+        },
+        {
+          "text": "The Fed also released economic projections from the Sept. 15-16 meeting, and commentary is focused on the September dot plot as the main published guide to the committee's median path. Uncertainty note: this is a path question rather than a direction question. The statement commits to price stability but does not pre-commit to further moves, and market pricing points to a near coin flip for October rather than a settled cycle.",
+          "citations": [2, 4, 3]
         }
       ],
-      "whyItMatters": "When curve moves come from duration absorption rather than policy expectations, they carry information about who is willing to hold long-dated risk — and at what price. That matters for every borrower with a long maturity wall, not just for bond investors.",
-      "editorNote": "Auction tails are noisy and one sale is not a trend. We have reported the move alongside the policy-rate evidence so the driver is visible rather than asserted.",
+      "whyItMatters": "This is the first tightening in three years and it lands on top of war-driven energy costs, so the path of policy now sets the discount rate for everything from bank lending to long bonds.",
+      "editorNote": "The hike was widely expected and therefore not the story; the story is the missing guidance and the even October odds. We separated what the committee said from what futures pricing implies, because the wires frame those differently.",
       "cluster": [
         {
-          "url": "https://www.bloomberg.com/markets",
-          "source": "Bloomberg",
-          "title": "Long-end auction disappoints, curve steepens"
+          "url": "https://www.investing.com/news/economy-news/whos-who-in-feds-september-2026-dot-plot-4908178",
+          "source": "Investing.com",
+          "title": "Who's who in Fed's September 2026 dot plot?"
         },
         {
-          "url": "https://www.reuters.com/markets/rates-bonds/",
-          "source": "Reuters",
-          "title": "Term premium returns as the story, not rate cuts"
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
+          "source": "Federal Reserve",
+          "title": "Economic projections from the September 15-16 FOMC meeting"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/09/19/higher-interest-rates-and-ai-safety-fears-put-the-stock-market-to-the-test-last-week.html",
+          "source": "CNBC",
+          "title": "Higher interest rates and AI safety fears put the stock market to the test last week"
+        },
+        {
+          "url": "https://www.investing.com/news/economy-news/minneapolis-feds-kashkari-says-inflation-remains-too-high-4908181",
+          "source": "Investing.com",
+          "title": "Minneapolis Fed's Kashkari says inflation remains too high"
         }
       ],
       "sources": [
         {
           "id": 1,
-          "url": "https://www.treasurydirect.gov/auctions/",
-          "source": "US Treasury",
-          "title": "Auction results: long-end note and bond sales",
-          "publishedAt": "2026-09-19"
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+          "source": "Federal Reserve",
+          "title": "Federal Reserve issues FOMC statement",
+          "publishedAt": "2026-09-16T18:00:00.000Z"
         },
         {
           "id": 2,
-          "url": "https://www.bloomberg.com/markets",
-          "source": "Bloomberg",
-          "title": "Dealer takedown rises as auction tails widen",
-          "publishedAt": "2026-09-19"
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
+          "source": "Federal Reserve",
+          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+          "publishedAt": "2026-09-16T18:00:00.000Z"
         },
         {
           "id": 3,
-          "url": "https://www.federalreserve.gov/data.htm",
-          "source": "Federal Reserve",
-          "title": "Term structure and policy expectations data",
-          "publishedAt": "2026-09-19"
+          "url": "https://www.investing.com/news/economy-news/investors-focus-on-rate-path-ai-slowdown-after-fed-hike-4908174",
+          "source": "Investing.com",
+          "title": "Investors focus on rate path, AI slowdown after Fed hike",
+          "publishedAt": "2026-09-20T04:00:30.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://www.investing.com/news/economy-news/whos-who-in-feds-september-2026-dot-plot-4908178",
+          "source": "Investing.com",
+          "title": "Who's who in Fed's September 2026 dot plot?",
+          "publishedAt": "2026-09-20T05:17:27.000Z"
+        },
+        {
+          "id": 5,
+          "url": "https://www.investing.com/news/economy-news/minneapolis-feds-kashkari-says-inflation-remains-too-high-4908181",
+          "source": "Investing.com",
+          "title": "Minneapolis Fed's Kashkari says inflation remains too high",
+          "publishedAt": "2026-09-20T06:13:02.000Z"
+        },
+        {
+          "id": 6,
+          "url": "https://www.cnbc.com/2026/09/19/higher-interest-rates-and-ai-safety-fears-put-the-stock-market-to-the-test-last-week.html",
+          "source": "CNBC",
+          "title": "Higher interest rates and AI safety fears put the stock market to the test last week",
+          "publishedAt": "2026-09-19T16:03:09.000Z"
         }
       ],
-      "tags": ["rates", "duration", "auctions", "curve"],
+      "tags": ["federal-reserve", "rates", "bonds", "equities", "inflation"],
       "confidence": "high"
     },
     {
-      "slug": "refining-margins-maintenance-cluster",
-      "headline": "Refining margins spike on an unusual maintenance cluster",
-      "dek": "Three planned turnarounds overlapping lifted product cracks in two regions, with the tightest effect in the middle distillate.",
-      "type": "BRIEF",
-      "readMinutes": 3,
+      "slug": "ai-trade-safety-fears-and-guarantees",
+      "headline": "Higher interest rates and AI safety fears put the stock market to the test last week",
+      "dek": "Safety warnings, a $300 billion guarantee pile and a higher discount rate all hit the same trade.",
+      "type": "DEEP",
+      "readMinutes": 4,
       "tldr": [
-        "Three refineries in the same region scheduled turnarounds within a six-week window, an unusually dense cluster.",
-        "Middle distillate cracks widened most; gasoline cracks moved less because seasonal demand is past its peak.",
-        "Scheduled restarts in three to five weeks set the horizon for the move to fade."
+        "CNBC: the Nasdaq rose 0.7% for the week while the Dow fell 1.7%, as AI stocks recovered from an early-week sell-off.",
+        "Seeking Alpha reported that Big Tech's $300B in AI guarantees raise a hidden risk for investors.",
+        "Reuters put tech at 38% of the S&P 500 and said AI-slowdown worries only modestly weighed on semiconductor shares."
       ],
       "body": [
         {
-          "text": "An unusually dense cluster of refinery turnarounds lifted product cracks in two regions this week. Three facilities in the same region scheduled maintenance within a six-week window, removing more distillate capacity simultaneously than the seasonal pattern would predict. Crack spreads widened most in the middle distillate, where inventories entered the period below their five-year average.",
-          "citations": [1, 2]
+          "text": "The tape split by factor rather than direction. CNBC reported the Dow fell 1.7% for its third straight losing week, while the S&P 500 slipped 0.08% and the Nasdaq gained 0.7% as investors returned to AI names after an early-week sell-off.",
+          "citations": [1]
         },
         {
-          "text": "The move should be self-limiting. Turnaround schedules published by the operators point to restarts in three to five weeks, and the physical constraint is the maintenance itself rather than a change in crude availability. Traders are watching whether the cluster prompts buyers to build precautionary inventory, which would extend the effect beyond the restarts.",
-          "citations": [2, 3]
+          "text": "Two overhangs sit on the AI complex. Seeking Alpha reported that Big Tech's roughly $300 billion in AI guarantees raise a hidden risk for investors, and Reuters reported that industry leaders' public calls for a slowdown in development modestly weighed on shares of the semiconductor companies at the center of the boom.",
+          "citations": [2, 5]
+        },
+        {
+          "text": "Politics and safety policy are now part of the trade. CNBC reported Nvidia CEO Jensen Huang has emerged as a top ally of President Donald Trump in the AI safety debate, while experts said in a public letter that Anthropic and OpenAI need truly independent safety evaluators.",
+          "citations": [3, 4]
+        },
+        {
+          "text": "Scale context from Reuters: technology accounts for 38% of the S&P 500, the sector is up more than 20% in 2026 but has lost ground since the start of June, and investors are watching an anticipated Trump-Xi meeting for semiconductor and AI-race developments. Uncertainty note: whether safety headlines are actually driving positioning is contested. Reuters characterized the AI-slowdown effect on semiconductors as modest and said investors want concrete signs, such as regulation, before concluding the AI spending theme is in trouble.",
+          "citations": [5]
         }
       ],
-      "whyItMatters": "Refining is where crude prices become consumer prices, and maintenance clusters are the most common source of short, sharp product squeezes. The duration of this one is knowable from the restart schedule; the risk is whether it triggers precautionary buying that outlives it.",
-      "editorNote": "Crack spreads are regional and product-specific, and our figures are indicative ranges rather than a single benchmark. The restart schedule is operator guidance and can slip.",
+      "whyItMatters": "Tech's 38% index weight means AI sentiment is no longer a sector story; guarantees and safety regulation are balance-sheet and policy risks for the whole market.",
+      "editorNote": "The wire set had no Big Tech earnings in it, so the equity story of the day was the AI complex under simultaneous rate, safety and disclosure pressure. We flagged the contested causality rather than repeating bullish or bearish analyst framing.",
       "cluster": [
         {
-          "url": "https://www.reuters.com/markets/commodities/",
-          "source": "Reuters",
-          "title": "Distillate cracks widen as turnarounds cluster"
+          "url": "https://seekingalpha.com/news/4644577-big-tech-s-300b-ai-guarantees-raise-hidden-risk-for-investors",
+          "source": "Seeking Alpha",
+          "title": "Big Tech's $300B AI guarantees raise hidden risk for investors"
         },
         {
-          "url": "https://www.eia.gov/todayinenergy/",
-          "source": "EIA",
-          "title": "Inventories enter maintenance season below average"
+          "url": "https://www.cnbc.com/2026/09/18/ai-safety-evaluators-anthropic-openai-models-security.html",
+          "source": "CNBC",
+          "title": "Anthropic and OpenAI need truly independent safety evaluators, experts say in public letter"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/09/20/nvidia-ceo-jensen-huang-emerges-as-trumps-top-ally-in-ai-debate.html",
+          "source": "CNBC",
+          "title": "Nvidia CEO Jensen Huang emerges as Trump's top ally in AI safety debate"
         }
       ],
       "sources": [
         {
           "id": 1,
-          "url": "https://www.eia.gov/todayinenergy/",
-          "source": "EIA",
-          "title": "Refinery utilization and turnaround schedules",
-          "publishedAt": "2026-09-18"
+          "url": "https://www.cnbc.com/2026/09/19/higher-interest-rates-and-ai-safety-fears-put-the-stock-market-to-the-test-last-week.html",
+          "source": "CNBC",
+          "title": "Higher interest rates and AI safety fears put the stock market to the test last week",
+          "publishedAt": "2026-09-19T16:03:09.000Z"
         },
         {
           "id": 2,
-          "url": "https://www.reuters.com/markets/commodities/",
-          "source": "Reuters",
-          "title": "Overlapping turnarounds lift middle distillate cracks",
-          "publishedAt": "2026-09-19"
+          "url": "https://seekingalpha.com/news/4644577-big-tech-s-300b-ai-guarantees-raise-hidden-risk-for-investors",
+          "source": "Seeking Alpha",
+          "title": "Big Tech's $300B AI guarantees raise hidden risk for investors",
+          "publishedAt": "2026-09-20T13:14:32.000Z"
         },
         {
           "id": 3,
-          "url": "https://www.iea.org/reports",
-          "source": "IEA",
-          "title": "Product markets: inventories and maintenance outlook",
-          "publishedAt": "2026-09-17"
+          "url": "https://www.cnbc.com/2026/09/20/nvidia-ceo-jensen-huang-emerges-as-trumps-top-ally-in-ai-debate.html",
+          "source": "CNBC",
+          "title": "Nvidia CEO Jensen Huang emerges as Trump's top ally in AI safety debate",
+          "publishedAt": "2026-09-20T11:25:08.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://www.cnbc.com/2026/09/18/ai-safety-evaluators-anthropic-openai-models-security.html",
+          "source": "CNBC",
+          "title": "Anthropic and OpenAI need truly independent safety evaluators, experts say in public letter",
+          "publishedAt": "2026-09-18T17:02:32.000Z"
+        },
+        {
+          "id": 5,
+          "url": "https://www.investing.com/news/economy-news/investors-focus-on-rate-path-ai-slowdown-after-fed-hike-4908174",
+          "source": "Investing.com",
+          "title": "Investors focus on rate path, AI slowdown after Fed hike",
+          "publishedAt": "2026-09-20T04:00:30.000Z"
         }
       ],
-      "tags": ["energy", "refining", "commodities", "supply"],
+      "tags": ["ai", "equities", "big-tech", "regulation"],
       "confidence": "medium"
     },
     {
-      "slug": "earnings-breadth-narrows-guidance",
-      "headline": "Earnings breadth narrows as guidance resets",
-      "dek": "Index-level growth held up, but the share of companies raising guidance fell for a third consecutive quarter.",
+      "slug": "record-diesel-iran-war-fuel-costs",
+      "headline": "Record diesel prices are exposing pain points in the stock market and economy",
+      "dek": "A closed Strait of Hormuz and war-driven fuel costs are feeding straight into industrial margins.",
       "type": "DEEP",
-      "readMinutes": 7,
+      "readMinutes": 4,
       "tldr": [
-        "Aggregate earnings growth was steady, but the share of companies raising full-year guidance fell for a third quarter.",
-        "The gap between aggregate growth and breadth is concentrated in a handful of large names.",
-        "Median company guidance implies a flat second half, below the index-level consensus."
+        "MarketWatch: record diesel prices are exposing pain points in the stock market and economy.",
+        "CNBC: tariffs, surging fuel prices from the Iran war and higher rates are squeezing auto suppliers, chemical companies and small manufacturers.",
+        "Iran said the Strait of Hormuz stays closed until its conditions are met; WTI and Brent hit their highest since mid-May on Tuesday before a three-session slide."
       ],
       "body": [
         {
-          "text": "Index-level earnings growth looked steady this quarter, but the distribution underneath it narrowed again. The share of companies raising full-year guidance fell for a third consecutive quarter, and the median company now guides to a roughly flat second half. The gap between the aggregate and the median is the widest in the current expansion.",
+          "text": "MarketWatch reported that record diesel prices are exposing pain points in the stock market and economy. CNBC separately reported the same pressure from the cost side: tariffs are raising material prices, fuel costs are raising production and transport costs, and higher interest rates make inventory more expensive to finance. Auto suppliers, chemical companies and other industrial businesses are seeing margins squeezed, CNBC said.",
           "citations": [1, 2]
         },
         {
-          "text": "The divergence is concentrated. A small group of large names accounts for the bulk of aggregate growth, which means index-level multiples are being justified by a shrinking set of earnings streams. Strategists describe this as a quality-of-earnings issue rather than a demand problem: revenue trends are broadly intact, but cost guidance is being reset by companies that had assumed more operating leverage.",
-          "citations": [2, 3]
+          "text": "The supply backdrop is a live conflict, not a forecast. CNBC reported the State Department urged Americans outside the Middle East to seriously reconsider travel to and through the region, warning the conflict could escalate rapidly. Iran said the Strait of Hormuz would remain closed until its conditions are met, including an end to the naval blockade, sanctions relief and the release of frozen assets, while Houthi attacks on Saudi Arabia increased.",
+          "citations": [3]
         },
         {
-          "text": "The practical consequence is that index-level expectations and median-company experience are no longer the same bet. When breadth narrows, the index can keep rising while the typical company's revisions turn negative — a regime that historically resolves either through catch-up or through a de-rating of the concentration premium.",
-          "citations": [1, 3]
+          "text": "Oil round-tripped within the week: WTI and Brent hit their highest levels since mid-May on Tuesday on Middle East supply concerns, then fell over three sessions to roughly flat for the week, CNBC reported. Reuters said U.S. crude dropped to $101 a barrel on Thursday, and strategists have been watching $100 as a psychological line.",
+          "citations": [4, 5]
+        },
+        {
+          "text": "The corporate transmission is granular: CNBC's reporting includes an Iowa maker of industrial saws holding extra inventory as aluminum, steel and parts prices spike, with one small bracket more than doubling in price. Companies able to pass costs to customers are better insulated, while those selling to price-sensitive buyers risk losing demand, CNBC said.",
+          "citations": [2]
+        },
+        {
+          "text": "Uncertainty note: the wire set does not include contract-level diesel or refined-product prices, so the scale of the record diesel print is taken from MarketWatch's headline-level report rather than independently verified here. The direction of pressure, however, is corroborated by CNBC's cost reporting.",
+          "citations": [1, 2]
         }
       ],
-      "whyItMatters": "Breadth is an early-warning indicator that index levels conceal. If the aggregate is being carried by a handful of names and the median company is guiding flat, then exposure to the index is not the same as exposure to the economy.",
-      "editorNote": "Guidance counts are sensitive to sample composition and to sector mix. We have reported the breadth change and the concentration, and left the causal claim with the strategists who made it.",
+      "whyItMatters": "Diesel powers freight, farming and construction, so a record diesel print feeds directly into the inflation the Fed is now hiking against and into the margins of companies that cannot pass costs through.",
+      "editorNote": "Energy was the second macro shock of the week and it has a physical cause, a closed strait, which makes it more durable than a sentiment move. We kept the supply facts and the market moves separate.",
       "cluster": [
         {
-          "url": "https://www.ft.com/markets",
-          "source": "Financial Times",
-          "title": "Earnings breadth narrows for a third quarter"
+          "url": "https://www.cnbc.com/2026/09/20/tariffs-fuel-prices-and-interest-rates-squeeze-us-companies.html",
+          "source": "CNBC",
+          "title": "'It's awful': How tariffs, soaring fuel costs and higher interest rates are squeezing American companies"
         },
         {
-          "url": "https://www.wsj.com/finance",
-          "source": "Wall Street Journal",
-          "title": "Index growth masks a flat median outlook"
+          "url": "https://www.investing.com/news/commodities-news/iran-warns-against-new-escalation-by-us-and-allies-4908175",
+          "source": "Investing.com",
+          "title": "Iran warns against new escalation by US and allies"
+        },
+        {
+          "url": "https://www.investing.com/news/economy-news/saudi-gulf-stocks-fall-after-houthisclaim-riyadh-attacks-4908151",
+          "source": "Investing.com",
+          "title": "Saudi, Gulf stocks fall after Houthis claim Riyadh attacks"
         }
       ],
       "sources": [
         {
           "id": 1,
-          "url": "https://www.sec.gov/edgar/searchedgar/companysearch",
-          "source": "SEC EDGAR",
-          "title": "Quarterly filings: guidance revisions",
-          "publishedAt": "2026-09-18"
+          "url": "https://www.marketwatch.com/story/record-diesel-prices-are-exposing-pain-points-in-the-stock-market-and-economy-a2079b04?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Record diesel prices are exposing pain points in the stock market and economy",
+          "publishedAt": "2026-09-20T13:00:00.000Z"
         },
         {
           "id": 2,
-          "url": "https://www.ft.com/markets",
-          "source": "Financial Times",
-          "title": "Breadth narrows as guidance resets concentrate in large caps",
-          "publishedAt": "2026-09-19"
+          "url": "https://www.cnbc.com/2026/09/20/tariffs-fuel-prices-and-interest-rates-squeeze-us-companies.html",
+          "source": "CNBC",
+          "title": "'It's awful': How tariffs, soaring fuel costs and higher interest rates are squeezing American companies",
+          "publishedAt": "2026-09-20T12:47:23.000Z"
         },
         {
           "id": 3,
-          "url": "https://www.wsj.com/finance",
-          "source": "Wall Street Journal",
-          "title": "Median company guides flat while the index compounds",
-          "publishedAt": "2026-09-18"
+          "url": "https://www.cnbc.com/2026/09/20/us-middle-east-travel-warning-iran-war-hormuz.html",
+          "source": "CNBC",
+          "title": "U.S. urges Americans to reconsider Middle East travel as Iran tensions rise",
+          "publishedAt": "2026-09-20T14:23:53.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://www.cnbc.com/2026/09/19/higher-interest-rates-and-ai-safety-fears-put-the-stock-market-to-the-test-last-week.html",
+          "source": "CNBC",
+          "title": "Higher interest rates and AI safety fears put the stock market to the test last week",
+          "publishedAt": "2026-09-19T16:03:09.000Z"
+        },
+        {
+          "id": 5,
+          "url": "https://www.investing.com/news/economy-news/investors-focus-on-rate-path-ai-slowdown-after-fed-hike-4908174",
+          "source": "Investing.com",
+          "title": "Investors focus on rate path, AI slowdown after Fed hike",
+          "publishedAt": "2026-09-20T04:00:30.000Z"
         }
       ],
-      "tags": ["earnings", "breadth", "guidance", "equities"],
+      "tags": ["energy", "oil", "diesel", "inflation", "middle-east"],
       "confidence": "medium"
+    },
+    {
+      "slug": "bond-market-back-near-five-percent-yields",
+      "headline": "The Bond Market is Back. Here’s What TLT Bagholders Need to Know.",
+      "dek": "With the 10-year Treasury near 5% after the first hike in three years, duration math is back in portfolio decisions.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "Yahoo Finance/Barchart: the 10-year Treasury yield has moved from about 0.5% in 2020 to roughly 5% recently.",
+        "Reuters reported the 10-year at 4.93% late Thursday and cited 5% on the 10-year and $100 oil as psychological lines for stocks.",
+        "Seeking Alpha: Oaktree's Howard Marks backed a quieter Fed and called for an AI jobs task force."
+      ],
+      "body": [
+        {
+          "text": "A Barchart column published by Yahoo Finance framed the shift in bond math: the 10-year Treasury yield has moved from about 0.5% during the pandemic in 2020 to roughly 5% recently. The column is written for long-duration fund holders who learned during the 2022 hiking cycle that a single ETF is not a bond strategy, and it points to the scale of retail positioning that accumulated in long Treasuries.",
+          "citations": [1]
+        },
+        {
+          "text": "The level is directly relevant to equities. Reuters reported the 10-year Treasury yield fell to 4.93% late Thursday and quoted B. Riley Wealth chief market strategist Art Hogan calling 5% on the 10-year and $100 a barrel for oil psychological lines in the sand for the market.",
+          "citations": [2]
+        },
+        {
+          "text": "Fed communication is part of the rates story now. Seeking Alpha reported Oaktree's Howard Marks backed a quieter Fed and called for an AI jobs task force, a comment on both the central bank's role in markets and the labor disruption from AI. Chair Kevin Warsh's stated preference to avoid forward guidance means investors are parsing speakers rather than guidance, per Reuters.",
+          "citations": [3, 2]
+        },
+        {
+          "text": "Uncertainty note: the 'line in the sand' framing is strategist commentary rather than a forecast, and the main source here is a market column, not a data release. The Fed's own economic projections, released Sept. 16, remain the primary published guide to the committee's expected path.",
+          "citations": [4, 2]
+        }
+      ],
+      "whyItMatters": "A risk-free yield near 5% competes with equities and re-prices credit, housing and long-duration assets; how the bond market digests the Fed's first hike is the main transmission channel from policy to portfolios.",
+      "editorNote": "Credit and funding was the quiet third leg of Fed week. The wire set had no FX-specific prints, so we used the rates market as the transmission story and labeled the commentary sources clearly.",
+      "cluster": [
+        {
+          "url": "https://finance.yahoo.com/markets/options/articles/bond-market-back-tlt-bagholders-131502737.html",
+          "source": "Yahoo Finance",
+          "title": "The Bond Market is Back. Here's What TLT Bagholders Need to Know."
+        },
+        {
+          "url": "https://seekingalpha.com/news/4644582-oaktrees-howard-marks-backs-quieter-fed-calls-for-ai-jobs-task-force",
+          "source": "Seeking Alpha",
+          "title": "Oaktree's Howard Marks backs quieter Fed, calls for AI jobs task force"
+        },
+        {
+          "url": "https://www.investing.com/news/economy-news/investors-focus-on-rate-path-ai-slowdown-after-fed-hike-4908174",
+          "source": "Investing.com",
+          "title": "Investors focus on rate path, AI slowdown after Fed hike"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://finance.yahoo.com/markets/options/articles/bond-market-back-tlt-bagholders-131502737.html",
+          "source": "Yahoo Finance",
+          "title": "The Bond Market is Back. Here’s What TLT Bagholders Need to Know.",
+          "publishedAt": "2026-09-19T13:15:02.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/economy-news/investors-focus-on-rate-path-ai-slowdown-after-fed-hike-4908174",
+          "source": "Investing.com",
+          "title": "Investors focus on rate path, AI slowdown after Fed hike",
+          "publishedAt": "2026-09-20T04:00:30.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://seekingalpha.com/news/4644582-oaktrees-howard-marks-backs-quieter-fed-calls-for-ai-jobs-task-force",
+          "source": "Seeking Alpha",
+          "title": "Oaktree's Howard Marks backs quieter Fed, calls for AI jobs task force",
+          "publishedAt": "2026-09-20T15:04:17.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
+          "source": "Federal Reserve",
+          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+          "publishedAt": "2026-09-16T18:00:00.000Z"
+        }
+      ],
+      "tags": ["bonds", "treasuries", "rates", "credit"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "consumer-sentiment-record-low-happiness-gap",
+      "headline": "Consumer sentiment is in the dumps despite a solid economy. Goldman Sachs blames 'lower happiness'",
+      "dek": "September's sentiment drop looks less like a growth signal and more like a mood signal, one economist argues.",
+      "type": "DATA",
+      "readMinutes": 3,
+      "tldr": [
+        "CNBC: the University of Michigan sentiment index hit record lows this year and fell 13% year over year in September, including almost 8% from August alone.",
+        "Goldman economist Joseph Briggs points to happiness data: 'very happy' respondents fell to 23% in 2024 from 31% in 2016.",
+        "MarketWatch: midterm voters are overwhelmingly worried about the national debt, but only small fixes are expected this year."
+      ],
+      "body": [
+        {
+          "text": "The University of Michigan consumer sentiment index hit record lows this year and fell 13% year over year in September, including a drop of almost 8% from August alone, CNBC reported.",
+          "citations": [1]
+        },
+        {
+          "text": "Goldman Sachs economist Joseph Briggs told clients that 'low reported economic sentiment likely reflects a more fundamental, downbeat assessment of the state of the world rather than the economy.' He pointed to General Social Survey data showing the share of respondents who feel 'very happy' fell to 23% in 2024 from 31% in 2016, while those reporting they are 'not too happy' rose to 20% from 13%.",
+          "citations": [1]
+        },
+        {
+          "text": "Inflation experience is the competing explanation. Briggs said inflationary pressures are likely also hurting confidence, and Yahoo Finance reported that rising cell phone bills helped convince the Fed to raise rates, tying consumer price perceptions to policy. The Michigan survey's director has said the sentiment downtrend mirrors declining happiness and trust in institutions, per CNBC.",
+          "citations": [2, 1]
+        },
+        {
+          "text": "The political backdrop adds to the debt anxiety: MarketWatch reported midterm voters are overwhelmingly worried about the national debt while only small fixes are expected this year. Uncertainty note: the happiness explanation is one economist's analysis, not a settled finding, and Briggs argues sentiment may become a less useful predictor of economic dynamics if it keeps tracking non-economic variables.",
+          "citations": [3, 1]
+        }
+      ],
+      "whyItMatters": "If sentiment is decoupled from spending and growth, it weakens as a macro signal, and the Fed is setting rates while public confidence sits at record lows.",
+      "editorNote": "This was the cleanest macro-data story in the wire set, and the happiness-gap framing gives a sourced explanation for a divergence that usually gets waved off as vibes.",
+      "cluster": [
+        {
+          "url": "https://finance.yahoo.com/economy/policy/article/why-your-cell-phone-bill-is-getting-so-expensive--and-how-that-helped-convince-the-fed-to-raise-rates-100000440.html",
+          "source": "Yahoo Finance",
+          "title": "Why your cell phone bill is getting so expensive — and how that helped convince the Fed to raise rates"
+        },
+        {
+          "url": "https://www.marketwatch.com/story/midterm-voters-are-overwhelmingly-worried-about-the-national-debt-but-only-small-fixes-are-expected-this-year-758d364e?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Midterm voters are overwhelmingly worried about the national debt. But only small fixes are expected this year."
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/09/19/goldman-sachs-happiness-struggling-consumer-sentiment.html",
+          "source": "CNBC",
+          "title": "Consumer sentiment is in the dumps despite a solid economy. Goldman Sachs blames 'lower happiness'",
+          "publishedAt": "2026-09-19T12:50:49.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://finance.yahoo.com/economy/policy/article/why-your-cell-phone-bill-is-getting-so-expensive--and-how-that-helped-convince-the-fed-to-raise-rates-100000440.html",
+          "source": "Yahoo Finance",
+          "title": "Why your cell phone bill is getting so expensive — and how that helped convince the Fed to raise rates",
+          "publishedAt": "2026-09-17T10:00:00.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.marketwatch.com/story/midterm-voters-are-overwhelmingly-worried-about-the-national-debt-but-only-small-fixes-are-expected-this-year-758d364e?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Midterm voters are overwhelmingly worried about the national debt. But only small fixes are expected this year.",
+          "publishedAt": "2026-09-20T12:31:00.000Z"
+        }
+      ],
+      "tags": ["consumer", "sentiment", "macro", "inflation"],
+      "confidence": "high"
+    },
+    {
+      "slug": "crypto-regulation-push-collapses",
+      "headline": "Crypto regulation push collapses as industry infighting saps support",
+      "dek": "A stalled rulebook, compliance questions around prediction markets, and a fresh token sale in the same week.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "Seeking Alpha: the crypto regulation push collapsed as industry infighting sapped support.",
+        "Seeking Alpha: Polymarket's rapid growth is raising fraud and compliance concerns.",
+        "Investing.com: Monochrome Exchange announced an IEO of its native token, $MCR."
+      ],
+      "body": [
+        {
+          "text": "Seeking Alpha reported the crypto regulation push has collapsed as infighting within the industry sapped support, leaving the sector without a unified position as lawmakers weigh rules.",
+          "citations": [1]
+        },
+        {
+          "text": "Compliance questions are concentrating around prediction markets: Seeking Alpha reported that Polymarket's rapid growth is raising fraud and compliance concerns.",
+          "citations": [2]
+        },
+        {
+          "text": "Market structure keeps expanding regardless. Investing.com reported that multi-asset trading venue Monochrome Exchange announced an initial exchange offering of its native token, $MCR.",
+          "citations": [3]
+        },
+        {
+          "text": "Uncertainty note: all three items are headline-level wire reports. The wire set contained no regulatory text, no enforcement action and no crypto price data, so the practical effect on trading rules or market access cannot be assessed from these sources alone.",
+          "citations": [1, 2]
+        }
+      ],
+      "whyItMatters": "Crypto market structure is expanding faster than its rulebook, which is where fraud and compliance risk concentrates, and prediction markets are now the fastest-growing edge case.",
+      "editorNote": "This is the corporate and regulatory slot for the day. No single company earnings item in the wire set had two distinct outlets behind it, while the crypto rule stall had two plus a market-structure item, so we clustered those.",
+      "cluster": [
+        {
+          "url": "https://seekingalpha.com/news/4644579-polymarket-s-rapid-growth-raises-fraud-compliance-concerns",
+          "source": "Seeking Alpha",
+          "title": "Polymarket's rapid growth raises fraud, compliance concerns"
+        },
+        {
+          "url": "https://www.investing.com/news/cryptocurrency-news/multiasset-trading-venue-monochrome-exchange-announces-ieo-of-its-native-token-mcr-4908176",
+          "source": "Investing.com",
+          "title": "Multi-Asset Trading Venue Monochrome Exchange Announces IEO of Its Native Token, $MCR"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://seekingalpha.com/news/4644578-crypto-regulation-push-collapses-as-industry-infighting-saps-support",
+          "source": "Seeking Alpha",
+          "title": "Crypto regulation push collapses as industry infighting saps support",
+          "publishedAt": "2026-09-20T14:04:33.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://seekingalpha.com/news/4644579-polymarket-s-rapid-growth-raises-fraud-compliance-concerns",
+          "source": "Seeking Alpha",
+          "title": "Polymarket's rapid growth raises fraud, compliance concerns",
+          "publishedAt": "2026-09-20T14:29:14.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.investing.com/news/cryptocurrency-news/multiasset-trading-venue-monochrome-exchange-announces-ieo-of-its-native-token-mcr-4908176",
+          "source": "Investing.com",
+          "title": "Multi-Asset Trading Venue Monochrome Exchange Announces IEO of Its Native Token, $MCR",
+          "publishedAt": "2026-09-20T05:00:37.000Z"
+        }
+      ],
+      "tags": ["crypto", "regulation", "compliance", "prediction-markets"],
+      "confidence": "low"
     }
   ]
 }
