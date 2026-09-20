@@ -1,0 +1,122 @@
+# Signal Room pipeline
+
+Git-native daily digest: collect -> dedup -> synthesize -> validate -> publish.
+
+```
+collectors (17 sources)          scripts/collectors/*.ts
+        |
+        v
+scripts/collect.ts  --vertical <v|all> --date YYYY-MM-DD [--dry-run] [--limit N]
+        |
+        +--> data/raw/{date}/{source}.jsonl          (gitignored, raw capture)
+        |
+        v
+dedup (normalizeUrl + sha1 + simhash64)  scripts/lib/dedup.ts
+        |
+        +--> data/editions-source/{date}/{vertical}.jsonl   (committed)
+        +--> data/editions-source/{date}/manifest.json      (committed health report)
+        |
+        v
+scripts/synth.ts  --date ... --vertical ... [--provider ...] [--input-json ...]
+        |        (LLM w/ scripts/prompts/{triage,synthesis,editor}.md,
+        |         or agent-assisted --input-json path)
+        v
+src/content/editions/{date}/{vertical}.json      (draft editions)
+        |
+        v
+scripts/validate.ts        (schema mirror + publish gates; exit != 0 on violation)
+        |
+        v
+GitHub Action commit  ->  human approval gate  ->  site publish
+```
+
+## Architecture
+
+- **collect.ts** fans out one collector module per source with a small
+  concurrency limiter (default 4). Each source failure is captured per source
+  (`ok | empty | failed` + error string) in the manifest; a single failing
+  source never aborts the run.
+- **dedup.ts**: `normalizeUrl` canonicalizes URLs (strips `utm_*`, `fbclid`,
+  `gclid`, `amp` params/paths, fragments, trailing slashes, `www.`), `sha1`
+  URL hashes for exact dups, `simhash64(title)` + Hamming distance <= 3 for
+  near-duplicate headlines.
+- **store.ts**: JSONL + manifest IO under `data/`. `data/raw/**` and
+  `data/cache/**` are gitignored; normalized vertical JSONLs and the manifest
+  are committed so the pipeline state is reviewable in git.
+- **synth.ts**: two paths. `--input-json` validates an agent/editor-authored
+  edition JSON and writes it to `src/content/editions/`. Otherwise it calls an
+  LLM provider (gemini | openai | anthropic | openrouter) using env keys. With
+  no key configured it prints a clear message and exits 0 without writing.
+- **validate.ts** hand-rolls the exact checks of `src/content.config.ts` plus
+  publish gates: >= 2 distinct sources per story, every body citation resolves
+  to `sources[]`, exactly 3 tldr bullets, unique slug, cluster >= 1, headline
+  non-empty, valid enums.
+
+## Commands
+
+```bash
+npx tsx scripts/collect.ts --vertical ai --date 2026-09-20 --dry-run
+npx tsx scripts/collect.ts --vertical all --date $(date -u +%F)
+npx tsx scripts/synth.ts --date 2026-09-20 --vertical ai --provider gemini
+npx tsx scripts/synth.ts --date 2026-09-20 --vertical ai --input-json draft.json
+npx tsx scripts/validate.ts src/content/editions
+npm test
+```
+
+## Environment / secrets
+
+| Var | Used for | Required? |
+|-----|----------|-----------|
+| `GEMINI_API_KEY` / `OPENAI_API_KEY` / `ANTHROPIC_API_KEY` / `OPENROUTER_API_KEY` | synth LLM call | optional (skips without) |
+| `SEC_EDGAR_USER_AGENT` | SEC EDGAR full-text search; e.g. `"Jane Doe jane@example.com"` | required for SEC (403 without) |
+| `RELIEFWEB_APPNAME` | ReliefWeb API appname (pre-approved at apidoc.reliefweb.int) | required for reliefweb |
+| `GITHUB_TOKEN` | higher GitHub API rate limits | optional |
+| `FRED_API_KEY` | FRED series updates | optional |
+| `SIGNALROOM_USER_AGENT` | collector User-Agent | optional (default provided) |
+
+## Exclusions and licensing (why some sources are absent)
+
+| Source | Status | Reason |
+|--------|--------|--------|
+| ACLED | **excluded** | commercial license required |
+| Reddit | limited | non-commercial use only; metadata/headlines only |
+| X (Twitter) API | excluded as primary | expensive/closed; secondary references only |
+| YouTube search.list | not used | limited quota; channel RSS instead |
+| GDELT | used | attribution required ("GDELT Project") in every use |
+| arXiv / PubMed / bioRxiv abstracts | metadata only | abstracts are publisher-copyright; own summaries only |
+| SEC EDGAR | used | public domain (17 U.S.C. sec. 105) |
+| Wire (Reuters/AP/Bloomberg) | headline+link only | copyrighted; failing feeds dropped |
+
+## Content rules
+
+- Excerpts in `RawItem` are capped at 400 characters and never contain full
+  article text.
+- YMYL verticals (bio, markets) are no-advice: no investment or medical
+  recommendations, uncertainty is labeled.
+- Every published story needs >= 2 distinct sources and a citation set that
+  fully resolves; the editor pass sets `confidence`.
+
+## Hybrid publishing flow
+
+1. `collect.yml` (cron every 30 min) refreshes raw/normalized data and drafts.
+2. `synth.ts` auto-drafts an edition JSON per vertical (or an agent edits with
+   `--input-json`).
+3. The **AI editor pass** (`scripts/prompts/editor.md`) checks duplicates,
+   unsupported claims, citation integrity, and sets `confidence`.
+4. **Approval gate**: a human reviews the draft commit before the Astro site
+   build/publish picks it up. Auto-committed editions are drafts; only
+   approved editions are published.
+5. `publish.yml` (cron daily 06:00 UTC) runs collect -> synth -> validate,
+   commits drafts only when changed (`git diff --quiet` guard), and includes a
+   keepalive empty commit so the 60-day GitHub inactivity rule never disables
+   the schedules.
+
+## Monthly cost estimate
+
+- Data collection: all sources are free APIs; ~3,000 CI runs/month at ~2 min
+  CPU each is within free-tier GitHub Actions for public repos (or ~$0-$3 on
+  private-repo minutes).
+- Synthesis: one LLM call per vertical per day at ~6-10k input + ~4k output
+  tokens = ~40k tokens/day x 4 verticals ~ 4.8M tokens/month, roughly
+  **$1-5/month** with mid-tier models (Flash/4o-mini class), <$10 with premium
+  models. Empty-key runs are free.

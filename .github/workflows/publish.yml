@@ -1,0 +1,57 @@
+name: publish
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      # 1) refresh raw + normalized data
+      - run: node_modules/.bin/tsx scripts/collect.ts --vertical all
+        env:
+          SEC_EDGAR_USER_AGENT: ${{ secrets.SEC_EDGAR_USER_AGENT }}
+          RELIEFWEB_APPNAME: ${{ secrets.RELIEFWEB_APPNAME }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+
+      # 2) synthesize editions (skips cleanly without an LLM key)
+      - run: node_modules/.bin/tsx scripts/synth.ts --date $(date -u +%F) --vertical all
+        env:
+          LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'gemini' }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+
+      # 3) schema + publish-gate validation; fails the job on any violation
+      - run: node_modules/.bin/tsx scripts/validate.ts src/content/editions
+
+      # 4) commit ONLY when something changed (git diff --quiet guard).
+      #    Editions in src/content/editions are drafts; publishing goes through
+      #    the human approval gate (see docs/pipeline.md).
+      - name: commit drafts
+        run: |
+          git config user.name "signalroom-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/editions-source src/content/editions
+          git diff --cached --quiet || (git commit -m "chore: daily edition drafts $(date -u +%F) [skip ci]" && git push)
+
+      # keepalive: prevents the 60-day inactivity schedule disable
+      - name: keepalive
+        run: |
+          git commit --allow-empty -m "chore: workflow keepalive [skip ci]" && git push || true

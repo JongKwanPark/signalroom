@@ -1,0 +1,33 @@
+name: collect
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      # collect raw + normalized JSONL (source failures are captured, not fatal)
+      - run: node_modules/.bin/tsx scripts/collect.ts --vertical all
+
+      # keepalive: repo must show activity at least every 60 days or GitHub
+      # disables scheduled workflows; this empty commit counts as activity.
+      - name: keepalive
+        run: |
+          git config user.name "signalroom-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git commit --allow-empty -m "chore: workflow keepalive [skip ci]" && git push || true

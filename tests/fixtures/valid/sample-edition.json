@@ -1,0 +1,74 @@
+{
+  "date": "2026-09-20",
+  "generatedAt": "2026-09-20T06:00:00Z",
+  "vertical": "ai",
+  "title": "AI signals for 2026-09-20",
+  "summary": "Open-weight model releases accelerate while two independent labs report matching benchmark gains.",
+  "stories": [
+    {
+      "slug": "openai-open-weights-release",
+      "headline": "OpenAI releases new open-weight model",
+      "dek": "The open-weight gap narrows again.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "OpenAI released a new open-weight model on 2026-09-20.",
+        "The weights are downloadable under a permissive license.",
+        "Independent benchmark runs corroborate the published numbers."
+      ],
+      "body": [
+        {
+          "text": "OpenAI shipped a new open-weight model, continuing the company's move toward open distribution.",
+          "citations": [1]
+        },
+        {
+          "text": "Independent repository activity and benchmark runs corroborate the release within hours of publication.",
+          "citations": [2]
+        },
+        {
+          "text": "Community discussion points to strong small-context performance, with caveats on long-context behavior still unverified.",
+          "citations": [3]
+        }
+      ],
+      "whyItMatters": "Open weights compress the price floor for capable models and pressure proprietary-only competitors.",
+      "editorNote": "Release confirmed by the company's own announcement plus independent repo and community reports.",
+      "cluster": [
+        {
+          "url": "https://github.com/example/release-benchmarks",
+          "source": "github",
+          "title": "Independent benchmark harness for the release"
+        },
+        {
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/abc123/",
+          "source": "reddit",
+          "title": "Local run results thread"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://openai.com/blog/open-weight-model-2026",
+          "source": "wire",
+          "title": "OpenAI announcement",
+          "publishedAt": "2026-09-20T08:00:00Z"
+        },
+        {
+          "id": 2,
+          "url": "https://github.com/example/release-benchmarks",
+          "source": "github",
+          "title": "Benchmark harness repository",
+          "publishedAt": "2026-09-20T10:00:00Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/abc123/",
+          "source": "reddit",
+          "title": "Local run results thread",
+          "publishedAt": "2026-09-20T11:00:00Z"
+        }
+      ],
+      "tags": ["llm", "open-weights"],
+      "confidence": "high"
+    }
+  ]
+}
