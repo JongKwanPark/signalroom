@@ -1,1 +1,444 @@
-{"date":"2026-09-20","generatedAt":"2026-09-20T15:15:53Z","stories":[{"body":[{"citations":[1],"text":"Nature reported that a team of AI systems discovered a promising lung-cancer drug candidate, a case study in machine-led hypothesis generation moving from computation toward a therapeutic lead. The report frames the result as evidence that multi-agent AI setups can now produce candidates worth experimental follow-up, not just retrospective predictions."},{"citations":[2,4],"text":"The clinical context for new lung-cancer drugs keeps widening. STAT covered research on a rare genetic variant that sharply raises lung-cancer risk in never-smokers, a reminder that the patient population extends well beyond smoking-related disease. Separately, the registry lists active radiotherapy studies that define the current standard new drugs must beat, including NBTXR3 with radiation alone for locally advanced non-small cell lung cancer at MD Anderson."},{"citations":[3,4],"text":"A second registry entry, a prospective study of intensity-modulated proton therapy for small cell lung cancer at Emory, shows the comparator landscape is itself still being optimized. Any AI-discovered candidate will therefore be judged against moving targets on both the systemic and radiation sides, and the sources give no efficacy numbers yet, so this story is about pipeline promise rather than proven benefit."}],"cluster":[{"source":"statnews","title":"STAT+: Why do ‘never-smokers’ get lung cancer? In some cases, rare genetic variant may be a factor","url":"https://www.statnews.com/2026/09/17/rare-gene-variant-boosts-lung-cancer-risk-25-fold-in-non-smokers/?utm_campaign=rss"},{"source":"clinicaltrials","title":"NBTXR3 With Radiation Therapy Alone for Locally-advanced Non-small Cell Lung Cancer","url":"https://clinicaltrials.gov/study/NCT07224152"},{"source":"clinicaltrials","title":"Prospective Study of Intensity-Modulated Proton Therapy (IMPT) for Small Cell Lung Cancer","url":"https://clinicaltrials.gov/study/NCT04342429"}],"confidence":"medium","dek":"Machine-discovered candidates meet a disease that keeps expanding beyond its classic risk profile.","editorNote":"Picked because it pairs the week's most technologist-friendly bio headline with the clinical reality that will judge it, using registry entries as grounding.","headline":"How a team of AIs discovered a promising lung-cancer drug","readMinutes":6,"slug":"how-a-team-of-ais-discovered-a-promising-lung-cancer-drug","sources":[{"id":1,"publishedAt":"2026-09-17T00:00:00.000Z","source":"journal_rss","title":"How a team of AIs discovered a promising lung-cancer drug","url":"https://www.nature.com/articles/d41586-026-02954-y"},{"id":2,"publishedAt":"2026-09-17T18:00:00.000Z","source":"journal_rss","title":"STAT+: Why do ‘never-smokers’ get lung cancer? In some cases, rare genetic variant may be a factor","url":"https://www.statnews.com/2026/09/17/rare-gene-variant-boosts-lung-cancer-risk-25-fold-in-non-smokers/?utm_campaign=rss"},{"id":3,"publishedAt":"2026-09-18T00:00:00.000Z","source":"clinicaltrials","title":"NBTXR3 With Radiation Therapy Alone for Locally-advanced Non-small Cell Lung Cancer","url":"https://clinicaltrials.gov/study/NCT07224152"},{"id":4,"publishedAt":"2026-09-17T00:00:00.000Z","source":"clinicaltrials","title":"Prospective Study of Intensity-Modulated Proton Therapy (IMPT) for Small Cell Lung Cancer","url":"https://clinicaltrials.gov/study/NCT04342429"}],"tags":["lung-cancer","ai-drug-discovery","radiotherapy","genetics"],"tldr":["Nature reported an AI team discovering a lung-cancer drug candidate, moving machine-led design from prediction to a testable lead.","STAT covered a rare variant implicated in never-smoker lung cancer, widening the at-risk population beyond smoking history.","Registry entries show radiotherapy comparators (NBTXR3 plus radiation, proton therapy for SCLC) still being optimized in parallel."],"type":"DEEP","whyItMatters":"AI-discovered drugs only matter if they survive contact with real patient heterogeneity and improving standards of care, and this cluster shows both sides of that test in one frame."},{"body":[{"citations":[1],"text":"Nature reported that cognitive resilience helps predict Alzheimer's dementia, pointing to protective factors that delay clinical onset even when pathology is present. The finding matters because it shifts part of the prediction problem from damage alone to the brain's capacity to cope with damage."},{"citations":[2],"text":"A new bioRxiv preprint adds a tool for studying that coping capacity: a lifespan single-cell atlas of the developing human hippocampus, used to benchmark familial Alzheimer's disease brain organoids. A developmental reference map gives organoid models something to be measured against, which should make early-disease modeling more interpretable."},{"citations":[1,3],"text":"Meanwhile a report on blood thinners showing an unexpected signal in Alzheimer's patients hints at vascular contributions to dementia risk, though the source gives headline-level detail only. Taken together, the three items sketch a field looking beyond amyloid in three directions at once: resilience, development, and vasculature."}],"cluster":[{"source":"biorxiv","title":"A lifespan single-cell atlas of the human developing hippocampus benchmarks familial Alzheimer's disease brain organoids.","url":"https://doi.org/10.64898/2026.09.18.752796"},{"source":"sciencedaily","title":"These blood thinners may have an unexpected benefit for Alzheimer’s patients","url":"https://www.sciencedaily.com/releases/2026/09/260917003732.htm"}],"confidence":"medium","dek":"Prediction, modeling, and vascular hints converge on a broader view of dementia risk.","editorNote":"Picked because the resilience finding reframes dementia prediction, and the atlas preprint gives it a concrete modeling counterpart from the same week.","headline":"Cognitive resilience helps to predict Alzheimer’s dementia","readMinutes":5,"slug":"cognitive-resilience-helps-to-predict-alzheimers-dementia","sources":[{"id":1,"publishedAt":"2026-09-18T00:00:00.000Z","source":"journal_rss","title":"Cognitive resilience helps to predict Alzheimer’s dementia","url":"https://www.nature.com/articles/d41586-026-02897-4"},{"id":2,"publishedAt":"2026-09-20","source":"biorxiv","title":"A lifespan single-cell atlas of the human developing hippocampus benchmarks familial Alzheimer's disease brain organoids.","url":"https://doi.org/10.64898/2026.09.18.752796"},{"id":3,"publishedAt":"2026-09-18T09:48:31.000Z","source":"journal_rss","title":"These blood thinners may have an unexpected benefit for Alzheimer’s patients","url":"https://www.sciencedaily.com/releases/2026/09/260917003732.htm"}],"tags":["alzheimers","dementia","organoids","single-cell"],"tldr":["Nature reported cognitive resilience as a predictor of Alzheimer's dementia, foregrounding protective capacity alongside pathology.","A bioRxiv preprint released a lifespan single-cell atlas of the developing hippocampus to benchmark familial Alzheimer's organoids.","A separate report flagged an unexpected Alzheimer's signal for blood thinners, pointing at vascular contributions."],"type":"DEEP","whyItMatters":"If dementia risk can be predicted from resilience as well as damage, prevention trials can stratify better and patients get earlier, more honest risk pictures."},{"body":[{"citations":[1,2],"text":"STAT reported the FDA approval of a new gene therapy for Sanfilippo syndrome, an ultra-rare disease. The FDA's own announcement confirms the key facts: the product is Fayuvi (rebisufligene etisparvovec-hopf), the first treatment for pediatric patients with mucopolysaccharidosis type IIIA, also called Sanfilippo syndrome type A, a rare inherited disease that progressively damages the brain and nervous system. Until this approval, care was limited to managing symptoms."},{"citations":[2],"text":"The FDA granted the approval to Ultragenyx Pharmaceutical, with Orphan Drug, Fast Track, and Breakthrough Therapy designations attached. The indication covers pediatric patients with preserved neurodevelopmental function, which defines a narrow treatment window: children must be caught before developmental losses accumulate."},{"citations":[1,3],"text":"In the same week, Nature reported an RNA therapy case in which a man with a rare motor-neuron disease improved after treatment, described as a first for RNA therapy. One approval and one striking case do not make a platform verdict, but together they mark a week in which genetic medicines for severe neurological disease moved from promise toward documented patient impact."}],"cluster":[{"source":"fda","title":"FDA Approves First Gene Therapy for Pediatric Patients with Sanfilippo Syndrome Type A","url":"https://www.fda.gov/news-events/press-announcements/fda-approves-first-gene-therapy-pediatric-patients-sanfilippo-syndrome-type"},{"source":"nature","title":"First for RNA therapy: man with rare motor-neuron disease improves after treatment","url":"https://www.nature.com/articles/d41586-026-02945-z"},{"source":"reuters","title":"US FDA approves Ultragenyx's gene therapy for rare disorder","url":"https://www.reuters.com/business/healthcare-pharmaceuticals/us-fda-approves-ultragenyxs-gene-therapy-rare-disorder-2026-09-17/"}],"confidence":"high","dek":"Fayuvi becomes the first therapy for Sanfilippo type A, as an RNA therapy case shows parallel progress.","editorNote":"Picked as the week's clearest regulatory event: a first-ever approval in a fatal pediatric disease, verified against the FDA announcement itself.","headline":"STAT+: FDA approves a new gene therapy for Sanfilippo syndrome, an ultra-rare disease","readMinutes":5,"slug":"fda-approves-a-new-gene-therapy-for-sanfilippo-syndrome","sources":[{"id":1,"publishedAt":"2026-09-17T19:55:46.000Z","source":"journal_rss","title":"STAT+: FDA approves a new gene therapy for Sanfilippo syndrome, an ultra-rare disease","url":"https://www.statnews.com/2026/09/17/sanfilippo-syndrome-treatment-ultragenyx-approval/?utm_campaign=rss"},{"id":2,"publishedAt":"2026-09-17T00:00:00.000Z","source":"fda","title":"FDA Approves First Gene Therapy for Pediatric Patients with Sanfilippo Syndrome Type A","url":"https://www.fda.gov/news-events/press-announcements/fda-approves-first-gene-therapy-pediatric-patients-sanfilippo-syndrome-type"},{"id":3,"publishedAt":"2026-09-18T00:00:00.000Z","source":"journal_rss","title":"First for RNA therapy: man with rare motor-neuron disease improves after treatment","url":"https://www.nature.com/articles/d41586-026-02945-z"}],"tags":["gene-therapy","fda","rare-disease","sanfilippo"],"tldr":["STAT reported the FDA approval of a gene therapy for Sanfilippo syndrome, an ultra-rare pediatric disease.","The FDA announcement confirms Fayuvi (rebisufligene etisparvovec-hopf) by Ultragenyx as the first treatment for MPS IIIA, carrying Orphan, Fast Track, and Breakthrough designations.","Nature separately reported a first: a man with rare motor-neuron disease improving after RNA therapy."],"type":"BRIEF","whyItMatters":"First-ever approvals in fatal pediatric diseases set the template for access, pricing, and follow-up evidence for every genetic medicine behind them."},{"body":[{"citations":[1],"text":"A review of artificial intelligence in clinical trials surveyed the state of the evidence, the gaps, and next steps. Its premise is that AI methods are entering trial design, recruitment, and analysis faster than the evidence base for their benefit, and the paper aims to map what is actually known versus assumed."},{"citations":[2,1],"text":"A STAT interview with a geriatrician supplies the cautionary counterpart, arguing that AI tools for older adults deserve careful scrutiny. Older patients carry multimorbidity, polypharmacy, and atypical presentations that training datasets often underrepresent, so performance claims from general populations may not transfer."},{"citations":[3,4],"text":"The registry and literature show the evaluation pipeline in motion. HeartFlow's AI-derived plaque quantification study pairs coronary CT angiography with AI plaque analysis to guide coronary disease management, a prospective test of an AI measurement inside a real care pathway. And a published study of an AI preoperative planning system for high tibial osteotomy reported significantly faster planning with accuracy comparable to surgeons, a bounded task where speed gains are directly measurable."}],"cluster":[{"source":"statnews","title":"STAT+: A geriatrician explains why AI for older adults deserves careful scrutiny","url":"https://www.statnews.com/2026/09/18/geriatrician-explains-why-ai-for-older-adults-deserves-careful-scrutiny/?utm_campaign=rss"},{"source":"clinicaltrials","title":"AI DErived Plaque Quantification: CCTA and AI-QCPA for Determining Effective CAD Management","url":"https://clinicaltrials.gov/study/NCT06376851"},{"source":"pubmed","title":"An Artificial Intelligence-Based Preoperative Planning System for High Tibial Osteotomy Significantly Enhances Planning Speed With Comparable Accuracy to Surgeons","url":"https://pubmed.ncbi.nlm.nih.gov/42763426/"}],"confidence":"medium","dek":"Evidence reviews and geriatric caution meet prospective tests of AI inside real care pathways.","editorNote":"Picked because AI-in-medicine badly needs its evidence chapter, and this week supplied the review, the skeptic, and two live evaluations at once.","headline":"Artificial intelligence in clinical trials-state of the evidence, gaps, and next steps","readMinutes":5,"slug":"artificial-intelligence-in-clinical-trials-evidence-gaps-next-steps","sources":[{"id":1,"publishedAt":"2026/09/12 00:00","source":"pubmed","title":"Artificial intelligence in clinical trials-state of the evidence, gaps, and next steps","url":"https://pubmed.ncbi.nlm.nih.gov/42763541/"},{"id":2,"publishedAt":"2026-09-18T08:30:00.000Z","source":"journal_rss","title":"STAT+: A geriatrician explains why AI for older adults deserves careful scrutiny","url":"https://www.statnews.com/2026/09/18/geriatrician-explains-why-ai-for-older-adults-deserves-careful-scrutiny/?utm_campaign=rss"},{"id":3,"publishedAt":"2026-09-15T00:00:00.000Z","source":"clinicaltrials","title":"AI DErived Plaque Quantification: CCTA and AI-QCPA for Determining Effective CAD Management","url":"https://clinicaltrials.gov/study/NCT06376851"},{"id":4,"publishedAt":"2026/09/19 00:00","source":"pubmed","title":"An Artificial Intelligence-Based Preoperative Planning System for High Tibial Osteotomy Significantly Enhances Planning Speed With Comparable Accuracy to Surgeons","url":"https://pubmed.ncbi.nlm.nih.gov/42763426/"}],"tags":["ai","clinical-trials","evidence","cardiology"],"tldr":["A review paper mapped the state of evidence, gaps, and next steps for AI in clinical trials.","A geriatrician argued AI tools for older adults need extra scrutiny given underrepresented complexity in training data.","Live evaluations include HeartFlow's AI plaque quantification study and an AI osteotomy planner reporting faster planning at surgeon-comparable accuracy."],"type":"DATA","whyItMatters":"Hospitals are buying AI tools now, so distinguishing measured performance from marketing determines whether patients benefit or absorb the errors."},{"body":[{"citations":[1],"text":"A bioRxiv preprint reported that changes in neural dynamics of brain activity and connectivity independently predict post-stroke aphasia recovery. If brain-signal trajectories forecast language recovery, rehabilitation could be stratified early rather than by wait-and-see."},{"citations":[2,1],"text":"A qualitative study on user needs for an AI-empowered daily-living training system after stroke adds the patient side of the same problem. Recovery technology only works if stroke survivors can and will use it at home, so eliciting user needs before deployment is the unglamorous step that decides adoption."},{"citations":[3],"text":"A registry entry tracking change in serum biomarkers after endovascular treatment for acute anterior circulation large vessel occlusion points to the biological layer: blood-based signals measured around thrombectomy that might one day complement brain-dynamic forecasts. The entry records the study's existence and design, not outcomes, so this is a watch item rather than a result."}],"cluster":[{"source":"pubmed","title":"User Needs for an Artificial Intelligence-Empowered Basic Activities of Daily Living Training System After Stroke: A Qualitative Study","url":"https://pubmed.ncbi.nlm.nih.gov/42763734/"},{"source":"clinicaltrials","title":"Change in Serum Biomarkers After Endovascular Treatment for Acute Anterior Circulation Large Vessel Occlusion","url":"https://clinicaltrials.gov/study/NCT06383182"}],"confidence":"medium","dek":"Brain dynamics forecast language recovery while design research asks whether patients can use the tools.","editorNote":"Picked because stroke recovery is where prediction, usability, and biology must combine, and this week had one of each.","headline":"Changes in Neural Dynamics of Brain Activity and Connectivity Independently Predict Post-Stroke Aphasia Recovery","readMinutes":5,"slug":"neural-dynamics-predict-post-stroke-aphasia-recovery","sources":[{"id":1,"publishedAt":"2026-09-20","source":"biorxiv","title":"Changes in Neural Dynamics of Brain Activity and Connectivity Independently Predict Post-Stroke Aphasia Recovery","url":"https://doi.org/10.64898/2026.09.17.751646"},{"id":2,"publishedAt":"2026/09/15 00:00","source":"pubmed","title":"User Needs for an Artificial Intelligence-Empowered Basic Activities of Daily Living Training System After Stroke: A Qualitative Study","url":"https://pubmed.ncbi.nlm.nih.gov/42763734/"},{"id":3,"publishedAt":"2026-09-17T00:00:00.000Z","source":"clinicaltrials","title":"Change in Serum Biomarkers After Endovascular Treatment for Acute Anterior Circulation Large Vessel Occlusion","url":"https://clinicaltrials.gov/study/NCT06383182"}],"tags":["stroke","aphasia","neurorehabilitation","biomarkers"],"tldr":["A bioRxiv preprint found brain activity and connectivity dynamics independently predict aphasia recovery after stroke.","A qualitative study mapped user needs for AI-assisted daily-living training after stroke, targeting home adoption.","A registry study is tracking serum biomarker changes around endovascular stroke treatment as a complementary signal."],"type":"DATA","whyItMatters":"Stroke is a leading cause of adult disability, and recovery forecasting plus usable home tools would change rehabilitation from generic schedules to personalized plans."},{"body":[{"citations":[1],"text":"STAT reported the administration touting pharma deals intended to bring cheaper drugs to state Medicaid programs. The headline signals a pricing strategy routed through state programs rather than federal price-setting, which would make state participation the variable to watch."},{"citations":[2],"text":"The payment-conflict backdrop is visible in a second STAT item: HCA hospitals suing an out-of-state Blue Cross Blue Shield plan in a fight over denied claims and prior authorization. Pricing announcements land in a system where providers and payers are already litigating who pays for care."},{"citations":[3],"text":"A Mayo Clinic registry entry for WE-CARE community health forums, aimed at increasing breast cancer screening and trial participation among rural and low-income women, shows the access problem from the delivery side. Cheaper drugs help only if screening, diagnosis, and trial enrollment reach the same populations the Medicaid proposal targets."}],"cluster":[{"source":"statnews","title":"STAT+: In a fight over denied claims, HCA sues out-of-state Blue Cross Blue Shield plan","url":"https://www.statnews.com/2026/09/18/hca-hospitals-sue-independence-blue-cross-prior-authorization/?utm_campaign=rss"},{"source":"clinicaltrials","title":"WE-CARE Community Health Forums to Increase Breast Cancer Screening and Clinical Trial Participation for Rural and Low Income Women","url":"https://clinicaltrials.gov/study/NCT07644702"},{"source":"statnews","title":"STAT+: Pharmalittle: We’re reading about licensing deals with China, making drugs in space, and more","url":"https://www.statnews.com/pharmalot/2026/09/18/rules-for-china-licensing-deals-making-drugs-in-space/?utm_campaign=rss"}],"confidence":"low","dek":"Medicaid drug discounts, a payer lawsuit, and a rural screening project trace the price-to-patient chain.","editorNote":"Picked because pricing news without the delivery context misleads, and this cluster keeps the discount headline tethered to the access machinery.","headline":"STAT+: Trump touts pharma deals to offer cheaper drugs to state Medicaid programs","readMinutes":4,"slug":"trump-touts-pharma-deals-cheaper-drugs-state-medicaid","sources":[{"id":1,"publishedAt":"2026-09-18T20:22:36.000Z","source":"journal_rss","title":"STAT+: Trump touts pharma deals to offer cheaper drugs to state Medicaid programs","url":"https://www.statnews.com/2026/09/18/trump-touts-state-participation-generous-medicaid-drug-discount-program/?utm_campaign=rss"},{"id":2,"publishedAt":"2026-09-18T16:41:53.000Z","source":"journal_rss","title":"STAT+: In a fight over denied claims, HCA sues out-of-state Blue Cross Blue Shield plan","url":"https://www.statnews.com/2026/09/18/hca-hospitals-sue-independence-blue-cross-prior-authorization/?utm_campaign=rss"},{"id":3,"publishedAt":"2026-09-14T00:00:00.000Z","source":"clinicaltrials","title":"WE-CARE Community Health Forums to Increase Breast Cancer Screening and Clinical Trial Participation for Rural and Low Income Women","url":"https://clinicaltrials.gov/study/NCT07644702"}],"tags":["pricing","medicaid","access","payers"],"tldr":["STAT reported pharma deals pitched as bringing cheaper drugs to state Medicaid programs, with state participation as the open variable.","HCA hospitals sued an out-of-state Blue Cross plan over denied claims, showing payer-provider payment fights running in parallel.","A Mayo registry project targets breast screening and trial enrollment for rural and low-income women, the delivery-side counterpart."],"type":"BRIEF","whyItMatters":"Drug prices only become patient savings if payers reimburse and delivery reaches underserved groups, so the discount headline must be read with both companions."}],"summary":"Gene therapy reached a first-ever FDA approval for Sanfilippo type A, AI-discovered drugs and AI trial tools advanced with evidence reviews urging caution, and dementia, stroke, and drug-pricing stories each paired a headline with its harder context.","title":"Bio: a first gene-therapy approval, AI's evidence test, and resilience in dementia","vertical":"bio"}
+{
+  "date": "2026-09-20",
+  "generatedAt": "2026-09-20T22:12:00.000Z",
+  "vertical": "bio",
+  "title": "Bio & health: Alzheimer's atlases, AI's evidence gap, and a rare-disease approval",
+  "summary": "The day's research feed leaned toward neurobiology and evidence quality: new Alzheimer's disease models and cohorts, a first-in-human amygdala ultrasound trial, and a set of papers and commentary on how AI should be evaluated before it reaches patients. A gene therapy for an ultra-rare disease and a broad trial pipeline filled out the rest. Nothing here is medical advice.",
+  "stories": [
+    {
+      "slug": "alzheimers-atlas-cohorts-and-repurposing",
+      "headline": "A lifespan single-cell atlas of the human developing hippocampus benchmarks familial Alzheimer's disease brain organoids.",
+      "dek": "New disease models, an Amish cohort study and an analysis of repurposing candidates all point at the same target from different directions.",
+      "type": "DEEP",
+      "readMinutes": 5,
+      "tldr": [
+        "A bioRxiv preprint presents a lifespan single-cell atlas of the developing human hippocampus as a benchmark for familial Alzheimer's disease brain organoids.",
+        "A second preprint, BRIDGE-AD, reports Alzheimer's disease effectors through interpretable integration of large-scale omics data.",
+        "A medRxiv study examines heritability and rare-variant contributions to Alzheimer disease in the Midwestern Amish, and another analyzes varenicline as a repurposable candidate for ADRD prevention."
+      ],
+      "body": [
+        {
+          "text": "A bioRxiv preprint describes a lifespan single-cell atlas of the human developing hippocampus intended to benchmark familial Alzheimer's disease brain organoids. A separate bioRxiv preprint, BRIDGE-AD, says it reveals Alzheimer's disease effectors through interpretable large-scale omics integration. Both are preprints and have not completed peer review.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "Population genetics is the second strand. A medRxiv study quantifies heritability and rare-variant contributions to Alzheimer disease in the Midwestern Amish, and a companion medRxiv analysis follows age-related traits and cognitive function in the Collaborative Amish Aging and Memory Project.",
+          "citations": [3, 5]
+        },
+        {
+          "text": "Treatment hypotheses appear as computational work rather than trial results. One medRxiv analysis evaluates varenicline as a repurposable drug candidate for ADRD prevention, and a summary in the science-news feed describes research on whether some blood thinners may have an unexpected benefit for Alzheimer's patients.",
+          "citations": [4, 6]
+        }
+      ],
+      "whyItMatters": "Alzheimer's drug development has repeatedly failed in late-stage trials, which raises the value of better disease models and of separating genuine causal signals from observational associations. The day's output is model- and cohort-building work that later trials depend on.",
+      "editorNote": "All items here are preprints or headline-level summaries without peer review, so confidence is medium and no effect sizes are reported because the collection does not include abstracts.",
+      "cluster": [
+        {
+          "url": "https://doi.org/10.64898/2026.09.17.26363309",
+          "source": "medrxiv",
+          "title": "Heritability and rare variant contributions to Alzheimer disease in the Midwestern Amish"
+        },
+        {
+          "url": "https://doi.org/10.64898/2026.09.17.26363232",
+          "source": "medrxiv",
+          "title": "Varenicline as a Repurposable Drug Candidate for ADRD Prevention"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://doi.org/10.64898/2026.09.18.752796",
+          "source": "biorxiv",
+          "title": "A lifespan single-cell atlas of the human developing hippocampus benchmarks familial Alzheimer's disease brain organoids.",
+          "publishedAt": "2026-09-20"
+        },
+        {
+          "id": 2,
+          "url": "https://doi.org/10.64898/2026.09.14.750802",
+          "source": "biorxiv",
+          "title": "BRIDGE-AD reveals Alzheimer's disease effectors through interpretable large-scale omics integration",
+          "publishedAt": "2026-09-20"
+        },
+        {
+          "id": 3,
+          "url": "https://doi.org/10.64898/2026.09.17.26363309",
+          "source": "medrxiv",
+          "title": "Heritability and rare variant contributions to Alzheimer disease in the Midwestern Amish",
+          "publishedAt": "2026-09-20"
+        },
+        {
+          "id": 4,
+          "url": "https://doi.org/10.64898/2026.09.17.26363232",
+          "source": "medrxiv",
+          "title": "Varenicline as a Repurposable Drug Candidate for ADRD Prevention",
+          "publishedAt": "2026-09-20"
+        },
+        {
+          "id": 5,
+          "url": "https://doi.org/10.64898/2026.09.17.26363351",
+          "source": "medrxiv",
+          "title": "A longitudinal study of age-related traits and cognitive function: The Collaborative Amish Aging and Memory Project (CAAMP)",
+          "publishedAt": "2026-09-20"
+        },
+        {
+          "id": 6,
+          "url": "https://www.sciencedaily.com/releases/2026/09/260917003732.htm",
+          "source": "journal_rss",
+          "title": "These blood thinners may have an unexpected benefit for Alzheimer's patients",
+          "publishedAt": "2026-09-18T09:48:31.000Z"
+        }
+      ],
+      "tags": ["alzheimers", "neuroscience", "preprints", "genomics"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "artificial-intelligence-clinical-trials-evidence",
+      "headline": "Artificial intelligence in clinical trials-state of the evidence, gaps, and next steps",
+      "dek": "Papers on AI in trials, patient-facing generative AI and a geriatrician's commentary converge on evaluation as the binding constraint.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "A PubMed review examines the state of the evidence for AI in clinical trials, its gaps and next steps.",
+        "Related papers evaluate patient-facing generative AI and an AI preoperative planning system for high tibial osteotomy; an ISPOR task force reports good practices for generative AI in systematic reviews.",
+        "A STAT commentary argues AI for older adults deserves careful scrutiny."
+      ],
+      "body": [
+        {
+          "text": "A PubMed review titled \"Artificial intelligence in clinical trials-state of the evidence, gaps, and next steps\" surveys where AI has been used in trials and where the evidence is thin. A second paper studies the interpretive influence and system-level evaluation of patient-facing generative AI, shifting scrutiny from model accuracy to how patients read its output.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "Applied evaluations continue in surgical and evidence-synthesis settings. One study reports that an AI-based preoperative planning system for high tibial osteotomy significantly enhances planning speed with accuracy comparable to surgeons, and an ISPOR special task force sets out good practices for using generative AI in systematic literature reviews.",
+          "citations": [3, 5]
+        },
+        {
+          "text": "Commentary in the science and health press adds a population-specific caution. A STAT piece argues that AI for older adults deserves careful scrutiny, as told by a geriatrician, focusing on where deployment assumptions may not hold for that group.",
+          "citations": [4]
+        }
+      ],
+      "whyItMatters": "AI is entering care through trials, patient-facing tools and evidence synthesis at once. The recurring finding across these items is that evaluation design, not model capability, determines whether the tooling helps.",
+      "editorNote": "Abstracts are not stored in the collection, so each item is described from its title and venue; no specific performance figures are asserted beyond the wording of the titles.",
+      "cluster": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42763541/",
+          "source": "pubmed",
+          "title": "Artificial intelligence in clinical trials-state of the evidence, gaps, and next steps"
+        },
+        {
+          "url": "https://www.statnews.com/2026/09/18/geriatrician-explains-why-ai-for-older-adults-deserves-careful-scrutiny/?utm_campaign=rss",
+          "source": "journal_rss",
+          "title": "STAT+: A geriatrician explains why AI for older adults deserves careful scrutiny"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42763541/",
+          "source": "pubmed",
+          "title": "Artificial intelligence in clinical trials-state of the evidence, gaps, and next steps",
+          "publishedAt": "2026-09-12 00:00"
+        },
+        {
+          "id": 2,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42763270/",
+          "source": "pubmed",
+          "title": "Patient-facing generative artificial intelligence: interpretive influence and system-level evaluation",
+          "publishedAt": "2026-09-19 00:00"
+        },
+        {
+          "id": 3,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42763426/",
+          "source": "pubmed",
+          "title": "An Artificial Intelligence-Based Preoperative Planning System for High Tibial Osteotomy Significantly Enhances Planning Speed With Comparable Accuracy to Surgeons",
+          "publishedAt": "2026-09-19 00:00"
+        },
+        {
+          "id": 4,
+          "url": "https://www.statnews.com/2026/09/18/geriatrician-explains-why-ai-for-older-adults-deserves-careful-scrutiny/?utm_campaign=rss",
+          "source": "journal_rss",
+          "title": "STAT+: A geriatrician explains why AI for older adults deserves careful scrutiny",
+          "publishedAt": "2026-09-18T08:30:00.000Z"
+        },
+        {
+          "id": 5,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42763092/",
+          "source": "pubmed",
+          "title": "Generative Artificial Intelligence for Systematic Literature Reviews: A Good Practices Report of an ISPOR Special Task Force",
+          "publishedAt": "2026-09-19 00:00"
+        }
+      ],
+      "tags": ["ai-in-medicine", "clinical-trials", "evidence", "evaluation"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "gene-therapy-sanfilippo-and-preclinical",
+      "headline": "STAT+: FDA approves a new gene therapy for Sanfilippo syndrome, an ultra-rare disease",
+      "dek": "An approval for an ultra-rare disease arrived alongside preclinical gene-therapy work and a review of CRISPR-based biosensors.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "STAT reported that the FDA approved a new gene therapy for Sanfilippo syndrome, described as an ultra-rare disease.",
+        "A bioRxiv preprint reports that neonatal AAV-SIL1 gene therapy prevents Marinesco-Sjogren syndrome in mice.",
+        "A PubMed review covers signal transduction and engineering strategies for CRISPR-Cas biosensors."
+      ],
+      "body": [
+        {
+          "text": "The FDA approved a new gene therapy for Sanfilippo syndrome, according to STAT, which frames the condition as ultra-rare. The collection carries the approval at headline level, without label details, trial data or pricing.",
+          "citations": [1]
+        },
+        {
+          "text": "Preclinical work in the same feed covers a related modality: a bioRxiv preprint reports that neonatal AAV-SIL1 gene therapy prevents Marinesco-Sjogren syndrome in mice, a mouse-model result that has not been evaluated in humans.",
+          "citations": [2]
+        },
+        {
+          "text": "On the platform side, a PubMed review examines signal transduction and engineering strategies for CRISPR-Cas biosensors, a diagnostic rather than therapeutic use of gene-editing tools.",
+          "citations": [3]
+        }
+      ],
+      "whyItMatters": "Approvals in ultra-rare disease validate gene therapy as a commercial pathway even for very small patient populations, while the preclinical and biosensor items show the platform widening into new diseases and into diagnostics.",
+      "editorNote": "This is a headline-level approval report; the collection contains no clinical data, so the story states the approval and the adjacent research without extrapolating outcomes.",
+      "cluster": [
+        {
+          "url": "https://www.statnews.com/2026/09/17/sanfilippo-syndrome-treatment-ultragenyx-approval/?utm_campaign=rss",
+          "source": "journal_rss",
+          "title": "STAT+: FDA approves a new gene therapy for Sanfilippo syndrome, an ultra-rare disease"
+        },
+        {
+          "url": "https://doi.org/10.64898/2026.09.14.751587",
+          "source": "biorxiv",
+          "title": "Neonatal AAV-SIL1 gene therapy prevents Marinesco-Sjogren syndrome in mice"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.statnews.com/2026/09/17/sanfilippo-syndrome-treatment-ultragenyx-approval/?utm_campaign=rss",
+          "source": "journal_rss",
+          "title": "STAT+: FDA approves a new gene therapy for Sanfilippo syndrome, an ultra-rare disease",
+          "publishedAt": "2026-09-17T19:55:46.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://doi.org/10.64898/2026.09.14.751587",
+          "source": "biorxiv",
+          "title": "Neonatal AAV-SIL1 gene therapy prevents Marinesco-Sjogren syndrome in mice",
+          "publishedAt": "2026-09-20"
+        },
+        {
+          "id": 3,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42763182/",
+          "source": "pubmed",
+          "title": "Signal transduction and engineering strategies of CRISPR-Cas biosensors: A review",
+          "publishedAt": "2026-11-08 00:00"
+        }
+      ],
+      "tags": ["gene-therapy", "fda", "rare-disease", "crispr"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "amygdala-ultrasound-depression-anxiety",
+      "headline": "Low-Intensity Focused Ultrasound of the Amygdala in Depression and Anxiety: A First-in-Human Active-Controlled Trial",
+      "dek": "A first-in-human neuromodulation trial overlaps with basic work on how amygdala neurons join valence-related ensembles and with a developmental study of anxiety.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "A medRxiv preprint reports a first-in-human, active-controlled trial of low-intensity focused ultrasound of the amygdala in depression and anxiety.",
+        "A bioRxiv preprint studies how basolateral amygdala neurons await oscillatory recruitment into valence-relevant ensembles.",
+        "A second medRxiv study replicates a developmental pathway to anxiety moderated by neural responsivity to unexpected stimuli."
+      ],
+      "body": [
+        {
+          "text": "A medRxiv preprint describes a first-in-human, active-controlled trial of low-intensity focused ultrasound aimed at the amygdala in depression and anxiety. As a preprint, it has not completed peer review, and the collection does not include its results.",
+          "citations": [1]
+        },
+        {
+          "text": "The basic-science counterpart is a bioRxiv preprint on how basolateral amygdala neurons await oscillatory recruitment into valence-relevant ensembles, describing a mechanism by which the same region assigns emotional significance.",
+          "citations": [2]
+        },
+        {
+          "text": "Developmental work extends the theme. A second medRxiv study reports a community-sample replication of a pathway to anxiety moderated by neural responsivity to unexpected stimuli in early infancy and childhood.",
+          "citations": [3]
+        }
+      ],
+      "whyItMatters": "Focused ultrasound is being tested as a non-invasive alternative for psychiatric conditions where existing options fail many patients. Pairing an early human trial with mechanistic and developmental work shows how the same circuit is approached from several directions.",
+      "editorNote": "The trial is a preprint reporting a first-in-human study; the collection carries no outcome data, so the story describes the design and adjacent research without claiming efficacy.",
+      "cluster": [
+        {
+          "url": "https://doi.org/10.64898/2026.09.15.751884",
+          "source": "biorxiv",
+          "title": "Basolateral amygdala neurons await oscillatory recruitment into valence-relevant ensembles"
+        },
+        {
+          "url": "https://doi.org/10.64898/2026.09.17.26363348",
+          "source": "medrxiv",
+          "title": "Neural Responsivity to Unexpected Stimuli Moderates a Developmental Pathway to Anxiety"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://doi.org/10.64898/2026.09.18.26363360",
+          "source": "medrxiv",
+          "title": "Low-Intensity Focused Ultrasound of the Amygdala in Depression and Anxiety: A First-in-Human Active-Controlled Trial",
+          "publishedAt": "2026-09-20"
+        },
+        {
+          "id": 2,
+          "url": "https://doi.org/10.64898/2026.09.15.751884",
+          "source": "biorxiv",
+          "title": "Basolateral amygdala neurons await oscillatory recruitment into valence-relevant ensembles",
+          "publishedAt": "2026-09-20"
+        },
+        {
+          "id": 3,
+          "url": "https://doi.org/10.64898/2026.09.17.26363348",
+          "source": "medrxiv",
+          "title": "Neural Responsivity to Unexpected Stimuli Moderates a Developmental Pathway to Anxiety: A Community-Sample Replication in Early Infancy and Childhood",
+          "publishedAt": "2026-09-20"
+        }
+      ],
+      "tags": ["psychiatry", "neuroscience", "focused-ultrasound", "preprints"],
+      "confidence": "low"
+    },
+    {
+      "slug": "cardiometabolic-food-additives-and-microbiota",
+      "headline": "8 common food additives linked to high blood pressure and heart disease",
+      "dek": "Observational diet research and two cardiovascular studies on gut microbiota and on religiosity add to the evidence base without settling causation.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "A science-news summary reports eight common food additives linked to high blood pressure and heart disease.",
+        "A medRxiv study uses machine learning to identify gut-microbiota biomarkers in patients with ST-elevation myocardial infarction and primary ventricular tachyarrhythmias.",
+        "Another medRxiv analysis examines the mixed impact of religiosity and spirituality on cardiovascular risk over time."
+      ],
+      "body": [
+        {
+          "text": "A science-news item reports that eight common food additives have been linked to high blood pressure and heart disease. The linkage described is observational and does not by itself establish that the additives cause the outcomes.",
+          "citations": [1]
+        },
+        {
+          "text": "Two medRxiv preprints add cardiovascular data. One applies machine learning to identify gut-microbiota biomarkers in patients with ST-elevation myocardial infarction who presented with primary ventricular tachyarrhythmias; the other examines how religiosity and spirituality track with cardiovascular risk over time in a mixed direction.",
+          "citations": [2, 3]
+        }
+      ],
+      "whyItMatters": "Cardiovascular risk is shaped by diet, the microbiome and social factors simultaneously. These items are associative studies that generate hypotheses; none is a controlled trial of an intervention.",
+      "editorNote": "Observational and preprint material only; the collection has no abstracts, so no effect sizes are cited and causation is not implied.",
+      "cluster": [
+        {
+          "url": "https://doi.org/10.64898/2026.09.16.26363271",
+          "source": "medrxiv",
+          "title": "Machine Learning Approach to Identify Gut Microbiota Biomarkers in Patients with ST-Elevation Myocardial Infarction"
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260917003728.htm",
+          "source": "journal_rss",
+          "title": "Ozempic can change your body. Can it change your life?"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.sciencedaily.com/releases/2026/09/260920031905.htm",
+          "source": "journal_rss",
+          "title": "8 common food additives linked to high blood pressure and heart disease",
+          "publishedAt": "2026-09-20T12:43:41.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://doi.org/10.64898/2026.09.16.26363271",
+          "source": "medrxiv",
+          "title": "Machine Learning Approach to Identify Gut Microbiota Biomarkers in Patients with ST-Elevation Myocardial Infarction Presenting Primary Ventricular Tachyarrhythmias",
+          "publishedAt": "2026-09-20"
+        },
+        {
+          "id": 3,
+          "url": "https://doi.org/10.64898/2026.09.14.26362903",
+          "source": "medrxiv",
+          "title": "Matters of the Heart and Soul: The Mixed Impact of Religiosity and Spirituality on the Cardiovascular Risk Profile Over Time",
+          "publishedAt": "2026-09-20"
+        }
+      ],
+      "tags": ["cardiovascular", "diet", "microbiome", "observational"],
+      "confidence": "low"
+    },
+    {
+      "slug": "trial-pipeline-snapshot-september-20",
+      "headline": "AI DErived Plaque Quantification: CCTA and AI-QCPA for Determining Effective CAD Management",
+      "dek": "New and updated registry entries spanned AI cardiac imaging, a supplement trial, metabolic and oncology studies, and an AI review of diabetes self-management.",
+      "type": "DATA",
+      "readMinutes": 3,
+      "tldr": [
+        "ClinicalTrials.gov entries in the collection include a trial of AI-derived plaque quantification from CCTA imaging for coronary artery disease management.",
+        "Other registry entries cover Urolithin A supplementation and glucose metabolism in adults 55 and older, and proton therapy for small cell lung cancer.",
+        "A PubMed scoping review covers AI-driven digital tools for diabetes self-management in children."
+      ],
+      "body": [
+        {
+          "text": "The registry feed carried a study titled \"AI DErived Plaque Quantification: CCTA and AI-QCPA for Determining Effective CAD Management,\" grouping an imaging-derived biomarker with a management decision in coronary artery disease. A separate entry evaluates intensity-modulated proton therapy for small cell lung cancer.",
+          "citations": [1, 5]
+        },
+        {
+          "text": "Interventional and supplement studies fill out the pipeline. One randomized, triple-masked controlled trial examines the effects of Urolithin A supplementation on glucose metabolism in healthy adults aged 55 and older; another entry tests ultrasound-guided needle percutaneous electrolysis with therapeutic exercise in femoroacetabular impingement syndrome.",
+          "citations": [2, 4]
+        },
+        {
+          "text": "A PubMed scoping review takes a different angle, surveying AI-driven digital tools for diabetes self-management in children. Registry entries describe planned or ongoing work, so they are not results.",
+          "citations": [3]
+        }
+      ],
+      "whyItMatters": "Trial registrations are an early signal of where a field is heading before results exist. This snapshot shows AI moving into routine imaging decisions while conventional device, supplement and radiotherapy studies continue.",
+      "editorNote": "Registry entries are study descriptions, not outcomes; titles are reported as registered and no results or effect sizes are asserted.",
+      "cluster": [
+        {
+          "url": "https://clinicaltrials.gov/study/NCT04342429",
+          "source": "clinicaltrials",
+          "title": "Prospective Study of Intensity-Modulated Proton Therapy (IMPT) for Small Cell Lung Cancer"
+        },
+        {
+          "url": "https://clinicaltrials.gov/study/NCT06376851",
+          "source": "clinicaltrials",
+          "title": "AI DErived Plaque Quantification: CCTA and AI-QCPA for Determining Effective CAD Management"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://clinicaltrials.gov/study/NCT06376851",
+          "source": "clinicaltrials",
+          "title": "AI DErived Plaque Quantification: CCTA and AI-QCPA for Determining Effective CAD Management",
+          "publishedAt": "2026-09-15T00:00:00.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://clinicaltrials.gov/study/NCT06274749",
+          "source": "clinicaltrials",
+          "title": "Effects of Urolithin A Supplementation on Glucose Metabolism in Healthy Adults 55 >= Years Old: A Randomized Triple-Masked Controlled Clinical Trial",
+          "publishedAt": "2026-09-18T00:00:00.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42763696/",
+          "source": "pubmed",
+          "title": "Artificial Intelligence-Driven Digital Tools for Diabetes Self-management in Children: A Scoping Review",
+          "publishedAt": "2026-08-11 00:00"
+        },
+        {
+          "id": 4,
+          "url": "https://clinicaltrials.gov/study/NCT07548034",
+          "source": "clinicaltrials",
+          "title": "Ultrasound-guided Needle Percutaneous Electrolysis With Therapeutic Exercise in Femoroacetabular Impingement Syndrome",
+          "publishedAt": "2026-09-15T00:00:00.000Z"
+        },
+        {
+          "id": 5,
+          "url": "https://clinicaltrials.gov/study/NCT04342429",
+          "source": "clinicaltrials",
+          "title": "Prospective Study of Intensity-Modulated Proton Therapy (IMPT) for Small Cell Lung Cancer",
+          "publishedAt": "2026-09-17T00:00:00.000Z"
+        }
+      ],
+      "tags": ["clinical-trials", "ai-in-medicine", "cardiology", "oncology", "registry"],
+      "confidence": "high"
+    }
+  ]
+}

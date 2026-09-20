@@ -1,415 +1,331 @@
 {
   "date": "2026-09-20",
-  "generatedAt": "2026-09-20T18:30:00.000Z",
+  "generatedAt": "2026-09-20T22:14:00.000Z",
   "vertical": "geo",
-  "title": "Ukraine fires its largest-ever drone barrage at Moscow on the final day of Russia's election",
-  "summary": "Ukraine launched more than 1,000 drones at Russia overnight, hitting the Moscow refinery on the last day of parliamentary voting, while Washington signed a sweeping Russia sanctions law and a Greenland security deal moved to signature at the UN. The Houthis fired a ballistic missile at Riyadh and Germany voted in state elections that will test Chancellor Merz.",
+  "title": "Geopolitics: Russia votes under a drone barrage, Gulf states seek a security framework, and Canada leans toward Europe",
+  "summary": "Ukraine's largest drone attack on Moscow landed on the final day of Russia's parliamentary election, while Qatar's prime minister described the fallout of the US-Israel war on Iran as an earthquake and pressed for a Gulf security framework with Tehran. Elsewhere, eighteen suspects were extradited over the 2021 killing of Haiti's president, France and Canada moved to deepen ties, Germany's chancellor called a state election a disaster for his party, Michelle Bachelet quit the UN leadership race and a Greenland security deal was welcomed by NATO.",
   "stories": [
     {
-      "slug": "ukraine-largest-drone-attack-moscow",
+      "slug": "moscow-drone-attack-russia-election",
       "headline": "Largest attack on Moscow sees Ukraine fire hundreds of drones, mayor says",
-      "dek": "The overnight barrage, the biggest on the Russian capital of the war so far, landed on the final day of Russia's parliamentary election and damaged the Moscow oil refinery.",
+      "dek": "The barrage described as the largest on the Russian capital landed on the final day of Russia's parliamentary vote, as Moscow also moved to protect its rail network.",
       "type": "DEEP",
       "readMinutes": 4,
       "tldr": [
-        "Ukrainian forces fired more than 1,000 drones at Russia overnight, including hundreds toward Moscow; Moscow's mayor called it the largest-ever attack on the capital, according to wire reports.",
-        "Moscow mayor Sergei Sobyanin said 450 drones were downed en route to the city and that a Moscow oil refinery and a residential building were damaged; the Moscow region governor reported two dead and 20 wounded.",
-        "The attack came on the third and final day of Russia's parliamentary election, which the Kremlin framed as a test of support for the war."
+        "Moscow's mayor said the city faced the largest attack of the war, with hundreds of Ukrainian drones fired at the capital, according to BBC reporting.",
+        "The strike came on the final day of Russia's parliamentary election, which the Kremlin has framed as a measure of support for the war.",
+        "DW reported that Russia's vote unfolded amid war fatigue and anxiety, and that Ukraine has stepped up measures to protect its railways."
       ],
       "body": [
         {
-          "text": "Ukrainian forces launched one of the largest aerial attacks of the war against the Russian capital overnight into Sunday, with officials in Moscow saying more than 1,000 drones were fired at Russia in total and hundreds directed at the capital. Moscow mayor Sergei Sobyanin described it as the largest-ever drone attack on the city and said an oil refinery and a residential building were hit.",
-          "citations": [1, 2, 3]
+          "text": "Moscow's mayor said the Russian capital came under the largest attack of the war, with Ukraine firing hundreds of drones toward the city, according to BBC reporting. The item is carried at headline level and does not include casualty or interception figures.",
+          "citations": [1]
         },
         {
-          "text": "Sobyanin said 450 drones had been destroyed en route to Moscow. The governor of the wider Moscow region, Andrei Vorobyov, reported two people killed and 20 wounded, including three children, in the overnight attacks, according to wire reporting. Ukraine's president said domestically produced long-range drones and missiles were used against oil and logistics facilities, framing the strikes as pressure on the revenue that funds Russia's war machine.",
-          "citations": [1, 3]
+          "text": "The timing placed the attack on the third and final day of Russia's parliamentary election. DW described a war-fatigued and anxious country picking a new parliament, framing the vote as a test of domestic sentiment rather than a competitive contest.",
+          "citations": [1, 2]
         },
         {
-          "text": "The timing was pointed: the barrage landed as Russians voted on the third and final day of a parliamentary election that Vladimir Putin has cast as a measure of support for the war. Sobyanin said the attack was planned to disrupt the vote, while Reuters reported election officials also said an online voting system in Moscow had come under cyberattack.",
-          "citations": [2, 3]
-        },
-        {
-          "text": "Russia's defense ministry said its forces downed 1,110 Ukrainian drones across the country, over annexed Crimea and the Black Sea. Russia continued its own strikes on Ukraine in parallel, and Kyiv, which has suspended elections under martial law, dismissed the Russian vote as a pseudo-election.",
-          "citations": [2, 3]
+          "text": "Both sides have hardened their infrastructure defenses. DW reported that Ukraine is stepping up measures to protect its railways, days after the US signed a sweeping Russia sanctions bill that also targets the shadow tanker fleet moving Russian energy.",
+          "citations": [3, 4]
         }
       ],
-      "whyItMatters": "The scale of the strike shows Ukraine's long-range drone campaign now reaches Russia's political and economic core in single nights, and it landed deliberately on the one event the Kremlin is using to project domestic legitimacy.",
-      "editorNote": "The largest drone attack on Moscow of the war, on election day, is the single most consequential security event in today's feeds across BBC, Al Jazeera and Reuters.",
+      "whyItMatters": "Strikes reaching the Russian capital in volume, on election day, show Ukraine's long-range drone campaign now touches Russia's political core in single nights while both sides harden the infrastructure the war runs on.",
+      "editorNote": "The drone figures and the election-day framing come from wire headlines across BBC and DW; the collection does not include detailed strike assessments, so the extent of damage is not asserted.",
       "cluster": [
         {
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/20/moscow-attacked-by-more-than-1000-ukrainian-drones",
-          "source": "Al Jazeera",
-          "title": "Moscow attacked by more than 1,000 Ukrainian drones"
-        },
-        {
-          "url": "https://www.reuters.com/world/europe/russian-election-cast-test-support-ukraine-war-enters-final-day-2026-09-20",
-          "source": "Reuters",
-          "title": "Ukraine launches biggest Moscow drone attack as Russia votes"
-        },
-        {
-          "url": "https://www.dw.com/en/ukraine-steps-up-measures-to-protect-railways/a-79339087",
+          "url": "https://www.dw.com/en/ukraine-steps-up-measures-to-protect-railways/a-79339087?maca=en-rss-en-world-4025-rdf",
           "source": "DW",
           "title": "Ukraine steps up measures to protect railways"
+        },
+        {
+          "url": "https://www.dw.com/en/a-war-fatigued-and-anxious-russia-picks-a-new-parliament/a-79312440?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "A war-fatigued and anxious Russia picks a new parliament"
         }
       ],
       "sources": [
         {
           "id": 1,
-          "url": "https://www.bbc.co.uk/news/articles/c34gdjk1ne8yo",
+          "url": "https://www.bbc.co.uk/news/articles/c34gdjk1ne8yo?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
           "title": "Largest attack on Moscow sees Ukraine fire hundreds of drones, mayor says",
           "publishedAt": "2026-09-20T10:45:39.000Z"
         },
         {
           "id": 2,
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/20/moscow-attacked-by-more-than-1000-ukrainian-drones",
-          "source": "Al Jazeera",
-          "title": "Moscow attacked by more than 1,000 Ukrainian drones",
-          "publishedAt": "2026-09-20T13:10:35.000Z"
+          "url": "https://www.dw.com/en/a-war-fatigued-and-anxious-russia-picks-a-new-parliament/a-79312440?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "A war-fatigued and anxious Russia picks a new parliament",
+          "publishedAt": "2026-09-17T16:42:00.000Z"
         },
         {
           "id": 3,
-          "url": "https://www.reuters.com/world/europe/russian-election-cast-test-support-ukraine-war-enters-final-day-2026-09-20",
-          "source": "Reuters",
-          "title": "Ukraine launches biggest Moscow drone attack as Russia votes",
-          "publishedAt": "2026-09-20"
-        }
-      ],
-      "tags": ["ukraine", "russia", "drones", "moscow", "elections"],
-      "confidence": "high"
-    },
-    {
-      "slug": "trump-signs-russia-sanctions-law",
-      "headline": "Trump signs sweeping Russia sanctions bill",
-      "dek": "The Lindsey O. Graham Sanctioning Russia and Iran Act targets Russian energy revenues and the shadow tanker fleet, and hands the president authority for tariffs of up to 100 percent on buyers of Russian oil and gas.",
-      "type": "DEEP",
-      "readMinutes": 4,
-      "tldr": [
-        "President Trump on Friday signed the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026, which passed the House 262-159 and the Senate 86-11.",
-        "The law targets Russia's energy and defense sectors and its shadow fleet of tankers, and requires duties of up to 100 percent on major buyers of Russian crude and gas, potentially including China and India.",
-        "The Kremlin said further US sanctions would make a peace deal in Ukraine harder to reach."
-      ],
-      "body": [
-        {
-          "text": "President Donald Trump signed into law a sweeping sanctions package targeting Russian officials, banks and key sectors of the economy, the White House said on Friday. The measure, named for the late Republican senator Lindsey Graham, is intended to deprive Moscow of the revenue funding its war in Ukraine.",
-          "citations": [1, 2]
+          "url": "https://www.dw.com/en/ukraine-steps-up-measures-to-protect-railways/a-79339087?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Ukraine steps up measures to protect railways",
+          "publishedAt": "2026-09-19T15:37:00.000Z"
         },
         {
-          "text": "The bill passed with large bipartisan margins, 86-11 in the Senate and 262-159 in the House, according to AP reporting carried by The Guardian. It sanctions Russian officials and banks, targets the shadow fleet of tankers that keeps Russian energy moving despite existing sanctions, and extends sanctions on Iran by five years.",
-          "citations": [2, 3]
-        },
-        {
-          "text": "The law also gives the president broad discretion over implementation, including authority to impose tariffs of up to 100 percent on countries that keep buying Russian oil and gas, potentially covering China and India. Democrats split over handing the White House that much trade power, AFP reported.",
-          "citations": [2, 3]
-        },
-        {
-          "text": "The signing follows a period in which the administration had been skeptical of new sanctions while mediated attempts to end the war stalled. The Kremlin said this week that additional US sanctions fall into the category of unfriendly actions and would make reaching a peace deal harder, according to The Moscow Times.",
-          "citations": [1, 2]
-        }
-      ],
-      "whyItMatters": "This converts months of congressional pressure into executable economic warfare, with secondary tariffs that could pull China and India into the sanctions standoff and reshape global oil flows.",
-      "editorNote": "The most significant escalation in the economic war on Russia since 2022, signed the same week Ukraine struck Russian refinery capacity, makes energy flows the central variable of the war.",
-      "cluster": [
-        {
-          "url": "https://www.theguardian.com/us-news/2026/sep/18/trump-signs-russia-sanctions-bill",
-          "source": "The Guardian",
-          "title": "Trump signs bill imposing sanctions on Russia and giving him more power to levy tariffs"
-        },
-        {
-          "url": "https://www.france24.com/en/live-news/20260919-trump-signs-bill-authorizing-sweeping-russia-sanctions",
-          "source": "AFP via France24",
-          "title": "Trump signs bill authorizing sweeping Russia sanctions"
-        },
-        {
-          "url": "https://www.themoscowtimes.com/2026/09/19/trump-signs-sweeping-russia-sanctions-bill-a93750",
-          "source": "The Moscow Times",
-          "title": "Trump Signs Sweeping Russia Sanctions Bill"
-        }
-      ],
-      "sources": [
-        {
-          "id": 1,
-          "url": "https://www.bbc.co.uk/news/articles/cqvgy34ndj4eo",
+          "id": 4,
+          "url": "https://www.bbc.co.uk/news/articles/cqvgy34ndj4eo?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
           "title": "Trump signs sweeping Russia sanctions bill",
           "publishedAt": "2026-09-18T22:05:47.000Z"
-        },
-        {
-          "id": 2,
-          "url": "https://www.theguardian.com/us-news/2026/sep/18/trump-signs-russia-sanctions-bill",
-          "source": "The Guardian",
-          "title": "Trump signs bill imposing sanctions on Russia and giving him more power to levy tariffs",
-          "publishedAt": "2026-09-18"
-        },
-        {
-          "id": 3,
-          "url": "https://www.france24.com/en/live-news/20260919-trump-signs-bill-authorizing-sweeping-russia-sanctions",
-          "source": "AFP via France24",
-          "title": "Trump signs bill authorizing sweeping Russia sanctions",
-          "publishedAt": "2026-09-19"
         }
       ],
-      "tags": ["russia", "sanctions", "trump", "energy", "tariffs"],
-      "confidence": "high"
+      "tags": ["ukraine", "russia", "drones", "moscow", "elections"],
+      "confidence": "medium"
     },
     {
-      "slug": "greenland-us-security-deal",
-      "headline": "Nato welcomes Greenland deal as Trump says it will give US 'permanent security control'",
-      "dek": "A US-Denmark-Greenland agreement promises Washington permanent access, basing and overflight rights while Copenhagen and Nuuk insist Danish sovereignty stays intact.",
+      "slug": "us-china-talks-ahead-of-trump-xi-summit",
+      "headline": "US, China open high-level talks ahead of Trump-Xi summit",
+      "dek": "Trade and technology are back on the table as Washington and Beijing open talks before a planned leaders' meeting.",
       "type": "BRIEF",
       "readMinutes": 3,
       "tldr": [
-        "Trump announced a deal with Denmark and Greenland that he said gives the US 'permanent control over security' in Greenland, ending months of threats to take the island by force.",
-        "A State Department official said the agreement grants permanent access, basing and overflight rights, bans non-NATO bases and restricts investments by adversaries such as China and Russia.",
-        "Denmark and Greenland say the deal recognizes their sovereignty and self-determination; it is expected to be signed on the sidelines of the UN General Assembly."
+        "US and Chinese officials opened high-level talks ahead of a planned Trump-Xi summit, according to Al Jazeera.",
+        "The Guardian reported that China is pushing back on US warnings over rapid AI development, a dispute running in parallel with the economic agenda.",
+        "The collection carries the talks at headline level, without the specific negotiating positions on either side."
       ],
       "body": [
         {
-          "text": "President Trump announced on Friday that the United States has reached an agreement with Denmark and Greenland that he said gives Washington permanent control over security in the Arctic island. In a social media post, Trump said the US would immediately begin developing a larger military presence there, according to DW.",
-          "citations": [1, 2]
+          "text": "The United States and China opened high-level talks ahead of a planned summit between their leaders, Al Jazeera reported. The meeting is framed as preparation for a Trump-Xi encounter rather than a conclusion in itself.",
+          "citations": [1]
         },
         {
-          "text": "A State Department official told US media the deal guarantees permanent access, basing and overflight rights, bans any non-NATO military base in Greenland, and prevents China and Russia from establishing bases or making sensitive investments on the island.",
-          "citations": [2, 3]
-        },
-        {
-          "text": "Denmark and Greenland both welcomed the agreement, with Danish officials calling it good for NATO and Europe, but stressed it recognizes Danish sovereignty over Greenland and the Greenlandic people's right to self-determination. The deal is expected to be signed next week on the sidelines of the UN General Assembly, and the precise scope of Trump's 'control' language remains unclear, Reuters reported.",
-          "citations": [2, 3]
+          "text": "Technology is a live fault line in the relationship. The Guardian reported on why China is pushing back on US warnings over rapid AI development, a disagreement that sits alongside trade in the run-up to the summit.",
+          "citations": [2]
         }
       ],
-      "whyItMatters": "The agreement settles, for now, a dispute that strained NATO's northern flank for two years, locking in an expanded US military footprint in the Arctic while formally keeping Greenland under Danish sovereignty.",
-      "editorNote": "A rare de-escalation in transatlantic friction with direct implications for Arctic basing and great-power competition, picked up across BBC, DW and The Guardian feeds.",
+      "whyItMatters": "A leaders' summit would set the tone for trade, critical minerals and AI governance at once. Pre-summit talks and an open dispute over AI framing indicate the agenda is economic and technological together.",
+      "editorNote": "Wire headlines only; no negotiating positions, dates for the summit or deliverables are asserted because they are not in the collection.",
       "cluster": [
         {
-          "url": "https://www.dw.com/en/us-denmark-reach-deal-over-greenlands-security-trump-says/a-79334915",
-          "source": "DW",
-          "title": "US, Denmark reach deal over Greenland's security, Trump says"
-        },
-        {
-          "url": "https://www.theguardian.com/world/2026/sep/18/united-states-denmark-greenland-security",
+          "url": "https://www.theguardian.com/world/2026/sep/20/why-china-is-pushing-back-on-us-warnings-over-rapid-ai-development",
           "source": "The Guardian",
-          "title": "US and Denmark reach security deal after Trump's threats"
+          "title": "Why China is pushing back on US warnings over rapid AI development"
         },
         {
-          "url": "https://www.reuters.com/world/europe/greenland-denmark-say-us-deal-will-not-cede-sovereignty-2026-09-19",
-          "source": "Reuters",
-          "title": "Greenland, Denmark say Trump deal won't compromise sovereignty"
+          "url": "https://www.aljazeera.com/economy/2026/9/20/us-china-open-high-level-talks-ahead-of-trump-xi-summit?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "US, China open high-level talks ahead of Trump-Xi summit"
         }
       ],
       "sources": [
         {
           "id": 1,
-          "url": "https://www.bbc.co.uk/news/articles/c63d7lexyym1o",
-          "source": "BBC World",
-          "title": "Nato welcomes Greenland deal as Trump says it will give US 'permanent security control'",
-          "publishedAt": "2026-09-19T23:00:27.000Z"
+          "url": "https://www.aljazeera.com/economy/2026/9/20/us-china-open-high-level-talks-ahead-of-trump-xi-summit?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "US, China open high-level talks ahead of Trump-Xi summit",
+          "publishedAt": "2026-09-20T19:42:13.000Z"
         },
         {
           "id": 2,
-          "url": "https://www.dw.com/en/us-denmark-reach-deal-over-greenlands-security-trump-says/a-79334915",
-          "source": "DW",
-          "title": "US, Denmark reach deal over Greenland's security, Trump says",
-          "publishedAt": "2026-09-18"
-        },
-        {
-          "id": 3,
-          "url": "https://www.theguardian.com/world/2026/sep/18/united-states-denmark-greenland-security",
+          "url": "https://www.theguardian.com/world/2026/sep/20/why-china-is-pushing-back-on-us-warnings-over-rapid-ai-development",
           "source": "The Guardian",
-          "title": "US and Denmark reach security deal after Trump's threats",
-          "publishedAt": "2026-09-18"
+          "title": "Why China is pushing back on US warnings over rapid AI development",
+          "publishedAt": "2026-09-20T06:00:09.000Z"
         }
       ],
-      "tags": ["greenland", "denmark", "nato", "arctic", "us"],
-      "confidence": "high"
+      "tags": ["us-china", "diplomacy", "trade", "ai-governance"],
+      "confidence": "medium"
     },
     {
-      "slug": "houthi-missile-riyadh",
-      "headline": "Houthis say they targeted Saudi capital with ballistic missiles",
-      "dek": "The Saudi-led coalition says it intercepted a missile over Riyadh after a fire at a fuel depot near the capital's airport, as Houthi attacks on Saudi territory sharply escalate.",
-      "type": "BRIEF",
-      "readMinutes": 3,
+      "slug": "gulf-security-framework-iran-escalation",
+      "headline": "Qatar PM describes fallout of US-Israel war on Iran as \u2018earthquake\u2019",
+      "dek": "Doha pressed for a Gulf security framework with Tehran and offered to revive Iran-US talks, as Houthi missile fire on Saudi Arabia and allied hesitation widened the region's fault lines.",
+      "type": "DEEP",
+      "readMinutes": 5,
       "tldr": [
-        "The Houthis said they conducted two operations using ballistic and cruise missiles and drones, targeting Riyadh and Aramco facilities in Yanbu, according to their military spokesman.",
-        "The Saudi-led coalition said air defenses intercepted a ballistic missile fired at Riyadh at dawn; a fire broke out at a fuel depot near King Khalid International Airport, an AFP journalist saw.",
-        "The escalation follows a Houthi ground offensive in Yemen and comes days after Saudi Arabia accused the group of targeting Mecca, which the Houthis deny."
+        "Qatar's prime minister described the fallout of the US-Israel war on Iran as an earthquake and warned against cycles of escalation, Al Jazeera reported.",
+        "He urged a Gulf security framework with Iran and said Qatar is working to revive Iran-US talks.",
+        "The Houthis said they targeted the Saudi capital with ballistic missiles, and South Korea said it would not send military support for the US campaign against Iran."
       ],
       "body": [
         {
-          "text": "Yemen's Houthi movement said it carried out two large-scale operations against Saudi Arabia, with military spokesman Yahya Saree saying the first targeted what he described as sensitive sites in Riyadh and the second targeted Aramco facilities in Yanbu, a Red Sea energy hub.",
-          "citations": [1, 3]
+          "text": "Qatar's prime minister described the fallout of the US-Israel war on Iran as an earthquake and warned against further cycles of escalation in the Middle East, according to Al Jazeera. The framing places Doha among the regional states most exposed to any widening of the conflict.",
+          "citations": [1]
         },
         {
-          "text": "The Saudi-led coalition said its air defenses successfully intercepted and destroyed a ballistic missile launched toward Riyadh at dawn. An AFP journalist saw firefighters extinguish a blaze on a fuel tank bearing the Aramco logo at a depot near King Khalid International Airport, and flight tracking showed major disruption at the airport before traffic resumed.",
-          "citations": [3, 2]
-        },
-        {
-          "text": "The attack marks a sharp escalation between the Houthis and Saudi Arabia, which has carried out scores of airstrikes on Houthi-held areas after the group's recent territorial offensive. DW's explainer assesses the group's current capabilities as the confrontation widens, and the US State Department issued a security alert warning the conflict has the potential to escalate rapidly.",
+          "text": "Diplomacy is the counterweight. Al Jazeera reported that the Qatari premier urged a Gulf security framework with Iran and said Qatar is working to revive Iran-US talks, positioning the emirate as an intermediary between Washington and Tehran.",
           "citations": [2, 3]
+        },
+        {
+          "text": "The military track kept moving. The Houthis said they targeted the Saudi capital with ballistic missiles, and DW assessed how powerful the group has become as the confrontation with Riyadh widens.",
+          "citations": [4, 5]
+        },
+        {
+          "text": "Allied participation is not guaranteed. The Guardian reported that South Korea will not send military forces to support the US war on Iran, defying pressure from President Trump.",
+          "citations": [6]
         }
       ],
-      "whyItMatters": "Houthi missiles reaching Riyadh and Yanbu put Saudi energy infrastructure and the Red Sea corridor back in the crosshairs, with direct implications for oil markets and shipping.",
-      "editorNote": "Direct missile fire at the Saudi capital is a material supply-chain and chokepoint risk, and the BBC, DW and AFP coverage together map both the attack and the group's capabilities.",
+      "whyItMatters": "The Gulf is trying to manage two tracks at once: containing escalation with Iran and keeping the Strait of Hormuz and Saudi energy infrastructure out of the crossfire. Doha's mediation offer and Seoul's refusal show the coalition around the campaign is not uniform.",
+      "editorNote": "The Qatar items are wire reports of statements, not agreements; the Houthi claim and the missile attack are reported as claimed, without independent damage assessment in the collection.",
       "cluster": [
         {
-          "url": "https://www.dw.com/en/yemeni-militants-how-powerful-are-the-houthis-now/a-79331945",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/20/qatar-says-it-is-working-to-revive-iran-us-talks?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Qatar says it is working to revive Iran-US talks"
+        },
+        {
+          "url": "https://www.dw.com/en/yemeni-militants-how-powerful-are-the-houthis-now/a-79331945?maca=en-rss-en-world-4025-rdf",
           "source": "DW",
           "title": "Yemeni militants: How powerful are the Houthis now?"
-        },
-        {
-          "url": "https://www.gulfnews.com/world/gulf/saudi/saudi-led-coalition-says-houthis-fired-ballistic-missile-at-riyadh-1.500680221",
-          "source": "Gulf News",
-          "title": "Saudi-led coalition says Houthis fired ballistic missile at Riyadh"
         }
       ],
       "sources": [
         {
           "id": 1,
-          "url": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o",
+          "url": "https://www.aljazeera.com/news/2026/9/20/qatari-pm-warns-against-cycles-of-escalation-in-the-middle-east?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Qatar PM describes fallout of US-Israel war on Iran as 'earthquake'",
+          "publishedAt": "2026-09-20T20:13:18.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/20/qatar-pm-urges-gulf-security-framework-with-iran?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Qatar PM urges Gulf security framework with Iran",
+          "publishedAt": "2026-09-20T21:00:15.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/20/qatar-says-it-is-working-to-revive-iran-us-talks?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Qatar says it is working to revive Iran-US talks",
+          "publishedAt": "2026-09-20T19:36:12.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
           "title": "Houthis say they targeted Saudi capital with ballistic missiles",
           "publishedAt": "2026-09-19T23:49:26.000Z"
         },
         {
-          "id": 2,
-          "url": "https://www.dw.com/en/yemeni-militants-how-powerful-are-the-houthis-now/a-79331945",
+          "id": 5,
+          "url": "https://www.dw.com/en/yemeni-militants-how-powerful-are-the-houthis-now/a-79331945?maca=en-rss-en-world-4025-rdf",
           "source": "DW",
           "title": "Yemeni militants: How powerful are the Houthis now?",
           "publishedAt": "2026-09-18T19:22:00.000Z"
         },
         {
-          "id": 3,
-          "url": "https://www.gulfnews.com/world/gulf/saudi/saudi-led-coalition-says-houthis-fired-ballistic-missile-at-riyadh-1.500680221",
-          "source": "Gulf News",
-          "title": "Saudi-led coalition says Houthis fired ballistic missile at Riyadh",
-          "publishedAt": "2026-09-20"
+          "id": 6,
+          "url": "https://www.theguardian.com/world/2026/sep/18/south-korea-will-not-send-military-to-support-us-war-on-iran-defying-trump-pressure",
+          "source": "The Guardian",
+          "title": "South Korea will not send military to support US war on Iran, defying Trump pressure",
+          "publishedAt": "2026-09-18T05:54:29.000Z"
         }
       ],
-      "tags": ["houthis", "saudi arabia", "yemen", "missiles", "red sea"],
+      "tags": ["iran", "qatar", "houthis", "gulf", "middle-east"],
       "confidence": "medium"
     },
     {
-      "slug": "germany-state-elections-merz-pressure",
-      "headline": "German elections under way which could decide fate of Chancellor Merz",
-      "dek": "Voters go to the polls in two more states with the far-right AfD riding high after its landslide in Saxony-Anhalt, piling pressure on Chancellor Friedrich Merz's coalition and reform agenda.",
+      "slug": "haiti-assassination-suspects-extradited",
+      "headline": "Eighteen suspects extradited to US over Haitian president\u2019s 2021 killing",
+      "dek": "A long-running investigation into the assassination of President Jovenel Moise produced a fresh wave of extraditions and arrests.",
       "type": "BRIEF",
       "readMinutes": 3,
       "tldr": [
-        "Polls opened Sunday in further German state elections that will test Chancellor Friedrich Merz's standing after the AfD won 43.8 percent in Saxony-Anhalt this month, where his CDU fell to 17.2 percent.",
-        "Reuters reports Merz is under pressure as two more German states vote, with his pension and economic reforms unpopular and coalition stability in question.",
-        "Merz has ruled out cooperation with the AfD, whose rise he said will have repercussions on the international stage, including for policy toward Ukraine and Russia."
+        "Eighteen suspects were extradited to the United States over the 2021 killing of Haiti's president, Al Jazeera reported.",
+        "The Guardian reported that more than a dozen people were arrested in connection with the assassination.",
+        "The two reports describe the same case from different stages of the process, and the collection does not include charges or court dates."
       ],
       "body": [
         {
-          "text": "German state elections got under way Sunday in contests that could decide the political fate of Chancellor Friedrich Merz, the BBC reports, weeks after the far-right AfD's landslide in Saxony-Anhalt dealt his Christian Democrats a historic defeat.",
-          "citations": [1]
-        },
-        {
-          "text": "In Saxony-Anhalt on 6 September the AfD took 43.8 percent of the vote to the CDU's 17.2 percent, coming within three seats of an absolute majority, according to projections and results reported by German media and Reuters. Merz said afterwards that the result changed not only Saxony-Anhalt but all of Germany.",
-          "citations": [2]
-        },
-        {
-          "text": "Reuters reports Merz is under pressure as two more states go to the polls, with his government's pension reforms deeply unpopular in eastern Germany and his approval ratings down sharply. Merz has ruled out working with the AfD, whose politicians he notes maintain ties to Moscow and oppose support for Ukraine, and he said the AfD's rise would have repercussions on the international stage.",
+          "text": "Eighteen suspects were extradited to the United States over the 2021 killing of Haitian president Jovenel Moise, Al Jazeera reported. The Guardian, covering the same investigation, reported that more than a dozen people had been arrested in connection with the assassination.",
           "citations": [1, 2]
         }
       ],
-      "whyItMatters": "Germany is Europe's largest economy and Ukraine's second-largest backer; a further AfD surge narrows Berlin's room for continued military and fiscal support for Kyiv and destabilizes the EU's political center.",
-      "editorNote": "A second round of state voting in under three weeks makes this a live test of whether the Saxony-Anhalt earthquake was an outlier or a trend, with direct European security stakes.",
+      "whyItMatters": "The Moise killing destabilized Haitian politics and became a test of cross-border prosecution. A large extradition to the United States signals the case is still moving through the legal system years later.",
+      "editorNote": "Both items are headline-level wire reports; the collection does not include the identities of those extradited, the charges, or the jurisdictions involved beyond the US.",
       "cluster": [
         {
-          "url": "https://www.dw.com/en/chancellor-merz-says-afd-result-changes-all-of-germany/a-79150560",
-          "source": "DW",
-          "title": "Chancellor Merz says AfD result 'changes all of Germany'"
-        },
-        {
-          "url": "https://www.reuters.com/world/europe/merz-under-pressure-two-more-german-states-go-polls-2026-09-20",
-          "source": "Reuters",
-          "title": "Merz under pressure as two more German states go to the polls"
+          "url": "https://www.theguardian.com/world/2026/sep/20/more-than-a-dozen-arrested-in-connection-with-assassination-of-haitian-president",
+          "source": "The Guardian",
+          "title": "More than a dozen arrested in connection with 2021 assassination of Haitian president"
         }
       ],
       "sources": [
         {
           "id": 1,
-          "url": "https://www.bbc.co.uk/news/articles/cme8xj6g2ny7o",
-          "source": "BBC World",
-          "title": "German elections under way which could decide fate of Chancellor Merz",
-          "publishedAt": "2026-09-20T07:57:32.000Z"
+          "url": "https://www.aljazeera.com/news/2026/9/20/eighteen-suspects-extradited-to-us-over-haitian-presidents-2021-killing?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Eighteen suspects extradited to US over Haitian president's 2021 killing",
+          "publishedAt": "2026-09-20T20:31:15.000Z"
         },
         {
           "id": 2,
-          "url": "https://www.reuters.com/world/europe/merz-under-pressure-two-more-german-states-go-polls-2026-09-20",
-          "source": "Reuters",
-          "title": "Merz under pressure as two more German states go to the polls",
-          "publishedAt": "2026-09-20"
+          "url": "https://www.theguardian.com/world/2026/sep/20/more-than-a-dozen-arrested-in-connection-with-assassination-of-haitian-president",
+          "source": "The Guardian",
+          "title": "More than a dozen arrested in connection with assassination of Haitian president",
+          "publishedAt": "2026-09-20T20:17:44.000Z"
         }
       ],
-      "tags": ["germany", "afd", "merz", "elections", "europe"],
+      "tags": ["haiti", "justice", "assassination"],
       "confidence": "medium"
     },
     {
-      "slug": "bachelet-withdraws-un-race",
-      "headline": "Michelle Bachelet withdraws from race to become UN secretary general",
-      "dek": "The former Chilean president exited after a Security Council straw poll showed just one encourage vote, leaving seven candidates in the race to succeed Antonio Guterres.",
-      "type": "DATA",
+      "slug": "canada-france-eu-ties",
+      "headline": "France\u2019s Macron and Canada\u2019s Carney announce plans to build stronger ties",
+      "dek": "Paris and Ottawa moved to deepen their relationship as Canada weighs a closer role with the European Union.",
+      "type": "BRIEF",
       "readMinutes": 3,
       "tldr": [
-        "Bachelet announced her withdrawal on Saturday after the Security Council's third informal straw poll, in which she received one encourage vote, 11 discourage votes and three no opinion votes, according to Al Jazeera.",
-        "She had placed second-to-last among eight candidates in the poll, which put Costa Rica's Rebeca Grynspan in the lead with nine encouraging votes.",
-        "Seven candidates remain for the post; Guterres's second term ends December 31, and no woman has ever held the position in the UN's history."
+        "France's president and Canada's prime minister announced plans to build stronger ties, Al Jazeera reported.",
+        "DW examined the European Union's special relationships, and The Guardian reported that uncertainty clouds Canada's EU membership plan despite a warm reception in Strasbourg.",
+        "The items describe intent and process, not a concluded agreement."
       ],
       "body": [
         {
-          "text": "Former Chilean president Michelle Bachelet announced on Saturday that she is withdrawing her candidacy to become the next UN secretary-general, saying she remained convinced her campaign had helped advance the case for a woman from Latin America to lead the organization.",
-          "citations": [1, 2]
+          "text": "President Emmanuel Macron of France and Prime Minister Mark Carney of Canada announced plans to build stronger ties, Al Jazeera reported. The announcement came as Canada deepens its engagement with Europe.",
+          "citations": [1]
         },
         {
-          "text": "Her exit followed the Security Council's third informal straw poll on Friday, in which she received one encourage vote, 11 discourage votes and three no opinion votes, finishing second-to-last among eight candidates, according to Al Jazeera. Costa Rica's Rebeca Grynspan led the first two polls, and Guyana's former foreign minister Carolyn Rodrigues-Birkett topped the third with eight encouraging votes.",
+          "text": "The broader frame is Canada's relationship with the European Union. DW surveyed the bloc's special relationships, while The Guardian reported that Canada's EU membership plan remains clouded by uncertainty despite an amicable reception in Strasbourg.",
           "citations": [2, 3]
-        },
-        {
-          "text": "Bachelet's campaign lost momentum after Chile's government withdrew its backing earlier this year. Seven candidates remain in the race to succeed Secretary-General Antonio Guterres, whose second term ends on December 31, with the Security Council due to recommend a single candidate to the General Assembly later this year.",
-          "citations": [1, 3]
         }
       ],
-      "whyItMatters": "The succession will define the UN's leadership through the end of the decade amid ongoing wars in Ukraine and the Middle East, and the straw-poll arithmetic shows the Security Council's permanent members are converging on a narrower field.",
-      "editorNote": "The clearest quantified datapoint in today's feed on who will next lead the UN, a selection with direct consequences for multilateral responses to every conflict covered above.",
+      "whyItMatters": "Canada's turn toward Europe is a hedge against trade exposure to the United States. Whether it becomes formal EU integration or a set of bilateral deals will shape North Atlantic economic alignment.",
+      "editorNote": "These are political announcements and analysis, not a signed agreement; the collection has no terms, timeline or membership mechanism.",
       "cluster": [
         {
-          "url": "https://www.aljazeera.com/news/2026/9/20/michelle-bachelet-exits-un-chief-race-after-low-poll-support",
-          "source": "Al Jazeera",
-          "title": "Michelle Bachelet exits UN chief race after low poll support"
+          "url": "https://www.dw.com/en/canada-and-eu-a-look-at-the-bloc-s-special-relationships/a-79328797?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Canada and EU: A look at the bloc's special relationships"
         },
         {
-          "url": "https://www.reuters.com/world/americas/chiles-bachelet-withdraws-race-lead-un-2026-09-20",
-          "source": "Reuters",
-          "title": "Chile's Bachelet withdraws from race to lead UN"
+          "url": "https://www.theguardian.com/world/2026/sep/17/smiles-strasbourg-uncertainty-canada-eu-membership-plan-mark-carney",
+          "source": "The Guardian",
+          "title": "All smiles in Strasbourg but uncertainty clouds Canada's EU membership plan"
         }
       ],
       "sources": [
         {
           "id": 1,
-          "url": "https://www.theguardian.com/world/2026/sep/20/former-president-of-chile-withdraws-from-race-to-become-un-secretary-general",
-          "source": "The Guardian",
-          "title": "Michelle Bachelet withdraws from race to become UN secretary general",
-          "publishedAt": "2026-09-20T12:04:08.000Z"
+          "url": "https://www.aljazeera.com/news/2026/9/20/frances-macron-and-canadas-carney-announce-plans-to-build-stronger-ties?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "France's Macron and Canada's Carney announce plans to build stronger ties",
+          "publishedAt": "2026-09-20T19:28:43.000Z"
         },
         {
           "id": 2,
-          "url": "https://www.aljazeera.com/news/2026/9/20/michelle-bachelet-exits-un-chief-race-after-low-poll-support",
-          "source": "Al Jazeera",
-          "title": "Michelle Bachelet exits UN chief race after low poll support",
-          "publishedAt": "2026-09-20"
+          "url": "https://www.dw.com/en/canada-and-eu-a-look-at-the-bloc-s-special-relationships/a-79328797?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Canada and EU: A look at the bloc's special relationships",
+          "publishedAt": "2026-09-18T14:26:00.000Z"
         },
         {
           "id": 3,
-          "url": "https://www.reuters.com/world/americas/chiles-bachelet-withdraws-race-lead-un-2026-09-20",
-          "source": "Reuters",
-          "title": "Chile's Bachelet withdraws from race to lead UN",
-          "publishedAt": "2026-09-20"
+          "url": "https://www.theguardian.com/world/2026/sep/17/smiles-strasbourg-uncertainty-canada-eu-membership-plan-mark-carney",
+          "source": "The Guardian",
+          "title": "All smiles in Strasbourg but uncertainty clouds Canada's EU membership plan",
+          "publishedAt": "2026-09-17T15:46:15.000Z"
         }
       ],
-      "tags": ["united nations", "bachelet", "diplomacy", "multilateralism"],
-      "confidence": "high"
+      "tags": ["canada", "france", "european-union", "diplomacy"],
+      "confidence": "medium"
     }
   ]
 }

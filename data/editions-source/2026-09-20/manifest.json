@@ -1,7 +1,72 @@
 {
   "date": "2026-09-20",
-  "generatedAt": "2026-09-20T15:20:59.040Z",
+  "generatedAt": "2026-09-20T22:00:45.867Z",
   "verticals": {
+    "ai": {
+      "items": 135,
+      "sources": [
+        {
+          "name": "hackernews",
+          "status": "ok",
+          "count": 30
+        },
+        {
+          "name": "reddit",
+          "status": "ok",
+          "count": 30
+        },
+        {
+          "name": "arxiv",
+          "status": "ok",
+          "count": 30
+        },
+        {
+          "name": "github",
+          "status": "ok",
+          "count": 30
+        },
+        {
+          "name": "youtube",
+          "status": "ok",
+          "count": 15
+        }
+      ]
+    },
+    "bio": {
+      "items": 148,
+      "sources": [
+        {
+          "name": "pubmed",
+          "status": "ok",
+          "count": 30
+        },
+        {
+          "name": "biorxiv",
+          "status": "ok",
+          "count": 27
+        },
+        {
+          "name": "medrxiv",
+          "status": "ok",
+          "count": 30
+        },
+        {
+          "name": "openfda",
+          "status": "ok",
+          "count": 2
+        },
+        {
+          "name": "clinicaltrials",
+          "status": "ok",
+          "count": 30
+        },
+        {
+          "name": "journal_rss",
+          "status": "ok",
+          "count": 30
+        }
+      ]
+    },
     "geo": {
       "items": 56,
       "sources": [
@@ -32,6 +97,44 @@
           "status": "failed",
           "count": 0,
           "error": "polymarket: HTTP 451"
+        }
+      ]
+    },
+    "markets": {
+      "items": 129,
+      "sources": [
+        {
+          "name": "reddit",
+          "status": "ok",
+          "count": 60
+        },
+        {
+          "name": "wire",
+          "status": "ok",
+          "count": 72
+        },
+        {
+          "name": "polymarket",
+          "status": "failed",
+          "count": 0,
+          "error": "polymarket: HTTP 451"
+        },
+        {
+          "name": "sec_edgar",
+          "status": "failed",
+          "count": 0,
+          "error": "sec_edgar full-text search: HTTP 403"
+        },
+        {
+          "name": "fred",
+          "status": "empty",
+          "count": 0
+        },
+        {
+          "name": "market_data",
+          "status": "failed",
+          "count": 0,
+          "error": "market_data quotes: HTTP 404"
         }
       ]
     }

@@ -1,214 +1,266 @@
 {
   "date": "2026-09-20",
-  "generatedAt": "2026-09-20T15:18:37Z",
+  "generatedAt": "2026-09-20T22:10:00.000Z",
   "vertical": "ai",
-  "title": "AI: System One ecosystem momentum, an open-weight wave, and memory as the local-inference limit",
-  "summary": "TypeSafe's Jev drew a first cluster of community repositories (14 in one day of collection), Qwen and StepFun shipped new open weights, and local-inference threads converged on memory bandwidth and prefill time as the practical limits. Research and community threads kept circling one question: how to verify what an agent or a model actually did.",
+  "title": "AI: a Jev tooling wave, a privacy fight over ad data, and heavy local-inference claims",
+  "summary": "Community tooling around TypeSafe's Jev kept arriving, with new ports, fine-tunes and curated lists, while the most-engaged item of the day concerned ChatGPT receiving data about what users do on other websites. Open-weight releases continued at pace and local-inference reports made large throughput claims. Research and tooling kept converging on one question: how to verify what an agent or a model actually did.",
   "stories": [
     {
-      "slug": "awesome-jev-ecosystem",
-      "headline": "yibie/awesome-jev: A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions.",
-      "dek": "A single day of collection contains 14 Jev/TypeSafe repositories, plus adapters, caches and routers built around a model made for typed decisions.",
+      "slug": "jev-ecosystem-tooling-wave",
+      "headline": "laya.cpp: Optimized laya near-instant decision making",
+      "dek": "A day of collection added ports, fine-tunes and trackers to the Jev/TypeSafe ecosystem, on top of curated lists that now carry 591, 541 and 388 GitHub stars.",
       "type": "DEEP",
-      "readMinutes": 6,
+      "readMinutes": 5,
       "tldr": [
-        "Fourteen Jev/TypeSafe-related repositories appear in the collection; the three largest curated lists carry 525, 496 and 378 GitHub stars.",
-        "The tooling layer is filling in: a Jev-compatible SGLang endpoint (213 stars), an ACP/MCP bridge, a per-turn Codex router and a 2 MB decision cache.",
-        "Community threads still ask what JEV is and whether TypeSafe's work derives from the Laya author's, questions the collected data does not answer."
+        "A single day of collection added roughly a dozen Jev/TypeSafe projects, led by a laya.cpp port, a Jev-style fine-tune of Qwen3.5 4B and a new gallery list at 94 stars.",
+        "The three largest curated lists now carry 591, 541 and 388 GitHub stars (yibie/awesome-jev, v-modal/awesome-jev-tools, AbdelStark/awesome-typesafe).",
+        "Community threads still ask what Jev is and whether TypeSafe's work derives from the Laya author's; the collected data does not resolve it."
       ],
       "body": [
         {
-          "text": "Fourteen repositories in the day's collection reference Jev or TypeSafe, the maker of a System One model for typed decisions. The largest are curated lists: yibie/awesome-jev at 525 stars, v-modal/awesome-jev-tools at 496 and AbdelStark/awesome-typesafe at 378. The lists catalog SDKs, integrations and independent evaluations rather than the model itself.",
-          "citations": [1, 2, 3]
+          "text": "Community-built tooling around Jev — TypeSafe AI's System One model for typed decisions — kept arriving. laya.cpp, a port billed as optimized near-instant decision making, and a Jev-style model fine-tuned on Qwen3.5 4B were both posted to r/LocalLLaMA on September 20.",
+          "citations": [1, 2]
         },
         {
-          "text": "Adapter and infrastructure projects are the second wave. ekzhang/openjev-sglang offers a Jev-compatible API endpoint built on open models, described as prefill-only, and has 213 stars. tacticocc/Jevbridge bridges Jev over ACP and MCP; 0xNatoshi/jev-codex-router picks a model, thinking depth and speed per turn for Codex; hyperspaceai/jevcache memoizes decisions in a 2 MB binary; AboveColin/HA-Jev exposes typed answers as Home Assistant sensors.",
-          "citations": [4, 5, 6, 7, 8]
+          "text": "Curated lists remain the most-starred entry point: yibie/awesome-jev at 591 stars, v-modal/awesome-jev-tools at 541 and AbdelStark/awesome-typesafe at 388. A newer gallery, OmniJev/awesome-jev-gallery, describes itself as papers, open reproductions and independent evaluations behind System One models and Jev, and carried 94 stars.",
+          "citations": [3, 4, 5, 6]
         },
         {
-          "text": "Community activity is early-stage and definitional. One thread asks \"What is JEV and what is it used for?\"; another wires a Jev-style decision head onto Qwen 2.5 1.5B; a third reports giving Jev, Laya, a finetuned ModernCE and Qwen3.5 the controls to Doom. On Hacker News, kasra.blog describes using Jev to skip side quests in a 2024 fine-tuning project.",
-          "citations": [9, 10, 11, 12]
+          "text": "Infrastructure is the second wave. A per-turn Codex router that picks the model, thinking depth and speed mode had 86 stars; a 2 MB decision cache for Jev-class models had 52; a tracker calling itself the world's most comprehensive Jev ecosystem map claimed 220-plus documented cases rescanned every three hours; and a memory-recall filter that retrieves by relevance rather than resemblance had 25. An open-source alternative to Jev claims to give typed, calibrated decisions from any open-weights LLM in one forward pass.",
+          "citations": [7, 8, 9, 10, 11]
         },
         {
-          "text": "Two adjacent releases widen the System One category: a Show HN post for CUA-S1, a System One model for computer use, and Von, described by its author as an open-source 395M System One model. A separate thread asks whether Typesafe is based on or derived from work done by the Laya author; nothing in the collected data resolves the question.",
-          "citations": [13, 14, 15]
+          "text": "Definition and provenance questions persist. Threads ask what Jev is and what it is used for, and whether TypeSafe's work is derived from the Laya author's; a Hacker News post describes using Jev as a teacher to help a small language model write better stories, and another thread pits a fly brain against Jev.",
+          "citations": [12, 13, 14, 15]
         }
       ],
       "whyItMatters": "Typed, calibrated decisions are a different interface than chat: they can be cached, routed and audited. If a small decision model becomes a standard layer, agent stacks get cheaper to compose and easier to verify.",
-      "editorNote": "The momentum here is community-made, not vendor-published: 14 repos in one collection, most of them lists, caches and adapters. We flag the attribution thread as unresolved rather than picking a side.",
+      "editorNote": "The momentum here is community-made, not vendor-published: the collection is dominated by lists, caches and adapters, and the attribution question is flagged as unresolved rather than decided.",
       "cluster": [
         {
-          "url": "https://github.com/kraayenjon/awesome-jev",
+          "url": "https://github.com/samdotmak/jev-recall",
           "source": "github",
-          "title": "kraayenjon/awesome-jev: A curated list of Jev use cases, projects, SDKs, and resources. Jev is TypeSafe AI's System One model for fast, typed decisions in software — Choice, Score, and Noul with calibrated probabilities."
+          "title": "samdotmak/jev-recall: Retrieve by relevance, not resemblance: filter an AI assistant's memories with TypeSafe's Jev"
         },
         {
-          "url": "https://github.com/yzfly/awesome-jev-zh",
+          "url": "https://github.com/Dimweaker/jev-libero",
           "source": "github",
-          "title": "yzfly/awesome-jev-zh: Jev / TypeSafe System One 中文精选列表：官方资料、SDK、爆款应用、Agent 工具、开源复现与独立评测，附中文上手指南，每日自动收录 GitHub 热门项目。"
+          "title": "Dimweaker/jev-libero: Fine-grained robot control with Jev, physics previews, and configurable LIBERO tasks."
         },
         {
           "url": "https://github.com/ikermoel/open-alternative-jev",
           "source": "github",
-          "title": "ikermoel/open-alternative-jev: Open-source alternative to TypeSafe's Jev: a System One style model layer that gives typed, calibrated decisions from any open-weights LLM in one forward pass (HF + vLLM), with honest benchmarks"
+          "title": "ikermoel/open-alternative-jev: Open-source alternative to TypeSafe's Jev: typed, calibrated decisions from any open-weights LLM in one forward pass"
         }
       ],
       "sources": [
         {
           "id": 1,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlmkm9/layacpp_optimized_laya_nearinstant_decision_making/",
+          "source": "reddit",
+          "title": "laya.cpp: Optimized laya near-instant decision making",
+          "publishedAt": "2026-09-20T17:06:02.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wllv4i/a_jevstyle_model_finetuned_on_qwen35_4b/",
+          "source": "reddit",
+          "title": "A Jev-style model fine-tuned on Qwen3.5 4B",
+          "publishedAt": "2026-09-20T16:39:07.000Z"
+        },
+        {
+          "id": 3,
           "url": "https://github.com/yibie/awesome-jev",
           "source": "github",
           "title": "yibie/awesome-jev: A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions.",
           "publishedAt": "2026-09-17T14:23:21Z"
         },
         {
-          "id": 2,
+          "id": 4,
           "url": "https://github.com/v-modal/awesome-jev-tools",
           "source": "github",
-          "title": "v-modal/awesome-jev-tools: A curated list of tools  built for Jev — TypeSafe AI's System One model for typed decisions.",
+          "title": "v-modal/awesome-jev-tools: A curated list of tools built for Jev — TypeSafe AI's System One model for typed decisions.",
           "publishedAt": "2026-09-19T16:48:59Z"
         },
         {
-          "id": 3,
+          "id": 5,
           "url": "https://github.com/AbdelStark/awesome-typesafe",
           "source": "github",
           "title": "AbdelStark/awesome-typesafe: A curated list of official resources and community projects for TypeSafe, System One models, and Jev.",
           "publishedAt": "2026-09-17T06:56:37Z"
         },
         {
-          "id": 4,
-          "url": "https://github.com/ekzhang/openjev-sglang",
+          "id": 6,
+          "url": "https://github.com/OmniJev/awesome-jev-gallery",
           "source": "github",
-          "title": "ekzhang/openjev-sglang: Jev-compatible API endpoint based on open models (prefill-only)",
-          "publishedAt": "2026-09-17T18:11:49Z"
+          "title": "OmniJev/awesome-jev-gallery: Papers, open reproductions and independent evaluations behind System One models and Jev.",
+          "publishedAt": "2026-09-17T20:16:57Z"
         },
         {
-          "id": 5,
+          "id": 7,
           "url": "https://github.com/0xNatoshi/jev-codex-router",
           "source": "github",
-          "title": "0xNatoshi/jev-codex-router: Per-turn model & reasoning routing for Codex, driven by Jev (TypeSafe System One): picks the model, thinking depth and speed mode for every turn.",
+          "title": "0xNatoshi/jev-codex-router: Per-turn model & reasoning routing for Codex, driven by Jev (TypeSafe System One).",
           "publishedAt": "2026-09-17T04:14:19Z"
         },
         {
-          "id": 6,
+          "id": 8,
           "url": "https://github.com/hyperspaceai/jevcache",
           "source": "github",
           "title": "hyperspaceai/jevcache: A decision cache for TypeSafe Jev-class models — memoize decisions so repeats are free, deterministic, and shareable. One 2 MB binary.",
           "publishedAt": "2026-09-18T11:22:25Z"
         },
         {
-          "id": 7,
-          "url": "https://github.com/tacticocc/Jevbridge",
-          "source": "github",
-          "title": "tacticocc/Jevbridge: ACP and MCP adapter that bridges TypeSafe Jev with any LLM — computer use and typed decisions alongside Codex, Claude, Grok, and OpenCode.",
-          "publishedAt": "2026-09-18T02:36:01Z"
-        },
-        {
-          "id": 8,
-          "url": "https://github.com/AboveColin/HA-Jev",
-          "source": "github",
-          "title": "AboveColin/HA-Jev: Ask your house a question, get a number back. Home Assistant integration for TypeSafe Jev: typed answers as sensors, four actions for automations, and a conversation agent for Assist.",
-          "publishedAt": "2026-09-17T11:01:48Z"
-        },
-        {
           "id": 9,
+          "url": "https://github.com/everyinfra/jev-radar",
+          "source": "github",
+          "title": "everyinfra/jev-radar: The world's most comprehensive tracker of the Jev (TypeSafe AI System One) ecosystem — 220+ documented cases, verified & rescanned every 3 hours.",
+          "publishedAt": "2026-09-19T06:21:52Z"
+        },
+        {
+          "id": 10,
+          "url": "https://github.com/samdotmak/jev-recall",
+          "source": "github",
+          "title": "samdotmak/jev-recall: Retrieve by relevance, not resemblance: filter an AI assistant's memories with TypeSafe's Jev",
+          "publishedAt": "2026-09-19T20:08:14Z"
+        },
+        {
+          "id": 11,
+          "url": "https://github.com/ikermoel/open-alternative-jev",
+          "source": "github",
+          "title": "ikermoel/open-alternative-jev: Open-source alternative to TypeSafe's Jev: a System One style model layer that gives typed, calibrated decisions from any open-weights LLM in one forward pass (HF + vLLM), with honest benchmarks",
+          "publishedAt": "2026-09-18T05:20:56Z"
+        },
+        {
+          "id": 12,
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wleg4w/what_is_jev_and_what_is_it_used_for/",
           "source": "reddit",
           "title": "What is JEV and what is it used for?",
           "publishedAt": "2026-09-20T11:20:05.000Z"
         },
         {
-          "id": 10,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wle746/a_local_jevstyle_decision_head_onto_qwen_25_15b/",
-          "source": "reddit",
-          "title": "a local Jev-style decision head onto Qwen 2.5 1.5B",
-          "publishedAt": "2026-09-20T11:06:36.000Z"
-        },
-        {
-          "id": 11,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl1yzq/i_gave_jev_laya_finetuned_modernce_and_qwen35_the/",
-          "source": "reddit",
-          "title": "I gave Jev, Laya, finetuned ModernCE and Qwen3.5 the controls to Doom",
-          "publishedAt": "2026-09-20T00:15:37.000Z"
-        },
-        {
-          "id": 12,
-          "url": "https://kasra.blog/blog/classification-and-jev/",
-          "source": "hackernews",
-          "title": "In 2024 I fine-tuned an LLM. Jev could have removed the side quests",
-          "publishedAt": "2026-09-19T16:39:23Z"
-        },
-        {
           "id": 13,
-          "url": "https://github.com/trycua/cua",
-          "source": "hackernews",
-          "title": "Show HN: CUA-S1 – A System One Model for Computer Use",
-          "publishedAt": "2026-09-19T15:52:51Z"
-        },
-        {
-          "id": 14,
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlfmgq/is_typesafe_basedderived_from_work_done_by_the/",
           "source": "reddit",
           "title": "Is Typesafe based/derived from work done by the Laya author?",
           "publishedAt": "2026-09-20T12:19:44.000Z"
         },
         {
+          "id": 14,
+          "url": "https://blog.trulm.com/posts/tiny-story-writer-with-a-teacher/",
+          "source": "hackernews",
+          "title": "Using Jev as a teacher to help an SLM write better stories",
+          "publishedAt": "2026-09-20T17:02:00Z"
+        },
+        {
           "id": 15,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wkpxn6/von_opensource_395m_system_one_model/",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlpthk/fly_brain_vs_jev/",
           "source": "reddit",
-          "title": "Von: Open-source 395M \"System One\" model",
-          "publishedAt": "2026-09-19T16:00:57.000Z"
+          "title": "Fly brain vs jev",
+          "publishedAt": "2026-09-20T19:08:40.000Z"
         }
       ],
       "tags": ["agents", "open-source", "github", "system-one", "typed-decisions"],
       "confidence": "medium"
     },
     {
-      "slug": "qwen-image-2-1-released",
-      "headline": "Qwen-Image-2.1 released!",
-      "dek": "An open-weight image release landed the same day a StepFun preview drew a quick mirror, and a tracker repo put its model count at 556.",
+      "slug": "chatgpt-ad-collector-privacy",
+      "headline": "ChatGPT now knows what you do on other websites via ad collector",
+      "dek": "The highest-engagement AI item of the day tied ChatGPT to website activity collected through advertising, alongside field notes on privacy work and a proxy that scans prompts for secrets.",
       "type": "BRIEF",
       "readMinutes": 3,
       "tldr": [
-        "Qwen-Image-2.1 was released, extending Alibaba's Qwen image line while the Qwen 3.8 text models dominate local test threads.",
-        "StepFun's Step-5-Preview-BF16 was called \"promising\" on Hugging Face, and a BF16 fork or mirror appeared roughly eight hours later.",
-        "Alibaba also open-sourced a medical model that a community post says detects cancer and nearly 150 conditions; one tracker repo now counts 556 models with hourly syncs."
+        "The most-engaged AI item of the day, at 708 combined Hacker News points and comments, concerns ChatGPT receiving what users do on other websites through an ad collector.",
+        "Related items include field notes on using LLMs for privacy work and a proxy that scans LLM requests and attachments for secrets before they reach a model.",
+        "The three items point at a common question: model access now carries data-exposure risk that is separate from model capability."
       ],
       "body": [
         {
-          "text": "Qwen-Image-2.1 shipped, adding a new version to the Qwen image-generation line. The post is one of several Qwen-related items in the collection, which also includes nearby test threads for Qwen 3.8 27B and Qwen3.8-Flash-Next on local hardware.",
+          "text": "A Hacker News submission titled \"ChatGPT now knows what you do on other websites via ad collector\" drew 708 combined points and comments, the highest engagement of any AI item in the collection. The claim, as published, is that activity on other sites reaches ChatGPT through an advertising data collector.",
           "citations": [1]
         },
         {
-          "text": "StepFun's Step-5-Preview-BF16 appeared on Hugging Face and was described as looking promising in an early thread. About eight hours later, a second thread flagged a BF16 fork or mirror under another account, a pattern consistent with fast redistribution of open weights.",
+          "text": "Two smaller items approach the same problem defensively. One is a practitioner's field notes on using LLMs for privacy work; the other, preflight, is described as a proxy that scans LLM requests and attachments for secrets before they reach the model.",
           "citations": [2, 3]
-        },
-        {
-          "text": "Separately, a community post says Alibaba open-sourced a medical model that can detect cancer and nearly 150 conditions. The collected data carries the claim at headline level only, without evaluation details.",
-          "citations": [4]
-        },
-        {
-          "text": "Scale context comes from a tracker project that visualizes 556 models, syncing hourly from Epoch AI, models.dev, LiveBench and Hugging Face. It reports 144 GitHub stars and generates its copy from data rather than an LLM.",
-          "citations": [5]
         }
       ],
-      "whyItMatters": "Open-weight releases are arriving faster than independent evaluation. Mirrors and trackers are how the community keeps a usable index; announcement-level claims should be treated as unverified until benchmarks land.",
-      "editorNote": "We picked this as the release story of the day, but the collected data has no benchmark numbers for either release, so we describe cadence and distribution, not quality.",
+      "whyItMatters": "As assistant features pull in more third-party signals, the privacy boundary of a model session becomes a product decision. The collection shows both the inbound data flow and the tooling being built to inspect it.",
+      "editorNote": "This is a claim carried at headline level with no primary documentation in the feed, so confidence is medium; the preflight project and the privacy notes are the concrete, inspectable part of the story.",
       "cluster": [
         {
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wkwz69/ternarybonsai227bpq2_0_is_not_completely/",
-          "source": "reddit",
-          "title": "Ternary-Bonsai-2-27B-PQ2_0 is not completely lobotomized"
+          "url": "https://github.com/emetgate/emetgate",
+          "source": "github",
+          "title": "Show HN: Emetgate – a verification gate between an LLM and your source tree"
         },
         {
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wle1f4/need_help_fixing_gemma_4_26b_a4b_toolcalls_in_pi/",
-          "source": "reddit",
-          "title": "Need help fixing Gemma 4 26B A4B toolcalls in Pi"
+          "url": "https://desfontain.es/blog/llms-for-privacy.html",
+          "source": "hackernews",
+          "title": "Observations on LLMs for Privacy Work"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
+          "source": "hackernews",
+          "title": "ChatGPT now knows what you do on other websites via ad collector",
+          "publishedAt": "2026-09-20T15:18:44Z"
         },
         {
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wkxx8e/with_gemini_4_bench_goes_up/",
+          "id": 2,
+          "url": "https://desfontain.es/blog/llms-for-privacy.html",
+          "source": "hackernews",
+          "title": "Observations on LLMs for Privacy Work",
+          "publishedAt": "2026-09-20T05:33:11Z"
+        },
+        {
+          "id": 3,
+          "url": "https://github.com/ghuntley/preflight",
+          "source": "github",
+          "title": "A proxy that scans LLM requests/attach for secrets before they reach the model",
+          "publishedAt": "2026-09-20T14:47:47Z"
+        }
+      ],
+      "tags": ["privacy", "chatgpt", "security", "data"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "qwen-image-21-and-open-weight-cadence",
+      "headline": "Qwen-Image-2.1 released!",
+      "dek": "An open-weight image release landed the same day a StepFun model drew a quick Hugging Face fork, while a model tracker put its index at 556 entries.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "Qwen-Image-2.1 was released, extending Alibaba's Qwen image line; the same day a fork of StepFun's Step-5-Preview-BF16 appeared on Hugging Face.",
+        "Local test threads compared Ling 3.0 Tiny with Gemma 26B-A4B MoE and continued to exercise the Qwen 3.8 family.",
+        "A community tracker that visualizes 556 models, syncing hourly from Epoch AI, models.dev, LiveBench and Hugging Face, reported 144 GitHub stars."
+      ],
+      "body": [
+        {
+          "text": "Qwen-Image-2.1 shipped, adding a version to the Qwen image-generation line. The post arrived on the same day that local test threads continued to exercise the Qwen 3.8 family, including a one-shot game demo built on Qwen3.8-Flash-Next.",
+          "citations": [1, 4]
+        },
+        {
+          "text": "StepFun's Step-5-Preview-BF16 drew a roughly same-day Hugging Face fork under another account, a pattern consistent with fast redistribution of open weights. The collected data carries the fork at headline level only.",
+          "citations": [2]
+        },
+        {
+          "text": "Comparison activity continued as well: one thread set Ling 3.0 Tiny against Gemma 26B-A4B MoE. Scale context comes from a tracker project that visualizes 556 models and syncs hourly from Epoch AI, models.dev, LiveBench and Hugging Face, with 144 GitHub stars.",
+          "citations": [3, 5]
+        }
+      ],
+      "whyItMatters": "Open-weight releases and redistribution are arriving faster than independent evaluation. Trackers and mirrors are how the community keeps a usable index; announcement-level claims should be treated as unverified until benchmarks land.",
+      "editorNote": "The collected data has no benchmark numbers for these releases, so the story describes cadence and distribution rather than quality.",
+      "cluster": [
+        {
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlt33y/ling_30_tiny_vs_gemma_26ba4b_moe/",
           "source": "reddit",
-          "title": "With Gemini 4, bench goes up."
+          "title": "Ling 3.0 Tiny vs. Gemma 26B-A4B MoE"
+        },
+        {
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlqxeu/qwen38flashnext_cosmic_arcade_oneshot_slop_game/",
+          "source": "reddit",
+          "title": "Qwen3.8-Flash-Next Cosmic Arcade oneshot slop game"
         }
       ],
       "sources": [
@@ -221,30 +273,30 @@
         },
         {
           "id": 2,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl6gro/this_looks_promising_stepfunaistep5previewbf16/",
-          "source": "reddit",
-          "title": "this looks promising: stepfun-ai/Step-5-Preview-BF16 · Hugging Face",
-          "publishedAt": "2026-09-20T03:57:54.000Z"
-        },
-        {
-          "id": 3,
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wleycb/rene98cstep5previewbf16_huggingface_fork/",
           "source": "reddit",
           "title": "rene98c/Step-5-Preview-BF16 • HuggingFace (Fork)",
           "publishedAt": "2026-09-20T11:47:17.000Z"
         },
         {
-          "id": 4,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wk9fag/alibaba_opensources_medical_ai_model_that_can/",
+          "id": 3,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlt33y/ling_30_tiny_vs_gemma_26ba4b_moe/",
           "source": "reddit",
-          "title": "Alibaba open-sources medical AI model that can detect cancer and nearly 150 conditions",
-          "publishedAt": "2026-09-19T02:08:07.000Z"
+          "title": "Ling 3.0 Tiny vs. Gemma 26B-A4B MoE",
+          "publishedAt": "2026-09-20T21:11:51.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlqxeu/qwen38flashnext_cosmic_arcade_oneshot_slop_game/",
+          "source": "reddit",
+          "title": "Qwen3.8-Flash-Next Cosmic Arcade oneshot slop game",
+          "publishedAt": "2026-09-20T19:49:49.000Z"
         },
         {
           "id": 5,
           "url": "https://github.com/liyupi/ai-model-world",
           "source": "github",
-          "title": "liyupi/ai-model-world: AI 大模型世界，把 556 个大模型拟人化成像素小人的可视化站点。进来就能看到此刻谁最聪明、谁最会写代码、谁最便宜、谁刚发布，往下是国内与国外分区的厂商广场、完整的发布时间线和多维排行榜。搜索认模型名、厂商和能力，输入「多模态」会直接列出全部多模态模型。数据取自 Epoch AI、models.dev、LiveBench 与 Hugging Face，每小时自动同步，所有文案由真实数据生成，不调",
+          "title": "liyupi/ai-model-world: a visualization site that turns 556 large models into pixel characters, syncing hourly from Epoch AI, models.dev, LiveBench and Hugging Face.",
           "publishedAt": "2026-09-17T03:12:17Z"
         }
       ],
@@ -252,145 +304,157 @@
       "confidence": "medium"
     },
     {
-      "slug": "qwen38-flash-next-strix-halo",
-      "headline": "Qwen3.8-Flash-Next at 1M context on Strix Halo: 38 tok/s decode, 18 min prefill (halogen 0.12.0)",
-      "dek": "Same-day community reports on running the Qwen 3.8 family on Strix Halo, an RTX 5090, six V100s and cards with 16-20 GB of VRAM.",
+      "slug": "local-inference-throughput-claims",
+      "headline": "Speed-up Kimi K3(2.8T) on a 16x GB10 Cluster — 30 t/s coding throughput, 136 t/s concurrency peak.",
+      "dek": "Same-day community reports spanned a 16-GPU Kimi cluster, a hypothetical $1k Qwen3.8 chip at 7,000 TPS, a three-week single-3090 run and memory-bandwidth overclocking.",
       "type": "DATA",
-      "readMinutes": 5,
+      "readMinutes": 4,
       "tldr": [
-        "At 1M context on Strix Halo, Qwen3.8-Flash-Next decoded at 38 tok/s but prefill took about 18 minutes (halogen 0.12.0).",
-        "On one RTX 5090 the same model reported 50 tok/s generation and 2,300 tok/s prefill with FreeToken; a 6x V100 rig ran Qwen 3.8 Next with TP2/PP3.",
-        "Quantization tests compared Qwen3.8 27B IQ3_XXS at 10.18 GiB against Bonsai Ternary PQ2 at 6.42 GiB, and one thread asked for fewer FP4 inference engines."
+        "A 16-GPU GB10 cluster was reported running Kimi K3 (2.8T) at 30 tokens/s coding throughput and a 136 tokens/s concurrency peak.",
+        "A separate thread floated a $1k Qwen3.8-27B 'Taalas' chip at 7,000 TPS, and another reported three weeks of Qwen 3.8 27B on a single RTX 3090.",
+        "Memory stayed in focus: China's CXMT said a new memory-chip platform entered mass production, and a hobbyist reported 1.89 TB/s from an overclocked CMP 170hx."
       ],
       "body": [
         {
-          "text": "Long-context serving dominated the day's local-inference reports. On a Strix Halo machine running halogen 0.12.0, Qwen3.8-Flash-Next decoded at 38 tok/s at 1M context, but prefill took roughly 18 minutes. On a single RTX 5090, another run reported 50 tok/s generation and 2,300 tok/s prefill using FreeToken, suggesting prefill, not decode, is the practical wall as context grows.",
-          "citations": [1, 2]
+          "text": "Long-running and large-model serving dominated the day's local-inference reports. A 16-GPU GB10 cluster was reported running Kimi K3, a 2.8T-parameter model, at 30 tokens/s coding throughput with a 136 tokens/s concurrency peak, while a separate thread reported three weeks of continuous Qwen 3.8 27B use on a single RTX 3090.",
+          "citations": [1, 3]
         },
         {
-          "text": "The hardware spread reaches well below the newest cards. A six-GPU V100 rig ran Qwen 3.8 Next with tensor parallelism 2 and pipeline parallelism 3, and a separate thread tested the 27B model on 16-20 GB of VRAM.",
-          "citations": [3, 4]
+          "text": "Hardware speculation and tooling ran alongside. One thread asked whether readers would buy a $1k Qwen3.8-27B 'Taalas' chip able to run at 7,000 TPS; another recommended ExllamaV3 for Flash-Next. A Hacker News post compared self-hosted inference orchestrators including LocalAI, exo, GPUStack and vLLM.",
+          "citations": [2, 4, 8]
         },
         {
-          "text": "Quantization and number formats are contested. One test compared Qwen3.8 27B IQ3_XXS at 10.18 GiB with Bonsai Ternary PQ2 at 6.42 GiB. A separate thread, titled \"Please stop with the FP4 inference engines for the love of god,\" argues against current FP4 kernels; it is an opinion post, not a benchmark.",
+          "text": "Benchmark threads put numbers on consumer cards: one user tested nine LLMs on the same web-development prompt for about eight hours on an RTX 3060 12GB, and a Hacker News submission collected a test of eight vision-language models on a single RTX 3090.",
           "citations": [5, 6]
         },
         {
-          "text": "Buying context: a survey of Mac Mini alternatives for local LLMs covers M6, M5 and Strix Halo machines, and a Hacker News submission collected a test of eight VLMs on a single RTX 3090.",
-          "citations": [7, 8]
+          "text": "The constraint underneath remained memory. A thread reported 1.89 TB/s of memory bandwidth from an overclocked CMP 170hx, and another noted that China's CXMT said a new memory-chip platform had entered mass production. Both are single-source or headline-level and carry no controlled methodology.",
+          "citations": [7, 9]
         }
       ],
-      "whyItMatters": "These single-machine reports are the fastest public read on what open models actually need. Prefill time at long context, not decode speed, decides whether a 1M-token setup is usable interactively.",
-      "editorNote": "All figures are community reports from individual machines with no shared methodology. We report the numbers as claimed.",
+      "whyItMatters": "These single-machine reports are the fastest public read on what open models actually need. Prefill and memory bandwidth, not headline decode speed, decide whether large-model setups are usable, and the supply sits with memory makers.",
+      "editorNote": "All figures are community reports from individual machines with no shared methodology, and the CXMT item is headline-level; the numbers are reported as claimed.",
       "cluster": [
         {
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl18ax/qwen_38_27b_running_live_on_a_rtx_5090_to_solve/",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlo9nz/one_more_you_should_try_exllamav3exl3_for_flash/",
           "source": "reddit",
-          "title": "Qwen 3.8 27B Running LIVE on a RTX 5090 to solve an Open Math Problem - Covering Design C(25,15,5)"
+          "title": "One more 'you should try ExllamaV3/exl3 for flash next' appreciation post"
+        },
+        {
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlkxjw/cuda_enable_sparse_fa_for_qwen4_by_am17an_pull/",
+          "source": "reddit",
+          "title": "CUDA: enable sparse fa for qwen4 by am17an · Pull Request #28770 · ggml-org/llama.cpp"
         }
       ],
       "sources": [
         {
           "id": 1,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wkyny9/qwen38flashnext_at_1m_context_on_strix_halo_38/",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlt577/speedup_kimi_k328t_on_a_16x_gb10_cluster_30_ts/",
           "source": "reddit",
-          "title": "Qwen3.8-Flash-Next at 1M context on Strix Halo: 38 tok/s decode, 18 min prefill (halogen 0.12.0)",
-          "publishedAt": "2026-09-19T21:49:45.000Z"
+          "title": "Speed-up Kimi K3(2.8T) on a 16x GB10 Cluster — 30 t/s coding throughput, 136 t/s concurrency peak.",
+          "publishedAt": "2026-09-20T21:14:05.000Z"
         },
         {
           "id": 2,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl06np/qwen38flashnext_on_1x_rtx_5090_tg50_ts_pp2300_ts/",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wltts7/would_you_buy_a_qwen3827b_taalas_chip_for_1k_if/",
           "source": "reddit",
-          "title": "Qwen-3.8-Flash-Next on 1x RTX 5090: TG=50 t/s, PP=2300 t/s - with FreeToken",
-          "publishedAt": "2026-09-19T22:55:28.000Z"
+          "title": "Would you buy a Qwen3.8-27B Taalas chip for $1k if it could run at 7,000 TPS?",
+          "publishedAt": "2026-09-20T21:41:37.000Z"
         },
         {
           "id": 3,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl680s/finally_got_qwen_38_next_running_on_my_v100_6gpu/",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wloora/the_bear_can_dance_qwen_38_27b_on_one_3090_for_3/",
           "source": "reddit",
-          "title": "Finally got Qwen 3.8 Next running on my v100 6gpu setup (TP2 PP3)",
-          "publishedAt": "2026-09-20T03:44:56.000Z"
+          "title": "The bear can dance: Qwen 3.8 27B on one 3090 for 3 weeks",
+          "publishedAt": "2026-09-20T18:26:30.000Z"
         },
         {
           "id": 4,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlf6hb/my_qwen_38_27b_tests_on_limited_vram_1620gb/",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlo9nz/one_more_you_should_try_exllamav3exl3_for_flash/",
           "source": "reddit",
-          "title": "My Qwen 3.8 27B tests on limited VRAM (16-20GB)",
-          "publishedAt": "2026-09-20T11:58:55.000Z"
+          "title": "One more 'you should try ExllamaV3/exl3 for flash next' appreciation post",
+          "publishedAt": "2026-09-20T18:10:37.000Z"
         },
         {
           "id": 5,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wkorli/i_tested_qwen38_27b_iq3_xxs_1018gib_vs_bonsai/",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wljzix/i_tested_9_llms_on_the_exact_same_webdev_prompt/",
           "source": "reddit",
-          "title": "I tested Qwen3.8 27B IQ3_XXS (10.18GiB) vs Bonsai Ternary PQ2 (6.42GiB)",
-          "publishedAt": "2026-09-19T15:12:43.000Z"
+          "title": "I tested 9 LLMs on the exact same web-dev prompt for ~8 hours — RTX 3060 12GB results (Rate the best!)",
+          "publishedAt": "2026-09-20T15:26:49.000Z"
         },
         {
           "id": 6,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl56g2/please_stop_with_the_fp4_inference_engines_for/",
-          "source": "reddit",
-          "title": "Please stop with the FP4 inference engines for the love of god",
-          "publishedAt": "2026-09-20T02:51:43.000Z"
-        },
-        {
-          "id": 7,
-          "url": "https://terminalbytes.com/mac-mini-alternatives-local-llm-2026/",
-          "source": "hackernews",
-          "title": "Mac Mini Alternatives for Local LLMs: M6, M5 and Strix Halo",
-          "publishedAt": "2026-09-19T17:09:01Z"
-        },
-        {
-          "id": 8,
           "url": "https://www.reddit.com/r/LocalLLaMA/s/uSxsTw5Wno",
           "source": "hackernews",
           "title": "Testing 8 VLMs on a single 3090 GPU",
           "publishedAt": "2026-09-20T04:46:04Z"
+        },
+        {
+          "id": 7,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl9amq/reached_189_tbs_memory_bandwidth_overclocking_the/",
+          "source": "reddit",
+          "title": "Reached 1.89 TB/s memory bandwidth overclocking the CMP 170hx",
+          "publishedAt": "2026-09-20T06:27:26.000Z"
+        },
+        {
+          "id": 8,
+          "url": "https://www.nexlab.net/articles/self-hosted-inference-orchestrators-compared-2026/",
+          "source": "hackernews",
+          "title": "Self-hosted inference orchestrators compared: LocalAI, exo, GPUStack, vLLM",
+          "publishedAt": "2026-09-20T17:43:35Z"
+        },
+        {
+          "id": 9,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl9c2o/chinas_cxmt_says_new_memorychip_platform_enters/",
+          "source": "reddit",
+          "title": "China's CXMT says new memory-chip platform enters mass production",
+          "publishedAt": "2026-09-20T06:29:42.000Z"
         }
       ],
-      "tags": ["local-llm", "quantization", "inference", "hardware", "qwen"],
+      "tags": ["local-llm", "inference", "hardware", "memory", "qwen"],
       "confidence": "medium"
     },
     {
-      "slug": "harness-design-for-coding-agents",
+      "slug": "harness-design-and-agent-verification",
       "headline": "An Empirical Study of Harness Design for Coding Agents",
-      "dek": "Three September 17 preprints take on agent scaffolding, overclaiming and troubleshooting, while small repos ship checks that agent claims match their diffs.",
+      "dek": "Three September 17 preprints take on agent scaffolding, overclaiming and troubleshooting, while small repos ship checks that an agent's claims match its diff.",
       "type": "DEEP",
-      "readMinutes": 6,
+      "readMinutes": 5,
       "tldr": [
-        "Three agent-focused preprints posted September 17 study harness design, overclaiming propensity in frontier agents, and stateful retrieval for troubleshooting agents.",
-        "Community tooling tracks the same concern: is-gpt-nerfed (159 stars) checks Codex for model shrinkflation, and i-dont-believe-you (17 stars) checks agent claims against diffs.",
-        "A separate thread argues decontamination reports cannot fix benchmark contamination and asks what evaluators should do instead."
+        "Three September 17 arXiv preprints study coding-agent harness design, overclaiming propensity in frontier agents, and stateful retrieval for troubleshooting agents.",
+        "Tooling tracks the same concern: Emetgate is a verification gate between an LLM and a source tree, NiceTryGPT targets CTF shortcuts, and Bailout bills itself as a coding agent meant to be deleted.",
+        "A separate post argues misaligned citations open a path to LLM-generated scientific fraud."
       ],
       "body": [
         {
-          "text": "\"An Empirical Study of Harness Design for Coding Agents\" treats the scaffolding around a model, not the model weights, as the variable under study. It appeared in the same arXiv batch as \"Quantifying Overclaiming Propensity in Frontier LLM Agents,\" which frames overclaiming as something to measure in agent behavior.",
+          "text": "\"An Empirical Study of Harness Design for Coding Agents\" treats the scaffolding around a model, not the weights, as the variable under study. It appeared in the same September 17 arXiv batch as \"Quantifying Overclaiming Propensity in Frontier LLM Agents,\" which frames overclaiming as something to measure directly in agent behavior.",
           "citations": [1, 2]
         },
         {
-          "text": "A third preprint, RAFT, describes a stateful retrieval-augmented framework for troubleshooting agents, adding persistent state to retrieval. The three titles point at operational questions about agent reliability rather than raw capability.",
+          "text": "A third preprint, RAFT, describes a stateful retrieval-augmented framework for troubleshooting agents, adding persistent state to retrieval. The three titles point at operational reliability rather than raw capability.",
           "citations": [3]
         },
         {
-          "text": "Small repositories are shipping the same idea as tooling. is-gpt-nerfed, a shrinkflation detector for Codex with 159 stars, watches for silent model changes; i-dont-believe-you, with 17 stars, is a skill meant to stop a coding agent from claiming success when the diff says otherwise.",
-          "citations": [4, 5]
+          "text": "Small repositories are shipping the same idea as tooling. Emetgate is described as a verification gate between an LLM and your source tree; NiceTryGPT targets shortcuts in capture-the-flag work; Bailout is framed as a coding agent meant to be deleted; is-gpt-nerfed watches for silent model changes; and i-dont-believe-you is a skill meant to stop an agent claiming success when the diff says otherwise.",
+          "citations": [4, 5, 6, 7, 8]
         },
         {
-          "text": "Evaluation itself is under scrutiny. A September 20 thread argues that decontamination reports cannot fix benchmark contamination and asks what an evaluator has to do instead, an argument that applies directly to any agent benchmark whose harness is not published.",
-          "citations": [6]
+          "text": "Evaluation integrity is part of the argument. A September 20 post, \"Misaligned citations and LLM-generated scientific fraud,\" ties citation drift to fabricated research, a risk that applies directly to any agent whose outputs are not checked against sources.",
+          "citations": [9]
         }
       ],
       "whyItMatters": "Coding agents are being deployed on the strength of benchmark scores. If the harness and the claim-checking are what determine reliability, then evaluation and verification research is the more actionable half of the field.",
-      "editorNote": "Our source metadata for arXiv items includes titles and authors but not abstracts, so we describe each paper's scope from its title and avoid claiming results.",
+      "editorNote": "The arXiv items include titles and authors but not abstracts in the collection, so each paper's scope is described from its title and no results are claimed.",
       "cluster": [
         {
           "url": "https://github.com/Continuum-AI-Corp/OrcaPromptVault",
           "source": "github",
-          "title": "Continuum-AI-Corp/OrcaPromptVault: The open archive of how AI agents actually work.  A versioned, verifiable archive of system prompts, developer instructions, tool schemas and agent harnesses powering today's AI products. Captured wit"
+          "title": "Continuum-AI-Corp/OrcaPromptVault: a versioned, verifiable archive of system prompts, developer instructions, tool schemas and agent harnesses"
         },
         {
-          "url": "http://arxiv.org/abs/2609.20784v1",
-          "source": "arxiv",
-          "title": "RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning"
+          "url": "https://github.com/storozhenko98/bailout",
+          "source": "github",
+          "title": "Show HN: Bailout – The coding agent meant to be deleted"
         }
       ],
       "sources": [
@@ -417,209 +481,120 @@
         },
         {
           "id": 4,
+          "url": "https://github.com/emetgate/emetgate",
+          "source": "github",
+          "title": "Show HN: Emetgate – a verification gate between an LLM and your source tree",
+          "publishedAt": "2026-09-20T19:29:19Z"
+        },
+        {
+          "id": 5,
+          "url": "https://github.com/aleff-github/NiceTryGPT",
+          "source": "github",
+          "title": "Show HN: NiceTryGPT and CTF and riduzione degli shortcut LLM",
+          "publishedAt": "2026-09-20T19:11:57Z"
+        },
+        {
+          "id": 6,
+          "url": "https://github.com/storozhenko98/bailout",
+          "source": "github",
+          "title": "Show HN: Bailout – The coding agent meant to be deleted",
+          "publishedAt": "2026-09-20T18:14:58Z"
+        },
+        {
+          "id": 7,
           "url": "https://github.com/kiyoakii/is-gpt-nerfed",
           "source": "github",
           "title": "kiyoakii/is-gpt-nerfed: Shrinkflation detector for Codex",
           "publishedAt": "2026-09-15T10:22:16Z"
         },
         {
-          "id": 5,
+          "id": 8,
           "url": "https://github.com/LeonardLeroy/i-dont-believe-you",
           "source": "github",
           "title": "LeonardLeroy/i-dont-believe-you: A skill to stop your coding agent from telling you it works when the diff says otherwise.",
           "publishedAt": "2026-09-15T22:43:48Z"
         },
         {
-          "id": 6,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wli359/why_decontamination_reports_cant_fix_benchmark/",
-          "source": "reddit",
-          "title": "Why decontamination reports can’t fix benchmark contamination, and what an evaluator has to do instead",
-          "publishedAt": "2026-09-20T14:09:43.000Z"
+          "id": 9,
+          "url": "https://jilltxt.net/misaligned-citations-and-llm-generated-scientific-fraud/",
+          "source": "hackernews",
+          "title": "Misaligned citations and LLM-generated scientific fraud",
+          "publishedAt": "2026-09-20T16:02:41Z"
         }
       ],
       "tags": ["agents", "research", "evaluation", "tooling", "arxiv"],
       "confidence": "medium"
     },
     {
-      "slug": "apple-silicon-50-percent-faster",
-      "headline": "How did Apple Silicon get 50% faster in three years? – Daniel Lemire's blog",
-      "dek": "Memory bandwidth and memory supply were the day's infrastructure thread: a 50% Apple Silicon question, CXMT mass production, a 1.89 TB/s overclock and a rented-compute warning.",
+      "slug": "model-preservation-and-trust-debate",
+      "headline": "Pirate Face Rescues LLM Models from Deletion",
+      "dek": "Model preservation, an essay on how chat models behave, and a video claiming LLM progress has stalled made up the day's trust-and-behavior cluster.",
       "type": "BRIEF",
       "readMinutes": 4,
       "tldr": [
-        "A widely-read post asks how Apple Silicon got 50% faster in three years, a question the thread ties to memory and architecture rather than clock speed.",
-        "China's CXMT said a new memory-chip platform entered mass production, while a hobbyist reported 1.89 TB/s of memory bandwidth from an overclocked CMP 170hx.",
-        "Two more threads stayed on the same constraint: data movement as an old systems problem with a new AI twist, and a warning about rented GPU capacity on Clore.AI."
+        "Pirate Face, at 485 combined points and comments, was the second most-engaged AI item of the day and is framed around rescuing LLM models from deletion.",
+        "An essay at 388 points argues chat-based LLMs replicate the mechanisms of a psychic's con, and a video submission says MIT proved LLMs will stop getting smarter.",
+        "Two Minute Papers separately described a new DeepSeek architecture."
       ],
       "body": [
         {
-          "text": "A blog post by Daniel Lemire, with 34 combined points and comments on Hacker News, asks how Apple Silicon became 50% faster in three years. The answer discussed there matters for local inference because sustained memory bandwidth, not peak compute, sets token throughput on unified-memory machines.",
+          "text": "A project called Pirate Face drew 485 combined points and comments, the second-highest engagement of any AI item in the collection, with a title about rescuing LLM models from deletion. The feed carries the framing but not the project's method or scope.",
           "citations": [1]
         },
         {
-          "text": "On the supply side, China's CXMT said a new memory-chip platform has entered mass production, according to a community post. The collected item carries no capacity or node details.",
-          "citations": [2]
+          "text": "Behavior and provenance drew the next tier of attention. An essay titled \"Chat-based Large Language Models replicate the mechanisms of a psychic's con\" reached 388 combined points and comments, and a video submission claimed MIT proved LLMs will stop getting smarter and that money will not fix it.",
+          "citations": [2, 3]
         },
         {
-          "text": "On the bandwidth side, a thread reports 1.89 TB/s of memory bandwidth from an overclocked CMP 170hx, a mining-era card repurposed for local models. The figure is a single user's result, not a controlled measurement.",
-          "citations": [3]
-        },
-        {
-          "text": "Three more items round out the picture: a claim that a Radeon RX 10800 XT can outperform an RTX 5090 by 15-25% in 4K gaming and local AI, a submission on data movement as an old systems problem with a new AI twist, and a warning about rented GPU capacity on the marketplace Clore.AI.",
-          "citations": [4, 5, 6]
+          "text": "On the capability side, a Two Minute Papers episode described a new DeepSeek architecture. The three items together span preservation, trust and progress claims without offering a shared standard of evidence.",
+          "citations": [4]
         }
       ],
-      "whyItMatters": "Local model economics move with memory bandwidth and memory supply, not just with accelerator launches. Community reports and supply announcements are early signals for what will be cheap to run.",
-      "editorNote": "Hardware numbers here are user-reported and the CXMT item is headline-level, so treat the figures as claims rather than measurements.",
+      "whyItMatters": "Whether models are preserved, how they behave in conversation, and whether progress is stalling are all inputs to procurement and policy. The day's most-engaged items show those questions trading on argument and framing as much as on measurement.",
+      "editorNote": "The Pirate Face and MIT items are carried at headline level, and the essay is opinion; all are labeled as claims rather than findings.",
       "cluster": [
         {
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl5hfk/to_the_dozens_of_3x_3090_local_llm_people_i_found/",
-          "source": "reddit",
-          "title": "To the dozens of 3x 3090 Local LLM people - I found our current best fit"
+          "url": "https://news.ycombinator.com/item?id=49776698",
+          "source": "hackernews",
+          "title": "Ask HN: What is one plausible path to 'AI extinction'?"
+        },
+        {
+          "url": "https://github.com/friday-memory/friday",
+          "source": "github",
+          "title": "friday-memory/friday: the open-source persistent cognitive memory layer for AI coding agents"
         }
       ],
       "sources": [
         {
           "id": 1,
-          "url": "https://lemire.me/blog/2026/09/19/how-did-apple-silicon-get-50-faster-in-three-years/",
+          "url": "https://pirateface.co/",
           "source": "hackernews",
-          "title": "How did Apple Silicon get 50% faster in three years? – Daniel Lemire's blog",
-          "publishedAt": "2026-09-19T23:08:48Z"
-        },
-        {
-          "id": 2,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl9c2o/chinas_cxmt_says_new_memorychip_platform_enters/",
-          "source": "reddit",
-          "title": "China's CXMT says new memory-chip platform enters mass production",
-          "publishedAt": "2026-09-20T06:29:42.000Z"
-        },
-        {
-          "id": 3,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl9amq/reached_189_tbs_memory_bandwidth_overclocking_the/",
-          "source": "reddit",
-          "title": "Reached 1.89 TB/s memory bandwidth overclocking the CMP 170hx",
-          "publishedAt": "2026-09-20T06:27:26.000Z"
-        },
-        {
-          "id": 4,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl1hlj/radeon_rx_10800_xt_can_outperform_the_rtx_5090_by/",
-          "source": "reddit",
-          "title": "Radeon RX 10800 XT can outperform the RTX 5090 by 15-25% in 4K gaming and local AI",
-          "publishedAt": "2026-09-19T23:54:03.000Z"
-        },
-        {
-          "id": 5,
-          "url": "https://twitter.com/nk_developer1/status/2101028456083677524",
-          "source": "hackernews",
-          "title": "An old systems problem with a new AI twist: data movement",
-          "publishedAt": "2026-09-19T22:35:12Z"
-        },
-        {
-          "id": 6,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wkgs01/general_warning_about_cloreai/",
-          "source": "reddit",
-          "title": "General warning about Clore.AI",
-          "publishedAt": "2026-09-19T08:37:35.000Z"
-        }
-      ],
-      "tags": ["hardware", "memory", "compute-economics", "local-llm"],
-      "confidence": "medium"
-    },
-    {
-      "slug": "almost-never-use-ai-to-write",
-      "headline": "I think you should almost never use AI to write",
-      "dek": "The day's most-engaged AI thread argued about AI writing while separate posts questioned AI persuasion, provenance and lab incentives.",
-      "type": "BRIEF",
-      "readMinutes": 5,
-      "tldr": [
-        "An essay arguing you should almost never use AI to write drew 473 combined points and comments, the highest engagement of any AI item in the collection.",
-        "Related threads questioned model behavior: a \"psychic's con\" analogy at 186 combined points and comments, a demo of LLMs faking memory, and a video on Claude leaving \"invisible fingerprints\" in its text.",
-        "On labs: NY Post reported insiders saying OpenAI and Anthropic oversold AI security breaches, while a local-model thread said major labs amplify fear to invite regulation that hurts open source."
-      ],
-      "body": [
-        {
-          "text": "The most-engaged AI item of the day is an opinion essay titled \"I think you should almost never use AI to write,\" posted to Hacker News with 473 combined points and comments. The argument in the thread is about what AI-written text does to the writer and the reader, not about model capability.",
-          "citations": [1]
-        },
-        {
-          "text": "Two other popular items examined how language models behave in conversation. One compares chat-based LLM behavior to the mechanisms of a psychic's con (186 combined points and comments); another walks through a conversation engine built in Python that shows how LLMs fake memory.",
-          "citations": [2, 7]
-        },
-        {
-          "text": "Provenance is the technical counterpart. A Two Minute Papers episode describes Claude leaving \"invisible fingerprints\" in its text, and Le Monde reported on the lucrative business of reactionary AI-generated Facebook posts, a case where the provenance question is mostly commercial.",
-          "citations": [5, 6]
-        },
-        {
-          "text": "Lab credibility also drew scrutiny. NY Post reported that insiders say OpenAI and Anthropic oversold AI security breaches to pressure federal officials, and a r/LocalLLaMA thread argued that major labs use fear-mongering headlines to invite regulation that harms open-source models. Both are claims, not findings.",
-          "citations": [3, 4]
-        }
-      ],
-      "whyItMatters": "Trust in AI text and in the labs that produce models is becoming a product feature: provenance tools, slop detection and vendor credibility all affect adoption, procurement and regulation.",
-      "editorNote": "This is a debate roundup: the writing essay is opinion, the NY Post piece relies on unnamed insiders, and the Reddit thread is an argument. We label each as a claim.",
-      "cluster": [
-        {
-          "url": "https://make-safety-open.github.io/",
-          "source": "hackernews",
-          "title": "A Call for Open Science in AI Safety"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=6xQ8LQfkBg4",
-          "source": "hackernews",
-          "title": "MIT Just Proved LLMs Will Stop Getting Smarter, and Money Won't Fix It [video]"
-        }
-      ],
-      "sources": [
-        {
-          "id": 1,
-          "url": "https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai",
-          "source": "hackernews",
-          "title": "I think you should almost never use AI to write",
-          "publishedAt": "2026-09-19T16:35:24Z"
+          "title": "Pirate Face Rescues LLM Models from Deletion",
+          "publishedAt": "2026-09-20T15:16:07Z"
         },
         {
           "id": 2,
           "url": "https://softwarecrisis.dev/letters/llmentalist/",
           "source": "hackernews",
           "title": "Chat-based Large Language Models replicate the mechanisms of a psychic's con",
-          "publishedAt": "2026-09-19T12:20:13Z"
+          "publishedAt": "2026-09-20T12:20:13Z"
         },
         {
           "id": 3,
-          "url": "https://nypost.com/2026/09/19/us-news/openai-anthropic-oversold-security-breaches-to-pressure-feds-into-protecting-turf-insiders/",
+          "url": "https://www.youtube.com/watch?v=6xQ8LQfkBg4",
           "source": "hackernews",
-          "title": "OpenAI and Anthropic oversold AI security breaches",
-          "publishedAt": "2026-09-19T19:59:28Z"
+          "title": "MIT Just Proved LLMs Will Stop Getting Smarter, and Money Won't Fix It [video]",
+          "publishedAt": "2026-09-20T09:33:38Z"
         },
         {
           "id": 4,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wk979c/i_truly_think_every_major_ai_lab_is_purposefully/",
-          "source": "reddit",
-          "title": "I truly think every major AI lab is purposefully making fear-mongering headlines to get regulations that hurt open-source models",
-          "publishedAt": "2026-09-19T01:57:25.000Z"
-        },
-        {
-          "id": 5,
-          "url": "https://www.youtube.com/watch?v=YoEWjZSwoys",
+          "url": "https://www.youtube.com/watch?v=vIHw_2VjSUw",
           "source": "youtube",
-          "title": "Two Minute Papers: Claude Is Now Leaving Invisible Fingerprints In Its Text",
-          "publishedAt": "2026-09-15T10:12:34.000Z"
-        },
-        {
-          "id": 6,
-          "url": "https://www.lemonde.fr/en/pixels/article/2026/09/19/the-lucrative-business-of-reactionary-ai-generated-posts-on-facebook_6757721_13.html",
-          "source": "hackernews",
-          "title": "The lucrative business of reactionary AI-generated posts on Facebook",
-          "publishedAt": "2026-09-19T18:53:58Z"
-        },
-        {
-          "id": 7,
-          "url": "https://heymeraki.substack.com/p/aie_21-building-it",
-          "source": "hackernews",
-          "title": "Building a conversation engine in Python that shows how LLMs fake memory",
-          "publishedAt": "2026-09-19T17:44:01Z"
+          "title": "Two Minute Papers: DeepSeek's Insane New Architecture",
+          "publishedAt": "2026-09-18T07:03:46.000Z"
         }
       ],
-      "tags": ["community", "trust", "provenance", "safety", "policy"],
+      "tags": ["community", "trust", "model-behavior", "safety"],
       "confidence": "medium"
     }
   ]
