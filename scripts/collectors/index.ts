@@ -18,6 +18,7 @@ import { polymarket } from "./polymarket.ts";
 import { sec_edgar } from "./sec_edgar.ts";
 import { fred } from "./fred.ts";
 import { journal_rss } from "./journal_rss.ts";
+import { market_data } from "./market_data.ts";
 
 export const COLLECTORS: Collector[] = [
   hackernews,
@@ -38,4 +39,5 @@ export const COLLECTORS: Collector[] = [
   sec_edgar,
   fred,
   journal_rss,
+  market_data,
 ];

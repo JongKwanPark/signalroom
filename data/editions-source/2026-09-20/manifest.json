@@ -1,0 +1,39 @@
+{
+  "date": "2026-09-20",
+  "generatedAt": "2026-09-20T15:20:59.040Z",
+  "verticals": {
+    "geo": {
+      "items": 56,
+      "sources": [
+        {
+          "name": "gdelt",
+          "status": "failed",
+          "count": 0,
+          "error": "gdelt: TypeError: fetch failed"
+        },
+        {
+          "name": "reliefweb",
+          "status": "empty",
+          "count": 0
+        },
+        {
+          "name": "isw",
+          "status": "failed",
+          "count": 0,
+          "error": "isw RSS: HTTP 403"
+        },
+        {
+          "name": "wire",
+          "status": "ok",
+          "count": 56
+        },
+        {
+          "name": "polymarket",
+          "status": "failed",
+          "count": 0,
+          "error": "polymarket: HTTP 451"
+        }
+      ]
+    }
+  }
+}

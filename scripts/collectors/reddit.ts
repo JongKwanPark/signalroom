@@ -30,21 +30,49 @@ export const reddit: Collector = {
         tasks.push({
           vertical: verticalStr,
           run: async () => {
-            const res = await fetchWithRetry({
-              url: `https://www.reddit.com/r/${sub}/hot/.rss?limit=${Math.min(ctx.limit, 50)}`,
-              accept: "application/rss+xml",
-              timeoutMs: 15_000,
-            });
-            if (!res.ok) throw new Error(`r/${sub} RSS: ${res.error}`);
-            return parseFeed(res.text).map((it) => ({
-              source: "reddit",
-              vertical: verticalStr,
-              title: it.title,
-              url: it.link,
-              publishedAt: normalizeDate(it.publishedAt),
-              excerpt: undefined,
-              licenseNote: NONCOMMERCIAL,
-            }));
+            const hosts = ["www.reddit.com", "old.reddit.com"];
+            let lastError = "";
+            for (const host of hosts) {
+              const res = await fetchWithRetry({
+                url: `https://${host}/r/${sub}/hot/.rss?limit=${Math.min(ctx.limit, 50)}`,
+                accept: "application/rss+xml",
+                timeoutMs: 15_000,
+              });
+              if (res.ok) {
+                return parseFeed(res.text).map((it) => ({
+                  source: "reddit",
+                  vertical: verticalStr,
+                  title: it.title,
+                  url: it.link,
+                  publishedAt: normalizeDate(it.publishedAt),
+                  excerpt: undefined,
+                  licenseNote: NONCOMMERCIAL,
+                }));
+              }
+              lastError = res.error ?? `HTTP ${res.status}`;
+              if (res.status === 429) {
+                // Reddit rate-limits datacenter IPs; wait briefly and retry once.
+                await new Promise((r) => setTimeout(r, 5000));
+                const retry = await fetchWithRetry({
+                  url: `https://${host}/r/${sub}/hot/.rss?limit=${Math.min(ctx.limit, 50)}`,
+                  accept: "application/rss+xml",
+                  timeoutMs: 15_000,
+                });
+                if (retry.ok) {
+                  return parseFeed(retry.text).map((it) => ({
+                    source: "reddit",
+                    vertical: verticalStr,
+                    title: it.title,
+                    url: it.link,
+                    publishedAt: normalizeDate(it.publishedAt),
+                    excerpt: undefined,
+                    licenseNote: NONCOMMERCIAL,
+                  }));
+                }
+                lastError = retry.error ?? `HTTP ${retry.status}`;
+              }
+            }
+            throw new Error(`r/${sub} RSS (${lastError})`);
           },
         });
       }

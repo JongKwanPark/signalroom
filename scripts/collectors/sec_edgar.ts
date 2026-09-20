@@ -58,7 +58,8 @@ export const sec_edgar: Collector = {
       });
     }
 
-    // Fallback/complement: browse-edgar atom of latest filings.
+    // Fallback/complement: browse-edgar atom of latest filings (Apple 8-K as
+    // a stable anchor CIK) plus data.sec.gov company-submissions JSON.
     const atom = await fetchWithRetry({
       url: "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001067983&type=8-K&dateb=&owner=include&count=10&output=atom",
       headers: { "User-Agent": ua },
@@ -77,6 +78,34 @@ export const sec_edgar: Collector = {
       items = items.concat(extra);
     }
 
+    // Last resort: data.sec.gov company-submissions JSON (recent filings list).
+    if (items.length === 0) {
+      const subs = await fetchJson<RecentSubmissions>({
+        url: "https://data.sec.gov/submissions/CIK0000320193.json", // Apple
+        headers,
+        timeoutMs: 15_000,
+        retries: 2,
+      });
+      if (subs.ok) {
+        const rec = subs.data?.filings?.recent;
+        const acc = rec?.accessionNumber;
+        const forms = rec?.form;
+        const dates = rec?.filingDate;
+        const docs = rec?.primaryDocument;
+        if (acc && forms && dates && docs) {
+          const n = Math.min(acc.length, Math.min(ctx.limit, 10));
+          items = Array.from({ length: n }, (_, i) => ({
+            source: "sec_edgar",
+            vertical: "markets" as const,
+            title: `SEC filing: Apple Inc. form ${forms[i] ?? ""} (${dates[i] ?? ""})`,
+            url: `https://www.sec.gov/Archives/edgar/data/320193/${acc[i].replace(/-/g, "")}/${docs[i]}`,
+            publishedAt: `${dates[i]}T00:00:00Z`,
+            licenseNote: "SEC EDGAR public domain",
+          }));
+        }
+      }
+    }
+
     if (!fts.ok && items.length === 0) {
       throw new Error(`sec_edgar full-text search: ${fts.error ?? "no results"}`);
     }
@@ -87,4 +116,15 @@ export const sec_edgar: Collector = {
 function isoDate(input: string): string {
   const d = new Date(input);
   return isNaN(d.getTime()) ? new Date().toISOString() : d.toISOString();
+}
+
+interface RecentSubmissions {
+  filings?: {
+    recent?: {
+      accessionNumber?: string[];
+      form?: string[];
+      filingDate?: string[];
+      primaryDocument?: string[];
+    };
+  };
 }
