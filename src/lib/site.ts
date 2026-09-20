@@ -4,7 +4,7 @@ export const SITE = {
   tagline: 'A daily intelligence digest across AI, bio, geo and markets.',
   description:
     'Signal Room is a public, no-login daily digest. Four verticals, one page: what moved, why it matters, and where it came from. AI-assisted drafting, editor-reviewed, primary sources cited inline.',
-  url: (import.meta.env.SITE || 'https://signalroom.vercel.app').replace(/\/+$/, ''),
+  url: (import.meta.env.SITE || 'https://signalroom-nu.vercel.app').replace(/\/+$/, ''),
   locale: 'en_US',
   author: 'Signal Room editors',
 } as const;

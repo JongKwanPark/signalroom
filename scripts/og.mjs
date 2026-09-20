@@ -36,7 +36,7 @@ const VERTICALS = {
 const WORDMARK = 'SIGNAL ROOM';
 const TAGLINE = 'A daily intelligence digest across AI, bio, geo and markets.';
 const SITE_HOST = new URL(
-  process.env.SITE_URL || process.env.SITE || 'https://signalroom.vercel.app',
+  process.env.SITE_URL || process.env.SITE || 'https://signalroom-nu.vercel.app',
 ).host;
 
 const MONTHS = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
@@ -176,22 +176,17 @@ function frame({ bars, label, labelColor, headline, footerLeft, footerRight }) {
         position: 'absolute',
         top: 552,
         left: PAD,
-        display: 'flex',
-        fontFamily: 'JetBrains Mono',
-        fontSize: 22,
-        lineHeight: '28px',
-        color: MUTED,
-      }, footerLeft),
-      h('div', {
-        position: 'absolute',
-        top: 552,
         right: PAD,
         display: 'flex',
+        justifyContent: 'space-between',
         fontFamily: 'JetBrains Mono',
-        fontSize: 22,
+        fontSize: 20,
         lineHeight: '28px',
         color: MUTED,
-      }, footerRight),
+      }, [
+        h('div', { display: 'flex' }, footerLeft),
+        h('div', { display: 'flex' }, footerRight),
+      ]),
     ],
   );
 }
@@ -214,7 +209,7 @@ function siteElement(latestDate) {
     label: latestDate ? `DAILY DIGEST — ${dateLabel(latestDate)}` : 'DAILY DIGEST',
     labelColor: MUTED,
     headline: wrap(TAGLINE, 36, 6),
-    footerLeft: 'AI-assisted drafts · editor-reviewed · sources cited',
+    footerLeft: 'AI-assisted · editor-reviewed · sources cited',
     footerRight: SITE_HOST,
   });
 }
