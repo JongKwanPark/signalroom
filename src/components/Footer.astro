@@ -12,7 +12,11 @@ const year = new Date().getUTCFullYear();
   <div class="sr-container">
     <div class="sr-footer__grid">
       <div class="sr-stack-sm">
-        <p class="sr-micro sr-micro--text">{SITE.wordmark}</p>
+        <p>
+          <span class="sr-visually-hidden">{SITE.name}</span>
+          <img class="sr-logo sr-logo--dark" src="/brand/logo-primary.svg" alt="" width="123" height="24" />
+          <img class="sr-logo sr-logo--light" src="/brand/logo-light.svg" alt="" width="123" height="24" />
+        </p>
         <p>{SITE.tagline} Public, no login, no tracking.</p>
         <p class="sr-micro">
           AI-assisted drafts · editor-reviewed · primary sources cited inline · not advice

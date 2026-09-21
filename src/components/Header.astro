@@ -11,7 +11,10 @@ function isCurrent(href: string): boolean {
 
 <header class="sr-header">
   <div class="sr-container sr-header__inner">
-    <a class="sr-wordmark" href="/" aria-label={`${SITE.name} home`}>{SITE.wordmark}</a>
+    <a class="sr-wordmark" href="/" aria-label={`${SITE.name} home`}>
+      <img class="sr-logo sr-logo--dark" src="/brand/logo-primary.svg" alt="" width="123" height="24" />
+      <img class="sr-logo sr-logo--light" src="/brand/logo-light.svg" alt="" width="123" height="24" />
+    </a>
 
     <nav class="sr-nav" aria-label="Vertical feeds">
       {

@@ -31,7 +31,7 @@ const jsonLd = breadcrumbJsonLd([
 
 <BaseLayout
   title={label}
-  description={`Every Signal Room edition published in ${label}: ${pluralize(current?.storyCount ?? 0, 'story', 'stories')} across ${pluralize(entries.length, 'day')}.`}
+  description={`Every Signal Daily edition published in ${label}: ${pluralize(current?.storyCount ?? 0, 'story', 'stories')} across ${pluralize(entries.length, 'day')}.`}
   path={`/${year}/${month}`}
   jsonLd={jsonLd}
 >

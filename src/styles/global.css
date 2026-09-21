@@ -1,7 +1,7 @@
 @import "./theme.css";
 
 /* ==========================================================================
-   Signal Room — base + shared components
+   Signal Daily — base + shared components
    Plain CSS only. No frameworks, no web fonts. Square chrome throughout.
    ========================================================================== */
 
@@ -209,22 +209,26 @@ hr {
 .sr-wordmark {
   display: inline-flex;
   align-items: center;
-  gap: var(--sp-2);
-  font-family: var(--font-mono);
-  font-size: var(--fs-sm);
-  font-weight: 700;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  white-space: nowrap;
 }
 
-.sr-wordmark::before {
-  content: "";
-  width: 8px;
-  height: 8px;
-  background: var(--accent-ai);
-  box-shadow: 8px 0 0 var(--accent-bio), 16px 0 0 var(--accent-geo), 24px 0 0 var(--accent-markets);
-  margin-right: 20px;
+/* Brand lockup: primary on the dark canvas (default), ink knockout on light.
+   Files and rules: docs/design-system.md §9. */
+.sr-logo {
+  display: block;
+  height: 24px;
+  width: auto;
+}
+
+.sr-logo--light {
+  display: none;
+}
+
+:root[data-theme="light"] .sr-logo--dark {
+  display: none;
+}
+
+:root[data-theme="light"] .sr-logo--light {
+  display: block;
 }
 
 .sr-nav {

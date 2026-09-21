@@ -35,7 +35,7 @@ const totalSources = refs.reduce((total, ref) => total + ref.story.sources.lengt
 const dates = new Set(refs.map((ref) => ref.date));
 
 const jsonLd =
-  refs.length > 0 ? [itemListJsonLd(refs.slice(0, 25), `${meta.name} — Signal Room`)] : [];
+  refs.length > 0 ? [itemListJsonLd(refs.slice(0, 25), `${meta.name} — Signal Daily`)] : [];
 ---
 
 <BaseLayout

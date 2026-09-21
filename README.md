@@ -1,4 +1,4 @@
-# Signal Room
+# Signal Daily
 
 A public, no-login daily intelligence digest across four verticals — **AI**, **Bio & health**,
 **Geopolitics & security** and **Markets & macro**. Every item says what moved, why it matters and
@@ -82,6 +82,10 @@ SEC EDGAR, FRED, journal RSS and market data. Rules that shape what is stored:
   uncertainty is labeled.
 - **Confidence labels.** Each story carries `high` / `medium` / `low` confidence describing the
   state of the evidence, not the importance of the story. Full disclosure on `/standards`.
+- **Daily quotas and quiet days.** [docs/editorial-guide.md](docs/editorial-guide.md) is the
+  editorial source of truth: a 12–24 stories/day band (3–6 per active vertical, equal counts never
+  forced), quiet verticals skipped and logged as `quiet: <vertical>` instead of padded, and one
+  cross-vertical core signal per day.
 
 ## What still needs credentials
 
@@ -91,7 +95,7 @@ SEC EDGAR, FRED, journal RSS and market data. Rules that shape what is stored:
 | SEC EDGAR user agent | `SEC_EDGAR_USER_AGENT` (e.g. `"Name email@example.com"`) | SEC full-text search returns 403 |
 | ReliefWeb appname | `RELIEFWEB_APPNAME` (pre-approved at apidoc.reliefweb.int) | ReliefWeb collector is skipped |
 | FRED key | `FRED_API_KEY` | FRED series updates are skipped |
-| Custom domain | `SITE_URL` + DNS on Vercel | Canonicals, sitemap, RSS and OG URLs use the Vercel default |
+| Custom domain | `SITE_URL` + DNS on Vercel | Canonicals, sitemap, RSS and OG URLs use the current production URL `https://signalroom-nu.vercel.app`; `signaldaily.net` is not connected yet |
 | Analytics | none (by design) | Zero third-party scripts; add only a privacy-first option if ever needed |
 
 GitHub Actions also accept `GITHUB_TOKEN` for higher API rate limits.

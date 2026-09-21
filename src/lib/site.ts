@@ -1,12 +1,11 @@
 export const SITE = {
-  name: 'Signal Room',
-  wordmark: 'SIGNAL ROOM',
+  name: 'Signal Daily',
   tagline: 'A daily intelligence digest across AI, bio, geo and markets.',
   description:
-    'Signal Room is a public, no-login daily digest. Four verticals, one page: what moved, why it matters, and where it came from. AI-assisted drafting, editor-reviewed, primary sources cited inline.',
+    'Signal Daily is a public, no-login daily digest. Four verticals, one page: what moved, why it matters, and where it came from. AI-assisted drafting, editor-reviewed, primary sources cited inline.',
   url: (import.meta.env.SITE || 'https://signalroom-nu.vercel.app').replace(/\/+$/, ''),
   locale: 'en_US',
-  author: 'Signal Room editors',
+  author: 'Signal Daily editors',
 } as const;
 
 export const VERTICALS = ['ai', 'bio', 'geo', 'markets'] as const;

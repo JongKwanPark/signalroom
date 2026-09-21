@@ -4,7 +4,7 @@
 // dist/og/<slug>.png for every story. Fails the build on any bad output so we
 // never silently ship blank or malformed share cards.
 
-import { existsSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -33,7 +33,9 @@ const VERTICALS = {
   markets: { label: 'MARKETS', accent: '#c3aeff' },
 };
 
-const WORDMARK = 'SIGNAL ROOM';
+const MARK_DATA_URI = `data:image/svg+xml;base64,${readFileSync(
+  path.join(ROOT, 'public/brand/logo-mark.svg'),
+).toString('base64')}`;
 const TAGLINE = 'A daily intelligence digest across AI, bio, geo and markets.';
 const SITE_HOST = new URL(
   process.env.SITE_URL || process.env.SITE || 'https://signalroom-nu.vercel.app',
@@ -103,6 +105,35 @@ const sourceCount = (story) => {
 
 const h = (type, style, children) => ({ type, props: { style, children } });
 
+// Brand lockup: wave mark tile + "Signal Daily" in the bundled Inter faces,
+// matching the shipped lockup (SemiBold --text + Regular --muted).
+function brandLockup() {
+  return h(
+    'div',
+    { position: 'absolute', top: 40, left: PAD, display: 'flex', alignItems: 'center', gap: 12 },
+    [
+      { type: 'img', props: { src: MARK_DATA_URI, width: 28, height: 28 } },
+      h(
+        'div',
+        {
+          display: 'flex',
+          flexDirection: 'row',
+          alignItems: 'baseline',
+          gap: 7,
+          fontFamily: 'Inter',
+          fontSize: 26,
+          lineHeight: '28px',
+          letterSpacing: '-0.4px',
+        },
+        [
+          h('div', { display: 'flex', fontWeight: 600, color: TEXT }, 'Signal'),
+          h('div', { display: 'flex', fontWeight: 400, color: MUTED }, 'Daily'),
+        ],
+      ),
+    ],
+  );
+}
+
 function frame({ bars, label, labelColor, headline, footerLeft, footerRight }) {
   return h(
     'div',
@@ -125,17 +156,7 @@ function frame({ bars, label, labelColor, headline, footerLeft, footerRight }) {
           backgroundColor: color,
         }),
       ),
-      h('div', {
-        position: 'absolute',
-        top: 40,
-        left: PAD,
-        display: 'flex',
-        fontFamily: 'JetBrains Mono',
-        fontSize: 24,
-        letterSpacing: 6,
-        lineHeight: '30px',
-        color: TEXT,
-      }, WORDMARK),
+      brandLockup(),
       h('div', {
         position: 'absolute',
         top: 84,

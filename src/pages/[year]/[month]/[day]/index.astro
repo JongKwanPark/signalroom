@@ -41,7 +41,7 @@ const jsonLd = [
     { name: 'Archive', path: '/archive' },
     { name: formatDateLong(date), path: editionHref(date) },
   ]),
-  ...(refs.length > 0 ? [itemListJsonLd(refs, `Signal Room — ${date}`)] : []),
+  ...(refs.length > 0 ? [itemListJsonLd(refs, `Signal Daily — ${date}`)] : []),
 ];
 ---
 

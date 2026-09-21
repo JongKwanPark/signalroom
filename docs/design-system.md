@@ -1,4 +1,4 @@
-# Signal Room design system
+# Signal Daily design system
 
 Dark-first "signal" aesthetic: off-black canvas, hairline structure, square chrome, mono
 metadata, and four hue-only vertical accents. No web fonts, no UI framework, no icons beyond
@@ -158,3 +158,35 @@ badge right-aligned. Cap is `HOME_INDEX_CAP` with an explicit "More" link — no
 - Client JS: one bundle for theme, palette, search, keyboard nav and view toggles — measured in
   `dist/_astro/*.js`, target < 10KB uncompressed.
 - CSS: two authored files, inlined or emitted by Astro depending on size.
+
+## 9. Logo
+
+The brand mark is the "signal wave" S (one sine period drawn as an S) in a square tile, locked up
+with `Signal Daily` set in Inter outlines (SemiBold `--text` + Regular `--muted`). The previous
+four-bar wordmark is retired.
+
+Production assets — the contest archive stays untouched under `brand/logo-contest/`:
+
+| Path | Use |
+| --- | --- |
+| `public/favicon.svg` | Browser tab mark, 24×24 tile without hairline; dark is the default and a `prefers-color-scheme: light` block inverts tile/wave for light UIs; legible at 16px |
+| `public/brand/logo-primary.svg` | Lockup on the dark canvas (canonical, dark-first) |
+| `public/brand/logo-light.svg` | Lockup on light — ink-knockout tile, mono render pinned to light `--text` |
+| `public/brand/logo-mark.svg` | Square mark with hairline; >= 24px tiles and OG cards |
+
+Usage rules:
+
+- Header and footer render both lockups and swap them with `.sr-logo--dark` / `.sr-logo--light`
+  under `[data-theme="light"]` (`global.css`); `data-theme` is always set before first paint, so
+  no flash. Other surfaces pick the single file that matches their canvas.
+- Keep the intrinsic ratio (122.7×24). Render the lockup at 24px height or larger; the mark at
+  16px minimum.
+- `scripts/og.mjs` embeds `logo-mark.svg` as a data URI and sets the wordmark as live text with
+  the same split (Inter SemiBold `--text`, Inter Regular `--muted`).
+
+Don't:
+
+- Don't recolor, retypeset, outline, rotate, stretch or crop the logo; no radius, shadow,
+  gradient or vertical accent hue on the mark.
+- Don't place the dark lockup on a light canvas, or the light lockup on a dark canvas.
+- Don't rebuild the wordmark from the mono or system stack — the shipped outlines are the brand.

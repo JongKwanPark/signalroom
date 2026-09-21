@@ -1,4 +1,4 @@
-# Signal Room pipeline
+# Signal Daily pipeline
 
 Git-native daily digest: collect -> dedup -> synthesize -> validate -> publish.
 
@@ -50,6 +50,8 @@ human approval gate  ->  site publish
   edition JSON and writes it to `src/content/editions/`. Otherwise it calls an
   LLM provider (gemini | openai | anthropic | openrouter) using env keys. With
   no key configured it prints a clear message and exits 0 without writing.
+  Verticals with zero collected items for the date are skipped without writing
+  a file.
 - **validate.ts** hand-rolls the exact checks of `src/content.config.ts` plus
   publish gates: >= 2 distinct sources per story, every body citation resolves
   to `sources[]`, exactly 3 tldr bullets, unique slug, cluster >= 1, headline
@@ -76,6 +78,11 @@ npm test
 | `GITHUB_TOKEN` | higher GitHub API rate limits | optional |
 | `FRED_API_KEY` | FRED series updates | optional |
 | `SIGNALROOM_USER_AGENT` | collector User-Agent | optional (default provided) |
+| `SITE_URL` | base URL for canonical links, sitemap, RSS and OG tags | optional (unset uses the deployment URL) |
+
+Current production URL: `https://signalroom-nu.vercel.app` (the Vercel deployment
+alias, live and public). The custom domain `signaldaily.net` is not connected yet
+(no DNS), so `SITE_URL` should stay unset until it is.
 
 ## Exclusions and licensing (why some sources are absent)
 
@@ -98,6 +105,17 @@ npm test
   recommendations, uncertainty is labeled.
 - Every published story needs >= 2 distinct sources and a citation set that
   fully resolves; the editor pass sets `confidence`.
+- Daily volume follows the editorial quotas in
+  [docs/editorial-guide.md](editorial-guide.md): a **12–24 stories/day band** and
+  **3–6 per active vertical**, with equal per-vertical counts never forced.
+- Quiet verticals are skipped, never padded: log `quiet: <vertical>` in the
+  daily log or commit message (docs/editorial-guide.md §4-3).
+- One core signal per day: a single cross-vertical lead whose `whyItMatters`
+  names the connected verticals with supporting evidence
+  (docs/editorial-guide.md §5).
+- Source independence: the >= 2 distinct `source` values must come from
+  different outlets; two labels on the same hostname do not count as independent
+  sources (docs/editorial-guide.md §6-3).
 
 ## Automation
 
@@ -120,7 +138,9 @@ schedule at the same time so the two automation paths never run together.
 2. `synth.ts` auto-drafts an edition JSON per vertical (or an agent edits with
    `--input-json`).
 3. The **AI editor pass** (`scripts/prompts/editor.md`) checks duplicates,
-   unsupported claims, citation integrity, and sets `confidence`.
+   unsupported claims, citation integrity, the day's core signal (grounded
+   cross-vertical links), source independence by hostname, and quiet-vertical
+   logging, then sets `confidence`.
 4. **Approval gate**: a human reviews the draft commit before the Astro site
    build/publish picks it up. Auto-committed editions are drafts; only
    approved editions are published.

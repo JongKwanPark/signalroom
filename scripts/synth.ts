@@ -132,7 +132,7 @@ function stripFences(text: string): string {
 }
 
 function buildPrompt(vertical: Vertical, items: RawItem[]): string {
-  const synthesis = `Synthesize one Signal Room edition JSON for vertical "${vertical}". Follow the synthesis prompt rules in scripts/prompts/synthesis.md exactly: headline verbatim from sources, tldr exactly 3 sentences, every body block >=1 citation resolving to sources[], >=2 distinct sources per story, no-advice YMYL tone, set confidence. Output only the edition JSON object.`;
+  const synthesis = `Synthesize one Signal Daily edition JSON for vertical "${vertical}". Follow the synthesis prompt rules in scripts/prompts/synthesis.md exactly: headline verbatim from sources, tldr exactly 3 sentences, every body block >=1 citation resolving to sources[], >=2 distinct sources per story, no-advice YMYL tone, set confidence. Output only the edition JSON object.`;
   const itemsJson = JSON.stringify(items.slice(0, 40), null, 1);
   return `${synthesis}\n\nITEMS:\n${itemsJson}`;
 }

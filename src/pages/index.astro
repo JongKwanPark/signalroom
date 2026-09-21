@@ -39,7 +39,7 @@ const totalSources = todayRefs.reduce((total, ref) => total + ref.story.sources.
 const jsonLd = [
   websiteJsonLd(),
   ...(indexRows.length > 0
-    ? [itemListJsonLd(indexRows, `Signal Room — ${latest ?? ''} top stories`.trim())]
+    ? [itemListJsonLd(indexRows, `Signal Daily — ${latest ?? ''} top stories`.trim())]
     : []),
 ];
 
@@ -58,7 +58,7 @@ const pageTitle = latest ? `Signal, ${formatDateLong(latest)}` : SITE.name;
         <p class="sr-micro sr-cover__date">Daily digest · No login</p>
         <h1>Nothing published yet.</h1>
         <p class="sr-cover__lede">
-          Signal Room has no editions in the archive yet. The digest publishes four verticals — AI,
+          Signal Daily has no editions in the archive yet. The digest publishes four verticals — AI,
           bio, geo and markets — as soon as the collection pipeline produces its first day.
         </p>
         <div class="sr-empty" style="margin-top: var(--sp-6)">
@@ -69,7 +69,7 @@ const pageTitle = latest ? `Signal, ${formatDateLong(latest)}` : SITE.name;
           </p>
           <div class="sr-empty__actions">
             <a class="sr-btn" href="/standards">Editorial standards</a>
-            <a class="sr-btn" href="/about">About Signal Room</a>
+            <a class="sr-btn" href="/about">About Signal Daily</a>
             <a class="sr-btn" href="/archive">Archive</a>
           </div>
         </div>
