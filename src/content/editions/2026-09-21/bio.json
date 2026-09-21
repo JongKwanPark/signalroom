@@ -1,47 +1,47 @@
 {
   "date": "2026-09-21",
-  "generatedAt": "2026-09-21T10:00:29.000Z",
+  "generatedAt": "2026-09-21T22:03:26.000Z",
   "vertical": "bio",
-  "title": "Bio & health: a Novo reset, China licensing and a science-funding debate",
-  "summary": "Novo Nordisk used a capital markets day to outline a post-Wegovy strategy spanning obesity and direct-to-consumer work, and its shares slid as investors focused on pipeline concerns. Chinese biopharma stocks jumped as the US weighed keeping drug-licensing deals open, a policy signal with direct read-through to biotech valuations. Science funding and public trust drew renewed debate as Nature reported Chinese companies doubling down on research after US tech restrictions, and researchers examined what must change before agentic AI becomes clinical infrastructure. A trial-registration snapshot rounded out the day. Five stories; no vertical was quiet.",
+  "title": "Bio: GLP-1 strategy, clinical-AI deployments and a wave of resilience research",
+  "summary": "GLP-1 drugs led the day: Novo Nordisk laid out a new obesity and direct-to-consumer strategy while a meta-regression examined GLP-1 receptor agonists and stroke and cognitive outcomes. Cancer screening and approvals produced a cluster of regulatory headlines, and clinical AI moved from benchmarks toward deployment — AI-ECG for cardiomyopathy, smartphone vision-language diagnosis and a multi-hospital federated-learning study. Alzheimer's research turned toward resilience, and gene, RNA and epigenetic therapies plus a newly discovered blood group rounded out the science. All collectors returned items; the openFDA feed yielded only two records and no press releases were reviewed, so this edition is preprint- and report-heavy and offers no medical advice.",
   "stories": [
     {
-      "slug": "novo-nordisk-post-wegovy-strategy",
-      "headline": "Novo Nordisk outlines a post-Wegovy strategy spanning obesity and direct-to-consumer work",
-      "dek": "The capital markets day set 2030 goals and sent shares lower as pipeline questions dominated.",
+      "slug": "glp1-strategy-obesity-outcomes",
+      "headline": "STAT+: With new strategy, Novo outlines plans for obesity, direct-to-consumer work",
+      "dek": "A capital-markets-day reset for Novo landed alongside a meta-regression on GLP-1 stroke and cognitive outcomes.",
       "type": "DEEP",
-      "readMinutes": 3,
+      "readMinutes": 4,
       "tldr": [
-        "STAT reported that Novo outlined plans for obesity and direct-to-consumer work under a new strategy.",
-        "CNBC reported Novo shares slid as the drugmaker laid out a post-Wegovy growth strategy.",
-        "MarketWatch reported the stock tumbled as the Ozempic maker set out 2030 goals."
+        "STAT reported that Novo Nordisk outlined a new strategy for obesity and direct-to-consumer work at its capital-markets day.",
+        "STAT's Pharmalittle roundup noted Novo's plans to expand its pipeline alongside early Alkermes ADHD data.",
+        "A medRxiv systematic review and meta-regression examined GLP-1 receptor agonists and stroke and cognitive outcomes, and ScienceDaily asked whether Ozempic can change your body — and your life."
       ],
       "body": [
         {
-          "text": "STAT reported that Novo outlined plans for obesity and direct-to-consumer work under a new strategy.",
+          "text": "STAT reported that Novo Nordisk outlined a new strategy for obesity and direct-to-consumer work at its capital-markets day.",
           "citations": [1]
         },
         {
-          "text": "CNBC reported Novo shares slid as the drugmaker laid out a post-Wegovy growth strategy.",
+          "text": "STAT's Pharmalittle roundup noted Novo's plans to expand its pipeline alongside early Alkermes ADHD data.",
           "citations": [2]
         },
         {
-          "text": "MarketWatch reported the stock tumbled as the Ozempic maker set out 2030 goals.",
-          "citations": [3]
+          "text": "On the research side, a medRxiv systematic review and meta-regression examined GLP-1 receptor agonists and stroke and cognitive outcomes, and ScienceDaily asked whether Ozempic can change your body — and your life.",
+          "citations": [3, 4]
         }
       ],
-      "whyItMatters": "The obesity franchise is the sector's biggest demand driver, so how Novo frames life after Wegovy shapes manufacturing investment, competitor positioning and the valuations of adjacent metabolic biotech. This reports company strategy and market reaction; it is not medical or investment advice.",
-      "editorNote": "Company guidance is reported as framed by the outlets; no efficacy, dosing or treatment recommendations are made, and no price targets are included.",
+      "whyItMatters": "GLP-1 coverage is becoming a mass-market reimbursement story, so the read-through runs from drugmakers to insurers and to the wider health-spending debate.",
+      "editorNote": "Company claims and early trial data are as reported by the outlets and were not independently reviewed; no medical or investment advice is offered.",
       "cluster": [
         {
-          "url": "https://finance.yahoo.com/markets/stocks/article/novo-nordisk-stock-gets-drilled-on-pipeline-concerns-its-ceo-sees-this-as-the-main-problem-091933221.html",
-          "source": "Yahoo Finance",
-          "title": "Novo Nordisk stock gets drilled on pipeline concerns— its CEO sees this as the main problem"
+          "url": "https://www.statnews.com/pharmalot/2026/09/21/novo-to-expand-pipeline-alkermes-releases-adhd-data/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "STAT+: Pharmalittle: We’re reading about Novo plans to expand its pipeline, early Alkermes ADHD data, and more"
         },
         {
-          "url": "https://www.marketwatch.com/story/novo-nordisk-stock-tumbles-as-ozempic-maker-sets-out-2030-goals-8a5a8d2d?mod=mw_rss_topstories",
-          "source": "MarketWatch",
-          "title": "Novo Nordisk stock tumbles as Ozempic maker sets out 2030 goals"
+          "url": "https://doi.org/10.64898/2026.09.18.26363449",
+          "source": "medRxiv",
+          "title": "GLP-1 Receptor Agonists, Stroke, and Cognitive Outcomes: Systematic Review and Meta-Regression"
         }
       ],
       "sources": [
@@ -54,114 +54,351 @@
         },
         {
           "id": 2,
-          "url": "https://www.cnbc.com/2026/09/21/novo-nordisk-stock-sales-target-obesity-drugs.html",
-          "source": "CNBC",
-          "title": "Novo shares slide as drugmaker lays out post-Wegovy growth strategy",
-          "publishedAt": "2026-09-21T09:50:51.000Z"
+          "url": "https://www.statnews.com/pharmalot/2026/09/21/novo-to-expand-pipeline-alkermes-releases-adhd-data/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "STAT+: Pharmalittle: We’re reading about Novo plans to expand its pipeline, early Alkermes ADHD data, and more",
+          "publishedAt": "2026-09-21T13:31:07.000Z"
         },
         {
           "id": 3,
-          "url": "https://www.marketwatch.com/story/novo-nordisk-stock-tumbles-as-ozempic-maker-sets-out-2030-goals-8a5a8d2d?mod=mw_rss_topstories",
-          "source": "MarketWatch",
-          "title": "Novo Nordisk stock tumbles as Ozempic maker sets out 2030 goals",
-          "publishedAt": "2026-09-21T08:58:00.000Z"
+          "url": "https://doi.org/10.64898/2026.09.18.26363449",
+          "source": "medRxiv",
+          "title": "GLP-1 Receptor Agonists, Stroke, and Cognitive Outcomes: Systematic Review and Meta-Regression",
+          "publishedAt": "2026-09-21"
+        },
+        {
+          "id": 4,
+          "url": "https://www.sciencedaily.com/releases/2026/09/260917003728.htm",
+          "source": "ScienceDaily",
+          "title": "Ozempic can change your body. Can it change your life?",
+          "publishedAt": "2026-09-18T03:52:09.000Z"
         }
       ],
-      "tags": ["novo-nordisk", "obesity", "strategy", "glp-1"],
+      "tags": ["glp-1", "obesity", "novo-nordisk", "pharma"],
       "confidence": "medium"
     },
     {
-      "slug": "china-biopharma-licensing-deals-us-openness",
-      "headline": "Chinese biopharma stocks jump as the US weighs keeping drug-licensing deals open",
-      "dek": "A policy signal on cross-border licensing moved the sector.",
-      "type": "DEEP",
+      "slug": "cancer-screening-approvals-grail-lilly",
+      "headline": "STAT+: What a vote on Grail’s cancer detection test could mean for the company, patients, and regulators",
+      "dek": "A Galleri advisory-committee vote, a Lilly approval and a radiopharma merger set the day's regulatory tone.",
+      "type": "BRIEF",
       "readMinutes": 3,
       "tldr": [
-        "STAT reported on licensing deals with China as part of its pharma news roundup.",
-        "CNBC reported Chinese biopharma stocks jumped as the US weighs keeping the door open to drug deals.",
-        "Seeking Alpha reported the stocks rallied as the US signaled openness to drug licensing."
+        "STAT reported on what a vote on Grail's cancer detection test — the Galleri test, before an FDA advisory committee — could mean for the company, patients and regulators.",
+        "STAT also reported that Lilly's breast cancer combination won approval, and that two radiopharma companies merged after one received a surprise FDA rejection.",
+        "A medRxiv pilot study from Thailand examined urine DNA methylation as a diagnostic and surveillance tool in bladder cancer."
       ],
       "body": [
         {
-          "text": "STAT's pharma roundup covered licensing deals with China among other items.",
+          "text": "STAT reported on what a vote on Grail's cancer detection test — the Galleri test, before an FDA advisory committee — could mean for the company, patients and regulators.",
           "citations": [1]
         },
         {
-          "text": "CNBC reported Chinese biopharma stocks jumped as the US weighs keeping the door open to drug deals.",
-          "citations": [2]
+          "text": "STAT also reported that Lilly's breast cancer combination won approval, and that two radiopharma companies merged after one received a surprise FDA rejection.",
+          "citations": [2, 3]
         },
         {
-          "text": "Seeking Alpha reported the stocks rallied as the US signaled openness to drug licensing.",
-          "citations": [3]
+          "text": "Separately, a medRxiv pilot study from Thailand examined urine DNA methylation as a potential diagnostic and surveillance tool in non-muscle invasive bladder cancer.",
+          "citations": [4]
         }
       ],
-      "whyItMatters": "Cross-border licensing is how much Chinese biotech innovation reaches US development and capital, so the policy stance re-rates the sector quickly and shapes deal flow for pharma buyers. The signal sits on the same US-China negotiation track driving broader markets.",
-      "editorNote": "The underlying policy decision was not reviewed; this reports a market reaction to a signal. No company recommendations are made.",
+      "whyItMatters": "Screening tests and approvals are where diagnostics and drug economics meet, so regulatory decisions on tests like Galleri shape both patient access and the companies' commercial runway.",
+      "editorNote": "Regulatory and approval details are as reported by STAT and were not independently verified; the bladder-cancer study is a pilot and is labeled as such. No medical advice is offered.",
       "cluster": [
         {
-          "url": "https://www.cnbc.com/2026/09/21/chinese-biopharma-stocks-jump-as-us-plans-to-continue-drug-licensing-deals-.html",
-          "source": "CNBC",
-          "title": "Chinese biopharma stocks jump as U.S. weighs keeping door open to drug deals"
+          "url": "https://www.statnews.com/2026/09/21/biotech-news-lilly-breast-cancer-combo-wins-approval/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "STAT+: Lilly’s breast cancer combo wins approval"
         },
         {
-          "url": "https://seekingalpha.com/news/4644613-chinese-biopharma-stocks-rally-as-us-signals-openness-to-drug-licensing?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-          "source": "Seeking Alpha",
-          "title": "Chinese biopharma stocks rally as U.S. signals openness to drug licensing"
+          "url": "https://www.statnews.com/2026/09/20/radiopharma-companies-itm-telix-merger/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "STAT+: Radiopharma companies merge after one receives surprise FDA rejection"
+        },
+        {
+          "url": "https://doi.org/10.64898/2026.09.18.26363402",
+          "source": "medRxiv",
+          "title": "Urine DNA methylation as a potential diagnostic and surveillance tool in non-muscle invasive bladder cancer in Thailand: A pilot study"
         }
       ],
       "sources": [
         {
           "id": 1,
-          "url": "https://www.statnews.com/pharmalot/2026/09/18/rules-for-china-licensing-deals-making-drugs-in-space/?utm_campaign=rss",
+          "url": "https://www.statnews.com/2026/09/21/grail-galleri-fda-advisory-committee-meeting-documents/?utm_campaign=rss",
           "source": "STAT News",
-          "title": "STAT+: Pharmalittle: We're reading about licensing deals with China, making drugs in space, and more",
-          "publishedAt": "2026-09-18T13:29:38.000Z"
+          "title": "STAT+: What a vote on Grail’s cancer detection test could mean for the company, patients, and regulators",
+          "publishedAt": "2026-09-21T17:58:51.000Z"
         },
         {
           "id": 2,
-          "url": "https://www.cnbc.com/2026/09/21/chinese-biopharma-stocks-jump-as-us-plans-to-continue-drug-licensing-deals-.html",
-          "source": "CNBC",
-          "title": "Chinese biopharma stocks jump as U.S. weighs keeping door open to drug deals",
-          "publishedAt": "2026-09-21T08:51:25.000Z"
+          "url": "https://www.statnews.com/2026/09/21/biotech-news-lilly-breast-cancer-combo-wins-approval/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "STAT+: Lilly’s breast cancer combo wins approval",
+          "publishedAt": "2026-09-21T15:08:38.000Z"
         },
         {
           "id": 3,
-          "url": "https://seekingalpha.com/news/4644613-chinese-biopharma-stocks-rally-as-us-signals-openness-to-drug-licensing?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-          "source": "Seeking Alpha",
-          "title": "Chinese biopharma stocks rally as U.S. signals openness to drug licensing",
-          "publishedAt": "2026-09-21T09:37:56.000Z"
+          "url": "https://www.statnews.com/2026/09/20/radiopharma-companies-itm-telix-merger/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "STAT+: Radiopharma companies merge after one receives surprise FDA rejection",
+          "publishedAt": "2026-09-20T23:25:57.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://doi.org/10.64898/2026.09.18.26363402",
+          "source": "medRxiv",
+          "title": "Urine DNA methylation as a potential diagnostic and surveillance tool in non-muscle invasive bladder cancer in Thailand: A pilot study",
+          "publishedAt": "2026-09-21"
         }
       ],
-      "tags": ["biopharma", "china", "licensing", "policy"],
+      "tags": ["cancer", "fda", "screening", "diagnostics"],
       "confidence": "medium"
     },
     {
-      "slug": "science-funding-politics-nih-budget-trust",
-      "headline": "Science funding and public trust draw renewed debate as China presses its research push",
-      "dek": "An NIH budget argument and a trust-in-science discussion land alongside evidence of China's research build-out.",
+      "slug": "clinical-ai-deployment-vs-benchmarks",
+      "headline": "Artificial Intelligence-Enhanced Electrocardiography for Detection and Prediction of Hypertrophic Cardiomyopathy across Monogenic and Polygenic Susceptibility",
+      "dek": "Clinical AI moved from benchmarks toward deployment — and one paper flagged a gap between algorithmic scores and decisions.",
       "type": "DEEP",
-      "readMinutes": 3,
+      "readMinutes": 4,
       "tldr": [
-        "A STAT opinion piece argued the NIH budget should be $100 billion per year.",
-        "Nature reported Chinese companies doubled down on science after US tech restrictions.",
-        "STAT examined why trust in science matters, amid broader debate over scientific institutions."
+        "A medRxiv study evaluated AI-enhanced electrocardiography for detecting and predicting hypertrophic cardiomyopathy across monogenic and polygenic susceptibility.",
+        "A PubMed study assessed a locally deployed vision language model for bone-tumor diagnosis on smartphone images, and another reported a multi-hospital federated-learning deployment in a regulator-audited environment.",
+        "A PubMed paper described an 'alignment paradox' in medical LLMs in infertility care, where algorithmic improvement decoupled from clinical decision-making quality."
       ],
       "body": [
         {
-          "text": "A STAT opinion piece argued that the NIH budget should be $100 billion per year.",
+          "text": "A medRxiv study evaluated AI-enhanced electrocardiography for detecting and predicting hypertrophic cardiomyopathy across monogenic and polygenic susceptibility.",
           "citations": [1]
         },
         {
-          "text": "Nature reported that Chinese companies doubled down on science after US tech restrictions.",
+          "text": "On the clinical-tool side, a PubMed study assessed a locally deployed vision language model for bone-tumor diagnosis using smartphone-captured images, and another reported a multi-hospital federated-learning deployment inside a regulator-audited secure processing environment.",
+          "citations": [2, 3]
+        },
+        {
+          "text": "Not all results point the same way: a PubMed paper described an 'alignment paradox' in medical LLMs in infertility care, where algorithmic improvement decoupled from clinical decision-making quality.",
+          "citations": [4]
+        },
+        {
+          "text": "Nature, meanwhile, reported that AI co-scientists are changing how research is done.",
+          "citations": [5]
+        }
+      ],
+      "whyItMatters": "The clinical-AI question is shifting from whether models can perform a task to whether they improve decisions under real deployment constraints — governance, data residency and the gap between benchmark scores and bedside outcomes.",
+      "editorNote": "Study results are cited at the abstract or article level and were not independently reviewed; the federated-learning deployment is a single multi-hospital study. No medical advice is offered.",
+      "cluster": [
+        {
+          "url": "https://doi.org/10.64898/2026.09.15.26363093",
+          "source": "medRxiv",
+          "title": "Federated learning in a regulator-audited secure processing environment: a multi-hospital deployment study"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42766848/",
+          "source": "PubMed",
+          "title": "Diagnostic Performance of a Locally Deployed Vision Language Model for Bone Tumor Diagnosis Using Smartphone-Captured Images: Exploratory Retrospective Study"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42766421/",
+          "source": "PubMed",
+          "title": "The Alignment Paradox of Medical Large Language Models in Infertility Care"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://doi.org/10.64898/2026.09.12.26362902",
+          "source": "medRxiv",
+          "title": "Artificial Intelligence-Enhanced Electrocardiography for Detection and Prediction of Hypertrophic Cardiomyopathy across Monogenic and Polygenic Susceptibility",
+          "publishedAt": "2026-09-21"
+        },
+        {
+          "id": 2,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42766848/",
+          "source": "PubMed",
+          "title": "Diagnostic Performance of a Locally Deployed Vision Language Model for Bone Tumor Diagnosis Using Smartphone-Captured Images: Exploratory Retrospective Study",
+          "publishedAt": "2026/09/21 00:00"
+        },
+        {
+          "id": 3,
+          "url": "https://doi.org/10.64898/2026.09.15.26363093",
+          "source": "medRxiv",
+          "title": "Federated learning in a regulator-audited secure processing environment: a multi-hospital deployment study",
+          "publishedAt": "2026-09-21"
+        },
+        {
+          "id": 4,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42766421/",
+          "source": "PubMed",
+          "title": "The Alignment Paradox of Medical Large Language Models in Infertility Care: Decoupling Algorithmic Improvement From Clinical Decision-Making Quality",
+          "publishedAt": "2026/09/21 00:00"
+        },
+        {
+          "id": 5,
+          "url": "https://www.nature.com/articles/d41586-026-02931-5",
+          "source": "Nature",
+          "title": "AI co-scientists are revolutionizing how research is done",
+          "publishedAt": "2026-09-21T00:00:00.000Z"
+        }
+      ],
+      "tags": ["clinical-ai", "federated-learning", "cardiology", "deployment"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "alzheimers-cognitive-resilience",
+      "headline": "Centenarians maintain cognition by resisting amyloid-β or decoupling it from tau propagation",
+      "dek": "Resilience, not only pathology, is emerging as the predictive variable in dementia research.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "A medRxiv study found that centenarians maintain cognition either by resisting amyloid-β or by decoupling it from tau propagation.",
+        "Nature reported that cognitive resilience helps predict Alzheimer's dementia.",
+        "ScienceDaily reported that some blood thinners may have an unexpected benefit for Alzheimer's patients."
+      ],
+      "body": [
+        {
+          "text": "A medRxiv study found that centenarians maintain cognition either by resisting amyloid-β or by decoupling it from tau propagation.",
+          "citations": [1]
+        },
+        {
+          "text": "Nature reported that cognitive resilience helps predict Alzheimer's dementia.",
           "citations": [2]
         },
         {
-          "text": "STAT examined why trust in science is important, in an interview about scientific mistrust.",
+          "text": "ScienceDaily reported that some blood thinners may have an unexpected benefit for Alzheimer's patients.",
           "citations": [3]
         }
       ],
-      "whyItMatters": "Public research budgets set the pipeline for the biotech and AI sectors that depend on them, while a rival build-out in China changes the competitive baseline. Falling public trust, meanwhile, affects how funding debates and health guidance land — a policy risk that runs across bio and AI.",
-      "editorNote": "The budget item is an opinion piece and is labeled as such. No funding figures are asserted beyond the op-ed's own proposal.",
+      "whyItMatters": "Resilience — not just pathology — is emerging as the predictive variable, which reframes prevention research around what protects cognition rather than only what damages it.",
+      "editorNote": "These are research reports and a preprint, not clinical guidance; the blood-thinner item is a reported finding, not a recommendation. No medical advice is offered.",
+      "cluster": [
+        {
+          "url": "https://www.nature.com/articles/d41586-026-02897-4",
+          "source": "Nature",
+          "title": "Cognitive resilience helps to predict Alzheimer’s dementia"
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260917003732.htm",
+          "source": "ScienceDaily",
+          "title": "These blood thinners may have an unexpected benefit for Alzheimer’s patients"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://doi.org/10.64898/2026.09.18.26363376",
+          "source": "medRxiv",
+          "title": "Centenarians maintain cognition by resisting amyloid-β or decoupling it from tau propagation",
+          "publishedAt": "2026-09-21"
+        },
+        {
+          "id": 2,
+          "url": "https://www.nature.com/articles/d41586-026-02897-4",
+          "source": "Nature",
+          "title": "Cognitive resilience helps to predict Alzheimer’s dementia",
+          "publishedAt": "2026-09-18T00:00:00.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.sciencedaily.com/releases/2026/09/260917003732.htm",
+          "source": "ScienceDaily",
+          "title": "These blood thinners may have an unexpected benefit for Alzheimer’s patients",
+          "publishedAt": "2026-09-18T09:48:31.000Z"
+        }
+      ],
+      "tags": ["alzheimers", "cognitive-resilience", "aging", "neuroscience"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "epigenetic-rna-therapy-new-blood-group",
+      "headline": "'Epigenetic' editing is here: gene-tagging technique banishes hepatitis B virus",
+      "dek": "Editing and RNA therapies advanced, and researchers solved a 50-year mystery by finding a new human blood group.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "Nature reported that a gene-tagging, 'epigenetic' editing technique banished hepatitis B virus, describing epigenetic editing as now here.",
+        "Nature also reported a first for RNA therapy: a man with a rare motor-neuron disease improved after treatment.",
+        "ScienceDaily reported that scientists solved a 50-year mystery and discovered a new human blood group."
+      ],
+      "body": [
+        {
+          "text": "Nature reported that a gene-tagging, 'epigenetic' editing technique banished hepatitis B virus, describing epigenetic editing as now here.",
+          "citations": [1]
+        },
+        {
+          "text": "Nature also reported a first for RNA therapy: a man with a rare motor-neuron disease improved after treatment.",
+          "citations": [2]
+        },
+        {
+          "text": "Separately, ScienceDaily reported that scientists solved a 50-year mystery and discovered a new human blood group.",
+          "citations": [3]
+        }
+      ],
+      "whyItMatters": "Editing and RNA therapies are moving from rare-disease proofs toward broader applications, and a new blood group matters for transfusion safety and for the genetics that underpin it.",
+      "editorNote": "These are reported research advances, not approved treatments; no medical advice is offered.",
+      "cluster": [
+        {
+          "url": "https://www.nature.com/articles/d41586-026-02945-z",
+          "source": "Nature",
+          "title": "First for RNA therapy: man with rare motor-neuron disease improves after treatment"
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260918024828.htm",
+          "source": "ScienceDaily",
+          "title": "Scientists solve a 50-year mystery and discover a new human blood group"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.nature.com/articles/d41586-026-02981-9",
+          "source": "Nature",
+          "title": "'Epigenetic' editing is here: gene-tagging technique banishes hepatitis B virus",
+          "publishedAt": "2026-09-21T00:00:00.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.nature.com/articles/d41586-026-02945-z",
+          "source": "Nature",
+          "title": "First for RNA therapy: man with rare motor-neuron disease improves after treatment",
+          "publishedAt": "2026-09-18T00:00:00.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.sciencedaily.com/releases/2026/09/260918024828.htm",
+          "source": "ScienceDaily",
+          "title": "Scientists solve a 50-year mystery and discover a new human blood group",
+          "publishedAt": "2026-09-19T10:14:15.000Z"
+        }
+      ],
+      "tags": ["gene-editing", "rna-therapy", "hepatitis-b", "transfusion"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "vaccine-uptake-trust-misinformation",
+      "headline": "Boosting vaccination uptake using wastewater surveillance: a county-randomized controlled trial",
+      "dek": "An effectiveness study and a trust-and-information story show the two halves of the vaccination problem.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "A medRxiv county-randomized controlled trial tested whether wastewater surveillance could boost vaccination uptake.",
+        "A second medRxiv study estimated the protective effect of influenza vaccine in Brazilian patients hospitalized for severe acute respiratory infection between 2023 and 2025.",
+        "STAT reported that President Trump's newest vaccine 'demands' repeat old misinformation, and separately explored why trust in science is important."
+      ],
+      "body": [
+        {
+          "text": "A medRxiv county-randomized controlled trial tested whether wastewater surveillance could boost vaccination uptake.",
+          "citations": [1]
+        },
+        {
+          "text": "A second medRxiv study estimated the protective effect of influenza vaccine in Brazilian patients hospitalized for severe acute respiratory infection between 2023 and 2025.",
+          "citations": [2]
+        },
+        {
+          "text": "On the policy side, STAT reported that President Trump's newest vaccine 'demands' repeat old misinformation, and separately explored why trust in science is important.",
+          "citations": [3, 4]
+        }
+      ],
+      "whyItMatters": "Vaccine uptake depends as much on trust and delivery as on efficacy data, so pairing an effectiveness study with an information-environment story shows both halves of the problem.",
+      "editorNote": "Effectiveness figures are from a preprint and were not independently reviewed; the STAT items are reporting on policy and information, not clinical guidance. No medical advice is offered.",
       "cluster": [
         {
           "url": "https://www.statnews.com/2026/09/21/trust-in-science-nick-florko-on-understanding-growing-scientific-mistrust/?utm_campaign=rss",
@@ -169,176 +406,107 @@
           "title": "Skeptical about modern medicine? I know the feeling — and want to listen"
         },
         {
-          "url": "https://www.nature.com/articles/d41586-026-02946-y",
-          "source": "Nature",
-          "title": "Chinese companies doubled down on science after US tech restrictions"
+          "url": "https://doi.org/10.64898/2026.09.15.26362995",
+          "source": "medRxiv",
+          "title": "Protective effect of influenza vaccine in Brazilian patients hospitalised for severe acute respiratory infection, 2023-2025"
         }
       ],
       "sources": [
         {
           "id": 1,
-          "url": "https://www.statnews.com/2026/09/21/nih-budget-double-100-billion-reed-jobs/?utm_campaign=rss",
-          "source": "STAT News",
-          "title": "Opinion: STAT+: The NIH budget should be $100 billion per year",
-          "publishedAt": "2026-09-21T08:30:00.000Z"
+          "url": "https://doi.org/10.64898/2026.09.14.26362268",
+          "source": "medRxiv",
+          "title": "Boosting vaccination uptake using wastewater surveillance: a county-randomized controlled trial",
+          "publishedAt": "2026-09-21"
         },
         {
           "id": 2,
-          "url": "https://www.nature.com/articles/d41586-026-02946-y",
-          "source": "Nature",
-          "title": "Chinese companies doubled down on science after US tech restrictions",
-          "publishedAt": "2026-09-18T00:00:00.000Z"
+          "url": "https://doi.org/10.64898/2026.09.15.26362995",
+          "source": "medRxiv",
+          "title": "Protective effect of influenza vaccine in Brazilian patients hospitalised for severe acute respiratory infection, 2023-2025",
+          "publishedAt": "2026-09-21"
         },
         {
           "id": 3,
+          "url": "https://www.statnews.com/2026/09/21/health-news-trump-newest-vaccine-demands-repeat-old-misinformation/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "President Trump’s newest vaccine ‘demands’ repeat old misinformation",
+          "publishedAt": "2026-09-21T12:03:49.000Z"
+        },
+        {
+          "id": 4,
           "url": "https://www.statnews.com/2026/09/21/trust-in-science-reporter-nick-florko-interview-status-report-alex-hogan/?utm_campaign=rss",
           "source": "STAT News",
           "title": "Why is trust in science important?",
           "publishedAt": "2026-09-21T08:30:00.000Z"
         }
       ],
-      "tags": ["nih", "funding", "trust-in-science", "china"],
+      "tags": ["vaccines", "public-health", "influenza", "misinformation"],
       "confidence": "medium"
     },
     {
-      "slug": "ai-clinical-infrastructure-oversight",
-      "headline": "As AI moves into clinical labs, researchers focus on oversight of automated results",
-      "dek": "New papers ask what must change before agentic AI becomes clinical infrastructure.",
-      "type": "DEEP",
+      "slug": "infectious-disease-surveillance-antigenic-drift",
+      "headline": "Near real-time data on the human neutralizing antibody landscape to influenza virus in summer of 2026 shows antigenic advance of H3N2 subclade K region D mutants and H1N1 D.3.1.1 Sa mutants",
+      "dek": "Flu antigenic drift, repeated SARS-CoV-2 introductions and a surging Ebola relative point to the value of early warning.",
+      "type": "BRIEF",
       "readMinutes": 3,
       "tldr": [
-        "A PubMed paper examined what must change before generative and agentic AI become clinical infrastructure in hematology.",
-        "Another paper addressed oversight of automated result release in the medical laboratory.",
-        "Nature reported on AI used to assess how fast a person is ageing."
+        "A bioRxiv preprint reported near real-time antibody-landscape data on influenza in summer 2026, showing antigenic advance of H3N2 and H1N1 mutants.",
+        "A medRxiv study described repeated SARS-CoV-2 introductions into Bangladesh between 2020 and 2025 with limited local establishment.",
+        "ScienceDaily reported that a deadly relative of Ebola is surging after years in the shadows."
       ],
       "body": [
         {
-          "text": "A PubMed paper examined what must change before generative and agentic AI become clinical infrastructure in hematology.",
+          "text": "A bioRxiv preprint reported near real-time data on the human neutralizing antibody landscape to influenza in summer 2026, showing antigenic advance of H3N2 subclade K region D mutants and H1N1 D.3.1.1 Sa mutants.",
           "citations": [1]
         },
         {
-          "text": "Another paper addressed responsibility and oversight of automated result release in the medical laboratory.",
+          "text": "A medRxiv study described repeated SARS-CoV-2 introductions into Bangladesh between 2020 and 2025 with limited local establishment.",
           "citations": [2]
         },
         {
-          "text": "Nature reported on AI being used to assess how fast a person is ageing.",
+          "text": "ScienceDaily reported that a deadly relative of Ebola is surging after years in the shadows.",
           "citations": [3]
         }
       ],
-      "whyItMatters": "The bottleneck for clinical AI is accountability for automated outputs, not model capability — the same verification problem the AI vertical is trying to solve for agents. How labs define oversight will set the adoption path for diagnostics and, in turn, the evidence regulators expect.",
-      "editorNote": "Papers are cited at the title/abstract level only; no clinical guidance or treatment recommendations are offered. The Nature item is a research news report.",
+      "whyItMatters": "Antigenic drift and repeated introductions are the inputs to vaccine-strain choices and outbreak readiness, so near-real-time surveillance is the early-warning layer that buys time.",
+      "editorNote": "The antibody-landscape and Bangladesh items are preprints; the Ebola-relative item is a reported finding. None were independently reviewed. No medical advice is offered.",
       "cluster": [
         {
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42764550/",
-          "source": "PubMed",
-          "title": "We are the last generation of human psychiatrists"
+          "url": "https://doi.org/10.64898/2026.09.14.26362721",
+          "source": "medRxiv",
+          "title": "Repeated SARS-CoV-2 Introductions with Limited Local Establishment in Bangladesh, 2020-2025"
         },
         {
-          "url": "https://www.nature.com/articles/d41586-026-02913-7",
-          "source": "Nature",
-          "title": "How fast are you ageing? Ask AI"
+          "url": "https://www.sciencedaily.com/releases/2026/09/260919031042.htm",
+          "source": "ScienceDaily",
+          "title": "A deadly ebola relative is surging after years in the shadows"
         }
       ],
       "sources": [
         {
           "id": 1,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42764575/",
-          "source": "PubMed",
-          "title": "From Answers to Agents: What Must Change Before Generative and Agentic AI Become Clinical Infrastructure in Hematology",
+          "url": "https://doi.org/10.64898/2026.09.15.751855",
+          "source": "bioRxiv",
+          "title": "Near real-time data on the human neutralizing antibody landscape to influenza virus in summer of 2026 shows antigenic advance of H3N2 subclade K region D mutants and H1N1 D.3.1.1 Sa mutants",
           "publishedAt": "2026-09-21"
         },
         {
           "id": 2,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42764553/",
-          "source": "PubMed",
-          "title": "Responsibility without a map: defining oversight of automated result release in the medical laboratory",
+          "url": "https://doi.org/10.64898/2026.09.14.26362721",
+          "source": "medRxiv",
+          "title": "Repeated SARS-CoV-2 Introductions with Limited Local Establishment in Bangladesh, 2020-2025",
           "publishedAt": "2026-09-21"
         },
         {
           "id": 3,
-          "url": "https://www.nature.com/articles/d41586-026-02913-7",
-          "source": "Nature",
-          "title": "How fast are you ageing? Ask AI",
-          "publishedAt": "2026-09-17T00:00:00.000Z"
+          "url": "https://www.sciencedaily.com/releases/2026/09/260919031042.htm",
+          "source": "ScienceDaily",
+          "title": "A deadly ebola relative is surging after years in the shadows",
+          "publishedAt": "2026-09-20T02:26:36.000Z"
         }
       ],
-      "tags": ["clinical-ai", "oversight", "diagnostics", "research"],
-      "confidence": "medium"
-    },
-    {
-      "slug": "trial-registrations-snapshot-september-21",
-      "headline": "Trial registrations snapshot: oncology combinations and an IgA nephropathy study",
-      "dek": "A sample of studies registered or updated in the collection window.",
-      "type": "DATA",
-      "readMinutes": 3,
-      "tldr": [
-        "One registered study tests nivolumab with or without ipilimumab in deficient mismatch repair recurrent endometrial carcinoma.",
-        "Another studies belzutifan and zanzalintinib in renal cell carcinoma (LITESPARK-034).",
-        "A third evaluates ARGX-121's effect on proteinuria in adults with IgA nephropathy, and a PubMed review updated type 2 diabetes risk prediction models."
-      ],
-      "body": [
-        {
-          "text": "Among trial records collected for September 21, one study tests nivolumab with or without ipilimumab in deficient mismatch repair system recurrent endometrial carcinoma.",
-          "citations": [1]
-        },
-        {
-          "text": "Another studies belzutifan and zanzalintinib in people with renal cell carcinoma, under the LITESPARK-034 protocol.",
-          "citations": [2]
-        },
-        {
-          "text": "A third evaluates the effect of ARGX-121 on the change in proteinuria in adults with IgA nephropathy.",
-          "citations": [3]
-        },
-        {
-          "text": "Separately, a PubMed scoping review updated risk prediction models for incident type 2 diabetes.",
-          "citations": [4]
-        }
-      ],
-      "whyItMatters": "Trial registrations are the earliest public signal of where pipeline capital is going, and the mix here — immuno-oncology combinations, a renal-cell regimen and an IgA nephropathy candidate — maps to the autoimmune and oncology areas drawing the most deal interest. Registration is not evidence of efficacy.",
-      "editorNote": "Records are summarized from registry titles and status only; no results, endpoints or efficacy claims are reported. This is a snapshot of collected registrations, not a ranking.",
-      "cluster": [
-        {
-          "url": "https://clinicaltrials.gov/study/NCT07224152",
-          "source": "ClinicalTrials.gov",
-          "title": "NBTXR3 With Radiation Therapy Alone for Locally-advanced Non-small Cell Lung Cancer"
-        },
-        {
-          "url": "https://clinicaltrials.gov/study/NCT07489495",
-          "source": "ClinicalTrials.gov",
-          "title": "A Clinical Study of Belzutifan (MK-6482) and Zanzalintinib in People With Renal Cell Carcinoma (LITESPARK-034)"
-        }
-      ],
-      "sources": [
-        {
-          "id": 1,
-          "url": "https://clinicaltrials.gov/study/NCT05112601",
-          "source": "ClinicalTrials.gov",
-          "title": "Testing Nivolumab With or Without Ipilimumab in Deficient Mismatch Repair System (dMMR) Recurrent Endometrial Carcinoma",
-          "publishedAt": "2026-09-17T00:00:00.000Z"
-        },
-        {
-          "id": 2,
-          "url": "https://clinicaltrials.gov/study/NCT07489495",
-          "source": "ClinicalTrials.gov",
-          "title": "A Clinical Study of Belzutifan (MK-6482) and Zanzalintinib in People With Renal Cell Carcinoma (RCC) (LITESPARK-034/LS-034/MK-6482-034)",
-          "publishedAt": "2026-09-17T00:00:00.000Z"
-        },
-        {
-          "id": 3,
-          "url": "https://clinicaltrials.gov/study/NCT07773727",
-          "source": "ClinicalTrials.gov",
-          "title": "A Study to Evaluate the Effect of ARGX-121 on the Change in Proteinuria in Adult Participants With IgAN",
-          "publishedAt": "2026-09-17T00:00:00.000Z"
-        },
-        {
-          "id": 4,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42764073/",
-          "source": "PubMed",
-          "title": "Risk prediction models for incident type 2 diabetes: a scoping review and an update to a systematic review",
-          "publishedAt": "2026-09-20"
-        }
-      ],
-      "tags": ["clinical-trials", "oncology", "nephrology", "pipeline"],
+      "tags": ["influenza", "surveillance", "sars-cov-2", "outbreaks"],
       "confidence": "medium"
     }
   ]

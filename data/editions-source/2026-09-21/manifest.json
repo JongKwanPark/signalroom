@@ -1,9 +1,9 @@
 {
   "date": "2026-09-21",
-  "generatedAt": "2026-09-21T09:54:59.990Z",
+  "generatedAt": "2026-09-21T22:01:12.720Z",
   "verticals": {
     "ai": {
-      "items": 135,
+      "items": 134,
       "sources": [
         {
           "name": "hackernews",
@@ -33,7 +33,7 @@
       ]
     },
     "bio": {
-      "items": 106,
+      "items": 166,
       "sources": [
         {
           "name": "pubmed",
@@ -42,14 +42,13 @@
         },
         {
           "name": "biorxiv",
-          "status": "failed",
-          "count": 0,
-          "error": "biorxiv: timeout after 20000ms"
+          "status": "ok",
+          "count": 30
         },
         {
           "name": "medrxiv",
-          "status": "empty",
-          "count": 0
+          "status": "ok",
+          "count": 30
         },
         {
           "name": "openfda",
@@ -75,7 +74,7 @@
           "name": "gdelt",
           "status": "failed",
           "count": 0,
-          "error": "gdelt: HTTP 429"
+          "error": "gdelt: TypeError: fetch failed"
         },
         {
           "name": "reliefweb",
@@ -102,12 +101,12 @@
       ]
     },
     "markets": {
-      "items": 129,
+      "items": 100,
       "sources": [
         {
           "name": "reddit",
           "status": "ok",
-          "count": 60
+          "count": 30
         },
         {
           "name": "wire",

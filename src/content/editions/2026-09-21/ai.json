@@ -1,67 +1,67 @@
 {
   "date": "2026-09-21",
-  "generatedAt": "2026-09-21T10:00:29.000Z",
+  "generatedAt": "2026-09-21T22:03:26.000Z",
   "vertical": "ai",
-  "title": "AI: a Jev tooling wave, an AI-slowdown lawsuit and agent-verification tools",
-  "summary": "Community work around TypeSafe AI's Jev kept arriving, led by a jevals project that drew the day's strongest Hacker News discussion and a curated list above 800 stars. The sharpest new item was a lawsuit alleging that Anthropic, OpenAI, SpaceXAI and Google agreed illegally to slow AI, set against active White House positioning on AI regulation. A second cluster of tools and papers attacked the same problem from the verification side, and local-inference threads kept testing how far open weights run on single-GPU and small-board hardware. No vertical was quiet.",
+  "title": "AI: a Jev ecosystem under scrutiny, an open-weight wave and local-inference gains",
+  "summary": "The Jev ecosystem kept expanding — curated lists, an open API endpoint and an evals project — even as the day's most-engaged community thread questioned the hype. A second cluster was pure open-weights momentum: Mistral hosting GLM 5.3, Xiaomi's MiMo-V2.6 releases, DeepSeek training a 2T model and planning an 8T one, and Yandex's AliceAI 80B. Local inference produced concrete numbers on Apple Silicon and a browser benchmark its own author questioned, while agent tooling and verification research converged on proving what agents actually did. Every collector for the vertical returned items; YouTube coverage came only from Two Minute Papers.",
   "stories": [
     {
-      "slug": "jev-tooling-wave-september-21",
-      "headline": "Jev tooling wave continues as a jevals project leads Hacker News and a curated list passes 800 stars",
-      "dek": "Community ports, lists and open alternatives kept arriving around TypeSafe AI's System One decision model, alongside fresh threads questioning the hype.",
+      "slug": "jev-ecosystem-scrutiny",
+      "headline": "I really don't understand Jev hype",
+      "dek": "Curated lists, an open API endpoint and an evals project kept arriving even as the loudest community thread questioned the point.",
       "type": "DEEP",
       "readMinutes": 5,
       "tldr": [
-        "openlayer-ai's jevals, which replaces LLM judges with typed Jev decisions, was the most-engaged Hacker News submission in the day's collected AI set.",
-        "yibie/awesome-jev, a curated list of projects and integrations built on Jev, carried 801 GitHub stars, and ekzhang/openjev-sglang offered a Jev-compatible API endpoint built on open models.",
-        "Skepticism persisted: r/LocalLLaMA threads questioned the hype, argued any LLM can be used like JEV, and relayed a project claiming ordinary local models already suffice."
+        "The most-engaged skeptic thread in the day's AI set was on r/LocalLLaMA, where a poster said they really did not understand the Jev hype.",
+        "yibie/awesome-jev, a curated list built on Jev — TypeSafe AI's System One model — carried 958 GitHub stars, and ekzhang/openjev-sglang offered a Jev-compatible API endpoint based on open models.",
+        "openlayer-ai/jevals packaged agent evals and guardrails in one request, and an Ask HN thread asked about the future status of 'the burning of Jev'."
       ],
       "body": [
         {
-          "text": "Community work around Jev — TypeSafe AI's System One model for typed decisions — kept arriving. openlayer-ai's jevals, described as replacing LLM judges with typed Jev decisions, drew the strongest Hacker News discussion in the collected set, while yibie/awesome-jev, a curated list of public projects, integrations and discussions built on Jev, carried 801 GitHub stars.",
-          "citations": [1, 2]
+          "text": "The most-engaged skeptic thread in the day's AI set was on r/LocalLLaMA, where a poster said they really did not understand the Jev hype.",
+          "citations": [1]
         },
         {
-          "text": "Open and independent alternatives also spread. ekzhang/openjev-sglang presents a Jev-compatible API endpoint based on open models, described as prefill-only.",
-          "citations": [3]
+          "text": "The ecosystem kept growing anyway. yibie/awesome-jev, a curated list of public projects, integrations and discussions built on Jev, carried 958 GitHub stars; ekzhang/openjev-sglang offered a Jev-compatible API endpoint based on open models; and openlayer-ai/jevals packaged agent evals and guardrails in one request.",
+          "citations": [2, 3, 4]
         },
         {
-          "text": "Skepticism is part of the wave. Threads on r/LocalLLaMA said they did not understand the Jev hype, argued that any LLM can be used like JEV, and relayed a project called hearim claiming that ordinary local LLMs already have the capability, so a special model may not be required.",
-          "citations": [4, 5, 6]
+          "text": "On Hacker News, an Ask HN thread asked about the future status of 'the burning of Jev', a sign the community is still working out the project's direction.",
+          "citations": [5]
         }
       ],
-      "whyItMatters": "Typed, calibrated decision layers are becoming a shared interface for agents, which is why the same week's verification tooling and Jev tooling are converging. If ordinary open models can supply the capability, as one project claims, the value shifts from the model to the evaluation and routing layer — the same layer that AI-safety debates are now trying to govern.",
-      "editorNote": "Sourced from project pages and community threads collected on September 21; star counts are point-in-time. No independent evaluation of jevals or hearim was reviewed, so capability claims are attributed rather than asserted.",
+      "whyItMatters": "Typed, calibrated decision layers are becoming a shared interface for agents, so the interesting question is no longer whether Jev works but who controls the evaluation and routing layer built on top of it.",
+      "editorNote": "Star counts are point-in-time; capability claims come from project descriptions and community threads and were not independently tested.",
       "cluster": [
-        {
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wleg4w/what_is_jev_and_what_is_it_used_for/",
-          "source": "Reddit r/LocalLLaMA",
-          "title": "What is JEV and what is it used for?"
-        },
         {
           "url": "https://github.com/v-modal/awesome-jev-tools",
           "source": "GitHub",
-          "title": "v-modal/awesome-jev-tools: A curated list of tools built for Jev"
+          "title": "v-modal/awesome-jev-tools: A curated list of tools built for Jev — TypeSafe AI's System One model for typed decisions."
         },
         {
           "url": "https://github.com/everyinfra/jev-radar",
           "source": "GitHub",
-          "title": "everyinfra/jev-radar: tracker of the Jev ecosystem"
+          "title": "everyinfra/jev-radar: tracker of the Jev (TypeSafe AI System One) ecosystem"
+        },
+        {
+          "url": "https://github.com/OmniJev/awesome-jev-gallery",
+          "source": "GitHub",
+          "title": "OmniJev/awesome-jev-gallery: Papers, open reproductions and independent evaluations behind System One models and Jev."
         }
       ],
       "sources": [
         {
           "id": 1,
-          "url": "https://github.com/openlayer-ai/jevals",
-          "source": "GitHub",
-          "title": "Show HN: jevals – replacing LLM judges with typed Jev decisions",
-          "publishedAt": "2026-09-20T22:39:47Z"
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wm65le/i_really_dont_understand_jev_hype/",
+          "source": "Reddit r/LocalLLaMA",
+          "title": "I really don't understand Jev hype",
+          "publishedAt": "2026-09-21T07:43:29.000Z"
         },
         {
           "id": 2,
           "url": "https://github.com/yibie/awesome-jev",
           "source": "GitHub",
-          "title": "yibie/awesome-jev: A curated list of public projects, integrations, and discussions built on Jev",
+          "title": "yibie/awesome-jev: A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions.",
           "publishedAt": "2026-09-17T14:23:21Z"
         },
         {
@@ -73,168 +73,280 @@
         },
         {
           "id": 4,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wm65le/i_really_dont_understand_jev_hype/",
-          "source": "Reddit r/LocalLLaMA",
-          "title": "I really don't understand Jev hype",
-          "publishedAt": "2026-09-21T07:43:29.000Z"
+          "url": "https://github.com/openlayer-ai/jevals",
+          "source": "GitHub",
+          "title": "openlayer-ai/jevals: Agent evals and guardrails in one request. Built on Jev, Kev and Laya.",
+          "publishedAt": "2026-09-20T19:56:13Z"
         },
         {
           "id": 5,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlxpaw/you_can_use_any_llm_just_like_jev/",
-          "source": "Reddit r/LocalLLaMA",
-          "title": "You can use any LLM just like JEV",
-          "publishedAt": "2026-09-21T00:28:45.000Z"
-        },
-        {
-          "id": 6,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wm6eri/hearim헤아림_maybe_you_dont_need_a_special_model_for/",
-          "source": "Reddit r/LocalLLaMA",
-          "title": "hearim(헤아림): Maybe you don't need a special model for Jev — ordinary local LLMs already have the capability",
-          "publishedAt": "2026-09-21T07:59:18.000Z"
+          "url": "https://news.ycombinator.com/item?id=49788393",
+          "source": "Hacker News",
+          "title": "Ask HN: What is the future status with the burning of Jev",
+          "publishedAt": "2026-09-21T15:16:00Z"
         }
       ],
-      "tags": ["jev", "typesafe", "local-llm", "agents"],
+      "tags": ["jev", "typesafe", "agents", "evaluation"],
       "confidence": "medium"
     },
     {
-      "slug": "ai-slowdown-lawsuit-and-washington-safety-politics",
-      "headline": "Anthropic, OpenAI, SpaceXAI and Google accused in a lawsuit of an illegal AI-slowdown pact",
-      "dek": "The allegation lands amid active White House positioning on AI regulation and Nvidia's public role in the safety debate.",
+      "slug": "open-weight-model-wave-glm-mimo-deepseek",
+      "headline": "GLM 5.3 Hosted by Mistral",
+      "dek": "Chinese and Russian labs shipped capable open weights while DeepSeek signaled even larger training runs.",
       "type": "DEEP",
       "readMinutes": 4,
       "tldr": [
-        "A lawsuit alleges that Anthropic, OpenAI, SpaceXAI and Google made an illegal agreement on an AI slowdown, per an r/LocalLLaMA thread and a Yahoo Finance headline.",
-        "The Guardian profiled David Sacks as Trump's AI czar pushing for limited regulation.",
-        "Nvidia CEO Jensen Huang has emerged as a top ally in the AI-safety debate, CNBC reported, and separately said there is a '0% chance' AI ends the world."
+        "Hacker News surfaced a post saying GLM 5.3 is hosted by Mistral.",
+        "r/LocalLLaMA threads pointed to Xiaomi's MiMo-V2.6-Flash-RL on Hugging Face, said DeepSeek is training a 2T model and planning an 8T one, and highlighted Yandex's AliceAI-Foundation-80B as a competitor to Qwen 35B and DeepSeek V4 Flash.",
+        "Two Minute Papers covered DeepSeek's new architecture, and a thread described mini-AGI, a 530M-parameter model trained from scratch on an 8GB-VRAM laptop."
       ],
       "body": [
         {
-          "text": "A lawsuit alleges that Anthropic, OpenAI, SpaceXAI and Google made an illegal agreement on an AI slowdown, according to a thread on r/LocalLLaMA. Yahoo Finance reported that four AI giants are being sued over an alleged pact to slow the technology's development.",
-          "citations": [1, 2]
+          "text": "Hacker News surfaced a post saying GLM 5.3 is hosted by Mistral.",
+          "citations": [1]
         },
         {
-          "text": "The claim lands amid active White House positioning. The Guardian profiled David Sacks, described as a Silicon Valley radical and Trump's AI whisperer pushing for limited regulation.",
-          "citations": [3]
+          "text": "Chinese and Russian labs kept shipping open weights: an r/LocalLLaMA thread pointed to Xiaomi's MiMo-V2.6-Flash-RL on Hugging Face; another said DeepSeek is training a 2T model and planning an 8T one; and a third highlighted Yandex's AliceAI-Foundation-80B-A3B-Base as a Russian-developed competitor to Qwen 35B and DeepSeek V4 Flash.",
+          "citations": [2, 3, 4]
         },
         {
-          "text": "Nvidia CEO Jensen Huang has emerged as a top ally in the AI-safety debate, CNBC reported, and separately said there is a '0% chance' that AI ends the world, per Yahoo Finance.",
-          "citations": [4, 2]
-        }
-      ],
-      "whyItMatters": "A court claim that leading labs colluded to slow AI reframes the safety debate as a competition question, at the moment the White House is choosing how lightly to regulate. For markets, the read-through is to compute procurement and the legal risk around frontier-lab coordination; for geopolitics, it feeds the US-China AI framing that the same day's summit agenda covers.",
-      "editorNote": "The existence and wording of the complaint were not independently reviewed; it is reported here as an allegation, not a finding. Confidence is low because the underlying filing is unverified and the sourcing is a community thread plus market headlines.",
-      "cluster": [
-        {
-          "url": "https://www.aljazeera.com/opinions/2026/9/21/can-the-us-win-the-ai-cold-war-with-china?traffic_source=rss",
-          "source": "Al Jazeera",
-          "title": "Can the US win the AI cold war with China?"
-        },
-        {
-          "url": "https://www.cnbc.com/2026/09/21/treasury-yields-government-bonds.html",
-          "source": "CNBC",
-          "title": "Treasury yields ease as global borrowing costs tumble"
-        }
-      ],
-      "sources": [
-        {
-          "id": 1,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlo52v/lawsuit_says_anthropic_openai_spacexai_and_google/",
-          "source": "Reddit r/LocalLLaMA",
-          "title": "Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown",
-          "publishedAt": "2026-09-20T18:05:43.000Z"
-        },
-        {
-          "id": 2,
-          "url": "https://finance.yahoo.com/technology/ai/articles/nvidias-ceo-huang-says-theres-073500742.html",
-          "source": "Yahoo Finance",
-          "title": "Nvidia's CEO Huang says there's a '0% chance' AI ends the world — 4 AI giants are sued over an alleged pact to slow it",
-          "publishedAt": "2026-09-21T07:35:00.000Z"
-        },
-        {
-          "id": 3,
-          "url": "https://www.theguardian.com/us-news/2026/sep/20/david-sacks-trump-ai-czar",
-          "source": "The Guardian",
-          "title": "A Silicon Valley radical: Trump's AI whisperer pushing for limited regulation",
-          "publishedAt": "2026-09-21T03:13:03Z"
-        },
-        {
-          "id": 4,
-          "url": "https://www.cnbc.com/2026/09/20/nvidia-ceo-jensen-huang-emerges-as-trumps-top-ally-in-ai-debate.html",
-          "source": "CNBC",
-          "title": "Nvidia CEO Jensen Huang emerges as Trump's top ally in AI safety debate",
-          "publishedAt": "2026-09-20T11:25:08.000Z"
-        }
-      ],
-      "tags": ["regulation", "lawsuit", "nvidia", "ai-safety"],
-      "confidence": "low"
-    },
-    {
-      "slug": "agent-verification-tooling-wave",
-      "headline": "A verification-tooling wave aims at agents that overstate what they did",
-      "dek": "New tools and papers try to prove what an agent actually did, without putting an LLM in the trust path.",
-      "type": "DEEP",
-      "readMinutes": 5,
-      "tldr": [
-        "Several Show HN and GitHub projects gate agent output: a fact-checker that cannot fabricate a quote, deterministic grounding checks, and Emetgate, a verification gate between an LLM and a source tree.",
-        "An r/LocalLLaMA thread proposed a small overview check-in as a remedy for lying agents.",
-        "arXiv papers examined lie detection for language models and predictable failure in multi-hop retrieval with confidence scoring and abstention."
-      ],
-      "body": [
-        {
-          "text": "A cluster of projects is attacking the verification gap. A Show HN fact-checker claims the model cannot fabricate a quote; ora-grounding performs deterministic grounding checks for LLM agents with no LLM in the hot path; and Emetgate describes itself as a verification gate between an LLM and a source tree.",
-          "citations": [1, 2, 3]
-        },
-        {
-          "text": "Practitioners are proposing lighter-weight checks too. An r/LocalLLaMA thread offered a small overview check-in as a remedy for agents that lie about their work.",
-          "citations": [4]
-        },
-        {
-          "text": "Research is following the same thread. An arXiv paper proposed a lie detector test for language models that reads knowledge a model will not reveal, and another examined predictable failure in multi-hop retrieval using score-distributional confidence scoring and abstention.",
+          "text": "Efficiency was the theme on video too: Two Minute Papers covered DeepSeek's new architecture, and a separate thread described mini-AGI, a 530M-parameter continual-learning model trained from scratch on an 8GB-VRAM laptop from a batch-1 stream.",
           "citations": [5, 6]
         }
       ],
-      "whyItMatters": "As agents take more actions, the scarce asset is not the model but proof of what it did. This is the same problem the Jev ecosystem answers with typed, calibrated decisions, and the same problem enterprises will have to solve before agentic AI becomes infrastructure — a framing that bio researchers raised separately for clinical labs.",
-      "editorNote": "Tool capabilities are taken from their own project descriptions and were not tested. The arXiv papers are cited at the abstract level only.",
+      "whyItMatters": "The open-weight frontier is now being pushed by Chinese and Russian labs shipping capable models that run on consumer hardware, which compresses the gap to closed labs and shifts the moat toward distribution, tooling and trust.",
+      "editorNote": "Model capability claims come from community posts and project pages and were not independently benchmarked; the DeepSeek training-size claim is as reported in a community thread.",
       "cluster": [
         {
-          "url": "http://arxiv.org/abs/2609.22043v1",
-          "source": "arXiv",
-          "title": "An Interpretable Memory Decision Controller for LLM Agents Based on Three-Signal Complementarity"
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmntwv/xiaomimimomimov26prorl_hugging_face/",
+          "source": "Reddit r/LocalLLaMA",
+          "title": "XiaomiMiMo/MiMo-V2.6-Pro-RL · Hugging Face"
         },
         {
-          "url": "https://github.com/LeonardLeroy/i-dont-believe-you",
-          "source": "GitHub",
-          "title": "LeonardLeroy/i-dont-believe-you: A skill to stop your coding agent from telling you it works when the diff says otherwise"
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmp2di/xiaomimimomimov26distillqwen9b/",
+          "source": "Reddit r/LocalLLaMA",
+          "title": "XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B"
+        },
+        {
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmp5h2/mimo_v26flashrl_vs_openweight_models/",
+          "source": "Reddit r/LocalLLaMA",
+          "title": "Mimo v2.6-Flash-RL vs open-weight models"
         }
       ],
       "sources": [
         {
           "id": 1,
-          "url": "https://grounnel.vercel.app/",
-          "source": "Grounnel",
-          "title": "Show HN: A fact-checker where the model can't fabricate a quote",
-          "publishedAt": "2026-09-21T07:52:33Z"
+          "url": "https://twitter.com/mistralvibe/status/2102056993531871446",
+          "source": "Hacker News",
+          "title": "GLM 5.3 Hosted by Mistral",
+          "publishedAt": "2026-09-21T18:40:55Z"
         },
         {
           "id": 2,
-          "url": "https://github.com/polarisbuiltinc-wq/ora-grounding",
-          "source": "GitHub",
-          "title": "Deterministic grounding checks for LLM agents, no LLM in the hot path",
-          "publishedAt": "2026-09-21T02:04:21Z"
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmnw89/xiaomimimomimov26flashrl_hugging_face/",
+          "source": "Reddit r/LocalLLaMA",
+          "title": "XiaomiMiMo/MiMo-V2.6-Flash-RL · Hugging Face",
+          "publishedAt": "2026-09-21T20:09:12.000Z"
         },
         {
           "id": 3,
-          "url": "https://github.com/emetgate/emetgate",
-          "source": "GitHub",
-          "title": "Show HN: Emetgate – a verification gate between an LLM and your source tree",
-          "publishedAt": "2026-09-20T19:29:19Z"
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmblx1/deepseek_training_2t_and_plans_8t_model/",
+          "source": "Reddit r/LocalLLaMA",
+          "title": "Deepseek training 2T and plans 8T model",
+          "publishedAt": "2026-09-21T12:38:08.000Z"
         },
         {
           "id": 4,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wm892x/wtf_is_a_small_overview_checkin_remedy_attempt/",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmmnrt/yandexaliceaifoundation80ba3bbase/",
           "source": "Reddit r/LocalLLaMA",
-          "title": "WTF is a small overview check-in remedy (attempt) for lying agents. And more",
-          "publishedAt": "2026-09-21T09:48:18.000Z"
+          "title": "yandex/AliceAI-Foundation-80B-A3B-Base: Russian-developed competitor to Qwen 35B and DeepSeek V4 Flash",
+          "publishedAt": "2026-09-21T19:24:34.000Z"
+        },
+        {
+          "id": 5,
+          "url": "https://www.youtube.com/watch?v=vIHw_2VjSUw",
+          "source": "YouTube",
+          "title": "Two Minute Papers: DeepSeek’s Insane New Architecture",
+          "publishedAt": "2026-09-18T07:03:46.000Z"
+        },
+        {
+          "id": 6,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wm1gab/miniagi_dynamically_grown_530m_params_currently/",
+          "source": "Reddit r/LocalLLaMA",
+          "title": "mini-AGI - dynamically grown (530M params currently and growing) continual learning model trained from scratch on 8GB VRAM laptop from batch-1 stream of data.",
+          "publishedAt": "2026-09-21T03:26:40.000Z"
+        }
+      ],
+      "tags": ["open-weights", "deepseek", "glm", "mimo"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "local-inference-apple-silicon-browser",
+      "headline": "M5 Ultra Mac Studio Review: The Dream Mac for Local AI Agents - MacStories",
+      "dek": "Concrete tokens-per-second numbers landed alongside a browser benchmark its own author questioned.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "An r/LocalLLaMA review called the M5 Ultra Mac Studio the dream Mac for local AI agents, while another thread argued 16GB — and often 12GB — is the maximum VRAM most people will reasonably have.",
+        "A thread reported running Qwen3.8-27B in native 8-bit at 37-55 tokens per second on Apple Silicon with the Splash engine, extended to Q8 and 256k context.",
+        "On Hacker News, a vLLM deep dive and a 3,000-tokens-per-second browser benchmark ran alongside a claim of 94% on AIME with a 1B-parameter model."
+      ],
+      "body": [
+        {
+          "text": "An r/LocalLLaMA review called the M5 Ultra Mac Studio the dream Mac for local AI agents, while another thread argued that 16GB — and often 12GB — is the maximum VRAM most people will ever reasonably have.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "Engine work kept pace: a thread reported running Qwen3.8-27B in native 8-bit at 37-55 tokens per second on Apple Silicon with the Splash engine, extended to Q8 and 256k context.",
+          "citations": [3]
+        },
+        {
+          "text": "On Hacker News, a deep dive covered vLLM architecture, memory and benchmarks; a separate post asked whether a 3,000-tokens-per-second small-model benchmark running in a browser is real or a blooper; and another claimed 94% on AIME with a 1B-parameter model.",
+          "citations": [4, 5, 6]
+        }
+      ],
+      "whyItMatters": "Every credible single-device result raises the floor for what runs outside a data center, which changes inference economics and, over time, demand for memory and accelerators.",
+      "editorNote": "Throughput and benchmark claims are community reports and vendor posts, not independent measurements; the 3,000 tok/s result is explicitly questioned by its own author.",
+      "cluster": [
+        {
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmb875/16gb_and_in_many_cases_12gb_is_the_max_vram_most/",
+          "source": "Reddit r/LocalLLaMA",
+          "title": "16GB (and in many cases 12GB) is the max vram most people will ever reasonably have"
+        },
+        {
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmbbf9/splash_engine_qwen3827b_in_native_8bit_at_3755/",
+          "source": "Reddit r/LocalLLaMA",
+          "title": "[Splash Engine] Qwen3.8-27B in native 8-bit at 37–55 tok/s on Apple Silicon"
+        },
+        {
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmd3xx/putting_the_question_before_the_context_took_my/",
+          "source": "Reddit r/LocalLLaMA",
+          "title": "Putting the question before the context took my local Qwen from 89% to 100% on a decision benchmark, and from ~400 ms to ~80 ms"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmec1y/m5_ultra_mac_studio_review_the_dream_mac_for/",
+          "source": "Reddit r/LocalLLaMA",
+          "title": "M5 Ultra Mac Studio Review: The Dream Mac for Local AI Agents - MacStories",
+          "publishedAt": "2026-09-21T14:26:50.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmb875/16gb_and_in_many_cases_12gb_is_the_max_vram_most/",
+          "source": "Reddit r/LocalLLaMA",
+          "title": "16GB (and in many cases 12GB) is the max vram most people will ever reasonably have",
+          "publishedAt": "2026-09-21T12:21:36.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmbbf9/splash_engine_qwen3827b_in_native_8bit_at_3755/",
+          "source": "Reddit r/LocalLLaMA",
+          "title": "[Splash Engine] Qwen3.8-27B in native 8-bit at 37–55 tok/s on Apple Silicon: Extending Splash to Q8, 256k context scaling, and the \"Reasoning Cliff\"",
+          "publishedAt": "2026-09-21T12:25:31.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://www.g-ftech.com/blog/vllm-throughput-deep-dive",
+          "source": "Hacker News",
+          "title": "vLLM Architecture, Memory and Benchmarks Deep Dive",
+          "publishedAt": "2026-09-21T20:59:10Z"
+        },
+        {
+          "id": 5,
+          "url": "https://github.com/robss2020/microllm-lab",
+          "source": "Hacker News",
+          "title": "Blooper or Real Small Model Benchmark – 3000 tokens/sec in your browser",
+          "publishedAt": "2026-09-21T18:31:34Z"
+        },
+        {
+          "id": 6,
+          "url": "https://paradigma.inc/blog/limite-1b-violetto/",
+          "source": "Hacker News",
+          "title": "94% on AIME with 1B Params",
+          "publishedAt": "2026-09-21T20:07:48Z"
+        }
+      ],
+      "tags": ["local-llm", "apple-silicon", "vllm", "benchmarks"],
+      "confidence": "low"
+    },
+    {
+      "slug": "agent-tooling-verification-gap",
+      "headline": "Show HN: Foremerge – Catch intent conflicts between parallel coding agents",
+      "dek": "New tools and papers try to prove what an agent actually did, without trusting the agent's own report.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "The day's most-engaged Show HN was Foremerge, which catches intent conflicts between parallel coding agents.",
+        "AURA offered open-source behavioral threat detection for LLMs, and Fusion-runtime ran self-hosted voice agents with STT, LLM and TTS in one process.",
+        "arXiv papers addressed predictable failure in multi-hop retrieval and proposed a lie-detector test that reads knowledge a model will not reveal."
+      ],
+      "body": [
+        {
+          "text": "The day's most-engaged Show HN was Foremerge, which catches intent conflicts between parallel coding agents.",
+          "citations": [1]
+        },
+        {
+          "text": "Other launches targeted the same gap from different angles: AURA, open-source behavioral threat detection for LLMs, and Fusion-runtime, which runs self-hosted voice agents with STT, LLM and TTS in one process.",
+          "citations": [2, 3]
+        },
+        {
+          "text": "Research is converging on the same problem. One arXiv paper examined predictable failure in multi-hop retrieval using score-distributional confidence scoring and abstention, and another proposed a lie-detector test that reads knowledge a model will not reveal.",
+          "citations": [4, 5]
+        },
+        {
+          "text": "On GitHub, friday-memory/friday pitched a persistent cognitive memory layer for coding agents.",
+          "citations": [6]
+        }
+      ],
+      "whyItMatters": "As agents take more actions in parallel, the scarce asset is proof of what each one did — the same problem typed decision layers answer, and the same problem enterprises must solve before agentic AI becomes infrastructure.",
+      "editorNote": "Tool capabilities are taken from project descriptions and were not tested; the arXiv papers are cited at the abstract level.",
+      "cluster": [
+        {
+          "url": "https://github.com/kate8382/AURA",
+          "source": "Hacker News",
+          "title": "Show HN: AURA – Open-source behavioral threat detection for LLMs"
+        },
+        {
+          "url": "https://github.com/awss1i/assay",
+          "source": "Hacker News",
+          "title": "Assay – Open-source mechanical checker for web pages, no tests, no LLM"
+        },
+        {
+          "url": "https://github.com/Continuum-AI-Corp/OrcaPromptVault",
+          "source": "GitHub",
+          "title": "Continuum-AI-Corp/OrcaPromptVault: The open archive of how AI agents actually work"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://github.com/naw103/foremerge",
+          "source": "Hacker News",
+          "title": "Show HN: Foremerge – Catch intent conflicts between parallel coding agents",
+          "publishedAt": "2026-09-21T16:22:06Z"
+        },
+        {
+          "id": 2,
+          "url": "https://github.com/kate8382/AURA",
+          "source": "Hacker News",
+          "title": "Show HN: AURA – Open-source behavioral threat detection for LLMs",
+          "publishedAt": "2026-09-21T17:05:42Z"
+        },
+        {
+          "id": 3,
+          "url": "https://github.com/SamarthUrs18/fusion-runtime",
+          "source": "Hacker News",
+          "title": "Show HN: Fusion-runtime – self-hosted voice agents, STT+LLM+TTS in one process",
+          "publishedAt": "2026-09-21T16:19:54Z"
+        },
+        {
+          "id": 4,
+          "url": "http://arxiv.org/abs/2609.22056v1",
+          "source": "arXiv",
+          "title": "Predictable Failure in Multi-Hop Retrieval: Score-Distributional Confidence Scoring and Abstention",
+          "publishedAt": "2026-09-18T17:48:15Z"
         },
         {
           "id": 5,
@@ -245,141 +357,175 @@
         },
         {
           "id": 6,
-          "url": "http://arxiv.org/abs/2609.22056v1",
-          "source": "arXiv",
-          "title": "Predictable Failure in Multi-Hop Retrieval: Score-Distributional Confidence Scoring and Abstention",
-          "publishedAt": "2026-09-18T17:48:15Z"
+          "url": "https://github.com/friday-memory/friday",
+          "source": "GitHub",
+          "title": "friday-memory/friday: The open-source persistent cognitive memory layer for AI coding agents.",
+          "publishedAt": "2026-09-16T15:53:02Z"
         }
       ],
-      "tags": ["agents", "verification", "grounding", "evaluation"],
+      "tags": ["agents", "verification", "tooling", "grounding"],
       "confidence": "medium"
     },
     {
-      "slug": "local-inference-open-weights-momentum",
-      "headline": "Local-inference reports put Qwen 3.8 27B on a single RTX 3090",
-      "dek": "Community threads tested open-weight models on single-GPU and small-board hardware, with claims posed as questions rather than benchmarks.",
-      "type": "BRIEF",
+      "slug": "arxiv-abstention-routing-reliability",
+      "headline": "Abstention and Noise Filtering: Two Missing Primitives of Softmax Attention",
+      "dek": "A batch of arXiv papers treated abstention, calibration and routing as first-class model capabilities.",
+      "type": "DATA",
       "readMinutes": 3,
       "tldr": [
-        "An r/LocalLLaMA thread described running Qwen 3.8 27B on one RTX 3090 for three weeks, and another asked for a verdict on Ternary Bonsai 2 27B.",
-        "Hardware threads focused on current GPU VRAM sweet spots and on a hypothetical $1k Taalas chip for Qwen3.8-27B at 7,000 tokens per second.",
-        "On Hacker News, a thread asked who had tried the Jetson Orin Nano Super."
+        "One arXiv paper argued that abstention and noise filtering are two missing primitives of softmax attention.",
+        "A second proposed an interpretable memory decision controller for LLM agents based on three-signal complementarity, decoupling confidence and consistency.",
+        "Two more addressed reliability: RACER for role-aligned competence estimation in human-AI routing, and 'Available Guardrails' for certifying selective prediction."
       ],
       "body": [
         {
-          "text": "Community reports continued to probe how much open-weight capability fits on consumer hardware. One r/LocalLLaMA thread described running Qwen 3.8 27B on a single RTX 3090 for three weeks, and another asked for a verdict on Ternary Bonsai 2 27B.",
-          "citations": [1, 2]
-        },
-        {
-          "text": "Hardware talk centered on VRAM sweet spots and on a hypothetical $1,000 Taalas chip that could run Qwen3.8-27B at 7,000 tokens per second — posed as a question, not a measured result.",
-          "citations": [3, 4]
-        },
-        {
-          "text": "On Hacker News, a thread asked whether anyone had played with the Jetson Orin Nano Super.",
-          "citations": [5]
-        }
-      ],
-      "whyItMatters": "Every credible single-GPU result raises the floor for what can run outside a data center, which changes inference economics and, over time, demand for the memory and accelerator supply that markets watch. The claims here are community reports and hypotheticals, not independent benchmarks.",
-      "editorNote": "Community claims and a hypothetical product scenario; no throughput measurements were independently verified. Included as a signal of interest, not a performance finding.",
-      "cluster": [
-        {
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wm1gab/miniagi_dynamically_grown_530m_params_currently/",
-          "source": "Reddit r/LocalLLaMA",
-          "title": "mini-AGI — dynamically grown 530M params continual learning model"
-        },
-        {
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlt577/speedup_kimi_k328t_on_a_16x_gb10_cluster_30_ts/",
-          "source": "Reddit r/LocalLLaMA",
-          "title": "Speed-up Kimi K3 (2.8T) on a 16x GB10 Cluster"
-        }
-      ],
-      "sources": [
-        {
-          "id": 1,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wloora/the_bear_can_dance_qwen_38_27b_on_one_3090_for_3/",
-          "source": "Reddit r/LocalLLaMA",
-          "title": "The bear can dance: Qwen 3.8 27B on one 3090 for 3 weeks",
-          "publishedAt": "2026-09-20T18:26:30.000Z"
-        },
-        {
-          "id": 2,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wm3yvy/whats_the_verdict_on_ternary_bonsai_2_27b/",
-          "source": "Reddit r/LocalLLaMA",
-          "title": "What's the verdict on Ternary Bonsai 2 27B?",
-          "publishedAt": "2026-09-21T05:38:29.000Z"
-        },
-        {
-          "id": 3,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wm2umu/where_are_the_current_gpu_vram_sweet_spots/",
-          "source": "Reddit r/LocalLLaMA",
-          "title": "Where are the current GPU VRAM sweet spots?",
-          "publishedAt": "2026-09-21T04:38:38.000Z"
-        },
-        {
-          "id": 4,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wltts7/would_you_buy_a_qwen3827b_taalas_chip_for_1k_if/",
-          "source": "Reddit r/LocalLLaMA",
-          "title": "Would you buy a Qwen3.8-27B Taalas chip for $1k if it could run at 7,000 TPS?",
-          "publishedAt": "2026-09-20T21:41:37.000Z"
-        },
-        {
-          "id": 5,
-          "url": "https://news.ycombinator.com/item?id=49781756",
-          "source": "Hacker News",
-          "title": "Ask HN: Anyone Played with Jetson Orin Nano Super?",
-          "publishedAt": "2026-09-21T00:51:37Z"
-        }
-      ],
-      "tags": ["local-llm", "qwen", "hardware", "open-weights"],
-      "confidence": "low"
-    },
-    {
-      "slug": "ai-memory-supply-cxmt-korea-exports",
-      "headline": "CXMT says a new memory-chip platform entered mass production as Korean semiconductor exports hit a record",
-      "dek": "Two supply-side data points put memory capacity at the center of the AI buildout.",
-      "type": "BRIEF",
-      "readMinutes": 3,
-      "tldr": [
-        "China's CXMT said a new memory-chip platform entered mass production, per a thread on r/LocalLLaMA.",
-        "South Korea's semiconductor exports hit a fresh record high in September, Investing.com reported.",
-        "Both data points land as AI infrastructure spending keeps memory demand in focus."
-      ],
-      "body": [
-        {
-          "text": "China's CXMT said a new memory-chip platform entered mass production, according to a thread on r/LocalLLaMA.",
+          "text": "One arXiv paper argued that abstention and noise filtering are two missing primitives of softmax attention.",
           "citations": [1]
         },
         {
-          "text": "Separately, South Korea's semiconductor exports hit a fresh record high in September, Investing.com reported.",
+          "text": "A second proposed an interpretable memory decision controller for LLM agents based on three-signal complementarity, decoupling confidence and consistency.",
           "citations": [2]
+        },
+        {
+          "text": "Two more addressed reliability: RACER, a role-aligned competence estimator for human-AI routing, and 'Available Guardrails', which certifies selective prediction across ML systems.",
+          "citations": [3, 4]
+        },
+        {
+          "text": "On Hacker News, a Show HN said an attention kernel (MoA) was proven minimal before the code was written.",
+          "citations": [5]
         }
       ],
-      "whyItMatters": "Memory bandwidth and capacity are the practical constraint on AI training and inference, so supply shifts in China and Korea feed directly into accelerator economics and the capex debate that markets are already trading. The CXMT claim is attributed to a community thread and was not independently confirmed.",
-      "editorNote": "The CXMT item comes from a community thread relaying a company claim; the Korea export figure is a report, not a primary release. Both are labeled accordingly.",
+      "whyItMatters": "Abstention, calibration and routing are becoming first-class research primitives, which is what turns raw model capability into deployable reliability.",
+      "editorNote": "All arXiv items are cited at the abstract level and were not peer-reviewed here; the MoA minimality claim is from its authors.",
       "cluster": [
         {
-          "url": "https://seekingalpha.com/news/4644661-am-markets-need-to-know-greenland-stocks-surge-ai-capex-and-more?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-          "source": "Seeking Alpha",
-          "title": "AM Markets Need to Know: Greenland stocks surge, AI capex, and more"
+          "url": "http://arxiv.org/abs/2609.22056v1",
+          "source": "arXiv",
+          "title": "Predictable Failure in Multi-Hop Retrieval: Score-Distributional Confidence Scoring and Abstention"
+        },
+        {
+          "url": "http://arxiv.org/abs/2609.21996v1",
+          "source": "arXiv",
+          "title": "A Lie Detector Test for Language Models: Reading Knowledge a Model Won't Reveal"
         }
       ],
       "sources": [
         {
           "id": 1,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl9c2o/chinas_cxmt_says_new_memorychip_platform_enters/",
-          "source": "Reddit r/LocalLLaMA",
-          "title": "China's CXMT says new memory-chip platform enters mass production",
-          "publishedAt": "2026-09-20T06:29:42.000Z"
+          "url": "http://arxiv.org/abs/2609.22005v1",
+          "source": "arXiv",
+          "title": "Abstention and Noise Filtering: Two Missing Primitives of Softmax Attention",
+          "publishedAt": "2026-09-18T17:03:58Z"
         },
         {
           "id": 2,
-          "url": "https://www.investing.com/news/stock-market-news/south-korea-semiconductor-exports-hit-fresh-record-high-in-september--report-93CH-4908506",
-          "source": "Investing.com",
-          "title": "South Korea semiconductor exports hit fresh record high in September - report",
-          "publishedAt": "2026-09-21T00:52:17.000Z"
+          "url": "http://arxiv.org/abs/2609.22043v1",
+          "source": "arXiv",
+          "title": "An Interpretable Memory Decision Controller for LLM Agents Based on Three-Signal Complementarity: Decoupling Confidence and Consistency",
+          "publishedAt": "2026-09-18T17:34:13Z"
+        },
+        {
+          "id": 3,
+          "url": "http://arxiv.org/abs/2609.21953v1",
+          "source": "arXiv",
+          "title": "RACER: Role-Aligned Competence Estimation for Human-AI Routing",
+          "publishedAt": "2026-09-18T16:11:05Z"
+        },
+        {
+          "id": 4,
+          "url": "http://arxiv.org/abs/2609.22048v1",
+          "source": "arXiv",
+          "title": "Available Guardrails: Certifying Selective Prediction across ML Systems",
+          "publishedAt": "2026-09-18T17:36:52Z"
+        },
+        {
+          "id": 5,
+          "url": "https://github.com/womenflyplanes/moa-attention-verified-mullin",
+          "source": "Hacker News",
+          "title": "Show HN: MoA – Attention kernel proven minimal before code was written",
+          "publishedAt": "2026-09-21T20:57:35Z"
         }
       ],
-      "tags": ["memory", "supply-chain", "cxmt", "semiconductors"],
+      "tags": ["arxiv", "calibration", "abstention", "reliability"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "coding-agent-meta-tooling",
+      "headline": "Show HN: Gitstats - your coding stats, private and work repos, no GitHub token",
+      "dek": "A meta-tool layer of usage limits, prompt archives and regression detectors is forming around coding agents.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "A Show HN introduced Gitstats, which reports coding stats across private and work repos without a GitHub token.",
+        "UsageBar puts Claude Code and Codex rate limits in the macOS menu bar, and Sommelier is an Excel add-in for an agent.",
+        "On GitHub, is-gpt-nerfed bills itself as a shrinkflation detector for Codex, and OrcaPromptVault archives system prompts and agent harnesses."
+      ],
+      "body": [
+        {
+          "text": "A Show HN introduced Gitstats, which reports coding stats across private and work repos without a GitHub token.",
+          "citations": [1]
+        },
+        {
+          "text": "Two smaller tools addressed the operational side of coding agents: UsageBar puts Claude Code and Codex rate limits in the macOS menu bar, and Sommelier is an Excel add-in for an agent.",
+          "citations": [2, 3]
+        },
+        {
+          "text": "On GitHub, is-gpt-nerfed bills itself as a shrinkflation detector for Codex, and OrcaPromptVault collects system prompts, tool schemas and agent harnesses into a versioned archive.",
+          "citations": [4, 5]
+        }
+      ],
+      "whyItMatters": "As coding agents multiply, a meta-tool layer — usage limits, prompt archives, regression detectors — is forming around them, which is where trust and cost control get decided.",
+      "editorNote": "All items are self-described project pages and Show HN posts; no tool was tested.",
+      "cluster": [
+        {
+          "url": "https://sommelier.grokked.it",
+          "source": "Hacker News",
+          "title": "Show HN: Sommelier, an Excel Addin for your agent"
+        },
+        {
+          "url": "https://github.com/kiyoakii/is-gpt-nerfed",
+          "source": "GitHub",
+          "title": "kiyoakii/is-gpt-nerfed: Shrinkflation detector for Codex"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://gitstats.org",
+          "source": "Hacker News",
+          "title": "Show HN: Gitstats - your coding stats, private and work repos, no GitHub token",
+          "publishedAt": "2026-09-21T17:56:58Z"
+        },
+        {
+          "id": 2,
+          "url": "https://github.com/idark7/UsageBar",
+          "source": "Hacker News",
+          "title": "UsageBar – Claude Code and Codex rate limits in the macOS menu bar",
+          "publishedAt": "2026-09-21T13:41:11Z"
+        },
+        {
+          "id": 3,
+          "url": "https://sommelier.grokked.it",
+          "source": "Hacker News",
+          "title": "Show HN: Sommelier, an Excel Addin for your agent",
+          "publishedAt": "2026-09-21T17:15:06Z"
+        },
+        {
+          "id": 4,
+          "url": "https://github.com/kiyoakii/is-gpt-nerfed",
+          "source": "GitHub",
+          "title": "kiyoakii/is-gpt-nerfed: Shrinkflation detector for Codex",
+          "publishedAt": "2026-09-15T10:22:16Z"
+        },
+        {
+          "id": 5,
+          "url": "https://github.com/Continuum-AI-Corp/OrcaPromptVault",
+          "source": "GitHub",
+          "title": "Continuum-AI-Corp/OrcaPromptVault: The open archive of how AI agents actually work",
+          "publishedAt": "2026-09-15T11:03:31Z"
+        }
+      ],
+      "tags": ["developer-tools", "coding-agents", "observability", "prompts"],
       "confidence": "low"
     }
   ]
