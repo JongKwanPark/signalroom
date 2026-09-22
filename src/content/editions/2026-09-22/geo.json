@@ -1,9 +1,9 @@
 {
   "date": "2026-09-22",
-  "generatedAt": "2026-09-22T10:46:30.000Z",
+  "generatedAt": "2026-09-22T22:05:00.000Z",
   "vertical": "geo",
-  "title": "Geo: G7 pressure on the Houthis, a UN warning on US boat strikes and Typhoon Dujuan",
-  "summary": "Diplomacy led the day as the G7 pressed the Houthis and leaders gathered for the UN General Assembly, where a UN expert said US strikes on alleged drug boats may constitute crimes against humanity. Severe weather killed at least four in Japan as Typhoon Dujuan lashed the country, and a school shooting wounded eleven in Turkiye. British Columbia sued OpenAI over the Tumbler Ridge shooting, Germany's coalition and Berlin's election results drew competing readings, and Russian strikes killed three in Ukraine as Zelenskyy travelled to the UN. GDELT and ISW failed and ReliefWeb returned nothing, so this edition rests entirely on the wire feeds.",
+  "title": "Geo: Trump's UN warning on Iran, G7 pressure on the Houthis and Typhoon Dujuan",
+  "summary": "Diplomacy led the day as the G7 pressed the Houthis and leaders gathered for the UN General Assembly, where a UN expert said US strikes on alleged drug boats may constitute crimes against humanity. Severe weather killed at least four in Japan as Typhoon Dujuan lashed the country, and a school shooting wounded eleven in Turkiye. British Columbia sued OpenAI over the Tumbler Ridge shooting, Germany's coalition and Berlin's election results drew competing readings, and Russian strikes killed three in Ukraine as Zelenskyy travelled to the UN. GDELT and ISW failed and ReliefWeb returned nothing, so this edition rests entirely on the wire feeds. A second collection pass on the same UTC day added Trump's UN address on Iran, in which he said he had a ‘big decision’ on whether to ‘annihilate’ Iran or make a peace deal and called a US-Iran meeting ‘very good’.",
   "stories": [
     {
       "slug": "g7-houthis-yemen-unga",
@@ -19,15 +19,21 @@
       "body": [
         {
           "text": "The G7 said Iran must stop arming the Houthis in Yemen, issuing the demand ahead of the UN General Assembly.",
-          "citations": [1]
+          "citations": [
+            1
+          ]
         },
         {
           "text": "DW reported the same push, saying the G7 demanded the Houthis 'immediately' cease strikes.",
-          "citations": [2]
+          "citations": [
+            2
+          ]
         },
         {
           "text": "The pressure came against a longer-running question of how powerful the Houthis have become after years of conflict, which analysts have been reassessing.",
-          "citations": [3]
+          "citations": [
+            3
+          ]
         }
       ],
       "whyItMatters": "Yemen is where the Iran file, Red Sea shipping risk and the UN's authority all intersect, so G7 language ahead of UNGA is a signal of how far members will go beyond statements.",
@@ -67,7 +73,12 @@
           "publishedAt": "2026-09-18T19:22:00.000Z"
         }
       ],
-      "tags": ["yemen", "houthis", "g7", "unga"],
+      "tags": [
+        "yemen",
+        "houthis",
+        "g7",
+        "unga"
+      ],
       "confidence": "medium"
     },
     {
@@ -84,15 +95,21 @@
       "body": [
         {
           "text": "Al Jazeera explained why the United Nations says US boat strikes may be 'crimes against humanity', unpacking the legal reasoning behind the charge.",
-          "citations": [1]
+          "citations": [
+            1
+          ]
         },
         {
           "text": "The Guardian separately reported that US strikes on alleged drug boats may constitute crimes against humanity, attributing the assessment to a UN expert.",
-          "citations": [2]
+          "citations": [
+            2
+          ]
         },
         {
           "text": "The legal warning arrived as leaders gathered for the UN General Assembly, where criticism of unilateral US action was already in the air.",
-          "citations": [3]
+          "citations": [
+            3
+          ]
         }
       ],
       "whyItMatters": "If a UN body treats lethal strikes on suspected drug boats as possible crimes against humanity, it raises the legal stakes for a tactic presented as counternarcotics enforcement.",
@@ -132,7 +149,12 @@
           "publishedAt": "2026-09-22T07:42:37.000Z"
         }
       ],
-      "tags": ["united-nations", "us-policy", "international-law", "unga"],
+      "tags": [
+        "united-nations",
+        "us-policy",
+        "international-law",
+        "unga"
+      ],
       "confidence": "medium"
     },
     {
@@ -149,15 +171,21 @@
       "body": [
         {
           "text": "BBC reported four dead after powerful Typhoon Dujuan lashed Japan, describing heavy rain and disruption across the country.",
-          "citations": [1]
+          "citations": [
+            1
+          ]
         },
         {
           "text": "The Guardian said at least four people were killed as Dujuan triggered heavy rain and landslides, with millions told to evacuate in and around Tokyo.",
-          "citations": [2]
+          "citations": [
+            2
+          ]
         },
         {
           "text": "A day earlier, coverage had noted Japanese islands bracing for Dujuan to become a typhoon again as it approached.",
-          "citations": [3]
+          "citations": [
+            3
+          ]
         }
       ],
       "whyItMatters": "A single typhoon reaching populated areas can displace millions and stress infrastructure, which is why evacuation timing and warnings matter as much as the storm's peak intensity.",
@@ -197,7 +225,12 @@
           "publishedAt": "2026-09-21T09:45:49.000Z"
         }
       ],
-      "tags": ["japan", "typhoon", "disaster", "evacuation"],
+      "tags": [
+        "japan",
+        "typhoon",
+        "disaster",
+        "evacuation"
+      ],
       "confidence": "high"
     },
     {
@@ -214,11 +247,15 @@
       "body": [
         {
           "text": "BBC reported eleven injured in a shooting outside a Turkish school.",
-          "citations": [1]
+          "citations": [
+            1
+          ]
         },
         {
           "text": "Al Jazeera reported that a gunman opened fire near a high school in western Turkiye, wounding eight.",
-          "citations": [2]
+          "citations": [
+            2
+          ]
         }
       ],
       "whyItMatters": "The differing casualty counts are a reminder that early wire reports on breaking violence often disagree before authorities confirm figures.",
@@ -251,7 +288,11 @@
           "publishedAt": "2026-09-22T09:04:13.000Z"
         }
       ],
-      "tags": ["turkiye", "shooting", "breaking-news"],
+      "tags": [
+        "turkiye",
+        "shooting",
+        "breaking-news"
+      ],
       "confidence": "low"
     },
     {
@@ -268,11 +309,15 @@
       "body": [
         {
           "text": "BBC reported that a Canadian province sued OpenAI over the Tumbler Ridge school shooting.",
-          "citations": [1]
+          "citations": [
+            1
+          ]
         },
         {
           "text": "The Guardian said British Columbia is suing OpenAI and Sam Altman over the Tumbler Ridge mass school shooting, naming the company's chief executive as a defendant and framing the case as a test of platform liability.",
-          "citations": [2]
+          "citations": [
+            2
+          ]
         }
       ],
       "whyItMatters": "A provincial government suing a frontier AI company over a mass shooting opens a new front in the debate over whether model providers bear responsibility for downstream harm.",
@@ -305,7 +350,12 @@
           "publishedAt": "2026-09-22T04:29:22.000Z"
         }
       ],
-      "tags": ["ai-liability", "openai", "canada", "litigation"],
+      "tags": [
+        "ai-liability",
+        "openai",
+        "canada",
+        "litigation"
+      ],
       "confidence": "medium"
     },
     {
@@ -322,11 +372,15 @@
       "body": [
         {
           "text": "BBC reported that Chancellor Merz vowed to keep his coalition together for Germany's 'democratic future'.",
-          "citations": [1]
+          "citations": [
+            1
+          ]
         },
         {
           "text": "Al Jazeera reported hope rising in Berlin immigrant communities as the Left won amid gains for the AfD.",
-          "citations": [2]
+          "citations": [
+            2
+          ]
         }
       ],
       "whyItMatters": "A coalition defending its stability while the far right gains in a major city shows the centripetal and centrifugal pressures acting on German politics at once.",
@@ -359,7 +413,12 @@
           "publishedAt": "2026-09-22T07:33:24.000Z"
         }
       ],
-      "tags": ["germany", "politics", "afd", "coalition"],
+      "tags": [
+        "germany",
+        "politics",
+        "afd",
+        "coalition"
+      ],
       "confidence": "medium"
     },
     {
@@ -376,11 +435,15 @@
       "body": [
         {
           "text": "Al Jazeera reported that Russian strikes on Ukraine killed three people as Zelenskyy was in the United States for a UN summit.",
-          "citations": [1]
+          "citations": [
+            1
+          ]
         },
         {
           "text": "DW reported that Ukraine is stepping up measures to protect its railways, a key part of wartime logistics.",
-          "citations": [2]
+          "citations": [
+            2
+          ]
         }
       ],
       "whyItMatters": "Strikes and rail-protection measures underline that military logistics and civilian risk keep moving even while Ukraine's leadership works the diplomatic circuit at the UN.",
@@ -413,7 +476,102 @@
           "publishedAt": "2026-09-19T15:37:00.000Z"
         }
       ],
-      "tags": ["ukraine", "russia", "war", "unga"],
+      "tags": [
+        "ukraine",
+        "russia",
+        "war",
+        "unga"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "trump-unga-iran-decision",
+      "headline": "Trump tells UN he has 'big decision' on whether to 'annihilate' Iran or make peace deal",
+      "dek": "Trump framed his Iran choice between annihilation and a peace deal as he met Iranian counterparts at the UN.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "BBC reported that Trump told the UN he has a 'big decision' on whether to 'annihilate' Iran or make a peace deal.",
+        "Al Jazeera reported Trump described the US-Iran meeting at the UN as 'very good'.",
+        "The Guardian called the threat to annihilate Iran stunning even for him, while DW described an Iran war spreading through the region as Trump sought a way out."
+      ],
+      "body": [
+        {
+          "text": "Trump told the UN he faces a 'big decision' on whether to 'annihilate' Iran or make a peace deal, the BBC reported.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Al Jazeera reported that Trump said the US-Iran meeting at the UN was 'very good'.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "The Guardian described Trump's threat to annihilate Iran to the UN General Assembly as stunning even for him.",
+          "citations": [
+            3
+          ]
+        },
+        {
+          "text": "DW reported that the Iran war was spreading through the region as Trump sought a way out.",
+          "citations": [
+            4
+          ]
+        }
+      ],
+      "whyItMatters": "Trump framing an Iran decision as annihilation-or-deal is the day's clearest signal on where Washington may take the confrontation, and it sits behind the energy risk premium markets were repricing as Brent slipped below $100.",
+      "editorNote": "Wire reports of a speech and a meeting, not a policy decision; no outcome or agreement was reported at the time of collection.",
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/us-news/2026/sep/22/donald-trump-unga-speech",
+          "source": "The Guardian",
+          "title": "Trump’s threat to annihilate Iran to UN general assembly is stunning, even for him"
+        },
+        {
+          "url": "https://www.dw.com/en/iran-war-spreads-through-region-as-trump-seeks-way-out/a-79370506?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Iran war spreads through region as Trump seeks way out"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c52e0ywl9pr7o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Trump tells UN he has 'big decision' on whether to 'annihilate' Iran or make peace deal",
+          "publishedAt": "2026-09-22T21:50:31.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/22/trump-us-iran-meeting-at-un-was-very?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Trump: US-Iran meeting at UN was ‘very good’",
+          "publishedAt": "2026-09-22T20:23:48.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.theguardian.com/us-news/2026/sep/22/donald-trump-unga-speech",
+          "source": "The Guardian",
+          "title": "Trump’s threat to annihilate Iran to UN general assembly is stunning, even for him",
+          "publishedAt": "2026-09-22T18:23:08.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://www.dw.com/en/iran-war-spreads-through-region-as-trump-seeks-way-out/a-79370506?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Iran war spreads through region as Trump seeks way out",
+          "publishedAt": "2026-09-22T11:29:00.000Z"
+        }
+      ],
+      "tags": [
+        "iran",
+        "united-nations",
+        "unga",
+        "trump",
+        "diplomacy"
+      ],
       "confidence": "medium"
     }
   ]

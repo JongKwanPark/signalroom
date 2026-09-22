@@ -1,9 +1,9 @@
 {
   "date": "2026-09-22",
-  "generatedAt": "2026-09-22T10:46:30.000Z",
+  "generatedAt": "2026-09-22T22:05:00.000Z",
   "vertical": "markets",
-  "title": "Markets: Meta's AI-assisted rally, AI debt scrutiny and an oil market pulled by diplomacy",
-  "summary": "Meta dominated sentiment as its Muse AI assistant drove the stock to its best month in 13 years, while the same AI theme drew scrutiny: corporate bond buyers grew pickier about a flood of AI debt and retail threads fixated on OpenAI's projected cash burn. Alibaba unveiled a new AI chip, oil prices reversed as UN General Assembly diplomacy raised hopes on Iran, a global diesel shortage was projected to last into 2027, Treasury yields eased ahead of jobs data, and Bitcoin hit an eight-month high. Polymarket, SEC EDGAR and market-data quotes failed, FRED was skipped without a key, and the vertical rested on Reddit plus the wire feeds.",
+  "title": "Markets: A diesel squeeze, a Trump-Xi dinner and Meta's AI-assisted rally",
+  "summary": "Meta dominated sentiment as its Muse AI assistant drove the stock to its best month in 13 years, while the same AI theme drew scrutiny: corporate bond buyers grew pickier about a flood of AI debt and retail threads fixated on OpenAI's projected cash burn. Alibaba unveiled a new AI chip, oil prices reversed as UN General Assembly diplomacy raised hopes on Iran, a global diesel shortage was projected to last into 2027, Treasury yields eased ahead of jobs data, and Bitcoin hit an eight-month high. Polymarket, SEC EDGAR and market-data quotes failed, FRED was skipped without a key, and the vertical rested on Reddit plus the wire feeds. A second collection pass on the same UTC day added a refined-products squeeze, as jet fuel followed diesel higher and the Treasury said it was examining whether a diesel export ban is feasible, and a state dinner for China's Xi that was drawing technology and pharmaceutical chief executives.",
   "stories": [
     {
       "slug": "meta-muse-ai-stock-rally",
@@ -19,19 +19,29 @@
       "body": [
         {
           "text": "CNBC reported that Meta's Muse AI agent downloads are surging, comparing its traction with ChatGPT, Grok and Claude.",
-          "citations": [1]
+          "citations": [
+            1
+          ]
         },
         {
           "text": "MarketWatch framed the same product as the driver of Meta's best month in 13 years for the stock.",
-          "citations": [2]
+          "citations": [
+            2
+          ]
         },
         {
           "text": "Yahoo Finance reported that Muse really just added billions to Meta's market cap and to Mark Zuckerberg's net worth, tying the assistant directly to the equity move.",
-          "citations": [3]
+          "citations": [
+            3
+          ]
         },
         {
           "text": "Retail sentiment on r/wallstreetbets tracked the move, with threads asking what changed after Meta jumped from around 550 to 740 in a month and posts both celebrating and betting against it.",
-          "citations": [4, 5, 6]
+          "citations": [
+            4,
+            5,
+            6
+          ]
         }
       ],
       "whyItMatters": "When a single product release can move a mega-cap by billions, the AI assistant race stops being a technology story and becomes a valuation input that retail and institutions both trade on.",
@@ -92,7 +102,12 @@
           "publishedAt": "2026-09-22T06:20:44.000Z"
         }
       ],
-      "tags": ["meta", "ai-assistants", "equities", "sentiment"],
+      "tags": [
+        "meta",
+        "ai-assistants",
+        "equities",
+        "sentiment"
+      ],
       "confidence": "medium"
     },
     {
@@ -109,15 +124,22 @@
       "body": [
         {
           "text": "Yahoo Finance reported that corporate bond buyers are getting picky with a flood of AI debt, a sign that financiers are starting to price the risk in the buildout.",
-          "citations": [1]
+          "citations": [
+            1
+          ]
         },
         {
           "text": "CNBC said stocks had a great day on the surface but something alarming occurred that had not been seen since 1999, pointing at concentration or positioning under the rally.",
-          "citations": [2]
+          "citations": [
+            2
+          ]
         },
         {
           "text": "An r/investing post highlighted that 69% of big US companies now earn less than a 10-year Treasury pays, while an r/wallstreetbets post cited OpenAI projections of a cash burn exceeding the national budgets of Indonesia and Norway through 2030.",
-          "citations": [3, 4]
+          "citations": [
+            3,
+            4
+          ]
         }
       ],
       "whyItMatters": "If debt markets start discriminating among AI borrowers while equity indexes keep concentrating, the funding that underwrites the buildout becomes the place where the cycle is first tested.",
@@ -164,7 +186,12 @@
           "publishedAt": "2026-09-21T15:28:26.000Z"
         }
       ],
-      "tags": ["ai-capex", "credit", "concentration", "bonds"],
+      "tags": [
+        "ai-capex",
+        "credit",
+        "concentration",
+        "bonds"
+      ],
       "confidence": "low"
     },
     {
@@ -181,15 +208,23 @@
       "body": [
         {
           "text": "CNBC reported oil prices reversing gains as the UN General Assembly meeting lifted hopes for Iran war diplomacy.",
-          "citations": [1]
+          "citations": [
+            1
+          ]
         },
         {
           "text": "Iran reportedly said it can reopen the Strait of Hormuz within seven days if the US eases military pressure, and Trump was set to press Zelenskyy for an energy truce, saying Russia has lost control of oil because of the Ukraine war.",
-          "citations": [2, 3]
+          "citations": [
+            2,
+            3
+          ]
         },
         {
           "text": "Yahoo Finance reported a global diesel shortage from the Iran and Ukraine wars projected to last into 2027, while an r/investing thread noted spot oil approaching new highs.",
-          "citations": [4, 5]
+          "citations": [
+            4,
+            5
+          ]
         }
       ],
       "whyItMatters": "Crude is pricing two things at once — the risk of a wider Iran conflict and the possibility that diplomacy unlocks supply — and the diesel market is where the physical strain shows up first.",
@@ -243,7 +278,12 @@
           "publishedAt": "2026-09-21T11:04:37.000Z"
         }
       ],
-      "tags": ["oil", "iran", "energy", "commodities"],
+      "tags": [
+        "oil",
+        "iran",
+        "energy",
+        "commodities"
+      ],
       "confidence": "medium"
     },
     {
@@ -260,11 +300,15 @@
       "body": [
         {
           "text": "CNBC reported that Alibaba shares jumped as the company unveiled a new AI chip and data center buildout plans.",
-          "citations": [1]
+          "citations": [
+            1
+          ]
         },
         {
           "text": "Investing.com reported Alibaba unveiling the new AI chip and calling it China's most powerful, with shares gaining on the news.",
-          "citations": [2]
+          "citations": [
+            2
+          ]
         }
       ],
       "whyItMatters": "A domestic AI chip plus capacity buildout is Alibaba positioning itself for Chinese AI workloads that advanced US chips may not reach, which matters for the wider compute map.",
@@ -297,7 +341,12 @@
           "publishedAt": "2026-09-22T01:31:10.000Z"
         }
       ],
-      "tags": ["alibaba", "ai-chips", "china", "data-centers"],
+      "tags": [
+        "alibaba",
+        "ai-chips",
+        "china",
+        "data-centers"
+      ],
       "confidence": "medium"
     },
     {
@@ -314,15 +363,22 @@
       "body": [
         {
           "text": "CNBC reported that US Treasury yields eased as investors awaited fresh jobs data and Fed comments.",
-          "citations": [1]
+          "citations": [
+            1
+          ]
         },
         {
           "text": "MarketWatch described a machine-learning model, quoted at 65% accuracy, that says what is coming next for the 10-year Treasury yield.",
-          "citations": [2]
+          "citations": [
+            2
+          ]
         },
         {
           "text": "Yahoo Finance reported mortgage and refinance rates moving lower but the 30-year still over 7%, and quoted the best CD rates at up to 4.40% APY.",
-          "citations": [3, 4]
+          "citations": [
+            3,
+            4
+          ]
         }
       ],
       "whyItMatters": "The 10-year yield anchors mortgages, savings and equity valuations, so the gap between falling yields and still-high borrowing costs is the number households actually feel.",
@@ -369,7 +425,12 @@
           "publishedAt": "2026-09-22T10:00:00.000Z"
         }
       ],
-      "tags": ["treasuries", "rates", "mortgages", "fed"],
+      "tags": [
+        "treasuries",
+        "rates",
+        "mortgages",
+        "fed"
+      ],
       "confidence": "medium"
     },
     {
@@ -386,11 +447,16 @@
       "body": [
         {
           "text": "MarketWatch reported Bitcoin hitting an eight-month high and framed the move as a clear message about risk appetite at the moment.",
-          "citations": [1]
+          "citations": [
+            1
+          ]
         },
         {
           "text": "An r/investing thread asked what the long-term investment case for Bitcoin is today, and a separate thread discussed a State Street Galaxy Digital asset-ecosystem ETF.",
-          "citations": [2, 3]
+          "citations": [
+            2,
+            3
+          ]
         }
       ],
       "whyItMatters": "Bitcoin's move is often read as a barometer for speculative appetite, so a multi-month high says something about how much risk investors are willing to hold.",
@@ -430,8 +496,153 @@
           "publishedAt": "2026-09-20T00:36:25.000Z"
         }
       ],
-      "tags": ["bitcoin", "crypto", "risk-appetite"],
+      "tags": [
+        "bitcoin",
+        "crypto",
+        "risk-appetite"
+      ],
       "confidence": "low"
+    },
+    {
+      "slug": "diesel-jet-fuel-squeeze-export-ban",
+      "headline": "Trump administration is examining whether a diesel export ban is feasible, Treasury Secretary says",
+      "dek": "A Hormuz supply shock pushed jet fuel to follow diesel higher as Washington weighed restricting exports.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "CNBC reported the Trump administration is examining whether a diesel export ban is feasible, according to the Treasury Secretary.",
+        "MarketWatch reported jet fuel is following diesel's price jump as the Hormuz supply shock reaches aviation fuel.",
+        "Investing.com reported oil was on a five-day losing run, with Brent settling below $100 for the first time in two weeks."
+      ],
+      "body": [
+        {
+          "text": "CNBC reported the Trump administration is examining whether a diesel export ban is feasible, citing the Treasury Secretary.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "MarketWatch reported jet fuel is following diesel's price jump as the Hormuz supply shock hits the skies, tying aviation fuel to the same disruption.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "Investing.com reported crude was on a five-day losing run, with Brent settling below $100 for the first time in two weeks.",
+          "citations": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "A refined-products squeeze is where a geopolitical supply shock turns into broad inflation: diesel and jet fuel set transport and freight costs, and any export restriction would extend the disruption well beyond crude prices.",
+      "editorNote": "Wire reports; the export ban is under examination, not decided, and price levels are as reported at collection time.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/09/22/trump-diesel-export-ban-urkaine-russia-iran.html",
+          "source": "CNBC",
+          "title": "Trump administration is examining whether a diesel export ban is feasible, Treasury Secretary says"
+        },
+        {
+          "url": "https://www.marketwatch.com/story/jet-fuel-is-following-diesels-price-jump-as-the-hormuz-supply-shock-hits-the-skies-6fc21238?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Jet fuel is following diesel’s price jump as the Hormuz supply shock hits the skies"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/09/22/trump-diesel-export-ban-urkaine-russia-iran.html",
+          "source": "CNBC",
+          "title": "Trump administration is examining whether a diesel export ban is feasible, Treasury Secretary says",
+          "publishedAt": "2026-09-22T19:59:05.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.marketwatch.com/story/jet-fuel-is-following-diesels-price-jump-as-the-hormuz-supply-shock-hits-the-skies-6fc21238?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Jet fuel is following diesel’s price jump as the Hormuz supply shock hits the skies",
+          "publishedAt": "2026-09-22T19:59:00.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.investing.com/news/commodities-news/oil-edges-higher-as-markets-eye-usiran-talks-saudi-flows-4909809",
+          "source": "Investing.com",
+          "title": "Oil on five-day losing run, Brent settles below $100 for first time in two weeks",
+          "publishedAt": "2026-09-22T12:53:43.000Z"
+        }
+      ],
+      "tags": [
+        "oil",
+        "diesel",
+        "jet-fuel",
+        "energy",
+        "hormuz",
+        "inflation"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "trump-xi-state-dinner-ceos",
+      "headline": "Zuckerberg, Bourla among CEOs to attend Trump’s state dinner for Xi, sources say",
+      "dek": "A state dinner for China's Xi is drawing top technology and pharmaceutical executives.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "Investing.com reported, citing sources, that Zuckerberg and Bourla are among CEOs attending Trump's state dinner for Xi.",
+        "CNBC reported which guests are known to be going to the Trump-Xi dinner so far.",
+        "The guest list puts technology and pharmaceutical chief executives at the center of US-China diplomacy."
+      ],
+      "body": [
+        {
+          "text": "Investing.com reported, citing sources, that Meta's Mark Zuckerberg and Pfizer's Albert Bourla are among CEOs set to attend Trump's state dinner for China's Xi.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "CNBC reported which guests are known so far to be attending the Trump-Xi dinner.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Who attends a US-China state dinner is a read on which industries expect to shape trade and regulatory talks, with chips, AI and pharmaceuticals among the most exposed.",
+      "editorNote": "The guest list is reported by outlets citing sources and is not an official roster; attendance could change.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/09/22/heres-who-we-know-is-going-to-the-trump-xi-dinner-so-far.html",
+          "source": "CNBC",
+          "title": "Here's who we know is going to the Trump-Xi dinner so far"
+        },
+        {
+          "url": "https://www.investing.com/news/stock-market-news/pfizer-ceo-bourla-plans-to-attend-white-house-state-dinner-for-chinas-xi-source-says-4911200",
+          "source": "Investing.com",
+          "title": "Zuckerberg, Bourla among CEOs to attend Trump’s state dinner for Xi, sources say"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.investing.com/news/stock-market-news/pfizer-ceo-bourla-plans-to-attend-white-house-state-dinner-for-chinas-xi-source-says-4911200",
+          "source": "Investing.com",
+          "title": "Zuckerberg, Bourla among CEOs to attend Trump’s state dinner for Xi, sources say",
+          "publishedAt": "2026-09-22T12:48:25.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/09/22/heres-who-we-know-is-going-to-the-trump-xi-dinner-so-far.html",
+          "source": "CNBC",
+          "title": "Here's who we know is going to the Trump-Xi dinner so far",
+          "publishedAt": "2026-09-22T20:07:24.000Z"
+        }
+      ],
+      "tags": [
+        "us-china",
+        "trade",
+        "diplomacy",
+        "ceos"
+      ],
+      "confidence": "medium"
     }
   ]
 }

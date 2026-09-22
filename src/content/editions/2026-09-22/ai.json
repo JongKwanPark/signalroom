@@ -1,9 +1,9 @@
 {
   "date": "2026-09-22",
-  "generatedAt": "2026-09-22T10:46:30.000Z",
+  "generatedAt": "2026-09-22T22:05:00.000Z",
   "vertical": "ai",
   "title": "AI: Jev's new shape, compression-as-modelling and agent-harness research",
-  "summary": "The day's AI set was again dominated by Jev, TypeSafe's typed-decision layer: a Simon Willison explainer, a community calibration thread that favored conventional LLMs, an arXiv evaluation and a video speed-up claim. Separate clusters covered compression-as-modelling experiments, agent harnesses and memory benchmarks on arXiv, the reliability of LLM peer review, fresh open-weight releases from Xiaomi and others, and a thin layer of coding-agent meta-tooling. All collectors for the vertical returned items; YouTube coverage again came only from Two Minute Papers, and most YouTube entries were older back-catalogue uploads.",
+  "summary": "The day's AI set was again dominated by Jev, TypeSafe's typed-decision layer: a Simon Willison explainer, a community calibration thread that favored conventional LLMs, an arXiv evaluation and a video speed-up claim. Separate clusters covered compression-as-modelling experiments, agent harnesses and memory benchmarks on arXiv, the reliability of LLM peer review, fresh open-weight releases from Xiaomi and others, and a thin layer of coding-agent meta-tooling. All collectors for the vertical returned items; YouTube coverage again came only from Two Minute Papers, and most YouTube entries were older back-catalogue uploads. A second collection pass in the same UTC day surfaced no additional multi-source development for this vertical, so no stories were added.",
   "stories": [
     {
       "slug": "jev-new-shape-typed-decisions",
@@ -19,19 +19,28 @@
       "body": [
         {
           "text": "Simon Willison wrote that Jev introduces a new shape of LLM, framing TypeSafe's System One as a typed-decision layer rather than another chat model.",
-          "citations": [1]
+          "citations": [
+            1
+          ]
         },
         {
           "text": "Community measurement was less flattering: an r/MachineLearning thread titled 'Jev's calibration was measured. The LLMs won' reported that calibration results favored the general-purpose LLMs it was compared against.",
-          "citations": [2]
+          "citations": [
+            2
+          ]
         },
         {
           "text": "Independent work continued anyway. An arXiv paper evaluated Jev for scientific decisions and the semantic choices they imply, while a Two Minute Papers episode claimed Jev just made AI 200x faster 'but there's a catch'.",
-          "citations": [3, 4]
+          "citations": [
+            3,
+            4
+          ]
         },
         {
           "text": "Ecosystem posts also argued the interface is general rather than model-specific — one Hacker News submission said you can use any LLM just like JEV.",
-          "citations": [5]
+          "citations": [
+            5
+          ]
         }
       ],
       "whyItMatters": "If typed decision layers spread, the contest shifts from raw model quality toward who calibrates and routes those decisions — a layer the day's evidence shows is still unsettled.",
@@ -90,7 +99,12 @@
           "publishedAt": "2026-09-21T19:03:31Z"
         }
       ],
-      "tags": ["jev", "typesafe", "calibration", "agents"],
+      "tags": [
+        "jev",
+        "typesafe",
+        "calibration",
+        "agents"
+      ],
       "confidence": "medium"
     },
     {
@@ -107,15 +121,23 @@
       "body": [
         {
           "text": "The most-engaged AI item on Hacker News was a post asking whether gzip can be a language model, reviving the compression-as-modelling connection.",
-          "citations": [1]
+          "citations": [
+            1
+          ]
         },
         {
           "text": "Two more Hacker News write-ups pushed the same cost theme: a review of a summer of AI optimization and an argument that a log router does not need a large LLM behind it.",
-          "citations": [2, 3]
+          "citations": [
+            2,
+            3
+          ]
         },
         {
           "text": "On r/MachineLearning, a framework-free prototype learner claimed it lets local LLMs learn and correct facts instantly, reported as 1.6x-4x faster than backprop; a separate project, ProgramAsWeights, proposed compiling English function descriptions into neural programs that run locally.",
-          "citations": [4, 5]
+          "citations": [
+            4,
+            5
+          ]
         }
       ],
       "whyItMatters": "If compression and tiny task-specific programs carry more of the load, the economics of inference move away from ever-larger general models — the same pressure that keeps local-inference work relevant.",
@@ -174,7 +196,12 @@
           "publishedAt": "2026-09-19T23:35:28.000Z"
         }
       ],
-      "tags": ["efficiency", "compression", "local-llm", "optimization"],
+      "tags": [
+        "efficiency",
+        "compression",
+        "local-llm",
+        "optimization"
+      ],
       "confidence": "low"
     },
     {
@@ -191,15 +218,24 @@
       "body": [
         {
           "text": "One arXiv paper, Harness-Zero, framed agent harness distillation through an agent-as-harness approach, and a companion proposed regularized recursive self-improvement of agent harnesses.",
-          "citations": [1, 2]
+          "citations": [
+            1,
+            2
+          ]
         },
         {
           "text": "A third paper, DolphinBench, described mapping the Pareto frontier of agent memory, while Critical-State RL diagnosed trainable states for multi-turn tool use.",
-          "citations": [3, 4]
+          "citations": [
+            3,
+            4
+          ]
         },
         {
           "text": "On the safety side, an arXiv paper studied emergent collusion in long-horizon LLM agent interaction, and on GitHub a project pitched a persistent cognitive memory layer for coding agents.",
-          "citations": [5, 6]
+          "citations": [
+            5,
+            6
+          ]
         }
       ],
       "whyItMatters": "Treating harnesses, memory and training state as explicit design objects is what turns agent demos into systems that can be measured and improved.",
@@ -260,7 +296,12 @@
           "publishedAt": "2026-09-16T15:53:02Z"
         }
       ],
-      "tags": ["agents", "harness", "memory", "arxiv"],
+      "tags": [
+        "agents",
+        "harness",
+        "memory",
+        "arxiv"
+      ],
       "confidence": "medium"
     },
     {
@@ -277,15 +318,23 @@
       "body": [
         {
           "text": "A Hacker News post said a 7B fact-checker beat 30B LLM reviewers and deleted no true claims, an argument that smaller, task-specific checkers can outperform larger general reviewers.",
-          "citations": [1]
+          "citations": [
+            1
+          ]
         },
         {
           "text": "A GitHub project, game-the-llm-reviewer, took the adversarial angle, proposing to defend sound research against LLM reviewer bias through meaning-preserving rewrites.",
-          "citations": [2]
+          "citations": [
+            2
+          ]
         },
         {
           "text": "On r/MachineLearning, threads raised concerns about the ICLR review policy, asked how LLM feedback was performing, and debated whether review infrastructure can keep up with rising non-slop submission volume driven by agentic tools.",
-          "citations": [3, 4, 5]
+          "citations": [
+            3,
+            4,
+            5
+          ]
         }
       ],
       "whyItMatters": "If the tools that screen research can be small and cheap, the bottleneck moves to the review process itself — which the community threads suggest is already under strain.",
@@ -339,7 +388,12 @@
           "publishedAt": "2026-09-19T20:19:49.000Z"
         }
       ],
-      "tags": ["peer-review", "fact-checking", "iclr", "reliability"],
+      "tags": [
+        "peer-review",
+        "fact-checking",
+        "iclr",
+        "reliability"
+      ],
       "confidence": "low"
     },
     {
@@ -356,15 +410,21 @@
       "body": [
         {
           "text": "An r/MachineLearning post announced Xiaomi's MiMo-V2.6, describing it as frontier intelligence across all modalities, built in public.",
-          "citations": [1]
+          "citations": [
+            1
+          ]
         },
         {
           "text": "Attention architecture drew separate attention: one thread examined and tried to enhance Kimi Delta Attention.",
-          "citations": [2]
+          "citations": [
+            2
+          ]
         },
         {
           "text": "On GitHub, a project released Hemmingway-1, described as a 27B model that writes the way a person writes, under Apache-2.0 weights.",
-          "citations": [3]
+          "citations": [
+            3
+          ]
         }
       ],
       "whyItMatters": "Open-weight releases keep compressing the gap to closed labs, and the day's mix — a large multimodal release, attention research and a writing-focused 27B — shows the frontier is being pushed from several directions at once.",
@@ -404,7 +464,12 @@
           "publishedAt": "2026-09-20T12:05:48Z"
         }
       ],
-      "tags": ["open-weights", "xiaomi", "mimo", "attention"],
+      "tags": [
+        "open-weights",
+        "xiaomi",
+        "mimo",
+        "attention"
+      ],
       "confidence": "medium"
     },
     {
@@ -421,15 +486,23 @@
       "body": [
         {
           "text": "A Show HN introduced Gitstats, which reports coding stats across private and work repos without requiring a GitHub token.",
-          "citations": [1]
+          "citations": [
+            1
+          ]
         },
         {
           "text": "Another Show HN, Jevopt, applied Jev to compiler optimization decisions, while VernLLM offered LLM fallback without a gateway.",
-          "citations": [2, 3]
+          "citations": [
+            2,
+            3
+          ]
         },
         {
           "text": "On GitHub, jeview described a local visualizer that shows every Jev call code makes, and jevcache described a decision cache for Jev-class models that memoizes decisions.",
-          "citations": [4, 5]
+          "citations": [
+            4,
+            5
+          ]
         }
       ],
       "whyItMatters": "As coding agents multiply, a meta-tool layer — stats, routing, visualization and caching — is forming around them, which is where cost control and debugging get decided.",
@@ -488,7 +561,12 @@
           "publishedAt": "2026-09-18T11:22:25Z"
         }
       ],
-      "tags": ["developer-tools", "coding-agents", "jev", "observability"],
+      "tags": [
+        "developer-tools",
+        "coding-agents",
+        "jev",
+        "observability"
+      ],
       "confidence": "low"
     }
   ]

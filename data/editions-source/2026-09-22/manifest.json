@@ -1,6 +1,6 @@
 {
   "date": "2026-09-22",
-  "generatedAt": "2026-09-22T10:44:42.398Z",
+  "generatedAt": "2026-09-22T22:00:18.333Z",
   "verticals": {
     "ai": {
       "items": 135,
@@ -33,7 +33,7 @@
       ]
     },
     "bio": {
-      "items": 121,
+      "items": 166,
       "sources": [
         {
           "name": "pubmed",
@@ -47,13 +47,13 @@
         },
         {
           "name": "medrxiv",
-          "status": "empty",
-          "count": 0
+          "status": "ok",
+          "count": 30
         },
         {
           "name": "openfda",
           "status": "ok",
-          "count": 1
+          "count": 6
         },
         {
           "name": "clinicaltrials",
@@ -63,7 +63,7 @@
         {
           "name": "journal_rss",
           "status": "ok",
-          "count": 30
+          "count": 45
         }
       ]
     },
@@ -101,7 +101,7 @@
       ]
     },
     "markets": {
-      "items": 129,
+      "items": 130,
       "sources": [
         {
           "name": "reddit",
