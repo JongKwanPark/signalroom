@@ -78,10 +78,10 @@ npm test
 | `GITHUB_TOKEN` | higher GitHub API rate limits | optional |
 | `FRED_API_KEY` | FRED series updates | optional |
 | `SIGNALROOM_USER_AGENT` | collector User-Agent | optional (default provided) |
-| `SITE_URL` | base URL for canonical links, sitemap, RSS and OG tags | set in Vercel Production (`https://www.signaldaily.cloud`); unset falls back to the deployment URL |
+| `SITE_URL` | base URL for canonical links, sitemap, RSS and OG tags | set in Vercel Production (`https://signaldaily.cloud`); unset falls back to the deployment URL |
 
-Current production URL: `https://www.signaldaily.cloud` (custom domain; apex
-`signaldaily.cloud` 308-redirects to `www`). `SITE_URL` is set in the Vercel
+Current production URL: `https://signaldaily.cloud` (custom domain; www
+`www.signaldaily.cloud` 308-redirects to apex). `SITE_URL` is set in the Vercel
 Production env, so canonicals, sitemap, RSS and OG URLs use the custom domain.
 
 ## Exclusions and licensing (why some sources are absent)

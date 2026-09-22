@@ -98,7 +98,7 @@ SEC EDGAR, FRED, journal RSS and market data. Rules that shape what is stored:
 | SEC EDGAR user agent | `SEC_EDGAR_USER_AGENT` (e.g. `"Name email@example.com"`) | SEC full-text search returns 403 |
 | ReliefWeb appname | `RELIEFWEB_APPNAME` (pre-approved at apidoc.reliefweb.int) | ReliefWeb collector is skipped |
 | FRED key | `FRED_API_KEY` | FRED series updates are skipped |
-| Custom domain | `SITE_URL` on Vercel (Production) | Live at `https://www.signaldaily.cloud`; canonicals, sitemap, RSS and OG URLs use that domain (apex `signaldaily.cloud` 308-redirects to `www`) |
+| Custom domain | `SITE_URL` on Vercel (Production) | Live at `https://signaldaily.cloud`; canonicals, sitemap, RSS and OG URLs use that domain (www `www.signaldaily.cloud` 308-redirects to apex) |
 | Analytics | none (by design) | Zero third-party scripts; add only a privacy-first option if ever needed |
 
 GitHub Actions also accept `GITHUB_TOKEN` for higher API rate limits.

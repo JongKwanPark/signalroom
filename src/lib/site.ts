@@ -3,7 +3,7 @@ export const SITE = {
   tagline: 'A daily intelligence digest across AI, bio, geo and markets.',
   description:
     'Signal Daily is a public, no-login daily digest. Four verticals, one page: what moved, why it matters, and where it came from. AI-assisted drafting, editor-reviewed, primary sources cited inline.',
-  url: (import.meta.env.SITE || 'https://www.signaldaily.cloud').replace(/\/+$/, ''),
+  url: (import.meta.env.SITE || 'https://signaldaily.cloud').replace(/\/+$/, ''),
   locale: 'en_US',
   author: 'Signal Daily editors',
 } as const;
