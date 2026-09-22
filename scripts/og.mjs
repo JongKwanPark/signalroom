@@ -38,7 +38,7 @@ const MARK_DATA_URI = `data:image/svg+xml;base64,${readFileSync(
 ).toString('base64')}`;
 const TAGLINE = 'A daily intelligence digest across AI, bio, geo and markets.';
 const SITE_HOST = new URL(
-  process.env.SITE_URL || process.env.SITE || 'https://signalroom-nu.vercel.app',
+  process.env.SITE_URL || process.env.SITE || 'https://www.signaldaily.cloud',
 ).host;
 
 const MONTHS = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];

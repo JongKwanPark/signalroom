@@ -78,11 +78,11 @@ npm test
 | `GITHUB_TOKEN` | higher GitHub API rate limits | optional |
 | `FRED_API_KEY` | FRED series updates | optional |
 | `SIGNALROOM_USER_AGENT` | collector User-Agent | optional (default provided) |
-| `SITE_URL` | base URL for canonical links, sitemap, RSS and OG tags | optional (unset uses the deployment URL) |
+| `SITE_URL` | base URL for canonical links, sitemap, RSS and OG tags | set in Vercel Production (`https://www.signaldaily.cloud`); unset falls back to the deployment URL |
 
-Current production URL: `https://signalroom-nu.vercel.app` (the Vercel deployment
-alias, live and public). The custom domain `signaldaily.net` is not connected yet
-(no DNS), so `SITE_URL` should stay unset until it is.
+Current production URL: `https://www.signaldaily.cloud` (custom domain; apex
+`signaldaily.cloud` 308-redirects to `www`). `SITE_URL` is set in the Vercel
+Production env, so canonicals, sitemap, RSS and OG URLs use the custom domain.
 
 ## Exclusions and licensing (why some sources are absent)
 
@@ -119,8 +119,9 @@ alias, live and public). The custom domain `signaldaily.net` is not connected ye
 
 ## Automation
 
-The daily job runs from a **paseo schedule at 07:00 KST**, which collects,
-synthesizes and commits drafts to this repo.
+The job runs from **paseo schedules at 07:00 and 19:00 KST**, which collect,
+synthesize and commit drafts to this repo. Emergency publishing outside the
+schedule is documented in [docs/manual-publish.md](manual-publish.md).
 
 The GitHub Actions `schedule:` triggers in `collect.yml` and `publish.yml` are
 **commented out on purpose**: both paths run the same daily job, so leaving the

@@ -47,8 +47,8 @@ Node 24 (see `.nvmrc`). Copy `.env.example` to `.env` for pipeline runs.
 
 One daily job, two possible runners:
 
-1. **paseo schedule (active)** — runs daily at **07:00 KST**: collect → synthesize → validate →
-   commit drafts.
+1. **paseo schedules (active)** — run twice daily at **07:00 and 19:00 KST**: collect → synthesize →
+   validate → commit drafts.
 2. **GitHub Actions (standby)** — `.github/workflows/collect.yml` and `publish.yml`. Their
    `schedule:` triggers are intentionally **commented out** so they cannot double-run alongside
    the paseo schedule; `workflow_dispatch` remains. Re-enable the crons once the LLM API keys are
@@ -58,7 +58,8 @@ One daily job, two possible runners:
 Editions committed by automation are **drafts** until the human approval gate in
 docs/pipeline.md is passed.
 
-Manual operator publishing is documented in [docs/manual-publish.md](docs/manual-publish.md).
+Emergency manual publishing outside the 07:00/19:00 KST schedules is documented in
+[docs/manual-publish.md](docs/manual-publish.md).
 
 ## Data sources and licensing
 
@@ -97,7 +98,7 @@ SEC EDGAR, FRED, journal RSS and market data. Rules that shape what is stored:
 | SEC EDGAR user agent | `SEC_EDGAR_USER_AGENT` (e.g. `"Name email@example.com"`) | SEC full-text search returns 403 |
 | ReliefWeb appname | `RELIEFWEB_APPNAME` (pre-approved at apidoc.reliefweb.int) | ReliefWeb collector is skipped |
 | FRED key | `FRED_API_KEY` | FRED series updates are skipped |
-| Custom domain | `SITE_URL` + DNS on Vercel | Canonicals, sitemap, RSS and OG URLs use the current production URL `https://signalroom-nu.vercel.app`; `signaldaily.net` is not connected yet |
+| Custom domain | `SITE_URL` on Vercel (Production) | Live at `https://www.signaldaily.cloud`; canonicals, sitemap, RSS and OG URLs use that domain (apex `signaldaily.cloud` 308-redirects to `www`) |
 | Analytics | none (by design) | Zero third-party scripts; add only a privacy-first option if ever needed |
 
 GitHub Actions also accept `GITHUB_TOKEN` for higher API rate limits.

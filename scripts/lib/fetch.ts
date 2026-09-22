@@ -26,7 +26,7 @@ const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 export function userAgent(): string {
   return (
     process.env.SIGNALROOM_USER_AGENT ||
-    "SignalRoomBot/0.1 (+https://signalroom-nu.vercel.app; research digest, non-commercial)"
+    "SignalRoomBot/0.1 (+https://www.signaldaily.cloud; research digest, non-commercial)"
   );
 }
 

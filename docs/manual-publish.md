@@ -118,7 +118,7 @@ vercel deploy --prod --yes
 ### [11] 공개 확인
 
 ```bash
-curl -s https://signalroom-nu.vercel.app
+curl -s https://www.signaldaily.cloud
 ```
 
 - "Signal Daily"·에디션 날짜 확인
