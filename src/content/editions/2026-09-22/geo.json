@@ -1,0 +1,420 @@
+{
+  "date": "2026-09-22",
+  "generatedAt": "2026-09-22T10:46:30.000Z",
+  "vertical": "geo",
+  "title": "Geo: G7 pressure on the Houthis, a UN warning on US boat strikes and Typhoon Dujuan",
+  "summary": "Diplomacy led the day as the G7 pressed the Houthis and leaders gathered for the UN General Assembly, where a UN expert said US strikes on alleged drug boats may constitute crimes against humanity. Severe weather killed at least four in Japan as Typhoon Dujuan lashed the country, and a school shooting wounded eleven in Turkiye. British Columbia sued OpenAI over the Tumbler Ridge shooting, Germany's coalition and Berlin's election results drew competing readings, and Russian strikes killed three in Ukraine as Zelenskyy travelled to the UN. GDELT and ISW failed and ReliefWeb returned nothing, so this edition rests entirely on the wire feeds.",
+  "stories": [
+    {
+      "slug": "g7-houthis-yemen-unga",
+      "headline": "Iran must stop arming Houthis in Yemen, G7 says ahead of UN General Assembly",
+      "dek": "The G7 demanded the Houthis halt attacks as leaders converged on the UN General Assembly.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "The G7 said Iran must stop arming the Houthis in Yemen and demanded the group immediately cease attacks, ahead of the UN General Assembly.",
+        "DW reported the G7 demanding the Houthis 'immediately' cease strikes, framing Yemen as a test of Iran's role in the region.",
+        "Coverage also weighed how powerful the Houthis have become after years of conflict."
+      ],
+      "body": [
+        {
+          "text": "The G7 said Iran must stop arming the Houthis in Yemen, issuing the demand ahead of the UN General Assembly.",
+          "citations": [1]
+        },
+        {
+          "text": "DW reported the same push, saying the G7 demanded the Houthis 'immediately' cease strikes.",
+          "citations": [2]
+        },
+        {
+          "text": "The pressure came against a longer-running question of how powerful the Houthis have become after years of conflict, which analysts have been reassessing.",
+          "citations": [3]
+        }
+      ],
+      "whyItMatters": "Yemen is where the Iran file, Red Sea shipping risk and the UN's authority all intersect, so G7 language ahead of UNGA is a signal of how far members will go beyond statements.",
+      "editorNote": "Wire copy is reported as published and not independently verified; no outcome of the G7 demand was reported at the time of collection.",
+      "cluster": [
+        {
+          "url": "https://www.dw.com/en/yemeni-militants-how-powerful-are-the-houthis-now/a-79331945?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Yemeni militants: How powerful are the Houthis now?"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cwm2qpmepmlzo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Iran must stop arming Houthis in Yemen, G7 says ahead of UN General Assembly"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cwm2qpmepmlzo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Iran must stop arming Houthis in Yemen, G7 says ahead of UN General Assembly",
+          "publishedAt": "2026-09-22T07:14:12.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.dw.com/en/g7-demands-houthis-immediately-cease-saudi-strikes/a-79364964?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "G7 demands Houthis 'immediately' cease Saudi strikes",
+          "publishedAt": "2026-09-22T04:58:00.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.dw.com/en/yemeni-militants-how-powerful-are-the-houthis-now/a-79331945?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Yemeni militants: How powerful are the Houthis now?",
+          "publishedAt": "2026-09-18T19:22:00.000Z"
+        }
+      ],
+      "tags": ["yemen", "houthis", "g7", "unga"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "un-us-boat-strikes-crimes-against-humanity",
+      "headline": "Why United Nations says US boat strikes may be 'crimes against humanity'",
+      "dek": "A UN expert's assessment put US strikes on alleged drug boats in a legal frame.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "Al Jazeera explained why the United Nations says US boat strikes may be 'crimes against humanity'.",
+        "The Guardian reported that US strikes on alleged drug boats may constitute crimes against humanity according to a UN expert.",
+        "The assessment landed as the UN General Assembly brought world leaders to New York."
+      ],
+      "body": [
+        {
+          "text": "Al Jazeera explained why the United Nations says US boat strikes may be 'crimes against humanity', unpacking the legal reasoning behind the charge.",
+          "citations": [1]
+        },
+        {
+          "text": "The Guardian separately reported that US strikes on alleged drug boats may constitute crimes against humanity, attributing the assessment to a UN expert.",
+          "citations": [2]
+        },
+        {
+          "text": "The legal warning arrived as leaders gathered for the UN General Assembly, where criticism of unilateral US action was already in the air.",
+          "citations": [3]
+        }
+      ],
+      "whyItMatters": "If a UN body treats lethal strikes on suspected drug boats as possible crimes against humanity, it raises the legal stakes for a tactic presented as counternarcotics enforcement.",
+      "editorNote": "This is a legal assessment reported by wire outlets, not a court ruling; no determination has been made.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/opinions/2026/9/22/undermining-the-un-is-not-a-new-us-policy?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Undermining the UN is not a new US policy"
+        },
+        {
+          "url": "https://www.theguardian.com/world/2026/sep/21/us-boat-strikes-crime-against-humanity",
+          "source": "The Guardian",
+          "title": "US strikes on alleged drug boats may constitute 'crimes against humanity', UN expert says"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.aljazeera.com/news/2026/9/22/why-united-nations-says-us-boat-strikes-may-be-crimes-against-humanity?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Why United Nations says US boat strikes may be 'crimes against humanity'",
+          "publishedAt": "2026-09-22T10:30:42.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theguardian.com/world/2026/sep/21/us-boat-strikes-crime-against-humanity",
+          "source": "The Guardian",
+          "title": "US strikes on alleged drug boats may constitute 'crimes against humanity', UN expert says",
+          "publishedAt": "2026-09-21T15:54:43.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.aljazeera.com/opinions/2026/9/22/undermining-the-un-is-not-a-new-us-policy?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Undermining the UN is not a new US policy",
+          "publishedAt": "2026-09-22T07:42:37.000Z"
+        }
+      ],
+      "tags": ["united-nations", "us-policy", "international-law", "unga"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "typhoon-dujuan-japan",
+      "headline": "Four dead after powerful Typhoon Dujuan lashes Japan",
+      "dek": "Heavy rain and landslides killed at least four as millions were told to evacuate.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "BBC reported four dead after powerful Typhoon Dujuan lashed Japan.",
+        "The Guardian said at least four people were killed as heavy rain and landslides hit, with millions told to evacuate Tokyo.",
+        "Earlier coverage noted Japanese islands bracing for Dujuan to regain typhoon strength."
+      ],
+      "body": [
+        {
+          "text": "BBC reported four dead after powerful Typhoon Dujuan lashed Japan, describing heavy rain and disruption across the country.",
+          "citations": [1]
+        },
+        {
+          "text": "The Guardian said at least four people were killed as Dujuan triggered heavy rain and landslides, with millions told to evacuate in and around Tokyo.",
+          "citations": [2]
+        },
+        {
+          "text": "A day earlier, coverage had noted Japanese islands bracing for Dujuan to become a typhoon again as it approached.",
+          "citations": [3]
+        }
+      ],
+      "whyItMatters": "A single typhoon reaching populated areas can displace millions and stress infrastructure, which is why evacuation timing and warnings matter as much as the storm's peak intensity.",
+      "editorNote": "Casualty figures are as reported by wire outlets and may be revised.",
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/environment/2026/sep/21/weather-tracker-japan-typhoon-dujuan",
+          "source": "The Guardian",
+          "title": "Japanese islands brace for Dujuan to become a typhoon again"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cm3wj2lexl97o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Four dead after powerful Typhoon Dujuan lashes Japan"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cm3wj2lexl97o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Four dead after powerful Typhoon Dujuan lashes Japan",
+          "publishedAt": "2026-09-22T05:58:35.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theguardian.com/world/2026/sep/22/typhoon-dujuan-japan-latest-weather-millions-told-to-evacuate-tokyo",
+          "source": "The Guardian",
+          "title": "At least four people killed in Japan as typhoon Dujuan triggers heavy rain, landslides",
+          "publishedAt": "2026-09-22T04:48:59.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.theguardian.com/environment/2026/sep/21/weather-tracker-japan-typhoon-dujuan",
+          "source": "The Guardian",
+          "title": "Japanese islands brace for Dujuan to become a typhoon again",
+          "publishedAt": "2026-09-21T09:45:49.000Z"
+        }
+      ],
+      "tags": ["japan", "typhoon", "disaster", "evacuation"],
+      "confidence": "high"
+    },
+    {
+      "slug": "turkiye-school-shooting",
+      "headline": "Eleven injured in shooting outside Turkish school",
+      "dek": "Two outlets gave differing injury counts from a shooting near a school in western Turkiye.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "BBC reported eleven injured in a shooting outside a Turkish school.",
+        "Al Jazeera reported a gunman opened fire near a high school in western Turkiye, wounding eight.",
+        "The two accounts differ on the number hurt, reflecting early reporting."
+      ],
+      "body": [
+        {
+          "text": "BBC reported eleven injured in a shooting outside a Turkish school.",
+          "citations": [1]
+        },
+        {
+          "text": "Al Jazeera reported that a gunman opened fire near a high school in western Turkiye, wounding eight.",
+          "citations": [2]
+        }
+      ],
+      "whyItMatters": "The differing casualty counts are a reminder that early wire reports on breaking violence often disagree before authorities confirm figures.",
+      "editorNote": "The two wire accounts give different injury counts; neither was independently confirmed.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/9/22/gunman-wounds-eight-in-shooting-near-high-school-in-western-turkiye?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Gunman opens fire near high school in western Turkiye, wounding eight"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c6y0z4gv0le4o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Eleven injured in shooting outside Turkish school"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c6y0z4gv0le4o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Eleven injured in shooting outside Turkish school",
+          "publishedAt": "2026-09-22T10:42:47.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/news/2026/9/22/gunman-wounds-eight-in-shooting-near-high-school-in-western-turkiye?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Gunman opens fire near high school in western Turkiye, wounding eight",
+          "publishedAt": "2026-09-22T09:04:13.000Z"
+        }
+      ],
+      "tags": ["turkiye", "shooting", "breaking-news"],
+      "confidence": "low"
+    },
+    {
+      "slug": "british-columbia-sues-openai-tumbler-ridge",
+      "headline": "Canadian province sues OpenAI over Tumbler Ridge school shooting",
+      "dek": "British Columbia filed suit against OpenAI and Sam Altman over the Tumbler Ridge mass shooting.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "BBC reported that a Canadian province sued OpenAI over the Tumbler Ridge school shooting.",
+        "The Guardian said British Columbia is suing OpenAI and Sam Altman over the mass school shooting.",
+        "The two accounts agree on the defendant and the province behind the suit."
+      ],
+      "body": [
+        {
+          "text": "BBC reported that a Canadian province sued OpenAI over the Tumbler Ridge school shooting.",
+          "citations": [1]
+        },
+        {
+          "text": "The Guardian said British Columbia is suing OpenAI and Sam Altman over the Tumbler Ridge mass school shooting, naming the company's chief executive as a defendant and framing the case as a test of platform liability.",
+          "citations": [2]
+        }
+      ],
+      "whyItMatters": "A provincial government suing a frontier AI company over a mass shooting opens a new front in the debate over whether model providers bear responsibility for downstream harm.",
+      "editorNote": "This reports legal filings, not findings; the claims have not been adjudicated and no liability has been established.",
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/technology/2026/sep/22/british-columbia-sues-openai-sam-altman-tumbler-ridge-school-shooting",
+          "source": "The Guardian",
+          "title": "British Columbia sues OpenAI and Sam Altman over Tumbler Ridge mass school shooting"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c3wyz2rkgrx0o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Canadian province sues OpenAI over Tumbler Ridge school shooting"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c3wyz2rkgrx0o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Canadian province sues OpenAI over Tumbler Ridge school shooting",
+          "publishedAt": "2026-09-22T01:44:17.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theguardian.com/technology/2026/sep/22/british-columbia-sues-openai-sam-altman-tumbler-ridge-school-shooting",
+          "source": "The Guardian",
+          "title": "British Columbia sues OpenAI and Sam Altman over Tumbler Ridge mass school shooting",
+          "publishedAt": "2026-09-22T04:29:22.000Z"
+        }
+      ],
+      "tags": ["ai-liability", "openai", "canada", "litigation"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "germany-coalition-berlin-election",
+      "headline": "Merz vows to keep coalition together for Germany's 'democratic future'",
+      "dek": "Germany's coalition politics met a Berlin result that lifted the Left as the AfD gained.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "BBC reported that Merz vowed to keep his coalition together for Germany's 'democratic future'.",
+        "Al Jazeera said hope rose in Berlin immigrant communities as the Left won amid AfD gains.",
+        "The two items point to pressure on Germany's governing coalition from both directions."
+      ],
+      "body": [
+        {
+          "text": "BBC reported that Chancellor Merz vowed to keep his coalition together for Germany's 'democratic future'.",
+          "citations": [1]
+        },
+        {
+          "text": "Al Jazeera reported hope rising in Berlin immigrant communities as the Left won amid gains for the AfD.",
+          "citations": [2]
+        }
+      ],
+      "whyItMatters": "A coalition defending its stability while the far right gains in a major city shows the centripetal and centrifugal pressures acting on German politics at once.",
+      "editorNote": "Both items are wire reports on separate developments and were not independently verified.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/9/22/hope-rises-in-berlin-immigrant-communities-as-left-wins-amid-afd-gains?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "'Hope' rises in Berlin immigrant communities as Left wins amid AfD gains"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cqm27p8enwmko?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Merz vows to keep coalition together for Germany's 'democratic future'"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cqm27p8enwmko?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Merz vows to keep coalition together for Germany's 'democratic future'",
+          "publishedAt": "2026-09-21T16:54:56.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/news/2026/9/22/hope-rises-in-berlin-immigrant-communities-as-left-wins-amid-afd-gains?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "'Hope' rises in Berlin immigrant communities as Left wins amid AfD gains",
+          "publishedAt": "2026-09-22T07:33:24.000Z"
+        }
+      ],
+      "tags": ["germany", "politics", "afd", "coalition"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ukraine-strikes-zelenskyy-un",
+      "headline": "Russian strikes on Ukraine kill three as Zelenskyy in US for UN summit",
+      "dek": "Ukrainian officials reported deaths from Russian strikes as Zelenskyy travelled to the UN.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "Al Jazeera reported Russian strikes on Ukraine killed three as Zelenskyy was in the US for a UN summit.",
+        "DW reported Ukraine stepping up measures to protect its railways.",
+        "The two items show the war's civilian and infrastructure toll continuing alongside diplomacy."
+      ],
+      "body": [
+        {
+          "text": "Al Jazeera reported that Russian strikes on Ukraine killed three people as Zelenskyy was in the United States for a UN summit.",
+          "citations": [1]
+        },
+        {
+          "text": "DW reported that Ukraine is stepping up measures to protect its railways, a key part of wartime logistics.",
+          "citations": [2]
+        }
+      ],
+      "whyItMatters": "Strikes and rail-protection measures underline that military logistics and civilian risk keep moving even while Ukraine's leadership works the diplomatic circuit at the UN.",
+      "editorNote": "Casualty figures are as reported by wire outlets and could not be independently verified.",
+      "cluster": [
+        {
+          "url": "https://www.dw.com/en/ukraine-steps-up-measures-to-protect-railways/a-79339087?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Ukraine steps up measures to protect railways"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/9/22/russian-strikes-on-ukraine-kill-three-as-zelenskyy-in-us-for-un-summit?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Russian strikes on Ukraine kill three as Zelenskyy in US for UN summit"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.aljazeera.com/news/2026/9/22/russian-strikes-on-ukraine-kill-three-as-zelenskyy-in-us-for-un-summit?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Russian strikes on Ukraine kill three as Zelenskyy in US for UN summit",
+          "publishedAt": "2026-09-22T08:07:13.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.dw.com/en/ukraine-steps-up-measures-to-protect-railways/a-79339087?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Ukraine steps up measures to protect railways",
+          "publishedAt": "2026-09-19T15:37:00.000Z"
+        }
+      ],
+      "tags": ["ukraine", "russia", "war", "unga"],
+      "confidence": "medium"
+    }
+  ]
+}

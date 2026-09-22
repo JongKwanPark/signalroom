@@ -1,0 +1,484 @@
+{
+  "date": "2026-09-22",
+  "generatedAt": "2026-09-22T10:46:30.000Z",
+  "vertical": "bio",
+  "title": "Bio: AI in the clinic, cancer pipelines and lab biology",
+  "summary": "The bio set split between AI's role in clinical decisions and trust, AI-assisted monitoring in critical care, a cancer detection and treatment pipeline, infectious-disease surveillance, AI-driven biological design, and neuroscience from brain implants to dementia prediction. PubMed carried most of the clinical-AI work, journal RSS supplied science-news and policy items, ClinicalTrials.gov supplied early- and mid-stage studies, and bioRxiv supplied preprint biology. Two sources returned nothing usable: medRxiv was empty and OpenFDA returned a single placeholder label record.",
+  "stories": [
+    {
+      "slug": "ai-clinical-decisions-trust",
+      "headline": "AI Quality and Clinical Roles Impact Decision Quality in AI-Augmented Medical Decisions More than AI Explanations",
+      "dek": "New work argues the human and workflow context around a clinical AI matters more than how it explains itself.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "A PubMed paper found AI quality and clinical roles affected decision quality in AI-augmented medical decisions more than AI explanations did.",
+        "A separate oncology paper argued decision-curve analysis should be a bridge, not an endpoint, for clinical AI, and another flagged a missing sex and gender lens in AI-enabled resuscitation.",
+        "A survey examined attitudes toward generative AI chatbots in traditional, complementary and integrative medicine research, as science journalism probed eroding trust in medicine."
+      ],
+      "body": [
+        {
+          "text": "A PubMed paper reported that AI quality and the clinical roles involved affected decision quality in AI-augmented medical decisions more than AI explanations did, shifting attention from explainability alone to the surrounding workflow.",
+          "citations": [1]
+        },
+        {
+          "text": "Two more clinical-AI papers set boundaries on evaluation: one argued that decision-curve analysis should be a bridge, not an endpoint, for clinical AI in oncology, and another said AI-enabled resuscitation is missing a sex and gender lens.",
+          "citations": [2, 3]
+        },
+        {
+          "text": "A large international survey examined attitudes and perceptions of generative AI chatbots in the scientific process of traditional, complementary and integrative medicine research.",
+          "citations": [4]
+        },
+        {
+          "text": "The clinical questions sat against a wider conversation about trust: science journalism published pieces asking why trust in science matters and acknowledging skepticism about modern medicine.",
+          "citations": [5, 6]
+        }
+      ],
+      "whyItMatters": "If role design and data quality move outcomes more than explanations do, hospitals may get more from fixing workflows than from demanding ever-more-transparent models.",
+      "editorNote": "These are research abstracts and reported studies, not clinical guidance; nothing here is medical advice.",
+      "cluster": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768966/",
+          "source": "PubMed",
+          "title": "AI Quality and Clinical Roles Impact Decision Quality in AI-Augmented Medical Decisions More than AI Explanations"
+        },
+        {
+          "url": "https://www.statnews.com/2026/09/21/health-news-trump-newest-vaccine-demands-repeat-old-misinformation/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "President Trump's newest vaccine 'demands' repeat old misinformation"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768966/",
+          "source": "PubMed",
+          "title": "AI Quality and Clinical Roles Impact Decision Quality in AI-Augmented Medical Decisions More than AI Explanations",
+          "publishedAt": "2026/09/22 00:00"
+        },
+        {
+          "id": 2,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768349/",
+          "source": "PubMed",
+          "title": "Decision-curve analysis should be a bridge, not an endpoint, for clinical artificial intelligence in oncology",
+          "publishedAt": "2026/09/21 00:00"
+        },
+        {
+          "id": 3,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768365/",
+          "source": "PubMed",
+          "title": "The missing sex and gender lens in artificial-intelligence-enabled resuscitation",
+          "publishedAt": "2026/09/21 00:00"
+        },
+        {
+          "id": 4,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768952/",
+          "source": "PubMed",
+          "title": "Attitudes and Perceptions of Generative Artificial Intelligence Chatbots in the Scientific Process of Traditional, Complementary, and Integrative Medicine Research: A Large-Scale, International Cross-Sectional Survey",
+          "publishedAt": "2026/09/22 00:00"
+        },
+        {
+          "id": 5,
+          "url": "https://www.statnews.com/2026/09/21/trust-in-science-reporter-nick-florko-interview-status-report-alex-hogan/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "Why is trust in science important?",
+          "publishedAt": "2026-09-21T08:30:00.000Z"
+        },
+        {
+          "id": 6,
+          "url": "https://www.statnews.com/2026/09/21/trust-in-science-nick-florko-on-understanding-growing-scientific-mistrust/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "Skeptical about modern medicine? I know the feeling — and want to listen",
+          "publishedAt": "2026-09-21T08:30:00.000Z"
+        }
+      ],
+      "tags": ["clinical-ai", "trust", "decision-making", "oncology"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ai-monitoring-critical-care",
+      "headline": "Machine Learning Using Electroencephalography Predicts Acute Cerebral Injury in the Pediatric ICU",
+      "dek": "Machine-learning prediction and monitoring studies clustered around acute and critical care.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "A PubMed study used machine learning on EEG to predict acute cerebral injury in the pediatric ICU.",
+        "A companion paper compared machine-learning models for intracerebral hemorrhage prognostication using the ATACH-2 and Qatar stroke databases.",
+        "On ClinicalTrials.gov, studies registered a patient-ventilator asynchrony analysis function and a controlled fever-range temperature management safety study."
+      ],
+      "body": [
+        {
+          "text": "A PubMed study reported that machine learning using electroencephalography predicts acute cerebral injury in the pediatric ICU, extending AI prediction into continuous neuromonitoring.",
+          "citations": [1]
+        },
+        {
+          "text": "A companion paper compared machine-learning models for intracerebral hemorrhage prognostication, drawing on the ATACH-2 and Qatar stroke databases.",
+          "citations": [2]
+        },
+        {
+          "text": "On ClinicalTrials.gov, a study registered a patient-ventilator asynchrony analysis function, and another described a temperature management system used to gently raise a participant's body temperature to a fever-range level in a controlled setting.",
+          "citations": [3, 4]
+        },
+        {
+          "text": "A retrospective cohort study separately assessed the diagnostic accuracy and clinical importance of AI confidence for extremity fracture detection across 2,508 patients.",
+          "citations": [5]
+        }
+      ],
+      "whyItMatters": "Prediction and monitoring are where clinical AI meets the bedside, so confidence reporting and prospective validation decide whether these models change care or just add alerts.",
+      "editorNote": "These are research abstracts and trial registrations, not clinical guidance; findings are as reported and not independently verified.",
+      "cluster": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768188/",
+          "source": "PubMed",
+          "title": "Diagnostic accuracy & clinical importance of AI confidence for extremity fracture detection: 2,508-patient retrospective cohort"
+        },
+        {
+          "url": "https://clinicaltrials.gov/study/NCT06390917",
+          "source": "ClinicalTrials.gov",
+          "title": "Study on the Patient-Ventilator Asynchrony Analysis Function"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768269/",
+          "source": "PubMed",
+          "title": "Machine Learning Using Electroencephalography Predicts Acute Cerebral Injury in the Pediatric ICU",
+          "publishedAt": "2026/09/21 00:00"
+        },
+        {
+          "id": 2,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768786/",
+          "source": "PubMed",
+          "title": "A Comparison of Machine Learning Models for ICH Prognostication: An Analysis of ATACH-2 and Qatar Stroke Database",
+          "publishedAt": "2026/09/22 00:00"
+        },
+        {
+          "id": 3,
+          "url": "https://clinicaltrials.gov/study/NCT06390917",
+          "source": "ClinicalTrials.gov",
+          "title": "Study on the Patient-Ventilator Asynchrony Analysis Function",
+          "publishedAt": "2026-09-15T00:00:00.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://clinicaltrials.gov/study/NCT07564440",
+          "source": "ClinicalTrials.gov",
+          "title": "Hyperthermia Safety Study Uses Temperature Management System to Gently Raise Participant's Body Temperature to a Fever-range Level in a Controlled Setting.",
+          "publishedAt": "2026-09-21T00:00:00.000Z"
+        },
+        {
+          "id": 5,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768188/",
+          "source": "PubMed",
+          "title": "Diagnostic accuracy & clinical importance of AI confidence for extremity fracture detection: 2,508-patient retrospective cohort",
+          "publishedAt": "2026/09/22 00:00"
+        }
+      ],
+      "tags": ["clinical-ai", "monitoring", "critical-care", "prediction"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "cancer-detection-treatment-pipeline",
+      "headline": "STAT+: What a vote on Grail's cancer detection test could mean for the company, patients, and regulators",
+      "dek": "Cancer news spanned an FDA advisory vote, a new approval and registered combination trials.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "STAT reported on what a vote on Grail's cancer detection test could mean for the company, patients and regulators.",
+        "A separate STAT item said Lilly's breast cancer combination won approval, and an opinion piece asked why insurance does not pay for evidence-based cancer symptom relief.",
+        "On ClinicalTrials.gov, studies registered a personalized genomic vaccine plus tumor treating fields for glioblastoma and a pembrolizumab combination substudy in renal cell carcinoma."
+      ],
+      "body": [
+        {
+          "text": "STAT reported on what a vote on Grail's cancer detection test could mean for the company, patients and regulators, framing the advisory process as a test of multi-cancer early detection.",
+          "citations": [1]
+        },
+        {
+          "text": "A separate STAT item said Lilly's breast cancer combo won approval, and an opinion piece argued the science on relieving cancer symptoms is clear but insurance is not paying for it.",
+          "citations": [2, 3]
+        },
+        {
+          "text": "On ClinicalTrials.gov, a study registered the safety and immunogenicity of a personalized genomic vaccine combined with tumor treating fields for glioblastoma, and a substudy registered combination therapies in renal cell carcinoma recurring during or after anti-PD-(L)1 therapy.",
+          "citations": [4, 5]
+        }
+      ],
+      "whyItMatters": "Detection, approval and reimbursement are moving on separate tracks, so a promising test or drug only reaches patients when the regulatory and payment pieces line up.",
+      "editorNote": "These are news reports and trial registrations, not clinical or investment guidance; regulatory outcomes are not final unless stated.",
+      "cluster": [
+        {
+          "url": "https://www.statnews.com/2026/09/22/integrative-oncology-cancer-symptoms-insurance-asco-sio-pain-fatigue/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "Opinion: The science on relieving cancer symptoms is clear. Why isn't insurance paying?"
+        },
+        {
+          "url": "https://clinicaltrials.gov/study/NCT04840602",
+          "source": "ClinicalTrials.gov",
+          "title": "Testing the Combination of Venetoclax and Rituximab for Waldenstrom's Macroglobulinemia/Lymphoplasmacytic Lymphoma"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.statnews.com/2026/09/21/grail-galleri-fda-advisory-committee-meeting-documents/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "STAT+: What a vote on Grail's cancer detection test could mean for the company, patients, and regulators",
+          "publishedAt": "2026-09-21T17:58:51.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.statnews.com/2026/09/21/biotech-news-lilly-breast-cancer-combo-wins-approval/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "STAT+: Lilly's breast cancer combo wins approval",
+          "publishedAt": "2026-09-21T15:08:38.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.statnews.com/2026/09/22/integrative-oncology-cancer-symptoms-insurance-asco-sio-pain-fatigue/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "Opinion: The science on relieving cancer symptoms is clear. Why isn't insurance paying?",
+          "publishedAt": "2026-09-22T08:30:00.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://clinicaltrials.gov/study/NCT03223103",
+          "source": "ClinicalTrials.gov",
+          "title": "Safety and Immunogenicity of Personalized Genomic Vaccine and Tumor Treating Fields (TTFields) to Treat Glioblastoma",
+          "publishedAt": "2026-09-21T00:00:00.000Z"
+        },
+        {
+          "id": 5,
+          "url": "https://clinicaltrials.gov/study/NCT07049926",
+          "source": "ClinicalTrials.gov",
+          "title": "Substudy 03C: A Study of Combination Therapies in Participants With Renal Cell Carcinoma With Recurrent Disease During or After Anti-PD-(L)1 Therapy (MK-3475-03C/KEYMAKER-U03)",
+          "publishedAt": "2026-09-17T00:00:00.000Z"
+        }
+      ],
+      "tags": ["cancer", "regulatory", "clinical-trials", "oncology"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "infectious-disease-surveillance",
+      "headline": "A deadly ebola relative is surging after years in the shadows",
+      "dek": "AI-assisted modelling and triage tools met a resurgent filovirus and a deep-time lesson on plague.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "ScienceDaily reported that a deadly ebola relative is surging after years in the shadows.",
+        "PubMed carried work on leveraging AI for infectious disease modelling and public health decision making, and a technical review of AI-based cough analysis for tuberculosis triage and diagnosis.",
+        "Another paper called for cross-community collaboration to advance pandemic and epidemic intelligence, and ancient DNA showed how plague returned for 400 years after the Black Death."
+      ],
+      "body": [
+        {
+          "text": "ScienceDaily reported that a deadly ebola relative is surging after years in the shadows, a reminder that filoviruses remain a live surveillance concern.",
+          "citations": [1]
+        },
+        {
+          "text": "PubMed carried work on leveraging AI for infectious disease modelling and public health decision making, alongside a technical review of AI-based cough analysis for pulmonary tuberculosis triage and diagnosis.",
+          "citations": [2, 3]
+        },
+        {
+          "text": "A separate paper argued for cross-community collaboration to advance pandemic and epidemic intelligence, while ancient DNA research described how plague kept returning for 400 years after the Black Death.",
+          "citations": [4, 5]
+        }
+      ],
+      "whyItMatters": "From field triage to deep-time outbreak history, the same question recurs: how to detect and model pathogens early enough to act — which is where AI tools are being positioned.",
+      "editorNote": "These are news reports and research abstracts, not public-health guidance; no outbreak claim here was independently verified.",
+      "cluster": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768357/",
+          "source": "PubMed",
+          "title": "Fostering cross-community collaboration to advance pandemic and epidemic intelligence"
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260919031025.htm",
+          "source": "ScienceDaily",
+          "title": "Ancient DNA reveals how plague kept returning for 400 years after the Black Death"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.sciencedaily.com/releases/2026/09/260919031042.htm",
+          "source": "ScienceDaily",
+          "title": "A deadly ebola relative is surging after years in the shadows",
+          "publishedAt": "2026-09-20T02:26:36.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768353/",
+          "source": "PubMed",
+          "title": "Leveraging AI for infectious disease modelling and public health decision making",
+          "publishedAt": "2026/09/21 00:00"
+        },
+        {
+          "id": 3,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768162/",
+          "source": "PubMed",
+          "title": "AI Based Cough Analysis for Pulmonary Tuberculosis Triage and Diagnosis: A Technical Review",
+          "publishedAt": "2026/09/21 00:00"
+        },
+        {
+          "id": 4,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768357/",
+          "source": "PubMed",
+          "title": "Fostering cross-community collaboration to advance pandemic and epidemic intelligence",
+          "publishedAt": "2026/09/21 00:00"
+        },
+        {
+          "id": 5,
+          "url": "https://www.sciencedaily.com/releases/2026/09/260919031025.htm",
+          "source": "ScienceDaily",
+          "title": "Ancient DNA reveals how plague kept returning for 400 years after the Black Death",
+          "publishedAt": "2026-09-20T06:46:18.000Z"
+        }
+      ],
+      "tags": ["infectious-disease", "ai-modelling", "surveillance", "tuberculosis"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ai-biology-biomarker-discovery",
+      "headline": "Generative Design of New-to-nature Biosynthetic Assembly Lines with Genomic Language Modeling",
+      "dek": "A preprint used genomic language modelling to design biosynthetic pathways while clinical work pushed new biomarkers.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "A bioRxiv preprint described generative design of new-to-nature biosynthetic assembly lines with genomic language modeling.",
+        "A PubMed study proposed epidermal growth factor-like 7 as a potential non-invasive biomarker for fibrosis and mortality risk in MASLD.",
+        "Another paper assessed phenotypic age metrics for risk stratification of chronic disease burden and all-cause mortality in adults."
+      ],
+      "body": [
+        {
+          "text": "A bioRxiv preprint described generative design of new-to-nature biosynthetic assembly lines using genomic language modeling, pointing at model-driven pathway design.",
+          "citations": [1]
+        },
+        {
+          "text": "In clinical research, a PubMed study proposed epidermal growth factor-like 7 as a potential non-invasive biomarker for fibrosis and mortality risk in MASLD.",
+          "citations": [2]
+        },
+        {
+          "text": "Another paper assessed phenotypic age metrics for risk stratification of chronic disease burden and all-cause mortality in adults.",
+          "citations": [3]
+        }
+      ],
+      "whyItMatters": "Language-style models are spreading from text into biology, where they are being applied both to design pathways and to surface the biomarkers that guide prevention.",
+      "editorNote": "Preprints and abstracts are not peer-reviewed findings and may change; nothing here is medical advice.",
+      "cluster": [
+        {
+          "url": "https://doi.org/10.64898/2026.09.11.750945",
+          "source": "bioRxiv",
+          "title": "Generative Design of New-to-nature Biosynthetic Assembly Lines with Genomic Language Modeling"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768894/",
+          "source": "PubMed",
+          "title": "Discovery of Epidermal Growth Factor-Like 7 as a Potential Non-Invasive Biomarker for Fibrosis and Mortality Risk in MASLD"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://doi.org/10.64898/2026.09.11.750945",
+          "source": "bioRxiv",
+          "title": "Generative Design of New-to-nature Biosynthetic Assembly Lines with Genomic Language Modeling",
+          "publishedAt": "2026-09-22"
+        },
+        {
+          "id": 2,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768894/",
+          "source": "PubMed",
+          "title": "Discovery of Epidermal Growth Factor-Like 7 as a Potential Non-Invasive Biomarker for Fibrosis and Mortality Risk in MASLD",
+          "publishedAt": "2026/10/01 00:00"
+        },
+        {
+          "id": 3,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768379/",
+          "source": "PubMed",
+          "title": "Phenotypic age metrics for risk stratification of chronic disease burden and all-cause mortality in adults",
+          "publishedAt": "2026/09/22 00:00"
+        }
+      ],
+      "tags": ["preprint", "biomarkers", "genomic-language-models", "masld"],
+      "confidence": "low"
+    },
+    {
+      "slug": "neuroscience-brain-imaging-devices",
+      "headline": "Stanford scientists discover the human brain may actually be two separate organs",
+      "dek": "Brain science ranged from a two-organ hypothesis to implants, long-COVID imaging and dementia prediction.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "ScienceDaily reported that Stanford scientists found the human brain may actually be two separate organs.",
+        "The same outlet covered brain scans revealing a possible cause of long COVID fatigue and brain fog, and a needle-thin brain implant that can do three jobs at once.",
+        "PubMed carried a quantitative assessment of facial expression asymmetry in Parkinson's disease and a multimodal model predicting MCI-to-dementia conversion over two years."
+      ],
+      "body": [
+        {
+          "text": "ScienceDaily reported that Stanford scientists discovered the human brain may actually be two separate organs, a structural claim about how the brain is organized.",
+          "citations": [1]
+        },
+        {
+          "text": "The same outlet covered brain scans pointing to a possible cause of long COVID fatigue and brain fog, and a needle-thin brain implant designed to do three jobs at once.",
+          "citations": [2, 3]
+        },
+        {
+          "text": "In the research literature, a PubMed study quantitatively assessed facial expression asymmetry in Parkinson's disease, and another used a multimodal model to predict MCI-to-dementia conversion over a two-year window.",
+          "citations": [4, 5]
+        }
+      ],
+      "whyItMatters": "Better structural and imaging models of the brain feed directly into devices and early detection, which is where neuroscience turns into clinical tools.",
+      "editorNote": "ScienceDaily items summarize press releases and the PubMed items are abstracts; none are clinical guidance and findings are as reported.",
+      "cluster": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260920222416.htm",
+          "source": "ScienceDaily",
+          "title": "Scientists create a needle-thin brain implant that can do three jobs at once"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768794/",
+          "source": "PubMed",
+          "title": "Quantitative Assessment of Facial Expression Asymmetry in Parkinson's Disease"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.sciencedaily.com/releases/2026/09/260920222352.htm",
+          "source": "ScienceDaily",
+          "title": "Stanford scientists discover the human brain may actually be two separate organs",
+          "publishedAt": "2026-09-21T10:12:51.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.sciencedaily.com/releases/2026/09/260920222412.htm",
+          "source": "ScienceDaily",
+          "title": "Brain scans reveal a possible cause of long COVID fatigue and brain fog",
+          "publishedAt": "2026-09-22T03:48:58.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.sciencedaily.com/releases/2026/09/260920222416.htm",
+          "source": "ScienceDaily",
+          "title": "Scientists create a needle-thin brain implant that can do three jobs at once",
+          "publishedAt": "2026-09-21T12:25:22.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768794/",
+          "source": "PubMed",
+          "title": "Quantitative Assessment of Facial Expression Asymmetry in Parkinson's Disease",
+          "publishedAt": "2026/09/22 00:00"
+        },
+        {
+          "id": 5,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768165/",
+          "source": "PubMed",
+          "title": "Multimodal prediction of MCI-to-dementia conversion over a two-year window",
+          "publishedAt": "2026/09/22 00:00"
+        }
+      ],
+      "tags": ["neuroscience", "brain-imaging", "parkinsons", "dementia"],
+      "confidence": "low"
+    }
+  ]
+}
