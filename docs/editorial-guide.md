@@ -27,11 +27,13 @@
 | 항목 | 값 |
 | --- | --- |
 | 버티컬 | `ai`, `bio`, `geo`, `markets` (표시명: AI · Bio & health · Geopolitics & security · Markets & macro) |
-| 주기 | 매일 07:00 KST (paseo schedule): collect → dedup → synth → validate → draft 커밋 |
+| 주기 | 자동 발행 2회: 07:00 아침(전날 UTC 하루 완성·병합), 19:00 저녁(당일 UTC 1차 생성) — paseo 스케줄 |
 | 발행 단위 | 날짜 × 버티컬 1파일 = 에디션. 홈(`/`)이 그날의 표지 |
 | 작성 경로 | `scripts/synth.ts --input-json`(에이전트·에디터 작성) 또는 LLM 초안 + editor pass |
 | 게이트 | `scripts/validate.ts` + AI editor pass(`scripts/prompts/editor.md`) + 사람 승인 |
 | 독자 접점 | `/`, `/archive`, `/story/<slug>`, `/<vertical>`, `/rss.xml`, `/llms.txt` |
+
+긴급 수동 발행은 [docs/manual-publish.md](manual-publish.md)를 따른다.
 
 ## 3. 버티컬 정의와 경계
 
