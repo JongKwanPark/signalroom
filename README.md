@@ -58,6 +58,8 @@ One daily job, two possible runners:
 Editions committed by automation are **drafts** until the human approval gate in
 docs/pipeline.md is passed.
 
+Manual operator publishing is documented in [docs/manual-publish.md](docs/manual-publish.md).
+
 ## Data sources and licensing
 
 Collectors cover Hacker News, Reddit, arXiv, GitHub, YouTube channel RSS, PubMed,

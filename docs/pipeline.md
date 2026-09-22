@@ -149,6 +149,8 @@ schedule at the same time so the two automation paths never run together.
    includes a keepalive empty commit so the 60-day GitHub inactivity rule never
    disables the schedules once they are re-enabled.
 
+Manual operator publishing is documented in [docs/manual-publish.md](manual-publish.md).
+
 ## Monthly cost estimate
 
 - Data collection: all sources are free APIs; when the schedules are enabled,
