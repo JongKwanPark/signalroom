@@ -1,9 +1,9 @@
 {
   "date": "2026-09-24",
-  "generatedAt": "2026-09-24T01:40:00.000Z",
+  "generatedAt": "2026-09-24T10:09:55Z",
   "vertical": "geo",
-  "title": "Geo: Xi arrives in Washington",
-  "summary": "A thin early edition for Geopolitics, with one story. Xi Jinping arrived for a three-day state visit, greeted by Trump at his plane, with AI rivalry and a newly extended trade truce on the agenda. This edition covers items published from 22:00 UTC on 23 September until collection at 01:02 UTC on 24 September; Iran, Tigray, the UN, Poland and Gaza are in the 23 September edition. Other items in the window lacked a second independent source. GDELT failed to fetch, ISW returned HTTP 403, Polymarket returned HTTP 451 and ReliefWeb was empty.",
+  "title": "Geo: Xi’s visit, regional flashpoints and a Gaza plan",
+  "summary": "This edition keeps the earlier Xi visit report and adds four developments: renewed accusations and fighting in Tigray, a court ruling on White House press access, missing F-35 components under investigation, and a reported Gaza reconstruction plan. GDELT, ISW and Polymarket were unavailable; ReliefWeb returned no items.",
   "stories": [
     {
       "slug": "trump-xi-state-visit-washington",
@@ -102,6 +102,276 @@
         "trade"
       ],
       "confidence": "high"
+    },
+    {
+      "slug": "ethiopia-tigray-offensives-fears-of-new-war",
+      "headline": "Ethiopia and Tigray accuse each of launching offensives, fuelling fears of new war",
+      "dek": "Ethiopia’s federal government and Tigray’s regional authorities traded accusations of offensives, raising fears that the fragile peace may unravel.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "BBC reported mutual accusations that each side had launched offensives.",
+        "DW separately described new fighting and fears of a return to civil war.",
+        "The collected reports establish competing claims, not an independently verified account of who initiated the fighting."
+      ],
+      "body": [
+        {
+          "text": "The BBC headline reports that Ethiopia and Tigray accused each other of launching offensives.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "DW reported new fighting in the region and concern about a return to civil war.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "The reports describe competing allegations; this edition does not present either side’s claim as independently verified.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Renewed fighting could threaten the peace framework and widen instability in the Horn of Africa.",
+      "editorNote": "Both sources report claims by opposing sides. No casualty figure or battlefield outcome is included because the collected coverage did not establish one.",
+      "cluster": [
+        {
+          "url": "https://www.dw.com/en/new-fighting-in-ethiopia-s-tigray-region-raises-fears-of-a-return-to-the-country-s-civil-war/a-79400869?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "New fighting in Ethiopia's Tigray region raises fears of a return to the country's civil war"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cry8zwwq21pxo?at_medium=RSS&at_campaign=rss",
+          "source": "www.bbc.co.uk",
+          "title": "Ethiopia and Tigray accuse each of launching offensives, fuelling fears of new war",
+          "publishedAt": "2026-09-24T09:28:33.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.dw.com/en/new-fighting-in-ethiopia-s-tigray-region-raises-fears-of-a-return-to-the-country-s-civil-war/a-79400869?maca=en-rss-en-world-4025-rdf",
+          "source": "www.dw.com",
+          "title": "New fighting in Ethiopia's Tigray region raises fears of a return to the country's civil war",
+          "publishedAt": "2026-09-23T17:38:00.000Z"
+        }
+      ],
+      "tags": [
+        "ethiopia",
+        "tigray",
+        "conflict",
+        "horn-of-africa"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "judge-blocks-white-house-press-ban",
+      "headline": "US judge blocks Trump’s White House ban on CNN, MS NOW, and Politico",
+      "dek": "A federal judge blocked the White House restriction on access for CNN, MS NOW and Politico, according to two reports.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "Al Jazeera reported that a judge blocked the White House ban affecting CNN, MS NOW and Politico.",
+        "CNBC reported that the judge lifted Trump’s ban on the three outlets.",
+        "The reports describe restored access; the collected headlines do not include the court’s reasoning."
+      ],
+      "body": [
+        {
+          "text": "Al Jazeera reported that a U.S. judge blocked Trump’s White House ban on CNN, MS NOW and Politico.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "CNBC reported the ruling as lifting the restriction on the three outlets.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "The collected headlines do not specify the legal reasoning or subsequent appeal status.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The ruling concerns the boundary between executive control of press access and judicial review.",
+      "editorNote": "This is a headline-level account; no legal rationale is inferred.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/09/24/judge-lifts-trumps-white-house-ban-on-cnn-ms-now-and-politico.html",
+          "source": "CNBC",
+          "title": "Judge lifts Trump ban on CNN, MS NOW, Politico from White House"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.aljazeera.com/news/2026/9/24/us-judge-blocks-trumps-white-house-ban-on-cnn-ms-now-and-politico?traffic_source=rss",
+          "source": "www.aljazeera.com",
+          "title": "US judge blocks Trump’s White House ban on CNN, MS NOW, and Politico",
+          "publishedAt": "2026-09-24T08:46:23.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/09/24/judge-lifts-trumps-white-house-ban-on-cnn-ms-now-and-politico.html",
+          "source": "www.cnbc.com",
+          "title": "Judge lifts Trump ban on CNN, MS NOW, Politico from White House",
+          "publishedAt": "2026-09-24T06:22:46.000Z"
+        }
+      ],
+      "tags": [
+        "united-states",
+        "press-freedom",
+        "courts"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "australia-investigates-missing-f35-parts-hong-kong",
+      "headline": "Australia investigating how F-35 fighter jet parts bound for US went missing in Hong Kong",
+      "dek": "Australia is investigating missing F-35 components that were reportedly bound for the United States and went through Hong Kong.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "The Guardian reported an Australian investigation into F-35 parts bound for the U.S. that went missing in Hong Kong.",
+        "CNBC separately reported that Chinese authorities were reportedly in possession of F-35 components in Hong Kong.",
+        "The reporting does not establish who handled the parts or how they went missing."
+      ],
+      "body": [
+        {
+          "text": "The Guardian reported that Australia was investigating how F-35 parts bound for the United States went missing in Hong Kong.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "CNBC reported that Chinese authorities were reportedly in possession of F-35 components there.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "The available headlines do not establish the chain of custody or confirm what happened to the components.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The case touches defense supply-chain security and U.S.-China tensions, but the public account remains incomplete.",
+      "editorNote": "“Reportedly” is retained from the coverage; no attribution of responsibility is made.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/09/24/chinaf-f35-components-hong-kong.html",
+          "source": "CNBC",
+          "title": "Chinese authorities reportedly in possession of F-35 components in Hong Kong"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.theguardian.com/world/2026/sep/22/australia-investigating-how-f-35-fighter-jet-parts-bound-for-us-went-missing-in-hong-kong",
+          "source": "www.theguardian.com",
+          "title": "Australia investigating how F-35 fighter jet parts bound for US went missing in Hong Kong",
+          "publishedAt": "2026-09-22T10:00:15.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/09/24/chinaf-f35-components-hong-kong.html",
+          "source": "www.cnbc.com",
+          "title": "Chinese authorities reportedly in possession of F-35 components in Hong Kong",
+          "publishedAt": "2026-09-24T01:16:34.000Z"
+        }
+      ],
+      "tags": [
+        "australia",
+        "china",
+        "defense",
+        "f-35"
+      ],
+      "confidence": "low"
+    },
+    {
+      "slug": "board-of-peace-gaza-reconstruction-plan",
+      "headline": "Trump's Board of Peace unveils $2.45bn plan to begin Gaza's reconstruction",
+      "dek": "The BBC reported that Trump’s Board of Peace unveiled a $2.45 billion plan to begin reconstruction in Gaza.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "The BBC and DAWN reported that the Board of Peace announced a $2.45 billion Gaza reconstruction plan.",
+        "A separate UN-agency report in the collection described a rise in reports of violence against women in Gaza.",
+        "The collected material does not specify the plan’s funding commitments, timetable or implementation arrangements."
+      ],
+      "body": [
+        {
+          "text": "The BBC and DAWN reported that Trump’s Board of Peace unveiled a $2.45 billion plan to begin Gaza reconstruction.",
+          "citations": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "The BBC also reported a UN agency finding of a surge in reports of violence against women in Gaza, a separate indicator of the humanitarian context.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "No additional details about funding, oversight or implementation were present in the collected headlines.",
+          "citations": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "The announcement places reconstruction financing alongside unresolved humanitarian conditions; implementation details will determine what changes on the ground.",
+      "editorNote": "The amount and description are attributed to the BBC headline. The UN-agency report is contextual, not evidence about the plan itself.",
+      "cluster": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c94gm7dp40y0o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Reports of violence against women in Gaza surge, UN agency finds"
+        },
+        {
+          "url": "https://www.dawn.com/news/2032222/board-of-peace-unveils-245bn-gaza-recovery-plan",
+          "source": "DAWN",
+          "title": "Board of Peace unveils $2.45bn Gaza recovery plan"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cwlyke0mm0x3o?at_medium=RSS&at_campaign=rss",
+          "source": "www.bbc.co.uk",
+          "title": "Trump's Board of Peace unveils $2.45bn plan to begin Gaza's reconstruction",
+          "publishedAt": "2026-09-23T21:26:14.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.bbc.co.uk/news/articles/c94gm7dp40y0o?at_medium=RSS&at_campaign=rss",
+          "source": "www.bbc.co.uk",
+          "title": "Reports of violence against women in Gaza surge, UN agency finds",
+          "publishedAt": "2026-09-23T05:02:26.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.dawn.com/news/2032222/board-of-peace-unveils-245bn-gaza-recovery-plan",
+          "source": "DAWN",
+          "title": "Board of Peace unveils $2.45bn Gaza recovery plan",
+          "publishedAt": "2026-09-24"
+        }
+      ],
+      "tags": [
+        "gaza",
+        "reconstruction",
+        "humanitarian-response"
+      ],
+      "confidence": "low"
     }
   ]
 }

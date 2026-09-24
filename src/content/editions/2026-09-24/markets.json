@@ -1,9 +1,9 @@
 {
   "date": "2026-09-24",
-  "generatedAt": "2026-09-24T01:40:00.000Z",
+  "generatedAt": "2026-09-24T10:09:55Z",
   "vertical": "markets",
-  "title": "Markets: A trade-truce extension and Meta's Muse hardware",
-  "summary": "A thin early edition for Markets, with two stories. Bessent said the US-China trade truce was extended for two months as Xi began his state visit, and Meta unveiled $1,299 VR glasses and Muse hardware. This edition covers items published from 22:00 UTC on 23 September until collection at 01:02 UTC on 24 September; yields, diesel, market breadth and McDonald's are in the 23 September edition. SEC EDGAR returned HTTP 403, market data returned 404, Polymarket returned 451 and FRED was empty without a key.",
+  "title": "Markets: Treasury yields, Fed debate and oil risk",
+  "summary": "This edition retains earlier coverage of the U.S.-China trade-truce extension and Meta hardware, and adds a 30-year Treasury yield high, differing views on the rate outlook, and oil coverage tied to U.S.-Iran talks. SEC EDGAR and market-data requests failed; FRED was not configured and Polymarket was unavailable.",
   "stories": [
     {
       "slug": "us-china-trade-truce-extended-xi-visit",
@@ -141,6 +141,199 @@
         "hardware",
         "ai-agents",
         "consumer-tech"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "30-year-treasury-yield-highest-since-2004",
+      "headline": "30-year Treasury yield hits highest level since 2004",
+      "dek": "Long-dated U.S. borrowing costs rose to levels last seen in 2004 as the global bond selloff continued.",
+      "type": "DATA",
+      "readMinutes": 3,
+      "tldr": [
+        "CNBC reported that the 30-year Treasury yield reached its highest level since 2004.",
+        "Reuters reported a rise above 5.44% as bond prices fell.",
+        "The reports linked the move to stronger growth and inflation concerns and shifting expectations for Federal Reserve rates."
+      ],
+      "body": [
+        {
+          "text": "CNBC reported that the 30-year Treasury yield reached its highest level since 2004.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Reuters reported the yield rose more than three basis points to 5.444% as prices fell.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "Reuters attributed the move in part to stronger U.S. growth and inflation signals, which increased expectations of Federal Reserve rate hikes.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Higher long-term government borrowing costs affect financing conditions across the economy; this report describes the market move and does not give an investment view.",
+      "editorNote": "Reuters coverage is carried by MarketScreener. Yield figures vary by time of observation; 5.444% is Reuters’ reported intraday level.",
+      "cluster": [
+        {
+          "url": "https://www.marketscreener.com/news/u-s-30-year-bond-yield-rises-to-highest-since-2004-as-selloff-deepens-ce785adedd80f12c",
+          "source": "Reuters (via MarketScreener)",
+          "title": "U.S. 30-year bond yield rises to highest since 2004 as selloff deepens"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/09/24/us-treasury-yields-bonds-fed-inflation.html",
+          "source": "www.cnbc.com",
+          "title": "30-year Treasury yield hits highest level since 2004",
+          "publishedAt": "2026-09-24T09:36:19.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.marketscreener.com/news/u-s-30-year-bond-yield-rises-to-highest-since-2004-as-selloff-deepens-ce785adedd80f12c",
+          "source": "Reuters (via MarketScreener)",
+          "title": "U.S. 30-year bond yield rises to highest since 2004 as selloff deepens",
+          "publishedAt": "2026-09-24T09:02:00Z"
+        }
+      ],
+      "tags": [
+        "treasuries",
+        "bond-market",
+        "interest-rates",
+        "united-states"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "fed-hike-expectations-williams-and-kaplan",
+      "headline": "New York Fed’s Williams says it's 'reasonable' to expect another rate hike by year-end",
+      "dek": "New York Fed President John Williams said another rate increase by year-end was a reasonable expectation, while a former Dallas Fed chief argued markets may be pricing too many hikes.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "CNBC reported Williams said another rate hike by year-end was “reasonable” to expect.",
+        "MarketWatch reported former Dallas Fed chief Robert Kaplan’s view that markets were pricing in too many Fed hikes.",
+        "The two reports show a disagreement over the rate outlook, not a Federal Reserve decision."
+      ],
+      "body": [
+        {
+          "text": "Williams said it was reasonable to expect another rate hike by year-end, CNBC reported.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "MarketWatch reported that former Dallas Fed chief Robert Kaplan believes markets are pricing in too many Fed hikes.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "These are individual views; neither report announces a change to the Federal Open Market Committee’s target range.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Different readings of the policy outlook can move yields and expectations even before the Federal Reserve makes a decision.",
+      "editorNote": "No rate forecast is made here; the story attributes each view to its speaker and outlet.",
+      "cluster": [
+        {
+          "url": "https://www.marketwatch.com/story/the-market-is-pricing-in-too-many-fed-hikes-says-the-former-dallas-fed-chief-5de8cc3c?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "The market is pricing in too many Fed hikes, says the former Dallas Fed chief"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/09/24/feds-williams-another-rate-hike-by-year-end.html",
+          "source": "www.cnbc.com",
+          "title": "New York Fed’s Williams says it's 'reasonable' to expect another rate hike by year-end",
+          "publishedAt": "2026-09-24T09:06:18.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.marketwatch.com/story/the-market-is-pricing-in-too-many-fed-hikes-says-the-former-dallas-fed-chief-5de8cc3c?mod=mw_rss_topstories",
+          "source": "www.marketwatch.com",
+          "title": "The market is pricing in too many Fed hikes, says the former Dallas Fed chief",
+          "publishedAt": "2026-09-24T08:42:00.000Z"
+        }
+      ],
+      "tags": [
+        "federal-reserve",
+        "interest-rates",
+        "monetary-policy"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "oil-rises-amid-us-iran-talks",
+      "headline": "Oil prices rise sharply as investors seek progress on U.S.-Iran talks",
+      "dek": "Oil prices rose as traders watched for progress in U.S.-Iran talks; separate coverage also described continuing gains.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "CNBC reported oil prices rose sharply as investors sought progress in U.S.-Iran talks.",
+        "Investing.com separately reported that oil extended gains amid limited signs of progress.",
+        "The reports connect the price move to geopolitical developments but do not establish a lasting supply change."
+      ],
+      "body": [
+        {
+          "text": "CNBC reported rising oil prices as investors looked for progress in U.S.-Iran talks.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Investing.com also reported oil extending gains, describing little sign of progress in the talks.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "The headlines do not quantify a durable change in supply or provide a price forecast.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Energy prices can respond to perceived geopolitical supply risk, making the status of negotiations relevant to market volatility.",
+      "editorNote": "No oil price target or trading recommendation is offered.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/commodities-news/oil-prices-edge-lower-as-iran-says-it-is-open-to-diplomacy-to-end-the-war-4914308",
+          "source": "Investing.com",
+          "title": "Oil extends gains on little sign of progress in US-Iran talks"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/09/24/oil-iran-crude-kepler-trump-us-un-.html",
+          "source": "www.cnbc.com",
+          "title": "Oil prices rise sharply as investors seek progress on U.S.-Iran talks",
+          "publishedAt": "2026-09-24T08:39:42.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/commodities-news/oil-prices-edge-lower-as-iran-says-it-is-open-to-diplomacy-to-end-the-war-4914308",
+          "source": "www.investing.com",
+          "title": "Oil extends gains on little sign of progress in US-Iran talks",
+          "publishedAt": "2026-09-24T00:54:27.000Z"
+        }
+      ],
+      "tags": [
+        "oil",
+        "energy",
+        "iran",
+        "geopolitics"
       ],
       "confidence": "medium"
     }

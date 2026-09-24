@@ -1,9 +1,9 @@
 {
   "date": "2026-09-24",
-  "generatedAt": "2026-09-24T01:02:12.041Z",
+  "generatedAt": "2026-09-24T10:00:37.953Z",
   "verticals": {
     "ai": {
-      "items": 135,
+      "items": 134,
       "sources": [
         {
           "name": "hackernews",
@@ -33,7 +33,7 @@
       ]
     },
     "bio": {
-      "items": 91,
+      "items": 106,
       "sources": [
         {
           "name": "pubmed",
@@ -44,18 +44,18 @@
           "name": "biorxiv",
           "status": "failed",
           "count": 0,
-          "error": "biorxiv: invalid JSON: Unexpected end of JSON input"
+          "error": "biorxiv: TypeError: fetch failed"
         },
         {
           "name": "medrxiv",
           "status": "failed",
           "count": 0,
-          "error": "medrxiv: invalid JSON: Unexpected end of JSON input"
+          "error": "medrxiv: TypeError: fetch failed"
         },
         {
           "name": "openfda",
           "status": "ok",
-          "count": 8
+          "count": 11
         },
         {
           "name": "clinicaltrials",
@@ -65,12 +65,12 @@
         {
           "name": "journal_rss",
           "status": "ok",
-          "count": 30
+          "count": 45
         }
       ]
     },
     "geo": {
-      "items": 56,
+      "items": 57,
       "sources": [
         {
           "name": "gdelt",
@@ -92,7 +92,7 @@
         {
           "name": "wire",
           "status": "ok",
-          "count": 56
+          "count": 57
         },
         {
           "name": "polymarket",
@@ -103,7 +103,7 @@
       ]
     },
     "markets": {
-      "items": 102,
+      "items": 101,
       "sources": [
         {
           "name": "reddit",

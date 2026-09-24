@@ -1,0 +1,230 @@
+{
+  "date": "2026-09-24",
+  "generatedAt": "2026-09-24T10:09:55Z",
+  "vertical": "bio",
+  "title": "Bio: Three research and regulatory signals",
+  "summary": "A short edition of three items with cross-checkable primary or independent sources. The collector returned PubMed and journal records, but bioRxiv and medRxiv were unavailable; news evidence was limited, so this edition stays with studies and an FDA advisory vote. The health findings are not personal medical advice.",
+  "stories": [
+    {
+      "slug": "pediatric-glp1-nutritional-deficiencies-study",
+      "headline": "Nutritional Deficiencies, Complications, and Nutrition Therapy/Counseling in Pediatric Patients Using GLP-1 Receptor Agonists",
+      "dek": "A claims-based study reported nutritional deficiency diagnoses among pediatric GLP-1 receptor agonist users.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "The study identified 2,031 GLP-1 receptor agonist users aged 10–17 in U.S. claims data from 2017–2022.",
+        "Within one year, 16.88% had a nutritional deficiency or related complication recorded; vitamin D deficiency was most common.",
+        "This was an observational claims analysis, not evidence that the medicines caused the diagnoses."
+      ],
+      "body": [
+        {
+          "text": "The PubMed-indexed study examined 2,031 continuously enrolled patients aged 10–17 who used GLP-1 receptor agonists and had no prior nutritional-deficiency diagnosis.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The paper reports that 16.88% received a diagnosis of a nutritional deficiency or related complication within one year; vitamin D deficiency was the most common. ScienceDaily summarized the same study.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The authors used administrative claims data, so these results describe recorded diagnoses in the studied population and do not establish that treatment caused them.",
+          "citations": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "The finding concerns monitoring and study design in pediatric treatment research; it does not support individual treatment advice.",
+      "editorNote": "The headline is the primary paper title. The reported percentages come from the article abstract; claims data cannot establish causation.",
+      "cluster": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260923035926.htm",
+          "source": "ScienceDaily",
+          "title": "GLP-1 weight loss and diabetes drugs linked to nutritional deficiencies in nearly 1 in 6 children"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42751742/",
+          "source": "PubMed",
+          "title": "Nutritional Deficiencies, Complications, and Nutrition Therapy/Counseling in Pediatric Patients Using GLP-1 Receptor Agonists",
+          "publishedAt": "2026-09-17"
+        },
+        {
+          "id": 2,
+          "url": "https://www.sciencedaily.com/releases/2026/09/260923035926.htm",
+          "source": "www.sciencedaily.com",
+          "title": "GLP-1 weight loss and diabetes drugs linked to nutritional deficiencies in nearly 1 in 6 children",
+          "publishedAt": "2026-09-24T03:15:18.000Z"
+        }
+      ],
+      "tags": [
+        "pediatrics",
+        "glp-1",
+        "nutrition",
+        "clinical-research"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "uk-biobank-sleep-stages-disease-risk-study",
+      "headline": "Accelerometer-derived real-world sleep stages and risk of incident diseases: A UK Biobank cohort study and phenome-wide association analysis",
+      "dek": "A UK Biobank analysis linked measured sleep stages with later disease incidence across a broad set of outcomes.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "The PLOS Medicine study analyzed accelerometer-derived sleep stages and incident disease in a UK Biobank cohort.",
+        "It reported that greater REM sleep was associated with lower risk across 83 diseases; deep sleep was associated with lower risk across seven.",
+        "The authors describe associations; the observational cohort does not show that changing sleep stages prevents disease."
+      ],
+      "body": [
+        {
+          "text": "The primary paper describes a UK Biobank cohort and a phenome-wide association analysis of accelerometer-derived sleep stages and incident diseases.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "ScienceDaily and EurekAlert reported the study’s headline result: greater REM sleep was associated with lower risk across 83 diseases, while deep sleep was linked to seven.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "These are observational associations. They do not establish that longer REM sleep causes lower disease risk.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The breadth of the reported associations makes the result relevant to sleep research, while the observational design limits causal conclusions.",
+      "editorNote": "Study title is verbatim from PLOS Medicine. The 83-disease figure is an association, not a prevention claim.",
+      "cluster": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260923035930.htm",
+          "source": "ScienceDaily",
+          "title": "More REM sleep linked to lower risk of 83 diseases"
+        },
+        {
+          "url": "https://www.eurekalert.org/news-releases/1143646",
+          "source": "EurekAlert!",
+          "title": "REM and deep sleep, not just total sleep time, associated with disease risk"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1005213",
+          "source": "PLOS Medicine",
+          "title": "Accelerometer-derived real-world sleep stages and risk of incident diseases: A UK Biobank cohort study and phenome-wide association analysis",
+          "publishedAt": "2026-09-17"
+        },
+        {
+          "id": 2,
+          "url": "https://www.sciencedaily.com/releases/2026/09/260923035930.htm",
+          "source": "www.sciencedaily.com",
+          "title": "More REM sleep linked to lower risk of 83 diseases",
+          "publishedAt": "2026-09-24T03:58:30.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.eurekalert.org/news-releases/1143646",
+          "source": "EurekAlert!",
+          "title": "REM and deep sleep, not just total sleep time, associated with disease risk",
+          "publishedAt": "2026-09-17"
+        }
+      ],
+      "tags": [
+        "sleep",
+        "uk-biobank",
+        "observational-study",
+        "public-health"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "fda-panel-recommends-galleri-multicancer-test",
+      "headline": "STAT+: FDA advisory panel endorses Grail blood test for cancer, saying benefits outweigh risks",
+      "dek": "An FDA advisory panel backed Grail’s multi-cancer blood test on benefit-risk questions; the agency has not made its approval decision.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "STAT reported that panel members voted 7–2, with one abstention, that Galleri’s benefits outweighed its risks for the proposed indication.",
+        "NPR reported that the panel also split 6–4 on reasonable assurance of effectiveness and voted 10–0 on safety.",
+        "The panel’s recommendation is nonbinding; FDA approval remains a separate decision."
+      ],
+      "body": [
+        {
+          "text": "STAT reported that FDA advisers endorsed Galleri on the benefit-risk question, with a 7–2 vote and one abstention.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "NPR reported separate votes of 10–0 on safety and 6–4 on effectiveness. The FDA’s meeting notice confirms that the panel was asked to discuss and vote on Grail’s premarket application.",
+          "citations": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "The FDA says advisory committee recommendations are nonbinding. The vote was not an agency approval.",
+          "citations": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "The vote is a milestone for multi-cancer screening, while the split effectiveness vote and FDA’s final authority leave clinical and regulatory questions open.",
+      "editorNote": "Headline is verbatim from STAT. This report distinguishes the advisory committee vote from FDA approval and makes no screening recommendation.",
+      "cluster": [
+        {
+          "url": "https://www.nwpb.org/npr-top-stories/2026-09-23/fda-advisory-panel-recommends-a-first-multi-cancer-blood-test",
+          "source": "NPR (via NWPB)",
+          "title": "FDA advisory panel recommends a first: multi-cancer blood test"
+        },
+        {
+          "url": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/september-23-2026-molecular-and-clinical-genetics-panel-medical-devices-advisory-committee-meeting",
+          "source": "U.S. FDA",
+          "title": "September 23, 2026: Molecular and Clinical Genetics Panel of the Medical Devices Advisory Committee Meeting Announcement"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.statnews.com/2026/09/23/fda-advisory-panel-recommends-approval-grail-galleri-multi-cancer-blood-test/?utm_campaign=rss",
+          "source": "www.statnews.com",
+          "title": "STAT+: FDA advisory panel endorses Grail blood test for cancer, saying benefits outweigh risks",
+          "publishedAt": "2026-09-23T21:47:58.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.nwpb.org/npr-top-stories/2026-09-23/fda-advisory-panel-recommends-a-first-multi-cancer-blood-test",
+          "source": "NPR (via NWPB)",
+          "title": "FDA advisory panel recommends a first: multi-cancer blood test",
+          "publishedAt": "2026-09-23"
+        },
+        {
+          "id": 3,
+          "url": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/september-23-2026-molecular-and-clinical-genetics-panel-medical-devices-advisory-committee-meeting",
+          "source": "U.S. FDA",
+          "title": "September 23, 2026: Molecular and Clinical Genetics Panel of the Medical Devices Advisory Committee Meeting Announcement",
+          "publishedAt": "2026-09-21"
+        }
+      ],
+      "tags": [
+        "fda",
+        "cancer-screening",
+        "diagnostics",
+        "regulation"
+      ],
+      "confidence": "high"
+    }
+  ]
+}
