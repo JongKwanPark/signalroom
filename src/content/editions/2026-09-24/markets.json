@@ -1,0 +1,148 @@
+{
+  "date": "2026-09-24",
+  "generatedAt": "2026-09-24T01:40:00.000Z",
+  "vertical": "markets",
+  "title": "Markets: A trade-truce extension and Meta's Muse hardware",
+  "summary": "A thin early edition for Markets, with two stories. Bessent said the US-China trade truce was extended for two months as Xi began his state visit, and Meta unveiled $1,299 VR glasses and Muse hardware. This edition covers items published from 22:00 UTC on 23 September until collection at 01:02 UTC on 24 September; yields, diesel, market breadth and McDonald's are in the 23 September edition. SEC EDGAR returned HTTP 403, market data returned 404, Polymarket returned 451 and FRED was empty without a key.",
+  "stories": [
+    {
+      "slug": "us-china-trade-truce-extended-xi-visit",
+      "headline": "U.S.-China trade truce extended for two months, Bessent says, as Xi begins state visit",
+      "dek": "The truce extension landed on the first day of Xi Jinping's state visit.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "Bessent said the US-China trade truce has been extended for two months as Xi Jinping began a state visit, CNBC reported.",
+        "Investing.com carried the same development as Trump welcomed Xi.",
+        "A widely shared r/wallstreetbets post cited Bessent as saying the truce was extended to Jan. 10."
+      ],
+      "body": [
+        {
+          "text": "The US-China trade truce was extended for two months, Bessent said, as Xi began his state visit, CNBC reported.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Investing.com reported that the US says the China trade truce was extended as Trump welcomes Xi.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "A post on r/wallstreetbets cited Bessent as saying the two sides agreed to extend the truce to Jan. 10.",
+          "citations": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "A two-month extension defers rather than resolves tariff risk for supply chains and earnings guidance, and the new deadline becomes the next event date for markets. It also sets the tone for the state visit covered in Geopolitics.",
+      "editorNote": "The Jan. 10 date comes from a Reddit post attributing it to Bessent and was not confirmed in the other headlines; the terms of the extension were not in the collected data. No investment view is expressed.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/stock-market-news/trump-plans-grand-spectacle-for-potentially-tense-xi-talks-4912458",
+          "source": "Investing.com",
+          "title": "US says China trade truce extended as Trump welcomes Xi"
+        },
+        {
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1wokft4/bessent_says_us_china_agreed_to_extend_trade/",
+          "source": "Reddit r/wallstreetbets",
+          "title": "Bessent Says US, China Agreed to Extend Trade Truce to Jan. 10"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/09/24/us-china-trade-truce-bessent-trump-xi.html",
+          "source": "CNBC",
+          "title": "U.S.-China trade truce extended for two months, Bessent says, as Xi begins state visit",
+          "publishedAt": "2026-09-23T23:59:39.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/stock-market-news/trump-plans-grand-spectacle-for-potentially-tense-xi-talks-4912458",
+          "source": "Investing.com",
+          "title": "US says China trade truce extended as Trump welcomes Xi",
+          "publishedAt": "2026-09-23T15:54:27.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1wokft4/bessent_says_us_china_agreed_to_extend_trade/",
+          "source": "Reddit r/wallstreetbets",
+          "title": "Bessent Says US, China Agreed to Extend Trade Truce to Jan. 10",
+          "publishedAt": "2026-09-23T22:34:40.000Z"
+        }
+      ],
+      "tags": [
+        "us-china",
+        "trade",
+        "tariffs",
+        "bessent"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "meta-vr-glasses-muse-devices",
+      "headline": "Mark Zuckerberg debuts $1,299 Meta VR Glasses and Muse Charm pendant amid AI agent push",
+      "dek": "Meta put new hardware behind its Muse assistant.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "Zuckerberg unveiled $1,299 Meta VR Glasses and a Muse Charm pendant amid Meta's AI agent push, CNBC reported.",
+        "Investing.com reported Meta debuted a new handheld device dedicated to using Muse.",
+        "The headlines do not make clear whether the handheld device and the Muse Charm pendant are the same product."
+      ],
+      "body": [
+        {
+          "text": "Mark Zuckerberg debuted $1,299 Meta VR Glasses and a Muse Charm pendant amid Meta's AI agent push, CNBC reported.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Investing.com reported that Meta debuted a new handheld device dedicated to using Muse.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Dedicated hardware for Meta's Muse assistant extends the AI-agent race from software into devices, putting Meta more directly against phone platforms for the default AI interface and raising the spending stakes behind its AI push.",
+      "editorNote": "Shipping dates and pricing beyond the $1,299 glasses were not in the collected data. No investment view is expressed.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/stock-market-news/meta-debuts-new-handheld-device-dedicated-to-using-muse-4914274",
+          "source": "Investing.com",
+          "title": "Meta debuts new handheld device dedicated to using Muse"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/09/23/mark-zuckerberg-1299-meta-vr-glasses-ai-agent.html",
+          "source": "CNBC",
+          "title": "Mark Zuckerberg debuts $1,299 Meta VR Glasses and Muse Charm pendant amid AI agent push"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/09/23/mark-zuckerberg-1299-meta-vr-glasses-ai-agent.html",
+          "source": "CNBC",
+          "title": "Mark Zuckerberg debuts $1,299 Meta VR Glasses and Muse Charm pendant amid AI agent push",
+          "publishedAt": "2026-09-24T00:50:48.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/stock-market-news/meta-debuts-new-handheld-device-dedicated-to-using-muse-4914274",
+          "source": "Investing.com",
+          "title": "Meta debuts new handheld device dedicated to using Muse",
+          "publishedAt": "2026-09-23T15:41:32.000Z"
+        }
+      ],
+      "tags": [
+        "meta",
+        "hardware",
+        "ai-agents",
+        "consumer-tech"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

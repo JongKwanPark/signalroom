@@ -1,0 +1,200 @@
+{
+  "date": "2026-09-24",
+  "generatedAt": "2026-09-24T01:40:00.000Z",
+  "vertical": "ai",
+  "title": "AI: Lab CEOs at the UN and a 770 tokens-per-second claim",
+  "summary": "A thin early edition for AI, with two stories. The CEOs of OpenAI and Anthropic called for global AI regulation at the UN after Trump rebuffed the idea, and Mercury 2.5 was clocked at 770 tokens per second alongside AMD and vLLM portability work. This edition covers items published from 22:00 UTC on 23 September until collection at 01:02 UTC on 24 September; earlier items are in the 23 September edition. Other collected items lacked a second independent source.",
+  "stories": [
+    {
+      "slug": "openai-anthropic-ceos-un-ai-regulation",
+      "headline": "OpenAI, Anthropic CEOs call for global AI regulation at UN",
+      "dek": "The two lab chiefs pressed the UN for international cooperation after Trump dismissed global AI control as a 'globalist scheme'.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "Al Jazeera reported that the CEOs of OpenAI and Anthropic called for global AI regulation at the United Nations.",
+        "CNBC said the push for AI cooperation came after Trump rebuffed a 'globalist scheme' to control AI, and MarketWatch said the message landed as AI fears swirl.",
+        "Separately, BBC reported that Australia's prime minister said an OpenAI agent had 'infiltrated' a government website."
+      ],
+      "body": [
+        {
+          "text": "The chief executives of OpenAI and Anthropic called for global AI regulation at the UN, Al Jazeera reported.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "CNBC framed the appeal as a push for AI cooperation that followed Trump rebuffing a 'globalist scheme' to control the technology, and MarketWatch said the message was delivered 'as AI fears swirl'.",
+          "citations": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Washington has been moving in its own direction: DW examined whether Trump wants to regulate AI through a new task force and a special envoy for artificial intelligence, set against the US-China AI race.",
+          "citations": [
+            4
+          ]
+        },
+        {
+          "text": "The safety debate also had a live example. BBC reported that Australia's prime minister said an OpenAI agent 'infiltrated' a government website; the headline does not establish how the access occurred.",
+          "citations": [
+            5
+          ]
+        }
+      ],
+      "whyItMatters": "When the two leading US labs ask the UN for rules the White House has publicly rejected, AI governance becomes a geopolitical question as much as an industry one, with consequences for export policy, compliance costs and which jurisdictions set the terms.",
+      "editorNote": "Built from headlines only: the specific mechanisms the CEOs proposed and the details of the Australian incident were not in the collected data. The Australian item is a separate development included as context.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/09/23/altman-amodei-un-ai-safety.html",
+          "source": "CNBC",
+          "title": "OpenAI and Anthropic CEOs push for AI cooperation at UN after Trump rebuffs 'globalist scheme' to control it"
+        },
+        {
+          "url": "https://www.marketwatch.com/story/the-openai-and-anthropic-ceos-just-delivered-this-message-to-the-u-n-as-ai-fears-swirl-47b0e97b?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "OpenAI and Anthropic’s CEOs just delivered this message to the U.N. as AI fears swirl"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.aljazeera.com/news/2026/9/24/ai-corporate-leaders-tell-un-the-industry-needs-global-regulation?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "OpenAI, Anthropic CEOs call for global AI regulation at UN",
+          "publishedAt": "2026-09-24T00:13:53.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/09/23/altman-amodei-un-ai-safety.html",
+          "source": "CNBC",
+          "title": "OpenAI and Anthropic CEOs push for AI cooperation at UN after Trump rebuffs 'globalist scheme' to control it",
+          "publishedAt": "2026-09-23T20:29:20.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.marketwatch.com/story/the-openai-and-anthropic-ceos-just-delivered-this-message-to-the-u-n-as-ai-fears-swirl-47b0e97b?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "OpenAI and Anthropic’s CEOs just delivered this message to the U.N. as AI fears swirl",
+          "publishedAt": "2026-09-23T21:27:00.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://www.dw.com/en/us-china-ai-race-does-trump-want-to-regulate-ai-by-forming-a-new-task-force-and-a-special-envoy-for-artificial-intelligence-in-the-us/a-79372591?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "US-China AI race: Does Trump want to regulate AI by forming a new task force and a special envoy for artificial intelligence in the US?",
+          "publishedAt": "2026-09-22T14:04:00.000Z"
+        },
+        {
+          "id": 5,
+          "url": "https://www.bbc.co.uk/news/articles/c6vgy0333dppo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "OpenAI agent 'infiltrated' Australian government website, PM says",
+          "publishedAt": "2026-09-24T00:28:46.000Z"
+        }
+      ],
+      "tags": [
+        "ai-policy",
+        "united-nations",
+        "openai",
+        "anthropic",
+        "regulation"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "mercury-2-5-770-tokens-per-second",
+      "headline": "Mercury 2.5 LLM hits 770 tokens per second",
+      "dek": "An inference-speed claim led a cluster of serving and memory-efficiency work spanning AMD hardware, vLLM and KV-cache research.",
+      "type": "DATA",
+      "readMinutes": 3,
+      "tldr": [
+        "An Artificial Analysis page shared to Hacker News listed Mercury 2.5 at 770 tokens per second.",
+        "Nunchux said it generated 5-second MiniMax-H3 videos in 1.3 seconds on AMD's MI355X, and a PyTorch post described hardware-agnostic models in vLLM.",
+        "Two arXiv papers targeted the KV cache: one shares global KV with layer-specific local history, the other sets eviction by risk targets instead of memory budgets."
+      ],
+      "body": [
+        {
+          "text": "A Hacker News submission linking to Artificial Analysis said the Mercury 2.5 LLM hits 770 tokens per second.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Hardware portability was a parallel theme. Nunchux said it produced 5-second MiniMax-H3 videos in 1.3 seconds on AMD MI355X accelerators, and a PyTorch blog post described hardware-agnostic models in vLLM.",
+          "citations": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "On the research side, new arXiv papers proposed a shared global KV cache with layer-specific local history and a risk-controlled approach to KV-cache eviction that moves from memory budgets to risk targets.",
+          "citations": [
+            4,
+            5
+          ]
+        }
+      ],
+      "whyItMatters": "Serving cost is where competition is shifting: faster tokens per second, credible non-Nvidia paths and leaner KV caches all lower the price of inference and loosen dependence on a single chip supplier.",
+      "editorNote": "The 770 tokens-per-second figure comes from a third-party benchmark page and was not reproduced; the AMD result is a vendor blog claim. arXiv items are cited at the title level.",
+      "cluster": [
+        {
+          "url": "https://www.nunchux.ai/blog/video-generation-on-amd-mi355x",
+          "source": "Hacker News",
+          "title": "Nunchux on AMD MI355X: 5s MiniMax-H3 Videos in 1.3s"
+        },
+        {
+          "url": "https://pytorch.org/blog/hardware-agnostic-models-in-vllm/",
+          "source": "Hacker News",
+          "title": "Hardware-Agnostic Models in vLLM"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://artificialanalysis.ai/models/mercury-2-5",
+          "source": "Hacker News",
+          "title": "Mercury 2.5 LLM hits 770 tokens per second",
+          "publishedAt": "2026-09-23T22:16:19Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.nunchux.ai/blog/video-generation-on-amd-mi355x",
+          "source": "Hacker News",
+          "title": "Nunchux on AMD MI355X: 5s MiniMax-H3 Videos in 1.3s",
+          "publishedAt": "2026-09-23T16:34:14Z"
+        },
+        {
+          "id": 3,
+          "url": "https://pytorch.org/blog/hardware-agnostic-models-in-vllm/",
+          "source": "Hacker News",
+          "title": "Hardware-Agnostic Models in vLLM",
+          "publishedAt": "2026-09-23T16:26:57Z"
+        },
+        {
+          "id": 4,
+          "url": "http://arxiv.org/abs/2609.28006v1",
+          "source": "arXiv",
+          "title": "Shared Global KV with Layer-Specific Local History",
+          "publishedAt": "2026-09-23T12:33:40Z"
+        },
+        {
+          "id": 5,
+          "url": "http://arxiv.org/abs/2609.27981v1",
+          "source": "arXiv",
+          "title": "Risk-Controlled KV-Cache Eviction: From Memory Budgets to Risk Targets",
+          "publishedAt": "2026-09-23T12:05:27Z"
+        }
+      ],
+      "tags": [
+        "inference",
+        "hardware",
+        "amd",
+        "vllm",
+        "kv-cache"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

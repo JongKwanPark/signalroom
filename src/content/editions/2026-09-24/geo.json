@@ -1,0 +1,107 @@
+{
+  "date": "2026-09-24",
+  "generatedAt": "2026-09-24T01:40:00.000Z",
+  "vertical": "geo",
+  "title": "Geo: Xi arrives in Washington",
+  "summary": "A thin early edition for Geopolitics, with one story. Xi Jinping arrived for a three-day state visit, greeted by Trump at his plane, with AI rivalry and a newly extended trade truce on the agenda. This edition covers items published from 22:00 UTC on 23 September until collection at 01:02 UTC on 24 September; Iran, Tigray, the UN, Poland and Gaza are in the 23 September edition. Other items in the window lacked a second independent source. GDELT failed to fetch, ISW returned HTTP 403, Polymarket returned HTTP 451 and ReliefWeb was empty.",
+  "stories": [
+    {
+      "slug": "trump-xi-state-visit-washington",
+      "headline": "Trump greets Xi Jinping at plane as Chinese leader arrives for state visit",
+      "dek": "Xi Jinping began a three-day US trip with trade and AI competition at the top of the agenda.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "Trump greeted Xi Jinping at his plane as the Chinese leader arrived for a state visit, the Guardian reported.",
+        "Al Jazeera described a three-day US trip and said Trump is betting on stabilising global relations.",
+        "BBC said AI superpower ambitions were taking centre stage, and CNBC reported Bessent said the US-China trade truce had been extended for two months as the visit began."
+      ],
+      "body": [
+        {
+          "text": "Trump greeted Xi Jinping at his plane as the Chinese leader arrived for a state visit, the Guardian reported.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Al Jazeera reported the arrival as the start of a three-day US trip and said Trump is betting on stabilising global relations.",
+          "citations": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "BBC said AI superpower ambitions were taking centre stage as the two leaders met.",
+          "citations": [
+            4
+          ]
+        },
+        {
+          "text": "The economic track moved first: CNBC reported Bessent said the US-China trade truce had been extended for two months as Xi began the visit.",
+          "citations": [
+            5
+          ]
+        }
+      ],
+      "whyItMatters": "The visit bundles trade, technology and security into one negotiation: a truce extension eases near-term tariff risk for markets, while AI rivalry keeps chips and supply chains on the table. It is the day's clearest cross-vertical signal.",
+      "editorNote": "Headline-level wire coverage; outcomes of the talks had not been reported at the time of collection. The trade-truce detail is covered in Markets.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/23/chinas-xi-arrives-to-trump-welcome-on-state-visit?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "China’s Xi arrives to Trump welcome on state visit"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c6gqdgg8w59xo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "AI superpower ambitions take centre stage as Trump and Xi meet"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.theguardian.com/us-news/2026/sep/23/trump-xi-jinping-china-us-state-visit",
+          "source": "The Guardian",
+          "title": "Trump greets Xi Jinping at plane as Chinese leader arrives for state visit",
+          "publishedAt": "2026-09-23T23:30:50.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/news/2026/9/23/trump-meets-chinas-xi-jinping-at-us-airport-on-arrival-for-three-day-trip?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Trump greets China’s Xi Jinping on arrival for three-day US trip",
+          "publishedAt": "2026-09-23T22:56:41.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/aje-onl-nf_trump-hosts-xi-amid-rising-tensions-1-230926?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "China’s Xi visits US as Trump bets on stabilising global relations",
+          "publishedAt": "2026-09-24T00:43:10.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://www.bbc.co.uk/news/articles/c6gqdgg8w59xo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "AI superpower ambitions take centre stage as Trump and Xi meet",
+          "publishedAt": "2026-09-23T22:01:17.000Z"
+        },
+        {
+          "id": 5,
+          "url": "https://www.cnbc.com/2026/09/24/us-china-trade-truce-bessent-trump-xi.html",
+          "source": "CNBC",
+          "title": "U.S.-China trade truce extended for two months, Bessent says, as Xi begins state visit",
+          "publishedAt": "2026-09-23T23:59:39.000Z"
+        }
+      ],
+      "tags": [
+        "us-china",
+        "xi-jinping",
+        "trump",
+        "state-visit",
+        "trade"
+      ],
+      "confidence": "high"
+    }
+  ]
+}
