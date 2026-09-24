@@ -11,6 +11,7 @@ export const GET: APIRoute = async (context) => {
     title: SITE.name,
     description: SITE.description,
     site: context.site ?? SITE.url,
+    trailingSlash: false,
     items: refs.slice(0, RSS_ITEM_CAP).map((ref) => ({
       title: ref.story.headline,
       link: ref.href,

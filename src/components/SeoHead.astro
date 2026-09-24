@@ -1,6 +1,6 @@
 ---
 import { SITE } from '../lib/site';
-import { absoluteUrl, canonicalUrl, type JsonLd } from '../lib/seo';
+import { absoluteUrl, canonicalUrl, organizationJsonLd, type JsonLd } from '../lib/seo';
 
 interface Props {
   title: string;
@@ -28,9 +28,10 @@ const {
 
 const canonical = canonicalUrl(path ?? Astro.url.pathname);
 const imageUrl = image ? absoluteUrl(image) : undefined;
-const blocks = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
+const blocks = [organizationJsonLd(), ...(jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [])];
 ---
 
+<title>{title}</title>
 <meta name="description" content={description} />
 <link rel="canonical" href={canonical} />
 {noindex && <meta name="robots" content="noindex" />}

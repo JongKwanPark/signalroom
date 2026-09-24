@@ -40,8 +40,10 @@ const position = siblings.findIndex((item) => item.slug === ref.slug);
 const previous = position > 0 ? siblings[position - 1] : null;
 const following = position >= 0 && position < siblings.length - 1 ? siblings[position + 1] : null;
 
+const ogImage = `/og/${ref.slug}.png`;
+
 const jsonLd = [
-  articleJsonLd(ref),
+  articleJsonLd(ref, { image: ogImage }),
   breadcrumbJsonLd([
     { name: 'Home', path: '/' },
     { name: meta.name, path: verticalHref(vertical) },
@@ -64,7 +66,7 @@ function hostname(url: string): string {
   description={story.dek ?? story.tldr[0]}
   path={ref.href}
   type="article"
-  image={`/og/${ref.slug}.png`}
+  image={ogImage}
   publishedTime={ref.generatedAt}
   modifiedTime={ref.generatedAt}
   jsonLd={jsonLd}

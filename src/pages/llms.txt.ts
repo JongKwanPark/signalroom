@@ -2,6 +2,7 @@ import type { APIRoute } from 'astro';
 import { allStoryRefs, editionHref, getEditions, newestDate, verticalHref } from '../lib/editions';
 import { SITE, VERTICALS, VERTICAL_META } from '../lib/site';
 import { formatDateLong } from '../lib/format';
+import { absoluteUrl } from '../lib/seo';
 
 export const GET: APIRoute = async () => {
   const editions = await getEditions();
@@ -23,18 +24,18 @@ export const GET: APIRoute = async () => {
     '## Vertical feeds',
     '',
     ...VERTICALS.map(
-      (vertical) => `- [${verticalHref(vertical)}](${verticalHref(vertical)}): ${VERTICAL_META[vertical].name} — ${VERTICAL_META[vertical].blurb}`,
+      (vertical) => `- [${verticalHref(vertical)}](${absoluteUrl(verticalHref(vertical))}): ${VERTICAL_META[vertical].name} — ${VERTICAL_META[vertical].blurb}`,
     ),
     '',
   ];
 
   if (latest) {
-    lines.push('## Latest edition', '', `- [${formatDateLong(latest)}](${editionHref(latest)}) — full edition page`, '');
+    lines.push('## Latest edition', '', `- [${formatDateLong(latest)}](${absoluteUrl(editionHref(latest))}) — full edition page`, '');
     lines.push('## Recent stories', '');
     lines.push(
       ...refs
         .slice(0, 12)
-        .map((ref) => `- [${ref.story.headline}](${ref.href}) (${ref.vertical.toUpperCase()}, ${ref.date})`),
+        .map((ref) => `- [${ref.story.headline}](${absoluteUrl(ref.href)}) (${ref.vertical.toUpperCase()}, ${ref.date})`),
     );
   } else {
     lines.push('## Latest edition', '', '- No editions published yet.', '');
@@ -44,12 +45,12 @@ export const GET: APIRoute = async () => {
     '',
     '## Policies and machine-readable endpoints',
     '',
-    '- [Editorial standards](/standards): AI-use disclosure, sourcing rules, corrections, independence.',
-    '- [About](/about): scope and how the digest is produced and built.',
-    '- [Source registry](/sources): publications and datasets the pipeline collects from.',
-    '- [/rss.xml](/rss.xml): newest stories, all verticals.',
-    '- [/search-index.json](/search-index.json): static JSON index for search.',
-    '- [/sitemap-index.xml](/sitemap-index.xml): all indexable routes.',
+    `- [Editorial standards](${absoluteUrl('/standards')}): AI-use disclosure, sourcing rules, corrections, independence.`,
+    `- [About](${absoluteUrl('/about')}): scope and how the digest is produced and built.`,
+    `- [Source registry](${absoluteUrl('/sources')}): publications and datasets the pipeline collects from.`,
+    `- [/rss.xml](${absoluteUrl('/rss.xml')}): newest stories, all verticals.`,
+    `- [/search-index.json](${absoluteUrl('/search-index.json')}): static JSON index for search.`,
+    `- [/sitemap-index.xml](${absoluteUrl('/sitemap-index.xml')}): all indexable routes.`,
     '',
     '## Preferred citation',
     '',

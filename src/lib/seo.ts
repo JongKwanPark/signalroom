@@ -13,11 +13,30 @@ export function absoluteUrl(pathname: string): string {
   return new URL(pathname.startsWith('/') ? pathname : `/${pathname}`, `${SITE.url}/`).href;
 }
 
+// Square PNG rendered from public/brand/logo-mark.svg (Google requires a raster logo).
+const LOGO = { path: '/brand/logo-mark.png', width: 480, height: 480 } as const;
+
 export function publisherJsonLd(): JsonLd {
   return {
-    '@type': 'Organization',
+    '@type': 'NewsMediaOrganization',
+    '@id': `${SITE.url}/#organization`,
     name: SITE.name,
     url: SITE.url,
+    logo: {
+      '@type': 'ImageObject',
+      url: absoluteUrl(LOGO.path),
+      width: LOGO.width,
+      height: LOGO.height,
+    },
+  };
+}
+
+export function organizationJsonLd(): JsonLd {
+  return {
+    '@context': 'https://schema.org',
+    ...publisherJsonLd(),
+    description: SITE.description,
+    publishingPrinciples: absoluteUrl('/standards'),
   };
 }
 
