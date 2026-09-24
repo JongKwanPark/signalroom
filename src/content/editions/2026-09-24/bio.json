@@ -1,9 +1,9 @@
 {
   "date": "2026-09-24",
-  "generatedAt": "2026-09-24T10:09:55Z",
+  "generatedAt": "2026-09-24T22:04:24.492Z",
   "vertical": "bio",
   "title": "Bio: Three research and regulatory signals",
-  "summary": "A short edition of three items with cross-checkable primary or independent sources. The collector returned PubMed and journal records, but bioRxiv and medRxiv were unavailable; news evidence was limited, so this edition stays with studies and an FDA advisory vote. The health findings are not personal medical advice.",
+  "summary": "A short edition of three stories with cross-checkable primary or independent sources. This collection added related reporting on unanswered variation in GLP-1 response; bioRxiv and medRxiv both failed with invalid JSON, limiting those feeds. The health findings are not personal medical advice.",
   "stories": [
     {
       "slug": "pediatric-glp1-nutritional-deficiencies-study",
@@ -14,7 +14,7 @@
       "tldr": [
         "The study identified 2,031 GLP-1 receptor agonist users aged 10–17 in U.S. claims data from 2017–2022.",
         "Within one year, 16.88% had a nutritional deficiency or related complication recorded; vitamin D deficiency was most common.",
-        "This was an observational claims analysis, not evidence that the medicines caused the diagnoses."
+        "The claims result is observational; separately, Nature reports continuing research into why GLP-1 drugs do not help some people lose weight."
       ],
       "body": [
         {
@@ -35,6 +35,12 @@
           "citations": [
             1
           ]
+        },
+        {
+          "text": "Separately, Nature reports that researchers are investigating why some people taking GLP-1 drugs do not lose weight; this broader efficacy question is distinct from the pediatric claims analysis summarized above.",
+          "citations": [
+            3
+          ]
         }
       ],
       "whyItMatters": "The finding concerns monitoring and study design in pediatric treatment research; it does not support individual treatment advice.",
@@ -44,6 +50,11 @@
           "url": "https://www.sciencedaily.com/releases/2026/09/260923035926.htm",
           "source": "ScienceDaily",
           "title": "GLP-1 weight loss and diabetes drugs linked to nutritional deficiencies in nearly 1 in 6 children"
+        },
+        {
+          "url": "https://www.nature.com/articles/d41586-026-03020-3",
+          "source": "Nature",
+          "title": "GLP-1 drugs fail to help some people lose weight — scientists are on a quest for answers"
         }
       ],
       "sources": [
@@ -60,6 +71,13 @@
           "source": "www.sciencedaily.com",
           "title": "GLP-1 weight loss and diabetes drugs linked to nutritional deficiencies in nearly 1 in 6 children",
           "publishedAt": "2026-09-24T03:15:18.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.nature.com/articles/d41586-026-03020-3",
+          "source": "Nature",
+          "title": "GLP-1 drugs fail to help some people lose weight — scientists are on a quest for answers",
+          "publishedAt": "2026-09-24T00:00:00.000Z"
         }
       ],
       "tags": [

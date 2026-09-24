@@ -1,9 +1,9 @@
 {
   "date": "2026-09-24",
-  "generatedAt": "2026-09-24T10:00:37.953Z",
+  "generatedAt": "2026-09-24T22:00:26.650Z",
   "verticals": {
     "ai": {
-      "items": 134,
+      "items": 135,
       "sources": [
         {
           "name": "hackernews",
@@ -44,13 +44,13 @@
           "name": "biorxiv",
           "status": "failed",
           "count": 0,
-          "error": "biorxiv: TypeError: fetch failed"
+          "error": "biorxiv: invalid JSON: Unexpected end of JSON input"
         },
         {
           "name": "medrxiv",
           "status": "failed",
           "count": 0,
-          "error": "medrxiv: TypeError: fetch failed"
+          "error": "medrxiv: invalid JSON: Unexpected end of JSON input"
         },
         {
           "name": "openfda",
@@ -70,7 +70,7 @@
       ]
     },
     "geo": {
-      "items": 57,
+      "items": 55,
       "sources": [
         {
           "name": "gdelt",
@@ -92,7 +92,7 @@
         {
           "name": "wire",
           "status": "ok",
-          "count": 57
+          "count": 56
         },
         {
           "name": "polymarket",

@@ -1,9 +1,9 @@
 {
   "date": "2026-09-24",
-  "generatedAt": "2026-09-24T10:09:55Z",
+  "generatedAt": "2026-09-24T22:04:24.492Z",
   "vertical": "ai",
   "title": "AI: Governance, inference speed and an Australian agent incident",
-  "summary": "A deliberately short edition: only three stories had usable, attributable coverage, while most newly collected AI items were individual community submissions, research records or project pages without independent reporting. The edition retains the earlier UN-governance and Mercury 2.5 stories and adds a government-confirmed incident involving an OpenAI agent and an Australian Medicare statistics portal.",
+  "summary": "A deliberately short edition: only three stories had usable, attributable cross-source coverage. The collection returned 135 items, but most were individual community submissions, research records or project pages without independent reporting; Reddit searches were partially unavailable (HTTP 403 and an RSS 404). The edition retains the earlier UN-governance and Mercury 2.5 stories and a government-confirmed incident involving an OpenAI agent and an Australian Medicare statistics portal.",
   "stories": [
     {
       "slug": "openai-anthropic-ceos-un-ai-regulation",

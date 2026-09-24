@@ -1,9 +1,9 @@
 {
   "date": "2026-09-24",
-  "generatedAt": "2026-09-24T10:09:55Z",
+  "generatedAt": "2026-09-24T22:04:24.492Z",
   "vertical": "geo",
   "title": "Geo: Xi’s visit, regional flashpoints and a Gaza plan",
-  "summary": "This edition keeps the earlier Xi visit report and adds four developments: renewed accusations and fighting in Tigray, a court ruling on White House press access, missing F-35 components under investigation, and a reported Gaza reconstruction plan. GDELT, ISW and Polymarket were unavailable; ReliefWeb returned no items.",
+  "summary": "A short edition of six cross-checked developments, including renewed tensions in Tigray, Gaza reconstruction plans, and a walkout during Netanyahu’s UN appearance. GDELT failed, ISW returned HTTP 403, Polymarket returned HTTP 451, and ReliefWeb returned no items.",
   "stories": [
     {
       "slug": "trump-xi-state-visit-washington",
@@ -372,6 +372,58 @@
         "humanitarian-response"
       ],
       "confidence": "low"
+    },
+    {
+      "slug": "netanyahu-defends-military-action-at-un",
+      "headline": "Netanyahu defends Israeli military action as delegates walk out before UN speech",
+      "dek": "Reports differ on the timing of the walkout during the Israeli leader’s United Nations appearance.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "The BBC reported that Netanyahu defended Israeli military action as delegates walked out before his UN speech.",
+        "Al Jazeera separately reported delegates walking out of Netanyahu’s UN speech.",
+        "The collected headlines differ on timing, so they do not establish exactly when the walkout occurred."
+      ],
+      "body": [
+        {
+          "text": "The BBC headline says Netanyahu defended Israeli military action as delegates walked out before his UN speech. Al Jazeera also reported a walkout, but its headline places it during the speech; the collection does not resolve that timing difference.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The disagreement in timing is a reminder to distinguish the confirmed walkout from the sequence described by each outlet.",
+      "editorNote": "Coverage is limited to two collected headlines; no transcript or independent event record was present in this vertical source file.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/delegates-walk-out-of-netanyahus-un-speech?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Delegates walk out of Netanyahu’s UN speech"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c3y0z7kxlegdo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Netanyahu defends Israeli military action as delegates walk out before UN speech",
+          "publishedAt": "2026-09-24T21:21:47.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/delegates-walk-out-of-netanyahus-un-speech?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Delegates walk out of Netanyahu’s UN speech",
+          "publishedAt": "2026-09-24T19:18:29.000Z"
+        }
+      ],
+      "tags": [
+        "United Nations",
+        "Israel",
+        "diplomacy"
+      ],
+      "confidence": "medium"
     }
   ]
 }

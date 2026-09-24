@@ -1,9 +1,9 @@
 {
   "date": "2026-09-24",
-  "generatedAt": "2026-09-24T10:09:55Z",
+  "generatedAt": "2026-09-24T22:04:24.492Z",
   "vertical": "markets",
   "title": "Markets: Treasury yields, Fed debate and oil risk",
-  "summary": "This edition retains earlier coverage of the U.S.-China trade-truce extension and Meta hardware, and adds a 30-year Treasury yield high, differing views on the rate outlook, and oil coverage tied to U.S.-Iran talks. SEC EDGAR and market-data requests failed; FRED was not configured and Polymarket was unavailable.",
+  "summary": "A short edition of six stories, retaining earlier coverage of the US-China trade truce, Meta devices, Treasury yields, rate expectations, and oil while adding Oracle’s data-center notice. SEC EDGAR returned HTTP 403, market-data quotes returned HTTP 404, Polymarket returned HTTP 451, and FRED was not configured.",
   "stories": [
     {
       "slug": "us-china-trade-truce-extended-xi-visit",
@@ -334,6 +334,65 @@
         "energy",
         "iran",
         "geopolitics"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "oracle-data-center-force-majeure-notice",
+      "headline": "Oracle sends 'force majeure' notice about data center project — stock drops 3%",
+      "dek": "CNBC reported the notice and a same-day share-price decline; MarketWatch described investor concern about a data-center setback.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "CNBC reported that Oracle sent a force majeure notice concerning a data-center project and that its stock fell 3%.",
+        "MarketWatch separately reported that investors were concerned about a data-center setback.",
+        "The collected headlines do not specify the project’s contractual details or the notice’s expected financial effect."
+      ],
+      "body": [
+        {
+          "text": "CNBC reported that Oracle sent a force majeure notice about a data-center project and said the stock fell 3%. MarketWatch separately framed the move as investor concern about a data-center setback.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Neither headline provides the notice text, the project timeline, or a quantified effect on Oracle’s financial outlook; those details remain unverified in this collection.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The reports connect a project disruption notice with a market reaction, while leaving the scale and duration of the underlying impact unclear.",
+      "editorNote": "This is a report on a company event and market reaction, not investment advice.",
+      "cluster": [
+        {
+          "url": "https://www.marketwatch.com/story/oracles-stock-is-falling-as-investors-fear-a-data-center-setback-d8105ef9?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Oracle&#x2019;s stock is falling as investors fear a data-center setback"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/09/24/oracle-data-center-force-majeure.html",
+          "source": "CNBC",
+          "title": "Oracle sends 'force majeure' notice about data center project — stock drops 3%",
+          "publishedAt": "2026-09-24T20:00:31.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.marketwatch.com/story/oracles-stock-is-falling-as-investors-fear-a-data-center-setback-d8105ef9?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Oracle&#x2019;s stock is falling as investors fear a data-center setback",
+          "publishedAt": "2026-09-24T20:12:00.000Z"
+        }
+      ],
+      "tags": [
+        "Oracle",
+        "data centers",
+        "markets"
       ],
       "confidence": "medium"
     }
