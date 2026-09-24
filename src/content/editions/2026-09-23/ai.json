@@ -1,0 +1,168 @@
+{
+  "date": "2026-09-23",
+  "generatedAt": "2026-09-24T01:40:00.000Z",
+  "vertical": "ai",
+  "title": "AI: Jev evaluations and model-swapping tools for coding agents",
+  "summary": "A thin day for AI in this edition, with two stories. An arXiv paper found matching scores but different decisions when Jev and language models were tested on legal documents, alongside a community test on 770 AITA posts and more Jev tooling on GitHub. Separately, a menu-bar tool for running coding agents on other providers' models appeared as practitioners discussed splitting work across models. This edition covers items published before 22:00 UTC on 23 September; later items, including the OpenAI and Anthropic CEOs' UN appeal and the Mercury 2.5 speed figure, are in the 24 September edition. Other collected items lacked a second independent source.",
+  "stories": [
+    {
+      "slug": "jev-legal-decisions-evaluations",
+      "headline": "Same Scores, Different Decisions: Evaluating JEV and Language Models for Legal Document Understanding",
+      "dek": "A new arXiv paper and a community benchmark both tested Jev against conventional LLMs, while the tooling around it kept growing.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "An arXiv paper titled 'Same Scores, Different Decisions' evaluated TypeSafe's Jev against language models on legal document understanding.",
+        "A Hacker News submission compared Jev with LLMs on 770 'Am I the Asshole?' posts.",
+        "GitHub projects offered to turn any LLM into a Jev-style decision model and catalogued 805 verified Jev examples, while a reply assistant from the jev-chat project passed 5,000 stars."
+      ],
+      "body": [
+        {
+          "text": "An arXiv paper, 'Same Scores, Different Decisions', evaluated JEV and language models for legal document understanding. Its title frames the result as matching scores but diverging decisions.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "A separate Hacker News submission ran Jev against LLMs on 770 'Am I the Asshole?' posts, applying both to crowd-judged social dilemmas rather than factual questions.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "Tooling kept accumulating. A repository under the nokia-applied-research account said it can turn any LLM into a Jev-style decision model with 'typed decisions, real probabilities, no training', and another list indexed 805 verified examples of Jev by the decision each one makes.",
+          "citations": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "Consumer-facing experiments appeared too: jev-chat-jarvis, a phone-based conversation co-pilot for apps including WeChat, QQ, X and Feishu that reads the screen and suggests candidate replies, had about 5,250 GitHub stars at collection time.",
+          "citations": [
+            5
+          ]
+        }
+      ],
+      "whyItMatters": "Matching benchmark scores can hide different decisions, which matters for anyone putting typed-decision layers into legal or compliance workflows: evaluation has to compare outputs case by case, not just aggregate accuracy.",
+      "editorNote": "The arXiv paper is cited at the title level and its results were not reproduced here; the AITA comparison and the GitHub projects are community work whose claims were not independently verified.",
+      "cluster": [
+        {
+          "url": "https://github.com/kydlikebtc/awesome-jev",
+          "source": "GitHub",
+          "title": "kydlikebtc/awesome-jev: 805 verified examples of Jev — TypeSafe AI's System One decision model — indexed by the decision each one makes, not the blog that mentioned it. Every cited call site is re-read by CI each week. Bilin"
+        },
+        {
+          "url": "https://github.com/walidboulanouar/awesome-jev-use-cases",
+          "source": "GitHub",
+          "title": "walidboulanouar/awesome-jev-use-cases: Awesome list of TypeSafe AI Jev use cases: 74 demos ranked by likes, 150+ GitHub repos, limits, cost and API examples. CC0, sponsored by AY Automate."
+        },
+        {
+          "url": "https://github.com/dchristopoulos/jev-aita",
+          "source": "Hacker News",
+          "title": "Jev vs. LLMs on 770 \"Am I the Asshole?\" posts"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "http://arxiv.org/abs/2609.27678v1",
+          "source": "arXiv",
+          "title": "Same Scores, Different Decisions: Evaluating JEV and Language Models for Legal Document Understanding",
+          "publishedAt": "2026-09-23T10:53:01Z"
+        },
+        {
+          "id": 2,
+          "url": "https://github.com/dchristopoulos/jev-aita",
+          "source": "Hacker News",
+          "title": "Jev vs. LLMs on 770 \"Am I the Asshole?\" posts",
+          "publishedAt": "2026-09-23T20:17:19Z"
+        },
+        {
+          "id": 3,
+          "url": "https://github.com/nokia-applied-research/AnyJev",
+          "source": "GitHub",
+          "title": "nokia-applied-research/AnyJev: Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue updating)",
+          "publishedAt": "2026-09-21T05:55:40Z"
+        },
+        {
+          "id": 4,
+          "url": "https://github.com/kydlikebtc/awesome-jev",
+          "source": "GitHub",
+          "title": "kydlikebtc/awesome-jev: 805 verified examples of Jev — TypeSafe AI's System One decision model — indexed by the decision each one makes, not the blog that mentioned it. Every cited call site is re-read by CI each week. Bilin",
+          "publishedAt": "2026-09-22T02:22:54Z"
+        },
+        {
+          "id": 5,
+          "url": "https://github.com/jev-chat/jev-chat-jarvis",
+          "source": "GitHub",
+          "title": "jev-chat/jev-chat-jarvis: 装在手机上的对话副驾：在微信 / QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。",
+          "publishedAt": "2026-09-21T11:12:53Z"
+        }
+      ],
+      "tags": [
+        "jev",
+        "typesafe",
+        "evaluation",
+        "legal-ai"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "magpie-multi-model-agent-routing",
+      "headline": "yetone/magpie: Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+      "dek": "A menu-bar tool for swapping the models behind coding agents appeared as practitioners compared how they divide work across models.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "The magpie project offers a menu-bar switcher that runs coding agents on other providers' models, such as Codex on DeepSeek and Claude Code on Kimi.",
+        "An r/MachineLearning thread asked practitioners how they split AI models across ideation, math and coding.",
+        "Neither item includes usage data or benchmarks, so adoption of multi-model setups is not measured here."
+      ],
+      "body": [
+        {
+          "text": "magpie describes itself as 'every agent's model' in one place, letting users run Codex on DeepSeek or Claude Code on Kimi from the menu bar.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The same pattern showed up in practice: an r/MachineLearning thread asked how people split AI models across ideation, math and coding.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Tooling that decouples agents from their default model makes the model layer more interchangeable, which pressures pricing and shifts differentiation toward the agent harness and workflow.",
+      "editorNote": "The project description is the developer's own and the Reddit item is a discussion thread; functionality was not independently tested.",
+      "cluster": [
+        {
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wnzols/how_do_you_split_ai_models_across_ideation_math/",
+          "source": "Reddit r/MachineLearning",
+          "title": "How do you split AI models across ideation, math, and coding?[D]"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://github.com/yetone/magpie",
+          "source": "GitHub",
+          "title": "yetone/magpie: Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+          "publishedAt": "2026-09-23T16:22:35Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wnzols/how_do_you_split_ai_models_across_ideation_math/",
+          "source": "Reddit r/MachineLearning",
+          "title": "How do you split AI models across ideation, math, and coding?[D]",
+          "publishedAt": "2026-09-23T07:59:39.000Z"
+        }
+      ],
+      "tags": [
+        "agents",
+        "developer-tools",
+        "model-routing"
+      ],
+      "confidence": "low"
+    }
+  ]
+}

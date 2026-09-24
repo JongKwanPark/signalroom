@@ -1,0 +1,346 @@
+{
+  "date": "2026-09-23",
+  "generatedAt": "2026-09-24T01:40:00.000Z",
+  "vertical": "markets",
+  "title": "Markets: A 19-year high in yields, a diesel-ban warning and narrow leadership",
+  "summary": "A slightly thinner Markets edition, with four stories. The 10-year Treasury yield hit a 19-year high after a hot inflation reading, with markets pricing the next Fed hike in October. The oil industry warned a diesel export ban would raise fuel prices, MarketWatch reported fewer stocks are carrying the market than at any time since the dot-com peak as SoftBank raised $11.1 billion in bonds for its OpenAI push, and McDonald's moved into advertising. The US-China truce extension and Meta's Muse hardware were reported after 22:00 UTC and are in the 24 September edition. SEC EDGAR returned HTTP 403, market data returned 404, Polymarket returned 451 and FRED was empty without a key.",
+  "stories": [
+    {
+      "slug": "ten-year-treasury-yield-19-year-high",
+      "headline": "10-year Treasury yield rockets to 19-year high. Here's what's driving the spike",
+      "dek": "A hot inflation reading and Fed commentary pushed rate-hike expectations forward.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "The 10-year Treasury yield rose to a 19-year high, CNBC reported, and a widely shared post tied the jump to hot economic readings.",
+        "CNBC said the market now sees the next Fed hike in October, following comments from Barr and a hot inflation reading.",
+        "Coverage turned to spillovers: what soaring yields do to the economy and to younger and lower-income households, and how inflation could cost Republicans the Senate."
+      ],
+      "body": [
+        {
+          "text": "The 10-year Treasury yield rocketed to a 19-year high, CNBC reported; a post on r/wallstreetbets linked the move to hot economic readings.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "CNBC said the market now sees the next Fed hike in October, following comments from Barr and a hot inflation reading.",
+          "citations": [
+            3
+          ]
+        },
+        {
+          "text": "CNBC also examined what happens to the economy when Treasury yields soar and how higher rates squeeze younger and lower-income households, quoting an expert who called a rate hike 'a blunt tool'.",
+          "citations": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "The politics followed: MarketWatch argued inflation could cost Republicans the Senate.",
+          "citations": [
+            6
+          ]
+        }
+      ],
+      "whyItMatters": "A 19-year high in the 10-year yield resets borrowing costs from mortgages to AI-capex financing, and pricing of an October hike makes rate risk, not cuts, the scenario markets are trading, with political spillover that MarketWatch tied to control of the Senate.",
+      "editorNote": "Drivers are described at headline level; exact yield levels and the inflation print were not in the collected data. No trading or investment view is expressed.",
+      "cluster": [
+        {
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1woaq47/10year_treasury_yield_leaps_to_fresh_19year_high/",
+          "source": "Reddit r/wallstreetbets",
+          "title": "10-year Treasury yield leaps to fresh 19-year high after hot economic readings"
+        },
+        {
+          "url": "https://www.marketwatch.com/story/inflation-could-cost-republicans-the-senate-this-chart-shows-how-e94a49da?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Inflation could cost Republicans the Senate — this chart shows how"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/09/23/treasury-yields-oil-inflation-fed.html",
+          "source": "CNBC",
+          "title": "10-year Treasury yield rockets to 19-year high. Here's what's driving the spike",
+          "publishedAt": "2026-09-23T20:07:50.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1woaq47/10year_treasury_yield_leaps_to_fresh_19year_high/",
+          "source": "Reddit r/wallstreetbets",
+          "title": "10-year Treasury yield leaps to fresh 19-year high after hot economic readings",
+          "publishedAt": "2026-09-23T16:26:14.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.cnbc.com/2026/09/23/market-sees-next-fed-hike-in-october-following-barr-comments-hot-inflation.html",
+          "source": "CNBC",
+          "title": "Market sees next Fed hike in October, following Barr comments and hot inflation reading",
+          "publishedAt": "2026-09-23T18:12:18.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://www.cnbc.com/2026/09/23/what-happens-to-the-economy-when-treasury-yields-soar.html",
+          "source": "CNBC",
+          "title": "Here's what happens to the economy when Treasury yields soar like they are now",
+          "publishedAt": "2026-09-23T21:11:28.000Z"
+        },
+        {
+          "id": 5,
+          "url": "https://www.cnbc.com/2026/09/23/fed-rate-hike-borrowing-costs.html",
+          "source": "CNBC",
+          "title": "Higher interest rates squeeze younger and lower-income households. 'A rate hike is a blunt tool,' says expert",
+          "publishedAt": "2026-09-23T19:31:08.000Z"
+        },
+        {
+          "id": 6,
+          "url": "https://www.marketwatch.com/story/inflation-could-cost-republicans-the-senate-this-chart-shows-how-e94a49da?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Inflation could cost Republicans the Senate — this chart shows how",
+          "publishedAt": "2026-09-23T21:13:00.000Z"
+        }
+      ],
+      "tags": [
+        "treasuries",
+        "yields",
+        "fed",
+        "inflation"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "diesel-export-ban-oil-industry-warning",
+      "headline": "Oil industry warns a diesel export ban will raise fuel prices as Trump weighs restrictions",
+      "dek": "The oil industry pushed back as Washington weighed curbs on diesel exports, while crude swung on Iran diplomacy.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "The oil industry warned that a diesel export ban would raise fuel prices as Trump weighs restrictions, CNBC reported.",
+        "Yahoo Finance had reported a day earlier that US legislators were debating a diesel export ban ahead of the midterms.",
+        "Separately, Investing.com reported oil slipped 1% after sharp gains amid doubts over US-Iran diplomacy."
+      ],
+      "body": [
+        {
+          "text": "The oil industry warned that a diesel export ban will raise fuel prices as Trump weighs restrictions, CNBC reported.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The idea had been building: Yahoo Finance reported on 22 September that US legislators were debating a diesel export ban ahead of the midterms.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "Crude was moving on a separate track: Investing.com reported oil slipped 1% after sharp gains amid doubts over US-Iran diplomacy.",
+          "citations": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "The industry's warning of higher fuel prices frames the political cost of restricting exports before any decision is made, with the debate running into the midterms. Iran diplomacy remains the other swing factor for crude.",
+      "editorNote": "Headline-level coverage; the scope of any restriction and price levels were not in the collected data. The Yahoo Finance item predates this edition and is included as background; Signal Daily covered the Treasury's feasibility review on 22 September. No trading view is expressed.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/commodities-news/oil-slips-1-after-sharp-gains-amid-usiran-diplomacy-doubts-4914284",
+          "source": "Investing.com",
+          "title": "Oil slips 1% after sharp gains amid U.S-Iran diplomacy doubts"
+        },
+        {
+          "url": "https://finance.yahoo.com/news/us-legislators-debating-diesel-export-135702135.html",
+          "source": "Yahoo Finance",
+          "title": "US Legislators Are Debating a Diesel Export Ban Ahead of Midterms — Here's Why"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/09/23/trump-diesel-export-ban-gas-prices.html",
+          "source": "CNBC",
+          "title": "Oil industry warns a diesel export ban will raise fuel prices as Trump weighs restrictions",
+          "publishedAt": "2026-09-23T19:30:54.000Z"
+        },
+        {
+          "url": "https://finance.yahoo.com/news/us-legislators-debating-diesel-export-135702135.html",
+          "source": "Yahoo Finance",
+          "title": "US Legislators Are Debating a Diesel Export Ban Ahead of Midterms — Here's Why",
+          "publishedAt": "2026-09-22T13:57:02.000Z",
+          "id": 2
+        },
+        {
+          "id": 3,
+          "url": "https://www.investing.com/news/commodities-news/oil-slips-1-after-sharp-gains-amid-usiran-diplomacy-doubts-4914284",
+          "source": "Investing.com",
+          "title": "Oil slips 1% after sharp gains amid U.S-Iran diplomacy doubts",
+          "publishedAt": "2026-09-23T15:53:01.000Z"
+        }
+      ],
+      "tags": [
+        "oil",
+        "diesel",
+        "energy",
+        "iran"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "market-breadth-dot-com-peak-ai-narrative",
+      "headline": "Fewer stocks are carrying the market than at any time since the dot-com peak",
+      "dek": "Narrow leadership, a contested AI chip name and debt-funded AI commitments shaped the day's equity coverage.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "MarketWatch reported fewer stocks are carrying the market than at any time since the dot-com peak.",
+        "It also said Micron's stock has become a 'battleground' as the AI narrative shifts, while Palantir posted its highest close of the year.",
+        "Investing.com reported SoftBank issued $11.1 billion in bonds in an OpenAI financing push."
+      ],
+      "body": [
+        {
+          "text": "Fewer stocks are carrying the market than at any time since the dot-com peak, MarketWatch reported.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Within AI names, MarketWatch said Micron's stock has become a 'battleground' as the AI narrative shifts, and that Palantir's stock saw its highest close of the year.",
+          "citations": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Financing is part of the story: SoftBank issued $11.1 billion in bonds in an OpenAI financing push, Investing.com reported, while an r/wallstreetbets post argued the AMD-OpenAI deal now amounts to a '100% cashback' arrangement.",
+          "citations": [
+            4,
+            5
+          ]
+        }
+      ],
+      "whyItMatters": "Concentration at dot-com-era levels means index performance rests on a narrow AI cohort, while debt-funded commitments like SoftBank's bond issue tie that cohort to credit markets, a link that matters more with the 10-year yield at a 19-year high.",
+      "editorNote": "The breadth methodology was not in the collected data; the Reddit post is commentary, not a primary source. No buy or sell view is expressed.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/stock-market-news/softbank-issues-111-billion-in-bonds-in-openai-financing-push-4914266",
+          "source": "Investing.com",
+          "title": "SoftBank issues $11.1 billion in bonds in OpenAI financing push"
+        },
+        {
+          "url": "https://www.marketwatch.com/story/microns-stock-has-become-a-battleground-as-the-ai-narrative-shifts-d61a3408?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Micron’s stock has become a ‘battleground’ as the AI narrative shifts"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.marketwatch.com/story/fewer-stocks-are-carrying-the-market-than-at-any-time-since-the-dot-com-peak-4033c4bb?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Fewer stocks are carrying the market than at any time since the dot-com peak",
+          "publishedAt": "2026-09-23T20:45:00.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.marketwatch.com/story/microns-stock-has-become-a-battleground-as-the-ai-narrative-shifts-d61a3408?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Micron’s stock has become a ‘battleground’ as the AI narrative shifts",
+          "publishedAt": "2026-09-23T21:51:00.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.marketwatch.com/story/palantirs-stock-is-heading-for-its-highest-close-of-the-year-in-a-dramatic-comeback-a5fd451d?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Palantir’s stock sees its highest close of the year, sealing a dramatic comeback",
+          "publishedAt": "2026-09-23T21:08:00.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://www.investing.com/news/stock-market-news/softbank-issues-111-billion-in-bonds-in-openai-financing-push-4914266",
+          "source": "Investing.com",
+          "title": "SoftBank issues $11.1 billion in bonds in OpenAI financing push",
+          "publishedAt": "2026-09-23T15:54:45.000Z"
+        },
+        {
+          "id": 5,
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1wnsrsp/the_amd_openai_deal_is_a_literal_100_cashback/",
+          "source": "Reddit r/wallstreetbets",
+          "title": "The AMD / OpenAI deal is a literal 100% cashback deal now",
+          "publishedAt": "2026-09-23T01:53:28.000Z"
+        }
+      ],
+      "tags": [
+        "equities",
+        "market-breadth",
+        "ai-trade",
+        "softbank",
+        "openai"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "mcdonalds-advertising-business-investor-day",
+      "headline": "Why McDonald's is following Walmart and Amazon into the advertising business",
+      "dek": "McDonald's is building a retail-media business as investors digest its Investor Day.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "CNBC examined why McDonald's is following Walmart and Amazon into the advertising business.",
+        "An r/wallstreetbets post said McDonald's Investor Day 'did not go over well'.",
+        "The share move and the Investor Day targets were not in the collected data."
+      ],
+      "body": [
+        {
+          "text": "McDonald's is following Walmart and Amazon into the advertising business, CNBC reported, examining the rationale for the move.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Investor reception was harder to read: an r/wallstreetbets post said McDonald's 'Investor Day' did not go over well.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Retail media has become a margin lever for consumer companies with large first-party audiences; McDonald's entering it signals the model is spreading beyond retailers, though the reception of its Investor Day is evidenced here only by community reaction.",
+      "editorNote": "The investor reaction is sourced only to a Reddit post and is not a market-data measure. No investment view is expressed.",
+      "cluster": [
+        {
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1wo6yn8/it_seems_like_mcdonalds_investor_day_did_not_go/",
+          "source": "Reddit r/wallstreetbets",
+          "title": "It seems like McDonald's \"Investor Day\" did not go over well"
+        },
+        {
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1woj8y3/never_did_i_think_i_would_get_wrecked_by_mcd/",
+          "source": "Reddit r/wallstreetbets",
+          "title": "Never did I think I would get wrecked by MCD"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/09/23/why-mcdonalds-is-building-an-advertising-business.html",
+          "source": "CNBC",
+          "title": "Why McDonald's is following Walmart and Amazon into the advertising business",
+          "publishedAt": "2026-09-23T20:21:17.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1wo6yn8/it_seems_like_mcdonalds_investor_day_did_not_go/",
+          "source": "Reddit r/wallstreetbets",
+          "title": "It seems like McDonald's \"Investor Day\" did not go over well",
+          "publishedAt": "2026-09-23T14:05:22.000Z"
+        }
+      ],
+      "tags": [
+        "mcdonalds",
+        "retail-media",
+        "advertising",
+        "consumer"
+      ],
+      "confidence": "low"
+    }
+  ]
+}

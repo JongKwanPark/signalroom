@@ -1,0 +1,412 @@
+{
+  "date": "2026-09-23",
+  "generatedAt": "2026-09-24T01:40:00.000Z",
+  "vertical": "bio",
+  "title": "Bio: An FDA panel backs Grail's Galleri, clinical AI under scrutiny and oncology registrations",
+  "summary": "An FDA advisory panel endorsed Grail's Galleri multi-cancer blood test, moving the reimbursement question closer to an FDA decision. New papers probed the stability, bias and reproducibility of clinical LLMs and how AI changes physicians' work, registry updates showed sponsors from Jiangsu Aosaikang to Janssen and BioNTech across RAS inhibition and other cancers, and investors showed renewed interest in osteoporosis treatments. bioRxiv and medRxiv both returned invalid JSON, so this edition draws on PubMed, ClinicalTrials.gov, STAT, MarketWatch, ScienceDaily and arXiv.",
+  "stories": [
+    {
+      "slug": "grail-galleri-fda-panel-endorsement",
+      "headline": "STAT+: FDA advisory panel endorses Grail blood test for cancer, saying benefits outweigh risks",
+      "dek": "The panel vote moves multi-cancer early detection toward an FDA decision that also gates insurance coverage.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "An FDA advisory panel endorsed Grail's Galleri blood test for cancer, saying its benefits outweigh its risks, STAT reported.",
+        "MarketWatch noted the test screens for 50 cancers and that coverage by Medicare and other insurers hinges on FDA approval.",
+        "The vote count and the FDA's decision timeline were not in the collected data, and an advisory vote is not an approval."
+      ],
+      "body": [
+        {
+          "text": "An FDA advisory panel endorsed Grail's blood test for cancer, saying its benefits outweigh its risks, STAT reported.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The commercial question comes next. MarketWatch reported that the test screens for 50 cancers and that whether Medicare and other health insurers cover it hinges on FDA approval.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "A positive panel vote moves multi-cancer early detection closer to an FDA decision, which in turn gates Medicare and commercial coverage, the reimbursement question that decides whether the category becomes a large screening market. The outcome also matters for Markets.",
+      "editorNote": "The vote count and the FDA's decision timeline were not in the collected data; an advisory vote is not an approval. This is not medical advice.",
+      "cluster": [
+        {
+          "url": "https://www.marketwatch.com/story/fda-advisers-are-reviewing-a-multicancer-detection-test-medicare-coverage-could-follow-77cb8817?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "This test screens for 50 cancers — but whether Medicare and other health insurers will cover it hinges on FDA approval"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.statnews.com/2026/09/23/fda-advisory-panel-recommends-approval-grail-galleri-multi-cancer-blood-test/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "STAT+: FDA advisory panel endorses Grail blood test for cancer, saying benefits outweigh risks",
+          "publishedAt": "2026-09-23T21:47:58.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.marketwatch.com/story/fda-advisers-are-reviewing-a-multicancer-detection-test-medicare-coverage-could-follow-77cb8817?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "This test screens for 50 cancers — but whether Medicare and other health insurers will cover it hinges on FDA approval",
+          "publishedAt": "2026-09-23T21:59:00.000Z"
+        }
+      ],
+      "tags": [
+        "grail",
+        "fda",
+        "cancer-screening",
+        "diagnostics",
+        "medicare"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "llm-medical-question-reliability-studies",
+      "headline": "Beyond accuracy: an educational benchmarking study of task fragility and reasoning stability of large language models on dermatology board-style questions",
+      "dek": "New papers tested clinical LLMs on stability, bias and reproducibility rather than headline accuracy.",
+      "type": "DATA",
+      "readMinutes": 3,
+      "tldr": [
+        "A benchmarking study indexed on PubMed examined task fragility and reasoning stability of large language models on dermatology board-style questions.",
+        "Other new papers tested implicit bias in LLM diagnosis of eating disorders and the accuracy and reproducibility of ChatGPT, DeepSeek and Gemini on patient-centred lipedema questions.",
+        "On arXiv, PCQC proposed privileged counterfactual question credit for multi-turn medical dialogue."
+      ],
+      "body": [
+        {
+          "text": "A new study went 'beyond accuracy', benchmarking task fragility and reasoning stability of large language models on dermatology board-style questions.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "An experimental vignette study examined implicit bias in large language model diagnosis of eating disorders.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "Another paper evaluated the accuracy and reproducibility of ChatGPT, DeepSeek and Gemini in responding to patient-centred lipedema questions.",
+          "citations": [
+            3
+          ]
+        },
+        {
+          "text": "On the methods side, an arXiv paper introduced PCQC, a privileged counterfactual question credit approach for multi-turn medical dialogue.",
+          "citations": [
+            4
+          ]
+        }
+      ],
+      "whyItMatters": "Evaluation of clinical LLMs is moving past headline accuracy to stability, bias and reproducibility, the properties regulators and hospital buyers will want evidence on before trusting AI tools in patient-facing roles.",
+      "editorNote": "Cited at the metadata level; findings were not summarised from abstracts and were not reproduced. This is not medical advice.",
+      "cluster": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42777239/",
+          "source": "PubMed",
+          "title": "Implicit Bias in Large Language Model Diagnosis of Eating Disorders: Experimental Vignette Study"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42776843/",
+          "source": "PubMed",
+          "title": "Evaluation of the accuracy and reproducibility of large language models (ChatGPT, DeepSeek, Gemini) in responding to patient-centered lipedema questions"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42777240/",
+          "source": "PubMed",
+          "title": "Beyond accuracy: an educational benchmarking study of task fragility and reasoning stability of large language models on dermatology board-style questions",
+          "publishedAt": "2026/09/23 00:00"
+        },
+        {
+          "id": 2,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42777239/",
+          "source": "PubMed",
+          "title": "Implicit Bias in Large Language Model Diagnosis of Eating Disorders: Experimental Vignette Study",
+          "publishedAt": "2026/09/23 00:00"
+        },
+        {
+          "id": 3,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42776843/",
+          "source": "PubMed",
+          "title": "Evaluation of the accuracy and reproducibility of large language models (ChatGPT, DeepSeek, Gemini) in responding to patient-centered lipedema questions",
+          "publishedAt": "2026/09/23 00:00"
+        },
+        {
+          "id": 4,
+          "url": "http://arxiv.org/abs/2609.27987v1",
+          "source": "arXiv",
+          "title": "PCQC: Privileged Counterfactual Question Credit for Multi-Turn Medical Dialogue",
+          "publishedAt": "2026-09-23T12:15:10Z"
+        }
+      ],
+      "tags": [
+        "clinical-ai",
+        "llm-evaluation",
+        "medical-ai"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ai-clinical-practice-decision-support",
+      "headline": "The Perceived Influence of AI on the Craftsmanship of Physicians: Qualitative Interview and Focus Group Study",
+      "dek": "Deployment research focused on how AI changes clinical roles and how its outcomes should be measured.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "A qualitative study examined how physicians perceive AI's influence on the craftsmanship of their work.",
+        "Other new papers reported external validation of a hybrid rule-based and machine-learning decision support system for prescription review, and proposed accountable action end points for evaluating AI in digital public health.",
+        "A ClinicalTrials.gov record from Hopital Montfort covers the use of AI to create accessible and reliable patient education materials."
+      ],
+      "body": [
+        {
+          "text": "A qualitative interview and focus-group study examined the perceived influence of AI on the craftsmanship of physicians.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "A development and external validation study described a hybrid rule-based and machine-learning clinical decision support system to support prescription review.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "A separate paper set out practical pathways for using artificial intelligence to improve efficiency in nephrology practice, and another proposed accountable action end points for evaluating AI in digital public health.",
+          "citations": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "On the trial side, a ClinicalTrials.gov record sponsored by Hopital Montfort covers AI to create accessible and reliable patient education materials.",
+          "citations": [
+            5
+          ]
+        }
+      ],
+      "whyItMatters": "Research is shifting from whether models work to how they change clinical roles and how outcomes are measured, the evidence base payers and health systems will use to decide which AI tools to buy.",
+      "editorNote": "Cited at the metadata and registry level; study results were not summarised or reproduced. This is not medical advice.",
+      "cluster": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42777235/",
+          "source": "PubMed",
+          "title": "A Hybrid Rule-Based and Machine Learning-Based Clinical Decision Support System to Support Prescription Review: Development and External Validation Study"
+        },
+        {
+          "url": "https://clinicaltrials.gov/study/NCT06997107",
+          "source": "ClinicalTrials.gov",
+          "title": "AI to Create Accessible & Reliable Patient Education Materials"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42777151/",
+          "source": "PubMed",
+          "title": "The Perceived Influence of AI on the Craftsmanship of Physicians: Qualitative Interview and Focus Group Study",
+          "publishedAt": "2026/09/23 00:00"
+        },
+        {
+          "id": 2,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42777235/",
+          "source": "PubMed",
+          "title": "A Hybrid Rule-Based and Machine Learning-Based Clinical Decision Support System to Support Prescription Review: Development and External Validation Study",
+          "publishedAt": "2026/09/23 00:00"
+        },
+        {
+          "id": 3,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42776595/",
+          "source": "PubMed",
+          "title": "Artificial Intelligence in Nephrology Practice: Practical Pathways to Improve Efficiency",
+          "publishedAt": "2026/09/23 00:00"
+        },
+        {
+          "id": 4,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42777191/",
+          "source": "PubMed",
+          "title": "Accountable Action End Points for Evaluating Artificial Intelligence in Digital Public Health",
+          "publishedAt": "2026/09/23 00:00"
+        },
+        {
+          "id": 5,
+          "url": "https://clinicaltrials.gov/study/NCT06997107",
+          "source": "ClinicalTrials.gov",
+          "title": "AI to Create Accessible & Reliable Patient Education Materials",
+          "publishedAt": "2026-09-21T00:00:00.000Z"
+        }
+      ],
+      "tags": [
+        "clinical-ai",
+        "decision-support",
+        "health-systems"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "oncology-pipeline-ras-inhibitor-registrations",
+      "headline": "Evaluation of RAS Inhibitor Treatment in Participants With Advanced or Metastatic Solid Tumors Harboring RAS Mutations",
+      "dek": "Registry updates showed new and established sponsors across RAS inhibition, prostate, uterine and brain cancers.",
+      "type": "DATA",
+      "readMinutes": 3,
+      "tldr": [
+        "A ClinicalTrials.gov record from Jiangsu Aosaikang Pharmaceutical covers a RAS inhibitor in advanced or metastatic solid tumours harbouring RAS mutations.",
+        "Other updated records included Janssen's JNJ-101556143 in metastatic prostate cancer, a BioNTech study in recurring uterine cancer and University of Florida RNA-lipid particle vaccines for recurrent glioblastoma.",
+        "ScienceDaily reported research on a new drug that could break cancer's resistance to treatment."
+      ],
+      "body": [
+        {
+          "text": "Jiangsu Aosaikang Pharmaceutical's study evaluating RAS inhibitor treatment in participants with advanced or metastatic solid tumours harbouring RAS mutations appeared in ClinicalTrials.gov updates.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Big-pharma and platform programmes also updated records: Janssen's study of JNJ-101556143 in metastatic prostate cancer and BioNTech's study of an investigational therapy or chemotherapy in recurring uterine cancer.",
+          "citations": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "The University of Florida's record covers RNA-lipid particle (RNA-LP) vaccines for recurrent adult glioblastoma.",
+          "citations": [
+            4
+          ]
+        },
+        {
+          "text": "Separately, ScienceDaily reported research on a new drug that could break cancer's resistance to treatment.",
+          "citations": [
+            5
+          ]
+        }
+      ],
+      "whyItMatters": "RAS-mutant tumours are a long-contested oncology target, so new sponsors entering RAS inhibition, alongside big-pharma and mRNA-platform programmes, show where clinical-stage capital is concentrating.",
+      "editorNote": "ClinicalTrials.gov records are cited by title and sponsor; dates reflect registry updates, not necessarily new trial starts. The ScienceDaily item is a separate report whose drug and development stage were not in the collected data. This is not medical advice.",
+      "cluster": [
+        {
+          "url": "https://clinicaltrials.gov/study/NCT07832292",
+          "source": "ClinicalTrials.gov",
+          "title": "A Study of JNJ-101556143 in Participants With Metastatic Prostate Cancer"
+        },
+        {
+          "url": "https://clinicaltrials.gov/study/NCT06389591",
+          "source": "ClinicalTrials.gov",
+          "title": "RNA-Lipid Particle (RNA-LP) Vaccines for Recurrent Adult Glioblastoma (GBM)"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://clinicaltrials.gov/study/NCT07836036",
+          "source": "ClinicalTrials.gov",
+          "title": "Evaluation of RAS Inhibitor Treatment in Participants With Advanced or Metastatic Solid Tumors Harboring RAS Mutations",
+          "publishedAt": "2026-09-23T00:00:00.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://clinicaltrials.gov/study/NCT07832292",
+          "source": "ClinicalTrials.gov",
+          "title": "A Study of JNJ-101556143 in Participants With Metastatic Prostate Cancer",
+          "publishedAt": "2026-09-21T00:00:00.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://clinicaltrials.gov/study/NCT06340568",
+          "source": "ClinicalTrials.gov",
+          "title": "A Clinical Study of the Anti-cancer Effects of an Investigational Therapy or Chemotherapy in Patients With Recurring Uterine Cancer",
+          "publishedAt": "2026-09-17T00:00:00.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://clinicaltrials.gov/study/NCT06389591",
+          "source": "ClinicalTrials.gov",
+          "title": "RNA-Lipid Particle (RNA-LP) Vaccines for Recurrent Adult Glioblastoma (GBM)",
+          "publishedAt": "2026-09-23T00:00:00.000Z"
+        },
+        {
+          "id": 5,
+          "url": "https://www.sciencedaily.com/releases/2026/09/260921081112.htm",
+          "source": "ScienceDaily",
+          "title": "This new drug could break cancer’s resistance to treatment",
+          "publishedAt": "2026-09-23T01:27:00.000Z"
+        }
+      ],
+      "tags": [
+        "oncology",
+        "clinical-trials",
+        "ras",
+        "biontech",
+        "janssen"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "osteoporosis-drug-developer-vc-interest",
+      "headline": "STAT+: Drugmakers, biotech VCs show ‘reinvigorated’ interest in osteoporosis treatments",
+      "dek": "Investors are returning to bone-loss therapies as evidence for common supplements looks thin.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "Drugmakers and biotech venture investors are showing 'reinvigorated' interest in osteoporosis treatments, STAT reported.",
+        "ScienceDaily reported that a major review found little benefit from the calcium and vitamin D that millions take for bone health.",
+        "Neither item named specific deals or amounts in the collected headlines."
+      ],
+      "body": [
+        {
+          "text": "Drugmakers and biotech VCs are showing 'reinvigorated' interest in osteoporosis treatments, STAT reported.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The evidence backdrop is shifting too: a major review found little benefit from the calcium and vitamin D supplements millions take for bone health, ScienceDaily reported.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Renewed investor attention to a large, ageing-driven indication, alongside evidence that common supplements do little, points to room for prescription therapies. It is a pipeline and dealmaking theme to watch, not a signal about any individual treatment.",
+      "editorNote": "This item reports research and investment coverage only and is not guidance on supplement or drug use; deal details were not in the collected data.",
+      "cluster": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260920030147.htm",
+          "source": "ScienceDaily",
+          "title": "Millions take calcium and vitamin D for bone health. A major review finds little benefit"
+        },
+        {
+          "url": "https://www.statnews.com/2026/09/23/biotech-vc-investors-new-opportunity-osteoporosis-treatments/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "STAT+: Drugmakers, biotech VCs show ‘reinvigorated’ interest in osteoporosis treatments"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.statnews.com/2026/09/23/biotech-vc-investors-new-opportunity-osteoporosis-treatments/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "STAT+: Drugmakers, biotech VCs show ‘reinvigorated’ interest in osteoporosis treatments",
+          "publishedAt": "2026-09-23T08:30:00.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.sciencedaily.com/releases/2026/09/260920030147.htm",
+          "source": "ScienceDaily",
+          "title": "Millions take calcium and vitamin D for bone health. A major review finds little benefit",
+          "publishedAt": "2026-09-21T01:59:17.000Z"
+        }
+      ],
+      "tags": [
+        "osteoporosis",
+        "biotech-investment",
+        "drug-development"
+      ],
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "date": "2026-09-23",
+  "generatedAt": "2026-09-24T01:40:00.000Z",
+  "vertical": "geo",
+  "title": "Geo: Iran defies Trump at the UN, Tigray fears and a UN under strain",
+  "summary": "Iran's president told Trump at the UN that Iran will never 'bend the knee' as US aviation sanctions disrupted travel. Ethiopia and Tigrayan forces accused each other of new offensives, experts warned the UN faces a crisis as major powers act unilaterally, Poland accused a Russian helicopter of breaching its airspace amid doubts about Article 5 in Slovakia, and a $2.45bn Gaza reconstruction plan was unveiled. Xi Jinping's arrival in Washington came after 22:00 UTC and is in the 24 September edition. GDELT failed to fetch, ISW returned HTTP 403, Polymarket returned HTTP 451 and ReliefWeb was empty, so coverage relies on BBC, Al Jazeera, the Guardian, DW and CNBC wire feeds.",
+  "stories": [
+    {
+      "slug": "iran-president-un-never-bend-the-knee",
+      "headline": "Iran's president tells Trump it will never 'bend the knee'",
+      "dek": "Tehran answered Trump's UN threat with defiance as US sanctions squeezed travel to Iran.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "Iran's president told Trump that Iran will never 'bend the knee', BBC reported, following Trump's UN address threatening to annihilate Iran.",
+        "CNBC said the president blamed the US and Israel for global instability in a defiant UN speech.",
+        "Al Jazeera reported that US aviation sanctions are disrupting flights to Iran and pushing travellers overland."
+      ],
+      "body": [
+        {
+          "text": "Iran's president told Trump that Iran will never 'bend the knee', BBC reported. The remarks followed Trump's address to the UN General Assembly, which the Guardian described as a threat to annihilate Iran.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "CNBC said the Iranian president blamed the US and Israel for global instability in a defiant UN speech.",
+          "citations": [
+            3
+          ]
+        },
+        {
+          "text": "Pressure is also being applied outside the diplomatic hall. Al Jazeera reported that US aviation sanctions are disrupting Iran flights and pushing travellers overland.",
+          "citations": [
+            4
+          ]
+        }
+      ],
+      "whyItMatters": "Defiance at the UN keeps escalation risk in play while sanctions tighten on the ground, and oil is pricing that uncertainty: Investing.com reported crude slipped 1% after sharp gains amid doubts over US-Iran diplomacy.",
+      "editorNote": "Wire headlines only; the substance of any talks was not in the collected data. Later coverage published after 22:00 UTC is left to the following edition.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/09/23/iran-united-nations-trump-israel.html",
+          "source": "CNBC",
+          "title": "Iran's president blames U.S., Israel for global instability in defiant UN speech"
+        },
+        {
+          "url": "https://www.investing.com/news/commodities-news/oil-slips-1-after-sharp-gains-amid-usiran-diplomacy-doubts-4914284",
+          "source": "Investing.com",
+          "title": "Oil slips 1% after sharp gains amid U.S-Iran diplomacy doubts"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cqvgyjy23ggjo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Iran's president tells Trump it will never 'bend the knee'",
+          "publishedAt": "2026-09-23T18:15:31.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theguardian.com/us-news/2026/sep/22/donald-trump-unga-speech",
+          "source": "The Guardian",
+          "title": "Trump’s threat to annihilate Iran to UN general assembly is stunning, even for him",
+          "publishedAt": "2026-09-22T18:23:08.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.cnbc.com/2026/09/23/iran-united-nations-trump-israel.html",
+          "source": "CNBC",
+          "title": "Iran's president blames U.S., Israel for global instability in defiant UN speech",
+          "publishedAt": "2026-09-23T17:38:47.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://www.aljazeera.com/news/2026/9/23/us-aviation-sanctions-disrupt-iran-flights-push-travellers-overland?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "US aviation sanctions disrupt Iran flights, push travellers overland",
+          "publishedAt": "2026-09-23T21:05:36.000Z"
+        }
+      ],
+      "tags": [
+        "iran",
+        "united-nations",
+        "sanctions",
+        "trump"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ethiopia-tigray-offensives",
+      "headline": "Ethiopia and Tigray accuse each of launching offensives, fuelling fears of new war",
+      "dek": "Addis Ababa and Tigrayan forces traded accusations of launching new offensives.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "Ethiopia and Tigray accused each other of launching offensives, fuelling fears of a new war, BBC reported.",
+        "Al Jazeera reported that Ethiopia warned of 'destruction' as Tigray rebels launched an offensive.",
+        "The competing accounts had not been independently reconciled at the time of collection."
+      ],
+      "body": [
+        {
+          "text": "Ethiopia's government and Tigrayan forces accused each other of launching offensives, fuelling fears of a new war, BBC reported.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Al Jazeera reported that Ethiopia warned of 'destruction' as Tigray rebels launched an offensive.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Renewed fighting between Addis Ababa and Tigray would reopen a conflict the region has only recently emerged from, with humanitarian and regional-security spillovers across the Horn of Africa.",
+      "editorNote": "Each side's claims are reported as made and were not independently verified; casualty figures and front-line positions were not in the collected data.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/23/ethiopia-warns-of-destruction-as-tigray-rebels-launch-offensive?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Ethiopia warns of ‘destruction’ as Tigray rebels launch offensive"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cry8zwwq21pxo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Ethiopia and Tigray accuse each of launching offensives, fuelling fears of new war"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cry8zwwq21pxo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Ethiopia and Tigray accuse each of launching offensives, fuelling fears of new war",
+          "publishedAt": "2026-09-23T16:53:37.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/23/ethiopia-warns-of-destruction-as-tigray-rebels-launch-offensive?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Ethiopia warns of ‘destruction’ as Tigray rebels launch offensive",
+          "publishedAt": "2026-09-23T20:37:18.000Z"
+        }
+      ],
+      "tags": [
+        "ethiopia",
+        "tigray",
+        "conflict",
+        "horn-of-africa"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "un-general-assembly-crisis-unilateralism",
+      "headline": "As major powers act unilaterally, experts say UN faces crisis in New York",
+      "dek": "The General Assembly convened amid warnings about the UN's relevance, notable absences and pointed speeches.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "Al Jazeera reported experts saying the UN faces a crisis in New York as major powers act unilaterally.",
+        "DW looked at which leaders are skipping this year's General Assembly and why.",
+        "Argentina's Milei threatened to take 'matters into our own hands' on the Falklands, and Delcy Rodríguez posed with Trump in New York while Maduro remains jailed nearby, the Guardian reported."
+      ],
+      "body": [
+        {
+          "text": "As major powers act unilaterally, experts told Al Jazeera the UN faces a crisis in New York.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "DW examined who is skipping the UN General Assembly and why.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "Speeches and side meetings sharpened the picture. Milei threatened at the UN that Argentina will take 'matters into our own hands' on the Falklands, the Guardian reported.",
+          "citations": [
+            3
+          ]
+        },
+        {
+          "text": "The Guardian also reported that Delcy Rodríguez posed with Trump in New York as Maduro languishes in jail nearby.",
+          "citations": [
+            4
+          ]
+        }
+      ],
+      "whyItMatters": "A General Assembly where major powers bypass the institution and other states air territorial claims signals weaker multilateral constraint, which bears on sanctions enforcement, maritime disputes and the credibility of UN-led processes such as the AI-governance push made the same week.",
+      "editorNote": "Analysis pieces and wire headlines; the list of absent leaders and the full text of Milei's remarks were not in the collected data.",
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/uk-news/2026/sep/23/argentina-president-attacks-un-over-inaction-on-falkland-islands-sovereignty",
+          "source": "The Guardian",
+          "title": "Milei threatens at UN that Argentina will take ‘matters into our own hands’ on Falklands"
+        },
+        {
+          "url": "https://www.dw.com/en/who-is-skipping-the-un-general-assembly-and-why/a-79391652?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Who is skipping the UN General Assembly — and why"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.aljazeera.com/news/2026/9/23/as-major-powers-act-unilaterally-experts-say-un-faces-crisis-in-new-york?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "As major powers act unilaterally, experts say UN faces crisis in New York",
+          "publishedAt": "2026-09-23T19:54:24.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.dw.com/en/who-is-skipping-the-un-general-assembly-and-why/a-79391652?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Who is skipping the UN General Assembly — and why",
+          "publishedAt": "2026-09-23T15:54:00.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.theguardian.com/uk-news/2026/sep/23/argentina-president-attacks-un-over-inaction-on-falkland-islands-sovereignty",
+          "source": "The Guardian",
+          "title": "Milei threatens at UN that Argentina will take ‘matters into our own hands’ on Falklands",
+          "publishedAt": "2026-09-23T18:50:43.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://www.theguardian.com/world/2026/sep/23/venezuela-delcy-rodriguez-meeting-donald-trump-new-york",
+          "source": "The Guardian",
+          "title": "Delcy Rodríguez poses with Trump in New York as Maduro languishes in jail nearby",
+          "publishedAt": "2026-09-23T12:54:07.000Z"
+        }
+      ],
+      "tags": [
+        "united-nations",
+        "unga",
+        "falklands",
+        "venezuela"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "poland-russian-helicopter-airspace-nato",
+      "headline": "Poland accuses Russian military helicopter of violating its airspace",
+      "dek": "An airspace incident, doubts about Article 5 from inside the alliance and a G20 invitation to Putin pulled in different directions.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "Poland accused a Russian military helicopter of violating its airspace, BBC reported.",
+        "DW reported that Slovak Prime Minister Robert Fico's remarks on NATO's Article 5 sparked criticism and raised questions about Slovakia's commitment to the alliance.",
+        "Al Jazeera reported that the Trump administration has invited Putin to attend the G20 summit in Miami."
+      ],
+      "body": [
+        {
+          "text": "Poland accused a Russian military helicopter of violating its airspace, BBC reported.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Inside the alliance, DW reported that Robert Fico's NATO Article 5 remarks sparked criticism and raised questions about Slovakia's NATO commitment.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "Meanwhile, Al Jazeera reported that the Trump administration invited Putin to attend the G20 summit in Miami.",
+          "citations": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "An incident on NATO's eastern flank, public doubts about Article 5 from a member government and a US invitation to Putin point in different directions at once, which complicates any unified allied response to Russian probing.",
+      "editorNote": "Three separate developments grouped for context on NATO cohesion. The Polish accusation was not independently confirmed, and Russia's response was not in the collected data.",
+      "cluster": [
+        {
+          "url": "https://www.dw.com/en/slovakia-pm-robert-fico-s-nato-article-5-remarks-spark-criticism-and-raise-questions-about-his-country-s-nato-commitment/a-79387050?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Slovakia: PM Robert Fico's NATO Article 5 remarks spark criticism and raise questions about his country's NATO commitment"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/9/23/trump-administration-invites-putin-to-attend-g20-summit-in-miami?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Trump administration invites Putin to attend G20 summit in Miami"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c699d2dn9z0mo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Poland accuses Russian military helicopter of violating its airspace",
+          "publishedAt": "2026-09-23T15:37:20.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.dw.com/en/slovakia-pm-robert-fico-s-nato-article-5-remarks-spark-criticism-and-raise-questions-about-his-country-s-nato-commitment/a-79387050?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Slovakia: PM Robert Fico's NATO Article 5 remarks spark criticism and raise questions about his country's NATO commitment",
+          "publishedAt": "2026-09-23T13:32:00.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.aljazeera.com/news/2026/9/23/trump-administration-invites-putin-to-attend-g20-summit-in-miami?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Trump administration invites Putin to attend G20 summit in Miami",
+          "publishedAt": "2026-09-23T20:23:31.000Z"
+        }
+      ],
+      "tags": [
+        "nato",
+        "russia",
+        "poland",
+        "slovakia",
+        "g20"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "gaza-board-of-peace-reconstruction-plan",
+      "headline": "Trump's Board of Peace unveils $2.45bn plan to begin Gaza's reconstruction",
+      "dek": "A first reconstruction price tag arrived alongside UN findings on rising violence against women.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "Trump's Board of Peace unveiled a $2.45bn plan to begin Gaza's reconstruction, BBC reported.",
+        "BBC also reported that a UN agency found reports of violence against women in Gaza have surged.",
+        "Al Jazeera reported that a Gaza flotilla activist on hunger strike in a Tunisian jail is 'on verge of death'."
+      ],
+      "body": [
+        {
+          "text": "Trump's Board of Peace unveiled a $2.45bn plan to begin Gaza's reconstruction, BBC reported.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Conditions on the ground remain severe: reports of violence against women in Gaza have surged, a UN agency found, according to BBC.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "Al Jazeera reported that a Gaza flotilla activist on hunger strike in a Tunisian jail is 'on verge of death'.",
+          "citations": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "A $2.45bn opening plan puts a first concrete figure on Gaza reconstruction; who funds it and who controls contracts will shape regional diplomacy as well as demand for contractors and materials.",
+      "editorNote": "The plan's funding sources and timeline were not in the collected data, and the plan itself is reported by one outlet here. The flotilla item is a related but separate development.",
+      "cluster": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c94gm7dp40y0o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Reports of violence against women in Gaza surge, UN agency finds"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/9/23/gaza-flotilla-activist-on-hunger-strike-in-tunisia-jail-on-verge-of-death?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Gaza flotilla activist on hunger strike in Tunisia jail ‘on verge of death’"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cwlyke0mm0x3o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Trump's Board of Peace unveils $2.45bn plan to begin Gaza's reconstruction",
+          "publishedAt": "2026-09-23T21:26:14.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.bbc.co.uk/news/articles/c94gm7dp40y0o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Reports of violence against women in Gaza surge, UN agency finds",
+          "publishedAt": "2026-09-23T05:02:26.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.aljazeera.com/news/2026/9/23/gaza-flotilla-activist-on-hunger-strike-in-tunisia-jail-on-verge-of-death?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Gaza flotilla activist on hunger strike in Tunisia jail ‘on verge of death’",
+          "publishedAt": "2026-09-23T20:56:15.000Z"
+        }
+      ],
+      "tags": [
+        "gaza",
+        "reconstruction",
+        "board-of-peace",
+        "humanitarian"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

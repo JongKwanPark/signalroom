@@ -1,0 +1,144 @@
+{
+  "date": "2026-09-23",
+  "generatedAt": "2026-09-24T01:15:46.467Z",
+  "verticals": {
+    "ai": {
+      "items": 135,
+      "sources": [
+        {
+          "name": "hackernews",
+          "status": "ok",
+          "count": 30
+        },
+        {
+          "name": "reddit",
+          "status": "ok",
+          "count": 30
+        },
+        {
+          "name": "arxiv",
+          "status": "ok",
+          "count": 30
+        },
+        {
+          "name": "github",
+          "status": "ok",
+          "count": 30
+        },
+        {
+          "name": "youtube",
+          "status": "ok",
+          "count": 15
+        }
+      ]
+    },
+    "bio": {
+      "items": 106,
+      "sources": [
+        {
+          "name": "pubmed",
+          "status": "ok",
+          "count": 30
+        },
+        {
+          "name": "biorxiv",
+          "status": "failed",
+          "count": 0,
+          "error": "biorxiv: invalid JSON: Unexpected end of JSON input"
+        },
+        {
+          "name": "medrxiv",
+          "status": "failed",
+          "count": 0,
+          "error": "medrxiv: invalid JSON: Unexpected end of JSON input"
+        },
+        {
+          "name": "openfda",
+          "status": "ok",
+          "count": 8
+        },
+        {
+          "name": "clinicaltrials",
+          "status": "ok",
+          "count": 30
+        },
+        {
+          "name": "journal_rss",
+          "status": "ok",
+          "count": 45
+        }
+      ]
+    },
+    "geo": {
+      "items": 56,
+      "sources": [
+        {
+          "name": "gdelt",
+          "status": "failed",
+          "count": 0,
+          "error": "gdelt: TypeError: fetch failed"
+        },
+        {
+          "name": "reliefweb",
+          "status": "empty",
+          "count": 0
+        },
+        {
+          "name": "isw",
+          "status": "failed",
+          "count": 0,
+          "error": "isw RSS: HTTP 403"
+        },
+        {
+          "name": "wire",
+          "status": "ok",
+          "count": 56
+        },
+        {
+          "name": "polymarket",
+          "status": "failed",
+          "count": 0,
+          "error": "polymarket: HTTP 451"
+        }
+      ]
+    },
+    "markets": {
+      "items": 101,
+      "sources": [
+        {
+          "name": "reddit",
+          "status": "ok",
+          "count": 30
+        },
+        {
+          "name": "wire",
+          "status": "ok",
+          "count": 72
+        },
+        {
+          "name": "polymarket",
+          "status": "failed",
+          "count": 0,
+          "error": "polymarket: HTTP 451"
+        },
+        {
+          "name": "sec_edgar",
+          "status": "failed",
+          "count": 0,
+          "error": "sec_edgar full-text search: HTTP 403"
+        },
+        {
+          "name": "fred",
+          "status": "empty",
+          "count": 0
+        },
+        {
+          "name": "market_data",
+          "status": "failed",
+          "count": 0,
+          "error": "market_data quotes: HTTP 404"
+        }
+      ]
+    }
+  }
+}
