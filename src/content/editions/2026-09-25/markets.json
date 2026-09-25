@@ -2,8 +2,9 @@
   "date": "2026-09-25",
   "generatedAt": "2026-09-25T10:10:10Z",
   "vertical": "markets",
+  "lang": "en",
   "title": "Signal Daily — Markets",
-  "summary": "The collection returned 101 unique items, mostly wire headlines and community posts. SEC EDGAR and market-data requests failed, Polymarket was blocked and FRED was not configured; five stories report developments without investment advice.",
+  "summary": "The collection returned 71 unique items, mostly wire headlines. SEC EDGAR returned HTTP 403, the market-data endpoint returned HTTP 404, Polymarket returned HTTP 451, FRED was not configured and Reddit feeds returned HTTP 404; six stories report developments without investment advice.",
   "stories": [
     {
       "slug": "treasury-yields-and-market-pressure",
@@ -275,6 +276,65 @@
         "anthropic",
         "ai-infrastructure",
         "governance"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "iran-seven-day-hormuz-proposal",
+      "headline": "Iran offers to reopen Strait of Hormuz within 7 days and restart nuclear talks",
+      "dek": "Iran’s foreign minister described a conditional proposal tied to renewed negotiations with the United States.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "Iranian Foreign Minister Abbas Araghchi said the Strait of Hormuz could reopen within seven days if U.S. conditions were met.",
+        "The proposal also linked reopening the strait to restarting nuclear talks, according to CNBC and CBS News.",
+        "The offer remained conditional, and U.S. officials described the talks as constructive but said they were not rushing toward an agreement."
+      ],
+      "body": [
+        {
+          "text": "Iranian Foreign Minister Abbas Araghchi said Tehran had proposed reopening the Strait of Hormuz and resuming nuclear talks within seven days if the Trump administration accepted its conditions. CBS News independently reported the same conditional proposal.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "A U.S. official told CBS that discussions were positive and constructive but that Washington was not in a rush to agree. The reporting describes a proposal under discussion, not a completed reopening or agreement.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The strait is a major oil-shipping route, so a conditional reopening proposal connects regional diplomacy with energy-supply uncertainty. The coverage does not establish that traffic has resumed.",
+      "editorNote": "Headline kept verbatim from CNBC. The proposal and U.S. response are attributed to the reporting; market implications are described without trading advice.",
+      "cluster": [
+        {
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-7-day-proposal/",
+          "source": "CBS News",
+          "title": "Iran War Updates: Tehran proposes 7-day plan to reopen Strait of Hormuz as it seeks deal before U.S. midterms"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/09/25/us-iran-trump-hormuz-.html",
+          "source": "CNBC",
+          "title": "Iran offers to reopen Strait of Hormuz within 7 days and restart nuclear talks",
+          "publishedAt": "2026-09-25T13:45:18Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-7-day-proposal/",
+          "source": "CBS News",
+          "title": "Iran War Updates: Tehran proposes 7-day plan to reopen Strait of Hormuz as it seeks deal before U.S. midterms",
+          "publishedAt": "2026-09-25"
+        }
+      ],
+      "tags": [
+        "Iran",
+        "Strait of Hormuz",
+        "oil",
+        "diplomacy"
       ],
       "confidence": "medium"
     }

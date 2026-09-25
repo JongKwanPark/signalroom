@@ -2,8 +2,9 @@
   "date": "2026-09-25",
   "generatedAt": "2026-09-25T10:10:10Z",
   "vertical": "bio",
+  "lang": "en",
   "title": "Signal Daily — Bio",
-  "summary": "A thin edition: PubMed, clinical-trial and journal feeds yielded usable records, but bioRxiv and medRxiv returned invalid JSON. Three stories summarize AI in research workflows, separate GLP-1 coverage and infectious-disease reporting; records mostly contain headlines rather than article text.",
+  "summary": "A thin edition: four stories passed the cross-source editorial check. PubMed, clinical-trial and journal feeds returned usable records, but bioRxiv and medRxiv returned invalid JSON; unsupported single-source study records were left out.",
   "stories": [
     {
       "slug": "ai-in-research-and-clinical-workflows",
@@ -170,6 +171,64 @@
       "tags": [
         "infectious-disease",
         "public-health"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "lilly-wins-approval-for-once-weekly-insulin",
+      "headline": "STAT+: Lilly wins approval for once-weekly insulin shot",
+      "dek": "The FDA approved Onswik, Lilly’s once-weekly basal insulin for adults with type 2 diabetes.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "Lilly said the FDA approved Onswik, its once-weekly basal insulin for adults with type 2 diabetes.",
+        "The company said the approval was based on its QWINT Phase 3 program involving more than 3,400 adults.",
+        "The announcement expands Lilly’s marketed diabetes portfolio; the clinical and safety details cited here come from the company release."
+      ],
+      "body": [
+        {
+          "text": "STAT reported the FDA approval of Lilly’s once-weekly insulin shot. Lilly’s release identifies the product as Onswik (insulin efsitora alfa-gobe), a basal insulin approved for adults with type 2 diabetes.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Lilly said the approval was supported by the QWINT Phase 3 program, which evaluated the treatment in more than 3,400 adults. Those trial and product details are company-reported in the announcement.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The approval adds a once-weekly basal insulin to Lilly’s commercial diabetes portfolio, making the product a notable regulatory and competitive development in the insulin market.",
+      "editorNote": "Headline kept verbatim from the STAT feed. Regulatory and trial details are attributed to Lilly’s company release; no treatment guidance is included.",
+      "cluster": [
+        {
+          "url": "https://www.statnews.com/2026/09/25/biotech-news-lilly-wins-approval-for-weekly-insulin-shot/?utm_campaign=rss",
+          "source": "STAT",
+          "title": "STAT+: Lilly wins approval for once-weekly insulin shot"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.statnews.com/2026/09/25/biotech-news-lilly-wins-approval-for-weekly-insulin-shot/?utm_campaign=rss",
+          "source": "STAT",
+          "title": "STAT+: Lilly wins approval for once-weekly insulin shot",
+          "publishedAt": "2026-09-25T15:25:10Z"
+        },
+        {
+          "id": 2,
+          "url": "https://investor.lilly.com/news-releases/news-release-details/us-food-and-drug-administration-fda-approves-lillys-onswiktm",
+          "source": "Eli Lilly and Company",
+          "title": "U.S. Food and Drug Administration (FDA) approves Lilly's Onswik™ (insulin efsitora alfa-gobe), a once-weekly basal insulin injection treatment for adults living with type 2 diabetes",
+          "publishedAt": "2026-09-24"
+        }
+      ],
+      "tags": [
+        "insulin",
+        "FDA",
+        "Eli Lilly"
       ],
       "confidence": "medium"
     }

@@ -2,8 +2,9 @@
   "date": "2026-09-25",
   "generatedAt": "2026-09-25T10:10:10Z",
   "vertical": "geo",
+  "lang": "en",
   "title": "Signal Daily — Geopolitics",
-  "summary": "The collection returned 57 unique items from wire feeds. ReliefWeb was unconfigured, while GDELT, ISW and Polymarket requests failed; five stories use cross-outlet coverage where available.",
+  "summary": "The collection returned 58 unique items. ReliefWeb was unconfigured, GDELT failed to fetch, ISW returned HTTP 403 and Polymarket returned HTTP 451; six stories use cross-outlet reporting where available.",
   "stories": [
     {
       "slug": "us-china-summit-diplomacy",
@@ -262,6 +263,65 @@
         "france",
         "vatican",
         "religion"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "russia-targets-ukraine-data-centres",
+      "headline": "Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says",
+      "dek": "A new strike claim comes amid reporting that attacks on internet-provider data centres disrupted services in Kyiv.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "Zelensky said Russian attacks on Ukrainian data centres were targeting ordinary life, according to the BBC headline and report.",
+        "ISW’s September 24 assessment said strikes on internet-provider data centres continued to cause internet disruptions in Kyiv.",
+        "The available reporting links physical infrastructure strikes to civilian connectivity, while the scale and attribution of individual damage remain source-dependent."
+      ],
+      "body": [
+        {
+          "text": "The BBC reported Zelensky’s claim that Russia was targeting ordinary life through attacks on Ukraine’s data centres. ISW separately reported that strikes against Ukrainian internet providers’ data centres continued to disrupt internet service in Kyiv City.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "ISW cited Ukrainian telecom and provider reporting on damage to core networks and temporary service disruptions. Its assessment distinguishes those reported impacts from a full independent verification of each strike.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The reporting points to connectivity infrastructure as part of the civilian consequences of the war: damage to data centres and core networks can affect access to routine information and services, alongside the military effects of strikes.",
+      "editorNote": "Headline copied verbatim from the BBC feed. The second source is ISW’s September 24 assessment; claims are attributed to the named sources and no unverified strike count is added.",
+      "cluster": [
+        {
+          "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-september-24-2026/",
+          "source": "Institute for the Study of War",
+          "title": "Russian Offensive Campaign Assessment, Sept. 24, 2026"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c84gkwgk7d06o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says",
+          "publishedAt": "2026-09-25T20:47:49Z"
+        },
+        {
+          "id": 2,
+          "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-september-24-2026/",
+          "source": "Institute for the Study of War",
+          "title": "Russian Offensive Campaign Assessment, Sept. 24, 2026",
+          "publishedAt": "2026-09-24"
+        }
+      ],
+      "tags": [
+        "Ukraine",
+        "Russia",
+        "infrastructure",
+        "cybersecurity"
       ],
       "confidence": "medium"
     }

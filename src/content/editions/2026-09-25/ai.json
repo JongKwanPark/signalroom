@@ -2,8 +2,9 @@
   "date": "2026-09-25",
   "generatedAt": "2026-09-25T10:10:10Z",
   "vertical": "ai",
+  "lang": "en",
   "title": "Signal Daily — AI",
-  "summary": "AI collection returned 135 unique items, though some Reddit feeds failed. Five stories cover agent evaluation, Jev tooling, local models, memory and research review; summaries are limited to collected titles and descriptions.",
+  "summary": "AI collection returned 164 unique items; one Reddit search sub-task failed with HTTP 403. Five stories cover agent evaluation, Jev tooling, local models, memory and research review; this edition retains only stories with cross-source support.",
   "stories": [
     {
       "slug": "llm-agent-evaluation-and-trace-integrity",
