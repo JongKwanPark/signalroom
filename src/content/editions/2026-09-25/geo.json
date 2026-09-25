@@ -1,0 +1,269 @@
+{
+  "date": "2026-09-25",
+  "generatedAt": "2026-09-25T10:10:10Z",
+  "vertical": "geo",
+  "title": "Signal Daily — Geopolitics",
+  "summary": "The collection returned 57 unique items from wire feeds. ReliefWeb was unconfigured, while GDELT, ISW and Polymarket requests failed; five stories use cross-outlet coverage where available.",
+  "stories": [
+    {
+      "slug": "us-china-summit-diplomacy",
+      "headline": "Trump and Xi exchange warm words at state dinner but little progress on key issues",
+      "dek": "Washington and Beijing projected warmth at a high-profile meeting while coverage noted limits to progress.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "The BBC reports warm words at the state dinner but little progress on key issues.",
+        "Al Jazeera reports Xi Jinping set out terms to avoid U.S.-China military conflict.",
+        "The headlines do not establish that the issues were resolved."
+      ],
+      "body": [
+        {
+          "text": "The BBC characterizes the state dinner as cordial while noting little progress. Al Jazeera separately reports Xi’s stated terms for avoiding military conflict; these headlines do not show that issues were resolved.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The reports show strands of U.S.-China diplomacy in motion, while the primary headline signals limited progress.",
+      "editorNote": "Related summit diplomacy, but separate reports.",
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/us-news/2026/sep/24/xi-jinping-trump-china-cooperation-thucydides-trap",
+          "source": "wire",
+          "title": "At Trump meeting, Xi Jinping lays out terms to avoid US-China military conflict"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cxq63dqp93n1o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Trump and Xi exchange warm words at state dinner but little progress on key issues",
+          "publishedAt": "2026-09-25T08:09:26.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theguardian.com/us-news/2026/sep/24/xi-jinping-trump-china-cooperation-thucydides-trap",
+          "source": "wire",
+          "title": "At Trump meeting, Xi Jinping lays out terms to avoid US-China military conflict",
+          "publishedAt": "2026-09-24T23:58:11.000Z"
+        }
+      ],
+      "tags": [
+        "china",
+        "united-states",
+        "diplomacy"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "renewed-fighting-in-tigray",
+      "headline": "Ethiopia's army says it has repelled attacks in first comment on fresh fighting",
+      "dek": "Reports describe renewed fighting in Ethiopia’s Tigray region and fears of wider conflict.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "The BBC reports Ethiopia’s army said it repelled attacks in its first comment on fresh fighting.",
+        "Al Jazeera reports renewed fighting in Tigray raises fears of a return to civil war.",
+        "The headlines do not confirm the scale or course of clashes."
+      ],
+      "body": [
+        {
+          "text": "The BBC attributes the account of repelled attacks to Ethiopia’s army. Al Jazeera says renewed fighting raises fears of a return to civil war; that is a reported concern, not a confirmed outcome.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Attribution and uncertainty are central to the available reports.",
+      "editorNote": "Records provide headlines only; the attack account is attributed to Ethiopia’s army.",
+      "cluster": [
+        {
+          "url": "https://www.dw.com/en/how-renewed-fighting-in-tigray-could-spread-across-the-horn-of-africa/a-79410333?maca=en-rss-en-world-4025-rdf",
+          "source": "wire",
+          "title": "How renewed fighting in Tigray could spread across the Horn of Africa"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cqevwm09w4xmo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Ethiopia's army says it has repelled attacks in first comment on fresh fighting",
+          "publishedAt": "2026-09-24T15:37:45.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.dw.com/en/how-renewed-fighting-in-tigray-could-spread-across-the-horn-of-africa/a-79410333?maca=en-rss-en-world-4025-rdf",
+          "source": "wire",
+          "title": "How renewed fighting in Tigray could spread across the Horn of Africa",
+          "publishedAt": "2026-09-25T05:58:00.000Z"
+        }
+      ],
+      "tags": [
+        "ethiopia",
+        "tigray",
+        "conflict"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "israel-un-speech-and-walkout",
+      "headline": "Netanyahu defends Israeli military action as delegates walk out before UN speech",
+      "dek": "Israel’s UN address drew a walkout amid wider diplomatic tensions at the General Assembly.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "The BBC reports delegates walked out before Netanyahu’s UN speech.",
+        "Al Jazeera describes crises and walkouts during the third day of the UN General Assembly.",
+        "The titles do not identify which delegations left or how many."
+      ],
+      "body": [
+        {
+          "text": "The BBC says delegates walked out before the Israeli prime minister’s UN speech. Al Jazeera separately describes walkouts during the General Assembly’s third day, without specifying the same participants.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The walkout signals diplomatic opposition, but headlines do not establish its composition or effect.",
+      "editorNote": "The headline does not identify the delegates; no identities are inferred.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/25/converging-crises-chaos-and-walkouts-dominate-unga-day-three?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Converging crises, chaos and walkouts dominate UNGA Day Three"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c3y0z7kxlegdo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Netanyahu defends Israeli military action as delegates walk out before UN speech",
+          "publishedAt": "2026-09-25T00:44:04.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/25/converging-crises-chaos-and-walkouts-dominate-unga-day-three?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Converging crises, chaos and walkouts dominate UNGA Day Three",
+          "publishedAt": "2026-09-25T06:28:00.000Z"
+        }
+      ],
+      "tags": [
+        "israel",
+        "united-nations",
+        "diplomacy"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "italy-school-face-covering-and-foreign-pupil-rules",
+      "headline": "Italy ministers agree to ban burqa and niqab in school and cap foreigners in class",
+      "dek": "Two outlets report Italian school restrictions affecting face coverings and foreign pupils.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "The BBC reports ministers agreed to ban burqas and niqabs in schools and cap foreign pupils in class.",
+        "Al Jazeera reports Italy plans a school burqa ban and limits on foreign pupils.",
+        "The collected headlines lack policy text and an implementation timetable."
+      ],
+      "body": [
+        {
+          "text": "The BBC reports ministers agreed to a school ban on burqas and niqabs and a cap on foreign pupils. Al Jazeera also reports a school burqa ban and limits on foreign pupils.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The proposal touches education and rules on religious dress and foreign pupils; precise scope depends on policy details absent here.",
+      "editorNote": "Headlines only; legal scope and implementation are not inferred.",
+      "cluster": [
+        {
+          "url": "https://www.dw.com/en/italy-to-ban-burqa-in-schools-limit-foreign-pupils/a-79423432?maca=en-rss-en-world-4025-rdf",
+          "source": "wire",
+          "title": "Italy to ban burqa in schools, limit foreign pupils"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cw99d8g48873o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Italy ministers agree to ban burqa and niqab in school and cap foreigners in class",
+          "publishedAt": "2026-09-24T19:32:59.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.dw.com/en/italy-to-ban-burqa-in-schools-limit-foreign-pupils/a-79423432?maca=en-rss-en-world-4025-rdf",
+          "source": "wire",
+          "title": "Italy to ban burqa in schools, limit foreign pupils",
+          "publishedAt": "2026-09-25T08:10:00.000Z"
+        }
+      ],
+      "tags": [
+        "italy",
+        "education",
+        "policy"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "pope-leo-france-visit",
+      "headline": "Hundreds of thousands expected in Paris for Pope's visit",
+      "dek": "Pope Leo’s visit to France is drawing crowds amid public debate over assisted dying and abuse.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "The BBC says hundreds of thousands are expected in Paris for the Pope’s visit.",
+        "Al Jazeera reports Pope Leo is heading to France amid debates over assisted dying and abuse.",
+        "The headlines describe expectations and context, not final attendance."
+      ],
+      "body": [
+        {
+          "text": "The BBC says hundreds of thousands are expected in Paris. Al Jazeera links the trip with debate over assisted dying and abuse; neither headline gives a confirmed turnout.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The visit combines a large public event with contentious debate, while attendance remains an expectation.",
+      "editorNote": "Expected attendance is not presented as a final count.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/9/25/pope-leo-heads-to-france-amid-assisted-dying-abuse-debates?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Pope Leo heads to France amid assisted dying, abuse debates"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cmq8j904212po?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Hundreds of thousands expected in Paris for Pope's visit",
+          "publishedAt": "2026-09-25T09:35:37.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/news/2026/9/25/pope-leo-heads-to-france-amid-assisted-dying-abuse-debates?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Pope Leo heads to France amid assisted dying, abuse debates",
+          "publishedAt": "2026-09-25T07:41:24.000Z"
+        }
+      ],
+      "tags": [
+        "france",
+        "vatican",
+        "religion"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

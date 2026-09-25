@@ -1,0 +1,295 @@
+{
+  "date": "2026-09-25",
+  "generatedAt": "2026-09-25T10:10:10Z",
+  "vertical": "ai",
+  "title": "Signal Daily — AI",
+  "summary": "AI collection returned 135 unique items, though some Reddit feeds failed. Five stories cover agent evaluation, Jev tooling, local models, memory and research review; summaries are limited to collected titles and descriptions.",
+  "stories": [
+    {
+      "slug": "llm-agent-evaluation-and-trace-integrity",
+      "headline": "LLM Agents Can Easily Tamper With Their Own Traces",
+      "dek": "Research, commentary and tooling address evaluation of language-model agents.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "An arXiv paper is titled “LLM Agents Can Easily Tamper With Their Own Traces.”",
+        "A separate Hacker News article explains the LLM-as-a-Judge approach.",
+        "A GitHub project describes agent evaluations and guardrails in one request."
+      ],
+      "body": [
+        {
+          "text": "The arXiv title raises trace integrity; separate items cover LLM-as-a-Judge and a project for agent evaluations and guardrails. The listings do not establish a shared benchmark or comparison.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "The items show evaluation and trace integrity as distinct questions in agent development.",
+      "editorNote": "Metadata-only synthesis; no paper results or software were independently examined.",
+      "cluster": [
+        {
+          "url": "https://infere.com/blog/what-is-llm-as-a-judge/",
+          "source": "hackernews",
+          "title": "What is LLM-as-a-Judge, and How It Works?"
+        },
+        {
+          "url": "https://github.com/openlayer-ai/jevals",
+          "source": "GitHub",
+          "title": "openlayer-ai/jevals: Agent evals and guardrails as Jev decisions: one request per trace, a fraction of a cent, fast enough for the agent loop. Runs locally with Kev or Laya."
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "http://arxiv.org/abs/2609.30266v1",
+          "source": "arXiv",
+          "title": "LLM Agents Can Easily Tamper With Their Own Traces",
+          "publishedAt": "2026-09-24T17:59:54Z"
+        },
+        {
+          "id": 2,
+          "url": "https://infere.com/blog/what-is-llm-as-a-judge/",
+          "source": "hackernews",
+          "title": "What is LLM-as-a-Judge, and How It Works?",
+          "publishedAt": "2026-09-25T07:19:46Z"
+        },
+        {
+          "id": 3,
+          "url": "https://github.com/openlayer-ai/jevals",
+          "source": "GitHub",
+          "title": "openlayer-ai/jevals: Agent evals and guardrails as Jev decisions: one request per trace, a fraction of a cent, fast enough for the agent loop. Runs locally with Kev or Laya.",
+          "publishedAt": "2026-09-20T19:56:13Z"
+        }
+      ],
+      "tags": [
+        "agents",
+        "evaluation",
+        "research"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "jevout-decision-model-context",
+      "headline": "JevOut: Natural Context Can Flip Decision Models",
+      "dek": "A research preprint and a project directory point to activity around Jev-style decision models.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "An arXiv title says natural context can flip decision models.",
+        "A GitHub repository describes tools built for Jev.",
+        "The metadata does not establish a shared release or technical integration."
+      ],
+      "body": [
+        {
+          "text": "The arXiv listing is titled “JevOut: Natural Context Can Flip Decision Models.” A GitHub repository indexes tools built for Jev; the supplied titles do not establish compatibility or performance.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The listings document work around decision-model behavior and related tooling, while leaving their relationship unverified.",
+      "editorNote": "Claims are limited to titles and repository metadata.",
+      "cluster": [
+        {
+          "url": "https://github.com/v-modal/awesome-jev-tools",
+          "source": "GitHub",
+          "title": "v-modal/awesome-jev-tools: A curated list of tools  built for Jev — TypeSafe AI's System One model for typed decisions."
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "http://arxiv.org/abs/2609.30243v1",
+          "source": "arXiv",
+          "title": "JevOut: Natural Context Can Flip Decision Models",
+          "publishedAt": "2026-09-24T17:57:07Z"
+        },
+        {
+          "id": 2,
+          "url": "https://github.com/v-modal/awesome-jev-tools",
+          "source": "GitHub",
+          "title": "v-modal/awesome-jev-tools: A curated list of tools  built for Jev — TypeSafe AI's System One model for typed decisions.",
+          "publishedAt": "2026-09-19T16:48:59Z"
+        }
+      ],
+      "tags": [
+        "jev",
+        "decision-models",
+        "research"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "local-models-on-consumer-hardware",
+      "headline": "Running local LLMs on your Mac: what fits, what's free, and what's overkill",
+      "dek": "Today’s items span local inference, open-weight models and a video about falling model costs.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "A Hacker News link asks which local language models fit on a Mac.",
+        "A GitHub listing describes Hemmingway-1 as a 27B model with open weights and non-commercial terms.",
+        "A YouTube title frames GLM 5.3 as powerful AI becoming almost free."
+      ],
+      "body": [
+        {
+          "text": "The primary link asks what fits on a Mac and what is free or excessive. Separate listings describe Hemmingway-1 as a 27B open-weight model and GLM 5.3 as becoming almost free; the records do not establish that either runs locally.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "The items raise questions about hardware, licensing and price, but metadata supports no performance comparison.",
+      "editorNote": "Details follow titles and descriptions only; model terms and cost were not independently checked.",
+      "cluster": [
+        {
+          "url": "https://github.com/lukeckprobierts/Hemmingway-1",
+          "source": "GitHub",
+          "title": "lukeckprobierts/Hemmingway-1: Hemmingway-1: a 27B model that writes the way a person writes. Open weights, free for non-commercial use (CC BY-NC 4.0); commercial use by agreement."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=w9RDunJACkc",
+          "source": "YouTube",
+          "title": "Two Minute Papers: GLM 5.3: Powerful AI Is Becoming Almost Free"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://typetab.app/blog/local-llms-on-your-mac",
+          "source": "hackernews",
+          "title": "Running local LLMs on your Mac: what fits, what's free, and what's overkill",
+          "publishedAt": "2026-09-25T08:53:59Z"
+        },
+        {
+          "id": 2,
+          "url": "https://github.com/lukeckprobierts/Hemmingway-1",
+          "source": "GitHub",
+          "title": "lukeckprobierts/Hemmingway-1: Hemmingway-1: a 27B model that writes the way a person writes. Open weights, free for non-commercial use (CC BY-NC 4.0); commercial use by agreement.",
+          "publishedAt": "2026-09-20T12:05:48Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.youtube.com/watch?v=w9RDunJACkc",
+          "source": "YouTube",
+          "title": "Two Minute Papers: GLM 5.3: Powerful AI Is Becoming Almost Free",
+          "publishedAt": "2026-09-01T09:04:56.000Z"
+        }
+      ],
+      "tags": [
+        "local-models",
+        "open-weights",
+        "inference"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "agent-traces-and-selective-memory",
+      "headline": "Show HN: SelMem – selective reconstructive memory for LLMs",
+      "dek": "A project on selective memory and a research paper on agent traces raise questions about retained state.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "A Hacker News-linked project describes selective reconstructive memory for LLMs.",
+        "An arXiv paper is titled “LLM Agents Can Easily Tamper With Their Own Traces.”",
+        "The metadata does not provide a direct comparison or shared evaluation."
+      ],
+      "body": [
+        {
+          "text": "The SelMem project describes selective reconstructive memory for LLMs. A separate arXiv title concerns agents tampering with their own traces; the records do not claim the paper evaluates SelMem.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "State retention and trace integrity are adjacent design questions for AI systems.",
+      "editorNote": "No implementation or evaluation results were inspected.",
+      "cluster": [
+        {
+          "url": "http://arxiv.org/abs/2609.30266v1",
+          "source": "arXiv",
+          "title": "LLM Agents Can Easily Tamper With Their Own Traces"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://github.com/jbsalles/Selmem",
+          "source": "GitHub",
+          "title": "Show HN: SelMem – selective reconstructive memory for LLMs",
+          "publishedAt": "2026-09-25T05:28:08Z"
+        },
+        {
+          "id": 2,
+          "url": "http://arxiv.org/abs/2609.30266v1",
+          "source": "arXiv",
+          "title": "LLM Agents Can Easily Tamper With Their Own Traces",
+          "publishedAt": "2026-09-24T17:59:54Z"
+        }
+      ],
+      "tags": [
+        "agents",
+        "memory",
+        "evaluation"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "llm-peer-review-and-reviewer-bias",
+      "headline": "Peer review in the LLM (mania) age",
+      "dek": "A discussion of peer review and a software project examine language models in research review.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "A Hacker News item is titled “Peer review in the LLM (mania) age.”",
+        "A GitHub project describes meaning-preserving rewrites to address LLM reviewer bias.",
+        "The items do not establish prevalence or measured effects."
+      ],
+      "body": [
+        {
+          "text": "The Hacker News headline frames peer review amid LLM use. The project says it aims to defend research against reviewer bias through meaning-preserving rewrites; this is a project description, not an independent evaluation.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The pairing highlights a research-integrity concern and a proposed tool response, with no evidence about frequency or impact.",
+      "editorNote": "Project capability is represented only by its repository description.",
+      "cluster": [
+        {
+          "url": "https://github.com/Michael-Jiahao-Zhang/game-the-llm-reviewer",
+          "source": "GitHub",
+          "title": "Michael-Jiahao-Zhang/game-the-llm-reviewer: Defend sound research against LLM reviewer bias through meaning-preserving rewrites."
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.humprog.org/~stephen/blog/research/llms-review-mania.html",
+          "source": "hackernews",
+          "title": "Peer review in the LLM (mania) age",
+          "publishedAt": "2026-09-25T02:04:10Z"
+        },
+        {
+          "id": 2,
+          "url": "https://github.com/Michael-Jiahao-Zhang/game-the-llm-reviewer",
+          "source": "GitHub",
+          "title": "Michael-Jiahao-Zhang/game-the-llm-reviewer: Defend sound research against LLM reviewer bias through meaning-preserving rewrites.",
+          "publishedAt": "2026-09-21T23:11:47Z"
+        }
+      ],
+      "tags": [
+        "research",
+        "peer-review",
+        "llms"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

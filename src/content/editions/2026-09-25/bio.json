@@ -1,0 +1,177 @@
+{
+  "date": "2026-09-25",
+  "generatedAt": "2026-09-25T10:10:10Z",
+  "vertical": "bio",
+  "title": "Signal Daily — Bio",
+  "summary": "A thin edition: PubMed, clinical-trial and journal feeds yielded usable records, but bioRxiv and medRxiv returned invalid JSON. Three stories summarize AI in research workflows, separate GLP-1 coverage and infectious-disease reporting; records mostly contain headlines rather than article text.",
+  "stories": [
+    {
+      "slug": "ai-in-research-and-clinical-workflows",
+      "headline": "AI system helps lab devices ‘talk’ with each other — streamlining research",
+      "dek": "Biomedical coverage describes AI in lab workflows, clinical trials and radiology.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "Nature reports an AI system intended to help lab devices communicate.",
+        "A PubMed title concerns generative AI in clinical trials for autism and other neurobehavioral disorders.",
+        "STAT describes the rise of the AI-native radiology practice."
+      ],
+      "body": [
+        {
+          "text": "Nature’s headline says an AI system helps lab devices “talk.” Separate items cover generative AI in clinical trials and AI-native radiology; these are not reports of one system or study.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "The coverage places AI tools across research and clinical workflows without establishing safety, effectiveness or adoption levels.",
+      "editorNote": "Thin, metadata-only roundup: bioRxiv and medRxiv returned invalid JSON, and records lack article text.",
+      "cluster": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42786877/",
+          "source": "PubMed",
+          "title": "Artificial Intelligence and Generative AI in Clinical Trials for Autism and Other Neurobehavioral Disorders"
+        },
+        {
+          "url": "https://www.statnews.com/2026/09/24/the-rise-of-the-ai-native-radiology-practice-health-tech/?utm_campaign=rss",
+          "source": "STAT",
+          "title": "STAT+: The rise of the AI-native radiology practice"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.nature.com/articles/d41586-026-02990-8",
+          "source": "Nature",
+          "title": "AI system helps lab devices ‘talk’ with each other — streamlining research",
+          "publishedAt": "2026-09-24T00:00:00.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42786877/",
+          "source": "PubMed",
+          "title": "Artificial Intelligence and Generative AI in Clinical Trials for Autism and Other Neurobehavioral Disorders",
+          "publishedAt": "2026/09/24 00:00"
+        },
+        {
+          "id": 3,
+          "url": "https://www.statnews.com/2026/09/24/the-rise-of-the-ai-native-radiology-practice-health-tech/?utm_campaign=rss",
+          "source": "STAT",
+          "title": "STAT+: The rise of the AI-native radiology practice",
+          "publishedAt": "2026-09-24T13:21:14.000Z"
+        }
+      ],
+      "tags": [
+        "ai",
+        "clinical-research",
+        "laboratory"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "glp1-weight-loss-questions",
+      "headline": "GLP-1 drugs fail to help some people lose weight — scientists are on a quest for answers",
+      "dek": "Two reports raise different questions about GLP-1 medicines and weight-related outcomes.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "Nature reports GLP-1 drugs do not help some people lose weight and says researchers are investigating why.",
+        "ScienceDaily reports a link between GLP-1 drugs and nutritional deficiencies in children.",
+        "The headlines describe separate coverage, not a shared study."
+      ],
+      "body": [
+        {
+          "text": "Nature’s headline says researchers are investigating why GLP-1 drugs fail to help some people lose weight. A separate ScienceDaily headline reports an association with nutritional deficiencies in children; it does not confirm the explanation in the Nature report.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The items raise questions about outcomes and reported nutritional effects, while headlines cannot establish causation or offer clinical guidance.",
+      "editorNote": "No treatment advice; records contain headlines and links only.",
+      "cluster": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260923035926.htm",
+          "source": "ScienceDaily",
+          "title": "GLP-1 weight loss and diabetes drugs linked to nutritional deficiencies in nearly 1 in 6 children"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.nature.com/articles/d41586-026-03020-3",
+          "source": "Nature",
+          "title": "GLP-1 drugs fail to help some people lose weight — scientists are on a quest for answers",
+          "publishedAt": "2026-09-24T00:00:00.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.sciencedaily.com/releases/2026/09/260923035926.htm",
+          "source": "ScienceDaily",
+          "title": "GLP-1 weight loss and diabetes drugs linked to nutritional deficiencies in nearly 1 in 6 children",
+          "publishedAt": "2026-09-24T03:15:18.000Z"
+        }
+      ],
+      "tags": [
+        "glp-1",
+        "weight-loss",
+        "research"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "infectious-disease-surveillance-and-emergence",
+      "headline": "One of the most contagious diseases on the planet is having its worst U.S. outbreak since 1991",
+      "dek": "Public-health reporting on a U.S. outbreak sits alongside research coverage on emerging infectious diseases.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "STAT reports the worst U.S. outbreak since 1991 of a highly contagious disease.",
+        "Nature describes research on the anthropogenic fingerprint on emerging infectious diseases.",
+        "The headlines do not identify the same pathogen or outbreak."
+      ],
+      "body": [
+        {
+          "text": "STAT’s headline describes a U.S. outbreak as the worst since 1991 for the disease in its report. Nature separately covers human influences on emerging infectious diseases; the metadata does not connect that research to this outbreak.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The pairing distinguishes immediate outbreak reporting from broader research into disease emergence without asserting a causal link.",
+      "editorNote": "The STAT headline does not name the disease, so this edition does not infer it.",
+      "cluster": [
+        {
+          "url": "https://www.nature.com/articles/s41586-026-11058-6",
+          "source": "Nature",
+          "title": "The anthropogenic fingerprint on emerging infectious diseases"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.statnews.com/2026/09/24/health-news-measles-contagious-outbreak-u-s-deaths-1991/?utm_campaign=rss",
+          "source": "STAT",
+          "title": "One of the most contagious diseases on the planet is having its worst U.S. outbreak since 1991",
+          "publishedAt": "2026-09-24T11:52:28.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.nature.com/articles/s41586-026-11058-6",
+          "source": "Nature",
+          "title": "The anthropogenic fingerprint on emerging infectious diseases",
+          "publishedAt": "2026-09-23T00:00:00.000Z"
+        }
+      ],
+      "tags": [
+        "infectious-disease",
+        "public-health"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "date": "2026-09-25",
+  "generatedAt": "2026-09-25T10:10:10Z",
+  "vertical": "markets",
+  "title": "Signal Daily — Markets",
+  "summary": "The collection returned 101 unique items, mostly wire headlines and community posts. SEC EDGAR and market-data requests failed, Polymarket was blocked and FRED was not configured; five stories report developments without investment advice.",
+  "stories": [
+    {
+      "slug": "treasury-yields-and-market-pressure",
+      "headline": "Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed",
+      "dek": "Treasury yields remained a focus as bond-market pressure intersected with broader trading moves.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "CNBC reports surging Treasury yields posed a new problem for Kevin Warsh and the Federal Reserve.",
+        "A Reddit title says the 10-year Treasury yield reached a 19-year high after hot economic readings.",
+        "Investing.com reports U.S. futures edging higher as oil fell amid a bond selloff."
+      ],
+      "body": [
+        {
+          "text": "CNBC frames rising yields as a new issue for Warsh and the Fed. A market-forum post describes a 19-year high in the 10-year yield, while Investing.com reports futures moving higher as oil fell during a bond selloff.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "The reports point to bond yields as a shared concern but establish neither a single cause nor a forecast.",
+      "editorNote": "No investment recommendation; the Reddit item is a community post.",
+      "cluster": [
+        {
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1woaq47/10year_treasury_yield_leaps_to_fresh_19year_high/",
+          "source": "Reddit",
+          "title": "10-year Treasury yield leaps to fresh 19-year high after hot economic readings"
+        },
+        {
+          "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-drift-lower-as-soaring-yields-oil-prices-weigh-4916485",
+          "source": "Investing.com",
+          "title": "U.S. stock futures edge higher as oil drop offers relief amid bond selloff"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/09/24/surging-treasury-yields-are-posing-a-brand-new-problem-for-kevin-warsh-and-the-fed.html",
+          "source": "CNBC",
+          "title": "Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed",
+          "publishedAt": "2026-09-25T02:38:53.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1woaq47/10year_treasury_yield_leaps_to_fresh_19year_high/",
+          "source": "Reddit",
+          "title": "10-year Treasury yield leaps to fresh 19-year high after hot economic readings",
+          "publishedAt": "2026-09-23T16:26:14.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-drift-lower-as-soaring-yields-oil-prices-weigh-4916485",
+          "source": "Investing.com",
+          "title": "U.S. stock futures edge higher as oil drop offers relief amid bond selloff",
+          "publishedAt": "2026-09-25T00:52:36.000Z"
+        }
+      ],
+      "tags": [
+        "treasuries",
+        "rates",
+        "markets"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "bitget-hack-and-bitcoin-trading",
+      "headline": "Crypto platform Bitget suspects North Korea is responsible for $352 million hack",
+      "dek": "A suspected $352 million crypto-platform hack appeared alongside coverage of Bitcoin and rate jitters.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "CNBC reports Bitget suspects North Korea was responsible for a $352 million hack.",
+        "Investing.com describes Bitcoin as rangebound near $85,000 with attention on rate jitters and the Bitget hack.",
+        "The attribution remains a suspicion reported by the platform."
+      ],
+      "body": [
+        {
+          "text": "CNBC attributes the loss to a suspicion held by Bitget, not a confirmed finding. Investing.com places the hack among factors watched in Bitcoin trading and describes Bitcoin as rangebound near $85,000.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The incident links platform-security news with market attention, but does not verify responsibility or establish a price effect.",
+      "editorNote": "Amounts and attribution follow headlines; no trading advice.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-pauses-near-84k-with-focus-on-rate-jitters-bitget-hack-4916727",
+          "source": "Investing.com",
+          "title": "Bitcoin rangebound near $85k with focus on rate jitters, Bitget hack"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/09/25/crypto-platform-bitget-suspects-north-korea-in-352-million-hack.html",
+          "source": "CNBC",
+          "title": "Crypto platform Bitget suspects North Korea is responsible for $352 million hack",
+          "publishedAt": "2026-09-25T06:13:35.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-pauses-near-84k-with-focus-on-rate-jitters-bitget-hack-4916727",
+          "source": "Investing.com",
+          "title": "Bitcoin rangebound near $85k with focus on rate jitters, Bitget hack",
+          "publishedAt": "2026-09-25T00:33:50.000Z"
+        }
+      ],
+      "tags": [
+        "cryptocurrency",
+        "security",
+        "bitcoin"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "novo-licensing-deal-and-share-price",
+      "headline": "Pharma stock soars 150% on injectables deal with Wegovy maker Novo",
+      "dek": "Two reports link a Novo partnership with a sharp share-price move at a Swedish company.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "CNBC reports a pharma stock soared 150% on an injectables deal with Novo.",
+        "MarketWatch reports a Novo licensing deal sent a Swedish company’s stock soaring.",
+        "The headlines do not confirm they identify the same company."
+      ],
+      "body": [
+        {
+          "text": "CNBC reports a 150% rise tied to an injectables deal with Novo. MarketWatch separately reports a licensing deal and a sharp rise in a Swedish company’s shares; the titles do not confirm this is the same company.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The reports show how deal headlines can coincide with large share moves, while the exact company and relationship require page-level verification.",
+      "editorNote": "The headlines may concern distinct announcements; confidence is low.",
+      "cluster": [
+        {
+          "url": "https://www.marketwatch.com/story/after-capital-markets-day-flop-novo-strikes-licensing-deal-that-sends-a-swedish-companys-stock-soaring-f3c99cbe?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "After capital-markets day flop, Novo strikes licensing deal that sends a Swedish company&#x2019;s stock soaring"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/09/25/wegovy-novo-nordisk-obesity-drugs.html",
+          "source": "CNBC",
+          "title": "Pharma stock soars 150% on injectables deal with Wegovy maker Novo",
+          "publishedAt": "2026-09-25T09:58:27.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.marketwatch.com/story/after-capital-markets-day-flop-novo-strikes-licensing-deal-that-sends-a-swedish-companys-stock-soaring-f3c99cbe?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "After capital-markets day flop, Novo strikes licensing deal that sends a Swedish company&#x2019;s stock soaring",
+          "publishedAt": "2026-09-25T09:11:00.000Z"
+        }
+      ],
+      "tags": [
+        "pharma",
+        "licensing",
+        "markets"
+      ],
+      "confidence": "low"
+    },
+    {
+      "slug": "federal-reserve-fomc-statement",
+      "headline": "Federal Reserve issues FOMC statement",
+      "dek": "The Federal Reserve issued its FOMC statement as market coverage focused on rising Treasury yields.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "The Federal Reserve listing records release of an FOMC statement.",
+        "CNBC reports surging Treasury yields posed a new problem for the Fed.",
+        "Collected titles do not reproduce the statement’s decision or projections."
+      ],
+      "body": [
+        {
+          "text": "The Federal Reserve headline records release of an FOMC statement. CNBC’s separate report focuses on Treasury yields and the Fed; no policy decision is inferred because statement text was not included.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The official release and market concern over yields offer context, but this record does not summarize the statement.",
+      "editorNote": "The statement itself was unavailable in the collection metadata.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/09/24/surging-treasury-yields-are-posing-a-brand-new-problem-for-kevin-warsh-and-the-fed.html",
+          "source": "CNBC",
+          "title": "Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+          "source": "Federal Reserve",
+          "title": "Federal Reserve issues FOMC statement",
+          "publishedAt": "2026-09-16T18:00:00.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/09/24/surging-treasury-yields-are-posing-a-brand-new-problem-for-kevin-warsh-and-the-fed.html",
+          "source": "CNBC",
+          "title": "Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed",
+          "publishedAt": "2026-09-25T02:38:53.000Z"
+        }
+      ],
+      "tags": [
+        "federal-reserve",
+        "rates",
+        "policy"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "anthropic-infrastructure-and-governance",
+      "headline": "Akamai stock is surging. A $12 billion Anthropic deal reveals its powerful edge over cloud providers.",
+      "dek": "Coverage of Anthropic spans a reported infrastructure deal and potential public-market governance plans.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "MarketWatch reports a $12 billion Anthropic deal involving Akamai.",
+        "Seeking Alpha reports Anthropic plans founder voting control ahead of a potential IPO.",
+        "The reports cover separate commercial and governance developments."
+      ],
+      "body": [
+        {
+          "text": "MarketWatch describes a $12 billion Akamai-Anthropic deal. Seeking Alpha separately reports planned founder voting control ahead of a potential IPO; the headlines do not establish that the developments are linked.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The reports touch infrastructure and corporate governance as separate issues relevant to the company.",
+      "editorNote": "The amount and governance framing follow headlines and were not independently checked.",
+      "cluster": [
+        {
+          "url": "https://seekingalpha.com/news/4647012-anthropic-plans-founder-voting-control-ahead-of-potential-ipo?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+          "source": "Seeking Alpha",
+          "title": "Anthropic plans founder voting control ahead of potential IPO"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.marketwatch.com/story/akamai-stock-is-surging-a-12-billion-anthropic-deal-reveals-its-powerful-edge-over-cloud-providers-0b60ca6d?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Akamai stock is surging. A $12 billion Anthropic deal reveals its powerful edge over cloud providers.",
+          "publishedAt": "2026-09-25T08:42:00.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://seekingalpha.com/news/4647012-anthropic-plans-founder-voting-control-ahead-of-potential-ipo?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+          "source": "Seeking Alpha",
+          "title": "Anthropic plans founder voting control ahead of potential IPO",
+          "publishedAt": "2026-09-25T09:50:19.000Z"
+        }
+      ],
+      "tags": [
+        "anthropic",
+        "ai-infrastructure",
+        "governance"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}
