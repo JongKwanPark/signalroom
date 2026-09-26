@@ -4,18 +4,18 @@
   "vertical": "geo",
   "lang": "en",
   "title": "Geopolitics & Security — September 26, 2026",
-  "summary": "A thin edition: three developments cleared the evidence bar, centered on the Iran–U.S. diplomatic channel, the Trump–Xi summit outcome, and Bangkok’s flood emergency. Several geopolitical feeds were unavailable, so this edition omits uncorroborated or low-signal headlines.",
+  "summary": "A thin edition: three developments cleared the evidence bar, centered on the Iran–U.S. diplomatic channel, the Trump–Xi summit outcome, and Bangkok’s flood emergency. The Iran story includes a September 26 report that Trump rejected the reopening proposal. Several geopolitical feeds were unavailable, so uncorroborated or low-signal headlines are omitted.",
   "stories": [
     {
       "slug": "iran-offers-hormuz-reopening-within-seven-days",
-      "headline": "Iran offers US deal to reopen Strait of Hormuz in seven days",
-      "dek": "Iran's foreign minister says reopening could follow if the United States accepts conditions tied to an earlier memorandum.",
+      "headline": "Trump rejects Iran deal to reopen Strait of Hormuz in seven days",
+      "dek": "A proposal to reopen the strait within a week was followed by a reported U.S. rejection.",
       "type": "DEEP",
       "readMinutes": 3,
       "tldr": [
-        "Iranian Foreign Minister Abbas Araghchi said Tehran had offered a plan to reopen the Strait of Hormuz within a week if conditions are met.",
-        "The proposal was delivered through Qatar and refers to an earlier memorandum, according to BBC and Al Jazeera reporting.",
-        "The offer is not an agreement: the terms and the U.S. response remain unresolved."
+        "Iran’s foreign minister had offered a plan to reopen the Strait of Hormuz within seven days if conditions were met.",
+        "BBC and Al Jazeera reported on September 26 that President Trump rejected the offer.",
+        "The collected coverage reports a rejection, not an agreement to reopen the strait."
       ],
       "body": [
         {
@@ -31,15 +31,27 @@
             1,
             2
           ]
+        },
+        {
+          "text": "A September 26 BBC report says Trump rejected the proposal; Al Jazeera also reported that he rejected Iran’s offer. These reports update the earlier proposal but do not establish that the strait has reopened or that a revised agreement was reached.",
+          "citations": [
+            3,
+            4
+          ]
         }
       ],
       "whyItMatters": "The strait is a critical energy-shipping route, so even a conditional diplomatic proposal can affect the security calculations of Gulf states and the wider energy market; the practical effect depends on implementation and a durable ceasefire.",
-      "editorNote": "Headline is verbatim from BBC. The proposed timeline is attributed to Iran's foreign minister; the edition does not treat it as an accomplished reopening.",
+      "editorNote": "Headline is verbatim from the September 26 BBC update. This entry merges the reported rejection into the existing proposal story; it does not treat reopening as completed.",
       "cluster": [
         {
           "url": "https://www.aljazeera.com/amp/news/2026/9/25/whats-in-irans-seven-day-plan-to-reopen-the-strait-of-hormuz",
           "source": "Al Jazeera",
           "title": "What’s in Iran’s seven-day plan to reopen the Strait of Hormuz?"
+        },
+        {
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/trump-rejects-iranian-offer-to-reopen-strait-of-hormuz?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Trump rejects Iranian offer to reopen Strait of Hormuz"
         }
       ],
       "sources": [
@@ -56,6 +68,20 @@
           "source": "Al Jazeera",
           "title": "What’s in Iran’s seven-day plan to reopen the Strait of Hormuz?",
           "publishedAt": "2026-09-25"
+        },
+        {
+          "id": 3,
+          "url": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "title": "Trump rejects Iran deal to reopen Strait of Hormuz in seven days",
+          "publishedAt": "2026-09-26"
+        },
+        {
+          "id": 4,
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/trump-rejects-iranian-offer-to-reopen-strait-of-hormuz?traffic_source=rss",
+          "source": "Al Jazeera Video",
+          "title": "Trump rejects Iranian offer to reopen Strait of Hormuz",
+          "publishedAt": "2026-09-26"
         }
       ],
       "tags": [

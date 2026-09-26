@@ -4,7 +4,7 @@
   "vertical": "markets",
   "lang": "en",
   "title": "Markets & Macro — September 26, 2026",
-  "summary": "A thin, policy-led edition: stablecoin rulemaking, the limited outcome of the Trump–Xi summit, and the oil-market implications of a proposed Hormuz reopening cleared the evidence bar. SEC EDGAR and market-data collection failed, so company-filing and quote coverage is incomplete.",
+  "summary": "A thin, policy-led edition: stablecoin rulemaking, the limited outcome of the Trump–Xi summit, the oil-market implications of a proposed Hormuz reopening, and a reported Apple haptics patent verdict cleared the evidence bar. SEC EDGAR and market-data collection failed, so company-filing and quote coverage is incomplete.",
   "stories": [
     {
       "slug": "fed-seeks-comment-on-genius-act-stablecoin-proposals",
@@ -183,6 +183,65 @@
         "energy"
       ],
       "confidence": "medium"
+    },
+    {
+      "slug": "apple-taction-haptics-patent-verdict",
+      "headline": "Apple faces $5.7 billion patent infringement verdict over iPhone and Apple Watch haptics",
+      "dek": "Two collected business outlets reported a patent verdict involving Apple’s haptics technology.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "CNBC reported a $5.7 billion patent infringement verdict involving Apple, iPhone, and Apple Watch haptics.",
+        "Seeking Alpha separately described the outcome as $5.7 billion owed to Taction Technology.",
+        "The collected coverage does not establish the verdict’s procedural status or any payment timeline."
+      ],
+      "body": [
+        {
+          "text": "CNBC reported that Apple faces a $5.7 billion patent infringement verdict tied to haptics in iPhone and Apple Watch products.",
+          "citations": [
+            4
+          ]
+        },
+        {
+          "text": "Seeking Alpha’s headline also names Taction Technology and characterizes the amount as owed. The collected headlines do not document an appeal, final judgment status, or payment.",
+          "citations": [
+            4,
+            5
+          ]
+        }
+      ],
+      "whyItMatters": "A large patent-verdict report puts intellectual-property litigation back in view for the technology sector. The collected coverage does not establish whether the award is final or how the dispute may be resolved.",
+      "editorNote": "Headline is verbatim from CNBC. The collection includes CNBC and Seeking Alpha coverage but no court filing or procedural update; confidence is low.",
+      "cluster": [
+        {
+          "url": "https://seekingalpha.com/news/4647381-apple-owes-taction-technology-5_7b-violating-haptics-patents?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+          "source": "Seeking Alpha",
+          "title": "Apple owes Taction Technology $5.7B for violating haptics patents"
+        }
+      ],
+      "sources": [
+        {
+          "id": 4,
+          "url": "https://www.cnbc.com/2026/09/26/apple-taction-technology-patent-infringement-verdict.html",
+          "source": "CNBC",
+          "title": "Apple faces $5.7 billion patent infringement verdict over iPhone and Apple Watch haptics",
+          "publishedAt": "2026-09-26"
+        },
+        {
+          "id": 5,
+          "url": "https://seekingalpha.com/news/4647381-apple-owes-taction-technology-5_7b-violating-haptics-patents?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+          "source": "Seeking Alpha",
+          "title": "Apple owes Taction Technology $5.7B for violating haptics patents",
+          "publishedAt": "2026-09-26"
+        }
+      ],
+      "tags": [
+        "Apple",
+        "patents",
+        "hardware",
+        "litigation"
+      ],
+      "confidence": "low"
     }
   ]
 }
