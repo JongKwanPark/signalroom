@@ -1,0 +1,187 @@
+{
+  "date": "2026-09-26",
+  "generatedAt": "2026-09-26T10:09:26.993Z",
+  "vertical": "bio",
+  "lang": "en",
+  "title": "Bio & Health — September 26, 2026",
+  "summary": "A thin edition: three developments cleared the evidence bar, spanning a new insulin approval, an early-stage viral enzyme finding, and evidence about industry influence on a tobacco rulemaking. Several research feeds were malformed or lacked independent coverage.",
+  "stories": [
+    {
+      "slug": "lilly-onswik-weekly-basal-insulin-fda-approval",
+      "headline": "U.S. Food and Drug Administration (FDA) approves Lilly's Onswik™ (insulin efsitora alfa-gobe), a once-weekly basal insulin injection treatment for adults living with type 2 diabetes",
+      "dek": "The approval adds a weekly basal insulin option for adults with type 2 diabetes; Lilly says its Phase 3 program included more than 3,400 participants.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "The FDA approved Lilly's Onswik for adults with type 2 diabetes, according to the company's release and independent coverage.",
+        "Lilly says the approval relied on QWINT Phase 3 trials involving more than 3,400 adults and non-inferior A1C reductions versus daily basal insulins.",
+        "The approval is a product and regulatory milestone; this report offers no treatment advice."
+      ],
+      "body": [
+        {
+          "text": "Lilly announced FDA approval of Onswik, a once-weekly basal insulin indicated with diet and exercise for adults with type 2 diabetes. The company says the QWINT Phase 3 program enrolled more than 3,400 adults and met its primary endpoint against daily basal-insulin comparators.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "BioSpace reports the approval as a new competitive entry in the U.S. insulin market. Trial and label details should be read in the underlying regulatory materials; this edition does not infer adherence or clinical outcomes beyond the reported trial results.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The approval adds a longer dosing interval to Lilly's diabetes portfolio and creates a new product comparison point for the basal-insulin market, subject to labeling, access, and real-world uptake.",
+      "editorNote": "Headline is verbatim from Lilly's release. Company-reported trial facts are attributed; no efficacy guidance or patient recommendation is included.",
+      "cluster": [
+        {
+          "url": "https://www.biospace.com/fda/eli-lillys-weekly-insulin-shot-cleared-by-fda-setting-up-another-front-in-novo-rivalry",
+          "source": "BioSpace",
+          "title": "Eli Lilly’s weekly insulin shot cleared by FDA, setting up another front in Novo rivalry"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://investor.lilly.com/news-releases/news-release-details/us-food-and-drug-administration-fda-approves-lillys-onswiktm",
+          "source": "Eli Lilly",
+          "title": "U.S. Food and Drug Administration (FDA) approves Lilly's Onswik™ (insulin efsitora alfa-gobe), a once-weekly basal insulin injection treatment for adults living with type 2 diabetes",
+          "publishedAt": "2026-09-24"
+        },
+        {
+          "id": 2,
+          "url": "https://www.biospace.com/fda/eli-lillys-weekly-insulin-shot-cleared-by-fda-setting-up-another-front-in-novo-rivalry",
+          "source": "BioSpace",
+          "title": "Eli Lilly’s weekly insulin shot cleared by FDA, setting up another front in Novo rivalry",
+          "publishedAt": "2026-09-24"
+        }
+      ],
+      "tags": [
+        "FDA",
+        "diabetes",
+        "Eli Lilly"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "anthropic-ai-biolab-viral-repeat-enzyme-system",
+      "headline": "Anthropic’s AI biolab finds ‘CRISPR-like’ DNA in viruses. What’s next?",
+      "dek": "The reported sequence pattern is a research lead; its biological function has not been established.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "Anthropic says about 950 agents searched genomic data and identified a repeat pattern associated with reverse transcriptases in bacteriophages.",
+        "Nature reports that the sequence pattern resembles part of some CRISPR systems, but its function remains unknown and the preprint is not peer reviewed.",
+        "Anthropic says laboratory work to characterize the system is ongoing; no genome-editing tool or therapeutic application has been demonstrated."
+      ],
+      "body": [
+        {
+          "text": "Anthropic describes a computational search in which roughly 950 agents spent about 21 hours scanning genomic data and surfaced a repeated DNA pattern adjacent to reverse-transcriptase genes. The company calls the associated system array-associated reverse transcriptases, or ART.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Nature notes that the pattern is structurally reminiscent of repeats in some microbial CRISPR systems, but there is scant evidence that it performs a similar function. The finding is in a preprint and remains an early lead pending characterization and peer review.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The episode illustrates a possible discovery workflow for AI-assisted genome mining while also showing the distance between surfacing a sequence pattern and demonstrating a biological mechanism or usable tool.",
+      "editorNote": "Headline is verbatim from Nature. Company's search scale is attributed to Anthropic; the story preserves Nature's uncertainty about function and peer review.",
+      "cluster": [
+        {
+          "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+          "source": "Anthropic",
+          "title": "Claude discovers a novel enzyme system with CRISPR-like repeats"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.nature.com/articles/d41586-026-03039-6",
+          "source": "Nature",
+          "title": "Anthropic’s AI biolab finds ‘CRISPR-like’ DNA in viruses. What’s next?",
+          "publishedAt": "2026-09-25"
+        },
+        {
+          "id": 2,
+          "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+          "source": "Anthropic",
+          "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+          "publishedAt": "2026-09-23"
+        }
+      ],
+      "tags": [
+        "biotechnology",
+        "AI research",
+        "genomics"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "tobacco-industry-form-letters-fda-menthol-rule",
+      "headline": "How Big Tobacco flooded the FDA with public comments to kill a menthol cigarette ban",
+      "dek": "A Rutgers analysis of FDA dockets found that most comments were form letters, with many traceable to tobacco-industry campaigns.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "A Rutgers study of 246,808 comments on proposed FDA rules found that 97% of menthol-rule submissions were form letters.",
+        "The researchers linked a substantial share of those letters to tobacco-company campaigns, while only a small fraction were unique.",
+        "The study analyzes a past rulemaking record and does not establish that comment volume alone caused the FDA's decision."
+      ],
+      "body": [
+        {
+          "text": "STAT reports that the FDA received about 175,000 comments on its 2022 menthol proposal and that 97% were form letters, drawing on a Rutgers study published in JAMA Network Open. The study examined both menthol and flavored-cigar dockets.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The researchers' release says 46% of menthol-rule form letters contained material traceable to tobacco-company campaigns and that about 2% of comments were unique. The finding documents the composition of submissions; causal claims about the rule's eventual fate remain analysis rather than a measured experimental result.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The analysis shows how coordinated participation can shape the record agencies must evaluate, making comment provenance relevant to both public-health policy and regulatory process design.",
+      "editorNote": "Headline is verbatim from STAT. Study statistics are attributed to the Rutgers/JAMA research; causality is qualified.",
+      "cluster": [
+        {
+          "url": "https://www.eurekalert.org/news-releases/1140586",
+          "source": "EurekAlert / Rutgers",
+          "title": "Public comments and federal rulemaking for menthol cigarettes and flavored cigars"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.statnews.com/2026/09/25/fake-grassroots-campaign-jama-study-rutgers-researchers-fda-menthol-ban/",
+          "source": "STAT / The Examination",
+          "title": "How Big Tobacco flooded the FDA with public comments to kill a menthol cigarette ban",
+          "publishedAt": "2026-09-25"
+        },
+        {
+          "id": 2,
+          "url": "https://www.eurekalert.org/news-releases/1140586",
+          "source": "EurekAlert / Rutgers",
+          "title": "Public comments and federal rulemaking for menthol cigarettes and flavored cigars",
+          "publishedAt": "2026-08-20"
+        }
+      ],
+      "tags": [
+        "FDA",
+        "tobacco",
+        "public health policy"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

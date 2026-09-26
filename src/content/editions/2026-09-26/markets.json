@@ -1,0 +1,188 @@
+{
+  "date": "2026-09-26",
+  "generatedAt": "2026-09-26T10:09:26.993Z",
+  "vertical": "markets",
+  "lang": "en",
+  "title": "Markets & Macro — September 26, 2026",
+  "summary": "A thin, policy-led edition: stablecoin rulemaking, the limited outcome of the Trump–Xi summit, and the oil-market implications of a proposed Hormuz reopening cleared the evidence bar. SEC EDGAR and market-data collection failed, so company-filing and quote coverage is incomplete.",
+  "stories": [
+    {
+      "slug": "fed-seeks-comment-on-genius-act-stablecoin-proposals",
+      "headline": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
+      "dek": "The proposals cover reserves, capital and risk management for supervised issuers, plus an application route for banks seeking to issue payment stablecoins.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "The Federal Reserve requested public comment on two proposals implementing its responsibilities under the GENIUS Act.",
+        "One proposal covers reserve assets, capital, risk management and custody; the other sets an application process for supervised banks.",
+        "The comment period closes 60 days after Federal Register publication, so the proposals are not final rules."
+      ],
+      "body": [
+        {
+          "text": "The Federal Reserve's September 24 announcement outlines two proposals for payment-stablecoin issuers under its supervision. The first would set reserve, capital, risk-management and custody requirements; the second would establish application procedures for supervised banks seeking to issue stablecoins.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "CoinDesk reports that the proposal is part of implementing the GENIUS Act and also addresses rules for stablecoin-related activities. The Board says the comment period will close 60 days after Federal Register publication; the proposals remain subject to that process.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The rules would define how bank-supervised issuers hold reserves and qualify to enter the payment-stablecoin market, making the consultation relevant to financial institutions and payment infrastructure.",
+      "editorNote": "Headline is verbatim from the Federal Reserve release. The proposals are described as proposed rules; this is not investment or legal advice.",
+      "cluster": [
+        {
+          "url": "https://www.coindesk.com/policy/2026/09/24/u-s-federal-reserve-moves-on-proposals-to-implement-genius-act-for-stablecoins",
+          "source": "CoinDesk",
+          "title": "U.S. Federal Reserve moves on proposals to implement GENIUS Act for stablecoins"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
+          "source": "Federal Reserve",
+          "title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
+          "publishedAt": "2026-09-24"
+        },
+        {
+          "id": 2,
+          "url": "https://www.coindesk.com/policy/2026/09/24/u-s-federal-reserve-moves-on-proposals-to-implement-genius-act-for-stablecoins",
+          "source": "CoinDesk",
+          "title": "U.S. Federal Reserve moves on proposals to implement GENIUS Act for stablecoins",
+          "publishedAt": "2026-09-24"
+        }
+      ],
+      "tags": [
+        "Federal Reserve",
+        "stablecoins",
+        "regulation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "trump-xi-summit-extends-trade-truce-without-breakthrough",
+      "headline": "Trump, Xi wrap state visit centered on spectacle over substance. Here are the top takeaways",
+      "dek": "Reporting describes an extended trade truce but no durable settlement of the main technology and trade disputes.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "The Trump–Xi summit included talks on trade, artificial intelligence and strategic rivalry.",
+        "Reuters reports that the trade truce was extended by two months, while major questions on tariffs, purchases, rare earths and technology restrictions remain.",
+        "The outcome reduces an immediate deadline but leaves businesses facing unresolved policy terms."
+      ],
+      "body": [
+        {
+          "text": "CNBC's takeaways characterize the summit as high on ceremony and limited on substantive breakthroughs. Reuters reports that Treasury Secretary Scott Bessent said the sides extended the trade truce by two months, moving key questions into another round of negotiations.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Reuters identifies tariffs, Chinese purchases, rare-earth supplies and technology restrictions among the unresolved issues. The summit therefore produced a time extension, not a comprehensive trade agreement.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "A temporary extension can defer near-term escalation while keeping supply-chain and investment decisions exposed to changes in tariffs, rare-earth access and technology controls.",
+      "editorNote": "Headline is verbatim from CNBC. Summit outcome is cross-checked against Reuters; no market direction or trade recommendation is offered.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/world-news/four-takeaways-from-trumps-summit-with-xi-in-washington-4916246",
+          "source": "Reuters via Investing.com",
+          "title": "Four takeaways from Trump’s summit with Xi in Washington"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/09/25/trump-xi-summit-takeaways.html",
+          "source": "CNBC",
+          "title": "Trump, Xi wrap state visit centered on spectacle over substance. Here are the top takeaways",
+          "publishedAt": "2026-09-25"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/world-news/four-takeaways-from-trumps-summit-with-xi-in-washington-4916246",
+          "source": "Reuters",
+          "title": "Four takeaways from Trump’s summit with Xi in Washington",
+          "publishedAt": "2026-09-24"
+        }
+      ],
+      "tags": [
+        "United States",
+        "China",
+        "trade",
+        "supply chains"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "us-crude-weekly-decline-amid-iran-diplomacy",
+      "headline": "U.S. crude oil falls nearly 8% for the week after Tehran and Washington hold talks at the U.N.",
+      "dek": "The weekly move followed renewed discussion of a possible diplomatic path involving Iran and the Strait of Hormuz.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "CNBC reported that U.S. crude fell nearly 8% over the week as Tehran and Washington held talks at the United Nations.",
+        "Separate reporting says Iran offered a conditional plan to reopen the Strait of Hormuz within seven days.",
+        "The reporting establishes timing and market context, not a proven single cause for the weekly price move."
+      ],
+      "body": [
+        {
+          "text": "CNBC reported a nearly 8% weekly decline in U.S. crude after U.S.–Iran talks at the U.N. The article linked the move to the emergence of a possible diplomatic solution, but the weekly price change has multiple potential drivers.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The BBC separately reported Iran's conditional offer to reopen the Strait of Hormuz within seven days. The proposal provides relevant geopolitical context for oil-market attention, but it is not an implemented agreement and should not be treated as the sole cause of the price move.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Energy prices are sensitive to both shipping risk and diplomatic expectations around the Gulf. The juxtaposition underscores how quickly the risk narrative can change while the underlying security situation remains unresolved.",
+      "editorNote": "Headline is verbatim from CNBC. Price and timing are attributed to the report; causality is explicitly qualified. No trading advice.",
+      "cluster": [
+        {
+          "url": "https://www.bbc.com/news/articles/cqgmrr9ekr7ko",
+          "source": "BBC",
+          "title": "Iran offers US deal to reopen Strait of Hormuz in seven days"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/09/25/oil-falls-as-potential-diplomatic-solution-to-iran-conflict-arises.html",
+          "source": "CNBC",
+          "title": "U.S. crude oil falls nearly 8% for the week after Tehran and Washington hold talks at the U.N.",
+          "publishedAt": "2026-09-25"
+        },
+        {
+          "id": 2,
+          "url": "https://www.bbc.com/news/articles/cqgmrr9ekr7ko",
+          "source": "BBC",
+          "title": "Iran offers US deal to reopen Strait of Hormuz in seven days",
+          "publishedAt": "2026-09-25"
+        }
+      ],
+      "tags": [
+        "crude oil",
+        "Iran",
+        "Strait of Hormuz",
+        "energy"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}
