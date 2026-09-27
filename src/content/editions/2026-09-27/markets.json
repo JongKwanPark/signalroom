@@ -1,10 +1,10 @@
 {
   "date": "2026-09-27",
-  "generatedAt": "2026-09-27T19:30:00Z",
+  "generatedAt": "2026-09-27T22:07:32Z",
   "vertical": "markets",
   "lang": "en",
   "title": "Markets: Fed opens stablecoin rules to comment",
-  "summary": "A short edition: one regulatory development cleared source checks. The Federal Reserve opened two proposed GENIUS Act rules for public comment; SEC filing search returned HTTP 403, market-data quotes returned HTTP 404, Polymarket returned HTTP 451, and the FRED key was unset.",
+  "summary": "Markets: Fed stablecoin rules (thin day; one independently sourced policy development passed review).",
   "stories": [
     {
       "slug": "federal-reserve-stablecoin-genius-act-proposals",
@@ -20,15 +20,22 @@
       "body": [
         {
           "text": "The Federal Reserve Board opened two proposals for public comment on a regulatory framework for payment stablecoin issuers under its supervision. The first addresses backing assets, capital, risk management and custody; the second covers applications by supervised banks seeking to issue stablecoins.",
-          "citations": [1]
+          "citations": [
+            1
+          ]
         },
         {
           "text": "The Board says reserves would need to consist of specified permissible assets, including short-term Treasury bills and certain other high-quality liquid assets. CoinDesk's coverage also describes the proposals as part of the broader multi-agency process to implement the GENIUS Act.",
-          "citations": [1, 2]
+          "citations": [
+            1,
+            2
+          ]
         },
         {
           "text": "These are requests for comment, not final rules. The Federal Reserve says the comment period closes 60 days after publication in the Federal Register.",
-          "citations": [1]
+          "citations": [
+            1
+          ]
         }
       ],
       "whyItMatters": "The proposal would define how federally supervised issuers and banks handle stablecoin reserves, capital and custody. Those rules could shape the operating requirements for payment tokens, but the comment process means the final framework is not settled.",
@@ -61,7 +68,12 @@
           "publishedAt": "2026-09-24"
         }
       ],
-      "tags": ["stablecoins", "federal-reserve", "regulation", "genius-act"],
+      "tags": [
+        "stablecoins",
+        "federal-reserve",
+        "regulation",
+        "genius-act"
+      ],
       "confidence": "high"
     }
   ]
