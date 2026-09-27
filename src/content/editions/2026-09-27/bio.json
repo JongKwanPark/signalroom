@@ -1,0 +1,68 @@
+{
+  "date": "2026-09-27",
+  "generatedAt": "2026-09-27T19:30:00Z",
+  "vertical": "bio",
+  "lang": "en",
+  "title": "Bio: Tirzepatide study points to a mouse-only mechanism",
+  "summary": "A deliberately short edition: one recent research signal cleared source checks. September coverage revisited a 2026 mouse study of tirzepatide and brown fat; the result is mechanistic research, not clinical evidence in people or treatment guidance.",
+  "stories": [
+    {
+      "slug": "tirzepatide-brown-fat-mouse-study",
+      "headline": "Differential effects of the anti-obesity drug tirzepatide on adipose tissues: Brown fat as a key target",
+      "dek": "A mouse study found that tirzepatide activated brown fat through effects not explained by reduced food intake alone.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "Researchers compared tirzepatide-treated obese mice with pair-fed mice to separate drug effects from changes caused by eating less.",
+        "The paper reports increased brown-fat thermogenic activity and improved glucose tolerance in the treated mice, including effects independent of reduced food intake.",
+        "The findings are from mice; the authors say further human evidence is needed to establish whether the mechanism applies to people."
+      ],
+      "body": [
+        {
+          "text": "The study treated high-fat-diet obese mice with tirzepatide and compared them with pair-fed animals, a design intended to separate drug effects from those caused by reduced food intake.",
+          "citations": [1]
+        },
+        {
+          "text": "The authors report that tirzepatide increased brown-fat thermogenic activity and altered genes linked to thermogenesis and substrate oxidation. They also report improved glucose tolerance independent of reduced food intake; the study attributes the anti-inflammatory effect to lower food consumption.",
+          "citations": [1]
+        },
+        {
+          "text": "A University of Barcelona press release summarized the findings and cautioned that the work was conducted in mice, so it cannot establish the same effects in people.",
+          "citations": [2]
+        }
+      ],
+      "whyItMatters": "The study adds a possible tissue-level mechanism to research on incretin drugs, but its animal model leaves the human relevance unresolved. That distinction matters as research interest expands around these medicines.",
+      "editorNote": "The headline is the journal paper's title. The September news release describes a paper published earlier in 2026; all biological findings here are explicitly limited to mice. No treatment advice is implied.",
+      "cluster": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260925093210.htm",
+          "source": "ScienceDaily (University of Barcelona release)",
+          "title": "Zepbound and Mounjaro may turn on the body’s calorie-burning brown fat"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0753332226000892",
+          "source": "Biomedicine & Pharmacotherapy",
+          "title": "Differential effects of the anti-obesity drug tirzepatide on adipose tissues: Brown fat as a key target"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.sciencedirect.com/science/article/pii/S0753332226000892",
+          "source": "Biomedicine & Pharmacotherapy",
+          "title": "Differential effects of the anti-obesity drug tirzepatide on adipose tissues: Brown fat as a key target",
+          "publishedAt": "2026-02"
+        },
+        {
+          "id": 2,
+          "url": "https://www.sciencedaily.com/releases/2026/09/260925093210.htm",
+          "source": "ScienceDaily (University of Barcelona release)",
+          "title": "Zepbound and Mounjaro may turn on the body’s calorie-burning brown fat",
+          "publishedAt": "2026-09-26"
+        }
+      ],
+      "tags": ["tirzepatide", "obesity-research", "brown-fat", "preclinical"],
+      "confidence": "medium"
+    }
+  ]
+}

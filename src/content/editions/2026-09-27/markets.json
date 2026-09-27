@@ -1,0 +1,68 @@
+{
+  "date": "2026-09-27",
+  "generatedAt": "2026-09-27T19:30:00Z",
+  "vertical": "markets",
+  "lang": "en",
+  "title": "Markets: Fed opens stablecoin rules to comment",
+  "summary": "A short edition: one regulatory development cleared source checks. The Federal Reserve opened two proposed GENIUS Act rules for public comment; SEC filing search returned HTTP 403, market-data quotes returned HTTP 404, Polymarket returned HTTP 451, and the FRED key was unset.",
+  "stories": [
+    {
+      "slug": "federal-reserve-stablecoin-genius-act-proposals",
+      "headline": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
+      "dek": "The proposals cover reserve backing, capital and risk controls for supervised issuers, plus an application process for banks seeking to issue payment stablecoins.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "The Federal Reserve requested public comment on two proposed rules to implement its responsibilities under the GENIUS Act.",
+        "One proposal covers permissible reserve assets, standardized capital requirements, risk management, custody and related bank activities.",
+        "A second proposal sets out an application process for Board-supervised banks seeking approval to issue payment stablecoins; the rules are proposals, not final requirements."
+      ],
+      "body": [
+        {
+          "text": "The Federal Reserve Board opened two proposals for public comment on a regulatory framework for payment stablecoin issuers under its supervision. The first addresses backing assets, capital, risk management and custody; the second covers applications by supervised banks seeking to issue stablecoins.",
+          "citations": [1]
+        },
+        {
+          "text": "The Board says reserves would need to consist of specified permissible assets, including short-term Treasury bills and certain other high-quality liquid assets. CoinDesk's coverage also describes the proposals as part of the broader multi-agency process to implement the GENIUS Act.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "These are requests for comment, not final rules. The Federal Reserve says the comment period closes 60 days after publication in the Federal Register.",
+          "citations": [1]
+        }
+      ],
+      "whyItMatters": "The proposal would define how federally supervised issuers and banks handle stablecoin reserves, capital and custody. Those rules could shape the operating requirements for payment tokens, but the comment process means the final framework is not settled.",
+      "editorNote": "The headline is the Federal Reserve's release title. The summary distinguishes proposed rules from final requirements and gives no investment recommendation.",
+      "cluster": [
+        {
+          "url": "https://www.coindesk.com/policy/2026/09/24/u-s-federal-reserve-moves-on-proposals-to-implement-genius-act-for-stablecoins",
+          "source": "CoinDesk",
+          "title": "U.S. Federal Reserve moves on proposals to implement GENIUS Act for stablecoins"
+        },
+        {
+          "url": "https://www.federalreserve.gov/econres/notes/feds-notes/new-forms-of-money-and-the-u-s-monetary-aggregates-20260904.html",
+          "source": "Federal Reserve",
+          "title": "New Forms of Money and the U.S. Monetary Aggregates"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
+          "source": "Federal Reserve Board",
+          "title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
+          "publishedAt": "2026-09-24"
+        },
+        {
+          "id": 2,
+          "url": "https://www.coindesk.com/policy/2026/09/24/u-s-federal-reserve-moves-on-proposals-to-implement-genius-act-for-stablecoins",
+          "source": "CoinDesk",
+          "title": "U.S. Federal Reserve moves on proposals to implement GENIUS Act for stablecoins",
+          "publishedAt": "2026-09-24"
+        }
+      ],
+      "tags": ["stablecoins", "federal-reserve", "regulation", "genius-act"],
+      "confidence": "high"
+    }
+  ]
+}

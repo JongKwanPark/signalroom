@@ -1,0 +1,71 @@
+{
+  "date": "2026-09-27",
+  "generatedAt": "2026-09-27T19:30:00Z",
+  "vertical": "geo",
+  "lang": "en",
+  "title": "Geopolitics: Hormuz tensions keep negotiation and rerouting in focus",
+  "summary": "A short edition: one geopolitical development had enough cross-source coverage for publication. Reporting described continued disagreement over the Strait of Hormuz alongside Iran's effort to shift some trade toward the Caspian route; GDELT and ISW feeds failed, and ReliefWeb returned no items.",
+  "stories": [
+    {
+      "slug": "iran-hormuz-negotiation-trade-rerouting",
+      "headline": "Iranian minister says only negotiation can end conflict after Trump rejects Hormuz deal",
+      "dek": "Iran's public position on negotiations coincides with reporting on efforts to move trade north as the Strait of Hormuz remains impaired.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "The BBC reported that Iran's foreign minister said negotiation was the only way to end the conflict after Trump rejected a Hormuz proposal.",
+        "DW separately reported that Iran maintained its position on the strait after the rejection.",
+        "Al Jazeera reported that Iran is shifting some trade north toward the Caspian Sea as the war affects the Hormuz route."
+      ],
+      "body": [
+        {
+          "text": "The BBC reported that Iran's foreign minister said only negotiation could end the conflict after Trump rejected a proposal concerning the Strait of Hormuz. DW's separate report also described Iran as sticking to its Hormuz position after the rejection.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "Al Jazeera reported that Iran is shifting trade north toward the Caspian Sea as the war impairs the Strait of Hormuz. The coverage points to a potential rerouting response; it does not establish the scale or durability of that shift.",
+          "citations": [3]
+        }
+      ],
+      "whyItMatters": "The strait is a strategic shipping corridor, so the dispute links diplomatic terms to the resilience of regional trade routes. Evidence of a northward shift is still reporting about an adjustment, not proof that it can replace the Hormuz route.",
+      "editorNote": "This story attributes the diplomatic position and trade rerouting to the named outlets. No unsupported shipping volumes, timelines or forecasts are added.",
+      "cluster": [
+        {
+          "url": "https://www.dw.com/en/iran-sticks-to-hormuz-plan-after-trump-rejects-it/a-79447432?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Iran sticks to Hormuz plan after Trump rejects it"
+        },
+        {
+          "url": "https://www.aljazeera.com/economy/2026/9/27/can-iran-shift-trade-north-to-caspian-sea-as-war-impairs-strait-of-hormuz?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Iran shifts trade north to Caspian Sea as war impairs Strait of Hormuz"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cmvgyyw2jeego?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Iranian minister says only negotiation can end conflict after Trump rejects Hormuz deal",
+          "publishedAt": "2026-09-27T07:44:11.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.dw.com/en/iran-sticks-to-hormuz-plan-after-trump-rejects-it/a-79447432?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Iran sticks to Hormuz plan after Trump rejects it",
+          "publishedAt": "2026-09-27T08:07:00.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.aljazeera.com/economy/2026/9/27/can-iran-shift-trade-north-to-caspian-sea-as-war-impairs-strait-of-hormuz?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Iran shifts trade north to Caspian Sea as war impairs Strait of Hormuz",
+          "publishedAt": "2026-09-27T08:49:32.000Z"
+        }
+      ],
+      "tags": ["iran", "strait-of-hormuz", "shipping", "diplomacy"],
+      "confidence": "medium"
+    }
+  ]
+}
