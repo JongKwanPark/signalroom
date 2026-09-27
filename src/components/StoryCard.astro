@@ -20,7 +20,7 @@ const { story, vertical } = ref;
 
 <article class="sr-card" data-vertical={vertical} data-nav-item-container>
   <div class="sr-card__meta sr-micro">
-    <VerticalChip vertical={vertical} href={verticalHref(vertical)} />
+    <VerticalChip vertical={vertical} href={verticalHref(vertical, ref.lang)} />
     <TypeBadge type={story.type} />
     {showDate && <span class="sr-mono">{formatDateLong(ref.date)}</span>}
     <span class="sr-mono">{timeLabel(ref.generatedAt)}</span>

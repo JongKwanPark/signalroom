@@ -1,11 +1,13 @@
 ---
 import { SITE, VERTICALS, VERTICAL_META } from '../lib/site';
 import { getEditions, newestDate } from '../lib/editions';
+import { langOfPath } from '../lib/editions';
 import { formatDateLong } from '../lib/format';
 
 const editions = await getEditions();
 const latest = newestDate(editions);
 const year = new Date().getUTCFullYear();
+const lang = langOfPath(Astro.url.pathname) ?? 'en';
 ---
 
 <footer class="sr-footer">
@@ -27,19 +29,19 @@ const year = new Date().getUTCFullYear();
         <span>Feeds</span>
         {
           VERTICALS.map((vertical) => (
-            <a href={`/${vertical}`}>{VERTICAL_META[vertical].label} — {VERTICAL_META[vertical].name}</a>
+            <a href={`/${lang}/${vertical}`}>{VERTICAL_META[vertical].label} — {VERTICAL_META[vertical].name}</a>
           ))
         }
       </nav>
 
       <nav class="sr-footer__links sr-micro" aria-label="Site">
         <span>Site</span>
-        <a href="/archive">Archive</a>
-        <a href="/search">Search</a>
+        <a href={`/${lang}/archive`}>Archive</a>
+        <a href={`/${lang}/search`}>Search</a>
         <a href="/sources">Sources</a>
         <a href="/standards">Standards</a>
         <a href="/about">About</a>
-        <a href="/rss.xml">RSS</a>
+        <a href={`/${lang}/rss.xml`}>RSS</a>
       </nav>
     </div>
 

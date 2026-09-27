@@ -1,6 +1,7 @@
-import type { StoryRef } from './editions';
+import type { Lang, StoryRef } from './editions';
 
 export interface SearchItem {
+  lang: Lang;
   url: string;
   headline: string;
   dek?: string;
@@ -16,6 +17,7 @@ export interface SearchItem {
 
 export function buildSearchItem(ref: StoryRef): SearchItem {
   return {
+    lang: ref.lang,
     url: ref.href,
     headline: ref.story.headline,
     dek: ref.story.dek,

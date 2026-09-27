@@ -9,6 +9,49 @@ const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 const SLUG_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const URL_RE = /^https?:\/\/[^\s]+$/i;
 
+// 2-1 A안(채택): 에디션 언어. B안(파일 분리)은 폐기 아님 — 판별을 파일명에
+// 분산하지 않고 이 필드로 단일화한다. 미표기 시 validateEditionData가 실패한다.
+// 파일명 운용 규약: `<vertical>.json` = en, `<vertical>.ko.json` = ko.
+export type Lang = "ko" | "en";
+
+export function isLang(v: unknown): v is Lang {
+  return v === "ko" || v === "en";
+}
+
+/** 파일명 → 기대 언어. `<vertical>.ko.json` = ko, 그 외 `.json` = en. */
+export function inferLangFromFilename(file: string): Lang {
+  return file.endsWith(".ko.json") ? "ko" : "en";
+}
+
+/** ko slug `<base>-ko` → `<base>`. en slug는 그대로. */
+export function koBaseSlug(slug: string): string {
+  return slug.endsWith("-ko") ? slug.slice(0, -3) : slug;
+}
+
+export function isKoSlug(slug: string): boolean {
+  return slug.endsWith("-ko");
+}
+
+/** en slug ↔ ko slug 대응 확인. ko는 `-ko` 접미(단계1 translate.md 규격). */
+export function isEnKoPair(enSlug: string, koSlug: string): boolean {
+  return SLUG_RE.test(enSlug) && koSlug === `${enSlug}-ko`;
+}
+
+/**
+ * 2-2: 에디션 내 slug 중복 검사(정확 일치 기준).
+ * en/ko 공존(`foo` vs `foo-ko`)은 base가 달라도 정확 일치가 아니므로 허용된다.
+ * 전역 중복은 언어 스코프로 분리한다 — editions.ts allStoryRefs의 lang 필터 참조.
+ */
+export function findWithinEditionDuplicates(slugs: string[]): string[] {
+  const seen = new Set<string>();
+  const dupes: string[] = [];
+  for (const slug of slugs) {
+    if (seen.has(slug)) dupes.push(slug);
+    seen.add(slug);
+  }
+  return dupes;
+}
+
 export interface Violation {
   path: string;
   message: string;
@@ -136,11 +179,14 @@ export function validateEditionData(data: unknown): Violation[] {
   }
   if (!isStr(d.title) || d.title.length < 1) out.push({ path: "title", message: "title non-empty required" });
   if (!isStr(d.summary) || d.summary.length < 1) out.push({ path: "summary", message: "summary non-empty required" });
+  if (!isLang(d.lang)) out.push({ path: "lang", message: "lang must be ko|en (A안: 언어 미표기 실패)" });
   if (!Array.isArray(d.stories) || d.stories.length < 1 || d.stories.length > 8) {
     out.push({ path: "stories", message: "stories must be 1..8 items" });
     return out;
   }
 
+  // 2-2 slug 규칙: 동일 에디션 내 정확 일치 중복 거부 유지.
+  // en/ko 공존 허용 — `foo`(en)와 `foo-ko`(ko)는 다른 slug이므로 충돌 아님.
   const slugs = new Set<string>();
   d.stories.forEach((story, idx) => {
     validateStory("(stories)", story, idx, out);
@@ -148,6 +194,16 @@ export function validateEditionData(data: unknown): Violation[] {
     if (s && isStr(s.slug) && SLUG_RE.test(s.slug)) {
       if (slugs.has(s.slug)) out.push({ path: `stories[${idx}].slug`, message: `duplicate slug within edition: ${s.slug}` });
       slugs.add(s.slug);
+      // 언어·slug 접미사 일치: ko는 `-ko` 접미(translate.md 규격), en은 접미사 금지.
+      // en/ko 공존은 파일 분리로 허용되며 대응 확인은 isEnKoPair +
+      // validate-i18n checkCitationParity가 담당.
+      if (isLang(d.lang)) {
+        if (d.lang === "ko" && !isKoSlug(s.slug)) {
+          out.push({ path: `stories[${idx}].slug`, message: `ko story slug must end with -ko: ${s.slug}` });
+        } else if (d.lang === "en" && isKoSlug(s.slug)) {
+          out.push({ path: `stories[${idx}].slug`, message: `en story slug must not end with -ko: ${s.slug}` });
+        }
+      }
     }
     // Publish gates
     if (s && Array.isArray(s.sources)) {

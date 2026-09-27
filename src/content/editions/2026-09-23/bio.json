@@ -2,6 +2,7 @@
   "date": "2026-09-23",
   "generatedAt": "2026-09-24T01:40:00.000Z",
   "vertical": "bio",
+  "lang": "en",
   "title": "Bio: An FDA panel backs Grail's Galleri, clinical AI under scrutiny and oncology registrations",
   "summary": "An FDA advisory panel endorsed Grail's Galleri multi-cancer blood test, moving the reimbursement question closer to an FDA decision. New papers probed the stability, bias and reproducibility of clinical LLMs and how AI changes physicians' work, registry updates showed sponsors from Jiangsu Aosaikang to Janssen and BioNTech across RAS inhibition and other cancers, and investors showed renewed interest in osteoporosis treatments. bioRxiv and medRxiv both returned invalid JSON, so this edition draws on PubMed, ClinicalTrials.gov, STAT, MarketWatch, ScienceDaily and arXiv.",
   "stories": [

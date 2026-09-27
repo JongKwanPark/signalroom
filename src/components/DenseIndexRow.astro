@@ -35,7 +35,7 @@ const meta = joinMeta([
   </a>
   <span class="sr-row__aside sr-micro">
     {showType && <TypeBadge type={story.type} />}
-    <a class="sr-row__vlink" href={verticalHref(vertical)} aria-label={`All ${VERTICAL_META[vertical].name} stories`}>
+    <a class="sr-row__vlink" href={verticalHref(vertical, ref.lang)} aria-label={`All ${VERTICAL_META[vertical].name} stories`}>
       {VERTICAL_META[vertical].label} feed
     </a>
   </span>

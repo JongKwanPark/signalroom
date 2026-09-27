@@ -42,6 +42,11 @@ const editions = defineCollection({
     date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
     generatedAt: z.string(),
     vertical: z.enum(['ai', 'bio', 'geo', 'markets']),
+    // 2-1 A안(채택): 에디션 언어 표기. 필수 — 미표기 시 스키마 실패.
+    // 파일명 규칙(타입이 아닌 운용 규약, validate.ts inferLangFromFilename 참조):
+    //   `<vertical>.json` = en, `<vertical>.ko.json` = ko.
+    // B안은 폐기 아님 — 파일 분리 아이디어는 문서(plan-bilingual §3-1)에만 남김.
+    lang: z.enum(['ko', 'en']),
     title: z.string().min(1),
     summary: z.string().min(1),
     stories: z.array(story).min(1).max(8),

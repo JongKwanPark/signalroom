@@ -1,0 +1,399 @@
+{
+  "date": "2026-09-23",
+  "generatedAt": "2026-09-24T01:40:00.000Z",
+  "vertical": "geo",
+  "lang": "ko",
+  "title": "지정학: UN에서 트럼프에 맞선 이란, 티그라이 충돌 우려, 압박받는 UN",
+  "summary": "미국의 항공 제재로 항공편 운항에 차질이 빚어지는 가운데, 이란 대통령은 UN에서 이란이 결코 '무릎 꿇지 않을 것'이라며 트럼프에 맞섰다. 에티오피아 정부와 티그라이 반군은 서로 새로운 공세를 시작했다고 비난했고, 전문가들은 강대국들의 일방적 행동으로 UN이 위기에 직면했다고 경고했으며, 폴란드는 러시아 헬기가 영공을 침범했다고 주장했고 슬로바키아에서는 NATO 제5조에 대한 의구심이 제기되었다. 한편 24억 5천만 달러 규모의 가자 재건 계획이 공개되었다. 시진핑의 워싱턴 도착은 22:00 UTC 이후에 이루어져 9월 24일 자 에디션에 수록된다. GDELT 수집 실패, ISW 403 오류, Polymarket 451 오류, ReliefWeb 공백으로 인해 본 에디션은 BBC, Al Jazeera, The Guardian, DW, CNBC 통신 피드에 의존했다.",
+  "stories": [
+    {
+      "slug": "iran-president-un-never-bend-the-knee-ko",
+      "headline": "이란 대통령, UN에서 트럼프를 향해 결코 '무릎 꿇지 않을 것' 천명",
+      "dek": "미국의 제재로 이란행 항공편이 차질을 빚는 가운데 테헤란은 트럼프의 UN 위협에 강경한 저항으로 맞받았다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "BBC는 이란을 궤멸시키겠다는 트럼프의 UN 연설에 이어 이란 대통령이 결코 '무릎 꿇지 않을 것'이라고 트럼프에게 밝혔다고 보도했다.",
+        "CNBC는 이란 대통령이 단호한 UN 연설에서 전 세계적 불안정의 원인으로 미국과 이스라엘을 지목했다고 전했다.",
+        "Al Jazeera는 미국의 항공 제재로 이란행 항공편이 취소되며 여행객들이 육로 이동으로 내몰리고 있다고 보도했다."
+      ],
+      "body": [
+        {
+          "text": "이란 대통령이 트럼프를 향해 이란은 결코 '무릎 꿇지 않을 것'이라고 말했다고 BBC가 보도했다. 이 발언은 The Guardian이 이란을 궤멸시키겠다는 위협으로 묘사한 트럼프의 UN 총회 연설에 뒤이어 나온 것이다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "CNBC는 이란 대통령이 단호한 UN 연설을 통해 글로벌 정세 불안의 책임을 미국과 이스라엘에 돌렸다고 전했다.",
+          "citations": [
+            3
+          ]
+        },
+        {
+          "text": "외교장 밖에서도 압박이 가해지고 있다. Al Jazeera는 미국의 항공 제재로 이란 항공편 운항이 중단되면서 여행객들이 육로 이동을 택하고 있다고 전했다.",
+          "citations": [
+            4
+          ]
+        }
+      ],
+      "whyItMatters": "UN에서의 대립은 긴장 고조 리스크를 계속 촉발하고 있으며 제재는 현장에서 현실화되고 있다. 원유 시장도 이러한 불확실성을 가격에 반영해, 미·이란 외교에 대한 회의론 속에 유가가 급등 후 1% 하락했다고 Investing.com이 전했다.",
+      "editorNote": "통신사 헤드라인 위주의 내용이며 회담의 실질적 세부 사항은 수집 데이터에 포함되지 않았다. 22:00 UTC 이후 보도는 다음 에디션으로 넘겼다.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/09/23/iran-united-nations-trump-israel.html",
+          "source": "CNBC",
+          "title": "Iran's president blames U.S., Israel for global instability in defiant UN speech"
+        },
+        {
+          "url": "https://www.investing.com/news/commodities-news/oil-slips-1-after-sharp-gains-amid-usiran-diplomacy-doubts-4914284",
+          "source": "Investing.com",
+          "title": "Oil slips 1% after sharp gains amid U.S-Iran diplomacy doubts"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cqvgyjy23ggjo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Iran's president tells Trump it will never 'bend the knee'",
+          "publishedAt": "2026-09-23T18:15:31.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theguardian.com/us-news/2026/sep/22/donald-trump-unga-speech",
+          "source": "The Guardian",
+          "title": "Trump’s threat to annihilate Iran to UN general assembly is stunning, even for him",
+          "publishedAt": "2026-09-22T18:23:08.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.cnbc.com/2026/09/23/iran-united-nations-trump-israel.html",
+          "source": "CNBC",
+          "title": "Iran's president blames U.S., Israel for global instability in defiant UN speech",
+          "publishedAt": "2026-09-23T17:38:47.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://www.aljazeera.com/news/2026/9/23/us-aviation-sanctions-disrupt-iran-flights-push-travellers-overland?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "US aviation sanctions disrupt Iran flights, push travellers overland",
+          "publishedAt": "2026-09-23T21:05:36.000Z"
+        }
+      ],
+      "tags": [
+        "iran",
+        "united-nations",
+        "sanctions",
+        "trump"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ethiopia-tigray-offensives-ko",
+      "headline": "에티오피아와 티그라이, 상호 공세 주장으로 새 전쟁 발발 우려 고조",
+      "dek": "아디스아바바와 티그라이 군이 새로운 공세를 시작했다며 상호 비난전을 펼쳤다.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "에티오피아와 티그라이가 서로 새로운 공세를 시작했다고 비난하면서 새로운 전쟁에 대한 우려를 키우고 있다고 BBC가 보도했다.",
+        "Al Jazeera는 티그라이 반군이 공세를 시작함에 따라 에티오피아가 '파멸'을 경고했다고 전했다.",
+        "수집 시점까지 양측의 상반된 주장은 독립적으로 규명되지 않았다."
+      ],
+      "body": [
+        {
+          "text": "에티오피아 정부와 티그라이 군이 서로 상대방이 공세를 개시했다고 비난하며 새로운 전쟁에 대한 공포를 불러일으키고 있다고 BBC가 보도했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Al Jazeera는 티그라이 반군이 공세를 개시하자 에티오피아가 '파멸'을 경고했다고 보도했다.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "에티오피아 정부와 티그라이 간의 재충돌은 간신히 벗어난 전쟁의 상흔을 다시 헤집어 놓으며 아프리카의 뿔 지역 전반에 걸쳐 인도적 위기와 안보 불안을 야기할 수 있다.",
+      "editorNote": "각 진영의 주장은 제기된 그대로 보도되었으며 독립적으로 검증되지 않았다. 사상자 수치와 전선 위치는 수집 데이터에 없었다.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/23/ethiopia-warns-of-destruction-as-tigray-rebels-launch-offensive?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Ethiopia warns of ‘destruction’ as Tigray rebels launch offensive"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cry8zwwq21pxo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Ethiopia and Tigray accuse each of launching offensives, fuelling fears of new war"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cry8zwwq21pxo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Ethiopia and Tigray accuse each of launching offensives, fuelling fears of new war",
+          "publishedAt": "2026-09-23T16:53:37.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/23/ethiopia-warns-of-destruction-as-tigray-rebels-launch-offensive?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Ethiopia warns of ‘destruction’ as Tigray rebels launch offensive",
+          "publishedAt": "2026-09-23T20:37:18.000Z"
+        }
+      ],
+      "tags": [
+        "ethiopia",
+        "tigray",
+        "conflict",
+        "horn-of-africa"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "un-general-assembly-crisis-unilateralism-ko",
+      "headline": "주요 강대국들의 일방적 행동 속에 전문가들 'UN 뉴욕서 위기 직면' 경고",
+      "dek": "UN의 존립 가치에 대한 경고와 주요국 정상들의 불참, 날선 연설 속에 총회가 열렸다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "Al Jazeera는 주요 강대국들이 일방적 행동을 취함에 따라 UN이 뉴욕에서 위기에 직면해 있다는 전문가들의 분석을 전했다.",
+        "DW는 올해 UN 총회에 불참한 정상들이 누구이며 그 이유가 무엇인지 짚었다.",
+        "The Guardian은 아르헨티나의 밀레이가 포클랜드에 대해 직접 문제를 해결하겠다고 위협했으며, 마두로가 수감된 사이 델시 로드리게스가 뉴욕에서 트럼프와 포즈를 취했다고 보도했다."
+      ],
+      "body": [
+        {
+          "text": "주요 강대국들이 일방적으로 행동하는 가운데 UN이 뉴욕에서 위기에 직면해 있다고 전문가들이 Al Jazeera에 전했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "DW는 누가 UN 총회에 불참하고 있는지, 그리고 그 배경이 무엇인지 분석했다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "각국 연설과 부대 행사로 긴장은 한층 뚜렷해졌다. The Guardian에 따르면 하비에르 밀레이 아르헨티나 대통령은 UN에서 포클랜드 제도와 관련해 아르헨티나가 '문제를 직접 해결하겠다'고 위협했다.",
+          "citations": [
+            3
+          ]
+        },
+        {
+          "text": "The Guardian은 또한 니콜라스 마두로가 인근에 수감되어 있는 동안 델시 로드리게스가 뉴욕에서 트럼프와 함께 사진을 찍었다고 전했다.",
+          "citations": [
+            4
+          ]
+        }
+      ],
+      "whyItMatters": "강대국들이 국제기구를 우회하고 다른 국가들이 영유권 주장을 공론화하는 총회 분위기는 다자주의적 통제력이 약화되었음을 보여주며, 이는 제재 집행, 해양 분쟁, 그리고 같은 주에 추진된 AI 거버넌스 등 UN 주도 프로세스의 신뢰성에 직접적인 영향을 미친다.",
+      "editorNote": "분석 기사와 통신사 헤드라인 보도에 기반하며 불참 정상 명단 및 밀레이 연설문 전문은 수집 데이터에 없었다.",
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/uk-news/2026/sep/23/argentina-president-attacks-un-over-inaction-on-falkland-islands-sovereignty",
+          "source": "The Guardian",
+          "title": "Milei threatens at UN that Argentina will take ‘matters into our own hands’ on Falklands"
+        },
+        {
+          "url": "https://www.dw.com/en/who-is-skipping-the-un-general-assembly-and-why/a-79391652?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Who is skipping the UN General Assembly — and why"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.aljazeera.com/news/2026/9/23/as-major-powers-act-unilaterally-experts-say-un-faces-crisis-in-new-york?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "As major powers act unilaterally, experts say UN faces crisis in New York",
+          "publishedAt": "2026-09-23T19:54:24.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.dw.com/en/who-is-skipping-the-un-general-assembly-and-why/a-79391652?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Who is skipping the UN General Assembly — and why",
+          "publishedAt": "2026-09-23T15:54:00.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.theguardian.com/uk-news/2026/sep/23/argentina-president-attacks-un-over-inaction-on-falkland-islands-sovereignty",
+          "source": "The Guardian",
+          "title": "Milei threatens at UN that Argentina will take ‘matters into our own hands’ on Falklands",
+          "publishedAt": "2026-09-23T18:50:43.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://www.theguardian.com/world/2026/sep/23/venezuela-delcy-rodriguez-meeting-donald-trump-new-york",
+          "source": "The Guardian",
+          "title": "Delcy Rodríguez poses with Trump in New York as Maduro languishes in jail nearby",
+          "publishedAt": "2026-09-23T12:54:07.000Z"
+        }
+      ],
+      "tags": [
+        "united-nations",
+        "unga",
+        "falklands",
+        "venezuela"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "poland-russian-helicopter-airspace-nato-ko",
+      "headline": "폴란드, 러시아 군용 헬기의 영공 침범 주장",
+      "dek": "영공 침범 사건, 동맹 내부의 5조에 대한 회의론, 푸틴에 대한 G20 초청이 서로 다른 방향으로 전개되었다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "BBC는 폴란드가 러시아 군용 헬기가 자국 영공을 침범했다고 주장했다고 보도했다.",
+        "DW는 슬로바키아 로베르트 피초 총리의 NATO 5조 관련 발언이 비판을 부르고 슬로바키아의 동맹 공약에 의문을 제기했다고 전했다.",
+        "Al Jazeera는 트럼프 행정부가 푸틴을 마이애미 G20 정상회의에 초청했다고 보도했다."
+      ],
+      "body": [
+        {
+          "text": "폴란드는 러시아 군용 헬리콥터가 자국 영공을 침범했다고 주장했다고 BBC가 보도했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "동맹 내부에서는 로베르트 피초 슬로바키아 총리의 NATO 5조 관련 발언이 비판을 받으며 슬로바키아의 안보 공약 이행에 대한 의문을 낳았다고 DW가 전했다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "한편 Al Jazeera는 트럼프 행정부가 푸틴을 마이애미 G20 정상회의에 초청했다고 보도했다.",
+          "citations": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "NATO 동부 전선에서의 우발적 사건, 회원국 정부의 공개적인 제5조 회의론, 미국의 푸틴 초청이 동시에 나타나면서 러시아의 도발에 대한 동맹국의 단합된 대응이 한층 복잡해졌다.",
+      "editorNote": "NATO 결속력의 맥락을 위해 세 가지 별개 사안을 묶어 정리했다. 폴란드의 주장은 독립적으로 확인되지 않았으며 러시아 측 반응은 수집되지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.dw.com/en/slovakia-pm-robert-fico-s-nato-article-5-remarks-spark-criticism-and-raise-questions-about-his-country-s-nato-commitment/a-79387050?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Slovakia: PM Robert Fico's NATO Article 5 remarks spark criticism and raise questions about his country's NATO commitment"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/9/23/trump-administration-invites-putin-to-attend-g20-summit-in-miami?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Trump administration invites Putin to attend G20 summit in Miami"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c699d2dn9z0mo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Poland accuses Russian military helicopter of violating its airspace",
+          "publishedAt": "2026-09-23T15:37:20.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.dw.com/en/slovakia-pm-robert-fico-s-nato-article-5-remarks-spark-criticism-and-raise-questions-about-his-country-s-nato-commitment/a-79387050?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Slovakia: PM Robert Fico's NATO Article 5 remarks spark criticism and raise questions about his country's NATO commitment",
+          "publishedAt": "2026-09-23T13:32:00.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.aljazeera.com/news/2026/9/23/trump-administration-invites-putin-to-attend-g20-summit-in-miami?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Trump administration invites Putin to attend G20 summit in Miami",
+          "publishedAt": "2026-09-23T20:23:31.000Z"
+        }
+      ],
+      "tags": [
+        "nato",
+        "russia",
+        "poland",
+        "slovakia",
+        "g20"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "gaza-board-of-peace-reconstruction-plan-ko",
+      "headline": "트럼프 평화위원회, 24억 5천만 달러 규모의 가자 재건 계획 발표",
+      "dek": "가자지구 여성에 대한 폭력 급증에 관한 UN 조사 결과와 함께 1차 재건 비용 계획이 공개되었다.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "BBC는 트럼프의 평화위원회가 가자지구 재건을 시작하기 위한 24억 5천만 달러 규모의 계획을 공개했다고 보도했다.",
+        "BBC는 또한 UN 기구 조사를 인용해 가자지구 내 여성 폭력 피해 신고가 급증했다고 전했다.",
+        "Al Jazeera는 튀니지 교도소에서 단식 투쟁 중인 가자 구호 선단 활동가가 '사망 직전'에 이르렀다고 보도했다."
+      ],
+      "body": [
+        {
+          "text": "트럼프의 평화위원회가 가자 재건을 시작하기 위한 24억 5천만 달러($2.45bn) 규모의 계획을 공개했다고 BBC가 보도했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "현장의 인도적 상황은 여전히 심각하다. BBC에 따르면 한 UN 기구는 가자지구에서 여성에 대한 폭력 보고가 급증했다고 발표했다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "Al Jazeera는 튀니지 감옥에서 단식 투쟁 중인 가자 구호선 활동가가 생사의 기로에 놓였다고 전했다.",
+          "citations": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "24억 5천만 달러 규모의 초기 계획은 가자 재건에 대한 구체적 액수를 처음 제시한 것이며, 재원 조달 주체와 계약 통제권이 향후 지역 외교뿐만 아니라 건설 및 원자재 수요를 결정지을 것이다.",
+      "editorNote": "계획의 구체적 자금 조달처와 일정은 수집되지 않았으며 해당 계획 자체는 한 매체를 통해 보도되었다. 구호선 활동가 관련 기사는 연관되어 있으나 별개의 사안이다.",
+      "cluster": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c94gm7dp40y0o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Reports of violence against women in Gaza surge, UN agency finds"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/9/23/gaza-flotilla-activist-on-hunger-strike-in-tunisia-jail-on-verge-of-death?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Gaza flotilla activist on hunger strike in Tunisia jail ‘on verge of death’"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cwlyke0mm0x3o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Trump's Board of Peace unveils $2.45bn plan to begin Gaza's reconstruction",
+          "publishedAt": "2026-09-23T21:26:14.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.bbc.co.uk/news/articles/c94gm7dp40y0o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Reports of violence against women in Gaza surge, UN agency finds",
+          "publishedAt": "2026-09-23T05:02:26.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.aljazeera.com/news/2026/9/23/gaza-flotilla-activist-on-hunger-strike-in-tunisia-jail-on-verge-of-death?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Gaza flotilla activist on hunger strike in Tunisia jail ‘on verge of death’",
+          "publishedAt": "2026-09-23T20:56:15.000Z"
+        }
+      ],
+      "tags": [
+        "gaza",
+        "reconstruction",
+        "board-of-peace",
+        "humanitarian"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

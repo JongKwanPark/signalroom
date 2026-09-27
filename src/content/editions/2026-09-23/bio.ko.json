@@ -1,0 +1,413 @@
+{
+  "date": "2026-09-23",
+  "generatedAt": "2026-09-24T01:40:00.000Z",
+  "vertical": "bio",
+  "lang": "ko",
+  "title": "시그널 데일리 — 바이오: FDA 자문위의 그레일 갤러리 지지, 임상 AI 검증과 종양학 파이프라인 등록",
+  "summary": "FDA 자문위원회가 그레일의 갤러리 다중 암 혈액 검사를 지지하며 보험 급여 결정을 FDA 본 승인에 한 걸음 더 가깝게 끌어당겼다. 새로운 논문들은 임상 LLM의 안정성, 편향, 재현성 및 AI가 의사의 전문성에 미치는 영향을 분석했고, 등록소 갱신 정보는 장쑤 아오사이캉부터 얀센, 바이오엔텍에 이르는 개발사들의 RAS 억제 및 기타 암종 파이프라인을 보여주었으며, 투자자들은 골다공증 치료제에 다시 관심을 보였다. bioRxiv와 medRxiv 모두 유효하지 않은 JSON을 반환해 이번 에디션은 PubMed, ClinicalTrials.gov, STAT, MarketWatch, ScienceDaily, arXiv를 바탕으로 구성되었다.",
+  "stories": [
+    {
+      "slug": "grail-galleri-fda-panel-endorsement-ko",
+      "headline": "STAT+: FDA 자문위원회, 위험 대비 이익 우세 판단하며 그레일 암 혈액 검사 승인 권고",
+      "dek": "자문위 표결로 다중 암 조기 발견 검사가 보험 적용의 관문인 FDA 승인 결정에 한 걸음 더 다가섰다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "FDA 자문위원회는 위험 대비 이익이 크다고 판단하여 그레일의 갤러리 암 혈액 검사를 지지했다고 STAT가 전했다.",
+        "마켓워치는 이 검사가 50가지 암을 선별하며 메디케어 및 민간 보험 적용 여부가 FDA 승인에 달려 있다고 언급했다.",
+        "표결 집계와 FDA 결정 일정은 수집 데이터에 포함되지 않았으며 자문위 권고가 승인 자체를 의미하지는 않는다."
+      ],
+      "body": [
+        {
+          "text": "STAT 보도에 따르면 FDA 자문위원회는 검사의 잠재적 위험보다 임상적 이익이 더 크다고 판단하여 그레일(Grail)의 암 조기 진단 혈액 검사를 공식 지지했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "다음 단계는 상업적 영역이다. 마켓워치(MarketWatch)는 이 검사가 50가지 암종을 선별하며, 메디케어 및 민간 건강보험의 급여 적용 여부가 향후 FDA의 최종 승인 결과에 직결되어 있다고 보도했다.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "자문위원회의 긍정적 표결은 다중 암 조기 검진(MCED)을 FDA 승인 결정에 더 가깝게 이끌었으며, 이는 다시 메디케어 및 상업적 보험 급여의 문을 열어 대규모 선별 검사 시장 형성 여부를 좌우한다. 이 결과는 시장(Markets) 버티컬에도 중요하다.",
+      "editorNote": "세부 투표 집계와 FDA 최종 결정 일정은 수집 데이터에 없었으며, 자문위 권고가 승인을 의미하지는 않는다. 의료적 조언이 아니다.",
+      "cluster": [
+        {
+          "url": "https://www.marketwatch.com/story/fda-advisers-are-reviewing-a-multicancer-detection-test-medicare-coverage-could-follow-77cb8817?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "This test screens for 50 cancers — but whether Medicare and other health insurers will cover it hinges on FDA approval"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.statnews.com/2026/09/23/fda-advisory-panel-recommends-approval-grail-galleri-multi-cancer-blood-test/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "STAT+: FDA advisory panel endorses Grail blood test for cancer, saying benefits outweigh risks",
+          "publishedAt": "2026-09-23T21:47:58.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.marketwatch.com/story/fda-advisers-are-reviewing-a-multicancer-detection-test-medicare-coverage-could-follow-77cb8817?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "This test screens for 50 cancers — but whether Medicare and other health insurers will cover it hinges on FDA approval",
+          "publishedAt": "2026-09-23T21:59:00.000Z"
+        }
+      ],
+      "tags": [
+        "grail",
+        "fda",
+        "cancer-screening",
+        "diagnostics",
+        "medicare"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "llm-medical-question-reliability-studies-ko",
+      "headline": "정확도를 넘어서: 피부과 전문의 시험 유형 문항에서 대규모 언어 모델의 과업 취약성과 추론 안정성에 관한 교육 벤치마킹 연구",
+      "dek": "새로운 논문들은 표면적 정확도 대신 안정성, 편향, 재현성 관점에서 임상 LLM을 시험했다.",
+      "type": "DATA",
+      "readMinutes": 3,
+      "tldr": [
+        "PubMed에 색인된 벤치마킹 연구는 피부과 전문의 문항에서 거대언어모델의 작업 취약성과 추론 안정성을 검토했다.",
+        "기타 논문들은 섭식장애 진단에서 LLM의 암묵적 편향과 환자 중심 지질부종 질문에 대한 ChatGPT, DeepSeek, Gemini의 정확도 및 재현성을 평가했다.",
+        "arXiv 논문 PCQC는 다자간 의료 대화를 위한 특권적 반사실적 질문 크레딧 방식을 제안했다."
+      ],
+      "body": [
+        {
+          "text": "새로운 연구는 ‘단순 정확도’를 넘어 피부과 전문의 시험 유형 문항에서 대형 언어 모델(LLM)이 보이는 작업 취약성과 추론 안정성을 벤치마킹했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "가상 증례 기반 실험 연구는 대규모 언어 모델이 섭식 장애를 진단하는 과정에서 나타나는 암묵적 편향을 조사했다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "또 다른 논문은 환자 중심의 지질부종 질문에 답변하는 과정에서 ChatGPT, DeepSeek, Gemini 모델의 정확도와 결과 재현성을 종합 평가했다.",
+          "citations": [
+            3
+          ]
+        },
+        {
+          "text": "방법론 측면에서 한 arXiv 논문은 다중 턴 의료 대화 평가를 위해 특권적 반사실적 질문 크레딧(PCQC) 접근법을 제안했다.",
+          "citations": [
+            4
+          ]
+        }
+      ],
+      "whyItMatters": "임상 LLM에 대한 평가는 단순한 정확도 수치에서 안정성, 편향, 재현성 검증으로 전환되고 있으며, 이는 규제당국과 병원 구매자가 환자 대면 도구로서 AI를 신뢰하기 위해 요구할 핵심 속성이다.",
+      "editorNote": "메타데이터 수준에서 인용되었으며, 초록으로부터 구체적 연구 결과를 요약하거나 재현하지 않았다. 의료적 조언이 아니다.",
+      "cluster": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42777239/",
+          "source": "PubMed",
+          "title": "Implicit Bias in Large Language Model Diagnosis of Eating Disorders: Experimental Vignette Study"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42776843/",
+          "source": "PubMed",
+          "title": "Evaluation of the accuracy and reproducibility of large language models (ChatGPT, DeepSeek, Gemini) in responding to patient-centered lipedema questions"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42777240/",
+          "source": "PubMed",
+          "title": "Beyond accuracy: an educational benchmarking study of task fragility and reasoning stability of large language models on dermatology board-style questions",
+          "publishedAt": "2026/09/23 00:00"
+        },
+        {
+          "id": 2,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42777239/",
+          "source": "PubMed",
+          "title": "Implicit Bias in Large Language Model Diagnosis of Eating Disorders: Experimental Vignette Study",
+          "publishedAt": "2026/09/23 00:00"
+        },
+        {
+          "id": 3,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42776843/",
+          "source": "PubMed",
+          "title": "Evaluation of the accuracy and reproducibility of large language models (ChatGPT, DeepSeek, Gemini) in responding to patient-centered lipedema questions",
+          "publishedAt": "2026/09/23 00:00"
+        },
+        {
+          "id": 4,
+          "url": "http://arxiv.org/abs/2609.27987v1",
+          "source": "arXiv",
+          "title": "PCQC: Privileged Counterfactual Question Credit for Multi-Turn Medical Dialogue",
+          "publishedAt": "2026-09-23T12:15:10Z"
+        }
+      ],
+      "tags": [
+        "clinical-ai",
+        "llm-evaluation",
+        "medical-ai"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ai-clinical-practice-decision-support-ko",
+      "headline": "의사의 장인정신에 미치는 AI의 인식된 영향: 정성적 인터뷰 및 포커스 그룹 연구",
+      "dek": "현장 도입 연구는 AI가 임상적 역할을 어떻게 변화시키고 임상 결과를 어떻게 측정해야 하는지에 주목했다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "정성 연구는 의사들이 AI가 자신의 전문적 숙련도에 미치는 영향을 어떻게 인식하는지 조사했다.",
+        "기타 논문들은 처방 검토를 위한 규칙 및 머신러닝 하이브리드 의사결정 지원 시스템의 외부 검증과 디지털 공중보건 AI 평가를 위한 책임성 종명점을 제안했다.",
+        "오피탈 몽포르의 임상시험 등록은 이해하기 쉽고 신뢰할 수 있는 환자 교육 자료 제작에 AI를 활용하는 과제를 다룬다."
+      ],
+      "body": [
+        {
+          "text": "정성적 인터뷰 및 포커스 그룹 연구를 통해 인공지능이 의사의 전문적 숙련도와 장인정신에 미치는 인식된 영향을 심층 조사했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "개발 및 외부 검증 연구는 처방 검토 과정을 지원하기 위한 규칙 기반 및 머신러닝 기반 하이브리드 임상 의사결정 지원 시스템(CDSS)을 기술했다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "별도의 논문은 신장내과 진료에서 효율성을 높이기 위한 AI의 실질적 적용 경로를 제시했으며, 다른 연구는 디지털 공중보건에서 AI 평가를 위한 책임 있는 실행 종단점을 제안했다.",
+          "citations": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "임상시험 측면에서는 몽포르 병원(Hopital Montfort)이 후원한 ClinicalTrials.gov 등록 과제가 신뢰할 수 있는 접근성 높은 환자 교육 자료를 생성하기 위한 AI 활용 방안을 다루고 있다.",
+          "citations": [
+            5
+          ]
+        }
+      ],
+      "whyItMatters": "연구가 모델의 기능 작동 여부에서 임상 역할을 어떻게 바꾸고 결과를 어떻게 측정하는가로 전환되고 있으며, 이는 보험자와 의료 시스템이 어떤 AI 도구를 도입할지 결정하는 근거 기반이 된다.",
+      "editorNote": "메타데이터 및 등록소 수준에서 인용되었으며 연구 결과는 요약되거나 재현되지 않았다. 의료적 조언이 아니다.",
+      "cluster": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42777235/",
+          "source": "PubMed",
+          "title": "A Hybrid Rule-Based and Machine Learning-Based Clinical Decision Support System to Support Prescription Review: Development and External Validation Study"
+        },
+        {
+          "url": "https://clinicaltrials.gov/study/NCT06997107",
+          "source": "ClinicalTrials.gov",
+          "title": "AI to Create Accessible & Reliable Patient Education Materials"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42777151/",
+          "source": "PubMed",
+          "title": "The Perceived Influence of AI on the Craftsmanship of Physicians: Qualitative Interview and Focus Group Study",
+          "publishedAt": "2026/09/23 00:00"
+        },
+        {
+          "id": 2,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42777235/",
+          "source": "PubMed",
+          "title": "A Hybrid Rule-Based and Machine Learning-Based Clinical Decision Support System to Support Prescription Review: Development and External Validation Study",
+          "publishedAt": "2026/09/23 00:00"
+        },
+        {
+          "id": 3,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42776595/",
+          "source": "PubMed",
+          "title": "Artificial Intelligence in Nephrology Practice: Practical Pathways to Improve Efficiency",
+          "publishedAt": "2026/09/23 00:00"
+        },
+        {
+          "id": 4,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42777191/",
+          "source": "PubMed",
+          "title": "Accountable Action End Points for Evaluating Artificial Intelligence in Digital Public Health",
+          "publishedAt": "2026/09/23 00:00"
+        },
+        {
+          "id": 5,
+          "url": "https://clinicaltrials.gov/study/NCT06997107",
+          "source": "ClinicalTrials.gov",
+          "title": "AI to Create Accessible & Reliable Patient Education Materials",
+          "publishedAt": "2026-09-21T00:00:00.000Z"
+        }
+      ],
+      "tags": [
+        "clinical-ai",
+        "decision-support",
+        "health-systems"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "oncology-pipeline-ras-inhibitor-registrations-ko",
+      "headline": "RAS 변이를 보유한 진행성 또는 전이성 고형암 환자 대상 RAS 억제제 치료 평가",
+      "dek": "등록소 갱신 정보에는 RAS 억제제, 전립선암, 자궁암, 뇌종양에 걸친 신규 및 주요 제약사들의 파이프라인이 포함되었다.",
+      "type": "DATA",
+      "readMinutes": 3,
+      "tldr": [
+        "장쑤 아오사이캉 제약의 등록 기록은 RAS 변이 진행성·전이성 고형암 환자 대상 RAS 억제제 임상을 다룬다.",
+        "얀센의 전이성 전립선암 JNJ-101556143, 바이오엔텍의 재발성 자궁암 연구, 플로리다 대학교의 교모세포종 RNA 백신 기록이 갱신되었다.",
+        "사이언스데일리는 암 치료 저항성을 극복할 수 있는 신약 연구를 보도했다."
+      ],
+      "body": [
+        {
+          "text": "장쑤 아오사이캉 제약(Jiangsu Aosaikang Pharmaceutical)의 RAS 변이 동반 진행성 또는 전이성 고형암 환자 대상 RAS 억제제 평가 임상시험이 ClinicalTrials.gov 갱신 내역에 등재되었다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "대형 제약사 및 플랫폼 프로그램도 기록을 갱신했다. 전이성 전립선암에 대한 얀센(Janssen)의 JNJ-101556143 임상과 재발성 자궁암에 대한 바이오엔텍(BioNTech)의 시험 약물 또는 화학요법 비교 연구가 포함되었다.",
+          "citations": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "플로리다 대학교의 등록 과제는 성인 재발성 교모세포종 환자를 위한 RNA-지질 입자(RNA-LP) 백신을 평가한다.",
+          "citations": [
+            4
+          ]
+        },
+        {
+          "text": "별도로 사이언스데일리는 암의 치료 저항성을 무너뜨릴 수 있는 새로운 후보 물질에 관한 연구를 보도했다.",
+          "citations": [
+            5
+          ]
+        }
+      ],
+      "whyItMatters": "RAS 변이 종양은 오랫동안 난공불락이었던 항암 표적으로, 대형 제약사 및 mRNA 플랫폼에 더해 새로운 스폰서들이 RAS 억제 분야에 진입하는 것은 임상 단계 자본이 집중되는 위치를 보여준다.",
+      "editorNote": "ClinicalTrials.gov 기록은 연구 제목과 스폰서를 바탕으로 인용되었으며 날짜는 시험 개시가 아닌 등록소 갱신일이다. 사이언스데일리 보도의 약물 및 개발 단계는 수집 데이터에 없다. 의료 조언이 아니다.",
+      "cluster": [
+        {
+          "url": "https://clinicaltrials.gov/study/NCT07832292",
+          "source": "ClinicalTrials.gov",
+          "title": "A Study of JNJ-101556143 in Participants With Metastatic Prostate Cancer"
+        },
+        {
+          "url": "https://clinicaltrials.gov/study/NCT06389591",
+          "source": "ClinicalTrials.gov",
+          "title": "RNA-Lipid Particle (RNA-LP) Vaccines for Recurrent Adult Glioblastoma (GBM)"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://clinicaltrials.gov/study/NCT07836036",
+          "source": "ClinicalTrials.gov",
+          "title": "Evaluation of RAS Inhibitor Treatment in Participants With Advanced or Metastatic Solid Tumors Harboring RAS Mutations",
+          "publishedAt": "2026-09-23T00:00:00.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://clinicaltrials.gov/study/NCT07832292",
+          "source": "ClinicalTrials.gov",
+          "title": "A Study of JNJ-101556143 in Participants With Metastatic Prostate Cancer",
+          "publishedAt": "2026-09-21T00:00:00.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://clinicaltrials.gov/study/NCT06340568",
+          "source": "ClinicalTrials.gov",
+          "title": "A Clinical Study of the Anti-cancer Effects of an Investigational Therapy or Chemotherapy in Patients With Recurring Uterine Cancer",
+          "publishedAt": "2026-09-17T00:00:00.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://clinicaltrials.gov/study/NCT06389591",
+          "source": "ClinicalTrials.gov",
+          "title": "RNA-Lipid Particle (RNA-LP) Vaccines for Recurrent Adult Glioblastoma (GBM)",
+          "publishedAt": "2026-09-23T00:00:00.000Z"
+        },
+        {
+          "id": 5,
+          "url": "https://www.sciencedaily.com/releases/2026/09/260921081112.htm",
+          "source": "ScienceDaily",
+          "title": "This new drug could break cancer’s resistance to treatment",
+          "publishedAt": "2026-09-23T01:27:00.000Z"
+        }
+      ],
+      "tags": [
+        "oncology",
+        "clinical-trials",
+        "ras",
+        "biontech",
+        "janssen"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "osteoporosis-drug-developer-vc-interest-ko",
+      "headline": "STAT+: 제약사 및 바이오텍 VC, 골다공증 치료제에 '다시 살아난' 관심 표명",
+      "dek": "일반적인 보충제의 근거가 빈약한 것으로 나타나면서 투자자들이 골 손실 치료제로 복귀하고 있다.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "제약사와 바이오 벤처 투자자들이 골다공증 치료제에 새로운 관심을 보이고 있다고 STAT가 보도했다.",
+        "사이언스데일리는 수백만 명이 뼈 건강을 위해 복용하는 칼슘과 비타민 D의 효과가 미미하다는 대규모 검토 결과를 전했다.",
+        "수집된 헤드라인 데이터에는 구체적인 거래 대상이나 투자 금액은 명시되지 않았다."
+      ],
+      "body": [
+        {
+          "text": "STAT 보도에 따르면 제약사와 바이오텍 벤처 캐피털(VC)들이 골다공증 치료제 분야에 다시금 활발한 투자 관심을 나타내고 있다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "근거 기반 환경도 변화하고 있다. 사이언스데일리는 수백만 명이 뼈 건강을 위해 섭취하는 칼슘과 비타민 D 보충제가 실질적 이점을 거의 주지 못한다는 대규모 종설 결과를 전했다.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "고령화로 인한 거대한 적응증에 투자자들의 관심이 다시 쏠리는 한편 흔한 보충제의 효능이 낮다는 근거는 전문의약품의 치료적 입지를 넓혀준다. 개별 치료제에 대한 신호라기보다는 주목해야 할 파이프라인 및 거래 동향이다.",
+      "editorNote": "연구 및 투자 보도만을 전하는 기사이며 보충제나 약품 사용에 대한 지침이 아니다. 거래 세부 내역은 수집 데이터에 포함되지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260920030147.htm",
+          "source": "ScienceDaily",
+          "title": "Millions take calcium and vitamin D for bone health. A major review finds little benefit"
+        },
+        {
+          "url": "https://www.statnews.com/2026/09/23/biotech-vc-investors-new-opportunity-osteoporosis-treatments/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "STAT+: Drugmakers, biotech VCs show ‘reinvigorated’ interest in osteoporosis treatments"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.statnews.com/2026/09/23/biotech-vc-investors-new-opportunity-osteoporosis-treatments/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "STAT+: Drugmakers, biotech VCs show ‘reinvigorated’ interest in osteoporosis treatments",
+          "publishedAt": "2026-09-23T08:30:00.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.sciencedaily.com/releases/2026/09/260920030147.htm",
+          "source": "ScienceDaily",
+          "title": "Millions take calcium and vitamin D for bone health. A major review finds little benefit",
+          "publishedAt": "2026-09-21T01:59:17.000Z"
+        }
+      ],
+      "tags": [
+        "osteoporosis",
+        "biotech-investment",
+        "drug-development"
+      ],
+      "confidence": "low"
+    }
+  ]
+}

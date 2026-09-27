@@ -7,7 +7,10 @@ export const GET: APIRoute = ({ site }) => {
     'User-agent: *',
     'Allow: /',
     `Sitemap: ${base}/sitemap-index.xml`,
-    `Sitemap: ${base}/news-sitemap.xml`,
+    `Sitemap: ${base}/en/sitemap.xml`,
+    `Sitemap: ${base}/ko/sitemap.xml`,
+    `Sitemap: ${base}/en/news-sitemap.xml`,
+    `Sitemap: ${base}/ko/news-sitemap.xml`,
     '',
   ].join('\n');
 

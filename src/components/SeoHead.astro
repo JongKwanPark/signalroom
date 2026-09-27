@@ -1,5 +1,6 @@
 ---
-import { SITE } from '../lib/site';
+import { LOCALE, SITE } from '../lib/site';
+import { counterpartPath, getEditions, getStoryRef, langOfPath, stripLangPrefix, type Lang } from '../lib/editions';
 import { absoluteUrl, canonicalUrl, organizationJsonLd, type JsonLd } from '../lib/seo';
 
 interface Props {
@@ -26,7 +27,23 @@ const {
   noindex = false,
 } = Astro.props;
 
-const canonical = canonicalUrl(path ?? Astro.url.pathname);
+const requestedPath = path ?? Astro.url.pathname;
+const pageLang: Lang = langOfPath(requestedPath) ?? 'en';
+const { rest } = stripLangPrefix(requestedPath);
+const localized = rest === '/' || /^\/(?:story\/[^/]+|(?:ai|bio|geo|markets)|archive|search|\d{4}\/\d{2}(?:\/\d{2})?)\/?$/.test(rest);
+const canonicalPath = localized ? counterpartPath(requestedPath, pageLang) : requestedPath;
+const canonical = canonicalUrl(canonicalPath);
+let alternates: { en: string; ko: string } | null = null;
+if (localized && !noindex) {
+  const en = counterpartPath(requestedPath, 'en');
+  const ko = counterpartPath(requestedPath, 'ko');
+  const storySlug = rest.match(/^\/story\/([^/]+)\/?$/)?.[1];
+  const editions = storySlug || /^\/\d{4}\/\d{2}(?:\/\d{2})?\/?$/.test(rest) ? await getEditions() : [];
+  const pairedStory = !storySlug || Boolean(await getStoryRef(ko.split('/').at(-1) ?? '', 'ko'));
+  const [year, month, day] = rest.slice(1).split('/');
+  const pairedDate = !/^\d{4}$/.test(year) || editions.some((edition) => edition.data.lang === 'ko' && edition.data.date.startsWith(`${year}-${month}`) && (!day || edition.data.date === `${year}-${month}-${day}`));
+  if (pairedStory && pairedDate) alternates = { en: canonicalUrl(en), ko: canonicalUrl(ko) };
+}
 const imageUrl = image ? absoluteUrl(image) : undefined;
 const blocks = [organizationJsonLd(), ...(jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [])];
 ---
@@ -34,9 +51,13 @@ const blocks = [organizationJsonLd(), ...(jsonLd ? (Array.isArray(jsonLd) ? json
 <title>{title}</title>
 <meta name="description" content={description} />
 <link rel="canonical" href={canonical} />
+{alternates && <link rel="alternate" hreflang="en" href={alternates.en} />}
+{alternates && <link rel="alternate" hreflang="ko" href={alternates.ko} />}
+{alternates && <link rel="alternate" hreflang="x-default" href={alternates.en} />}
 {noindex && <meta name="robots" content="noindex" />}
 <meta property="og:site_name" content={SITE.name} />
-<meta property="og:locale" content={SITE.locale} />
+<meta property="og:locale" content={LOCALE[pageLang]} />
+{alternates && <meta property="og:locale:alternate" content={LOCALE[pageLang === 'en' ? 'ko' : 'en']} />}
 <meta property="og:type" content={type} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />

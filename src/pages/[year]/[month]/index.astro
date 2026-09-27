@@ -1,19 +1,19 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import VerticalChip from '../../../components/VerticalChip.astro';
-import { dateEntries, editionHref, getEditions, monthEntries, monthHref } from '../../../lib/editions';
+import { dateEntries, editionHref, editionsInLang, getEditions, monthEntries, monthHref } from '../../../lib/editions';
 import { VERTICAL_META, VERTICALS, type Vertical } from '../../../lib/site';
 import { formatDateLong, formatMonthYear, formatWeekday, pluralize } from '../../../lib/format';
 import { breadcrumbJsonLd } from '../../../lib/seo';
 
 export async function getStaticPaths() {
-  const editions = await getEditions();
+  const editions = editionsInLang(await getEditions(), 'en');
   return monthEntries(editions).map((entry) => ({
     params: { year: entry.year, month: entry.month },
   }));
 }
 
-const editions = await getEditions();
+const editions = editionsInLang(await getEditions(), 'en');
 const { year, month } = Astro.params;
 const label = formatMonthYear(year as string, month as string);
 const months = monthEntries(editions);

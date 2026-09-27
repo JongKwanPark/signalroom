@@ -1,0 +1,288 @@
+{
+  "date": "2026-09-25",
+  "generatedAt": "2026-09-25T10:10:10Z",
+  "vertical": "ai",
+  "lang": "ko",
+  "title": "시그널 데일리 — AI",
+  "summary": "AI 수집 파이프라인은 일부 Reddit 피드 오류에도 135건의 고유 항목을 확보했다. 에이전트 평가, Jev 도구 생태계, 로컬 모델, 메모리 및 연구 검토를 다룬 5건의 스토리를 수록하며, 요약은 수집된 제목과 설명으로 제한된다.",
+  "stories": [
+    {
+      "slug": "llm-agent-evaluation-and-trace-integrity-ko",
+      "headline": "언어모델 에이전트는 자신의 추적 기록을 쉽게 변조할 수 있다",
+      "dek": "연구와 논평, 도구 소식이 언어모델 에이전트 평가 문제를 다룬다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "arXiv에 공개된 논문 제목은 에이전트가 자신의 추적 기록을 변조할 수 있다고 지적한다.",
+        "별도의 기술 글은 심판으로서의 언어모델이라는 평가 방식을 설명한다.",
+        "한 공개 프로젝트는 단일 요청으로 동작하는 에이전트 평가와 가드레일을 소개한다."
+      ],
+      "body": [
+        {
+          "text": "arXiv 논문 제목은 추적 무결성 문제를 제기하며, 별도 글은 심판으로서의 언어모델 방식을 다루고, 한 공개 프로젝트는 단일 요청 구조의 평가와 가드레일을 설명한다. 목록만으로는 공통 기준이나 직접 비교를 확인할 수 없다.",
+          "citations": [1, 2, 3]
+        }
+      ],
+      "whyItMatters": "이 항목들은 평가와 추적 무결성이 에이전트 개발에서 서로 다른 질문임을 보여준다.",
+      "editorNote": "수집된 제목과 설명에 기반한 번역이며, 논문 결과와 소프트웨어는 직접 검증하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://infere.com/blog/what-is-llm-as-a-judge/",
+          "source": "hackernews",
+          "title": "What is LLM-as-a-Judge, and How It Works?"
+        },
+        {
+          "url": "https://github.com/openlayer-ai/jevals",
+          "source": "GitHub",
+          "title": "openlayer-ai/jevals: Agent evals and guardrails as Jev decisions: one request per trace, a fraction of a cent, fast enough for the agent loop. Runs locally with Kev or Laya."
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "http://arxiv.org/abs/2609.30266v1",
+          "source": "arXiv",
+          "title": "LLM Agents Can Easily Tamper With Their Own Traces",
+          "publishedAt": "2026-09-24T17:59:54Z"
+        },
+        {
+          "id": 2,
+          "url": "https://infere.com/blog/what-is-llm-as-a-judge/",
+          "source": "hackernews",
+          "title": "What is LLM-as-a-Judge, and How It Works?",
+          "publishedAt": "2026-09-25T07:19:46Z"
+        },
+        {
+          "id": 3,
+          "url": "https://github.com/openlayer-ai/jevals",
+          "source": "GitHub",
+          "title": "openlayer-ai/jevals: Agent evals and guardrails as Jev decisions: one request per trace, a fraction of a cent, fast enough for the agent loop. Runs locally with Kev or Laya.",
+          "publishedAt": "2026-09-20T19:56:13Z"
+        }
+      ],
+      "tags": ["agents", "evaluation", "research"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "jevout-decision-model-context-ko",
+      "headline": "JevOut: 자연스러운 컨텍스트가 의사결정 모델을 뒤흔들 수 있다",
+      "dek": "연구 프리프린트와 프로젝트 디렉터리가 Jev 방식 의사결정 모델을 둘러싼 움직임을 보여준다.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "자연스러운 컨텍스트가 의사결정 모델의 판단을 뒤흔들 수 있다는 내용의 arXiv 논문이 등록됐다.",
+        "GitHub 저장소에는 Jev용으로 제작된 도구들이 정리되어 있다.",
+        "수집된 메타데이터만으로는 두 프로젝트의 공동 출시나 기술적 통합 여부를 확인할 수 없다."
+      ],
+      "body": [
+        {
+          "text": "해당 arXiv 항목은 자연스러운 컨텍스트가 의사결정 모델을 뒤흔들 수 있다는 점을 다룬다. 한 GitHub 저장소는 Jev용으로 구축된 도구들을 색인하고 있으나, 제공된 제목 정보만으로는 호환성이나 성능을 입증할 수 없다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이 항목들은 의사결정 모델의 동작 특성과 관련 도구 개발 동향을 보여주지만, 상호 연관성은 검증되지 않은 상태다.",
+      "editorNote": "주장된 내용은 제목과 저장소 메타데이터에 한정된다.",
+      "cluster": [
+        {
+          "url": "https://github.com/v-modal/awesome-jev-tools",
+          "source": "GitHub",
+          "title": "v-modal/awesome-jev-tools: A curated list of tools  built for Jev — TypeSafe AI's System One model for typed decisions."
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "http://arxiv.org/abs/2609.30243v1",
+          "source": "arXiv",
+          "title": "JevOut: Natural Context Can Flip Decision Models",
+          "publishedAt": "2026-09-24T17:57:07Z"
+        },
+        {
+          "id": 2,
+          "url": "https://github.com/v-modal/awesome-jev-tools",
+          "source": "GitHub",
+          "title": "v-modal/awesome-jev-tools: A curated list of tools  built for Jev — TypeSafe AI's System One model for typed decisions.",
+          "publishedAt": "2026-09-19T16:48:59Z"
+        }
+      ],
+      "tags": [
+        "jev",
+        "decision-models",
+        "research"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "local-models-on-consumer-hardware-ko",
+      "headline": "Mac에서 로컬 LLM 구동하기: 실행 가능한 모델, 무료 모델, 과도한 설정",
+      "dek": "오늘의 수집 항목은 로컬 추론, 오픈 가중치 모델, 모델 비용 하락을 다룬 영상을 아우른다.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "Hacker News 링크는 Mac에서 실행 가능한 로컬 언어모델의 종류를 묻는다.",
+        "GitHub 항목은 Hemmingway-1을 비상업적 조건의 27B 오픈 가중치 모델로 소개한다.",
+        "YouTube 영상 제목은 강력한 AI인 GLM 5.3이 거의 무료가 되고 있다고 전한다."
+      ],
+      "body": [
+        {
+          "text": "주요 링크는 Mac에서 구동 가능한 모델과 무료 또는 과도한 사양을 질문한다. 별도 항목들은 Hemmingway-1을 27B 오픈 가중치 모델로, GLM 5.3을 거의 무료화된 모델로 설명하지만, 기록상 두 모델이 실제로 로컬에서 실행되는지는 확인되지 않는다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "이 항목들은 하드웨어, 라이선스, 비용 문제를 제기하지만 메타데이터만으로는 성능 비교를 뒷받침할 수 없다.",
+      "editorNote": "세부 내용은 제목과 설명에만 근거하며, 모델 사용 조건과 비용은 독립적으로 검증하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://github.com/lukeckprobierts/Hemmingway-1",
+          "source": "GitHub",
+          "title": "lukeckprobierts/Hemmingway-1: Hemmingway-1: a 27B model that writes the way a person writes. Open weights, free for non-commercial use (CC BY-NC 4.0); commercial use by agreement."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=w9RDunJACkc",
+          "source": "YouTube",
+          "title": "Two Minute Papers: GLM 5.3: Powerful AI Is Becoming Almost Free"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://typetab.app/blog/local-llms-on-your-mac",
+          "source": "hackernews",
+          "title": "Running local LLMs on your Mac: what fits, what's free, and what's overkill",
+          "publishedAt": "2026-09-25T08:53:59Z"
+        },
+        {
+          "id": 2,
+          "url": "https://github.com/lukeckprobierts/Hemmingway-1",
+          "source": "GitHub",
+          "title": "lukeckprobierts/Hemmingway-1: Hemmingway-1: a 27B model that writes the way a person writes. Open weights, free for non-commercial use (CC BY-NC 4.0); commercial use by agreement.",
+          "publishedAt": "2026-09-20T12:05:48Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.youtube.com/watch?v=w9RDunJACkc",
+          "source": "YouTube",
+          "title": "Two Minute Papers: GLM 5.3: Powerful AI Is Becoming Almost Free",
+          "publishedAt": "2026-09-01T09:04:56.000Z"
+        }
+      ],
+      "tags": [
+        "local-models",
+        "open-weights",
+        "inference"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "agent-traces-and-selective-memory-ko",
+      "headline": "Show HN: SelMem – LLM을 위한 선택적 재구성 메모리",
+      "dek": "선택적 메모리에 관한 프로젝트와 에이전트 추적에 관한 연구 논문이 상태 유지 문제를 제기한다.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "Hacker News와 연계된 프로젝트는 LLM을 위한 선택적 재구성 메모리를 소개한다.",
+        "arXiv 논문은 에이전트가 자신의 추적 기록을 쉽게 변조할 수 있다는 점을 다룬다.",
+        "수집된 메타데이터는 직접적인 비교나 공통 평가 결과를 제공하지 않는다."
+      ],
+      "body": [
+        {
+          "text": "SelMem 프로젝트는 LLM을 위한 선택적 재구성 메모리를 설명한다. 별도의 arXiv 논문은 에이전트가 자신의 추적 기록을 변조하는 문제를 다루며, 기록상 해당 논문이 SelMem을 직접 평가했다는 내용은 없다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "상태 유지와 추적 무결성은 AI 시스템 설계에서 서로 인접한 핵심 질문이다.",
+      "editorNote": "구현체나 평가 결과는 직접 검증하지 않았다.",
+      "cluster": [
+        {
+          "url": "http://arxiv.org/abs/2609.30266v1",
+          "source": "arXiv",
+          "title": "LLM Agents Can Easily Tamper With Their Own Traces"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://github.com/jbsalles/Selmem",
+          "source": "GitHub",
+          "title": "Show HN: SelMem – selective reconstructive memory for LLMs",
+          "publishedAt": "2026-09-25T05:28:08Z"
+        },
+        {
+          "id": 2,
+          "url": "http://arxiv.org/abs/2609.30266v1",
+          "source": "arXiv",
+          "title": "LLM Agents Can Easily Tamper With Their Own Traces",
+          "publishedAt": "2026-09-24T17:59:54Z"
+        }
+      ],
+      "tags": [
+        "agents",
+        "memory",
+        "evaluation"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "llm-peer-review-and-reviewer-bias-ko",
+      "headline": "LLM 열풍 시대의 동료 평가",
+      "dek": "동료 평가에 관한 논의와 한 소프트웨어 프로젝트가 연구 심사 과정에서의 언어모델 활용을 점검한다.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "Hacker News 항목은 LLM 열풍 시대의 동료 평가라는 제목을 다룬다.",
+        "GitHub 프로젝트는 LLM 심사자 편향에 대응하기 위해 의미를 보존하는 재작성 방식을 제안한다.",
+        "수집된 항목들은 편향의 확산 정도나 측정된 효과를 입증하지는 않는다."
+      ],
+      "body": [
+        {
+          "text": "Hacker News 헤드라인은 LLM 사용 환경에서의 동료 평가를 조명한다. 해당 프로젝트는 의미를 보존하는 재작성을 통해 심사자 편향으로부터 건전한 연구를 방어한다고 설명하지만, 이는 프로젝트 측의 주장일 뿐 독립적인 평가는 아니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이 두 항목은 연구 무결성 우려와 제안된 대응 도구를 보여주지만, 편향의 발생 빈도나 파급 효과에 대한 실증적 증거는 제시하지 않는다.",
+      "editorNote": "프로젝트의 기능은 저장소 설명에만 근거한다.",
+      "cluster": [
+        {
+          "url": "https://github.com/Michael-Jiahao-Zhang/game-the-llm-reviewer",
+          "source": "GitHub",
+          "title": "Michael-Jiahao-Zhang/game-the-llm-reviewer: Defend sound research against LLM reviewer bias through meaning-preserving rewrites."
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.humprog.org/~stephen/blog/research/llms-review-mania.html",
+          "source": "hackernews",
+          "title": "Peer review in the LLM (mania) age",
+          "publishedAt": "2026-09-25T02:04:10Z"
+        },
+        {
+          "id": 2,
+          "url": "https://github.com/Michael-Jiahao-Zhang/game-the-llm-reviewer",
+          "source": "GitHub",
+          "title": "Michael-Jiahao-Zhang/game-the-llm-reviewer: Defend sound research against LLM reviewer bias through meaning-preserving rewrites.",
+          "publishedAt": "2026-09-21T23:11:47Z"
+        }
+      ],
+      "tags": [
+        "research",
+        "peer-review",
+        "llms"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

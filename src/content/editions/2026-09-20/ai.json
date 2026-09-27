@@ -2,6 +2,7 @@
   "date": "2026-09-20",
   "generatedAt": "2026-09-20T22:10:00.000Z",
   "vertical": "ai",
+  "lang": "en",
   "title": "AI: a Jev tooling wave, a privacy fight over ad data, and heavy local-inference claims",
   "summary": "Community tooling around TypeSafe's Jev kept arriving, with new ports, fine-tunes and curated lists, while the most-engaged item of the day concerned ChatGPT receiving data about what users do on other websites. Open-weight releases continued at pace and local-inference reports made large throughput claims. Research and tooling kept converging on one question: how to verify what an agent or a model actually did.",
   "stories": [

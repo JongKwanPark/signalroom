@@ -1,0 +1,579 @@
+{
+  "date": "2026-09-22",
+  "generatedAt": "2026-09-22T22:05:00.000Z",
+  "vertical": "geo",
+  "lang": "ko",
+  "title": "지정학: 트럼프의 UN 대이란 경고, 후티에 대한 G7의 압박, 태풍 두쥐안",
+  "summary": "G7이 후티 반군을 압박하고 각국 정상이 UN 총회에 집결한 가운데 외교 현안이 주를 이루었으며, UN 전문가는 마약 의심 선박에 대한 미국의 공습이 인도에 반한 죄에 해당할 수 있다고 지적했다. 일본에서는 태풍 두쥐안이 강타해 최소 4명이 사망했고, 튀르키예에서는 학교 총격 사건으로 11명이 부상했다. 캐나다 브리티시컬럼비아주는 텀블러리지 총격 사건과 관련해 OpenAI를 제소했고, 독일 연립정부와 베를린 선거 결과에 대해서는 엇갈린 해석이 나왔으며, 젤렌스키 대통령이 UN으로 향하는 동안 러시아의 공습으로 우크라이나에서 3명이 사망했다. GDELT와 ISW 수집이 실패하고 ReliefWeb 반환값이 없어 본 에디션은 전적으로 통신사 보도에 의존했다. 당일 UTC 2차 수집을 통해 트럼프의 UN 대이란 연설이 추가되었으며, 그는 이란을 '궤멸'시킬지 평화 협정을 맺을지에 대해 '중대한 결정'을 앞두고 있다고 밝히고 미·이란 회담을 '매우 좋았다'고 평가했다.",
+  "stories": [
+    {
+      "slug": "g7-houthis-yemen-unga-ko",
+      "headline": "G7, UN 총회 앞두고 이란에 예멘 후티 반군 무기 지원 중단 촉구",
+      "dek": "세계 지도자들이 UN 총회에 모여드는 가운데 G7은 후티 반군에 공격 중단을 요구했다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "G7은 UN 총회를 앞두고 이란이 예멘의 후티 반군에 대한 무기 공급을 중단해야 한다며 공격을 즉각 멈출 것을 요구했다.",
+        "DW는 G7이 후티 반군에 공격의 '즉각적' 중단을 요구하며 예멘 사태를 이란의 역내 역할에 대한 시험대로 규정했다고 전했다.",
+        "보도에서는 수년간의 분쟁 끝에 후티 반군의 전력이 얼마나 강력해졌는지에 대한 평가도 함께 다루어졌다."
+      ],
+      "body": [
+        {
+          "text": "G7은 UN 총회를 앞두고 이란이 예멘 후티 반군에 무기를 지원하는 행위를 중단해야 한다고 요구했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "DW도 동일한 압박 기조를 전하며, G7이 후티 반군에 사우디 공격을 '즉각' 중단할 것을 요구했다고 보도했다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "이러한 압박은 분석가들이 재평가해 온 오랜 의문, 즉 수년간의 분쟁을 거치며 후티 반군이 얼마나 강력해졌는가라는 맥락 속에서 제기되었다.",
+          "citations": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "예멘은 이란 문제, 홍해 해상 운송 리스크, UN의 권위가 교차하는 지점이며, UN 총회를 앞둔 G7의 성명 수위는 회원국들이 단순한 규탄을 넘어 어디까지 행동할 것인지를 보여주는 신호다.",
+      "editorNote": "통신사 보도는 발행된 그대로 전달되었으며 독립적으로 검증되지 않았다. 데이터 수집 시점에 G7의 요구에 따른 후속 결과는 확인되지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.dw.com/en/yemeni-militants-how-powerful-are-the-houthis-now/a-79331945?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Yemeni militants: How powerful are the Houthis now?"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cwm2qpmepmlzo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Iran must stop arming Houthis in Yemen, G7 says ahead of UN General Assembly"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cwm2qpmepmlzo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Iran must stop arming Houthis in Yemen, G7 says ahead of UN General Assembly",
+          "publishedAt": "2026-09-22T07:14:12.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.dw.com/en/g7-demands-houthis-immediately-cease-saudi-strikes/a-79364964?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "G7 demands Houthis 'immediately' cease Saudi strikes",
+          "publishedAt": "2026-09-22T04:58:00.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.dw.com/en/yemeni-militants-how-powerful-are-the-houthis-now/a-79331945?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Yemeni militants: How powerful are the Houthis now?",
+          "publishedAt": "2026-09-18T19:22:00.000Z"
+        }
+      ],
+      "tags": [
+        "yemen",
+        "houthis",
+        "g7",
+        "unga"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "un-us-boat-strikes-crimes-against-humanity-ko",
+      "headline": "UN이 미국의 선박 공습을 '인도에 반한 죄'로 규정할 수 있다고 본 이유",
+      "dek": "UN 전문가의 평가는 마약 운반 의심 선박에 대한 미국의 공격을 사법적 쟁점으로 부각시켰다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "Al Jazeera는 UN이 미국의 선박 공습을 왜 '인도에 반한 죄'로 판단할 수 있는지 그 법적 논거를 분석했다.",
+        "The Guardian은 UN 전문가를 인용해 마약 의심 선박에 대한 미국의 공습이 인도에 반한 죄를 구성할 수 있다고 별도로 보도했다.",
+        "이러한 법적 평가는 미국의 일방적 군사 행동에 대한 비판이 고조된 가운데 각국 정상이 UN 총회를 위해 뉴욕에 집결한 시점에 나왔다."
+      ],
+      "body": [
+        {
+          "text": "Al Jazeera는 UN이 미국의 선박 공습을 '인도에 반한 죄'로 볼 수 있다고 밝힌 배경을 설명하며 해당 주장의 법적 논리를 상세히 다루었다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The Guardian은 UN 전문가의 판단을 인용해 마약 의심 선박에 대한 미국의 공습이 인도에 반한 죄에 해당할 수 있다고 별도로 보도했다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "이러한 법적 경고는 미국의 일방주의적 조치에 대한 비판이 고조되는 가운데 세계 지도자들이 UN 총회에 모이는 시점에 제기되었다.",
+          "citations": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "UN 기구가 의심 선박에 대한 치명적 공습을 인도에 반한 죄로 다룰 경우, 마약 단속으로 포장된 무력 행사의 법적 위험 부담이 크게 높아진다.",
+      "editorNote": "이는 통신사들이 전한 법적 평가일 뿐 법원 판결이 아니며 어떠한 법적 최종 결정도 내려지지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/opinions/2026/9/22/undermining-the-un-is-not-a-new-us-policy?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Undermining the UN is not a new US policy"
+        },
+        {
+          "url": "https://www.theguardian.com/world/2026/sep/21/us-boat-strikes-crime-against-humanity",
+          "source": "The Guardian",
+          "title": "US strikes on alleged drug boats may constitute 'crimes against humanity', UN expert says"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.aljazeera.com/news/2026/9/22/why-united-nations-says-us-boat-strikes-may-be-crimes-against-humanity?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Why United Nations says US boat strikes may be 'crimes against humanity'",
+          "publishedAt": "2026-09-22T10:30:42.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theguardian.com/world/2026/sep/21/us-boat-strikes-crime-against-humanity",
+          "source": "The Guardian",
+          "title": "US strikes on alleged drug boats may constitute 'crimes against humanity', UN expert says",
+          "publishedAt": "2026-09-21T15:54:43.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.aljazeera.com/opinions/2026/9/22/undermining-the-un-is-not-a-new-us-policy?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Undermining the UN is not a new US policy",
+          "publishedAt": "2026-09-22T07:42:37.000Z"
+        }
+      ],
+      "tags": [
+        "united-nations",
+        "us-policy",
+        "international-law",
+        "unga"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "typhoon-dujuan-japan-ko",
+      "headline": "강력한 태풍 두쥐안 일본 강타로 4명 사망",
+      "dek": "폭우와 산사태로 최소 4명이 숨지고 수백만 명에게 대피령이 내려졌다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "BBC는 강력한 태풍 두쥐안이 일본을 덮치면서 4명이 사망했다고 보도했다.",
+        "The Guardian은 폭우와 산사태로 최소 4명이 사망하고 도쿄 일대 수백만 명에게 대피 지시가 내려졌다고 전했다.",
+        "앞선 보도에서는 두쥐안이 다시 태풍 위력을 회복해 접근함에 따라 일본 도서 지역이 대비하고 있다고 언급했다."
+      ],
+      "body": [
+        {
+          "text": "BBC는 강력한 태풍 두쥐안이 일본을 강타해 전국적으로 폭우와 피해를 초래하면서 4명이 사망했다고 보도했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The Guardian은 두쥐안으로 인한 폭우와 산사태로 최소 4명이 사망했으며 도쿄와 인근 지역 주민 수백만 명에게 대피령이 내려졌다고 전했다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "전날 보도에서는 두쥐안이 접근하면서 다시 태풍급 위력으로 발달하는 것에 대비하는 일본 섬 지역의 상황이 전해졌다.",
+          "citations": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "인구 밀집 지역에 도달하는 태풍은 수백만 명의 피난을 초래하고 인프라에 큰 부담을 주므로, 대피 시점과 경보 체계의 적시성은 폭풍의 최대 풍속만큼이나 결정적인 요소다.",
+      "editorNote": "사상자 수는 통신사 보도에 근거한 것이며 추후 수정될 수 있다.",
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/environment/2026/sep/21/weather-tracker-japan-typhoon-dujuan",
+          "source": "The Guardian",
+          "title": "Japanese islands brace for Dujuan to become a typhoon again"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cm3wj2lexl97o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Four dead after powerful Typhoon Dujuan lashes Japan"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cm3wj2lexl97o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Four dead after powerful Typhoon Dujuan lashes Japan",
+          "publishedAt": "2026-09-22T05:58:35.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theguardian.com/world/2026/sep/22/typhoon-dujuan-japan-latest-weather-millions-told-to-evacuate-tokyo",
+          "source": "The Guardian",
+          "title": "At least four people killed in Japan as typhoon Dujuan triggers heavy rain, landslides",
+          "publishedAt": "2026-09-22T04:48:59.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.theguardian.com/environment/2026/sep/21/weather-tracker-japan-typhoon-dujuan",
+          "source": "The Guardian",
+          "title": "Japanese islands brace for Dujuan to become a typhoon again",
+          "publishedAt": "2026-09-21T09:45:49.000Z"
+        }
+      ],
+      "tags": [
+        "japan",
+        "typhoon",
+        "disaster",
+        "evacuation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "turkiye-school-shooting-ko",
+      "headline": "튀르키예 학교 밖 총격 사건으로 11명 부상",
+      "dek": "튀르키예 서부의 한 학교 인근에서 발생한 총격 사건에 대해 두 매체가 서로 다른 부상자 수를 보도했다.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "BBC는 튀르키예의 한 학교 밖에서 발생한 총격 사건으로 11명이 부상했다고 보도했다.",
+        "Al Jazeera는 튀르키예 서부의 한 고등학교 근처에서 총격범이 총을 쏴 8명이 다쳤다고 보도했다.",
+        "두 매체의 부상자 수 집계 차이는 초기 속보 단계의 혼선을 보여준다."
+      ],
+      "body": [
+        {
+          "text": "BBC는 튀르키예의 한 학교 밖에서 총격이 발생해 11명이 다쳤다고 보도했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Al Jazeera는 튀르키예 서부의 한 고등학교 부근에서 총격범이 총기를 난사해 8명이 다쳤다고 전했다.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "사상자 수치의 불일치는 긴급 폭력 사태 발생 시 당국이 공식 발표를 내놓기 전까지 초기 통신사 속보가 엇갈릴 수 있음을 상기시켜 준다.",
+      "editorNote": "두 통신사 보도의 부상자 집계가 상이하며 어느 쪽도 독립적으로 확인되지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/9/22/gunman-wounds-eight-in-shooting-near-high-school-in-western-turkiye?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Gunman opens fire near high school in western Turkiye, wounding eight"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c6y0z4gv0le4o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Eleven injured in shooting outside Turkish school"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c6y0z4gv0le4o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Eleven injured in shooting outside Turkish school",
+          "publishedAt": "2026-09-22T10:42:47.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/news/2026/9/22/gunman-wounds-eight-in-shooting-near-high-school-in-western-turkiye?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Gunman opens fire near high school in western Turkiye, wounding eight",
+          "publishedAt": "2026-09-22T09:04:13.000Z"
+        }
+      ],
+      "tags": [
+        "turkiye",
+        "shooting",
+        "breaking-news"
+      ],
+      "confidence": "low"
+    },
+    {
+      "slug": "british-columbia-sues-openai-tumbler-ridge-ko",
+      "headline": "캐나다 브리티시컬럼비아주, 텀블러리지 학교 총격 사건과 관련해 OpenAI 제소",
+      "dek": "브리티시컬럼비아주가 텀블러리지 총기 난사 사건과 관련해 OpenAI와 샘 알트만을 상대로 소송을 제기했다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "BBC는 캐나다의 한 주 정부가 텀블러리지 학교 총격 사건을 이유로 OpenAI를 고소했다고 보도했다.",
+        "The Guardian은 브리티시컬럼비아주가 학교 총기 난사 사건에 대해 OpenAI와 Sam Altman을 상대로 소송을 제기했다고 전했다.",
+        "두 보도 모두 소송을 제기한 주 정부와 피고 대상에 대해 일치된 내용을 전하고 있다."
+      ],
+      "body": [
+        {
+          "text": "BBC는 캐나다의 한 주가 텀블러리지 학교 총격 사건과 관련해 OpenAI를 상대로 소송을 제기했다고 보도했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The Guardian은 브리티시컬럼비아주가 텀블러리지 집단 학교 총격 사건에 대해 OpenAI와 최고경영자 Sam Altman을 피고로 지목하며 소송을 제기했다고 전하고, 이 사건을 플랫폼 책임성을 가늠할 시험대로 규정했다.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "주 정부가 총기 난사 사건을 계기로 첨단 AI 기업을 고소한 것은 하위 결과 피해에 대해 모델 개발사가 법적 책임을 져야 하는가에 대한 논쟁의 새로운 전선을 연 것이다.",
+      "editorNote": "이 기사는 법적 판결이 아닌 소송 제기 사실을 다룬 것이며, 주장의 정당성이나 법적 책임은 아직 확정되지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/technology/2026/sep/22/british-columbia-sues-openai-sam-altman-tumbler-ridge-school-shooting",
+          "source": "The Guardian",
+          "title": "British Columbia sues OpenAI and Sam Altman over Tumbler Ridge mass school shooting"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c3wyz2rkgrx0o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Canadian province sues OpenAI over Tumbler Ridge school shooting"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c3wyz2rkgrx0o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Canadian province sues OpenAI over Tumbler Ridge school shooting",
+          "publishedAt": "2026-09-22T01:44:17.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theguardian.com/technology/2026/sep/22/british-columbia-sues-openai-sam-altman-tumbler-ridge-school-shooting",
+          "source": "The Guardian",
+          "title": "British Columbia sues OpenAI and Sam Altman over Tumbler Ridge mass school shooting",
+          "publishedAt": "2026-09-22T04:29:22.000Z"
+        }
+      ],
+      "tags": [
+        "ai-liability",
+        "openai",
+        "canada",
+        "litigation"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "germany-coalition-berlin-election-ko",
+      "headline": "메르츠, 독일의 '민주주의적 미래' 위해 연립정부 유지 다짐",
+      "dek": "독일 연정 정치가 극우 AfD의 약진 속에 좌파당이 승리한 베를린 선거 결과와 맞닥뜨렸다.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "BBC는 메르츠 총리가 독일의 '민주적 미래'를 위해 연립정부를 유지하겠다고 다짐했다고 보도했다.",
+        "Al Jazeera는 AfD의 득표율 상승 속에서도 좌파당이 승리하자 베를린 이민자 사회에서 희망이 커졌다고 전했다.",
+        "두 기사는 독일 연립정부가 양방향에서 압박을 받고 있음을 보여준다."
+      ],
+      "body": [
+        {
+          "text": "BBC는 메르츠 총리가 독일의 '민주주의적 미래'를 위해 연정을 유지하겠다고 공언했다고 보도했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Al Jazeera는 AfD의 약진 속에서도 좌파당이 승리하면서 베를린 이민자 커뮤니티에서 기대감이 높아졌다고 전했다.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "대도시에서 극우 정당이 세를 불리는 동안 연정이 안정성 확보에 매진하는 모습은 독일 정계에 원심력과 구심력이 동시에 작용하고 있음을 보여준다.",
+      "editorNote": "두 항목 모두 서로 다른 현안에 대한 통신사 보도이며 독립적으로 확인되지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/9/22/hope-rises-in-berlin-immigrant-communities-as-left-wins-amid-afd-gains?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "'Hope' rises in Berlin immigrant communities as Left wins amid AfD gains"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cqm27p8enwmko?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Merz vows to keep coalition together for Germany's 'democratic future'"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cqm27p8enwmko?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Merz vows to keep coalition together for Germany's 'democratic future'",
+          "publishedAt": "2026-09-21T16:54:56.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/news/2026/9/22/hope-rises-in-berlin-immigrant-communities-as-left-wins-amid-afd-gains?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "'Hope' rises in Berlin immigrant communities as Left wins amid AfD gains",
+          "publishedAt": "2026-09-22T07:33:24.000Z"
+        }
+      ],
+      "tags": [
+        "germany",
+        "politics",
+        "afd",
+        "coalition"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ukraine-strikes-zelenskyy-un-ko",
+      "headline": "젤렌스키 UN 총회 참석차 방미 중 러시아 공습으로 우크라이나서 3명 사망",
+      "dek": "우크라이나 당국은 젤렌스키 대통령이 UN으로 이동한 가운데 러시아의 공습으로 인한 사망자가 발생했다고 발표했다.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "Al Jazeera는 젤렌스키가 UN 총회 참석차 미국에 머무는 동안 우크라이나에 대한 러시아의 공습으로 3명이 사망했다고 보도했다.",
+        "DW는 우크라이나가 철도망 보호 조치를 강화하고 있다고 보도했다.",
+        "두 보도는 외교전이 진행되는 동안에도 민간인 희생과 인프라 피해가 지속되고 있음을 보여준다."
+      ],
+      "body": [
+        {
+          "text": "Al Jazeera는 젤렌스키가 UN 정상회의 참석차 미국을 방문 중인 가운데 러시아의 공습으로 우크라이나에서 3명이 목숨을 잃었다고 보도했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "DW는 우크라이나가 전시 군수 물류의 핵심인 철도 시스템 보호 조치를 한층 강화하고 있다고 전했다.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "공습과 철도 보호 조치는 우크라이나 지도부가 UN 외교 무대에서 활동하는 중에도 군사 물류와 민간인의 위험이 멈추지 않고 있음을 분명히 보여준다.",
+      "editorNote": "사상자 수는 통신사 보도에 근거한 것이며 독립적으로 확인되지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.dw.com/en/ukraine-steps-up-measures-to-protect-railways/a-79339087?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Ukraine steps up measures to protect railways"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/9/22/russian-strikes-on-ukraine-kill-three-as-zelenskyy-in-us-for-un-summit?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Russian strikes on Ukraine kill three as Zelenskyy in US for UN summit"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.aljazeera.com/news/2026/9/22/russian-strikes-on-ukraine-kill-three-as-zelenskyy-in-us-for-un-summit?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Russian strikes on Ukraine kill three as Zelenskyy in US for UN summit",
+          "publishedAt": "2026-09-22T08:07:13.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.dw.com/en/ukraine-steps-up-measures-to-protect-railways/a-79339087?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Ukraine steps up measures to protect railways",
+          "publishedAt": "2026-09-19T15:37:00.000Z"
+        }
+      ],
+      "tags": [
+        "ukraine",
+        "russia",
+        "war",
+        "unga"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "trump-unga-iran-decision-ko",
+      "headline": "트럼프, UN에서 이란 '궤멸'이냐 평화 협정이냐 '중대 결정' 앞두고 있다고 발언",
+      "dek": "트럼프는 UN에서 이란 측을 만난 자리에서 자신의 선택지를 궤멸과 평화 협정 사이로 규정했다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "BBC는 트럼프가 UN에서 이란을 '궤멸'시킬지 혹은 평화 협정을 맺을지에 대해 '중대한 결정'을 앞두고 있다고 밝혔다고 보도했다.",
+        "Al Jazeera는 트럼프가 UN에서의 미·이란 회담을 '매우 좋았다'고 평가했다고 전했다.",
+        "The Guardian은 이란 궤멸 위협이 트럼프 기준으로도 놀랍다고 평했으며, DW는 트럼프가 출구를 모색하는 동안 이란 전쟁이 지역 전역으로 번지고 있다고 전했다."
+      ],
+      "body": [
+        {
+          "text": "트럼프는 UN에서 이란을 '궤멸'시킬 것인지 평화 협정을 맺을 것인지 '중대한 결정'에 직면해 있다고 발언했다고 BBC가 보도했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Al Jazeera는 트럼프가 UN에서의 미·이란 회담에 대해 '매우 좋았다'고 언급했다고 전했다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "The Guardian은 UN 총회에서 나온 트럼프의 이란 궤멸 위협이 평소 그의 언행에 비추어 봐도 충격적이라고 전했다.",
+          "citations": [
+            3
+          ]
+        },
+        {
+          "text": "DW는 트럼프가 해법을 찾는 동안 이란 전쟁이 중동 전역으로 확산되고 있다고 보도했다.",
+          "citations": [
+            4
+          ]
+        }
+      ],
+      "whyItMatters": "트럼프가 이란 결정을 궤멸 또는 협상으로 압축해 제시한 것은 워싱턴이 갈등을 어디로 끌고 갈지 보여주는 가장 명확한 신호이며, 브렌트유가 100달러 밑으로 떨어지며 시장이 재산정하던 에너지 리스크 프리미엄의 배후에 자리잡고 있다.",
+      "editorNote": "연설과 회담에 대한 통신사 보도이며 확정된 정책 결정이 아니다. 데이터 수집 시점에 어떠한 합의나 결과도 보고되지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/us-news/2026/sep/22/donald-trump-unga-speech",
+          "source": "The Guardian",
+          "title": "Trump’s threat to annihilate Iran to UN general assembly is stunning, even for him"
+        },
+        {
+          "url": "https://www.dw.com/en/iran-war-spreads-through-region-as-trump-seeks-way-out/a-79370506?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Iran war spreads through region as Trump seeks way out"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c52e0ywl9pr7o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Trump tells UN he has 'big decision' on whether to 'annihilate' Iran or make peace deal",
+          "publishedAt": "2026-09-22T21:50:31.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/22/trump-us-iran-meeting-at-un-was-very?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Trump: US-Iran meeting at UN was ‘very good’",
+          "publishedAt": "2026-09-22T20:23:48.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.theguardian.com/us-news/2026/sep/22/donald-trump-unga-speech",
+          "source": "The Guardian",
+          "title": "Trump’s threat to annihilate Iran to UN general assembly is stunning, even for him",
+          "publishedAt": "2026-09-22T18:23:08.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://www.dw.com/en/iran-war-spreads-through-region-as-trump-seeks-way-out/a-79370506?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Iran war spreads through region as Trump seeks way out",
+          "publishedAt": "2026-09-22T11:29:00.000Z"
+        }
+      ],
+      "tags": [
+        "iran",
+        "united-nations",
+        "unga",
+        "trump",
+        "diplomacy"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

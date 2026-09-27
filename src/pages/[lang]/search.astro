@@ -1,0 +1,19 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getStoryRefs, type Lang } from '../../lib/editions';
+
+export function getStaticPaths() {
+  return (['en', 'ko'] as const).map((lang) => ({ params: { lang } }));
+}
+const { lang } = Astro.params as { lang: Lang };
+const refs = await getStoryRefs(lang);
+---
+
+<BaseLayout title="Search" description={`Search ${lang.toUpperCase()} Signal Daily stories by headline, tag, vertical or date.`} path={`/${lang}/search`} noindex={true}>
+  <header class="sr-page-head"><p class="sr-micro sr-micro--accent">Search</p><h1>Find a story</h1><p class="sr-page-head__lede">{refs.length} stories indexed. Search runs in your browser.</p></header>
+  <section class="sr-section" aria-labelledby="search-heading"><h2 class="sr-visually-hidden" id="search-heading">Search stories</h2>
+    <form class="sr-search__field" role="search" action={`/${lang}/search`} method="get"><label class="sr-visually-hidden" for="q">Search stories</label><input id="q" name="q" type="search" data-search-input placeholder="Search stories, tags, verticals…" autocomplete="off" spellcheck="false" /><button class="sr-btn" type="submit">Search</button></form>
+    <p class="sr-search__count sr-micro" data-search-count aria-live="polite"></p><ul data-search-results></ul>
+  </section>
+  <noscript><div class="sr-empty"><p>Search needs JavaScript. Browse the <a href={`/${lang}/archive`}>archive</a> or <a href={`/${lang}/rss.xml`}>RSS feed</a>.</p></div></noscript>
+</BaseLayout>

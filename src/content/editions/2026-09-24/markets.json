@@ -2,6 +2,7 @@
   "date": "2026-09-24",
   "generatedAt": "2026-09-24T22:04:24.492Z",
   "vertical": "markets",
+  "lang": "en",
   "title": "Markets: Treasury yields, Fed debate and oil risk",
   "summary": "A short edition of six stories, retaining earlier coverage of the US-China trade truce, Meta devices, Treasury yields, rate expectations, and oil while adding Oracle’s data-center notice. SEC EDGAR returned HTTP 403, market-data quotes returned HTTP 404, Polymarket returned HTTP 451, and FRED was not configured.",
   "stories": [

@@ -6,6 +6,7 @@ import {
   allStoryRefs,
   dateEntries,
   editionHref,
+  editionsInLang,
   editionsOnDate,
   getEditions,
   verticalHref,
@@ -15,14 +16,14 @@ import { formatDateLong, formatWeekday, pluralize } from '../../../../lib/format
 import { breadcrumbJsonLd, itemListJsonLd } from '../../../../lib/seo';
 
 export async function getStaticPaths() {
-  const editions = await getEditions();
+  const editions = editionsInLang(await getEditions(), 'en');
   return dateEntries(editions).map((entry) => {
     const [year, month, day] = entry.date.split('-');
     return { params: { year, month, day } };
   });
 }
 
-const editions = await getEditions();
+const editions = editionsInLang(await getEditions(), 'en');
 const { year, month, day } = Astro.params;
 const date = `${year}-${month}-${day}`;
 const todays = editionsOnDate(editions, date);

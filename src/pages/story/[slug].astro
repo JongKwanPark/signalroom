@@ -10,7 +10,6 @@ import WhyItMatters from '../../components/WhyItMatters.astro';
 import {
   editionHref,
   getEditions,
-  getStoryRefs,
   sourceCount,
   storyHref,
   timeLabel,
@@ -21,9 +20,9 @@ import { CONFIDENCE_LABEL, VERTICAL_META } from '../../lib/site';
 import { formatDateLong, pluralize } from '../../lib/format';
 import { articleJsonLd, breadcrumbJsonLd } from '../../lib/seo';
 
-export async function getStaticPaths() {
-  const refs = await getStoryRefs();
-  return refs.map((ref) => ({ params: { slug: ref.slug }, props: { ref } }));
+export function getStaticPaths() {
+  // astro.config.mjs emits 301 redirects for every legacy story URL.
+  return [];
 }
 
 const { ref } = Astro.props as { ref: StoryRef };
@@ -167,10 +166,10 @@ function hostname(url: string): string {
 
       <nav class="sr-pager sr-micro" aria-label="Story navigation">
         <span>
-          {previous ? <a href={storyHref(previous.slug)}>← {previous.headline}</a> : 'First in edition'}
+          {previous ? <a href={storyHref(previous.slug, ref.lang)}>← {previous.headline}</a> : 'First in edition'}
         </span>
         <span>
-          {following ? <a href={storyHref(following.slug)}>{following.headline} →</a> : (
+          {following ? <a href={storyHref(following.slug, ref.lang)}>{following.headline} →</a> : (
             <a href={editionHref(ref.date)}>Full edition →</a>
           )}
         </span>

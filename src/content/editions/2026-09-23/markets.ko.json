@@ -1,0 +1,347 @@
+{
+  "date": "2026-09-23",
+  "generatedAt": "2026-09-24T01:40:00.000Z",
+  "vertical": "markets",
+  "lang": "ko",
+  "title": "마켓: 19년 만의 국채 수익률 최고치, 디젤 수출 금지 경고, 좁아진 시장 주도력",
+  "summary": "스토리 4건으로 구성된 다소 축소된 마켓 에디션이다. 뜨거운 인플레이션 지표 발표 이후 10년 만기 미국 국채 수익률이 19년 만의 최고치를 기록했고, 시장은 10월 Fed 금리 인상을 가격에 반영하기 시작했다. 석유 업계는 디젤 수출 금지 조치가 연료비를 인상시킬 것이라고 경고했으며, SoftBank가 OpenAI 투자를 위해 111억 달러 규모의 채권을 발행한 가운데 MarketWatch는 닷컴 버블 정점 이후 그 어느 때보다 적은 수의 종목이 시장을 견인하고 있다고 보도했고, McDonald's는 광고 사업에 진출했다. 22:00 UTC 이후 보도된 미중 무역 휴전 연장과 Meta의 Muse 하드웨어 소식은 9월 24일 에디션에 실렸다. SEC EDGAR는 HTTP 403, 시장 데이터는 404, Polymarket은 451 오류를 반환했으며 FRED는 API 키 없이 비어 있었다.",
+  "stories": [
+    {
+      "slug": "ten-year-treasury-yield-19-year-high-ko",
+      "headline": "10년물 미국 국채 수익률 19년 만의 최고치로 급등. 급등 배경과 동인",
+      "dek": "뜨거운 인플레이션 수치와 Fed 당국자 발언이 금리 인상 전망 시점을 앞당겼다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "CNBC는 10년 만기 국채 수익률이 19년 만의 최고치로 치솟았다고 전했으며, 널리 공유된 게시물은 이를 과열된 경제 지표와 연결했다.",
+        "CNBC는 Michael Barr 부의장의 발언과 뜨거운 인플레이션 지표 이후 시장이 10월 Fed 금리 인상을 예상하고 있다고 보도했다.",
+        "보도는 파급 효과에 집중되어, 치솟는 수익률이 경제와 청년층 및 저소득 가구에 미치는 영향과 인플레이션이 공화당의 상원 장악에 미칠 수 있는 타격을 다뤘다."
+      ],
+      "body": [
+        {
+          "text": "CNBC는 10년물 국채 수익률이 19년 만의 최고치로 급등했다고 보도했으며, r/wallstreetbets 게시물은 이번 움직임을 과열된 경제 지표와 결부시켰다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "CNBC는 Michael Barr 발언과 예상보다 높은 인플레이션 수치 이후 시장이 차기 Fed 금리 인상 시점을 10월로 보고 있다고 전했다.",
+          "citations": [
+            3
+          ]
+        },
+        {
+          "text": "CNBC는 또한 국채 수익률이 급등할 때 경제에 어떤 일이 발생하는지, 고금리가 청년층과 저소득층 가구를 어떻게 압박하는지 점검하며 금리 인상을 '투박한 도구'라고 부른 전문가의 말을 인용했다.",
+          "citations": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "정치적 파장도 뒤따랐다. MarketWatch는 인플레이션으로 인해 공화당이 상원 다수당 지위를 잃을 수 있다고 분석했다.",
+          "citations": [
+            6
+          ]
+        }
+      ],
+      "whyItMatters": "10년물 수익률의 19년 만의 고점은 모기지부터 AI 설비투자 조달까지 모든 차입 비용을 재설정하며, 10월 인상 확률 반영은 시장이 금리 인하가 아닌 인상 위험을 시나리오로 가격에 반영하고 있음을 보여준다.",
+      "editorNote": "상승 동인은 헤드라인 수준으로 기술되었으며 정확한 수익률 수치와 인플레이션 지표는 수집 데이터에 포함되지 않았다. 매매 또는 투자 견해는 표현하지 않는다.",
+      "cluster": [
+        {
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1woaq47/10year_treasury_yield_leaps_to_fresh_19year_high/",
+          "source": "Reddit r/wallstreetbets",
+          "title": "10-year Treasury yield leaps to fresh 19-year high after hot economic readings"
+        },
+        {
+          "url": "https://www.marketwatch.com/story/inflation-could-cost-republicans-the-senate-this-chart-shows-how-e94a49da?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Inflation could cost Republicans the Senate — this chart shows how"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/09/23/treasury-yields-oil-inflation-fed.html",
+          "source": "CNBC",
+          "title": "10-year Treasury yield rockets to 19-year high. Here's what's driving the spike",
+          "publishedAt": "2026-09-23T20:07:50.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1woaq47/10year_treasury_yield_leaps_to_fresh_19year_high/",
+          "source": "Reddit r/wallstreetbets",
+          "title": "10-year Treasury yield leaps to fresh 19-year high after hot economic readings",
+          "publishedAt": "2026-09-23T16:26:14.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.cnbc.com/2026/09/23/market-sees-next-fed-hike-in-october-following-barr-comments-hot-inflation.html",
+          "source": "CNBC",
+          "title": "Market sees next Fed hike in October, following Barr comments and hot inflation reading",
+          "publishedAt": "2026-09-23T18:12:18.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://www.cnbc.com/2026/09/23/what-happens-to-the-economy-when-treasury-yields-soar.html",
+          "source": "CNBC",
+          "title": "Here's what happens to the economy when Treasury yields soar like they are now",
+          "publishedAt": "2026-09-23T21:11:28.000Z"
+        },
+        {
+          "id": 5,
+          "url": "https://www.cnbc.com/2026/09/23/fed-rate-hike-borrowing-costs.html",
+          "source": "CNBC",
+          "title": "Higher interest rates squeeze younger and lower-income households. 'A rate hike is a blunt tool,' says expert",
+          "publishedAt": "2026-09-23T19:31:08.000Z"
+        },
+        {
+          "id": 6,
+          "url": "https://www.marketwatch.com/story/inflation-could-cost-republicans-the-senate-this-chart-shows-how-e94a49da?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Inflation could cost Republicans the Senate — this chart shows how",
+          "publishedAt": "2026-09-23T21:13:00.000Z"
+        }
+      ],
+      "tags": [
+        "treasuries",
+        "yields",
+        "fed",
+        "inflation"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "diesel-export-ban-oil-industry-warning-ko",
+      "headline": "트럼프 행정부의 규제 검토 속에 석유 업계는 디젤 수출 금지가 연료 가격을 올릴 것이라고 경고",
+      "dek": "워싱턴이 디젤 수출 억제를 저울질하자 석유 업계가 반발했고, 원유는 이란 외교에 따라 출렁였다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "CNBC는 Donald Trump 대통령이 제한 조치를 검토함에 따라 석유 업계가 디젤 수출 금지는 연료비를 상승시킬 것이라고 경고했다고 보도했다.",
+        "Yahoo Finance는 하루 전 미국 의원들이 중간선거를 앞두고 디젤 수출 금지를 논의하고 있다고 전한 바 있다.",
+        "이와 별도로 Investing.com은 미국과 이란 간 외교에 대한 회의론 속에 급등세를 보이던 유가가 1% 하락했다고 전했다."
+      ],
+      "body": [
+        {
+          "text": "CNBC는 Donald Trump 대통령이 규제를 고려하는 가운데 석유 업계가 디젤 수출 금지가 연료 가격을 상승시킬 것이라고 경고했다고 보도했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "이러한 기류는 사전에 형성되고 있었다. Yahoo Finance는 9월 22일 미국 입법자들이 중간선거를 앞두고 디젤 수출 금지를 검토하고 있다고 전했다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "원유는 별도의 궤적으로 움직였다. Investing.com은 미-이란 외교에 대한 의구심 속에서 급등세를 보이던 원유 가격이 1% 반락했다고 전했다.",
+          "citations": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "연료비 상승에 대한 업계의 경고는 어떠한 결정이 내려지기 전부터 수출 규제의 정치적 비용을 부각시키며, 이 논쟁은 중간선거 정국으로 이어진다. 이란 외교는 원유의 또 다른 변동 요인으로 남아 있다.",
+      "editorNote": "헤드라인 수준의 보도이며 규제의 범위와 가격 수준은 수집 데이터에 없었다. Yahoo Finance 항목은 배경 설명용이며, 시그널 데일리는 9월 22일에 재무부의 타당성 검토를 다룬 바 있다. 매매 견해는 제시되지 않는다.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/commodities-news/oil-slips-1-after-sharp-gains-amid-usiran-diplomacy-doubts-4914284",
+          "source": "Investing.com",
+          "title": "Oil slips 1% after sharp gains amid U.S-Iran diplomacy doubts"
+        },
+        {
+          "url": "https://finance.yahoo.com/news/us-legislators-debating-diesel-export-135702135.html",
+          "source": "Yahoo Finance",
+          "title": "US Legislators Are Debating a Diesel Export Ban Ahead of Midterms — Here's Why"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/09/23/trump-diesel-export-ban-gas-prices.html",
+          "source": "CNBC",
+          "title": "Oil industry warns a diesel export ban will raise fuel prices as Trump weighs restrictions",
+          "publishedAt": "2026-09-23T19:30:54.000Z"
+        },
+        {
+          "url": "https://finance.yahoo.com/news/us-legislators-debating-diesel-export-135702135.html",
+          "source": "Yahoo Finance",
+          "title": "US Legislators Are Debating a Diesel Export Ban Ahead of Midterms — Here's Why",
+          "publishedAt": "2026-09-22T13:57:02.000Z",
+          "id": 2
+        },
+        {
+          "id": 3,
+          "url": "https://www.investing.com/news/commodities-news/oil-slips-1-after-sharp-gains-amid-usiran-diplomacy-doubts-4914284",
+          "source": "Investing.com",
+          "title": "Oil slips 1% after sharp gains amid U.S-Iran diplomacy doubts",
+          "publishedAt": "2026-09-23T15:53:01.000Z"
+        }
+      ],
+      "tags": [
+        "oil",
+        "diesel",
+        "energy",
+        "iran"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "market-breadth-dot-com-peak-ai-narrative-ko",
+      "headline": "닷컴 버블 정점 이후 그 어느 때보다 적은 수의 주식이 시장을 견인하고 있다",
+      "dek": "좁아진 주도력, 논쟁적인 AI 칩 종목, 부채 조달 기반의 AI 투자 약정이 당일 주식 시장 보도를 형성했다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "MarketWatch는 닷컴 버블 고점 이후 가장 적은 수의 종목이 시장을 지탱하고 있다고 보도했다.",
+        "또한 AI 내러티브가 변화하면서 Micron 주식이 '격전지'가 되었으며, Palantir는 연중 최고 종가를 기록했다고 전했다.",
+        "Investing.com은 SoftBank가 OpenAI 자금 지원 추진을 위해 111억 달러 규모의 채권을 발행했다고 보도했다."
+      ],
+      "body": [
+        {
+          "text": "MarketWatch는 닷컴 버블 정점 이래 시장을 이끄는 주식의 수가 가장 적은 수준이라고 보도했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "AI 관련 종목 내에서 MarketWatch는 AI 내러티브가 변화함에 따라 Micron 주가가 '격전지'가 되었다고 전했으며 Palantir 주가는 연중 최고 종가를 기록했다고 평가했다.",
+          "citations": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "자금 조달도 이야기의 중요한 축이다. Investing.com은 SoftBank가 OpenAI 지원을 위해 111억 달러 상당의 회사채를 발행했다고 보도했고, r/wallstreetbets 게시물은 AMD와 OpenAI 간의 거래가 사실상 '100% 캐시백' 구조에 해당한다고 주장했다.",
+          "citations": [
+            4,
+            5
+          ]
+        }
+      ],
+      "whyItMatters": "닷컴 시대 수준의 시장 집중도는 지수 성과가 소수의 AI 집단에 의존함을 뜻하며, SoftBank의 채권 발행과 같은 부채 기반 약정은 그 집단을 신용 시장과 묶어둔다. 이는 10년물 국채 수익률이 19년 만의 최고치인 상황에서 더욱 중요하다.",
+      "editorNote": "시장 폭 산출 방법론은 수집 데이터에 포함되지 않았으며 Reddit 게시물은 1차 출처가 아닌 논평이다. 매수 또는 매도 견해는 제공되지 않는다.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/stock-market-news/softbank-issues-111-billion-in-bonds-in-openai-financing-push-4914266",
+          "source": "Investing.com",
+          "title": "SoftBank issues $11.1 billion in bonds in OpenAI financing push"
+        },
+        {
+          "url": "https://www.marketwatch.com/story/microns-stock-has-become-a-battleground-as-the-ai-narrative-shifts-d61a3408?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Micron’s stock has become a ‘battleground’ as the AI narrative shifts"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.marketwatch.com/story/fewer-stocks-are-carrying-the-market-than-at-any-time-since-the-dot-com-peak-4033c4bb?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Fewer stocks are carrying the market than at any time since the dot-com peak",
+          "publishedAt": "2026-09-23T20:45:00.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.marketwatch.com/story/microns-stock-has-become-a-battleground-as-the-ai-narrative-shifts-d61a3408?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Micron’s stock has become a ‘battleground’ as the AI narrative shifts",
+          "publishedAt": "2026-09-23T21:51:00.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.marketwatch.com/story/palantirs-stock-is-heading-for-its-highest-close-of-the-year-in-a-dramatic-comeback-a5fd451d?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Palantir’s stock sees its highest close of the year, sealing a dramatic comeback",
+          "publishedAt": "2026-09-23T21:08:00.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://www.investing.com/news/stock-market-news/softbank-issues-111-billion-in-bonds-in-openai-financing-push-4914266",
+          "source": "Investing.com",
+          "title": "SoftBank issues $11.1 billion in bonds in OpenAI financing push",
+          "publishedAt": "2026-09-23T15:54:45.000Z"
+        },
+        {
+          "id": 5,
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1wnsrsp/the_amd_openai_deal_is_a_literal_100_cashback/",
+          "source": "Reddit r/wallstreetbets",
+          "title": "The AMD / OpenAI deal is a literal 100% cashback deal now",
+          "publishedAt": "2026-09-23T01:53:28.000Z"
+        }
+      ],
+      "tags": [
+        "equities",
+        "market-breadth",
+        "ai-trade",
+        "softbank",
+        "openai"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "mcdonalds-advertising-business-investor-day-ko",
+      "headline": "McDonald's가 Walmart와 Amazon을 따라 광고 사업에 뛰어드는 이유",
+      "dek": "투자자들이 인베스터 데이 내용을 소화하는 가운데 McDonald's가 리테일 미디어 사업을 구축하고 있다.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "CNBC는 McDonald's가 Walmart와 Amazon의 뒤를 이어 광고 사업에 진출하는 이유를 분석했다.",
+        "r/wallstreetbets 게시물은 McDonald's의 '인베스터 데이'가 '순탄치 않았다'고 평가했다.",
+        "주가 변동과 인베스터 데이 목표 수치는 수집된 데이터에 포함되지 않았다."
+      ],
+      "body": [
+        {
+          "text": "McDonald's는 Walmart와 Amazon을 따라 광고 사업을 시작하고 있다며 CNBC는 이번 결정의 배경을 짚었다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "투자자 반응은 파악하기 어려웠다. r/wallstreetbets 게시물은 McDonald's의 '인베스터 데이(Investor Day)'가 좋은 평가를 받지 못했다고 주장했다.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "리테일 미디어는 대규모 1차 고객 데이터를 보유한 소비재 기업들에게 마진 지렛대가 되었다. McDonald's의 진출은 이 모델이 유통업체를 넘어 확산되고 있음을 시사하지만, 인베스터 데이에 대한 시장 반응은 커뮤니티 정황으로만 확인된다.",
+      "editorNote": "투자자 반응은 Reddit 게시물만을 근거로 하였으며 시장 데이터 척도가 아니다. 투자 견해는 제시되지 않는다.",
+      "cluster": [
+        {
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1wo6yn8/it_seems_like_mcdonalds_investor_day_did_not_go/",
+          "source": "Reddit r/wallstreetbets",
+          "title": "It seems like McDonald's \"Investor Day\" did not go over well"
+        },
+        {
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1woj8y3/never_did_i_think_i_would_get_wrecked_by_mcd/",
+          "source": "Reddit r/wallstreetbets",
+          "title": "Never did I think I would get wrecked by MCD"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/09/23/why-mcdonalds-is-building-an-advertising-business.html",
+          "source": "CNBC",
+          "title": "Why McDonald's is following Walmart and Amazon into the advertising business",
+          "publishedAt": "2026-09-23T20:21:17.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1wo6yn8/it_seems_like_mcdonalds_investor_day_did_not_go/",
+          "source": "Reddit r/wallstreetbets",
+          "title": "It seems like McDonald's \"Investor Day\" did not go over well",
+          "publishedAt": "2026-09-23T14:05:22.000Z"
+        }
+      ],
+      "tags": [
+        "mcdonalds",
+        "retail-media",
+        "advertising",
+        "consumer"
+      ],
+      "confidence": "low"
+    }
+  ]
+}

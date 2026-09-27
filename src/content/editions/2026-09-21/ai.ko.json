@@ -1,0 +1,533 @@
+{
+  "date": "2026-09-21",
+  "generatedAt": "2026-09-21T22:03:26.000Z",
+  "vertical": "ai",
+  "lang": "ko",
+  "title": "시그널 데일리 — AI",
+  "summary": "오늘 가장 뜨거운 커뮤니티 스레드가 과열 양상에 의문을 제기했음에도 큐레이션 목록, 공개 API 엔드포인트, 평가 프로젝트 등 Jev 생태계는 계속 확장됐다. 두 번째 클러스터는 온전한 오픈 가중치 모멘텀으로 Mistral의 GLM 5.3 호스팅, Xiaomi의 MiMo-V2.6 출시, DeepSeek의 2T 모델 학습 및 8T 모델 계획, Yandex의 AliceAI 80B가 포진했다. 로컬 추론은 Apple Silicon 환경의 구체적 수치와 작성자 스스로 의문을 제기한 브라우저 벤치마크를 낳았고, 에이전트 도구와 검증 연구는 에이전트의 실제 동작을 증명하는 방향으로 수렴했다. 버티컬 내 모든 수집기가 항목을 반환했으며 YouTube 커버리지는 Two Minute Papers에서만 나왔다.",
+  "stories": [
+    {
+      "slug": "jev-ecosystem-scrutiny-ko",
+      "headline": "Jev 과열을 정말 이해할 수 없다",
+      "dek": "가장 목소리 높은 커뮤니티 스레드가 그 목적에 의문을 제기하는 와중에도 큐레이션 목록, 공개 API 엔드포인트, 평가 프로젝트가 연이어 등장했다.",
+      "type": "DEEP",
+      "readMinutes": 5,
+      "tldr": [
+        "오늘 AI 수집물 중 가장 큰 호응을 얻은 회의론 스레드는 r/LocalLLaMA에 올라온 글로, 게시자는 Jev 과열을 정말 이해하기 어렵다고 밝혔다.",
+        "TypeSafe AI의 System One 모델인 Jev를 기반으로 구축된 큐레이션 목록 yibie/awesome-jev는 958개 GitHub 스타를 기록했고, ekzhang/openjev-sglang은 오픈 모델 기반의 Jev 호환 API 엔드포인트를 제공했다.",
+        "openlayer-ai/jevals는 단일 요청에 에이전트 평가와 가드레일을 패키지화했으며, Ask HN 스레드는 'Jev의 소각(the burning of Jev)'에 관한 향후 상태를 물었다."
+      ],
+      "body": [
+        {
+          "text": "오늘 AI 데이터셋에서 가장 참여도가 높았던 회의론 스레드는 r/LocalLLaMA에 게시된 글로, 작성자는 Jev를 둘러싼 과열을 도무지 이해할 수 없다고 지적했다.",
+          "citations": [1]
+        },
+        {
+          "text": "그럼에도 생태계 확장은 계속됐다. Jev 기반 공개 프로젝트, 연동 사례, 토론을 모은 큐레이션 목록 yibie/awesome-jev는 GitHub 스타 958개를 기록했다. ekzhang/openjev-sglang은 오픈 모델 기반의 Jev 호환 API 엔드포인트를 제공했으며, openlayer-ai/jevals는 단일 요청 안에서 에이전트 평가와 가드레일을 처리하도록 패키징했다.",
+          "citations": [2, 3, 4]
+        },
+        {
+          "text": "Hacker News의 Ask HN 스레드에서는 'Jev의 소각'에 대한 향후 상태를 질문하며 커뮤니티가 프로젝트의 방향성을 여전히 논의 중임을 보여주었다.",
+          "citations": [5]
+        }
+      ],
+      "whyItMatters": "타입화되고 캘리브레이션된 의사결정 계층이 에이전트의 공통 인터페이스로 자리 잡음에 따라, 흥미로운 질문은 더 이상 Jev의 동작 여부가 아니라 그 위에 구축되는 평가 및 라우팅 계층을 누가 장악하는가이다.",
+      "editorNote": "스타 수는 수집 시점 기준이며, 기능상 주장은 프로젝트 설명과 커뮤니티 스레드에 기반한 것으로 독립적인 테스트를 거치지 않았다.",
+      "cluster": [
+        {
+          "url": "https://github.com/v-modal/awesome-jev-tools",
+          "source": "GitHub",
+          "title": "v-modal/awesome-jev-tools: A curated list of tools built for Jev — TypeSafe AI's System One model for typed decisions."
+        },
+        {
+          "url": "https://github.com/everyinfra/jev-radar",
+          "source": "GitHub",
+          "title": "everyinfra/jev-radar: tracker of the Jev (TypeSafe AI System One) ecosystem"
+        },
+        {
+          "url": "https://github.com/OmniJev/awesome-jev-gallery",
+          "source": "GitHub",
+          "title": "OmniJev/awesome-jev-gallery: Papers, open reproductions and independent evaluations behind System One models and Jev."
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wm65le/i_really_dont_understand_jev_hype/",
+          "source": "Reddit r/LocalLLaMA",
+          "title": "I really don't understand Jev hype",
+          "publishedAt": "2026-09-21T07:43:29.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://github.com/yibie/awesome-jev",
+          "source": "GitHub",
+          "title": "yibie/awesome-jev: A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions.",
+          "publishedAt": "2026-09-17T14:23:21Z"
+        },
+        {
+          "id": 3,
+          "url": "https://github.com/ekzhang/openjev-sglang",
+          "source": "GitHub",
+          "title": "ekzhang/openjev-sglang: Jev-compatible API endpoint based on open models (prefill-only)",
+          "publishedAt": "2026-09-17T18:11:49Z"
+        },
+        {
+          "id": 4,
+          "url": "https://github.com/openlayer-ai/jevals",
+          "source": "GitHub",
+          "title": "openlayer-ai/jevals: Agent evals and guardrails in one request. Built on Jev, Kev and Laya.",
+          "publishedAt": "2026-09-20T19:56:13Z"
+        },
+        {
+          "id": 5,
+          "url": "https://news.ycombinator.com/item?id=49788393",
+          "source": "Hacker News",
+          "title": "Ask HN: What is the future status with the burning of Jev",
+          "publishedAt": "2026-09-21T15:16:00Z"
+        }
+      ],
+      "tags": ["jev", "typesafe", "agents", "evaluation"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "open-weight-model-wave-glm-mimo-deepseek-ko",
+      "headline": "GLM 5.3, Mistral에서 호스팅",
+      "dek": "중국과 러시아의 AI 연구소들이 유능한 오픈 가중치 모델을 출시하는 가운데 DeepSeek은 더 거대한 학습 세션을 예고했다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "Hacker News에는 GLM 5.3이 Mistral에 의해 호스팅되고 있다는 소식이 올라왔다.",
+        "r/LocalLLaMA 스레드는 Hugging Face에 공개된 Xiaomi의 MiMo-V2.6-Flash-RL을 조명하고, DeepSeek이 2T 모델을 학습 중이며 8T 모델을 계획 중이라고 전했으며, Yandex의 AliceAI-Foundation-80B를 Qwen 35B 및 DeepSeek V4 Flash의 경쟁자로 지목했다.",
+        "Two Minute Papers는 DeepSeek의 신규 아키텍처를 다뤘고, 한 스레드는 8GB VRAM 노트북에서 배치 1 데이터 스트림으로 처음부터 학습된 530M 파라미터 모델 mini-AGI를 소개했다."
+      ],
+      "body": [
+        {
+          "text": "Hacker News에는 GLM 5.3이 Mistral에서 호스팅되고 있다는 내용의 글이 올라왔다.",
+          "citations": [1]
+        },
+        {
+          "text": "중국과 러시아 연구소들의 오픈 가중치 출시는 계속됐다. r/LocalLLaMA 스레드는 Hugging Face에 올라온 Xiaomi의 MiMo-V2.6-Flash-RL을 가리켰고, 다른 스레드는 DeepSeek이 2T 모델을 학습 중이며 8T 모델을 계획하고 있다고 전했다. 세 번째 스레드는 Qwen 35B와 DeepSeek V4 Flash에 맞서는 러시아 개발 모델로 Yandex의 AliceAI-Foundation-80B-A3B-Base를 강조했다.",
+          "citations": [2, 3, 4]
+        },
+        {
+          "text": "영상 매체에서도 효율성이 핵심 주제였다. Two Minute Papers는 DeepSeek의 신규 아키텍처를 소개했고, 별도 스레드는 8GB VRAM 노트북 환경에서 배치 1 스트림으로 처음부터 학습된 530M 파라미터의 동적 성장형 연속학습 모델 mini-AGI를 다뤘다.",
+          "citations": [5, 6]
+        }
+      ],
+      "whyItMatters": "오픈 가중치 프론티어는 이제 소비자용 하드웨어에서 실행 가능한 유능한 모델을 내놓는 중국 및 러시아 연구소들에 의해 확장되고 있다. 이는 폐쇄형 연구소와의 격차를 좁히고 기술적 해자를 유통, 도구 생태계, 신뢰성 쪽으로 이동시킨다.",
+      "editorNote": "모델 성능 주장은 커뮤니티 게시물과 프로젝트 페이지에 기반하며 독립적인 벤치마크를 거치지 않았다. DeepSeek의 학습 규모 주장은 커뮤니티 스레드에 보고된 내용이다.",
+      "cluster": [
+        {
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmntwv/xiaomimimomimov26prorl_hugging_face/",
+          "source": "Reddit r/LocalLLaMA",
+          "title": "XiaomiMiMo/MiMo-V2.6-Pro-RL · Hugging Face"
+        },
+        {
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmp2di/xiaomimimomimov26distillqwen9b/",
+          "source": "Reddit r/LocalLLaMA",
+          "title": "XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B"
+        },
+        {
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmp5h2/mimo_v26flashrl_vs_openweight_models/",
+          "source": "Reddit r/LocalLLaMA",
+          "title": "Mimo v2.6-Flash-RL vs open-weight models"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://twitter.com/mistralvibe/status/2102056993531871446",
+          "source": "Hacker News",
+          "title": "GLM 5.3 Hosted by Mistral",
+          "publishedAt": "2026-09-21T18:40:55Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmnw89/xiaomimimomimov26flashrl_hugging_face/",
+          "source": "Reddit r/LocalLLaMA",
+          "title": "XiaomiMiMo/MiMo-V2.6-Flash-RL · Hugging Face",
+          "publishedAt": "2026-09-21T20:09:12.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmblx1/deepseek_training_2t_and_plans_8t_model/",
+          "source": "Reddit r/LocalLLaMA",
+          "title": "Deepseek training 2T and plans 8T model",
+          "publishedAt": "2026-09-21T12:38:08.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmmnrt/yandexaliceaifoundation80ba3bbase/",
+          "source": "Reddit r/LocalLLaMA",
+          "title": "yandex/AliceAI-Foundation-80B-A3B-Base: Russian-developed competitor to Qwen 35B and DeepSeek V4 Flash",
+          "publishedAt": "2026-09-21T19:24:34.000Z"
+        },
+        {
+          "id": 5,
+          "url": "https://www.youtube.com/watch?v=vIHw_2VjSUw",
+          "source": "YouTube",
+          "title": "Two Minute Papers: DeepSeek’s Insane New Architecture",
+          "publishedAt": "2026-09-18T07:03:46.000Z"
+        },
+        {
+          "id": 6,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wm1gab/miniagi_dynamically_grown_530m_params_currently/",
+          "source": "Reddit r/LocalLLaMA",
+          "title": "mini-AGI - dynamically grown (530M params currently and growing) continual learning model trained from scratch on 8GB VRAM laptop from batch-1 stream of data.",
+          "publishedAt": "2026-09-21T03:26:40.000Z"
+        }
+      ],
+      "tags": ["open-weights", "deepseek", "glm", "mimo"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "local-inference-apple-silicon-browser-ko",
+      "headline": "M5 Ultra Mac Studio 리뷰: 로컬 AI 에이전트를 위한 꿈의 Mac - MacStories",
+      "dek": "작성자 본인조차 의문을 제기한 브라우저 벤치마크와 함께 구체적인 초당 토큰 수치가 발표됐다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "r/LocalLLaMA의 한 리뷰는 M5 Ultra Mac Studio를 로컬 AI 에이전트를 위한 꿈의 Mac이라고 불렀고, 다른 스레드는 대다수 사람들에게 현실적인 최대 VRAM이 16GB, 때로는 12GB에 불과하다고 주장했다.",
+        "한 스레드는 Splash 엔진을 사용해 Apple Silicon에서 Qwen3.8-27B를 네이티브 8비트로 초당 37~55토큰 속도로 구동하고 Q8 및 256k 컨텍스트로 확장한 결과를 전했다.",
+        "Hacker News에서는 vLLM 심층 분석과 초당 3,000토큰 브라우저 벤치마크가 공유됐으며, 1B 파라미터 모델로 AIME 94%를 달성했다는 주장도 등장했다."
+      ],
+      "body": [
+        {
+          "text": "r/LocalLLaMA 리뷰는 M5 Ultra Mac Studio를 로컬 AI 에이전트를 위한 이상적인 기기로 꼽았으나, 다른 게시글에서는 대부분의 사용자가 현실적으로 확보할 수 있는 VRAM의 한계가 16GB, 많아야 12GB 수준이라고 지적했다.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "추론 엔진 작업도 속도를 냈다. 한 스레드는 Splash 엔진을 통해 Apple Silicon에서 Qwen3.8-27B를 네이티브 8비트 환경에서 초당 37~55토큰으로 구동하고, 이를 Q8 양자화 및 256k 컨텍스트 확장으로 발전시켰다고 보고했다.",
+          "citations": [3]
+        },
+        {
+          "text": "Hacker News에서는 vLLM의 아키텍처, 메모리, 벤치마크를 심층 분석한 글이 실렸다. 별도 게시물에서는 웹 브라우저에서 실행되는 초당 3,000토큰의 소형 모델 벤치마크가 실제인지 아니면 오류인지 질문을 던졌고, 다른 글은 1B 파라미터 모델로 AIME 94%를 기록했다고 주장했다.",
+          "citations": [4, 5, 6]
+        }
+      ],
+      "whyItMatters": "신뢰할 수 있는 단일 기기 성능 결과는 데이터센터 외부에서 실행 가능한 작업의 하한선을 높여 추론 경제성을 바꾸고, 장기적으로 메모리와 가속기 수요를 변화시킨다.",
+      "editorNote": "처리량 및 벤치마크 주장은 독립적 실측이 아닌 커뮤니티 보고 및 벤더 게시물이다. 초당 3,000토큰 결과는 작성자 본인이 직접 의문을 제기한 바 있다.",
+      "cluster": [
+        {
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmb875/16gb_and_in_many_cases_12gb_is_the_max_vram_most/",
+          "source": "Reddit r/LocalLLaMA",
+          "title": "16GB (and in many cases 12GB) is the max vram most people will ever reasonably have"
+        },
+        {
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmbbf9/splash_engine_qwen3827b_in_native_8bit_at_3755/",
+          "source": "Reddit r/LocalLLaMA",
+          "title": "[Splash Engine] Qwen3.8-27B in native 8-bit at 37–55 tok/s on Apple Silicon"
+        },
+        {
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmd3xx/putting_the_question_before_the_context_took_my/",
+          "source": "Reddit r/LocalLLaMA",
+          "title": "Putting the question before the context took my local Qwen from 89% to 100% on a decision benchmark, and from ~400 ms to ~80 ms"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmec1y/m5_ultra_mac_studio_review_the_dream_mac_for/",
+          "source": "Reddit r/LocalLLaMA",
+          "title": "M5 Ultra Mac Studio Review: The Dream Mac for Local AI Agents - MacStories",
+          "publishedAt": "2026-09-21T14:26:50.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmb875/16gb_and_in_many_cases_12gb_is_the_max_vram_most/",
+          "source": "Reddit r/LocalLLaMA",
+          "title": "16GB (and in many cases 12GB) is the max vram most people will ever reasonably have",
+          "publishedAt": "2026-09-21T12:21:36.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmbbf9/splash_engine_qwen3827b_in_native_8bit_at_3755/",
+          "source": "Reddit r/LocalLLaMA",
+          "title": "[Splash Engine] Qwen3.8-27B in native 8-bit at 37–55 tok/s on Apple Silicon: Extending Splash to Q8, 256k context scaling, and the \"Reasoning Cliff\"",
+          "publishedAt": "2026-09-21T12:25:31.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://www.g-ftech.com/blog/vllm-throughput-deep-dive",
+          "source": "Hacker News",
+          "title": "vLLM Architecture, Memory and Benchmarks Deep Dive",
+          "publishedAt": "2026-09-21T20:59:10Z"
+        },
+        {
+          "id": 5,
+          "url": "https://github.com/robss2020/microllm-lab",
+          "source": "Hacker News",
+          "title": "Blooper or Real Small Model Benchmark – 3000 tokens/sec in your browser",
+          "publishedAt": "2026-09-21T18:31:34Z"
+        },
+        {
+          "id": 6,
+          "url": "https://paradigma.inc/blog/limite-1b-violetto/",
+          "source": "Hacker News",
+          "title": "94% on AIME with 1B Params",
+          "publishedAt": "2026-09-21T20:07:48Z"
+        }
+      ],
+      "tags": ["local-llm", "apple-silicon", "vllm", "benchmarks"],
+      "confidence": "low"
+    },
+    {
+      "slug": "agent-tooling-verification-gap-ko",
+      "headline": "Show HN: Foremerge – 병렬 코딩 에이전트 간 의도 충돌 감지",
+      "dek": "에이전트 자체의 보고를 맹신하지 않고 실제로 무엇을 수행했는지 입증하려는 새로운 도구와 논문들이 등장했다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "오늘 가장 높은 호응을 얻은 Show HN 프로젝트는 병렬 코딩 에이전트 간의 의도 충돌을 포착하는 Foremerge였다.",
+        "AURA는 LLM을 위한 오픈소스 행동 위협 탐지 도구를 제공했고 Fusion-runtime은 STT, LLM, TTS를 단일 프로세스로 묶어 자체 호스팅 음성 에이전트를 구동했다.",
+        "arXiv 논문들은 다중 홉 검색에서의 예측 가능한 실패를 다루고 모델이 드러내지 않는 지식을 판별하는 거짓말 탐지 테스트를 제안했다."
+      ],
+      "body": [
+        {
+          "text": "오늘 가장 많은 참여를 이끌어낸 Show HN은 병렬 코딩 에이전트 간의 의도 충돌을 잡아내는 Foremerge였다.",
+          "citations": [1]
+        },
+        {
+          "text": "다른 출시작들도 각기 다른 각도에서 동일한 검증 격차를 공략했다. AURA는 LLM용 오픈소스 행동 위협 탐지 기능을 내놓았고 Fusion-runtime은 음성 인식(STT), LLM, 음성 합성(TTS)을 단일 프로세스에서 처리하는 자체 호스팅 음성 에이전트 런타임을 선보였다.",
+          "citations": [2, 3]
+        },
+        {
+          "text": "연구 역시 같은 문제로 수렴하고 있다. 한 arXiv 논문은 점수 분포 기반 신뢰도 채점과 기권 메커니즘을 이용해 다중 홉 검색에서 예측 가능한 실패를 분석했고, 다른 논문은 모델이 숨기는 지식을 읽어내는 거짓말 탐지 테스트를 제안했다.",
+          "citations": [4, 5]
+        },
+        {
+          "text": "GitHub에서는 friday-memory/friday가 코딩 에이전트를 위한 영구 인지 메모리 계층을 제시했다.",
+          "citations": [6]
+        }
+      ],
+      "whyItMatters": "에이전트가 병렬로 더 많은 행동을 취함에 따라 희소해지는 자산은 각 에이전트가 실제로 수행한 일에 대한 증명이다. 이는 타입화된 결정 계층이 답하고자 하는 질문이자 엔터프라이즈 환경에서 에이전트 AI가 인프라로 자리 잡기 위해 반드시 해결해야 할 과제다.",
+      "editorNote": "도구 기능은 프로젝트 설명에 따랐으며 직접 테스트하지 않았다. arXiv 논문은 초록 수준에서 인용됐다.",
+      "cluster": [
+        {
+          "url": "https://github.com/kate8382/AURA",
+          "source": "Hacker News",
+          "title": "Show HN: AURA – Open-source behavioral threat detection for LLMs"
+        },
+        {
+          "url": "https://github.com/awss1i/assay",
+          "source": "Hacker News",
+          "title": "Assay – Open-source mechanical checker for web pages, no tests, no LLM"
+        },
+        {
+          "url": "https://github.com/Continuum-AI-Corp/OrcaPromptVault",
+          "source": "GitHub",
+          "title": "Continuum-AI-Corp/OrcaPromptVault: The open archive of how AI agents actually work"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://github.com/naw103/foremerge",
+          "source": "Hacker News",
+          "title": "Show HN: Foremerge – Catch intent conflicts between parallel coding agents",
+          "publishedAt": "2026-09-21T16:22:06Z"
+        },
+        {
+          "id": 2,
+          "url": "https://github.com/kate8382/AURA",
+          "source": "Hacker News",
+          "title": "Show HN: AURA – Open-source behavioral threat detection for LLMs",
+          "publishedAt": "2026-09-21T17:05:42Z"
+        },
+        {
+          "id": 3,
+          "url": "https://github.com/SamarthUrs18/fusion-runtime",
+          "source": "Hacker News",
+          "title": "Show HN: Fusion-runtime – self-hosted voice agents, STT+LLM+TTS in one process",
+          "publishedAt": "2026-09-21T16:19:54Z"
+        },
+        {
+          "id": 4,
+          "url": "http://arxiv.org/abs/2609.22056v1",
+          "source": "arXiv",
+          "title": "Predictable Failure in Multi-Hop Retrieval: Score-Distributional Confidence Scoring and Abstention",
+          "publishedAt": "2026-09-18T17:48:15Z"
+        },
+        {
+          "id": 5,
+          "url": "http://arxiv.org/abs/2609.21996v1",
+          "source": "arXiv",
+          "title": "A Lie Detector Test for Language Models: Reading Knowledge a Model Won't Reveal",
+          "publishedAt": "2026-09-18T16:57:00Z"
+        },
+        {
+          "id": 6,
+          "url": "https://github.com/friday-memory/friday",
+          "source": "GitHub",
+          "title": "friday-memory/friday: The open-source persistent cognitive memory layer for AI coding agents.",
+          "publishedAt": "2026-09-16T15:53:02Z"
+        }
+      ],
+      "tags": ["agents", "verification", "tooling", "grounding"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "arxiv-abstention-routing-reliability-ko",
+      "headline": "기권과 노이즈 필터링: 소프트맥스 어텐션의 두 가지 누락된 프리미티브",
+      "dek": "일련의 arXiv 논문들이 기권, 캘리브레이션, 라우팅을 1차 모델 기능으로 다뤘다.",
+      "type": "DATA",
+      "readMinutes": 3,
+      "tldr": [
+        "한 arXiv 논문은 기권과 노이즈 필터링이 소프트맥스 어텐션에서 누락된 두 가지 기본 프리미티브라고 주장했다.",
+        "두 번째 논문은 신뢰도와 일관성을 분리하는 3신호 상호보완성을 기반으로 LLM 에이전트를 위한 해석 가능한 메모리 결정 제어기를 제안했다.",
+        "신뢰성을 다룬 다른 두 논문은 인간-AI 라우팅을 위한 RACER 역량 추정 기법과 선택적 예측을 보증하는 Available Guardrails를 제시했다."
+      ],
+      "body": [
+        {
+          "text": "한 arXiv 논문은 기권과 노이즈 필터링이 소프트맥스 어텐션에서 결여된 핵심 프리미티브라고 주장했다.",
+          "citations": [1]
+        },
+        {
+          "text": "두 번째 논문은 신뢰도와 일관성을 분리하는 세 가지 신호의 상호보완성을 토대로 LLM 에이전트용 해석 가능한 메모리 결정 제어기를 제안했다.",
+          "citations": [2]
+        },
+        {
+          "text": "다른 두 논문 역시 신뢰성을 집중 조명했다. 인간과 AI 간 작업 분배를 위한 역할 맞춤형 역량 추정기 RACER와, 머신러닝 시스템 전반의 선택적 예측을 검증하는 Available Guardrails가 포함됐다.",
+          "citations": [3, 4]
+        },
+        {
+          "text": "Hacker News의 Show HN 게시물에서는 어텐션 커널인 MoA가 코드를 작성하기 전에 최소성을 수학적으로 증명했다고 소개했다.",
+          "citations": [5]
+        }
+      ],
+      "whyItMatters": "기권, 캘리브레이션, 라우팅이 1차 연구 프리미티브로 부상하고 있으며, 이는 단순한 모델의 잠재력을 실제 배포 가능한 신뢰성으로 전환하는 열쇠다.",
+      "editorNote": "모든 arXiv 항목은 초록 수준에서 인용되었으며 동료 평가를 거치지 않았다. MoA의 최소성 주장은 개발진의 설명에 따른다.",
+      "cluster": [
+        {
+          "url": "http://arxiv.org/abs/2609.22056v1",
+          "source": "arXiv",
+          "title": "Predictable Failure in Multi-Hop Retrieval: Score-Distributional Confidence Scoring and Abstention"
+        },
+        {
+          "url": "http://arxiv.org/abs/2609.21996v1",
+          "source": "arXiv",
+          "title": "A Lie Detector Test for Language Models: Reading Knowledge a Model Won't Reveal"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "http://arxiv.org/abs/2609.22005v1",
+          "source": "arXiv",
+          "title": "Abstention and Noise Filtering: Two Missing Primitives of Softmax Attention",
+          "publishedAt": "2026-09-18T17:03:58Z"
+        },
+        {
+          "id": 2,
+          "url": "http://arxiv.org/abs/2609.22043v1",
+          "source": "arXiv",
+          "title": "An Interpretable Memory Decision Controller for LLM Agents Based on Three-Signal Complementarity: Decoupling Confidence and Consistency",
+          "publishedAt": "2026-09-18T17:34:13Z"
+        },
+        {
+          "id": 3,
+          "url": "http://arxiv.org/abs/2609.21953v1",
+          "source": "arXiv",
+          "title": "RACER: Role-Aligned Competence Estimation for Human-AI Routing",
+          "publishedAt": "2026-09-18T16:11:05Z"
+        },
+        {
+          "id": 4,
+          "url": "http://arxiv.org/abs/2609.22048v1",
+          "source": "arXiv",
+          "title": "Available Guardrails: Certifying Selective Prediction across ML Systems",
+          "publishedAt": "2026-09-18T17:36:52Z"
+        },
+        {
+          "id": 5,
+          "url": "https://github.com/womenflyplanes/moa-attention-verified-mullin",
+          "source": "Hacker News",
+          "title": "Show HN: MoA – Attention kernel proven minimal before code was written",
+          "publishedAt": "2026-09-21T20:57:35Z"
+        }
+      ],
+      "tags": ["arxiv", "calibration", "abstention", "reliability"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "coding-agent-meta-tooling-ko",
+      "headline": "Show HN: Gitstats - 비공개 및 사내 저장소를 지원하는 GitHub 토큰 불필요 코딩 통계 도구",
+      "dek": "사용량 제한, 프롬프트 아카이브, 회귀 감지기 등으로 구성된 메타 도구 계층이 코딩 에이전트 주변에 형성되고 있다.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "Show HN에 소개된 Gitstats는 GitHub 토큰 없이 비공개 및 업무용 저장소 전반의 코딩 통계를 보고한다.",
+        "UsageBar는 macOS 메뉴 막대에 Claude Code와 Codex의 속도 제한 상태를 표시하며 Sommelier는 에이전트용 Excel 추가 기능이다.",
+        "GitHub에서 is-gpt-nerfed는 Codex용 슈링크플레이션 탐지기를 표방하고 OrcaPromptVault는 시스템 프롬프트와 에이전트 하네스를 보관한다."
+      ],
+      "body": [
+        {
+          "text": "Show HN에서 공개된 Gitstats는 GitHub 토큰 없이 개인 및 업무 저장소의 코딩 통계를 취합해 보여준다.",
+          "citations": [1]
+        },
+        {
+          "text": "두 가지 소형 도구는 코딩 에이전트의 운영 측면을 다룬다. UsageBar는 Claude Code와 Codex의 호출 한도를 macOS 메뉴 막대에 띄우며 Sommelier는 에이전트를 위한 Excel 애드인이다.",
+          "citations": [2, 3]
+        },
+        {
+          "text": "GitHub에서는 is-gpt-nerfed가 Codex의 잠수함 패치를 잡아내는 탐지기를 자처하며, OrcaPromptVault는 시스템 프롬프트, 도구 스키마, 에이전트 하네스를 버전 관리되는 아카이브로 수집한다.",
+          "citations": [4, 5]
+        }
+      ],
+      "whyItMatters": "코딩 에이전트가 급증함에 따라 사용량 제한, 프롬프트 아카이브, 회귀 감지기 같은 메타 도구 계층이 형성되고 있으며 신뢰 확보와 비용 통제가 이 계층에서 판가름 난다.",
+      "editorNote": "모든 항목은 프로젝트 자체 설명 및 Show HN 게시물이며 실제 도구 테스트는 수행하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://sommelier.grokked.it",
+          "source": "Hacker News",
+          "title": "Show HN: Sommelier, an Excel Addin for your agent"
+        },
+        {
+          "url": "https://github.com/kiyoakii/is-gpt-nerfed",
+          "source": "GitHub",
+          "title": "kiyoakii/is-gpt-nerfed: Shrinkflation detector for Codex"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://gitstats.org",
+          "source": "Hacker News",
+          "title": "Show HN: Gitstats - your coding stats, private and work repos, no GitHub token",
+          "publishedAt": "2026-09-21T17:56:58Z"
+        },
+        {
+          "id": 2,
+          "url": "https://github.com/idark7/UsageBar",
+          "source": "Hacker News",
+          "title": "UsageBar – Claude Code and Codex rate limits in the macOS menu bar",
+          "publishedAt": "2026-09-21T13:41:11Z"
+        },
+        {
+          "id": 3,
+          "url": "https://sommelier.grokked.it",
+          "source": "Hacker News",
+          "title": "Show HN: Sommelier, an Excel Addin for your agent",
+          "publishedAt": "2026-09-21T17:15:06Z"
+        },
+        {
+          "id": 4,
+          "url": "https://github.com/kiyoakii/is-gpt-nerfed",
+          "source": "GitHub",
+          "title": "kiyoakii/is-gpt-nerfed: Shrinkflation detector for Codex",
+          "publishedAt": "2026-09-15T10:22:16Z"
+        },
+        {
+          "id": 5,
+          "url": "https://github.com/Continuum-AI-Corp/OrcaPromptVault",
+          "source": "GitHub",
+          "title": "Continuum-AI-Corp/OrcaPromptVault: The open archive of how AI agents actually work",
+          "publishedAt": "2026-09-15T11:03:31Z"
+        }
+      ],
+      "tags": ["developer-tools", "coding-agents", "observability", "prompts"],
+      "confidence": "low"
+    }
+  ]
+}

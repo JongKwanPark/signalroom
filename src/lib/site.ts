@@ -4,9 +4,10 @@ export const SITE = {
   description:
     'Signal Daily is a public, no-login daily digest. Four verticals, one page: what moved, why it matters, and where it came from. AI-assisted drafting, editor-reviewed, primary sources cited inline.',
   url: (import.meta.env.SITE || 'https://signaldaily.cloud').replace(/\/+$/, ''),
-  locale: 'en_US',
   author: 'Signal Daily editors',
 } as const;
+
+export const LOCALE = { en: 'en_US', ko: 'ko_KR' } as const;
 
 export const VERTICALS = ['ai', 'bio', 'geo', 'markets'] as const;
 export type Vertical = (typeof VERTICALS)[number];

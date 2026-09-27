@@ -6,6 +6,7 @@ import SeoHead from '../components/SeoHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import CommandPalette from '../components/CommandPalette.astro';
+import { langOfPath } from '../lib/editions';
 
 interface Props {
   title: string;
@@ -25,7 +26,7 @@ const {
   description,
   path,
   type,
-  image = '/og/site.png',
+  image,
   publishedTime,
   modifiedTime,
   jsonLd,
@@ -34,10 +35,12 @@ const {
 } = Astro.props;
 
 const pageTitle = title === SITE.name ? title : `${title} · ${SITE.name}`;
+const lang = langOfPath(path ?? Astro.url.pathname) ?? 'en';
+const pageImage = image ?? `/og/${lang}/site.png`;
 ---
 
 <!doctype html>
-<html lang="en" data-theme="dark" data-vertical={vertical}>
+<html lang={lang} data-theme="dark" data-vertical={vertical}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -62,13 +65,13 @@ const pageTitle = title === SITE.name ? title : `${title} · ${SITE.name}`;
       description={description}
       path={path}
       type={type}
-      image={image}
+      image={pageImage}
       publishedTime={publishedTime}
       modifiedTime={modifiedTime}
       jsonLd={jsonLd}
       noindex={noindex}
     />
-    <link rel="alternate" type="application/rss+xml" title={`${SITE.name} — all stories`} href="/rss.xml" />
+    <link rel="alternate" type="application/rss+xml" title={`${SITE.name} — ${lang.toUpperCase()} stories`} href={`/${lang}/rss.xml`} />
     <link rel="icon" href="/favicon.ico" sizes="48x48" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="sitemap" href="/sitemap-index.xml" />

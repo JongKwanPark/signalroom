@@ -2,6 +2,7 @@
   "date": "2026-09-21",
   "generatedAt": "2026-09-21T22:03:26.000Z",
   "vertical": "ai",
+  "lang": "en",
   "title": "AI: a Jev ecosystem under scrutiny, an open-weight wave and local-inference gains",
   "summary": "The Jev ecosystem kept expanding — curated lists, an open API endpoint and an evals project — even as the day's most-engaged community thread questioned the hype. A second cluster was pure open-weights momentum: Mistral hosting GLM 5.3, Xiaomi's MiMo-V2.6 releases, DeepSeek training a 2T model and planning an 8T one, and Yandex's AliceAI 80B. Local inference produced concrete numbers on Apple Silicon and a browser benchmark its own author questioned, while agent tooling and verification research converged on proving what agents actually did. Every collector for the vertical returned items; YouTube coverage came only from Two Minute Papers.",
   "stories": [

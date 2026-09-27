@@ -6,6 +6,7 @@ import {
   allStoryRefs,
   bySignal,
   editionsForVertical,
+  editionsInLang,
   getEditions,
 } from '../../lib/editions';
 import { VERTICALS, VERTICAL_META, isVertical, type Vertical } from '../../lib/site';
@@ -23,7 +24,7 @@ if (!verticalParam || !isVertical(verticalParam)) {
 const vertical: Vertical = verticalParam;
 const meta = VERTICAL_META[vertical];
 
-const editions = await getEditions();
+const editions = editionsInLang(await getEditions(), 'en');
 const verticalEditions = editionsForVertical(editions, vertical);
 const refs = allStoryRefs(verticalEditions);
 const newestDate = verticalEditions[0]?.data.date;

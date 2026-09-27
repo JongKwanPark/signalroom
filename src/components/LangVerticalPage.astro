@@ -1,0 +1,38 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import StoryCard from './StoryCard.astro';
+import TimelineView from './TimelineView.astro';
+import { bySignal, editionsForVertical, getEditions, getStoryRefs, type Lang } from '../lib/editions';
+import { VERTICAL_META, type Vertical } from '../lib/site';
+import { pluralize } from '../lib/format';
+import { itemListJsonLd } from '../lib/seo';
+
+interface Props { lang: Lang; vertical: Vertical }
+const { lang, vertical } = Astro.props;
+const meta = VERTICAL_META[vertical];
+const editions = editionsForVertical(await getEditions(), vertical, lang);
+const refs = (await getStoryRefs(lang)).filter((ref) => ref.vertical === vertical);
+const latest = editions[0]?.data.date;
+const lead = [...refs.filter((ref) => ref.date === latest)].sort(bySignal)[0];
+const rest = lead ? refs.filter((ref) => ref.slug !== lead.slug) : refs;
+---
+
+<BaseLayout
+  title={`${meta.label} — ${meta.name}`}
+  description={`${meta.blurb} Daily, sourced and editor-reviewed.`}
+  path={`/${lang}/${vertical}`}
+  vertical={vertical}
+  jsonLd={refs.length ? itemListJsonLd(refs.slice(0, 25), `${meta.name} — Signal Daily`) : []}
+>
+  <header class="sr-page-head">
+    <p class="sr-micro sr-micro--accent">{meta.label} feed</p>
+    <h1>{meta.name}</h1>
+    <p class="sr-page-head__lede">{meta.blurb}</p>
+    <p class="sr-micro">{pluralize(refs.length, 'story', 'stories')} · {pluralize(editions.length, 'edition')}</p>
+  </header>
+  {lead && <section class="sr-section"><div class="sr-section__head"><h2 class="sr-section__title">Lead</h2></div><StoryCard ref={lead} showTldr /></section>}
+  <section class="sr-section">
+    <div class="sr-section__head"><h2 class="sr-section__title">{meta.label} timeline</h2></div>
+    {refs.length ? <TimelineView refs={rest} vertical={vertical} defaultView={meta.defaultView} /> : <p>No stories published yet.</p>}
+  </section>
+</BaseLayout>

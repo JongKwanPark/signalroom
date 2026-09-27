@@ -3,6 +3,10 @@
   "outputDirectory": "dist",
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [
+    { "source": "/story/:slug(.*-ko)", "destination": "/ko/story/:slug", "statusCode": 301 },
+    { "source": "/story/:slug", "destination": "/en/story/:slug", "statusCode": 301 }
+  ],
   "headers": [
     {
       "source": "/assets/(.*)",

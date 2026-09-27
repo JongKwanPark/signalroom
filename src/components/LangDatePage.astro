@@ -1,0 +1,53 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import StoryCard from './StoryCard.astro';
+import VerticalChip from './VerticalChip.astro';
+import { dateEntries, editionHref, editionsInLang, editionsOnDate, getEditions, getStoryRefs, verticalHref, type Lang } from '../lib/editions';
+import { VERTICAL_META, type Vertical } from '../lib/site';
+import { formatDateLong, formatWeekday, pluralize } from '../lib/format';
+import { breadcrumbJsonLd, itemListJsonLd } from '../lib/seo';
+
+interface Props { lang: Lang; date: string }
+const { lang, date } = Astro.props;
+const editions = editionsInLang(await getEditions(), lang);
+const todays = editionsOnDate(editions, date, lang);
+const refs = (await getStoryRefs(lang)).filter((ref) => ref.date === date);
+const dates = dateEntries(editions).map((entry) => entry.date);
+const position = dates.indexOf(date);
+const newer = position > 0 ? dates[position - 1] : null;
+const older = position >= 0 ? dates[position + 1] : null;
+const sourceTotal = refs.reduce((total, ref) => total + ref.story.sources.length, 0);
+const jsonLd = [
+  breadcrumbJsonLd([{ name: 'Home', path: `/${lang}` }, { name: 'Archive', path: `/${lang}/archive` }, { name: formatDateLong(date), path: editionHref(date, lang) }]),
+  ...(refs.length ? [itemListJsonLd(refs, `Signal Daily — ${date}`)] : []),
+];
+---
+
+<BaseLayout
+  title={formatDateLong(date)}
+  description={`${pluralize(refs.length, 'story', 'stories')} across ${todays.length} verticals from ${formatDateLong(date)}. ${pluralize(sourceTotal, 'source citation')}.`}
+  path={editionHref(date, lang)}
+  jsonLd={jsonLd}
+>
+  <header class="sr-page-head">
+    <p class="sr-micro sr-micro--accent">Edition · {formatWeekday(date)} · {formatDateLong(date)}</p>
+    <h1>{formatDateLong(date)}</h1>
+    <p class="sr-page-head__lede">{pluralize(todays.length, 'vertical edition')} · {pluralize(refs.length, 'story', 'stories')} · {pluralize(sourceTotal, 'source citation')}</p>
+    <nav class="sr-pager sr-micro" aria-label="Edition navigation">
+      <span>{older && <a href={editionHref(older, lang)}>← {formatDateLong(older)}</a>}</span>
+      <span>{newer && <a href={editionHref(newer, lang)}>{formatDateLong(newer)} →</a>}</span>
+    </nav>
+  </header>
+  {todays.map((edition) => {
+    const vertical = edition.data.vertical as Vertical;
+    const meta = VERTICAL_META[vertical];
+    return <section class="sr-section" id={vertical} aria-labelledby={`${vertical}-heading`}>
+      <div class="sr-section__head"><div><p class="sr-micro"><VerticalChip vertical={vertical} href={verticalHref(vertical, lang)} /></p><h2 class="sr-section__title" id={`${vertical}-heading`}>{meta.name}</h2></div><span class="sr-micro"><a href={verticalHref(vertical, lang)}>feed →</a></span></div>
+      <p class="sr-page-head__lede" style="margin-bottom: var(--sp-4)">{edition.data.summary}</p>
+      <div class="sr-grid">{edition.data.stories.map((story) => {
+        const ref = refs.find((candidate) => candidate.slug === story.slug);
+        return ref ? <StoryCard ref={ref} showTldr={false} showDate={false} /> : null;
+      })}</div>
+    </section>;
+  })}
+</BaseLayout>

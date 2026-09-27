@@ -1,0 +1,12 @@
+---
+import LangMonthPage from '../../../../components/LangMonthPage.astro';
+import { editionsInLang, getEditions, monthEntries, type Lang } from '../../../../lib/editions';
+
+export async function getStaticPaths() {
+  const editions = await getEditions();
+  return (['en', 'ko'] as const).flatMap((lang) => monthEntries(editionsInLang(editions, lang)).map((entry) => ({ params: { lang, year: entry.year, month: entry.month } })));
+}
+const { lang, year, month } = Astro.params;
+---
+
+<LangMonthPage lang={lang as Lang} year={year as string} month={month as string} />

@@ -17,10 +17,22 @@
 - 불변 원칙(요약): **AI 초안 + 사람 에디터 리뷰**, **no tracking**(분석·광고 스크립트 0),
   **no advice**(YMYL 배제), **draft → 사람 승인 게이트**.
 
-### 1-1. 발행 언어
+### 1-1. 발행 언어 (단계 1 확정: en 원문 + en→ko 단일 번역)
 
-발행되는 필드 값(headline, body, whyItMatters 등)은 사이트 언어인 **영어**로 쓴다. 이 문서는 내부
-운영 규칙이므로 한국어로 유지한다.
+발행되는 필드 값(headline, body, whyItMatters 등)의 **주 작성 언어는 영어(en)**를 유지한다.
+이 문서는 내부 운영 규칙이므로 한국어로 유지한다.
+
+- **번역 방향**: `en → ko` 단일. `ko → en` 역번역·ko 원문 작성은 단계 1 범위 밖이다.
+- **번역 단위**: 스토리 단위(권장). 작업·리뷰·승인은 스토리별로 수행한다. 에디션 `title`·`summary`는
+  포함된 스토리와 함께 번역하되 같은 품질 게이트를 적용한다. 에디션 전체 일괄 번역은 하지 않는다.
+- **slug 규칙**: ko 스토리 slug = en slug + `-ko` 접미사(예: `llm-agent-evaluation` →
+  `llm-agent-evaluation-ko`). slug는 한영 모두 ASCII kebab-case(`scripts/validate.ts`의 `SLUG_RE`)를
+  유지하고, 한글 slug·동일 slug 재사용을 금지한다. 최종 URL 명명은 라우팅 단계에서 확정한다.
+- **병기 금지**: 동일 JSON 내 번역 필드 병기(`headline_ko` 등)는 금지한다(`docs/plan-bilingual.md` §1-3).
+- **미번역 시 발행 차단**: 미번역·게이트 미통과 스토리는 해당 언어 에디션에서 제외(부분 발행)한다.
+  en 에디션은 ko 진행과 무관하게 발행하고, ko 에디션은 승인된 번역 스토리만 포함한다. ko 파일 내
+  영어 잔존·인용 불일치는 `scripts/validate-i18n.ts` 실패 → 해당 ko 판 발행 제외 사유다. 타 언어
+  문장으로 메우기·무인 발행은 금지하며, 사람 승인 리뷰는 언어별로 유지한다.
 
 ## 2. 제품 한눈에
 
@@ -208,3 +220,11 @@
 - [docs/design-system.md](design-system.md) — 화면 규칙.
 - `scripts/prompts/triage.md`, `scripts/prompts/synthesis.md`, `scripts/prompts/editor.md` — 단계별 프롬프트.
 - `src/content.config.ts`, `scripts/validate.ts` — 스키마와 게이트의 SSOT.
+
+## 12. 한영 콘텐츠 승인 기록
+
+- **승인 대상**: 2026-09-20~25 영어·한국어 에디션 전체.
+- **근거**: 사용자 직접 승인 — “9월 20~25일 한영 전체 검토 완료·발행 승인”.
+- **기술 검증·공개 확인**: 완료. 공개 apex에서 언어별 페이지·피드·검색·사이트맵·OG 응답과 메타데이터, 콘텐츠 분리를 확인했다.
+- **배포**: Vercel deployment `dpl_CuuXH3q6Fh8pRxrkNHTNg4Xukj7E`가 READY이며 `signaldaily.cloud`와 `www.signaldaily.cloud`에 연결됐다.
+- **저장소 반영**: 원격 commit/push 미수행, 원격 `main` 미반영.

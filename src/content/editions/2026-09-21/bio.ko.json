@@ -1,0 +1,514 @@
+{
+  "date": "2026-09-21",
+  "generatedAt": "2026-09-21T22:03:26.000Z",
+  "vertical": "bio",
+  "lang": "ko",
+  "title": "시그널 데일리 — 바이오: GLP-1 전략, 임상 AI 도입과 인지 회복 탄력성 연구의 물결",
+  "summary": "GLP-1 약물이 이날의 주요 소식을 이끌었다. 노보 노디스크가 비만 및 소비자 직접 치료(DTC) 신전략을 발표한 가운데 메타회귀 분석은 GLP-1 수용체 작용제와 뇌졸중 및 인지 결과를 조사했다. 암 검진과 승인 분야에서는 일련의 규제 관련 헤드라인이 나왔으며, 임상 AI는 벤치마크를 넘어 심근병증 AI 심전도, 스마트폰 비전-언어 진단, 다기관 연합학습 연구 등 실제 배포 단계로 이동했다. 알츠하이머병 연구는 인지 회복 탄력성으로 초점을 옮겼고 유전자, RNA 및 후성유전 치료제와 신규 혈액형 발견이 과학적 진전을 더했다. 수집 항목이 전반적으로 보고되었으나 openFDA는 2건에 불과했고 보도자료 검토는 없어 사전인쇄본과 보고서 위주로 구성되었으며 의료적 조언은 제공하지 않는다.",
+  "stories": [
+    {
+      "slug": "glp1-strategy-obesity-outcomes-ko",
+      "headline": "STAT+: 노보, 신전략 발표 통해 비만 및 소비자 직접 대면 사업 계획 공개",
+      "dek": "노보의 자본의 날 재정비 소식이 GLP-1의 뇌졸중 및 인지 결과에 관한 메타회귀 분석과 함께 전해졌다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "STAT는 노보 노디스크가 자본시장의 날 행사에서 비만 치료 및 소비자 직접 대면(DTC) 사업의 새 전략을 개괄했다고 보도했다.",
+        "STAT의 파마리틀(Pharmalittle) 브리핑은 알커미스의 초기 ADHD 데이터와 함께 노보의 파이프라인 확장 계획을 언급했다.",
+        "medRxiv 체계적 문헌고찰 및 메타회귀 분석은 GLP-1 수용체 작용제와 뇌졸중 및 인지 결과를 조사했으며, 사이언스데일리는 오젬픽이 신체와 삶을 바꿀 수 있는지 질문을 던졌다."
+      ],
+      "body": [
+        {
+          "text": "STAT 보도에 따르면 노보 노디스크(Novo Nordisk)는 자본시장의 날 행사에서 비만 및 소비자 직접 대면(DTC) 사업을 위한 새로운 전략 방향을 공개했다.",
+          "citations": [1]
+        },
+        {
+          "text": "STAT의 파마리틀 종합 브리핑은 알커미스(Alkermes)의 초기 ADHD 임상 데이터와 함께 파이프라인을 확장하려는 노보의 계획을 소개했다.",
+          "citations": [2]
+        },
+        {
+          "text": "연구 측면에서는 한 medRxiv 체계적 문헌고찰 및 메타회귀 분석 연구가 GLP-1 수용체 작용제와 뇌졸중 및 인지 기능 결과를 검토했으며, 사이언스데일리는 오젬픽이 신체는 물론 삶의 질까지 바꿀 수 있는지를 조명했다.",
+          "citations": [3, 4]
+        }
+      ],
+      "whyItMatters": "GLP-1 약물의 보장 범위 문제는 대중 시장 보험급여 이슈로 전환되고 있으며, 그 파급 효과는 제약사를 넘어 보험사와 광범위한 보건의료 재정 논쟁으로 이어지고 있다.",
+      "editorNote": "기업 발표 내용과 초기 임상 데이터는 언론 보도에 근거한 것이며 독립적으로 검증되지 않았다. 의학적 또는 투자 조언을 제공하지 않는다.",
+      "cluster": [
+        {
+          "url": "https://www.statnews.com/pharmalot/2026/09/21/novo-to-expand-pipeline-alkermes-releases-adhd-data/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "STAT+: Pharmalittle: We’re reading about Novo plans to expand its pipeline, early Alkermes ADHD data, and more"
+        },
+        {
+          "url": "https://doi.org/10.64898/2026.09.18.26363449",
+          "source": "medRxiv",
+          "title": "GLP-1 Receptor Agonists, Stroke, and Cognitive Outcomes: Systematic Review and Meta-Regression"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.statnews.com/2026/09/21/novo-nordisk-capital-markets-day-obesity-strategy/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "STAT+: With new strategy, Novo outlines plans for obesity, direct-to-consumer work",
+          "publishedAt": "2026-09-21T09:33:45.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.statnews.com/pharmalot/2026/09/21/novo-to-expand-pipeline-alkermes-releases-adhd-data/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "STAT+: Pharmalittle: We’re reading about Novo plans to expand its pipeline, early Alkermes ADHD data, and more",
+          "publishedAt": "2026-09-21T13:31:07.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://doi.org/10.64898/2026.09.18.26363449",
+          "source": "medRxiv",
+          "title": "GLP-1 Receptor Agonists, Stroke, and Cognitive Outcomes: Systematic Review and Meta-Regression",
+          "publishedAt": "2026-09-21"
+        },
+        {
+          "id": 4,
+          "url": "https://www.sciencedaily.com/releases/2026/09/260917003728.htm",
+          "source": "ScienceDaily",
+          "title": "Ozempic can change your body. Can it change your life?",
+          "publishedAt": "2026-09-18T03:52:09.000Z"
+        }
+      ],
+      "tags": ["glp-1", "obesity", "novo-nordisk", "pharma"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "cancer-screening-approvals-grail-lilly-ko",
+      "headline": "STAT+: 그레일 암 검진 검사 투표 결과가 기업, 환자, 규제당국에 미칠 의미",
+      "dek": "갤러리 검사의 자문위원회 투표, 릴리의 승인, 방사선의약품 기업 합병이 이날의 규제 분위기를 형성했다.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "STAT는 FDA 자문위원회의 그레일 갤러리(Galleri) 암 검진 검사 투표가 기업과 환자, 규제당국에 미칠 의미를 보도했다.",
+        "STAT는 또한 릴리의 유방암 병용요법이 승인을 받았으며, 두 방사선의약품 기업이 FDA의 기습적 승인 거절 이후 합병했다고 보도했다.",
+        "태국의 medRxiv 파일럿 연구는 비근침윤성 방광암의 진단 및 추적 관찰 도구로서 소변 DNA 메틸화를 평가했다."
+      ],
+      "body": [
+        {
+          "text": "STAT는 FDA 자문위원회의 심의를 앞둔 그레일(Grail)의 암 조기 진단 검사 갤러리(Galleri)에 대한 표결이 해당 기업과 환자, 규제기관에 미칠 파장을 분석했다.",
+          "citations": [1]
+        },
+        {
+          "text": "STAT는 또한 일라이 릴리(Lilly)의 유방암 병용요법이 규제 승인을 획득했으며, 예상치 못한 FDA 승인 거절을 겪은 후 두 방사선의약품 회사가 합병을 결정했다고 보도했다.",
+          "citations": [2, 3]
+        },
+        {
+          "text": "별도로 태국의 한 medRxiv 파일럿 연구는 비근침윤성 방광암 환자에서 소변 DNA 메틸화 분석이 진단 및 추적 관찰 도구로 활용될 가능성을 조사했다.",
+          "citations": [4]
+        }
+      ],
+      "whyItMatters": "검진 검사와 인허가 승인은 진단 기술과 의약품 경제성이 만나는 접점이다. 따라서 갤러리와 같은 검사에 대한 규제당국의 결정은 환자 접근성과 관련 기업의 상업적 생존 기간을 동시에 좌우한다.",
+      "editorNote": "규제 및 승인 관련 세부 사항은 STAT 보도에 기반하며 독립적으로 검증되지 않았다. 방광암 연구는 파일럿 단계 연구로 표기되었다. 의학적 조언은 제공되지 않는다.",
+      "cluster": [
+        {
+          "url": "https://www.statnews.com/2026/09/21/biotech-news-lilly-breast-cancer-combo-wins-approval/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "STAT+: Lilly’s breast cancer combo wins approval"
+        },
+        {
+          "url": "https://www.statnews.com/2026/09/20/radiopharma-companies-itm-telix-merger/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "STAT+: Radiopharma companies merge after one receives surprise FDA rejection"
+        },
+        {
+          "url": "https://doi.org/10.64898/2026.09.18.26363402",
+          "source": "medRxiv",
+          "title": "Urine DNA methylation as a potential diagnostic and surveillance tool in non-muscle invasive bladder cancer in Thailand: A pilot study"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.statnews.com/2026/09/21/grail-galleri-fda-advisory-committee-meeting-documents/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "STAT+: What a vote on Grail’s cancer detection test could mean for the company, patients, and regulators",
+          "publishedAt": "2026-09-21T17:58:51.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.statnews.com/2026/09/21/biotech-news-lilly-breast-cancer-combo-wins-approval/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "STAT+: Lilly’s breast cancer combo wins approval",
+          "publishedAt": "2026-09-21T15:08:38.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.statnews.com/2026/09/20/radiopharma-companies-itm-telix-merger/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "STAT+: Radiopharma companies merge after one receives surprise FDA rejection",
+          "publishedAt": "2026-09-20T23:25:57.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://doi.org/10.64898/2026.09.18.26363402",
+          "source": "medRxiv",
+          "title": "Urine DNA methylation as a potential diagnostic and surveillance tool in non-muscle invasive bladder cancer in Thailand: A pilot study",
+          "publishedAt": "2026-09-21"
+        }
+      ],
+      "tags": ["cancer", "fda", "screening", "diagnostics"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "clinical-ai-deployment-vs-benchmarks-ko",
+      "headline": "단일유전자 및 다유전자성 감수성에 걸친 비후성 심근병증 탐지 및 예측을 위한 인공지능 기반 심전도",
+      "dek": "임상 AI가 벤치마크에서 실제 배포로 나아가는 가운데 알고리즘 점수와 임상 의사결정 사이의 간극을 지적한 논문이 나왔다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "medRxiv 연구는 단일유전자 및 다유전자 감수성 전반에서 비후성 심근병증 탐지 및 예측을 위한 AI 심전도를 평가했다.",
+        "PubMed 연구는 스마트폰 촬영 골종양 진단용 로컬 VLM을 평가했고, 다른 연구는 감사 환경의 다기관 연합학습 배포를 보고했다.",
+        "PubMed 논문은 난임 치료 분야 의료 LLM에서 알고리즘 개선과 임상 결정 품질이 단절되는 '정렬의 역설'을 지적했다."
+      ],
+      "body": [
+        {
+          "text": "한 medRxiv 연구는 단일유전자 및 다유전자성 감수성 전반에서 비후성 심근병증을 탐지하고 예측하기 위한 인공지능 강화 심전도(AI-ECG) 기술을 평가했다.",
+          "citations": [1]
+        },
+        {
+          "text": "임상 도구 측면에서는 스마트폰 촬영 영상을 이용해 골종양 진단 성능을 평가한 로컬 시각-언어 모델(VLM) 논문과, 규제기관 감사를 거치는 보안 처리 환경에서 다기관 연합학습을 배포한 사례가 PubMed에 보고되었다.",
+          "citations": [2, 3]
+        },
+        {
+          "text": "모든 결과가 긍정적인 방향만을 가리킨 것은 아니다. 한 PubMed 논문은 난임 치료 분야 의료 대규모 언어 모델에서 알고리즘 개선이 실제 임상 의사결정 품질 향상과 분리되는 ‘정렬의 역설(alignment paradox)’ 현상을 기술했다.",
+          "citations": [4]
+        },
+        {
+          "text": "한편 네이처(Nature)는 인공지능 동료 과학자(AI co-scientists)가 연구 수행 방식을 근본적으로 혁신하고 있다고 전했다.",
+          "citations": [5]
+        }
+      ],
+      "whyItMatters": "임상 AI의 핵심 질문은 모델이 특정 작업을 수행할 수 있는가에서 거버넌스, 데이터 거주성, 벤치마크 점수와 실제 치료 결과 간 격차 등 현장 제약 아래에서 의사결정을 실질적으로 개선하는가로 이동하고 있다.",
+      "editorNote": "연구 결과들은 초록 및 논문 수준에서 인용되었으며 독립적으로 검증되지 않았다. 연합학습 배포는 단일 다기관 연구 결과다. 의학적 조언은 제공하지 않는다.",
+      "cluster": [
+        {
+          "url": "https://doi.org/10.64898/2026.09.15.26363093",
+          "source": "medRxiv",
+          "title": "Federated learning in a regulator-audited secure processing environment: a multi-hospital deployment study"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42766848/",
+          "source": "PubMed",
+          "title": "Diagnostic Performance of a Locally Deployed Vision Language Model for Bone Tumor Diagnosis Using Smartphone-Captured Images: Exploratory Retrospective Study"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42766421/",
+          "source": "PubMed",
+          "title": "The Alignment Paradox of Medical Large Language Models in Infertility Care"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://doi.org/10.64898/2026.09.12.26362902",
+          "source": "medRxiv",
+          "title": "Artificial Intelligence-Enhanced Electrocardiography for Detection and Prediction of Hypertrophic Cardiomyopathy across Monogenic and Polygenic Susceptibility",
+          "publishedAt": "2026-09-21"
+        },
+        {
+          "id": 2,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42766848/",
+          "source": "PubMed",
+          "title": "Diagnostic Performance of a Locally Deployed Vision Language Model for Bone Tumor Diagnosis Using Smartphone-Captured Images: Exploratory Retrospective Study",
+          "publishedAt": "2026/09/21 00:00"
+        },
+        {
+          "id": 3,
+          "url": "https://doi.org/10.64898/2026.09.15.26363093",
+          "source": "medRxiv",
+          "title": "Federated learning in a regulator-audited secure processing environment: a multi-hospital deployment study",
+          "publishedAt": "2026-09-21"
+        },
+        {
+          "id": 4,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42766421/",
+          "source": "PubMed",
+          "title": "The Alignment Paradox of Medical Large Language Models in Infertility Care: Decoupling Algorithmic Improvement From Clinical Decision-Making Quality",
+          "publishedAt": "2026/09/21 00:00"
+        },
+        {
+          "id": 5,
+          "url": "https://www.nature.com/articles/d41586-026-02931-5",
+          "source": "Nature",
+          "title": "AI co-scientists are revolutionizing how research is done",
+          "publishedAt": "2026-09-21T00:00:00.000Z"
+        }
+      ],
+      "tags": ["clinical-ai", "federated-learning", "cardiology", "deployment"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "alzheimers-cognitive-resilience-ko",
+      "headline": "100세인, 아밀로이드-β에 저항하거나 타우 단백질 전파로부터 격리함으로써 인지 기능 유지",
+      "dek": "치매 연구에서 병리적 현상뿐만 아니라 인지 회복 탄력성이 예측 변수로 부상하고 있다.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "medRxiv 연구는 100세 장수인이 아밀로이드-β에 저항하거나 타우 전파와 격리함으로써 인지 기능을 유지한다는 점을 밝혔다.",
+        "네이처는 인지 회복 탄력성이 알츠하이머성 치매를 예측하는 데 도움이 된다고 보도했다.",
+        "사이언스데일리는 일부 항응고제가 알츠하이머 환자에게 예상치 못한 이점을 줄 수 있다고 보도했다."
+      ],
+      "body": [
+        {
+          "text": "한 medRxiv 연구는 100세 이상 장수 노인들이 아밀로이드-β 축적에 저항하거나, 이를 타우 단백질 전파로부터 분리해냄으로써 인지 기능을 유지한다는 점을 확인했다.",
+          "citations": [1]
+        },
+        {
+          "text": "네이처(Nature)는 인지 회복 탄력성(cognitive resilience)이 알츠하이머 치매 발생 여부를 예측하는 핵심 지표로 작용한다고 보도했다.",
+          "citations": [2]
+        },
+        {
+          "text": "사이언스데일리는 일부 항응고제가 알츠하이머 환자에게 뜻밖의 임상적 혜택을 가져올 수 있다는 연구 결과를 전했다.",
+          "citations": [3]
+        }
+      ],
+      "whyItMatters": "단순한 병리 징후만이 아니라 회복 탄력성이 핵심 예측 변수로 자리 잡으면서, 예방 연구의 틀이 무엇이 뇌를 손상시키는가뿐 아니라 무엇이 인지 기능을 보호하는가로 재편되고 있다.",
+      "editorNote": "연구 보도 및 사전인쇄본에 기반한 내용이며 임상 지침이 아니다. 항응고제 관련 항목은 연구 보고일 뿐 권고사항이 아니며 의료적 조언을 포함하지 않는다.",
+      "cluster": [
+        {
+          "url": "https://www.nature.com/articles/d41586-026-02897-4",
+          "source": "Nature",
+          "title": "Cognitive resilience helps to predict Alzheimer’s dementia"
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260917003732.htm",
+          "source": "ScienceDaily",
+          "title": "These blood thinners may have an unexpected benefit for Alzheimer’s patients"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://doi.org/10.64898/2026.09.18.26363376",
+          "source": "medRxiv",
+          "title": "Centenarians maintain cognition by resisting amyloid-β or decoupling it from tau propagation",
+          "publishedAt": "2026-09-21"
+        },
+        {
+          "id": 2,
+          "url": "https://www.nature.com/articles/d41586-026-02897-4",
+          "source": "Nature",
+          "title": "Cognitive resilience helps to predict Alzheimer’s dementia",
+          "publishedAt": "2026-09-18T00:00:00.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.sciencedaily.com/releases/2026/09/260917003732.htm",
+          "source": "ScienceDaily",
+          "title": "These blood thinners may have an unexpected benefit for Alzheimer’s patients",
+          "publishedAt": "2026-09-18T09:48:31.000Z"
+        }
+      ],
+      "tags": ["alzheimers", "cognitive-resilience", "aging", "neuroscience"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "epigenetic-rna-therapy-new-blood-group-ko",
+      "headline": "'후성유전' 편집의 도래: 유전자 표지 기술로 B형 간염 바이러스 퇴치",
+      "dek": "유전자 편집 및 RNA 치료제가 진전을 이룬 가운데 연구진이 50년 된 수수께끼를 풀고 새로운 인간 혈액형을 발견했다.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "네이처는 유전자 태깅 후성유전 편집 기술이 B형 간염 바이러스를 제거했다고 전하며 후성유전 편집의 본격화를 보도했다.",
+        "네이처는 또한 희귀 운동신경원 질환 환자가 치료 후 호전된 첫 RNA 치료 성과를 보도했다.",
+        "사이언스데일리는 과학자들이 50년 동안 풀리지 않던 난제를 해결하고 새로운 인간 혈액형을 규명했다고 전했다."
+      ],
+      "body": [
+        {
+          "text": "네이처(Nature)는 유전자 표지 기반의 후성유전(epigenetic) 편집 기술이 B형 간염 바이러스를 박멸했다고 보도하며, 후성유전체 편집 기술이 실용화 단계에 이르렀다고 평가했다.",
+          "citations": [1]
+        },
+        {
+          "text": "네이처는 또한 RNA 치료 역사상 최초로 희귀 운동신경 질환을 앓는 남성 환자가 치료 투여 후 증상 개선을 보였다고 전했다.",
+          "citations": [2]
+        },
+        {
+          "text": "별도로 사이언스데일리는 과학 연구진이 50년간 미해결 상태였던 수수께끼를 규명하고 인류의 새로운 혈액형 체계를 발견했다고 보도했다.",
+          "citations": [3]
+        }
+      ],
+      "whyItMatters": "유전자 편집 및 RNA 치료제가 희귀질환 개념 증명을 넘어 광범위한 임상 응용으로 이동하고 있으며, 새로운 혈액형의 발견은 수혈 안전성과 그 바탕이 되는 유전학 연구에 중대한 영향을 미친다.",
+      "editorNote": "보고된 연구 진전을 서술한 것으로 승인된 치료법이 아니며, 의료적 조언을 제공하지 않는다.",
+      "cluster": [
+        {
+          "url": "https://www.nature.com/articles/d41586-026-02945-z",
+          "source": "Nature",
+          "title": "First for RNA therapy: man with rare motor-neuron disease improves after treatment"
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260918024828.htm",
+          "source": "ScienceDaily",
+          "title": "Scientists solve a 50-year mystery and discover a new human blood group"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.nature.com/articles/d41586-026-02981-9",
+          "source": "Nature",
+          "title": "'Epigenetic' editing is here: gene-tagging technique banishes hepatitis B virus",
+          "publishedAt": "2026-09-21T00:00:00.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.nature.com/articles/d41586-026-02945-z",
+          "source": "Nature",
+          "title": "First for RNA therapy: man with rare motor-neuron disease improves after treatment",
+          "publishedAt": "2026-09-18T00:00:00.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.sciencedaily.com/releases/2026/09/260918024828.htm",
+          "source": "ScienceDaily",
+          "title": "Scientists solve a 50-year mystery and discover a new human blood group",
+          "publishedAt": "2026-09-19T10:14:15.000Z"
+        }
+      ],
+      "tags": ["gene-editing", "rna-therapy", "hepatitis-b", "transfusion"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "vaccine-uptake-trust-misinformation-ko",
+      "headline": "하수 기반 감시를 활용한 백신 접종률 제고: 카운티 무작위 배정 대조 임상시험",
+      "dek": "효과성 평가 연구와 신뢰 및 정보 문제를 다룬 보도가 백신 수용성 문제의 양면을 보여준다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "medRxiv 카운티 무작위 대조 임상시험은 하수 감시가 백신 접종률을 높일 수 있는지 시험했다.",
+        "두 번째 medRxiv 연구는 2023~2025년 중증 급성 호흡기 감염으로 입원한 브라질 환자 대상 인플루엔자 백신의 예방 효과를 추정했다.",
+        "STAT는 트럼프 대통령의 새로운 백신 '요구'가 과거의 잘못된 정보를 반복한다고 전하며, 과학에 대한 신뢰가 왜 중요한지 짚었다."
+      ],
+      "body": [
+        {
+          "text": "한 medRxiv 카운티 무작위 대조 임상시험은 하수 역학 감시 체계가 지역사회 백신 접종률을 끌어올릴 수 있는지 검증했다.",
+          "citations": [1]
+        },
+        {
+          "text": "두 번째 medRxiv 연구는 2023년부터 2025년 사이 중증 급성 호흡기 감염(SARI)으로 입원한 브라질 환자들을 대상으로 인플루엔자 백신의 방어 효과를 추정했다.",
+          "citations": [2]
+        },
+        {
+          "text": "정책 측면에서 STAT는 트럼프 대통령의 최근 백신 관련 요구가 기존의 잘못된 정보를 되풀이하고 있다고 보도했으며, 별도 인터뷰를 통해 과학에 대한 신뢰가 중요한 이유를 조명했다.",
+          "citations": [3, 4]
+        }
+      ],
+      "whyItMatters": "백신 접종률은 효능 데이터뿐만 아니라 사회적 신뢰와 전달 체계에 크게 좌우되므로, 효과성 연구와 정보 환경 분석을 병치하여 문제의 양면을 함께 살펴보는 것이 중요하다.",
+      "editorNote": "효과성 수치는 사전인쇄본에서 인용한 것이며 독립적으로 검증되지 않았다. STAT 보도는 정책 및 정보 환경에 관한 취재 기사이며 임상 가이드라인이 아니다. 의료적 조언은 제공되지 않는다.",
+      "cluster": [
+        {
+          "url": "https://www.statnews.com/2026/09/21/trust-in-science-nick-florko-on-understanding-growing-scientific-mistrust/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "Skeptical about modern medicine? I know the feeling — and want to listen"
+        },
+        {
+          "url": "https://doi.org/10.64898/2026.09.15.26362995",
+          "source": "medRxiv",
+          "title": "Protective effect of influenza vaccine in Brazilian patients hospitalised for severe acute respiratory infection, 2023-2025"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://doi.org/10.64898/2026.09.14.26362268",
+          "source": "medRxiv",
+          "title": "Boosting vaccination uptake using wastewater surveillance: a county-randomized controlled trial",
+          "publishedAt": "2026-09-21"
+        },
+        {
+          "id": 2,
+          "url": "https://doi.org/10.64898/2026.09.15.26362995",
+          "source": "medRxiv",
+          "title": "Protective effect of influenza vaccine in Brazilian patients hospitalised for severe acute respiratory infection, 2023-2025",
+          "publishedAt": "2026-09-21"
+        },
+        {
+          "id": 3,
+          "url": "https://www.statnews.com/2026/09/21/health-news-trump-newest-vaccine-demands-repeat-old-misinformation/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "President Trump’s newest vaccine ‘demands’ repeat old misinformation",
+          "publishedAt": "2026-09-21T12:03:49.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://www.statnews.com/2026/09/21/trust-in-science-reporter-nick-florko-interview-status-report-alex-hogan/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "Why is trust in science important?",
+          "publishedAt": "2026-09-21T08:30:00.000Z"
+        }
+      ],
+      "tags": ["vaccines", "public-health", "influenza", "misinformation"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "infectious-disease-surveillance-antigenic-drift-ko",
+      "headline": "2026년 여름 인플루엔자 중화항체 환경 데이터, H3N2 및 H1N1 변이체의 항원 진화 확인",
+      "dek": "독감 항원성 변위, 사스코로나바이러스-2의 반복적 유입, 에볼라 근연종의 급증이 조기 경보의 가치를 시사한다.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "bioRxiv 사전인쇄본은 2026년 여름 인플루엔자 중화항체 데이터를 통해 H3N2 및 H1N1 변이의 항원 진화를 보고했다.",
+        "medRxiv 연구는 2020~2025년 방글라데시에서 사스코로나바이러스-2의 반복 유입과 제한적 지역 토착화를 기술했다.",
+        "사이언스데일리는 에볼라의 치명적 근연종 바이러스가 오랜 잠복기 후 다시 급증하고 있다고 보도했다."
+      ],
+      "body": [
+        {
+          "text": "한 bioRxiv 사전인쇄본은 2026년 여름 인플루엔자 바이러스에 대한 인체 중화항체 분석 데이터를 통해, H3N2 하위분지 K 영역 D 돌연변이체와 H1N1 D.3.1.1 Sa 변이체의 항원 진화가 나타났다고 보고했다.",
+          "citations": [1]
+        },
+        {
+          "text": "한 medRxiv 연구는 2020년부터 2025년까지 방글라데시로 사스코로나바이러스-2(SARS-CoV-2)가 반복적으로 유입되었으나 지역사회 정착은 제한적이었다는 분석 결과를 제시했다.",
+          "citations": [2]
+        },
+        {
+          "text": "사이언스데일리는 에볼라와 가까운 치명적인 필로바이러스가 오랜 침묵 끝에 다시 유행하고 있다고 보도했다.",
+          "citations": [3]
+        }
+      ],
+      "whyItMatters": "항원 변위와 병원체의 반복적 유입은 백신 균주 선정과 유행 대응을 위한 핵심 투입 요소이므로, 실시간에 가까운 역학 감시는 대응 시간을 벌어주는 조기 경보 계층으로 기능한다.",
+      "editorNote": "항체 환경 및 방글라데시 연구는 사전인쇄본이며, 에볼라 근연종 관련 기사는 언론 보도 내용이다. 어느 것도 독립적으로 검증되지 않았다. 의료 조언을 제공하지 않는다.",
+      "cluster": [
+        {
+          "url": "https://doi.org/10.64898/2026.09.14.26362721",
+          "source": "medRxiv",
+          "title": "Repeated SARS-CoV-2 Introductions with Limited Local Establishment in Bangladesh, 2020-2025"
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260919031042.htm",
+          "source": "ScienceDaily",
+          "title": "A deadly ebola relative is surging after years in the shadows"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://doi.org/10.64898/2026.09.15.751855",
+          "source": "bioRxiv",
+          "title": "Near real-time data on the human neutralizing antibody landscape to influenza virus in summer of 2026 shows antigenic advance of H3N2 subclade K region D mutants and H1N1 D.3.1.1 Sa mutants",
+          "publishedAt": "2026-09-21"
+        },
+        {
+          "id": 2,
+          "url": "https://doi.org/10.64898/2026.09.14.26362721",
+          "source": "medRxiv",
+          "title": "Repeated SARS-CoV-2 Introductions with Limited Local Establishment in Bangladesh, 2020-2025",
+          "publishedAt": "2026-09-21"
+        },
+        {
+          "id": 3,
+          "url": "https://www.sciencedaily.com/releases/2026/09/260919031042.htm",
+          "source": "ScienceDaily",
+          "title": "A deadly ebola relative is surging after years in the shadows",
+          "publishedAt": "2026-09-20T02:26:36.000Z"
+        }
+      ],
+      "tags": ["influenza", "surveillance", "sars-cov-2", "outbreaks"],
+      "confidence": "medium"
+    }
+  ]
+}

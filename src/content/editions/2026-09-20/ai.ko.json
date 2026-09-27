@@ -1,0 +1,602 @@
+{
+  "date": "2026-09-20",
+  "generatedAt": "2026-09-20T22:10:00.000Z",
+  "vertical": "ai",
+  "lang": "ko",
+  "title": "시그널 데일리 — AI",
+  "summary": "새로운 포팅, 미세조정, 큐레이션 목록 등 TypeSafe의 Jev를 둘러싼 커뮤니티 도구가 계속 등장하는 한편, 오늘의 최고 반응 항목은 ChatGPT가 타 웹사이트 활동 데이터를 수집한다는 논란이었다. 오픈 가중치 릴리스가 빠른 속도로 이어지고 로컬 추론 보고서들은 높은 처리량을 주장했다. 연구와 도구 개발은 에이전트나 모델의 실제 동작을 어떻게 검증할 것인가라는 단일 질문으로 지속 수렴하고 있다.",
+  "stories": [
+    {
+      "slug": "jev-ecosystem-tooling-wave-ko",
+      "headline": "laya.cpp: 최적화된 laya의 즉각형 의사결정",
+      "dek": "GitHub 스타 591개, 541개, 388개를 기록 중인 큐레이션 목록 외에도, 하루 동안의 수집에서 Jev/TypeSafe 생태계에 포팅, 미세조정, 추적 도구가 추가됐다.",
+      "type": "DEEP",
+      "readMinutes": 5,
+      "tldr": [
+        "단 하루의 수집 동안 laya.cpp 포팅, Qwen3.5 4B 기반 Jev 방식 미세조정, 94개 스타를 얻은 신규 갤러리 목록 등 10여 개의 Jev/TypeSafe 프로젝트가 추가됐다.",
+        "가장 큰 3개 큐레이션 목록(yibie/awesome-jev, v-modal/awesome-jev-tools, AbdelStark/awesome-typesafe)의 GitHub 스타는 각각 591개, 541개, 388개에 도달했다.",
+        "커뮤니티에서는 Jev의 정체와 TypeSafe의 결과물이 Laya 저작자 작업의 파생인지 묻고 있으나 수집된 데이터로는 결론을 내릴 수 없다."
+      ],
+      "body": [
+        {
+          "text": "타입화된 결정을 위한 TypeSafe AI의 System One 모델인 Jev를 둘러싼 커뮤니티 도구가 계속 등장했다. 최적화된 즉각형 의사결정을 표방한 laya.cpp 포팅과 Qwen3.5 4B 기반 Jev 방식 미세조정 모델이 9월 20일 r/LocalLLaMA에 게시됐다.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "큐레이션 목록은 여전히 가장 많은 스타를 받는 진입로다. yibie/awesome-jev가 591개, v-modal/awesome-jev-tools가 541개, AbdelStark/awesome-typesafe가 388개를 기록했다. System One 모델과 Jev를 다룬 논문, 공개 재현, 독립 평가 목록을 표방하는 신규 갤러리 OmniJev/awesome-jev-gallery는 94개의 스타를 확보했다.",
+          "citations": [3, 4, 5, 6]
+        },
+        {
+          "text": "인프라 부문에서도 2차 물결이 일고 있다. 턴마다 모델과 추론 깊이, 속도 모드를 선택하는 Codex 라우터가 86개 스타를 기록했고, Jev 계열 모델용 2MB 크기 결정 캐시가 52개 스타를 얻었다. 포괄적인 Jev 생태계 지도를 표방하며 3시간마다 220개 이상의 사례를 갱신한다는 추적 도구와, 유사도가 아닌 관련성 기준으로 기억을 검색하는 메모리 리콜 필터도 등록됐다. Jev의 오픈소스 대안은 임의의 오픈 가중치 LLM에서 단 한 번의 순전파로 타입화되고 캘리브레이션된 결정을 도출한다고 주장한다.",
+          "citations": [7, 8, 9, 10, 11]
+        },
+        {
+          "text": "정의와 출처에 관한 의문도 지속되고 있다. 온라인 스레드에서는 Jev의 용도와 TypeSafe 작업의 출처가 Laya 저작자로부터 유래했는지를 묻고 있다. Hacker News에는 Jev를 소형 언어모델의 작문 지원 교사로 활용한 사례가 공유됐으며 파리의 뇌와 Jev를 비교하는 논의도 이어졌다.",
+          "citations": [12, 13, 14, 15]
+        }
+      ],
+      "whyItMatters": "타입화되고 캘리브레이션된 결정은 챗봇 인터페이스와 달리 캐싱, 라우팅, 감사가 가능하다. 소형 의사결정 모델이 표준 계층으로 자리 잡는다면 에이전트 스택 구성 비용이 낮아지고 검증은 쉬워진다.",
+      "editorNote": "이 모멘텀은 벤더 공식 발표가 아닌 커뮤니티 주도로 형성됐다. 수집 데이터는 목록, 캐시, 어댑터가 주를 이루며 출처 문제는 결론이 아닌 미해결 상태로 분류된다.",
+      "cluster": [
+        {
+          "url": "https://github.com/samdotmak/jev-recall",
+          "source": "github",
+          "title": "samdotmak/jev-recall: Retrieve by relevance, not resemblance: filter an AI assistant's memories with TypeSafe's Jev"
+        },
+        {
+          "url": "https://github.com/Dimweaker/jev-libero",
+          "source": "github",
+          "title": "Dimweaker/jev-libero: Fine-grained robot control with Jev, physics previews, and configurable LIBERO tasks."
+        },
+        {
+          "url": "https://github.com/ikermoel/open-alternative-jev",
+          "source": "github",
+          "title": "ikermoel/open-alternative-jev: Open-source alternative to TypeSafe's Jev: typed, calibrated decisions from any open-weights LLM in one forward pass"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlmkm9/layacpp_optimized_laya_nearinstant_decision_making/",
+          "source": "reddit",
+          "title": "laya.cpp: Optimized laya near-instant decision making",
+          "publishedAt": "2026-09-20T17:06:02.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wllv4i/a_jevstyle_model_finetuned_on_qwen35_4b/",
+          "source": "reddit",
+          "title": "A Jev-style model fine-tuned on Qwen3.5 4B",
+          "publishedAt": "2026-09-20T16:39:07.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://github.com/yibie/awesome-jev",
+          "source": "github",
+          "title": "yibie/awesome-jev: A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions.",
+          "publishedAt": "2026-09-17T14:23:21Z"
+        },
+        {
+          "id": 4,
+          "url": "https://github.com/v-modal/awesome-jev-tools",
+          "source": "github",
+          "title": "v-modal/awesome-jev-tools: A curated list of tools built for Jev — TypeSafe AI's System One model for typed decisions.",
+          "publishedAt": "2026-09-19T16:48:59Z"
+        },
+        {
+          "id": 5,
+          "url": "https://github.com/AbdelStark/awesome-typesafe",
+          "source": "github",
+          "title": "AbdelStark/awesome-typesafe: A curated list of official resources and community projects for TypeSafe, System One models, and Jev.",
+          "publishedAt": "2026-09-17T06:56:37Z"
+        },
+        {
+          "id": 6,
+          "url": "https://github.com/OmniJev/awesome-jev-gallery",
+          "source": "github",
+          "title": "OmniJev/awesome-jev-gallery: Papers, open reproductions and independent evaluations behind System One models and Jev.",
+          "publishedAt": "2026-09-17T20:16:57Z"
+        },
+        {
+          "id": 7,
+          "url": "https://github.com/0xNatoshi/jev-codex-router",
+          "source": "github",
+          "title": "0xNatoshi/jev-codex-router: Per-turn model & reasoning routing for Codex, driven by Jev (TypeSafe System One).",
+          "publishedAt": "2026-09-17T04:14:19Z"
+        },
+        {
+          "id": 8,
+          "url": "https://github.com/hyperspaceai/jevcache",
+          "source": "github",
+          "title": "hyperspaceai/jevcache: A decision cache for TypeSafe Jev-class models — memoize decisions so repeats are free, deterministic, and shareable. One 2 MB binary.",
+          "publishedAt": "2026-09-18T11:22:25Z"
+        },
+        {
+          "id": 9,
+          "url": "https://github.com/everyinfra/jev-radar",
+          "source": "github",
+          "title": "everyinfra/jev-radar: The world's most comprehensive tracker of the Jev (TypeSafe AI System One) ecosystem — 220+ documented cases, verified & rescanned every 3 hours.",
+          "publishedAt": "2026-09-19T06:21:52Z"
+        },
+        {
+          "id": 10,
+          "url": "https://github.com/samdotmak/jev-recall",
+          "source": "github",
+          "title": "samdotmak/jev-recall: Retrieve by relevance, not resemblance: filter an AI assistant's memories with TypeSafe's Jev",
+          "publishedAt": "2026-09-19T20:08:14Z"
+        },
+        {
+          "id": 11,
+          "url": "https://github.com/ikermoel/open-alternative-jev",
+          "source": "github",
+          "title": "ikermoel/open-alternative-jev: Open-source alternative to TypeSafe's Jev: a System One style model layer that gives typed, calibrated decisions from any open-weights LLM in one forward pass (HF + vLLM), with honest benchmarks",
+          "publishedAt": "2026-09-18T05:20:56Z"
+        },
+        {
+          "id": 12,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wleg4w/what_is_jev_and_what_is_it_used_for/",
+          "source": "reddit",
+          "title": "What is JEV and what is it used for?",
+          "publishedAt": "2026-09-20T11:20:05.000Z"
+        },
+        {
+          "id": 13,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlfmgq/is_typesafe_basedderived_from_work_done_by_the/",
+          "source": "reddit",
+          "title": "Is Typesafe based/derived from work done by the Laya author?",
+          "publishedAt": "2026-09-20T12:19:44.000Z"
+        },
+        {
+          "id": 14,
+          "url": "https://blog.trulm.com/posts/tiny-story-writer-with-a-teacher/",
+          "source": "hackernews",
+          "title": "Using Jev as a teacher to help an SLM write better stories",
+          "publishedAt": "2026-09-20T17:02:00Z"
+        },
+        {
+          "id": 15,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlpthk/fly_brain_vs_jev/",
+          "source": "reddit",
+          "title": "Fly brain vs jev",
+          "publishedAt": "2026-09-20T19:08:40.000Z"
+        }
+      ],
+      "tags": ["agents", "open-source", "github", "system-one", "typed-decisions"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "chatgpt-ad-collector-privacy-ko",
+      "headline": "ChatGPT, 광고 수집기를 통해 타 웹사이트 활동 파악",
+      "dek": "오늘 최고 반응을 얻은 AI 항목은 광고를 통해 수집된 웹사이트 활동 데이터와 ChatGPT의 연계를 다뤘으며 프라이버시 실무 노트와 기밀 유출 차단 프록시 소식이 함께 전해졌다.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "Hacker News에서 포인트와 댓글 합계 708건으로 최고 반응을 얻은 AI 항목은 광고 수집기를 통해 타 웹사이트 활동 정보가 ChatGPT로 유입된다는 내용이다.",
+        "관련 항목으로는 프라이버시 업무에서의 LLM 활용 메모와 모델 도달 전 요청 및 첨부파일 내 기밀을 검사하는 프록시 도구가 수집됐다.",
+        "세 항목은 모델 접근에 수반되는 데이터 노출 위험이 모델 성능 자체와는 별개의 문제라는 공통된 지점을 가리킨다."
+      ],
+      "body": [
+        {
+          "text": "광고 수집기를 통해 ChatGPT가 타 웹사이트 활동을 파악한다는 제목의 Hacker News 게시물이 포인트와 댓글 합산 708건을 기록하며 수집된 AI 항목 중 가장 큰 반응을 얻었다. 해당 주장에 따르면 타 사이트에서의 활동이 광고 데이터 수집기를 거쳐 ChatGPT로 유입된다고 한다.",
+          "citations": [1]
+        },
+        {
+          "text": "두 개의 소규모 프로젝트는 동일한 문제에 방어적으로 접근한다. 하나는 프라이버시 업무에 LLM을 적용한 실무자의 관찰 기록이며, 다른 하나인 preflight는 LLM 요청과 첨부파일이 모델에 전송되기 전 기밀을 검사하는 프록시로 소개된다.",
+          "citations": [2, 3]
+        }
+      ],
+      "whyItMatters": "어시스턴트 기능이 더 많은 서드파티 신호를 흡수함에 따라 모델 세션의 프라이버시 경계는 제품 정책의 결정 사항이 된다. 이번 수집은 인바운드 데이터 흐름과 이를 검사하기 위해 구축되는 도구들을 동시에 보여준다.",
+      "editorNote": "피드에 원본 문서가 없는 헤드라인 수준의 주장이므로 신뢰도는 medium으로 분류한다. 구체적이고 검사 가능한 부분은 preflight 프로젝트와 프라이버시 실무 노트다.",
+      "cluster": [
+        {
+          "url": "https://github.com/emetgate/emetgate",
+          "source": "github",
+          "title": "Show HN: Emetgate – a verification gate between an LLM and your source tree"
+        },
+        {
+          "url": "https://desfontain.es/blog/llms-for-privacy.html",
+          "source": "hackernews",
+          "title": "Observations on LLMs for Privacy Work"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
+          "source": "hackernews",
+          "title": "ChatGPT now knows what you do on other websites via ad collector",
+          "publishedAt": "2026-09-20T15:18:44Z"
+        },
+        {
+          "id": 2,
+          "url": "https://desfontain.es/blog/llms-for-privacy.html",
+          "source": "hackernews",
+          "title": "Observations on LLMs for Privacy Work",
+          "publishedAt": "2026-09-20T05:33:11Z"
+        },
+        {
+          "id": 3,
+          "url": "https://github.com/ghuntley/preflight",
+          "source": "github",
+          "title": "A proxy that scans LLM requests/attach for secrets before they reach the model",
+          "publishedAt": "2026-09-20T14:47:47Z"
+        }
+      ],
+      "tags": ["privacy", "chatgpt", "security", "data"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "qwen-image-21-and-open-weight-cadence-ko",
+      "headline": "Qwen-Image-2.1 출시",
+      "dek": "오픈 가중치 이미지 모델이 공개된 당일 StepFun 모델의 포크가 Hugging Face에 빠르게 등장했으며 모델 트래커는 색인 규모를 556개로 집계했다.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "Alibaba의 이미지 모델 라인업을 확장하는 Qwen-Image-2.1이 출시됐으며 당일 Hugging Face에는 StepFun의 Step-5-Preview-BF16 포크가 등장했다.",
+        "로컬 테스트 커뮤니티에서는 Ling 3.0 Tiny와 Gemma 26B-A4B MoE를 비교하고 Qwen 3.8 제품군에 대한 테스트를 이어갔다.",
+        "Epoch AI, models.dev, LiveBench, Hugging Face에서 매시간 동기화하여 556개 모델을 시각화하는 커뮤니티 트래커가 144개 GitHub 스타를 기록했다."
+      ],
+      "body": [
+        {
+          "text": "Qwen-Image-2.1이 출시되며 이미지 생성 라인업에 새 버전이 추가됐다. 이 소식은 로컬 테스트 스레드에서 Qwen3.8-Flash-Next 기반 원샷 게임 데모를 비롯해 Qwen 3.8 제품군에 대한 테스트가 지속되던 날 전해졌다.",
+          "citations": [1, 4]
+        },
+        {
+          "text": "StepFun의 Step-5-Preview-BF16은 다른 계정을 통해 당일 Hugging Face에 포크되어 공개 가중치의 빠른 재배포 양상을 보여주었다. 수집 데이터에는 포크 사실만 헤드라인 수준으로 포함됐다.",
+          "citations": [2]
+        },
+        {
+          "text": "모델 비교 작업도 이어졌다. 한 논의에서는 Ling 3.0 Tiny와 Gemma 26B-A4B MoE가 맞붙었다. 규모 측면에서는 556개 대형 모델을 시각화하고 관련 벤치마크 사이트들과 매시간 동기화하는 트래커 프로젝트가 144개 GitHub 스타를 기록했다.",
+          "citations": [3, 5]
+        }
+      ],
+      "whyItMatters": "오픈 가중치 릴리스와 재배포 속도가 독립적인 평가 속도를 앞지르고 있다. 트래커와 미러는 커뮤니티가 유효한 색인을 유지하는 핵심 수단이며, 벤치마크가 나오기 전까지 발표 수준의 주장은 미검증으로 취급해야 한다.",
+      "editorNote": "수집된 데이터에 벤치마크 수치가 없어 성능보다는 출시 빈도와 배포 현황 위주로 서술했다.",
+      "cluster": [
+        {
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlt33y/ling_30_tiny_vs_gemma_26ba4b_moe/",
+          "source": "reddit",
+          "title": "Ling 3.0 Tiny vs. Gemma 26B-A4B MoE"
+        },
+        {
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlqxeu/qwen38flashnext_cosmic_arcade_oneshot_slop_game/",
+          "source": "reddit",
+          "title": "Qwen3.8-Flash-Next Cosmic Arcade oneshot slop game"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlgrft/qwenimage21_released/",
+          "source": "reddit",
+          "title": "Qwen-Image-2.1 released!",
+          "publishedAt": "2026-09-20T13:12:41.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wleycb/rene98cstep5previewbf16_huggingface_fork/",
+          "source": "reddit",
+          "title": "rene98c/Step-5-Preview-BF16 • HuggingFace (Fork)",
+          "publishedAt": "2026-09-20T11:47:17.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlt33y/ling_30_tiny_vs_gemma_26ba4b_moe/",
+          "source": "reddit",
+          "title": "Ling 3.0 Tiny vs. Gemma 26B-A4B MoE",
+          "publishedAt": "2026-09-20T21:11:51.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlqxeu/qwen38flashnext_cosmic_arcade_oneshot_slop_game/",
+          "source": "reddit",
+          "title": "Qwen3.8-Flash-Next Cosmic Arcade oneshot slop game",
+          "publishedAt": "2026-09-20T19:49:49.000Z"
+        },
+        {
+          "id": 5,
+          "url": "https://github.com/liyupi/ai-model-world",
+          "source": "github",
+          "title": "liyupi/ai-model-world: a visualization site that turns 556 large models into pixel characters, syncing hourly from Epoch AI, models.dev, LiveBench and Hugging Face.",
+          "publishedAt": "2026-09-17T03:12:17Z"
+        }
+      ],
+      "tags": ["open-weights", "qwen", "hugging-face", "releases"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "local-inference-throughput-claims-ko",
+      "headline": "16개 GB10 클러스터에서 Kimi K3(2.8T) 가속: 코딩 30 t/s, 동시 처리 최대 136 t/s",
+      "dek": "당일 커뮤니티 보고는 16개 GPU Kimi 클러스터, 7,000 TPS를 내는 가상의 1,000달러 Qwen3.8 칩, 단일 3090 3주 가동 보고, 메모리 대역폭 오버클럭을 아울렀다.",
+      "type": "DATA",
+      "readMinutes": 4,
+      "tldr": [
+        "16개 GB10 GPU 클러스터에서 2.8T 파라미터의 Kimi K3를 구동해 코딩 처리량 30 tokens/s, 최대 동시 처리량 136 tokens/s를 기록했다는 보고가 나왔다.",
+        "별도 스레드에서는 7,000 TPS 성능의 1,000달러 Qwen3.8-27B 전용 칩 논의가 제기됐고, 단일 RTX 3090에서 Qwen 3.8 27B를 3주간 가동한 사례도 보고됐다.",
+        "중국 CXMT는 신규 메모리 칩 플랫폼 양산 돌입을 밝혔으며 한 개인 사용자는 오버클럭된 CMP 170hx에서 1.89 TB/s 메모리 대역폭을 보고했다."
+      ],
+      "body": [
+        {
+          "text": "장시간 구동 및 대형 모델 서빙이 오늘의 로컬 추론 보고를 주도했다. 16개 GB10 GPU 클러스터에서 2.8T 파라미터 모델인 Kimi K3를 구동해 코딩 처리량 30 tokens/s, 동시 처리 최대 136 tokens/s를 기록했다는 소식과 함께, 단일 RTX 3090에서 Qwen 3.8 27B를 3주 동안 연속 사용한 보고가 올라왔다.",
+          "citations": [1, 3]
+        },
+        {
+          "text": "하드웨어 전망과 도구 개발도 함께 진행됐다. 한 스레드는 7,000 TPS로 동작 가능한 1,000달러 수준의 Qwen3.8-27B Taalas 칩 구매 의향을 물었고, 다른 스레드는 Flash-Next 모델용으로 ExllamaV3를 추천했다. Hacker News 게시물에서는 LocalAI, exo, GPUStack, vLLM 등 자체 호스팅 추론 오케스트레이터를 비교했다.",
+          "citations": [2, 4, 8]
+        },
+        {
+          "text": "소비자용 그래픽카드 벤치마크도 수치로 제시됐다. 한 사용자는 RTX 3060 12GB 환경에서 9개 LLM에 동일한 웹 개발 프롬프트를 약 8시간 동안 테스트했고, 단일 RTX 3090에서 8개 시각 언어모델을 테스트한 결과가 Hacker News에 공유됐다.",
+          "citations": [5, 6]
+        },
+        {
+          "text": "기저의 물리적 제약은 여전히 메모리였다. 오버클럭된 CMP 170hx에서 1.89 TB/s 메모리 대역폭을 달성했다는 스레드가 올라왔고, 중국 CXMT가 새 메모리 칩 플랫폼 양산에 들어갔다는 소식도 전해졌다. 두 항목 모두 단일 출처이거나 헤드라인 수준이며 통제된 방법론을 갖추지 못했다.",
+          "citations": [7, 9]
+        }
+      ],
+      "whyItMatters": "단일 머신 보고서는 오픈 모델 구동에 실제로 필요한 사양을 가장 빠르게 파악할 수 있는 공개 자료다. 대형 모델 환경의 실용성은 헤드라인 디코드 속도가 아니라 프리필과 메모리 대역폭에 의해 좌우되며 공급 열쇠는 메모리 제조사가 쥐고 있다.",
+      "editorNote": "모든 수치는 통일된 방법론 없이 개인 머신에서 보고된 커뮤니티 데이터이며 CXMT 항목은 헤드라인 수준이다. 보고된 수치는 원문 주장 그대로 전달한다.",
+      "cluster": [
+        {
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlo9nz/one_more_you_should_try_exllamav3exl3_for_flash/",
+          "source": "reddit",
+          "title": "One more 'you should try ExllamaV3/exl3 for flash next' appreciation post"
+        },
+        {
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlkxjw/cuda_enable_sparse_fa_for_qwen4_by_am17an_pull/",
+          "source": "reddit",
+          "title": "CUDA: enable sparse fa for qwen4 by am17an · Pull Request #28770 · ggml-org/llama.cpp"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlt577/speedup_kimi_k328t_on_a_16x_gb10_cluster_30_ts/",
+          "source": "reddit",
+          "title": "Speed-up Kimi K3(2.8T) on a 16x GB10 Cluster — 30 t/s coding throughput, 136 t/s concurrency peak.",
+          "publishedAt": "2026-09-20T21:14:05.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wltts7/would_you_buy_a_qwen3827b_taalas_chip_for_1k_if/",
+          "source": "reddit",
+          "title": "Would you buy a Qwen3.8-27B Taalas chip for $1k if it could run at 7,000 TPS?",
+          "publishedAt": "2026-09-20T21:41:37.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wloora/the_bear_can_dance_qwen_38_27b_on_one_3090_for_3/",
+          "source": "reddit",
+          "title": "The bear can dance: Qwen 3.8 27B on one 3090 for 3 weeks",
+          "publishedAt": "2026-09-20T18:26:30.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlo9nz/one_more_you_should_try_exllamav3exl3_for_flash/",
+          "source": "reddit",
+          "title": "One more 'you should try ExllamaV3/exl3 for flash next' appreciation post",
+          "publishedAt": "2026-09-20T18:10:37.000Z"
+        },
+        {
+          "id": 5,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wljzix/i_tested_9_llms_on_the_exact_same_webdev_prompt/",
+          "source": "reddit",
+          "title": "I tested 9 LLMs on the exact same web-dev prompt for ~8 hours — RTX 3060 12GB results (Rate the best!)",
+          "publishedAt": "2026-09-20T15:26:49.000Z"
+        },
+        {
+          "id": 6,
+          "url": "https://www.reddit.com/r/LocalLLaMA/s/uSxsTw5Wno",
+          "source": "hackernews",
+          "title": "Testing 8 VLMs on a single 3090 GPU",
+          "publishedAt": "2026-09-20T04:46:04Z"
+        },
+        {
+          "id": 7,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl9amq/reached_189_tbs_memory_bandwidth_overclocking_the/",
+          "source": "reddit",
+          "title": "Reached 1.89 TB/s memory bandwidth overclocking the CMP 170hx",
+          "publishedAt": "2026-09-20T06:27:26.000Z"
+        },
+        {
+          "id": 8,
+          "url": "https://www.nexlab.net/articles/self-hosted-inference-orchestrators-compared-2026/",
+          "source": "hackernews",
+          "title": "Self-hosted inference orchestrators compared: LocalAI, exo, GPUStack, vLLM",
+          "publishedAt": "2026-09-20T17:43:35Z"
+        },
+        {
+          "id": 9,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl9c2o/chinas_cxmt_says_new_memorychip_platform_enters/",
+          "source": "reddit",
+          "title": "China's CXMT says new memory-chip platform enters mass production",
+          "publishedAt": "2026-09-20T06:29:42.000Z"
+        }
+      ],
+      "tags": ["local-llm", "inference", "hardware", "memory", "qwen"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "harness-design-and-agent-verification-ko",
+      "headline": "코딩 에이전트를 위한 하네스 설계의 실증 연구",
+      "dek": "9월 17일 자 세 편의 프리프린트가 에이전트 스캐폴딩, 과대주장, 문제 해결을 다뤘으며, 에이전트의 주장이 코드 diff와 일치하는지 검사하는 도구들이 소형 저장소로 배포됐다.",
+      "type": "DEEP",
+      "readMinutes": 5,
+      "tldr": [
+        "9월 17일 공개된 3편의 arXiv 논문은 코딩 에이전트 하네스 설계, 프론티어 에이전트의 과대주장 경향, 트러블슈팅 에이전트를 위한 상태 저장 검색을 다뤘다.",
+        "Emetgate는 LLM과 소스 트리 사이의 검증 게이트 역할을 하고 NiceTryGPT는 CTF 편법을 겨냥하며 Bailout은 삭제를 전제로 한 코딩 에이전트를 표방한다.",
+        "별도의 기고글은 잘못 정렬된 인용이 LLM 생성 과학 연구 사기로 이어지는 경로를 분석했다."
+      ],
+      "body": [
+        {
+          "text": "코딩 에이전트를 위한 하네스 설계의 실증 연구 논문은 가중치 자체가 아닌 모델 주변의 스캐폴딩을 주요 연구 변수로 다룬다. 이 논문은 프론티어 LLM 에이전트의 과대주장 성향을 직접 측정하려는 다른 9월 17일 자 논문과 함께 공개됐다.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "세 번째 논문인 RAFT는 트러블슈팅 에이전트를 위한 상태 저장 검색 증강 프레임워크를 다루며 검색에 영구 상태를 추가한다. 이들 논문은 단순 성능보다 운영 신뢰성에 초점을 맞춘다.",
+          "citations": [3]
+        },
+        {
+          "text": "소규모 저장소들도 동일한 아이디어를 도구 형태로 구현하고 있다. Emetgate는 LLM과 소스 트리 사이의 검증 게이트로 소개되며, NiceTryGPT는 CTF 과제의 편법을 방지한다. Bailout은 삭제를 전제로 설계된 코딩 에이전트이며, is-gpt-nerfed는 잠잠한 모델 변경을 감시하고, i-dont-believe-you는 diff 결과와 다르게 성공을 주장하는 에이전트를 차단하는 기술이다.",
+          "citations": [4, 5, 6, 7, 8]
+        },
+        {
+          "text": "평가의 무결성 역시 주요 논점이다. 잘못 정렬된 인용과 LLM 생성 과학 사기라는 9월 20일 자 글은 인용 왜곡을 연구 조작과 연결하며, 출처와 교차 검증되지 않는 출력을 내는 모든 에이전트에 직접적인 시사점을 준다.",
+          "citations": [9]
+        }
+      ],
+      "whyItMatters": "코딩 에이전트 배포는 벤치마크 점수에 힘입어 진행되고 있다. 신뢰성을 결정하는 요인이 하네스와 주장 검증이라면 평가 및 검증 연구는 현장에서 가장 즉각적인 가치를 갖는 분야가 된다.",
+      "editorNote": "arXiv 항목들은 제목과 저자 정보만 수집 데이터에 포함되어 각 논문의 범위는 제목에 기초해 기술되었으며 논문 결과는 직접 검증하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://github.com/Continuum-AI-Corp/OrcaPromptVault",
+          "source": "github",
+          "title": "Continuum-AI-Corp/OrcaPromptVault: a versioned, verifiable archive of system prompts, developer instructions, tool schemas and agent harnesses"
+        },
+        {
+          "url": "https://github.com/storozhenko98/bailout",
+          "source": "github",
+          "title": "Show HN: Bailout – The coding agent meant to be deleted"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "http://arxiv.org/abs/2609.20804v1",
+          "source": "arxiv",
+          "title": "An Empirical Study of Harness Design for Coding Agents",
+          "publishedAt": "2026-09-17T17:58:07Z"
+        },
+        {
+          "id": 2,
+          "url": "http://arxiv.org/abs/2609.20812v1",
+          "source": "arxiv",
+          "title": "Quantifying Overclaiming Propensity in Frontier LLM Agents",
+          "publishedAt": "2026-09-17T17:59:04Z"
+        },
+        {
+          "id": 3,
+          "url": "http://arxiv.org/abs/2609.20754v1",
+          "source": "arxiv",
+          "title": "RAFT: A Stateful Retrieval-Augmented Framework for Troubleshooting Agents",
+          "publishedAt": "2026-09-17T17:41:31Z"
+        },
+        {
+          "id": 4,
+          "url": "https://github.com/emetgate/emetgate",
+          "source": "github",
+          "title": "Show HN: Emetgate – a verification gate between an LLM and your source tree",
+          "publishedAt": "2026-09-20T19:29:19Z"
+        },
+        {
+          "id": 5,
+          "url": "https://github.com/aleff-github/NiceTryGPT",
+          "source": "github",
+          "title": "Show HN: NiceTryGPT and CTF and riduzione degli shortcut LLM",
+          "publishedAt": "2026-09-20T19:11:57Z"
+        },
+        {
+          "id": 6,
+          "url": "https://github.com/storozhenko98/bailout",
+          "source": "github",
+          "title": "Show HN: Bailout – The coding agent meant to be deleted",
+          "publishedAt": "2026-09-20T18:14:58Z"
+        },
+        {
+          "id": 7,
+          "url": "https://github.com/kiyoakii/is-gpt-nerfed",
+          "source": "github",
+          "title": "kiyoakii/is-gpt-nerfed: Shrinkflation detector for Codex",
+          "publishedAt": "2026-09-15T10:22:16Z"
+        },
+        {
+          "id": 8,
+          "url": "https://github.com/LeonardLeroy/i-dont-believe-you",
+          "source": "github",
+          "title": "LeonardLeroy/i-dont-believe-you: A skill to stop your coding agent from telling you it works when the diff says otherwise.",
+          "publishedAt": "2026-09-15T22:43:48Z"
+        },
+        {
+          "id": 9,
+          "url": "https://jilltxt.net/misaligned-citations-and-llm-generated-scientific-fraud/",
+          "source": "hackernews",
+          "title": "Misaligned citations and LLM-generated scientific fraud",
+          "publishedAt": "2026-09-20T16:02:41Z"
+        }
+      ],
+      "tags": ["agents", "research", "evaluation", "tooling", "arxiv"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "model-preservation-and-trust-debate-ko",
+      "headline": "Pirate Face, 삭제 위기의 LLM 모델 구조",
+      "dek": "모델 보존, 챗 모델의 동작 방식을 다룬 에세이, LLM 발전 정체를 주장하는 영상이 오늘의 신뢰 및 행동 클러스터를 구성했다.",
+      "type": "BRIEF",
+      "readMinutes": 4,
+      "tldr": [
+        "포인트와 댓글 합산 485건을 기록한 Pirate Face는 삭제 위기의 LLM 모델을 구출한다는 취지로 오늘 두 번째로 높은 반응을 얻었다.",
+        "388포인트를 얻은 에세이는 대화형 LLM이 심령술사의 사기 수법을 복제한다고 주장했고, 별도 영상은 MIT가 LLM 발전의 한계를 입증했다고 주장했다.",
+        "Two Minute Papers는 DeepSeek의 신규 아키텍처를 소개했다."
+      ],
+      "body": [
+        {
+          "text": "Pirate Face라는 프로젝트는 삭제 위기의 LLM 모델을 구출한다는 제목으로 포인트와 댓글 합산 485건을 얻어 수집된 AI 항목 중 두 번째로 높은 호응을 받았다. 피드에는 프로젝트의 프레이밍만 담겨 있고 방식이나 범위는 제시되지 않았다.",
+          "citations": [1]
+        },
+        {
+          "text": "모델의 동작과 출처 문제도 많은 관심을 받았다. 대화형 LLM이 심령술사의 사기 수법 메커니즘을 복제한다는 제목의 에세이가 합산 388건의 반응을 얻었고, MIT가 LLM이 더 똑똑해지지 않을 것임을 증명했으며 자본으로도 해결할 수 없다고 주장하는 영상도 공유됐다.",
+          "citations": [2, 3]
+        },
+        {
+          "text": "기능적 측면에서는 Two Minute Papers가 DeepSeek의 신규 아키텍처를 소개했다. 이 세 항목은 보존, 신뢰, 기술 진보 주장을 아우르고 있으나 공통된 실증 기준을 제공하지는 않는다.",
+          "citations": [4]
+        }
+      ],
+      "whyItMatters": "모델의 보존 여부, 대화 내 동작 방식, 기술 발전 정체 여부는 조달과 정책 결정의 핵심 변수다. 오늘 높은 호응을 얻은 항목들은 이러한 질문들이 측정 못지않게 논리와 프레이밍에 좌우되고 있음을 보여준다.",
+      "editorNote": "Pirate Face와 MIT 관련 항목은 헤드라인 수준이며 에세이는 오피니언 글이다. 모든 내용은 발견된 사실이 아닌 주장으로 표기했다.",
+      "cluster": [
+        {
+          "url": "https://news.ycombinator.com/item?id=49776698",
+          "source": "hackernews",
+          "title": "Ask HN: What is one plausible path to 'AI extinction'?"
+        },
+        {
+          "url": "https://github.com/friday-memory/friday",
+          "source": "github",
+          "title": "friday-memory/friday: the open-source persistent cognitive memory layer for AI coding agents"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://pirateface.co/",
+          "source": "hackernews",
+          "title": "Pirate Face Rescues LLM Models from Deletion",
+          "publishedAt": "2026-09-20T15:16:07Z"
+        },
+        {
+          "id": 2,
+          "url": "https://softwarecrisis.dev/letters/llmentalist/",
+          "source": "hackernews",
+          "title": "Chat-based Large Language Models replicate the mechanisms of a psychic's con",
+          "publishedAt": "2026-09-20T12:20:13Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.youtube.com/watch?v=6xQ8LQfkBg4",
+          "source": "hackernews",
+          "title": "MIT Just Proved LLMs Will Stop Getting Smarter, and Money Won't Fix It [video]",
+          "publishedAt": "2026-09-20T09:33:38Z"
+        },
+        {
+          "id": 4,
+          "url": "https://www.youtube.com/watch?v=vIHw_2VjSUw",
+          "source": "youtube",
+          "title": "Two Minute Papers: DeepSeek's Insane New Architecture",
+          "publishedAt": "2026-09-18T07:03:46.000Z"
+        }
+      ],
+      "tags": ["community", "trust", "model-behavior", "safety"],
+      "confidence": "medium"
+    }
+  ]
+}

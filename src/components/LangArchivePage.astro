@@ -1,0 +1,26 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import VerticalChip from './VerticalChip.astro';
+import { dateEntries, editionHref, editionsInLang, getEditions, monthEntries, monthHref, type Lang } from '../lib/editions';
+import { type Vertical } from '../lib/site';
+import { formatDateLong, formatMonthYear, pluralize } from '../lib/format';
+import { breadcrumbJsonLd } from '../lib/seo';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const editions = editionsInLang(await getEditions(), lang);
+const months = monthEntries(editions);
+const days = dateEntries(editions);
+const jsonLd = breadcrumbJsonLd([{ name: 'Home', path: `/${lang}` }, { name: 'Archive', path: `/${lang}/archive` }]);
+---
+
+<BaseLayout title="Archive" description={`Every Signal Daily ${lang.toUpperCase()} edition, newest first.`} path={`/${lang}/archive`} jsonLd={jsonLd}>
+  <header class="sr-page-head"><p class="sr-micro sr-micro--accent">Archive</p><h1>Every edition</h1><p class="sr-page-head__lede">{pluralize(days.length, 'day')} · {pluralize(months.length, 'month')}</p></header>
+  {months.map((month) => <section class="sr-section" aria-labelledby={`m-${month.year}-${month.month}`}>
+    <div class="sr-section__head"><h2 class="sr-section__title" id={`m-${month.year}-${month.month}`}>{formatMonthYear(month.year, month.month)}</h2><a class="sr-micro" href={monthHref(`${month.year}-${month.month}-01`, lang)}>month index →</a></div>
+    <div class="sr-index">{month.dates.map((entry) => <article class="sr-row">
+      <a class="sr-row__link" href={editionHref(entry.date, lang)} data-nav-item><span class="sr-row__meta sr-micro">{formatDateLong(entry.date)} · {pluralize(entry.storyCount, 'story', 'stories')}</span><span class="sr-row__title">{entry.editions.map((edition) => edition.data.title).join(' / ')}</span></a>
+      <span class="sr-row__aside sr-micro">{entry.editions.map((edition) => <VerticalChip vertical={edition.data.vertical as Vertical} />)}</span>
+    </article>)}</div>
+  </section>)}
+</BaseLayout>

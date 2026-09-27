@@ -1,0 +1,13 @@
+---
+import LangVerticalPage from '../../../components/LangVerticalPage.astro';
+import { VERTICALS, isVertical } from '../../../lib/site';
+import type { Lang } from '../../../lib/editions';
+
+export function getStaticPaths() {
+  return (['en', 'ko'] as const).flatMap((lang) => VERTICALS.map((vertical) => ({ params: { lang, vertical } })));
+}
+const { lang, vertical } = Astro.params;
+if ((lang !== 'en' && lang !== 'ko') || !vertical || !isVertical(vertical)) throw new Error('Invalid language or vertical');
+---
+
+<LangVerticalPage lang={lang as Lang} vertical={vertical} />

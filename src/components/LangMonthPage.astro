@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { dateEntries, editionHref, editionsInLang, getEditions, monthEntries, monthHref, type Lang } from '../lib/editions';
+import { formatDateLong, formatMonthYear, pluralize } from '../lib/format';
+import { breadcrumbJsonLd } from '../lib/seo';
+
+interface Props { lang: Lang; year: string; month: string }
+const { lang, year, month } = Astro.props;
+const editions = editionsInLang(await getEditions(), lang);
+const label = formatMonthYear(year, month);
+const months = monthEntries(editions);
+const current = months.find((entry) => entry.year === year && entry.month === month);
+const entries = current?.dates ?? dateEntries(editions);
+const index = months.findIndex((entry) => entry.year === year && entry.month === month);
+const newer = index > 0 ? months[index - 1] : null;
+const older = index >= 0 ? months[index + 1] : null;
+const jsonLd = breadcrumbJsonLd([{ name: 'Home', path: `/${lang}` }, { name: 'Archive', path: `/${lang}/archive` }, { name: label, path: monthHref(`${year}-${month}-01`, lang) }]);
+---
+
+<BaseLayout title={label} description={`Every Signal Daily ${lang.toUpperCase()} edition published in ${label}.`} path={monthHref(`${year}-${month}-01`, lang)} jsonLd={jsonLd}>
+  <header class="sr-page-head"><p class="sr-micro sr-micro--accent">Month index</p><h1>{label}</h1><p class="sr-page-head__lede">{pluralize(entries.length, 'edition')} · {pluralize(current?.storyCount ?? 0, 'story', 'stories')}</p>
+    <nav class="sr-pager sr-micro" aria-label="Month navigation"><span>{older && <a href={monthHref(`${older.year}-${older.month}-01`, lang)}>← {formatMonthYear(older.year, older.month)}</a>}</span><span>{newer && <a href={monthHref(`${newer.year}-${newer.month}-01`, lang)}>{formatMonthYear(newer.year, newer.month)} →</a>}</span></nav>
+  </header>
+  <section class="sr-section"><div class="sr-section__head"><h2 class="sr-section__title">Editions</h2></div><div class="sr-index">{entries.map((entry) => <article class="sr-row"><a class="sr-row__link" href={editionHref(entry.date, lang)} data-nav-item><span class="sr-row__meta sr-micro">{formatDateLong(entry.date)} · {pluralize(entry.storyCount, 'story', 'stories')}</span><span class="sr-row__title">{entry.editions.map((edition) => edition.data.title).join(' / ')}</span></a></article>)}</div></section>
+</BaseLayout>

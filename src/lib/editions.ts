@@ -8,14 +8,30 @@ export type Story = EditionData['stories'][number];
 export type StorySource = Story['sources'][number];
 export type StoryClusterLink = Story['cluster'][number];
 
+// 2-3: 에디션 언어. 기존 무prefix 호출 호환을 위해 조회 함수의 lang 기본값은 'en'.
+// 파일명 운용 규약: `<vertical>.json` = en, `<vertical>.ko.json` = ko.
+export type Lang = 'ko' | 'en';
+
 export interface StoryRef {
   slug: string;
+  lang: Lang;
   story: Story;
   vertical: Vertical;
   editionId: string;
   date: string;
   generatedAt: string;
   href: string;
+}
+
+/** 에디션 언어. lang 미표기 구 파일과의 호환을 위해 기본값 'en'. */
+export function editionLang(edition: Edition): Lang {
+  const lang = (edition.data as { lang?: unknown }).lang;
+  return lang === 'ko' ? 'ko' : 'en';
+}
+
+/** 언어 필터: 지정 언어 에디션만 반환. */
+export function editionsInLang(editions: Edition[], lang: Lang): Edition[] {
+  return editions.filter((edition) => editionLang(edition) === lang);
 }
 
 let editionsPromise: Promise<Edition[]> | null = null;
@@ -90,39 +106,90 @@ export function sourceCount(story: Story): number {
   return hostnames.size;
 }
 
-export function editionHref(date: string): string {
-  return `/${date.split('-').join('/')}`;
+export function editionHref(date: string, lang?: Lang): string {
+  const base = `/${date.split('-').join('/')}`;
+  return lang === undefined ? base : `/${lang}${base}`;
 }
 
-export function monthHref(date: string): string {
+export function monthHref(date: string, lang?: Lang): string {
   const [year, month] = date.split('-');
-  return `/${year}/${month}`;
+  const base = `/${year}/${month}`;
+  return lang === undefined ? base : `/${lang}${base}`;
 }
 
-export function storyHref(slug: string): string {
-  return `/story/${slug}`;
+export function storyHref(slug: string, lang?: Lang): string {
+  const base = `/story/${slug}`;
+  return lang === undefined ? base : `/${lang}${base}`;
 }
 
-export function verticalHref(vertical: Vertical): string {
-  return `/${vertical}`;
+export function verticalHref(vertical: Vertical, lang?: Lang): string {
+  const base = `/${vertical}`;
+  return lang === undefined ? base : `/${lang}${base}`;
+}
+
+/**
+ * 3-1: 언어 prefix 경로 유틸. 기존 무prefix 호출(lang 생략)은 레거시 경로를
+ * 그대로 반환하므로 기존 호출부와 호환된다. lang을 넘기면 `/{lang}` prefix 경로.
+ */
+export function langOfPath(pathname: string): Lang | null {
+  const match = pathname.replace(/\/+$/, '').match(/^\/(ko|en)(?=\/|$)/);
+  return match ? (match[1] as Lang) : null;
+}
+
+export function stripLangPrefix(pathname: string): { lang: Lang | null; rest: string } {
+  const lang = langOfPath(pathname);
+  if (!lang) return { lang: null, rest: pathname };
+  const rest = pathname.replace(/\/+$/, '').slice(lang.length + 1) || '/';
+  return { lang, rest };
+}
+
+/**
+ * 3-3 Header 전환 링크용: 현재 경로의 대응 언어 경로를 반환한다.
+ * 스토리 경로는 slug 규칙(en `<base>` ↔ ko `<base>-ko`, plan §9 1-1)으로 매핑하고,
+ * 그 외는 prefix 치환(무prefix면 prefix 부착)한다.
+ */
+export function counterpartPath(pathname: string, target: Lang): string {
+  const normalized = pathname === '/' ? '/' : pathname.replace(/\/+$/, '') || '/';
+  const { lang: current, rest } = stripLangPrefix(normalized);
+  if (current === target) return normalized;
+  const storyMatch = rest.match(/^\/story\/([^/]+)$/);
+  if (storyMatch) {
+    const slug = storyMatch[1];
+    const mapped =
+      target === 'ko' ? (slug.endsWith('-ko') ? slug : `${slug}-ko`) : koBaseSlug(slug);
+    return `/${target}/story/${mapped}`;
+  }
+  if (rest === '/' || rest === '') return `/${target}`;
+  return `/${target}${rest}`;
+}
+
+/** ko `<base>-ko` → en `<base>` (validate-i18n koBaseSlug과 동일 규칙). */
+export function koBaseSlug(slug: string): string {
+  return slug.endsWith('-ko') ? slug.slice(0, -3) : slug;
 }
 
 export function toStoryRef(edition: Edition, story: Story): StoryRef {
+  const lang = editionLang(edition);
   return {
     slug: story.slug,
+    lang,
     story,
     vertical: edition.data.vertical,
     editionId: edition.id,
     date: edition.data.date,
     generatedAt: edition.data.generatedAt,
-    href: storyHref(story.slug),
+    // 3-1: 정식(canonical) 경로는 언어 prefix 경로. 레거시 무prefix URL은
+    // astro.config.mjs 리다이렉트로 /en/**(ko는 /ko/**)에 흡수된다.
+    href: storyHref(story.slug, lang),
   };
 }
 
-export function allStoryRefs(editions: Edition[]): StoryRef[] {
+export function allStoryRefs(editions: Edition[], lang: Lang = 'en'): StoryRef[] {
+  // 언어 스코프 분리: 지정 언어 에디션만 순회하므로 en `foo`와 ko `foo-ko`가
+  // 서로의 중복 검사에 걸리지 않는다. 에디션 내 정확 일치 중복은 거부 유지.
   const seen = new Set<string>();
   const refs: StoryRef[] = [];
-  for (const edition of editions) {
+  for (const edition of editionsInLang(editions, lang)) {
     for (const story of edition.data.stories) {
       if (seen.has(story.slug)) {
         console.warn(`[signalroom] duplicate story slug ignored: ${story.slug}`);
@@ -135,28 +202,32 @@ export function allStoryRefs(editions: Edition[]): StoryRef[] {
   return refs;
 }
 
-export async function getStoryRefs(): Promise<StoryRef[]> {
-  return allStoryRefs(await getEditions());
+export async function getStoryRefs(lang: Lang = 'en'): Promise<StoryRef[]> {
+  return allStoryRefs(await getEditions(), lang);
 }
 
-export async function getStoryRef(slug: string): Promise<StoryRef | undefined> {
-  return (await getStoryRefs()).find((ref) => ref.slug === slug);
+export async function getStoryRef(slug: string, lang: Lang = 'en'): Promise<StoryRef | undefined> {
+  return (await getStoryRefs(lang)).find((ref) => ref.slug === slug);
 }
 
 export function newestDate(editions: Edition[]): string | null {
   return editions.length > 0 ? editions[0].data.date : null;
 }
 
-export function editionsOnDate(editions: Edition[], date: string): Edition[] {
-  return editions.filter((edition) => edition.data.date === date);
+export function editionsOnDate(editions: Edition[], date: string, lang?: Lang): Edition[] {
+  return editions.filter(
+    (edition) => edition.data.date === date && (lang === undefined || editionLang(edition) === lang),
+  );
 }
 
-export function editionsForVertical(editions: Edition[], vertical: Vertical): Edition[] {
-  return editions.filter((edition) => edition.data.vertical === vertical);
+export function editionsForVertical(editions: Edition[], vertical: Vertical, lang?: Lang): Edition[] {
+  return editions.filter(
+    (edition) => edition.data.vertical === vertical && (lang === undefined || editionLang(edition) === lang),
+  );
 }
 
-export function refsOnDate(refs: StoryRef[], date: string): StoryRef[] {
-  return refs.filter((ref) => ref.date === date);
+export function refsOnDate(refs: StoryRef[], date: string, lang?: Lang): StoryRef[] {
+  return refs.filter((ref) => ref.date === date && (lang === undefined || ref.lang === lang));
 }
 
 export interface DateEntry {

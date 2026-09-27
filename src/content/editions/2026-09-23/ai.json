@@ -2,6 +2,7 @@
   "date": "2026-09-23",
   "generatedAt": "2026-09-24T01:40:00.000Z",
   "vertical": "ai",
+  "lang": "en",
   "title": "AI: Jev evaluations and model-swapping tools for coding agents",
   "summary": "A thin day for AI in this edition, with two stories. An arXiv paper found matching scores but different decisions when Jev and language models were tested on legal documents, alongside a community test on 770 AITA posts and more Jev tooling on GitHub. Separately, a menu-bar tool for running coding agents on other providers' models appeared as practitioners discussed splitting work across models. This edition covers items published before 22:00 UTC on 23 September; later items, including the OpenAI and Anthropic CEOs' UN appeal and the Mercury 2.5 speed figure, are in the 24 September edition. Other collected items lacked a second independent source.",
   "stories": [

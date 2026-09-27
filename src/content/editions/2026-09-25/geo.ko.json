@@ -1,0 +1,270 @@
+{
+  "date": "2026-09-25",
+  "generatedAt": "2026-09-25T10:10:10Z",
+  "vertical": "geo",
+  "lang": "ko",
+  "title": "시그널 데일리 — 지정학",
+  "summary": "통신 피드에서 57건의 고유 항목을 수집했다. ReliefWeb은 미설정 상태였고 GDELT, ISW, Polymarket 요청은 실패했다. 확보 가능한 교차 매체 보도를 바탕으로 5편의 스토리를 수록한다.",
+  "stories": [
+    {
+      "slug": "us-china-summit-diplomacy-ko",
+      "headline": "트럼프와 시진핑, 국빈 만찬서 덕담 나눴으나 주요 현안 진전은 미미",
+      "dek": "미국과 중국은 고위급 정상회동에서 화기애애한 분위기를 연출했으나 주요 현안의 실질적 진전은 제한적이었다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "BBC는 국빈 만찬에서 따뜻한 대화가 오갔으나 주요 쟁점에 대한 진전은 거의 없었다고 보도했다.",
+        "Al Jazeera는 시진핑이 미·중 군사적 충돌을 피하기 위한 조건을 제시했다고 전했다.",
+        "기사 헤드라인들은 핵심 현안들이 해결되었음을 입증하지 않는다."
+      ],
+      "body": [
+        {
+          "text": "BBC는 국빈 만찬이 화기애애했다고 평가하면서도 실질적 진전은 거의 없었다고 전했다. Al Jazeera는 군사적 충돌 방지를 위해 시진핑이 제시한 조건을 별도로 보도했으나, 이러한 헤드라인들이 현안 해결을 보여주는 것은 아니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "보도들은 미·중 외교의 다각적 흐름을 보여주는 한편, 주요 헤드라인은 제한된 진전을 시사한다.",
+      "editorNote": "동일한 정상회담 외교를 다루었으나 별개의 보도다.",
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/us-news/2026/sep/24/xi-jinping-trump-china-cooperation-thucydides-trap",
+          "source": "wire",
+          "title": "At Trump meeting, Xi Jinping lays out terms to avoid US-China military conflict"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cxq63dqp93n1o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Trump and Xi exchange warm words at state dinner but little progress on key issues",
+          "publishedAt": "2026-09-25T08:09:26.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theguardian.com/us-news/2026/sep/24/xi-jinping-trump-china-cooperation-thucydides-trap",
+          "source": "wire",
+          "title": "At Trump meeting, Xi Jinping lays out terms to avoid US-China military conflict",
+          "publishedAt": "2026-09-24T23:58:11.000Z"
+        }
+      ],
+      "tags": [
+        "china",
+        "united-states",
+        "diplomacy"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "renewed-fighting-in-tigray-ko",
+      "headline": "에티오피아군, 새로운 전투 발생 후 첫 논평서 공격 격퇴 발표",
+      "dek": "에티오피아 티그라이 지역에서의 전투 재개와 확전 우려를 다룬 보도가 잇따르고 있다.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "BBC는 에티오피아군이 새로운 전투에 대한 첫 논평에서 공격을 격퇴했다고 밝혔다고 보도했다.",
+        "Al Jazeera는 티그라이에서의 교전 재개가 내전 회귀에 대한 공포를 부르고 있다고 전했다.",
+        "헤드라인 보도로는 무력 충돌의 실제 규모나 전황을 확인할 수 없다."
+      ],
+      "body": [
+        {
+          "text": "BBC는 공격을 격퇴했다는 설명을 에티오피아군의 발표로 인용했다. Al Jazeera는 전투 재개가 내전 재발 우려를 낳고 있다고 전했으나 이는 보도된 우려일 뿐 확정된 결과는 아니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "출처의 명시와 불확실성의 표기가 현재 확보된 보도의 핵심이다.",
+      "editorNote": "제공된 데이터는 헤드라인뿐이며, 공격 격퇴 주장은 에티오피아 군 당국의 발표에 근거한다.",
+      "cluster": [
+        {
+          "url": "https://www.dw.com/en/how-renewed-fighting-in-tigray-could-spread-across-the-horn-of-africa/a-79410333?maca=en-rss-en-world-4025-rdf",
+          "source": "wire",
+          "title": "How renewed fighting in Tigray could spread across the Horn of Africa"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cqevwm09w4xmo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Ethiopia's army says it has repelled attacks in first comment on fresh fighting",
+          "publishedAt": "2026-09-24T15:37:45.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.dw.com/en/how-renewed-fighting-in-tigray-could-spread-across-the-horn-of-africa/a-79410333?maca=en-rss-en-world-4025-rdf",
+          "source": "wire",
+          "title": "How renewed fighting in Tigray could spread across the Horn of Africa",
+          "publishedAt": "2026-09-25T05:58:00.000Z"
+        }
+      ],
+      "tags": [
+        "ethiopia",
+        "tigray",
+        "conflict"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "israel-un-speech-and-walkout-ko",
+      "headline": "네타냐후, UN 연설 전 대표단 퇴장 속 이스라엘 군사 작전 옹호",
+      "dek": "이스라엘의 UN 총회 연설은 총회의 외교적 긴장 속에서 집단 퇴장을 초래했다.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "BBC는 네타냐후의 UN 연설 전에 각국 대표단이 퇴장했다고 보도했다.",
+        "Al Jazeera는 UN 총회 사흘째 일정 중에 위기와 퇴장이 이어졌다고 전했다.",
+        "기사 제목들만으로는 어느 국가 대표단이 얼마나 많이 퇴장했는지 특정할 수 없다."
+      ],
+      "body": [
+        {
+          "text": "BBC는 이스라엘 총리의 UN 연설 전에 대표단이 퇴장했다고 전했다. Al Jazeera는 총회 3일 차의 퇴장 사태를 별도로 보도했으나 동일한 참가자인지는 밝히지 않았다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "대표단 퇴장은 외교적 반발을 나타내지만, 헤드라인만으로는 그 구성이나 영향을 확인할 수 없다.",
+      "editorNote": "헤드라인은 퇴장한 대표단을 특정하지 않았으며 신원을 추정하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/25/converging-crises-chaos-and-walkouts-dominate-unga-day-three?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Converging crises, chaos and walkouts dominate UNGA Day Three"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c3y0z7kxlegdo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Netanyahu defends Israeli military action as delegates walk out before UN speech",
+          "publishedAt": "2026-09-25T00:44:04.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/25/converging-crises-chaos-and-walkouts-dominate-unga-day-three?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Converging crises, chaos and walkouts dominate UNGA Day Three",
+          "publishedAt": "2026-09-25T06:28:00.000Z"
+        }
+      ],
+      "tags": [
+        "israel",
+        "united-nations",
+        "diplomacy"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "italy-school-face-covering-and-foreign-pupil-rules-ko",
+      "headline": "이탈리아 장관들, 교내 부르카·니캅 착용 금지 및 외국인 학생 비율 상한 합의",
+      "dek": "두 매체는 얼굴 가리개와 외국인 학생에 영향을 미치는 이탈리아 학교 규제안을 보도했다.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "BBC는 장관들이 교내 부르카 및 니캅 착용을 금지하고 학급당 외국인 학생 비율을 제한하는 데 합의했다고 보도했다.",
+        "Al Jazeera는 이탈리아가 학교 내 부르카 금지와 외국인 학생 제한을 추진하고 있다고 전했다.",
+        "수집된 헤드라인에는 구체적인 법안 조문이나 시행 일정이 나와 있지 않다."
+      ],
+      "body": [
+        {
+          "text": "BBC는 장관들이 학교 내 부르카와 니캅 착용 금지 및 외국인 학생 상한선 설정에 합의했다고 보도했다. Al Jazeera 역시 학교 부르카 금지와 외국인 학생 제한을 보도했다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 제안은 교육 제도와 종교적 복장 규정, 외국인 학생 기준을 다루고 있으며, 정확한 적용 범위는 정책 세부안에 달려 있다.",
+      "editorNote": "헤드라인 수준의 보도이며 법적 적용 범위와 구체적 실행 방안은 추론하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.dw.com/en/italy-to-ban-burqa-in-schools-limit-foreign-pupils/a-79423432?maca=en-rss-en-world-4025-rdf",
+          "source": "wire",
+          "title": "Italy to ban burqa in schools, limit foreign pupils"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cw99d8g48873o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Italy ministers agree to ban burqa and niqab in school and cap foreigners in class",
+          "publishedAt": "2026-09-24T19:32:59.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.dw.com/en/italy-to-ban-burqa-in-schools-limit-foreign-pupils/a-79423432?maca=en-rss-en-world-4025-rdf",
+          "source": "wire",
+          "title": "Italy to ban burqa in schools, limit foreign pupils",
+          "publishedAt": "2026-09-25T08:10:00.000Z"
+        }
+      ],
+      "tags": [
+        "italy",
+        "education",
+        "policy"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "pope-leo-france-visit-ko",
+      "headline": "교황 방문 앞두고 파리에 수십만 인파 운집 전망",
+      "dek": "조력 사망 및 성 학대 문제를 둘러싼 사회적 논쟁 속에 레오 교황의 프랑스 방문이 군중을 모으고 있다.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "BBC는 교황 방문을 맞아 파리에 수십만 명이 모일 것으로 예상된다고 보도했다.",
+        "Al Jazeera는 레오 교황이 조력 사망과 성 학대 논쟁 속에 프랑스로 향하고 있다고 전했다.",
+        "헤드라인은 예상과 맥락을 설명할 뿐 최종 참가 인원을 제시하지 않는다."
+      ],
+      "body": [
+        {
+          "text": "BBC는 파리에 수십만 명이 모일 것으로 예상된다고 전했다. Al Jazeera는 이번 방문을 조력 사망 및 학대 논란과 연관 지었으나, 두 헤드라인 모두 확인된 참석자 수를 제공하지는 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 방문은 대규모 공개 행사와 첨예한 사회적 논쟁을 결합하고 있으며, 참가 인원은 여전히 예상치로 남아 있다.",
+      "editorNote": "예상 참가 인원은 최종 공식 집계로 제시되지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/9/25/pope-leo-heads-to-france-amid-assisted-dying-abuse-debates?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Pope Leo heads to France amid assisted dying, abuse debates"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cmq8j904212po?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Hundreds of thousands expected in Paris for Pope's visit",
+          "publishedAt": "2026-09-25T09:35:37.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/news/2026/9/25/pope-leo-heads-to-france-amid-assisted-dying-abuse-debates?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Pope Leo heads to France amid assisted dying, abuse debates",
+          "publishedAt": "2026-09-25T07:41:24.000Z"
+        }
+      ],
+      "tags": [
+        "france",
+        "vatican",
+        "religion"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

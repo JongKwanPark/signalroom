@@ -1,5 +1,5 @@
 import { SITE, VERTICAL_META } from './site';
-import type { StoryRef } from './editions';
+import type { Lang, StoryRef } from './editions';
 
 export type JsonLd = Record<string, unknown>;
 
@@ -40,19 +40,20 @@ export function organizationJsonLd(): JsonLd {
   };
 }
 
-export function websiteJsonLd(): JsonLd {
+export function websiteJsonLd(lang: Lang = 'en'): JsonLd {
   return {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: SITE.name,
-    url: SITE.url,
+    url: absoluteUrl(`/${lang}`),
+    inLanguage: lang,
     description: SITE.description,
     publisher: publisherJsonLd(),
     potentialAction: {
       '@type': 'SearchAction',
       target: {
         '@type': 'EntryPoint',
-        urlTemplate: absoluteUrl('/search?q={search_term_string}'),
+        urlTemplate: absoluteUrl(`/${lang}/search?q={search_term_string}`),
       },
       'query-input': 'required name=search_term_string',
     },
@@ -78,6 +79,7 @@ export function articleJsonLd(ref: StoryRef, options?: { image?: string }): Json
   return {
     '@context': 'https://schema.org',
     '@type': 'NewsArticle',
+    inLanguage: ref.lang,
     headline: story.headline,
     description,
     url: absoluteUrl(ref.href),

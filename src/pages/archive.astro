@@ -1,12 +1,12 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import VerticalChip from '../components/VerticalChip.astro';
-import { dateEntries, editionHref, getEditions, monthEntries } from '../lib/editions';
+import { dateEntries, editionHref, editionsInLang, getEditions, monthEntries } from '../lib/editions';
 import { type Vertical } from '../lib/site';
 import { formatDateLong, formatMonthYear, formatWeekday, pluralize } from '../lib/format';
 import { breadcrumbJsonLd } from '../lib/seo';
 
-const editions = await getEditions();
+const editions = editionsInLang(await getEditions(), 'en');
 const months = monthEntries(editions);
 const totalStories = dateEntries(editions).reduce((total, entry) => total + entry.storyCount, 0);
 const jsonLd = breadcrumbJsonLd([

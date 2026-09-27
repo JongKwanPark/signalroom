@@ -1,0 +1,649 @@
+{
+  "date": "2026-09-22",
+  "generatedAt": "2026-09-22T22:05:00.000Z",
+  "vertical": "markets",
+  "lang": "ko",
+  "title": "마켓: 디젤 공급 압박, 트럼프-시진핑 만찬, Meta의 AI 기반 랠리",
+  "summary": "Meta의 Muse AI 어시스턴트가 주가를 13년 만의 최고 월간 상승률로 이끌며 시장 심리를 지배했으나, 동일한 AI 테마를 두고 회의론도 함께 커졌다. 회사채 매수자들은 쏟아지는 AI 부채를 선별하기 시작했고 개인 투자자 스레드는 OpenAI의 예상 현금 소진에 주목했다. Alibaba는 신규 AI 칩을 공개했고, UN 총회 외교가 이란 관련 기대를 높이면서 유가는 반락했으며, 글로벌 디젤 부족은 2027년까지 이어질 것으로 전망되었다. 고용 지표 발표를 앞두고 국채 수익률은 다소 진정되었고, 비트코인은 8개월 만의 최고치를 기록했다. Polymarket, SEC EDGAR, 시장 시세 조회가 실패하고 FRED는 API 키 없이 건너뛰어, 이번 버티컬은 Reddit 및 통신사 피드에 의존했다. 당일 두 번째 수집에서는 항공유가 디젤을 따라 오르고 재무부가 디젤 수출 금지의 실행 가능성을 검토 중이라고 밝히면서 정제유 압박이 추가되었으며, 기술 및 제약사 최고경영자들이 참석하는 중국 시진핑 주석 환영 국빈 만찬 소식이 더해졌다.",
+  "stories": [
+    {
+      "slug": "meta-muse-ai-stock-rally-ko",
+      "headline": "Meta 주가, 회사의 새로운 AI 어시스턴트 인기에 힘입어 13년 만의 최고 월간 상승세 구가",
+      "dek": "Muse 다운로드와 Meta의 주가 움직임이 당일 개인 투자자 시장의 지배적 스토리로 떠올랐다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "MarketWatch는 Meta 주가가 새로운 AI 어시스턴트 덕분에 13년 만에 최고의 달을 누리고 있다고 보도했다.",
+        "CNBC는 Meta의 Muse AI 에이전트 다운로드가 급증하고 있으며 ChatGPT, Grok, Claude와 비교된다고 전했다.",
+        "Yahoo Finance는 Muse가 Meta의 시가총액과 Mark Zuckerberg의 순자산에 수십억 달러를 더했다고 보도했고, 개인 투자자 스레드는 Meta 옵션 글로 넘쳐났다."
+      ],
+      "body": [
+        {
+          "text": "CNBC는 Meta의 Muse AI 에이전트 다운로드가 급증하고 있다고 보도하며, 그 견인력을 ChatGPT, Grok, Claude와 비교했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "MarketWatch는 동일한 제품이 Meta 주가의 13년 만의 최고 월간 상승세를 이끈 원동력이라고 평가했다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "Yahoo Finance는 Muse가 실제로 Meta의 시가총액과 Mark Zuckerberg의 순자산에 수십억 달러를 추가했다고 보도하며 해당 어시스턴트를 주가 상승과 직접 연결했다.",
+          "citations": [
+            3
+          ]
+        },
+        {
+          "text": "r/wallstreetbets의 개인 투자자 심리는 이 움직임을 추적했으며, Meta가 한 달 만에 약 550달러에서 740달러로 급등한 이유를 묻는 스레드와 이를 축하하거나 반대로 베팅하는 글들이 이어졌다.",
+          "citations": [
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "whyItMatters": "단일 제품 출시가 대형주의 시가총액을 수십억 달러씩 움직일 때, AI 어시스턴트 경쟁은 단순 기술 이슈를 넘어 개인과 기관 모두가 거래하는 밸류에이션 변수가 된다.",
+      "editorNote": "이는 보도된 주가 움직임, 다운로드 추세, 커뮤니티 정서를 설명하며 투자 조언이 아니다. 수치는 독자적으로 검증되지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/09/21/meta-muse-personal-ai-agent-downloads.html",
+          "source": "CNBC",
+          "title": "Meta's Muse AI agent downloads are surging. Here's how it compares to ChatGPT, Grok and Claude"
+        },
+        {
+          "url": "https://finance.yahoo.com/markets/stocks/article/why-muse-really-just-added-billions-to-metas-market-cap-and-to-mark-zuckerbergs-net-worth-094853229.html",
+          "source": "Yahoo Finance",
+          "title": "Why Muse really just added billions to Meta's market cap and to Mark Zuckerberg's net worth"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/09/21/meta-muse-personal-ai-agent-downloads.html",
+          "source": "CNBC",
+          "title": "Meta's Muse AI agent downloads are surging. Here's how it compares to ChatGPT, Grok and Claude",
+          "publishedAt": "2026-09-21T23:03:57.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.marketwatch.com/story/metas-stock-is-enjoying-its-best-month-in-more-than-two-years-thanks-to-the-companys-hot-new-ai-assistant-bf106291?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Meta's stock is enjoying its best month in 13 years thanks to the company's hot new AI assistant",
+          "publishedAt": "2026-09-21T22:01:00.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://finance.yahoo.com/markets/stocks/article/why-muse-really-just-added-billions-to-metas-market-cap-and-to-mark-zuckerbergs-net-worth-094853229.html",
+          "source": "Yahoo Finance",
+          "title": "Why Muse really just added billions to Meta's market cap and to Mark Zuckerberg's net worth",
+          "publishedAt": "2026-09-22T09:48:53.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1wmpes6/meta_jumped_from_550_to_740_in_1_month_what/",
+          "source": "Reddit r/wallstreetbets",
+          "title": "Meta jumped from ~550 to 740 in 1 month. What changed?",
+          "publishedAt": "2026-09-21T21:04:19.000Z"
+        },
+        {
+          "id": 5,
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1wmnwg7/full_port_meta_puts_180k/",
+          "source": "Reddit r/wallstreetbets",
+          "title": "FULL PORT META PUTS $180K",
+          "publishedAt": "2026-09-21T20:09:27.000Z"
+        },
+        {
+          "id": 6,
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1wn1ke8/thank_you_meta/",
+          "source": "Reddit r/wallstreetbets",
+          "title": "Thank you Meta",
+          "publishedAt": "2026-09-22T06:20:44.000Z"
+        }
+      ],
+      "tags": [
+        "meta",
+        "ai-assistants",
+        "equities",
+        "sentiment"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ai-debt-capex-scrutiny-ko",
+      "headline": "쏟아지는 AI 부채 속에 회사채 투자자들 선별 나서",
+      "dek": "AI 지출과 시장 쏠림 현상에 대한 경고가 랠리와 나란히 전개되었다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "Yahoo Finance는 회사채 매수자들이 쏟아지는 AI 부채를 선별하기 시작했다고 보도했다.",
+        "CNBC는 표면적으로 주식 시장이 훌륭한 날을 보냈으나 1999년 이후 나타나지 않았던 불안한 현상이 일어났다고 전했다.",
+        "r/investing 글은 미국 대기업의 69%가 10년물 국채 수익률보다 적게 벌고 있다고 지적했고, r/wallstreetbets 글은 2030년까지 막대한 현금 소진을 예상한 OpenAI 전망을 인용했다."
+      ],
+      "body": [
+        {
+          "text": "Yahoo Finance는 회사채 투자자들이 쏟아지는 AI 부채를 까다롭게 고르기 시작했다고 보도했으며, 이는 금융기관들이 인프라 확장의 위험을 가격에 반영하기 시작했다는 신호다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "CNBC는 표면상 주식 시장에 좋은 날이었지만 1999년 이후 발생하지 않았던 불안한 일이 일어났다며, 랠리 이면의 종목 쏠림이나 포지셔닝 문제를 지적했다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "r/investing 게시물은 미국 대기업의 69%가 10년 만기 국채 수익률보다 적게 번다는 점을 강조한 반면, r/wallstreetbets 게시물은 2030년까지 인도와 노르웨이 국가 예산을 초과하는 현금을 소진할 것으로 본 OpenAI 전망치를 인용했다.",
+          "citations": [
+            3,
+            4
+          ]
+        }
+      ],
+      "whyItMatters": "채권 시장이 AI 차입 기업을 차별화하기 시작하는 동시에 주식 지수가 소수 종목에 계속 집중된다면, 인프라 확장을 뒷받침하는 자금 조달 영역이 이번 사이클이 처음 시험받는 지점이 된다.",
+      "editorNote": "맥락을 돕기 위해 보도된 기사와 커뮤니티 글을 요약한 것이며 투자 조언이 아니다. 현금 소진 전망치는 해당 게시물 인용이다.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/09/21/stocks-had-a-great-day-on-the-surface-but-something-alarming-occurred-not-seen-since-1999.html",
+          "source": "CNBC",
+          "title": "Stocks had a great day on the surface. But something alarming occurred not seen since 1999"
+        },
+        {
+          "url": "https://www.reddit.com/r/investing/comments/1wjqw7o/69_of_big_us_companies_now_earn_less_than_a/",
+          "source": "Reddit r/investing",
+          "title": "69% of big US companies now earn less than a 10-year Treasury pays"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://finance.yahoo.com/markets/options/articles/corporate-bond-buyers-picky-flood-100410778.html",
+          "source": "Yahoo Finance",
+          "title": "Corporate bond buyers get picky with flood of AI debt",
+          "publishedAt": "2026-09-22T10:07:40.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/09/21/stocks-had-a-great-day-on-the-surface-but-something-alarming-occurred-not-seen-since-1999.html",
+          "source": "CNBC",
+          "title": "Stocks had a great day on the surface. But something alarming occurred not seen since 1999",
+          "publishedAt": "2026-09-21T21:20:41.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.reddit.com/r/investing/comments/1wjqw7o/69_of_big_us_companies_now_earn_less_than_a/",
+          "source": "Reddit r/investing",
+          "title": "69% of big US companies now earn less than a 10-year Treasury pays",
+          "publishedAt": "2026-09-18T13:55:02.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1wmg0fq/openai_projections_point_to_a_massive_278_billion/",
+          "source": "Reddit r/wallstreetbets",
+          "title": "OpenAI projections point to a massive $278 billion cash burn through 2030 that exceeds the national budgets of Indonesia and Norway",
+          "publishedAt": "2026-09-21T15:28:26.000Z"
+        }
+      ],
+      "tags": [
+        "ai-capex",
+        "credit",
+        "concentration",
+        "bonds"
+      ],
+      "confidence": "low"
+    },
+    {
+      "slug": "oil-diesel-iran-diplomacy-ko",
+      "headline": "UN 총회가 이란 외교에 대한 희망을 키우면서 유가 상승분 반납",
+      "dek": "이란을 둘러싼 외교적 움직임이 원유 가격을 움직인 가운데 디젤 부족은 지속될 것으로 전망되었다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "CNBC는 UN 총회가 이란 전쟁 관련 외교 기대감을 높이면서 유가가 상승분을 반납했다고 보도했다.",
+        "이란은 미국이 군사적 압박을 완화할 경우 7일 이내에 호르무즈 해협을 재개방할 수 있다고 밝힌 것으로 전해졌으며, Donald Trump 대통령은 Volodymyr Zelenskyy 대통령에게 에너지 휴전을 압박할 예정이었다.",
+        "Yahoo Finance는 이란과 우크라이나 전쟁으로 인한 글로벌 디젤 품귀가 2027년까지 이어질 것으로 예상된다고 전했고, r/investing 스레드는 현물 원유가 신고점에 접근하고 있다고 언급했다."
+      ],
+      "body": [
+        {
+          "text": "CNBC는 UN 총회 회의가 이란 전쟁 외교에 대한 기대를 높이면서 유가가 상승분을 되돌렸다고 보도했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "이란은 미국이 군사적 압박을 줄이면 7일 이내에 호르무즈 해협(Strait of Hormuz)을 다시 열 수 있다고 밝힌 것으로 전해졌으며, Donald Trump 대통령은 러시아가 우크라이나 전쟁으로 원유 통제력을 상실했다고 말하며 Volodymyr Zelenskyy 대통령에게 에너지 휴전을 요구할 예정이었다.",
+          "citations": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Yahoo Finance는 이란과 우크라이나 전쟁으로 인한 글로벌 디젤 공급 부족이 2027년까지 지속될 것으로 예상된다고 전했고, r/investing 스레드는 현물 유가가 신고점에 접근하고 있다고 언급했다.",
+          "citations": [
+            4,
+            5
+          ]
+        }
+      ],
+      "whyItMatters": "원유는 더 넓은 이란 분쟁 위험과 외교가 공급을 재개할 가능성이라는 두 가지 요소를 동시에 가격에 반영하고 있으며, 디젤 시장은 물리적 수급 압박이 가장 먼저 드러나는 곳이다.",
+      "editorNote": "맥락 제공을 위해 보도된 가격 움직임과 발언을 요약한 것이며 투자 조언이 아니다. 보도된 발언은 독자적으로 확인되지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/09/22/us-iran-war-trump-hormuz.html",
+          "source": "CNBC",
+          "title": "Iran reportedly says it can reopen Strait of Hormuz within 7 days if U.S. eases military pressure"
+        },
+        {
+          "url": "https://finance.yahoo.com/energy/articles/global-diesel-shortage-iran-ukraine-181721706.html",
+          "source": "Yahoo Finance",
+          "title": "Global diesel shortage from Iran, Ukraine wars to last into 2027"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/09/22/oil-iran-us-bessent-un-crude.html",
+          "source": "CNBC",
+          "title": "Oil prices reverse gains as United Nations General Assembly meeting lifts hopes for Iran war diplomacy",
+          "publishedAt": "2026-09-22T10:25:16.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/09/22/us-iran-war-trump-hormuz.html",
+          "source": "CNBC",
+          "title": "Iran reportedly says it can reopen Strait of Hormuz within 7 days if U.S. eases military pressure",
+          "publishedAt": "2026-09-22T10:28:17.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.cnbc.com/2026/09/22/trump-zelenskyy-ukraine-russia-putin-diesel-oil.html",
+          "source": "CNBC",
+          "title": "Trump to press Zelenskyy for energy truce, says Russia has 'lost control' of oil due to Ukraine war",
+          "publishedAt": "2026-09-22T08:57:24.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://finance.yahoo.com/energy/articles/global-diesel-shortage-iran-ukraine-181721706.html",
+          "source": "Yahoo Finance",
+          "title": "Global diesel shortage from Iran, Ukraine wars to last into 2027",
+          "publishedAt": "2026-09-21T18:17:21.000Z"
+        },
+        {
+          "id": 5,
+          "url": "https://www.reddit.com/r/investing/comments/1wm9nlj/spot_oil_is_approaching_new_highs/",
+          "source": "Reddit r/investing",
+          "title": "Spot oil is approaching new highs",
+          "publishedAt": "2026-09-21T11:04:37.000Z"
+        }
+      ],
+      "tags": [
+        "oil",
+        "iran",
+        "energy",
+        "commodities"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "alibaba-ai-chip-data-centers-ko",
+      "headline": "새로운 AI 칩 및 데이터센터 구축 계획 공개로 Alibaba 주가 급등",
+      "dek": "Alibaba의 칩 출시와 데이터센터 계획이 주가를 끌어올렸다.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "CNBC는 새로운 AI 칩과 데이터센터 확장 계획이 공개되면서 Alibaba 주가가 급등했다고 보도했다.",
+        "Investing.com은 Alibaba가 해당 칩을 중국에서 가장 강력하다고 평가했으며 주가가 상승했다고 전했다.",
+        "두 매체 모두 이번 주가 상승을 소프트웨어 제품이 아닌 AI 인프라 추진과 연결했다."
+      ],
+      "body": [
+        {
+          "text": "CNBC는 Alibaba가 새로운 AI 칩과 데이터센터 구축 계획을 공개하면서 주가가 급등했다고 보도했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Investing.com은 Alibaba가 새 AI 칩을 선보이며 중국에서 가장 강력한 칩이라고 자평했고, 관련 소식에 주가가 상승했다고 전했다.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "자체 AI 칩과 인프라 용량 확충은 미국의 첨단 칩이 도달하기 어려운 중국 내 AI 워크로드를 흡수하려는 Alibaba의 입지 다지기이며, 이는 글로벌 컴퓨팅 지도 전반에 중요하다.",
+      "editorNote": "성능 설명은 보도된 회사 측 자체 주장에 근거하며 독자적 벤치마크 검증을 거치지 않았다. 투자 조언이 아니다.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/stock-market-news/alibaba-unveils-new-ai-chip-calls-it-chinas-most-powerful-4909841",
+          "source": "Investing.com",
+          "title": "Alibaba unveils new AI chip, calls it China's most powerful; shares gain"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/09/22/alibaba-ai-alibabacloud-zhenwu-v900-.html",
+          "source": "CNBC",
+          "title": "Alibaba shares jump as new AI chip, data center buildout plans unveiled"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/09/22/alibaba-ai-alibabacloud-zhenwu-v900-.html",
+          "source": "CNBC",
+          "title": "Alibaba shares jump as new AI chip, data center buildout plans unveiled",
+          "publishedAt": "2026-09-22T05:15:21.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/stock-market-news/alibaba-unveils-new-ai-chip-calls-it-chinas-most-powerful-4909841",
+          "source": "Investing.com",
+          "title": "Alibaba unveils new AI chip, calls it China's most powerful; shares gain",
+          "publishedAt": "2026-09-22T01:31:10.000Z"
+        }
+      ],
+      "tags": [
+        "alibaba",
+        "ai-chips",
+        "china",
+        "data-centers"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "treasury-yields-mortgage-rates-ko",
+      "headline": "투자자들이 신규 고용 지표와 Fed 발언을 기다리면서 미국 국채 수익률 하락",
+      "dek": "모기지 금리가 7% 이상을 유지하고 CD 금리가 4.4% 수준을 기록하는 가운데 국채 수익률은 완만하게 하락했다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "CNBC는 투자자들이 새로운 고용 지표와 Fed 당국자 발언을 기다리면서 미국 국채 수익률이 하락했다고 보도했다.",
+        "MarketWatch는 10년 만기 국채 수익률의 향방을 예측하는 65% 정확도의 머신러닝 모델을 소개했다.",
+        "Yahoo Finance는 모기지 및 재융자 금리가 낮아졌으나 30년 만기는 여전히 7%를 웃돌고 최고 CD 금리는 연 4.40% 수준이라고 전했다."
+      ],
+      "body": [
+        {
+          "text": "CNBC는 투자자들이 새로운 고용 데이터와 Fed의 발언을 대기하면서 미국 국채 수익률이 완화되었다고 보도했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "MarketWatch는 10년물 국채 수익률의 다음 행보를 제시하며 정확도가 65%라고 주장하는 머신러닝 모델을 다뤘다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "Yahoo Finance는 모기지와 재융자 금리가 하향 조정되었으나 30년 고정 금리는 여전히 7%를 넘고 있으며 최고 CD(양도성예금증서) 금리는 연 4.40% APY 수준으로 제시되고 있다고 보도했다.",
+          "citations": [
+            3,
+            4
+          ]
+        }
+      ],
+      "whyItMatters": "10년물 국채 수익률은 주택담보대출, 저축, 주식 밸류에이션의 기준이 되므로, 채권 수익률 하락과 여전히 높은 대출 비용 간의 격차는 가계가 피부로 느끼는 체감 수치다.",
+      "editorNote": "금리는 발표 시점 기준이며 매일 변동한다. 모델의 65% 정확도는 자체 주장이다. 여기에 투자 또는 개인 재무 조언은 없다.",
+      "cluster": [
+        {
+          "url": "https://www.marketwatch.com/story/what-this-machine-learning-model-with-65-accuracy-says-is-coming-next-for-the-10-year-treasury-55d76b8f?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "What this machine-learning model with 65% accuracy says is coming next for the 10-year Treasury"
+        },
+        {
+          "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-tuesday-september-22-2026-rates-move-lower-but-30-year-still-over-7-100000503.html",
+          "source": "Yahoo Finance",
+          "title": "Mortgage and refinance interest rates today, Tuesday, September 22, 2026: Rates move lower, but 30-year still over 7%"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/09/22/treasury-yield-us-bond-market-trump.html",
+          "source": "CNBC",
+          "title": "U.S. Treasury yields ease as investors await fresh jobs data, Fed comments",
+          "publishedAt": "2026-09-22T09:16:10.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.marketwatch.com/story/what-this-machine-learning-model-with-65-accuracy-says-is-coming-next-for-the-10-year-treasury-55d76b8f?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "What this machine-learning model with 65% accuracy says is coming next for the 10-year Treasury",
+          "publishedAt": "2026-09-22T09:23:00.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-tuesday-september-22-2026-rates-move-lower-but-30-year-still-over-7-100000503.html",
+          "source": "Yahoo Finance",
+          "title": "Mortgage and refinance interest rates today, Tuesday, September 22, 2026: Rates move lower, but 30-year still over 7%",
+          "publishedAt": "2026-09-22T10:00:00.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-tuesday-september-22-2026-lock-in-up-to-440-apy-100000744.html",
+          "source": "Yahoo Finance",
+          "title": "Best CD rates today, Tuesday, September 22, 2026: Lock in up to 4.40% APY",
+          "publishedAt": "2026-09-22T10:00:00.000Z"
+        }
+      ],
+      "tags": [
+        "treasuries",
+        "rates",
+        "mortgages",
+        "fed"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "bitcoin-risk-appetite-ko",
+      "headline": "비트코인 8개월 만의 최고치 기록 — 현재 위험 선호에 대한 명확한 메시지 전달",
+      "dek": "비트코인의 고점 도달은 위험 선호 신호로 해석되었으며, 장기적 투자 논거에 대한 개인 투자자들의 논쟁이 이어졌다.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "MarketWatch는 비트코인이 8개월 만의 최고치를 기록하며 위험 선호 심리에 대한 명확한 메시지를 전달했다고 보도했다.",
+        "r/investing 스레드는 오늘날 비트코인에 대한 장기 투자 근거가 무엇인지 질문했다.",
+        "개인 투자자들의 관심은 Galaxy Digital 자산 생태계 펀드에 관한 ETF 스레드에서도 나타났다."
+      ],
+      "body": [
+        {
+          "text": "MarketWatch는 비트코인이 8개월 만의 고점을 기록했다고 전하며 이번 움직임을 현시점의 위험 선호에 대한 분명한 메시지로 규정했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "r/investing 스레드는 현재 시점에서 비트코인의 장기 투자 근거가 무엇인지 물었으며, 별도의 스레드는 State Street와 Galaxy의 Digital Asset Ecosystem ETF에 대해 논의했다.",
+          "citations": [
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "비트코인의 움직임은 투기적 선호도를 측정하는 지표로 자주 해석되므로, 수개월 만의 최고치는 투자자들이 감수하려는 위험의 크기를 시사한다.",
+      "editorNote": "이는 맥락 설명을 위해 보도된 가격 움직임과 커뮤니티 논의를 다루며 투자 조언이 아니다.",
+      "cluster": [
+        {
+          "url": "https://www.reddit.com/r/investing/comments/1wlupxa/what_is_the_longterm_investment_case_for_bitcoin/",
+          "source": "Reddit r/investing",
+          "title": "What is the long-term investment case for Bitcoin today?"
+        },
+        {
+          "url": "https://www.reddit.com/r/investing/comments/1wl2euk/state_street_galaxy_digital_asset_ecosystem_etf/",
+          "source": "Reddit r/investing",
+          "title": "State Street® Galaxy Digital Asset Ecosystem ETF??"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.marketwatch.com/story/bitcoin-hits-an-8-month-high-and-sends-a-clear-message-about-risk-appetite-right-now-edc7b9a5?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Bitcoin hits an 8-month high — and sends a clear message about risk appetite right now",
+          "publishedAt": "2026-09-21T21:47:00.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reddit.com/r/investing/comments/1wlupxa/what_is_the_longterm_investment_case_for_bitcoin/",
+          "source": "Reddit r/investing",
+          "title": "What is the long-term investment case for Bitcoin today?",
+          "publishedAt": "2026-09-20T22:18:33.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.reddit.com/r/investing/comments/1wl2euk/state_street_galaxy_digital_asset_ecosystem_etf/",
+          "source": "Reddit r/investing",
+          "title": "State Street® Galaxy Digital Asset Ecosystem ETF??",
+          "publishedAt": "2026-09-20T00:36:25.000Z"
+        }
+      ],
+      "tags": [
+        "bitcoin",
+        "crypto",
+        "risk-appetite"
+      ],
+      "confidence": "low"
+    },
+    {
+      "slug": "diesel-jet-fuel-squeeze-export-ban-ko",
+      "headline": "재무장관, 트럼프 행정부가 디젤 수출 금지의 실행 가능성을 검토 중이라고 밝혀",
+      "dek": "호르무즈 해협의 공급 충격으로 항공유가 디젤을 따라 상승한 가운데 워싱턴은 수출 제한을 검토했다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "CNBC는 재무장관을 인용해 트럼프 행정부가 디젤 수출 금지 조치의 타당성을 검토하고 있다고 보도했다.",
+        "MarketWatch는 호르무즈 공급 충격이 항공유로 번지면서 항공유 가격이 디젤 가격 급등을 뒤따르고 있다고 전했다.",
+        "Investing.com은 유가가 5일 연속 하락세를 보이며 Brent유가 2주 만에 처음으로 100달러 아래로 마감했다고 보도했다."
+      ],
+      "body": [
+        {
+          "text": "CNBC는 재무장관의 발언을 인용하여 트럼프 행정부가 디젤 수출 금지가 실행 가능한지 여부를 검토하고 있다고 보도했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "MarketWatch는 호르무즈 공급 차질이 하늘길을 강타함에 따라 항공유가 디젤 가격 상승을 뒤따르고 있다고 전하며 항공 연료를 동일한 혼란과 결부시켰다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "Investing.com은 원유 가격이 5거래일 연속 하락세를 나타내며 Brent유가 2주 만에 처음으로 배럴당 100달러 아래에서 마감했다고 전했다.",
+          "citations": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "정제유 공급 부족은 지정학적 공급 충격이 광범위한 인플레이션으로 전이되는 통로다. 디젤과 항공유는 운송 및 화물 운임을 결정하며, 수출 규제는 원유 가격을 넘어선 혼란을 야기할 수 있다.",
+      "editorNote": "통신사 보도이며 수출 금지는 검토 단계일 뿐 확정되지 않았고, 가격 수준은 수집 당시 기준이다.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/09/22/trump-diesel-export-ban-urkaine-russia-iran.html",
+          "source": "CNBC",
+          "title": "Trump administration is examining whether a diesel export ban is feasible, Treasury Secretary says"
+        },
+        {
+          "url": "https://www.marketwatch.com/story/jet-fuel-is-following-diesels-price-jump-as-the-hormuz-supply-shock-hits-the-skies-6fc21238?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Jet fuel is following diesel’s price jump as the Hormuz supply shock hits the skies"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/09/22/trump-diesel-export-ban-urkaine-russia-iran.html",
+          "source": "CNBC",
+          "title": "Trump administration is examining whether a diesel export ban is feasible, Treasury Secretary says",
+          "publishedAt": "2026-09-22T19:59:05.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.marketwatch.com/story/jet-fuel-is-following-diesels-price-jump-as-the-hormuz-supply-shock-hits-the-skies-6fc21238?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Jet fuel is following diesel’s price jump as the Hormuz supply shock hits the skies",
+          "publishedAt": "2026-09-22T19:59:00.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.investing.com/news/commodities-news/oil-edges-higher-as-markets-eye-usiran-talks-saudi-flows-4909809",
+          "source": "Investing.com",
+          "title": "Oil on five-day losing run, Brent settles below $100 for first time in two weeks",
+          "publishedAt": "2026-09-22T12:53:43.000Z"
+        }
+      ],
+      "tags": [
+        "oil",
+        "diesel",
+        "jet-fuel",
+        "energy",
+        "hormuz",
+        "inflation"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "trump-xi-state-dinner-ceos-ko",
+      "headline": "Zuckerberg, Bourla 등 CEO들, 트럼프의 시진핑 국빈 만찬 참석 예정",
+      "dek": "중국 시진핑 주석을 위한 국빈 만찬에 주요 기술 및 제약업계 최고경영자들이 모이고 있다.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "Investing.com은 소식통을 인용해 Zuckerberg와 Bourla가 트럼프의 시진핑 국빈 만찬에 참석하는 CEO들에 포함되어 있다고 보도했다.",
+        "CNBC는 지금까지 알려진 트럼프-시진핑 만찬 참석자 명단을 보도했다.",
+        "참석자 명단은 기술 및 제약업계 최고경영자들을 미중 외교의 중심에 배치한다."
+      ],
+      "body": [
+        {
+          "text": "Investing.com은 소식통을 인용하여 Meta의 Mark Zuckerberg와 Pfizer의 Albert Bourla가 Donald Trump 대통령이 주최하는 중국 시진핑 주석 환영 국빈 만찬에 참석할 예정인 CEO 명단에 포함되었다고 보도했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "CNBC는 트럼프-시진핑 만찬에 참석하는 것으로 지금까지 알려진 인사들을 보도했다.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "미중 국빈 만찬 참석자 구성은 어떤 산업이 무역 및 규제 협상을 주도할 것으로 기대되는지 보여주며 반도체, AI, 제약 부문이 가장 크게 노출되어 있다.",
+      "editorNote": "참석자 명단은 소식통을 인용한 언론 보도이며 공식 명단이 아니므로 변동될 수 있다.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/09/22/heres-who-we-know-is-going-to-the-trump-xi-dinner-so-far.html",
+          "source": "CNBC",
+          "title": "Here's who we know is going to the Trump-Xi dinner so far"
+        },
+        {
+          "url": "https://www.investing.com/news/stock-market-news/pfizer-ceo-bourla-plans-to-attend-white-house-state-dinner-for-chinas-xi-source-says-4911200",
+          "source": "Investing.com",
+          "title": "Zuckerberg, Bourla among CEOs to attend Trump’s state dinner for Xi, sources say"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.investing.com/news/stock-market-news/pfizer-ceo-bourla-plans-to-attend-white-house-state-dinner-for-chinas-xi-source-says-4911200",
+          "source": "Investing.com",
+          "title": "Zuckerberg, Bourla among CEOs to attend Trump’s state dinner for Xi, sources say",
+          "publishedAt": "2026-09-22T12:48:25.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/09/22/heres-who-we-know-is-going-to-the-trump-xi-dinner-so-far.html",
+          "source": "CNBC",
+          "title": "Here's who we know is going to the Trump-Xi dinner so far",
+          "publishedAt": "2026-09-22T20:07:24.000Z"
+        }
+      ],
+      "tags": [
+        "us-china",
+        "trade",
+        "diplomacy",
+        "ceos"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

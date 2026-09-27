@@ -1,0 +1,15 @@
+---
+import LangDatePage from '../../../../../components/LangDatePage.astro';
+import { dateEntries, editionsInLang, getEditions, type Lang } from '../../../../../lib/editions';
+
+export async function getStaticPaths() {
+  const editions = await getEditions();
+  return (['en', 'ko'] as const).flatMap((lang) => dateEntries(editionsInLang(editions, lang)).map((entry) => {
+    const [year, month, day] = entry.date.split('-');
+    return { params: { lang, year, month, day } };
+  }));
+}
+const { lang, year, month, day } = Astro.params;
+---
+
+<LangDatePage lang={lang as Lang} date={`${year}-${month}-${day}`} />

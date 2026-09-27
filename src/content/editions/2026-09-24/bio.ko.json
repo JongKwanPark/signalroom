@@ -1,0 +1,249 @@
+{
+  "date": "2026-09-24",
+  "generatedAt": "2026-09-24T22:04:24.492Z",
+  "vertical": "bio",
+  "lang": "ko",
+  "title": "시그널 데일리 — 바이오: 연구 및 규제 관련 3가지 신호",
+  "summary": "교차 검증 가능한 1차 출처 및 독립적 출처를 갖춘 3편의 스토리를 담은 짧은 에디션이다. 이번 수집에는 GLP-1 반응의 미해명 편차에 대한 관련 보도가 추가되었으며, bioRxiv와 medRxiv는 유효하지 않은 JSON으로 실패해 피드가 제한되었다. 수록된 건강 관련 연구 결과는 개인을 위한 의료적 조언이 아니다.",
+  "stories": [
+    {
+      "slug": "pediatric-glp1-nutritional-deficiencies-study-ko",
+      "headline": "소아청소년 GLP-1 수용체 작용제 투약 환자의 영양 결핍, 합병증, 그리고 영양 치료/상담 현황",
+      "dek": "보험 청구 데이터 기반 연구에서 소아청소년 GLP-1 수용체 작용제 사용자들의 영양 결핍 진단 사례가 보고되었다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "이 연구는 2017~2022년 미국 청구 데이터에서 GLP-1 수용체 작용제를 투약한 10~17세 환자 2,031명을 확인했다.",
+        "1년 이내에 16.88%가 영양 결핍 또는 관련 합병증을 진단받았으며, 비타민 D 결핍이 가장 흔했다.",
+        "청구 분석 결과는 관찰적이며, 네이처는 일부 환자에게 GLP-1 약물이 체중 감량 효과를 내지 못하는 이유에 대한 후속 연구를 별도로 전했다."
+      ],
+      "body": [
+        {
+          "text": "PubMed에 색인된 이 연구는 이전에 영양 결핍 진단 이력이 없고 GLP-1 수용체 작용제를 지속 투약한 10~17세 환자 2,031명을 분석했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "해당 논문은 투약 1년 이내에 환자의 16.88%가 영양 결핍 또는 관련 합병증 진단을 받았으며, 비타민 D 결핍이 가장 흔했다고 보고했다. 사이언스데일리도 동일 연구를 요약 보도했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "연구진은 행정 청구 데이터를 활용했으므로, 이 결과는 연구 대상 집단에서 기록된 진단 내역을 기술할 뿐 약물 치료가 이를 유발했다는 인과관계를 입증하지는 못한다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "이와 별도로 네이처는 일부 환자에게서 GLP-1 약물이 체중 감량 효과를 내지 못하는 원인을 연구진이 추적하고 있다고 보도했으며, 이 광범위한 유효성 질문은 소아 청구 분석과는 구별된다.",
+          "citations": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "이 결과는 소아청소년 치료 연구에서의 모니터링 및 연구 설계와 관련이 있으며, 개별 환자를 위한 치료 권고를 뒷받침하지 않는다.",
+      "editorNote": "헤드라인은 1차 논문 제목 원문이다. 보고된 백분율은 논문 초록에서 인용되었으며, 청구 데이터로는 인과관계를 입증할 수 없다.",
+      "cluster": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260923035926.htm",
+          "source": "ScienceDaily",
+          "title": "GLP-1 weight loss and diabetes drugs linked to nutritional deficiencies in nearly 1 in 6 children"
+        },
+        {
+          "url": "https://www.nature.com/articles/d41586-026-03020-3",
+          "source": "Nature",
+          "title": "GLP-1 drugs fail to help some people lose weight — scientists are on a quest for answers"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42751742/",
+          "source": "PubMed",
+          "title": "Nutritional Deficiencies, Complications, and Nutrition Therapy/Counseling in Pediatric Patients Using GLP-1 Receptor Agonists",
+          "publishedAt": "2026-09-17"
+        },
+        {
+          "id": 2,
+          "url": "https://www.sciencedaily.com/releases/2026/09/260923035926.htm",
+          "source": "www.sciencedaily.com",
+          "title": "GLP-1 weight loss and diabetes drugs linked to nutritional deficiencies in nearly 1 in 6 children",
+          "publishedAt": "2026-09-24T03:15:18.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.nature.com/articles/d41586-026-03020-3",
+          "source": "Nature",
+          "title": "GLP-1 drugs fail to help some people lose weight — scientists are on a quest for answers",
+          "publishedAt": "2026-09-24T00:00:00.000Z"
+        }
+      ],
+      "tags": [
+        "pediatrics",
+        "glp-1",
+        "nutrition",
+        "clinical-research"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "uk-biobank-sleep-stages-disease-risk-study-ko",
+      "headline": "가속도계 기반 실제 수면 단계와 발병 질환 위험: UK 바이오뱅크 코호트 연구 및 표현형 전장 연관 분석",
+      "dek": "UK 바이오뱅크 분석은 측정된 수면 단계와 광범위한 질환의 향후 발병 위험을 연결했다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "PLOS Medicine 연구는 UK 바이오뱅크 코호트에서 가속도계로 측정한 수면 단계와 질환 발병을 분석했다.",
+        "연구진은 REM 수면이 많을수록 83개 질환 위험이 낮았고 깊은 수면은 7개 질환 위험 감소와 연관되었다고 보고했다.",
+        "저자들은 연관성을 설명했을 뿐이며, 관찰 코호트 연구가 수면 단계 변화를 통한 질병 예방 효과를 입증하지는 않는다."
+      ],
+      "body": [
+        {
+          "text": "원저 논문은 UK 바이오뱅크 코호트와 가속도계로 측정된 수면 단계 및 신규 질환 발병 간의 표현형 전장 연관 분석(PheWAS)을 설명한다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "사이언스데일리와 유레칼러트는 렘(REM) 수면 증가가 83개 질환 위험 감소와 연관되었고, 깊은 서파 수면은 7개 질환 위험 감소와 연관되었다는 연구의 주요 결과를 보도했다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "이러한 결과는 관찰된 상관관계일 뿐이며, 렘 수면 시간이 길어지는 것이 질환 위험 감소를 직접 야기한다는 점을 입증하지는 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "보고된 연관성의 광범위함은 수면 연구에 중요한 시사점을 주지만, 관찰 연구 설계의 특성상 인과적 결론을 도출하는 데는 한계가 있다.",
+      "editorNote": "연구 제목은 PLOS Medicine 원문 기반이다. 83개 질환 수치는 상관관계일 뿐 예방 효과를 주장하는 것이 아니다.",
+      "cluster": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260923035930.htm",
+          "source": "ScienceDaily",
+          "title": "More REM sleep linked to lower risk of 83 diseases"
+        },
+        {
+          "url": "https://www.eurekalert.org/news-releases/1143646",
+          "source": "EurekAlert!",
+          "title": "REM and deep sleep, not just total sleep time, associated with disease risk"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1005213",
+          "source": "PLOS Medicine",
+          "title": "Accelerometer-derived real-world sleep stages and risk of incident diseases: A UK Biobank cohort study and phenome-wide association analysis",
+          "publishedAt": "2026-09-17"
+        },
+        {
+          "id": 2,
+          "url": "https://www.sciencedaily.com/releases/2026/09/260923035930.htm",
+          "source": "www.sciencedaily.com",
+          "title": "More REM sleep linked to lower risk of 83 diseases",
+          "publishedAt": "2026-09-24T03:58:30.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.eurekalert.org/news-releases/1143646",
+          "source": "EurekAlert!",
+          "title": "REM and deep sleep, not just total sleep time, associated with disease risk",
+          "publishedAt": "2026-09-17"
+        }
+      ],
+      "tags": [
+        "sleep",
+        "uk-biobank",
+        "observational-study",
+        "public-health"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "fda-panel-recommends-galleri-multicancer-test-ko",
+      "headline": "STAT+: FDA 자문위원회, 이익이 위험보다 크다고 판단하며 그레일 암 혈액 검사 지지",
+      "dek": "FDA 자문위원회는 이익-위험 평가에서 그레일의 다중 암 혈액 검사를 지지했으나 당국의 최종 승인 결정은 아직 내려지지 않았다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "STAT는 자문위원들이 제안된 적응증에서 갤러리의 이익이 위험을 능가한다는 안에 찬성 7표, 반대 2표, 기권 1표로 투표했다고 전했다.",
+        "NPR은 자문위가 유효성의 합리적 확신에 대해 찬성 6표 반대 4표로 나뉘었으며, 안전성에 대해서는 10대 0으로 가결했다고 전했다.",
+        "자문위원회의 권고는 법적 구속력이 없으며, FDA 승인은 별도의 독립된 결정으로 남아 있다."
+      ],
+      "body": [
+        {
+          "text": "STAT 보도에 따르면 FDA 자문위원들은 이익-위험 평가 항목에서 찬성 7표, 반대 2표, 기권 1표로 갤러리(Galleri) 검사를 공식 지지했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "NPR은 안전성 10대 0 찬성, 유효성 6대 4 찬성으로 갈린 개별 투표 결과를 보도했다. FDA 회의 공고는 자문위가 그레일의 시판 전 허가 신청서(PMA)를 심의하고 표결하도록 요청받았음을 확인해 준다.",
+          "citations": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "FDA 규정에 따르면 자문위원회 권고는 법적 구속력이 없다. 따라서 이번 표결 자체가 기관의 공식 승인을 의미하는 것은 아니다.",
+          "citations": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "이번 표결은 다중 암 선별 검사의 중요한 이정표이지만, 유효성 표결에서의 의견 분립과 FDA의 최종 승인 권한으로 인해 임상 및 규제 측면의 과제는 여전히 남아 있다.",
+      "editorNote": "헤드라인은 STAT 원문 기반이다. 이 보도는 자문위 표결과 FDA 최종 승인을 명확히 구분하며 어떤 검진 권고도 하지 않는다.",
+      "cluster": [
+        {
+          "url": "https://www.nwpb.org/npr-top-stories/2026-09-23/fda-advisory-panel-recommends-a-first-multi-cancer-blood-test",
+          "source": "NPR (via NWPB)",
+          "title": "FDA advisory panel recommends a first: multi-cancer blood test"
+        },
+        {
+          "url": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/september-23-2026-molecular-and-clinical-genetics-panel-medical-devices-advisory-committee-meeting",
+          "source": "U.S. FDA",
+          "title": "September 23, 2026: Molecular and Clinical Genetics Panel of the Medical Devices Advisory Committee Meeting Announcement"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.statnews.com/2026/09/23/fda-advisory-panel-recommends-approval-grail-galleri-multi-cancer-blood-test/?utm_campaign=rss",
+          "source": "www.statnews.com",
+          "title": "STAT+: FDA advisory panel endorses Grail blood test for cancer, saying benefits outweigh risks",
+          "publishedAt": "2026-09-23T21:47:58.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.nwpb.org/npr-top-stories/2026-09-23/fda-advisory-panel-recommends-a-first-multi-cancer-blood-test",
+          "source": "NPR (via NWPB)",
+          "title": "FDA advisory panel recommends a first: multi-cancer blood test",
+          "publishedAt": "2026-09-23"
+        },
+        {
+          "id": 3,
+          "url": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/september-23-2026-molecular-and-clinical-genetics-panel-medical-devices-advisory-committee-meeting",
+          "source": "U.S. FDA",
+          "title": "September 23, 2026: Molecular and Clinical Genetics Panel of the Medical Devices Advisory Committee Meeting Announcement",
+          "publishedAt": "2026-09-21"
+        }
+      ],
+      "tags": [
+        "fda",
+        "cancer-screening",
+        "diagnostics",
+        "regulation"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

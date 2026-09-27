@@ -1,0 +1,11 @@
+---
+import LangArchivePage from '../../components/LangArchivePage.astro';
+import type { Lang } from '../../lib/editions';
+
+export function getStaticPaths() {
+  return (['en', 'ko'] as const).map((lang) => ({ params: { lang } }));
+}
+const { lang } = Astro.params;
+---
+
+<LangArchivePage lang={lang as Lang} />

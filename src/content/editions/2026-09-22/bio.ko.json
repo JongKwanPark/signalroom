@@ -1,0 +1,640 @@
+{
+  "date": "2026-09-22",
+  "generatedAt": "2026-09-22T22:05:00.000Z",
+  "vertical": "bio",
+  "lang": "ko",
+  "title": "시그널 데일리 — 바이오: 노보의 메디케어 조건, 임상 현장의 AI와 암 파이프라인",
+  "summary": "바이오 분야는 임상 결정과 신뢰에서의 AI 역할, 중환자 치료의 AI 모니터링, 암 검진 및 치료 파이프라인, 감염병 감시, AI 기반 생물학적 설계, 뇌 임플란트부터 치매 예측에 이르는 신경과학으로 나뉘었다. PubMed가 임상 AI 연구 대부분을 전했고 저널 RSS는 과학 뉴스와 정책 항목을, ClinicalTrials.gov는 초기 및 중기 임상시험을, bioRxiv는 사전인쇄 생물학을 제공했다. medRxiv는 비어 있었고 OpenFDA는 단일 플레이스홀더만 반환해 두 소스는 사용 가능한 데이터가 없었다. 동일 UTC 날짜의 2차 수집에서는 당일 임상 AI 및 파이프라인 항목과 함께 노보의 메디케어 브리지 조건 및 오젬픽 중단 연구가 추가되었다.",
+  "stories": [
+    {
+      "slug": "ai-clinical-decisions-trust-ko",
+      "headline": "AI 강화 의료 결정에서 AI 설명보다 AI 품질과 임상적 역할 분담이 의사결정 품질에 더 큰 영향",
+      "dek": "임상 AI 주변의 사람과 워크플로 맥락이 AI 자체의 설명 방식보다 더 중요하다는 연구 결과가 나왔다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "PubMed 논문은 AI 보조 의료 결정에서 AI 설명보다 AI 품질과 임상 역할이 결정 품질에 더 큰 영향을 미친다는 점을 확인했다.",
+        "별도의 종양학 논문은 결정 곡선 분석이 종착점이 아닌 디딤돌이어야 한다고 주장했고, 다른 논문은 AI 소생술에서 성별 렌즈 부재를 지적했다.",
+        "의학에 대한 신뢰 저하를 과학 언론이 다루는 가운데 통합의학 연구에서 생성형 AI 챗봇에 대한 태도 조사가 발표되었다."
+      ],
+      "body": [
+        {
+          "text": "한 PubMed 논문은 인공지능이 보조하는 의료 결정에서 AI 품질과 참여하는 임상적 역할이 AI의 자체 설명보다 의사결정의 질에 더 큰 영향을 미친다고 보고하며, 단순한 설명가능성에서 주변 진료 워크플로로 관심을 전환시켰다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "임상 AI 평가의 한계를 다룬 논문 2건도 발표되었다. 한 논문은 종양학 임상 AI에서 결정 곡선 분석이 최종 목적지가 아닌 가교 역할을 해야 한다고 주장했고, 다른 논문은 AI 지원 심폐소생술에 성별 및 젠더 관점이 결여되어 있다고 지적했다.",
+          "citations": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "대규모 다국가 설문 연구에서는 전통, 보완 및 통합 의학 연구의 학술적 과정에서 생성형 AI 챗봇에 대한 연구자들의 태도와 인식을 조사했다.",
+          "citations": [
+            4
+          ]
+        },
+        {
+          "text": "이러한 임상적 질문들은 과학 언론이 과학에 대한 신뢰가 중요한 이유를 묻고 현대 의학에 대한 회의적 시각을 다루는 등 신뢰에 관한 보다 넓은 사회적 담론과 맞물려 있다.",
+          "citations": [
+            5,
+            6
+          ]
+        }
+      ],
+      "whyItMatters": "역할 설계와 데이터 품질이 설명력보다 결과에 더 큰 영향을 미친다면, 병원은 모델의 투명성을 무작정 요구하기보다 워크플로를 개선함으로써 더 큰 효과를 얻을 수 있다.",
+      "editorNote": "연구 초록 및 언론 보도에 기반한 내용이며 임상 지침이 아니다. 본문의 어떤 내용도 의료적 조언을 구성하지 않는다.",
+      "cluster": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768966/",
+          "source": "PubMed",
+          "title": "AI Quality and Clinical Roles Impact Decision Quality in AI-Augmented Medical Decisions More than AI Explanations"
+        },
+        {
+          "url": "https://www.statnews.com/2026/09/21/health-news-trump-newest-vaccine-demands-repeat-old-misinformation/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "President Trump's newest vaccine 'demands' repeat old misinformation"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768966/",
+          "source": "PubMed",
+          "title": "AI Quality and Clinical Roles Impact Decision Quality in AI-Augmented Medical Decisions More than AI Explanations",
+          "publishedAt": "2026/09/22 00:00"
+        },
+        {
+          "id": 2,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768349/",
+          "source": "PubMed",
+          "title": "Decision-curve analysis should be a bridge, not an endpoint, for clinical artificial intelligence in oncology",
+          "publishedAt": "2026/09/21 00:00"
+        },
+        {
+          "id": 3,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768365/",
+          "source": "PubMed",
+          "title": "The missing sex and gender lens in artificial-intelligence-enabled resuscitation",
+          "publishedAt": "2026/09/21 00:00"
+        },
+        {
+          "id": 4,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768952/",
+          "source": "PubMed",
+          "title": "Attitudes and Perceptions of Generative Artificial Intelligence Chatbots in the Scientific Process of Traditional, Complementary, and Integrative Medicine Research: A Large-Scale, International Cross-Sectional Survey",
+          "publishedAt": "2026/09/22 00:00"
+        },
+        {
+          "id": 5,
+          "url": "https://www.statnews.com/2026/09/21/trust-in-science-reporter-nick-florko-interview-status-report-alex-hogan/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "Why is trust in science important?",
+          "publishedAt": "2026-09-21T08:30:00.000Z"
+        },
+        {
+          "id": 6,
+          "url": "https://www.statnews.com/2026/09/21/trust-in-science-nick-florko-on-understanding-growing-scientific-mistrust/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "Skeptical about modern medicine? I know the feeling — and want to listen",
+          "publishedAt": "2026-09-21T08:30:00.000Z"
+        }
+      ],
+      "tags": [
+        "clinical-ai",
+        "trust",
+        "decision-making",
+        "oncology"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ai-monitoring-critical-care-ko",
+      "headline": "소아 중환자실에서 뇌파 기반 머신러닝을 활용한 급성 뇌 손상 예측",
+      "dek": "머신러닝 예측 및 모니터링 연구들이 급성기 및 중환자 치료 영역을 중심으로 집중되었다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "PubMed 연구는 소아 중환자실에서 뇌파 머신러닝을 이용해 급성 뇌 손상을 예측했다.",
+        "동반 논문은 ATACH-2 및 카타르 뇌졸중 데이터베이스를 활용해 뇌내출혈 예후 예측 머신러닝 모델을 비교했다.",
+        "ClinicalTrials.gov에는 환자-인공호흡기 비동기 분석 기능 및 통제된 발열 범위 체온 관리 안전성 연구가 등록되었다."
+      ],
+      "body": [
+        {
+          "text": "한 PubMed 연구는 뇌파 검사(EEG) 기반의 머신러닝을 활용해 소아 중환자실 환자의 급성 뇌 손상을 예측할 수 있다고 보고하며, 지속적 신경 모니터링으로 AI 예측을 확장했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "동반 논문은 ATACH-2 및 카타르 뇌졸중 데이터베이스를 바탕으로 뇌내출혈(ICH) 예후 예측을 위한 머신러닝 모델들의 성능을 비교 평가했다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "ClinicalTrials.gov에는 환자-인공호흡기 비동기화 분석 기능 연구가 등록되었으며, 다른 항목은 통제된 환경에서 체온 관리 시스템을 사용해 환자 체온을 미열 수준으로 완만히 올리는 안전성 시험을 기술했다.",
+          "citations": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "별도의 후향적 코호트 연구는 2,508명의 환자를 대상으로 사지 골절 감지에 대한 AI 신뢰도의 진단 정확도와 임상적 중요성을 평가했다.",
+          "citations": [
+            5
+          ]
+        }
+      ],
+      "whyItMatters": "예측과 모니터링은 임상 AI가 환자 침상과 직접 만나는 영역이므로, 신뢰도 보고와 전향적 검증이 이들 모델이 치료를 실질적으로 변화시킬지 아니면 경보 피로만 가중할지를 결정한다.",
+      "editorNote": "연구 초록 및 임상시험 등록 정보이며 임상 진료 지침이 아니다. 보고된 연구 결과는 독립적으로 검증되지 않았다.",
+      "cluster": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768188/",
+          "source": "PubMed",
+          "title": "Diagnostic accuracy & clinical importance of AI confidence for extremity fracture detection: 2,508-patient retrospective cohort"
+        },
+        {
+          "url": "https://clinicaltrials.gov/study/NCT06390917",
+          "source": "ClinicalTrials.gov",
+          "title": "Study on the Patient-Ventilator Asynchrony Analysis Function"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768269/",
+          "source": "PubMed",
+          "title": "Machine Learning Using Electroencephalography Predicts Acute Cerebral Injury in the Pediatric ICU",
+          "publishedAt": "2026/09/21 00:00"
+        },
+        {
+          "id": 2,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768786/",
+          "source": "PubMed",
+          "title": "A Comparison of Machine Learning Models for ICH Prognostication: An Analysis of ATACH-2 and Qatar Stroke Database",
+          "publishedAt": "2026/09/22 00:00"
+        },
+        {
+          "id": 3,
+          "url": "https://clinicaltrials.gov/study/NCT06390917",
+          "source": "ClinicalTrials.gov",
+          "title": "Study on the Patient-Ventilator Asynchrony Analysis Function",
+          "publishedAt": "2026-09-15T00:00:00.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://clinicaltrials.gov/study/NCT07564440",
+          "source": "ClinicalTrials.gov",
+          "title": "Hyperthermia Safety Study Uses Temperature Management System to Gently Raise Participant's Body Temperature to a Fever-range Level in a Controlled Setting.",
+          "publishedAt": "2026-09-21T00:00:00.000Z"
+        },
+        {
+          "id": 5,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768188/",
+          "source": "PubMed",
+          "title": "Diagnostic accuracy & clinical importance of AI confidence for extremity fracture detection: 2,508-patient retrospective cohort",
+          "publishedAt": "2026/09/22 00:00"
+        }
+      ],
+      "tags": [
+        "clinical-ai",
+        "monitoring",
+        "critical-care",
+        "prediction"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "cancer-detection-treatment-pipeline-ko",
+      "headline": "STAT+: 그레일 암 검진 검사 자문위 투표 결과가 기업, 환자, 규제당국에 미칠 영향",
+      "dek": "암 관련 소식에는 FDA 자문위 표결, 신규 승인, 등록된 복합 치료 임상시험이 포함되었다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "STAT는 그레일의 암 검진 검사 자문위 투표가 기업과 환자, 규제기관에 미칠 영향을 보도했다.",
+        "별도 STAT 기사는 릴리의 유방암 병용요법 승인을 전했고, 기고문은 근거 기반 암 증상 완화 치료에 보험이 적용되지 않는 이유를 물었다.",
+        "ClinicalTrials.gov에는 교모세포종 대상 맞춤형 유전체 백신과 종양 치료장 병용 요법 및 신세포암 펨브롤리주맙 병용 하위 연구가 등록되었다."
+      ],
+      "body": [
+        {
+          "text": "STAT는 그레일(Grail)의 암 검출 검사에 대한 자문위 투표가 기업, 환자, 규제당국에 갖는 의미를 보도하며 이번 자문 절차를 다중 암 조기 발견 기술의 중대한 시험대로 규정했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "별도의 STAT 기사는 릴리의 유방암 병용요법 승인 소식을 전했으며, 한 기고문은 암 증상 완화에 대한 과학적 근거가 명확함에도 보험 적용이 되지 않는 현실을 비판했다.",
+          "citations": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "ClinicalTrials.gov에는 교모세포종 치료를 위한 맞춤형 유전체 백신과 종양 치료장(TTFields) 병용의 안전성 및 면역원성 연구가 등록되었고, 항-PD-(L)1 치료 중 또는 이후 재발한 신세포암 환자 대상 병용요법 하위 임상이 등록되었다.",
+          "citations": [
+            4,
+            5
+          ]
+        }
+      ],
+      "whyItMatters": "조기 진단, 규제 승인, 보험 급여는 각기 다른 경로로 진행되므로, 유망한 검사나 신약이라도 규제와 지불 제도의 퍼즐이 맞물려야 비로소 환자에게 도달할 수 있다.",
+      "editorNote": "뉴스 보도 및 임상시험 등록 정보이며 임상 또는 투자 가이드가 아니다. 명시되지 않은 한 규제 결과는 확정된 것이 아니다.",
+      "cluster": [
+        {
+          "url": "https://www.statnews.com/2026/09/22/integrative-oncology-cancer-symptoms-insurance-asco-sio-pain-fatigue/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "Opinion: The science on relieving cancer symptoms is clear. Why isn't insurance paying?"
+        },
+        {
+          "url": "https://clinicaltrials.gov/study/NCT04840602",
+          "source": "ClinicalTrials.gov",
+          "title": "Testing the Combination of Venetoclax and Rituximab for Waldenstrom's Macroglobulinemia/Lymphoplasmacytic Lymphoma"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.statnews.com/2026/09/21/grail-galleri-fda-advisory-committee-meeting-documents/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "STAT+: What a vote on Grail's cancer detection test could mean for the company, patients, and regulators",
+          "publishedAt": "2026-09-21T17:58:51.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.statnews.com/2026/09/21/biotech-news-lilly-breast-cancer-combo-wins-approval/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "STAT+: Lilly's breast cancer combo wins approval",
+          "publishedAt": "2026-09-21T15:08:38.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.statnews.com/2026/09/22/integrative-oncology-cancer-symptoms-insurance-asco-sio-pain-fatigue/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "Opinion: The science on relieving cancer symptoms is clear. Why isn't insurance paying?",
+          "publishedAt": "2026-09-22T08:30:00.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://clinicaltrials.gov/study/NCT03223103",
+          "source": "ClinicalTrials.gov",
+          "title": "Safety and Immunogenicity of Personalized Genomic Vaccine and Tumor Treating Fields (TTFields) to Treat Glioblastoma",
+          "publishedAt": "2026-09-21T00:00:00.000Z"
+        },
+        {
+          "id": 5,
+          "url": "https://clinicaltrials.gov/study/NCT07049926",
+          "source": "ClinicalTrials.gov",
+          "title": "Substudy 03C: A Study of Combination Therapies in Participants With Renal Cell Carcinoma With Recurrent Disease During or After Anti-PD-(L)1 Therapy (MK-3475-03C/KEYMAKER-U03)",
+          "publishedAt": "2026-09-17T00:00:00.000Z"
+        }
+      ],
+      "tags": [
+        "cancer",
+        "regulatory",
+        "clinical-trials",
+        "oncology"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "infectious-disease-surveillance-ko",
+      "headline": "오랜 침묵 끝에 급증세를 보이는 에볼라의 치명적 근연종 바이러스",
+      "dek": "AI 기반 모델링 및 분류 도구가 다시 부상한 필로바이러스 및 흑사병의 역사적 교훈과 마주했다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "사이언스데일리는 에볼라의 치명적 근연종 바이러스가 오랜 침묵 끝에 다시 확산되고 있다고 보도했다.",
+        "PubMed는 감염병 모델링 및 공중보건 결정을 위한 AI 활용과 결핵 분류용 기침 소리 AI 분석 기술 검토를 게재했다.",
+        "다른 논문은 팬데믹 인텔리전스를 위한 커뮤니티 협력을 촉구했고, 고대 DNA 연구는 흑사병 이후 페스트가 400년간 지속된 경로를 밝혔다."
+      ],
+      "body": [
+        {
+          "text": "사이언스데일리는 치명적인 에볼라 근연종 바이러스가 오랜 기간의 잠복 후 급증하고 있다고 보도하며, 필로바이러스가 여전히 활성화된 감시 과제임을 상기시켰다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "PubMed는 감염병 모델링 및 공중보건 의사결정을 위한 AI 활용 연구와 함께, 폐결핵 선별 및 진단을 위한 AI 기반 기침 분석 기술 검토 논문을 실었다.",
+          "citations": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "별도의 논문은 팬데믹 및 유행병 인텔리전스 발전을 위한 다학제 협력을 제안했으며, 고대 DNA 연구는 흑사병 이후 400년 동안 페스트균이 반복해서 재유행한 기전을 설명했다.",
+          "citations": [
+            4,
+            5
+          ]
+        }
+      ],
+      "whyItMatters": "현장 환자 분류부터 유행병 역사 분석에 이르기까지 조기에 병원체를 감지하고 모델링하는 질문이 반복되며, AI 도구들이 바로 이 지점에 배치되고 있다.",
+      "editorNote": "뉴스 보도 및 연구 초록 기반 기사이며 공중보건 지침이 아니다. 유행병 관련 보도 내용은 독립적으로 검증되지 않았다.",
+      "cluster": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768357/",
+          "source": "PubMed",
+          "title": "Fostering cross-community collaboration to advance pandemic and epidemic intelligence"
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260919031025.htm",
+          "source": "ScienceDaily",
+          "title": "Ancient DNA reveals how plague kept returning for 400 years after the Black Death"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.sciencedaily.com/releases/2026/09/260919031042.htm",
+          "source": "ScienceDaily",
+          "title": "A deadly ebola relative is surging after years in the shadows",
+          "publishedAt": "2026-09-20T02:26:36.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768353/",
+          "source": "PubMed",
+          "title": "Leveraging AI for infectious disease modelling and public health decision making",
+          "publishedAt": "2026/09/21 00:00"
+        },
+        {
+          "id": 3,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768162/",
+          "source": "PubMed",
+          "title": "AI Based Cough Analysis for Pulmonary Tuberculosis Triage and Diagnosis: A Technical Review",
+          "publishedAt": "2026/09/21 00:00"
+        },
+        {
+          "id": 4,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768357/",
+          "source": "PubMed",
+          "title": "Fostering cross-community collaboration to advance pandemic and epidemic intelligence",
+          "publishedAt": "2026/09/21 00:00"
+        },
+        {
+          "id": 5,
+          "url": "https://www.sciencedaily.com/releases/2026/09/260919031025.htm",
+          "source": "ScienceDaily",
+          "title": "Ancient DNA reveals how plague kept returning for 400 years after the Black Death",
+          "publishedAt": "2026-09-20T06:46:18.000Z"
+        }
+      ],
+      "tags": [
+        "infectious-disease",
+        "ai-modelling",
+        "surveillance",
+        "tuberculosis"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ai-biology-biomarker-discovery-ko",
+      "headline": "유전체 언어 모델을 활용한 자연계에 없던 생합성 조립 라인의 생성형 설계",
+      "dek": "유전체 언어 모델로 생합성 경로를 설계한 사전인쇄본이 발표된 한편 임상 연구는 새로운 바이오마커를 제시했다.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "bioRxiv 사전인쇄본은 유전체 언어 모델링을 통한 새로운 생합성 조립 라인의 생성형 설계를 기술했다.",
+        "PubMed 연구는 MASLD 환자의 섬유화 및 사망 위험 평가를 위한 비침습적 바이오마커로 EGF-like 7을 제안했다.",
+        "다른 논문은 성인의 만성 질환 부담과 모든 원인의 사망률 위험 계층화를 위한 표현형 나이 지표를 평가했다."
+      ],
+      "body": [
+        {
+          "text": "한 bioRxiv 사전인쇄본은 유전체 언어 모델링(Genomic Language Modeling)을 활용해 자연계에 존재하지 않던 생합성 조립 라인을 생성형으로 설계했다고 보고하며 모델 주도 생물학적 경로 설계 가능성을 보여주었다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "임상 연구에서 한 PubMed 논문은 대사이상 지방간질환(MASLD) 환자의 섬유화 진행 및 사망 위험을 비침습적으로 예측할 수 있는 잠재적 바이오마커로 EGF-like 7(표피성장인자 유사 7)을 제시했다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "또 다른 논문은 성인의 만성 질환 부담과 전인적 사망 위험을 계층화하기 위한 표현형 연령(phenotypic age) 측정 지표의 효용을 평가했다.",
+          "citations": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "언어 모델 방식이 텍스트를 넘어 생물학 분야로 확장되고 있으며, 생합성 경로 설계뿐 아니라 예방 치료를 이끄는 바이오마커 발굴에도 활발히 적용되고 있다.",
+      "editorNote": "사전인쇄본 및 초록 자료는 동료 평가를 거친 확정 연구가 아니며 변경될 수 있다. 본문의 어떤 내용도 의료적 조언이 아니다.",
+      "cluster": [
+        {
+          "url": "https://doi.org/10.64898/2026.09.11.750945",
+          "source": "bioRxiv",
+          "title": "Generative Design of New-to-nature Biosynthetic Assembly Lines with Genomic Language Modeling"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768894/",
+          "source": "PubMed",
+          "title": "Discovery of Epidermal Growth Factor-Like 7 as a Potential Non-Invasive Biomarker for Fibrosis and Mortality Risk in MASLD"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://doi.org/10.64898/2026.09.11.750945",
+          "source": "bioRxiv",
+          "title": "Generative Design of New-to-nature Biosynthetic Assembly Lines with Genomic Language Modeling",
+          "publishedAt": "2026-09-22"
+        },
+        {
+          "id": 2,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768894/",
+          "source": "PubMed",
+          "title": "Discovery of Epidermal Growth Factor-Like 7 as a Potential Non-Invasive Biomarker for Fibrosis and Mortality Risk in MASLD",
+          "publishedAt": "2026/10/01 00:00"
+        },
+        {
+          "id": 3,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768379/",
+          "source": "PubMed",
+          "title": "Phenotypic age metrics for risk stratification of chronic disease burden and all-cause mortality in adults",
+          "publishedAt": "2026/09/22 00:00"
+        }
+      ],
+      "tags": [
+        "preprint",
+        "biomarkers",
+        "genomic-language-models",
+        "masld"
+      ],
+      "confidence": "low"
+    },
+    {
+      "slug": "neuroscience-brain-imaging-devices-ko",
+      "headline": "스탠퍼드 연구진, 인간의 뇌가 실제로는 두 개의 독립된 기관일 수 있음을 발견",
+      "dek": "두 개의 기관 가설부터 뇌 임플란트, 롱코비드 영상 진단, 치매 예측에 이르기까지 뇌과학 연구가 폭넓게 전개되었다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "사이언스데일리는 스탠퍼드 연구진이 인간의 뇌가 사실 두 개의 개별 기관일 수 있다는 점을 발견했다고 보도했다.",
+        "동일 매체는 롱코비드 피로와 뇌 안개의 원인을 밝힌 뇌 스캔 연구와 세 가지 기능을 수행하는 초박형 바늘 뇌 임플란트를 다뤘다.",
+        "PubMed는 파킨슨병의 표정 비대칭성에 대한 정량 평가와 경도인지장애의 2년 내 치매 전환을 예측하는 다중모달 모델을 실었다."
+      ],
+      "body": [
+        {
+          "text": "사이언스데일리는 스탠퍼드 과학자들이 인간의 뇌가 구조적으로 두 개의 개별 기관으로 조직화되어 있을 수 있다는 사실을 발견했다고 보도했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "해당 매체는 또한 롱코비드(long COVID) 만성 피로와 브레인 포그의 잠재적 원인을 보여준 뇌 영상 연구와, 세 가지 기능을 동시에 수행하도록 설계된 바늘 굵기의 초소형 뇌 임플란트 개발 소식을 함께 전했다.",
+          "citations": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "학술 문헌에서는 파킨슨병 환자의 안면 표정 비대칭성을 정량적으로 측정한 PubMed 연구와, 2년 이내 경도인지장애(MCI)의 치매 전환을 예측하는 다중모달 모델 연구가 발표되었다.",
+          "citations": [
+            4,
+            5
+          ]
+        }
+      ],
+      "whyItMatters": "뇌의 구조 및 영상 모델 개선은 의료 기기 개발과 조기 진단으로 직결되며, 이는 기초 신경과학이 실제 임상 도구로 전환되는 핵심 연결고리다.",
+      "editorNote": "사이언스데일리 기사는 보도자료를 요약한 것이며 PubMed 기사는 학술 초록이다. 임상 지침이 아니며 보도된 연구 결과를 그대로 전한다.",
+      "cluster": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260920222416.htm",
+          "source": "ScienceDaily",
+          "title": "Scientists create a needle-thin brain implant that can do three jobs at once"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768794/",
+          "source": "PubMed",
+          "title": "Quantitative Assessment of Facial Expression Asymmetry in Parkinson's Disease"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.sciencedaily.com/releases/2026/09/260920222352.htm",
+          "source": "ScienceDaily",
+          "title": "Stanford scientists discover the human brain may actually be two separate organs",
+          "publishedAt": "2026-09-21T10:12:51.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.sciencedaily.com/releases/2026/09/260920222412.htm",
+          "source": "ScienceDaily",
+          "title": "Brain scans reveal a possible cause of long COVID fatigue and brain fog",
+          "publishedAt": "2026-09-22T03:48:58.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.sciencedaily.com/releases/2026/09/260920222416.htm",
+          "source": "ScienceDaily",
+          "title": "Scientists create a needle-thin brain implant that can do three jobs at once",
+          "publishedAt": "2026-09-21T12:25:22.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768794/",
+          "source": "PubMed",
+          "title": "Quantitative Assessment of Facial Expression Asymmetry in Parkinson's Disease",
+          "publishedAt": "2026/09/22 00:00"
+        },
+        {
+          "id": 5,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42768165/",
+          "source": "PubMed",
+          "title": "Multimodal prediction of MCI-to-dementia conversion over a two-year window",
+          "publishedAt": "2026/09/22 00:00"
+        }
+      ],
+      "tags": [
+        "neuroscience",
+        "brain-imaging",
+        "parkinsons",
+        "dementia"
+      ],
+      "confidence": "low"
+    },
+    {
+      "slug": "glp1-novo-medicare-bridge-ko",
+      "headline": "STAT+: 노보, 메디케어 브리지 프로그램 통해 예상보다 유리한 조건 확보 가능성",
+      "dek": "노보의 메디케어 약가 조건과 GLP-1 약물 중단에 관한 새로운 임상 근거가 같은 날 발표되었다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "STAT는 노보가 메디케어 브리지 프로그램 하에서 예상보다 유리한 조건을 얻을 수 있다고 보도했다.",
+        "STAT는 또한 트럼프 행정부가 노보에 막대한 재정적 승리를 안겨준 것인지 질문을 던졌다.",
+        "사이언스데일리는 오젬픽 중단이 심장마비 및 뇌졸중 위험을 높일 수 있다는 연구 결과를 보도했다."
+      ],
+      "body": [
+        {
+          "text": "STAT 보도에 따르면 노보 노디스크는 미국 메디케어의 브리지(Bridge) 프로그램을 통해 당초 예상보다 더 유리한 계약 조건을 체결할 가능성이 있는 것으로 나타났다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "STAT는 별도 분석 기사를 통해 트럼프 행정부의 결정이 노보에 막대한 재정적 수혜를 안겨준 것인지 집중 검토했다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "사이언스데일리는 오젬픽(Ozempic) 복용 중단 시 심장마비 및 뇌졸중 위험이 증가할 수 있다는 연구 결과를 전했으며, 이는 지속적 GLP-1 투약의 득실을 평가하는 환자와 보험자 모두에게 중요한 근거다.",
+          "citations": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "GLP-1 약물에 대한 메디케어 약가 협상 조건과 투약 중단 관련 임상 근거는 노보의 매출 전망뿐 아니라 대규모 반복 비용으로 자리잡은 약제비를 관리해야 하는 보험자들의 재정 계획을 결정짓는다.",
+      "editorNote": "발표된 약가 조건과 단일 연구 결과를 보도한 내용이며, 의료 지침이 아니며 치료에 대한 어떤 권고도 하지 않는다.",
+      "cluster": [
+        {
+          "url": "https://www.statnews.com/pharmalot/2026/09/22/pharma-seeks-to-protect-china-deals-roche-obesity-drug/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "STAT+: Pharmalittle: We’re reading about pharma seeking to protect China deals, a Roche obesity drug, and more"
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260920222414.htm",
+          "source": "ScienceDaily",
+          "title": "Stopping Ozempic may raise heart attack and stroke risk"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.statnews.com/2026/09/22/biotech-news-novo-may-be-getting-a-better-deal-than-expected-with-medicare-bridge/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "STAT+: Novo may be getting a better deal than expected with Medicare’s Bridge program",
+          "publishedAt": "2026-09-22T14:23:00.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.statnews.com/2026/09/22/dc-diagnosis-did-trump-administration-cut-novo-huge-financial-win/?utm_campaign=rss",
+          "source": "STAT News",
+          "title": "STAT+: Did the Trump administration just cut Novo a huge financial win?",
+          "publishedAt": "2026-09-22T16:23:21.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.sciencedaily.com/releases/2026/09/260920222414.htm",
+          "source": "ScienceDaily",
+          "title": "Stopping Ozempic may raise heart attack and stroke risk",
+          "publishedAt": "2026-09-21T13:35:30.000Z"
+        }
+      ],
+      "tags": [
+        "glp-1",
+        "novo-nordisk",
+        "medicare",
+        "drug-pricing"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

@@ -113,9 +113,10 @@ document.addEventListener('keydown', (event) => {
 /* -------------------------------------------------------- search index io */
 
 let indexPromise: Promise<SearchItem[]> | null = null;
+const searchLang = document.documentElement.lang === 'ko' ? 'ko' : 'en';
 
 function loadIndex(): Promise<SearchItem[]> {
-  indexPromise ??= fetch('/search-index.json')
+  indexPromise ??= fetch(`/${searchLang}/search-index.json`)
     .then((response) => (response.ok ? response.json() : []))
     .then((data: unknown) => (Array.isArray(data) ? (data as SearchItem[]) : []))
     .catch(() => [] as SearchItem[]);

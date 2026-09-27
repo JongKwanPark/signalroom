@@ -1,0 +1,169 @@
+{
+  "date": "2026-09-23",
+  "generatedAt": "2026-09-24T01:40:00.000Z",
+  "vertical": "ai",
+  "lang": "ko",
+  "title": "시그널 데일리 — AI",
+  "summary": "이번 에디션은 두 편의 스토리로 구성된 비교적 가벼운 날이었다. 한 arXiv 논문은 법률 문서 대상 테스트에서 Jev와 언어모델이 동일한 점수를 기록하면서도 상이한 결정을 내린다는 점을 발견했으며, 770건의 AITA 게시물 대상 커뮤니티 테스트와 GitHub의 추가 Jev 도구들이 함께 다뤄졌다. 이와 별도로 실무자들이 모델 간 작업 분배 방식을 논의하는 가운데 타 제공업체의 모델로 코딩 에이전트를 구동하는 메뉴 막대 도구가 등장했다. 이번 에디션은 9월 23일 22:00 UTC 이전에 게시된 항목을 다루며, OpenAI 및 Anthropic CEO들의 UN 청원과 Mercury 2.5 속도 수치 등 이후 항목은 9월 24일 에디션에 수록된다. 그 외 수집된 항목들은 2차 독립 출처가 부족했다.",
+  "stories": [
+    {
+      "slug": "jev-legal-decisions-evaluations-ko",
+      "headline": "동일 점수, 상이한 결정: 법률 문서 이해를 위한 JEV 및 언어모델 평가",
+      "dek": "신규 arXiv 논문과 커뮤니티 벤치마크가 모두 기존 LLM과 Jev를 비교 평가하는 동안 관련 도구 생태계는 지속적으로 성장했다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "동일 점수, 상이한 결정이라는 제목의 arXiv 논문은 법률 문서 이해 작업에서 TypeSafe의 Jev와 언어모델들을 비교 평가했다.",
+        "Hacker News 게시물은 770개의 '내가 잘못했나요(AITA)' 게시물을 대상으로 Jev와 LLM을 비교했다.",
+        "GitHub 프로젝트들은 임의의 LLM을 Jev 방식 의사결정 모델로 전환할 것을 제안하고 검증된 805개 Jev 사례를 분류했으며 jev-chat 프로젝트의 회신 비서는 스타 5,000개를 돌파했다."
+      ],
+      "body": [
+        {
+          "text": "동일 점수, 상이한 결정이라는 제목의 arXiv 논문은 법률 문서 이해 작업에서 JEV와 언어모델들을 평가했다. 논문 제목은 점수가 일치하더라도 실제 결정은 갈라진다는 결과를 시사한다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "별도의 Hacker News 기고문은 770개의 AITA 게시물에서 Jev와 LLM을 대조 테스트하여 사실 관계 확인이 아닌 대중이 판정하는 사회적 딜레마에 양측을 적용했다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "도구의 축적도 이어졌다. nokia-applied-research 계정의 한 저장소는 학습 과정 없이 타입화된 결정과 실제 확률을 제공해 임의의 LLM을 Jev 방식 결정 모델로 바꿀 수 있다고 밝혔으며, 다른 목록은 Jev가 내리는 결정 유형별로 검증된 805개 사례를 색인했다.",
+          "citations": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "소비자 지향적 실험도 등장했다. 화면을 읽고 후보 답변을 제안하는 모바일 기반 대화 부조종사 jev-chat-jarvis는 수집 당시 약 5,250개의 GitHub 스타를 기록했다.",
+          "citations": [
+            5
+          ]
+        }
+      ],
+      "whyItMatters": "벤치마크 점수의 일치는 서로 다른 의사결정 결과를 은폐할 수 있으며, 이는 타입화된 결정 계층을 법률이나 규제 준수 워크플로에 도입하려는 이들에게 중대한 문제다. 평가는 단순한 총점 정확도가 아니라 사례별 출력을 대조해야 한다.",
+      "editorNote": "arXiv 논문은 제목 수준에서 인용되었으며 그 결과는 여기서 재현되지 않았다. AITA 비교 및 GitHub 프로젝트는 독립적으로 검증되지 않은 커뮤니티 작업물이다.",
+      "cluster": [
+        {
+          "url": "https://github.com/kydlikebtc/awesome-jev",
+          "source": "GitHub",
+          "title": "kydlikebtc/awesome-jev: 805 verified examples of Jev — TypeSafe AI's System One decision model — indexed by the decision each one makes, not the blog that mentioned it. Every cited call site is re-read by CI each week. Bilin"
+        },
+        {
+          "url": "https://github.com/walidboulanouar/awesome-jev-use-cases",
+          "source": "GitHub",
+          "title": "walidboulanouar/awesome-jev-use-cases: Awesome list of TypeSafe AI Jev use cases: 74 demos ranked by likes, 150+ GitHub repos, limits, cost and API examples. CC0, sponsored by AY Automate."
+        },
+        {
+          "url": "https://github.com/dchristopoulos/jev-aita",
+          "source": "Hacker News",
+          "title": "Jev vs. LLMs on 770 \"Am I the Asshole?\" posts"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "http://arxiv.org/abs/2609.27678v1",
+          "source": "arXiv",
+          "title": "Same Scores, Different Decisions: Evaluating JEV and Language Models for Legal Document Understanding",
+          "publishedAt": "2026-09-23T10:53:01Z"
+        },
+        {
+          "id": 2,
+          "url": "https://github.com/dchristopoulos/jev-aita",
+          "source": "Hacker News",
+          "title": "Jev vs. LLMs on 770 \"Am I the Asshole?\" posts",
+          "publishedAt": "2026-09-23T20:17:19Z"
+        },
+        {
+          "id": 3,
+          "url": "https://github.com/nokia-applied-research/AnyJev",
+          "source": "GitHub",
+          "title": "nokia-applied-research/AnyJev: Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue updating)",
+          "publishedAt": "2026-09-21T05:55:40Z"
+        },
+        {
+          "id": 4,
+          "url": "https://github.com/kydlikebtc/awesome-jev",
+          "source": "GitHub",
+          "title": "kydlikebtc/awesome-jev: 805 verified examples of Jev — TypeSafe AI's System One decision model — indexed by the decision each one makes, not the blog that mentioned it. Every cited call site is re-read by CI each week. Bilin",
+          "publishedAt": "2026-09-22T02:22:54Z"
+        },
+        {
+          "id": 5,
+          "url": "https://github.com/jev-chat/jev-chat-jarvis",
+          "source": "GitHub",
+          "title": "jev-chat/jev-chat-jarvis: 装在手机上的对话副驾：在微信 / QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。",
+          "publishedAt": "2026-09-21T11:12:53Z"
+        }
+      ],
+      "tags": [
+        "jev",
+        "typesafe",
+        "evaluation",
+        "legal-ai"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "magpie-multi-model-agent-routing-ko",
+      "headline": "yetone/magpie: 모든 에이전트를 위한 모델을 한곳에서. 메뉴 막대에서 DeepSeek 기반 Codex, Kimi 기반 Claude Code 실행",
+      "dek": "실무자들이 모델 간 작업 분배 방식을 비교하는 가운데 코딩 에이전트의 백엔드 모델을 교체하는 메뉴 막대 도구가 등장했다.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "magpie 프로젝트는 메뉴 막대에서 전환기를 제공하여 DeepSeek 기반 Codex나 Kimi 기반 Claude Code처럼 코딩 에이전트를 타사 모델로 구동하게 돕는다.",
+        "r/MachineLearning 스레드는 실무자들에게 아이디어 도출, 수학, 코딩 작업에서 AI 모델을 어떻게 분할해 사용하는지 물었다.",
+        "두 항목 모두 사용량 데이터나 벤치마크를 포함하지 않으므로 다중 모델 구성의 실제 도입률은 측정되지 않았다."
+      ],
+      "body": [
+        {
+          "text": "magpie는 모든 에이전트의 모델을 한자리에서 관리한다고 소개하며, 사용자가 메뉴 막대에서 DeepSeek 상의 Codex나 Kimi 상의 Claude Code를 구동할 수 있도록 지원한다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "현업에서도 동일한 패턴이 관찰됐다. r/MachineLearning 스레드는 사람들이 아이디어 구상, 수학 계산, 코딩 작업에 걸쳐 AI 모델을 어떻게 나누어 활용하는지 질문을 던졌다.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "에이전트와 기본 모델 간의 결합을 분리하는 도구는 모델 계층의 상호교환성을 높여 가격 압박을 가하고, 차별화 포인트를 에이전트 하네스와 워크플로 쪽으로 이동시킨다.",
+      "editorNote": "프로젝트 설명은 개발자 자신의 기술이며 Reddit 항목은 토론 스레드다. 기능은 독립적으로 테스트되지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wnzols/how_do_you_split_ai_models_across_ideation_math/",
+          "source": "Reddit r/MachineLearning",
+          "title": "How do you split AI models across ideation, math, and coding?[D]"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://github.com/yetone/magpie",
+          "source": "GitHub",
+          "title": "yetone/magpie: Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+          "publishedAt": "2026-09-23T16:22:35Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wnzols/how_do_you_split_ai_models_across_ideation_math/",
+          "source": "Reddit r/MachineLearning",
+          "title": "How do you split AI models across ideation, math, and coding?[D]",
+          "publishedAt": "2026-09-23T07:59:39.000Z"
+        }
+      ],
+      "tags": [
+        "agents",
+        "developer-tools",
+        "model-routing"
+      ],
+      "confidence": "low"
+    }
+  ]
+}

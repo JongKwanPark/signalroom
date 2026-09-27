@@ -1,0 +1,283 @@
+{
+  "date": "2026-09-25",
+  "generatedAt": "2026-09-25T10:10:10Z",
+  "vertical": "markets",
+  "lang": "ko",
+  "title": "시그널 데일리 — 마켓",
+  "summary": "이번 수집에서는 통신사 헤드라인과 커뮤니티 게시물을 중심으로 101건의 고유 항목을 확보했다. SEC EDGAR 및 시장 데이터 요청이 실패했고 Polymarket은 차단되었으며 FRED는 구성되지 않았다. 5건의 스토리가 투자 조언 없이 전개 상황을 전한다.",
+  "stories": [
+    {
+      "slug": "treasury-yields-and-market-pressure-ko",
+      "headline": "급등하는 국채 수익률, Kevin Warsh와 Fed에 완전히 새로운 문제 제기",
+      "dek": "채권 시장 압박이 광범위한 시장 거래와 교차하면서 국채 수익률이 여전히 초점으로 남았다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "CNBC는 급등하는 국채 수익률이 Kevin Warsh와 Federal Reserve에 새로운 문제를 안겨주었다고 보도했다.",
+        "Reddit 제목은 과열된 경제 지표 이후 10년 만기 국채 수익률이 19년 만의 최고치에 도달했다고 전했다.",
+        "Investing.com은 채권 매도세 속에서 유가 하락이 안도감을 주면서 미국 선물 지수가 소폭 상승했다고 전했다."
+      ],
+      "body": [
+        {
+          "text": "CNBC는 상승하는 수익률을 Warsh와 Fed의 새로운 과제로 규정했다. 한 시장 포럼 게시물은 10년물 수익률의 19년 만의 최고치를 설명했고, Investing.com은 채권 매도 국면에서 유가가 하락함에 따라 선물이 상승세를 보였다고 전했다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "이 보도들은 채권 수익률을 시장의 공통된 관심사로 지목하지만 단일한 원인이나 미래 예측을 확정하지는 않는다.",
+      "editorNote": "투자 권유가 아니며 Reddit 항목은 커뮤니티 게시물이다.",
+      "cluster": [
+        {
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1woaq47/10year_treasury_yield_leaps_to_fresh_19year_high/",
+          "source": "Reddit",
+          "title": "10-year Treasury yield leaps to fresh 19-year high after hot economic readings"
+        },
+        {
+          "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-drift-lower-as-soaring-yields-oil-prices-weigh-4916485",
+          "source": "Investing.com",
+          "title": "U.S. stock futures edge higher as oil drop offers relief amid bond selloff"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/09/24/surging-treasury-yields-are-posing-a-brand-new-problem-for-kevin-warsh-and-the-fed.html",
+          "source": "CNBC",
+          "title": "Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed",
+          "publishedAt": "2026-09-25T02:38:53.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1woaq47/10year_treasury_yield_leaps_to_fresh_19year_high/",
+          "source": "Reddit",
+          "title": "10-year Treasury yield leaps to fresh 19-year high after hot economic readings",
+          "publishedAt": "2026-09-23T16:26:14.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-drift-lower-as-soaring-yields-oil-prices-weigh-4916485",
+          "source": "Investing.com",
+          "title": "U.S. stock futures edge higher as oil drop offers relief amid bond selloff",
+          "publishedAt": "2026-09-25T00:52:36.000Z"
+        }
+      ],
+      "tags": [
+        "treasuries",
+        "rates",
+        "markets"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "bitget-hack-and-bitcoin-trading-ko",
+      "headline": "암호화폐 플랫폼 Bitget, 3억 5,200만 달러 해킹 배후로 북한 의심",
+      "dek": "3억 5,200만 달러 규모로 추정되는 암호화폐 플랫폼 해킹 소식이 비트코인 및 금리 불안 관련 보도와 나란히 등장했다.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "CNBC는 Bitget이 3억 5,200만 달러 규모의 해킹 배후로 북한을 의심하고 있다고 보도했다.",
+        "Investing.com은 금리 불안과 Bitget 해킹에 관심이 쏠리며 비트코인이 85,000달러 부근에서 박스권을 형성하고 있다고 전했다.",
+        "사건의 배후 지목은 해당 플랫폼이 제기한 의혹 수준으로 남아 있다."
+      ],
+      "body": [
+        {
+          "text": "CNBC는 확인된 조사 결과가 아니라 Bitget 측이 품고 있는 의혹에 손실 원인을 귀속시켰다. Investing.com은 이번 해킹을 비트코인 거래에서 주목하는 요인 중 하나로 꼽으며 비트코인이 85,000달러 근처에서 횡보하고 있다고 전했다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이 사건은 플랫폼 보안 소식을 시장의 관심과 연결하지만, 책임 소재를 공식 입증하거나 가격에 미치는 영향을 확정하지는 않는다.",
+      "editorNote": "금액과 배후 귀속은 헤드라인을 따랐으며 거래 조언은 제공되지 않는다.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-pauses-near-84k-with-focus-on-rate-jitters-bitget-hack-4916727",
+          "source": "Investing.com",
+          "title": "Bitcoin rangebound near $85k with focus on rate jitters, Bitget hack"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/09/25/crypto-platform-bitget-suspects-north-korea-in-352-million-hack.html",
+          "source": "CNBC",
+          "title": "Crypto platform Bitget suspects North Korea in 352-million hack",
+          "publishedAt": "2026-09-25T06:13:35.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-pauses-near-84k-with-focus-on-rate-jitters-bitget-hack-4916727",
+          "source": "Investing.com",
+          "title": "Bitcoin pauses near $84k with focus on rate jitters, Bitget hack",
+          "publishedAt": "2026-09-25T00:33:50.000Z"
+        }
+      ],
+      "tags": [
+        "cryptocurrency",
+        "security",
+        "bitcoin"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "novo-licensing-deal-and-share-price-ko",
+      "headline": "제약사 주가, Wegovy 제조사 Novo와의 주사제 계약 소식에 150% 폭등",
+      "dek": "두 건의 보도가 Novo와의 파트너십을 한 스웨덴 기업의 주가 급등과 결부시켰다.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "CNBC는 한 제약사 주가가 Novo와의 주사제 계약 소식에 150% 급등했다고 보도했다.",
+        "MarketWatch는 Novo의 라이선스 계약이 한 스웨덴 기업의 주가를 폭등시켰다고 전했다.",
+        "헤드라인만으로는 두 기사가 동일한 기업을 가리키는지 확정되지 않는다."
+      ],
+      "body": [
+        {
+          "text": "CNBC는 Novo와의 주사제 계약과 연계된 150%의 주가 상승을 보도했다. MarketWatch는 별도로 라이선스 계약과 스웨덴 기업 주가의 급등을 보도했으나, 제목만으로는 양측이 동일한 기업을 가리키는지 확인되지 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "해당 보도들은 계약 관련 헤드라인이 대규모 주가 움직임과 어떻게 맞물릴 수 있는지 보여주지만 정확한 회사명과 관계는 본문 수준의 검증이 필요하다.",
+      "editorNote": "두 헤드라인은 서로 다른 발표를 다루었을 가능성이 있으며 신뢰도는 낮음(low)이다.",
+      "cluster": [
+        {
+          "url": "https://www.marketwatch.com/story/after-capital-markets-day-flop-novo-strikes-licensing-deal-that-sends-a-swedish-companys-stock-soaring-f3c99cbe?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "After capital-markets day flop, Novo strikes licensing deal that sends a Swedish company&#x2019;s stock soaring"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/09/25/wegovy-novo-nordisk-obesity-drugs.html",
+          "source": "CNBC",
+          "title": "Pharma stock soars 150% on injectables deal with Wegovy maker Novo",
+          "publishedAt": "2026-09-25T09:58:27.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.marketwatch.com/story/after-capital-markets-day-flop-novo-strikes-licensing-deal-that-sends-a-swedish-companys-stock-soaring-f3c99cbe?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "After capital-markets day flop, Novo strikes licensing deal that sends a Swedish company&#x2019;s stock soaring",
+          "publishedAt": "2026-09-25T09:11:00.000Z"
+        }
+      ],
+      "tags": [
+        "pharma",
+        "licensing",
+        "markets"
+      ],
+      "confidence": "low"
+    },
+    {
+      "slug": "federal-reserve-fomc-statement-ko",
+      "headline": "Federal Reserve, FOMC 성명서 발표",
+      "dek": "시장 보도가 상승하는 국채 수익률에 주목하는 가운데 Federal Reserve는 FOMC 성명서를 발표했다.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "Federal Reserve 발표 목록은 FOMC 성명서 공개를 기록하고 있다.",
+        "CNBC는 치솟는 국채 수익률이 Fed에 새로운 문제를 제기했다고 보도했다.",
+        "수집된 제목에는 성명서의 정책 결정이나 전망 내용이 수록되지 않았다."
+      ],
+      "body": [
+        {
+          "text": "Federal Reserve 헤드라인은 FOMC 성명서 발표를 기록하고 있다. CNBC의 별도 보도는 국채 수익률과 Fed에 초점을 맞추고 있으며, 성명서 전문이 포함되지 않았으므로 정책 결정 내용을 추론하지 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "공식 발표와 수익률에 대한 시장의 우려는 배경 맥락을 제공하지만, 이 기록은 성명서를 직접 요약하지 않는다.",
+      "editorNote": "성명서 자체는 수집 메타데이터에서 확인할 수 없었다.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/09/24/surging-treasury-yields-are-posing-a-brand-new-problem-for-kevin-warsh-and-the-fed.html",
+          "source": "CNBC",
+          "title": "Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+          "source": "Federal Reserve",
+          "title": "Federal Reserve issues FOMC statement",
+          "publishedAt": "2026-09-16T18:00:00.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/09/24/surging-treasury-yields-are-posing-a-brand-new-problem-for-kevin-warsh-and-the-fed.html",
+          "source": "CNBC",
+          "title": "Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed",
+          "publishedAt": "2026-09-25T02:38:53.000Z"
+        }
+      ],
+      "tags": [
+        "federal-reserve",
+        "rates",
+        "policy"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "anthropic-infrastructure-and-governance-ko",
+      "headline": "Akamai 주가 급등. 120억 달러 규모 Anthropic 계약이 클라우드 제공업체 대비 강력한 우위 드러내",
+      "dek": "Anthropic 관련 보도는 전해진 인프라 계약과 잠재적 상장 시장 지배구조 계획에 걸쳐 있다.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "MarketWatch는 Akamai가 관여된 120억 달러 규모의 Anthropic 계약을 보도했다.",
+        "Seeking Alpha는 Anthropic이 잠재적 IPO를 앞두고 창업자의 의결권 지배력을 유지할 계획이라고 전했다.",
+        "보도들은 서로 분리된 상업적 및 기업 지배구조 관련 사안을 다룬다."
+      ],
+      "body": [
+        {
+          "text": "MarketWatch는 120억 달러 규모의 Akamai-Anthropic 계약을 설명했다. Seeking Alpha는 잠재적 기업공개(IPO)를 앞두고 창업자 의결권 지배를 추진한다는 소식을 별도로 전했으나 헤드라인만으로 두 사안의 연관성을 확정할 수는 없다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이 보고들은 해당 회사와 관련된 별개의 사안으로서 인프라와 기업 지배구조를 다룬다.",
+      "editorNote": "금액과 지배구조 관련 프레이밍은 헤드라인을 따랐으며 독자적으로 검증되지 않았다.",
+      "cluster": [
+        {
+          "url": "https://seekingalpha.com/news/4647012-anthropic-plans-founder-voting-control-ahead-of-potential-ipo?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+          "source": "Seeking Alpha",
+          "title": "Anthropic plans founder voting control ahead of potential IPO"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.marketwatch.com/story/akamai-stock-is-surging-a-12-billion-anthropic-deal-reveals-its-powerful-edge-over-cloud-providers-0b60ca6d?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Akamai stock is surging. A $12 billion Anthropic deal reveals its powerful edge over cloud providers.",
+          "publishedAt": "2026-09-25T08:42:00.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://seekingalpha.com/news/4647012-anthropic-plans-founder-voting-control-ahead-of-potential-ipo?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+          "source": "Seeking Alpha",
+          "title": "Anthropic plans founder voting control ahead of potential IPO",
+          "publishedAt": "2026-09-25T09:50:19.000Z"
+        }
+      ],
+      "tags": [
+        "anthropic",
+        "ai-infrastructure",
+        "governance"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

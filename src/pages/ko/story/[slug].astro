@@ -1,0 +1,13 @@
+---
+import LangStoryPage from '../../../components/LangStoryPage.astro';
+import { getStoryRefs, type StoryRef } from '../../../lib/editions';
+
+export async function getStaticPaths() {
+  const refs = await getStoryRefs('ko');
+  return refs.map((ref) => ({ params: { slug: ref.slug }, props: { ref } }));
+}
+
+const { ref } = Astro.props as { ref: StoryRef };
+---
+
+<LangStoryPage ref={ref} lang="ko" />

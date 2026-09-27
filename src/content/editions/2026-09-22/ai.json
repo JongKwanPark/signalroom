@@ -2,6 +2,7 @@
   "date": "2026-09-22",
   "generatedAt": "2026-09-22T22:05:00.000Z",
   "vertical": "ai",
+  "lang": "en",
   "title": "AI: Jev's new shape, compression-as-modelling and agent-harness research",
   "summary": "The day's AI set was again dominated by Jev, TypeSafe's typed-decision layer: a Simon Willison explainer, a community calibration thread that favored conventional LLMs, an arXiv evaluation and a video speed-up claim. Separate clusters covered compression-as-modelling experiments, agent harnesses and memory benchmarks on arXiv, the reliability of LLM peer review, fresh open-weight releases from Xiaomi and others, and a thin layer of coding-agent meta-tooling. All collectors for the vertical returned items; YouTube coverage again came only from Two Minute Papers, and most YouTube entries were older back-catalogue uploads. A second collection pass in the same UTC day surfaced no additional multi-source development for this vertical, so no stories were added.",
   "stories": [

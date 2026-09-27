@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Build-time Open Graph images: satori (CSS layout -> SVG) + resvg (SVG -> PNG).
 // Runs after `astro build` from `npm run build`; writes dist/og/site.png and
-// dist/og/<slug>.png for every story. Fails the build on any bad output so we
+// dist/og/<lang>/<slug>.png for every story. Fails the build on any bad output so we
 // never silently ship blank or malformed share cards.
 
 import { existsSync, readFileSync } from 'node:fs';
@@ -37,6 +37,7 @@ const MARK_DATA_URI = `data:image/svg+xml;base64,${readFileSync(
   path.join(ROOT, 'public/brand/logo-mark.svg'),
 ).toString('base64')}`;
 const TAGLINE = 'A daily intelligence digest across AI, bio, geo and markets.';
+const TAGLINE_KO = 'AI·바이오·국제정세·시장의 오늘을 정리합니다.';
 const SITE_HOST = new URL(
   process.env.SITE_URL || process.env.SITE || 'https://signaldaily.cloud',
 ).host;
@@ -75,6 +76,25 @@ const wrap = (text, maxChars, maxLines) => {
   }
   kept[maxLines - 1] = `${last}…`;
   return kept;
+};
+
+// Korean headlines need more flexible breaks than space-delimited English text.
+const wrapKorean = (text, maxChars = 22, maxLines = 5) => {
+  const chars = Array.from(String(text).replace(/\s+/g, ' ').trim());
+  const lines = [];
+  while (chars.length && lines.length < maxLines) {
+    if (chars.length <= maxChars) {
+      lines.push(chars.splice(0).join(''));
+      break;
+    }
+    const candidate = chars.slice(0, maxChars);
+    const space = candidate.lastIndexOf(' ');
+    const count = space >= Math.floor(maxChars / 2) ? space + 1 : maxChars;
+    lines.push(chars.splice(0, count).join('').trim());
+    while (chars[0] === ' ') chars.shift();
+  }
+  if (chars.length && lines.length) lines[lines.length - 1] = `${Array.from(lines[lines.length - 1]).slice(0, maxChars - 1).join('').trimEnd()}…`;
+  return lines;
 };
 
 const dateLabel = (date) => {
@@ -134,7 +154,7 @@ function brandLockup() {
   );
 }
 
-function frame({ bars, label, labelColor, headline, footerLeft, footerRight }) {
+function frame({ bars, label, labelColor, headline, footerLeft, footerRight, lang = 'en' }) {
   return h(
     'div',
     {
@@ -189,6 +209,7 @@ function frame({ bars, label, labelColor, headline, footerLeft, footerRight }) {
           fontSize: 48,
           fontWeight: 600,
           lineHeight: '60px',
+          fontFamily: lang === 'ko' ? 'Noto Sans KR' : 'Inter',
           whiteSpace: 'pre',
           color: TEXT,
         }, line),
@@ -218,18 +239,20 @@ function storyElement(ref) {
     bars: [vertical.accent],
     label: `${vertical.label} — ${dateLabel(ref.date)} · ${timeLabel(ref.generatedAt)} UTC`,
     labelColor: vertical.accent,
-    headline: wrap(clampText(ref.headline, 220), 36, 6),
+    headline: ref.lang === 'ko' ? wrapKorean(ref.headline) : wrap(clampText(ref.headline, 220), 36, 6),
+    lang: ref.lang,
     footerLeft: `${ref.sources} sources · ${ref.readMinutes} min`,
     footerRight: SITE_HOST,
   });
 }
 
-function siteElement(latestDate) {
+function siteElement(latestDate, lang = 'en') {
   return frame({
     bars: [VERTICALS.ai.accent, VERTICALS.bio.accent, VERTICALS.geo.accent, VERTICALS.markets.accent],
     label: latestDate ? `DAILY DIGEST — ${dateLabel(latestDate)}` : 'DAILY DIGEST',
     labelColor: MUTED,
-    headline: wrap(TAGLINE, 36, 6),
+    headline: lang === 'ko' ? wrapKorean(TAGLINE_KO) : wrap(TAGLINE, 36, 6),
+    lang,
     footerLeft: 'AI-assisted · editor-reviewed · sources cited',
     footerRight: SITE_HOST,
   });
@@ -243,6 +266,7 @@ async function loadFonts() {
   return [
     { name: 'Inter', data: await read('Inter-Regular.ttf'), weight: 400, style: 'normal' },
     { name: 'Inter', data: await read('Inter-SemiBold.ttf'), weight: 600, style: 'normal' },
+    { name: 'Noto Sans KR', data: await read('NotoSansKR-Bold.otf'), weight: 600, style: 'normal' },
     {
       name: 'JetBrains Mono',
       data: await read('JetBrainsMono-Regular.ttf'),
@@ -309,9 +333,12 @@ async function main() {
   const refs = [];
   for (const edition of editions) {
     for (const story of edition.stories ?? []) {
-      if (seen.has(story.slug)) continue;
-      seen.add(story.slug);
+      const lang = edition.lang === 'ko' ? 'ko' : 'en';
+      const key = `${lang}:${story.slug}`;
+      if (seen.has(key)) continue;
+      seen.add(key);
       refs.push({
+        lang,
         slug: story.slug,
         headline: story.headline,
         readMinutes: story.readMinutes,
@@ -324,18 +351,25 @@ async function main() {
   }
 
   await mkdir(OUT_DIR, { recursive: true });
+  await mkdir(path.join(OUT_DIR, 'en'), { recursive: true });
+  await mkdir(path.join(OUT_DIR, 'ko'), { recursive: true });
 
   const sitePng = await renderPng(siteElement(editions[0]?.date), fonts);
   assertPng(sitePng, 'site');
   await writeFile(path.join(OUT_DIR, 'site.png'), sitePng);
+  await writeFile(path.join(OUT_DIR, 'en/site.png'), sitePng);
+  const koSitePng = await renderPng(siteElement(editions.find((edition) => edition.lang === 'ko')?.date, 'ko'), fonts);
+  assertPng(koSitePng, 'ko/site');
+  await writeFile(path.join(OUT_DIR, 'ko/site.png'), koSitePng);
 
   await mapWithLimit(refs, 4, async (ref) => {
     const png = await renderPng(storyElement(ref), fonts);
-    assertPng(png, ref.slug);
-    await writeFile(path.join(OUT_DIR, `${ref.slug}.png`), png);
+    assertPng(png, `${ref.lang}/${ref.slug}`);
+    await writeFile(path.join(OUT_DIR, ref.lang, `${ref.slug}.png`), png);
+    if (ref.lang === 'en') await writeFile(path.join(OUT_DIR, `${ref.slug}.png`), png);
   });
 
-  console.log(`[og] wrote site.png + ${refs.length} story PNGs to dist/og`);
+  console.log(`[og] wrote en/ko site.png + ${refs.length} story PNGs to dist/og`);
 }
 
 await main();

@@ -7,6 +7,7 @@ import TypeBadge from '../components/TypeBadge.astro';
 import {
   allStoryRefs,
   bySignal,
+  editionsInLang,
   editionsOnDate,
   getEditions,
   newestDate,
@@ -20,7 +21,7 @@ import { HOME_INDEX_CAP, SITE, VERTICALS, VERTICAL_META } from '../lib/site';
 import { formatDateLong, joinMeta, pluralize } from '../lib/format';
 import { itemListJsonLd, websiteJsonLd } from '../lib/seo';
 
-const editions = await getEditions();
+const editions = editionsInLang(await getEditions(), 'en');
 const refs = allStoryRefs(editions);
 const latest = newestDate(editions);
 const todayRefs = latest ? refsOnDate(refs, latest) : [];
@@ -37,7 +38,7 @@ const tiles = VERTICALS.map((vertical) => {
 
 const totalSources = todayRefs.reduce((total, ref) => total + ref.story.sources.length, 0);
 const jsonLd = [
-  websiteJsonLd(),
+  websiteJsonLd('en'),
   ...(indexRows.length > 0
     ? [itemListJsonLd(indexRows, `Signal Daily — ${latest ?? ''} top stories`.trim())]
     : []),

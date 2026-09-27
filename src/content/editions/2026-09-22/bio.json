@@ -2,6 +2,7 @@
   "date": "2026-09-22",
   "generatedAt": "2026-09-22T22:05:00.000Z",
   "vertical": "bio",
+  "lang": "en",
   "title": "Bio: Novo's Medicare terms, AI in the clinic and cancer pipelines",
   "summary": "The bio set split between AI's role in clinical decisions and trust, AI-assisted monitoring in critical care, a cancer detection and treatment pipeline, infectious-disease surveillance, AI-driven biological design, and neuroscience from brain implants to dementia prediction. PubMed carried most of the clinical-AI work, journal RSS supplied science-news and policy items, ClinicalTrials.gov supplied early- and mid-stage studies, and bioRxiv supplied preprint biology. Two sources returned nothing usable: medRxiv was empty and OpenFDA returned a single placeholder label record. A second collection pass on the same UTC day added Novo's Medicare Bridge terms and a study on stopping Ozempic, alongside the day's AI-in-medicine and pipeline items.",
   "stories": [
