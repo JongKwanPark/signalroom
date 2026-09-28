@@ -1,0 +1,93 @@
+{
+  "date": "2026-09-28",
+  "generatedAt": "2026-09-28T10:09:00.000Z",
+  "vertical": "markets",
+  "lang": "en",
+  "title": "Markets & Macro — September 28, 2026",
+  "summary": "A thin edition: three developments had corroborating coverage. Market-data and SEC collection failed, and the available feed did not provide enough independently covered company or macro stories to support a fuller edition.",
+  "stories": [
+    {
+      "slug": "diesel-export-ban-under-consideration",
+      "headline": "Trump ‘very seriously’ considering diesel export ban as global supply crunch worsens",
+      "dek": "The possibility of restricting exports is being discussed against a tight fuel-supply backdrop.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "CNBC reported that Trump was seriously considering a U.S. diesel export ban.",
+        "MarketWatch reported on Goldman Sachs’ analysis of how an export restriction could affect diesel prices.",
+        "The reports describe consideration and scenario analysis, not an enacted policy."
+      ],
+      "body": [
+        { "text": "CNBC reported that Trump was considering a diesel export ban amid a global supply crunch. MarketWatch separately summarized Goldman Sachs’ analysis of how such a restriction could play out.", "citations": [1, 2] },
+        { "text": "The sources discuss a possible policy and its potential market effects; they do not report that a ban has been adopted.", "citations": [1, 2] }
+      ],
+      "whyItMatters": "A restriction on exports could change the distribution of available diesel between domestic and international markets. The direction and scale of any price effect depend on policy details and supply conditions that remain unsettled.",
+      "editorNote": "Headline is verbatim from CNBC. The second source is a Goldman Sachs scenario analysis reported by MarketWatch; this is not an enacted policy or a price forecast from Signal Daily.",
+      "cluster": [
+        { "url": "https://www.marketwatch.com/story/how-a-u-s-diesel-export-ban-would-play-out-according-to-goldman-sachs-8142525d?mod=mw_rss_topstories", "source": "MarketWatch", "title": "How a U.S. diesel export ban would play out, according to Goldman Sachs" }
+      ],
+      "sources": [
+        { "id": 1, "url": "https://www.cnbc.com/2026/09/28/diesel-oil-trump-export-ban-fuel-prices.html", "source": "CNBC", "title": "Trump ‘very seriously’ considering diesel export ban as global supply crunch worsens", "publishedAt": "2026-09-28" },
+        { "id": 2, "url": "https://www.marketwatch.com/story/how-a-u-s-diesel-export-ban-would-play-out-according-to-goldman-sachs-8142525d?mod=mw_rss_topstories", "source": "MarketWatch", "title": "How a U.S. diesel export ban would play out, according to Goldman Sachs", "publishedAt": "2026-09-28" }
+      ],
+      "tags": ["diesel", "energy markets", "trade policy"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "china-farm-goods-tariff-relief",
+      "headline": "China eases tariffs on U.S. farm goods, keeps soybeans out",
+      "dek": "The reported tariff relief excludes soybeans, a major point of interest in U.S.-China farm trade.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "Seeking Alpha reported that China eased tariffs on some U.S. farm goods while excluding soybeans.",
+        "CNBC and Al Jazeera reported broader product lists tied to U.S.-China tariff cuts.",
+        "The reports describe selected goods, not a comprehensive agricultural or trade agreement."
+      ],
+      "body": [
+        { "text": "Seeking Alpha reported tariff relief for some U.S. farm goods while soybeans remained excluded. CNBC and Al Jazeera separately reported product lists associated with tariff reductions following the Trump-Xi summit.", "citations": [1, 2, 3] },
+        { "text": "The coverage indicates selective relief. It does not establish the full commercial effect or the treatment of goods beyond those named in the reports.", "citations": [1, 2, 3] }
+      ],
+      "whyItMatters": "Agricultural exclusions shape which exporters may benefit from a trade opening and where bilateral frictions remain. Soybeans’ omission keeps a prominent farm-trade category outside the reported relief.",
+      "editorNote": "Headline is verbatim from Seeking Alpha. This market-focused item covers the agricultural detail; the geopolitical edition separately covers the broader tariff-list announcement.",
+      "cluster": [
+        { "url": "https://www.cnbc.com/2026/09/28/us-china-lower-tariffs-trump-xi-meeting.html", "source": "CNBC", "title": "U.S., China to lower tariffs on $60 billion of goods. Here's what qualifies" },
+        { "url": "https://www.aljazeera.com/economy/2026/9/28/us-china-list-goods-recommended-for-tariff-cuts-following-trump-xi-summit?traffic_source=rss", "source": "Al Jazeera", "title": "US, China list goods recommended for tariff cuts following Trump-Xi summit" }
+      ],
+      "sources": [
+        { "id": 1, "url": "https://seekingalpha.com/news/4647443-china-eases-tariffs-on-us-farm-goods-keeps-soybeans-out?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news", "source": "Seeking Alpha", "title": "China eases tariffs on U.S. farm goods, keeps soybeans out", "publishedAt": "2026-09-28" },
+        { "id": 2, "url": "https://www.cnbc.com/2026/09/28/us-china-lower-tariffs-trump-xi-meeting.html", "source": "CNBC", "title": "U.S., China to lower tariffs on $60 billion of goods. Here's what qualifies", "publishedAt": "2026-09-28" },
+        { "id": 3, "url": "https://www.aljazeera.com/economy/2026/9/28/us-china-list-goods-recommended-for-tariff-cuts-following-trump-xi-summit?traffic_source=rss", "source": "Al Jazeera", "title": "US, China list goods recommended for tariff cuts following Trump-Xi summit", "publishedAt": "2026-09-28" }
+      ],
+      "tags": ["China", "United States", "agriculture", "tariffs"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "treasury-yields-rise-global-bond-pressure",
+      "headline": "U.S. Treasury yields edge higher amid pressure on global government bonds",
+      "dek": "The move formed part of a wider bond-market repricing reported across government debt markets.",
+      "type": "DATA",
+      "readMinutes": 2,
+      "tldr": [
+        "CNBC reported higher U.S. Treasury yields amid pressure on government bonds globally.",
+        "Seeking Alpha reported that rising yields and a stronger dollar were weighing on gold.",
+        "The collected headlines provide direction, but not enough detail to quantify the move or identify a single cause."
+      ],
+      "body": [
+        { "text": "CNBC reported that U.S. Treasury yields edged higher as global government bonds came under pressure. Seeking Alpha separately described a yield surge and a stronger dollar as headwinds for gold.", "citations": [1, 2] },
+        { "text": "The available reports point to a broad rates move but do not provide a matched set of yield levels, maturities, or a complete explanation of the repricing.", "citations": [1, 2] }
+      ],
+      "whyItMatters": "Higher government-bond yields can affect borrowing costs and valuations across markets, while the concurrent dollar move can influence commodities. The limited feed evidence supports direction and market context, not a forecast.",
+      "editorNote": "Headline is verbatim from CNBC. No yield levels or causal explanation are added because they are absent from the collected item metadata.",
+      "cluster": [
+        { "url": "https://seekingalpha.com/news/4647447-gold-resilience-tested-as-yield-surge-and-stronger-dollar-weigh?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news", "source": "Seeking Alpha", "title": "Gold resilience tested as yield surge and stronger dollar weigh" }
+      ],
+      "sources": [
+        { "id": 1, "url": "https://www.cnbc.com/2026/09/28/treasury-yields-bonds-selloff.html", "source": "CNBC", "title": "U.S. Treasury yields edge higher amid pressure on global government bonds", "publishedAt": "2026-09-28" },
+        { "id": 2, "url": "https://seekingalpha.com/news/4647447-gold-resilience-tested-as-yield-surge-and-stronger-dollar-weigh?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news", "source": "Seeking Alpha", "title": "Gold resilience tested as yield surge and stronger dollar weigh", "publishedAt": "2026-09-28" }
+      ],
+      "tags": ["Treasuries", "bonds", "yields", "currency"],
+      "confidence": "medium"
+    }
+  ]
+}

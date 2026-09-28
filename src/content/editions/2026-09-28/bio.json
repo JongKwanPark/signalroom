@@ -1,0 +1,64 @@
+{
+  "date": "2026-09-28",
+  "generatedAt": "2026-09-28T10:09:00.000Z",
+  "vertical": "bio",
+  "lang": "en",
+  "title": "Bio & Health — September 28, 2026",
+  "summary": "A thin edition with two developments supported by both original research or institutional material and independent coverage. Most other collected records were unrelated metadata, older items, or lacked a second source.",
+  "stories": [
+    {
+      "slug": "anthropic-novel-enzyme-system",
+      "headline": "Anthropic’s AI biolab finds ‘CRISPR-like’ DNA in viruses. What’s next?",
+      "dek": "The reported viral sequences have not yet been shown to perform a CRISPR-like function.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "Nature reported that Anthropic researchers found repeated viral DNA sequences using AI tools.",
+        "The researchers had not established what the sequences do, according to the report.",
+        "The discovery is an early research result, not a demonstrated therapeutic or gene-editing application."
+      ],
+      "body": [
+        { "text": "Nature reported that AI agents searching genomic data identified repeated DNA sequences near a reverse-transcriptase gene in a giant virus. Anthropic’s own announcement describes the finding as a novel enzyme system.", "citations": [1, 2] },
+        { "text": "Nature said researchers had not determined whether the sequences function like the CRISPR system. No clinical use is established by the available sources.", "citations": [1, 2] }
+      ],
+      "whyItMatters": "The work illustrates how computational tools may help researchers identify biological mechanisms in large sequence datasets. Any biomedical significance depends on further functional validation.",
+      "editorNote": "Headline is verbatim from Nature. The company's announcement is the originating source; Nature provides independent reporting. Unresolved function is stated explicitly.",
+      "cluster": [
+        { "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system", "source": "Anthropic", "title": "Claude discovers a novel enzyme system" }
+      ],
+      "sources": [
+        { "id": 1, "url": "https://www.nature.com/articles/d41586-026-03039-6", "source": "Nature", "title": "Anthropic’s AI biolab finds ‘CRISPR-like’ DNA in viruses. What’s next?", "publishedAt": "2026-09-25" },
+        { "id": 2, "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system", "source": "Anthropic", "title": "Claude discovers a novel enzyme system", "publishedAt": "2026-09-23" }
+      ],
+      "tags": ["genomics", "research tools", "AI"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "crispr-dyslipidemia-one-year-follow-up",
+      "headline": "Positive Effects of CRISPR-Cas9 Gene Editing for Dyslipidemia Endure Through 1 Year",
+      "dek": "A small first-in-human study reported sustained lipid reductions at one-year follow-up.",
+      "type": "DATA",
+      "readMinutes": 3,
+      "tldr": [
+        "Cleveland Clinic reported one-year follow-up results for the CTX310 gene-editing study in dyslipidemia.",
+        "The study was an early-phase trial, and the collected report describes a small participant group.",
+        "The findings are preliminary and do not establish long-term safety or clinical benefit."
+      ],
+      "body": [
+        { "text": "Cleveland Clinic reported that CTX310, a CRISPR-Cas9 approach targeting ANGPTL3, showed effects through one year in a first-in-human Phase 1a trial. ScienceDaily separately reported the one-year follow-up and described the study as a single-treatment trial.", "citations": [1, 2] },
+        { "text": "These are early clinical findings from a small study. The sources do not establish durable outcomes beyond the reported follow-up or support any treatment recommendation.", "citations": [1, 2] }
+      ],
+      "whyItMatters": "A one-time gene-editing approach would represent a different development model from repeated lipid-lowering medicines, but the evidence here remains at an early clinical stage. The next signal is whether later trials confirm safety and durability.",
+      "editorNote": "Headline is verbatim from Cleveland Clinic's report of the study. Limited to reported trial-stage findings; no medical advice or efficacy extrapolation.",
+      "cluster": [
+        { "url": "https://www.sciencedaily.com/releases/2026/09/260925005434.htm", "source": "ScienceDaily", "title": "One CRISPR treatment cut “bad” cholesterol in half for a full year" }
+      ],
+      "sources": [
+        { "id": 1, "url": "https://consultqd.clevelandclinic.org/effects-of-crispr-cas9-gene-editing-for-dyslipidemia-endure-1-year", "source": "Cleveland Clinic", "title": "Positive Effects of CRISPR-Cas9 Gene Editing for Dyslipidemia Endure Through 1 Year", "publishedAt": "2026-08-31" },
+        { "id": 2, "url": "https://www.sciencedaily.com/releases/2026/09/260925005434.htm", "source": "ScienceDaily", "title": "One CRISPR treatment cut “bad” cholesterol in half for a full year", "publishedAt": "2026-09-25" }
+      ],
+      "tags": ["gene editing", "clinical research", "lipids"],
+      "confidence": "medium"
+    }
+  ]
+}

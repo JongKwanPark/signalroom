@@ -1,0 +1,64 @@
+{
+  "date": "2026-09-28",
+  "generatedAt": "2026-09-28T10:09:00.000Z",
+  "vertical": "ai",
+  "lang": "en",
+  "title": "AI — September 28, 2026",
+  "summary": "A thin edition: collected feeds produced one well-corroborated AI infrastructure story and one AI-for-science development. Other AI feed items were product demos, social posts, or lacked independent coverage.",
+  "stories": [
+    {
+      "slug": "nvidia-ai-agent-safety-platform",
+      "headline": "Nvidia releases software platform to stop AI agents from misbehaving",
+      "dek": "Nvidia’s new software platform puts runtime controls at the center of agent safety.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "Nvidia announced a software platform designed to constrain unsafe behavior by AI agents.",
+        "The announcement places runtime safeguards alongside model behavior as a component of agent deployment.",
+        "The collected coverage does not establish adoption, effectiveness, or independent evaluation results."
+      ],
+      "body": [
+        { "text": "CNBC reported Nvidia’s release of a software platform intended to prevent AI agents from misbehaving. Seeking Alpha separately described Nvidia as introducing an open-source tool for AI security.", "citations": [1, 2] },
+        { "text": "The reports support the existence and stated purpose of the release, but do not provide evidence here about deployment scale or measured safety outcomes.", "citations": [1, 2] }
+      ],
+      "whyItMatters": "As companies connect agents to tools and systems, controls that operate during execution are becoming part of the infrastructure layer around AI products. The available reports establish Nvidia’s entry in this area, while leaving real-world effectiveness open.",
+      "editorNote": "Headline is verbatim from CNBC. Summary is limited to the two collected reports; neither supplies independent performance results.",
+      "cluster": [
+        { "url": "https://seekingalpha.com/news/4647445-nvidia-introduces-open-source-tool-to-boost-ai-security?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news", "source": "Seeking Alpha", "title": "Nvidia introduces open-source tool to boost AI security" }
+      ],
+      "sources": [
+        { "id": 1, "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html", "source": "CNBC", "title": "Nvidia releases software platform to stop AI agents from misbehaving", "publishedAt": "2026-09-28" },
+        { "id": 2, "url": "https://seekingalpha.com/news/4647445-nvidia-introduces-open-source-tool-to-boost-ai-security?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news", "source": "Seeking Alpha", "title": "Nvidia introduces open-source tool to boost AI security", "publishedAt": "2026-09-28" }
+      ],
+      "tags": ["AI agents", "AI security", "infrastructure"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "anthropic-ai-biological-discovery",
+      "headline": "Anthropic’s AI biolab finds ‘CRISPR-like’ DNA in viruses. What’s next?",
+      "dek": "The reported viral sequences have not yet been shown to perform a CRISPR-like function.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "Nature reported that Anthropic researchers found repeated viral DNA sequences using AI tools.",
+        "The researchers had not determined what the sequences do, according to the report.",
+        "The work is an early example of AI-assisted genomic search, not a demonstrated gene-editing technology."
+      ],
+      "body": [
+        { "text": "Nature’s report describes Anthropic researchers using AI tools to search genomic data and finding repeated sequences near a reverse-transcriptase gene in a giant virus. The article says the team has not established the sequences’ function.", "citations": [1, 2] },
+        { "text": "Anthropic’s announcement also describes the result as a newly identified enzyme system. The collected material does not establish a peer-reviewed clinical application or a gene-editing use.", "citations": [1, 2] }
+      ],
+      "whyItMatters": "The result connects AI-assisted data mining with biological discovery, a point of overlap between the AI and biotech industries. Its practical significance remains uncertain until the system’s function and reproducibility are established.",
+      "editorNote": "Headline is verbatim from Nature. Anthropic is the originating organization; Nature provides independent reporting. The function remains unresolved in the reported account.",
+      "cluster": [
+        { "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system", "source": "Anthropic", "title": "Claude discovers a novel enzyme system" }
+      ],
+      "sources": [
+        { "id": 1, "url": "https://www.nature.com/articles/d41586-026-03039-6", "source": "Nature", "title": "Anthropic’s AI biolab finds ‘CRISPR-like’ DNA in viruses. What’s next?", "publishedAt": "2026-09-25" },
+        { "id": 2, "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system", "source": "Anthropic", "title": "Claude discovers a novel enzyme system", "publishedAt": "2026-09-23" }
+      ],
+      "tags": ["AI for science", "biology", "genomics"],
+      "confidence": "medium"
+    }
+  ]
+}
