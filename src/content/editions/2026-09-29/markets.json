@@ -1,0 +1,165 @@
+{
+  "date": "2026-09-29",
+  "generatedAt": "2026-09-29T10:07:13Z",
+  "vertical": "markets",
+  "lang": "en",
+  "title": "Markets & Macro | September 29, 2026",
+  "summary": "A thin edition: two policy and corporate developments had sufficient primary and independent coverage; market-data feeds were unavailable.",
+  "stories": [
+    {
+      "slug": "rba-rate-hike-september-2026",
+      "headline": "Statement by the Monetary Policy Board: Monetary Policy Decision",
+      "dek": "The RBA raised its cash rate by 25 basis points to 4.60% and left the door open to further increases.",
+      "type": "DATA",
+      "readMinutes": 3,
+      "tldr": [
+        "The Reserve Bank of Australia raised its cash rate target by 25 basis points to 4.60% on 29 September.",
+        "The RBA said inflation remained elevated and pointed to higher global energy prices and AI-related demand for technology goods.",
+        "CNBC and Investing.com reported the decision and its currency-market context; neither report offers investment guidance."
+      ],
+      "body": [
+        {
+          "text": "The RBA’s statement says the Monetary Policy Board increased the cash rate target by 25 basis points to 4.60%, citing elevated inflation and materialising upside risks.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The central bank also pointed to higher global energy prices and AI-related demand pushing up technology-goods prices. CNBC reports the rate is at a 15-year high and that further increases remain possible.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Investing.com reported the Australian dollar’s reaction after the decision. That is a market response at the time of reporting, not a forecast.",
+          "citations": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "The rate move links domestic inflation pressures with global energy and technology demand, while changing the near-term monetary backdrop.",
+      "editorNote": "This is a policy and market report, not personal financial advice; the currency reaction is time-sensitive.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/09/29/australia-rates-inflation-monetary-policy.html",
+          "source": "CNBC",
+          "title": "Australia says more hikes not off the table after raising rates to 15-year high"
+        },
+        {
+          "url": "https://www.investing.com/news/forex-news/asian-currencies-mixed-as-dollar-holds-twomonth-high-rba-decision-looms-4921518",
+          "source": "Investing.com",
+          "title": "Dollar firm near two-month peaks as Aussie drops to August lows after RBA hike"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html",
+          "source": "Reserve Bank of Australia",
+          "title": "Statement by the Monetary Policy Board: Monetary Policy Decision",
+          "publishedAt": "2026-09-29"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/09/29/australia-rates-inflation-monetary-policy.html",
+          "source": "CNBC",
+          "title": "Australia says more hikes not off the table after raising rates to 15-year high",
+          "publishedAt": "2026-09-29T05:00:58.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.investing.com/news/forex-news/asian-currencies-mixed-as-dollar-holds-twomonth-high-rba-decision-looms-4921518",
+          "source": "Investing.com",
+          "title": "Dollar firm near two-month peaks as Aussie drops to August lows after RBA hike",
+          "publishedAt": "2026-09-29T00:40:45.000Z"
+        }
+      ],
+      "tags": [
+        "Australia",
+        "central-banks",
+        "rates",
+        "macro"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "amd-world-labs-acquisition",
+      "headline": "AMD to Acquire World Labs to Advance the Future of AI Compute",
+      "dek": "AMD announced an all-stock agreement valued at approximately $8.2 billion for Fei-Fei Li’s AI research lab.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "AMD announced a definitive agreement to acquire World Labs in an all-stock transaction valued at approximately $8.2 billion.",
+        "The company says the deal is intended to add model-research expertise and inform future AI hardware and systems.",
+        "CNBC and MarketWatch also reported the acquisition; it remains subject to regulatory approvals and customary closing conditions."
+      ],
+      "body": [
+        {
+          "text": "AMD’s announcement says World Labs is an AI model and research lab led by Fei-Fei Li and that the all-stock transaction is valued at approximately $8.2 billion.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "AMD says the acquisition is intended to strengthen its ability to develop hardware, software and systems around emerging AI workloads. CNBC and MarketWatch reported the deal, with MarketWatch framing it as a bet on a next era of AI.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "The transaction is expected to close by the end of 2026, subject to regulatory approvals and other customary conditions, according to AMD.",
+          "citations": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "It connects the AI and markets verticals: a chip supplier is moving into model research as AI workloads broaden into physical AI.",
+      "editorNote": "Deal value and rationale are attributed to AMD’s announcement; completion remains conditional.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/09/28/amd-fei-fei-li-world-labs.html",
+          "source": "CNBC",
+          "title": "AMD acquiring Fei-Fei Li's World Labs AI firm in deal worth $8.2 billion"
+        },
+        {
+          "url": "https://www.marketwatch.com/story/amd-makes-a-big-bet-on-the-next-era-of-ai-7f8a3b3c?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "AMD makes a big bet on the next era of AI with World Labs acquisition"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.globenewswire.com/news-release/2026/09/28/3370256/0/en/amd-to-acquire-world-labs-to-advance-the-future-of-ai-compute.html",
+          "source": "AMD / GlobeNewswire",
+          "title": "AMD to Acquire World Labs to Advance the Future of AI Compute",
+          "publishedAt": "2026-09-28"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/09/28/amd-fei-fei-li-world-labs.html",
+          "source": "CNBC",
+          "title": "AMD acquiring Fei-Fei Li's World Labs AI firm in deal worth $8.2 billion",
+          "publishedAt": "2026-09-28T22:21:22.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.marketwatch.com/story/amd-makes-a-big-bet-on-the-next-era-of-ai-7f8a3b3c?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "AMD makes a big bet on the next era of AI with World Labs acquisition",
+          "publishedAt": "2026-09-29T00:03:00.000Z"
+        }
+      ],
+      "tags": [
+        "AMD",
+        "AI",
+        "acquisitions",
+        "semiconductors"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

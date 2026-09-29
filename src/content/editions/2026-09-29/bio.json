@@ -1,0 +1,142 @@
+{
+  "date": "2026-09-29",
+  "generatedAt": "2026-09-29T10:07:13Z",
+  "vertical": "bio",
+  "lang": "en",
+  "title": "Bio & Health | September 29, 2026",
+  "summary": "A thin edition: two research developments cleared the evidence bar today; routine health and lifestyle headlines were left out.",
+  "stories": [
+    {
+      "slug": "new-tick-borne-virus-china",
+      "headline": "A Zoonotic Orthonairovirus from Febrile Patients in China",
+      "dek": "A newly described tick-borne virus was identified in a study of febrile patients in China.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "The New England Journal of Medicine paper describes a zoonotic orthonairovirus identified in febrile patients in China.",
+        "The study reports that 10.4% of 3,163 sampled patients tested positive for the virus, based on viral RNA or IgM antibodies.",
+        "The paper and its coverage describe coinfections with Dabie bandavirus as associated with more severe complications."
+      ],
+      "body": [
+        {
+          "text": "The study identified Asian longhorned tick nairovirus in patients with febrile illness, using sequencing and viral isolation. The authors describe it as a distinct orthonairovirus.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Among 3,163 patients in the reported study, 10.4% tested positive for the virus; the paper also reports its detection in sampled ticks across multiple Chinese provinces. These findings characterize the study population and do not establish prevalence outside it.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The coverage notes that coinfected patients had more complications than patients with Dabie bandavirus alone. The authors say the viruses share regions and a tick vector, raising a diagnostic distinction for affected areas.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Identifying a second tick-borne virus in a region where another febrile disease circulates adds a pathogen-surveillance and diagnostic question.",
+      "editorNote": "The headline follows the peer-reviewed paper. Epidemiologic estimates are limited to the sampled patients and ticks.",
+      "cluster": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260927225027.htm",
+          "source": "ScienceDaily / CIDRAP",
+          "title": "Scientists find new virus behind mysterious tick illness"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.nejm.org/doi/10.1056/NEJMc2602496",
+          "source": "New England Journal of Medicine",
+          "title": "A Zoonotic Orthonairovirus from Febrile Patients in China",
+          "publishedAt": "2026"
+        },
+        {
+          "id": 2,
+          "url": "https://www.sciencedaily.com/releases/2026/09/260927225027.htm",
+          "source": "ScienceDaily / CIDRAP",
+          "title": "Scientists find new virus behind mysterious tick illness",
+          "publishedAt": "2026-09-29T01:45:25.000Z"
+        }
+      ],
+      "tags": [
+        "infectious-disease",
+        "research",
+        "surveillance"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ctx310-one-year-lipid-results",
+      "headline": "Durability of CRISPR-Cas9 Gene Editing Targeting ANGPTL3 with CTX310",
+      "dek": "A 15-participant phase 1a study reported sustained lipid reductions one year after a single infusion.",
+      "type": "DATA",
+      "readMinutes": 3,
+      "tldr": [
+        "The phase 1a study evaluated a one-time CTX310 infusion in people with lipid disorders.",
+        "At the highest dose, the study reported 52.5% lower LDL cholesterol and 47.8% lower triglycerides from baseline at 12 months.",
+        "The small early-stage trial reports biomarker changes and one year of follow-up; it does not establish long-term clinical outcomes."
+      ],
+      "body": [
+        {
+          "text": "The New England Journal of Medicine report describes a phase 1a trial of CRISPR-Cas9 editing targeting ANGPTL3. Cleveland Clinic says the trial included 15 patients and assessed whether earlier lipid reductions persisted through 12 months.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "At the highest dose, the report gives reductions from baseline of 52.5% for LDL cholesterol and 47.8% for triglycerides after one year. The study was supported by CRISPR Therapeutics.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "This is early-stage evidence from a small study with one year of follow-up. The sources do not report whether the observed lipid changes reduce cardiovascular events over longer periods.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The result is a clinical-stage test of durable in-vivo gene editing, with implications for biotech development while long-term outcomes remain unknown.",
+      "editorNote": "No medical recommendation is implied; report results as trial findings and preserve the phase 1a and sample-size context.",
+      "cluster": [
+        {
+          "url": "https://newsroom.clevelandclinic.org/2026/08/28/cleveland-clinic-first-in-human-trial-of-crispr-gene-editing-therapy-shown-to-safely-and-continuously-lower-cholesterol-and-triglycerides-after-one-year",
+          "source": "Cleveland Clinic",
+          "title": "Cleveland Clinic First-In-Human Trial of CRISPR Gene-Editing Therapy Shown to Safely and Continuously Lower Cholesterol and Triglycerides After One Year"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.nejm.org/doi/10.1056/NEJMc2609825",
+          "source": "New England Journal of Medicine",
+          "title": "Durability of CRISPR-Cas9 Gene Editing Targeting ANGPTL3 with CTX310",
+          "publishedAt": "2026-08-28"
+        },
+        {
+          "id": 2,
+          "url": "https://newsroom.clevelandclinic.org/2026/08/28/cleveland-clinic-first-in-human-trial-of-crispr-gene-editing-therapy-shown-to-safely-and-continuously-lower-cholesterol-and-triglycerides-after-one-year",
+          "source": "Cleveland Clinic",
+          "title": "Cleveland Clinic First-In-Human Trial of CRISPR Gene-Editing Therapy Shown to Safely and Continuously Lower Cholesterol and Triglycerides After One Year",
+          "publishedAt": "2026-08-28"
+        }
+      ],
+      "tags": [
+        "biotechnology",
+        "clinical-trial",
+        "gene-editing"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

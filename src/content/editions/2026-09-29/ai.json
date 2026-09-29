@@ -1,0 +1,189 @@
+{
+  "date": "2026-09-29",
+  "generatedAt": "2026-09-29T10:07:13Z",
+  "vertical": "ai",
+  "lang": "en",
+  "title": "AI | September 29, 2026",
+  "summary": "A thin edition: three developments cleared the cross-source evidence bar, spanning decision models, AI lab governance, and the public debate over safety.",
+  "stories": [
+    {
+      "slug": "contrastive-language-models",
+      "headline": "A System One Model for Fast and Generalizable Decision-Making",
+      "dek": "Stanford and Nvidia’s CLM-8B uses contrastive state-action matching for bounded decisions.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "The CLM repository describes a decision model that connects task states with candidate actions using contrastive learning.",
+        "The project reports up to ninefold lower latency than Jev in selected tests, while VentureBeat notes accuracy trade-offs on some tasks.",
+        "The design caches reusable action representations, but the reported benchmarks have not been independently replicated."
+      ],
+      "body": [
+        {
+          "text": "The project’s official repository presents CLMs as a System One model class: a state encoder and an action encoder score candidate choices rather than generating a text response. It describes a frozen Qwen3-8B backbone with trainable projection heads.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "VentureBeat reports that CLM-8B ran up to nine times faster than Jev in the team’s zero-shot tests. The same report notes lower scores on some tasks, including tool calling and WikiRacing, so the headline speedup does not imply a uniform performance win.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "The repository says action embeddings can be reused across requests when the candidate set is fixed. Both the benchmark numbers and their fit to real deployments remain to be tested independently.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "If the approach holds outside the reported tests, it could give agent developers a separate low-latency decision layer for tool selection and ranking.",
+      "editorNote": "Performance figures are attributed to the research team’s evaluations; no independent replication was found in the collected coverage.",
+      "cluster": [
+        {
+          "url": "https://venturebeat.com/technology/stanford-and-nvidias-open-clm-8b-caches-reusable-agent-actions-and-runs-up-to-9x-faster-than-jev-in-tests",
+          "source": "VentureBeat",
+          "title": "Stanford and Nvidia's open Jev-like model"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://github.com/Contrastive-LM/CLM",
+          "source": "Contrastive-LM / GitHub",
+          "title": "A System One Model for Fast and Generalizable Decision-Making"
+        },
+        {
+          "id": 2,
+          "url": "https://venturebeat.com/technology/stanford-and-nvidias-open-clm-8b-caches-reusable-agent-actions-and-runs-up-to-9x-faster-than-jev-in-tests",
+          "source": "VentureBeat",
+          "title": "Stanford and Nvidia's open Jev-like model",
+          "publishedAt": "2026-09-29T09:43:26Z"
+        }
+      ],
+      "tags": [
+        "AI",
+        "models",
+        "agents"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "anthropic-founder-llc",
+      "headline": "Exclusive-Anthropic leaders to control AI lab via 'Founder LLC' to promote public good over market forces",
+      "dek": "An IPO filing describes a founder-led voting structure for the AI lab.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "Reuters reports that Anthropic’s IPO filing describes a new Founder LLC controlled by the company’s seven co-founders.",
+        "TechCrunch had earlier reported the founders’ plan to retain voting control through a special share structure.",
+        "The filings frame the arrangement around the company’s public-benefit mission, while also disclosing potential tension with shareholder interests."
+      ],
+      "body": [
+        {
+          "text": "Reuters says the proposed Founder LLC would place key corporate decisions under the control of Anthropic’s seven co-founders, based on an IPO filing reviewed by the outlet.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "TechCrunch’s earlier report also described a plan for the founders to retain voting control ahead of a possible listing. The two reports cover an evolving proposal; the final structure depends on the company’s filings and approvals.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The governance design connects AI safety commitments with corporate control and public-market accountability.",
+      "editorNote": "Reuters and TechCrunch report the same evolving proposal; the final terms may change before any listing.",
+      "cluster": [
+        {
+          "url": "https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/",
+          "source": "TechCrunch",
+          "title": "Anthropic’s founders seek voting control ahead of IPO"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.reuters.com/legal/transactional/anthropic-leaders-control-ai-lab-via-founder-llc-promote-public-good-over-market-2026-09-29/",
+          "source": "Reuters",
+          "title": "Anthropic leaders to control company via 'Founder LLC'",
+          "publishedAt": "2026-09-29T07:47:10Z"
+        },
+        {
+          "id": 2,
+          "url": "https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/",
+          "source": "TechCrunch",
+          "title": "Anthropic’s founders seek voting control ahead of IPO",
+          "publishedAt": "2026-09-25"
+        }
+      ],
+      "tags": [
+        "AI",
+        "governance",
+        "IPO"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "pope-leo-ai-safety",
+      "headline": "Contradicting Trump, Pope Leo says artificial intelligence safety concerns are not 'fake news'",
+      "dek": "Pope Leo called for AI safety concerns to be taken seriously, amid a dispute over regulation.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "The Associated Press reports Pope Leo said concerns about AI systems going rogue should be discussed and acted on.",
+        "He referred to Nvidia’s guardrail efforts and the company’s past opposition to outside regulation, according to AP.",
+        "Investing.com separately framed the exchange as a rebuke affecting Nvidia’s public debate over AI regulation."
+      ],
+      "body": [
+        {
+          "text": "AP reports that Pope Leo made the remarks on Monday while returning from France, saying AI safety concerns were not “fake news.”",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "AP says he also pointed to Nvidia’s guardrail efforts and its previous position on outside regulation. Investing.com’s coverage likewise connected the remarks to Nvidia CEO Jensen Huang and the regulatory debate.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The dispute links AI governance rhetoric with the position of a major chip supplier whose products underpin the sector.",
+      "editorNote": "The story reports the public exchange and its framing; it does not establish a policy change or a market effect.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/stock-market-news/nvidia-stock-faces-pope-leo-xiv-rebuke-over-ai-safety-stance-93CH-4921916",
+          "source": "Investing.com",
+          "title": "Nvidia stock faces Pope Leo XIV rebuke over AI safety stance"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/0790f258461d114c920ec6158c2a1921",
+          "source": "Associated Press",
+          "title": "Contradicting Trump, Pope Leo says artificial intelligence safety concerns are not “fake news”",
+          "publishedAt": "2026-09-28T20:02:41Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/stock-market-news/nvidia-stock-faces-pope-leo-xiv-rebuke-over-ai-safety-stance-93CH-4921916",
+          "source": "Investing.com",
+          "title": "Nvidia stock faces Pope Leo XIV rebuke over AI safety stance",
+          "publishedAt": "2026-09-29T00:53:33.000Z"
+        }
+      ],
+      "tags": [
+        "AI",
+        "policy",
+        "Nvidia"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}
