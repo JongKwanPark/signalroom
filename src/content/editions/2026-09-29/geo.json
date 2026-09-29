@@ -1,10 +1,10 @@
 {
   "date": "2026-09-29",
-  "generatedAt": "2026-09-29T10:07:13Z",
+  "generatedAt": "2026-09-29T23:05:58Z",
   "vertical": "geo",
   "lang": "en",
   "title": "Geopolitics & Security | September 29, 2026",
-  "summary": "Five developments cleared the evidence bar, from South Atlantic resource tensions to migration, severe weather, and regional conflict.",
+  "summary": "Six developments cleared the evidence bar, from South Atlantic resource tensions and migration to severe weather, regional conflict, and protests over an eviction in Madrid.",
   "stories": [
     {
       "slug": "argentina-falklands-oil-legal-action",
@@ -332,6 +332,63 @@
         "Ethiopia",
         "conflict",
         "security"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "spain-eviction-protests-madrid",
+      "headline": "Spain announces ban on evictions after protests over 87-year-old woman's removal from flat",
+      "dek": "Spain announced a ban on evictions after protests over the removal of an 87-year-old woman from her Madrid flat.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "The BBC reported that Spain announced a ban on evictions after protests over an 87-year-old woman's removal from her flat.",
+        "Al Jazeera separately reported that the evicted woman would return to her Madrid home.",
+        "The collected headlines establish the announcement and return, but do not specify the ban's scope or implementation details."
+      ],
+      "body": [
+        {
+          "text": "The BBC reported a Spanish ban on evictions following protests over the removal of an 87-year-old woman from her flat.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Al Jazeera's separate report says the woman is to return to her Madrid home. The available coverage does not establish the ban's legal scope or how it will be implemented.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The decision followed public protest and raises questions about housing protections and eviction policy in Spain.",
+      "editorNote": "This brief is based on the headlines and collected reporting links; details of the announced ban remain unverified in the collection.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/9/29/spain-protests-evicted-87-year-old-woman-to-return-to-madrid-home?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Spain protests: Evicted 87-year-old woman to return to Madrid home"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cwm2qmjgy93do?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Spain announces ban on evictions after protests over 87-year-old woman's removal from flat",
+          "publishedAt": "2026-09-29T16:23:58.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/news/2026/9/29/spain-protests-evicted-87-year-old-woman-to-return-to-madrid-home?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Spain protests: Evicted 87-year-old woman to return to Madrid home",
+          "publishedAt": "2026-09-29T21:02:02.000Z"
+        }
+      ],
+      "tags": [
+        "Spain",
+        "housing",
+        "protests"
       ],
       "confidence": "medium"
     }

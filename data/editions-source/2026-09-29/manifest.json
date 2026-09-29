@@ -1,9 +1,9 @@
 {
   "date": "2026-09-29",
-  "generatedAt": "2026-09-29T10:00:26.260Z",
+  "generatedAt": "2026-09-29T23:01:22.279Z",
   "verticals": {
     "ai": {
-      "items": 134,
+      "items": 135,
       "sources": [
         {
           "name": "hackernews",
@@ -33,7 +33,7 @@
       ]
     },
     "bio": {
-      "items": 121,
+      "items": 166,
       "sources": [
         {
           "name": "pubmed",
@@ -47,13 +47,13 @@
         },
         {
           "name": "medrxiv",
-          "status": "empty",
-          "count": 0
+          "status": "ok",
+          "count": 30
         },
         {
           "name": "openfda",
           "status": "ok",
-          "count": 2
+          "count": 4
         },
         {
           "name": "clinicaltrials",
@@ -63,7 +63,7 @@
         {
           "name": "journal_rss",
           "status": "ok",
-          "count": 30
+          "count": 45
         }
       ]
     },
@@ -101,7 +101,7 @@
       ]
     },
     "markets": {
-      "items": 100,
+      "items": 101,
       "sources": [
         {
           "name": "reddit",
