@@ -1,10 +1,10 @@
 {
   "date": "2026-09-30",
-  "generatedAt": "2026-09-30T10:00:24.963Z",
+  "generatedAt": "2026-09-30T22:00:31.569Z",
   "vertical": "bio",
   "lang": "en",
   "title": "Bio & Health | September 30, 2026",
-  "summary": "A thin edition: two research stories cleared the evidence bar. The collection had little independently corroborated clinical reporting, and routine trial listings were left out.",
+  "summary": "A thin edition: three stories cleared the evidence bar. The collection had little independently corroborated clinical reporting, and routine trial listings were left out.",
   "stories": [
     {
       "slug": "el-nino-coral-probiotics",
@@ -28,7 +28,7 @@
         },
         {
           "text": "The laboratory finding is limited to measured biological responses in the study species and conditions. It does not show that probiotic treatment can prevent bleaching across natural reefs or counter the wider effects of ocean warming.",
-          "citations": [1, 2]
+          "citations": [1,2]
         }
       ],
       "whyItMatters": "The story pairs a near-term climate stressor with early-stage biological interventions, while making clear that experimental promise is not yet reef-scale protection.",
@@ -78,15 +78,15 @@
       "body": [
         {
           "text": "The New England Journal of Medicine paper reports identification of a zoonotic orthonairovirus among patients presenting with febrile illness in China. ScienceDaily’s coverage describes the finding as a newly identified virus linked to tick exposure.",
-          "citations": [1, 2]
+          "citations": [1,2]
         },
         {
           "text": "The study reports that 10.4% of 3,163 sampled patients tested positive by viral RNA or IgM antibody testing. That figure describes the enrolled sample and is not a population-level prevalence estimate.",
-          "citations": [1, 2]
+          "citations": [1,2]
         },
         {
           "text": "The report adds to evidence on causes of febrile illness in the studied setting. The available sources do not establish how commonly the virus causes disease outside the sampled population.",
-          "citations": [1, 2]
+          "citations": [1,2]
         }
       ],
       "whyItMatters": "Characterizing another virus in patients with febrile illness can inform pathogen surveillance and diagnostic research in the affected region.",
@@ -116,6 +116,55 @@
       ],
       "tags": ["infectious-disease", "research", "surveillance"],
       "confidence": "medium"
+    },
+    {
+      "slug": "hhs-surpass-clinical-trials",
+      "headline": "HHS Launches SURPASS and New Efforts to Accelerate Faster, Smarter Clinical Trials",
+      "dek": "ARPA-H says the program will combine adaptive trial design, computational models and real-time analysis; STAT reports that funding details were not included in the initial announcement.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "HHS launched SURPASS, an ARPA-H program intended to use computational models, shared trial infrastructure and real-time analysis in clinical-trial design.",
+        "STAT reports that the initiative will accept proposals later this fall and that the initial announcement did not specify funding or participant resources.",
+        "The program sits alongside separate projects on clinical-site activation, data infrastructure and patient navigation."
+      ],
+      "body": [
+        {
+          "text": "HHS said SURPASS will develop adaptive platform trials using predictive models, shared infrastructure and real-time analysis. The agency also announced three related projects focused on increasing clinical-site capacity, linking trial data and helping patients navigate research opportunities.",
+          "citations": [1]
+        },
+        {
+          "text": "STAT independently reported that SURPASS is a five-year program expected to begin accepting proposals later this fall. It noted that the initial announcement did not specify funding for the initiatives or what resources participants would receive.",
+          "citations": [2]
+        }
+      ],
+      "whyItMatters": "HHS is treating trial design, data access and operating capacity as connected parts of U.S. biotechnology competitiveness. The release sets out program goals, while key implementation details remain open.",
+      "editorNote": "HHS is the primary source; STAT independently confirms the program and identifies funding and participant support as unresolved details.",
+      "cluster": [
+        {
+          "url": "https://www.statnews.com/2026/09/30/hhs-arpa-h-clinical-trials-artificial-intelligence-surpass-program/",
+          "source": "STAT",
+          "title": "HHS announces efforts to speed clinical trials with AI"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.hhs.gov/press-room/hhs-arpa-h-launch-surpass-modernize-clinical-trials.html",
+          "source": "U.S. Department of Health and Human Services",
+          "title": "HHS Launches SURPASS and New Efforts to Accelerate Faster, Smarter Clinical Trials",
+          "publishedAt": "2026-09-30"
+        },
+        {
+          "id": 2,
+          "url": "https://www.statnews.com/2026/09/30/hhs-arpa-h-clinical-trials-artificial-intelligence-surpass-program/",
+          "source": "STAT",
+          "title": "HHS announces efforts to speed clinical trials with AI",
+          "publishedAt": "2026-09-30"
+        }
+      ],
+      "tags": ["clinical trials", "AI", "biotechnology"],
+      "confidence": "high"
     }
   ]
 }

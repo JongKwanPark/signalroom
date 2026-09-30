@@ -1,10 +1,10 @@
 {
   "date": "2026-09-30",
-  "generatedAt": "2026-09-30T10:00:24.963Z",
+  "generatedAt": "2026-09-30T22:00:31.569Z",
   "vertical": "markets",
   "lang": "en",
   "title": "Markets | September 30, 2026",
-  "summary": "A thin edition: one cross-reported market development cleared the evidence bar. SEC filings, market-data and Polymarket collectors failed or were unavailable, while FRED had no items.",
+  "summary": "A thin edition: two market developments cleared the evidence bar. Micron’s earnings add a company-reported datapoint; SEC filings and market-data collectors failed or were unavailable, Polymarket was blocked, and FRED returned no items.",
   "stories": [
     {
       "slug": "oil-prices-iran-sanctions-talks",
@@ -24,11 +24,11 @@
         },
         {
           "text": "Reuters also reports that crude exports from Middle Eastern producers rebounded in September from earlier disruption. CNBC’s separate account says Tehran received a U.S. proposal following Qatar talks, while Trump denied offering sanctions relief.",
-          "citations": [1, 2]
+          "citations": [1,2]
         },
         {
           "text": "These reports describe a changing geopolitical backdrop, not a settled supply forecast or a direct measure of future prices. The collection’s SEC, market-data and prediction-market feeds were unavailable for this edition.",
-          "citations": [1, 2]
+          "citations": [1,2]
         }
       ],
       "whyItMatters": "The reports show how diplomatic signals and energy flows remain linked in market coverage of the Iran conflict.",
@@ -58,6 +58,60 @@
       ],
       "tags": ["oil", "Iran", "geopolitics"],
       "confidence": "medium"
+    },
+    {
+      "slug": "micron-record-fiscal-2026-results",
+      "headline": "Micron Technology, Inc. Reports Record Fiscal Fourth-Quarter and Full-Year 2026 Results",
+      "dek": "The company reported $54.23 billion in fiscal fourth-quarter revenue and issued first-quarter 2027 revenue guidance of $61.5 billion ± $1.5 billion.",
+      "type": "DATA",
+      "readMinutes": 3,
+      "tldr": [
+        "Micron reported fiscal fourth-quarter 2026 revenue of $54.23 billion, compared with $11.32 billion a year earlier.",
+        "Full-year fiscal 2026 revenue was $133.19 billion, versus $37.38 billion in fiscal 2025.",
+        "The company’s first-quarter 2027 revenue outlook is $61.5 billion ± $1.5 billion."
+      ],
+      "body": [
+        {
+          "text": "Micron reported $54.23 billion in fourth-quarter revenue for fiscal 2026, compared with $11.32 billion in the year-earlier quarter. Full-year revenue reached $133.19 billion, up from $37.38 billion in fiscal 2025.",
+          "citations": [1]
+        },
+        {
+          "text": "For fiscal first-quarter 2027, Micron forecast revenue of $61.5 billion ± $1.5 billion. CNBC characterized the results as an earnings beat and said the company issued strong guidance; the outlook remains management’s forecast.",
+          "citations": [1,2]
+        }
+      ],
+      "whyItMatters": "The results provide a company-reported measure of memory demand and a forward outlook from a supplier closely tied to data-center and AI workloads. They describe Micron’s business and do not establish an industry-wide trend or guarantee future results.",
+      "editorNote": "Financial figures and outlook are taken from Micron’s release; CNBC provides independent coverage. The outlook is explicitly presented as company guidance, not a realized result.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/09/30/micron-mu-q4-earnings-report-2026.html",
+          "source": "CNBC",
+          "title": "Micron beats on earnings and issues strong guidance as data center revenue jumps 11-fold"
+        },
+        {
+          "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-micron-tops-q4-2026-estimates-as-demand-stays-hot-93CH-4925992",
+          "source": "Investing.com",
+          "title": "Earnings call transcript: Micron tops Q4 2026 estimates as demand stays hot"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/default.aspx",
+          "source": "Micron Investor Relations",
+          "title": "Micron Technology, Inc. Reports Record Fiscal Fourth-Quarter and Full-Year 2026 Results",
+          "publishedAt": "2026-09-30"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/09/30/micron-mu-q4-earnings-report-2026.html",
+          "source": "CNBC",
+          "title": "Micron beats on earnings and issues strong guidance as data center revenue jumps 11-fold",
+          "publishedAt": "2026-09-30T20:59:05.000Z"
+        }
+      ],
+      "tags": ["Micron", "semiconductors", "AI infrastructure", "earnings"],
+      "confidence": "high"
     }
   ]
 }

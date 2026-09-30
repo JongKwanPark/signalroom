@@ -1,10 +1,10 @@
 {
   "date": "2026-09-30",
-  "generatedAt": "2026-09-30T10:00:24.963Z",
+  "generatedAt": "2026-09-30T22:00:31.569Z",
   "vertical": "geo",
   "lang": "en",
   "title": "Geopolitics | September 30, 2026",
-  "summary": "A thin edition: one development cleared the cross-source evidence bar. GDELT and ISW were inaccessible, ReliefWeb returned no items, and Polymarket was blocked, limiting independent coverage beyond the main wire feeds.",
+  "summary": "A thin edition: two developments cleared the evidence bar. BBC and AP covered the attack on Ukraine’s energy infrastructure; GDELT and ISW were inaccessible, ReliefWeb returned no items, and Polymarket was blocked.",
   "stories": [
     {
       "slug": "south-korea-demands-apology-dmz-mines",
@@ -20,11 +20,11 @@
       "body": [
         {
           "text": "The BBC reports that South Korea’s military demanded an apology after three soldiers were injured by landmine blasts in the DMZ earlier in September. Seoul said its preliminary assessment found North Korean mines highly likely to have caused the injuries.",
-          "citations": [1, 2]
+          "citations": [1,2]
         },
         {
           "text": "North Korea denied responsibility, according to Yonhap, and accused Seoul of fabricating its findings. The allegations are contested; the reports do not establish who placed the mines.",
-          "citations": [2, 3]
+          "citations": [2,3]
         },
         {
           "text": "The BBC says the United Nations Command, which participated in the site investigation, said it would address the matter through established armistice mechanisms.",
@@ -70,6 +70,55 @@
       ],
       "tags": ["Korean-peninsula", "security", "diplomacy"],
       "confidence": "high"
+    },
+    {
+      "slug": "russia-attack-ukraine-energy-infrastructure",
+      "headline": "Russia launches largest attack on Ukraine energy infrastructure since spring",
+      "dek": "Ukrainian officials described an unusually large combined strike on energy sites; AP reported casualties and power-grid damage while noting that specific targets were not fully confirmed.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "Ukrainian officials said Russia mounted its largest attack on the country’s energy infrastructure since spring.",
+        "The Associated Press reported seven deaths and 24 injuries, citing Ukrainian officials, and said the power grid was the main target.",
+        "AP noted that Ukrainian officials did not confirm specific facilities that Russia’s Defense Ministry said had been hit."
+      ],
+      "body": [
+        {
+          "text": "The BBC’s headline described the overnight assault as Ukraine’s largest attack on energy infrastructure since spring. The Associated Press reported that Prime Minister Serhii Koretskyi called it the first massive combined attack since the end of the previous heating season.",
+          "citations": [1,2]
+        },
+        {
+          "text": "AP said Ukrainian officials reported seven people killed and 24 wounded, and that President Volodymyr Zelenskyy identified energy infrastructure in Kyiv and the surrounding region as the main targets. AP also said Ukrainian officials had not specifically confirmed the facilities named by Russia’s Defense Ministry.",
+          "citations": [2]
+        }
+      ],
+      "whyItMatters": "The reported targeting of energy infrastructure comes as Ukraine approaches the heating season, linking the strike to civilian power and heat resilience as well as air-defense demands. The precise damage to individual facilities remains uncertain in AP’s account.",
+      "editorNote": "BBC and AP reported the development independently. Casualty and target details are attributed to Ukrainian officials; AP notes that specific facility claims were not confirmed by Ukraine.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/russia-ukraine-war-drone-missile-attacks-b837b4ee58f0aa8b4e5a5a872906d91e",
+          "source": "Associated Press",
+          "title": "Russia’s barrage in Ukraine kills 7 and targets power grid, Zelenskyy says"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/ckjw5jx2l393o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Russia launches largest attack on Ukraine energy infrastructure since spring",
+          "publishedAt": "2026-09-30T14:53:02.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/russia-ukraine-war-drone-missile-attacks-b837b4ee58f0aa8b4e5a5a872906d91e",
+          "source": "Associated Press",
+          "title": "Russia’s barrage in Ukraine kills 7 and targets power grid, Zelenskyy says",
+          "publishedAt": "2026-09-30"
+        }
+      ],
+      "tags": ["Ukraine", "energy security", "Russia"],
+      "confidence": "medium"
     }
   ]
 }
