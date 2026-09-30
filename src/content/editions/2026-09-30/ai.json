@@ -1,0 +1,116 @@
+{
+  "date": "2026-09-30",
+  "generatedAt": "2026-09-30T10:00:24.963Z",
+  "vertical": "ai",
+  "lang": "en",
+  "title": "AI | September 30, 2026",
+  "summary": "A thin edition: two developments cleared the evidence bar, covering an open-weight model’s cyber capabilities and a new black-box secrets-extraction study. Much of the collection was uncorroborated launch chatter or community posts.",
+  "stories": [
+    {
+      "slug": "glm-53-cyber-capabilities",
+      "headline": "GLM-5.3 and the spread of advanced cyber capabilities",
+      "dek": "Anthropic and NIST published separate assessments of Z.ai’s open-weight model and its cybersecurity capabilities.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "Anthropic says its tests found GLM-5.3 capable of autonomously building end-to-end cyber exploits and that simple techniques bypassed its safeguards in 64% to 100% of simulated tests.",
+        "NIST’s CAISI assessment describes GLM-5.3 as the most cyber-capable open-weight model it had assessed, while placing it about four months behind the U.S. frontier on its aggregate benchmarks.",
+        "Both are laboratory evaluations; the reported results do not measure real-world attack frequency or establish how often the model would be misused."
+      ],
+      "body": [
+        {
+          "text": "Anthropic’s Frontier Red Team says GLM-5.3, released by Z.ai, can build end-to-end cyber exploits. In Anthropic’s simulated tests, simple techniques bypassed the model’s safeguards 64% to 100% of the time.",
+          "citations": [1]
+        },
+        {
+          "text": "NIST’s Center for AI Standards and Innovation separately called GLM-5.3 the most cyber-capable open-weight model it had assessed and said it lagged the U.S. frontier by about four months on its aggregate cyber benchmarks. The organizations used different evaluations, so the figures should not be treated as a single head-to-head result.",
+          "citations": [2]
+        },
+        {
+          "text": "Anthropic says open access and weaker safeguards distinguish this model from restricted systems in its comparison. The available assessments describe controlled tests, not observed attacks in the wild.",
+          "citations": [1, 2]
+        }
+      ],
+      "whyItMatters": "The assessments put model access and safeguard strength at the center of the debate over how quickly advanced cyber capabilities are spreading.",
+      "editorNote": "The bypass range and capability ranking are findings reported by the evaluating organizations; no independent replication was found in the collected coverage.",
+      "cluster": [
+        {
+          "url": "https://www.nist.gov/news-events/news/2026/09/caisis-assessment-zais-glm-53-cyber-capabilities",
+          "source": "NIST / CAISI",
+          "title": "CAISI’s Assessment of Z.ai’s GLM-5.3 Cyber Capabilities"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+          "source": "Anthropic",
+          "title": "GLM-5.3 and the spread of advanced cyber capabilities",
+          "publishedAt": "2026-09-29"
+        },
+        {
+          "id": 2,
+          "url": "https://www.nist.gov/news-events/news/2026/09/caisis-assessment-zais-glm-53-cyber-capabilities",
+          "source": "NIST / CAISI",
+          "title": "CAISI’s Assessment of Z.ai’s GLM-5.3 Cyber Capabilities",
+          "publishedAt": "2026-09-17"
+        }
+      ],
+      "tags": ["cybersecurity", "open-weight-models", "AI-evaluation"],
+      "confidence": "high"
+    },
+    {
+      "slug": "black-box-llm-secret-extraction",
+      "headline": "Practical Secrets Extraction Against Black-Box LLMs",
+      "dek": "A new preprint describes an output-only method for probing commercial language models for memorized credentials.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "The authors propose a black-box framework that uses prompt variants, response checks, and local candidate filtering to search for memorized secrets.",
+        "The preprint reports controlled API-key benchmark results and a responsible evaluation involving three deployed systems; these are author-reported findings, not an independent audit.",
+        "The paper raises a data-retention and evaluation question for model providers without establishing how prevalent exploitable memorization is."
+      ],
+      "body": [
+        {
+          "text": "The arXiv preprint proposes an output-only secret-extraction framework for API-based language models. Its authors combine prompt variations and cross-checks with a local proxy that filters candidate strings.",
+          "citations": [1]
+        },
+        {
+          "text": "The authors report improved recovery rates on controlled API-key benchmarks and say a responsible evaluation recovered masked provider-specific credentials from three deployed systems. A Web Pulse summary describes the same claims; neither source is an independent replication.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "The paper frames the risk as possible memorization of credentials present in training material or development artifacts. Its reported demonstrations do not establish prevalence across commercial models or quantify real-world exposure.",
+          "citations": [1, 2]
+        }
+      ],
+      "whyItMatters": "The work focuses attention on whether black-box access alone can reveal sensitive strings retained by deployed models, a question relevant to training-data handling and security evaluation.",
+      "editorNote": "This is a preprint and the results are author-reported. The summary omits operational extraction details.",
+      "cluster": [
+        {
+          "url": "https://wpnews.pro/news/practical-secrets-extraction-against-black-box-llms",
+          "source": "Web Pulse",
+          "title": "Practical Secrets Extraction Against Black-Box LLMs"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://arxiv.org/abs/2609.36941",
+          "source": "arXiv",
+          "title": "Practical Secrets Extraction Against Black-Box LLMs",
+          "publishedAt": "2026-09-29"
+        },
+        {
+          "id": 2,
+          "url": "https://wpnews.pro/news/practical-secrets-extraction-against-black-box-llms",
+          "source": "Web Pulse",
+          "title": "Practical Secrets Extraction Against Black-Box LLMs",
+          "publishedAt": "2026-09-30"
+        }
+      ],
+      "tags": ["LLMs", "security", "research"],
+      "confidence": "medium"
+    }
+  ]
+}

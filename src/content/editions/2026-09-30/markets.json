@@ -1,0 +1,63 @@
+{
+  "date": "2026-09-30",
+  "generatedAt": "2026-09-30T10:00:24.963Z",
+  "vertical": "markets",
+  "lang": "en",
+  "title": "Markets | September 30, 2026",
+  "summary": "A thin edition: one cross-reported market development cleared the evidence bar. SEC filings, market-data and Polymarket collectors failed or were unavailable, while FRED had no items.",
+  "stories": [
+    {
+      "slug": "oil-prices-iran-sanctions-talks",
+      "headline": "Oil gains after Trump denies he is willing to ease Iran sanctions",
+      "dek": "Reuters and CNBC report renewed uncertainty around U.S.–Iran talks and sanctions as oil supply remains a focus for markets.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "Reuters reported that oil prices rose after President Donald Trump denied he would ease sanctions on Iran, while Qatar pushed for talks.",
+        "The report also says Middle Eastern crude exports had rebounded in September, though supply conditions remained tied to the conflict and Strait of Hormuz disruptions.",
+        "CNBC separately reported that Tehran received a U.S. proposal after Qatar-mediated talks; the diplomatic and supply outlook remains fluid."
+      ],
+      "body": [
+        {
+          "text": "Reuters reports that oil prices rose after Trump denied he would be willing to ease sanctions on Iran, while Qatar continued to push for talks. The report links market attention to both diplomacy and the region’s crude supply.",
+          "citations": [1]
+        },
+        {
+          "text": "Reuters also reports that crude exports from Middle Eastern producers rebounded in September from earlier disruption. CNBC’s separate account says Tehran received a U.S. proposal following Qatar talks, while Trump denied offering sanctions relief.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "These reports describe a changing geopolitical backdrop, not a settled supply forecast or a direct measure of future prices. The collection’s SEC, market-data and prediction-market feeds were unavailable for this edition.",
+          "citations": [1, 2]
+        }
+      ],
+      "whyItMatters": "The reports show how diplomatic signals and energy flows remain linked in market coverage of the Iran conflict.",
+      "editorNote": "This is a factual report on coverage and market context, not investment advice. No price target or trading implication is inferred.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/09/30/us-iran-war-trump-hormuz.html",
+          "source": "CNBC",
+          "title": "Trump denies offering Iran sanctions relief; Tehran receives U.S. proposal following Qatar talks"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://uk.marketscreener.com/news/oil-climbs-after-trump-denies-he-is-willing-to-ease-sanctions-on-iran-ce785ad2db8ef22d",
+          "source": "Reuters / MarketScreener",
+          "title": "Oil gains after Trump denies he is willing to ease Iran sanctions",
+          "publishedAt": "2026-09-30"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/09/30/us-iran-war-trump-hormuz.html",
+          "source": "CNBC",
+          "title": "Trump denies offering Iran sanctions relief; Tehran receives U.S. proposal following Qatar talks",
+          "publishedAt": "2026-09-30T09:45:54Z"
+        }
+      ],
+      "tags": ["oil", "Iran", "geopolitics"],
+      "confidence": "medium"
+    }
+  ]
+}

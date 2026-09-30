@@ -1,0 +1,121 @@
+{
+  "date": "2026-09-30",
+  "generatedAt": "2026-09-30T10:00:24.963Z",
+  "vertical": "bio",
+  "lang": "en",
+  "title": "Bio & Health | September 30, 2026",
+  "summary": "A thin edition: two research stories cleared the evidence bar. The collection had little independently corroborated clinical reporting, and routine trial listings were left out.",
+  "stories": [
+    {
+      "slug": "el-nino-coral-probiotics",
+      "headline": "The super El Niño is cooking coral reefs — can lullabies and probiotics save them?",
+      "dek": "Nature examines coral heat stress alongside experimental work on microbial probiotics and sound-based interventions.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "Nature’s report connects the forecast strong El Niño with heat stress risks for coral reefs and discusses experimental responses including probiotics and sound.",
+        "A separate Nature Communications study found probiotic co-inoculation mitigated pathogen-induced epigenetic and gene-expression changes in heat-stressed Pocillopora verrucosa coral.",
+        "The reported experiment does not establish that these interventions can protect reefs at scale or offset ocean warming."
+      ],
+      "body": [
+        {
+          "text": "Nature’s news report places coral heat stress among the risks discussed as a strong El Niño develops, and surveys proposed interventions including coral probiotics and sound-based approaches.",
+          "citations": [1]
+        },
+        {
+          "text": "In a separate laboratory study, researchers inoculated Pocillopora verrucosa coral with a bacterial pathogen and/or a coral probiotic before heat stress. Nature Communications reports that probiotic co-inoculation mitigated pathogen-induced epigenetic and gene-expression changes.",
+          "citations": [2]
+        },
+        {
+          "text": "The laboratory finding is limited to measured biological responses in the study species and conditions. It does not show that probiotic treatment can prevent bleaching across natural reefs or counter the wider effects of ocean warming.",
+          "citations": [1, 2]
+        }
+      ],
+      "whyItMatters": "The story pairs a near-term climate stressor with early-stage biological interventions, while making clear that experimental promise is not yet reef-scale protection.",
+      "editorNote": "The probiotic result is experimental and narrow in scope. Nature’s discussion of possible interventions should not be read as evidence of established reef protection.",
+      "cluster": [
+        {
+          "url": "https://www.nature.com/articles/d41586-026-02826-5",
+          "source": "Nature",
+          "title": "The super El Niño is already wreaking havoc: here’s what’s in store"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41467-026-77646-2",
+          "source": "Nature Communications",
+          "title": "Bacterial inoculation elicits changes to the coral epigenome"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.nature.com/articles/d41586-026-02965-9",
+          "source": "Nature",
+          "title": "The super El Niño is cooking coral reefs — can lullabies and probiotics save them?",
+          "publishedAt": "2026-09-30"
+        },
+        {
+          "id": 2,
+          "url": "https://www.nature.com/articles/s41467-026-77646-2",
+          "source": "Nature Communications",
+          "title": "Bacterial inoculation elicits changes to the coral epigenome",
+          "publishedAt": "2026-09-10"
+        }
+      ],
+      "tags": ["coral-reefs", "climate", "microbiology"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "zoonotic-orthonairovirus-china",
+      "headline": "A Zoonotic Orthonairovirus from Febrile Patients in China",
+      "dek": "A clinical study describes a tick-associated virus identified among patients with febrile illness in China.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "The New England Journal of Medicine paper describes a zoonotic orthonairovirus identified in febrile patients in China.",
+        "The study reports that 10.4% of 3,163 sampled patients tested positive for the virus, based on viral RNA or IgM antibodies.",
+        "The estimate applies to the study sample and should not be treated as population prevalence or a measure of risk elsewhere."
+      ],
+      "body": [
+        {
+          "text": "The New England Journal of Medicine paper reports identification of a zoonotic orthonairovirus among patients presenting with febrile illness in China. ScienceDaily’s coverage describes the finding as a newly identified virus linked to tick exposure.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "The study reports that 10.4% of 3,163 sampled patients tested positive by viral RNA or IgM antibody testing. That figure describes the enrolled sample and is not a population-level prevalence estimate.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "The report adds to evidence on causes of febrile illness in the studied setting. The available sources do not establish how commonly the virus causes disease outside the sampled population.",
+          "citations": [1, 2]
+        }
+      ],
+      "whyItMatters": "Characterizing another virus in patients with febrile illness can inform pathogen surveillance and diagnostic research in the affected region.",
+      "editorNote": "The sample-specific positivity rate is reported as a study result, not general-population prevalence. No medical advice is implied.",
+      "cluster": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260927225027.htm",
+          "source": "ScienceDaily / CIDRAP",
+          "title": "Scientists find new virus behind mysterious tick illness"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.nejm.org/doi/10.1056/NEJMc2602496",
+          "source": "New England Journal of Medicine",
+          "title": "A Zoonotic Orthonairovirus from Febrile Patients in China",
+          "publishedAt": "2026"
+        },
+        {
+          "id": 2,
+          "url": "https://www.sciencedaily.com/releases/2026/09/260927225027.htm",
+          "source": "ScienceDaily / CIDRAP",
+          "title": "Scientists find new virus behind mysterious tick illness",
+          "publishedAt": "2026-09-29"
+        }
+      ],
+      "tags": ["infectious-disease", "research", "surveillance"],
+      "confidence": "medium"
+    }
+  ]
+}
