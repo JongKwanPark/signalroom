@@ -1,0 +1,203 @@
+{
+  "date": "2026-09-28",
+  "generatedAt": "2026-09-28T10:09:00.000Z",
+  "vertical": "markets",
+  "lang": "ko",
+  "title": "시장·매크로 — 2026년 9월 28일",
+  "summary": "상호 확인 보도를 갖춘 동향 3건을 다룬다. 시장 데이터와 SEC 수집이 실패했고, 확보된 피드에는 충실한 에디션을 뒷받힘할 만큼 독립 보도된 기업·매크로 스토리가 부족했다.",
+  "stories": [
+    {
+      "slug": "diesel-export-ban-under-consideration-ko",
+      "headline": "Trump, 글로벌 공급 부족 심화 속 디젤 수출 금지 '매우 진지하게' 검토 중",
+      "dek": "연료 공급이 빠듯한 가운데 수출 금지 가능성이 논의되고 있다.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "CNBC는 Trump가 미국의 디젤 수출 금지를 진지하게 검토 중이라고 보도했다.",
+        "MarketWatch는 수출 제한이 디젤 가격에 미칠 파장을 분석한 Goldman Sachs의 분석을 전했다.",
+        "이들 보도는 발효된 정책이 아닌 검토 중인 사안과 시나리오 분석을 설명한다."
+      ],
+      "body": [
+        {
+          "text": "CNBC는 글로벌 공급 부족 속에 Trump가 디젤 수출 금지를 검토 중이라고 보도했다. MarketWatch는 별도 기사에서 해당 제한이 현실화될 경우의 파장에 대한 Goldman Sachs의 분석을 요약했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "두 출처는 검토 가능한 정책과 잠재적 시장 영향을 다루며, 금지 조치가 채택됐다고는 보도하지 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "수출 제한은 국내 시장과 국제 시장에서 가용한 디젤 물량의 배분을 바꿀 수 있다. 가격 파장의 방향과 규모는 아직 정해지지 않은 정책 세부 내용과 공급 여건에 달려 있다.",
+      "editorNote": "헤드라인은 CNBC 보도의 원문 그대로다. 두 번째 출처는 MarketWatch가 전한 Goldman Sachs의 시나리오 분석이며, 발효된 정책이나 시그널 데일리의 가격 전망이 아니다. TODO-review: 'supply crunch' → '공급 부족', 'export restriction' → '수출 제한' 잠정.",
+      "cluster": [
+        {
+          "url": "https://www.marketwatch.com/story/how-a-u-s-diesel-export-ban-would-play-out-according-to-goldman-sachs-8142525d?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "How a U.S. diesel export ban would play out, according to Goldman Sachs"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/09/28/diesel-oil-trump-export-ban-fuel-prices.html",
+          "source": "CNBC",
+          "title": "Trump ‘very seriously’ considering diesel export ban as global supply crunch worsens",
+          "publishedAt": "2026-09-28"
+        },
+        {
+          "id": 2,
+          "url": "https://www.marketwatch.com/story/how-a-u-s-diesel-export-ban-would-play-out-according-to-goldman-sachs-8142525d?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "How a U.S. diesel export ban would play out, according to Goldman Sachs",
+          "publishedAt": "2026-09-28"
+        }
+      ],
+      "tags": [
+        "diesel",
+        "energy markets",
+        "trade policy"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "china-farm-goods-tariff-relief-ko",
+      "headline": "중국, 미국산 농산물 관세 완화하되 대두는 제외",
+      "dek": "보고된 관세 완화에서 대두는 제외됐으며, 대두는 미국-중국 농산물 무역의 주요 관심 품목이다.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "Seeking Alpha는 중국이 대두를 제외하고 일부 미국산 농산물의 관세를 완화했다고 보도했다.",
+        "CNBC와 Al Jazeera는 미국-중국 관세 인하에 연계된 광범위한 품목 목록을 보도했다.",
+        "이들 보도는 선별된 품목을 설명하며, 포괄적 농업·무역 합의가 아니다."
+      ],
+      "body": [
+        {
+          "text": "Seeking Alpha는 일부 미국산 농산물에 대한 관세 완화를 보도하며 대두는 제외됐다고 전했다. CNBC와 Al Jazeera는 별도 기사에서 Trump-Xi 정상회담 이후 관세 인하와 연계된 품목 목록을 보도했다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "보도 내용은 선별적 완화를 가리킨다. 보도에 명시된 품목 범위를 넘는 상업적 효과나 여타 상품의 처우는 확인되지 않는다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "농산물 제외 품목의 구성은 무역 개방의 수혜 대상과 양국 마찰이 남는 지점을 가른다. 대두의 제외로 주요 농산물 교역 품목은 보고된 완화 대상 밖에 남는다.",
+      "editorNote": "헤드라인은 Seeking Alpha 보도의 원문 그대로다. 농업 부문을 다룬 시장 중심 항목이며, 광범위한 관세 목록 발표는 지정학 에디션에서 별도로 다룬다.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/09/28/us-china-lower-tariffs-trump-xi-meeting.html",
+          "source": "CNBC",
+          "title": "U.S., China to lower tariffs on $60 billion of goods. Here's what qualifies"
+        },
+        {
+          "url": "https://www.aljazeera.com/economy/2026/9/28/us-china-list-goods-recommended-for-tariff-cuts-following-trump-xi-summit?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "US, China list goods recommended for tariff cuts following Trump-Xi summit"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://seekingalpha.com/news/4647443-china-eases-tariffs-on-us-farm-goods-keeps-soybeans-out?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+          "source": "Seeking Alpha",
+          "title": "China eases tariffs on U.S. farm goods, keeps soybeans out",
+          "publishedAt": "2026-09-28"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/09/28/us-china-lower-tariffs-trump-xi-meeting.html",
+          "source": "CNBC",
+          "title": "U.S., China to lower tariffs on $60 billion of goods. Here's what qualifies",
+          "publishedAt": "2026-09-28"
+        },
+        {
+          "id": 3,
+          "url": "https://www.aljazeera.com/economy/2026/9/28/us-china-list-goods-recommended-for-tariff-cuts-following-trump-xi-summit?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "US, China list goods recommended for tariff cuts following Trump-Xi summit",
+          "publishedAt": "2026-09-28"
+        }
+      ],
+      "tags": [
+        "China",
+        "United States",
+        "agriculture",
+        "tariffs"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "treasury-yields-rise-global-bond-pressure-ko",
+      "headline": "글로벌 국채 압박 속 미국 국채 수익률 소폭 상승",
+      "dek": "이번 움직임은 각국 국채 시장에서 보고된 광범위한 재산정의 일부였다.",
+      "type": "DATA",
+      "readMinutes": 2,
+      "tldr": [
+        "CNBC는 글로벌 국채 압박 속에 미국 국채 수익률이 상승했다고 보도했다.",
+        "Seeking Alpha는 수익률 상승과 달러 강세가 금에 부담이 되고 있다고 보도했다.",
+        "수집된 헤드라인은 방향을 제시할 뿐, 변동 폭의 정량화나 단일 원인 규명에 필요한 세부 내용은 부족하다."
+      ],
+      "body": [
+        {
+          "text": "CNBC는 글로벌 국채가 압박받는 가운데 미국 국채 수익률이 소폭 상승했다고 보도했다. Seeking Alpha는 별도 기사에서 수익률 급등과 달러 강세를 금에 대한 역풍으로 설명했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "확보된 보도는 광범위한 금리 움직임을 가리키지만, 수익률 수준·만기 구성, 재산정의 완전한 설명에 부합하는 수치는 제시하지 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "국채 수익률 상승은 시장 전반의 차입 비용과 밸류에이션에 영향을 줄 수 있으며, 동시에 진행된 달러 움직임은 원자재에 영향을 줄 수 있다. 제한된 피드 근거가 뒷받히는 것은 방향과 시장 맥락이며, 전망이 아니다.",
+      "editorNote": "헤드라인은 CNBC 보도의 원문 그대로다. 수집 항목 메타데이터에 없어 수익률 수준이나 인과 설명은 덧붙이지 않는다.",
+      "cluster": [
+        {
+          "url": "https://seekingalpha.com/news/4647447-gold-resilience-tested-as-yield-surge-and-stronger-dollar-weigh?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+          "source": "Seeking Alpha",
+          "title": "Gold resilience tested as yield surge and stronger dollar weigh"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/09/28/treasury-yields-bonds-selloff.html",
+          "source": "CNBC",
+          "title": "U.S. Treasury yields edge higher amid pressure on global government bonds",
+          "publishedAt": "2026-09-28"
+        },
+        {
+          "id": 2,
+          "url": "https://seekingalpha.com/news/4647447-gold-resilience-tested-as-yield-surge-and-stronger-dollar-weigh?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+          "source": "Seeking Alpha",
+          "title": "Gold resilience tested as yield surge and stronger dollar weigh",
+          "publishedAt": "2026-09-28"
+        }
+      ],
+      "tags": [
+        "Treasuries",
+        "bonds",
+        "yields",
+        "currency"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

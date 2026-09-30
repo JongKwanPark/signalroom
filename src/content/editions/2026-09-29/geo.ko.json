@@ -1,0 +1,396 @@
+{
+  "date": "2026-09-29",
+  "generatedAt": "2026-09-29T23:05:58Z",
+  "vertical": "geo",
+  "lang": "ko",
+  "title": "시그널 데일리 — 지정학",
+  "summary": "증거 기준을 통과한 6건의 동향을 수록한다. 남대서양 자원 긴장과 이주, 악기상, 지역 분쟁, 마드리드 퇴거 항의를 다룬다.",
+  "stories": [
+    {
+      "slug": "argentina-falklands-oil-legal-action-ko",
+      "headline": "아르헨티나 Milei 대통령, Falklands 유전 둘러싸고 국제 법적 조치 위협",
+      "dek": "Buenos Aires는 분쟁 도서 인근 해상 시추를 둘러싸고 중재를 위협했다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "아르헨티나 대통령은 Falkland Islands 인근 해상 석유 프로젝트를 둘러싸고 영국을 상대로 국제 법적 조치를 위협했다.",
+        "Associated Press는 Buenos Aires가 국제해양법재판소에 제소하기 전 영국에 작업 중단까지 2주의 시한을 제시했다고 보도한다.",
+        "BBC와 Al Jazeera도 해당 위협을 보도했으며, 이는 도서와 주변 자원을 둘러싼 분쟁의 격화를 의미한다."
+      ],
+      "body": [
+        {
+          "text": "AP는 Javier Milei 정부가 Navitas Petroleum과 Rockhopper Exploration이 개발 중인 Sea Lion 유전을 둘러싸고 국제 중재를 추진하겠다고 위협했다고 보도한다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "BBC와 Al Jazeera는 석유 프로젝트를 둘러싼 아르헨티나의 법적 위협을 각각 보도했다. AP에 따르면 아르헨티나는 잠정 중단을 국제해양법재판소에 요청하기 전 영국에 작업 중단까지 2주를 제시했다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "이 분쟁은 남대서양에서 주권과 에너지 개발, 국제 해양법을 결합한다.",
+      "editorNote": "법적 위협은 아르헨티나 정부 주장으로 귀속되며, 출처들은 프로젝트 중단이 확정됐음을 입증하지 않는다. TODO-review: International Tribunal for the Law of the Sea=국제해양법재판소, Sea Lion 유전명 원어 유지.",
+      "cluster": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cq5yj1835y1wo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Argentina threatens legal action against UK over Falkland Islands oil exploration"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/9/29/argentinas-milei-threatens-legal-action-over-falklands-oil-project?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Argentina’s Milei threatens legal action over Falklands oil project"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/763a063190d54ac2b7c5ced54c738ca0",
+          "source": "Associated Press",
+          "title": "Argentina's President Milei threatens international legal action over Falklands oilfield",
+          "publishedAt": "2026-09-28T22:21:09Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.bbc.co.uk/news/articles/cq5yj1835y1wo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Argentina threatens legal action against UK over Falkland Islands oil exploration",
+          "publishedAt": "2026-09-29T03:50:40.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.aljazeera.com/news/2026/9/29/argentinas-milei-threatens-legal-action-over-falklands-oil-project?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Argentina’s Milei threatens legal action over Falklands oil project",
+          "publishedAt": "2026-09-29T09:17:22.000Z"
+        }
+      ],
+      "tags": [
+        "Argentina",
+        "energy",
+        "sovereignty"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "malaysia-myanmar-asylum-seekers-ko",
+      "headline": "Malaysia, Myanmar행 망명 신청자 논란 속 송환 개시",
+      "dek": "Malaysia는 직면할 위험에 대한 경고에도 Myanmar 국적자들의 송환을 시작했다.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "BBC와 Al Jazeera는 Malaysia가 Rohingya 난민을 포함한 Myanmar 국적자들의 송환을 시작했다고 보도한다.",
+        "보도는 해당 송환이 논란적이며 송환 대상자의 안전에 대한 경고가 제기됐다고 전한다.",
+        "보고들은 송환 절차의 개시를 기록할 뿐, 최종 규모나 결과를 확정하지 않는다."
+      ],
+      "body": [
+        {
+          "text": "BBC는 Malaysia가 Myanmar행 망명 신청자 송환 절차를 시작했다고 보도하며, Al Jazeera 보도는 안전 경고에도 Rohingya 난민 송환이 이뤄지고 있다고 구체적으로 기술한다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "두 보도는 송환이 시작됐고 보호 우려가 제기됐음을 확인한다. 영향을 받은 인원의 검증된 총계는 제시하지 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이 정책은 진행 중인 분쟁 국가로 돌아가는 사람들에 대한 보호 우려와 이주 단속을 긴장 관계에 둔다.",
+      "editorNote": "영향 인원 규모와 송환 후 결과는 수집된 보도에서 확인되지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/9/29/malaysia-begins-returning-myanmar-nationals-despite-safety-warnings?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Malaysia begins sending back Rohingya refugees despite safety warnings"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/ckj06542e5neo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Malaysia begins controversial repatriation of asylum seekers to Myanmar",
+          "publishedAt": "2026-09-29T06:06:20.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/news/2026/9/29/malaysia-begins-returning-myanmar-nationals-despite-safety-warnings?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Malaysia begins sending back Rohingya refugees despite safety warnings",
+          "publishedAt": "2026-09-29T09:27:06.000Z"
+        }
+      ],
+      "tags": [
+        "Malaysia",
+        "Myanmar",
+        "migration"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "hurricane-polo-mexico-ko",
+      "headline": "Hurricane Polo, Baja California에 상륙하며 생명 위협 강풍 예보",
+      "dek": "Polo는 피해성 강풍과 홍수 경고 속에 Baja California에 상륙했다.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "Associated Press는 Hurricane Polo가 화요일에 Baja California에 상륙했다고 보도한다.",
+        "AP에 따르면 해당 폭풍은 생명을 위협하는 강풍과 돌발 홍수를 동반할 것으로 예보됐다.",
+        "BBC도 상륙을 보도했으며, 이전 Guardian 보도는 Polo의 Mexico 접근을 추적했다."
+      ],
+      "body": [
+        {
+          "text": "AP는 미국 National Hurricane Center를 인용해 Polo가 Category 2 허리케인으로 Baja California Sur에 상륙했다고 보도한다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "AP가 인용한 예보는 돌발 홍수와 생명을 위협하는 강풍을 경고했다. BBC도 상륙을 보도했으며, 이전 Guardian 보도는 폭풍 접근을 다뤘다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "이번 상륙은 Baja California 반도와 인근 해안 지역사회에 대한 지역 비상 신호이다.",
+      "editorNote": "폭풍 등급과 예보 세부사항은 시간 민감성이 있으며, 이 보고는 인용된 상륙 보도를 반영한다.",
+      "cluster": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cw8d3z5y7958o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Hurricane Polo makes landfall on Mexico's Pacific coast"
+        },
+        {
+          "url": "https://www.theguardian.com/us-news/2026/sep/27/hurricane-nolo-hawaii-hurricane-polo-mexico",
+          "source": "The Guardian",
+          "title": "Hurricane Nolo still threatens Hawaii as Mexico’s Baja braces for Hurricane Polo"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/db57554d97c70cd44b99df9ff0a41668",
+          "source": "Associated Press",
+          "title": "Hurricane Polo makes landfall in Baja California with forecast of 'life-threatening' winds",
+          "publishedAt": "2026-09-29T08:52:59Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.bbc.co.uk/news/articles/cw8d3z5y7958o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Hurricane Polo makes landfall on Mexico's Pacific coast",
+          "publishedAt": "2026-09-29T08:05:09.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.theguardian.com/us-news/2026/sep/27/hurricane-nolo-hawaii-hurricane-polo-mexico",
+          "source": "The Guardian",
+          "title": "Hurricane Nolo still threatens Hawaii as Mexico’s Baja braces for Hurricane Polo",
+          "publishedAt": "2026-09-27T22:59:25.000Z"
+        }
+      ],
+      "tags": [
+        "Mexico",
+        "weather",
+        "disaster"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "us-iran-talks-hormuz-ko",
+      "headline": "미국-이란 대화 지속되나 중간선거 전 합의는 어려울 전망",
+      "dek": "이란의 Hormuz 해협 구상을 둘러싼 분쟁 속에 외교 접촉이 이어진다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "Al Jazeera는 미국-이란 대화가 이어졌으며, 중간선거 전 합의는 어렵다고 평가됐다고 보도한다.",
+        "DW는 트럼프가 거부한 뒤에도 이란이 Hormuz 구상을 유지하고 있다고 별도로 보도했다.",
+        "CNBC는 중동 석유 수출이 전시 최고 수준에 달한 가운데 별도의 중재자 대화가 있었다고 보도했다."
+      ],
+      "body": [
+        {
+          "text": "Al Jazeera 보도는 진행 중인 미국-이란 대화를 기술하며, 중간선거 전 합의는 어렵다고 평가됐다고 전한다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "DW는 트럼프가 거부한 뒤에도 이란이 Hormuz 해협 구상을 고수하고 있다고 보도한다. CNBC는 중재자 접촉과 석유 수출 여건을 별도로 기술하며, 같은 지역 대치의 외교와 에너지 측면을 보여준다.",
+          "citations": [
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "대화와 Hormuz 분쟁은 지역 안보를 글로벌 에너지 흐름 및 시장 여건과 연결한다.",
+      "editorNote": "보고들은 초점이 다르며, 외교 합의나 수출 정책 변화가 발생했음을 확정하지 않는다.",
+      "cluster": [
+        {
+          "url": "https://www.dw.com/en/iran-sticks-to-hormuz-plan-after-trump-rejects-it/a-79447432?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Iran sticks to Hormuz plan after Trump rejects it"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/09/29/us-iran-war-trump-hormuz-.html",
+          "source": "CNBC",
+          "title": "U.S., Iran hold separate mediator talks as Mideast oil exports hit war-time high"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/29/us-iran-talks-continue-but-deal-unlikely-before-midterm-elections?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "US-Iran talks continue, but ‘deal unlikely’ before midterm elections",
+          "publishedAt": "2026-09-29T08:15:48.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.dw.com/en/iran-sticks-to-hormuz-plan-after-trump-rejects-it/a-79447432?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Iran sticks to Hormuz plan after Trump rejects it",
+          "publishedAt": "2026-09-27T08:07:00.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.cnbc.com/2026/09/29/us-iran-war-trump-hormuz-.html",
+          "source": "CNBC",
+          "title": "U.S., Iran hold separate mediator talks as Mideast oil exports hit war-time high",
+          "publishedAt": "2026-09-29T04:02:47.000Z"
+        }
+      ],
+      "tags": [
+        "Iran",
+        "diplomacy",
+        "energy"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ethiopia-fighting-tigray-ko",
+      "headline": "반군 공세로 에티오피아 내전 회귀 공포 고조",
+      "dek": "에티오피아에서 재개된 반군 공세가 더 넓은 분쟁으로의 회귀 우려를 키운다.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "The Guardian은 에티오피아군에 대한 반군 공세가 내전 회귀 공포를 높였다고 보도했다.",
+        "Al Jazeera의 최신 보도는 에티오피아 내 전투가 격화하고 있다고 전한다.",
+        "확보된 보도들은 격화를 시사할 뿐, 전체 영토 범위나 지속 기간을 확정하지 않는다."
+      ],
+      "body": [
+        {
+          "text": "The Guardian 보도는 에티오피아군에 대한 반군 공세와 재개된 내전에 대한 우려를 기술한다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Al Jazeera도 격화하는 전투를 보도했다. 두 보고는 수일 간격이 있어, 최신 보도는 이전 보고서의 모든 세부사항 확인이 아니라 지속적 격화의 근거로 사용한다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 격화는 지역 안정과 에티오피아 내 대규모 분쟁 재발 위험에 중요하다.",
+      "editorNote": "보도 범위가 제한적이며 두 보고는 같은 날 기록이 아니어서, 범위와 지속 기간은 불확실하다.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/9/29/fighting-in-ethiopia-intensifies-whats-the-latest?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Fighting in Ethiopia intensifies: What’s the latest?"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.theguardian.com/world/2026/sep/24/fears-return-to-war-tigray-rebels-launch-offensive-against-ethiopian-army",
+          "source": "The Guardian",
+          "title": "Rebel offensive against Ethiopian army stokes fears of return to civil war",
+          "publishedAt": "2026-09-24T15:29:42.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/news/2026/9/29/fighting-in-ethiopia-intensifies-whats-the-latest?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Fighting in Ethiopia intensifies: What’s the latest?",
+          "publishedAt": "2026-09-29T08:19:23.000Z"
+        }
+      ],
+      "tags": [
+        "Ethiopia",
+        "conflict",
+        "security"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "spain-eviction-protests-madrid-ko",
+      "headline": "스페인, 87세 여성 퇴거 항의 후 퇴거 금지 발표",
+      "dek": "스페인은 마드리드 주거지에서 87세 여성이 퇴거당한 사건에 대한 항의 후 퇴거 금지를 발표했다.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "BBC는 87세 여성의 주거지 퇴거를 둘러싼 항의 후 스페인이 퇴거 금지를 발표했다고 보도했다.",
+        "Al Jazeera는 퇴거당한 여성이 마드리드 자택으로 복귀할 것이라고 별도로 보도했다.",
+        "수집된 헤드라인들은 발표와 복귀를 확인하지만, 금지 조치의 범위나 시행 세부사항은 특정하지 않는다."
+      ],
+      "body": [
+        {
+          "text": "BBC는 87세 여성의 주거지 퇴거를 둘러싼 항의에 이은 스페인의 퇴거 금지를 보도했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Al Jazeera의 별도 보도는 해당 여성이 마드리드 자택으로 복귀할 예정이라고 전한다. 확보된 보도는 금지 조치의 법적 범위나 시행 방식을 확정하지 않는다.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이 결정은 공개 항의에 뒤이은 것으로, 스페인의 주거 보호와 퇴거 정책 문제를 제기한다.",
+      "editorNote": "이 브리프는 헤드라인과 수집된 보도 링크에 근거하며, 발표된 금지 조치의 세부사항은 수집 범위에서 미검증 상태이다.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/9/29/spain-protests-evicted-87-year-old-woman-to-return-to-madrid-home?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Spain protests: Evicted 87-year-old woman to return to Madrid home"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cwm2qmjgy93do?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Spain announces ban on evictions after protests over 87-year-old woman's removal from flat",
+          "publishedAt": "2026-09-29T16:23:58.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/news/2026/9/29/spain-protests-evicted-87-year-old-woman-to-return-to-madrid-home?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Spain protests: Evicted 87-year-old woman to return to Madrid home",
+          "publishedAt": "2026-09-29T21:02:02.000Z"
+        }
+      ],
+      "tags": [
+        "Spain",
+        "housing",
+        "protests"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "date": "2026-09-27",
+  "generatedAt": "2026-09-27T22:07:20Z",
+  "vertical": "bio",
+  "lang": "ko",
+  "title": "Bio: 마우스에서만 확인된 Tirzepatide 작용 기전을 제시한 연구",
+  "summary": "Bio: 마우스 연구 1건과 게놈 모델 프리프린트 1건을 다룬다(보도량이 적은 날로, 독립 출처 검증을 통과한 2건을 수록).",
+  "stories": [
+    {
+      "slug": "tirzepatide-brown-fat-mouse-study-ko",
+      "headline": "항비만제 tirzepatide가 지방 조직에 미치는 차별적 효과: 갈색지방이 핵심 표적",
+      "dek": "마우스 연구에서 tirzepatide가 음식 섭취 감소만으로는 설명되지 않는 효과를 통해 갈색지방을 활성화한 것으로 나타났다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "연구진은 약물 효과를 음식 섭취 감소에 따른 변화와 분리하기 위해 tirzepatide 투여 비만 마우스와 쌍별 급여 마우스를 비교했다고 밝혔다.",
+        "논문은 투여 마우스에서 갈색지방 열생산 활성 증가와 내당능 개선을 보고했으며, 음식 섭취 감소와 무관한 효과도 포함된다고 밝혔다.",
+        "이번 결과는 마우스에서 나온 것으로, 저자들은 해당 기전이 사람에게도 적용되는지 확인하려면 추가적인 인체 근거가 필요하다고 밝혔다."
+      ],
+      "body": [
+        {
+          "text": "연구진은 고지방식이 비만 마우스에 tirzepatide를 투여하고 쌍별 급여 동물과 비교했으며, 이는 약물 효과를 음식 섭취 감소에 따른 효과와 분리하기 위한 설계였다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "저자들은 tirzepatide가 갈색지방 열생산 활성을 높이고 열생산 및 기질 산화와 연관된 유전자에 변화를 일으켰다고 보고했다. 또한 음식 섭취 감소와 무관한 내당능 개선을 보고했으며, 항염증 효과는 음식 섭취 감소에 기인한다고 밝혔다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "바르셀로나대학교 보도자료는 이번 결과를 요약하면서 마우스 실험이므로 사람에게서 동일한 효과가 나타난다고 볼 수 없다고 주의를 당부했다고 밝혔다.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 연구는 인크레틴 계열 약물 연구에 조직 수준의 가능한 기전을 하나 추가한다. 다만 동물 모델 결과이므로 인체에서의 관련성은 여전히 미해결로 남아 있다. 이러한 구분은 해당 약물에 대한 연구 관심이 확대되는 국면에서 중요하다.",
+      "editorNote": "헤드라인은 학술지 논문의 제목이다. 9월 보도자료는 2026년 초에 출판된 논문을 설명하며, 생물학적 결과는 모두 마우스에 한정된다. 치료 권유를 암시하지 않는다. TODO-review: pair-fed(쌍별 급여), brown fat(갈색지방), incretin(인크레틴) 표기가 잠정적이며 용어집에 없음.",
+      "cluster": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260925093210.htm",
+          "source": "ScienceDaily (University of Barcelona release)",
+          "title": "Zepbound and Mounjaro may turn on the body’s calorie-burning brown fat"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0753332226000892",
+          "source": "Biomedicine & Pharmacotherapy",
+          "title": "Differential effects of the anti-obesity drug tirzepatide on adipose tissues: Brown fat as a key target"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.sciencedirect.com/science/article/pii/S0753332226000892",
+          "source": "Biomedicine & Pharmacotherapy",
+          "title": "Differential effects of the anti-obesity drug tirzepatide on adipose tissues: Brown fat as a key target",
+          "publishedAt": "2026-02"
+        },
+        {
+          "id": 2,
+          "url": "https://www.sciencedaily.com/releases/2026/09/260925093210.htm",
+          "source": "ScienceDaily (University of Barcelona release)",
+          "title": "Zepbound and Mounjaro may turn on the body’s calorie-burning brown fat",
+          "publishedAt": "2026-09-26"
+        }
+      ],
+      "tags": [
+        "tirzepatide",
+        "obesity-research",
+        "brown-fat",
+        "preclinical"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "coevolutionary-mining-prokaryotic-non-coding-elements-ko",
+      "headline": "게놈 언어 모델을 이용한 원핵생물 비암호화 요소의 공진화적 탐색",
+      "dek": "프리프린트는 서열 상호작용을 분석하는 게놈 언어 모델 프레임워크인 Minerva를 설명한다. 보고된 바이러스 반복 패턴은 아직 확인된 기능이 없다.",
+      "type": "DEEP",
+      "readMinutes": 5,
+      "tldr": [
+        "미심사 bioRxiv 프리프린트는 150개 세균 게놈에 적용된 게놈 언어 모델 프레임워크인 Minerva를 소개한다.",
+        "저자들은 예측된 유전자간 염기쌍 형성의 84.3%가 기존 주석 밖에 있었으며 프로파지에서 반복 관련 RNA 패턴을 확인했다고 밝혔다.",
+        "Nature는 바이러스 반복 서열이 CRISPR 유사 기능을 수행한다고 입증되지 않았으므로 이번 결과는 계산적 단서에 머문다고 보도했다."
+      ],
+      "body": [
+        {
+          "text": "저자들은 국소 서열 상호작용을 예측하기 위해 게놈 언어 모델을 활용하는 Minerva를 소개하고 150개 세균 게놈에 적용했다고 밝혔다. 예측된 유전자간 염기쌍 형성 중 84.3%가 기존 주석 밖에 있었다고 설명했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "프로파지에서는 구조적으로 보존되었으나 서열 다양성이 큰 비암호화 RNA 배열이 보고되었다. Nature는 새로 보고된 바이러스 반복 서열이 CRISPR 시스템처럼 기능한다고 입증되지 않았으며 결합된 DNA 절단 효소도 알려지지 않았다고 전했다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 연구는 게놈 언어 모델이 대규모로 후보 생물학적 특징을 발굴할 수 있는지 시험한다. 결과는 아직 미심사 예측에 불과하며 새로운 게놈 편집 기전을 확립하지는 않는다.",
+      "editorNote": "bioRxiv는 해당 논문을 동료 심사를 거치지 않은 프리프린트로 표기한다. Nature는 바이러스 반복 서열의 기능이 아직 규명되지 않았다고 보도하며, 치료 또는 CRISPR 기능이 있는 것처럼 암시하지 않는다. TODO-review: genome language model(게놈 언어 모델), intergenic base-pairing(유전자간 염기쌍 형성), prophage(프로파지), non-coding RNA(비암호화 RNA) 표기가 잠정적이며 용어집에 없음.",
+      "cluster": [
+        {
+          "url": "https://www.nature.com/articles/d41586-026-03039-6",
+          "source": "Nature",
+          "title": "Anthropic’s AI biolab finds ‘CRISPR-like’ DNA in viruses. What’s next?"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://doi.org/10.64898/2026.09.22.753630",
+          "source": "bioRxiv",
+          "title": "Coevolutionary mining of prokaryotic non-coding elements with a genome language model",
+          "publishedAt": "2026-09-23"
+        },
+        {
+          "id": 2,
+          "url": "https://www.nature.com/articles/d41586-026-03039-6",
+          "source": "Nature",
+          "title": "Anthropic’s AI biolab finds ‘CRISPR-like’ DNA in viruses. What’s next?",
+          "publishedAt": "2026-09-25"
+        }
+      ],
+      "tags": [
+        "bioinformatics",
+        "genome models",
+        "preprint"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "date": "2026-09-27",
+  "generatedAt": "2026-09-27T22:07:20Z",
+  "vertical": "geo",
+  "lang": "ko",
+  "title": "지정학: 호르무즈 긴장 속 협상과 우회로에 쏠린 시선",
+  "summary": "지정학: 호르무즈, 세르비아, 남아프리카공화국을 다룬다(보도량이 적은 날로, 독립 출처 검증을 통과한 3건을 수록).",
+  "stories": [
+    {
+      "slug": "iran-hormuz-negotiation-trade-rerouting-ko",
+      "headline": "이란 장관, Trump의 호르무즈 제안 거부 이후 협상이 유일한 종전 해법이라고 밝혀",
+      "dek": "호르무즈 해협 기능이 저하된 가운데 이란의 협상 관련 공개 입장이 무역을 북쪽으로 이동시키려는 움직임에 관한 보도와 맞물린다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "BBC는 Trump가 호르무즈 제안을 거부한 뒤 이란 외무장관이 협상만이 분쟁을 끝낼 수 있다고 말했다고 보도했다.",
+        "DW는 거부 이후에도 이란이 해협 관련 입장을 유지했다고 별도로 보도했다.",
+        "Al Jazeera는 호르무즈 노선 차질 속에 이란이 일부 무역을 카스피해 방면 북쪽으로 옮기고 있다고 보도했다."
+      ],
+      "body": [
+        {
+          "text": "BBC는 Trump가 호르무즈 해협 관련 제안을 거부한 뒤 이란 외무장관이 협상만이 분쟁을 끝낼 수 있다고 말했다고 보도했다. DW의 별도 보도 역시 거부 이후 이란이 호르무즈 관련 입장을 고수하고 있다고 전했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Al Jazeera는 호르무즈 해협을 통한 교역 차질 속에 이란이 카스피해 방면 북쪽으로 무역을 옮기고 있다고 보도했다. 해당 보도는 잠재적 우회 대응을 시사할 뿐 이동 규모나 지속 가능성은 확립하지 않는다.",
+          "citations": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "해당 해협은 전략적 해운 통로이므로 이번 분쟁은 외교적 조건과 역내 무역로의 회복력을 연결한다. 북쪽 이동에 대한 근거는 아직 호르무즈 노선을 대체할 수 있다는 증명이 아니라 조정 움직임에 관한 보도 수준이다.",
+      "editorNote": "외교적 입장과 무역 우회 움직임은 명시된 매체의 보도에 귀속된다. 뒷받침되지 않는 물동량, 일정, 전망은 추가하지 않았다. TODO-review: Strait of Hormuz(호르무즈 해협), Caspian Sea(카스피해) 표기가 잠정적이며 용어집에 없음.",
+      "cluster": [
+        {
+          "url": "https://www.dw.com/en/iran-sticks-to-hormuz-plan-after-trump-rejects-it/a-79447432?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Iran sticks to Hormuz plan after Trump rejects it"
+        },
+        {
+          "url": "https://www.aljazeera.com/economy/2026/9/27/can-iran-shift-trade-north-to-caspian-sea-as-war-impairs-strait-of-hormuz?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Iran shifts trade north to Caspian Sea as war impairs Strait of Hormuz"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cmvgyyw2jeego?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Iranian minister says only negotiation can end conflict after Trump rejects Hormuz deal",
+          "publishedAt": "2026-09-27T07:44:11.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.dw.com/en/iran-sticks-to-hormuz-plan-after-trump-rejects-it/a-79447432?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Iran sticks to Hormuz plan after Trump rejects it",
+          "publishedAt": "2026-09-27T08:07:00.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.aljazeera.com/economy/2026/9/27/can-iran-shift-trade-north-to-caspian-sea-as-war-impairs-strait-of-hormuz?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Iran shifts trade north to Caspian Sea as war impairs Strait of Hormuz",
+          "publishedAt": "2026-09-27T08:49:32.000Z"
+        }
+      ],
+      "tags": [
+        "iran",
+        "strait-of-hormuz",
+        "shipping",
+        "diplomacy"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "south-africa-two-mass-shootings-27-dead-ko",
+      "headline": "남아프리카공화국에서 총기 난사 2건으로 최소 27명 사망, 경찰 발표",
+      "dek": "경찰은 Johannesburg와 Cape Town 인근에서 발생한 별개의 공격 2건을 발표했으며, 수사가 진행 중이고 체포 소식은 없었다.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "The Guardian과 BBC가 전한 경찰 발표에 따르면 Johannesburg와 Cape Town 인근 총격 2건으로 최소 27명이 사망했다고 밝혔다.",
+        "The Guardian은 Wedela에서 17명, Lwandle에서 10명이 사망했다고 보도했다.",
+        "경찰은 수사가 진행 중이며 보도 시점까지 체포된 인원은 없었다고 밝혔다."
+      ],
+      "body": [
+        {
+          "text": "남아프리카공화국 경찰은 별개의 총격 2건으로 최소 27명이 사망했다고 밝혔다. Johannesburg 인근 Wedela에서 17명, Cape Town 인근 Lwandle에서 10명이 사망했다고 전했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The Guardian은 Wedela에서 최소 15명이 다치고 Lwandle에서 11명이 다쳤다고 보도했다. 경찰은 용의자를 추적 중이며 보도 시점까지 체포된 인원은 없었다고 밝혔다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 공격은 두 개 주에 걸친 치명적 폭력에 대해 남아프리카공화국 당국의 설명 책임에 다시 압력을 가한다. 보도된 사상자 수치는 진행 중인 수사 국면에서 경찰 발표에 근거한 것이다.",
+      "editorNote": "사상자 수와 수사 상황은 The Guardian과 BBC가 전한 경찰 발표에 귀속된다. 범행 동기는 확인되지 않았으며 동기를 단정하지 않는다.",
+      "cluster": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/ck5ywnp075d1o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Two mass shootings in South Africa leave 27 dead"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.theguardian.com/world/2026/sep/27/mass-shootings-south-africa-johannesburg-cape-town",
+          "source": "The Guardian",
+          "title": "At least 27 dead after two mass shootings in South Africa, police say",
+          "publishedAt": "2026-09-27T13:46:49.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.bbc.co.uk/news/articles/ck5ywnp075d1o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Two mass shootings in South Africa leave 27 dead",
+          "publishedAt": "2026-09-27T14:09:22.000Z"
+        }
+      ],
+      "tags": [
+        "South Africa",
+        "public security"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "serbia-vucic-resigns-amid-protests-ko",
+      "headline": "사면초가의 세르비아 대통령 사임, 조기 총선 가능성 열려",
+      "dek": "BBC와 Al Jazeera는 장기 시위 속에 Aleksandar Vučić 대통령이 사임했으며 조기 총선이 전망된다고 보도했다.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "BBC와 Al Jazeera 보도에 따르면 세르비아 대통령 Aleksandar Vučić가 장기 시위 속에 사임했다고 밝혔다.",
+        "BBC는 이번 사임이 조기 총선으로 이어질 가능성을 열었다고 설명했다.",
+        "연결된 보도들은 선거 결과를 확정하지 않으며 결과에 대한 암시도 하지 않는다."
+      ],
+      "body": [
+        {
+          "text": "BBC는 Vučić의 사임이 조기 총선으로 이어질 가능성을 열었다고 보도했으며, Al Jazeera는 장기 시위 속 그의 퇴진을 별도로 보도했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "보도들은 이번 사임을 장기 시위 맥락에 놓고 있다. 여기서 연결된 보도들은 향후 선거 날짜나 결과를 확정하지 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "장기 시위 국면에서의 대통령 교체는 세르비아의 단기 선거 일정에 영향을 줄 수 있는 정치적 전환을 만든다. 출처들은 사임과 조기 총선 전망을 뒷받침할 뿐 최종 결과를 뒷받침하지는 않는다.",
+      "editorNote": "선거 관련 서술은 전망 수준으로 유지한다. 날짜, 시위 맥락을 넘어선 원인, 선거 결과는 단정하지 않는다.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/9/27/serbian-president-aleksandar-vucic-resigns-amid-prolonged-protests?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Serbian President Aleksandar Vucic resigns amid prolonged protests"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/ckpq0g7z5pjjo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Embattled Serbian president resigns, paving way for early elections",
+          "publishedAt": "2026-09-27T20:04:21.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/news/2026/9/27/serbian-president-aleksandar-vucic-resigns-amid-prolonged-protests?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Serbian President Aleksandar Vucic resigns amid prolonged protests",
+          "publishedAt": "2026-09-27T20:29:34.000Z"
+        }
+      ],
+      "tags": [
+        "Serbia",
+        "elections",
+        "protests"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

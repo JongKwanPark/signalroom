@@ -1,0 +1,189 @@
+{
+  "date": "2026-09-29",
+  "generatedAt": "2026-09-29T10:07:13Z",
+  "vertical": "ai",
+  "lang": "ko",
+  "title": "시그널 데일리 — AI",
+  "summary": "얇은 분량의 에디션이다. 교차 출처 증거 기준을 통과한 3건의 동향을 수록하며, 의사결정 모델과 AI 연구소 거버넌스, 안전성을 둘러싼 공개 논쟁을 다룬다.",
+  "stories": [
+    {
+      "slug": "contrastive-language-models-ko",
+      "headline": "빠르고 일반화 가능한 의사결정을 위한 System One 모델",
+      "dek": "Stanford와 Nvidia의 CLM-8B은 대조 상태-행동 매칭으로 제한된 의사결정을 수행한다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "CLM 저장소는 과제 상태와 후보 행동을 대조 학습으로 연결하는 의사결정 모델을 설명한다.",
+        "프로젝트는 선정된 테스트에서 Jev 대비 최대 9배 낮은 지연을 보고했으며, VentureBeat는 일부 과제에서 정확도 절충을 지적한다.",
+        "이 설계는 재사용 가능한 행동 표현을 캐시하지만, 보고된 벤치마크는 독립적으로 재현되지 않았다."
+      ],
+      "body": [
+        {
+          "text": "공식 저장소는 CLM을 System One 모델 계열로 제시하며, 텍스트 응답을 생성하는 대신 상태 인코더와 행동 인코더가 후보 선택을 점수화한다고 설명한다. Qwen3-8B 백본을 동결하고 학습 가능한 프로젝션 헤드를 사용한다고 기술한다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "VentureBeat는 CLM-8B이 연구진의 제로샷 테스트에서 Jev보다 최대 9배 빠르게 동작했다고 보도한다. 같은 보도는 도구 호출과 WikiRacing을 포함한 일부 과제에서 더 낮은 점수를 기록해, 표면적인 속도 향상이 일률적인 성능 우위를 의미하지는 않는다고 전한다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "저장소는 후보 집합이 고정된 경우 행동 임베딩을 여러 요청에 재사용할 수 있다고 설명한다. 벤치마크 수치와 실제 배포 환경에서의 적합성은 독립적인 검증이 남아 있다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "보고된 테스트 밖에서도 이 접근이 유효하다면, 에이전트 개발자에게 도구 선택과 순위 결정을 위한 별도의 저지연 의사결정 계층을 제공할 수 있다.",
+      "editorNote": "성능 수치는 연구진 평가에 귀속되며, 수집된 보도에서는 독립적인 재현을 확인하지 못했다.",
+      "cluster": [
+        {
+          "url": "https://venturebeat.com/technology/stanford-and-nvidias-open-clm-8b-caches-reusable-agent-actions-and-runs-up-to-9x-faster-than-jev-in-tests",
+          "source": "VentureBeat",
+          "title": "Stanford and Nvidia's open Jev-like model"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://github.com/Contrastive-LM/CLM",
+          "source": "Contrastive-LM / GitHub",
+          "title": "A System One Model for Fast and Generalizable Decision-Making"
+        },
+        {
+          "id": 2,
+          "url": "https://venturebeat.com/technology/stanford-and-nvidias-open-clm-8b-caches-reusable-agent-actions-and-runs-up-to-9x-faster-than-jev-in-tests",
+          "source": "VentureBeat",
+          "title": "Stanford and Nvidia's open Jev-like model",
+          "publishedAt": "2026-09-29T09:43:26Z"
+        }
+      ],
+      "tags": [
+        "AI",
+        "models",
+        "agents"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "anthropic-founder-llc-ko",
+      "headline": "단독: Anthropic 지도부, Founder LLC를 통해 시장 논리보다 공익 우선의 AI 연구소 지배 추진",
+      "dek": "IPO 신고서는 해당 AI 연구소의 창업자 의결권 지배력 구조를 기술한다.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "Reuters는 Anthropic의 IPO 신고서가 7인의 공동 창업자가 지배하는 새로운 Founder LLC를 기술한다고 보도한다.",
+        "TechCrunch는 앞서 창업자들이 특수 주식 구조를 통해 의결권 지배력을 유지하려는 계획을 보도한 바 있다.",
+        "신고서는 해당 구조를 회사의 공익 사명과 연결해 설명하면서도, 주주 이익과의 잠재적 긴장을 함께 공개한다."
+      ],
+      "body": [
+        {
+          "text": "Reuters는 해당 매체가 검토한 IPO 신고서를 근거로, 제안된 Founder LLC가 Anthropic의 7인 공동 창업자에게 주요 기업 의사결정 권한을 부여한다고 전한다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "TechCrunch의 이전 보도는 상장 가능성에 앞서 창업자들이 의결권 지배력을 유지하려는 계획을 기술했다. 두 보도는 진화 중인 제안을 다루며, 최종 구조는 회사의 신고서와 승인에 달려 있다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이 AI 거버넌스 설계는 AI 안전 약속을 기업 지배력과 공개시장에서의 책임과 연결한다.",
+      "editorNote": "Reuters와 TechCrunch는 동일한 진화 중인 제안을 보도하며, 최종 조건은 상장 전에 변경될 수 있다.",
+      "cluster": [
+        {
+          "url": "https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/",
+          "source": "TechCrunch",
+          "title": "Anthropic’s founders seek voting control ahead of IPO"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.reuters.com/legal/transactional/anthropic-leaders-control-ai-lab-via-founder-llc-promote-public-good-over-market-2026-09-29/",
+          "source": "Reuters",
+          "title": "Anthropic leaders to control company via 'Founder LLC'",
+          "publishedAt": "2026-09-29T07:47:10Z"
+        },
+        {
+          "id": 2,
+          "url": "https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/",
+          "source": "TechCrunch",
+          "title": "Anthropic’s founders seek voting control ahead of IPO",
+          "publishedAt": "2026-09-25"
+        }
+      ],
+      "tags": [
+        "AI",
+        "governance",
+        "IPO"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "pope-leo-ai-safety-ko",
+      "headline": "트럼프와 엇갈리며 레오 교황, AI 안전 우려는 가짜 뉴스가 아니라고 밝혀",
+      "dek": "레오 교황은 규제 논쟁 속에 AI 안전 우려를 진지하게 다뤄야 한다고 촉구했다.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "Associated Press는 레오 교황이 AI 시스템의 일탈 우려를 논의하고 대응해야 한다고 말했다고 보도한다.",
+        "AP에 따르면 그는 Nvidia의 가드레일 노력과 외부 규제에 대한 회사의 과거 반대를 언급했다.",
+        "Investing.com은 이 공방을 Nvidia의 AI 규제 공개 논쟁에 대한 반박으로 별도로 해석했다."
+      ],
+      "body": [
+        {
+          "text": "AP는 레오 교황이 월요일에 프랑스에서 돌아오는 길에 해당 발언을 했으며, AI 안전 우려는 가짜 뉴스가 아니라고 말했다고 보도한다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "AP는 그가 Nvidia의 가드레일 노력과 외부 규제에 대한 기존 입장을 함께 언급했다고 전한다. Investing.com 보도 역시 해당 발언을 Nvidia CEO Jensen Huang 및 규제 논쟁과 연결했다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이 논쟁은 AI 거버넌스 수사를 해당 분야를 떠받치는 주요 칩 공급업체의 입장과 연결한다.",
+      "editorNote": "이 기사는 공개 공방과 그 해석을 전하며, 정책 변화나 시장 효과를 확정하지 않는다.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/stock-market-news/nvidia-stock-faces-pope-leo-xiv-rebuke-over-ai-safety-stance-93CH-4921916",
+          "source": "Investing.com",
+          "title": "Nvidia stock faces Pope Leo XIV rebuke over AI safety stance"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/0790f258461d114c920ec6158c2a1921",
+          "source": "Associated Press",
+          "title": "Contradicting Trump, Pope Leo says artificial intelligence safety concerns are not “fake news”",
+          "publishedAt": "2026-09-28T20:02:41Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/stock-market-news/nvidia-stock-faces-pope-leo-xiv-rebuke-over-ai-safety-stance-93CH-4921916",
+          "source": "Investing.com",
+          "title": "Nvidia stock faces Pope Leo XIV rebuke over AI safety stance",
+          "publishedAt": "2026-09-29T00:53:33.000Z"
+        }
+      ],
+      "tags": [
+        "AI",
+        "policy",
+        "Nvidia"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

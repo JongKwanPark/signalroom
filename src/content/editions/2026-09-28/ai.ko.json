@@ -1,0 +1,128 @@
+{
+  "date": "2026-09-28",
+  "generatedAt": "2026-09-28T10:09:00.000Z",
+  "vertical": "ai",
+  "lang": "ko",
+  "title": "AI — 2026년 9월 28일",
+  "summary": "수집된 피드에서 상호 확인된 AI 인프라 스토리 1건과 과학 분야 AI 활용 동향 1건을 추렸다. 나머지 AI 피드 항목은 제품 시연, 소셜 게시물이거나 독립 보도가 부족해 제외했다.",
+  "stories": [
+    {
+      "slug": "nvidia-ai-agent-safety-platform-ko",
+      "headline": "Nvidia, AI 에이전트의 오작동을 막는 소프트웨어 플랫폼 출시",
+      "dek": "Nvidia의 새 소프트웨어 플랫폼은 에이전트 안전의 중심에 실행 과정 중 제어를 둔다.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "Nvidia는 AI 에이전트의 위험 행동을 제한하도록 설계된 소프트웨어 플랫폼을 발표했다.",
+        "이번 발표는 실행 과정 중 안전장치를 모델 동작과 함께 에이전트 운영의 구성 요소로 둔다.",
+        "수집된 보도만으로는 도입 규모, 효과, 독립 평가 결과는 확인되지 않는다."
+      ],
+      "body": [
+        {
+          "text": "CNBC는 Nvidia가 AI 에이전트의 오작동을 막기 위한 소프트웨어 플랫폼을 출시했다고 보도했다. Seeking Alpha는 별도 기사에서 Nvidia가 AI 보안용 오픈소스 도구를 공개했다고 전했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "두 보도는 출시 사실과 표방된 목적을 뒷받히지만, 해당 자료만으로는 도입 규모나 측정된 안전 성과에 대한 근거는 제시하지 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "기업들이 에이전트를 도구와 시스템에 연결하면서 실행 과정에서 작동하는 제어 장치가 AI 제품 주변 인프라 층의 일부가 되고 있다. 확보된 보도는 이 영역에 대한 Nvidia의 진출을 확인해주지만, 실제 현장에서의 효과는 여전히 검증되지 않았다.",
+      "editorNote": "헤드라인은 CNBC 보도의 원문 그대로다. 두 건의 수집 보도에 근거한 요약이며, 어느 보도도 독립적인 성능 결과를 담고 있지 않다. TODO-review: 'runtime safeguards'의 한국어 표기로 '실행 과정 중 안전장치'를 잠정 사용.",
+      "cluster": [
+        {
+          "url": "https://seekingalpha.com/news/4647445-nvidia-introduces-open-source-tool-to-boost-ai-security?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+          "source": "Seeking Alpha",
+          "title": "Nvidia introduces open-source tool to boost AI security"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+          "source": "CNBC",
+          "title": "Nvidia releases software platform to stop AI agents from misbehaving",
+          "publishedAt": "2026-09-28"
+        },
+        {
+          "id": 2,
+          "url": "https://seekingalpha.com/news/4647445-nvidia-introduces-open-source-tool-to-boost-ai-security?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+          "source": "Seeking Alpha",
+          "title": "Nvidia introduces open-source tool to boost AI security",
+          "publishedAt": "2026-09-28"
+        }
+      ],
+      "tags": [
+        "AI agents",
+        "AI security",
+        "infrastructure"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "anthropic-ai-biological-discovery-ko",
+      "headline": "Anthropic의 AI 바이오랩, 바이러스에서 'CRISPR-like' 유형의 DNA 발견. 다음 단계는?",
+      "dek": "보고된 바이러스 서열이 CRISPR-like 기능을 실제로 수행하는지는 아직 입증되지 않았다.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "Nature는 Anthropic 연구진이 AI 도구를 이용해 반복되는 바이러스 DNA 서열을 발견했다고 보도했다.",
+        "보도에 따르면 연구진은 해당 서열의 기능을 아직 규명하지 못했다.",
+        "이번 작업은 AI 보조 유전체 탐색의 초기 사례이며, 입증된 유전자 편집 기술이 아니다."
+      ],
+      "body": [
+        {
+          "text": "Nature 보도에 따르면 Anthropic 연구진은 AI 도구를 이용해 유전체 데이터를 탐색하다 거대 바이러스의 역전사효소 유전자 근처에서 반복 서열을 발견했다. 연구팀은 해당 서열의 기능을 규명하지 못했다고 해당 기사는 전한다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Anthropic의 발표 역시 이번 결과를 새로 확인된 효소 시스템으로 설명한다. 확보된 자료만으로는 동료 심사를 거쟔 임상 적용이나 유전자 편집 활용은 확인되지 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 결과는 AI 보조 데이터 탐색과 생물학적 발견을 연결하며, AI 산업과 바이오테크 산업이 겹치는 지점을 보여주다. 해당 시스템의 기능과 재현성이 확립되기까지 실질적 의의는 불확실하다.",
+      "editorNote": "헤드라인은 Nature 보도의 원문 그대로다. Anthropic은 원 발표 기관이며, Nature가 독립 보도를 제공한다. 기능 미규명 상태를 명시한다. TODO-review: 'reverse-transcriptase gene'의 한국어 표기로 '역전사효소 유전자'를 잠정 사용.",
+      "cluster": [
+        {
+          "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+          "source": "Anthropic",
+          "title": "Claude discovers a novel enzyme system"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.nature.com/articles/d41586-026-03039-6",
+          "source": "Nature",
+          "title": "Anthropic’s AI biolab finds ‘CRISPR-like’ DNA in viruses. What’s next?",
+          "publishedAt": "2026-09-25"
+        },
+        {
+          "id": 2,
+          "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+          "source": "Anthropic",
+          "title": "Claude discovers a novel enzyme system",
+          "publishedAt": "2026-09-23"
+        }
+      ],
+      "tags": [
+        "AI for science",
+        "biology",
+        "genomics"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

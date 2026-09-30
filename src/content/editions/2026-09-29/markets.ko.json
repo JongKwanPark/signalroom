@@ -1,0 +1,165 @@
+{
+  "date": "2026-09-29",
+  "generatedAt": "2026-09-29T10:07:13Z",
+  "vertical": "markets",
+  "lang": "ko",
+  "title": "시그널 데일리 — 마켓",
+  "summary": "얇은 분량의 에디션이다. 정책과 기업 관련 2건의 동향이 1차 및 독립 보도를 충분히 확보했으며, 시장 데이터 피드는 이용할 수 없었다.",
+  "stories": [
+    {
+      "slug": "rba-rate-hike-september-2026-ko",
+      "headline": "통화정책위원회 성명: 통화정책 결정",
+      "dek": "RBA는 현금금리를 25bp 인상해 4.60%로 올리고 추가 인상 가능성을 열어뒀다.",
+      "type": "DATA",
+      "readMinutes": 3,
+      "tldr": [
+        "Reserve Bank of Australia는 9월 29일에 현금금리 목표를 25bp 인상해 4.60%로 올렸다.",
+        "RBA는 인플레이션이 여전히 높으며, 글로벌 에너지 가격 상승과 AI 관련 기술재 수요를 지목했다.",
+        "CNBC와 Investing.com은 결정과 외환시장 맥락을 보도했으며, 어느 보도도 투자 지침을 제공하지 않는다."
+      ],
+      "body": [
+        {
+          "text": "RBA 성명은 통화정책위원회가 높은 인플레이션과 현실화하는 상방 위험을 근거로 현금금리 목표를 25bp 인상해 4.60%로 올렸다고 밝힌다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "중앙은행은 또한 글로벌 에너지 가격 상승과 AI 관련 수요가 기술재 가격을 밀어올리고 있다고 지목했다. CNBC는 해당 금리가 15년 만의 최고 수준이며 추가 인상이 여전히 가능하다고 보도한다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Investing.com은 결정 이후 호주 달러의 반응을 보도했다. 이는 보도 시점의 시장 반응이며 전망이 아니다.",
+          "citations": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "이번 금리 조정은 국내 인플레이션 압력을 글로벌 에너지와 기술 수요와 연결하며, 단기 통화 여건을 바꾼다.",
+      "editorNote": "이는 정책과 시장 보도이며 개인 금융 조언이 아니고, 환율 반응은 시간 민감성이 있다.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/09/29/australia-rates-inflation-monetary-policy.html",
+          "source": "CNBC",
+          "title": "Australia says more hikes not off the table after raising rates to 15-year high"
+        },
+        {
+          "url": "https://www.investing.com/news/forex-news/asian-currencies-mixed-as-dollar-holds-twomonth-high-rba-decision-looms-4921518",
+          "source": "Investing.com",
+          "title": "Dollar firm near two-month peaks as Aussie drops to August lows after RBA hike"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html",
+          "source": "Reserve Bank of Australia",
+          "title": "Statement by the Monetary Policy Board: Monetary Policy Decision",
+          "publishedAt": "2026-09-29"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/09/29/australia-rates-inflation-monetary-policy.html",
+          "source": "CNBC",
+          "title": "Australia says more hikes not off the table after raising rates to 15-year high",
+          "publishedAt": "2026-09-29T05:00:58.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.investing.com/news/forex-news/asian-currencies-mixed-as-dollar-holds-twomonth-high-rba-decision-looms-4921518",
+          "source": "Investing.com",
+          "title": "Dollar firm near two-month peaks as Aussie drops to August lows after RBA hike",
+          "publishedAt": "2026-09-29T00:40:45.000Z"
+        }
+      ],
+      "tags": [
+        "Australia",
+        "central-banks",
+        "rates",
+        "macro"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "amd-world-labs-acquisition-ko",
+      "headline": "AMD, AI 컴퓨팅의 미래를 위해 World Labs 인수 추진",
+      "dek": "AMD는 Fei-Fei Li의 AI 연구소에 대해 약 82억 달러 규모의 전액 주식 교환 계약을 발표했다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "AMD는 World Labs를 약 82억 달러 규모의 전액 주식 교환으로 인수하는 확정 계약을 발표했다.",
+        "회사는 해당 거래가 모델 연구 역량을 더하고 미래 AI 하드웨어와 시스템을 설계하는 데 기여할 목적이라고 설명한다.",
+        "CNBC와 MarketWatch도 인수를 보도했으며, 거래는 규제 승인과 통상적인 종결 조건을 남겨두고 있다."
+      ],
+      "body": [
+        {
+          "text": "AMD 발표는 World Labs가 Fei-Fei Li가 이끄는 AI 모델과 연구 조직이며, 전액 주식 교환 거래 가치가 약 82억 달러라고 밝힌다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "AMD는 이번 인수가 부상하는 AI 워크로드를 중심으로 하드웨어와 소프트웨어, 시스템을 개발하는 역량을 강화할 목적이라고 설명한다. CNBC와 MarketWatch는 해당 거래를 보도했으며, MarketWatch는 이를 다음 AI 시대에 대한 베팅으로 해석했다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "AMD에 따르면 해당 거래는 규제 승인과 기타 통상 조건을 전제로 2026년 말까지 종결될 예정이다.",
+          "citations": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "이는 AI와 마켓 버티컬을 연결한다. AI 워크로드가 피지컬 AI로 확장되는 가운데 칩 공급업체가 모델 연구로 이동하고 있다.",
+      "editorNote": "거래 가치와 근거는 AMD 발표에 귀속되며, 종결은 조건부로 남아 있다.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/09/28/amd-fei-fei-li-world-labs.html",
+          "source": "CNBC",
+          "title": "AMD acquiring Fei-Fei Li's World Labs AI firm in deal worth $8.2 billion"
+        },
+        {
+          "url": "https://www.marketwatch.com/story/amd-makes-a-big-bet-on-the-next-era-of-ai-7f8a3b3c?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "AMD makes a big bet on the next era of AI with World Labs acquisition"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.globenewswire.com/news-release/2026/09/28/3370256/0/en/amd-to-acquire-world-labs-to-advance-the-future-of-ai-compute.html",
+          "source": "AMD / GlobeNewswire",
+          "title": "AMD to Acquire World Labs to Advance the Future of AI Compute",
+          "publishedAt": "2026-09-28"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/09/28/amd-fei-fei-li-world-labs.html",
+          "source": "CNBC",
+          "title": "AMD acquiring Fei-Fei Li's World Labs AI firm in deal worth $8.2 billion",
+          "publishedAt": "2026-09-28T22:21:22.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.marketwatch.com/story/amd-makes-a-big-bet-on-the-next-era-of-ai-7f8a3b3c?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "AMD makes a big bet on the next era of AI with World Labs acquisition",
+          "publishedAt": "2026-09-29T00:03:00.000Z"
+        }
+      ],
+      "tags": [
+        "AMD",
+        "AI",
+        "acquisitions",
+        "semiconductors"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

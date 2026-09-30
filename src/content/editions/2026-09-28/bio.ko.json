@@ -1,0 +1,128 @@
+{
+  "date": "2026-09-28",
+  "generatedAt": "2026-09-28T10:09:00.000Z",
+  "vertical": "bio",
+  "lang": "ko",
+  "title": "바이오·건강 — 2026년 9월 28일",
+  "summary": "원천 연구 또는 기관 자료와 독립 보도로 뒷받힘된 동향 2건을 다룬다. 수집된 다른 기록은 무관한 메타데이터, 과거 항목이거나 두 번째 출처가 부족했다.",
+  "stories": [
+    {
+      "slug": "anthropic-novel-enzyme-system-ko",
+      "headline": "Anthropic의 AI 바이오랩, 바이러스에서 'CRISPR-like' 유형의 DNA 발견. 다음 단계는?",
+      "dek": "보고된 바이러스 서열이 CRISPR-like 기능을 실제로 수행하는지는 아직 입증되지 않았다.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "Nature는 Anthropic 연구진이 AI 도구를 이용해 반복되는 바이러스 DNA 서열을 발견했다고 보도했다.",
+        "보도에 따르면 연구진은 해당 서열이 어떤 역할을 하는지 규명하지 못했다.",
+        "이번 발견은 초기 연구 결과이며, 입증된 치료 활용이나 유전자 편집 적용이 아니다."
+      ],
+      "body": [
+        {
+          "text": "Nature는 유전체 데이터를 탐색한 AI 에이전트가 거대 바이러스의 역전사효소 유전자 근처에서 반복 DNA 서열을 식별했다고 보도했다. Anthropic 자체 발표는 이번 발견을 새로운 효소 시스템으로 설명한다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Nature는 연구진이 해당 서열이 CRISPR 시스템처럼 기능하는지 규명하지 못했다고 전했다. 확보된 출처만으로는 임상적 활용이 확립되지 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 작업은 대규모 서열 데이터에서 생물학적 기전을 찾는 데 계산 도구가 기여할 수 있음을 보여주다. 생의학적 의의는 추가 기능 검증에 달려 있다.",
+      "editorNote": "헤드라인은 Nature 보도의 원문 그대로다. 기업 발표가 원천이며 Nature가 독립 보도를 제공한다. 기능 미규명을 명시한다. TODO-review: 'reverse-transcriptase gene' → '역전사효소 유전자' 잠정.",
+      "cluster": [
+        {
+          "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+          "source": "Anthropic",
+          "title": "Claude discovers a novel enzyme system"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.nature.com/articles/d41586-026-03039-6",
+          "source": "Nature",
+          "title": "Anthropic’s AI biolab finds ‘CRISPR-like’ DNA in viruses. What’s next?",
+          "publishedAt": "2026-09-25"
+        },
+        {
+          "id": 2,
+          "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+          "source": "Anthropic",
+          "title": "Claude discovers a novel enzyme system",
+          "publishedAt": "2026-09-23"
+        }
+      ],
+      "tags": [
+        "genomics",
+        "research tools",
+        "AI"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "crispr-dyslipidemia-one-year-follow-up-ko",
+      "headline": "이상지질혈증 대상 CRISPR-Cas9 유전자 편집의 긍정적 효과, 1년 시점까지 지속",
+      "dek": "소규모 최초 인체 적용 연구에서 1년 추적 관찰 시점에 지속적인 지질 감소가 보고됐다.",
+      "type": "DATA",
+      "readMinutes": 3,
+      "tldr": [
+        "Cleveland Clinic은 이상지질혈증 대상 CTX310 유전자 편집 연구의 1년 추적 결과를 보고했다.",
+        "이번 연구는 초기 단계 시험이며, 수집된 보도는 소규모 참여자 집단을 설명한다.",
+        "이번 결과는 예비적이며, 장기 안전성이나 임상적 유익을 입증하지 않는다."
+      ],
+      "body": [
+        {
+          "text": "Cleveland Clinic은 ANGPTL3를 표적으로 하는 CRISPR-Cas9 기반 접근법인 CTX310이 최초 인체 적용 Phase 1a 시험에서 1년 시점까지 효과를 보였다고 보고했다. ScienceDaily는 별도 기사에서 1년 추적 관찰 결과를 전하며 이번 연구를 단회 투여 시험으로 설명했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이는 소규모 연구에서 나온 초기 임상 결과다. 해당 출처들은 보고된 추적 기간을 넘는 지속적인 효과나 치료 권고를 뒷받히지 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "1회성 유전자 편집 접근법은 반복 투여하는 지질 저하제와는 다른 개발 모델이 되겠지만, 현재 근거는 초기 임상 단계에 머문다. 다음 신호는 후속 시험에서 안전성과 지속성이 확인되는지 여부다.",
+      "editorNote": "헤드라인은 Cleveland Clinic 연구 보고의 원문 그대로다. 보고된 시험 단계의 결과에 한정하며, 의학적 조언이나 효능 외삽을 하지 않는다. TODO-review: 'dyslipidemia' → '이상지질혈증', 'lipid reductions' → '지질 감소' 잠정.",
+      "cluster": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260925005434.htm",
+          "source": "ScienceDaily",
+          "title": "One CRISPR treatment cut “bad” cholesterol in half for a full year"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://consultqd.clevelandclinic.org/effects-of-crispr-cas9-gene-editing-for-dyslipidemia-endure-1-year",
+          "source": "Cleveland Clinic",
+          "title": "Positive Effects of CRISPR-Cas9 Gene Editing for Dyslipidemia Endure Through 1 Year",
+          "publishedAt": "2026-08-31"
+        },
+        {
+          "id": 2,
+          "url": "https://www.sciencedaily.com/releases/2026/09/260925005434.htm",
+          "source": "ScienceDaily",
+          "title": "One CRISPR treatment cut “bad” cholesterol in half for a full year",
+          "publishedAt": "2026-09-25"
+        }
+      ],
+      "tags": [
+        "gene editing",
+        "clinical research",
+        "lipids"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

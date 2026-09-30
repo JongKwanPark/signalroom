@@ -1,0 +1,332 @@
+{
+  "date": "2026-09-28",
+  "generatedAt": "2026-09-28T10:09:00.000Z",
+  "vertical": "geo",
+  "lang": "ko",
+  "title": "지정학·안보 — 2026년 9월 28일",
+  "summary": "정상외교, 무역, 이란, 세르비아, 네팔에 걸친 5건의 동향이 부각됐다. GDELT와 ISW 요청 실패, ReliefWeb 미설정으로 분쟁·안보 피드의 출처 커버리지는 얇다.",
+  "stories": [
+    {
+      "slug": "trump-xi-summit-taiwan-public-record-ko",
+      "headline": "Trump-Xi 정상회담: 언급되지 않은 내용이 가장 중요할 수 있다",
+      "dek": "공개 발언은 정상회담이 무역과 기술에 초점을 맞춘 가운데 Taiwan 문제를 둘러싸 불확실성을 남깨다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "BBC와 DW는 Trump-Xi 회담 중 Taiwan이 공개적으로 언급되지 않았다고 보도했다.",
+        "Guardian의 정상회담 보도는 공개 외교에도 불구하고 해소되지 않은 이견을 전했다.",
+        "공개 기록만으로는 양 정상이 비공개로 무엇을 논의했는지 확인할 수 없다."
+      ],
+      "body": [
+        {
+          "text": "BBC는 이번 정상회담을 언급되지 않은 썹점 중심으로 조명했다. DW는 공식 회담에서 Taiwan에 대한 공개 언급이 없었다고 보도했고, Guardian은 분열 썹점에서 가시적 돌파구 없이 끝났다고 전했다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "이들 보도는 공개 발언과 드러난 결과에 관한 것이며, Taiwan이 비공개 논의에서 빠졌음을 입증하지는 않는다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "공개 메시지와 비공개 협상을 구분하는 것은 이번 정상회담이 미국-중국 관계를 얼마나 변화시켰는지 평가하는 데 중요하다. 수집된 보도는 Taiwan을 비롯한 전략 현안의 불확실성이 지속됨을 가리킨다.",
+      "editorNote": "헤드라인은 BBC 보도의 원문 그대로다. 각 매체가 공개 발언으로 보도한 내용 중심이며, 비공개 논의는 검증되지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.dw.com/en/no-public-mentions-of-taiwan-at-official-xi-and-trump-meeting/a-79445378",
+          "source": "DW",
+          "title": "No public mentions of Taiwan at official Xi and Trump meeting"
+        },
+        {
+          "url": "https://www.theguardian.com/us-news/2026/sep/25/key-takeaways-trump-xi-summit-whitehouse-china-ai-trade",
+          "source": "The Guardian",
+          "title": "Diplomacy or ‘diplotainment’? Key takeaways from the Trump-Xi summit in Washington"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cxp84g2ly1mjo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Trump-Xi summit: What wasn't said might matter the most",
+          "publishedAt": "2026-09-28"
+        },
+        {
+          "id": 2,
+          "url": "https://www.dw.com/en/no-public-mentions-of-taiwan-at-official-xi-and-trump-meeting/a-79445378",
+          "source": "DW",
+          "title": "No public mentions of Taiwan at official Xi and Trump meeting",
+          "publishedAt": "2026-09-27"
+        },
+        {
+          "id": 3,
+          "url": "https://www.theguardian.com/us-news/2026/sep/25/key-takeaways-trump-xi-summit-whitehouse-china-ai-trade",
+          "source": "The Guardian",
+          "title": "Diplomacy or ‘diplotainment’? Key takeaways from the Trump-Xi summit in Washington",
+          "publishedAt": "2026-09-25"
+        }
+      ],
+      "tags": [
+        "United States",
+        "China",
+        "Taiwan",
+        "diplomacy"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "us-china-tariff-product-lists-ko",
+      "headline": "미국·중국, $60 billion 규모 상품 관세 인하. 해당 품목은 다음과 같다",
+      "dek": "양국 정부는 정상회담 이후 관세 완화에 연계된 품목 목록을 발표했다.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "CNBC는 미국과 중국이 $60 billion 규모의 상품에 대한 관세를 인하할 것이라고 보도했다.",
+        "Al Jazeera는 양국이 관세 인하 권고 상품 목록을 공개했다고 보도했다.",
+        "수집된 보도는 포괄적 무역 합의가 아닌 제한적 상품 패키지를 설명한다."
+      ],
+      "body": [
+        {
+          "text": "CNBC는 $60 billion 규모 상품에 대한 관세 인하를 보도하며 해당 기사에서 적용 대상을 상술한다고 전했다. Al Jazeera는 별도 기사에서 미국과 중국의 관세 인하 권고 상품 목록 공개를 보도했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이들 보도는 정상회담 이후의 품목별 조치를 설명한다. 무역 분쟁 전반의 해소까지 입증하지는 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "품목 목록 공개는 양국 관세에 노출된 기업 입장에서 무역 휴전을 더 구체화한다. 다만 제한적 범위 탓에 광범위한 무역·기술 긴장은 해소되지 않았다.",
+      "editorNote": "헤드라인은 CNBC 보도의 원문 그대로다. 금액과 범위는 헤드라인과 이를 뒷받하는 수집 보도에서 가져왔으며, 더 넓은 합의는 추론하지 않는다.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/economy/2026/9/28/us-china-list-goods-recommended-for-tariff-cuts-following-trump-xi-summit?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "US, China list goods recommended for tariff cuts following Trump-Xi summit"
+        },
+        {
+          "url": "https://seekingalpha.com/news/4647443-china-eases-tariffs-on-us-farm-goods-keeps-soybeans-out?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+          "source": "Seeking Alpha",
+          "title": "China eases tariffs on U.S. farm goods, keeps soybeans out"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/09/28/us-china-lower-tariffs-trump-xi-meeting.html",
+          "source": "CNBC",
+          "title": "U.S., China to lower tariffs on $60 billion of goods. Here's what qualifies",
+          "publishedAt": "2026-09-28"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/economy/2026/9/28/us-china-list-goods-recommended-for-tariff-cuts-following-trump-xi-summit?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "US, China list goods recommended for tariff cuts following Trump-Xi summit",
+          "publishedAt": "2026-09-28"
+        }
+      ],
+      "tags": [
+        "United States",
+        "China",
+        "trade",
+        "tariffs"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "iran-hormuz-negotiation-position-ko",
+      "headline": "이란 장관, Trump의 Hormuz 합의 거부 이후 협상이 분쟁 종식의 유일한 길이라 밝혀",
+      "dek": "이란의 공개 입장은 Hormuz 해협 관련 제안에 대한 미국의 거부 이후에 나왔다.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "BBC는 이란 외무장관이 분쟁 종식의 길은 협상이라고 밝혔다고 보도했다.",
+        "보도에 따르면 Trump는 Hormuz 해협 관련 이란 제안을 거부했다.",
+        "Al Jazeera는 별도 기사에서 이번 거부에 대한 석유 시장 반응을 보도했다."
+      ],
+      "body": [
+        {
+          "text": "BBC는 이란 장관의 발언을 보도하며 Trump가 Hormuz 합의 제안을 거부했다고 전했다. Al Jazeera의 당일 보도는 이번 거부를 유가 상승과 연결했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "확보된 보도는 공개 입장과 보고된 시장 반응을 확인해주지만, 협상이 진행 중인지나 양측이 수용할 조건이 무엇인지는 보여주지 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Hormuz 해협은 전략적 해상 수송로이므로 접근을 둘러싸 외교 입장은 역내 안보와 에너지 전망에 영향을 줄 수 있다. 협상 타결 전망은 여전히 미해결로 남는다.",
+      "editorNote": "헤드라인은 BBC 보도의 원문 그대로다. 두 번째 인용은 같은 거부 사안과 보고된 석유 시장 반응을 다룬 관련 보도다.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/economy/2026/9/28/oil-prices-surge-after-trump-rejects-irans-plan-to-reopen-strait-of-hormuz?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Oil prices surge after Trump rejects Iran’s plan to reopen Strait of Hormuz"
+        },
+        {
+          "url": "https://www.dw.com/en/iran-sticks-to-hormuz-plan-after-trump-rejects-it/a-79447432",
+          "source": "DW",
+          "title": "Iran sticks to Hormuz plan after Trump rejects it"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cmvgyyw2jeego?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Iranian minister says only negotiation can end conflict after Trump rejects Hormuz deal",
+          "publishedAt": "2026-09-28"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/economy/2026/9/28/oil-prices-surge-after-trump-rejects-irans-plan-to-reopen-strait-of-hormuz?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Oil prices surge after Trump rejects Iran’s plan to reopen Strait of Hormuz",
+          "publishedAt": "2026-09-28"
+        }
+      ],
+      "tags": [
+        "Iran",
+        "Strait of Hormuz",
+        "diplomacy",
+        "energy security"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "serbia-election-path-after-resignation-ko",
+      "headline": "정치적 압박 속 세르비아 대통령 사임, 조기 총선 길 열려",
+      "dek": "이번 사임으로 정치적 압박 속에 조기 총선으로 가는 길이 열렸다.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "BBC는 세르비아 대통령이 사임했으며 조기 총선이 뒤따를 수 있다고 보도했다.",
+        "Al Jazeera 보도는 학생 시위를 배경으로 한 전격 총선 구도를 조명했다.",
+        "수집된 헤드라인만으로는 선거 날짜나 예상 결과를 확인할 수 없다."
+      ],
+      "body": [
+        {
+          "text": "BBC는 대통령의 사임과 조기 총선으로 이어질 가능성을 보도했다. Al Jazeera는 별도 기사에서 현직이 전격 총선에서 학생 반란을 앞질로 수 있을지를 검토했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "두 출처는 선거 국면의 개방을 가리키지만, 확정된 일정이나 결과는 제시하지 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "세르비아의 선거 일정 변경은 국내 정치 경쟁과 정부의 운신 폭을 바꿀 수 있다. 당장의 의의는 정식 선거 절차와 이후 선거 운동 전개에 달려 있다.",
+      "editorNote": "헤드라인은 BBC 보도의 원문 그대로다. 수집 보도에서 선거 시기와 결과를 확인할 수 없어 단정하지 않는다. TODO-review: 'student revolt' → '학생 반란' 잠정.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/features/2026/9/28/serbias-snap-election-can-vucic-outmanoeuvre-the-student-revolt?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Serbia’s snap election: Can Vucic outmanoeuvre the student revolt?"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/ckpq0g7z5pjjo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Embattled Serbian president resigns, paving way for early elections",
+          "publishedAt": "2026-09-27"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/features/2026/9/28/serbias-snap-election-can-vucic-outmanoeuvre-the-student-revolt?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Serbia’s snap election: Can Vucic outmanoeuvre the student revolt?",
+          "publishedAt": "2026-09-28"
+        }
+      ],
+      "tags": [
+        "Serbia",
+        "elections",
+        "politics"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "nepal-avalanche-rescue-search-ko",
+      "headline": "네팔 눈사태로 2명 사망·12명 실종, 구조대 수색 계속",
+      "dek": "보도들은 네팔 눈사태 이후 수색 작업이 진행 중이라고 전한다.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "Al Jazeera는 네팔 눈사태 이후 구조대가 12명을 수색 중이라고 보도했다.",
+        "DW 역시 네팔 눈사태에 따른 사망자와 실종자를 보도했다.",
+        "수색 작업이 계속되는 동안 구조 수치는 변동될 수 있다."
+      ],
+      "body": [
+        {
+          "text": "Al Jazeera는 네팔 눈사태로 2명이 사망하고 12명이 실종됐다고 보도했다. DW는 별도 기사에서 2명 사망과 다수의 실종자를 낸 눈사태를 전했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "두 보도는 활발한 수색 중에 나온 것이므로 사상자와 실종자 수치는 잠정치로 봐야 한다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 사고는 네팔 트레킹 시즌에 산악 지역 주민과 여행객이 돌발 위험에 노출돼 있음을 보여주다. 현재 보도는 광범위한 정책·안보 파장보다 구조 작업에 초점을 맞추고 있다.",
+      "editorNote": "헤드라인은 Al Jazeera 보도의 원문 그대로다. 인원 수는 해당 보도에 근거하며, DW는 덜 구체적인 수치로 같은 사건을 다룬다.",
+      "cluster": [
+        {
+          "url": "https://www.dw.com/en/avalanche-in-nepal-leaves-2-dead-several-missing/a-79450101?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Avalanche in Nepal leaves 2 dead, several missing"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.aljazeera.com/news/2026/9/28/rescuers-search-for-12-missing-after-nepal-avalanche-kills-two?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Rescuers search for 12 missing after Nepal avalanche kills two",
+          "publishedAt": "2026-09-28"
+        },
+        {
+          "id": 2,
+          "url": "https://www.dw.com/en/avalanche-in-nepal-leaves-2-dead-several-missing/a-79450101?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Avalanche in Nepal leaves 2 dead, several missing",
+          "publishedAt": "2026-09-28"
+        }
+      ],
+      "tags": [
+        "Nepal",
+        "disaster response",
+        "rescue"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

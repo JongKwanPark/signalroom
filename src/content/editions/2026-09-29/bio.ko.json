@@ -1,0 +1,142 @@
+{
+  "date": "2026-09-29",
+  "generatedAt": "2026-09-29T10:07:13Z",
+  "vertical": "bio",
+  "lang": "ko",
+  "title": "시그널 데일리 — 바이오",
+  "summary": "얇은 분량의 에디션이다. 오늘은 2건의 연구 동향이 증거 기준을 통과했으며, 일상 건강과 생활습관 헤드라인은 제외했다.",
+  "stories": [
+    {
+      "slug": "new-tick-borne-virus-china-ko",
+      "headline": "중국 발열 환자에서 확인된 인수공통 Orthonairovirus",
+      "dek": "중국 발열 환자 연구에서 새로 기술된 진드기 매개 바이러스가 확인됐다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "뉴잉글랜드의학저널 논문은 중국 발열 환자에서 확인된 인수공통 orthonairovirus를 기술한다.",
+        "연구는 3,163명의 표본 환자 중 10.4%가 바이러스 RNA 또는 IgM 항체 기준으로 양성 판정을 받았다고 보고한다.",
+        "논문과 관련 보도는 Dabie bandavirus와의 동시 감염이 더 심각한 합병증과 연관된다고 기술한다."
+      ],
+      "body": [
+        {
+          "text": "연구는 염기서열 분석과 바이러스 분리를 이용해 발열 환자에게서 Asian longhorned tick nairovirus를 확인했다. 저자들은 이를 별개의 orthonairovirus로 기술한다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "보고된 연구의 3,163명 중 10.4%가 해당 바이러스 양성 판정을 받았으며, 논문은 중국 여러 성에서 채집된 진드기에서도 검출됐다고 보고한다. 이들 결과는 연구 표본집단의 특성을 보여줄 뿐, 그 밖의 유병률을 확정하지 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "보도는 동시 감염 환자가 Dabie bandavirus 단독 환자보다 합병증이 많았다고 전한다. 저자들은 두 바이러스가 지역과 진드기 매개체를 공유해 해당 지역의 감별 진단 문제를 제기한다고 설명한다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "또 다른 발열 질환이 순환하는 지역에서 두 번째 진드기 매개 바이러스를 확인한 것은 병원체 감시와 진단 문제를 더한다.",
+      "editorNote": "헤드라인은 동료심사 논문을 따르며, 역학 추정치는 표본 환자와 진드기에 한정된다. TODO-review: New England Journal of Medicine=뉴잉글랜드의학저널, Asian longhorned tick nairovirus·orthonairovirus 한국어 표준 미확정으로 원어 표기 유지.",
+      "cluster": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260927225027.htm",
+          "source": "ScienceDaily / CIDRAP",
+          "title": "Scientists find new virus behind mysterious tick illness"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.nejm.org/doi/10.1056/NEJMc2602496",
+          "source": "New England Journal of Medicine",
+          "title": "A Zoonotic Orthonairovirus from Febrile Patients in China",
+          "publishedAt": "2026"
+        },
+        {
+          "id": 2,
+          "url": "https://www.sciencedaily.com/releases/2026/09/260927225027.htm",
+          "source": "ScienceDaily / CIDRAP",
+          "title": "Scientists find new virus behind mysterious tick illness",
+          "publishedAt": "2026-09-29T01:45:25.000Z"
+        }
+      ],
+      "tags": [
+        "infectious-disease",
+        "research",
+        "surveillance"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ctx310-one-year-lipid-results-ko",
+      "headline": "CTX310을 이용한 ANGPTL3 표적 CRISPR-Cas9 유전자 편집의 지속성",
+      "dek": "15명 대상 phase 1a 연구에서 1회 투여 후 1년 시점까지 지속된 지질 감소가 보고됐다.",
+      "type": "DATA",
+      "readMinutes": 3,
+      "tldr": [
+        "phase 1a 연구는 지질 장애가 있는 사람을 대상으로 1회 CTX310 투여를 평가했다.",
+        "최고 용량에서 연구는 12개월 시점에 기준치 대비 LDL 콜레스테롤 52.5% 감소와 중성지방 47.8% 감소를 보고했다.",
+        "소규모 초기 단계 시험은 바이오마커 변화와 1년 추적을 보고할 뿐, 장기 임상 결과를 확정하지 않는다."
+      ],
+      "body": [
+        {
+          "text": "뉴잉글랜드의학저널 보고서는 ANGPTL3를 표적으로 하는 CRISPR-Cas9 편집의 phase 1a 시험을 기술한다. Cleveland Clinic은 해당 시험에 15명의 환자가 포함됐으며, 초기 지질 감소가 12개월까지 유지됐는지 평가했다고 전한다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "최고 용량에서 보고서는 1년 후 기준치 대비 LDL 콜레스테롤 52.5%, 중성지방 47.8% 감소를 제시한다. 해당 연구는 CRISPR Therapeutics의 지원을 받았다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이는 1년 추적의 소규모 연구에서 나온 초기 단계 근거이다. 출처들은 관찰된 지질 변화가 더 긴 기간에 심혈관 사건을 줄이는지는 보고하지 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이 결과는 지속형 생체 내 유전자 편집의 임상 단계 검증으로, 장기 결과는 미확인인 채 바이오텍 개발에 함의를 갖는다.",
+      "editorNote": "의학적 권고를 함의하지 않으며, 결과는 시험 결과로 기술하고 phase 1a 단계와 표본 규모 맥락을 유지한다. TODO-review: ANGPTL3·CTX310·LDL 한국어 표준 없이 원어 유지.",
+      "cluster": [
+        {
+          "url": "https://newsroom.clevelandclinic.org/2026/08/28/cleveland-clinic-first-in-human-trial-of-crispr-gene-editing-therapy-shown-to-safely-and-continuously-lower-cholesterol-and-triglycerides-after-one-year",
+          "source": "Cleveland Clinic",
+          "title": "Cleveland Clinic First-In-Human Trial of CRISPR Gene-Editing Therapy Shown to Safely and Continuously Lower Cholesterol and Triglycerides After One Year"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.nejm.org/doi/10.1056/NEJMc2609825",
+          "source": "New England Journal of Medicine",
+          "title": "Durability of CRISPR-Cas9 Gene Editing Targeting ANGPTL3 with CTX310",
+          "publishedAt": "2026-08-28"
+        },
+        {
+          "id": 2,
+          "url": "https://newsroom.clevelandclinic.org/2026/08/28/cleveland-clinic-first-in-human-trial-of-crispr-gene-editing-therapy-shown-to-safely-and-continuously-lower-cholesterol-and-triglycerides-after-one-year",
+          "source": "Cleveland Clinic",
+          "title": "Cleveland Clinic First-In-Human Trial of CRISPR Gene-Editing Therapy Shown to Safely and Continuously Lower Cholesterol and Triglycerides After One Year",
+          "publishedAt": "2026-08-28"
+        }
+      ],
+      "tags": [
+        "biotechnology",
+        "clinical-trial",
+        "gene-editing"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}
