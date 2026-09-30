@@ -1,11 +1,9 @@
 ---
-import { SITE, VERTICALS, VERTICAL_META } from '../lib/site';
+import { SITE } from '../lib/site';
 import { counterpartPath, getEditions, getStoryRef, langOfPath } from '../lib/editions';
 
 const rawPath = Astro.url.pathname;
 const path = rawPath.replace(/\/+$/, '') || '/';
-// 3-3: 언어 prefix를 제외한 경로로 현재 위치를 판정한다(`/en/ai` ≡ `/ai`).
-const barePath = path.replace(/^\/(ko|en)(?=\/|$)/, '') || '/';
 // 3-3: 크롬은 영어 유지, ko↔en 전환 링크만 추가한다. 스토리 경로는
 // slug 규칙(en `<base>` ↔ ko `<base>-ko`)으로 대응 경로를 치환한다.
 const currentLang = langOfPath(path);
@@ -26,47 +24,27 @@ async function languageHref(target: 'ko' | 'en'): Promise<string> {
 const koHref = await languageHref('ko');
 const enHref = await languageHref('en');
 
-function isCurrent(href: string): boolean {
-  if (href === '/') return barePath === '/';
-  return barePath === href || barePath.startsWith(`${href}/`);
-}
+// 단일 언어 토글: 현재 언어의 대응 언어 하나만 보여준다.
+const toggle = lang === 'ko'
+  ? { href: enHref, hreflang: 'en', label: 'EN', ariaLabel: 'Switch to the English edition' }
+  : { href: koHref, hreflang: 'ko', label: 'KO', ariaLabel: '한국어판으로 전환' };
 ---
 
 <header class="sr-header">
   <div class="sr-container sr-header__inner">
     <a class="sr-wordmark" href={`/${lang}`} aria-label={`${SITE.name} home`}>
-      <img class="sr-logo sr-logo--dark" src="/brand/logo-primary.svg" alt="" width="123" height="24" />
-      <img class="sr-logo sr-logo--light" src="/brand/logo-light.svg" alt="" width="123" height="24" />
+      <img class="sr-logo sr-logo--dark" src="/brand/logo-primary.svg" alt="" width="164" height="32" />
+      <img class="sr-logo sr-logo--light" src="/brand/logo-light.svg" alt="" width="164" height="32" />
     </a>
-
-    <nav class="sr-nav" aria-label="Vertical feeds">
-      {
-        VERTICALS.map((vertical) => (
-          <a href={`/${lang}/${vertical}`} aria-current={isCurrent(`/${vertical}`) ? 'page' : undefined}>
-            {VERTICAL_META[vertical].label}
-          </a>
-        ))
-      }
-      <a href={`/${lang}/archive`} aria-current={isCurrent('/archive') ? 'page' : undefined}>Archive</a>
-    </nav>
 
     <div class="sr-actions">
       <nav class="sr-lang" aria-label="Language">
         <a
-          href={koHref}
-          hreflang="ko"
+          href={toggle.href}
+          hreflang={toggle.hreflang}
           rel="alternate"
-          aria-current={currentLang === 'ko' ? 'page' : undefined}
-          aria-label="한국어판으로 전환"
-        >KO</a>
-        <span aria-hidden="true">·</span>
-        <a
-          href={enHref}
-          hreflang="en"
-          rel="alternate"
-          aria-current={currentLang === 'en' ? 'page' : undefined}
-          aria-label="Switch to the English edition"
-        >EN</a>
+          aria-label={toggle.ariaLabel}
+        >{toggle.label}</a>
       </nav>
       <button
         class="sr-btn"
@@ -96,20 +74,11 @@ function isCurrent(href: string): boolean {
     justify-content: center;
   }
 
-  .sr-lang {
-    display: flex;
-    align-items: center;
-    gap: var(--sp-1);
-  }
-
   .sr-lang a {
     display: inline-flex;
     align-items: center;
     min-height: 44px;
     padding-inline: var(--sp-2);
-  }
-
-  .sr-lang a[aria-current='page'] {
     color: var(--text);
     text-decoration: underline;
     text-underline-offset: 3px;

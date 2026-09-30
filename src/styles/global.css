@@ -215,7 +215,7 @@ hr {
    Files and rules: docs/design-system.md §9. */
 .sr-logo {
   display: block;
-  height: 24px;
+  height: 32px;
   width: auto;
 }
 
@@ -231,48 +231,11 @@ hr {
   display: block;
 }
 
-.sr-nav {
-  display: flex;
-  align-items: center;
-  gap: var(--sp-3);
-  margin-left: auto;
-  overflow-x: auto;
-  scrollbar-width: none;
-}
-
-.sr-nav::-webkit-scrollbar {
-  display: none;
-}
-
-.sr-nav a {
-  font-family: var(--font-mono);
-  font-size: var(--fs-xs);
-  text-transform: uppercase;
-  letter-spacing: var(--tracking-micro);
-  color: var(--muted);
-  padding: var(--sp-1) 0;
-  white-space: nowrap;
-  border-bottom: 2px solid transparent;
-}
-
-.sr-nav a:hover {
-  color: var(--text);
-  text-decoration: none;
-}
-
-.sr-nav a[aria-current="page"] {
-  color: var(--text);
-  border-bottom-color: var(--accent);
-}
-
-.sr-header .sr-nav a[aria-current="page"] {
-  border-bottom-color: var(--accent-ai);
-}
-
 .sr-actions {
   display: flex;
   align-items: center;
   gap: var(--sp-2);
+  margin-left: auto;
 }
 
 .sr-btn {

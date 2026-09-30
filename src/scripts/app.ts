@@ -172,7 +172,6 @@ if (palette) {
       renderResults(results, matches);
       status.hidden = matches.length > 0;
       status.textContent = matches.length === 0 ? 'No matches' : '';
-      if (matches.length > 0) results.querySelector('a')?.focus({ preventScroll: true });
     });
   };
 
