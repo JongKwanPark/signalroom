@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-01",
+  "generatedAt": "2026-10-01T10:05:33Z",
+  "vertical": "markets",
+  "lang": "en",
+  "title": "Signal Daily — Markets — 2026-10-01",
+  "summary": "A thin Markets edition: Micron's results and a move in long-dated Treasury yields had independent coverage. SEC EDGAR, market data and Polymarket collection failed; FRED was not configured.",
+  "stories": [
+    {
+      "slug": "micron-results-data-center-revenue",
+      "headline": "Micron beats on earnings and issues strong guidance as data center revenue jumps 11-fold",
+      "dek": "Micron's quarterly report drew attention to earnings, guidance and rapid data-center revenue growth.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "CNBC reported that Micron beat earnings expectations and issued strong guidance.",
+        "CNBC said data-center revenue increased 11-fold; Seeking Alpha's market briefing also listed Micron among companies beating estimates.",
+        "The reports describe company results and guidance, without implying a future share-price outcome."
+      ],
+      "body": [
+        {
+          "text": "CNBC reported that Micron beat earnings expectations and issued strong guidance, with data-center revenue up 11-fold. Seeking Alpha's morning market briefing separately included Micron among companies beating estimates.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "The reports place data-center demand among the context for Micron's results. They do not establish how durable that growth will be or how markets will price the outlook.",
+          "citations": [1, 2]
+        }
+      ],
+      "whyItMatters": "Micron's results connect semiconductor demand with data-center investment, a major source of current industry growth. The reported jump is backward-looking and does not by itself resolve whether demand or margins will persist.",
+      "editorNote": "Two independent outlets reported the earnings beat; the 11-fold figure is attributed specifically to CNBC. YMYL review: no investment advice or price signal.",
+      "cluster": [
+        {
+          "url": "https://seekingalpha.com/news/4648865-am-need-to-know-micron-beats-estimates-amazon-expands-nuclear-deal-more?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+          "source": "Seeking Alpha",
+          "title": "AM Need to Know: Micron beats estimates, Amazon expands nuclear deal & more"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/09/30/micron-mu-q4-earnings-report-2026.html",
+          "source": "CNBC",
+          "title": "Micron beats on earnings and issues strong guidance as data center revenue jumps 11-fold",
+          "publishedAt": "2026-09-30T20:59:05.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://seekingalpha.com/news/4648865-am-need-to-know-micron-beats-estimates-amazon-expands-nuclear-deal-more?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+          "source": "Seeking Alpha",
+          "title": "AM Need to Know: Micron beats estimates, Amazon expands nuclear deal & more",
+          "publishedAt": "2026-10-01T09:12:34.000Z"
+        }
+      ],
+      "tags": ["semiconductors", "earnings", "data centers"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "treasury-yields-highest-since-2002",
+      "headline": "10-year Treasury yield hits highest level since 2002 as global bond rout gathers pace",
+      "dek": "CNBC and Asia Business Daily report a long-dated U.S. yield reaching a level last seen more than two decades ago.",
+      "type": "DATA",
+      "readMinutes": 2,
+      "tldr": [
+        "CNBC reported that the 10-year Treasury yield reached its highest level since 2002 as a global bond selloff gathered pace.",
+        "Asia Business Daily also reported that the 10-year yield reached a level not seen since 2002, alongside mixed U.S. equity-index closes.",
+        "The reports describe market conditions, not a forecast or a trading signal."
+      ],
+      "body": [
+        {
+          "text": "CNBC reported that the 10-year Treasury yield hit its highest level since 2002 amid a broader bond selloff. Asia Business Daily independently reported a 10-year yield high not seen since 2002 and said U.S. stock indexes finished mixed.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "Long-dated government yields are a reference point for borrowing costs across markets. The reports establish the move and its timing, but do not identify one confirmed cause or indicate how long elevated yields will persist.",
+          "citations": [1, 2]
+        }
+      ],
+      "whyItMatters": "A sharp rise in long-dated government borrowing costs can feed into financing conditions across credit and housing. The coverage describes a market move; it does not establish a durable shift in rates or prescribe a portfolio response.",
+      "editorNote": "Two independent outlets report the level and historical comparison. YMYL review: neutral market reporting; no advice or rate prediction.",
+      "cluster": [
+        {
+          "url": "https://view.asiae.co.kr/en/article/2026100105042767895",
+          "source": "The Asia Business Daily",
+          "title": "[New York Stock Market] PCE Slows, 10-Year Yield Surpasses 5.3%... Indexes End Mixed"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/01/us-treasury-bond-yield.html",
+          "source": "CNBC",
+          "title": "10-year Treasury yield hits highest level since 2002 as global bond rout gathers pace",
+          "publishedAt": "2026-10-01T08:52:36.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://view.asiae.co.kr/en/article/2026100105042767895",
+          "source": "The Asia Business Daily",
+          "title": "[New York Stock Market] PCE Slows, 10-Year Yield Surpasses 5.3%... Indexes End Mixed"
+        }
+      ],
+      "tags": ["Treasuries", "bond market", "interest rates"],
+      "confidence": "medium"
+    }
+  ]
+}

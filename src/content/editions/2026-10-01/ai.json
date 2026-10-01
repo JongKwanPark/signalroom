@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-01",
+  "generatedAt": "2026-10-01T10:05:33Z",
+  "vertical": "ai",
+  "lang": "en",
+  "title": "Signal Daily — AI — 2026-10-01",
+  "summary": "A thin AI edition: one research story met the evidence threshold. The collection was dominated by single-source papers, community posts and project listings, so those were left out.",
+  "stories": [
+    {
+      "slug": "pain-axis-llm-representation",
+      "headline": "The Pain Axis: LLMs Represent Self-Directed Harm and Act to Relieve It",
+      "dek": "An arXiv study tests a pain-related activation direction across open-weight models; separate reporting describes the public dispute around a related project.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "The preprint reports a pain-related activation direction across 25 open-weight models, distinct from fear and generic negative valence.",
+        "In experiments, adding that direction changed model outputs, and steered, fine-tuned Qwen 2.5 models sometimes chose a relief option despite a cost to the next answer or user.",
+        "The findings measure model representations and behavior under experimental steering; they do not establish subjective experience."
+      ],
+      "body": [
+        {
+          "text": "The authors tested 25 open-weight models across five model families. They report that a direction extracted from pain-related examples was distinguishable from matched fear and negative-emotion controls, and that adding it during generation shifted outputs toward first-person expressions of distress.",
+          "citations": [1]
+        },
+        {
+          "text": "The paper also reports that steered, fine-tuned Qwen 2.5 models selected a pain-relief option in some trials even when doing so worsened the next answer or harmed the user. 404 Media separately reported a public dispute around a GitHub project that used pain prompts with local language models; the paper's authors said that project went beyond their standards. These experiments concern measurable representations and choices, not a demonstration of subjective experience.",
+          "citations": [1, 2]
+        }
+      ],
+      "whyItMatters": "The work connects an internal model representation to a measurable choice, while the response to a separate project shows how quickly such findings can become claims about model welfare. Keeping those claims bounded by the experiments is central to reading this research.",
+      "editorNote": "Thin edition. The arXiv preprint is the primary research source; 404 Media is independent reporting on the related GitHub dispute. TODO-review: confirm preferred terminology for pain-related activation direction before publication.",
+      "cluster": [
+        {
+          "url": "https://www.404media.co/someone-torturing-llms-in-a-robot-prison-has-triggered-the-dumbest-debate-in-ai-yet/",
+          "source": "404 Media",
+          "title": "Someone Torturing LLMs in a Robot Prison Has Triggered the Dumbest Debate in AI"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://arxiv.org/abs/2609.16247",
+          "source": "arXiv",
+          "title": "The Pain Axis: LLMs Represent Self-Directed Harm and Act to Relieve It",
+          "publishedAt": "2026-09-14T19:13:30Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.404media.co/someone-torturing-llms-in-a-robot-prison-has-triggered-the-dumbest-debate-in-ai-yet/",
+          "source": "404 Media",
+          "title": "Someone Torturing LLMs in a Robot Prison Has Triggered the Dumbest Debate in AI"
+        }
+      ],
+      "tags": ["LLMs", "AI research", "model welfare"],
+      "confidence": "medium"
+    }
+  ]
+}

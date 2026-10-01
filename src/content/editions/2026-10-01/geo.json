@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-01",
+  "generatedAt": "2026-10-01T10:05:33Z",
+  "vertical": "geo",
+  "lang": "en",
+  "title": "Signal Daily — Geopolitics — 2026-10-01",
+  "summary": "A thin Geo edition: one energy-security development had corroborating coverage. GDELT and ISW were unavailable, and ReliefWeb returned no items.",
+  "stories": [
+    {
+      "slug": "russia-strikes-ukraine-energy-infrastructure",
+      "headline": "Russia launches largest attack on Ukraine energy infrastructure since spring",
+      "dek": "BBC and CNBC report a large Russian strike on Ukraine's energy system ahead of winter.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "The BBC described the overnight attack as Russia's largest strike on Ukraine's energy infrastructure since spring.",
+        "CNBC reported that strikes on the energy grid forced power cuts ahead of winter.",
+        "The reports indicate renewed pressure on Ukraine's energy system, while details of damage and restoration remain developing."
+      ],
+      "body": [
+        {
+          "text": "The BBC reported that Russia launched its largest attack on Ukraine's energy infrastructure since spring. CNBC separately reported strikes on the country's energy grid and resulting power cuts ahead of winter.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "The two reports point to an energy-security risk as winter approaches. The scale of continuing outages and the full damage were not established by the headlines available in this collection.",
+          "citations": [1, 2]
+        }
+      ],
+      "whyItMatters": "Damage to energy infrastructure ahead of winter can affect civilian power access and the resilience of the country's energy system. The collected reports establish the attack and power cuts, but not the full duration or scale of disruption.",
+      "editorNote": "Thin edition. GDELT failed to fetch, ISW returned HTTP 403, and ReliefWeb was not configured; only the corroborated energy-security report was retained.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/01/russia-ukraine-war-energy-power-winter.html",
+          "source": "CNBC",
+          "title": "Russia launches massive strikes on Ukraine’s energy grid, forcing power cuts ahead of winter"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/ckjw5jx2l393o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Russia launches largest attack on Ukraine energy infrastructure since spring",
+          "publishedAt": "2026-09-30T14:53:02.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/10/01/russia-ukraine-war-energy-power-winter.html",
+          "source": "CNBC",
+          "title": "Russia launches massive strikes on Ukraine’s energy grid, forcing power cuts ahead of winter",
+          "publishedAt": "2026-10-01T09:48:06.000Z"
+        }
+      ],
+      "tags": ["Ukraine", "energy security", "Russia"],
+      "confidence": "medium"
+    }
+  ]
+}

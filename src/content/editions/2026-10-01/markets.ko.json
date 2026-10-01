@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-01",
+  "generatedAt": "2026-10-01T10:05:33Z",
+  "vertical": "markets",
+  "lang": "ko",
+  "title": "시그널 데일리 — 시장 — 2026-10-01",
+  "summary": "시장 에디션은 독립 보도로 확인된 Micron 실적과 장기물 미국 국채 수익률 동향으로 구성했습니다. SEC EDGAR, 시장 데이터, Polymarket 수집은 실패했고 FRED는 설정되지 않았습니다.",
+  "stories": [
+    {
+      "slug": "micron-results-data-center-revenue-ko",
+      "headline": "Micron, 실적 예상치 웃돌고 강한 전망 제시…데이터센터 매출 11배 증가",
+      "dek": "Micron의 분기 실적에서는 실적과 전망, 데이터센터 매출의 빠른 증가가 주목을 받았습니다.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "CNBC는 Micron이 실적 예상치를 웃돌고 강한 전망을 제시했다고 보도했습니다.",
+        "CNBC는 데이터센터 매출이 11배 증가했다고 전했으며, Seeking Alpha의 시장 브리핑도 예상치를 웃돈 기업으로 Micron을 언급했습니다.",
+        "두 보도는 기업 실적과 전망을 다루며 향후 주가 흐름을 예측하지는 않습니다."
+      ],
+      "body": [
+        {
+          "text": "CNBC는 Micron이 실적 예상치를 웃돌고 강한 전망을 제시했으며 데이터센터 매출이 11배 증가했다고 보도했습니다. Seeking Alpha의 아침 시장 브리핑도 예상치를 웃돈 기업 가운데 Micron을 별도로 언급했습니다.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "보도는 데이터센터 수요를 Micron 실적의 배경으로 제시합니다. 다만 이 성장세가 지속될지, 시장이 전망을 어떻게 평가할지는 확인해 주지 않습니다.",
+          "citations": [1, 2]
+        }
+      ],
+      "whyItMatters": "Micron의 실적은 반도체 수요를 데이터센터 투자와 연결합니다. 데이터센터는 현재 산업 성장의 주요 원천 중 하나입니다. 보도된 매출 증가는 과거 실적이며 수요나 마진이 계속될지를 그 자체로 결정하지 않습니다.",
+      "editorNote": "두 독립 매체가 실적 예상치 상회를 보도했으며 11배 수치는 CNBC 보도로 한정했습니다. YMYL 검토: 투자 조언이나 가격 신호를 포함하지 않았습니다.",
+      "cluster": [
+        {
+          "url": "https://seekingalpha.com/news/4648865-am-need-to-know-micron-beats-estimates-amazon-expands-nuclear-deal-more?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+          "source": "Seeking Alpha",
+          "title": "AM Need to Know: Micron beats estimates, Amazon expands nuclear deal & more"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/09/30/micron-mu-q4-earnings-report-2026.html",
+          "source": "CNBC",
+          "title": "Micron beats on earnings and issues strong guidance as data center revenue jumps 11-fold",
+          "publishedAt": "2026-09-30T20:59:05.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://seekingalpha.com/news/4648865-am-need-to-know-micron-beats-estimates-amazon-expands-nuclear-deal-more?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+          "source": "Seeking Alpha",
+          "title": "AM Need to Know: Micron beats estimates, Amazon expands nuclear deal & more",
+          "publishedAt": "2026-10-01T09:12:34.000Z"
+        }
+      ],
+      "tags": ["semiconductors", "earnings", "data centers"],
+      "confidence": "medium"
+    },
+    {
+      "slug": "treasury-yields-highest-since-2002-ko",
+      "headline": "미 10년물 국채 수익률, 글로벌 채권 매도세 속 2002년 이후 최고치",
+      "dek": "CNBC와 Asia Business Daily는 미국 장기물 수익률이 20여 년 만에 가장 높은 수준에 도달했다고 보도했습니다.",
+      "type": "DATA",
+      "readMinutes": 2,
+      "tldr": [
+        "CNBC는 글로벌 채권 매도세가 이어지는 가운데 미 10년물 국채 수익률이 2002년 이후 최고치에 도달했다고 보도했습니다.",
+        "Asia Business Daily도 10년물 수익률이 2002년 이후 가장 높은 수준에 도달했고 미국 주가지수는 엇갈린 흐름으로 마감했다고 전했습니다.",
+        "두 보도는 시장 상황을 설명하며 전망이나 매매 신호를 제시하지 않습니다."
+      ],
+      "body": [
+        {
+          "text": "CNBC는 광범위한 채권 매도세 속에 미 10년물 국채 수익률이 2002년 이후 최고치에 도달했다고 보도했습니다. Asia Business Daily도 10년물 수익률이 2002년 이후 보지 못한 수준으로 올랐고 미국 주가지수는 혼조로 마감했다고 별도 보도했습니다.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "장기 국채 수익률은 시장 전반의 차입 비용을 가늠하는 기준입니다. 보도는 수익률 상승과 시점을 확인하지만, 원인 하나를 확정하거나 높은 수익률이 얼마나 지속될지 예측하지는 않습니다.",
+          "citations": [1, 2]
+        }
+      ],
+      "whyItMatters": "장기 국채 차입 비용이 급등하면 신용 및 주택 시장의 금융 여건에 영향을 줄 수 있습니다. 이번 보도는 시장 움직임을 전할 뿐 금리의 지속적인 전환을 입증하거나 포트폴리오 대응을 권고하지 않습니다.",
+      "editorNote": "두 독립 매체가 수익률 수준과 과거 비교를 보도했습니다. YMYL 검토: 중립적인 시장 보도이며 투자 조언이나 금리 전망은 없습니다.",
+      "cluster": [
+        {
+          "url": "https://view.asiae.co.kr/en/article/2026100105042767895",
+          "source": "The Asia Business Daily",
+          "title": "[New York Stock Market] PCE Slows, 10-Year Yield Surpasses 5.3%... Indexes End Mixed"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/01/us-treasury-bond-yield.html",
+          "source": "CNBC",
+          "title": "10-year Treasury yield hits highest level since 2002 as global bond rout gathers pace",
+          "publishedAt": "2026-10-01T08:52:36.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://view.asiae.co.kr/en/article/2026100105042767895",
+          "source": "The Asia Business Daily",
+          "title": "[New York Stock Market] PCE Slows, 10-Year Yield Surpasses 5.3%... Indexes End Mixed"
+        }
+      ],
+      "tags": ["Treasuries", "bond market", "interest rates"],
+      "confidence": "medium"
+    }
+  ]
+}

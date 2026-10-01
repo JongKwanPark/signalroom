@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-01",
+  "generatedAt": "2026-10-01T10:05:33Z",
+  "vertical": "bio",
+  "lang": "en",
+  "title": "Signal Daily — Bio — 2026-10-01",
+  "summary": "A thin Bio edition: one industry development had independent coverage. The remaining collection was mostly individual study or registry records without independent reporting to support a second source.",
+  "stories": [
+    {
+      "slug": "sanofi-regeneron-expand-immunology-partnership",
+      "headline": "STAT+: Sanofi, Regeneron expand partnership after Dupixent success",
+      "dek": "The companies are expanding their immunology collaboration with a new group of antibody medicines.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "STAT reports that Sanofi and Regeneron are expanding their partnership after the commercial success of Dupixent.",
+        "Investing.com reports the expanded collaboration covers four antibody medicines and includes $1 billion upfront plus up to $7 billion in milestone payments.",
+        "The announced work concerns a development pipeline; the available reports do not establish clinical efficacy for the new candidates."
+      ],
+      "body": [
+        {
+          "text": "STAT reports an expanded Sanofi–Regeneron collaboration on antibodies for immunological diseases, following the companies' earlier work on Dupixent. The coverage frames the agreement as a pipeline expansion rather than a result from a completed clinical study.",
+          "citations": [1]
+        },
+        {
+          "text": "Investing.com reports that the expanded agreement covers four medicines, with Sanofi paying $1 billion upfront and up to $7 billion more tied to milestones. It says Regeneron will lead research and development while Sanofi leads commercial efforts. The reports describe planned development and financial terms, not demonstrated outcomes for these candidates.",
+          "citations": [2]
+        }
+      ],
+      "whyItMatters": "The agreement extends an established drugmaker partnership into additional immunology candidates and sets out how development and commercial responsibilities will be divided. Its significance is in pipeline strategy and deal structure; clinical outcomes remain unknown.",
+      "editorNote": "Thin edition. Independent coverage is available from STAT and Investing.com. No clinical efficacy claim is made. TODO-review: confirm the preferred Korean rendering of immunology pipeline terminology.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/stock-market-news/sanofi-regeneron-expand-partnership-in-deal-worth-up-to-8-billion-4926264",
+          "source": "Investing.com",
+          "title": "Sanofi, Regeneron expand partnership in deal worth up to $8 billion"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.statnews.com/2026/10/01/sanofi-regeneron-agreement-dupixent-antibodies-immunology/",
+          "source": "STAT",
+          "title": "STAT+: Sanofi, Regeneron expand partnership after Dupixent success",
+          "publishedAt": "2026-10-01T06:16:27.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/stock-market-news/sanofi-regeneron-expand-partnership-in-deal-worth-up-to-8-billion-4926264",
+          "source": "Investing.com",
+          "title": "Sanofi, Regeneron expand partnership in deal worth up to $8 billion"
+        }
+      ],
+      "tags": ["biopharma", "immunology", "partnership"],
+      "confidence": "medium"
+    }
+  ]
+}

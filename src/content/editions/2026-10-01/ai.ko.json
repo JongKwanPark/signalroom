@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-01",
+  "generatedAt": "2026-10-01T10:05:33Z",
+  "vertical": "ai",
+  "lang": "ko",
+  "title": "시그널 데일리 — AI — 2026-10-01",
+  "summary": "AI 에디션은 수록 기준을 충족한 연구 기사 1건으로 구성했습니다. 수집 자료가 단일 출처 논문, 커뮤니티 게시물, 프로젝트 소개에 치우쳐 나머지는 제외했습니다.",
+  "stories": [
+    {
+      "slug": "pain-axis-llm-representation-ko",
+      "headline": "Pain Axis: LLM의 자기 지향적 위해 표상과 이를 완화하려는 행동",
+      "dek": "arXiv 연구는 오픈 웨이트 모델에서 통증 관련 활성화 방향을 시험했고, 별도 보도는 관련 프로젝트를 둘러싼 공개 논쟁을 다뤘습니다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "프리프린트는 25개 오픈 웨이트 모델에서 공포나 일반적인 부정 정서와 구별되는 통증 관련 활성화 방향을 보고했습니다.",
+        "실험에서 해당 방향을 추가하자 모델 출력이 달라졌고, 조정·파인튜닝된 Qwen 2.5 모델은 다음 답변이나 사용자에게 불이익이 생기는 경우에도 때때로 완화 선택지를 골랐습니다.",
+        "이 결과는 실험적 조정 아래 나타난 모델의 표상과 행동을 측정한 것으로 주관적 경험을 입증하지는 않습니다."
+      ],
+      "body": [
+        {
+          "text": "연구진은 다섯 모델 계열에 걸친 오픈 웨이트 모델 25개를 시험했습니다. 통증 관련 사례에서 추출한 방향이 공포 및 부정 정서 대조군과 구별됐고, 생성 과정에서 이를 추가하자 1인칭 고통 표현이 늘었다고 보고했습니다.",
+          "citations": [1]
+        },
+        {
+          "text": "논문은 조정·파인튜닝된 Qwen 2.5 모델이 다음 답변의 품질을 떨어뜨리거나 사용자에게 해가 되더라도 일부 실험에서 통증 완화 선택지를 골랐다고 보고했습니다. 별도로 404 Media는 로컬 언어 모델에 통증 프롬프트를 적용한 GitHub 프로젝트를 둘러싼 공개 논쟁을 보도했고, 논문 저자들은 해당 프로젝트가 자신들의 기준을 넘어섰다고 밝혔습니다. 이 실험은 측정 가능한 표상과 선택을 다루며 주관적 경험을 입증하지 않습니다.",
+          "citations": [1, 2]
+        }
+      ],
+      "whyItMatters": "이 연구는 모델 내부 표상과 측정 가능한 선택을 연결합니다. 별도 프로젝트를 둘러싼 반응은 이런 결과가 모델 복지에 관한 주장으로 빠르게 번질 수 있음을 보여줍니다. 연구 범위를 벗어나지 않도록 주장을 한정하는 것이 중요합니다.",
+      "editorNote": "얇은 에디션입니다. arXiv 프리프린트는 연구 원문이며, 404 Media는 관련 GitHub 논쟁을 독립 보도했습니다. TODO-review: pain-related activation direction의 한국어 표기를 발행 전에 확인하세요.",
+      "cluster": [
+        {
+          "url": "https://www.404media.co/someone-torturing-llms-in-a-robot-prison-has-triggered-the-dumbest-debate-in-ai-yet/",
+          "source": "404 Media",
+          "title": "Someone Torturing LLMs in a Robot Prison Has Triggered the Dumbest Debate in AI"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://arxiv.org/abs/2609.16247",
+          "source": "arXiv",
+          "title": "The Pain Axis: LLMs Represent Self-Directed Harm and Act to Relieve It",
+          "publishedAt": "2026-09-14T19:13:30Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.404media.co/someone-torturing-llms-in-a-robot-prison-has-triggered-the-dumbest-debate-in-ai-yet/",
+          "source": "404 Media",
+          "title": "Someone Torturing LLMs in a Robot Prison Has Triggered the Dumbest Debate in AI"
+        }
+      ],
+      "tags": ["LLMs", "AI research", "model welfare"],
+      "confidence": "medium"
+    }
+  ]
+}

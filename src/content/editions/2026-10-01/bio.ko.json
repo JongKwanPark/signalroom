@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-01",
+  "generatedAt": "2026-10-01T10:05:33Z",
+  "vertical": "bio",
+  "lang": "ko",
+  "title": "시그널 데일리 — 바이오 — 2026-10-01",
+  "summary": "바이오 에디션은 독립 보도가 확인된 산업 동향 1건으로 구성했습니다. 나머지는 독립적인 두 번째 출처가 없는 개별 연구 또는 등록 자료가 대부분이어서 제외했습니다.",
+  "stories": [
+    {
+      "slug": "sanofi-regeneron-expand-immunology-partnership-ko",
+      "headline": "STAT+: Sanofi와 Regeneron, Dupixent 성공 이후 협력 확대",
+      "dek": "두 회사가 새로운 항체 의약품을 중심으로 면역학 분야 협력을 확대합니다.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "STAT는 Dupixent의 상업적 성공에 이어 Sanofi와 Regeneron이 협력을 확대한다고 보도했습니다.",
+        "Investing.com에 따르면 확대된 협력은 항체 의약품 4종을 대상으로 하며, 선급금 $1 billion과 최대 $7 billion의 마일스톤 지급을 포함합니다.",
+        "발표된 내용은 개발 파이프라인에 관한 것이며 신규 후보물질의 임상 효능을 입증하지는 않습니다."
+      ],
+      "body": [
+        {
+          "text": "STAT는 Sanofi와 Regeneron이 기존 Dupixent 협력에 이어 면역 질환을 겨냥한 항체 분야의 협력을 확대한다고 보도했습니다. 보도는 이번 합의를 완료된 임상시험 결과가 아니라 파이프라인 확장으로 설명합니다.",
+          "citations": [1]
+        },
+        {
+          "text": "Investing.com은 확대된 계약이 의약품 4종을 대상으로 하며 Sanofi가 선급금 $1 billion과 마일스톤에 따른 추가 지급액 최대 $7 billion을 부담한다고 전했습니다. Regeneron이 연구·개발을 주도하고 Sanofi가 상업화를 이끈다고 보도했습니다. 이는 개발 계획과 계약 조건에 관한 내용이며 후보물질의 치료 효과가 입증됐다는 뜻은 아닙니다.",
+          "citations": [2]
+        }
+      ],
+      "whyItMatters": "이번 계약은 기존 제약사 간 협력을 추가 면역학 후보물질로 넓히고 개발과 상업화 역할을 나눕니다. 의미는 파이프라인 전략과 계약 구조에 있으며 임상 결과는 아직 확인되지 않았습니다.",
+      "editorNote": "얇은 에디션입니다. STAT와 Investing.com의 독립 보도를 확인했습니다. 임상 효능 주장은 포함하지 않았습니다. TODO-review: 면역학 파이프라인 관련 한국어 용어를 발행 전에 확인하세요.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/stock-market-news/sanofi-regeneron-expand-partnership-in-deal-worth-up-to-8-billion-4926264",
+          "source": "Investing.com",
+          "title": "Sanofi, Regeneron expand partnership in deal worth up to $8 billion"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.statnews.com/2026/10/01/sanofi-regeneron-agreement-dupixent-antibodies-immunology/",
+          "source": "STAT",
+          "title": "STAT+: Sanofi, Regeneron expand partnership after Dupixent success",
+          "publishedAt": "2026-10-01T06:16:27.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/stock-market-news/sanofi-regeneron-expand-partnership-in-deal-worth-up-to-8-billion-4926264",
+          "source": "Investing.com",
+          "title": "Sanofi, Regeneron expand partnership in deal worth up to $8 billion"
+        }
+      ],
+      "tags": ["biopharma", "immunology", "partnership"],
+      "confidence": "medium"
+    }
+  ]
+}

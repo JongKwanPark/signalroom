@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-01",
+  "generatedAt": "2026-10-01T10:05:33Z",
+  "vertical": "geo",
+  "lang": "ko",
+  "title": "시그널 데일리 — 지정학 — 2026-10-01",
+  "summary": "지정학 에디션은 교차 보도로 확인된 에너지 안보 동향 1건으로 구성했습니다. GDELT와 ISW는 이용할 수 없었고 ReliefWeb에서는 항목이 수집되지 않았습니다.",
+  "stories": [
+    {
+      "slug": "russia-strikes-ukraine-energy-infrastructure-ko",
+      "headline": "러시아, 봄 이후 최대 규모로 우크라이나 에너지 기반시설 공격",
+      "dek": "BBC와 CNBC는 겨울을 앞두고 우크라이나 에너지 시스템을 겨냥한 대규모 러시아 공격을 보도했습니다.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "BBC는 이번 야간 공격을 봄 이후 러시아가 우크라이나 에너지 기반시설에 가한 최대 규모의 공격이라고 전했습니다.",
+        "CNBC는 에너지망 공격으로 겨울을 앞둔 우크라이나에서 정전이 발생했다고 보도했습니다.",
+        "두 보도는 에너지 시스템에 압력이 다시 커졌음을 보여주지만 피해와 복구 상황은 계속 확인 중입니다."
+      ],
+      "body": [
+        {
+          "text": "BBC는 러시아가 봄 이후 최대 규모로 우크라이나 에너지 기반시설을 공격했다고 보도했습니다. CNBC도 에너지망 공격과 겨울을 앞둔 정전을 전했습니다.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "두 보도는 겨울이 다가오는 시점에 에너지 안보 위험이 커졌음을 시사합니다. 이 수집 자료에 포함된 헤드라인만으로는 정전이 얼마나 지속될지, 피해가 어느 정도인지 확인되지 않습니다.",
+          "citations": [1, 2]
+        }
+      ],
+      "whyItMatters": "겨울을 앞둔 에너지 기반시설 피해는 민간 전력 공급과 국가 에너지 시스템의 복원력에 영향을 줄 수 있습니다. 수집된 보도는 공격과 정전을 확인하지만 혼란의 전체 규모나 지속 기간까지 밝히지는 않습니다.",
+      "editorNote": "얇은 에디션입니다. GDELT 수집은 실패했고 ISW는 HTTP 403을 반환했으며 ReliefWeb은 설정되지 않았습니다. 교차 보도가 확인된 에너지 안보 기사만 남겼습니다.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/01/russia-ukraine-war-energy-power-winter.html",
+          "source": "CNBC",
+          "title": "Russia launches massive strikes on Ukraine’s energy grid, forcing power cuts ahead of winter"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/ckjw5jx2l393o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Russia launches largest attack on Ukraine energy infrastructure since spring",
+          "publishedAt": "2026-09-30T14:53:02.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/10/01/russia-ukraine-war-energy-power-winter.html",
+          "source": "CNBC",
+          "title": "Russia launches massive strikes on Ukraine’s energy grid, forcing power cuts ahead of winter",
+          "publishedAt": "2026-10-01T09:48:06.000Z"
+        }
+      ],
+      "tags": ["Ukraine", "energy security", "Russia"],
+      "confidence": "medium"
+    }
+  ]
+}
