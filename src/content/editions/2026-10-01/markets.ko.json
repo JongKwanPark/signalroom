@@ -1,10 +1,10 @@
 {
   "date": "2026-10-01",
-  "generatedAt": "2026-10-01T10:05:33Z",
+  "generatedAt": "2026-10-01T22:05:35.331Z",
   "vertical": "markets",
   "lang": "ko",
   "title": "시그널 데일리 — 시장 — 2026-10-01",
-  "summary": "시장 에디션은 독립 보도로 확인된 Micron 실적과 장기물 미국 국채 수익률 동향으로 구성했습니다. SEC EDGAR, 시장 데이터, Polymarket 수집은 실패했고 FRED는 설정되지 않았습니다.",
+  "summary": "시장 에디션은 증거 기준을 충족한 3건으로 구성했습니다. Micron 실적, 국채 수익률의 장중 반전, Nike의 매출 및 구조조정 소식을 담았습니다. SEC EDGAR, 시장 데이터, Polymarket 수집은 실패했고 FRED는 설정되지 않았습니다.",
   "stories": [
     {
       "slug": "micron-results-data-center-revenue-ko",
@@ -20,11 +20,17 @@
       "body": [
         {
           "text": "CNBC는 Micron이 실적 예상치를 웃돌고 강한 전망을 제시했으며 데이터센터 매출이 11배 증가했다고 보도했습니다. Seeking Alpha의 아침 시장 브리핑도 예상치를 웃돈 기업 가운데 Micron을 별도로 언급했습니다.",
-          "citations": [1, 2]
+          "citations": [
+            1,
+            2
+          ]
         },
         {
           "text": "보도는 데이터센터 수요를 Micron 실적의 배경으로 제시합니다. 다만 이 성장세가 지속될지, 시장이 전망을 어떻게 평가할지는 확인해 주지 않습니다.",
-          "citations": [1, 2]
+          "citations": [
+            1,
+            2
+          ]
         }
       ],
       "whyItMatters": "Micron의 실적은 반도체 수요를 데이터센터 투자와 연결합니다. 데이터센터는 현재 산업 성장의 주요 원천 중 하나입니다. 보도된 매출 증가는 과거 실적이며 수요나 마진이 계속될지를 그 자체로 결정하지 않습니다.",
@@ -52,7 +58,11 @@
           "publishedAt": "2026-10-01T09:12:34.000Z"
         }
       ],
-      "tags": ["semiconductors", "earnings", "data centers"],
+      "tags": [
+        "semiconductors",
+        "earnings",
+        "data centers"
+      ],
       "confidence": "medium"
     },
     {
@@ -63,26 +73,39 @@
       "readMinutes": 2,
       "tldr": [
         "CNBC는 글로벌 채권 매도세가 이어지는 가운데 미 10년물 국채 수익률이 2002년 이후 최고치에 도달했다고 보도했습니다.",
-        "Asia Business Daily도 10년물 수익률이 2002년 이후 가장 높은 수준에 도달했고 미국 주가지수는 엇갈린 흐름으로 마감했다고 전했습니다.",
-        "두 보도는 시장 상황을 설명하며 전망이나 매매 신호를 제시하지 않습니다."
+        "이후 CNBC는 국채 수익률이 다년간 고점에서 하락했다고 전했고, MarketWatch는 매수세가 돌아오며 시장이 반등했다고 보도했습니다.",
+        "헤드라인은 장중 반전과 시장 상황을 기록하며, 전망이나 매매 신호를 제시하지 않습니다."
       ],
       "body": [
         {
-          "text": "CNBC는 광범위한 채권 매도세 속에 미 10년물 국채 수익률이 2002년 이후 최고치에 도달했다고 보도했습니다. Asia Business Daily도 10년물 수익률이 2002년 이후 보지 못한 수준으로 올랐고 미국 주가지수는 혼조로 마감했다고 별도 보도했습니다.",
-          "citations": [1, 2]
+          "text": "CNBC는 광범위한 채권 매도세 속에 미 10년물 국채 수익률이 2002년 이후 최고치를 기록했다고 보도했습니다. 이후 CNBC는 국채 수익률이 다년간 고점에서 하락했다고 전했고, MarketWatch도 매수세가 시장에 돌아오면서 수익률이 내렸다고 보도했습니다. 아시아경제 역시 2002년 이후 보지 못한 10년물 수익률 고점과 미국 주가지수의 혼조 마감을 전했습니다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
         },
         {
-          "text": "장기 국채 수익률은 시장 전반의 차입 비용을 가늠하는 기준입니다. 보도는 수익률 상승과 시점을 확인하지만, 원인 하나를 확정하거나 높은 수익률이 얼마나 지속될지 예측하지는 않습니다.",
-          "citations": [1, 2]
+          "text": "보도는 다년간 고점에 오른 뒤 같은 날 하락한 흐름을 기록합니다. 하락의 단일 원인이나 반전이 얼마나 이어질지는 확인되지 않았습니다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
         }
       ],
-      "whyItMatters": "장기 국채 차입 비용이 급등하면 신용 및 주택 시장의 금융 여건에 영향을 줄 수 있습니다. 이번 보도는 시장 움직임을 전할 뿐 금리의 지속적인 전환을 입증하거나 포트폴리오 대응을 권고하지 않습니다.",
-      "editorNote": "두 독립 매체가 수익률 수준과 과거 비교를 보도했습니다. YMYL 검토: 중립적인 시장 보도이며 투자 조언이나 금리 전망은 없습니다.",
+      "whyItMatters": "장기물 국채 수익률이 같은 장중에도 빠르게 움직일 수 있다는 점은 여러 시장의 자금 조달 여건을 살필 때 참고가 됩니다. 보도는 시장 움직임을 기록하지만, 금리 추세가 지속될지 판단하거나 투자 대응을 권하지는 않습니다.",
+      "editorNote": "CNBC와 아시아경제는 역사적 고점을 보도했고, 이후 CNBC와 MarketWatch는 하락을 전했습니다. 기존 헤드라인은 CNBC 원문 그대로 유지했습니다. YMYL 검토: 중립적인 시장 보도이며 조언이나 금리 전망은 없습니다.",
       "cluster": [
         {
           "url": "https://view.asiae.co.kr/en/article/2026100105042767895",
           "source": "The Asia Business Daily",
           "title": "[New York Stock Market] PCE Slows, 10-Year Yield Surpasses 5.3%... Indexes End Mixed"
+        },
+        {
+          "url": "https://www.marketwatch.com/story/bond-yields-suddenly-retreat-from-recent-highs-as-buyers-step-back-into-the-treasury-market-e3840e3d?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Bond yields suddenly retreat from recent highs as buyers step back into the Treasury market"
         }
       ],
       "sources": [
@@ -98,9 +121,78 @@
           "url": "https://view.asiae.co.kr/en/article/2026100105042767895",
           "source": "The Asia Business Daily",
           "title": "[New York Stock Market] PCE Slows, 10-Year Yield Surpasses 5.3%... Indexes End Mixed"
+        },
+        {
+          "id": 3,
+          "url": "https://www.marketwatch.com/story/bond-yields-suddenly-retreat-from-recent-highs-as-buyers-step-back-into-the-treasury-market-e3840e3d?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Bond yields suddenly retreat from recent highs as buyers step back into the Treasury market",
+          "publishedAt": "2026-10-01T20:28:00.000Z"
         }
       ],
-      "tags": ["Treasuries", "bond market", "interest rates"],
+      "tags": [
+        "Treasuries",
+        "bond market",
+        "interest rates"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "nike-sales-layoffs-restructuring-ko",
+      "headline": "Nike, 부진한 매출 발표와 구조조정 일환의 감원 소식에 주가 하락",
+      "dek": "CNBC는 매출 부진과 구조조정에 따른 감원 발표를 보도했고, MarketWatch는 매출이 더 약해질 수 있다고 전했습니다.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "CNBC는 Nike가 부진한 매출을 발표한 뒤 주가가 하락했다고 보도했습니다.",
+        "CNBC 헤드라인은 Nike가 구조조정의 일환으로 감원을 발표했다고 전합니다.",
+        "MarketWatch는 매출이 더 감소할 수 있다고 보도했으며, 이는 확정된 결과가 아니라 전망입니다."
+      ],
+      "body": [
+        {
+          "text": "CNBC는 Nike가 부진한 매출을 발표하고 구조조정의 일환으로 감원을 발표한 뒤 주가가 하락했다고 보도했습니다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "MarketWatch는 Nike의 어려움이 커지고 있으며 매출이 더 감소할 수 있다고 별도로 전했습니다. 이 헤드라인은 위험 평가를 담고 있으며, 수집된 보도만으로 추가 매출 감소가 이미 발생했다고 볼 수는 없습니다.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 보도는 대형 소비재 브랜드의 매출 약화와 구조조정 발표를 함께 다룹니다. 수집된 헤드라인만으로는 변화의 규모나 수요가 지속될지를 판단하기 어렵습니다.",
+      "editorNote": "헤드라인은 CNBC 원문과 동일합니다. MarketWatch가 별도 보도를 제공하지만, 추가 매출 감소 표현은 명시적으로 전망입니다. YMYL 검토: 사실 보도만 포함했으며 투자 조언이나 매매 신호는 없습니다.",
+      "cluster": [
+        {
+          "url": "https://www.marketwatch.com/story/nikes-troubles-are-mounting-and-sales-could-fall-further-2c19699d?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Nike’s troubles are mounting, and sales could fall further"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/01/nike-nke-q1-2027-earnings.html",
+          "source": "CNBC",
+          "title": "Nike shares drop as retailer posts disappointing sales, announces layoffs as part of restructuring",
+          "publishedAt": "2026-10-01T21:34:44.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.marketwatch.com/story/nikes-troubles-are-mounting-and-sales-could-fall-further-2c19699d?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Nike’s troubles are mounting, and sales could fall further",
+          "publishedAt": "2026-10-01T21:09:00.000Z"
+        }
+      ],
+      "tags": [
+        "Nike",
+        "retail",
+        "earnings",
+        "restructuring"
+      ],
       "confidence": "medium"
     }
   ]
