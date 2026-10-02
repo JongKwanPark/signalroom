@@ -1,0 +1,186 @@
+{
+  "date": "2026-10-02",
+  "generatedAt": "2026-10-02T10:00:45.105Z",
+  "vertical": "markets",
+  "lang": "ko",
+  "title": "시그널 데일리 — Markets — 2026-10-02",
+  "summary": "오늘은 Nike 실적, 원유 공급 전망, 유로존 물가를 다룬 3건이 교차 출처 기준을 충족했습니다. SEC EDGAR·Polymarket·시장 데이터 수집에 실패했고 FRED 결과는 없었습니다. 투자 조언은 포함하지 않습니다.",
+  "stories": [
+    {
+      "slug": "nike-sales-china-and-restructuring-ko",
+      "headline": "Nike 주가 하락…실망스러운 매출과 구조조정에 따른 감원 발표",
+      "dek": "Nike의 1분기 매출 감소와 추가 인력 조정이 턴어라운드에 부담을 주고 있습니다. 중국 매출도 약세 지역으로 남았습니다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "Nike가 부진한 매출을 발표하고 구조조정의 일환으로 감원을 발표한 뒤 주가가 하락했다고 CNBC가 보도했습니다.",
+        "El País는 회계연도 1분기 매출이 전년 대비 4.3% 감소했고 중국 매출은 26% 감소했다고 전했습니다.",
+        "보도는 실적 부진과 운영 조정을 다루지만, 구조조정이 성과를 개선할지는 확인되지 않았습니다."
+      ],
+      "body": [
+        {
+          "text": "CNBC는 Nike가 실망스러운 매출을 보고하고 구조조정 관련 감원을 발표한 뒤 주가가 하락했다고 보도했습니다. El País도 1분기 실적과 추가 인력 조정을 전했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "El País는 매출이 전년 대비 4.3% 줄고 중국 매출이 26% 감소했다고 보도했습니다. 이 수치와 계획된 변화는 현재의 경영 압박을 보여주지만 향후 효과를 확정하지는 않습니다.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Nike의 실적에는 소비 수요, 중국 시장 노출, 비용 구조조정이라는 글로벌 의류 업계의 쟁점이 함께 반영됩니다. 현재 근거는 부담과 대응 계획을 보여줄 뿐 회복 전망을 뒷받침하지 않습니다.",
+      "editorNote": "사실 관계만 보도했으며 투자 권유나 목표 주가는 포함하지 않았습니다.",
+      "cluster": [
+        {
+          "url": "https://cincodias.elpais.com/companias/2026-10-02/nike-ultima-recortes-de-plantilla-tras-la-caida-de-beneficios-y-ventas-en-su-primer-trimestre-fiscal.html",
+          "source": "El País",
+          "title": "Nike ultima recortes de plantilla tras la caída de beneficios y ventas en su primer trimestre fiscal"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/01/nike-nke-q1-2027-earnings.html",
+          "source": "CNBC",
+          "title": "Nike shares drop as retailer posts disappointing sales, announces layoffs as part of restructuring",
+          "publishedAt": "2026-10-01T21:34:44.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://cincodias.elpais.com/companias/2026-10-02/nike-ultima-recortes-de-plantilla-tras-la-caida-de-beneficios-y-ventas-en-su-primer-trimestre-fiscal.html",
+          "source": "El País",
+          "title": "Nike ultima recortes de plantilla tras la caída de beneficios y ventas en su primer trimestre fiscal",
+          "publishedAt": "2026-10-02T07:48:45Z"
+        }
+      ],
+      "tags": [
+        "Nike",
+        "retail",
+        "earnings",
+        "restructuring"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "oil-falls-on-stock-release-reports-ko",
+      "headline": "디젤·원유 비축분 방출 가능성 보도에 유가 3% 넘게 하락, Brent는 다시 $100 아래로",
+      "dek": "잠재적 비축분 방출 보도와 공급 위험, 지정학적 긴장이 맞물리며 유가가 하락했습니다.",
+      "type": "DATA",
+      "readMinutes": 3,
+      "tldr": [
+        "CNBC는 디젤과 원유 비축분 방출 가능성 보도 뒤 유가가 3% 넘게 떨어지고 Brent가 $100 아래로 내려왔다고 전했습니다.",
+        "Reuters는 금요일 유가가 더 작은 폭으로 하락했으며 공급 신호와 지정학적 위험이 엇갈린다고 보도했습니다.",
+        "보도는 변동 중인 시장 여건을 다루며 비축분 방출이 확정됐다고 밝히지 않습니다."
+      ],
+      "body": [
+        {
+          "text": "CNBC는 잠재적 디젤·원유 비축분 방출 보도 뒤 유가가 3% 넘게 하락하고 Brent가 $100 아래로 내려왔다고 전했습니다. Reuters의 금요일 보도는 공급 신호가 엇갈리는 가운데 유가가 후퇴했다고 설명했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "보도는 방출 결정이 확정됐다고 밝히지 않습니다. Reuters는 지정학적 긴장과 공급 변화가 시장 기대에 서로 다른 영향을 줬다고 덧붙였습니다.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "비축 연료 방출 가능성은 공급 기대에 영향을 주지만 지정학적 위험은 하락 압력을 상쇄할 수 있습니다. 보도는 두 요인을 함께 전하며 정책 결과는 확정하지 않습니다.",
+      "editorNote": "가격 변동은 출처가 보도한 시점의 수치로 한정했으며 매매 신호를 제시하지 않았습니다.",
+      "cluster": [
+        {
+          "url": "https://www.marketscreener.com/news/oil-rises-slightly-as-market-weighs-mixed-supply-signals-ce785ddadd8ff526",
+          "source": "Reuters via MarketScreener",
+          "title": "Oil retreats as market weighs mixed supply signals"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/02/oil-wti-brent-diesel-stock-release-europe.html",
+          "source": "CNBC",
+          "title": "Oil prices fall over 3% on report of potential diesel, crude stock release; Brent back below $100",
+          "publishedAt": "2026-10-02T09:34:33.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.marketscreener.com/news/oil-rises-slightly-as-market-weighs-mixed-supply-signals-ce785ddadd8ff526",
+          "source": "Reuters via MarketScreener",
+          "title": "Oil retreats as market weighs mixed supply signals",
+          "publishedAt": "2026-10-02T06:41:00Z"
+        }
+      ],
+      "tags": [
+        "oil",
+        "Brent",
+        "energy-supply"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "eurozone-inflation-energy-costs-ko",
+      "headline": "에너지 비용 급등 속 유로존 물가상승률 3.8%…3년 만에 최고치",
+      "dek": "CNBC와 Reuters 보도에 따르면 에너지 비용 상승과 함께 9월 유로존 물가상승률이 3.8%로 올랐습니다.",
+      "type": "DATA",
+      "readMinutes": 3,
+      "tldr": [
+        "CNBC는 유로존 물가상승률이 3.8%로 3년 만의 최고치에 이르렀다고 보도했습니다.",
+        "Reuters는 8월 3.2%에서 상승했고 자체 설문 예상치 3.6%를 웃돌았다고 전했습니다.",
+        "양측 보도는 주된 원인으로 에너지 비용을 들었지만, 이 수치만으로 ECB의 다음 결정을 확정할 수는 없습니다."
+      ],
+      "body": [
+        {
+          "text": "CNBC는 9월 유로존 물가상승률이 3.8%로 3년 만의 최고치를 기록했다고 전했습니다. Reuters도 8월 3.2%에서 3.8%로 올라 자체 설문 예상치 3.6%를 웃돌았다고 보도했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Reuters는 상승의 주된 요인으로 연료와 천연가스를, 그보다 작은 요인으로 식품을 들었습니다. 보도는 물가 수치와 원인으로 제시된 요인을 설명하지만 ECB의 다음 정책 조치를 확정하지 않습니다.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "에너지 비용 상승과 물가 가속은 ECB가 평가해야 할 정책 환경을 바꿉니다. 다만 한 차례 지표만으로 다음 금리 결정을 단정할 수는 없습니다.",
+      "editorNote": "중립적인 거시경제 보도이며 금리 전망이나 금융 조언을 포함하지 않았습니다.",
+      "cluster": [
+        {
+          "url": "https://ae.marketscreener.com/news/euro-zone-inflation-surges-keeping-pressure-on-ecb-to-hike-ce785ddadf8ef524",
+          "source": "Reuters via MarketScreener",
+          "title": "Euro zone inflation surges, keeping pressure on ECB to hike"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/02/eurozone-inflation-ecb.html",
+          "source": "CNBC",
+          "title": "Eurozone inflation hits its highest level in three years at 3.8% as energy costs soar",
+          "publishedAt": "2026-10-02T09:39:51.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://ae.marketscreener.com/news/euro-zone-inflation-surges-keeping-pressure-on-ecb-to-hike-ce785ddadf8ef524",
+          "source": "Reuters via MarketScreener",
+          "title": "Euro zone inflation surges, keeping pressure on ECB to hike",
+          "publishedAt": "2026-10-02"
+        }
+      ],
+      "tags": [
+        "eurozone",
+        "inflation",
+        "energy",
+        "ECB"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

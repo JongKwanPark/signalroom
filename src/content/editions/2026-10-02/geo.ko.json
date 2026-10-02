@@ -1,0 +1,242 @@
+{
+  "date": "2026-10-02",
+  "generatedAt": "2026-10-02T10:00:45.105Z",
+  "vertical": "geo",
+  "lang": "ko",
+  "title": "시그널 데일리 — Geo — 2026-10-02",
+  "summary": "오늘은 한반도 긴장, 에티오피아, 항공 보안, 미국 법원 소송을 다룬 4건이 교차 출처 기준을 충족했습니다. GDELT와 ISW를 이용할 수 없었고 ReliefWeb은 결과가 없었습니다.",
+  "stories": [
+    {
+      "slug": "flydubai-cockpit-attack-investigation-ko",
+      "headline": "“다른 사람들이 죽도록 내버려 둘 수 없었다” — Flydubai 조종사가 부조종사에 의한 조종실 공격을 설명하다",
+      "dek": "BBC는 조종사의 조종실 공격 관련 진술을 보도했고, DW는 UAE가 조사를 시작했다고 전했습니다.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "Flydubai 조종사가 부조종사에 의한 조종실 공격을 설명했습니다.",
+        "DW는 UAE가 납치 및 테러 조사를 시작했다고 보도했습니다.",
+        "수집된 보도만으로는 조사 결과나 사건의 최종 경위를 확정할 수 없습니다."
+      ],
+      "body": [
+        {
+          "text": "BBC 헤드라인은 조종실에서 부조종사의 공격이 있었다는 조종사의 진술을 전합니다. DW는 UAE가 납치 및 테러 조사를 시작했다고 별도로 보도했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이 사건은 항공 보안 조사와 승무원의 중대한 진술이 결합된 사안입니다. 현재 보도는 의혹과 조사 착수를 전하며, 최종 판단은 내리지 않았습니다.",
+      "editorNote": "책임 여부에 관한 결론은 제시하지 않고 보도 내용으로 귀속했습니다.",
+      "cluster": [
+        {
+          "url": "https://www.dw.com/en/uae-launches-flydubai-hijacking-and-terrorism-investigation/a-79497746?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "UAE launches Flydubai hijacking and terrorism investigation"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c639m98gde00o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "'I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by co-pilot",
+          "publishedAt": "2026-10-02T09:08:06.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.dw.com/en/uae-launches-flydubai-hijacking-and-terrorism-investigation/a-79497746?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "UAE launches Flydubai hijacking and terrorism investigation",
+          "publishedAt": "2026-10-01T10:06:00.000Z"
+        }
+      ],
+      "tags": [
+        "aviation-security",
+        "UAE"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "korean-border-landmine-blast-ko",
+      "headline": "지뢰 폭발로 군인 3명이 다친 뒤 남북한이 서로 비난하다",
+      "dek": "국경 인근 지뢰 폭발로 한국군 3명이 다친 뒤, 서울은 사과를 요구했고 양측 주장은 엇갈렸습니다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "North Korea와 South Korea 접경 지역의 지뢰 폭발로 군인 3명이 다쳤다고 보도됐습니다.",
+        "The Guardian에 따르면 서울은 North Korea에 사과를 요구했고, North Korea는 관여를 부인했습니다.",
+        "The Guardian은 두 Korea 간 외교 소통 채널이 작동하지 않는 상황이라고 전했습니다."
+      ],
+      "body": [
+        {
+          "text": "DW는 지뢰로 군인 3명이 다친 뒤 North Korea와 South Korea가 서로 비난했다고 보도했습니다. The Guardian은 서울이 사과를 요구했으며, 공동 조사에서 군사분계선 남쪽의 North Korean 지뢰가 확인됐다고 전했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The Guardian에 따르면 North Korea는 관여를 부인했습니다. 따라서 보도에 소개된 조사 결과에도 책임 소재는 여전히 다툼의 대상입니다.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 폭발은 중무장 국경과 양국 간 대화 재개 시도가 맞물린 안보·외교 사안입니다. 귀책 여부는 여전히 논쟁 중입니다.",
+      "editorNote": "귀책이 다투어지고 있음을 유지해 서술했습니다.",
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/world/2026/sep/30/south-korea-apology-north-korea-mine-injures-soldiers",
+          "source": "The Guardian",
+          "title": "South Korea calls for apology from North Korea after mine injures three soldiers"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.dw.com/en/north-and-south-korea-trade-accusations-over-landmines-that-injured-three-soldiers/a-79503854?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "North and South Korea trade accusations over landmines that injured three soldiers",
+          "publishedAt": "2026-10-01T13:57:00.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theguardian.com/world/2026/sep/30/south-korea-apology-north-korea-mine-injures-soldiers",
+          "source": "The Guardian",
+          "title": "South Korea calls for apology from North Korea after mine injures three soldiers",
+          "publishedAt": "2026-09-30T07:53:24.000Z"
+        }
+      ],
+      "tags": [
+        "Korean Peninsula",
+        "border-security"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ethiopia-conflict-spread-and-diplomacy-ko",
+      "headline": "에티오피아 전투가 티그라이 너머로 확산된 경로를 지도와 도표로 보다",
+      "dek": "보도는 티그라이 너머의 전투 확산과 에티오피아·에리트레아 관계 단절, 중재 가능성을 함께 다룹니다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "Al Jazeera는 에티오피아 전투가 티그라이 너머로 확산된 양상을 지도와 함께 보도했습니다.",
+        "BBC는 북부 분쟁이 격화되는 가운데 에티오피아와 에리트레아가 외교 관계를 끊었다고 전했습니다.",
+        "DW는 협상 중재 가능성을 다뤘으며, 휴전이나 중재 합의가 이뤄졌다는 근거는 없습니다."
+      ],
+      "body": [
+        {
+          "text": "Al Jazeera 보도는 전투가 티그라이 너머로 확산됐다고 설명합니다. BBC는 북부 분쟁 격화와 함께 에티오피아와 에리트레아의 외교 관계 단절을 별도로 전했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "DW는 교전 당사자들을 협상으로 이끌 수 있는 주체를 다뤘습니다. 종합하면 전투 확산과 외교적 긴장은 확인되지만, 대화 가능성은 아직 미해결 사안입니다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "전투의 확산과 이웃 국가 간 관계 단절이 겹치면서 지역 차원의 부담이 커지고 있습니다. 보도는 중재 가능성을 질문하지만 합의된 절차를 확인하지는 않습니다.",
+      "editorNote": "북부 에티오피아 분쟁 관련 보도를 묶었으며, 보도되지 않은 전황 세부사항은 추가하지 않았습니다.",
+      "cluster": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/crpd0d0jl0y0o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Ethiopia and Eritrea cut diplomatic ties as northern conflict escalates"
+        },
+        {
+          "url": "https://www.dw.com/en/ethiopia-who-could-bring-the-warring-sides-to-the-negotiation-table/a-79475529?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Ethiopia: Who could bring the warring sides to the negotiation table?"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.aljazeera.com/news/2026/10/2/how-the-fighting-in-ethiopia-spread-beyond-tigray-in-maps-and-charts?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "How the fighting in Ethiopia spread beyond Tigray, in maps and charts",
+          "publishedAt": "2026-10-02T07:17:02.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.bbc.co.uk/news/articles/crpd0d0jl0y0o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Ethiopia and Eritrea cut diplomatic ties as northern conflict escalates",
+          "publishedAt": "2026-10-02T08:01:10.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.dw.com/en/ethiopia-who-could-bring-the-warring-sides-to-the-negotiation-table/a-79475529?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Ethiopia: Who could bring the warring sides to the negotiation table?",
+          "publishedAt": "2026-10-02T09:00:00.000Z"
+        }
+      ],
+      "tags": [
+        "Ethiopia",
+        "Horn of Africa",
+        "conflict"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "renee-good-family-lawsuit-ko",
+      "headline": "Renee Good: ICE 요원에게 살해된 미국 여성의 가족이 Trump 관계자들을 상대로 소송을 제기하다",
+      "dek": "BBC와 DW에 따르면 Renee Good의 가족은 ICE 요원의 총격 사망 사건과 관련해 Trump 행정부 관계자들을 상대로 소송을 제기했습니다.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "Renee Good의 가족이 ICE 요원의 총격 사망과 관련해 Trump 행정부 관계자들을 상대로 소송을 제기했습니다.",
+        "BBC와 DW가 모두 소송 제기를 보도했습니다.",
+        "수집된 보도는 소장 접수를 전할 뿐 법원의 판단을 확정하지 않습니다."
+      ],
+      "body": [
+        {
+          "text": "BBC는 Renee Good의 가족이 ICE 요원에 의한 사망과 관련해 Trump 관계자들을 상대로 소송을 제기했다고 보도했습니다. DW도 사망 사건 관련 소송을 별도로 전했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 소송으로 연방 이민 단속 과정에서 발생한 사망 사건을 둘러싼 분쟁이 사법 절차로 넘어갔습니다. 현재 보도는 소 제기를 확인하지만 최종 법적 결과를 보여주지는 않습니다.",
+      "editorNote": "법원에 제기된 주장을 사실로 단정하거나 소송 결과를 예단하지 않았습니다.",
+      "cluster": [
+        {
+          "url": "https://www.dw.com/en/renee-good-s-family-sues-trump-admin-over-fatal-ice-shooting/a-79504836?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Renee Good's family sues Trump admin over fatal ICE shooting"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cwly7y5gvxlmo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Renee Good: Family of US woman killed by ICE agent sues Trump officials",
+          "publishedAt": "2026-10-01T20:30:47.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.dw.com/en/renee-good-s-family-sues-trump-admin-over-fatal-ice-shooting/a-79504836?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Renee Good's family sues Trump admin over fatal ICE shooting",
+          "publishedAt": "2026-10-01T14:43:00.000Z"
+        }
+      ],
+      "tags": [
+        "United States",
+        "immigration-enforcement",
+        "courts"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "date": "2026-10-02",
+  "generatedAt": "2026-10-02T10:00:45.105Z",
+  "vertical": "markets",
+  "lang": "en",
+  "title": "Signal Daily — Markets — 2026-10-02",
+  "summary": "Three developments met the cross-source gate today: Nike results, oil supply expectations and euro-area inflation. SEC EDGAR, Polymarket and market-data retrieval failed; FRED returned no items. This edition reports facts without investment advice.",
+  "stories": [
+    {
+      "slug": "nike-sales-china-and-restructuring",
+      "headline": "Nike shares drop as retailer posts disappointing sales, announces layoffs as part of restructuring",
+      "dek": "Nike's first-quarter sales decline and further workforce changes put its turnaround under pressure, with China again a weak region.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "Nike shares fell after the company reported disappointing sales and announced restructuring-related layoffs.",
+        "El País reported a 4.3% year-over-year sales decline for the fiscal first quarter and a 26% decline in China revenue.",
+        "The reports describe operational changes and weak results; they do not establish whether the restructuring will improve performance."
+      ],
+      "body": [
+        {
+          "text": "CNBC reports that Nike shares dropped after disappointing sales and a restructuring-related layoff announcement. El País also reports the first-quarter results and a further workforce adjustment.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "El País reports sales were down 4.3% year over year and China revenue was down 26%. These results and planned changes describe the company's current operating pressures; their future effect is not established by the cited reporting.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Nike's results connect consumer demand, China exposure and cost restructuring in a major global apparel business. The evidence supports reporting the pressure and planned response, but not a forecast of recovery.",
+      "editorNote": "Neutral reporting only; no investment recommendation or price target.",
+      "cluster": [
+        {
+          "url": "https://cincodias.elpais.com/companias/2026-10-02/nike-ultima-recortes-de-plantilla-tras-la-caida-de-beneficios-y-ventas-en-su-primer-trimestre-fiscal.html",
+          "source": "El País",
+          "title": "Nike ultima recortes de plantilla tras la caída de beneficios y ventas en su primer trimestre fiscal"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/01/nike-nke-q1-2027-earnings.html",
+          "source": "CNBC",
+          "title": "Nike shares drop as retailer posts disappointing sales, announces layoffs as part of restructuring",
+          "publishedAt": "2026-10-01T21:34:44.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://cincodias.elpais.com/companias/2026-10-02/nike-ultima-recortes-de-plantilla-tras-la-caida-de-beneficios-y-ventas-en-su-primer-trimestre-fiscal.html",
+          "source": "El País",
+          "title": "Nike ultima recortes de plantilla tras la caída de beneficios y ventas en su primer trimestre fiscal",
+          "publishedAt": "2026-10-02T07:48:45Z"
+        }
+      ],
+      "tags": [
+        "Nike",
+        "retail",
+        "earnings",
+        "restructuring"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "oil-falls-on-stock-release-reports",
+      "headline": "Oil prices fall over 3% on report of potential diesel, crude stock release; Brent back below $100",
+      "dek": "Oil prices moved lower as reports of possible stock releases met a market already weighing supply risks and geopolitical tensions.",
+      "type": "DATA",
+      "readMinutes": 3,
+      "tldr": [
+        "CNBC reported that oil prices fell over 3% and Brent moved below $100 after reports of potential diesel and crude stock releases.",
+        "Reuters reported a smaller retreat on Friday and described competing supply signals, including Middle Eastern flows and US–Iran tensions.",
+        "The coverage reflects changing reports and market conditions; it does not establish a final stock-release decision."
+      ],
+      "body": [
+        {
+          "text": "CNBC reported a fall of more than 3% and said Brent was back below $100 after reports about possible diesel and crude stock releases. Reuters' Friday account described oil retreating amid mixed supply signals.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The reports do not describe a confirmed release decision. Reuters also noted that geopolitical tensions and supply developments were pulling market expectations in different directions.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Possible releases of emergency fuel stocks can affect supply expectations, while geopolitical risks can offset that pressure. The cited reporting presents both forces and does not establish a settled policy outcome.",
+      "editorNote": "Prices and percentages are reported as stated in the source headlines; this item contains no trading signal.",
+      "cluster": [
+        {
+          "url": "https://www.marketscreener.com/news/oil-rises-slightly-as-market-weighs-mixed-supply-signals-ce785ddadd8ff526",
+          "source": "Reuters via MarketScreener",
+          "title": "Oil retreats as market weighs mixed supply signals"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/02/oil-wti-brent-diesel-stock-release-europe.html",
+          "source": "CNBC",
+          "title": "Oil prices fall over 3% on report of potential diesel, crude stock release; Brent back below $100",
+          "publishedAt": "2026-10-02T09:34:33.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.marketscreener.com/news/oil-rises-slightly-as-market-weighs-mixed-supply-signals-ce785ddadd8ff526",
+          "source": "Reuters via MarketScreener",
+          "title": "Oil retreats as market weighs mixed supply signals",
+          "publishedAt": "2026-10-02T06:41:00Z"
+        }
+      ],
+      "tags": [
+        "oil",
+        "Brent",
+        "energy-supply"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "eurozone-inflation-energy-costs",
+      "headline": "Eurozone inflation hits its highest level in three years at 3.8% as energy costs soar",
+      "dek": "Euro-area inflation rose to 3.8% in September as energy costs increased, according to CNBC and Reuters reporting.",
+      "type": "DATA",
+      "readMinutes": 3,
+      "tldr": [
+        "CNBC reported eurozone inflation at 3.8%, its highest level in three years.",
+        "Reuters reported an increase from 3.2% in August and said the reading exceeded its 3.6% poll expectation.",
+        "Both reports linked the acceleration mainly to energy costs; the data do not by themselves determine the European Central Bank's next decision."
+      ],
+      "body": [
+        {
+          "text": "CNBC reported September eurozone inflation of 3.8%, describing it as a three-year high. Reuters also reported 3.8%, up from 3.2% in August and above its 3.6% poll expectation.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Reuters attributed the increase primarily to fuel and natural gas, with food contributing to a lesser extent. The reports describe the inflation reading and its reported drivers; they do not establish the ECB's next policy action.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "A higher inflation reading alongside rising energy costs changes the policy context the ECB must assess. The next rate decision remains a separate outcome and is not determined by this data point alone.",
+      "editorNote": "Neutral macroeconomic reporting; no rate forecast or financial advice is offered.",
+      "cluster": [
+        {
+          "url": "https://ae.marketscreener.com/news/euro-zone-inflation-surges-keeping-pressure-on-ecb-to-hike-ce785ddadf8ef524",
+          "source": "Reuters via MarketScreener",
+          "title": "Euro zone inflation surges, keeping pressure on ECB to hike"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/02/eurozone-inflation-ecb.html",
+          "source": "CNBC",
+          "title": "Eurozone inflation hits its highest level in three years at 3.8% as energy costs soar",
+          "publishedAt": "2026-10-02T09:39:51.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://ae.marketscreener.com/news/euro-zone-inflation-surges-keeping-pressure-on-ecb-to-hike-ce785ddadf8ef524",
+          "source": "Reuters via MarketScreener",
+          "title": "Euro zone inflation surges, keeping pressure on ECB to hike",
+          "publishedAt": "2026-10-02"
+        }
+      ],
+      "tags": [
+        "eurozone",
+        "inflation",
+        "energy",
+        "ECB"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

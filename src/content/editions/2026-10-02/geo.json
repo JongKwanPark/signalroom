@@ -1,0 +1,242 @@
+{
+  "date": "2026-10-02",
+  "generatedAt": "2026-10-02T10:00:45.105Z",
+  "vertical": "geo",
+  "lang": "en",
+  "title": "Signal Daily — Geo — 2026-10-02",
+  "summary": "Four developments met the cross-source gate today, spanning Korean Peninsula tensions, Ethiopia, aviation security and a US court filing. GDELT and ISW were unavailable, and ReliefWeb returned no items.",
+  "stories": [
+    {
+      "slug": "flydubai-cockpit-attack-investigation",
+      "headline": "'I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by co-pilot",
+      "dek": "BBC reporting describes a pilot's account of a cockpit attack; DW reports that the UAE opened an investigation.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "A Flydubai pilot described an attack by a co-pilot in the cockpit.",
+        "DW reported that the UAE launched a hijacking and terrorism investigation.",
+        "The collected reports do not establish an investigative finding or final account of the incident."
+      ],
+      "body": [
+        {
+          "text": "The BBC headline reports the pilot's account of a co-pilot attack in the cockpit. DW separately reports that the UAE opened a hijacking and terrorism investigation.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The case combines an aviation-security investigation with a consequential account from the flight crew. The available reporting records allegations and an inquiry, not a final determination.",
+      "editorNote": "Claims are attributed to the reporting; no conclusion about responsibility is stated.",
+      "cluster": [
+        {
+          "url": "https://www.dw.com/en/uae-launches-flydubai-hijacking-and-terrorism-investigation/a-79497746?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "UAE launches Flydubai hijacking and terrorism investigation"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c639m98gde00o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "'I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by co-pilot",
+          "publishedAt": "2026-10-02T09:08:06.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.dw.com/en/uae-launches-flydubai-hijacking-and-terrorism-investigation/a-79497746?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "UAE launches Flydubai hijacking and terrorism investigation",
+          "publishedAt": "2026-10-01T10:06:00.000Z"
+        }
+      ],
+      "tags": [
+        "aviation-security",
+        "UAE"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "korean-border-landmine-blast",
+      "headline": "North and South Korea trade accusations over landmines that injured three soldiers",
+      "dek": "A landmine blast that injured three South Korean soldiers has prompted competing claims and a demand from Seoul for an apology.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "South Korea says a landmine blast injured three soldiers near the border.",
+        "Seoul called on North Korea to apologize; North Korea denied involvement, according to The Guardian.",
+        "The incident adds to tensions while diplomatic communication channels between the two Koreas remain absent, The Guardian reports."
+      ],
+      "body": [
+        {
+          "text": "DW reports that North and South Korea exchanged accusations after landmines injured three soldiers. The Guardian says Seoul demanded an apology and described a joint investigation that identified a live North Korean mine south of the military demarcation line.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The Guardian reports that North Korea denied involvement. The cause and responsibility therefore remain disputed in the reporting, despite the investigation findings described by Seoul and the UN Command.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The blast has both security and diplomatic implications: it touches a heavily militarized border and comes amid efforts to reopen channels between the two governments. Attribution remains contested.",
+      "editorNote": "Attribution is explicitly disputed; the headline and body preserve that uncertainty.",
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/world/2026/sep/30/south-korea-apology-north-korea-mine-injures-soldiers",
+          "source": "The Guardian",
+          "title": "South Korea calls for apology from North Korea after mine injures three soldiers"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.dw.com/en/north-and-south-korea-trade-accusations-over-landmines-that-injured-three-soldiers/a-79503854?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "North and South Korea trade accusations over landmines that injured three soldiers",
+          "publishedAt": "2026-10-01T13:57:00.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theguardian.com/world/2026/sep/30/south-korea-apology-north-korea-mine-injures-soldiers",
+          "source": "The Guardian",
+          "title": "South Korea calls for apology from North Korea after mine injures three soldiers",
+          "publishedAt": "2026-09-30T07:53:24.000Z"
+        }
+      ],
+      "tags": [
+        "Korean Peninsula",
+        "border-security"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ethiopia-conflict-spread-and-diplomacy",
+      "headline": "How the fighting in Ethiopia spread beyond Tigray, in maps and charts",
+      "dek": "Coverage links reports of fighting beyond Tigray with a rupture in Ethiopia–Eritrea relations and renewed questions about mediation.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "Al Jazeera mapped how fighting in Ethiopia spread beyond Tigray.",
+        "BBC reported that Ethiopia and Eritrea cut diplomatic ties as the northern conflict escalated.",
+        "DW examined possible routes to negotiations; the collected headlines do not establish a ceasefire or mediation agreement."
+      ],
+      "body": [
+        {
+          "text": "Al Jazeera's report describes fighting spreading beyond Tigray. BBC separately reports that Ethiopia and Eritrea cut diplomatic ties as the northern conflict escalated.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "DW's coverage focuses on who might bring the warring sides to negotiations. Together, the reports show conflict expansion and diplomatic strain, while leaving the prospects for talks unresolved.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "The combination of conflict spreading and a breakdown in neighboring-state relations raises the regional stakes. The available reports point to mediation as an open question, not an agreed process.",
+      "editorNote": "Related coverage is grouped around the same northern Ethiopia conflict; no unreported battlefield detail is added.",
+      "cluster": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/crpd0d0jl0y0o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Ethiopia and Eritrea cut diplomatic ties as northern conflict escalates"
+        },
+        {
+          "url": "https://www.dw.com/en/ethiopia-who-could-bring-the-warring-sides-to-the-negotiation-table/a-79475529?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Ethiopia: Who could bring the warring sides to the negotiation table?"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.aljazeera.com/news/2026/10/2/how-the-fighting-in-ethiopia-spread-beyond-tigray-in-maps-and-charts?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "How the fighting in Ethiopia spread beyond Tigray, in maps and charts",
+          "publishedAt": "2026-10-02T07:17:02.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.bbc.co.uk/news/articles/crpd0d0jl0y0o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Ethiopia and Eritrea cut diplomatic ties as northern conflict escalates",
+          "publishedAt": "2026-10-02T08:01:10.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.dw.com/en/ethiopia-who-could-bring-the-warring-sides-to-the-negotiation-table/a-79475529?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Ethiopia: Who could bring the warring sides to the negotiation table?",
+          "publishedAt": "2026-10-02T09:00:00.000Z"
+        }
+      ],
+      "tags": [
+        "Ethiopia",
+        "Horn of Africa",
+        "conflict"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "renee-good-family-lawsuit",
+      "headline": "Renee Good: Family of US woman killed by ICE agent sues Trump officials",
+      "dek": "The family of Renee Good filed a lawsuit against Trump administration officials over her fatal shooting by an ICE agent, according to BBC and DW.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "Renee Good's family sued Trump administration officials over her fatal shooting by an ICE agent.",
+        "BBC and DW both report the lawsuit.",
+        "The collected coverage reports the filing; it does not resolve the claims in court."
+      ],
+      "body": [
+        {
+          "text": "BBC reports that Renee Good's family sued Trump officials over her killing by an ICE agent. DW independently reports the lawsuit over the fatal shooting.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The case moves a dispute over a fatal federal immigration-enforcement incident into litigation. The reporting establishes the filing, not the eventual legal outcome.",
+      "editorNote": "Legal claims are described as allegations in a filed case; no outcome is implied.",
+      "cluster": [
+        {
+          "url": "https://www.dw.com/en/renee-good-s-family-sues-trump-admin-over-fatal-ice-shooting/a-79504836?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Renee Good's family sues Trump admin over fatal ICE shooting"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cwly7y5gvxlmo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Renee Good: Family of US woman killed by ICE agent sues Trump officials",
+          "publishedAt": "2026-10-01T20:30:47.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.dw.com/en/renee-good-s-family-sues-trump-admin-over-fatal-ice-shooting/a-79504836?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "Renee Good's family sues Trump admin over fatal ICE shooting",
+          "publishedAt": "2026-10-01T14:43:00.000Z"
+        }
+      ],
+      "tags": [
+        "United States",
+        "immigration-enforcement",
+        "courts"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

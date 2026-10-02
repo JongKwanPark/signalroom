@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-02",
+  "generatedAt": "2026-10-02T10:00:45.105Z",
+  "vertical": "bio",
+  "lang": "en",
+  "title": "Signal Daily — Bio — 2026-10-02",
+  "summary": "Thin edition: one preclinical development met the evidence and independent-source gates. Most other collected records lacked independent reporting on the same development; no clinical advice is offered.",
+  "stories": [
+    {
+      "slug": "targeted-niclosamide-endometriosis-mice",
+      "headline": "2-Deoxyglucose Dendrimer-Enabled Niclosamide Delivery to FRβ-Expressing Macrophages Alleviates Endometriosis Progression and Associated Hyperalgesia",
+      "dek": "A targeted niclosamide formulation reduced lesion burden and pain-associated behavior in a mouse model; human efficacy remains untested.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "Researchers reported a dendrimer formulation designed to deliver niclosamide to FRβ-expressing macrophages.",
+        "In a mouse model, the formulation reduced endometriosis lesion number and volume and improved pain-associated behavior two weeks after treatment.",
+        "The result is preclinical; the cited research does not establish safety or efficacy in people."
+      ],
+      "body": [
+        {
+          "text": "The study reports a targeted 2-deoxyglucose dendrimer carrying niclosamide and describes testing in a mouse model of endometriosis. The researchers report reduced lesion number and volume and improved hyperalgesia after treatment.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Nature's coverage identifies the work as a mouse study and notes that replication in people would be needed before it could support a human treatment claim. Phys.org also reports the research as an early-stage, preclinical result.",
+          "citations": [
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "The work explores a nonhormonal, targeted delivery approach in a disease area where treatment options remain limited. Its translational significance depends on follow-up evidence in people; the current result is confined to mice.",
+      "editorNote": "This is an animal study, not evidence of human benefit. TODO-review: glossary does not yet list 'endometriosis' (proposed Korean term: 자궁내막증).",
+      "cluster": [
+        {
+          "url": "https://www.nature.com/articles/d41586-026-03042-x",
+          "source": "Nature",
+          "title": "The ‘missed disease’ that affects 190 million: endometriosis drug shows early promise"
+        },
+        {
+          "url": "https://phys.org/news/2026-09-nanoparticle-drug-delivery-method-treatment.html",
+          "source": "Phys.org",
+          "title": "New nanoparticle drug-delivery method may improve treatment for endometriosis"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adhm.71661",
+          "source": "Advanced Healthcare Materials",
+          "title": "2-Deoxyglucose Dendrimer-Enabled Niclosamide Delivery to FRβ-Expressing Macrophages Alleviates Endometriosis Progression and Associated Hyperalgesia",
+          "publishedAt": "2026-08-30"
+        },
+        {
+          "id": 2,
+          "url": "https://www.nature.com/articles/d41586-026-03042-x",
+          "source": "Nature",
+          "title": "The ‘missed disease’ that affects 190 million: endometriosis drug shows early promise",
+          "publishedAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://phys.org/news/2026-09-nanoparticle-drug-delivery-method-treatment.html",
+          "source": "Phys.org",
+          "title": "New nanoparticle drug-delivery method may improve treatment for endometriosis"
+        }
+      ],
+      "tags": [
+        "endometriosis",
+        "drug-delivery",
+        "preclinical"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

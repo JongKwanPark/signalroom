@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-02",
+  "generatedAt": "2026-10-02T10:00:45.105Z",
+  "vertical": "ai",
+  "lang": "en",
+  "title": "Signal Daily — AI — 2026-10-02",
+  "summary": "Thin edition: one story met the cross-source and relevance gates today. arXiv announced a change to submission rate limits; several collection sources were unavailable or returned no items.",
+  "stories": [
+    {
+      "slug": "arxiv-submission-rate-policy",
+      "headline": "ArXiv's Updated Rate Limit Policy",
+      "dek": "arXiv announced a new submission rate-limit policy, framing it as a temporary response to rising submissions and moderation capacity.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "arXiv announced an updated rate-limit policy for submissions.",
+        "The repository described the change as a stopgap while it reviews practices around AI-assisted submissions and improves moderation tools.",
+        "Terence Tao separately discussed the policy, while the collected material does not establish its longer-term effects."
+      ],
+      "body": [
+        {
+          "text": "arXiv's October 1 announcement says the updated submission limits apply across submitters and categories as a temporary measure while the repository reviews practices for AI-assisted work and improves its moderation processes.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Terence Tao also covered the policy on his blog. The available sources establish the announcement and its stated rationale, but do not yet show how the limit will affect submission patterns or moderation outcomes.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The policy directly changes the operating rules of a major preprint repository as AI tools lower the practical barriers to producing manuscripts. Its stated temporary status leaves the eventual moderation approach open.",
+      "editorNote": "Headline follows arXiv's announcement. TODO-review: glossary does not yet specify a Korean rendering for 'rate limit'.",
+      "cluster": [
+        {
+          "url": "https://terrytao.wordpress.com/2026/10/01/arxiv-updates-its-rate-limiting-policy/",
+          "source": "Terence Tao",
+          "title": "ArXiv updates its rate limiting policy"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/",
+          "source": "arXiv",
+          "title": "ArXiv's Updated Rate Limit Policy",
+          "publishedAt": "2026-10-01T20:12:15Z"
+        },
+        {
+          "id": 2,
+          "url": "https://terrytao.wordpress.com/2026/10/01/arxiv-updates-its-rate-limiting-policy/",
+          "source": "Terence Tao",
+          "title": "ArXiv updates its rate limiting policy",
+          "publishedAt": "2026-10-02T02:20:51Z"
+        }
+      ],
+      "tags": [
+        "arXiv",
+        "research-integrity",
+        "AI"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

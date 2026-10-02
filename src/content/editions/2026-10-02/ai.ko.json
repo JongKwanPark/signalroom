@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-02",
+  "generatedAt": "2026-10-02T10:00:45.105Z",
+  "vertical": "ai",
+  "lang": "ko",
+  "title": "시그널 데일리 — AI — 2026-10-02",
+  "summary": "얇은 에디션입니다. 오늘 교차 출처와 분야 적합성 기준을 충족한 기사는 1건입니다. arXiv가 제출 횟수 제한 정책 변경을 발표했으며, 일부 수집 출처는 이용할 수 없거나 결과가 없었습니다.",
+  "stories": [
+    {
+      "slug": "arxiv-submission-rate-policy-ko",
+      "headline": "공정한 심사, 동등한 접근, AI: arXiv의 제출 제한 정책 개정",
+      "dek": "arXiv가 새로운 논문 제출 제한 정책을 발표하며, 제출 증가와 심사 역량에 대응하기 위한 임시 조치라고 설명했습니다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "arXiv가 논문 제출 제한 정책을 개정한다고 발표했습니다.",
+        "저장소는 AI 보조 연구 제출 관행을 검토하고 심사 도구를 개선하는 동안 이 정책을 임시 조치로 설명했습니다.",
+        "Terence Tao도 별도 글에서 이 정책을 다뤘지만, 수집 자료만으로 장기 효과를 확인할 수는 없습니다."
+      ],
+      "body": [
+        {
+          "text": "arXiv의 October 1st, 2026 공지는 모든 제출자와 분야에 적용되는 업데이트된 제출 제한을 임시 조치로 설명했습니다. 저장소는 AI 도구를 활용한 연구 제출 관행을 검토하고 심사 절차를 개선하겠다고 밝혔습니다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Terence Tao도 블로그에서 이 정책을 다뤘습니다. 확인 가능한 출처는 발표와 명시된 배경을 뒷받침하지만, 제출 양상이나 심사 결과에 미칠 영향은 아직 보여주지 않습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이 정책은 AI 도구로 원고 작성의 실무 장벽이 낮아지는 가운데 주요 프리프린트 저장소의 운영 규칙을 직접 바꿉니다. 정책이 임시 조치로 제시된 만큼, 이후의 심사 방식은 아직 정해지지 않았습니다.",
+      "editorNote": "헤드라인은 arXiv 발표를 번역했습니다. TODO-review: 용어집에 'rate limit'의 한국어 표기가 없습니다.",
+      "cluster": [
+        {
+          "url": "https://terrytao.wordpress.com/2026/10/01/arxiv-updates-its-rate-limiting-policy/",
+          "source": "Terence Tao",
+          "title": "ArXiv updates its rate limiting policy"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/",
+          "source": "arXiv",
+          "title": "ArXiv's Updated Rate Limit Policy",
+          "publishedAt": "2026-10-01T20:12:15Z"
+        },
+        {
+          "id": 2,
+          "url": "https://terrytao.wordpress.com/2026/10/01/arxiv-updates-its-rate-limiting-policy/",
+          "source": "Terence Tao",
+          "title": "ArXiv updates its rate limiting policy",
+          "publishedAt": "2026-10-02T02:20:51Z"
+        }
+      ],
+      "tags": [
+        "arXiv",
+        "research-integrity",
+        "AI"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

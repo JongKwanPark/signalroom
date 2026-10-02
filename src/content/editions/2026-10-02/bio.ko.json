@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-02",
+  "generatedAt": "2026-10-02T10:00:45.105Z",
+  "vertical": "bio",
+  "lang": "ko",
+  "title": "시그널 데일리 — Bio — 2026-10-02",
+  "summary": "얇은 에디션입니다. 근거와 독립 출처 기준을 충족한 전임상 연구 1건을 실었습니다. 그 밖의 수집 기록은 같은 개발을 다룬 독립 보도가 부족했습니다. 임상 조언은 포함하지 않습니다.",
+  "stories": [
+    {
+      "slug": "targeted-niclosamide-endometriosis-mice-ko",
+      "headline": "FRβ 발현 대식세포 표적 2-Deoxyglucose 덴드리머형 니클로사마이드 전달로 자궁내막증 진행과 관련 통각과민 완화",
+      "dek": "자궁내막증 생쥐 모델에서 표적 니클로사마이드 제형이 병변 부담과 통증 관련 행동을 줄였습니다. 사람에서의 효능은 검증되지 않았습니다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "연구진은 FRβ 발현 대식세포에 니클로사마이드를 전달하도록 설계한 덴드리머 제형을 보고했습니다.",
+        "생쥐 모델에서 이 제형은 치료 2주 뒤 자궁내막증 병변 수와 부피를 줄이고 통증 관련 행동을 개선했습니다.",
+        "이번 결과는 전임상 단계이며, 인용된 연구는 사람에서의 안전성이나 효능을 입증하지 않습니다."
+      ],
+      "body": [
+        {
+          "text": "이 연구는 니클로사마이드를 탑재한 표적 2-deoxyglucose 덴드리머 제형을 보고하고 자궁내막증 생쥐 모델에서 평가했습니다. 연구진은 치료 후 병변 수와 부피가 감소하고 통각과민이 개선됐다고 보고했습니다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Nature는 이 연구가 생쥐 대상이며 사람에서 재현돼야 사람 치료에 관한 근거가 될 수 있다고 설명했습니다. Phys.org도 이 연구를 초기 전임상 결과로 보도했습니다.",
+          "citations": [
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "이 연구는 치료 선택지가 제한된 질환에서 비호르몬 표적 전달 접근법을 탐색합니다. 사람 대상 후속 근거가 확보돼야 임상적 의미를 판단할 수 있으며, 현재 결과는 생쥐 연구에 한정됩니다.",
+      "editorNote": "동물 대상 연구로 사람에게 효과가 있다는 증거는 아닙니다. TODO-review: 용어집에 자궁내막증(endometriosis)이 없습니다.",
+      "cluster": [
+        {
+          "url": "https://www.nature.com/articles/d41586-026-03042-x",
+          "source": "Nature",
+          "title": "The ‘missed disease’ that affects 190 million: endometriosis drug shows early promise"
+        },
+        {
+          "url": "https://phys.org/news/2026-09-nanoparticle-drug-delivery-method-treatment.html",
+          "source": "Phys.org",
+          "title": "New nanoparticle drug-delivery method may improve treatment for endometriosis"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adhm.71661",
+          "source": "Advanced Healthcare Materials",
+          "title": "2-Deoxyglucose Dendrimer-Enabled Niclosamide Delivery to FRβ-Expressing Macrophages Alleviates Endometriosis Progression and Associated Hyperalgesia",
+          "publishedAt": "2026-08-30"
+        },
+        {
+          "id": 2,
+          "url": "https://www.nature.com/articles/d41586-026-03042-x",
+          "source": "Nature",
+          "title": "The ‘missed disease’ that affects 190 million: endometriosis drug shows early promise",
+          "publishedAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://phys.org/news/2026-09-nanoparticle-drug-delivery-method-treatment.html",
+          "source": "Phys.org",
+          "title": "New nanoparticle drug-delivery method may improve treatment for endometriosis"
+        }
+      ],
+      "tags": [
+        "endometriosis",
+        "drug-delivery",
+        "preclinical"
+      ],
+      "confidence": "high"
+    }
+  ]
+}
