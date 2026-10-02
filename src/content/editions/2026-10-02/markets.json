@@ -4,7 +4,7 @@
   "vertical": "markets",
   "lang": "en",
   "title": "Signal Daily — Markets — 2026-10-02",
-  "summary": "Three developments met the cross-source gate today: Nike results, oil supply expectations and euro-area inflation. SEC EDGAR, Polymarket and market-data retrieval failed; FRED returned no items. This edition reports facts without investment advice.",
+  "summary": "Four developments met the evidence and independence gates: Nike results, oil-supply expectations, euro-area inflation and the September U.S. employment report. This is a thin edition; most other collected records were stale, duplicative or lacked suitable independent coverage. SEC EDGAR and market-data retrieval failed, Polymarket was unavailable, and FRED returned no items. This edition reports facts without investment advice.",
   "stories": [
     {
       "slug": "nike-sales-china-and-restructuring",
@@ -181,6 +181,79 @@
         "ECB"
       ],
       "confidence": "medium"
+    },
+    {
+      "slug": "september-us-employment-situation",
+      "headline": "THE EMPLOYMENT SITUATION - SEPTEMBER 2026",
+      "dek": "U.S. nonfarm payroll employment changed little in September, while the unemployment rate held at 4.2 percent, according to the Bureau of Labor Statistics.",
+      "type": "DATA",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "U.S. nonfarm payroll employment increased by 29,000 in September, and the unemployment rate was 4.2 percent.",
+        "The Bureau of Labor Statistics revised July and August payroll changes down by a combined 60,000.",
+        "The report described employment across major industries as little changed, with health care adding 17,000 jobs."
+      ],
+      "body": [
+        {
+          "text": "The Bureau of Labor Statistics reported that nonfarm payroll employment increased by 29,000 in September and the unemployment rate was 4.2 percent. The agency said employment in all major industries changed little during the month.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The agency revised July payroll growth from 21,000 to a decline of 10,000 and August growth from 162,000 to 133,000, leaving the two months a combined 60,000 lower than previously reported. Health care employment rose by 17,000, while the report described changes in other major sectors as limited.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "The report combines modest current payroll growth with sizable downward revisions to the prior two months, changing the recent employment baseline used in public and policy discussions. It is an official monthly labor-market release; the figures alone do not establish the direction of future rates or asset prices.",
+      "editorNote": "Headline follows the Bureau of Labor Statistics release. Figures and revisions are taken from the primary release; no market forecast or investment recommendation is included.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/a2b99562febc21d84955e243c87f5d31",
+          "source": "The Associated Press",
+          "title": "US stocks rise near their record after the latest jobs report eases worries about inflation"
+        },
+        {
+          "url": "https://www.washingtonpost.com/business/2026/10/02/us-economy-added-29000-jobs-september-missing-estimates/",
+          "source": "The Washington Post",
+          "title": "U.S. economy added 29,000 jobs in September, missing estimates"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bls.gov/news.release/archives/empsit_10022026.htm",
+          "source": "U.S. Bureau of Labor Statistics",
+          "title": "THE EMPLOYMENT SITUATION - SEPTEMBER 2026",
+          "publishedAt": "2026-10-02"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/a2b99562febc21d84955e243c87f5d31",
+          "source": "The Associated Press",
+          "title": "US stocks rise near their record after the latest jobs report eases worries about inflation",
+          "publishedAt": "2026-10-02"
+        },
+        {
+          "id": 3,
+          "url": "https://www.washingtonpost.com/business/2026/10/02/us-economy-added-29000-jobs-september-missing-estimates/",
+          "source": "The Washington Post",
+          "title": "U.S. economy added 29,000 jobs in September, missing estimates",
+          "publishedAt": "2026-10-02"
+        }
+      ],
+      "tags": [
+        "labor market",
+        "employment",
+        "United States",
+        "BLS"
+      ],
+      "confidence": "high"
     }
   ]
 }

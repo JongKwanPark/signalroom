@@ -4,7 +4,7 @@
   "vertical": "ai",
   "lang": "ko",
   "title": "시그널 데일리 — AI — 2026-10-02",
-  "summary": "오늘 기사는 3건입니다. Epoch AI는 일정 수준의 AI 성능에 도달하는 비용이 분기당 약 47% 줄었다고 추정합니다. arXiv는 제출 제한 정책을 개정했습니다. Yedhu Krishnan의 기고와 개발자 토론은 AI 시대에도 커밋 설명을 사고 도구로서 개발자가 직접 작성해야 하는 이유를 다룹니다.",
+  "summary": "증거와 출처 독립성 기준을 충족한 4편을 담았습니다. Epoch AI는 일정한 AI 성능에 도달하는 비용이 분기마다 약 47% 하락했다고 추정했습니다. arXiv는 제출 속도 제한을 바꿨고, 개발자 에세이는 커밋 설명을 사고 도구로 보는 관점을 다뤘습니다. Apple은 AI 에이전트의 위험이 커지고 있다며 전체 디스크 접근 권한에 추가 제어를 도입하겠다고 밝혔습니다. 그 밖의 수집 항목은 독립 보도가 부족하거나 충분히 문서화된 변화가 아니었습니다.",
   "stories": [
     {
       "slug": "plunging-price-of-ai-performance-ko",
@@ -197,6 +197,79 @@
         "developer-tools",
         "software-engineering",
         "git"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "apple-full-disk-access-controls-ko",
+      "headline": "macOS의 전체 디스크 접근 권한 변경",
+      "dek": "Apple은 점점 자율화되는 AI 에이전트의 위험을 언급하며, 앱에 광범위한 접근 권한을 부여하기 전에 추가 제어를 도입하겠다고 밝혔습니다.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "Apple은 macOS에서 앱에 전체 디스크 접근 권한을 부여하기 전에 추가 제어를 도입하겠다고 밝혔습니다.",
+        "회사는 이 권한이 파일, 메일, 메시지와 검색 기록을 노출할 수 있으며 사용자와 대화하는 사람들의 정보에도 영향을 줄 수 있다고 설명했습니다.",
+        "Apple은 점점 더 능력과 자율성이 커지는 AI 에이전트와 관련된 위험을 언급했지만, 적용 시점이나 구체적인 제어 방식은 공개하지 않았습니다."
+      ],
+      "body": [
+        {
+          "text": "Apple은 전체 디스크 접근 권한이 macOS의 개인정보 보호 제어를 우회할 수 있으며, 사용자가 권한 범위를 충분히 이해하지 못한 채 허용하면 파일, 메일, 메시지와 검색 기록이 노출될 수 있다고 밝혔습니다. 또한 통신 앱의 접근은 사용자와 대화하는 사람들의 개인정보에도 영향을 줄 수 있다고 설명했습니다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Apple은 이 수준의 접근 권한을 부여할 때 명시적인 사용자 동의가 필요하도록 추가 제어를 도입하겠다고 밝혔습니다. 회사는 AI 에이전트의 능력과 자율성이 커지는 점을 위험 요인으로 들었지만, 적용 시점이나 제어 방식은 구체적으로 밝히지 않았습니다. The Verge와 Daring Fireball도 이 발표를 별도로 보도했습니다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "로컬 파일과 통신 내용 전반에서 작동하는 AI 에이전트가 늘면서 운영체제 권한은 제품과 플랫폼 거버넌스의 문제가 되고 있습니다. Apple은 정책 변경 방향을 발표했지만, 실제 영향은 구체적인 제어 기능이 배포된 뒤에 판단할 수 있습니다.",
+      "editorNote": "헤드라인과 핵심 사실은 Apple Developer News를 따랐습니다. 추가 제어의 내용과 일정은 아직 공개되지 않았으며, 이미 적용됐다고 서술하지 않았습니다.",
+      "cluster": [
+        {
+          "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+          "source": "The Verge",
+          "title": "Apple will limit Mac disk access as AI agents 'substantially' increase risk"
+        },
+        {
+          "url": "https://daringfireball.net/2026/10/apple_full_disk_access",
+          "source": "Daring Fireball",
+          "title": "Apple Is Going to Further Tighten the Screws on Full Disk Access on MacOS, in Response to Agentic AI Apps Running Amok"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://developer.apple.com/news/?id=p6zjojqw",
+          "source": "Apple Developer News",
+          "title": "Updates to Full Disk Access in macOS",
+          "publishedAt": "2026-10-02"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+          "source": "The Verge",
+          "title": "Apple will limit Mac disk access as AI agents 'substantially' increase risk",
+          "publishedAt": "2026-10-02"
+        },
+        {
+          "id": 3,
+          "url": "https://daringfireball.net/2026/10/apple_full_disk_access",
+          "source": "Daring Fireball",
+          "title": "Apple Is Going to Further Tighten the Screws on Full Disk Access on MacOS, in Response to Agentic AI Apps Running Amok",
+          "publishedAt": "2026-10-02"
+        }
+      ],
+      "tags": [
+        "Apple",
+        "macOS",
+        "AI agents",
+        "privacy"
       ],
       "confidence": "high"
     }

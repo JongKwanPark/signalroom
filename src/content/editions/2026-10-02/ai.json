@@ -4,7 +4,7 @@
   "vertical": "ai",
   "lang": "en",
   "title": "Signal Daily — AI — 2026-10-02",
-  "summary": "Three stories. Epoch AI estimates that the cost of a fixed level of AI performance has fallen about 47% per quarter. arXiv announced a change to submission rate limits. An essay by Yedhu Krishnan and an accompanying developer discussion examine why engineers should write commit descriptions themselves as a thinking tool rather than delegating them to AI.",
+  "summary": "Four stories passed the evidence and independence gates. Epoch AI estimates that the cost of a fixed level of AI performance has fallen about 47% per quarter; arXiv changed submission rate limits; a developer essay examines commit descriptions as a thinking tool; and Apple announced additional controls for Full Disk Access amid rising AI-agent risks. Other collected AI items lacked independently reported coverage or a sufficiently documented development.",
   "stories": [
     {
       "slug": "plunging-price-of-ai-performance",
@@ -197,6 +197,79 @@
         "developer-tools",
         "software-engineering",
         "git"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "apple-full-disk-access-controls",
+      "headline": "Updates to Full Disk Access in macOS",
+      "dek": "Apple says it will add explicit controls before apps can receive broad access to files, mail, messages and browsing history, citing growing risks from increasingly autonomous AI agents.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "Apple said it will introduce additional controls before users grant apps Full Disk Access on macOS.",
+        "The company said this permission can expose files, mail, messages and browsing history, including information about people communicating with the user.",
+        "Apple linked the risk to increasingly capable and autonomous AI agents but did not give a rollout date or describe the controls."
+      ],
+      "body": [
+        {
+          "text": "Apple said Full Disk Access can bypass macOS privacy controls and expose files, mail, messages and browsing history when users grant it without fully understanding the scope. The company also said access by communication apps can affect the privacy of people communicating with the user.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Apple said it will introduce additional controls so that granting this level of access requires explicit user action. It tied the planned change to the growing capabilities and autonomy of AI agents, but did not specify a release date or the design of the controls. The Verge and Daring Fireball separately reported on the announcement.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "AI agents that operate across local files and communications make operating-system permissions a product and platform-governance issue. Apple has announced a change in direction, but the practical effect will depend on the controls it eventually ships.",
+      "editorNote": "Headline follows Apple Developer News. The promised controls are not yet described or dated; this story does not imply they have shipped.",
+      "cluster": [
+        {
+          "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+          "source": "The Verge",
+          "title": "Apple will limit Mac disk access as AI agents 'substantially' increase risk"
+        },
+        {
+          "url": "https://daringfireball.net/2026/10/apple_full_disk_access",
+          "source": "Daring Fireball",
+          "title": "Apple Is Going to Further Tighten the Screws on Full Disk Access on MacOS, in Response to Agentic AI Apps Running Amok"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://developer.apple.com/news/?id=p6zjojqw",
+          "source": "Apple Developer News",
+          "title": "Updates to Full Disk Access in macOS",
+          "publishedAt": "2026-10-02"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+          "source": "The Verge",
+          "title": "Apple will limit Mac disk access as AI agents 'substantially' increase risk",
+          "publishedAt": "2026-10-02"
+        },
+        {
+          "id": 3,
+          "url": "https://daringfireball.net/2026/10/apple_full_disk_access",
+          "source": "Daring Fireball",
+          "title": "Apple Is Going to Further Tighten the Screws on Full Disk Access on MacOS, in Response to Agentic AI Apps Running Amok",
+          "publishedAt": "2026-10-02"
+        }
+      ],
+      "tags": [
+        "Apple",
+        "macOS",
+        "AI agents",
+        "privacy"
       ],
       "confidence": "high"
     }

@@ -4,7 +4,7 @@
   "vertical": "markets",
   "lang": "ko",
   "title": "시그널 데일리 — Markets — 2026-10-02",
-  "summary": "오늘은 Nike 실적, 원유 공급 전망, 유로존 물가를 다룬 3건이 교차 출처 기준을 충족했습니다. SEC EDGAR·Polymarket·시장 데이터 수집에 실패했고 FRED 결과는 없었습니다. 투자 조언은 포함하지 않습니다.",
+  "summary": "오늘은 Nike 실적, 원유 공급 전망, 유로존 물가, 9월 미국 고용보고서 등 4건이 증거와 출처 독립성 기준을 충족했습니다. 얇은 판입니다. 그 밖의 수집 자료는 오래됐거나 중복됐고, 적절한 독립 보도가 부족했습니다. SEC EDGAR와 시장 데이터 수집에 실패했고 Polymarket은 이용할 수 없었으며 FRED 항목은 없었습니다. 이 판은 투자 조언 없이 확인된 사실을 전합니다.",
   "stories": [
     {
       "slug": "nike-sales-china-and-restructuring-ko",
@@ -181,6 +181,79 @@
         "ECB"
       ],
       "confidence": "medium"
+    },
+    {
+      "slug": "september-us-employment-situation-ko",
+      "headline": "2026년 9월 고용 상황",
+      "dek": "미국 노동통계국에 따르면 9월 비농업 부문 고용은 거의 변하지 않았고 실업률은 4.2 percent였습니다.",
+      "type": "DATA",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "미국의 9월 비농업 부문 고용은 29,000명 증가했고 실업률은 4.2 percent였습니다.",
+        "미국 노동통계국은 7월과 8월의 고용 변화를 합계 60,000명 하향 조정했습니다.",
+        "보고서는 주요 산업 전반의 고용이 거의 변하지 않았으며 보건의료 부문에서는 17,000명이 늘었다고 밝혔습니다."
+      ],
+      "body": [
+        {
+          "text": "미국 노동통계국은 9월 비농업 부문 고용이 29,000명 증가했고 실업률은 4.2 percent였다고 발표했습니다. 기관은 한 달 동안 주요 산업 전반의 고용 변화가 크지 않았다고 밝혔습니다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "기관은 7월 고용 증가분을 21,000명에서 10,000명 감소로, 8월 증가분을 162,000명에서 133,000명으로 수정해 두 달 합계가 기존 발표보다 60,000명 낮아졌다고 밝혔습니다. 보건의료 고용은 17,000명 늘었고, 다른 주요 부문의 변화는 제한적이었다고 보고서는 설명했습니다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "현재의 완만한 고용 증가와 직전 두 달의 큰 하향 조정이 함께 나타나면서 최근 고용 흐름을 논의할 때 기준이 달라졌습니다. 이는 공식 월간 노동시장 통계이지만, 이 수치만으로 향후 금리나 자산 가격의 방향을 단정할 수는 없습니다.",
+      "editorNote": "헤드라인은 미국 노동통계국 자료를 따랐습니다. 수치와 수정 내역은 1차 발표 자료에서 확인했으며 시장 전망이나 투자 권유는 포함하지 않았습니다. TODO-review: “nonfarm payroll employment”의 용어집 표준 표기를 검토하세요.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/a2b99562febc21d84955e243c87f5d31",
+          "source": "The Associated Press",
+          "title": "US stocks rise near their record after the latest jobs report eases worries about inflation"
+        },
+        {
+          "url": "https://www.washingtonpost.com/business/2026/10/02/us-economy-added-29000-jobs-september-missing-estimates/",
+          "source": "The Washington Post",
+          "title": "U.S. economy added 29,000 jobs in September, missing estimates"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bls.gov/news.release/archives/empsit_10022026.htm",
+          "source": "U.S. Bureau of Labor Statistics",
+          "title": "THE EMPLOYMENT SITUATION - SEPTEMBER 2026",
+          "publishedAt": "2026-10-02"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/a2b99562febc21d84955e243c87f5d31",
+          "source": "The Associated Press",
+          "title": "US stocks rise near their record after the latest jobs report eases worries about inflation",
+          "publishedAt": "2026-10-02"
+        },
+        {
+          "id": 3,
+          "url": "https://www.washingtonpost.com/business/2026/10/02/us-economy-added-29000-jobs-september-missing-estimates/",
+          "source": "The Washington Post",
+          "title": "U.S. economy added 29,000 jobs in September, missing estimates",
+          "publishedAt": "2026-10-02"
+        }
+      ],
+      "tags": [
+        "labor market",
+        "employment",
+        "United States",
+        "BLS"
+      ],
+      "confidence": "high"
     }
   ]
 }
