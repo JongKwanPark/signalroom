@@ -1124,6 +1124,36 @@ a.sr-vchip:hover {
   .sr-footer__grid {
     grid-template-columns: minmax(0, 1fr);
   }
+
+  /* List-view rows: stack headline, dek, meta and rail. The desktop 2-column grid puts the dek
+     in the `auto` track, which takes the whole row on a phone and collapses the headline to 0px. */
+  .sr-view[data-view="list"] .sr-tl-item {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+  }
+
+  .sr-view[data-view="list"] .sr-tl-item__rail {
+    margin-top: var(--sp-1);
+  }
+
+  /* Cluster rows: the desktop grid (auto | 1fr | auto) lets the source and host labels take the
+     whole row on a phone and collapses the title link to 0px. Stack them instead. */
+  .sr-cluster li {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--sp-1);
+  }
+
+  /* Citation popovers are centred on the chip and up to 320px wide, so near the right edge they
+     spill past the viewport and widen the page even while hidden. They are aria-hidden copies of
+     the source list and hover-only, so drop them on phones. */
+  .sr-cite__pop {
+    display: none;
+  }
+
+  /* A paragraph that cites many sources (nine chips is 347px) must wrap instead of widening the page. */
+  .sr-cites {
+    flex-wrap: wrap;
+  }
 }
 
 /* --- view transitions (cross-document, no runtime JS) -------------------- */
