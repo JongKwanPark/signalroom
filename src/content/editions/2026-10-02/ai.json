@@ -4,7 +4,7 @@
   "vertical": "ai",
   "lang": "en",
   "title": "Signal Daily — AI — 2026-10-02",
-  "summary": "Two stories. Epoch AI estimates that the cost of a fixed level of AI performance has fallen about 47% per quarter. arXiv announced a change to submission rate limits; several collection sources were unavailable or returned no items.",
+  "summary": "Three stories. Epoch AI estimates that the cost of a fixed level of AI performance has fallen about 47% per quarter. arXiv announced a change to submission rate limits. An essay by Yedhu Krishnan and an accompanying developer discussion examine why engineers should write commit descriptions themselves as a thinking tool rather than delegating them to AI.",
   "stories": [
     {
       "slug": "plunging-price-of-ai-performance",
@@ -134,6 +134,69 @@
         "AI"
       ],
       "confidence": "medium"
+    },
+    {
+      "slug": "commit-descriptions-as-thinking-tool",
+      "headline": "Why Developers Still Write Commit Descriptions by Hand in the AI Era",
+      "dek": "Yedhu Krishnan argues that drafting commit messages remains an essential thinking tool to verify human understanding and prevent AI-fabricated rationale.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "Yedhu Krishnan writes that AI agents lack offline context and invent plausible reasons when drafting commit descriptions, risking distorted project history.",
+        "Writing commit rationales by hand forces human developers to reflect on AI-generated changes, test understanding, and record unstated exit criteria.",
+        "A Hacker News discussion on the post highlights that human-written commit descriptions are critical to explain 'why' and prevent runaway technical debt."
+      ],
+      "body": [
+        {
+          "text": "Yedhu Krishnan wrote on September 30, 2026, that developers in the agentic coding era face new risks when relying on AI to write commit descriptions. When an AI agent lacks offline and cross-tool context, Krishnan observes that it invents its own plausible rationale for changes, creating fabricated histories that diverge from real decisions.",
+          "citations": [1]
+        },
+        {
+          "text": "Even when given complete context, Krishnan argues that allowing an AI to draft the explanation misses the primary value of a commit message: verifying that the human developer understands what is being shipped. He writes that explaining the \"why\" in one's own words serves as a thinking tool and cognitive check to ensure the code matches intent and captures unwritten exit criteria.",
+          "citations": [1]
+        },
+        {
+          "text": "A Hacker News discussion on the essay drew over 70 comments, where software engineers underscored that delegating entire implementations and commit drafting to AI agents risks accumulating fragile technical debt. Multiple practitioners noted that diffs explain what changed, while human-written rationales remain essential to document constraints, rejected alternatives, and operational assumptions.",
+          "citations": [2]
+        }
+      ],
+      "whyItMatters": "As AI agents generate an increasing share of production code, the bottleneck shifts from writing implementation syntax to understanding and maintaining system behavior. Treating commit descriptions as an active human thinking step creates an explicit checkpoint against shipping unverified code and establishes whether engineers can still explain the software they operate.",
+      "editorNote": "Operator's view, recorded here as the editor's note: Coding with AI has improved routine documentation, but documents represent current state updates rather than incremental history. Because code evolves through dozens or hundreds of iterations and accumulates its own history, capturing every step in documents is impractical, especially since documents must reflect current reality so AI can accurately diagnose problems. The operator argues that commit messages should serve as rich, intent-driven logs that record why decisions were made, forming a chronological ledger of code evolution. Future AI systems can then combine current snapshot documentation with historical git commit logs to reconstruct intent and trace architecture, which is vital for understanding code the human did not write. This operator view is not a conclusion of Yedhu Krishnan's post or the Hacker News discussion. Krishnan treats commit writing as a human cognitive check rather than a context pipeline for future AI, and the HN thread emphasizes architectural discipline over snapshot-versus-log documentation. TODO-review: glossary check for agentic coding and diff.",
+      "cluster": [
+        {
+          "url": "https://yedhu.me/posts/commit-description-as-a-thinking-tool/",
+          "source": "Yedhu Krishnan",
+          "title": "Commit Description as a Thinking Tool"
+        },
+        {
+          "url": "https://news.ycombinator.com/item?id=49911757",
+          "source": "Hacker News",
+          "title": "Commit description as a thinking tool"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://yedhu.me/posts/commit-description-as-a-thinking-tool/",
+          "source": "Yedhu Krishnan",
+          "title": "Commit Description as a Thinking Tool",
+          "publishedAt": "2026-09-30"
+        },
+        {
+          "id": 2,
+          "url": "https://news.ycombinator.com/item?id=49911757",
+          "source": "Hacker News",
+          "title": "Commit description as a thinking tool",
+          "publishedAt": "2026-10-01"
+        }
+      ],
+      "tags": [
+        "AI-coding",
+        "developer-tools",
+        "software-engineering",
+        "git"
+      ],
+      "confidence": "high"
     }
   ]
 }
