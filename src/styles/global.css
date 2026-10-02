@@ -747,13 +747,16 @@ a.sr-vchip:hover {
   gap: var(--sp-2);
 }
 
+/* Same pattern as the source list below it: title first, then a mono "outlet · host" line. The old
+   per-row 3-column grid let each row's label and host widths set its own columns, so titles started
+   at different x positions and a long outlet name squeezed the title into three lines. */
 .sr-cluster li {
-  display: grid;
-  grid-template-columns: auto minmax(0, 1fr) auto;
-  gap: var(--sp-3);
-  align-items: baseline;
   padding-block: var(--sp-2);
   border-bottom: 1px solid var(--hairline);
+}
+
+.sr-cluster li p {
+  overflow-wrap: anywhere;
 }
 
 .sr-cluster li:last-child {
@@ -1134,13 +1137,6 @@ a.sr-vchip:hover {
 
   .sr-view[data-view="list"] .sr-tl-item__rail {
     margin-top: var(--sp-1);
-  }
-
-  /* Cluster rows: the desktop grid (auto | 1fr | auto) lets the source and host labels take the
-     whole row on a phone and collapses the title link to 0px. Stack them instead. */
-  .sr-cluster li {
-    grid-template-columns: minmax(0, 1fr);
-    gap: var(--sp-1);
   }
 
   /* Citation popovers are centred on the chip and up to 320px wide, so near the right edge they

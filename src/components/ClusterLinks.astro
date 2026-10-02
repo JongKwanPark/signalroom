@@ -23,12 +23,11 @@ function hostname(url: string): string {
     {
       links.map((link) => (
         <li>
-          <span class="sr-micro">{link.source}</span>
           <a href={link.url} rel="noopener noreferrer nofollow" target="_blank">
             {link.title ?? hostname(link.url)}
             <span class="sr-ext" aria-hidden="true">↗</span>
           </a>
-          <span class="sr-micro">{hostname(link.url)}</span>
+          <p class="sr-micro">{link.source} · {hostname(link.url)}</p>
         </li>
       ))
     }
