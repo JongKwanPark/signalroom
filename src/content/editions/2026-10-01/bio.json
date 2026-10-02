@@ -8,6 +8,7 @@
   "stories": [
     {
       "slug": "autoimmune-therapy-research-shifts-to-tolerance",
+      "publication": "manual",
       "headline": "Autoimmune therapy research moves from suppressing inflammation toward restoring tolerance",
       "dek": "CAR-T resets, antigen-specific tolerance, engineered regulatory T cells and AI-assisted tools share one aim: retrain the immune system rather than only silence it. Most of the evidence is still early.",
       "type": "DEEP",

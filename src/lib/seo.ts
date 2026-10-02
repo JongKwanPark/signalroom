@@ -74,23 +74,23 @@ export function breadcrumbJsonLd(items: Array<{ name: string; path: string }>): 
 }
 
 export function articleJsonLd(ref: StoryRef, options?: { image?: string }): JsonLd {
-  const { story, vertical, date } = ref;
+  const { story, vertical } = ref;
   const description = story.dek ?? story.tldr[0];
   return {
     '@context': 'https://schema.org',
-    '@type': 'NewsArticle',
+    '@type': ref.kind === 'edition' ? 'NewsArticle' : 'Article',
     inLanguage: ref.lang,
     headline: story.headline,
     description,
     url: absoluteUrl(ref.href),
     mainEntityOfPage: absoluteUrl(ref.href),
-    datePublished: dateIso(ref.generatedAt, date),
-    dateModified: ref.generatedAt,
+    datePublished: ref.publishedAt,
+    dateModified: ref.updatedAt,
     articleSection: VERTICAL_META[vertical].name,
     keywords: story.tags.join(', '),
-    wordCount: story.body.reduce((total, block) => total + block.text.split(/\s+/).length, 0),
+    wordCount: ref.wordCount,
     timeRequired: `PT${story.readMinutes}M`,
-    author: publisherJsonLd(),
+    author: ref.kind === 'article' ? { '@type': 'Person', name: ref.author } : publisherJsonLd(),
     publisher: publisherJsonLd(),
     isAccessibleForFree: true,
     ...(options?.image ? { image: absoluteUrl(options.image) } : {}),
@@ -100,12 +100,6 @@ export function articleJsonLd(ref: StoryRef, options?: { image?: string }): Json
       url: source.url,
     })),
   };
-}
-
-function dateIso(generatedAt: string, fallbackDate: string): string {
-  const parsed = new Date(generatedAt);
-  if (!Number.isNaN(parsed.getTime())) return parsed.toISOString();
-  return `${fallbackDate}T00:00:00.000Z`;
 }
 
 export function itemListJsonLd(refs: StoryRef[], name: string): JsonLd {

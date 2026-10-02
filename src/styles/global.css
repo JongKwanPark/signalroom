@@ -5,6 +5,8 @@
    Plain CSS only. No frameworks, no web fonts. Square chrome throughout.
    ========================================================================== */
 
+[hidden] { display: none !important; }
+
 *,
 *::before,
 *::after {
@@ -430,6 +432,8 @@ hr {
 .sr-tile[data-vertical="bio"] { --tile-accent: var(--accent-bio); }
 .sr-tile[data-vertical="geo"] { --tile-accent: var(--accent-geo); }
 .sr-tile[data-vertical="markets"] { --tile-accent: var(--accent-markets); }
+.sr-tile[data-vertical="wisdom"] { --tile-accent: var(--accent-wisdom); }
+.sr-tile[data-vertical="society"] { --tile-accent: var(--accent-society); }
 
 .sr-tile__top {
   display: flex;
@@ -518,6 +522,8 @@ hr {
 .sr-row[data-vertical="bio"] { --row-accent: var(--accent-bio); }
 .sr-row[data-vertical="geo"] { --row-accent: var(--accent-geo); }
 .sr-row[data-vertical="markets"] { --row-accent: var(--accent-markets); }
+.sr-row[data-vertical="wisdom"] { --row-accent: var(--accent-wisdom); }
+.sr-row[data-vertical="society"] { --row-accent: var(--accent-society); }
 
 /* --- cards (story) ------------------------------------------------------- */
 
@@ -535,6 +541,8 @@ hr {
 .sr-card[data-vertical="bio"] { --card-accent: var(--accent-bio); }
 .sr-card[data-vertical="geo"] { --card-accent: var(--accent-geo); }
 .sr-card[data-vertical="markets"] { --card-accent: var(--accent-markets); }
+.sr-card[data-vertical="wisdom"] { --card-accent: var(--accent-wisdom); }
+.sr-card[data-vertical="society"] { --card-accent: var(--accent-society); }
 
 .sr-card h3 {
   font-size: var(--fs-lg);
@@ -586,6 +594,8 @@ a.sr-vchip:hover {
 .sr-vchip[data-vertical="bio"] { --chip: var(--accent-bio); }
 .sr-vchip[data-vertical="geo"] { --chip: var(--accent-geo); }
 .sr-vchip[data-vertical="markets"] { --chip: var(--accent-markets); }
+.sr-vchip[data-vertical="wisdom"] { --chip: var(--accent-wisdom); }
+.sr-vchip[data-vertical="society"] { --chip: var(--accent-society); }
 
 .sr-badge {
   display: inline-flex;
@@ -859,6 +869,8 @@ a.sr-vchip:hover {
 .sr-tl-item[data-vertical="bio"] { --timeline-accent: var(--accent-bio); }
 .sr-tl-item[data-vertical="geo"] { --timeline-accent: var(--accent-geo); }
 .sr-tl-item[data-vertical="markets"] { --timeline-accent: var(--accent-markets); }
+.sr-tl-item[data-vertical="wisdom"] { --timeline-accent: var(--accent-wisdom); }
+.sr-tl-item[data-vertical="society"] { --timeline-accent: var(--accent-society); }
 
 /* --- prose (static pages) ------------------------------------------------ */
 
@@ -1192,4 +1204,49 @@ a.sr-vchip:hover {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
+}
+
+/* Six-category navigation and progressive tag browsing. */
+.sr-category-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-1) var(--sp-3);
+  padding-block: var(--sp-2);
+  border-top: 1px solid var(--hairline);
+}
+.sr-category-nav a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  min-width: 44px;
+  padding-inline: var(--sp-2);
+  border-bottom: 2px solid transparent;
+}
+.sr-category-nav a[aria-current="page"] {
+  color: var(--text);
+  border-bottom-color: var(--accent);
+}
+.sr-tag-browser { margin-bottom: var(--sp-5); }
+.sr-tag-browser__controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  margin-block: var(--sp-3);
+}
+.sr-tag-browser__controls .sr-btn { min-height: 44px; padding-inline: var(--sp-3); }
+.sr-tag-browser__controls .sr-btn[aria-pressed="true"] {
+  color: var(--text);
+  border-color: var(--accent);
+  background: var(--surface-2);
+}
+.sr-article-body { display: block; overflow-wrap: anywhere; }
+.sr-article-body img { max-width: 100%; height: auto; }
+.sr-article-body pre { max-width: 100%; overflow-x: auto; padding: var(--sp-4); background: var(--surface-2); }
+.sr-article-body table { display: block; max-width: 100%; overflow-x: auto; border-collapse: collapse; }
+.sr-article-body th, .sr-article-body td { padding: var(--sp-2); border: 1px solid var(--hairline-strong); text-align: start; }
+.sr-story__tags .sr-tag { display: inline-flex; align-items: center; min-height: 44px; padding-inline: var(--sp-2); }
+@media (max-width: 480px) {
+  .sr-header__inner { flex-wrap: wrap; gap: var(--sp-2); }
+  .sr-header .sr-actions { flex-wrap: wrap; margin-left: 0; }
 }

@@ -3,49 +3,50 @@
 > 제품 표기: 이 저장소와 사이트는 제품을 **Signal Daily**(한국어 문장에서는 "시그널 데일리")로 표기한다.
 > **Signal Room**은 이전 표기(alias)이며, 코드·문서·사이트 문구에는 이제 Signal Daily를 쓴다.
 > 이 문서는 `/standards`(공개 편집 원칙)와 [docs/pipeline.md](pipeline.md)(파이프라인)를 매일의 편집
-> 작업 수준으로 구체화한다. 충돌 시 공개 원칙과 `src/content.config.ts`·`scripts/validate.ts`의
-> 스키마·게이트가 우선한다. 스키마·코드 변경 없이 적용 가능한 규칙만 담는다.
+> 작업 수준으로 구체화한다. 충돌 시 공개 원칙과 `src/content.config.ts`,
+> `scripts/validate.ts`, `scripts/validate-article.ts`의 스키마·게이트가 우선한다. 이 문서는
+> 에디션과 독립 Markdown 기사의 편집 기준을 담는다.
 
 ## 1. 목적과 적용 범위
 
 - **주 독자**: 의사결정에 인텔리전스를 참고하는 테크·비즈니스 전문가.
-- 목적: 매일 4버티컬 에디션의 선별·작성·리뷰 기준을 고정해, 발행되는 모든 아이템이 같은 품질
-  기준을 통과하게 한다.
-- 적용 범위: `src/content/editions/<date>/<vertical>.json`으로 발행되는 데일리 에디션의 편집 규칙.
+- 목적: 정기 에디션과 여섯 카테고리의 수동 특집·독립 기사의 편집 기준을 정한다.
+- 적용 범위: `src/content/editions/<date>/`의 에디션과 `src/content/articles/`의 독립 Markdown 기사.
 - 범위 밖: 수집·중복 제거·배포([docs/pipeline.md](pipeline.md)), 화면·타이포그래피
   ([docs/design-system.md](design-system.md)), 공개 정책 전문(`/standards`).
-- 불변 원칙(요약): **AI 초안 + 사람 에디터 리뷰**, **no tracking**(분석·광고 스크립트 0),
-  **no advice**(YMYL 배제), **draft → 사람 승인 게이트**.
+- 불변 원칙(요약): 정기 발행은 편집·스키마 검증과 빌드를 통과한 뒤 자동 배포한다. **no
+  tracking**(분석·광고 스크립트 0), **no advice**(YMYL 배제)를 지킨다. 에세이에 뉴스 전용
+  검증 항목을 강제하지 않는다.
 
-### 1-1. 발행 언어 (단계 1 확정: en 원문 + en→ko 단일 번역)
+### 1-1. 발행 언어
 
-발행되는 필드 값(headline, body, whyItMatters 등)의 **주 작성 언어는 영어(en)**를 유지한다.
-이 문서는 내부 운영 규칙이므로 한국어로 유지한다.
+정기 에디션과 에디션 특집은 영어(en) 원문을 먼저 쓰고 한국어(ko) 번역본을 만든다. 독립
+Markdown 기사는 원문 언어만으로 발행할 수 있다. 번역본이 있으면 스키마의 `translationKey`로
+연결한다.
 
-- **번역 방향**: `en → ko` 단일. `ko → en` 역번역·ko 원문 작성은 단계 1 범위 밖이다.
-- **번역 단위**: 스토리 단위(권장). 작업·리뷰·승인은 스토리별로 수행한다. 에디션 `title`·`summary`는
-  포함된 스토리와 함께 번역하되 같은 품질 게이트를 적용한다. 에디션 전체 일괄 번역은 하지 않는다.
+- **에디션 번역 방향**: `en → ko`. 독립 Markdown 기사는 한국어 또는 영어 원문을 허용한다.
+- **번역 단위**: 에디션 특집은 스토리 단위(권장)로 작성·번역하고, 에디션 `title`·`summary`는
+  포함된 스토리와 함께 번역한다. 에디션 전체 일괄 번역은 하지 않는다.
 - **slug 규칙**: ko 스토리 slug = en slug + `-ko` 접미사(예: `llm-agent-evaluation` →
   `llm-agent-evaluation-ko`). slug는 한영 모두 ASCII kebab-case(`scripts/validate.ts`의 `SLUG_RE`)를
   유지하고, 한글 slug·동일 slug 재사용을 금지한다. 최종 URL 명명은 라우팅 단계에서 확정한다.
 - **병기 금지**: 동일 JSON 내 번역 필드 병기(`headline_ko` 등)는 금지한다(`docs/plan-bilingual.md` §1-3).
-- **미번역 시 발행 차단**: 미번역·게이트 미통과 스토리는 해당 언어 에디션에서 제외(부분 발행)한다.
-  en 에디션은 ko 진행과 무관하게 발행하고, ko 에디션은 승인된 번역 스토리만 포함한다. ko 파일 내
-  영어 잔존·인용 불일치는 `scripts/validate-i18n.ts` 실패 → 해당 ko 판 발행 제외 사유다. 타 언어
-  문장으로 메우기·무인 발행은 금지하며, 사람 승인 리뷰는 언어별로 유지한다.
+- **독립 기사 번역**: 번역이 없는 기사는 원문 언어 페이지에서 발행한다. 상대 언어판이 없으면
+  해당 언어 홈으로 안내한다. 에디션 ko판의 번역 검증에는 `scripts/validate-i18n.ts`를 사용한다.
 
 ## 2. 제품 한눈에
 
 | 항목 | 값 |
 | --- | --- |
-| 버티컬 | `ai`, `bio`, `geo`, `markets` (표시명: AI · Bio & health · Geopolitics & security · Markets & macro) |
-| 주기 | 자동 발행 2회: 07:00 아침(전날 UTC 하루 완성·병합), 19:00 저녁(당일 UTC 1차 생성) — paseo 스케줄 |
-| 발행 단위 | 날짜 × 버티컬 1파일 = 에디션. 홈(`/`)이 그날의 표지 |
+| 카테고리 | `ai`, `bio`, `geo`, `markets`, `wisdom`, `society` (AI · Bio & health · Geopolitics & security · Markets & macro · WISDOM · SOCIETY) |
+| 자동 대상 | `ai`, `bio`, `geo`, `markets` — WISDOM·SOCIETY는 수동 발행 |
+| 주기 | Paseo 자동 발행 2회: 07:00·19:00 Asia/Seoul |
+| 발행 단위 | 에디션은 날짜 × 카테고리 파일. 독립 기사는 개별 Markdown 파일 |
 | 작성 경로 | `scripts/synth.ts --input-json`(에이전트·에디터 작성) 또는 LLM 초안 + editor pass |
-| 게이트 | `scripts/validate.ts` + AI editor pass(`scripts/prompts/editor.md`) + 사람 승인 |
-| 독자 접점 | `/`, `/archive`, `/story/<slug>`, `/<vertical>`, `/rss.xml`, `/llms.txt` |
+| 게이트 | 편집 확인(`scripts/prompts/editor.md`) + `scripts/validate.ts` + 빌드 후 자동 배포 |
+| 독자 접점 | `/`, `/archive`, `/story/<slug>`, `/<category>`, `/rss.xml`, `/llms.txt` |
 
-긴급 수동 발행은 [docs/manual-publish.md](manual-publish.md)를 따른다.
+수동 에디션 특집과 독립 기사는 [수동 발행 런북](manual-publish.md)을 따른다.
 
 ## 3. 버티컬 정의와 경계
 
@@ -55,12 +56,16 @@
 | **Bio & health** | 산업·투자 관점: 임상·승인·규제, 플랫폼 기술, 제약·바이오텍 딜과 자금 | 웰니스·라이프스타일, 일반 건강 정보·복용 지침, 개인 건강 조언 |
 | **Geopolitics & security** | 권력·분쟁·동맹, 공급망·에너지 안보, 국정 운영과 제재 | 진영 논평, 전쟁 중계의 반복, 미확인 소문 |
 | **Markets & macro** | 금리·물가·에너지·실적, 자금 흐름과 정책 변화 | 투자 권유·가격 목표·매매 신호, 시세 단순 중계 |
+| **WISDOM** | 철학·고전·삶의 성찰. 철학자와 세부 주제는 태그로 표현 | 근거 없는 고전 인용, 저자의 해석을 사실처럼 단정 |
+| **SOCIETY** | 사회·문화·교육·노동과 공동의 삶 | 근거 없는 일반화, 당사자 관점을 지우는 단정 |
 
 - **Bio & health는 웰니스 매체가 아니라 산업·투자 인텔리전스 버티컬이다.** 소비자 건강 콘텐츠는
   어떤 형태로도 넣지 않는다.
-- 버티컬 귀속이 애매한 개발은 1차 영향이 가장 큰 버티컬에 배치하고, 다른 버티컬과의 연결은
-  `whyItMatters`에서 다룬다(§5의 교차 리드 후보로도 검토).
-- 포함 판단의 공통 조건은 `/standards` §7을 따른다: 문서화됨, 해당 분야 독자에게 중대함,
+- 자동 수집·정기 에디션은 **AI·BIO·GEO·MARKETS 네 분야**를 대상으로 한다. WISDOM·SOCIETY는
+  수동 작성 대상이며 자동 수집 대상에 포함하지 않는다.
+- 카테고리 귀속이 애매한 주제는 독자에게 가장 중요한 카테고리에 배치한다. 에디션의 다른 분야와의
+  연결은 `whyItMatters`에서 다루고(§5의 교차 리드 후보로도 검토), 독립 글은 본문에서 설명한다.
+- 뉴스 에디션의 포함 판단은 `/standards` §7을 따른다: 문서화됨, 해당 분야 독자에게 중대함,
   전일 보도 반복이 아님.
 
 ## 4. 하루 에디션 구성과 쿼터
@@ -156,6 +161,18 @@
 - `confidence` rubric(`/standards` §3): high = 독립 primary 2개 이상 또는 반박 없는 단일 권위,
   medium = 단일 신뢰 출처 또는 개요는 일치하나 세부 불일치, low = 개발 중·논쟁 중·이력 미검증.
 
+### 6-4. 독립 Markdown 기사
+
+독립 기사는 `src/content/articles/`에 작성한다. `src/content.config.ts`와
+`scripts/validate-article.ts`가 메타데이터 스키마와 검증의 단일 기준이다. 카테고리는 여섯 개
+모두 사용할 수 있고, 형식은 `essay`, `feature`, `analysis`다. 원문 언어만으로 발행할 수 있으며,
+번역본이 있으면 `translationKey`로 연결한다. 초안은 `draft` 기본값 `true`를 유지하고 공개할 때
+`draft: false`로 지정한다.
+
+개인 경험과 성찰에는 에디션 뉴스 전용인 스토리당 2개 출처, `tldr` 3개, `cluster` 1개, 모든 본문
+블록의 인용을 요구하지 않는다. 사실·역사 설명과 고전의 직접 인용은 출처를 대고, 저자의 경험과
+해석을 확인된 사실과 구분한다. 발행 순서는 [수동 발행 런북](manual-publish.md)에 따른다.
+
 ## 7. 톤과 문체
 
 - 대상은 테크·비즈니스 전문가다. 배경 설명은 최소화하고, 판단에 필요한 맥락과 숫자는 충분히 준다.
@@ -165,12 +182,12 @@
   쓰지 않는다. 사실과 문서화된 범위만 서술하고 불확실성을 표기한다.
 - `whyItMatters`는 사건 요약이 아니라 "왜 지금 중요한가"다. 교차 버티컬 연결을 우선하되 억지 연결은
   금지한다. 연결이 없으면 산업·정책적 함의로 쓴다.
-- AI 초안 문구를 그대로 발행하지 않는다. 사람 에디터가 정확성·프레이밍·인용·톤을 검토·수정한
-  문장만 발행된다(`/standards` §1).
+- 정기 에디션은 `scripts/prompts/editor.md`의 편집 확인을 통과한 뒤 스키마 검증·빌드·자동 배포를
+  거친다. 개인 에세이는 저자의 목소리와 해석을 살리되 확인 가능한 사실과 출처를 분명히 한다.
 
-## 8. 검증 게이트와 승인
+## 8. 에디션 검증과 자동 발행
 
-흐름: synth draft → `validate.ts` → 자동 draft 커밋 → 사람 승인 → 발행.
+정기 운영 흐름: 수집·작성 → 편집 확인 → `validate.ts` → 사이트 빌드 → 커밋·push → Vercel 프로덕션 배포. 활성 스케줄과 대기 GitHub Actions 경로는 [파이프라인](pipeline.md)을 따른다.
 
 | 게이트 | 강제 | 내용 |
 | --- | --- | --- |
@@ -182,14 +199,16 @@
 | headline·slug | `validate.ts` | headline 비어 있으면 실패, slug 형식·중복 검사 |
 | enum·범위 | `validate.ts` | `vertical`/`type`/`confidence` enum, `readMinutes` 1~60 |
 | AI editor pass | `scripts/prompts/editor.md` | 중복 병합, 미지원 주장 제거, 인용 무결성, YMYL 톤, `confidence` 확정 |
-| 사람 승인 | 프로세스 | 자동 커밋은 draft. 사람 에디터 리뷰·수정이 승인 게이트 |
+| production build | Paseo 운영 | 검증을 통과한 한·영 에디션을 빌드하고 프로덕션에 배포 |
 
-- 실행: `npx tsx scripts/validate.ts src/content/editions`(위반 시 exit ≠ 0), `npm test`(dedup +
-  publish validation).
-- 승인은 스키마의 `approved` 플래그가 아니라 **절차**다. 자동화는 draft만 커밋하고, 사람 에디터의
-  검토가 끝난 뒤에만 발행으로 취급한다.
-- 게이트 위반 아이템은 발행하지 않는다. 예외는 없다. 발행 후 오류는 `/standards` §5에 따라 해당
-  아이템의 `editorNote`에 교정 이력을 남긴다.
+- 실행: `npx tsx scripts/validate.ts src/content/editions`(위반 시 exit ≠ 0). 별도 승인 대기 없이
+  편집·스키마 검증과 빌드를 통과하면 활성 스케줄이 프로덕션에 배포한다.
+- 독립 기사 메타데이터는 `npx tsx scripts/validate-article.ts src/content/articles`로 검사한다.
+  에세이에는 표의 뉴스 에디션 전용 출처·요약·클러스터 게이트를 적용하지 않는다.
+- 수동 글 작성만 요청받으면 로컬 검증·빌드 뒤 멈춘다. 사용자가 발행을 요청한 경우의 커밋·push·배포
+  순서는 [수동 발행 런북](manual-publish.md)을 따른다.
+- 게이트 위반 에디션은 발행하지 않는다. 발행 후 오류는 `/standards` §5에 따라 해당 에디션의
+  `editorNote`에 교정 이력을 남긴다.
 
 ## 9. 4~6주 버티컬 판정 계획
 
@@ -211,7 +230,8 @@
 4. 스토리별 필드를 점검한다: `tldr` 3문장, 인용 해석, distinct `source` ≥2, `cluster` ≥1,
    headline 수치 verbatim.
 5. 톤을 점검한다: 과장·clickbait·이모지·감탄사 제거, YMYL no advice, 교차 연결 우선.
-6. `validate.ts`를 통과시킨 뒤 AI editor pass를 거치고, 사람 에디터 리뷰·수정으로 승인한다.
+6. 정기 에디션은 편집 확인과 `validate.ts`, 빌드를 통과시킨다. 독립 기사는 기사 검증기를 사용하고
+   개인 성찰에 뉴스 전용 게이트를 적용하지 않는다.
 
 ## 11. 관련 문서
 
@@ -219,7 +239,8 @@
 - [docs/pipeline.md](pipeline.md) — 수집→발행 파이프라인, 소스 라이선스.
 - [docs/design-system.md](design-system.md) — 화면 규칙.
 - `scripts/prompts/triage.md`, `scripts/prompts/synthesis.md`, `scripts/prompts/editor.md` — 단계별 프롬프트.
-- `src/content.config.ts`, `scripts/validate.ts` — 스키마와 게이트의 SSOT.
+- `src/content.config.ts`, `scripts/validate.ts`, `scripts/validate-article.ts` — 콘텐츠 스키마와
+  검증 게이트의 SSOT.
 
 ## 12. 한영 콘텐츠 승인 기록
 

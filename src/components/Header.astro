@@ -1,24 +1,27 @@
 ---
-import { SITE } from '../lib/site';
-import { counterpartPath, getEditions, getStoryRef, langOfPath } from '../lib/editions';
+import { SITE, VERTICALS, VERTICAL_META } from '../lib/site';
+import { counterpartPath, getEditions, getStoryRef, getTranslationRef, langOfPath, stripLangPrefix, verticalHref } from '../lib/editions';
 
 const rawPath = Astro.url.pathname;
 const path = rawPath.replace(/\/+$/, '') || '/';
-// 3-3: 크롬은 영어 유지, ko↔en 전환 링크만 추가한다. 스토리 경로는
-// slug 규칙(en `<base>` ↔ ko `<base>-ko`)으로 대응 경로를 치환한다.
+// Story language links resolve published counterparts; absent translations lead home.
 const currentLang = langOfPath(path);
 const lang = currentLang ?? 'en';
 async function languageHref(target: 'ko' | 'en'): Promise<string> {
+  const currentSlug = stripLangPrefix(path).rest.match(/^\/story\/([^/]+)$/)?.[1];
+  if (currentSlug) {
+    const current = await getStoryRef(currentSlug, lang);
+    const translated = current ? await getTranslationRef(current, target) : undefined;
+    return translated?.href ?? `/${target}`;
+  }
   const candidate = counterpartPath(path, target);
-  const storySlug = candidate.match(/^\/(?:ko|en)\/story\/([^/]+)$/)?.[1];
-  if (storySlug) return (await getStoryRef(storySlug, target)) ? candidate : `/${target}`;
   const date = candidate.match(/^\/(?:ko|en)\/(\d{4})\/(\d{2})(?:\/(\d{2}))?$/);
   if (date) {
     const editions = await getEditions();
     const prefix = `${date[1]}-${date[2]}`;
     return editions.some((edition) => edition.data.lang === target && edition.data.date.startsWith(prefix) && (!date[3] || edition.data.date === `${prefix}-${date[3]}`)) ? candidate : `/${target}`;
   }
-  if (!/^\/(?:ko|en)(?:\/|$)/.test(path) && !/^\/(?:story\/|ai$|bio$|geo$|markets$|archive$|search$|\d{4}\/)/.test(path) && path !== '/') return `/${target}`;
+  if (!/^\/(?:ko|en)(?:\/|$)/.test(path) && !/^\/(?:story\/|ai$|bio$|geo$|markets$|wisdom$|society$|archive$|search$|\d{4}\/)/.test(path) && path !== '/') return `/${target}`;
   return candidate;
 }
 const koHref = await languageHref('ko');
@@ -66,6 +69,14 @@ const toggle = lang === 'ko'
       </button>
     </div>
   </div>
+  <nav class="sr-container sr-category-nav sr-micro" aria-label={lang === 'ko' ? '카테고리' : 'Categories'}>
+    {VERTICALS.map((vertical) => (
+      <a href={verticalHref(vertical, lang)} data-vertical={vertical}
+        aria-current={stripLangPrefix(path).rest === `/${vertical}` ? 'page' : undefined}>
+        {VERTICAL_META[vertical].label}
+      </a>
+    ))}
+  </nav>
 </header>
 
 <style>

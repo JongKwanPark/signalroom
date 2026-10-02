@@ -14,17 +14,17 @@ const jsonLd = websiteJsonLd();
 >
   <header class="sr-page-head">
     <p class="sr-micro sr-micro--accent">About</p>
-    <h1>One page a day, four verticals, primary sources.</h1>
+    <h1>Daily news and authored writing across six categories.</h1>
     <p class="sr-page-head__lede">
-      Signal Daily is a public daily digest. It exists to answer a narrow question well: what actually
-      moved in AI, bio, geopolitics and markets — and where is that claim coming from?
+      Signal Daily brings together sourced news in AI, BIO, GEO and MARKETS, with philosophy and
+      classics in WISDOM and society, culture, education and work in SOCIETY.
     </p>
   </header>
 
   <div class="sr-prose">
     <h2>How to read the digest</h2>
     <p>
-      Each day publishes up to four vertical editions (AI, bio, geo, markets). Every story carries a
+      Each day publishes up to four vertical editions (AI, bio, geo, markets). Every news story carries a
       three-line <strong>TL;DR</strong>, a short <strong>Why it matters</strong> framing, an{' '}
       <strong>editor’s note</strong> on what is still uncertain, and a list of{' '}
       <strong>sources</strong>. Numbers in square brackets in the body link straight to the
@@ -51,33 +51,46 @@ const jsonLd = websiteJsonLd();
       </li>
     </ul>
 
+    <h2>Features, analysis and essays</h2>
+    <p>
+      Manual writing can appear in any of the six categories. News-based features retain the
+      digest’s citations and evidence labels. Standalone <strong>FEATURE</strong>,
+      <strong>ANALYSIS</strong> and <strong>ESSAY</strong> pieces use a free-form body, a named
+      author and a publication date. Their references support factual claims and direct quotations;
+      personal experience and interpretation belong to the author. News confidence, related-report
+      counts and three-line summaries are not required for these pieces.
+    </p>
+    <p>Explore published tags in each category. A language link opens the actual translation when one exists, or the other language’s home when it does not.</p>
+
     <h2>What it is not</h2>
     <ul>
       <li>Not investment, medical or legal advice. Nothing here is a recommendation.</li>
       <li>Not a login product. There are no accounts, no paywall and no email capture.</li>
       <li>Not a tracking surface. No analytics scripts, no third-party embeds, no ad tech.</li>
-      <li>Not a replacement for primary reporting. Every item links out to the people who did the work.</li>
+      <li>Not a replacement for primary reporting. News and factual claims link to the documents or people behind them.</li>
     </ul>
 
     <h2>How it is produced</h2>
     <p>
       A collection pipeline gathers candidate items from a fixed registry of public sources. An AI
-      model drafts a structured summary — headlines, TL;DRs, body blocks, tags and citation links. An
-      editor then reviews, edits, and either approves or rejects each item before it appears here.
+      model drafts a structured summary — headlines, TL;DRs, body blocks, tags and citation links. The
+      publishing workflow validates the news structure and sources. Morning and evening automated
+      editions cover the original four categories; manually commissioned features and essays publish
+      when ready, including WISDOM and SOCIETY. Human editorial intervention and automated
+      processing are distinct parts of this workflow.
       The full rules live in <a href="/standards">editorial standards</a>.
     </p>
 
     <h2>How it is built</h2>
     <p>
-      A static Astro site. Content ships as JSON, pages are generated at build time, and the only
-      client-side JavaScript covers the command palette, keyboard navigation and the light/dark
-      theme. The full text of every page is in the HTML.
+      A static Astro site. News ships as JSON and standalone writing as Markdown, pages are generated at build time, and the only
+      client-side JavaScript covers the command palette, keyboard navigation, the light/dark theme and tag filtering. The full text of every page is in the HTML.
     </p>
 
     <h2>Archive and syndication</h2>
     <ul>
       <li>
-        <a href="/archive">Archive</a> — every edition by month and date.
+        <a href="/archive">Archive</a> — standalone writing plus news editions by month and date.
       </li>
       <li>
         <a href="/rss.xml">RSS</a> — all stories, newest first.

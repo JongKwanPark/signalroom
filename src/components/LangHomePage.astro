@@ -1,0 +1,231 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import DenseIndexRow from '../components/DenseIndexRow.astro';
+import TldrList from '../components/TldrList.astro';
+import VerticalChip from '../components/VerticalChip.astro';
+import TypeBadge from '../components/TypeBadge.astro';
+import {
+  allStoryRefs,
+  getStoryRefs,
+  type Lang,
+  bySignal,
+  editionsInLang,
+  editionsOnDate,
+  getEditions,
+  newestDate,
+  refsOnDate,
+  editionHref,
+  sourceCount,
+  timeLabel,
+  verticalHref,
+} from '../lib/editions';
+import { HOME_INDEX_CAP, SITE, VERTICALS, VERTICAL_META } from '../lib/site';
+import { formatDateLong, joinMeta, pluralize } from '../lib/format';
+import { itemListJsonLd, websiteJsonLd } from '../lib/seo';
+
+interface Props { lang: Lang; path?: string }
+const { lang, path = `/${lang}` } = Astro.props;
+const editions = editionsInLang(await getEditions(), lang);
+const newsRefs = allStoryRefs(editions, lang);
+const refs = await getStoryRefs(lang);
+const featuredRefs = refs.filter((ref) => ref.kind === 'article' || ref.publication === 'manual').slice(0, 6);
+const latest = newestDate(editions);
+const todayRefs = latest ? refsOnDate(newsRefs, latest) : [];
+const ranked = [...todayRefs].sort(bySignal);
+const startHere = ranked[0];
+const indexRows = ranked.slice(0, HOME_INDEX_CAP);
+const todaysEditions = latest ? editionsOnDate(editions, latest) : [];
+
+const tiles = VERTICALS.map((vertical) => {
+  const categoryRefs = refs.filter((ref) => ref.vertical === vertical);
+  return { vertical, top: categoryRefs[0], count: categoryRefs.length };
+});
+
+const totalSources = todayRefs.reduce((total, ref) => total + ref.story.sources.length, 0);
+const jsonLd = [
+  websiteJsonLd(lang),
+  ...(indexRows.length > 0
+    ? [itemListJsonLd(indexRows, `Signal Daily — ${latest ?? ''} top stories`.trim())]
+    : []),
+];
+
+const pageTitle = latest ? `Signal, ${formatDateLong(latest)}` : SITE.name;
+---
+
+<BaseLayout
+  title={latest ? pageTitle : SITE.name}
+  description={SITE.description}
+  path={path}
+  jsonLd={jsonLd}
+>
+  {
+    editions.length === 0 ? (
+      <section class="sr-cover">
+        <p class="sr-micro sr-cover__date">{lang === 'ko' ? '뉴스 · 특집 · 에세이' : 'News · features · essays'}</p>
+        <h1>{lang === 'ko' ? '오늘의 뉴스, 오래 생각할 이야기.' : 'The day’s news, and ideas that endure.'}</h1>
+        <p class="sr-cover__lede">{lang === 'ko'
+          ? 'AI·BIO·GEO·MARKETS·WISDOM·SOCIETY, 여섯 분야에서 세상의 변화와 삶의 질문을 살펴봅니다.'
+          : 'Explore a changing world and enduring questions across AI, BIO, GEO, MARKETS, WISDOM and SOCIETY.'}</p>
+        <div class="sr-empty" style="margin-top: var(--sp-6)">
+          <p>{lang === 'ko' ? '새 글을 준비하고 있습니다. 아래에서 분야별 이야기와 특집·에세이를 만나보세요.' : 'New writing is on its way. Explore the categories and features & essays below.'}</p>
+          <div class="sr-empty__actions"><a class="sr-btn" href={`/${lang}/archive`}>{lang === 'ko' ? '아카이브' : 'Archive'}</a><a class="sr-btn" href="/about">About Signal Daily</a></div>
+        </div>
+      </section>
+    ) : (
+      <>
+        <section class="sr-cover" aria-labelledby="cover-heading">
+          <p class="sr-micro sr-cover__date">
+            Last edition {formatDateLong(latest as string)} · {pluralize(todayRefs.length, 'story', 'stories')} ·
+            updated {timeLabel(todaysEditions[0]?.data.generatedAt ?? '')} UTC
+          </p>
+          <h1 id="cover-heading">{lang === 'ko' ? '오늘의 뉴스, 더 넓은 시선.' : 'The day’s signal. A wider view.'}</h1>
+          <p class="sr-cover__lede">
+            Sourced daily news alongside authored essays, features and analysis across six categories. No login, no tracking, no advice.
+          </p>
+          <div class="sr-cover__stats sr-micro">
+            <span>{pluralize(todayRefs.length, 'story', 'stories')}</span>
+            <span>{pluralize(totalSources, 'source citation')}</span>
+            <span>{todaysEditions.length} vertical editions</span>
+            <span>
+              <a href={editionHref(latest as string, lang)}>Full edition {latest}</a>
+            </span>
+          </div>
+        </section>
+
+        {startHere && (
+          <section class="sr-section" aria-labelledby="start-heading">
+            <div class="sr-section__head">
+              <h2 class="sr-section__title" id="start-heading">
+                Start here
+              </h2>
+              <span class="sr-micro">Widest cluster coverage today</span>
+            </div>
+            <div class="sr-start">
+              <div>
+                <div class="sr-row__meta sr-micro">
+                  <VerticalChip vertical={startHere.vertical} href={verticalHref(startHere.vertical, lang)} />
+                  <TypeBadge type={startHere.story.type} />
+                  <span>
+                    {joinMeta([
+                      timeLabel(startHere.generatedAt),
+                      pluralize(sourceCount(startHere.story), 'source'),
+                      `${startHere.story.readMinutes} min`,
+                      `cluster ${startHere.story.cluster.length}`,
+                    ])}
+                  </span>
+                </div>
+                <h3 style="font-size: var(--fs-xl); margin-top: var(--sp-3)">
+                  <a href={startHere.href}>{startHere.story.headline}</a>
+                </h3>
+                {startHere.story.dek && (
+                  <p class="sr-cover__lede" style="margin-top: var(--sp-2)">
+                    {startHere.story.dek}
+                  </p>
+                )}
+                <div class="sr-start__tldr">
+                  <TldrList items={startHere.story.tldr} compact />
+                </div>
+                <p class="sr-micro" style="margin-top: var(--sp-4)">
+                  <a href={startHere.href}>Read the full item →</a>
+                </p>
+              </div>
+              <div class="sr-start__side">
+                <p class="sr-micro sr-micro--text">Today’s editions</p>
+                <ul>
+                  {todaysEditions.map((edition) => (
+                    <li>
+                      <div class="sr-row__meta sr-micro">
+                        <VerticalChip vertical={edition.data.vertical} href={verticalHref(edition.data.vertical, lang)} />
+                        <span>{pluralize(edition.data.stories.length, 'story', 'stories')}</span>
+                      </div>
+                      <a href={`${editionHref(edition.data.date, lang)}#${edition.data.vertical}`}>
+                        {edition.data.title}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+                <p class="sr-micro" style="margin-top: var(--sp-4)">
+                  Ranked by cluster size, then read time. Index capped at {HOME_INDEX_CAP} rows.
+                </p>
+              </div>
+            </div>
+          </section>
+        )}
+
+        <section class="sr-section" aria-labelledby="index-heading">
+          <div class="sr-section__head">
+            <h2 class="sr-section__title" id="index-heading">
+              Latest stories
+            </h2>
+            <span class="sr-micro">Ordered by cluster size</span>
+          </div>
+          <div class="sr-index">
+            {indexRows.map((ref) => <DenseIndexRow ref={ref} showDek={false} />)}
+          </div>
+          <div class="sr-pager">
+            <span class="sr-micro">
+              Showing {indexRows.length} of {todayRefs.length} stories
+            </span>
+            <span class="sr-micro">
+              <a href={editionHref(latest as string, lang)}>More — full edition →</a>
+            </span>
+          </div>
+        </section>
+      </>
+    )
+  }
+  <section class="sr-section" aria-labelledby="features-heading">
+    <div class="sr-section__head">
+      <h2 class="sr-section__title" id="features-heading">{lang === 'ko' ? '특집·에세이' : 'Features & essays'}</h2>
+      <span class="sr-micro">{lang === 'ko' ? '새로운 시선 · 모든 분야' : 'Fresh perspectives · all categories'}</span>
+    </div>
+    {featuredRefs.length ? <div class="sr-index">{featuredRefs.map((ref) => <DenseIndexRow ref={ref} showDate transitionName={false} />)}</div> :
+      <div class="sr-empty"><p>{lang === 'ko' ? '새 글을 준비하고 있습니다. 세상의 변화와 삶의 질문을 담은 특집·에세이를 이곳에서 만나보세요.' : 'New writing is on its way. Find features & essays on a changing world and enduring questions here.'}</p></div>}
+  </section>
+        <section class="sr-section" aria-labelledby="verticals-heading">
+          <div class="sr-section__head">
+            <h2 class="sr-section__title" id="verticals-heading">
+              Categories
+            </h2>
+            <span class="sr-micro">Latest across all dates</span>
+          </div>
+          <div class="sr-bento">
+            {tiles.map(({ vertical, top, count }) => (
+              <a class="sr-tile" data-vertical={vertical} href={verticalHref(vertical, lang)} data-nav-item>
+                <div class="sr-tile__top">
+                  <VerticalChip vertical={vertical} label={VERTICAL_META[vertical].label} />
+                  <span class="sr-micro">{pluralize(count, 'story', 'stories')}</span>
+                </div>
+                {top ? (
+                  <>
+                    <h3>{top.story.headline}</h3>
+                    <p class="sr-tile__dek">{top.story.dek ?? top.story.tldr[0]}</p>
+                    <div class="sr-tile__meta sr-micro">
+                      <span>
+                        {joinMeta([
+                          formatDateLong(top.date),
+                          `${top.story.readMinutes} min`,
+                        ])}
+                      </span>
+                      <span>{VERTICAL_META[vertical].label} feed →</span>
+                    </div>
+                  </>
+                ) : (
+                  <>
+                    <h3>{lang === 'ko' ? '새 글을 준비하고 있습니다' : 'New writing is on its way'}</h3>
+                    <p class="sr-tile__dek">
+                      {VERTICAL_META[vertical].blurb}
+                    </p>
+                    <div class="sr-tile__meta sr-micro">
+                      <span>{lang === 'ko' ? '특집·에세이' : 'Features & essays'}</span>
+                      <span>{VERTICAL_META[vertical].label} feed →</span>
+                    </div>
+                  </>
+                )}
+              </a>
+            ))}
+          </div>
+        </section>
+
+
+</BaseLayout>

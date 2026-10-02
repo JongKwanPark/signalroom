@@ -1,13 +1,13 @@
 ---
 import { SITE, VERTICALS, VERTICAL_META } from '../lib/site';
-import { getEditions, newestDate } from '../lib/editions';
+import { getEditions, newestDate, editionsInLang } from '../lib/editions';
 import { langOfPath } from '../lib/editions';
 import { formatDateLong } from '../lib/format';
 
-const editions = await getEditions();
+const lang = langOfPath(Astro.url.pathname) ?? 'en';
+const editions = editionsInLang(await getEditions(), lang);
 const latest = newestDate(editions);
 const year = new Date().getUTCFullYear();
-const lang = langOfPath(Astro.url.pathname) ?? 'en';
 ---
 
 <footer class="sr-footer">
@@ -21,11 +21,11 @@ const lang = langOfPath(Astro.url.pathname) ?? 'en';
         </p>
         <p>{SITE.tagline} Public, no login, no tracking.</p>
         <p class="sr-micro">
-          AI-assisted drafts · editor-reviewed · primary sources cited inline · not advice
+          Sourced news · authored essays, features &amp; analysis · not advice
         </p>
       </div>
 
-      <nav class="sr-footer__links sr-micro" aria-label="Vertical feeds">
+      <nav class="sr-footer__links sr-micro" aria-label="Category feeds">
         <span>Feeds</span>
         {
           VERTICALS.map((vertical) => (

@@ -1,6 +1,6 @@
 ---
 import { LOCALE, SITE } from '../lib/site';
-import { counterpartPath, getEditions, getStoryRef, langOfPath, stripLangPrefix, type Lang } from '../lib/editions';
+import { counterpartPath, getEditions, getStoryRef, getTranslationRef, langOfPath, stripLangPrefix, type Lang } from '../lib/editions';
 import { absoluteUrl, canonicalUrl, organizationJsonLd, type JsonLd } from '../lib/seo';
 
 interface Props {
@@ -30,20 +30,31 @@ const {
 const requestedPath = path ?? Astro.url.pathname;
 const pageLang: Lang = langOfPath(requestedPath) ?? 'en';
 const { rest } = stripLangPrefix(requestedPath);
-const localized = rest === '/' || /^\/(?:story\/[^/]+|(?:ai|bio|geo|markets)|archive|search|\d{4}\/\d{2}(?:\/\d{2})?)\/?$/.test(rest);
-const canonicalPath = localized ? counterpartPath(requestedPath, pageLang) : requestedPath;
+const localized = rest === '/' || /^\/(?:story\/[^/]+|(?:ai|bio|geo|markets|wisdom|society)|archive|search|\d{4}\/\d{2}(?:\/\d{2})?)\/?$/.test(rest);
+const canonicalPath = localized ? (rest === '/' ? `/${pageLang}` : `/${pageLang}${rest}`) : requestedPath;
 const canonical = canonicalUrl(canonicalPath);
 let alternates: { en: string; ko: string } | null = null;
 if (localized && !noindex) {
-  const en = counterpartPath(requestedPath, 'en');
-  const ko = counterpartPath(requestedPath, 'ko');
   const storySlug = rest.match(/^\/story\/([^/]+)\/?$/)?.[1];
-  const editions = storySlug || /^\/\d{4}\/\d{2}(?:\/\d{2})?\/?$/.test(rest) ? await getEditions() : [];
-  const pairedStory = !storySlug || Boolean(await getStoryRef(ko.split('/').at(-1) ?? '', 'ko'));
-  const [year, month, day] = rest.slice(1).split('/');
-  const pairedDate = !/^\d{4}$/.test(year) || editions.some((edition) => edition.data.lang === 'ko' && edition.data.date.startsWith(`${year}-${month}`) && (!day || edition.data.date === `${year}-${month}-${day}`));
-  if (pairedStory && pairedDate) alternates = { en: canonicalUrl(en), ko: canonicalUrl(ko) };
+  if (storySlug) {
+    const ref = await getStoryRef(storySlug, pageLang);
+    const counterpart = ref ? await getTranslationRef(ref, pageLang === 'en' ? 'ko' : 'en') : undefined;
+    if (ref && counterpart) {
+      alternates = {
+        en: canonicalUrl(ref.lang === 'en' ? ref.href : counterpart.href),
+        ko: canonicalUrl(ref.lang === 'ko' ? ref.href : counterpart.href),
+      };
+    }
+  } else {
+    const isDate = /^\/\d{4}\/\d{2}(?:\/\d{2})?\/?$/.test(rest);
+    const editions = isDate ? await getEditions() : [];
+    const [year, month, day] = rest.replace(/\/+$/, '').slice(1).split('/');
+    const pairedDate = !isDate || (['en', 'ko'] as const).every((lang) =>
+      editions.some((edition) => (edition.data.lang ?? 'en') === lang && edition.data.date.startsWith(`${year}-${month}`) && (!day || edition.data.date === `${year}-${month}-${day}`)));
+    if (pairedDate) alternates = { en: canonicalUrl(counterpartPath(requestedPath, 'en')), ko: canonicalUrl(counterpartPath(requestedPath, 'ko')) };
+  }
 }
+
 const imageUrl = image ? absoluteUrl(image) : undefined;
 const blocks = [organizationJsonLd(), ...(jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [])];
 ---

@@ -1,4 +1,5 @@
 ---
+import { getEntry, render } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import CitationChip from './CitationChip.astro';
 import ClusterLinks from './ClusterLinks.astro';
@@ -29,11 +30,17 @@ interface Props {
 const { ref, lang } = Astro.props as Props;
 const { story, vertical } = ref;
 const meta = VERTICAL_META[vertical];
+const articleEntry = ref.kind === 'article' ? await getEntry('articles', ref.articleId) : undefined;
+if (ref.kind === 'article' && !articleEntry) throw new Error(`Missing article content: ${ref.articleId}`);
+const renderedArticle = articleEntry ? await render(articleEntry) : undefined;
+const ArticleContent = renderedArticle?.Content;
+const publishedTime = ref.kind === 'article' ? ref.publishedAt : ref.generatedAt;
+const modifiedTime = ref.kind === 'article' ? (ref.updatedAt ?? ref.publishedAt) : ref.generatedAt;
 
 const sourcesById = new Map(story.sources.map((source) => [source.id, source]));
 const orderedSources = [...story.sources].sort((a, b) => a.id - b.id);
 
-const editions = await getEditions();
+const editions = ref.kind === 'edition' ? await getEditions() : [];
 const edition = editions.find((entry) => entry.id === ref.editionId);
 const siblings = edition?.data.stories ?? [];
 const position = siblings.findIndex((item) => item.slug === ref.slug);
@@ -48,7 +55,7 @@ const jsonLd = [
   breadcrumbJsonLd([
     { name: 'Home', path: `/${lang}` },
     { name: meta.name, path: verticalHref(vertical, lang) },
-    { name: formatDateLong(ref.date), path: editionHref(ref.date, lang) },
+    ...(ref.kind === 'edition' ? [{ name: formatDateLong(ref.date), path: editionHref(ref.date, lang) }] : []),
     { name: story.headline, path: ref.href },
   ]),
 ];
@@ -68,16 +75,15 @@ function hostname(url: string): string {
   path={ref.href}
   type="article"
   image={ogImage}
-  publishedTime={ref.generatedAt}
-  modifiedTime={ref.generatedAt}
+  publishedTime={publishedTime}
+  modifiedTime={modifiedTime}
   jsonLd={jsonLd}
   vertical={vertical}
 >
   <nav class="sr-micro sr-story-crumbs" aria-label="Breadcrumb">
     <a href={`/${lang}`}>Home</a>
     <span aria-hidden="true">/</span>
-    <a href={editionHref(ref.date, lang)}>{formatDateLong(ref.date)}</a>
-    <span aria-hidden="true">/</span>
+    {ref.kind === 'edition' && <><a href={editionHref(ref.date, lang)}>{formatDateLong(ref.date)}</a><span aria-hidden="true">/</span></>}
     <a href={verticalHref(vertical, lang)}>{meta.label}</a>
   </nav>
 
@@ -86,19 +92,25 @@ function hostname(url: string): string {
       <div class="sr-row__meta sr-micro">
         <VerticalChip vertical={vertical} href={verticalHref(vertical, lang)} />
         <TypeBadge type={story.type} />
-        <span>{pluralize(sourceCount(story), 'source')}</span>
-        <span>·</span>
-        <span>{story.readMinutes} min</span>
-        <span>·</span>
-        <span>cluster {story.cluster.length}</span>
-        <span>·</span>
-        <span>updated {timeLabel(ref.generatedAt)} UTC</span>
+        {ref.kind === 'article' ? <>
+          <span>{ref.author}</span><span>·</span>
+          <time datetime={publishedTime}>{formatDateLong(ref.date)}</time>
+          {ref.updatedAt && ref.updatedAt !== ref.publishedAt && <><span>·</span><span>Updated <time datetime={ref.updatedAt}>{formatDateLong(ref.updatedAt.slice(0, 10))}</time></span></>}
+          <span>·</span><span>{story.readMinutes} min</span>
+        </> : <>
+          <span>{pluralize(sourceCount(story), 'source')}</span><span>·</span>
+          <span>{story.readMinutes} min</span><span>·</span>
+          <span>cluster {story.cluster.length}</span><span>·</span>
+          <span>updated {timeLabel(ref.generatedAt)} UTC</span>
+        </>}
+
       </div>
 
       <h1 style={`view-transition-name: story-${ref.slug}`}>{story.headline}</h1>
       {story.dek && <p class="sr-story__dek">{story.dek}</p>}
     </header>
 
+    {ref.kind === 'article' ? <div class="sr-story__body sr-prose sr-article-body">{ArticleContent && <ArticleContent />}</div> : <>
     <div class="sr-story__body">
       <TldrList items={story.tldr} />
 
@@ -122,13 +134,14 @@ function hostname(url: string): string {
       <EditorNote text={story.editorNote} />
     </div>
 
+    </>}
     <div class="sr-story__footer">
-      <ClusterLinks links={story.cluster} />
+      {ref.kind === 'edition' && <ClusterLinks links={story.cluster} />}
 
-      <section class="sr-section" aria-labelledby="sources-heading">
+      {orderedSources.length > 0 && <section class="sr-section" aria-labelledby="sources-heading">
         <div class="sr-section__head">
           <h2 class="sr-section__title" id="sources-heading">
-            Sources
+            {ref.kind === 'article' ? 'References' : 'Sources'}
           </h2>
           <span class="sr-micro">{pluralize(orderedSources.length, 'citation')} · external</span>
         </div>
@@ -156,17 +169,16 @@ function hostname(url: string): string {
             ))
           }
         </ol>
-      </section>
+      </section>}
 
       <div class="sr-actions-inline sr-story__tags">
-        <span class="sr-micro">confidence: {CONFIDENCE_LABEL[story.confidence]}</span>
-        <span class="sr-micro" aria-hidden="true">·</span>
+        {ref.kind === 'edition' && <><span class="sr-micro">confidence: {CONFIDENCE_LABEL[story.confidence]}</span><span class="sr-micro" aria-hidden="true">·</span></>}
         <span class="sr-micro">
-          {story.tags.map((tag) => <span class="sr-tag">{tag} </span>)}
+          {story.tags.map((tag) => <a class="sr-tag" href={`${verticalHref(vertical, lang)}?tag=${encodeURIComponent(tag)}`}>{tag} </a>)}
         </span>
       </div>
 
-      <nav class="sr-pager sr-micro" aria-label="Story navigation">
+      {ref.kind === 'edition' ? <nav class="sr-pager sr-micro" aria-label="Story navigation">
         <span>
           {previous ? <a href={storyHref(previous.slug, lang)}>← {previous.headline}</a> : 'First in edition'}
         </span>
@@ -175,7 +187,7 @@ function hostname(url: string): string {
             <a href={editionHref(ref.date, lang)}>Full edition →</a>
           )}
         </span>
-      </nav>
+      </nav> : <nav class="sr-pager sr-micro" aria-label="Writing navigation"><a href={verticalHref(vertical, lang)}>← {meta.label}</a><a href={`/${lang}/archive`}>All writing →</a></nav>}
     </div>
   </article>
 </BaseLayout>

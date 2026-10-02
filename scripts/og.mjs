@@ -10,6 +10,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import satori from 'satori';
 import { Resvg } from '@resvg/resvg-js';
+import { SITE, CATEGORY_KEYS, VERTICAL_META } from '../src/lib/site.ts';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const CONTENT_DIR = path.join(ROOT, 'src/content/editions');
@@ -26,18 +27,18 @@ const TEXT = '#e8ecf1';
 const MUTED = '#9aa4b2';
 const HAIRLINE = 'rgba(255,255,255,0.16)';
 
-const VERTICALS = {
-  ai: { label: 'AI', accent: '#4cd1ee' },
-  bio: { label: 'BIO', accent: '#7fd497' },
-  geo: { label: 'GEO', accent: '#edb161' },
-  markets: { label: 'MARKETS', accent: '#c3aeff' },
-};
+const THEME = readFileSync(path.join(ROOT, 'src/styles/theme.css'), 'utf8');
+const VERTICALS = Object.fromEntries(CATEGORY_KEYS.map((key) => {
+  const accent = THEME.match(new RegExp(`--accent-${key}:\\s*(#[0-9a-f]{6})\\s*;`, 'i'))?.[1];
+  if (!accent) throw new Error(`[og] missing dark accent token for ${key}`);
+  return [key, { label: VERTICAL_META[key].label, accent }];
+}));
 
 const MARK_DATA_URI = `data:image/svg+xml;base64,${readFileSync(
   path.join(ROOT, 'public/brand/logo-mark.svg'),
 ).toString('base64')}`;
-const TAGLINE = 'A daily intelligence digest across AI, bio, geo and markets.';
-const TAGLINE_KO = 'AI·바이오·국제정세·시장의 오늘을 정리합니다.';
+const TAGLINE = SITE.tagline;
+const TAGLINE_KO = SITE.taglineKo;
 const SITE_HOST = new URL(
   process.env.SITE_URL || process.env.SITE || 'https://signaldaily.cloud',
 ).host;
@@ -241,19 +242,21 @@ function storyElement(ref) {
     labelColor: vertical.accent,
     headline: ref.lang === 'ko' ? wrapKorean(ref.headline) : wrap(clampText(ref.headline, 220), 36, 6),
     lang: ref.lang,
-    footerLeft: `${ref.sources} sources · ${ref.readMinutes} min`,
+    footerLeft: ref.kind === 'article'
+      ? `${ref.author || 'Signal Daily'} · ${ref.readMinutes} min`
+      : `${ref.sources} sources · ${ref.readMinutes} min`,
     footerRight: SITE_HOST,
   });
 }
 
 function siteElement(latestDate, lang = 'en') {
   return frame({
-    bars: [VERTICALS.ai.accent, VERTICALS.bio.accent, VERTICALS.geo.accent, VERTICALS.markets.accent],
-    label: latestDate ? `DAILY DIGEST — ${dateLabel(latestDate)}` : 'DAILY DIGEST',
+    bars: Object.values(VERTICALS).map((vertical) => vertical.accent),
+    label: latestDate ? `SIGNAL DAILY — ${dateLabel(latestDate)}` : 'SIGNAL DAILY',
     labelColor: MUTED,
     headline: lang === 'ko' ? wrapKorean(TAGLINE_KO) : wrap(TAGLINE, 36, 6),
     lang,
-    footerLeft: 'AI-assisted · editor-reviewed · sources cited',
+    footerLeft: 'Daily news · essays · reflection',
     footerRight: SITE_HOST,
   });
 }
@@ -287,6 +290,46 @@ async function loadEditions() {
     }
   }
   return editions.sort((a, b) => String(b.date).localeCompare(String(a.date)));
+}
+
+// Astro's search indexes use the same published-content query as the pages.
+// Reading them avoids a second Markdown parser and keeps drafts out of OG output.
+async function loadPublicRefs(editions) {
+  const newsMetadata = new Map();
+  for (const edition of editions) {
+    const lang = edition.lang === 'ko' ? 'ko' : 'en';
+    for (const story of edition.stories ?? []) {
+      const key = `${lang}:${story.slug}`;
+      if (!newsMetadata.has(key)) {
+        newsMetadata.set(key, { generatedAt: edition.generatedAt, sources: sourceCount(story) });
+      }
+    }
+  }
+  const refs = [];
+  for (const lang of ['en', 'ko']) {
+    const indexPath = path.join(ROOT, 'dist', lang, 'search-index.json');
+    const items = JSON.parse(await readFile(indexPath, 'utf8'));
+    for (const item of items) {
+      const match = item.url?.match(/^\/(en|ko)\/story\/([a-z0-9]+(?:-[a-z0-9]+)*)$/);
+      if (!match || match[1] !== lang) {
+        throw new Error(`[og] invalid published story URL in ${indexPath}: ${item.url}`);
+      }
+      const metadata = newsMetadata.get(`${lang}:${match[2]}`);
+      refs.push({
+        lang,
+        slug: match[2],
+        kind: item.kind ?? 'edition',
+        author: item.author,
+        headline: item.headline,
+        readMinutes: item.readMinutes,
+        sources: metadata?.sources ?? item.sources,
+        vertical: item.vertical,
+        date: item.date,
+        generatedAt: item.publishedAt ?? item.generatedAt ?? metadata?.generatedAt ?? `${item.date}T00:00:00Z`,
+      });
+    }
+  }
+  return refs;
 }
 
 async function renderPng(element, fonts) {
@@ -328,27 +371,7 @@ async function main() {
   }
   const fonts = await loadFonts();
   const editions = await loadEditions();
-
-  const seen = new Set();
-  const refs = [];
-  for (const edition of editions) {
-    for (const story of edition.stories ?? []) {
-      const lang = edition.lang === 'ko' ? 'ko' : 'en';
-      const key = `${lang}:${story.slug}`;
-      if (seen.has(key)) continue;
-      seen.add(key);
-      refs.push({
-        lang,
-        slug: story.slug,
-        headline: story.headline,
-        readMinutes: story.readMinutes,
-        sources: sourceCount(story),
-        vertical: edition.vertical,
-        date: edition.date,
-        generatedAt: edition.generatedAt,
-      });
-    }
-  }
+  const refs = await loadPublicRefs(editions);
 
   await mkdir(OUT_DIR, { recursive: true });
   await mkdir(path.join(OUT_DIR, 'en'), { recursive: true });

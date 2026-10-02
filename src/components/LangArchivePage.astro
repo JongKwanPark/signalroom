@@ -1,21 +1,28 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import VerticalChip from './VerticalChip.astro';
-import { dateEntries, editionHref, editionsInLang, getEditions, monthEntries, monthHref, type Lang } from '../lib/editions';
+import DenseIndexRow from './DenseIndexRow.astro';
+import { dateEntries, editionHref, editionsInLang, getEditions, getArticleRefs, monthEntries, monthHref, type Lang } from '../lib/editions';
 import { type Vertical } from '../lib/site';
 import { formatDateLong, formatMonthYear, pluralize } from '../lib/format';
 import { breadcrumbJsonLd } from '../lib/seo';
 
-interface Props { lang: Lang }
-const { lang } = Astro.props;
+interface Props { lang: Lang; path?: string }
+const { lang, path = `/${lang}/archive` } = Astro.props;
+const articles = await getArticleRefs(lang);
 const editions = editionsInLang(await getEditions(), lang);
 const months = monthEntries(editions);
 const days = dateEntries(editions);
 const jsonLd = breadcrumbJsonLd([{ name: 'Home', path: `/${lang}` }, { name: 'Archive', path: `/${lang}/archive` }]);
 ---
 
-<BaseLayout title="Archive" description={`Every Signal Daily ${lang.toUpperCase()} edition, newest first.`} path={`/${lang}/archive`} jsonLd={jsonLd}>
-  <header class="sr-page-head"><p class="sr-micro sr-micro--accent">Archive</p><h1>Every edition</h1><p class="sr-page-head__lede">{pluralize(days.length, 'day')} · {pluralize(months.length, 'month')}</p></header>
+<BaseLayout title="Archive" description={`Every Signal Daily ${lang.toUpperCase()} edition and standalone essay, feature or analysis, newest first.`} path={path} jsonLd={jsonLd}>
+  <header class="sr-page-head"><p class="sr-micro sr-micro--accent">Archive</p><h1>Every edition &amp; authored piece</h1><p class="sr-page-head__lede">{pluralize(days.length, 'day')} · {pluralize(months.length, 'month')}</p></header>
+  <section class="sr-section" aria-labelledby="articles-heading">
+    <div class="sr-section__head"><h2 class="sr-section__title" id="articles-heading">{lang === 'ko' ? '특집·에세이' : 'Features & essays'}</h2><span class="sr-micro">{pluralize(articles.length, 'piece')}</span></div>
+    {articles.length ? <div class="sr-index">{articles.map((ref) => <DenseIndexRow ref={ref} showDate />)}</div> : <p>{lang === 'ko' ? '새 글을 준비하고 있습니다.' : 'New writing is on its way.'}</p>}
+  </section>
+  {!months.length && <div class="sr-empty"><p>{lang === 'ko' ? '아직 발행된 뉴스 에디션이 없습니다.' : 'No news editions published yet.'}</p></div>}
   {months.map((month) => <section class="sr-section" aria-labelledby={`m-${month.year}-${month.month}`}>
     <div class="sr-section__head"><h2 class="sr-section__title" id={`m-${month.year}-${month.month}`}>{formatMonthYear(month.year, month.month)}</h2><a class="sr-micro" href={monthHref(`${month.year}-${month.month}-01`, lang)}>month index →</a></div>
     <div class="sr-index">{month.dates.map((entry) => <article class="sr-row">

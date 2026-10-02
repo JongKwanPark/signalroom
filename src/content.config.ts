@@ -1,5 +1,7 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
+import { CATEGORY_KEYS } from './lib/categories';
+import { articleMetadataSchema } from '../scripts/validate-article';
 
 const citation = z.object({
   id: z.number().int().positive(),
@@ -25,6 +27,7 @@ const story = z.object({
   headline: z.string().min(1),
   dek: z.string().optional(),
   type: z.enum(['BRIEF', 'DEEP', 'DATA']),
+  publication: z.enum(['scheduled', 'manual']).default('scheduled'),
   readMinutes: z.number().min(1).max(60),
   tldr: z.array(z.string().min(1)).length(3),
   body: z.array(bodyBlock).min(1),
@@ -41,7 +44,7 @@ const editions = defineCollection({
   schema: z.object({
     date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
     generatedAt: z.string(),
-    vertical: z.enum(['ai', 'bio', 'geo', 'markets']),
+    vertical: z.enum(CATEGORY_KEYS),
     // 2-1 A안(채택): 에디션 언어 표기. 필수 — 미표기 시 스키마 실패.
     // 파일명 규칙(타입이 아닌 운용 규약, validate.ts inferLangFromFilename 참조):
     //   `<vertical>.json` = en, `<vertical>.ko.json` = ko.
@@ -53,4 +56,15 @@ const editions = defineCollection({
   }),
 });
 
-export const collections = { editions };
+const articles = defineCollection({
+  loader: glob({
+    pattern: '**/*.md',
+    base: './src/content/articles',
+    // Keep file identity separate from language-scoped public slugs. The default
+    // slug-derived ID would shadow duplicates before our public URL checks run.
+    generateId: ({ entry }) => entry.replace(/\.md$/, ''),
+  }),
+  schema: articleMetadataSchema,
+});
+
+export const collections = { editions, articles };

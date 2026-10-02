@@ -1,12 +1,13 @@
 import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
+import { CATEGORY_KEYS } from './src/lib/categories.ts';
 
 const SITE_URL = (process.env.SITE_URL || 'https://signaldaily.cloud').replace(/\/+$/, '');
 
 // Pages that render <meta name="robots" content="noindex"> must not be listed.
 const NOINDEX_PATHS = new Set(['/search', '/en/search', '/ko/search', '/404']);
-const LEGACY_LOCALIZED = /^\/(?:story\/[^/]+|ai|bio|geo|markets|archive|\d{4}\/\d{2}(?:\/\d{2})?)$/;
+const LEGACY_LOCALIZED = new RegExp(`^/(?:story/[^/]+|${CATEGORY_KEYS.join('|')}|archive|\\d{4}/\\d{2}(?:/\\d{2})?)$`);
 
 // lastmod for story and edition pages, read from the same edition JSON the
 // content collection loads (newest date wins, matching allStoryRefs()).

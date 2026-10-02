@@ -9,7 +9,7 @@ const WINDOW_MS = 48 * 60 * 60 * 1000;
 
 export const GET: APIRoute = async () => {
   const cutoff = Date.now() - WINDOW_MS;
-  const refs = await getStoryRefs();
+  const refs = (await getStoryRefs()).filter((ref) => ref.kind === 'edition');
 
   const entries = refs
     .map((ref) => ({ ref, published: new Date(ref.generatedAt) }))

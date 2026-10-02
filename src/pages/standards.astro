@@ -8,7 +8,7 @@ const jsonLd = breadcrumbJsonLd([
   { name: 'Standards', path: '/standards' },
 ]);
 
-const updated = '2026-09-20';
+const updated = '2026-10-02';
 ---
 
 <BaseLayout
@@ -21,7 +21,7 @@ const updated = '2026-09-20';
     <p class="sr-micro sr-micro--accent">Standards · updated {updated}</p>
     <h1>Editorial standards</h1>
     <p class="sr-page-head__lede">
-      These rules are binding for every edition. If an item cannot meet them, it does not publish.
+      These rules apply to news editions and standalone writing, with distinct requirements for each format. If an item cannot meet them, it does not publish.
       Where we fall short, we correct in place and note the change.
     </p>
   </header>
@@ -29,18 +29,20 @@ const updated = '2026-09-20';
   <div class="sr-prose">
     <h2>1. AI use is disclosed</h2>
     <p>
-      Every edition is drafted with AI assistance and reviewed by a human editor before publishing.
+      News editions use AI-assisted drafting and an automated publishing workflow. Manual writing may
+      use AI assistance, while the named author is responsible for its interpretation. Human editorial
+      review and automated validation are distinct activities.
       Concretely:
     </p>
     <ul>
       <li>An AI model drafts structure and prose from collected source material.</li>
       <li>
-        A human editor reviews each item for accuracy, framing, citation correctness and tone, and may
-        rewrite or reject any part of it.
+        Editors may review, rewrite or reject news and manual writing. Automated checks validate
+        structure and citations; they do not themselves constitute human editorial review.
       </li>
       <li>
-        No item publishes unreviewed. The “AI-assisted drafts · editor-reviewed” line in the footer is
-        accurate for every page on this site.
+        AI assistance does not establish evidence. References and attribution remain required wherever
+        factual claims or direct quotations need support.
       </li>
       <li>
         AI is never used to generate quotes, invent sources, or synthesize a source that does not
@@ -51,7 +53,7 @@ const updated = '2026-09-20';
     <h2>2. Primary sources only</h2>
     <ul>
       <li>
-        Every body paragraph cites at least one source, and every citation resolves to a real,
+        Every news body paragraph cites at least one source, and every citation resolves to a real,
         publicly reachable URL in the item’s source list.
       </li>
       <li>
@@ -69,7 +71,10 @@ const updated = '2026-09-20';
       </li>
     </ul>
 
-    <h2>3. Confidence labels</h2>
+    <h3>Authored writing</h3>
+    <p>Standalone essays, features and analysis identify their author and publication date. Direct quotations from classics, historical explanations and factual claims need references. Personal experience and interpretation are attributed to the author. Free-form writing does not require news paragraph citations, three summary bullets or related-report clusters.</p>
+
+    <h2>3. News confidence labels</h2>
     <ul>
       <li>
         <strong>High</strong> — the core claim is documented by two or more independent primary
@@ -85,7 +90,7 @@ const updated = '2026-09-20';
       </li>
     </ul>
     <p>
-      Confidence describes the state of the evidence, not the importance of the story. A low-confidence
+      For news, confidence describes the state of the evidence, not the importance of the story. A low-confidence
       item can be the most consequential thing in the edition.
     </p>
 
@@ -101,7 +106,8 @@ const updated = '2026-09-20';
     <ul>
       <li>
         Factual errors are corrected in place, with the edition page updated and the correction noted
-        in the item’s editor’s note.
+        in the item’s editor’s note. Standalone writing records a meaningful correction in its text
+        and updates its modification date.
       </li>
       <li>
         If an item cannot be corrected to standard, it is removed from the archive and the removal is
@@ -118,7 +124,7 @@ const updated = '2026-09-20';
       <li>No sponsored content, no affiliate links, no paid placements in the digest.</li>
       <li>No accounts, no login walls, no email capture, no analytics or advertising scripts.</li>
       <li>
-        Outbound links carry <code>rel="noopener noreferrer nofollow"</code> and open in a new tab.
+        Source-reference links carry <code>rel="noopener noreferrer nofollow"</code> and open in a new tab.
       </li>
       <li>
         The only data stored in your browser is your theme and view preference, kept in{' '}
@@ -128,8 +134,9 @@ const updated = '2026-09-20';
 
     <h2>7. Scope</h2>
     <p>
-      Four verticals: <strong>AI</strong>, <strong>bio &amp; health</strong>,{' '}
-      <strong>geopolitics &amp; security</strong>, and <strong>markets &amp; macro</strong>. An item
+      Six categories: <strong>AI</strong>, <strong>BIO</strong>, <strong>GEO</strong>,
+      <strong>MARKETS</strong>, <strong>WISDOM</strong> and <strong>SOCIETY</strong>.
+      Automated collection covers the first four; WISDOM and SOCIETY begin with manual publication. An item
       is included when it is documented, material to a reader who follows the field, and adds
       information rather than repeating the previous day’s coverage.
     </p>

@@ -1,8 +1,9 @@
-// Shared pipeline types.
+// Automated collection stays limited to its configured news categories.
+import { AUTOMATED_VERTICALS } from '../../src/lib/categories.ts';
 
-export type Vertical = "ai" | "bio" | "geo" | "markets";
+export type Vertical = (typeof AUTOMATED_VERTICALS)[number];
 
-export const VERTICALS: Vertical[] = ["ai", "bio", "geo", "markets"];
+export const VERTICALS: Vertical[] = [...AUTOMATED_VERTICALS];
 
 export interface RawItem {
   source: string;

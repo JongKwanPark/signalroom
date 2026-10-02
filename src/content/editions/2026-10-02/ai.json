@@ -8,6 +8,7 @@
   "stories": [
     {
       "slug": "plunging-price-of-ai-performance",
+      "publication": "manual",
       "headline": "The cost of a given AI performance level has fallen about 47% per quarter",
       "dek": "Epoch AI estimates a 13x annual drop in the price of hitting a fixed benchmark score, a pace it says outruns measured declines for DNA sequencing, compute, and lithium-ion batteries.",
       "type": "DEEP",
@@ -137,6 +138,7 @@
     },
     {
       "slug": "commit-descriptions-as-thinking-tool",
+      "publication": "manual",
       "headline": "Why Developers Still Write Commit Descriptions by Hand in the AI Era",
       "dek": "Yedhu Krishnan argues that drafting commit messages remains an essential thinking tool to verify human understanding and prevent AI-fabricated rationale.",
       "type": "DEEP",

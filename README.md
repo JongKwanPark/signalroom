@@ -1,13 +1,14 @@
 # Signal Daily
 
-A public, no-login daily intelligence digest across four verticals — **AI**, **Bio & health**,
-**Geopolitics & security** and **Markets & macro**. Every item says what moved, why it matters and
-where it came from, with primary sources cited inline. Drafted with AI assistance, reviewed by an
-editor, no tracking and no advice.
+A public, no-login publication across six categories — **AI**, **Bio & health**,
+**Geopolitics & security**, **Markets & macro**, **WISDOM** and **SOCIETY**. Scheduled news editions
+cover the first four; operators can also publish features and independent Markdown articles in all
+six. See [docs/manual-publish.md](docs/manual-publish.md) for the current operation paths.
 
 - Latest edition: the home page (`/`) is the day's cover.
 - Archive: `/archive`, per-day editions at `/<yyyy>/<mm>/<dd>`, per-vertical feeds at `/<vertical>`.
 - Machine-readable: `/rss.xml`, `/llms.txt`, `/sitemap-index.xml`.
+- Independent articles use `/{lang}/story/{slug}` and join category pages, search, archives and RSS.
 
 ## Architecture
 
@@ -18,14 +19,16 @@ editor, no tracking and no advice.
   (LLM call or agent-authored `--input-json`), `validate.ts` enforces the publish gates. Raw
   captures stay gitignored; normalized JSONL plus a per-day manifest are committed so pipeline
   state is reviewable in Git.
-- **Frozen content schema** in `src/content.config.ts`. Editions live at
-  `src/content/editions/<date>/<vertical>.json`; a build fails if a story cites a source that is
-  not defined or breaks any schema rule.
+- **Content schemas**: `src/content.config.ts` defines editions and the article collection;
+  standalone article metadata and its CLI validation live in `scripts/validate-article.ts`.
+  Edition JSON remains at `src/content/editions/<date>/`; independent Markdown is under
+  `src/content/articles/`. `src/lib/categories.ts` owns the six site categories and four automated
+  collection targets.
 - **Build-time OG images.** `npm run build` runs `scripts/og.mjs` after `astro build` and emits
   1200×630 PNGs (`satori` + `@resvg/resvg-js`) to `dist/og/site.png` and `dist/og/<slug>.png`;
   `SeoHead` points `og:image` / `twitter:image` at those absolute URLs.
-- **Design rules** — off-black canvas, 1px hairlines, mono metadata and four hue-only vertical
-  accents — are documented in [docs/design-system.md](docs/design-system.md).
+- **Design rules** — off-black canvas, 1px hairlines, mono metadata and six category accents
+  — are documented in [docs/design-system.md](docs/design-system.md).
 
 ## Local commands
 
@@ -45,21 +48,16 @@ Node 24 (see `.nvmrc`). Copy `.env.example` to `.env` for pipeline runs.
 
 ## Automation
 
-One daily job, two possible runners:
+The active Paseo schedules run at **07:00 and 19:00 Asia/Seoul**. Each run collects and drafts
+English and Korean editions for `ai`, `bio`, `geo` and `markets`, runs the editorial and schema
+checks, builds the site, commits and pushes the checked output, then deploys to Vercel production.
+The two new site categories are manual-only; the automated collection target remains those four.
 
-1. **paseo schedules (active)** — run twice daily at **07:00 and 19:00 KST**: collect → synthesize →
-   validate → commit drafts.
-2. **GitHub Actions (standby)** — `.github/workflows/collect.yml` and `publish.yml`. Their
-   `schedule:` triggers are intentionally **commented out** so they cannot double-run alongside
-   the paseo schedule; `workflow_dispatch` remains. Re-enable the crons once the LLM API keys are
-   configured as repository secrets and the paseo schedule is retired. See
-   [docs/pipeline.md](docs/pipeline.md).
-
-Editions committed by automation are **drafts** until the human approval gate in
-docs/pipeline.md is passed.
-
-Emergency manual publishing outside the 07:00/19:00 KST schedules is documented in
-[docs/manual-publish.md](docs/manual-publish.md).
+GitHub Actions in `.github/workflows/collect.yml` and `publish.yml` are standby `workflow_dispatch`
+paths. Their cron triggers are disabled; manual workflow runs are separate from the active Paseo
+production schedule and commit drafts rather than serving as its production publishing path.
+Pipeline details are in [docs/pipeline.md](docs/pipeline.md); user-requested writing and publication
+are in [docs/manual-publish.md](docs/manual-publish.md).
 
 ## Data sources and licensing
 
@@ -77,18 +75,19 @@ SEC EDGAR, FRED, journal RSS and market data. Rules that shape what is stored:
 
 ## Editorial standards
 
-- **AI-assisted draft, human editor review.** No item publishes unreviewed; automation only
-  commits drafts.
-- **Primary sources cited inline.** Every paragraph maps to numbered citations that resolve to the
-  story's source list; the build enforces it.
+- **Scheduled editions pass editorial and schema checks before automated production publishing.**
+- **News claims are sourced.** Edition body blocks resolve numbered citations to the story's
+  sources. Independent articles cite factual and historical claims and direct quotations, while
+  identifying the author's interpretation; personal reflection does not inherit newsroom-only
+  citation, summary or cluster requirements.
 - **No advice.** Bio and markets items never give medical or investment recommendations, and
   uncertainty is labeled.
-- **Confidence labels.** Each story carries `high` / `medium` / `low` confidence describing the
+- **Confidence labels.** Each news story carries `high` / `medium` / `low` confidence describing the
   state of the evidence, not the importance of the story. Full disclosure on `/standards`.
-- **Daily quotas and quiet days.** [docs/editorial-guide.md](docs/editorial-guide.md) is the
-  editorial source of truth: a 12–24 stories/day band (3–6 per active vertical, equal counts never
-  forced), quiet verticals skipped and logged as `quiet: <vertical>` instead of padded, and one
-  cross-vertical core signal per day.
+- **Edition quotas and quiet days.** [docs/editorial-guide.md](docs/editorial-guide.md) is the
+  editorial source of truth for the four scheduled verticals: a 12–24 stories/day band (3–6 per
+  active vertical, equal counts never forced), quiet verticals skipped and logged as
+  `quiet: <vertical>` instead of padded, and one cross-vertical core signal per day.
 
 ## What still needs credentials
 

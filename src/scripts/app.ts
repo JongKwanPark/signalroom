@@ -124,9 +124,8 @@ function loadIndex(): Promise<SearchItem[]> {
 }
 
 function metaLine(item: SearchItem): string {
-  return `${item.vertical.toUpperCase()} · ${item.date} · ${item.type} · ${item.sources} sources · ${
-    item.readMinutes
-  } min`;
+  const attribution = item.kind === 'article' ? item.author : `${item.sources} sources`;
+  return [item.vertical.toUpperCase(), item.date, item.type, attribution, `${item.readMinutes} min`].filter(Boolean).join(' · ');
 }
 
 function resultMarkup(item: SearchItem): HTMLLIElement {
@@ -291,4 +290,39 @@ for (const view of document.querySelectorAll<HTMLElement>('[data-view]')) {
   }
 
   sync();
+}
+
+/* ----------------------------------------------------------- tag browsing */
+for (const browser of document.querySelectorAll<HTMLElement>('[data-tag-browser]')) {
+  const controls = browser.querySelector<HTMLElement>('[data-tag-controls]');
+  const buttons = Array.from(browser.querySelectorAll<HTMLButtonElement>('[data-tag-filter]'));
+  const rows = Array.from(browser.querySelectorAll<HTMLElement>('[data-tag-item]'));
+  const status = browser.querySelector<HTMLElement>('[data-tag-status]');
+  const empty = browser.querySelector<HTMLElement>('[data-tag-empty]');
+  if (!controls || !buttons.length) continue;
+  const tags = rows.map((row) => {
+    const parsed: unknown = JSON.parse(row.dataset.tags ?? '[]');
+    return Array.isArray(parsed) ? parsed.filter((tag): tag is string => typeof tag === 'string') : [];
+  });
+  const applyTag = (tag: string) => {
+    let count = 0;
+    rows.forEach((row, index) => {
+      row.hidden = Boolean(tag) && !tags[index].includes(tag);
+      if (!row.hidden) count += 1;
+    });
+    for (const group of browser.querySelectorAll<HTMLElement>('[data-tag-group]')) {
+      group.hidden = !Array.from(group.querySelectorAll<HTMLElement>('[data-tag-item]')).some((row) => !row.hidden);
+    }
+    for (const button of buttons) button.setAttribute('aria-pressed', String(button.dataset.tagFilter === tag));
+    if (status) status.textContent = browser.dataset.filterLang === 'ko' ? `${count}개 글${tag ? ` · ${tag}` : ''}` : `${count} ${count === 1 ? 'piece' : 'pieces'}${tag ? ` · ${tag}` : ''}`;
+    if (empty) empty.hidden = count > 0;
+    const url = new URL(window.location.href);
+    if (tag) url.searchParams.set('tag', tag);
+    else url.searchParams.delete('tag');
+    window.history.replaceState(null, '', `${url.pathname}${url.search}${url.hash}`);
+  };
+  for (const button of buttons) button.addEventListener('click', () => applyTag(button.dataset.tagFilter ?? ''));
+  controls.hidden = false;
+  const requested = new URLSearchParams(window.location.search).get('tag') ?? '';
+  applyTag(buttons.some((button) => button.dataset.tagFilter === requested) ? requested : '');
 }

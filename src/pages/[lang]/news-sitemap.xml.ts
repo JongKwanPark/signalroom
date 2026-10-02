@@ -13,7 +13,7 @@ export function getStaticPaths() {
 export const GET: APIRoute = async ({ params }) => {
   const lang = params.lang as Lang;
   const cutoff = Date.now() - WINDOW_MS;
-  const refs = (await getStoryRefs(lang)).map((ref) => ({ ref, published: new Date(ref.generatedAt) }))
+  const refs = (await getStoryRefs(lang)).filter((ref) => ref.kind === 'edition').map((ref) => ({ ref, published: new Date(ref.generatedAt) }))
     .filter(({ published }) => !Number.isNaN(published.getTime()) && published.getTime() >= cutoff);
   const entries = refs.map(({ ref, published }) => [
     '  <url>',

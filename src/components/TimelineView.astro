@@ -50,13 +50,13 @@ for (const ref of refs) {
 
   {
     groups.map((group) => (
-      <section aria-label={formatDateLong(group.date)}>
+      <section aria-label={formatDateLong(group.date)} data-tag-group>
         <h2 class="sr-tl-date sr-micro sr-micro--text">
           {formatDateLong(group.date)} · {pluralize(group.items.length, 'story', 'stories')}
         </h2>
         <ol class="sr-timeline">
           {group.items.map((ref) => (
-            <li class="sr-tl-item" data-vertical={vertical}>
+            <li class="sr-tl-item" data-vertical={vertical} data-tag-item data-tags={JSON.stringify(ref.story.tags)}>
               <a
                 class="sr-tl-item__headline"
                 href={ref.href}
@@ -69,11 +69,10 @@ for (const ref of refs) {
               <div class="sr-tl-item__meta sr-micro">
                 <VerticalChip vertical={vertical} />
                 <TypeBadge type={ref.story.type} />
-                <span>{pluralize(sourceCount(ref.story), 'source')}</span>
+                {ref.kind === 'article' ? <span>{ref.author}</span> : <span>{pluralize(sourceCount(ref.story), 'source')}</span>}
                 <span>·</span>
                 <span>{ref.story.readMinutes} min</span>
-                <span>·</span>
-                <span>cluster {ref.story.cluster.length}</span>
+                {ref.kind === 'edition' && <><span>·</span><span>cluster {ref.story.cluster.length}</span></>}
               </div>
               <div class="sr-tl-item__rail sr-mono">
                 {timeLabel(ref.generatedAt)} · {VERTICAL_META[vertical].label}

@@ -1,7 +1,6 @@
 ---
 import type { StoryRef } from '../lib/editions';
 import { sourceCount, timeLabel, verticalHref } from '../lib/editions';
-import { VERTICAL_META } from '../lib/site';
 import { formatDateLong, pluralize } from '../lib/format';
 import VerticalChip from './VerticalChip.astro';
 import TypeBadge from './TypeBadge.astro';
@@ -32,14 +31,13 @@ const { story, vertical } = ref;
 
   {showDek && story.dek && <p class="sr-card__dek">{story.dek}</p>}
 
-  {showTldr && <TldrList items={story.tldr} compact />}
+  {showTldr && ref.kind === 'edition' && <TldrList items={story.tldr} compact />}
 
   <div class="sr-card__meta sr-micro">
-    <span>{pluralize(sourceCount(story), 'source')}</span>
+    {ref.kind === 'article' ? <span>{ref.author}</span> : <span>{pluralize(sourceCount(story), 'source')}</span>}
     <span>·</span>
     <span>{story.readMinutes} min</span>
-    <span>·</span>
-    <span>cluster: {story.cluster.length}</span>
+    {ref.kind === 'edition' && <><span>·</span><span>cluster: {story.cluster.length}</span></>}
     {story.tags.length > 0 && (
       <span>
         · {story.tags.slice(0, 3).map((tag) => <span class="sr-tag">{tag} </span>)}

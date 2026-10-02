@@ -7,7 +7,7 @@ const refs = await getStoryRefs();
 
 <BaseLayout
   title="Search"
-  description="Search every Signal Daily story by headline, tag, vertical or date. The index is static and runs in your browser."
+  description="Search every Signal Daily story by headline, author, tag, category or date. The index is static and runs in your browser."
   path="/search"
   noindex={true}
 >
@@ -15,7 +15,7 @@ const refs = await getStoryRefs();
     <p class="sr-micro sr-micro--accent">Search</p>
     <h1>Find a story</h1>
     <p class="sr-page-head__lede">
-      {refs.length} stories indexed across four verticals. Search runs entirely in your browser against a
+      {refs.length} stories indexed across six categories. Search runs entirely in your browser against a
       static index — no query leaves this page.
     </p>
   </header>

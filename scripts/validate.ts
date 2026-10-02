@@ -4,6 +4,7 @@
 // No new dependencies (node built-ins only).
 import { readFile, readdir, stat } from "node:fs/promises";
 import { extname, join } from "node:path";
+import { CATEGORY_KEYS, isVertical } from "../src/lib/categories.ts";
 
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 const SLUG_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -86,6 +87,9 @@ function validateStory(file: string, story: unknown, idx: number, out: Violation
   }
   if (!["BRIEF", "DEEP", "DATA"].includes(s.type as string)) {
     out.push({ path: `${p}.type`, message: `type must be BRIEF|DEEP|DATA, got ${JSON.stringify(s.type)}` });
+  }
+  if (s.publication !== undefined && !["scheduled", "manual"].includes(s.publication as string)) {
+    out.push({ path: `${p}.publication`, message: "publication must be scheduled|manual" });
   }
   if (typeof s.readMinutes !== "number" || s.readMinutes < 1 || s.readMinutes > 60) {
     out.push({ path: `${p}.readMinutes`, message: "readMinutes must be 1..60" });
@@ -174,8 +178,8 @@ export function validateEditionData(data: unknown): Violation[] {
   const d = data as Record<string, unknown>;
   if (!isStr(d.date) || !DATE_RE.test(d.date)) out.push({ path: "date", message: "date must be YYYY-MM-DD" });
   if (!isStr(d.generatedAt)) out.push({ path: "generatedAt", message: "generatedAt string required" });
-  if (!["ai", "bio", "geo", "markets"].includes(d.vertical as string)) {
-    out.push({ path: "vertical", message: "vertical must be ai|bio|geo|markets" });
+  if (!isVertical(d.vertical)) {
+    out.push({ path: "vertical", message: `vertical must be ${CATEGORY_KEYS.join("|")}` });
   }
   if (!isStr(d.title) || d.title.length < 1) out.push({ path: "title", message: "title non-empty required" });
   if (!isStr(d.summary) || d.summary.length < 1) out.push({ path: "summary", message: "summary non-empty required" });

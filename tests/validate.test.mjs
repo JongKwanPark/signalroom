@@ -8,6 +8,7 @@ function validEdition(overrides = {}, storyOverrides = {}) {
     date: "2026-09-20",
     generatedAt: "2026-09-20T06:00:00Z",
     vertical: "ai",
+    lang: "en",
     title: "AI signals for 2026-09-20",
     summary: "Two developments in AI policy and models.",
     stories: [

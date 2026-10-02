@@ -2,6 +2,7 @@
   "date": "2026-01-01",
   "generatedAt": "2026-01-01T00:00:00Z",
   "vertical": "ai",
+  "lang": "en",
   "title": "Fixture edition",
   "summary": "Minimal schema-valid edition used by fixture tests and content tooling. Not published.",
   "stories": [

@@ -2,6 +2,13 @@ import type { Lang, StoryRef } from './editions';
 
 export interface SearchItem {
   lang: Lang;
+  kind: StoryRef['kind'];
+  slug: string;
+  author?: string;
+  publication: StoryRef['publication'];
+  publishedAt: string;
+  updatedAt: string;
+  generatedAt: string;
   url: string;
   headline: string;
   dek?: string;
@@ -18,6 +25,13 @@ export interface SearchItem {
 export function buildSearchItem(ref: StoryRef): SearchItem {
   return {
     lang: ref.lang,
+    kind: ref.kind,
+    slug: ref.slug,
+    author: ref.author,
+    publication: ref.publication,
+    publishedAt: ref.publishedAt,
+    updatedAt: ref.updatedAt,
+    generatedAt: ref.generatedAt,
     url: ref.href,
     headline: ref.story.headline,
     dek: ref.story.dek,
@@ -55,6 +69,7 @@ export function scoreItem(item: SearchItem, query: string): number {
     else if (normalized.includes(q)) score += 20;
   }
 
+  if (item.author?.toLowerCase().includes(q)) score += 20;
   if (item.dek?.toLowerCase().includes(q)) score += 15;
   if (item.tldr.some((line) => line.toLowerCase().includes(q))) score += 10;
 
@@ -72,7 +87,7 @@ export function searchIndex(items: SearchItem[], query: string, limit: number): 
       score: words.reduce((total, word) => total + scoreItem(item, word), 0),
     }))
     .filter((entry) => entry.score > 0)
-    .sort((a, b) => b.score - a.score || b.item.date.localeCompare(a.item.date))
+    .sort((a, b) => b.score - a.score || b.item.publishedAt.localeCompare(a.item.publishedAt))
     .slice(0, limit)
     .map((entry) => entry.item);
 }

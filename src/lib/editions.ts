@@ -1,10 +1,19 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
-import { VERTICALS, type Vertical } from './site';
+import { VERTICALS, type Vertical } from './categories';
+import { SITE } from './site';
+import { articleMetadataSchema, type ArticleFormat } from '../../scripts/validate-article';
 import { pad } from './format';
 
 export type Edition = CollectionEntry<'editions'>;
 export type EditionData = Edition['data'];
-export type Story = EditionData['stories'][number];
+export type NewsStory = EditionData['stories'][number];
+export type Article = CollectionEntry<'articles'>;
+export type Publication = 'scheduled' | 'manual';
+// Views retain the existing convenience fields; standalone writing has no news payload.
+export type Story = Omit<NewsStory, 'type' | 'publication'> & {
+  type: NewsStory['type'] | 'ESSAY' | 'FEATURE' | 'ANALYSIS';
+  publication: Publication;
+};
 export type StorySource = Story['sources'][number];
 export type StoryClusterLink = Story['cluster'][number];
 
@@ -12,16 +21,37 @@ export type StoryClusterLink = Story['cluster'][number];
 // 파일명 운용 규약: `<vertical>.json` = en, `<vertical>.ko.json` = ko.
 export type Lang = 'ko' | 'en';
 
-export interface StoryRef {
+interface StoryRefBase {
   slug: string;
   lang: Lang;
   story: Story;
   vertical: Vertical;
-  editionId: string;
   date: string;
   generatedAt: string;
   href: string;
+  author: string;
+  publishedAt: string;
+  updatedAt: string;
+  publication: Publication;
+  wordCount: number;
 }
+
+export interface EditionStoryRef extends StoryRefBase {
+  kind: 'edition';
+  editionId: string;
+  articleId?: never;
+  format?: never;
+}
+
+export interface ArticleStoryRef extends StoryRefBase {
+  kind: 'article';
+  articleId: string;
+  editionId?: never;
+  format: ArticleFormat;
+  translationKey?: string;
+}
+
+export type StoryRef = EditionStoryRef | ArticleStoryRef;
 
 /** 에디션 언어. lang 미표기 구 파일과의 호환을 위해 기본값 'en'. */
 export function editionLang(edition: Edition): Lang {
@@ -168,12 +198,22 @@ export function koBaseSlug(slug: string): string {
   return slug.endsWith('-ko') ? slug.slice(0, -3) : slug;
 }
 
-export function toStoryRef(edition: Edition, story: Story): StoryRef {
+export function toStoryRef(edition: Edition, story: NewsStory): EditionStoryRef {
   const lang = editionLang(edition);
+  const parsed = new Date(edition.data.generatedAt);
+  const publishedAt = Number.isNaN(parsed.getTime())
+    ? `${edition.data.date}T00:00:00.000Z` : parsed.toISOString();
+  const publication = story.publication ?? 'scheduled';
   return {
+    kind: 'edition',
     slug: story.slug,
     lang,
-    story,
+    story: { ...story, publication },
+    author: SITE.author,
+    publishedAt,
+    updatedAt: publishedAt,
+    publication,
+    wordCount: story.body.reduce((total, block) => total + countWords(block.text), 0),
     vertical: edition.data.vertical,
     editionId: edition.id,
     date: edition.data.date,
@@ -202,8 +242,106 @@ export function allStoryRefs(editions: Edition[], lang: Lang = 'en'): StoryRef[]
   return refs;
 }
 
+function countWords(text: string): number {
+  return text.trim().split(/\s+/u).filter(Boolean).length;
+}
+
+/** Normalize only public, schema-valid standalone entries. */
+export function toArticleRef(article: Article): ArticleStoryRef {
+  const data = articleMetadataSchema.parse(article.data);
+  if (data.draft) throw new Error(`Draft article cannot become a public StoryRef: ${article.id}`);
+  const wordCount = countWords(article.body ?? '');
+  return {
+    kind: 'article',
+    articleId: article.id,
+    slug: data.slug,
+    lang: data.lang,
+    vertical: data.category,
+    date: data.publishedAt.slice(0, 10),
+    generatedAt: data.publishedAt,
+    publishedAt: data.publishedAt,
+    updatedAt: data.updatedAt ?? data.publishedAt,
+    author: data.author,
+    publication: 'manual',
+    format: data.format,
+    translationKey: data.translationKey,
+    href: storyHref(data.slug, data.lang),
+    wordCount,
+    story: {
+      slug: data.slug,
+      headline: data.title,
+      dek: data.description,
+      type: data.format.toUpperCase() as 'ESSAY' | 'FEATURE' | 'ANALYSIS',
+      publication: 'manual',
+      readMinutes: Math.max(1, Math.ceil(wordCount / 200)),
+      tldr: [],
+      body: [],
+      whyItMatters: '',
+      editorNote: '',
+      cluster: [],
+      sources: data.sources.map((source, index) => ({ ...source, id: index + 1 })),
+      tags: data.tags,
+      confidence: 'medium',
+    },
+  };
+}
+
+export function compareStoryRefs(a: StoryRef, b: StoryRef): number {
+  return Date.parse(b.publishedAt) - Date.parse(a.publishedAt)
+    || verticalOrder(a.vertical) - verticalOrder(b.vertical)
+    || a.slug.localeCompare(b.slug);
+}
+
+/** Never silently shadow a public URL across collections or standalone entries. */
+export function combineStoryRefs(editionRefs: StoryRef[], articleRefs: ArticleStoryRef[]): StoryRef[] {
+  const seen = new Map<string, StoryRef>();
+  for (const ref of [...editionRefs, ...articleRefs]) {
+    const key = `${ref.lang}/${ref.slug}`;
+    const previous = seen.get(key);
+    if (previous) {
+      throw new Error(`Public story slug collision (${key}): ${previous.kind} ${previous.editionId ?? previous.articleId} and ${ref.kind} ${ref.editionId ?? ref.articleId}`);
+    }
+    seen.set(key, ref);
+  }
+  return [...seen.values()].sort(compareStoryRefs);
+}
+
+export function allArticleRefs(articles: Article[], lang: Lang = 'en'): ArticleStoryRef[] {
+  const refs = articles.filter((article) => article.data.draft === false && article.data.lang === lang)
+    .map(toArticleRef);
+  // Translation keys identify one public article in each language.
+  const keys = new Set<string>();
+  for (const ref of refs) {
+    if (!ref.translationKey) continue;
+    if (keys.has(ref.translationKey)) {
+      throw new Error(`Ambiguous article translationKey (${lang}): ${ref.translationKey}`);
+    }
+    keys.add(ref.translationKey);
+  }
+  return combineStoryRefs([], refs) as ArticleStoryRef[];
+}
+
+let articlesPromise: Promise<Article[]> | null = null;
+
+export async function getArticleRefs(lang: Lang = 'en'): Promise<ArticleStoryRef[]> {
+  articlesPromise ??= getCollection('articles', (article) => article.data.draft === false);
+  return allArticleRefs(await articlesPromise, lang);
+}
+
 export async function getStoryRefs(lang: Lang = 'en'): Promise<StoryRef[]> {
-  return allStoryRefs(await getEditions(), lang);
+  const [editions, articles] = await Promise.all([getEditions(), getArticleRefs(lang)]);
+  return combineStoryRefs(allStoryRefs(editions, lang), articles);
+}
+
+/** Articles use explicit translation keys; editions retain the existing -ko rule. */
+export async function getTranslationRef(ref: StoryRef, targetLang: Lang): Promise<StoryRef | undefined> {
+  if (ref.lang === targetLang) return ref;
+  if (ref.kind === 'article') {
+    if (!ref.translationKey) return undefined;
+    return (await getArticleRefs(targetLang)).find((candidate) => candidate.translationKey === ref.translationKey);
+  }
+  const slug = targetLang === 'ko' ? `${koBaseSlug(ref.slug)}-ko` : koBaseSlug(ref.slug);
+  return (await getStoryRefs(targetLang)).find((candidate) => candidate.kind === 'edition' && candidate.slug === slug);
 }
 
 export async function getStoryRef(slug: string, lang: Lang = 'en'): Promise<StoryRef | undefined> {

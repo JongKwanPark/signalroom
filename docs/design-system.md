@@ -1,7 +1,7 @@
 # Signal Daily design system
 
 Dark-first "signal" aesthetic: off-black canvas, hairline structure, square chrome, mono
-metadata, and four hue-only vertical accents. No web fonts, no UI framework, no icons beyond
+metadata, and six category accent tokens. No web fonts, no UI framework, no icons beyond
 plain glyphs.
 
 Source of truth: `src/styles/theme.css` (tokens) and `src/styles/global.css` (primitives +
@@ -14,8 +14,8 @@ components). This document explains the rules and records measured contrast.
 2. **Metadata is mono, prose is not.** The mono stack is reserved for metadata: timestamps,
    deltas, counts, source labels, tags, badges, micro-labels. Paragraphs, headlines and prose
    are always the proportional system stack.
-3. **Hue carries the vertical.** The four verticals share one lightness/chroma pair per theme;
-   only hue changes. A reader learns "amber = geopolitics" without a legend.
+3. **Color identifies the category.** Each of the six categories uses its named accent token in
+   dark and light themes. Components read the mapped generic token instead of choosing colors.
 4. **Readable first.** Body copy is 16px with a 1.65 line height; measure stays at 68ch.
 5. **Static and quiet.** System fonts, no layout shift, client JS under 10KB, reduced motion
    respected.
@@ -36,22 +36,25 @@ Named contract values (exact hex, both themes):
 | `--overlay` | `rgba(5,7,10,.72)` | `rgba(246,247,249,.8)` | Modal backdrop, header blur |
 | `--positive` / `--negative` | `#7fd497` / `#ff9c9c` | `#267543` / `#a4232b` | Deltas, warnings |
 
-### Vertical accents (OKLCH, hue-only)
+### Category accents
 
-Accents are declared as OKLCH with a hex fallback via `@supports`, one lightness/chroma pair per
-theme, four hues:
+The first four categories use OKLCH colors with hex fallbacks via `@supports`. WISDOM and SOCIETY use
+their existing explicit hex tokens. Use these theme values through `--accent`; do not hardcode a
+category color in a component.
 
-| Vertical | Hue | Dark (L .80 / C .12) | Light (L .50 / C .11) |
+| Category | Token | Dark | Light |
 | --- | --- | --- | --- |
-| AI | cyan 215 | `oklch(0.8 0.12 215)` → `#4cd1ee` | `oklch(0.5 0.11 215)` → `#00728a` |
-| BIO | green 152 | `oklch(0.8 0.12 152)` → `#7fd497` | `oklch(0.5 0.11 152)` → `#267543` |
-| GEO | amber 72 | `oklch(0.8 0.12 72)` → `#edb161` | `oklch(0.5 0.11 72)` → `#895700` |
-| MARKETS | violet 295 | `oklch(0.8 0.12 295)` → `#c3aeff` | `oklch(0.5 0.11 295)` → `#68559b` |
+| AI | `--accent-ai` | `#4cd1ee` | `#00728a` |
+| BIO | `--accent-bio` | `#7fd497` | `#267543` |
+| GEO | `--accent-geo` | `#edb161` | `#895700` |
+| MARKETS | `--accent-markets` | `#c3aeff` | `#68559b` |
+| WISDOM | `--accent-wisdom` | `#e6c77a` | `#80601f` |
+| SOCIETY | `--accent-society` | `#f092b5` | `#9c3d64` |
 
 `--accent` is the generic slot consumed by components; `data-vertical` on `<html>` (or on a
-component) maps it to the vertical hue. Never hardcode a vertical hex inside a component.
+component) maps it to the category token. Never hardcode an accent hex inside a component.
 
-### Measured contrast (WCAG 2.1, sRGB)
+### Measured contrast (WCAG 2.2 AA, sRGB)
 
 | Foreground | Background | Ratio | Result |
 | --- | --- | --- | --- |
@@ -63,15 +66,19 @@ component) maps it to the vertical hue. Never hardcode a vertical hex inside a c
 | BIO `#7fd497` | canvas | 10.90:1 | AAA |
 | GEO `#edb161` | canvas | 10.25:1 | AAA |
 | MARKETS `#c3aeff` | canvas | 10.02:1 | AAA |
+| WISDOM `#e6c77a` | canvas | 11.87:1 | AAA |
+| SOCIETY `#f092b5` | canvas | 8.79:1 | AAA |
 | `#10151c` text | `#f6f7f9` canvas (light) | 17.09:1 | AAA |
 | `#4b5563` muted | `#f6f7f9` canvas (light) | 7.05:1 | AAA |
 | AI `#00728a` | light canvas | 5.19:1 | AA |
 | BIO `#267543` | light canvas | 5.28:1 | AA |
 | GEO `#895700` | light canvas | 5.72:1 | AA |
 | MARKETS `#68559b` | light canvas | 5.83:1 | AA |
+| WISDOM `#80601f` | light canvas | 5.43:1 | AA |
+| SOCIETY `#9c3d64` | light canvas | 6.00:1 | AA |
 
-Every accent clears AA (4.5:1) for normal text in both themes; muted text clears AAA on both
-canvases. Recompute with the same OKLCH → linear sRGB pipeline if any hue or L/C changes.
+All six category accents clear AA (4.5:1) for normal text in both themes; muted text clears AAA on
+both canvases. Recompute contrast from `src/styles/theme.css` if any token changes.
 
 ### Theme switching
 
@@ -135,7 +142,7 @@ badge right-aligned. Cap is `HOME_INDEX_CAP` with an explicit "More" link — no
 
 - Don't set paragraphs, headlines or deks in mono.
 - Don't add border radius, drop shadows beyond `--shadow-2` on overlays, or gradients.
-- Don't introduce a second accent hue per vertical or a fifth vertical color.
+- Keep all six category accents routed through their existing theme tokens.
 - Don't use pure black `#000` or pure white text on dark surfaces.
 - Don't add web fonts, icon fonts or third-party scripts.
 - Don't ship client JS beyond the app bundle; the budget is 10KB uncompressed.

@@ -8,6 +8,7 @@
   "stories": [
     {
       "slug": "autoimmune-therapy-research-shifts-to-tolerance-ko",
+      "publication": "manual",
       "headline": "자가면역 치료 연구, 염증 억제에서 면역 관용 회복으로",
       "dek": "CAR-T 리셋, 항원 특이적 관용, 조작된 조절 T 세포, AI 기반 도구는 면역계를 억제하기만 하는 대신 다시 훈련시킨다는 같은 목표를 공유합니다. 근거 대부분은 아직 초기 단계입니다.",
       "type": "DEEP",

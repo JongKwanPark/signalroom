@@ -73,6 +73,8 @@
   --accent-bio: #7fd497;
   --accent-geo: #edb161;
   --accent-markets: #c3aeff;
+  --accent-wisdom: #e6c77a;
+  --accent-society: #f092b5;
   --accent: #4cd1ee;
   --accent-soft: rgba(76, 209, 238, 0.12);
   --positive: #7fd497;
@@ -114,6 +116,8 @@
   --accent-bio: #267543;
   --accent-geo: #895700;
   --accent-markets: #68559b;
+  --accent-wisdom: #80601f;
+  --accent-society: #9c3d64;
   --accent: #00728a;
   --accent-soft: rgba(0, 114, 138, 0.1);
   --positive: #267543;
@@ -139,6 +143,8 @@
 :root[data-vertical="bio"] { --accent: var(--accent-bio); }
 :root[data-vertical="geo"] { --accent: var(--accent-geo); }
 :root[data-vertical="markets"] { --accent: var(--accent-markets); }
+:root[data-vertical="wisdom"] { --accent: var(--accent-wisdom); }
+:root[data-vertical="society"] { --accent: var(--accent-society); }
 
 @media (prefers-reduced-motion: reduce) {
   :root {

@@ -13,6 +13,7 @@ import { dirname, join } from "node:path";
 import { validateEditionData, type Violation } from "./validate.ts";
 import { VERTICALS, type RawItem, type Vertical } from "./lib/types.ts";
 import { readVertical } from "./lib/store.ts";
+import { CATEGORY_KEYS, type Vertical as Category } from "../src/lib/categories.ts";
 
 interface Args {
   date: string;
@@ -35,7 +36,8 @@ function parseArgs(argv: string[]): Args {
     else if (arg === "--dry-run") a.dryRun = true;
   }
   if (!/^\d{4}-\d{2}-\d{2}$/.test(a.date)) throw new Error(`bad --date: ${a.date}`);
-  if (a.vertical !== "all" && !VERTICALS.includes(a.vertical as Vertical)) throw new Error(`bad --vertical: ${a.vertical}`);
+  const allowed: readonly string[] = a.inputJson ? CATEGORY_KEYS : VERTICALS;
+  if (a.vertical !== "all" && !allowed.includes(a.vertical)) throw new Error(`bad --vertical: ${a.vertical}`);
   return a;
 }
 
@@ -45,8 +47,41 @@ function failViolations(file: string, violations: Violation[]): never {
   process.exit(1);
 }
 
-function editionsPath(date: string, vertical: Vertical): string {
-  return join(process.cwd(), "src", "content", "editions", date, `${vertical}.json`);
+function editionsPath(date: string, vertical: Category, lang: 'en' | 'ko' = 'en'): string {
+  return join(process.cwd(), "src", "content", "editions", date, `${vertical}${lang === 'ko' ? '.ko' : ''}.json`);
+}
+
+interface EditionIdentity {
+  date: string;
+  vertical: Category;
+  lang?: 'en' | 'ko';
+  stories: { slug: string; publication?: 'scheduled' | 'manual' }[];
+}
+
+export function assertExistingStoriesPreserved(existing: EditionIdentity, incoming: EditionIdentity): void {
+  if (existing.date !== incoming.date || existing.vertical !== incoming.vertical || (existing.lang ?? 'en') !== (incoming.lang ?? 'en')) {
+    throw new Error('Edition identity mismatch; refusing to replace the existing edition.');
+  }
+  const incomingBySlug = new Map(incoming.stories.map((story) => [story.slug, story]));
+  for (const story of existing.stories) {
+    const replacement = incomingBySlug.get(story.slug);
+    if (!replacement) throw new Error(`Merge existing story ${story.slug} into the input before writing this edition.`);
+    if (story.publication === 'manual' && replacement.publication !== 'manual') {
+      throw new Error(`Preserve manual publication for ${story.slug} before writing this edition.`);
+    }
+  }
+}
+
+async function checkExistingEdition(out: string, incoming: EditionIdentity): Promise<void> {
+  let raw: string;
+  try {
+    raw = await readFile(out, 'utf8');
+  } catch (error: unknown) {
+    if (error instanceof Error && 'code' in error && error.code === 'ENOENT') return;
+    throw error;
+  }
+  const existing = JSON.parse(raw) as EditionIdentity;
+  assertExistingStoriesPreserved(existing, incoming);
 }
 
 // ---------------- provider calls (global fetch, no SDK) ----------------
@@ -155,19 +190,19 @@ async function main(): Promise<void> {
     }
     const violations = validateEditionData(data);
     if (violations.length > 0) failViolations(args.inputJson, violations);
-    const edition = data as { date: string; vertical: string };
+    const edition = data as EditionIdentity;
+    if (args.vertical !== 'all' && edition.vertical !== args.vertical) {
+      throw new Error(`Input category ${edition.vertical} does not match --vertical ${args.vertical}.`);
+    }
+    const out = editionsPath(edition.date, edition.vertical, edition.lang ?? 'en');
+    await checkExistingEdition(out, edition);
     if (args.dryRun) {
-      console.log(`(dry-run) ${args.inputJson} valid; would write src/content/editions/${edition.date}/${edition.vertical}.json`);
+      console.log(`(dry-run) ${args.inputJson} valid; would write ${out}`);
       return;
     }
-    for (const vertical of targets) {
-      const vData = edition.vertical === vertical ? edition : null;
-      if (!vData) continue;
-      const out = editionsPath(edition.date, vertical);
-      await mkdir(dirname(out), { recursive: true });
-      await writeFile(out, JSON.stringify(edition, null, 2) + "\n", "utf8");
-      console.log(`wrote ${out}`);
-    }
+    await mkdir(dirname(out), { recursive: true });
+    await writeFile(out, JSON.stringify(edition, null, 2) + "\n", "utf8");
+    console.log(`wrote ${out}`);
     return;
   }
 
@@ -199,6 +234,7 @@ async function main(): Promise<void> {
         continue;
       }
       const out = editionsPath(args.date, vertical);
+      await checkExistingEdition(out, data as EditionIdentity);
       await mkdir(dirname(out), { recursive: true });
       await writeFile(out, JSON.stringify(data, null, 2) + "\n", "utf8");
       console.log(`[${vertical}] wrote ${out}`);

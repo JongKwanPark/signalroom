@@ -1,12 +1,12 @@
 # Signal Daily pipeline
 
-Git-native daily digest: collect -> dedup -> synthesize -> validate -> publish.
+Git-native daily edition pipeline, with a separate collection for independent Markdown articles.
 
 ```
-collectors (17 sources)          scripts/collectors/*.ts
+collectors (4 automated categories) scripts/collectors/*.ts
         |
         v
-scripts/collect.ts  --vertical <v|all> --date YYYY-MM-DD [--dry-run] [--limit N]
+scripts/collect.ts  --vertical <ai|bio|geo|markets|all> --date YYYY-MM-DD
         |
         +--> data/raw/{date}/{source}.jsonl          (gitignored, raw capture)
         |
@@ -21,17 +21,23 @@ scripts/synth.ts  --date ... --vertical ... [--provider ...] [--input-json ...]
         |        (LLM w/ scripts/prompts/{triage,synthesis,editor}.md,
         |         or agent-assisted --input-json path)
         v
-src/content/editions/{date}/{vertical}.json      (draft editions)
+src/content/editions/{date}/{vertical}.json      (en edition)
+src/content/editions/{date}/{vertical}.ko.json   (ko edition)
         |
         v
-scripts/validate.ts        (schema mirror + publish gates; exit != 0 on violation)
+scripts/prompts/editor.md + scripts/validate.ts
         |
         v
-automation commit (paseo schedule; GitHub Action when re-enabled)
+site build -> commit -> push -> Vercel production
         |
         v
-human approval gate  ->  site publish
+active Paseo schedule
 ```
+
+Independent Markdown articles live in `src/content/articles/` and use the separate `articles`
+collection. They join category, search, archive, RSS and sitemap outputs but do not enter the edition
+JSON merge flow. Their metadata contract is owned by `src/content.config.ts` and
+`scripts/validate-article.ts`.
 
 ## Architecture
 
@@ -52,10 +58,14 @@ human approval gate  ->  site publish
   no key configured it prints a clear message and exits 0 without writing.
   Verticals with zero collected items for the date are skipped without writing
   a file.
-- **validate.ts** hand-rolls the exact checks of `src/content.config.ts` plus
-  publish gates: >= 2 distinct sources per story, every body citation resolves
-  to `sources[]`, exactly 3 tldr bullets, unique slug, cluster >= 1, headline
-  non-empty, valid enums.
+- **validate.ts** checks the edition schema and edition publish gates: >= 2 distinct sources per
+  story, every body citation resolves to `sources[]`, exactly 3 `tldr` bullets, unique slug,
+  `cluster` >= 1, non-empty headline and valid enums.
+- **validate-article.ts** is the article metadata schema and CLI validation source. Article `draft`
+  defaults to `true`; only `draft: false` articles enter public outputs. Independent personal
+  reflection does not inherit edition-only `tldr`, `cluster`, two-source or every-block citation
+  gates. Cite factual and historical claims and classic quotations, and distinguish the author's
+  account from interpretation.
 
 ## Commands
 
@@ -65,6 +75,7 @@ npx tsx scripts/collect.ts --vertical all --date $(date -u +%F)
 npx tsx scripts/synth.ts --date 2026-09-20 --vertical ai --provider gemini
 npx tsx scripts/synth.ts --date 2026-09-20 --vertical ai --input-json draft.json
 npx tsx scripts/validate.ts src/content/editions
+npx tsx scripts/validate-article.ts src/content/articles
 npm test
 ```
 
@@ -117,48 +128,29 @@ Production env, so canonicals, sitemap, RSS and OG URLs use the custom domain.
   different outlets; two labels on the same hostname do not count as independent
   sources (docs/editorial-guide.md §6-3).
 
-## Automation
+## Active automation and standby workflows
 
-The job runs from **paseo schedules at 07:00 and 19:00 KST**, which collect,
-synthesize and commit drafts to this repo. Emergency publishing outside the
-schedule is documented in [docs/manual-publish.md](manual-publish.md).
+Paseo is the active production runner. Its schedules run every day at **07:00 and 19:00
+Asia/Seoul**. Each run collects the existing four automated categories (`ai`, `bio`, `geo`,
+`markets`) in English and Korean, performs the editorial and schema checks, builds the site, commits
+and pushes the checked editions, and runs `vercel deploy --prod --yes`. Runtime history confirms
+these scheduled runs reach production. WISDOM and SOCIETY remain manual categories; the scheduled
+collection targets are unchanged.
 
-The GitHub Actions `schedule:` triggers in `collect.yml` and `publish.yml` are
-**commented out on purpose**: both paths run the same daily job, so leaving the
-crons on would double-run collection and drafting. Run either workflow manually
-with `workflow_dispatch` if needed.
+The `schedule:` triggers in `.github/workflows/collect.yml` and `publish.yml` are disabled. Their
+`workflow_dispatch` entries are standby paths, separate from Paseo. A manually triggered GitHub
+workflow may collect and commit draft data or editions; it is not the active production schedule.
 
-**Re-enable the schedules once the LLM provider key (and the other collector
-keys below) are configured as repository secrets** — and retire the paseo
-schedule at the same time so the two automation paths never run together.
+For a user-requested manual edition feature, provide a merged edition JSON to
+`scripts/synth.ts --input-json`. This path supports all six categories and chooses the English or
+Korean output filename from the input `lang`. Mark each new feature story
+`publication: 'manual'`. The input must already contain all existing stories. The writer refuses a
+same-date replacement that omits an existing story or removes its manual publication marker; see the
+preservation gate in [`scripts/synth.ts`](../scripts/synth.ts) for the exact behavior. Run the
+edition validators and build before any requested publication. The single detailed manual procedure
+is [docs/manual-publish.md](manual-publish.md).
 
-## Hybrid publishing flow
-
-1. `collect.yml` (`workflow_dispatch`; cron disabled) refreshes raw/normalized
-   data and drafts.
-2. `synth.ts` auto-drafts an edition JSON per vertical (or an agent edits with
-   `--input-json`).
-3. The **AI editor pass** (`scripts/prompts/editor.md`) checks duplicates,
-   unsupported claims, citation integrity, the day's core signal (grounded
-   cross-vertical links), source independence by hostname, and quiet-vertical
-   logging, then sets `confidence`.
-4. **Approval gate**: a human reviews the draft commit before the Astro site
-   build/publish picks it up. Auto-committed editions are drafts; only
-   approved editions are published.
-5. `publish.yml` (`workflow_dispatch`; cron disabled) runs collect -> synth ->
-   validate, commits drafts only when changed (`git diff --quiet` guard), and
-   includes a keepalive empty commit so the 60-day GitHub inactivity rule never
-   disables the schedules once they are re-enabled.
-
-Manual operator publishing is documented in [docs/manual-publish.md](manual-publish.md).
-
-## Monthly cost estimate
-
-- Data collection: all sources are free APIs; when the schedules are enabled,
-  ~3,000 CI runs/month at ~2 min CPU each is within free-tier GitHub Actions
-  for public repos (or ~$0-$3 on private-repo minutes). Runs are currently
-  driven by the paseo schedule and `workflow_dispatch`, so CI cost is ~$0.
-- Synthesis: one LLM call per vertical per day at ~6-10k input + ~4k output
-  tokens = ~40k tokens/day x 4 verticals ~ 4.8M tokens/month, roughly
-  **$1-5/month** with mid-tier models (Flash/4o-mini class), <$10 with premium
-  models. Empty-key runs are free.
+Standalone articles use Markdown and are outside automatic edition collection and JSON merge. Use
+`scripts/validate-article.ts` for their metadata check; the schema remains defined by
+`src/content.config.ts` and `scripts/validate-article.ts`. See the manual procedure for write-only and
+publication paths.

@@ -8,6 +8,7 @@
   "stories": [
     {
       "slug": "plunging-price-of-ai-performance-ko",
+      "publication": "manual",
       "headline": "일정 수준의 AI 성능에 드는 비용이 분기당 약 47% 줄었다",
       "dek": "Epoch AI는 고정된 벤치마크 점수에 도달하는 가격이 연간 13배 줄었고, 이 속도가 DNA 염기서열 분석, 컴퓨팅, 리튬이온 배터리의 측정된 하락보다 빠르다고 봅니다.",
       "type": "DEEP",
@@ -137,6 +138,7 @@
     },
     {
       "slug": "commit-descriptions-as-thinking-tool-ko",
+      "publication": "manual",
       "headline": "AI 시대에도 개발자가 커밋 설명을 직접 써야 하는 이유",
       "dek": "Yedhu Krishnan은 커밋 메시지를 직접 작성하는 것이 사람의 이해도를 검증하고 AI의 이유 날조를 방지하는 필수 사고 도구라고 주장합니다.",
       "type": "DEEP",

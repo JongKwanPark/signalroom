@@ -2,37 +2,57 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import StoryCard from './StoryCard.astro';
 import TimelineView from './TimelineView.astro';
-import { bySignal, editionsForVertical, getEditions, getStoryRefs, type Lang } from '../lib/editions';
+import { editionsForVertical, getEditions, getStoryRefs, type Lang } from '../lib/editions';
 import { VERTICAL_META, type Vertical } from '../lib/site';
 import { pluralize } from '../lib/format';
 import { itemListJsonLd } from '../lib/seo';
 
-interface Props { lang: Lang; vertical: Vertical }
-const { lang, vertical } = Astro.props;
+interface Props { lang: Lang; vertical: Vertical; path?: string }
+const { lang, vertical, path = `/${lang}/${vertical}` } = Astro.props;
 const meta = VERTICAL_META[vertical];
 const editions = editionsForVertical(await getEditions(), vertical, lang);
 const refs = (await getStoryRefs(lang)).filter((ref) => ref.vertical === vertical);
-const latest = editions[0]?.data.date;
-const lead = [...refs.filter((ref) => ref.date === latest)].sort(bySignal)[0];
-const rest = lead ? refs.filter((ref) => ref.slug !== lead.slug) : refs;
+const tags = [...new Set(refs.flatMap((ref) => ref.story.tags))].sort((a, b) => a.localeCompare(b, lang));
+const manualCategory = vertical === 'wisdom' || vertical === 'society';
+const introduction = vertical === 'wisdom'
+  ? (lang === 'ko' ? '철학과 고전을 오늘의 삶에 연결합니다. 철학자와 주제는 발행된 글의 태그로 탐색하세요.' : 'Philosophy, classics and reflection for everyday life. Explore thinkers and themes through the tags of published writing.')
+  : vertical === 'society'
+    ? (lang === 'ko' ? '사회·문화·교육·노동의 변화를 살펴봅니다. 사실에 근거한 분석과 저자의 관점을 구분해 읽을 수 있습니다.' : 'Society, culture, education and work. Read sourced analysis alongside clearly attributed personal perspectives.')
+    : meta.blurb;
 ---
 
-<BaseLayout
-  title={`${meta.label} — ${meta.name}`}
-  description={`${meta.blurb} Daily, sourced and editor-reviewed.`}
-  path={`/${lang}/${vertical}`}
-  vertical={vertical}
-  jsonLd={refs.length ? itemListJsonLd(refs.slice(0, 25), `${meta.name} — Signal Daily`) : []}
->
+<BaseLayout title={`${meta.label} — ${meta.name}`} description={introduction} path={path} vertical={vertical}
+  jsonLd={refs.length ? itemListJsonLd(refs.slice(0, 25), `${meta.name} — Signal Daily`) : []}>
   <header class="sr-page-head">
     <p class="sr-micro sr-micro--accent">{meta.label} feed</p>
     <h1>{meta.name}</h1>
-    <p class="sr-page-head__lede">{meta.blurb}</p>
-    <p class="sr-micro">{pluralize(refs.length, 'story', 'stories')} · {pluralize(editions.length, 'edition')}</p>
+    <p class="sr-page-head__lede">{introduction}</p>
+    <p class="sr-micro">{pluralize(refs.length, 'story', 'stories')}{editions.length > 0 && <> · {pluralize(editions.length, 'edition')}</>}</p>
   </header>
-  {lead && <section class="sr-section"><div class="sr-section__head"><h2 class="sr-section__title">Lead</h2></div><StoryCard ref={lead} showTldr /></section>}
-  <section class="sr-section">
-    <div class="sr-section__head"><h2 class="sr-section__title">{meta.label} timeline</h2></div>
-    {refs.length ? <TimelineView refs={rest} vertical={vertical} defaultView={meta.defaultView} /> : <p>No stories published yet.</p>}
+  <section class="sr-section" aria-labelledby="feed-heading" data-tag-browser data-filter-lang={lang}>
+    <div class="sr-section__head">
+      <h2 class="sr-section__title" id="feed-heading">{lang === 'ko' ? '발행된 글' : 'Published writing'}</h2>
+      <span class="sr-micro">{lang === 'ko' ? '최신순' : 'Newest first'}</span>
+    </div>
+    {refs.length ? <>
+      {tags.length > 0 && <div class="sr-tag-browser" data-tag-controls hidden>
+        <p class="sr-micro" id="tag-filter-label">{lang === 'ko' ? '태그로 탐색' : 'Browse by tag'}</p>
+        <div class="sr-tag-browser__controls" role="group" aria-labelledby="tag-filter-label">
+          <button class="sr-btn" type="button" data-tag-filter="" aria-pressed="true" aria-controls="category-writing">{lang === 'ko' ? '전체 · 초기화' : 'All · reset'}</button>
+          {tags.map((tag) => <button class="sr-btn" type="button" data-tag-filter={tag} aria-pressed="false" aria-controls="category-writing">{tag}</button>)}
+        </div>
+        <p class="sr-micro" data-tag-status role="status" aria-live="polite" aria-atomic="true">{pluralize(refs.length, 'story', 'stories')}</p>
+      </div>}
+      <div id="category-writing" class="sr-stack">
+        {manualCategory ? refs.map((ref) => <div data-tag-item data-tags={JSON.stringify(ref.story.tags)}><StoryCard ref={ref} /></div>) : <TimelineView refs={refs} vertical={vertical} defaultView={meta.defaultView} />}
+      </div>
+      <p data-tag-empty hidden>{lang === 'ko' ? '이 태그의 글이 없습니다. 전체를 선택해 다시 탐색하세요.' : 'No writing matches this tag. Choose All to reset.'}</p>
+    </> : <div class="sr-empty">
+      <p class="sr-micro sr-micro--text">{lang === 'ko' ? '새 글을 준비하고 있습니다' : 'New writing is on its way'}</p>
+      <p>{manualCategory
+        ? (lang === 'ko' ? '특집·에세이로 새로운 시선과 깊이 있는 질문을 나눕니다.' : 'Features & essays bring fresh perspectives and deeper questions.')
+        : (lang === 'ko' ? '뉴스와 특집·에세이로 이 분야의 변화를 살펴봅니다.' : 'Explore developments in this field through news and features & essays.')}</p>
+      <div class="sr-empty__actions"><a class="sr-btn" href={`/${lang}`}>{lang === 'ko' ? '홈' : 'Home'}</a><a class="sr-btn" href={`/${lang}/archive`}>{lang === 'ko' ? '아카이브' : 'Archive'}</a></div>
+    </div>}
   </section>
 </BaseLayout>

@@ -19,7 +19,7 @@ export const GET: APIRoute = async ({ params, site }) => {
     items: refs.slice(0, RSS_ITEM_CAP).map((ref) => ({
       title: ref.story.headline,
       link: ref.href,
-      pubDate: Number.isNaN(Date.parse(ref.generatedAt)) ? new Date(`${ref.date}T00:00:00Z`) : new Date(ref.generatedAt),
+      pubDate: Number.isNaN(Date.parse(ref.publishedAt)) ? new Date(`${ref.date}T00:00:00Z`) : new Date(ref.publishedAt),
       description: `${ref.story.dek ?? ref.story.tldr[0]} (${formatDateLong(ref.date)})`,
       categories: [ref.vertical, ref.story.type, ...ref.story.tags],
     })),

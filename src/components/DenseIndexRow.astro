@@ -10,14 +10,15 @@ interface Props {
   showDek?: boolean;
   showDate?: boolean;
   showType?: boolean;
+  transitionName?: boolean;
 }
 
-const { ref, showDek = true, showDate = false, showType = true } = Astro.props;
+const { ref, showDek = true, showDate = false, showType = true, transitionName = true } = Astro.props;
 const { story, vertical } = ref;
 
 const meta = joinMeta([
   timeLabel(ref.generatedAt),
-  pluralize(sourceCount(story), 'source'),
+  ref.kind === 'article' ? ref.author : pluralize(sourceCount(story), 'source'),
   `${story.readMinutes} min`,
   showDate ? formatDateShort(ref.date) : null,
 ]);
@@ -28,9 +29,9 @@ const meta = joinMeta([
     <span class="sr-row__meta sr-micro">
       <span class="sr-vchip" data-vertical={vertical}>{VERTICAL_META[vertical].label}</span>
       <span>{meta}</span>
-      {story.confidence !== 'high' && <span class="sr-tag">confidence: {story.confidence}</span>}
+      {ref.kind === 'edition' && story.confidence !== 'high' && <span class="sr-tag">confidence: {story.confidence}</span>}
     </span>
-    <span class="sr-row__title" style={`view-transition-name: story-${ref.slug}`}>{story.headline}</span>
+    <span class="sr-row__title" style={transitionName ? `view-transition-name: story-${ref.slug}` : undefined}>{story.headline}</span>
     {showDek && story.dek && <span class="sr-row__dek">{story.dek}</span>}
   </a>
   <span class="sr-row__aside sr-micro">

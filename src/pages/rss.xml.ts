@@ -15,7 +15,7 @@ export const GET: APIRoute = async (context) => {
     items: refs.slice(0, RSS_ITEM_CAP).map((ref) => ({
       title: ref.story.headline,
       link: ref.href,
-      pubDate: pubDate(ref.generatedAt, ref.date),
+      pubDate: pubDate(ref.publishedAt, ref.date),
       description: `${ref.story.dek ?? ref.story.tldr[0]} (${formatDateLong(ref.date)})`,
       categories: [ref.vertical, ref.story.type, ...ref.story.tags],
     })),
