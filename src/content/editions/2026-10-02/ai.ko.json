@@ -1,11 +1,82 @@
 {
   "date": "2026-10-02",
-  "generatedAt": "2026-10-02T10:00:45.105Z",
+  "generatedAt": "2026-10-02T11:10:00.000Z",
   "vertical": "ai",
   "lang": "ko",
   "title": "시그널 데일리 — AI — 2026-10-02",
-  "summary": "얇은 에디션입니다. 오늘 교차 출처와 분야 적합성 기준을 충족한 기사는 1건입니다. arXiv가 제출 횟수 제한 정책 변경을 발표했으며, 일부 수집 출처는 이용할 수 없거나 결과가 없었습니다.",
+  "summary": "오늘 기사는 2건입니다. Epoch AI는 일정 수준의 AI 성능에 도달하는 비용이 분기당 약 47% 줄었다고 추정합니다. arXiv는 제출 제한 정책을 바꿨고, 일부 수집 출처는 이용할 수 없거나 결과가 없었습니다.",
   "stories": [
+    {
+      "slug": "plunging-price-of-ai-performance-ko",
+      "headline": "일정 수준의 AI 성능에 드는 비용이 분기당 약 47% 줄었다",
+      "dek": "Epoch AI는 고정된 벤치마크 점수에 도달하는 가격이 연간 13배 줄었고, 이 속도가 DNA 염기서열 분석, 컴퓨팅, 리튬이온 배터리의 측정된 하락보다 빠르다고 봅니다.",
+      "type": "DEEP",
+      "readMinutes": 5,
+      "tldr": [
+        "Epoch AI는 지난 3년간 일정 수준의 AI 성능에 도달하는 비용이 분기당 약 47%, 연간 13배 줄었다고 추정합니다.",
+        "GPQA Diamond에서 이 보고서는 2025년 1월 31일 o3가 75% 점수에 질문당 $0.30이 들었고, 이후 GPT-5.6 Luna가 같은 점수를 질문당 $0.0004에 맞췄다고 추정합니다.",
+        "Epoch AI는 새 성능 수준의 비용 하락이 처음 분기당 66%에서 2년 뒤 32%로 둔화한다고 보고, 벤치마크 특화 학습과 불완전한 데이터를 한계로 짚습니다."
+      ],
+      "body": [
+        {
+          "text": "Epoch AI가 2026년 9월 22일 공개한 보고서는 수학, 과학, 기량 게임을 아우르는 다섯 개 벤치마크에서 일정 성능에 도달하는 비용이 분기당 약 47%, 연간 13배 줄었다고 추정합니다. 로그 포인트로 보면 이 속도는 DNA 염기서열 분석보다 4배, 컴퓨팅보다 6배, 리튬이온 배터리보다 18배 빠르다고 저자들은 적습니다.",
+          "citations": [1]
+        },
+        {
+          "text": "보고서의 GPQA Diamond 사례는 2025년 1월 31일 공개된 OpenAI의 o3가 75% 점수에 질문당 평균 $0.30이 들었다고 추정합니다. 18개월이 채 안 되어 GPT-5.6 Luna가 같은 점수를 질문당 $0.0004에 맞췄고, 하락 폭은 725배입니다. Epoch AI는 이 \"75%\"가 우연 정답에서 만점까지 거리의 75%이며, 사지선다에서는 81.25%에 해당한다고 밝힙니다.",
+          "citations": [1]
+        },
+        {
+          "text": "Epoch AI는 하락 곡선이 하나가 아니라고 봅니다. 게임형 퍼즐은 분기당 약 39–43%, 수학 문제는 분기당 50–52% 줄었습니다. 다섯 개 벤치마크를 평균하면 새 성능 수준의 비용은 처음에 분기당 66%, 2년 뒤에는 분기당 32% 떨어집니다. 저자들은 벤치마크 특화 학습이 측정된 개선을 실제 업무보다 가파르게 보이게 할 수 있고, 가장 싼 모델로 갈아타지 않는 구매자는 절감분 전체를 얻지 못한다고 경고합니다.",
+          "citations": [1]
+        },
+        {
+          "text": "Epoch AI 결과를 다룬 TechSpot의 10월 1일 기사는, 같은 능력에 더 싸게 접근할 수 있게 되면 일상 소프트웨어에서도 더 높은 성능의 모델을 쓰기 쉬워지고 개발사의 가격 결정력은 약해질 수 있다고 적습니다. 역사 비교의 기간도 고르지 않다고 짚습니다. AI 시계열은 최근이고, 컴퓨팅 비교는 2001년에, 전력 비교는 1973년에 끝납니다.",
+          "citations": [2]
+        }
+      ],
+      "whyItMatters": "고정된 벤치마크 점수의 가격 하락은 소프트웨어 구매자가 감당할 수 있는 범위를 바꾸지만, Epoch AI 스스로 밝힌 한계는 이 수치가 시험에 가장 싼 모델의 비용이지 끝난 업무의 비용이 아니라는 점입니다. 추론 가격이 떨어지는 동안 연구소가 능력의 기준을 계속 올리면, 질문 하나의 값은 싸져도 칩과 전력, 프론티어 학습 지출은 높게 남을 수 있습니다. 이 간극은 AI 공급망과 그 산출을 사는 소프트웨어 시장 양쪽에 있습니다.",
+      "editorNote": "운영자 의견을 편집자 노트로 남깁니다. AI 비용 하락을 가속하는 힘은 두 가지로, 하드웨어 발전 속도가 일반화된 것과 효율성입니다. OpenAI와 Anthropic 같은 프론티어 연구소의 구축 비용은 계속 오르고, 공공재로 돌던 지식은 사유 시스템에 흡수되어 팔리고 있으며, 이에 대한 실질적 대응은 로컬 장비에서 효율적으로 도는 모델입니다. 이 견해는 Epoch AI의 연구 결과가 아닙니다. 보고서는 벤치마크 점수에 도달하는 가장 싼 경로의 가격을 측정합니다. 하드웨어가 주된 원인이라고 밝히지 않으며, 일부 오픈 웨이트 모델은 이미 임대한 하드웨어 비용으로 계산합니다. 더 작은 로컬 모델은 이미 쓰이고 있습니다. 보고서가 가격을 매긴 프론티어 점수는 여전히 대규모 컴퓨팅에 의존합니다. TODO-review: 용어집에 benchmaxxing 항목이 없어 한국어는 벤치마크 특화 학습으로 적었습니다.",
+      "cluster": [
+        {
+          "url": "https://www.techspot.com/news/114055-cost-ai-performance-falling-fast-could-reshape-entire.html",
+          "source": "TechSpot",
+          "title": "The cost of AI performance is falling so fast it could reshape the entire software market"
+        },
+        {
+          "url": "https://the-decoder.com/ai-performance-costs-are-falling-faster-than-those-of-any-previous-technology/",
+          "source": "The Decoder",
+          "title": "AI performance costs are falling faster than those of any previous technology"
+        },
+        {
+          "url": "https://epochai.substack.com/p/how-fast-is-ai-getting-cheaper",
+          "source": "Epoch AI",
+          "title": "AI is getting cheaper faster than any other transformative technology"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://epoch.ai/publications/the-plunging-price-of-thought",
+          "source": "Epoch AI",
+          "title": "The plunging price of thought",
+          "publishedAt": "2026-09-22"
+        },
+        {
+          "id": 2,
+          "url": "https://www.techspot.com/news/114055-cost-ai-performance-falling-fast-could-reshape-entire.html",
+          "source": "TechSpot",
+          "title": "The cost of AI performance is falling so fast it could reshape the entire software market",
+          "publishedAt": "2026-10-01"
+        }
+      ],
+      "tags": [
+        "inference-cost",
+        "Epoch AI",
+        "benchmarks"
+      ],
+      "confidence": "medium"
+    },
     {
       "slug": "arxiv-submission-rate-policy-ko",
       "headline": "공정한 심사, 동등한 접근, AI: arXiv의 제출 제한 정책 개정",

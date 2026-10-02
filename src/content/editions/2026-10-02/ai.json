@@ -1,11 +1,82 @@
 {
   "date": "2026-10-02",
-  "generatedAt": "2026-10-02T10:00:45.105Z",
+  "generatedAt": "2026-10-02T11:10:00.000Z",
   "vertical": "ai",
   "lang": "en",
   "title": "Signal Daily — AI — 2026-10-02",
-  "summary": "Thin edition: one story met the cross-source and relevance gates today. arXiv announced a change to submission rate limits; several collection sources were unavailable or returned no items.",
+  "summary": "Two stories. Epoch AI estimates that the cost of a fixed level of AI performance has fallen about 47% per quarter. arXiv announced a change to submission rate limits; several collection sources were unavailable or returned no items.",
   "stories": [
+    {
+      "slug": "plunging-price-of-ai-performance",
+      "headline": "The cost of a given AI performance level has fallen about 47% per quarter",
+      "dek": "Epoch AI estimates a 13x annual drop in the price of hitting a fixed benchmark score, a pace it says outruns measured declines for DNA sequencing, compute, and lithium-ion batteries.",
+      "type": "DEEP",
+      "readMinutes": 5,
+      "tldr": [
+        "Epoch AI estimates that the cost of a given level of AI performance has fallen about 47% per quarter, or 13x per year, over the past three years.",
+        "On GPQA Diamond, the report estimates that o3 reached a 75% score at $0.30 per question on January 31, 2025, while GPT-5.6 Luna later matched that score at $0.0004.",
+        "Epoch says the decline slows after a performance level debuts, from 66% per quarter to 32% per quarter two years later, and flags benchmaxxing plus incomplete data as caveats."
+      ],
+      "body": [
+        {
+          "text": "Epoch AI's September 22, 2026 report, \"The plunging price of thought,\" estimates that the cost of reaching a given level of AI performance has fallen about 47% per quarter, or 13x per year, across five benchmarks covering mathematics, hard sciences, and games of skill. In log points, the authors say that pace is four times faster than DNA sequencing, six times faster than compute, and 18 times faster than lithium-ion batteries.",
+          "citations": [1]
+        },
+        {
+          "text": "The report's GPQA Diamond example estimates that OpenAI's o3, released January 31, 2025, could reach a 75% score at an average of $0.30 per question. Just under 18 months later, GPT-5.6 Luna matched that score at $0.0004 per question, a 725-fold drop. Epoch notes that its \"75%\" figure is 75% of the way from chance to a perfect score, which is 81.25% on this four-way exam.",
+          "citations": [1]
+        },
+        {
+          "text": "Epoch says the drop is not one curve. Game-based puzzles fell about 39–43% per quarter, while math problems fell 50–52% per quarter. Across the five benchmarks, cost falls 66% per quarter when a performance level is new and 32% per quarter two years later. The authors warn that benchmark-specific training, which they call benchmaxxing, can make measured gains look steeper than real-world work, and that buyers who do not switch to the cheapest capable model will not capture the full saving.",
+          "citations": [1]
+        },
+        {
+          "text": "TechSpot's October 1 report on the Epoch findings says cheaper access to a given capability could make more capable models affordable for everyday software use and make it harder for AI developers to hold onto pricing power. It also notes that the historical comparisons use uneven windows: the AI series is recent, the compute series ends in 2001, and the electricity series ends in 1973.",
+          "citations": [2]
+        }
+      ],
+      "whyItMatters": "A falling price for a fixed benchmark score changes what software buyers can afford, but Epoch's own caveat is that the figure is the cheapest model on a test, not the cost of a finished job. If labs keep raising the capability bar while inference prices fall, spending on chips, power, and frontier training can stay high even as a single question gets cheaper. That split sits on both the AI supply chain and the software market that buys the output.",
+      "editorNote": "Operator's view, recorded here as the editor's note: two forces are speeding the drop in AI cost — hardware improvement becoming general, and efficiency. Frontier labs such as OpenAI and Anthropic still face rising build costs, knowledge that once circulated as a public good is being absorbed into proprietary systems and sold, and the practical counterweight is models efficient enough to run on local machines. This view is not an Epoch finding. The report prices the cheapest route to a benchmark score. It does not establish hardware as the main cause, and it already costs some open-weight models on rented hardware. Smaller local models are already in use. The frontier scores in the report still depend on large compute. TODO-review: glossary has no entry for benchmaxxing; Korean renders it as 벤치마크 특화 학습.",
+      "cluster": [
+        {
+          "url": "https://www.techspot.com/news/114055-cost-ai-performance-falling-fast-could-reshape-entire.html",
+          "source": "TechSpot",
+          "title": "The cost of AI performance is falling so fast it could reshape the entire software market"
+        },
+        {
+          "url": "https://the-decoder.com/ai-performance-costs-are-falling-faster-than-those-of-any-previous-technology/",
+          "source": "The Decoder",
+          "title": "AI performance costs are falling faster than those of any previous technology"
+        },
+        {
+          "url": "https://epochai.substack.com/p/how-fast-is-ai-getting-cheaper",
+          "source": "Epoch AI",
+          "title": "AI is getting cheaper faster than any other transformative technology"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://epoch.ai/publications/the-plunging-price-of-thought",
+          "source": "Epoch AI",
+          "title": "The plunging price of thought",
+          "publishedAt": "2026-09-22"
+        },
+        {
+          "id": 2,
+          "url": "https://www.techspot.com/news/114055-cost-ai-performance-falling-fast-could-reshape-entire.html",
+          "source": "TechSpot",
+          "title": "The cost of AI performance is falling so fast it could reshape the entire software market",
+          "publishedAt": "2026-10-01"
+        }
+      ],
+      "tags": [
+        "inference-cost",
+        "Epoch AI",
+        "benchmarks"
+      ],
+      "confidence": "medium"
+    },
     {
       "slug": "arxiv-submission-rate-policy",
       "headline": "ArXiv's Updated Rate Limit Policy",
