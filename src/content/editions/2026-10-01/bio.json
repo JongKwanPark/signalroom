@@ -1,11 +1,305 @@
 {
   "date": "2026-10-01",
-  "generatedAt": "2026-10-01T10:05:33Z",
+  "generatedAt": "2026-10-02T02:13:53Z",
   "vertical": "bio",
   "lang": "en",
   "title": "Signal Daily — Bio — 2026-10-01",
-  "summary": "A thin Bio edition: one industry development had independent coverage. The remaining collection was mostly individual study or registry records without independent reporting to support a second source.",
+  "summary": "A thin Bio edition: one industry development had independent coverage, plus a feature on autoimmune therapy research moving from suppressing inflammation toward restoring tolerance. The remaining collection was mostly individual study or registry records without independent reporting to support a second source.",
   "stories": [
+    {
+      "slug": "autoimmune-therapy-research-shifts-to-tolerance",
+      "headline": "Autoimmune therapy research moves from suppressing inflammation toward restoring tolerance",
+      "dek": "CAR-T resets, antigen-specific tolerance, engineered regulatory T cells and AI-assisted tools share one aim: retrain the immune system rather than only silence it. Most of the evidence is still early.",
+      "type": "DEEP",
+      "readMinutes": 8,
+      "tldr": [
+        "Recent autoimmune research increasingly aims to remove or retrain the cells that attack the body rather than only block inflammatory signals, and CD19 CAR-T “immune reset” has the most developed human data of the approaches covered here.",
+        "Tolerance-inducing peptides and mRNA, engineered regulatory T cells, and epigenetic and AI-assisted gene-control tools are earlier: one open-label phase Ib multiple sclerosis study and a registered phase 1/2a Crohn's disease trial involve patients, while most other results come from mice and cell culture.",
+        "None of the cited studies reports a single master switch or combines these tools in patients, and the human data come from early-phase single-arm or open-label studies, so durability, safety and how far mouse results carry over remain open."
+      ],
+      "body": [
+        {
+          "text": "A March 2025 Nature Reviews Immunology perspective describes “immune reset” as the effective elimination of pathogenic lymphocytes and their repopulation with naive cells, and says such approaches have the potential to achieve sustained remission in certain autoimmune diseases, with the goal of restoring a non-autoimmune state.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The most developed human data come from CD19 CAR-T cells. In the phase 1/2a CASTLE basket study in Nature Medicine, 24 patients with treatment-resistant systemic lupus erythematosus (10), systemic sclerosis (9) or idiopathic inflammatory myopathy (5) received a single infusion of the autologous CD19 CAR-T product zorpocabtagene autoleucel after stopping immunosuppressive treatment. A total of 22 of the 24 met predefined efficacy endpoints, and all remained free of glucocorticoids and other immunosuppressive treatment over the 24-week observation period; the full text reports no reintroduction at a median follow-up of 13 months. Fourteen patients received bridging prednisolone before infusion and there was no control arm, which the authors list as a limitation. No cytokine release syndrome above grade 2 and no ICANS (immune effector cell-associated neurotoxicity syndrome) occurred.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "A separate single-arm, ongoing phase 1 dose-escalation trial in Nature Medicine co-infused CD19- and BCMA-targeting CAR-T cells in 15 patients with refractory systemic lupus erythematosus. BCMA was added to reach CD19-negative long-lived plasma cells, which the authors identify as dominant sources of autoantibodies. By week 12, 12 of 15 patients (80%) met both LLDAS and DORIS remission criteria. In three patients monitored for a year, the authors report elimination of autoreactive CD19+BCMA+ clones and reconstitution of naive B cells. No dose-limiting toxicity or neurotoxicity was reported, but all patients had grade 3 or higher neutropenia.",
+          "citations": [
+            3
+          ]
+        },
+        {
+          "text": "Antigen-specific tolerance takes a narrower route: instead of depleting a cell lineage, it tries to teach the immune system to tolerate specific self-antigens. A phase Ib, open-label, dose-escalation study in multiple sclerosis, published in PNAS, gave patients autologous red blood cells coupled with seven immunodominant myelin peptides, which the authors report were safe and well tolerated. Three months after a single administration, single-cell sequencing showed expansion of antigen-specific CD4 memory T cells with regulatory phenotypes and loss of proinflammatory cells, and the authors describe lower autoreactive CD4 T-cell responses and an early rise in IL-10, Tr1 regulatory T cells, tolerogenic monocytes and plasmacytoid dendritic cells. Several clinical and imaging readouts remained stable, supported by a reduction in neurofilament light chain, but the open-label design does not establish efficacy.",
+          "citations": [
+            4
+          ]
+        },
+        {
+          "text": "Preclinical work extends the idea. In a Nature Communications study in mice with experimental autoimmune encephalomyelitis (EAE), polymeric microparticles loaded with MOG peptide were incubated ex vivo with B cells from genetically matched donor mice, and the cells were then returned to the animals; the particles alone had no marked effect. The B cells showed more IL-10 and MHC class II and presented antigen in a tolerogenic way, central nervous system inflammation and activated dendritic cells and macrophages fell, and regulatory T and B cells rose. In a separate H1N1 influenza challenge, mice given the cells had weight and survival similar to controls.",
+          "citations": [
+            5
+          ]
+        },
+        {
+          "text": "Another approach delivers the autoantigen as mRNA. In Advanced Science, lipid nanoparticles carrying MOG mRNA attenuated disease severity in EAE mice when given intravenously or intramuscularly, and the authors also tested a mouse type 1 diabetes model. They report the effect occurred without inducing regulatory T cells. Adding mRNA for an IL-2 mutein or CCL1, both known to enhance Treg expansion and recruitment, further improved outcomes in EAE, although the Treg increase was minor and could not be directly linked to the benefit.",
+          "citations": [
+            6
+          ]
+        },
+        {
+          "text": "A second track makes regulatory T cells (Tregs) the product. A Molecular Therapy study used homology-directed repair to integrate a functional FOXP3 gene into CD4 T cells; the engineered Tregs suppressed effector T cells in vitro and reversed graft-versus-host disease in mice, and the authors call the approach promising for IPEX syndrome and possibly other autoimmune disorders. A meeting abstract from the American Association of Immunologists' IMMUNOLOGY2026 conference, published in The Journal of Immunology in July 2026, describes a modular design with stable FOXP3 expression, a chemically inducible IL-2 signaling complex and interchangeable targeting receptors such as TCRs and CARs; it is an abstract, not a full paper. A Frontiers in Immunology review covers Treg preclinical studies, clinical translation and current challenges.",
+          "citations": [
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "text": "Other work tries to repair Tregs rather than replace them. In Cellular & Molecular Immunology, an AI-driven virtual screen identified FM029, a small molecule that binds FOXP3 and reinforces its interaction with T-bet; it strongly suppressed interferon-γ production by Tregs and eased interferon-γ-driven tissue inflammation in FOXP3 V408M mutant mice and in an acute colitis model, which the authors describe as proof of concept. In Experimental Eye Research, a T-cell-targeted, integration-deficient lentiviral vector delivered Foxp3 mRNA in mice and reprogrammed endogenous T cells into Treg-like cells; in experimental autoimmune uveitis it reduced Th1 and Th17 cells, clinical fundus scores and retinal inflammatory damage.",
+          "citations": [
+            10,
+            11
+          ]
+        },
+        {
+          "text": "CAR-Tregs point the same cells at a chosen antigen. In the Journal of Neuroinflammation, antigen-specific CAR-Tregs given systemically were found in the eyes and peripheral immune sites of mice and reduced uveitis only in mice that received an intraocular AAV injection supplying the target antigen. That antigen is a viral surrogate rather than a self-antigen. Endogenous Foxp3+ cells increased in the eye, which the authors say suggests bystander suppression and infectious tolerance.",
+          "citations": [
+            12
+          ]
+        },
+        {
+          "text": "Earlier preclinical work on IL23R-specific CAR-Tregs for Crohn's disease, published in 2024 by authors employed by Sangamo, showed activation in co-culture with cells from Crohn's colon biopsies, significant only for biopsies from severe disease, and accumulation in IL23R-high tumors in immunodeficient mice; the authors write that they could not test curative potential in vivo. A Nature Reviews Gastroenterology & Hepatology perspective surveys engineered cell strategies for inflammatory bowel disease and says allogeneic IL-10-producing Tr1 cells and autologous TGF-β-secreting Tregs are being evaluated in early-stage clinical trials.",
+          "citations": [
+            13,
+            14
+          ]
+        },
+        {
+          "text": "The one engineered regulatory cell product cited here with a registered clinical trial is TRX103, an allogeneic, off-the-shelf Tr1-like cell made by lentiviral delivery of human IL-10 into pooled CD4 T cells from three healthy donors. ClinicalTrials.gov lists a phase 1/2a, open-label, dose-escalation trial in moderate to severe treatment-refractory Crohn's disease, sponsored by Tr1X, as recruiting as of December 2025. The Frontiers in Immunology paper cited with it contains no clinical data: in cultures of blood cells from Crohn's patients, TRX103-conditioned medium reduced T-cell responses and IL-1β and TNF-α release, and gut homing was shown in a mouse graft-versus-host model. All of its authors are employed by the developer, Tr1X.",
+          "citations": [
+            15,
+            16
+          ]
+        },
+        {
+          "text": "Gene-control tools form the platform layer. In Nature Biotechnology, an all-RNA CRISPRoff and CRISPRon system switched endogenous genes off or on in primary human T cells from healthy donors; silencing persisted through cell divisions, repeated stimulation and adoptive transfer in mice, up to five genes were silenced at once, and the authors say the approach avoids the toxicity and chromosomal abnormalities of multiplexed Cas9 editing. A Nature Communications early-access paper describes about 80 synthetic promoters responsive to seven T-cell transcription factors, with two-input AND/OR-like circuits that the authors say are not strictly digital and reversible reporter activation for two of the promoters. Both are laboratory studies using mouse tumor models; neither tests a therapy in autoimmune disease.",
+          "citations": [
+            17,
+            18
+          ]
+        },
+        {
+          "text": "AI enters at the design step. In Nature Genetics, the generative model DNA-Diffusion produced 200-base-pair synthetic regulatory elements with cell-type-specific activity, tested in a 5,850-element STARR-seq library across three cell lines and used to reactivate the endogenous AXIN2 gene in a leukemia cell line; it used cultured cell lines only and does not address autoimmune disease. In Advanced Science, an AI-designed cyclic peptide, CIP-3, bound CD28 with nanomolar affinity, suppressed CD28-dependent T-cell activation in human blood cells and improved disease activity in a mouse T-cell-transfer colitis model. The paper describes it as reversible costimulation blockade, which is suppression rather than tolerance induction.",
+          "citations": [
+            19,
+            20
+          ]
+        },
+        {
+          "text": "By stage of evidence, human data currently cover CD19 and CD19–BCMA CAR-T in refractory lupus, systemic sclerosis and myositis (24 and 15 patients) and peptide-coupled red blood cells in multiple sclerosis; all are early-phase, single-arm or open-label studies. TRX103 has a registered Crohn's disease trial, but the paper cited with it contains no clinical data.",
+          "citations": [
+            2,
+            3,
+            4,
+            15,
+            16
+          ]
+        },
+        {
+          "text": "Everything else cited here is preclinical: antigen-loaded B cells and mRNA in EAE mice, FM029, Foxp3 mRNA and CAR-Tregs in colitis and uveitis models, epigenetic editing and synthetic promoters in laboratory T cells, and AI-designed regulatory DNA and peptides. Some tests rely on a surrogate viral antigen or on reporter genes rather than disease genes.",
+          "citations": [
+            5,
+            6,
+            10,
+            11,
+            12,
+            17,
+            18,
+            19,
+            20
+          ]
+        }
+      ],
+      "whyItMatters": "The studies point to a change of target: from the cytokines that carry inflammation toward the cells and circuits that sustain it. For the industry, that widens the field from cytokine blockers to cell therapy, antigen-specific tolerance, engineered regulatory cells and gene-control tools, and it ties Bio to the AI vertical, where generative models now propose peptides, small molecules and regulatory DNA for immunology. The cited studies target different cells and pathways — CD19 and BCMA, myelin peptides, FOXP3, CD28, IL23R — and none claims a single switch that restores immune balance; they also leave open durability beyond early follow-up, the safety and scalability of cell products, and how much of the mouse data transfers to people.",
+      "editorNote": "Feature compiled from journal papers, one meeting abstract and one trial registry record. Each source was checked on 2026-10-02 against its publisher, PubMed, Crossref, Europe PMC or registry record; for seven items (the Nature Reviews Immunology perspective, the CD19–BCMA lupus trial, the PNAS multiple sclerosis study, and the FOXP3–T-bet, Molecular Therapy, Experimental Eye Research and Journal of Neuroinflammation papers) only abstracts were available, so claims are limited to them. The evidence stage of each study — human, animal, cell culture or abstract — is stated in the text, and confidence is medium because the evidence mix is early. Disclosures: an author of the multiple sclerosis paper is an employee, co-founder and shareholder of Cellerys; all authors of the TRX103 paper work for its developer, Tr1X, and all authors of the IL23R CAR-Treg paper worked for Sangamo; most authors of the modular Treg abstract work for GentiBio, which an author of the Molecular Therapy paper co-founded; two corresponding authors of the CRISPRoff paper declare company co-founder roles and patents; three authors of the synthetic promoter paper are named on a patent application. This item describes published research only and gives no medical advice. The Bio edition summary was updated to include this feature.",
+      "cluster": [
+        {
+          "url": "https://www.nature.com/articles/s41577-025-01141-w",
+          "source": "Nature Reviews Immunology",
+          "title": "Defining immune reset: achieving sustained remission in autoimmune diseases"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41575-026-01226-4",
+          "source": "Nature Reviews Gastroenterology & Hepatology",
+          "title": "Engineering immune cell therapies for inflammatory bowel disease: from stem cells to CAR T cells"
+        },
+        {
+          "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1881360/full",
+          "source": "Frontiers in Immunology",
+          "title": "Regulatory T cells in autoimmune diseases: biological mechanisms, clinical translation, and translational challenges"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.nature.com/articles/s41577-025-01141-w",
+          "source": "Nature Reviews Immunology",
+          "title": "Defining immune reset: achieving sustained remission in autoimmune diseases",
+          "publishedAt": "2025-03-05"
+        },
+        {
+          "id": 2,
+          "url": "https://www.nature.com/articles/s41591-025-04185-6",
+          "source": "Nature Medicine",
+          "title": "CD19 CAR-T cells for treatment-refractory autoimmune diseases: the phase 1/2 CASTLE basket trial",
+          "publishedAt": "2026-01-07"
+        },
+        {
+          "id": 3,
+          "url": "https://www.nature.com/articles/s41591-025-03937-8",
+          "source": "Nature Medicine",
+          "title": "Co-infusion of CD19-targeting and BCMA-targeting CAR-T cells for treatment-refractory systemic lupus erythematosus: a phase 1 trial",
+          "publishedAt": "2025-09-24"
+        },
+        {
+          "id": 4,
+          "url": "https://doi.org/10.1073/pnas.2614908123",
+          "source": "PNAS",
+          "title": "Treatment of multiple sclerosis with peptide-coupled red blood cells induces antigen-specific T regulatory cells",
+          "publishedAt": "2026-08-31"
+        },
+        {
+          "id": 5,
+          "url": "https://www.nature.com/articles/s41467-026-74641-5",
+          "source": "Nature Communications",
+          "title": "Autoantigen-loaded Polymeric Microparticles associate with B cells and promote tolerogenic antigen presentation in a mouse model of experimental autoimmune encephalomyelitis",
+          "publishedAt": "2026-06-23"
+        },
+        {
+          "id": 6,
+          "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.76382",
+          "source": "Advanced Science",
+          "title": "Autoantigen mRNA-LNP Vaccination Drives Therapeutic Efficacy in Preclinical Models for Autoimmunity",
+          "publishedAt": "2026-07-06"
+        },
+        {
+          "id": 7,
+          "url": "https://doi.org/10.1016/j.ymthe.2026.03.017",
+          "source": "Molecular Therapy",
+          "title": "Preclinical efficacy and safety assessment of engineered regulatory T cells for treatment of IPEX and other autoimmune disorders",
+          "publishedAt": "2026-03-13"
+        },
+        {
+          "id": 8,
+          "url": "https://academic.oup.com/jimmunol/article/215/Supplement_1/vkag141.799/8745423",
+          "source": "The Journal of Immunology",
+          "title": "Modular engineering of Tregs for the treatment of inflammatory and autoimmune diseases (meeting abstract)",
+          "publishedAt": "2026-07-28"
+        },
+        {
+          "id": 9,
+          "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1881360/full",
+          "source": "Frontiers in Immunology",
+          "title": "Regulatory T cells in autoimmune diseases: biological mechanisms, clinical translation, and translational challenges",
+          "publishedAt": "2026-08-13"
+        },
+        {
+          "id": 10,
+          "url": "https://www.nature.com/articles/s41423-026-01468-x",
+          "source": "Cellular & Molecular Immunology",
+          "title": "Targeting the FOXP3–T-bet interaction to restore Treg stability in IFN-γ–driven autoimmunity",
+          "publishedAt": "2026-09-03"
+        },
+        {
+          "id": 11,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42061599/",
+          "source": "Experimental Eye Research",
+          "title": "In vivo engineering of immunosuppressive T cells to treat ocular autoimmune diseases",
+          "publishedAt": "2026-04-28"
+        },
+        {
+          "id": 12,
+          "url": "https://link.springer.com/article/10.1186/s12974-026-04032-6",
+          "source": "Journal of Neuroinflammation",
+          "title": "Chimeric Antigen Receptor (CAR) regulatory T cells effectively suppress autoimmune uveitis in presence of antigen",
+          "publishedAt": "2026-09-10"
+        },
+        {
+          "id": 13,
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11945296/",
+          "source": "Journal of Crohn's and Colitis",
+          "title": "IL23R-Specific CAR Tregs for the Treatment of Crohn's Disease",
+          "publishedAt": "2024-09-10"
+        },
+        {
+          "id": 14,
+          "url": "https://www.nature.com/articles/s41575-026-01226-4",
+          "source": "Nature Reviews Gastroenterology & Hepatology",
+          "title": "Engineering immune cell therapies for inflammatory bowel disease: from stem cells to CAR T cells",
+          "publishedAt": "2026-06-30"
+        },
+        {
+          "id": 15,
+          "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1848770/full",
+          "source": "Frontiers in Immunology",
+          "title": "Engineering allogeneic type 1 regulatory T cells: a scalable, off-the-shelf platform for restoring immune tolerance",
+          "publishedAt": "2026-07-09"
+        },
+        {
+          "id": 16,
+          "url": "https://clinicaltrials.gov/study/NCT06721962",
+          "source": "ClinicalTrials.gov",
+          "title": "NCT06721962: A Phase 1/2a, Open Label, Dose Escalation Study to Evaluate the Safety and Preliminary Efficacy of TRX103 in Subjects With Moderate to Severe Treatment-Refractory Crohn's Disease",
+          "publishedAt": "last updated 2025-12-10"
+        },
+        {
+          "id": 17,
+          "url": "https://www.nature.com/articles/s41587-025-02856-w",
+          "source": "Nature Biotechnology",
+          "title": "Integrated epigenetic and genetic programming of primary human T cells",
+          "publishedAt": "2025-10-21"
+        },
+        {
+          "id": 18,
+          "url": "https://www.nature.com/articles/s41467-026-77730-7",
+          "source": "Nature Communications",
+          "title": "A modular synthetic promoter toolkit for programmable gene control in activated and chronically stimulated T cells",
+          "publishedAt": "2026-09-16"
+        },
+        {
+          "id": 19,
+          "url": "https://www.nature.com/articles/s41588-025-02441-6",
+          "source": "Nature Genetics",
+          "title": "Designing synthetic regulatory elements using the generative AI framework DNA-Diffusion",
+          "publishedAt": "2025-12-23"
+        },
+        {
+          "id": 20,
+          "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.75892",
+          "source": "Advanced Science",
+          "title": "AI-Designed Cyclic Peptides Enable Controllable Modulation of the CD28 Immune Checkpoint",
+          "publishedAt": "2026-05-30"
+        }
+      ],
+      "tags": [
+        "immunology",
+        "autoimmune",
+        "cell-therapy",
+        "car-t",
+        "regulatory-t-cells",
+        "gene-editing",
+        "ai-design"
+      ],
+      "confidence": "medium"
+    },
     {
       "slug": "sanofi-regeneron-expand-immunology-partnership",
       "headline": "STAT+: Sanofi, Regeneron expand partnership after Dupixent success",

@@ -1,11 +1,305 @@
 {
   "date": "2026-10-01",
-  "generatedAt": "2026-10-01T10:05:33Z",
+  "generatedAt": "2026-10-02T02:13:53Z",
   "vertical": "bio",
   "lang": "ko",
   "title": "시그널 데일리 — 바이오 — 2026-10-01",
-  "summary": "바이오 에디션은 독립 보도가 확인된 산업 동향 1건으로 구성했습니다. 나머지는 독립적인 두 번째 출처가 없는 개별 연구 또는 등록 자료가 대부분이어서 제외했습니다.",
+  "summary": "바이오 에디션은 독립 보도가 확인된 산업 동향 1건과, 자가면역 치료 연구가 염증 억제에서 면역 관용 회복으로 이동하고 있다는 특집 1건으로 구성했습니다. 나머지는 독립적인 두 번째 출처가 없는 개별 연구 또는 등록 자료가 대부분이어서 제외했습니다.",
   "stories": [
+    {
+      "slug": "autoimmune-therapy-research-shifts-to-tolerance-ko",
+      "headline": "자가면역 치료 연구, 염증 억제에서 면역 관용 회복으로",
+      "dek": "CAR-T 리셋, 항원 특이적 관용, 조작된 조절 T 세포, AI 기반 도구는 면역계를 억제하기만 하는 대신 다시 훈련시킨다는 같은 목표를 공유합니다. 근거 대부분은 아직 초기 단계입니다.",
+      "type": "DEEP",
+      "readMinutes": 8,
+      "tldr": [
+        "최근 자가면역 연구는 염증 신호를 차단하는 데 그치지 않고 몸을 공격하는 세포를 제거하거나 재교육하는 쪽으로 향하고 있으며, 여기서 다루는 접근 가운데 CD19 CAR-T “면역 리셋”의 사람 데이터가 가장 발전해 있습니다.",
+        "관용을 유도하는 펩타이드와 mRNA, 조작된 조절 T 세포, 후성유전 및 AI 기반 유전자 조절 도구는 더 초기 단계로, 환자가 참여한 것은 공개라벨 1b상 다발성경화증 연구 1건과 등록된 1/2a상 크론병 시험뿐이고 나머지 결과 대부분은 마우스와 세포 배양에서 나왔습니다.",
+        "인용한 연구 어디에도 단일 마스터 스위치나 이 도구들을 환자에게 결합 적용한 결과는 없으며, 사람 데이터는 초기 단계의 단일군 또는 공개라벨 연구에서 나왔으므로 효과의 지속성, 안전성, 마우스 결과의 사람 적용 가능성은 열려 있습니다."
+      ],
+      "body": [
+        {
+          "text": "2025년 3월 Nature Reviews Immunology에 실린 관점 논문은 병원성 림프구를 효과적으로 제거하고 그 자리를 naive 세포로 다시 채우는 것을 “면역 리셋”이라 부르며, 이런 접근이 일부 자가면역 질환에서 지속적 관해를 달성할 잠재력이 있고 목표는 비자가면역 상태를 회복하는 것이라고 설명합니다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "사람에서 가장 발전된 데이터는 CD19 CAR-T 세포에서 나왔습니다. Nature Medicine에 실린 1/2a상 CASTLE 바스켓 시험에서는 치료 저항성 전신 홍반 루푸스(10명), 전신경화증(9명), 특발성 염증성 근병증(5명) 환자 24명이 면역억제 치료를 중단한 뒤 자가 CD19 CAR-T 제품 zorpocabtagene autoleucel을 1회 투여받았습니다. 24명 중 22명이 사전에 정한 효능 평가변수를 충족했고, 전원이 24주 관찰 기간 동안 글루코코르티코이드와 다른 면역억제 치료 없이 지냈으며 본문은 중앙값 13개월 추적에서 재도입이 없었다고 보고합니다. 14명은 투여 전 브릿징 프레드니솔론을 받았고 대조군이 없었는데, 저자들은 이를 한계로 꼽습니다. 2등급을 넘는 사이토카인 방출 증후군과 ICANS(면역 이펙터 세포 연관 신경독성 증후군)는 나타나지 않았습니다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "Nature Medicine의 별도 단일군 1상 용량 증량 시험은 아직 진행 중이며, 불응성 전신 홍반 루푸스 환자 15명에게 CD19 표적과 BCMA 표적 CAR-T 세포를 함께 투여했습니다. 저자들이 자가항체의 주된 공급원으로 지목한 CD19 음성 장수 형질세포까지 겨냥하기 위해 BCMA를 더한 것입니다. 12주까지 15명 중 12명(80%)이 LLDAS와 DORIS 관해 기준을 모두 충족했습니다. 1년간 추적한 3명에서 저자들은 자가반응 CD19+BCMA+ 클론의 제거와 naive B 세포 재구성을 보고합니다. 용량 제한 독성과 신경독성은 보고되지 않았지만 모든 환자에게 3등급 이상 호중구감소증이 나타났습니다.",
+          "citations": [
+            3
+          ]
+        },
+        {
+          "text": "항원 특이적 관용은 더 좁은 경로를 택합니다. 세포 계열을 고갈시키는 대신 면역계가 특정 자가항원을 용인하도록 가르치려는 접근입니다. PNAS에 실린 다발성경화증 1b상 공개라벨 용량 증량 연구에서는 환자 자신의 적혈구에 면역우세 마이엘린 펩타이드 7종을 결합해 투여했고, 저자들은 이것이 안전하고 내약성이 좋았다고 보고합니다. 1회 투여 3개월 후 단일세포 시퀀싱에서 조절 표현형을 가진 항원 특이 CD4 기억 T 세포가 늘고 염증성 세포가 줄었으며, 저자들은 자가반응 CD4 T 세포 반응의 감소와 IL-10, Tr1 조절 T 세포, 관용 유도성 단핵구, 형질세포양 수지상세포의 초기 증가도 설명합니다. 여러 임상·영상 지표가 안정적으로 유지되고 neurofilament light chain이 감소했지만, 공개라벨 설계여서 효능이 입증되지는 않습니다.",
+          "citations": [
+            4
+          ]
+        },
+        {
+          "text": "전임상에서는 같은 발상이 다른 방식으로 구현됩니다. Nature Communications 연구는 실험적 자가면역 뇌척수염(EAE) 마우스에서 MOG 펩타이드를 실은 고분자 마이크로입자를 유전적으로 일치하는 공여 마우스의 B 세포와 체외에서 배양한 뒤 그 세포를 동물에 되돌려 주었으며, 입자만 투여했을 때는 뚜렷한 효과가 없었습니다. B 세포는 IL-10과 MHC 클래스 II 발현이 늘고 관용 유도성 방식으로 항원을 제시했으며, 중추신경계 염증과 활성화된 수지상세포·대식세포가 줄고 조절 T 세포와 조절 B 세포가 늘었습니다. 별도의 H1N1 인플루엔자 감염 시험에서 이 세포를 받은 마우스의 체중과 생존은 대조군과 비슷했습니다.",
+          "citations": [
+            5
+          ]
+        },
+        {
+          "text": "자가항원을 mRNA로 전달하는 접근도 있습니다. Advanced Science 연구에서 MOG mRNA를 실은 지질나노입자는 정맥 또는 근육 투여 시 EAE 마우스의 질병 중증도를 완화했고, 저자들은 제1형 당뇨병 마우스 모델도 시험했습니다. 저자들은 이 효과가 조절 T 세포를 유도하지 않고 나타났다고 보고합니다. Treg의 증식과 동원을 높이는 것으로 알려진 IL-2 변이체 또는 CCL1의 mRNA를 더하자 EAE 결과가 더 좋아졌지만, Treg 증가는 미미했고 이 이점과 직접 연결하지는 못했습니다.",
+          "citations": [
+            6
+          ]
+        },
+        {
+          "text": "두 번째 흐름은 조절 T 세포(Treg) 자체를 치료제로 만드는 것입니다. Molecular Therapy 연구는 상동 재조합 복구(HDR)로 CD4 T 세포에 기능성 FOXP3 유전자를 넣었고, 이렇게 만든 조작 Treg는 시험관에서 이펙터 T 세포를 억제하고 마우스에서 이식편대숙주병을 되돌렸으며, 저자들은 이 접근이 IPEX 증후군, 그리고 어쩌면 다른 자가면역 질환에도 유망하다고 평가합니다. 미국면역학회(AAI)의 IMMUNOLOGY2026 연례학회 초록으로 2026년 7월 The Journal of Immunology에 게재된 글은 안정적인 FOXP3 발현, 화학적으로 유도되는 IL-2 신호 복합체, TCR·CAR 등 교체 가능한 표적 수용체를 갖춘 모듈형 설계를 소개하지만, 정식 논문이 아니라 초록입니다. Frontiers in Immunology 리뷰는 Treg의 전임상 연구, 임상 번역, 현재의 과제를 다룹니다.",
+          "citations": [
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "text": "Treg를 교체하는 대신 고치려는 연구도 있습니다. Cellular & Molecular Immunology 논문에서는 AI 기반 가상 스크리닝으로 FM029를 찾았는데, FOXP3에 결합해 T-bet과의 상호작용을 강화하는 이 저분자는 Treg의 인터페론 감마 생성을 강하게 억제했고 FOXP3 V408M 변이 마우스와 급성 대장염 모델에서 인터페론 감마가 주도하는 조직 염증을 완화했으며, 저자들은 이를 개념 증명이라고 설명합니다. Experimental Eye Research 연구에서는 T 세포를 표적으로 하는 비통합 렌티바이러스 벡터가 마우스에 Foxp3 mRNA를 전달해 체내 T 세포를 Treg 유사 세포로 재프로그래밍했고, 실험적 자가면역 포도막염에서 Th1·Th17 세포와 임상 안저 점수, 망막 염증 손상이 줄었습니다.",
+          "citations": [
+            10,
+            11
+          ]
+        },
+        {
+          "text": "CAR-Treg는 같은 세포를 정해진 항원으로 향하게 합니다. Journal of Neuroinflammation 연구에서 전신 투여한 항원 특이 CAR-Treg는 마우스의 눈과 말초 면역 부위에서 발견됐고, 표적 항원을 공급하는 눈 속 AAV 주사를 받은 마우스에서만 포도막염이 줄었습니다. 이 항원은 자가항원이 아니라 바이러스 대리 항원입니다. 눈에서는 내인성 Foxp3+ 세포가 늘었고, 저자들은 이것이 방관자 억제와 감염성 관용을 시사한다고 말합니다.",
+          "citations": [
+            12
+          ]
+        },
+        {
+          "text": "크론병용 IL23R 특이 CAR-Treg에 관한 이전 전임상 연구는 Sangamo 소속 저자들이 2024년에 발표했으며, 크론병 대장 생검 세포와의 공배양에서 중증 질환 생검에서만 유의한 활성화를 보였고 면역결핍 마우스의 IL23R 고발현 종양에 모였습니다. 저자들은 생체 내 치료 잠재력은 시험하지 못했다고 씁니다. Nature Reviews Gastroenterology & Hepatology 관점 논문은 염증성 장질환용 조작 세포 전략을 개괄하며, 동종 IL-10 생성 Tr1 세포와 자가 TGF-β 분비 Treg가 초기 임상시험에서 평가되고 있다고 말합니다.",
+          "citations": [
+            13,
+            14
+          ]
+        },
+        {
+          "text": "여기서 인용한 조작 조절 세포 제품 가운데 등록된 임상시험이 있는 것은 TRX103 하나입니다. 건강한 공여자 3명의 CD4 T 세포를 모아 사람 IL-10 유전자를 렌티바이러스로 도입해 만든 동종 기성품 Tr1 유사 세포입니다. ClinicalTrials.gov에는 Tr1X가 후원하는 중등도에서 중증의 치료 불응성 크론병 대상 1/2a상 공개라벨 용량 증량 시험이 2025년 12월 기준 모집 중으로 등록돼 있습니다. 함께 인용한 Frontiers in Immunology 논문에는 임상 데이터가 없습니다. 크론병 환자 혈액 세포 배양에서 TRX103 조건 배지는 T 세포 반응과 IL-1β, TNF-α 분비를 줄였고, 장 이동은 이식편대숙주병 마우스 모델에서 확인됐습니다. 저자 전원이 개발사 Tr1X 소속입니다.",
+          "citations": [
+            15,
+            16
+          ]
+        },
+        {
+          "text": "유전자 조절 도구는 플랫폼 계층을 이룹니다. Nature Biotechnology 연구에서 전부 RNA로 구성된 CRISPRoff·CRISPRon 시스템은 건강한 공여자의 사람 1차 T 세포에서 내인성 유전자를 끄거나 켰고, 침묵은 세포 분열과 반복 자극, 마우스 입양 전달 후에도 유지됐으며 최대 5개 유전자를 동시에 침묵시켰습니다. 저자들은 이 방식이 다중 Cas9 편집의 독성과 염색체 이상을 피한다고 말합니다. Nature Communications의 조기 공개 논문은 T 세포 전사인자 7종에 반응하는 합성 프로모터 약 80개를 소개하며, 저자들이 엄밀한 디지털 방식은 아니라고 밝힌 2입력 AND/OR형 회로와 그중 2개 프로모터에서 리포터의 가역적 활성화를 보였습니다. 둘 다 마우스 종양 모델을 쓴 실험실 연구이며 자가면역 질환에서 치료법을 시험한 것은 아닙니다.",
+          "citations": [
+            17,
+            18
+          ]
+        },
+        {
+          "text": "AI는 설계 단계에서 등장합니다. Nature Genetics에서 생성 모델 DNA-Diffusion은 세포 유형 특이적 활성을 가진 200염기쌍 합성 조절 요소를 만들었고, 세포주 3종에서 5,850개 요소의 STARR-seq 라이브러리로 검증했으며 백혈병 세포주에서 내인성 AXIN2 유전자를 다시 켜는 데 사용했습니다. 배양 세포주만 썼고 자가면역 질환을 다루지는 않습니다. Advanced Science에서 AI가 설계한 고리형 펩타이드 CIP-3는 CD28에 나노몰 수준의 친화도로 결합해 사람 혈액 세포에서 CD28 의존 T 세포 활성화를 억제했고, 마우스 T 세포 이식 대장염 모델에서 질병 활동도를 개선했습니다. 논문은 이를 가역적 공동자극 차단으로 설명하며, 이는 관용 유도가 아니라 억제에 해당합니다.",
+          "citations": [
+            19,
+            20
+          ]
+        },
+        {
+          "text": "근거 단계별로 보면 현재 사람 데이터는 불응성 루푸스·전신경화증·근염에서의 CD19 및 CD19–BCMA CAR-T(24명과 15명), 그리고 다발성경화증에서의 펩타이드 결합 적혈구에 한정되며, 모두 초기 단계의 단일군 또는 공개라벨 연구입니다. TRX103은 등록된 크론병 시험이 있지만 함께 인용한 논문에는 임상 데이터가 없습니다.",
+          "citations": [
+            2,
+            3,
+            4,
+            15,
+            16
+          ]
+        },
+        {
+          "text": "여기서 인용한 나머지는 모두 전임상입니다. EAE 마우스의 항원 탑재 B 세포와 mRNA, 대장염·포도막염 모델의 FM029·Foxp3 mRNA·CAR-Treg, 실험실 T 세포에서의 후성유전 편집과 합성 프로모터, 그리고 AI가 설계한 조절 DNA와 펩타이드가 해당합니다. 일부 시험은 질병 유전자가 아니라 바이러스 대리 항원이나 리포터 유전자에 의존합니다.",
+          "citations": [
+            5,
+            6,
+            10,
+            11,
+            12,
+            17,
+            18,
+            19,
+            20
+          ]
+        }
+      ],
+      "whyItMatters": "연구들은 표적의 이동을 가리킵니다. 염증을 실어 나르는 사이토카인에서 염증을 유지하는 세포와 회로로 옮겨 가는 흐름입니다. 업계에서는 경쟁 구도가 사이토카인 차단제에서 세포 치료, 항원 특이적 관용, 조작 조절 세포, 유전자 조절 도구로 넓어지며, 생성 모델이 면역학용 펩타이드, 저분자, 조절 DNA를 제안하는 AI 버티컬과도 맞닿습니다. 인용한 연구들은 CD19와 BCMA, 마이엘린 펩타이드, FOXP3, CD28, IL23R처럼 서로 다른 세포와 경로를 겨냥하며 면역 균형을 되돌리는 단일 스위치를 주장하는 연구는 없고, 초기 추적 이후의 지속성, 세포 제품의 안전성과 확장성, 마우스 데이터가 사람에게 어디까지 적용되는지도 해결하지 못합니다.",
+      "editorNote": "특집 기사는 학술 논문, 학회 초록 1건, 임상시험 등록 기록 1건을 바탕으로 작성했습니다. 각 출처는 2026-10-02에 출판사, PubMed, Crossref, Europe PMC 또는 등록 기록과 대조했으며, 초록만 확인할 수 있었던 7건(Nature Reviews Immunology 관점 논문, CD19–BCMA 루푸스 시험, PNAS 다발성경화증 연구, FOXP3–T-bet 논문, Molecular Therapy 논문, Experimental Eye Research 논문, Journal of Neuroinflammation 논문)은 초록에 있는 내용으로만 서술했습니다. 각 연구의 근거 단계(사람, 동물, 세포 배양, 초록)는 본문에 밝혔고, 근거 구성이 초기 단계라 신뢰도는 medium입니다. 이해관계: 다발성경화증 논문의 저자 1명은 Cellerys의 직원·공동창업자·주주이고, TRX103 논문의 저자 전원은 개발사 Tr1X 소속이며, IL23R CAR-Treg 논문의 저자 전원은 Sangamo 소속이었습니다. 모듈형 Treg 초록의 저자 대부분은 GentiBio 소속이고 이 회사는 Molecular Therapy 논문의 저자 1명이 공동 창업했습니다. CRISPRoff 논문의 교신 저자 2명은 기업 공동창업과 특허를 밝혔고, 합성 프로모터 논문의 저자 3명은 특허 출원에 이름을 올렸습니다. 이 항목은 발표된 연구만 설명하며 의학적 조언을 하지 않습니다. 이 특집을 포함하도록 바이오 에디션 요약을 갱신했습니다.",
+      "cluster": [
+        {
+          "url": "https://www.nature.com/articles/s41577-025-01141-w",
+          "source": "Nature Reviews Immunology",
+          "title": "Defining immune reset: achieving sustained remission in autoimmune diseases"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41575-026-01226-4",
+          "source": "Nature Reviews Gastroenterology & Hepatology",
+          "title": "Engineering immune cell therapies for inflammatory bowel disease: from stem cells to CAR T cells"
+        },
+        {
+          "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1881360/full",
+          "source": "Frontiers in Immunology",
+          "title": "Regulatory T cells in autoimmune diseases: biological mechanisms, clinical translation, and translational challenges"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.nature.com/articles/s41577-025-01141-w",
+          "source": "Nature Reviews Immunology",
+          "title": "Defining immune reset: achieving sustained remission in autoimmune diseases",
+          "publishedAt": "2025-03-05"
+        },
+        {
+          "id": 2,
+          "url": "https://www.nature.com/articles/s41591-025-04185-6",
+          "source": "Nature Medicine",
+          "title": "CD19 CAR-T cells for treatment-refractory autoimmune diseases: the phase 1/2 CASTLE basket trial",
+          "publishedAt": "2026-01-07"
+        },
+        {
+          "id": 3,
+          "url": "https://www.nature.com/articles/s41591-025-03937-8",
+          "source": "Nature Medicine",
+          "title": "Co-infusion of CD19-targeting and BCMA-targeting CAR-T cells for treatment-refractory systemic lupus erythematosus: a phase 1 trial",
+          "publishedAt": "2025-09-24"
+        },
+        {
+          "id": 4,
+          "url": "https://doi.org/10.1073/pnas.2614908123",
+          "source": "PNAS",
+          "title": "Treatment of multiple sclerosis with peptide-coupled red blood cells induces antigen-specific T regulatory cells",
+          "publishedAt": "2026-08-31"
+        },
+        {
+          "id": 5,
+          "url": "https://www.nature.com/articles/s41467-026-74641-5",
+          "source": "Nature Communications",
+          "title": "Autoantigen-loaded Polymeric Microparticles associate with B cells and promote tolerogenic antigen presentation in a mouse model of experimental autoimmune encephalomyelitis",
+          "publishedAt": "2026-06-23"
+        },
+        {
+          "id": 6,
+          "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.76382",
+          "source": "Advanced Science",
+          "title": "Autoantigen mRNA-LNP Vaccination Drives Therapeutic Efficacy in Preclinical Models for Autoimmunity",
+          "publishedAt": "2026-07-06"
+        },
+        {
+          "id": 7,
+          "url": "https://doi.org/10.1016/j.ymthe.2026.03.017",
+          "source": "Molecular Therapy",
+          "title": "Preclinical efficacy and safety assessment of engineered regulatory T cells for treatment of IPEX and other autoimmune disorders",
+          "publishedAt": "2026-03-13"
+        },
+        {
+          "id": 8,
+          "url": "https://academic.oup.com/jimmunol/article/215/Supplement_1/vkag141.799/8745423",
+          "source": "The Journal of Immunology",
+          "title": "Modular engineering of Tregs for the treatment of inflammatory and autoimmune diseases (meeting abstract)",
+          "publishedAt": "2026-07-28"
+        },
+        {
+          "id": 9,
+          "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1881360/full",
+          "source": "Frontiers in Immunology",
+          "title": "Regulatory T cells in autoimmune diseases: biological mechanisms, clinical translation, and translational challenges",
+          "publishedAt": "2026-08-13"
+        },
+        {
+          "id": 10,
+          "url": "https://www.nature.com/articles/s41423-026-01468-x",
+          "source": "Cellular & Molecular Immunology",
+          "title": "Targeting the FOXP3–T-bet interaction to restore Treg stability in IFN-γ–driven autoimmunity",
+          "publishedAt": "2026-09-03"
+        },
+        {
+          "id": 11,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42061599/",
+          "source": "Experimental Eye Research",
+          "title": "In vivo engineering of immunosuppressive T cells to treat ocular autoimmune diseases",
+          "publishedAt": "2026-04-28"
+        },
+        {
+          "id": 12,
+          "url": "https://link.springer.com/article/10.1186/s12974-026-04032-6",
+          "source": "Journal of Neuroinflammation",
+          "title": "Chimeric Antigen Receptor (CAR) regulatory T cells effectively suppress autoimmune uveitis in presence of antigen",
+          "publishedAt": "2026-09-10"
+        },
+        {
+          "id": 13,
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11945296/",
+          "source": "Journal of Crohn's and Colitis",
+          "title": "IL23R-Specific CAR Tregs for the Treatment of Crohn's Disease",
+          "publishedAt": "2024-09-10"
+        },
+        {
+          "id": 14,
+          "url": "https://www.nature.com/articles/s41575-026-01226-4",
+          "source": "Nature Reviews Gastroenterology & Hepatology",
+          "title": "Engineering immune cell therapies for inflammatory bowel disease: from stem cells to CAR T cells",
+          "publishedAt": "2026-06-30"
+        },
+        {
+          "id": 15,
+          "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1848770/full",
+          "source": "Frontiers in Immunology",
+          "title": "Engineering allogeneic type 1 regulatory T cells: a scalable, off-the-shelf platform for restoring immune tolerance",
+          "publishedAt": "2026-07-09"
+        },
+        {
+          "id": 16,
+          "url": "https://clinicaltrials.gov/study/NCT06721962",
+          "source": "ClinicalTrials.gov",
+          "title": "NCT06721962: A Phase 1/2a, Open Label, Dose Escalation Study to Evaluate the Safety and Preliminary Efficacy of TRX103 in Subjects With Moderate to Severe Treatment-Refractory Crohn's Disease",
+          "publishedAt": "last updated 2025-12-10"
+        },
+        {
+          "id": 17,
+          "url": "https://www.nature.com/articles/s41587-025-02856-w",
+          "source": "Nature Biotechnology",
+          "title": "Integrated epigenetic and genetic programming of primary human T cells",
+          "publishedAt": "2025-10-21"
+        },
+        {
+          "id": 18,
+          "url": "https://www.nature.com/articles/s41467-026-77730-7",
+          "source": "Nature Communications",
+          "title": "A modular synthetic promoter toolkit for programmable gene control in activated and chronically stimulated T cells",
+          "publishedAt": "2026-09-16"
+        },
+        {
+          "id": 19,
+          "url": "https://www.nature.com/articles/s41588-025-02441-6",
+          "source": "Nature Genetics",
+          "title": "Designing synthetic regulatory elements using the generative AI framework DNA-Diffusion",
+          "publishedAt": "2025-12-23"
+        },
+        {
+          "id": 20,
+          "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.75892",
+          "source": "Advanced Science",
+          "title": "AI-Designed Cyclic Peptides Enable Controllable Modulation of the CD28 Immune Checkpoint",
+          "publishedAt": "2026-05-30"
+        }
+      ],
+      "tags": [
+        "immunology",
+        "autoimmune",
+        "cell-therapy",
+        "car-t",
+        "regulatory-t-cells",
+        "gene-editing",
+        "ai-design"
+      ],
+      "confidence": "medium"
+    },
     {
       "slug": "sanofi-regeneron-expand-immunology-partnership-ko",
       "headline": "STAT+: Sanofi와 Regeneron, Dupixent 성공 이후 협력 확대",
