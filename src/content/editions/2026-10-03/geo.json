@@ -4,7 +4,7 @@
   "vertical": "geo",
   "lang": "en",
   "title": "Geopolitics & Security Signals — 2026-10-03",
-  "summary": "A thin edition with one verified infrastructure development: a strike damaged Kyiv's Northern Bridge after disruptions to other Dnipro crossings, adding pressure to the capital's east-west transport links.",
+  "summary": "A four-story edition follows the second strike on a Kyiv bridge, Brazil’s election-related accusation against the US, Spain’s housing protests and parliamentary debate, and the G7’s coordinated fuel-stock release. The reports document developments but leave disputed claims and causal links unresolved.",
   "stories": [
     {
       "slug": "russia-strikes-second-major-bridge-kyiv",
@@ -76,6 +76,207 @@
         "Kyiv",
         "Russia",
         "infrastructure"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "brazil-us-election-interference-claim",
+      "headline": "Why has Brazil accused the US of election interference?",
+      "dek": "BBC coverage of Brazil’s accusation appears alongside reporting on the election’s wider international stakes.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "BBC reported that Brazil has accused the United States of election interference.",
+        "The Guardian described the close Brazilian election as a test for a growing pro-Trump bloc in Latin America.",
+        "The available reports establish the accusation and electoral context, but do not resolve the underlying allegation."
+      ],
+      "body": [
+        {
+          "text": "BBC’s report frames Brazil’s claim as an accusation of US election interference; the headline does not establish that interference occurred.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The Guardian separately described the close election as a test for a growing pro-Trump bloc in Latin America, placing the dispute in a wider regional political context.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The accusation links Brazil’s domestic contest to relations with Washington and regional political alignments. The allegation remains an allegation in the collected reporting.",
+      "editorNote": "Kept the distinction between an accusation and an established finding.",
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/world/2026/oct/03/brazil-election-lula-bolsonaro-trump",
+          "source": "The Guardian",
+          "title": "Brazil’s neck-and-neck election offers test for growing pro-Trump Latin American bloc"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/videos/c3eweld0nddeo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Why has Brazil accused the US of election interference?",
+          "publishedAt": "2026-10-03T13:52:13.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theguardian.com/world/2026/oct/03/brazil-election-lula-bolsonaro-trump",
+          "source": "The Guardian",
+          "title": "Brazil’s neck-and-neck election offers test for growing pro-Trump Latin American bloc",
+          "publishedAt": "2026-10-03T07:00:35.000Z"
+        }
+      ],
+      "tags": [
+        "Brazil",
+        "United States",
+        "elections"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "spain-housing-protests-and-parliamentary-setback",
+      "headline": "'Anger in the streets': Tens of thousands protest in Spain over housing crisis",
+      "dek": "BBC reported large housing protests as Deutsche Welle reported parliament’s rejection of a housing bill.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "The BBC reported tens of thousands protesting in Spain over the housing crisis.",
+        "Deutsche Welle reported that parliament rejected a housing bill while protests continued.",
+        "The two reports connect public demonstrations with a legislative setback, without establishing that one caused the other."
+      ],
+      "body": [
+        {
+          "text": "The BBC described large demonstrations over Spain’s housing crisis.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Deutsche Welle separately reported parliament’s rejection of a housing bill and continuing protests. Together, the reports show the issue playing out both on the streets and in parliament.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The parallel street and parliamentary developments make housing policy a live governance issue in Spain. The collected headlines do not establish how the protests affected the vote.",
+      "editorNote": "Claims are restricted to the two reports; no causal link is asserted.",
+      "cluster": [
+        {
+          "url": "https://www.dw.com/en/spain-s-parliament-rejects-housing-bill-as-protests-continue/a-79522683?maca=en-rss-en-world-4025-rdf",
+          "source": "Deutsche Welle",
+          "title": "Spain's parliament rejects housing bill as protests continue"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cm2kej47095no?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "'Anger in the streets': Tens of thousands protest in Spain over housing crisis",
+          "publishedAt": "2026-10-03T13:34:11.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.dw.com/en/spain-s-parliament-rejects-housing-bill-as-protests-continue/a-79522683?maca=en-rss-en-world-4025-rdf",
+          "source": "Deutsche Welle",
+          "title": "Spain's parliament rejects housing bill as protests continue",
+          "publishedAt": "2026-10-02T16:39:00.000Z"
+        }
+      ],
+      "tags": [
+        "Spain",
+        "housing",
+        "protests"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "g7-coordinated-oil-diesel-release",
+      "headline": "G7 to release millions of barrels of oil and diesel after Trump threat",
+      "dek": "G7 governments announced a stock release against a backdrop of fuel-supply constraints and energy-security concerns.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "The BBC reported that G7 governments would release millions of barrels of oil and diesel after a Trump threat.",
+        "A G7 leaders’ statement framed the action around global energy security and market stability.",
+        "CNBC and the Associated Press also reported the coordinated release amid supply constraints."
+      ],
+      "body": [
+        {
+          "text": "The BBC reported a planned G7 release of oil and diesel stocks. The G7 statement presents the move as part of a wider energy-security response.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "CNBC and the Associated Press reported that wars in Europe and the Middle East were constraining fuel supplies and that the release was coordinated across G7 governments.",
+          "citations": [
+            3,
+            4
+          ]
+        }
+      ],
+      "whyItMatters": "The release connects geopolitical supply disruption with coordinated government action in energy markets. The G7’s stated market-stability framing is relevant to markets coverage, while the underlying supply risks remain geopolitical.",
+      "editorNote": "Used cross-vertical source records for the same G7 development; no quantities beyond the reports’ headlines were added.",
+      "cluster": [
+        {
+          "url": "https://www.g7.utoronto.ca/summit/2026evian/261002-energy-security.html",
+          "source": "G7 Leaders’ Statement",
+          "title": "G7 Leaders’ Statement on Global Energy Security and Market Stability"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/10/02/diesel-oil-trump-europe-export-ban.html",
+          "source": "CNBC",
+          "title": "G7 nations to release diesel stocks as wars in Europe and Middle East constrain fuel supplies"
+        },
+        {
+          "url": "https://apnews.com/article/774a360d1646d9ce8aba764fdd9959d2",
+          "source": "Associated Press",
+          "title": "G7 nations will release 100 million barrels of oil and diesel fuel after prices soar"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "G7 to release millions of barrels of oil and diesel after Trump threat",
+          "publishedAt": "2026-10-03T04:38:31.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.g7.utoronto.ca/summit/2026evian/261002-energy-security.html",
+          "source": "G7 Leaders’ Statement",
+          "title": "G7 Leaders’ Statement on Global Energy Security and Market Stability",
+          "publishedAt": "2026-10-02"
+        },
+        {
+          "id": 3,
+          "url": "https://www.cnbc.com/2026/10/02/diesel-oil-trump-europe-export-ban.html",
+          "source": "CNBC",
+          "title": "G7 nations to release diesel stocks as wars in Europe and Middle East constrain fuel supplies",
+          "publishedAt": "2026-10-02T19:25:36.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://apnews.com/article/774a360d1646d9ce8aba764fdd9959d2",
+          "source": "Associated Press",
+          "title": "G7 nations will release 100 million barrels of oil and diesel fuel after prices soar",
+          "publishedAt": "2026-10-02T14:10:11Z"
+        }
+      ],
+      "tags": [
+        "G7",
+        "energy security",
+        "oil",
+        "diesel"
       ],
       "confidence": "medium"
     }

@@ -4,7 +4,7 @@
   "vertical": "markets",
   "lang": "ko",
   "title": "시장·거시경제 신호 — 2026-10-03",
-  "summary": "두 건만 담은 제한적 에디션입니다. 미국의 9월 고용 증가가 매우 제한적이었고 G7은 원유·디젤 비축분의 공동 방출을 발표했습니다. 두 사안은 정책·공급 신호이며 매매 조언이 아닙니다.",
+  "summary": "세 편으로 구성했다. 미국 9월 고용 보고서, G7의 석유·디젤 비축분 공동 방출, 브라질 선거를 둘러싼 시장의 관심을 다룬다. 정책과 불확실성 신호를 전하며 매매 지침은 제시하지 않는다.",
   "stories": [
     {
       "slug": "us-employment-situation-september-2026-ko",
@@ -153,6 +153,76 @@
         "IEA"
       ],
       "confidence": "high"
+    },
+    {
+      "slug": "brazil-election-market-watch-ko",
+      "headline": "룰라냐 보우소나루냐: 브라질 선거의 크게 엇갈리는 두 결과에 월가가 대비",
+      "dek": "CNBC는 시장 참여자들이 브라질 선거의 크게 다른 두 결과를 고려하고 있다고 보도했다. 다른 매체는 지역 정치적 파장을 다뤘다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "CNBC는 월가가 브라질 선거의 서로 크게 다른 두 결과에 대비하고 있다고 보도했다.",
+        "The Guardian은 접전인 선거를 라틴아메리카에서 커지는 친트럼프 진영의 시험대로 설명했다.",
+        "두 보도는 선거 시나리오와 정치적 맥락을 다루며, 시장 결과나 투자 신호를 확정하지 않는다."
+      ],
+      "body": [
+        {
+          "text": "CNBC는 시장 참여자에게 브라질 선거가 크게 다른 두 결과를 낳을 수 있다고 보도했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The Guardian은 별도로 이번 선거를 라틴아메리카에서 커지는 친트럼프 진영의 시험대로 설명했다. 수집된 헤드라인은 확실한 시장 반응을 제시하지 않는다.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 선거의 불확실성은 국내 정치뿐 아니라 지역 정치의 맥락을 지니며, 시장 보도도 이를 추적하고 있다. 수집된 보도는 배경을 설명할 뿐 전망이나 매매 신호를 제공하지 않는다.",
+      "editorNote": "YMYL 검토 완료: 투자 권유, 목표가, 시장 전망을 넣지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/world/2026/oct/03/brazil-election-lula-bolsonaro-trump",
+          "source": "The Guardian",
+          "title": "Brazil’s neck-and-neck election offers test for growing pro-Trump Latin American bloc"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/videos/c3eweld0nddeo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Why has Brazil accused the US of election interference?"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/03/lula-or-bolsonaro-wall-street-braces-for-two-wildly-different-results-in-brazil-election.html",
+          "source": "CNBC",
+          "title": "Lula or Bolsonaro: Wall Street braces for two wildly different results in Brazil election",
+          "publishedAt": "2026-10-03T13:12:27.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theguardian.com/world/2026/oct/03/brazil-election-lula-bolsonaro-trump",
+          "source": "The Guardian",
+          "title": "Brazil’s neck-and-neck election offers test for growing pro-Trump Latin American bloc",
+          "publishedAt": "2026-10-03T07:00:35.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.bbc.co.uk/news/videos/c3eweld0nddeo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Why has Brazil accused the US of election interference?",
+          "publishedAt": "2026-10-03T13:52:13.000Z"
+        }
+      ],
+      "tags": [
+        "Brazil",
+        "elections",
+        "markets"
+      ],
+      "confidence": "medium"
     }
   ]
 }

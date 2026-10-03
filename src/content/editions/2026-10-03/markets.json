@@ -4,7 +4,7 @@
   "vertical": "markets",
   "lang": "en",
   "title": "Markets & Macro Signals — 2026-10-03",
-  "summary": "A thin two-story edition: the September U.S. payroll report showed very limited job growth, while G7 governments announced a coordinated release of oil and diesel stocks. Both are documented policy and supply signals, not trading guidance.",
+  "summary": "A three-story edition covers the September U.S. employment report, the G7’s coordinated oil and diesel stock release, and market attention to Brazil’s election. It reports policy and uncertainty signals without trading guidance.",
   "stories": [
     {
       "slug": "us-employment-situation-september-2026",
@@ -153,6 +153,76 @@
         "IEA"
       ],
       "confidence": "high"
+    },
+    {
+      "slug": "brazil-election-market-watch",
+      "headline": "Lula or Bolsonaro: Wall Street braces for two wildly different results in Brazil election",
+      "dek": "CNBC reported that market participants were weighing sharply different outcomes in Brazil’s election; other outlets described its regional political stakes.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "CNBC reported that Wall Street was preparing for two different possible outcomes in Brazil’s election.",
+        "The Guardian described the close contest as a test for a growing pro-Trump bloc in Latin America.",
+        "The reports discuss election scenarios and political context; they do not establish a market outcome or investment signal."
+      ],
+      "body": [
+        {
+          "text": "CNBC framed the election as presenting two sharply different possible outcomes for market participants.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The Guardian separately described the contest as a test for a growing pro-Trump bloc in Latin America. Neither report, as represented in the collected headlines, specifies a certain market reaction.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The election’s uncertainty has both domestic and regional political dimensions that market coverage is tracking. The available reports provide context rather than a forecast or trading signal.",
+      "editorNote": "YMYL review: no investment recommendation, price target, or market forecast is stated.",
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/world/2026/oct/03/brazil-election-lula-bolsonaro-trump",
+          "source": "The Guardian",
+          "title": "Brazil’s neck-and-neck election offers test for growing pro-Trump Latin American bloc"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/videos/c3eweld0nddeo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Why has Brazil accused the US of election interference?"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/03/lula-or-bolsonaro-wall-street-braces-for-two-wildly-different-results-in-brazil-election.html",
+          "source": "CNBC",
+          "title": "Lula or Bolsonaro: Wall Street braces for two wildly different results in Brazil election",
+          "publishedAt": "2026-10-03T13:12:27.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theguardian.com/world/2026/oct/03/brazil-election-lula-bolsonaro-trump",
+          "source": "The Guardian",
+          "title": "Brazil’s neck-and-neck election offers test for growing pro-Trump Latin American bloc",
+          "publishedAt": "2026-10-03T07:00:35.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.bbc.co.uk/news/videos/c3eweld0nddeo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Why has Brazil accused the US of election interference?",
+          "publishedAt": "2026-10-03T13:52:13.000Z"
+        }
+      ],
+      "tags": [
+        "Brazil",
+        "elections",
+        "markets"
+      ],
+      "confidence": "medium"
     }
   ]
 }

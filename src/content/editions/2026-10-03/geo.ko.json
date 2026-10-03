@@ -4,7 +4,7 @@
   "vertical": "geo",
   "lang": "ko",
   "title": "지정학·안보 신호 — 2026-10-03",
-  "summary": "확인 가능한 신호가 적어 한 건만 담았습니다. 키이우 북부 교량이 공격으로 손상된 뒤에도 드니프로강 교량 통행 차질이 이어져 수도 동서 간 교통망에 부담이 커졌습니다.",
+  "summary": "네 편으로 구성했다. 키이우 교량에 대한 두 번째 공격, 브라질 선거 관련 대미 비난, 스페인 주거 시위와 의회 논의, G7의 공동 연료 비축분 방출을 다룬다. 보도된 전개를 전하되 논쟁 중인 주장과 인과관계는 확정하지 않았다.",
   "stories": [
     {
       "slug": "russia-strikes-second-major-bridge-kyiv-ko",
@@ -76,6 +76,207 @@
         "Kyiv",
         "Russia",
         "infrastructure"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "brazil-us-election-interference-claim-ko",
+      "headline": "브라질은 왜 미국이 선거에 개입했다고 비난했나?",
+      "dek": "브라질의 주장을 다룬 BBC 보도와 선거의 국제적 의미를 다룬 보도가 함께 나왔다.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "BBC는 브라질이 미국을 선거 개입 혐의로 비난했다고 보도했다.",
+        "The Guardian은 브라질의 접전 선거를 라틴아메리카에서 커지는 친트럼프 진영의 시험대로 설명했다.",
+        "수집된 보도는 비난과 선거 맥락을 확인하지만, 혐의 자체를 입증하지는 않는다."
+      ],
+      "body": [
+        {
+          "text": "BBC 보도는 브라질의 주장을 미국의 선거 개입 비난으로 다룬다. 헤드라인만으로 실제 개입이 있었다고 확인할 수는 없다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The Guardian은 별도로 접전 중인 선거를 라틴아메리카에서 커지는 친트럼프 진영의 시험대로 설명해 더 넓은 지역 정치 맥락을 제시했다.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이 비난은 브라질 국내 선거를 워싱턴과의 관계 및 지역 정치 정렬과 연결한다. 수집된 보도에서 해당 주장은 여전히 혐의로 제시된다.",
+      "editorNote": "비난과 확인된 사실을 구분했다.",
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/world/2026/oct/03/brazil-election-lula-bolsonaro-trump",
+          "source": "The Guardian",
+          "title": "Brazil’s neck-and-neck election offers test for growing pro-Trump Latin American bloc"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/videos/c3eweld0nddeo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Why has Brazil accused the US of election interference?",
+          "publishedAt": "2026-10-03T13:52:13.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theguardian.com/world/2026/oct/03/brazil-election-lula-bolsonaro-trump",
+          "source": "The Guardian",
+          "title": "Brazil’s neck-and-neck election offers test for growing pro-Trump Latin American bloc",
+          "publishedAt": "2026-10-03T07:00:35.000Z"
+        }
+      ],
+      "tags": [
+        "Brazil",
+        "United States",
+        "elections"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "spain-housing-protests-and-parliamentary-setback-ko",
+      "headline": "“거리의 분노”: 주거 위기를 두고 스페인에서 수만 명이 시위",
+      "dek": "BBC는 대규모 주거 시위를, Deutsche Welle는 주거 법안 부결과 이어지는 시위를 보도했다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "BBC는 주거 위기를 둘러싸고 스페인에서 수만 명이 시위했다고 보도했다.",
+        "Deutsche Welle는 시위가 이어지는 가운데 의회가 주거 법안을 부결했다고 보도했다.",
+        "두 보도는 거리의 시위와 입법 차질을 함께 보여주지만, 한쪽이 다른 쪽을 초래했다고 입증하지는 않는다."
+      ],
+      "body": [
+        {
+          "text": "BBC는 스페인 주거 위기를 둘러싼 대규모 시위를 전했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Deutsche Welle는 주거 법안이 의회에서 부결됐고 시위가 계속되고 있다고 별도로 보도했다. 두 보도는 이 문제가 거리와 의회 양쪽에서 진행되고 있음을 보여준다.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "거리 시위와 의회 상황이 나란히 전개되면서 주거 정책은 스페인의 주요 국정 현안으로 부상했다. 수집된 헤드라인만으로 시위가 표결에 미친 영향은 확인할 수 없다.",
+      "editorNote": "두 보도에 명시된 사실로 범위를 한정했으며 인과관계는 주장하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.dw.com/en/spain-s-parliament-rejects-housing-bill-as-protests-continue/a-79522683?maca=en-rss-en-world-4025-rdf",
+          "source": "Deutsche Welle",
+          "title": "Spain's parliament rejects housing bill as protests continue"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cm2kej47095no?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "'Anger in the streets': Tens of thousands protest in Spain over housing crisis",
+          "publishedAt": "2026-10-03T13:34:11.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.dw.com/en/spain-s-parliament-rejects-housing-bill-as-protests-continue/a-79522683?maca=en-rss-en-world-4025-rdf",
+          "source": "Deutsche Welle",
+          "title": "Spain's parliament rejects housing bill as protests continue",
+          "publishedAt": "2026-10-02T16:39:00.000Z"
+        }
+      ],
+      "tags": [
+        "Spain",
+        "housing",
+        "protests"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "g7-coordinated-oil-diesel-release-ko",
+      "headline": "트럼프의 위협 이후 G7, 수백만 배럴의 석유와 디젤 방출 예정",
+      "dek": "연료 공급 제약과 에너지 안보 우려 속에서 G7 정부가 비축분 방출을 발표했다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "BBC는 트럼프의 위협 이후 G7 정부가 수백만 배럴의 석유와 디젤을 방출할 예정이라고 보도했다.",
+        "G7 정상 성명은 조치를 세계 에너지 안보와 시장 안정이라는 맥락에서 설명했다.",
+        "CNBC와 Associated Press도 공급 제약 속 공동 방출 계획을 보도했다."
+      ],
+      "body": [
+        {
+          "text": "BBC는 G7의 석유·디젤 비축분 방출 계획을 보도했다. G7 성명은 이를 더 넓은 에너지 안보 대응의 일부로 제시한다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "CNBC와 Associated Press는 유럽과 중동의 전쟁이 연료 공급을 제약하고 있으며 G7 정부가 공동으로 방출한다고 보도했다.",
+          "citations": [
+            3,
+            4
+          ]
+        }
+      ],
+      "whyItMatters": "이번 방출은 지정학적 공급 차질과 에너지 시장에 대한 정부의 공동 대응을 연결한다. G7이 밝힌 시장 안정 목표는 시장 버티컬과 관련되며, 공급 위험의 원인은 지정학적 상황에 있다.",
+      "editorNote": "동일한 G7 사안을 다룬 다른 버티컬 수집 자료도 교차 인용했다. 보도된 수치 외의 양은 추가하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.g7.utoronto.ca/summit/2026evian/261002-energy-security.html",
+          "source": "G7 Leaders’ Statement",
+          "title": "G7 Leaders’ Statement on Global Energy Security and Market Stability"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/10/02/diesel-oil-trump-europe-export-ban.html",
+          "source": "CNBC",
+          "title": "G7 nations to release diesel stocks as wars in Europe and Middle East constrain fuel supplies"
+        },
+        {
+          "url": "https://apnews.com/article/774a360d1646d9ce8aba764fdd9959d2",
+          "source": "Associated Press",
+          "title": "G7 nations will release 100 million barrels of oil and diesel fuel after prices soar"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "G7 to release millions of barrels of oil and diesel after Trump threat",
+          "publishedAt": "2026-10-03T04:38:31.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.g7.utoronto.ca/summit/2026evian/261002-energy-security.html",
+          "source": "G7 Leaders’ Statement",
+          "title": "G7 Leaders’ Statement on Global Energy Security and Market Stability",
+          "publishedAt": "2026-10-02"
+        },
+        {
+          "id": 3,
+          "url": "https://www.cnbc.com/2026/10/02/diesel-oil-trump-europe-export-ban.html",
+          "source": "CNBC",
+          "title": "G7 nations to release diesel stocks as wars in Europe and Middle East constrain fuel supplies",
+          "publishedAt": "2026-10-02T19:25:36.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://apnews.com/article/774a360d1646d9ce8aba764fdd9959d2",
+          "source": "Associated Press",
+          "title": "G7 nations will release 100 million barrels of oil and diesel fuel after prices soar",
+          "publishedAt": "2026-10-02T14:10:11Z"
+        }
+      ],
+      "tags": [
+        "G7",
+        "energy security",
+        "oil",
+        "diesel"
       ],
       "confidence": "medium"
     }

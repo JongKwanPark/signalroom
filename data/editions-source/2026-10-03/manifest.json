@@ -1,0 +1,142 @@
+{
+  "date": "2026-10-03",
+  "generatedAt": "2026-10-03T22:00:45.399Z",
+  "verticals": {
+    "ai": {
+      "items": 134,
+      "sources": [
+        {
+          "name": "hackernews",
+          "status": "ok",
+          "count": 30
+        },
+        {
+          "name": "reddit",
+          "status": "ok",
+          "count": 30
+        },
+        {
+          "name": "arxiv",
+          "status": "ok",
+          "count": 30
+        },
+        {
+          "name": "github",
+          "status": "ok",
+          "count": 30
+        },
+        {
+          "name": "youtube",
+          "status": "ok",
+          "count": 15
+        }
+      ]
+    },
+    "bio": {
+      "items": 98,
+      "sources": [
+        {
+          "name": "pubmed",
+          "status": "ok",
+          "count": 30
+        },
+        {
+          "name": "biorxiv",
+          "status": "empty",
+          "count": 0
+        },
+        {
+          "name": "medrxiv",
+          "status": "ok",
+          "count": 7
+        },
+        {
+          "name": "openfda",
+          "status": "ok",
+          "count": 8
+        },
+        {
+          "name": "clinicaltrials",
+          "status": "ok",
+          "count": 30
+        },
+        {
+          "name": "journal_rss",
+          "status": "ok",
+          "count": 30
+        }
+      ]
+    },
+    "geo": {
+      "items": 58,
+      "sources": [
+        {
+          "name": "gdelt",
+          "status": "failed",
+          "count": 0,
+          "error": "gdelt: TypeError: fetch failed"
+        },
+        {
+          "name": "reliefweb",
+          "status": "empty",
+          "count": 0
+        },
+        {
+          "name": "isw",
+          "status": "failed",
+          "count": 0,
+          "error": "isw RSS: HTTP 403"
+        },
+        {
+          "name": "wire",
+          "status": "ok",
+          "count": 58
+        },
+        {
+          "name": "polymarket",
+          "status": "failed",
+          "count": 0,
+          "error": "polymarket: HTTP 451"
+        }
+      ]
+    },
+    "markets": {
+      "items": 101,
+      "sources": [
+        {
+          "name": "reddit",
+          "status": "ok",
+          "count": 30
+        },
+        {
+          "name": "wire",
+          "status": "ok",
+          "count": 72
+        },
+        {
+          "name": "polymarket",
+          "status": "failed",
+          "count": 0,
+          "error": "polymarket: HTTP 451"
+        },
+        {
+          "name": "sec_edgar",
+          "status": "failed",
+          "count": 0,
+          "error": "sec_edgar full-text search: HTTP 403"
+        },
+        {
+          "name": "fred",
+          "status": "empty",
+          "count": 0
+        },
+        {
+          "name": "market_data",
+          "status": "failed",
+          "count": 0,
+          "error": "market_data quotes: HTTP 404"
+        }
+      ]
+    }
+  }
+}

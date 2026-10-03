@@ -4,7 +4,7 @@
   "vertical": "ai",
   "lang": "en",
   "title": "AI Signals — 2026-10-03",
-  "summary": "A thin edition: arXiv's new monthly submission cap is today's clearest institutional signal. Most collected items did not have enough verified impact or primary-source depth for inclusion.",
+  "summary": "A thin edition: arXiv's new submission policy and an outgoing OpenAI safety engineer's warning were the clearest cross-checked signals. Most collected items lacked enough independent reporting or verified impact for inclusion.",
   "stories": [
     {
       "slug": "arxiv-updated-rate-limit-policy",
@@ -64,6 +64,64 @@
         "moderation"
       ],
       "confidence": "high"
+    },
+    {
+      "slug": "openai-safety-engineer-departs-over-safety-concerns",
+      "headline": "AI giants 'not being nearly careful enough,' warns outgoing OpenAI safety engineer",
+      "dek": "An outgoing OpenAI safety engineer’s warning about company safety practices was reported by Deutsche Welle and Investing.com.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "An outgoing OpenAI safety engineer warned that AI companies were not being sufficiently careful, according to Deutsche Welle.",
+        "Investing.com separately reported the employee’s departure and a call to end a trial-and-error approach.",
+        "The two reports frame the departure as a safety-governance signal, while neither headline establishes a company-wide policy change."
+      ],
+      "body": [
+        {
+          "text": "Deutsche Welle reported the engineer’s warning that AI companies were “not being nearly careful enough.”",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Investing.com also reported the OpenAI safety employee’s departure and described the message as a call to move beyond trial and error. The available headlines do not establish a resulting change in OpenAI policy.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The reports put internal safety governance back in focus as frontier AI companies scale deployment. The coverage documents an employee’s criticism; it does not by itself show that OpenAI changed its practices.",
+      "editorNote": "Added from two independently hosted reports. Claims are limited to what their headlines establish.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/economy-news/openai-safety-employee-quits-says-time-for-trial-and-error-is-over-4930874",
+          "source": "Investing.com",
+          "title": "OpenAI safety employee quits, says ’time for trial and error is over’"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.dw.com/en/ai-giants-not-being-nearly-careful-enough-warns-outgoing-openai-safety-engineer/a-79533080?maca=en-rss-en-world-4025-rdf",
+          "source": "Deutsche Welle",
+          "title": "AI giants 'not being nearly careful enough,' warns outgoing OpenAI safety engineer",
+          "publishedAt": "2026-10-03T21:55:00.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/economy-news/openai-safety-employee-quits-says-time-for-trial-and-error-is-over-4930874",
+          "source": "Investing.com",
+          "title": "OpenAI safety employee quits, says ’time for trial and error is over’",
+          "publishedAt": "2026-10-03T10:30:33.000Z"
+        }
+      ],
+      "tags": [
+        "OpenAI",
+        "AI safety",
+        "governance"
+      ],
+      "confidence": "medium"
     }
   ]
 }
