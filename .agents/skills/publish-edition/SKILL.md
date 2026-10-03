@@ -31,4 +31,6 @@ description: >-
 
 작성만 요청받은 경우 로컬 검증과 빌드에서 멈춘다. 사용자가 발행을 요청한 경우에만 커밋·push·
 Vercel 프로덕션 배포를 진행하며, 세부 순서는 [수동 발행 런북](../../../docs/manual-publish.md)을
-따른다.
+따른다. 배포는 항상 로컬 빌드 결과물을 올리는 `vercel build --prod` → `vercel deploy --prebuilt --prod`
+방식이다. 원격 빌드를 일으키는 `vercel deploy --prod`는 쓰지 않는다. 명령과 주의점은
+[런북 §5](../../../docs/manual-publish.md#5-프로덕션-배포)가 소유한다.

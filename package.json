@@ -11,7 +11,7 @@
     "test": "node --test",
     "pipeline:collect": "tsx scripts/collect.ts",
     "pipeline:synth": "tsx scripts/synth.ts",
-    "deploy:vercel": "vercel deploy --prod"
+    "deploy:vercel": "vercel build --prod && vercel deploy --prebuilt --prod"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.19",

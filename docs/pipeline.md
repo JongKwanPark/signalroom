@@ -133,8 +133,11 @@ Production env, so canonicals, sitemap, RSS and OG URLs use the custom domain.
 Paseo is the active production runner. Its schedules run every day at **07:00 and 19:00
 Asia/Seoul**. Each run collects the existing four automated categories (`ai`, `bio`, `geo`,
 `markets`) in English and Korean, performs the editorial and schema checks, builds the site, commits
-and pushes the checked editions, and runs `vercel deploy --prod --yes`. Runtime history confirms
-these scheduled runs reach production. WISDOM and SOCIETY remain manual categories; the scheduled
+and pushes the checked editions, and deploys to Vercel production. Every production deploy, scheduled
+or manual, uses the local prebuilt path (`vercel build --prod` then `vercel deploy --prebuilt --prod`)
+so Vercel does not bill a remote build; the exact commands are in
+[manual-publish.md §5](manual-publish.md#5-프로덕션-배포). Runtime history confirms these scheduled
+runs reach production. WISDOM and SOCIETY remain manual categories; the scheduled
 collection targets are unchanged.
 
 The `schedule:` triggers in `.github/workflows/collect.yml` and `publish.yml` are disabled. Their

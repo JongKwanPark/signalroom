@@ -15,7 +15,7 @@
 
 ### 2-0. 작업 기준 동기화
 
-발행을 요청받은 작업은 기사 파일을 수정하기 전에 원격 기준과 작업 트리를 확인한다. 무관한 미커밋 변경을 임의로 stash·삭제하거나 배포에 포함하지 않는다. Vercel CLI는 현재 작업 트리를 빌드하므로 요청된 변경만 배포 입력에 들어가는지 확인한다.
+발행을 요청받은 작업은 기사 파일을 수정하기 전에 원격 기준과 작업 트리를 확인한다. 무관한 미커밋 변경을 임의로 stash·삭제하거나 배포에 포함하지 않는다. Vercel CLI는 현재 작업 트리를 빌드하므로 요청된 변경만 배포 입력에 들어가는지 확인한다. 배포 명령은 [§5](#5-프로덕션-배포)를 따른다.
 
 ```bash
 git status --short
@@ -73,7 +73,7 @@ git status --short
 
 git commit -m "content: add manual feature to $DATE <vertical>"
 git push origin main
-vercel deploy --prod --yes
+# 이어서 §5의 prebuilt 배포를 실행한다
 ```
 
 배포 후 `https://signaldaily.cloud/<YYYY>/<MM>/<DD>/`와 해당 스토리의 한·영 URL이 공개되는지 확인한다. 보호된 `signalroom-mediio-net.vercel.app` 호스트의 SSO 설정은 변경하지 않는다.
@@ -95,3 +95,22 @@ vercel deploy --prod --yes
 ## 4. 운영 결과 보고
 
 수동 작업이 끝나면 대상 날짜·카테고리·언어·콘텐츠 경로, 검증과 빌드 결과를 보고한다. 실제 발행을 요청받아 수행한 경우에만 커밋 해시, 배포 결과와 공개 URL도 적는다.
+
+## 5. 프로덕션 배포
+
+프로덕션 배포는 항상 로컬에서 빌드한 결과물을 올리는 prebuilt 방식으로 한다. Vercel 원격 빌드는 빌드 시간이 과금되므로 `vercel deploy --prod`처럼 원격 빌드를 일으키는 명령은 쓰지 않는다. 수동 발행, 디자인·코드 변경, 정기 운영 모두 같은 절차를 따른다.
+
+```bash
+vercel pull --yes --environment=production
+# Sensitive 변수(SITE_URL)는 값 대신 "[SENSITIVE]"로 내려와 빌드가 "Invalid URL"로 실패한다.
+# 빌드에 필요한 값만 남기고 함께 내려온 API 키는 로컬에 두지 않는다.
+printf 'SITE_URL=https://signaldaily.cloud\n' > .vercel/.env.production.local
+vercel build --prod
+vercel deploy --prebuilt --prod --yes
+rm -f .vercel/.env.production.local
+```
+
+- `vercel build --prod`는 `vercel.json`의 `buildCommand`(`npm run build` = Astro 빌드 + OG 이미지)를 로컬에서 실행하고 `.vercel/output/`을 만든다. `npm run deploy:vercel`도 같은 build→prebuilt 순서를 실행하지만 위의 pull·env 단계는 먼저 해 둬야 한다.
+- 빌드 입력은 작업 트리다. 커밋되지 않은 무관한 변경(다른 작업의 수정 파일)이 있으면 그 트리에서 빌드하지 않고, 커밋된 HEAD를 임시 경로로 꺼내 빌드·배포한다. `git archive HEAD | tar -x -C <tmp>`로 꺼낸 다음 `.vercel/project.json`을 복사하고 `node_modules`를 링크한 뒤 위 명령을 그 경로에서 실행한다.
+- 배포 로그에 `Installing dependencies`나 `astro build` 같은 원격 빌드 출력이 없고 `readyState: READY`, `Aliased https://signaldaily.cloud`가 나오면 정상이다.
+
