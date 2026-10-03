@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-03",
+  "generatedAt": "2026-10-03T10:05:02Z",
+  "vertical": "geo",
+  "lang": "en",
+  "title": "Geopolitics & Security Signals — 2026-10-03",
+  "summary": "A focused edition with one verified infrastructure development: a strike damaged Kyiv's Northern Bridge after disruptions to other Dnipro crossings, adding pressure to the capital's east-west transport links.",
+  "stories": [
+    {
+      "slug": "russia-strikes-second-major-bridge-kyiv",
+      "headline": "Russia strikes second major bridge in Kyiv, mayor says",
+      "dek": "Damage to Kyiv's Northern Bridge halted traffic after earlier attacks disrupted other crossings over the Dnipro River.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "Kyiv Mayor Vitalii Klitschko said a Russian strike damaged the Northern Bridge on October 3 and traffic was suspended.",
+        "The reported damage affected the road surface and trolleybus power cables; no casualties were reported.",
+        "The incident followed attacks that had already closed or restricted other Dnipro crossings, adding disruption to movement across the capital."
+      ],
+      "body": [
+        {
+          "text": "Kyiv's mayor said a strike damaged the Northern Bridge early Saturday, October 3, and that traffic was stopped after damage to the road surface and trolleybus cables. The BBC and Associated Press both attributed the account of the damage and closure to city authorities; the mayor reported no casualties.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "The strike followed attacks on other crossings over the Dnipro. The Associated Press reported that three of Kyiv's six road bridges had been fully or partially closed the previous day, while Euronews described disruption to the Northern and Southern bridges and severe congestion.",
+          "citations": [2, 3]
+        }
+      ],
+      "whyItMatters": "The bridge strikes affect routes connecting Kyiv's eastern and western districts, so the immediate consequence is transport capacity inside the capital rather than a change in territorial control. The available reports document traffic disruption and infrastructure damage; they do not establish the broader military effect of the attacks.",
+      "editorNote": "The headline follows the BBC source verbatim. Damage details are attributed to Kyiv's mayor as reported by the BBC, AP, and Euronews. This focused edition includes one story with multiple independent reports; no casualty figure beyond the cited reports is inferred.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/kyiv-bridges-russia-ukraine-war-2cb9344e23445f69d5072ce661231eb3",
+          "source": "Associated Press",
+          "title": "Russia strikes Kyiv’s northern bridge in a new tactic to disrupt life in the Ukrainian capital"
+        },
+        {
+          "url": "https://www.euronews.com/2026/10/03/second-kyiv-bridge-hit-in-two-days-as-russia-targets-dnipro-crossings",
+          "source": "Euronews",
+          "title": "Second Kyiv bridge hit in two days as Russia targets Dnipro crossings"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c83vqxzdg1yko?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Russia strikes second major bridge in Kyiv, mayor says",
+          "publishedAt": "2026-10-03T09:53:16Z"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/kyiv-bridges-russia-ukraine-war-2cb9344e23445f69d5072ce661231eb3",
+          "source": "Associated Press",
+          "title": "Russia strikes Kyiv’s northern bridge in a new tactic to disrupt life in the Ukrainian capital",
+          "publishedAt": "2026-10-03T09:39:55Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.euronews.com/2026/10/03/second-kyiv-bridge-hit-in-two-days-as-russia-targets-dnipro-crossings",
+          "source": "Euronews",
+          "title": "Second Kyiv bridge hit in two days as Russia targets Dnipro crossings",
+          "publishedAt": "2026-10-03T06:46:00Z"
+        }
+      ],
+      "tags": ["Ukraine", "Kyiv", "Russia", "infrastructure"],
+      "confidence": "medium"
+    }
+  ]
+}

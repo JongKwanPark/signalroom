@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-03",
+  "generatedAt": "2026-10-03T10:05:02Z",
+  "vertical": "bio",
+  "lang": "en",
+  "title": "Bio Signals — 2026-10-03",
+  "summary": "A thin edition with one cross-checked regulatory development: the FDA's denecimig review remains open while Novo Nordisk addresses manufacturing-site remediation. No new decision date has been announced.",
+  "stories": [
+    {
+      "slug": "novo-denecimig-fda-review-extended",
+      "headline": "Novo provides update on the denecimig Biologics License Application (BLA) in the US",
+      "dek": "Novo Nordisk says the FDA extended its review while manufacturing-site remediation continues; the company reports no new action date.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "The FDA has not completed its review of Novo Nordisk's denecimig application and has not provided a new action date.",
+        "Novo says the review extension is tied to remediation work at a manufacturing facility, not deficiencies in the submitted clinical efficacy or safety data.",
+        "The company still targets a US launch in the first half of 2027, contingent on a regulatory decision."
+      ],
+      "body": [
+        {
+          "text": "Novo Nordisk said the FDA's review of denecimig, an investigational treatment for haemophilia A in adults and children, is ongoing. The company said the agency linked the extension to remediation activities at a manufacturing site and has not communicated a new timeline for regulatory action.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "Novo said the FDA did not identify deficiencies in the clinical efficacy or safety data submitted with the application. Reuters also reported that the delay stems from manufacturing-site work; the information about the regulator's feedback comes from the company's account, rather than a separate FDA statement in the sources reviewed.",
+          "citations": [1, 2]
+        }
+      ],
+      "whyItMatters": "The update separates a manufacturing-readiness issue from the clinical evidence cited in the application, while leaving the timing of a decision uncertain. For the program, the next material milestone is resolution of the facility remediation and a new FDA action timeline; no approval has been announced.",
+      "editorNote": "The FDA feedback and the absence of clinical-data deficiencies are reported from Novo Nordisk's statement and independently covered by Reuters. This is a one-story edition because no other collected bio item met the same news relevance and independent-source threshold; no clinical guidance is offered.",
+      "cluster": [
+        {
+          "url": "https://malaysia.news.yahoo.com/us-fda-extends-review-novo-215156085.html",
+          "source": "Reuters via Yahoo News",
+          "title": "US FDA extends review of Novo Nordisk's hemophilia drug over facility issues"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://rss.globenewswire.com/news-release/2026/10/02/3374048/0/en/novo-provides-update-on-the-denecimig-biologics-license-application-bla-in-the-us.html",
+          "source": "Novo Nordisk",
+          "title": "Novo provides update on the denecimig Biologics License Application (BLA) in the US",
+          "publishedAt": "2026-10-02T20:53:00Z"
+        },
+        {
+          "id": 2,
+          "url": "https://malaysia.news.yahoo.com/us-fda-extends-review-novo-215156085.html",
+          "source": "Reuters",
+          "title": "US FDA extends review of Novo Nordisk's hemophilia drug over facility issues",
+          "publishedAt": "2026-10-02T21:51:00Z"
+        }
+      ],
+      "tags": ["Novo Nordisk", "denecimig", "FDA", "haemophilia A"],
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-03",
+  "generatedAt": "2026-10-03T10:05:02Z",
+  "vertical": "ai",
+  "lang": "ko",
+  "title": "AI 신호 — 2026-10-03",
+  "summary": "선별적으로 구성한 에디션입니다. 오늘 가장 뚜렷한 제도 변화는 arXiv의 월간 제출 한도 신설입니다. 수집된 나머지 항목은 검증된 영향이나 1차 출처 근거가 충분하지 않았습니다.",
+  "stories": [
+    {
+      "slug": "arxiv-updated-rate-limit-policy-ko",
+      "headline": "공정한 심사, 공평한 접근성, 그리고 AI: arXiv의 업데이트된 제출 한도 정책",
+      "dek": "프리프린트 저장소 arXiv가 심사 부담과 급증하는 제출량을 이유로 전 분야 저자별 월간 제출 한도를 2건으로 제한했습니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "arXiv의 새 정책에 따라 모든 분야에서 저자 1명당 매월 최대 2건을 제출할 수 있습니다.",
+        "저장소 측 집계에 따르면 2026년 9월 제출 건수는 40,363건으로, 2024년 9월의 20,569건보다 늘었습니다.",
+        "한도는 10월 1일부터 적용됐으며 arXiv는 심사 도구와 제출 관행을 검토하는 동안 이를 임시 조치로 운영한다고 밝혔습니다."
+      ],
+      "body": [
+        {
+          "text": "arXiv는 10월 1일 모든 분야에 적용되는 저자별 월간 제출 한도를 2건으로 정하고, 활성 제출물 3건이라는 별도 한도는 유지했습니다. arXiv는 장기적인 제출 관행과 심사 역량을 검토하는 동안 이번 변경을 임시 조치로 설명했습니다.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "arXiv는 2026년 9월 제출량이 40,363건으로 2024년 9월의 20,569건보다 대략 두 배였고, 그달 지원 요청은 약 9,000건이었다고 밝혔습니다. 이 수치는 정책 변경의 배경이 된 업무량에 관한 저장소 자체 집계입니다.",
+          "citations": [1]
+        }
+      ],
+      "whyItMatters": "이번 규칙은 arXiv의 심사 역량을 모든 분야 연구자의 연구 배포 일정에 직접 작용하는 제약으로 바꿉니다. 저장소가 한도를 임시 조치로 규정한 만큼, 실제 심사 결과와 후속 정책이 연구실 및 학회 제출 일정에 어떤 영향을 줄지가 관건이지만, 이번 발표만으로 심사 결과의 변화를 단정할 수는 없습니다.",
+      "editorNote": "정책과 업무량 수치는 arXiv 발표를 기준으로 했으며 The Register가 별도로 보도했습니다. 나머지 수집 항목은 이에 상응하는 1차 출처 근거가 부족해 에디션을 좁게 구성했습니다.",
+      "cluster": [
+        {
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/02/arxiv-imposes-rate-limit-on-paper-submissions-to-stem-the-ai-slop-tide/5300899",
+          "source": "The Register",
+          "title": "ArXiv imposes rate limit on paper submissions to stem the AI slop tide"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/",
+          "source": "arXiv",
+          "title": "Fair Moderation, Equitable Access, and AI: arXiv’s Updated Rate Limit Policy",
+          "publishedAt": "2026-10-01"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/02/arxiv-imposes-rate-limit-on-paper-submissions-to-stem-the-ai-slop-tide/5300899",
+          "source": "The Register",
+          "title": "ArXiv imposes rate limit on paper submissions to stem the AI slop tide",
+          "publishedAt": "2026-10-02T19:02:00Z"
+        }
+      ],
+      "tags": ["arXiv", "research publishing", "moderation"],
+      "confidence": "high"
+    }
+  ]
+}

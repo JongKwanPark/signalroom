@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-03",
+  "generatedAt": "2026-10-03T10:05:02Z",
+  "vertical": "ai",
+  "lang": "en",
+  "title": "AI Signals — 2026-10-03",
+  "summary": "A narrow edition: arXiv's new monthly submission cap is today's clearest institutional signal. Most collected items did not have enough verified impact or primary-source depth for inclusion.",
+  "stories": [
+    {
+      "slug": "arxiv-updated-rate-limit-policy",
+      "headline": "Fair Moderation, Equitable Access, and AI: arXiv’s Updated Rate Limit Policy",
+      "dek": "The preprint repository has capped author submissions at two per calendar month across categories, citing moderation pressure and the rapid rise in submissions.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "arXiv's updated policy permits each author up to two submissions per calendar month across all categories.",
+        "The repository says submissions reached 40,363 in September 2026, compared with 20,569 in September 2024.",
+        "The cap took effect on October 1 as a stopgap while arXiv reviews moderation tools and submission practices."
+      ],
+      "body": [
+        {
+          "text": "arXiv's October 1 policy sets a limit of two submissions per author per calendar month across categories and retains a separate limit of three active submissions. The organization describes the change as a temporary measure while it considers longer-term submission practices and moderation capacity.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "arXiv reported 40,363 submissions in September 2026, roughly double its September 2024 total of 20,569, and said the month generated almost 9,000 support tickets. The figures are the repository's own account of the workload behind the policy change.",
+          "citations": [1]
+        }
+      ],
+      "whyItMatters": "The rule turns moderation capacity into a direct constraint on researchers' distribution schedules across every subject area hosted by arXiv. Because the repository calls the cap a stopgap, its effects and any later replacement will matter to labs and conference workflows, but the announcement does not yet establish how moderation outcomes will change.",
+      "editorNote": "The policy and workload figures are attributed to arXiv; The Register independently reports the change. The edition is intentionally narrow because the remaining collected items lacked comparable primary-source support.",
+      "cluster": [
+        {
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/02/arxiv-imposes-rate-limit-on-paper-submissions-to-stem-the-ai-slop-tide/5300899",
+          "source": "The Register",
+          "title": "ArXiv imposes rate limit on paper submissions to stem the AI slop tide"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/",
+          "source": "arXiv",
+          "title": "Fair Moderation, Equitable Access, and AI: arXiv’s Updated Rate Limit Policy",
+          "publishedAt": "2026-10-01"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/02/arxiv-imposes-rate-limit-on-paper-submissions-to-stem-the-ai-slop-tide/5300899",
+          "source": "The Register",
+          "title": "ArXiv imposes rate limit on paper submissions to stem the AI slop tide",
+          "publishedAt": "2026-10-02T19:02:00Z"
+        }
+      ],
+      "tags": ["arXiv", "research publishing", "moderation"],
+      "confidence": "high"
+    }
+  ]
+}

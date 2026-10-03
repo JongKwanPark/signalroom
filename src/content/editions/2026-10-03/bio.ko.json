@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-03",
+  "generatedAt": "2026-10-03T10:05:02Z",
+  "vertical": "bio",
+  "lang": "ko",
+  "title": "바이오 신호 — 2026-10-03",
+  "summary": "확인된 규제 동향 한 건을 담은 제한적 에디션입니다. Novo Nordisk가 제조시설 개선 작업을 진행하는 동안 FDA의 denecimig 심사는 계속되고 있으며, 새 결정 일정은 발표되지 않았습니다.",
+  "stories": [
+    {
+      "slug": "novo-denecimig-fda-review-extended-ko",
+      "headline": "Novo, 미국 denecimig 생물의약품 허가 신청(BLA) 심사 현황 업데이트",
+      "dek": "Novo Nordisk는 제조시설 개선 작업이 이어져 FDA 심사가 연장됐다고 밝혔으며, 새 조치 일정은 받지 못했다고 전했습니다.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "FDA는 Novo Nordisk의 denecimig 신청 심사를 마치지 않았으며 새 조치 일정을 제시하지 않았습니다.",
+        "Novo는 심사 연장 사유가 제조시설 개선 작업이며 제출된 임상 유효성·안전성 자료의 결함은 아니라고 밝혔습니다.",
+        "회사는 규제 당국의 결정이 전제된 상태에서 미국 출시 목표를 2027년 상반기로 유지하고 있습니다."
+      ],
+      "body": [
+        {
+          "text": "Novo Nordisk는 성인과 소아의 혈우병 A 치료를 위한 임상시험 중인 denecimig에 대해 FDA 심사가 진행 중이라고 밝혔습니다. 회사에 따르면 FDA는 제조시설 개선 작업을 심사 연장 사유로 들었으며, 규제 조치의 새 일정을 전달하지 않았습니다.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "Novo는 FDA가 신청 자료의 임상 유효성 또는 안전성 데이터에서 결함을 확인하지 않았다고 전했습니다. Reuters도 제조시설 작업이 지연 사유라고 보도했지만, 규제 당국의 피드백에 관한 내용은 검토한 출처 가운데 별도 FDA 발표가 아니라 회사 설명을 바탕으로 합니다.",
+          "citations": [1, 2]
+        }
+      ],
+      "whyItMatters": "이번 업데이트는 신청에 포함된 임상 근거와 제조 준비 문제를 구분하면서 결정 시점은 불확실하게 남겨 둡니다. 프로그램의 다음 주요 단계는 시설 개선 작업의 해결과 FDA의 새 조치 일정이며, 아직 허가가 발표된 것은 아닙니다.",
+      "editorNote": "FDA의 피드백과 임상 데이터에 결함이 없다는 내용은 Novo Nordisk 발표에 근거하며 Reuters가 별도로 보도했습니다. 다른 수집 바이오 항목은 뉴스 가치와 독립 출처 기준을 모두 충족하지 못해 한 건만 실었습니다. 임상 지침은 포함하지 않았습니다.",
+      "cluster": [
+        {
+          "url": "https://malaysia.news.yahoo.com/us-fda-extends-review-novo-215156085.html",
+          "source": "Reuters via Yahoo News",
+          "title": "US FDA extends review of Novo Nordisk's hemophilia drug over facility issues"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://rss.globenewswire.com/news-release/2026/10/02/3374048/0/en/novo-provides-update-on-the-denecimig-biologics-license-application-bla-in-the-us.html",
+          "source": "Novo Nordisk",
+          "title": "Novo provides update on the denecimig Biologics License Application (BLA) in the US",
+          "publishedAt": "2026-10-02T20:53:00Z"
+        },
+        {
+          "id": 2,
+          "url": "https://malaysia.news.yahoo.com/us-fda-extends-review-novo-215156085.html",
+          "source": "Reuters",
+          "title": "US FDA extends review of Novo Nordisk's hemophilia drug over facility issues",
+          "publishedAt": "2026-10-02T21:51:00Z"
+        }
+      ],
+      "tags": ["Novo Nordisk", "denecimig", "FDA", "haemophilia A"],
+      "confidence": "medium"
+    }
+  ]
+}

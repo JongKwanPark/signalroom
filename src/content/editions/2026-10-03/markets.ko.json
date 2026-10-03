@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-03",
+  "generatedAt": "2026-10-03T10:05:02Z",
+  "vertical": "markets",
+  "lang": "ko",
+  "title": "시장·거시경제 신호 — 2026-10-03",
+  "summary": "미국의 9월 고용 증가가 매우 제한적이었던 점과 G7이 원유·디젤 비축분의 공동 방출을 발표한 점을 담은 두 건의 선별 에디션입니다. 두 사안은 정책·공급 신호이며 매매 조언이 아닙니다.",
+  "stories": [
+    {
+      "slug": "us-employment-situation-september-2026-ko",
+      "headline": "고용 상황 요약 - 2026년 9월 결과",
+      "dek": "공식 9월 보고서에서 비농업 일자리는 29,000개 늘었고 실업률은 4.2%로 집계됐습니다.",
+      "type": "DATA",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "미국 비농업 고용은 9월 29,000명 증가했다고 Bureau of Labor Statistics가 발표했습니다.",
+        "실업률은 8월 4.1%에서 4.2%로 올랐고, 7~8월 고용 증감은 합계 60,000명 하향 조정됐습니다.",
+        "이번 발표는 9월 고용 증가세가 약했음을 보여주지만, 한 달의 지표만으로 더 넓은 경기 흐름을 확정할 수는 없습니다."
+      ],
+      "body": [
+        {
+          "text": "Bureau of Labor Statistics는 9월 비농업 고용이 29,000명 증가했고 실업률은 8월 4.1%에서 4.2%로 상승했다고 발표했습니다. 기관은 7월과 8월의 합산 고용 증감을 60,000명 하향 조정했습니다.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "Associated Press와 CNBC도 9월 고용 증가가 제한적이었다는 점을 주요 내용으로 다뤘습니다. 핵심 수치의 기준은 BLS 발표이며, 이 수치는 해당 조사 기간을 나타내므로 이후 발표에서 수정될 수 있습니다.",
+          "citations": [1, 2, 3]
+        }
+      ],
+      "whyItMatters": "이번 발표는 고용 둔화와 실업률 상승을 단기 노동시장 상황에 반영하며, 하향 수정으로 앞선 두 달의 비교 기준도 약해졌습니다. 이는 고용 전망을 구성하는 하나의 자료이며 연방준비제도의 결정이나 향후 성장률을 단독으로 예측하지는 않습니다.",
+      "editorNote": "헤드라인은 BLS 발표 제목을 번역했습니다. 고용·실업률·수정 수치는 BLS 자료를 기준으로 AP와 CNBC 보도와 대조했습니다. 투자 권유나 정책 권고를 담지 않았습니다.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/44b99f9ccbff863888af99402ddf535e",
+          "source": "Associated Press",
+          "title": "US hiring slows and unemployment ticks higher with a month remaining before Americans head to polls"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html",
+          "source": "CNBC",
+          "title": "Labor market faltered in September as jobs increased by just 29,000, unemployment rate rose to 4.2%"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+          "source": "U.S. Bureau of Labor Statistics",
+          "title": "Employment Situation Summary - 2026 M09 Results",
+          "publishedAt": "2026-10-02"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/44b99f9ccbff863888af99402ddf535e",
+          "source": "Associated Press",
+          "title": "US hiring slows and unemployment ticks higher with a month remaining before Americans head to polls",
+          "publishedAt": "2026-10-02"
+        },
+        {
+          "id": 3,
+          "url": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html",
+          "source": "CNBC",
+          "title": "Labor market faltered in September as jobs increased by just 29,000, unemployment rate rose to 4.2%",
+          "publishedAt": "2026-10-02T13:45:58Z"
+        }
+      ],
+      "tags": ["United States", "employment", "BLS", "labor market"],
+      "confidence": "high"
+    },
+    {
+      "slug": "g7-coordinated-oil-diesel-stock-release-ko",
+      "headline": "세계 에너지 안보와 시장 안정에 관한 G7 정상 성명",
+      "dek": "G7은 IEA를 통한 100 million barrels 규모의 4개월간 공동 방출을 밝혔으며, 초기에는 상당량의 디젤을 포함합니다.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "G7은 International Energy Agency를 통해 4개월 동안 100 million barrels를 공동 방출하겠다고 발표했습니다.",
+        "성명은 첫 20일 동안 상당량의 디젤을 앞당겨 방출하고, 회원국 간 에너지 수출 제한을 삼가겠다고 밝혔습니다.",
+        "성명은 계획된 공급 대응을 설명하지만 가격 변화 폭을 산정하거나 시장 압력이 완화될 것이라고 보장하지는 않습니다."
+      ],
+      "body": [
+        {
+          "text": "G7 정부는 10월 2일 성명에서 International Energy Agency를 통해 4개월간 100 million barrels를 공동 방출하겠다고 밝혔습니다. 여기에는 첫 20일 내에 상당량을 앞당겨 방출하는 디젤 물량이 포함되며, 성명은 IEA에 이행 상황과 에너지 안보·시장 안정에 미치는 영향을 점검해 달라고 요청했습니다.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "성명은 G7 회원국 간 에너지 수출 제한을 삼가겠다고 밝혔습니다. CNBC와 Associated Press는 연료 공급 압박에 대한 대응으로 이번 발표를 보도했지만, 공식 성명은 방출 물량 중 디젤의 구체적 규모나 가격 전망을 제시하지 않았습니다.",
+          "citations": [1, 2, 3]
+        }
+      ],
+      "whyItMatters": "이번 계획은 비축분 방출, 정유시설 운영 일정 조정, G7 내부의 수출 제한 자제를 정제 연료 공급 압박에 대응하는 묶음으로 제시합니다. 시장 영향은 실제 이행과 방출 시기·구성, 에너지 교역 여건에 달려 있으며 발표만으로 결과를 확정할 수 없습니다.",
+      "editorNote": "헤드라인과 방출 계획은 G7 성명을 번역했습니다. CNBC와 AP의 보도로 발표 맥락을 대조했습니다. 가격 방향이나 목표치, 매매 신호는 제시하지 않았습니다.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/02/diesel-oil-trump-europe-export-ban.html",
+          "source": "CNBC",
+          "title": "G7 nations to release diesel stocks as wars in Europe and Middle East constrain fuel supplies"
+        },
+        {
+          "url": "https://apnews.com/article/774a360d1646d9ce8aba764fdd9959d2",
+          "source": "Associated Press",
+          "title": "G7 nations will release 100 million barrels of oil and diesel fuel after prices soar"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.g7.utoronto.ca/summit/2026evian/261002-energy-security.html",
+          "source": "G7 Leaders’ Statement",
+          "title": "G7 Leaders’ Statement on Global Energy Security and Market Stability",
+          "publishedAt": "2026-10-02"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/10/02/diesel-oil-trump-europe-export-ban.html",
+          "source": "CNBC",
+          "title": "G7 nations to release diesel stocks as wars in Europe and Middle East constrain fuel supplies",
+          "publishedAt": "2026-10-02T19:25:36Z"
+        },
+        {
+          "id": 3,
+          "url": "https://apnews.com/article/774a360d1646d9ce8aba764fdd9959d2",
+          "source": "Associated Press",
+          "title": "G7 nations will release 100 million barrels of oil and diesel fuel after prices soar",
+          "publishedAt": "2026-10-02T14:10:11Z"
+        }
+      ],
+      "tags": ["G7", "energy", "diesel", "IEA"],
+      "confidence": "high"
+    }
+  ]
+}

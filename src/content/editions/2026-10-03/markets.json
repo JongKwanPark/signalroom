@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-03",
+  "generatedAt": "2026-10-03T10:05:02Z",
+  "vertical": "markets",
+  "lang": "en",
+  "title": "Markets & Macro Signals — 2026-10-03",
+  "summary": "A narrow two-story edition: the September U.S. payroll report showed very limited job growth, while G7 governments announced a coordinated release of oil and diesel stocks. Both are documented policy and supply signals, not trading guidance.",
+  "stories": [
+    {
+      "slug": "us-employment-situation-september-2026",
+      "headline": "Employment Situation Summary - 2026 M09 Results",
+      "dek": "The official September report recorded 29,000 additional payroll jobs and an unemployment rate of 4.2%.",
+      "type": "DATA",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "U.S. nonfarm payroll employment increased by 29,000 in September, according to the Bureau of Labor Statistics.",
+        "The unemployment rate rose to 4.2% from 4.1% in August, and the July-August payroll change was revised down by a combined 60,000.",
+        "The release gives a weaker hiring picture for September, while one monthly report alone does not establish the direction of the broader economy."
+      ],
+      "body": [
+        {
+          "text": "The Bureau of Labor Statistics reported that nonfarm payroll employment rose by 29,000 in September and that the unemployment rate increased to 4.2% from 4.1% in August. The agency also revised the combined July and August payroll change down by 60,000.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "The weak monthly payroll gain was the central signal in coverage by the Associated Press and CNBC. The BLS release remains the source for the headline figures; those figures describe the survey period and may be revised in later releases.",
+          "citations": [1, 2, 3]
+        }
+      ],
+      "whyItMatters": "The release puts hiring and the upward move in unemployment back into the near-term labor-market picture, while the downward revisions weaken the preceding two-month comparison. It is one input to the employment outlook, not a standalone forecast of Federal Reserve decisions or future growth.",
+      "editorNote": "The headline is the BLS release title verbatim. Payroll, unemployment, and revision figures are sourced to the agency and cross-checked against AP and CNBC. No investment or policy recommendation is implied.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/44b99f9ccbff863888af99402ddf535e",
+          "source": "Associated Press",
+          "title": "US hiring slows and unemployment ticks higher with a month remaining before Americans head to polls"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html",
+          "source": "CNBC",
+          "title": "Labor market faltered in September as jobs increased by just 29,000, unemployment rate rose to 4.2%"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+          "source": "U.S. Bureau of Labor Statistics",
+          "title": "Employment Situation Summary - 2026 M09 Results",
+          "publishedAt": "2026-10-02"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/44b99f9ccbff863888af99402ddf535e",
+          "source": "Associated Press",
+          "title": "US hiring slows and unemployment ticks higher with a month remaining before Americans head to polls",
+          "publishedAt": "2026-10-02"
+        },
+        {
+          "id": 3,
+          "url": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html",
+          "source": "CNBC",
+          "title": "Labor market faltered in September as jobs increased by just 29,000, unemployment rate rose to 4.2%",
+          "publishedAt": "2026-10-02T13:45:58Z"
+        }
+      ],
+      "tags": ["United States", "employment", "BLS", "labor market"],
+      "confidence": "high"
+    },
+    {
+      "slug": "g7-coordinated-oil-diesel-stock-release",
+      "headline": "G7 Leaders’ Statement on Global Energy Security and Market Stability",
+      "dek": "The G7 said a coordinated release through the IEA will cover 100 million barrels over four months, with a substantial early diesel component.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "The G7 announced a coordinated release through the International Energy Agency of 100 million barrels over four months.",
+        "The statement calls for a substantial diesel release during the first 20 days and says G7 members will refrain from energy export restrictions among themselves.",
+        "The statement describes a planned supply response; it does not quantify the resulting change in prices or guarantee that market pressures will ease."
+      ],
+      "body": [
+        {
+          "text": "In an October 2 statement, G7 governments said they would coordinate through the International Energy Agency the release of 100 million barrels over four months, including a substantial front-loaded release of diesel in the first 20 days. The statement also asks the IEA to monitor implementation and assess the measures' effect on energy security and market stability.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "The statement says G7 countries will refrain from energy export restrictions among members. CNBC and the Associated Press reported the announcement as a response to fuel-supply pressures; the official statement does not provide a price forecast or quantify how much of the release will be diesel.",
+          "citations": [1, 2, 3]
+        }
+      ],
+      "whyItMatters": "The plan links emergency stock releases, refinery coordination, and a commitment against intra-G7 export restrictions in a period of pressure on refined-fuel supply. Its market effect depends on implementation, the timing and composition of releases, and conditions in energy trade; those outcomes are not established by the announcement.",
+      "editorNote": "Headline and planned volumes follow the G7 statement verbatim. Secondary coverage from CNBC and AP supports the announcement context. No price direction, target, or trading signal is offered.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/02/diesel-oil-trump-europe-export-ban.html",
+          "source": "CNBC",
+          "title": "G7 nations to release diesel stocks as wars in Europe and Middle East constrain fuel supplies"
+        },
+        {
+          "url": "https://apnews.com/article/774a360d1646d9ce8aba764fdd9959d2",
+          "source": "Associated Press",
+          "title": "G7 nations will release 100 million barrels of oil and diesel fuel after prices soar"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.g7.utoronto.ca/summit/2026evian/261002-energy-security.html",
+          "source": "G7 Leaders’ Statement",
+          "title": "G7 Leaders’ Statement on Global Energy Security and Market Stability",
+          "publishedAt": "2026-10-02"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/10/02/diesel-oil-trump-europe-export-ban.html",
+          "source": "CNBC",
+          "title": "G7 nations to release diesel stocks as wars in Europe and Middle East constrain fuel supplies",
+          "publishedAt": "2026-10-02T19:25:36Z"
+        },
+        {
+          "id": 3,
+          "url": "https://apnews.com/article/774a360d1646d9ce8aba764fdd9959d2",
+          "source": "Associated Press",
+          "title": "G7 nations will release 100 million barrels of oil and diesel fuel after prices soar",
+          "publishedAt": "2026-10-02T14:10:11Z"
+        }
+      ],
+      "tags": ["G7", "energy", "diesel", "IEA"],
+      "confidence": "high"
+    }
+  ]
+}
