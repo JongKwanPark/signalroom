@@ -28,8 +28,7 @@ const meta = joinMeta([
   <a class="sr-row__link" href={ref.href} data-nav-item>
     <span class="sr-row__meta sr-micro">
       <span class="sr-vchip" data-vertical={vertical}>{VERTICAL_META[vertical].label}</span>
-      <span>{meta}</span>
-      {ref.kind === 'edition' && story.confidence !== 'high' && <span class="sr-tag">confidence: {story.confidence}</span>}
+      <span>{meta}{ref.kind === 'edition' && story.confidence !== 'high' && ` · confidence ${story.confidence}`}</span>
     </span>
     <span class="sr-row__title" style={transitionName ? `view-transition-name: story-${ref.slug}` : undefined}>{story.headline}</span>
     {showDek && story.dek && <span class="sr-row__dek">{story.dek}</span>}
@@ -60,5 +59,12 @@ const meta = joinMeta([
     color: var(--text);
     text-decoration: none;
     border-bottom-color: var(--hairline-strong);
+  }
+
+  /* The per-row "X feed" link repeats the category chip; on phones the title gets the width. */
+  @media (max-width: 720px) {
+    .sr-row__vlink {
+      display: none;
+    }
   }
 </style>

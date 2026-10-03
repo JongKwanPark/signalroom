@@ -4,6 +4,7 @@ import { searchIndex } from '../lib/search';
 const THEME_KEY = 'sr-theme';
 const VIEW_KEY = 'sr-view';
 const RESULT_CAP = 8;
+const THEME_COLORS = { dark: '#0a0d12', light: '#f6f7f9' } as const;
 
 type Theme = 'dark' | 'light';
 
@@ -37,6 +38,7 @@ function effectiveTheme(): Theme {
 
 function paintThemeControls(): void {
   const current = effectiveTheme();
+  document.querySelector('meta[name="theme-color"]')?.setAttribute('content', THEME_COLORS[current]);
   const next: Theme = current === 'dark' ? 'light' : 'dark';
   for (const button of document.querySelectorAll<HTMLButtonElement>('[data-theme-toggle]')) {
     const label = button.querySelector('[data-theme-label]');
@@ -293,12 +295,68 @@ for (const view of document.querySelectorAll<HTMLElement>('[data-view]')) {
 }
 
 /* ----------------------------------------------------------- tag browsing */
+
+/* Collapse long tag lists to the CSS-clamped height behind a "show all" toggle. */
+function collapseTags(
+  browser: HTMLElement,
+  list: HTMLElement,
+  more: HTMLButtonElement,
+  buttons: HTMLButtonElement[],
+): void {
+  const ko = browser.dataset.filterLang === 'ko';
+  const total = buttons.length - 1;
+  let expanded = false;
+  let width = 0;
+  const clipped = (button: HTMLElement) =>
+    button.getBoundingClientRect().top - list.getBoundingClientRect().top + list.scrollTop >= list.clientHeight;
+  const paint = () => {
+    const open = list.dataset.collapsed !== 'true';
+    more.setAttribute('aria-expanded', String(open));
+    more.textContent = ko ? (open ? '태그 접기' : `태그 ${total}개 모두 보기`) : open ? 'Show fewer tags' : `Show all ${total} tags`;
+  };
+  const layout = () => {
+    list.dataset.collapsed = 'true';
+    const overflowing = list.scrollHeight > list.clientHeight + 1;
+    const active = buttons.find((button) => button.dataset.tagFilter && button.getAttribute('aria-pressed') === 'true');
+    if (overflowing && active && clipped(active)) expanded = true;
+    more.hidden = !overflowing;
+    if (!overflowing || expanded) delete list.dataset.collapsed;
+    paint();
+  };
+  more.addEventListener('click', () => {
+    expanded = list.dataset.collapsed === 'true';
+    if (expanded) delete list.dataset.collapsed;
+    else list.dataset.collapsed = 'true';
+    paint();
+  });
+  list.addEventListener('focusin', (event) => {
+    if (list.dataset.collapsed === 'true' && event.target instanceof HTMLElement && clipped(event.target)) {
+      expanded = true;
+      delete list.dataset.collapsed;
+      list.scrollTop = 0;
+      paint();
+    }
+  });
+  let frame = 0;
+  window.addEventListener('resize', () => {
+    if (window.innerWidth === width) return;
+    width = window.innerWidth;
+    window.cancelAnimationFrame(frame);
+    frame = window.requestAnimationFrame(layout);
+  });
+  width = window.innerWidth;
+  layout();
+  void document.fonts?.ready.then(layout);
+}
+
 for (const browser of document.querySelectorAll<HTMLElement>('[data-tag-browser]')) {
   const controls = browser.querySelector<HTMLElement>('[data-tag-controls]');
   const buttons = Array.from(browser.querySelectorAll<HTMLButtonElement>('[data-tag-filter]'));
   const rows = Array.from(browser.querySelectorAll<HTMLElement>('[data-tag-item]'));
   const status = browser.querySelector<HTMLElement>('[data-tag-status]');
   const empty = browser.querySelector<HTMLElement>('[data-tag-empty]');
+  const list = browser.querySelector<HTMLElement>('.sr-tag-browser__controls');
+  const more = browser.querySelector<HTMLButtonElement>('[data-tag-more]');
   if (!controls || !buttons.length) continue;
   const tags = rows.map((row) => {
     const parsed: unknown = JSON.parse(row.dataset.tags ?? '[]');
@@ -325,4 +383,5 @@ for (const browser of document.querySelectorAll<HTMLElement>('[data-tag-browser]
   controls.hidden = false;
   const requested = new URLSearchParams(window.location.search).get('tag') ?? '';
   applyTag(buttons.some((button) => button.dataset.tagFilter === requested) ? requested : '');
+  if (list && more) collapseTags(browser, list, more, buttons);
 }

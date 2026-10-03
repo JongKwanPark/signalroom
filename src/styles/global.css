@@ -16,6 +16,8 @@
 html {
   -webkit-text-size-adjust: 100%;
   scrollbar-gutter: stable;
+  /* Keep #source-N and other anchor targets clear of the sticky header. */
+  scroll-padding-top: calc(var(--header-h) + var(--sp-3));
 }
 
 html,
@@ -37,6 +39,12 @@ body {
   flex-direction: column;
 }
 
+/* Light-on-dark text renders heavier on macOS; grayscale smoothing evens it out. */
+:root:not([data-theme="light"]) body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 main {
   flex: 1 0 auto;
 }
@@ -56,6 +64,24 @@ p {
   margin: 0;
 }
 
+p,
+li {
+  text-wrap: pretty;
+}
+
+/* Korean: break between words, never mid-word; only break a word that cannot fit at all. */
+body:lang(ko) {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+:lang(ko) h1,
+:lang(ko) h2,
+:lang(ko) h3,
+:lang(ko) h4 {
+  line-height: 1.3;
+}
+
 ul,
 ol {
   margin: 0;
@@ -69,6 +95,19 @@ li {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+/* Hover/focus feedback is 120ms; the reduced-motion block below zeroes every transition. */
+a,
+.sr-btn,
+.sr-vchip,
+.sr-cite__chip,
+.sr-tile {
+  transition:
+    color 120ms ease,
+    background-color 120ms ease,
+    border-color 120ms ease,
+    text-decoration-color 120ms ease;
 }
 
 a:hover {
@@ -203,14 +242,14 @@ hr {
 .sr-header__inner {
   display: flex;
   align-items: center;
-  gap: var(--sp-4);
-  min-height: 56px;
-  padding-block: var(--sp-2);
+  gap: var(--sp-5);
+  height: 56px;
 }
 
 .sr-wordmark {
   display: inline-flex;
   align-items: center;
+  flex: none;
 }
 
 /* Brand lockup: primary on the dark canvas (default), ink knockout on light.
@@ -243,7 +282,9 @@ hr {
 .sr-btn {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: var(--sp-2);
+  min-height: 32px;
   border: 1px solid var(--hairline-strong);
   padding: var(--sp-1) var(--sp-2);
   font-family: var(--font-mono);
@@ -264,6 +305,13 @@ hr {
 .sr-btn kbd {
   font-family: var(--font-mono);
   font-size: inherit;
+}
+
+/* Touch devices: 44px targets. */
+@media (pointer: coarse) {
+  .sr-btn {
+    min-height: 44px;
+  }
 }
 
 .sr-btn--accent {
@@ -447,7 +495,15 @@ hr {
   line-height: var(--lh-snug);
 }
 
-.sr-tile h3 a:hover {
+.sr-tile:hover {
+  background: var(--surface-2);
+  text-decoration: none;
+}
+
+.sr-tile:hover h3 {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
   text-decoration-color: var(--tile-accent, var(--accent));
 }
 
@@ -505,6 +561,7 @@ hr {
 }
 
 .sr-row__title {
+  display: block;
   font-size: var(--fs-md);
   font-weight: 580;
   line-height: var(--lh-snug);
@@ -512,6 +569,7 @@ hr {
 }
 
 .sr-row__dek {
+  display: block;
   color: var(--muted);
   font-size: var(--fs-sm);
   margin-top: var(--sp-1);
@@ -563,7 +621,7 @@ hr {
 
 .sr-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr));
   gap: var(--sp-4);
 }
 
@@ -834,11 +892,16 @@ a.sr-vchip:hover {
   border-top: 1px solid var(--hairline-strong);
 }
 
+/* The sticky date header already draws the rule above its list. */
+.sr-view[data-view="list"] .sr-tl-date + .sr-timeline {
+  border-top: 0;
+}
+
 .sr-view[data-view="list"] .sr-tl-item {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   gap: var(--sp-4);
-  align-items: baseline;
+  align-items: start;
   padding-block: var(--sp-3);
   border-bottom: 1px solid var(--hairline);
 }
@@ -849,7 +912,9 @@ a.sr-vchip:hover {
 
 .sr-view[data-view="list"] .sr-tl-item__rail {
   display: block;
-  order: 2;
+  grid-column: 2;
+  grid-row: 1;
+  padding-top: 2px;
   font-family: var(--font-mono);
   font-size: var(--fs-2xs);
   color: var(--muted);
@@ -858,7 +923,7 @@ a.sr-vchip:hover {
 
 .sr-tl-date {
   position: sticky;
-  top: 56px;
+  top: var(--header-h);
   background: var(--canvas);
   padding-block: var(--sp-2);
   border-bottom: 1px solid var(--hairline);
@@ -945,6 +1010,7 @@ a.sr-vchip:hover {
 
 .sr-story__head h1 {
   font-size: clamp(1.6rem, 4vw, var(--fs-2xl));
+  font-weight: 700;
   margin-top: var(--sp-3);
 }
 
@@ -960,7 +1026,7 @@ a.sr-vchip:hover {
   max-width: var(--measure);
   display: flex;
   flex-direction: column;
-  gap: var(--sp-4);
+  gap: 1.25em;
   font-size: var(--fs-md);
 }
 
@@ -1148,8 +1214,12 @@ a.sr-vchip:hover {
   }
 
   .sr-view[data-view="list"] .sr-tl-item__rail {
+    grid-column: 1;
+    grid-row: auto;
+    padding-top: 0;
     margin-top: var(--sp-1);
   }
+
 
   /* Citation popovers are centred on the chip and up to 320px wide, so near the right edge they
      spill past the viewport and widen the page even while hidden. They are aria-hidden copies of
@@ -1206,35 +1276,52 @@ a.sr-vchip:hover {
   }
 }
 
-/* Six-category navigation and progressive tag browsing. */
+/* Six-category navigation (inside the header row) and progressive tag browsing. Links stretch the
+   full row height so the active 2px bar sits flush on the header's bottom hairline. */
 .sr-category-nav {
   display: flex;
-  flex-wrap: wrap;
-  gap: var(--sp-1) var(--sp-3);
-  padding-block: var(--sp-2);
-  border-top: 1px solid var(--hairline);
+  align-self: stretch;
+  gap: var(--sp-5);
+  min-width: 0;
 }
 .sr-category-nav a {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  min-height: 44px;
-  min-width: 44px;
-  padding-inline: var(--sp-2);
-  border-bottom: 2px solid transparent;
+  padding-inline: 0;
+  white-space: nowrap;
+  box-shadow: inset 0 -2px 0 transparent;
+}
+.sr-category-nav a:hover {
+  color: var(--text);
+  text-decoration: none;
 }
 .sr-category-nav a[aria-current="page"] {
   color: var(--text);
-  border-bottom-color: var(--accent);
+  box-shadow: inset 0 -2px 0 var(--accent);
+}
+.sr-tag-browser,
+.sr-tag-browser__controls {
+  --tag-row: 32px;
 }
 .sr-tag-browser { margin-bottom: var(--sp-5); }
+@media (pointer: coarse) {
+  .sr-tag-browser,
+  .sr-tag-browser__controls { --tag-row: 44px; }
+}
 .sr-tag-browser__controls {
   display: flex;
   flex-wrap: wrap;
   gap: var(--sp-2);
   margin-block: var(--sp-3);
 }
-.sr-tag-browser__controls .sr-btn { min-height: 44px; padding-inline: var(--sp-3); }
+/* Collapsed: show two rows of tag buttons; the "more" toggle reveals the rest. */
+.sr-tag-browser__controls[data-collapsed="true"] {
+  max-height: calc(2 * var(--tag-row) + var(--sp-2));
+  overflow: hidden;
+}
+.sr-tag-browser__controls .sr-btn { min-height: var(--tag-row); padding-inline: var(--sp-3); }
+.sr-tag-browser__more { margin-top: var(--sp-2); }
+.sr-tag-browser [data-tag-status] { margin-top: var(--sp-3); }
 .sr-tag-browser__controls .sr-btn[aria-pressed="true"] {
   color: var(--text);
   border-color: var(--accent);
@@ -1246,7 +1333,48 @@ a.sr-vchip:hover {
 .sr-article-body table { display: block; max-width: 100%; overflow-x: auto; border-collapse: collapse; }
 .sr-article-body th, .sr-article-body td { padding: var(--sp-2); border: 1px solid var(--hairline-strong); text-align: start; }
 .sr-story__tags .sr-tag { display: inline-flex; align-items: center; min-height: 44px; padding-inline: var(--sp-2); }
-@media (max-width: 480px) {
-  .sr-header__inner { flex-wrap: wrap; gap: var(--sp-2); }
-  .sr-header .sr-actions { flex-wrap: wrap; margin-left: 0; }
+/* Narrow desktop/tablet: keep one row by tightening the category gaps and dropping the shortcut hint. */
+@media (min-width: 721px) and (max-width: 960px) {
+  .sr-header__inner { gap: var(--sp-4); }
+  .sr-category-nav { gap: var(--sp-4); }
+  .sr-header .sr-btn kbd { display: none; }
+}
+@media (min-width: 721px) and (max-width: 780px) {
+  .sr-category-nav { gap: var(--sp-3); }
+}
+
+/* Phone header: row 1 = logo + actions on one line, row 2 = categories as one scrollable line. */
+@media (max-width: 720px) {
+  .sr-header__inner {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-rows: 56px auto;
+    column-gap: var(--sp-3);
+    row-gap: 0;
+    height: auto;
+  }
+  .sr-header .sr-logo { height: 28px; }
+  .sr-header .sr-wordmark { grid-column: 1; grid-row: 1; }
+  .sr-header .sr-actions { grid-column: 2; grid-row: 1; }
+  .sr-header .sr-btn kbd { display: none; }
+  .sr-category-nav {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    /* Full-bleed hairline: pull out of the container padding and re-pad inside. */
+    margin-inline: calc(-1 * var(--page-pad));
+    padding-inline: var(--page-pad);
+    border-top: 1px solid var(--hairline);
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+    scroll-snap-type: x proximity;
+    scroll-padding-inline: var(--page-pad);
+    overscroll-behavior-x: contain;
+  }
+  .sr-category-nav::-webkit-scrollbar { display: none; }
+  .sr-category-nav a {
+    flex: none;
+    min-height: 44px;
+    scroll-snap-align: start;
+  }
 }

@@ -40,6 +40,15 @@ const toggle = lang === 'ko'
       <img class="sr-logo sr-logo--light" src="/brand/logo-light.svg" alt="" width="164" height="32" />
     </a>
 
+    <nav class="sr-category-nav sr-micro" aria-label={lang === 'ko' ? '카테고리' : 'Categories'}>
+      {VERTICALS.map((vertical) => (
+        <a href={verticalHref(vertical, lang)} data-vertical={vertical}
+          aria-current={stripLangPrefix(path).rest === `/${vertical}` ? 'page' : undefined}>
+          {VERTICAL_META[vertical].label}
+        </a>
+      ))}
+    </nav>
+
     <div class="sr-actions">
       <nav class="sr-lang" aria-label="Language">
         <a
@@ -69,14 +78,6 @@ const toggle = lang === 'ko'
       </button>
     </div>
   </div>
-  <nav class="sr-container sr-category-nav sr-micro" aria-label={lang === 'ko' ? '카테고리' : 'Categories'}>
-    {VERTICALS.map((vertical) => (
-      <a href={verticalHref(vertical, lang)} data-vertical={vertical}
-        aria-current={stripLangPrefix(path).rest === `/${vertical}` ? 'page' : undefined}>
-        {VERTICAL_META[vertical].label}
-      </a>
-    ))}
-  </nav>
 </header>
 
 <style>
@@ -88,10 +89,16 @@ const toggle = lang === 'ko'
   .sr-lang a {
     display: inline-flex;
     align-items: center;
-    min-height: 44px;
+    min-height: 32px;
     padding-inline: var(--sp-2);
     color: var(--text);
     text-decoration: underline;
     text-underline-offset: 3px;
+  }
+
+  @media (pointer: coarse) {
+    .sr-lang a {
+      min-height: 44px;
+    }
   }
 </style>

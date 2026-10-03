@@ -30,10 +30,21 @@ const { items, label = 'TL;DR', compact = false } = Astro.props;
   .sr-tldr__list {
     display: flex;
     flex-direction: column;
-    gap: var(--sp-2);
+    gap: var(--sp-3);
   }
 
-  .sr-tldr--compact :global(li) {
-    font-size: var(--fs-sm);
+  /* Story page: items sit beside 17px body copy, so they read at body size. The compact (home)
+     variant keeps the global 13px / tight rhythm. */
+  .sr-tldr:not(.sr-tldr--compact) :global(li) {
+    font-size: var(--fs-base);
+    line-height: 1.5;
+  }
+
+  .sr-tldr:not(.sr-tldr--compact) :global(.sr-tldr__n) {
+    padding-top: 5px;
+  }
+
+  .sr-tldr--compact .sr-tldr__list {
+    gap: var(--sp-2);
   }
 </style>

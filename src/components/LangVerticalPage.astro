@@ -37,10 +37,11 @@ const introduction = vertical === 'wisdom'
     {refs.length ? <>
       {tags.length > 0 && <div class="sr-tag-browser" data-tag-controls hidden>
         <p class="sr-micro" id="tag-filter-label">{lang === 'ko' ? '태그로 탐색' : 'Browse by tag'}</p>
-        <div class="sr-tag-browser__controls" role="group" aria-labelledby="tag-filter-label">
+        <div class="sr-tag-browser__controls" id="tag-filter-controls" role="group" aria-labelledby="tag-filter-label">
           <button class="sr-btn" type="button" data-tag-filter="" aria-pressed="true" aria-controls="category-writing">{lang === 'ko' ? '전체 · 초기화' : 'All · reset'}</button>
           {tags.map((tag) => <button class="sr-btn" type="button" data-tag-filter={tag} aria-pressed="false" aria-controls="category-writing">{tag}</button>)}
         </div>
+        <button class="sr-btn sr-tag-browser__more" type="button" data-tag-more aria-expanded="false" aria-controls="tag-filter-controls" hidden>{lang === 'ko' ? '태그 모두 보기' : 'Show all tags'}</button>
         <p class="sr-micro" data-tag-status role="status" aria-live="polite" aria-atomic="true">{pluralize(refs.length, 'story', 'stories')}</p>
       </div>}
       <div id="category-writing" class="sr-stack">

@@ -57,22 +57,24 @@ for (const ref of refs) {
         <ol class="sr-timeline">
           {group.items.map((ref) => (
             <li class="sr-tl-item" data-vertical={vertical} data-tag-item data-tags={JSON.stringify(ref.story.tags)}>
-              <a
-                class="sr-tl-item__headline"
-                href={ref.href}
-                data-nav-item
-                style={`view-transition-name: story-${ref.slug}`}
-              >
-                {ref.story.headline}
-              </a>
-              <p class="sr-tl-item__dek sr-muted">{ref.story.dek ?? ref.story.tldr[0]}</p>
-              <div class="sr-tl-item__meta sr-micro">
-                <VerticalChip vertical={vertical} />
-                <TypeBadge type={ref.story.type} />
-                {ref.kind === 'article' ? <span>{ref.author}</span> : <span>{pluralize(sourceCount(ref.story), 'source')}</span>}
-                <span>·</span>
-                <span>{ref.story.readMinutes} min</span>
-                {ref.kind === 'edition' && <><span>·</span><span>cluster {ref.story.cluster.length}</span></>}
+              <div class="sr-tl-item__body">
+                <a
+                  class="sr-tl-item__headline"
+                  href={ref.href}
+                  data-nav-item
+                  style={`view-transition-name: story-${ref.slug}`}
+                >
+                  {ref.story.headline}
+                </a>
+                <p class="sr-tl-item__dek sr-muted">{ref.story.dek ?? ref.story.tldr[0]}</p>
+                <div class="sr-tl-item__meta sr-micro">
+                  <VerticalChip vertical={vertical} />
+                  <TypeBadge type={ref.story.type} />
+                  {ref.kind === 'article' ? <span>{ref.author}</span> : <span>{pluralize(sourceCount(ref.story), 'source')}</span>}
+                  <span>·</span>
+                  <span>{ref.story.readMinutes} min</span>
+                  {ref.kind === 'edition' && <><span>·</span><span>cluster {ref.story.cluster.length}</span></>}
+                </div>
               </div>
               <div class="sr-tl-item__rail sr-mono">
                 {timeLabel(ref.generatedAt)} · {VERTICAL_META[vertical].label}

@@ -102,6 +102,13 @@ both canvases. Recompute contrast from `src/styles/theme.css` if any token chang
 | `--fs-md` 17px | story body, row titles |
 | `--fs-lg`–`--fs-3xl` | 21 / 26 / 34 / 44px, fluid via `clamp()` for page heads |
 
+Korean (`:lang(ko)`): `--font-sans` puts the platform Hangul faces (`Apple SD Gothic Neo`,
+`Pretendard`, `Noto Sans KR`, `Malgun Gothic`) after `-apple-system` and before the Latin
+fallbacks — still system fonts only. Body text uses `word-break: keep-all` with
+`overflow-wrap: break-word` so headlines never split mid-word; Korean headings use line height
+1.3. Dark theme only: `-webkit-font-smoothing: antialiased` on `body`. `p, li` use
+`text-wrap: pretty`.
+
 Micro-label recipe: `font-mono`, uppercase, `letter-spacing: .09em`, 11px, muted. Implemented as
 `.sr-micro`; never apply it to a sentence or paragraph.
 
@@ -114,7 +121,19 @@ Micro-label recipe: `font-mono`, uppercase, `letter-spacing: .09em`, 11px, muted
 - Borders are 1px hairlines; sections are separated by `--hairline-strong`, rows by `--hairline`.
 - Focus: 2px `--accent` outline with 2px offset via `:focus-visible` only.
 - Motion: no transitions over 120ms; everything collapses under
-  `prefers-reduced-motion: reduce`.
+  `prefers-reduced-motion: reduce`. Links, `.sr-btn`, `.sr-vchip`, `.sr-cite__chip` and
+  `.sr-tile` transition `color`, `background-color`, `border-color` and `text-decoration-color`
+  over 120ms. Hover on a bento tile fills it with `--surface-2` and underlines its `h3` in the tile
+  accent.
+- Header: one 56px row on desktop (>=721px) — logo, category nav, actions (`margin-left: auto`).
+  The active category (`aria-current="page"`) draws a 2px `--accent` bar flush on the header's
+  bottom hairline. On phones (<=720px) row 1 is logo (28px) + actions, row 2 is the category nav
+  as one horizontally scrollable line (44px links, full-bleed hairline). `--header-h` (57px
+  desktop, 102px phone) is the sticky header's full height; sticky date rails and
+  `html { scroll-padding-top }` read it.
+- Target size: `.sr-btn` and the header language link are 32px tall, 44px under
+  `@media (pointer: coarse)`; phone category links are 44px. Tag-browser buttons follow `--tag-row`
+  (32px / 44px coarse), and the collapsed tag list shows two rows.
 
 ## 5. Components
 
