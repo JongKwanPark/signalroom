@@ -1,10 +1,10 @@
 {
   "date": "2026-10-03",
-  "generatedAt": "2026-10-03T10:05:02Z",
+  "generatedAt": "2026-10-03T10:15:08Z",
   "vertical": "markets",
   "lang": "en",
   "title": "Markets & Macro Signals — 2026-10-03",
-  "summary": "A narrow two-story edition: the September U.S. payroll report showed very limited job growth, while G7 governments announced a coordinated release of oil and diesel stocks. Both are documented policy and supply signals, not trading guidance.",
+  "summary": "A thin two-story edition: the September U.S. payroll report showed very limited job growth, while G7 governments announced a coordinated release of oil and diesel stocks. Both are documented policy and supply signals, not trading guidance.",
   "stories": [
     {
       "slug": "us-employment-situation-september-2026",
@@ -21,11 +21,18 @@
       "body": [
         {
           "text": "The Bureau of Labor Statistics reported that nonfarm payroll employment rose by 29,000 in September and that the unemployment rate increased to 4.2% from 4.1% in August. The agency also revised the combined July and August payroll change down by 60,000.",
-          "citations": [1, 2]
+          "citations": [
+            1,
+            2
+          ]
         },
         {
           "text": "The weak monthly payroll gain was the central signal in coverage by the Associated Press and CNBC. The BLS release remains the source for the headline figures; those figures describe the survey period and may be revised in later releases.",
-          "citations": [1, 2, 3]
+          "citations": [
+            1,
+            2,
+            3
+          ]
         }
       ],
       "whyItMatters": "The release puts hiring and the upward move in unemployment back into the near-term labor-market picture, while the downward revisions weaken the preceding two-month comparison. It is one input to the employment outlook, not a standalone forecast of Federal Reserve decisions or future growth.",
@@ -65,7 +72,12 @@
           "publishedAt": "2026-10-02T13:45:58Z"
         }
       ],
-      "tags": ["United States", "employment", "BLS", "labor market"],
+      "tags": [
+        "United States",
+        "employment",
+        "BLS",
+        "labor market"
+      ],
       "confidence": "high"
     },
     {
@@ -83,11 +95,18 @@
       "body": [
         {
           "text": "In an October 2 statement, G7 governments said they would coordinate through the International Energy Agency the release of 100 million barrels over four months, including a substantial front-loaded release of diesel in the first 20 days. The statement also asks the IEA to monitor implementation and assess the measures' effect on energy security and market stability.",
-          "citations": [1, 2]
+          "citations": [
+            1,
+            2
+          ]
         },
         {
           "text": "The statement says G7 countries will refrain from energy export restrictions among members. CNBC and the Associated Press reported the announcement as a response to fuel-supply pressures; the official statement does not provide a price forecast or quantify how much of the release will be diesel.",
-          "citations": [1, 2, 3]
+          "citations": [
+            1,
+            2,
+            3
+          ]
         }
       ],
       "whyItMatters": "The plan links emergency stock releases, refinery coordination, and a commitment against intra-G7 export restrictions in a period of pressure on refined-fuel supply. Its market effect depends on implementation, the timing and composition of releases, and conditions in energy trade; those outcomes are not established by the announcement.",
@@ -127,7 +146,12 @@
           "publishedAt": "2026-10-02T14:10:11Z"
         }
       ],
-      "tags": ["G7", "energy", "diesel", "IEA"],
+      "tags": [
+        "G7",
+        "energy",
+        "diesel",
+        "IEA"
+      ],
       "confidence": "high"
     }
   ]

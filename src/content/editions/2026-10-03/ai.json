@@ -1,10 +1,10 @@
 {
   "date": "2026-10-03",
-  "generatedAt": "2026-10-03T10:05:02Z",
+  "generatedAt": "2026-10-03T10:15:08Z",
   "vertical": "ai",
   "lang": "en",
   "title": "AI Signals — 2026-10-03",
-  "summary": "A narrow edition: arXiv's new monthly submission cap is today's clearest institutional signal. Most collected items did not have enough verified impact or primary-source depth for inclusion.",
+  "summary": "A thin edition: arXiv's new monthly submission cap is today's clearest institutional signal. Most collected items did not have enough verified impact or primary-source depth for inclusion.",
   "stories": [
     {
       "slug": "arxiv-updated-rate-limit-policy",
@@ -21,11 +21,16 @@
       "body": [
         {
           "text": "arXiv's October 1 policy sets a limit of two submissions per author per calendar month across categories and retains a separate limit of three active submissions. The organization describes the change as a temporary measure while it considers longer-term submission practices and moderation capacity.",
-          "citations": [1, 2]
+          "citations": [
+            1,
+            2
+          ]
         },
         {
           "text": "arXiv reported 40,363 submissions in September 2026, roughly double its September 2024 total of 20,569, and said the month generated almost 9,000 support tickets. The figures are the repository's own account of the workload behind the policy change.",
-          "citations": [1]
+          "citations": [
+            1
+          ]
         }
       ],
       "whyItMatters": "The rule turns moderation capacity into a direct constraint on researchers' distribution schedules across every subject area hosted by arXiv. Because the repository calls the cap a stopgap, its effects and any later replacement will matter to labs and conference workflows, but the announcement does not yet establish how moderation outcomes will change.",
@@ -53,7 +58,11 @@
           "publishedAt": "2026-10-02T19:02:00Z"
         }
       ],
-      "tags": ["arXiv", "research publishing", "moderation"],
+      "tags": [
+        "arXiv",
+        "research publishing",
+        "moderation"
+      ],
       "confidence": "high"
     }
   ]

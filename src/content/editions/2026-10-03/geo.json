@@ -1,10 +1,10 @@
 {
   "date": "2026-10-03",
-  "generatedAt": "2026-10-03T10:05:02Z",
+  "generatedAt": "2026-10-03T10:15:08Z",
   "vertical": "geo",
   "lang": "en",
   "title": "Geopolitics & Security Signals — 2026-10-03",
-  "summary": "A focused edition with one verified infrastructure development: a strike damaged Kyiv's Northern Bridge after disruptions to other Dnipro crossings, adding pressure to the capital's east-west transport links.",
+  "summary": "A thin edition with one verified infrastructure development: a strike damaged Kyiv's Northern Bridge after disruptions to other Dnipro crossings, adding pressure to the capital's east-west transport links.",
   "stories": [
     {
       "slug": "russia-strikes-second-major-bridge-kyiv",
@@ -21,11 +21,17 @@
       "body": [
         {
           "text": "Kyiv's mayor said a strike damaged the Northern Bridge early Saturday, October 3, and that traffic was stopped after damage to the road surface and trolleybus cables. The BBC and Associated Press both attributed the account of the damage and closure to city authorities; the mayor reported no casualties.",
-          "citations": [1, 2]
+          "citations": [
+            1,
+            2
+          ]
         },
         {
           "text": "The strike followed attacks on other crossings over the Dnipro. The Associated Press reported that three of Kyiv's six road bridges had been fully or partially closed the previous day, while Euronews described disruption to the Northern and Southern bridges and severe congestion.",
-          "citations": [2, 3]
+          "citations": [
+            2,
+            3
+          ]
         }
       ],
       "whyItMatters": "The bridge strikes affect routes connecting Kyiv's eastern and western districts, so the immediate consequence is transport capacity inside the capital rather than a change in territorial control. The available reports document traffic disruption and infrastructure damage; they do not establish the broader military effect of the attacks.",
@@ -65,7 +71,12 @@
           "publishedAt": "2026-10-03T06:46:00Z"
         }
       ],
-      "tags": ["Ukraine", "Kyiv", "Russia", "infrastructure"],
+      "tags": [
+        "Ukraine",
+        "Kyiv",
+        "Russia",
+        "infrastructure"
+      ],
       "confidence": "medium"
     }
   ]
