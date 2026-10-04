@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-04",
+  "generatedAt": "2026-10-04T10:04:36Z",
+  "vertical": "geo",
+  "lang": "ko",
+  "title": "복잡한 정치 체제 속 보스니아 선거",
+  "summary": "오늘은 같은 날 보도와 공식 선거 자료로 확인된 선거 사안 1건을 담았습니다. GDELT와 ISW를 이용할 수 없었고, 수집 자료 가운데 다른 사안은 관련성과 출처 기준을 통과하지 못했습니다.",
+  "stories": [
+    {
+      "slug": "bosnia-general-election-new-voting-technology-ko",
+      "headline": "새 투표 기술과 해묵은 민족 갈등 속 보스니아 총선",
+      "dek": "보스니아는 여러 단계의 공직자를 선출하고 있으며, 전국 단위 선거에서 생체정보 기반 유권자 확인과 투표용지 스캐너를 처음 사용합니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "보스니아 헤르체고비나에서 국가 및 구성체 단위 대표를 선출하는 총선 투표가 시작됐습니다.",
+        "중앙선거관리위원회는 등록 유권자가 3,408,517명이며, 이번 선거가 생체정보 확인과 투표용지 스캐너를 전국 단위로 처음 사용하는 선거라고 밝혔습니다.",
+        "AP는 새 디지털 투표 기술 문제로 일부 투표소의 개시가 지연됐으며 선거운동에서 민족 갈등이 쟁점으로 남았다고 보도했습니다."
+      ],
+      "body": [
+        {
+          "text": "중앙선거관리위원회에 따르면 등록 유권자는 3,408,517명이며 이번 선거에서는 국가 대통령직, 국가 의회, 스릅스카 공화국 기관과 주 의회 대표를 선출합니다. 위원회는 생체정보 기반 유권자 확인과 투표용지 스캐너가 전국 선거에 처음 도입됐다고 설명했습니다.",
+          "citations": [1]
+        },
+        {
+          "text": "AP는 새 디지털 투표 기술 문제로 일부 투표소가 정시에 문을 열지 못했다고 보도했습니다. AP는 또 밀로라드 도디크 전 스릅스카 공화국 대통령이 선거운동에서 차지한 정치적 비중과 계속되는 민족 갈등을 전했습니다. 공식 선거관리위원회 자료는 선거 절차를 확인해 주지만 정치적 해석까지 입증하지는 않습니다.",
+          "citations": [1, 2]
+        }
+      ],
+      "whyItMatters": "이번 투표는 전후 정치 구조를 둘러싼 갈등이 이어지는 가운데, 여러 층위의 제도를 가진 보스니아 헤르체고비나에서 새로운 유권자 확인과 투표용지 스캔 체계가 작동할 수 있는지를 보여줍니다. AP는 초기 기술 지연을 보도했지만, 현재 자료만으로 그 규모나 선거 결과에 미친 영향을 확정할 수 없습니다.",
+      "editorNote": "출처 기준을 통과한 선거 보도 1건을 선정했습니다. 공식 선거 수치와 절차를 AP의 현장 보도 및 정치 분석과 구분했고, 투표가 진행 중이므로 결과를 예단하지 않았습니다. TODO-review: ‘tripartite presidency’는 ‘3인 공동 대통령직’으로 옮겼습니다. 용어집에 승인 표기가 없습니다.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/4/economic-woes-ethnic-rivalries-shape-bosnias-closely-watched-elections",
+          "source": "Al Jazeera",
+          "title": "Bosnia votes in one of world’s most complicated general elections"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.izbori.ba/?CategoryID=183&Id=6169&Lang=6",
+          "source": "Central Election Commission of Bosnia and Herzegovina",
+          "title": "2026 General Elections – Basic Information"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/bosnia-election-dodik-tensions-technology-8d8ce8f6a3c676ef8ba3422f68ea9d11",
+          "source": "Associated Press",
+          "title": "New technology and old ethnic divisions loom as Bosnia votes in general election"
+        }
+      ],
+      "tags": ["Bosnia and Herzegovina", "elections", "European Union"],
+      "confidence": "medium"
+    }
+  ]
+}

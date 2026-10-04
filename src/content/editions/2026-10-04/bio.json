@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-04",
+  "generatedAt": "2026-10-04T10:04:36Z",
+  "vertical": "bio",
+  "lang": "en",
+  "title": "A 340B rebate pilot takes shape",
+  "summary": "A thin edition: one independently reported, regulator-documented drug-pricing development met the evidence bar. Most collected biomedical records were study listings or metadata without enough independently corroborated context for an edition story.",
+  "stories": [
+    {
+      "slug": "hrsa-approved-340b-rebate-pilot-plans",
+      "headline": "HRSA discloses manufacturers approved for revised 340B rebate pilot",
+      "dek": "The approved plans shift selected medicines from upfront 340B discounts to claims-based rebates beginning January 1, 2027.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "HRSA’s approved-plan list names 10 manufacturers and selected medicines for the revised 340B rebate pilot.",
+        "For participating plans, the 340B price will be delivered through a rebate after a qualifying claim is verified, rather than as an upfront discount.",
+        "The selected plans are scheduled to take effect on January 1, 2027; hospitals and other covered entities have raised concerns about the change."
+      ],
+      "body": [
+        {
+          "text": "HRSA’s approved-plan list names AbbVie and nine other manufacturers, with 21 selected medicines set to enter the revised pilot. Healthcare Dive reported that the approvals move the participating medicines from upfront discounts to after-the-fact rebates, while noting covered entities’ objections to changing the payment structure.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "HRSA says covered entities will identify eligible transactions at the claim level and manufacturers will issue rebates after validation. Its list gives January 1, 2027 as the start date for the approved plans; this describes an implementation schedule, not evidence yet about the pilot’s effects on providers or patients.",
+          "citations": [1]
+        }
+      ],
+      "whyItMatters": "The pilot changes when and how participating 340B providers receive the program’s ceiling price for selected medicines. Its eventual operational effects will depend on claim verification and rebate processing, which HRSA says it plans to evaluate after implementation.",
+      "editorNote": "Selected as the day’s only independently reported biomedical policy development with a regulator-published approved-plan list. The policy’s projected benefits are attributed to HRSA; provider objections are attributed to Healthcare Dive. No patient or provider guidance is offered.",
+      "cluster": [
+        {
+          "url": "https://www.hrsa.gov/opa/340b-model-pilot-program",
+          "source": "HRSA",
+          "title": "340B Rebate Model Pilot Program"
+        },
+        {
+          "url": "https://wsau.com/2026/10/02/abbvie-joins-us-government-pilot-to-test-drug-discount-rebates/",
+          "source": "Reuters (WSAU syndication)",
+          "title": "AbbVie joins US government pilot to test drug discount rebates"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.hrsa.gov/opa/340b-model-pilot-program",
+          "source": "HRSA",
+          "title": "340B Rebate Model Pilot Program"
+        },
+        {
+          "id": 2,
+          "url": "https://www.healthcaredive.com/news/340b-rebate-program-approved-drugs-hrsa/831913/",
+          "source": "Healthcare Dive",
+          "title": "HRSA discloses manufacturers approved for revised 340B rebate pilot"
+        }
+      ],
+      "tags": ["340B", "drug pricing", "regulation"],
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-04",
+  "generatedAt": "2026-10-04T10:04:36Z",
+  "vertical": "geo",
+  "lang": "en",
+  "title": "Bosnia’s election tests a complex political system",
+  "summary": "A thin edition: one election development had both contemporaneous reporting and official election data. GDELT and ISW were unavailable, and no other collected item cleared the relevance and source checks.",
+  "stories": [
+    {
+      "slug": "bosnia-general-election-new-voting-technology",
+      "headline": "New technology and old ethnic divisions loom as Bosnia votes in general election",
+      "dek": "Bosnians are voting across multiple levels of government in the first nationwide election to use biometric voter identification and ballot scanners.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Polls opened for Bosnia and Herzegovina’s general election, which chooses national and entity-level representatives.",
+        "The Central Election Commission lists 3,408,517 registered voters and says this is the country’s first nationwide election using biometric identification and ballot scanners.",
+        "The Associated Press reported that technical problems delayed voting at some polling places and that ethnic tensions remained a campaign issue."
+      ],
+      "body": [
+        {
+          "text": "The Central Election Commission says 3,408,517 voters are registered and that the election covers the state presidency, national parliament, Republika Srpska institutions and cantonal assemblies. It also identifies biometric voter checks and ballot scanners as new nationwide election technologies.",
+          "citations": [1]
+        },
+        {
+          "text": "The Associated Press reported that some polling places could not start on time because of difficulties with the new digital voting technology. Its reporting also describes the political weight of former Republika Srpska president Milorad Dodik and continuing ethnic divisions; the official commission notice establishes the electoral arrangements, not the political interpretation.",
+          "citations": [1, 2]
+        }
+      ],
+      "whyItMatters": "The vote tests whether new identification and ballot-scanning systems can operate across Bosnia and Herzegovina’s layered institutions while the country continues to face political disputes tied to its postwar structure. Early technical delays are reported by the AP, but the available evidence does not establish their scale or effect on the result.",
+      "editorNote": "One source-qualified election story was selected. Official election figures and procedures are separated from AP’s on-the-ground reporting and political analysis; no election outcome is stated while voting is underway.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/4/economic-woes-ethnic-rivalries-shape-bosnias-closely-watched-elections",
+          "source": "Al Jazeera",
+          "title": "Bosnia votes in one of world’s most complicated general elections"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.izbori.ba/?CategoryID=183&Id=6169&Lang=6",
+          "source": "Central Election Commission of Bosnia and Herzegovina",
+          "title": "2026 General Elections – Basic Information"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/bosnia-election-dodik-tensions-technology-8d8ce8f6a3c676ef8ba3422f68ea9d11",
+          "source": "Associated Press",
+          "title": "New technology and old ethnic divisions loom as Bosnia votes in general election"
+        }
+      ],
+      "tags": ["Bosnia and Herzegovina", "elections", "European Union"],
+      "confidence": "medium"
+    }
+  ]
+}

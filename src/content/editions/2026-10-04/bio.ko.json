@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-04",
+  "generatedAt": "2026-10-04T10:04:36Z",
+  "vertical": "bio",
+  "lang": "ko",
+  "title": "340B 환급 시범사업의 윤곽",
+  "summary": "오늘은 규제기관 자료와 독립 보도로 확인된 의약품 가격 정책 사안 1건을 담았습니다. 수집된 생의학 자료 대부분은 연구 등록 정보나 메타데이터였고, 독립적으로 교차 확인할 맥락이 충분하지 않았습니다.",
+  "stories": [
+    {
+      "slug": "hrsa-approved-340b-rebate-pilot-plans-ko",
+      "headline": "HRSA, 개정 340B 환급 시범사업 승인 제약사 공개",
+      "dek": "승인된 계획에 따라 일부 의약품은 2027년 1월 1일부터 선할인 대신 청구 검증 후 환급 방식으로 전환됩니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "HRSA의 승인 계획 목록에는 개정 340B 환급 시범사업에 참여하는 제약사 10곳과 대상 의약품이 명시돼 있습니다.",
+        "참여 계획에서는 적격 청구를 확인한 뒤 환급하는 방식으로 340B 가격을 제공해 기존의 선할인을 대체합니다.",
+        "승인된 계획은 2027년 1월 1일 시행 예정이며, 병원과 기타 대상 기관은 지급 방식 변경에 우려를 제기했습니다."
+      ],
+      "body": [
+        {
+          "text": "HRSA의 승인 계획 목록에는 AbbVie를 포함한 제약사 10곳과 대상 의약품 21개가 올라 있습니다. Healthcare Dive는 승인된 의약품의 할인 방식이 선할인에서 사후 환급으로 바뀐다며, 지급 구조 변경에 대한 대상 기관들의 반대도 전했습니다.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "HRSA에 따르면 대상 기관은 청구 단계에서 적격 거래를 식별하고, 제약사는 이를 확인한 뒤 환급합니다. 승인 계획 목록에는 시행일이 2027년 1월 1일로 적혀 있습니다. 이는 시행 일정이며, 아직 기관이나 환자에게 미칠 효과를 보여주는 결과는 아닙니다.",
+          "citations": [1]
+        }
+      ],
+      "whyItMatters": "이 시범사업은 참여 기관이 일부 의약품에 대해 340B 상한 가격을 받는 시점과 방식을 바꿉니다. 실제 운영상 효과는 청구 검증과 환급 처리에 달려 있으며, HRSA는 시행 후 이를 평가하겠다고 밝혔습니다.",
+      "editorNote": "규제기관이 승인 계획을 공개했고 독립 보도로 확인된 당일 생의학 정책 사안 1건을 선정했습니다. 예상 효과는 HRSA에, 대상 기관의 반대는 Healthcare Dive에 귀속했습니다. 환자나 기관을 위한 지침은 포함하지 않았습니다. TODO-review: ‘340B rebate model’은 ‘340B 환급 모델’로 옮겼습니다. 용어집에 승인 표기가 없습니다.",
+      "cluster": [
+        {
+          "url": "https://www.hrsa.gov/opa/340b-model-pilot-program",
+          "source": "HRSA",
+          "title": "340B Rebate Model Pilot Program"
+        },
+        {
+          "url": "https://wsau.com/2026/10/02/abbvie-joins-us-government-pilot-to-test-drug-discount-rebates/",
+          "source": "Reuters (WSAU syndication)",
+          "title": "AbbVie joins US government pilot to test drug discount rebates"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.hrsa.gov/opa/340b-model-pilot-program",
+          "source": "HRSA",
+          "title": "340B Rebate Model Pilot Program"
+        },
+        {
+          "id": 2,
+          "url": "https://www.healthcaredive.com/news/340b-rebate-program-approved-drugs-hrsa/831913/",
+          "source": "Healthcare Dive",
+          "title": "HRSA discloses manufacturers approved for revised 340B rebate pilot"
+        }
+      ],
+      "tags": ["340B", "drug pricing", "regulation"],
+      "confidence": "medium"
+    }
+  ]
+}

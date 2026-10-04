@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-04",
+  "generatedAt": "2026-10-04T10:04:36Z",
+  "vertical": "markets",
+  "lang": "en",
+  "title": "OPEC+ weighs unchanged November targets",
+  "summary": "A thin edition: one oil-policy development had contemporaneous reporting from Reuters and Bloomberg alongside OPEC’s published meeting schedule. Several market-data feeds failed or were unavailable.",
+  "stories": [
+    {
+      "slug": "opec-plus-november-output-targets",
+      "headline": "OPEC+ set to keep November oil output targets steady, sources say",
+      "dek": "Reports citing delegates say the group’s core producers have agreed in principle to leave November targets unchanged ahead of an October 4 meeting.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "Reuters and Bloomberg reporting says seven core OPEC+ producers are expected to keep November output targets unchanged.",
+        "The reports describe an agreement in principle ahead of the group’s October 4 meeting, so the decision was not yet final in the available coverage.",
+        "OPEC’s prior statement scheduled the seven producers’ next meeting for October 4 amid continuing disruption to regional output."
+      ],
+      "body": [
+        {
+          "text": "Reuters reported, citing three sources close to the matter, that OPEC+ was set to keep November output targets steady. Bloomberg reporting carried by Investing.com likewise described an agreement in principle among seven producers ahead of Sunday’s meeting; neither report presented a final decision at publication time.",
+          "citations": [1, 2]
+        },
+        {
+          "text": "The seven producers are Saudi Arabia, Russia, Iraq, Kuwait, Algeria, Kazakhstan and Oman. OPEC’s September statement said their next meeting would be held on October 4. Reuters reported that regional producers were pumping below targets amid export disruptions, leaving formal quotas and physical supply out of alignment.",
+          "citations": [1, 3]
+        }
+      ],
+      "whyItMatters": "The reported pause concerns formal production targets, while Reuters says conflict-related export disruption has kept actual output below those targets. That gap limits what a quota decision alone can establish about near-term physical supply; no price direction follows from the reports.",
+      "editorNote": "The meeting was still pending at the time of collection. The expected outcome is attributed to reports citing delegates or unnamed sources; the story does not present it as an official OPEC decision and contains no investment advice.",
+      "cluster": [
+        {
+          "url": "https://ng.investing.com/news/commodities-news/opec-set-to-hold-november-oil-quotas-steady-as-middle-east-conflict-hits-output-2720736",
+          "source": "Investing.com (Bloomberg report)",
+          "title": "OPEC+ set to hold November oil quotas steady as Middle East conflict hits output"
+        },
+        {
+          "url": "https://www.opec.org/pr-detail/613-6-september-2026.html",
+          "source": "OPEC",
+          "title": "Saudi Arabia, Russia, Iraq, Kuwait, Kazakhstan, Algeria, and Oman reaffirm commitment to market stability"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.klsescreener.com/v2/news/view/1802611/OPEC_set_to_keep_November_oil_output_targets_steady_sources_say",
+          "source": "Reuters (KLSE Screener syndication)",
+          "title": "OPEC+ set to keep November oil output targets steady, sources say"
+        },
+        {
+          "id": 2,
+          "url": "https://ng.investing.com/news/commodities-news/opec-set-to-hold-november-oil-quotas-steady-as-middle-east-conflict-hits-output-2720736",
+          "source": "Investing.com (Bloomberg report)",
+          "title": "OPEC+ set to hold November oil quotas steady as Middle East conflict hits output"
+        },
+        {
+          "id": 3,
+          "url": "https://www.opec.org/pr-detail/613-6-september-2026.html",
+          "source": "OPEC",
+          "title": "Saudi Arabia, Russia, Iraq, Kuwait, Kazakhstan, Algeria, and Oman reaffirm commitment to market stability"
+        }
+      ],
+      "tags": ["OPEC+", "oil", "energy supply"],
+      "confidence": "medium"
+    }
+  ]
+}
