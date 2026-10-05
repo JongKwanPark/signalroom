@@ -1,10 +1,10 @@
 {
   "date": "2026-10-05",
-  "generatedAt": "2026-10-05T10:01:17.904Z",
+  "generatedAt": "2026-10-05T22:03:59.071Z",
   "vertical": "geo",
   "lang": "en",
   "title": "Geopolitics & Security | October 5, 2026",
-  "summary": "Five developments had corroborating coverage across outlets: Brazil’s presidential runoff, Yemen’s announced offensive, renewed strikes on Kyiv infrastructure, the withdrawal of U.S. bombers from RAF Fairford, and Spain’s snap election. Failed GDELT and ISW feeds limited additional cross-checking.",
+  "summary": "Five developments had corroborating coverage across outlets: Brazil’s presidential runoff, Yemen’s announced offensive, renewed strikes on Kyiv infrastructure, the withdrawal of U.S. bombers from RAF Fairford, and Spain’s snap election. Failed GDELT and ISW feeds, plus unavailable ReliefWeb and Polymarket endpoints, limited additional cross-checking.",
   "stories": [
     {
       "slug": "brazil-presidential-runoff-2026",
