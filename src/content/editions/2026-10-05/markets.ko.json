@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-05",
+  "generatedAt": "2026-10-05T10:01:17.904Z",
+  "vertical": "markets",
+  "lang": "ko",
+  "title": "시장·거시경제 | 2026년 10월 5일",
+  "summary": "두 시장 동향을 복수 보도로 확인했습니다. 프랑스와 스페인의 정치 불확실성 속 유로화가 17개월 저점을 기록했고, Saudi Aramco는 원유 재고 보충에 최대 2년이 걸릴 수 있다고 추산했습니다. SEC와 시장 데이터 수집은 실패했고 FRED에서는 결과가 없었습니다.",
+  "stories": [
+    {
+      "slug": "euro-17-month-low-europe-politics-ko",
+      "headline": "스페인·프랑스 정치 불확실성에 시장 흔들리며 유로화 17개월 저점",
+      "dek": "프랑스의 재정·정치 우려와 스페인의 조기 총선이 공통 통화에 부담을 줬습니다.",
+      "type": "DATA",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "유로화는 10월 5일 프랑스와 스페인의 정치·재정 불확실성을 반영하며 17개월 저점까지 하락했습니다.",
+        "Reuters는 유로화가 17개월 만에 가장 낮은 수준을 기록했다고 보도했고, CNBC도 양국의 정치 불확실성과 하락을 연결했습니다.",
+        "두 매체는 당일 시장 움직임과 보도된 배경을 전했으며 통화의 향후 방향을 전망하지는 않았습니다."
+      ],
+      "body": [
+        {
+          "text": "Reuters는 프랑스의 재정 상황과 스페인의 정치 불확실성에 대한 우려가 유로화를 압박해 17개월 저점에 이르렀다고 보도했습니다. CNBC도 양국의 정치적 불확실성과 유로화 하락을 연결해 별도로 전했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Reuters는 프랑스 대표 지수도 하락했고 스페인의 조기 총선 발표 이후 국채 수익률이 소폭 상승했다고 보도했습니다. 이는 당일 제한된 시장 반응이며 장기 추세를 입증하지는 않습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 움직임은 유로존 주요 경제국 둘 이상의 정치·재정 리스크가 공통 통화와 각국 자산에 동시에 반영될 수 있음을 보여줍니다. 보도만으로 국가별 영향의 크기를 나누거나 지속적인 재평가라고 단정할 수는 없습니다.",
+      "editorNote": "17개월 저점과 정치적 배경은 CNBC와 Reuters 보도에서 교차 확인했습니다. 매매 시사점이나 전망은 제시하지 않았습니다.",
+      "cluster": [
+        {
+          "url": "https://live.euronext.com/en/financial-news/euro-slides-france-worries-fed-pause-hopes-support-stocks",
+          "source": "Reuters via Euronext",
+          "title": "Euro slides on France worries; Fed pause hopes support stocks"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/05/euro-dollar-spain-france-risk.html",
+          "source": "CNBC",
+          "title": "Euro hits 17-month low as political uncertainty in Spain and France rattles markets",
+          "publishedAt": "2026-10-05"
+        },
+        {
+          "id": 2,
+          "url": "https://live.euronext.com/en/financial-news/euro-slides-france-worries-fed-pause-hopes-support-stocks",
+          "source": "Reuters via Euronext",
+          "title": "Euro slides on France worries; Fed pause hopes support stocks",
+          "publishedAt": "2026-10-05"
+        }
+      ],
+      "tags": [
+        "euro",
+        "France",
+        "Spain",
+        "foreign exchange"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "oil-stockpile-replenishment-two-years-ko",
+      "headline": "Saudi Aramco CEO “세계 원유 비축량 보충에 2년 걸릴 수 있어”",
+      "dek": "Amin Nasser는 Strait of Hormuz가 다시 열려도 수요를 충족하면서 비축량을 회복하는 데 최대 2년이 걸릴 수 있다고 말했습니다.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "Saudi Aramco CEO Amin Nasser는 수요를 충족하면서 재고를 보충하는 데 최대 2년이 걸릴 수 있다고 밝혔습니다.",
+        "Nasser는 Strait of Hormuz의 완전한 재개와 시장 신뢰 회복을 전제로 재고 감소를 근거로 들었습니다.",
+        "이 기간은 기업 최고경영자의 평가이며, 향후 공급량이나 가격을 독립적으로 측정한 전망은 아닙니다."
+      ],
+      "body": [
+        {
+          "text": "Reuters 보도를 게재한 The Business Times에 따르면 Nasser는 런던의 Energy Intelligence 콘퍼런스에서 수요를 충족하면서 재고를 보충하는 데 최대 2년이 걸릴 수 있다고 말했습니다. 그는 공급이 약 30억 배럴 감소했고 비축분에서 10억 배럴이 방출됐다고 밝혔습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "CNBC도 Nasser의 추산과 Strait of Hormuz가 완전히 다시 열릴 때까지 시장 압력이 이어질 수 있다는 발언을 별도로 보도했습니다. 이 기간은 기업 책임자의 평가이므로 검증된 공급 전망으로 읽어서는 안 됩니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이 발언은 당장의 공급 차질이 완화된 뒤에도 재고를 회복하는 데 시간이 오래 걸릴 수 있다는 관점을 제시합니다. 업계 경영진의 평가이므로 중립적인 시장 수급 전망과는 구분해야 합니다.",
+      "editorNote": "수치와 조건은 Nasser의 발언으로 귀속했습니다. The Business Times는 Reuters 보도를 게재했고, CNBC는 콘퍼런스 발언을 별도로 보도했습니다.",
+      "cluster": [
+        {
+          "url": "https://www.businesstimes.com.sg/companies-markets/energy-commodities/replenishing-crude-fuel-supplies-could-take-two-years-saudi-aramco-ceo",
+          "source": "The Business Times",
+          "title": "Replenishing crude, fuel supplies could take two years: Saudi Aramco CEO"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/05/aramco-saudi-arabia-iran-hormuz-oil-energy.html",
+          "source": "CNBC",
+          "title": "Saudi Aramco chief says replenishing global oil stockpiles could take two years",
+          "publishedAt": "2026-10-05"
+        },
+        {
+          "id": 2,
+          "url": "https://www.businesstimes.com.sg/companies-markets/energy-commodities/replenishing-crude-fuel-supplies-could-take-two-years-saudi-aramco-ceo",
+          "source": "The Business Times",
+          "title": "Replenishing crude, fuel supplies could take two years: Saudi Aramco CEO",
+          "publishedAt": "2026-10-05"
+        }
+      ],
+      "tags": [
+        "oil",
+        "inventories",
+        "Strait of Hormuz"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

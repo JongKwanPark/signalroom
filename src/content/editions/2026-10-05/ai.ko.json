@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-05",
+  "generatedAt": "2026-10-05T10:01:17.904Z",
+  "vertical": "ai",
+  "lang": "ko",
+  "title": "AI | 2026년 10월 5일",
+  "summary": "출처를 대조한 두 가지 동향을 담았습니다. arXiv는 제출자별 논문 투고 상한을 도입했고, OpenAI 안전 책임자는 퇴사 이유를 설명했습니다. 독립 확인이 어려운 제품 출시 소문과 개별 연구 게시물은 제외했습니다.",
+  "stories": [
+    {
+      "slug": "arxiv-monthly-submission-cap-ko",
+      "headline": "공정한 심사, 공평한 접근, AI: arXiv의 새 제출 제한 정책",
+      "dek": "저장소는 늘어난 제출량에 대응해 새 상한을 도입했으며, 접근성과 심사 부담을 둘러싼 논의도 이어질 전망입니다.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "arXiv는 제출자 한 명당 월간 제출을 최대 2건으로 제한하고, 동시에 심사 중일 수 있는 제출은 3건까지 허용한다고 밝혔습니다.",
+        "새 정책은 모든 분야에 적용되며 2026년 10월 1일부터 시행됐습니다.",
+        "arXiv는 정책의 영향을 살핀 뒤 필요하면 조정하겠다고 밝혔습니다."
+      ],
+      "body": [
+        {
+          "text": "arXiv는 제출자 한 명당 달력 기준 한 달에 최대 2건을 제출할 수 있도록 제한하고, 기존의 동시 활성 제출 상한인 3건은 유지한다고 발표했습니다. 이 정책은 모든 주제 분야에 적용되며 2026년 10월 1일부터 시행됐습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The Register는 arXiv가 심사 인력 부담과 얇거나 여러 편으로 쪼개진 제출물의 증가를 조치 배경으로 들었다고 보도했습니다. arXiv는 이 상한을 문제의 영구적 해결책이라기보다 효과를 살피며 조정할 조치로 제시했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이 변경은 AI를 포함한 여러 학문 분야에서 프리프린트가 유통되는 속도에 영향을 줍니다. 정책은 모든 분야에 적용되므로, 그 효과를 AI 제출량만으로 평가할 수는 없습니다.",
+      "editorNote": "정책 세부사항은 arXiv 발표를 따랐고, The Register는 심사 부담과 관련한 배경을 별도로 보도했습니다. 제출 상한은 영구 규정이 아니라 영향을 관찰하기 위한 조치로 서술했습니다.",
+      "cluster": [
+        {
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/02/arxiv-imposes-rate-limit-on-paper-submissions-to-stem-the-ai-slop-tide/5300899",
+          "source": "The Register",
+          "title": "ArXiv imposes rate limit on paper submissions to stem the AI slop tide"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/",
+          "source": "arXiv",
+          "title": "Fair Moderation, Equitable Access, and AI: arXiv’s Updated Rate Limit Policy",
+          "publishedAt": "2026-10-01"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/02/arxiv-imposes-rate-limit-on-paper-submissions-to-stem-the-ai-slop-tide/5300899",
+          "source": "The Register",
+          "title": "ArXiv imposes rate limit on paper submissions to stem the AI slop tide",
+          "publishedAt": "2026-10-02"
+        }
+      ],
+      "tags": [
+        "arXiv",
+        "research policy"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "openai-safety-lead-resigns-ko",
+      "headline": "OpenAI를 떠난 이유: 조직 문화가 망가졌기 때문이다",
+      "dek": "David Robinson의 1인칭 퇴사 기록은 안전 인력과 조직의 개발 속도를 둘러싼 논쟁을 부각합니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "David Robinson은 주요 제품 출시의 안전 보고서 작성을 이끌었던 OpenAI에서 3년 반 만에 퇴사했다고 밝혔습니다.",
+        "Robinson은 빠른 출시 주기와 문제 발생 후 대응하는 방식이 안전상 공백을 남긴다고 주장했습니다.",
+        "OpenAI는 안전·보안 관행을 계속 강화하고 필요할 때 모델 학습을 중단하거나 출시를 보류한다고 The Guardian에 밝혔습니다."
+      ],
+      "body": [
+        {
+          "text": "David Robinson은 1인칭 기고문에서 OpenAI를 떠났으며 주요 제품 출시와 함께 공개하는 안전 보고서 작성을 이끌었다고 밝혔습니다. 그는 회사의 빠른 개발 속도와 시행착오 중심 접근법 때문에 모델이 더 유능해질수록 안전 실패가 반복될 수 있다고 주장했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The Guardian은 Robinson의 퇴사를 별도로 보도하고, OpenAI가 안전 관행을 강화하고 필요할 경우 학습을 멈추거나 모델 출시를 보류한다고 밝힌 입장도 실었습니다. 조직 문화에 대한 평가는 Robinson의 견해이며, 독립적으로 확정된 사실은 아닙니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 퇴사는 프런티어 AI 연구소가 더 유능한 시스템을 배포하는 과정에서 안전 업무를 어떻게 조직할지를 둘러싼 논쟁에 당사자의 경험을 더합니다. 구체적인 쟁점은 조직 운영과 보호 절차이며, 인용된 자료가 미래 피해의 일반적 가능성을 입증하는 것은 아닙니다.",
+      "editorNote": "The Atlantic 기고문은 Robinson의 1인칭 설명이며, The Guardian은 OpenAI의 답변을 포함한 별도 보도입니다. 조직 문화와 위험에 관한 주장은 Robinson에게 귀속했습니다.",
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+          "source": "The Guardian",
+          "title": "OpenAI safety leader quits, warning AI company’s culture is ‘broken’"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/",
+          "source": "The Atlantic",
+          "title": "I Quit OpenAI Because Its Culture Is Broken",
+          "publishedAt": "2026-10-03"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+          "source": "The Guardian",
+          "title": "OpenAI safety leader quits, warning AI company’s culture is ‘broken’",
+          "publishedAt": "2026-10-03"
+        }
+      ],
+      "tags": [
+        "OpenAI",
+        "AI safety"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

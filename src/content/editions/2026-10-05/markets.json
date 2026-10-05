@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-05",
+  "generatedAt": "2026-10-05T10:01:17.904Z",
+  "vertical": "markets",
+  "lang": "en",
+  "title": "Markets & Macro | October 5, 2026",
+  "summary": "Two market developments had corroborating coverage: the euro’s 17-month low amid French and Spanish political uncertainty, and Saudi Aramco’s estimate that replenishing oil stockpiles could take up to two years. SEC and market-data feeds failed, while FRED returned no items.",
+  "stories": [
+    {
+      "slug": "euro-17-month-low-europe-politics",
+      "headline": "Euro hits 17-month low as political uncertainty in Spain and France rattles markets",
+      "dek": "Fiscal and political concerns in France, alongside Spain’s snap election, weighed on the common currency.",
+      "type": "DATA",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "The euro fell to a 17-month low on October 5 as markets weighed political and fiscal uncertainty in France and Spain.",
+        "Reuters reported the euro at its weakest level in 17 months; CNBC also reported the low and linked it to political uncertainty in both countries.",
+        "The sources describe a market move and its reported context, not a forecast for the currency."
+      ],
+      "body": [
+        {
+          "text": "The euro reached a 17-month low on Monday as concerns about France’s fiscal position and political uncertainty in Spain weighed on the currency, Reuters reported. CNBC independently described the decline as tied to political uncertainty in both countries.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Reuters reported that France’s benchmark index also fell and that Spanish government yields edged higher after the election call. These market reactions were limited observations on the day and do not establish a durable trend.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The episode shows how political and fiscal risk in more than one euro-area economy can move the common currency and local assets at the same time. The reports do not isolate the effect of each country or establish a lasting repricing.",
+      "editorNote": "The 17-month low and political context are corroborated by CNBC and Reuters. No trading implication or forecast is offered.",
+      "cluster": [
+        {
+          "url": "https://live.euronext.com/en/financial-news/euro-slides-france-worries-fed-pause-hopes-support-stocks",
+          "source": "Reuters via Euronext",
+          "title": "Euro slides on France worries; Fed pause hopes support stocks"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/05/euro-dollar-spain-france-risk.html",
+          "source": "CNBC",
+          "title": "Euro hits 17-month low as political uncertainty in Spain and France rattles markets",
+          "publishedAt": "2026-10-05"
+        },
+        {
+          "id": 2,
+          "url": "https://live.euronext.com/en/financial-news/euro-slides-france-worries-fed-pause-hopes-support-stocks",
+          "source": "Reuters via Euronext",
+          "title": "Euro slides on France worries; Fed pause hopes support stocks",
+          "publishedAt": "2026-10-05"
+        }
+      ],
+      "tags": [
+        "euro",
+        "France",
+        "Spain",
+        "foreign exchange"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "oil-stockpile-replenishment-two-years",
+      "headline": "Saudi Aramco chief says replenishing global oil stockpiles could take two years",
+      "dek": "Amin Nasser said inventories drawn down during the disruption may take up to two years to rebuild, even after the Strait of Hormuz reopens.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "Saudi Aramco CEO Amin Nasser said replenishing inventories while meeting demand could take up to two years.",
+        "Nasser linked the estimate to depleted stocks and the condition that the Strait of Hormuz fully reopens and confidence returns.",
+        "The timeline is an executive assessment, not an independently measured forecast of future supply or prices."
+      ],
+      "body": [
+        {
+          "text": "Nasser told the Energy Intelligence conference in London that replenishing inventories while meeting demand could take up to two years, after almost 3 billion barrels of supply had been lost and 1 billion barrel had been released from stocks, according to Reuters reporting carried by The Business Times.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "CNBC separately reported Nasser’s estimate and his view that market pressure would persist until the Strait of Hormuz fully reopened. The estimate is attributed to the company chief and should not be read as a verified supply projection.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The comments frame inventory rebuilding as a longer-tail issue after immediate supply disruptions ease. Because the estimate comes from an industry executive, it is a signal about the producer’s assessment rather than a neutral forecast of market balance.",
+      "editorNote": "The figure and conditional wording are attributed to Nasser. The Business Times article carries Reuters reporting; CNBC provides separate coverage of the conference remarks.",
+      "cluster": [
+        {
+          "url": "https://www.businesstimes.com.sg/companies-markets/energy-commodities/replenishing-crude-fuel-supplies-could-take-two-years-saudi-aramco-ceo",
+          "source": "The Business Times",
+          "title": "Replenishing crude, fuel supplies could take two years: Saudi Aramco CEO"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/05/aramco-saudi-arabia-iran-hormuz-oil-energy.html",
+          "source": "CNBC",
+          "title": "Saudi Aramco chief says replenishing global oil stockpiles could take two years",
+          "publishedAt": "2026-10-05"
+        },
+        {
+          "id": 2,
+          "url": "https://www.businesstimes.com.sg/companies-markets/energy-commodities/replenishing-crude-fuel-supplies-could-take-two-years-saudi-aramco-ceo",
+          "source": "The Business Times",
+          "title": "Replenishing crude, fuel supplies could take two years: Saudi Aramco CEO",
+          "publishedAt": "2026-10-05"
+        }
+      ],
+      "tags": [
+        "oil",
+        "inventories",
+        "Strait of Hormuz"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

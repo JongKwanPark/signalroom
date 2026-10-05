@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-05",
+  "generatedAt": "2026-10-05T10:01:17.904Z",
+  "vertical": "bio",
+  "lang": "en",
+  "title": "Bio & Health | October 5, 2026",
+  "summary": "One major, independently reported development met the evidence threshold: the 2026 Nobel Prize in Physiology or Medicine recognized optogenetics research. Much of the remaining feed consisted of paper metadata or trial registrations without a second independent source.",
+  "stories": [
+    {
+      "slug": "optogenetics-nobel-prize-2026",
+      "headline": "The 2026 Nobel Prize in Physiology or Medicine to Peter Hegemann, Georg Nagel and Karl Deisseroth",
+      "dek": "The award recognizes discoveries involving light-sensitive ion channels and the development of optogenetics.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "The 2026 Nobel Prize in Physiology or Medicine was awarded to Peter Hegemann, Georg Nagel and Karl Deisseroth.",
+        "The Nobel Assembly cited discoveries of light-sensitive ion channels and the development of optogenetics.",
+        "The method uses light to control selected cells and has become a research tool for studying neural activity."
+      ],
+      "body": [
+        {
+          "text": "The Nobel Assembly at Karolinska Institutet awarded the 2026 prize to Peter Hegemann, Georg Nagel and Karl Deisseroth for discoveries involving light-sensitive ion channels and optogenetics. The institute describes optogenetics as a method that uses light to control selected cells.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "STAT’s coverage likewise identifies optogenetics as the research tool recognized by the prize and reports the three laureates. The award recognizes a method and foundational discoveries; it does not itself establish a new clinical treatment.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "Optogenetics gives researchers a way to examine how defined neural activity relates to brain function. The prize highlights a foundational research tool, while clinical applications remain a separate question.",
+      "editorNote": "Award details follow Karolinska Institutet’s announcement. STAT and AP provide independent reporting; no clinical efficacy claim is made.",
+      "cluster": [
+        {
+          "url": "https://www.statnews.com/2026/10/05/nobel-prize-medicine-2026-winner-deisseroth-hegemann-nagel/",
+          "source": "STAT",
+          "title": "2026 Nobel Prize in Medicine awarded for brain research tool called optogenetics"
+        },
+        {
+          "url": "https://apnews.com/article/2efe9ee7eae9d808fd49a6da1f53ceba",
+          "source": "The Associated Press",
+          "title": "Nobel medicine prize goes to 3 scientists for research into brain activity"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://news.ki.se/the-2026-nobel-prize-in-physiology-or-medicine-to-peter-hegemann-georg-nagel-and-karl-deisseroth",
+          "source": "Karolinska Institutet",
+          "title": "The 2026 Nobel Prize in Physiology or Medicine to Peter Hegemann, Georg Nagel and Karl Deisseroth",
+          "publishedAt": "2026-10-05"
+        },
+        {
+          "id": 2,
+          "url": "https://www.statnews.com/2026/10/05/nobel-prize-medicine-2026-winner-deisseroth-hegemann-nagel/",
+          "source": "STAT",
+          "title": "2026 Nobel Prize in Medicine awarded for brain research tool called optogenetics",
+          "publishedAt": "2026-10-05"
+        },
+        {
+          "id": 3,
+          "url": "https://apnews.com/article/2efe9ee7eae9d808fd49a6da1f53ceba",
+          "source": "The Associated Press",
+          "title": "Nobel medicine prize goes to 3 scientists for research into brain activity",
+          "publishedAt": "2026-10-05"
+        }
+      ],
+      "tags": [
+        "Nobel Prize",
+        "optogenetics",
+        "neuroscience"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

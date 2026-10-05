@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-05",
+  "generatedAt": "2026-10-05T10:01:17.904Z",
+  "vertical": "ai",
+  "lang": "en",
+  "title": "AI | October 5, 2026",
+  "summary": "Two developments cleared source checks: arXiv introduced a submitter cap, and an OpenAI safety lead described why he resigned. Product-launch chatter and individual research posts were excluded without independent confirmation.",
+  "stories": [
+    {
+      "slug": "arxiv-monthly-submission-cap",
+      "headline": "Fair Moderation, Equitable Access, and AI: arXiv’s Updated Rate Limit Policy",
+      "dek": "The repository’s new limit addresses rising submission volume while raising questions about access and moderation.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "arXiv says each submitter may now make up to two submissions per calendar month, with a limit of three active submissions at a time.",
+        "The new policy applies across categories and took effect on October 1, 2026.",
+        "arXiv says it will monitor the policy’s effect and adjust it as needed."
+      ],
+      "body": [
+        {
+          "text": "arXiv announced a limit of two submissions per person per calendar month, alongside the existing cap of three active submissions. The policy applies to all subject categories and began on October 1, 2026.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The Register reported that arXiv framed the measure as a response to moderator workload and a rise in submissions it described as thin or fragmented. The organization presented the cap as a measure it will monitor, rather than a permanent settlement of the problem.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The change affects the flow of preprints across disciplines, including AI, where rapid publication is part of how research is circulated. Its stated scope is all categories, so its effects cannot be assessed from AI submissions alone.",
+      "editorNote": "The policy details are taken from arXiv’s announcement; The Register provides independent reporting on the stated moderation context. The cap is described as a monitoring measure, not a permanent rule.",
+      "cluster": [
+        {
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/02/arxiv-imposes-rate-limit-on-paper-submissions-to-stem-the-ai-slop-tide/5300899",
+          "source": "The Register",
+          "title": "ArXiv imposes rate limit on paper submissions to stem the AI slop tide"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/",
+          "source": "arXiv",
+          "title": "Fair Moderation, Equitable Access, and AI: arXiv’s Updated Rate Limit Policy",
+          "publishedAt": "2026-10-01"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/02/arxiv-imposes-rate-limit-on-paper-submissions-to-stem-the-ai-slop-tide/5300899",
+          "source": "The Register",
+          "title": "ArXiv imposes rate limit on paper submissions to stem the AI slop tide",
+          "publishedAt": "2026-10-02"
+        }
+      ],
+      "tags": [
+        "arXiv",
+        "research policy"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "openai-safety-lead-resigns",
+      "headline": "I Quit OpenAI Because Its Culture Is Broken",
+      "dek": "David Robinson’s first-person account of his resignation puts safety staffing and organizational pace at the center of the debate.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "David Robinson said he resigned from OpenAI after three and a half years, during which he led safety-report writing for product launches.",
+        "In his account, Robinson argued that the company’s fast deployment cycle and reliance on iterative fixes leave gaps in safety practice.",
+        "OpenAI told The Guardian that it continues to strengthen safety and security practices and pauses or holds back models when needed."
+      ],
+      "body": [
+        {
+          "text": "In a first-person essay, David Robinson said he resigned from OpenAI and had led the writing of safety reports accompanying major launches. He argued that the company’s pace and “trial and error” approach can allow failures to recur as systems become more capable.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The Guardian separately reported Robinson’s departure and included OpenAI’s response that the company is strengthening safety practices and can pause training or hold back models. Robinson’s assessment of the company’s culture is his own account, not an independently established finding.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The resignation adds a first-hand account to wider debate about how frontier AI labs organize safety work as they deploy more capable systems. The concrete disagreement is about organizational practice and safeguards; the cited material does not establish a general probability of future harm.",
+      "editorNote": "The Atlantic essay is Robinson’s first-person account; The Guardian provides separate reporting and OpenAI’s response. Claims about culture and risk are attributed to Robinson.",
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+          "source": "The Guardian",
+          "title": "OpenAI safety leader quits, warning AI company’s culture is ‘broken’"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/",
+          "source": "The Atlantic",
+          "title": "I Quit OpenAI Because Its Culture Is Broken",
+          "publishedAt": "2026-10-03"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+          "source": "The Guardian",
+          "title": "OpenAI safety leader quits, warning AI company’s culture is ‘broken’",
+          "publishedAt": "2026-10-03"
+        }
+      ],
+      "tags": [
+        "OpenAI",
+        "AI safety"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

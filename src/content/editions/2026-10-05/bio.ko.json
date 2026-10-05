@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-05",
+  "generatedAt": "2026-10-05T10:01:17.904Z",
+  "vertical": "bio",
+  "lang": "ko",
+  "title": "바이오·헬스 | 2026년 10월 5일",
+  "summary": "주요 동향 가운데 독립 보도와 공식 근거가 함께 확인된 1건을 담았습니다. 2026년 노벨 생리의학상은 광유전학 연구에 수여됐습니다. 나머지 수집 결과는 논문 메타데이터나 별도 출처가 없는 임상시험 등록 정보가 많았습니다.",
+  "stories": [
+    {
+      "slug": "optogenetics-nobel-prize-2026-ko",
+      "headline": "2026년 노벨 생리의학상, Peter Hegemann·Georg Nagel·Karl Deisseroth에게 수여",
+      "dek": "이번 상은 빛에 반응하는 이온 통로의 발견과 광유전학의 발전을 인정했습니다.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "2026년 노벨 생리의학상은 Peter Hegemann과 Georg Nagel, Karl Deisseroth에게 수여됐습니다.",
+        "노벨위원회는 빛에 의해 활성화되는 이온 통로의 발견과 광유전학의 발전을 수상 이유로 들었습니다.",
+        "광유전학은 빛으로 특정 세포를 제어해 신경 활동을 연구하는 도구로 발전했습니다."
+      ],
+      "body": [
+        {
+          "text": "Karolinska Institutet의 노벨위원회는 빛에 반응하는 이온 통로의 발견과 광유전학 연구를 인정해 Peter Hegemann과 Georg Nagel, Karl Deisseroth에게 2026년 상을 수여했습니다. 연구소는 광유전학을 빛으로 특정 세포를 제어하는 방법으로 설명합니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "STAT도 이번 수상이 신경 활동 연구에 쓰이는 광유전학 연구 도구를 인정한 것이라고 보도하며 세 수상자를 확인했습니다. 이번 상은 연구 방법과 기초 발견을 인정한 것이며, 그 자체로 새로운 임상 치료의 효과를 입증하지는 않습니다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "광유전학은 특정 신경 활동과 뇌 기능의 관계를 연구할 수 있는 방법을 제공합니다. 이번 수상은 기초 연구 도구의 중요성을 조명하며, 임상 적용 여부는 별도의 문제입니다.",
+      "editorNote": "수상 내용은 Karolinska Institutet 발표를 따랐고, STAT와 AP의 독립 보도를 대조했습니다. TODO-review: 용어집에 없는 “optogenetics”의 한국어 표기 “광유전학”을 용어집에 등재할지 확인.",
+      "cluster": [
+        {
+          "url": "https://www.statnews.com/2026/10/05/nobel-prize-medicine-2026-winner-deisseroth-hegemann-nagel/",
+          "source": "STAT",
+          "title": "2026 Nobel Prize in Medicine awarded for brain research tool called optogenetics"
+        },
+        {
+          "url": "https://apnews.com/article/2efe9ee7eae9d808fd49a6da1f53ceba",
+          "source": "The Associated Press",
+          "title": "Nobel medicine prize goes to 3 scientists for research into brain activity"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://news.ki.se/the-2026-nobel-prize-in-physiology-or-medicine-to-peter-hegemann-georg-nagel-and-karl-deisseroth",
+          "source": "Karolinska Institutet",
+          "title": "The 2026 Nobel Prize in Physiology or Medicine to Peter Hegemann, Georg Nagel and Karl Deisseroth",
+          "publishedAt": "2026-10-05"
+        },
+        {
+          "id": 2,
+          "url": "https://www.statnews.com/2026/10/05/nobel-prize-medicine-2026-winner-deisseroth-hegemann-nagel/",
+          "source": "STAT",
+          "title": "2026 Nobel Prize in Medicine awarded for brain research tool called optogenetics",
+          "publishedAt": "2026-10-05"
+        },
+        {
+          "id": 3,
+          "url": "https://apnews.com/article/2efe9ee7eae9d808fd49a6da1f53ceba",
+          "source": "The Associated Press",
+          "title": "Nobel medicine prize goes to 3 scientists for research into brain activity",
+          "publishedAt": "2026-10-05"
+        }
+      ],
+      "tags": [
+        "Nobel Prize",
+        "optogenetics",
+        "neuroscience"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

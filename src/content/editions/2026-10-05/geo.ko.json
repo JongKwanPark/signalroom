@@ -1,0 +1,309 @@
+{
+  "date": "2026-10-05",
+  "generatedAt": "2026-10-05T10:01:17.904Z",
+  "vertical": "geo",
+  "lang": "ko",
+  "title": "지정학·안보 | 2026년 10월 5일",
+  "summary": "복수 매체의 교차 보도가 확인된 다섯 가지 동향을 담았습니다. 브라질 대선 결선, 예멘 정부의 군사작전 발표, 키이우 기반시설 공격, RAF 페어퍼드에서의 미군 폭격기 철수, 스페인의 조기 총선입니다. GDELT와 ISW 수집원 오류로 추가 교차 확인에는 한계가 있었습니다.",
+  "stories": [
+    {
+      "slug": "brazil-presidential-runoff-2026-ko",
+      "headline": "브라질 대선 결선행…Flávio Bolsonaro, 현직 Lula 앞서",
+      "dek": "Flávio Bolsonaro는 1차 투표에서 앞섰지만 과반에는 미치지 못해 10월 25일 결선이 예정됐습니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "Flávio Bolsonaro와 현직 대통령 Luiz Inácio Lula da Silva가 브라질 대선 결선에 진출했습니다.",
+        "The Guardian은 99.9% 개표 시점에 Bolsonaro가 47%, Lula가 45.1%를 얻었다고 보도했습니다.",
+        "Agência Brasil에 따르면 결선 투표일은 10월 25일입니다."
+      ],
+      "body": [
+        {
+          "text": "브라질 대선은 Flávio Bolsonaro가 Luiz Inácio Lula da Silva보다 앞섰지만 과반을 확보하지 못해 결선으로 향합니다. The Guardian은 99.9% 개표 시점의 득표율을 Bolsonaro 47%, Lula 45.1%로 보도했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Agência Brasil도 두 후보가 1차 투표에서 가장 많은 표를 얻었으며 10월 25일 결선이 예정됐다고 전했습니다. 다음 투표에서 현직 대통령이 유임할지 야권 후보가 승리할지가 결정됩니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "결선 결과는 라틴아메리카 최대 경제국의 정책 방향과 지역 정치 블록의 균형에 영향을 줍니다. 1차 투표 결과는 경쟁 구도를 보여주지만 결선 결과를 결정하지는 않습니다.",
+      "editorNote": "득표율은 99.9% 개표 시점에 The Guardian이 보도한 수치이며, Agência Brasil이 결선 날짜를 확인했습니다. 정치적 성격 규정은 인용한 보도에 귀속했습니다.",
+      "cluster": [
+        {
+          "url": "https://agenciabrasil.ebc.com.br/en/politica/noticia/2026-10/flavio-bolsonaro-lula-head-runoff-brazils-presidential-race",
+          "source": "Agência Brasil",
+          "title": "Flávio Bolsonaro, Lula head for runoff in Brazil’s presidential race"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.theguardian.com/world/2026/oct/05/brazil-presidential-race-election-result-second-round-lula-flavio-bolsonaro",
+          "source": "The Guardian",
+          "title": "Brazil’s presidential race goes to second round as Flávio Bolsonaro leads incumbent Lula",
+          "publishedAt": "2026-10-05"
+        },
+        {
+          "id": 2,
+          "url": "https://agenciabrasil.ebc.com.br/en/politica/noticia/2026-10/flavio-bolsonaro-lula-head-runoff-brazils-presidential-race",
+          "source": "Agência Brasil",
+          "title": "Flávio Bolsonaro, Lula head for runoff in Brazil’s presidential race",
+          "publishedAt": "2026-10-05"
+        }
+      ],
+      "tags": [
+        "Brazil",
+        "elections"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "yemen-government-offensive-houthis-ko",
+      "headline": "예멘 정부, 후티 반군 영토 탈환 위한 전면전 선언",
+      "dek": "국제사회가 인정하는 예멘 정부는 지역 내 교전이 재개된 가운데 후티가 장악한 영토를 되찾기 위한 군사작전을 발표했습니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "예멘의 국제사회 인정 정부는 후티가 장악한 영토를 탈환하기 위한 군사작전을 발표했습니다.",
+        "Reuters는 대통령지도위원회 수장이 작전을 발표했다고 보도했습니다.",
+        "이번 발표는 지역 내 교전 재개와 광역 분쟁이 이어지는 가운데 나왔으며, 인용 보도만으로 실제 영토 변화 규모를 판단할 수는 없습니다."
+      ],
+      "body": [
+        {
+          "text": "예멘 대통령 Rashad al-Alimi는 후티가 장악한 영토를 되찾기 위한 군사작전을 발표했다고 BBC와 Reuters가 보도했습니다. 정부 발표는 작전의 목표를 밝힌 것이며, 영토를 실제로 탈환했다는 뜻은 아닙니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Reuters는 Sanaa와 Saada 주변에서 교전과 공습이 재개됐다고 보도했고, BBC는 이를 더 넓은 지역 분쟁의 맥락에서 다뤘습니다. 작전의 규모와 지속 기간은 아직 불확실합니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "예멘에서 군사작전이 재개되면 홍해 해상로 인근의 안보 압력이 커질 수 있으며, 국내 분쟁이 역내 안보와 맞물릴 수 있습니다. 실제 전개에 따라 달라질 사안으로, 해운 차질을 예측하는 것은 아닙니다.",
+      "editorNote": "헤드라인은 BBC 보도를 따랐습니다. 영토 탈환 목표는 정부 발표에 귀속했으며, 인용 보도는 작전 결과를 확인하지 않습니다.",
+      "cluster": [
+        {
+          "url": "https://theprint.in/world/yemen-leader-announces-major-military-operation-against-iran-backed-houthis/3061667/",
+          "source": "Reuters via ThePrint",
+          "title": "Yemen leader announces major military operations against Iran-backed Houthis"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cx8dzj9vpp01o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Yemen's government announces all-out war to reclaim land from Houthis",
+          "publishedAt": "2026-10-05"
+        },
+        {
+          "id": 2,
+          "url": "https://theprint.in/world/yemen-leader-announces-major-military-operation-against-iran-backed-houthis/3061667/",
+          "source": "Reuters via ThePrint",
+          "title": "Yemen leader announces major military operations against Iran-backed Houthis",
+          "publishedAt": "2026-10-04"
+        }
+      ],
+      "tags": [
+        "Yemen",
+        "Houthis",
+        "Red Sea"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "kyiv-bridge-drone-strikes-ko",
+      "headline": "독일 총리 전격 방문 중 러시아 드론 공격으로 키이우 교량 피격",
+      "dek": "Friedrich Merz의 방문 중 수도의 교량과 다른 기반시설을 겨냥한 공격이 이어졌습니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "BBC는 10월 4일 러시아 공격으로 키이우의 Pivnichnyi 교량이 피격돼 난방관이 손상됐다고 보도했습니다.",
+        "BBC에 따르면 키이우의 주요 교량은 나흘 연속 공격을 받았으며, AP도 Northern Bridge 피해를 보도했습니다.",
+        "독일 총리 Friedrich Merz는 키이우를 방문해 우크라이나 방공에 대한 추가 지원을 발표했습니다."
+      ],
+      "body": [
+        {
+          "text": "BBC는 키이우의 Pivnichnyi(북부) 교량이 이틀 연속 피격돼 난방관이 손상됐다고 보도했습니다. Associated Press도 러시아의 공격 중 교량이 다시 피해를 입었다고 별도로 전했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP에 따르면 Merz는 일요일 키이우를 방문해 새 지원 패키지를 발표했습니다. BBC는 그가 우크라이나 방공에 대한 지원을 재확인했다고 보도했습니다. 보도는 기반시설 피해와 외교적 지원을 다루며, 도시 통제의 변화는 전하지 않습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "반복적인 교량 공격은 수도의 민간 이동과 물류를 방해할 수 있고, 이번 방문은 공격 상황과 유럽의 안보 지원을 연결했습니다. 장기적인 피해 규모는 인용 보도에서 확인되지 않았습니다.",
+      "editorNote": "피해 상황과 발언은 BBC, AP 및 양 매체가 인용한 우크라이나 당국자에게 귀속했습니다. 확인되지 않은 영상은 근거로 사용하지 않았습니다.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/89bb8d2a97cc09d01a316723d08d2fb3",
+          "source": "The Associated Press",
+          "title": "Germany's Merz announces new aid for Ukraine in Kyiv as Russia steps up attacks"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit",
+          "publishedAt": "2026-10-05"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/89bb8d2a97cc09d01a316723d08d2fb3",
+          "source": "The Associated Press",
+          "title": "Germany's Merz announces new aid for Ukraine in Kyiv as Russia steps up attacks",
+          "publishedAt": "2026-10-04"
+        }
+      ],
+      "tags": [
+        "Ukraine",
+        "Russia",
+        "critical infrastructure"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "us-bombers-leave-raf-fairford-ko",
+      "headline": "미 공군, 영국 RAF 페어퍼드 기지에서 폭격기 전원 철수",
+      "dek": "이번 철수는 기지 주변 보안 사건을 둘러싼 수사가 진행되는 가운데 이뤄졌습니다.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "미 공군은 RAF 페어퍼드에 배치된 폭격기를 모두 미국 내 기지로 재배치했습니다.",
+        "AP와 BBC는 이번 조치를 기지 주변에서 발생한 대테러 수사 대상 보안 사건과 연결해 보도했습니다.",
+        "미 당국은 위협의 세부사항을 공개하지 않았으며, 보도만으로 철수가 일시적인지 판단할 수는 없습니다."
+      ],
+      "body": [
+        {
+          "text": "BBC는 대테러 경찰이 수사 중인 보안 사건 이후 미 공군이 RAF 페어퍼드의 폭격기를 모두 철수시켰다고 보도했습니다. AP는 국방부 관계자를 인용해 항공기가 미국 내 기지로 돌아갔다고 전했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이 기지는 역내 작전을 수행하는 미 폭격기의 운용 거점으로 사용돼 왔습니다. AP가 인용한 당국자는 민감한 작전 정보를 공개하지 않았으므로, 철수 기간이나 더 넓은 배치 계획의 변화는 확인되지 않았습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "수사가 진행되는 가운데 영국의 주요 미군 운용 거점에서 단기적인 배치 변화가 발생했습니다. 항공기가 복귀할지 또는 배치 계획이 더 넓게 바뀌었는지는 보도에서 확인되지 않았습니다.",
+      "editorNote": "BBC와 AP는 폭격기 철수와 수사 진행을 보도했습니다. 용의자의 신원이나 향후 배치 일정에 대한 추론은 하지 않았습니다.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/5280111d976b89a6245f277e8b899f8f",
+          "source": "The Associated Press",
+          "title": "US Air Force removes all bombers from British air base targeted by a suspected terror attack"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cmwyve191dlko?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "US air force removes all bombers from British military base RAF Fairford",
+          "publishedAt": "2026-10-05"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/5280111d976b89a6245f277e8b899f8f",
+          "source": "The Associated Press",
+          "title": "US Air Force removes all bombers from British air base targeted by a suspected terror attack",
+          "publishedAt": "2026-10-04"
+        }
+      ],
+      "tags": [
+        "United States",
+        "United Kingdom",
+        "military posture"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "spain-snap-election-housing-ko",
+      "headline": "주거 위기 압박 속 스페인 총리, 조기 총선 실시 발표",
+      "dek": "Pedro Sánchez는 소수 정부가 제안한 주거 대책이 의회에서 부결된 뒤 11월 29일 총선을 발표했습니다.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "스페인 총리 Pedro Sánchez는 11월 29일 조기 총선을 발표했습니다.",
+        "AP와 Al Jazeera는 소수 정부가 제안한 긴급 주거 대책이 의회에서 부결된 뒤 발표가 나왔다고 보도했습니다.",
+        "AP에 따르면 이번 총선은 원래 내년에 예정됐던 전국 단위 투표를 앞당깁니다."
+      ],
+      "body": [
+        {
+          "text": "Sánchez는 소수 정부가 제안한 주거 관련 대책이 의회에서 부결된 뒤 11월 29일 조기 총선을 발표했습니다. Associated Press와 Al Jazeera는 총선 날짜와 의회 패배를 확인했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "발표에 앞서 주거비 부담 문제를 둘러싼 시위가 이어졌습니다. 보도는 정치적 배경을 설명하지만 주거 문제가 선거 결과에 미칠 영향까지 입증하지는 않습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 결정은 주거 정책 논쟁과 의회 패배를 집권 연정의 지지 기반을 시험할 임박한 선거로 전환합니다. 스페인의 정치적 불확실성이 이어지는 가운데 일정이 추가됐지만, 선거 결과가 정해진 것은 아닙니다.",
+      "editorNote": "총선 날짜와 발표 배경은 AP와 Al Jazeera가 확인했습니다. 투표 결과에 미칠 영향은 불확실합니다.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/5/spanish-prime-minister-pedro-sanchez-announces-snap-election",
+          "source": "Al Jazeera",
+          "title": "Spanish Prime Minister Pedro Sanchez announces snap election"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/7d8347e35f1a9e2965ea5b0f8c012bd8",
+          "source": "The Associated Press",
+          "title": "Spain's prime minister calls early elections as pressure mounts over housing crisis",
+          "publishedAt": "2026-10-05"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/news/2026/10/5/spanish-prime-minister-pedro-sanchez-announces-snap-election",
+          "source": "Al Jazeera",
+          "title": "Spanish Prime Minister Pedro Sanchez announces snap election",
+          "publishedAt": "2026-10-05"
+        }
+      ],
+      "tags": [
+        "Spain",
+        "housing",
+        "elections"
+      ],
+      "confidence": "high"
+    }
+  ]
+}
