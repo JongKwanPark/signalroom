@@ -4,7 +4,7 @@
   "vertical": "ai",
   "lang": "ko",
   "title": "AI 동향: 감독 체계와 모니터 회피",
-  "summary": "오늘은 상호 검증과 인용 기준을 충족한 AI 연구 한 편을 다룹니다.",
+  "summary": "오늘 AI 에디션은 편수가 적습니다. 오늘 교차검증과 인용 기준을 충족한 논문은 한 편입니다.",
   "stories": [
     {
       "slug": "llms-learn-to-evade-latent-monitors-from-prior-feedback-alone-ko",
