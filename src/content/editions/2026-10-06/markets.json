@@ -4,7 +4,7 @@
   "vertical": "markets",
   "lang": "en",
   "title": "Markets: regional AI outlook and Lucid deliveries",
-  "summary": "A thin markets edition today: two evidence-backed items, a World Bank regional forecast and Lucid’s reported quarterly production and delivery totals.",
+  "summary": "The edition preserves its earlier coverage and adds a company-announced nuclear power agreement tied to data-center demand. Three stories met the verification threshold; collected market chatter and single-source items were excluded.",
   "stories": [
     {
       "slug": "east-asia-and-pacific-sees-steady-growth-amid-global-uncertainty",
@@ -122,6 +122,62 @@
         "deliveries"
       ],
       "confidence": "medium"
+    },
+    {
+      "slug": "google-constellation-890mw-nuclear-power-deal",
+      "headline": "Google and Constellation Announce Landmark Agreement to Bring 890 MW of New Nuclear Capacity to PJM Grid as Part of Long-Term Power Deal",
+      "dek": "The companies say the agreement will add nuclear generation to the PJM grid, linking large-load demand with new power supply.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "Google and Constellation announced a long-term power agreement tied to 890 MW of new nuclear capacity on the PJM grid.",
+        "The companies say the deal is intended to support grid reliability as electricity demand grows.",
+        "The announcement highlights how data-center demand is shaping new generation agreements, while delivery timing and costs remain key open questions."
+      ],
+      "body": [
+        {
+          "text": "Google and Constellation said their agreement is intended to bring 890 MW of new nuclear capacity to the PJM Interconnection grid.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The Associated Press reported the agreement as a long-term deal to supply electricity to Google, connecting the project to rising demand from data centers.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The agreement ties a large technology buyer’s power needs to additional nuclear generation in a major US grid. The announcement underscores growing competition for firm electricity supply, but the materials reviewed do not establish final costs or delivery outcomes.",
+      "editorNote": "Headline copied verbatim from the companies’ announcement. Capacity and project framing are attributed to the announcement; no price or completion date is inferred.",
+      "cluster": [
+        {
+          "url": "https://www.marketwatch.com/story/google-makes-a-fresh-bet-on-nuclear-power-as-the-ai-energy-crunch-intensifies-a757c296",
+          "source": "MarketWatch",
+          "title": "Google makes a fresh bet on nuclear power as the AI energy crunch intensifies"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.googlecloudpresscorner.com/2026-10-06-Google-and-Constellation-Announce-Landmark-Agreement-to-Bring-890-MW-of-New-Nuclear-Capacity-to-PJM-Grid-as-Part-of-Long-Term-Power-Deal",
+          "source": "Google and Constellation",
+          "title": "Google and Constellation Announce Landmark Agreement to Bring 890 MW of New Nuclear Capacity to PJM Grid as Part of Long-Term Power Deal"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/e8285ec7afbe81e9df277e8ee2127982",
+          "source": "Associated Press",
+          "title": "US stocks rise to a record on expectations companies will make even fatter profits"
+        }
+      ],
+      "tags": [
+        "electricity",
+        "nuclear power",
+        "data centers",
+        "PJM"
+      ],
+      "confidence": "high"
     }
   ]
 }

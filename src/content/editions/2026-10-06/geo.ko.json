@@ -4,7 +4,7 @@
   "vertical": "geo",
   "lang": "ko",
   "title": "지정학 동향: 케냐의 에볼라 확진, 예멘 전황 주장은 엇갈려",
-  "summary": "오늘 지정학 에디션은 편수가 적습니다. 케냐의 에볼라 유입 사례와 예멘 홍해 연안의 엇갈리는 전황 주장을 다룹니다.",
+  "summary": "기존 보도를 보존하고 독일 전 정보기관장 체포와 프랑스 학교 재정 시위 보도를 추가했습니다. 검증 기준을 충족한 기사는 4편이며, 나머지 수집 항목은 교차 확인이 충분하지 않았습니다.",
   "stories": [
     {
       "slug": "kenya-confirms-first-ebola-case-and-says-patient-has-died-ko",
@@ -150,6 +150,116 @@
         "Bab el-Mandeb"
       ],
       "confidence": "medium"
+    },
+    {
+      "slug": "former-german-intelligence-chief-arrested-ko",
+      "headline": "독일 전 정보기관장, 국가기밀 유출·반역 혐의로 체포",
+      "dek": "검찰은 전 BND 수장이 간첩 행위에 연루됐다고 의심하고 있습니다. 사건은 형사 사법 절차로 넘어갔습니다.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "독일 당국이 전 BND 수장 아우구스트 하닝을 간첩 행위와 반역 혐의로 체포했습니다.",
+        "혐의는 국가기밀 취급과 관련된 것으로, 유죄 판결이 난 것은 아닙니다.",
+        "이번 사건으로 정보기관 인력과 기밀정보 관리에 대한 감독이 다시 주목받고 있습니다."
+      ],
+      "body": [
+        {
+          "text": "AP는 검찰이 아우구스트 하닝의 반역적 간첩 행위와 국가기밀 공개를 의심한다고 보도했습니다. 혐의는 아직 법원에서 판단되지 않았습니다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "DW도 체포 사실을 전하며 국가기밀을 넘겼다는 의혹이 수사 대상이라고 보도했습니다.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "독일 해외정보기관의 전 수장이 연루된 체포 사건으로 기밀정보 보호 문제가 제기됐습니다. 현재 보도는 혐의만 전하고 있으며 유죄 여부나 의심되는 행위의 전체 범위를 확정하지 않습니다.",
+      "editorNote": "AP 원문 헤드라인을 그대로 옮겼습니다. 법적 주장은 혐의로 표시했으며 유죄를 단정하지 않았습니다.",
+      "cluster": [
+        {
+          "url": "https://abcnews.com/International/wireStory/spy-chief-arrested-germany-suspicion-trading-state-secrets-137025370",
+          "source": "ABC News",
+          "title": "Ex-spy chief is arrested in Germany on suspicion of trading state secrets and treason"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/47bb15543a3e2404e3f756dbb517d14c",
+          "source": "Associated Press",
+          "title": "Ex-spy chief is arrested in Germany on suspicion of trading state secrets and treason"
+        },
+        {
+          "id": 2,
+          "url": "https://amp.dw.com/en/germanys-ex-spy-chief-arrested-for-espionage/a-79560278",
+          "source": "DW",
+          "title": "Germany’s ex-spy chief arrested for espionage"
+        }
+      ],
+      "tags": [
+        "Germany",
+        "intelligence",
+        "national security"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "french-school-protests-spread-nationwide-ko",
+      "headline": "프랑스 전역에서 학교 재정 요구 시위…경찰, 최루가스 발사",
+      "dek": "교육 재정을 둘러싼 시위가 프랑스 전역으로 번졌고, 파리 등에서 경찰이 최루가스를 사용했습니다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "프랑스 경찰은 학교 재정 확대를 요구하는 전국 시위에서 최루가스를 사용했습니다.",
+        "AP는 정부 집계를 인용해 25만 명이 넘게 집회에 참여했다고 보도했습니다.",
+        "이번 시위는 공공지출을 둘러싼 요구가 이어지는 가운데 예산 결정에 압박을 더합니다."
+      ],
+      "body": [
+        {
+          "text": "AP는 정부 집계를 인용해 전국 시위에 25만 명 이상이 참여했다고 보도했으며, 파리 등에서 경찰이 최루가스를 발사했다고 전했습니다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "BBC도 학교 시위가 확산하는 가운데 파리와 마르세유에서 최루가스가 사용됐다고 보도했습니다.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "시위는 교육 재정 요구와 프랑스의 더 넓은 재정 논쟁을 연결합니다. 참가 규모는 AP가 정부 자료를 인용해 전한 수치이며, 보도만으로 정부의 대응 방향이 정해졌다고 볼 수는 없습니다.",
+      "editorNote": "AP 원문 헤드라인을 그대로 옮겼습니다. 참가 규모는 AP가 정부 집계를 인용한 내용이며 독립 집계로 제시하지 않았습니다.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/06/france-student-protests-budget.html",
+          "source": "CNBC",
+          "title": "Student riots engulf France as far-right presidential frontrunner Le Pen vows fiscal turnaround"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/dd78a1a2b80d4c84a92bcdde6f96e988",
+          "source": "Associated Press",
+          "title": "French riot police fire tear gas as more than 250,000 rally nationwide for school funding"
+        },
+        {
+          "id": 2,
+          "url": "https://www.bbc.co.uk/news/articles/c8x23706pvz3o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Tear gas in Paris and Marseille as school protests grow across France"
+        }
+      ],
+      "tags": [
+        "France",
+        "public spending",
+        "education"
+      ],
+      "confidence": "high"
     }
   ]
 }

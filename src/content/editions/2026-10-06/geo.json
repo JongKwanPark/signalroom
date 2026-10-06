@@ -4,7 +4,7 @@
   "vertical": "geo",
   "lang": "en",
   "title": "Geo signals: Ebola reaches Kenya; Yemen claims contested",
-  "summary": "A thin geo edition today: two developments stood out, a confirmed imported Ebola case in Kenya and contested battlefield claims around Yemen’s Red Sea coast.",
+  "summary": "The edition preserves its earlier coverage and adds reporting on the arrest of a former German intelligence chief and France’s school-funding protests. Four stories met the verification threshold; the remaining collected items were not sufficiently corroborated.",
   "stories": [
     {
       "slug": "kenya-confirms-first-ebola-case-and-says-patient-has-died",
@@ -150,6 +150,116 @@
         "Bab el-Mandeb"
       ],
       "confidence": "medium"
+    },
+    {
+      "slug": "former-german-intelligence-chief-arrested",
+      "headline": "Ex-spy chief is arrested in Germany on suspicion of trading state secrets and treason",
+      "dek": "German prosecutors allege a former head of the BND was involved in espionage; the case is now in the criminal justice system.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "German authorities arrested former BND chief August Hanning on suspicion of espionage and treason.",
+        "The allegations concern the handling of state secrets and remain accusations, not findings of guilt.",
+        "The case puts oversight of intelligence personnel and classified information under renewed scrutiny."
+      ],
+      "body": [
+        {
+          "text": "The Associated Press reported that prosecutors suspect August Hanning of treasonous espionage and disclosing state secrets; the allegations have not been adjudicated.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "DW separately reported the arrest and described the investigation as involving alleged state-secret disclosures.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The arrest concerns a former leader of Germany’s foreign intelligence service and raises questions about protection of classified information. The available reports describe allegations and do not establish guilt or the full scope of the suspected conduct.",
+      "editorNote": "Headline copied verbatim from AP. Legal claims are framed as allegations; no conclusion on guilt is implied.",
+      "cluster": [
+        {
+          "url": "https://abcnews.com/International/wireStory/spy-chief-arrested-germany-suspicion-trading-state-secrets-137025370",
+          "source": "ABC News",
+          "title": "Ex-spy chief is arrested in Germany on suspicion of trading state secrets and treason"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/47bb15543a3e2404e3f756dbb517d14c",
+          "source": "Associated Press",
+          "title": "Ex-spy chief is arrested in Germany on suspicion of trading state secrets and treason"
+        },
+        {
+          "id": 2,
+          "url": "https://amp.dw.com/en/germanys-ex-spy-chief-arrested-for-espionage/a-79560278",
+          "source": "DW",
+          "title": "Germany’s ex-spy chief arrested for espionage"
+        }
+      ],
+      "tags": [
+        "Germany",
+        "intelligence",
+        "national security"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "french-school-protests-spread-nationwide",
+      "headline": "French riot police fire tear gas as more than 250,000 rally nationwide for school funding",
+      "dek": "Demonstrations over education funding spread across France, with police using tear gas in Paris and other cities.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "French police used tear gas as school-funding demonstrations took place across the country.",
+        "The Associated Press reported that more than 250,000 people rallied, citing government figures.",
+        "The protests add pressure to budget decisions as France faces demands over public spending."
+      ],
+      "body": [
+        {
+          "text": "The Associated Press reported that more than 250,000 people joined nationwide demonstrations for school funding, citing government figures; police fired tear gas in Paris and elsewhere.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "BBC coverage also described tear gas use in Paris and Marseille as school protests expanded.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The demonstrations connect education funding demands with France’s wider fiscal debate. The scale figure is attributed to government data as reported by AP, while the reports do not establish how the government will respond.",
+      "editorNote": "Headline copied verbatim from AP. The attendance figure is attributed to government figures through AP; no independent count is asserted.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/06/france-student-protests-budget.html",
+          "source": "CNBC",
+          "title": "Student riots engulf France as far-right presidential frontrunner Le Pen vows fiscal turnaround"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/dd78a1a2b80d4c84a92bcdde6f96e988",
+          "source": "Associated Press",
+          "title": "French riot police fire tear gas as more than 250,000 rally nationwide for school funding"
+        },
+        {
+          "id": 2,
+          "url": "https://www.bbc.co.uk/news/articles/c8x23706pvz3o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Tear gas in Paris and Marseille as school protests grow across France"
+        }
+      ],
+      "tags": [
+        "France",
+        "public spending",
+        "education"
+      ],
+      "confidence": "high"
     }
   ]
 }

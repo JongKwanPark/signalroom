@@ -4,7 +4,7 @@
   "vertical": "ai",
   "lang": "ko",
   "title": "AI 동향: 감독 체계와 모니터 회피",
-  "summary": "오늘 AI 에디션은 편수가 적습니다. 오늘 교차검증과 인용 기준을 충족한 논문은 한 편입니다.",
+  "summary": "기존 보도를 보존하고 Google의 EmbeddingGemma 2 출시를 추가했습니다. 독립적으로 확인되는 산업·정책 신호가 적어 오늘 AI 편성은 2편으로 얇습니다.",
   "stories": [
     {
       "slug": "llms-learn-to-evade-latent-monitors-from-prior-feedback-alone-ko",
@@ -62,6 +62,62 @@
         "monitoring"
       ],
       "confidence": "medium"
+    },
+    {
+      "slug": "google-releases-embeddinggemma-2-ko",
+      "headline": "Google, 다중 모달 임베딩 오픈 모델 EmbeddingGemma 2 공개",
+      "dek": "Google은 텍스트, 코드, 이미지, 동영상, 오디오를 공통 공간에 표현하도록 설계된 오픈 임베딩 모델을 공개했습니다.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "Google은 오픈 다중 모달 임베딩 모델 EmbeddingGemma 2를 발표했습니다.",
+        "이 모델은 텍스트, 코드, 이미지, 동영상, 오디오를 공통 임베딩 공간에 매핑하도록 설계됐습니다.",
+        "이번 공개로 Google의 온디바이스 AI 포트폴리오가 확장됐지만, 인용한 자료만으로는 독립 벤치마크 결과를 확인할 수 없습니다."
+      ],
+      "body": [
+        {
+          "text": "Google은 EmbeddingGemma 2를 텍스트, 코드, 이미지, 동영상, 오디오를 지원하는 다중 모달 임베딩 오픈 모델로 소개했습니다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The Next Web은 이 모델을 온디바이스 사용을 겨냥한 740M 파라미터 모델로 별도 보도했습니다. 해당 파라미터 수는 보도에 귀속됩니다.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 공개는 Google의 엣지 AI 제품군에 다중 모달 검색 구성요소를 추가합니다. 실제 활용 범위는 배포 제약과 독립 평가에 달려 있으며, Google의 출시 자료만으로는 이를 확정할 수 없습니다.",
+      "editorNote": "Google 발표의 헤드라인을 그대로 옮겼습니다. 파라미터 수와 온디바이스 설명은 The Next Web 보도에 귀속했으며 성능을 추정하지 않았습니다.",
+      "cluster": [
+        {
+          "url": "https://qdrant.tech/blog/embeddinggemma-2/",
+          "source": "Qdrant",
+          "title": "How Small Can Google’s New EmbeddingGemma 2 Get?"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+          "source": "Google",
+          "title": "EmbeddingGemma 2 is a best-in-class open model for natively multimodal embeddings"
+        },
+        {
+          "id": 2,
+          "url": "https://thenextweb.com/news/embeddinggemma-2-on-device-europe",
+          "source": "The Next Web",
+          "title": "Google launches EmbeddingGemma 2, an open multimodal embedding model for devices"
+        }
+      ],
+      "tags": [
+        "Google",
+        "open models",
+        "multimodal AI",
+        "edge AI"
+      ],
+      "confidence": "high"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "vertical": "ai",
   "lang": "en",
   "title": "AI signals: oversight and monitor evasion",
-  "summary": "Thin AI edition: only one paper met today’s corroboration and citation checks.",
+  "summary": "The edition preserves its earlier coverage and adds Google’s EmbeddingGemma 2 release. With few independently corroborated industry or policy developments, today’s AI edition is thin at two stories.",
   "stories": [
     {
       "slug": "llms-learn-to-evade-latent-monitors-from-prior-feedback-alone",
@@ -62,6 +62,62 @@
         "monitoring"
       ],
       "confidence": "medium"
+    },
+    {
+      "slug": "google-releases-embeddinggemma-2",
+      "headline": "EmbeddingGemma 2 is a best-in-class open model for natively multimodal embeddings",
+      "dek": "Google introduced an open embedding model designed to represent text, code, images, video and audio in a shared space.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "Google announced EmbeddingGemma 2, an open multimodal embedding model.",
+        "The model is designed to map text, code, images, video and audio into a shared embedding space.",
+        "The release extends Google’s on-device AI portfolio, while the cited materials do not establish independent benchmark results."
+      ],
+      "body": [
+        {
+          "text": "Google introduced EmbeddingGemma 2 as an open model for multimodal embeddings, covering text, code, images, video and audio.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The Next Web separately reported the release as a 740-million-parameter model intended for on-device use; that parameter count is attributed to its report.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The release adds a multimodal retrieval component to Google’s edge AI offerings. Its practical reach will depend on deployment constraints and independent evaluation, which the launch materials do not settle.",
+      "editorNote": "The headline is copied verbatim from Google’s announcement. Parameter count and on-device framing are attributed to The Next Web; no performance claim is inferred.",
+      "cluster": [
+        {
+          "url": "https://qdrant.tech/blog/embeddinggemma-2/",
+          "source": "Qdrant",
+          "title": "How Small Can Google’s New EmbeddingGemma 2 Get?"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+          "source": "Google",
+          "title": "EmbeddingGemma 2 is a best-in-class open model for natively multimodal embeddings"
+        },
+        {
+          "id": 2,
+          "url": "https://thenextweb.com/news/embeddinggemma-2-on-device-europe",
+          "source": "The Next Web",
+          "title": "Google launches EmbeddingGemma 2, an open multimodal embedding model for devices"
+        }
+      ],
+      "tags": [
+        "Google",
+        "open models",
+        "multimodal AI",
+        "edge AI"
+      ],
+      "confidence": "high"
     }
   ]
 }
