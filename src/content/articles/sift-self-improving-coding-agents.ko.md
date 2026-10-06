@@ -7,6 +7,7 @@ format: analysis
 author: Signal Daily 편집진
 lang: ko
 publishedAt: '2026-10-06T11:00:00.000Z'
+translationKey: sift-self-improving-coding-agents
 tags:
   - AI
   - 코딩 에이전트
