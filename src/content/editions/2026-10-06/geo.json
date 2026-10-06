@@ -1,0 +1,155 @@
+{
+  "date": "2026-10-06",
+  "generatedAt": "2026-10-06T10:05:51Z",
+  "vertical": "geo",
+  "lang": "en",
+  "title": "Geo signals: Ebola reaches Kenya; Yemen claims contested",
+  "summary": "Two developments stood out: a confirmed imported Ebola case in Kenya and contested battlefield claims around Yemen’s Red Sea coast.",
+  "stories": [
+    {
+      "slug": "kenya-confirms-first-ebola-case-and-says-patient-has-died",
+      "headline": "Kenya confirms first Ebola case and says patient has died",
+      "dek": "Kenya’s health minister said the patient arrived from the Democratic Republic of the Congo and 28 contacts had been identified.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "Kenya confirmed its first Ebola case in a citizen who had recently arrived from the Democratic Republic of the Congo, and the patient later died.",
+        "Health Minister Aden Duale said 28 contacts, including family members and health workers, had been identified.",
+        "The reports describe contact tracing underway; they do not establish whether further transmission has occurred."
+      ],
+      "body": [
+        {
+          "text": "Kenya’s health minister said the patient had been living in the Democratic Republic of the Congo before arriving in Nairobi. The patient died, and officials reported 28 identified contacts.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "The Guardian’s report and Associated Press coverage both attribute the case and contact figures to Kenyan health authorities. The BBC also reported Kenya’s first Ebola death as the outbreak spread.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "An imported case puts regional surveillance and contact tracing under pressure while the DRC outbreak continues; the reports do not yet show onward spread in Kenya.",
+      "editorNote": "Counts and status reflect health ministry statements reported on October 6, 2026; outbreak developments may change.",
+      "cluster": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cqzrd7v1j163o",
+          "source": "BBC",
+          "title": "Kenya confirms its first Ebola death as outbreak spreads"
+        },
+        {
+          "url": "https://apnews.com/article/32ccde1e74048396ad5cb9f9fe47495e",
+          "source": "Associated Press",
+          "title": "Kenya confirms first Ebola case imported from Congo after patient dies in Nairobi"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.theguardian.com/world/2026/oct/06/kenya-first-ebola-case-death-drc",
+          "source": "The Guardian / Reuters and AFP",
+          "title": "Kenya confirms first Ebola case and says patient has died",
+          "publishedAt": "2026-10-06"
+        },
+        {
+          "id": 2,
+          "url": "https://www.bbc.co.uk/news/articles/cqzrd7v1j163o",
+          "source": "BBC",
+          "title": "Kenya confirms its first Ebola death as outbreak spreads",
+          "publishedAt": "2026-10-06"
+        },
+        {
+          "id": 3,
+          "url": "https://apnews.com/article/32ccde1e74048396ad5cb9f9fe47495e",
+          "source": "Associated Press",
+          "title": "Kenya confirms first Ebola case imported from Congo after patient dies in Nairobi",
+          "publishedAt": "2026-10-06"
+        }
+      ],
+      "tags": [
+        "Ebola",
+        "Kenya",
+        "public health"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "yemen-war-whats-the-latest-on-the-battlefield",
+      "headline": "Yemen war: What’s the latest on the battlefield?",
+      "dek": "Conflicting claims surround advances by Saudi-backed forces near the Bab el-Mandeb Strait and Houthi attacks on Saudi targets.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "Saudi-backed Yemeni forces said they had retaken positions near the Bab el-Mandeb Strait from Houthi forces.",
+        "Houthi forces separately claimed attacks on Saudi airports, oil infrastructure and military sites.",
+        "Reports differed on the extent of the government-aligned forces’ gains, including whether the port city of Mocha had changed hands."
+      ],
+      "body": [
+        {
+          "text": "Al Jazeera’s explainer, citing AP and Reuters, says Saudi-backed forces claimed several strategic positions near Bab el-Mandeb while the Houthis claimed strikes on Saudi targets. The claims have not been independently resolved in the cited coverage.",
+          "citations": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "The BBC reported that Yemeni military sources said the waterway was secured, while earlier Associated Press reporting described the recapture of nearby towns and continuing Houthi claims. The accounts underline uncertainty over control on the western coast.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "Bab el-Mandeb links the Red Sea with the Gulf of Aden, making disputed control relevant to regional security and commercial shipping; the current reports leave the battlefield picture unsettled.",
+      "editorNote": "Claims by combatants and government-aligned sources remain contested; the edition does not treat territorial claims as independently verified.",
+      "cluster": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cw8rzd6lp0xpo",
+          "source": "BBC",
+          "title": "Yemeni military says it has ‘secured’ Red Sea waterway"
+        },
+        {
+          "url": "https://apnews.com/article/e87beb84a0d146e4f0546b50508f7e32",
+          "source": "Associated Press",
+          "title": "Saudi-backed Yemeni forces expel Houthi rebels from several areas around key strait, officials say"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.aljazeera.com/news/2026/10/6/yemen-war-whats-the-latest-on-the-battlefield",
+          "source": "Al Jazeera",
+          "title": "Yemen war: What’s the latest on the battlefield?",
+          "publishedAt": "2026-10-06"
+        },
+        {
+          "id": 2,
+          "url": "https://www.bbc.co.uk/news/articles/cw8rzd6lp0xpo",
+          "source": "BBC",
+          "title": "Yemeni military says it has ‘secured’ Red Sea waterway",
+          "publishedAt": "2026-10-06"
+        },
+        {
+          "id": 3,
+          "url": "https://apnews.com/article/e87beb84a0d146e4f0546b50508f7e32",
+          "source": "Associated Press",
+          "title": "Saudi-backed Yemeni forces expel Houthi rebels from several areas around key strait, officials say",
+          "publishedAt": "2026-10-05"
+        }
+      ],
+      "tags": [
+        "Yemen",
+        "Red Sea",
+        "Bab el-Mandeb"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

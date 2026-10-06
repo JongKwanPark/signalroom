@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-06",
+  "generatedAt": "2026-10-06T10:05:51Z",
+  "vertical": "bio",
+  "lang": "en",
+  "title": "Bio signals: sensors move toward farm deployment",
+  "summary": "A thin edition today: one review met the evidence threshold; it describes implementation barriers rather than a new clinical result.",
+  "stories": [
+    {
+      "slug": "sensor-based-disease-detection-in-dairy-cattle",
+      "headline": "Review and assessment of sensor-based disease detection in dairy cattle: conceptual and practical challenges",
+      "dek": "A review outlines why promising sensor and machine-learning systems remain difficult to deploy across dairy herds.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "A review describes an implementation path for sensor-based disease detection in dairy cattle, from defensible case definitions to deployment.",
+        "It highlights cross-herd validation, class imbalance, interoperability and realistic economics as unresolved adoption constraints.",
+        "The review says many systems remain short of independent clinical tools; it does not report a new diagnostic trial."
+      ],
+      "body": [
+        {
+          "text": "The review argues that biological case definitions and suitable reference standards are needed before sensor models can be evaluated. It also calls for validation across herds and seasons, with prevalence-aware measures such as recall and precision.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "A separate 2026 review of AI-assisted cattle diagnostics likewise discusses methodological and deployment limits. Together, the reviews frame sensor-based detection as an implementation challenge rather than an established clinical replacement.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Farm-level validation and operating costs determine whether livestock sensing moves from proof of concept into routine use, connecting computational performance to animal-health practice.",
+      "editorNote": "This is a review of the field, not a clinical validation study. Independent evidence is limited to a related review.",
+      "cluster": [
+        {
+          "url": "https://link.springer.com/article/10.1007/s11259-026-11268-3",
+          "source": "Veterinary Research Communications",
+          "title": "Integrating biomarkers and artificial intelligence for precision diagnostics in cattle health and herd management: a review"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://doi.org/10.1017/S0022029926102258",
+          "source": "Journal of Dairy Research",
+          "title": "Review and assessment of sensor-based disease detection in dairy cattle: conceptual and practical challenges",
+          "publishedAt": "2026-10-06"
+        },
+        {
+          "id": 2,
+          "url": "https://link.springer.com/article/10.1007/s11259-026-11268-3",
+          "source": "Veterinary Research Communications",
+          "title": "Integrating biomarkers and artificial intelligence for precision diagnostics in cattle health and herd management: a review",
+          "publishedAt": "2026-05-14"
+        }
+      ],
+      "tags": [
+        "dairy cattle",
+        "biosensors",
+        "machine learning"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

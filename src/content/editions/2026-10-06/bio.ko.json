@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-06",
+  "generatedAt": "2026-10-06T10:05:51Z",
+  "vertical": "bio",
+  "lang": "ko",
+  "title": "바이오 동향: 축산 현장 적용을 향하는 센서",
+  "summary": "오늘은 근거 기준을 충족한 리뷰 한 편을 다룹니다. 새로운 임상 결과가 아니라 현장 적용의 장벽을 살핍니다.",
+  "stories": [
+    {
+      "slug": "sensor-based-disease-detection-in-dairy-cattle-ko",
+      "headline": "젖소 센서 기반 질병 탐지의 검토와 평가: 개념적·실무적 과제",
+      "dek": "한 리뷰는 유망한 센서·머신러닝 시스템이 젖소 목장에서 실제로 쓰이기 어려운 이유를 정리합니다.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "한 리뷰는 방어 가능한 사례 정의부터 실제 배치까지 젖소 센서 기반 질병 탐지의 적용 경로를 설명합니다.",
+        "교차 목장 검증, 클래스 불균형, 상호운용성, 현실적인 경제성이 아직 해결되지 않은 도입 과제로 제시됩니다.",
+        "이 리뷰는 많은 시스템이 독립적인 임상 도구 수준에 이르지 못했다고 평가하며, 새로운 진단 시험 결과를 보고하지는 않습니다."
+      ],
+      "body": [
+        {
+          "text": "이 리뷰는 센서 모델을 평가하기 전에 생물학적 사례 정의와 적절한 기준 표준이 필요하다고 주장합니다. 또한 목장과 계절을 넘는 검증, 그리고 민감도와 정밀도처럼 유병률을 고려한 측정 지표를 요구합니다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "2026년에 발표된 별도의 AI 보조 소 진단 리뷰도 방법론과 배치의 한계를 다룹니다. 두 리뷰는 센서 기반 탐지를 확립된 임상 대체재라기보다 실제 적용 과제로 설명합니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "목장 단위 검증과 운영 비용은 가축 센싱이 개념 검증에서 일상적인 사용으로 넘어갈 수 있는지를 좌우하며, 계산 성능과 동물 건강 현장을 연결합니다.",
+      "editorNote": "이 글은 분야 리뷰이며 임상 검증 시험이 아닙니다. 독립 근거는 관련 리뷰에 한정됩니다. TODO-review: “case definition”과 “reference standard”의 용어 선택 확인.",
+      "cluster": [
+        {
+          "url": "https://link.springer.com/article/10.1007/s11259-026-11268-3",
+          "source": "Veterinary Research Communications",
+          "title": "Integrating biomarkers and artificial intelligence for precision diagnostics in cattle health and herd management: a review"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://doi.org/10.1017/S0022029926102258",
+          "source": "Journal of Dairy Research",
+          "title": "Review and assessment of sensor-based disease detection in dairy cattle: conceptual and practical challenges",
+          "publishedAt": "2026-10-06"
+        },
+        {
+          "id": 2,
+          "url": "https://link.springer.com/article/10.1007/s11259-026-11268-3",
+          "source": "Veterinary Research Communications",
+          "title": "Integrating biomarkers and artificial intelligence for precision diagnostics in cattle health and herd management: a review",
+          "publishedAt": "2026-05-14"
+        }
+      ],
+      "tags": [
+        "dairy cattle",
+        "biosensors",
+        "machine learning"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

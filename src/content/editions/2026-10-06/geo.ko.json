@@ -1,0 +1,155 @@
+{
+  "date": "2026-10-06",
+  "generatedAt": "2026-10-06T10:05:51Z",
+  "vertical": "geo",
+  "lang": "ko",
+  "title": "지정학 동향: 케냐의 에볼라 확진, 예멘 전황 주장은 엇갈려",
+  "summary": "케냐에서 확인된 에볼라 유입 사례와 예멘 홍해 연안의 교전·영토 주장이 엇갈리는 상황이 주목됩니다.",
+  "stories": [
+    {
+      "slug": "kenya-confirms-first-ebola-case-and-says-patient-has-died-ko",
+      "headline": "케냐, 첫 에볼라 확진 사례 확인…환자 사망",
+      "dek": "케냐 보건부 장관은 환자가 콩고민주공화국에서 입국했으며 접촉자 28명을 확인했다고 밝혔습니다.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "케냐는 콩고민주공화국에서 최근 입국한 자국민의 첫 에볼라 감염을 확인했으며, 환자는 이후 사망했습니다.",
+        "아덴 두알레 보건부 장관은 가족과 의료진을 포함해 접촉자 28명을 확인했다고 밝혔습니다.",
+        "보도는 접촉자 추적이 진행 중이라고 전하지만, 케냐 내 추가 전파 여부는 확인하지 않았습니다."
+      ],
+      "body": [
+        {
+          "text": "케냐 보건부 장관에 따르면 환자는 나이로비에 도착하기 전 콩고민주공화국에서 거주했습니다. 환자는 사망했으며 당국은 접촉자 28명을 확인했다고 밝혔습니다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "가디언 보도와 AP 보도는 모두 케냐 보건 당국을 인용해 확진 및 접촉자 수를 전했습니다. BBC도 발병 확산 가운데 케냐의 첫 에볼라 사망을 보도했습니다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "수입 사례가 확인되면서 지역 감시와 접촉자 추적에 부담이 커졌습니다. 콩고민주공화국에서 발병이 이어지는 가운데 현재 보도만으로는 케냐 내 추가 전파 여부를 알 수 없습니다.",
+      "editorNote": "2026년 10월 6일 보건부 발표를 보도한 기사들의 수치와 상황을 반영했습니다. 발병 상황은 바뀔 수 있습니다. TODO-review: “imported case”의 공중보건 용어 확인.",
+      "cluster": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cqzrd7v1j163o",
+          "source": "BBC",
+          "title": "Kenya confirms its first Ebola death as outbreak spreads"
+        },
+        {
+          "url": "https://apnews.com/article/32ccde1e74048396ad5cb9f9fe47495e",
+          "source": "Associated Press",
+          "title": "Kenya confirms first Ebola case imported from Congo after patient dies in Nairobi"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.theguardian.com/world/2026/oct/06/kenya-first-ebola-case-death-drc",
+          "source": "The Guardian / Reuters and AFP",
+          "title": "Kenya confirms first Ebola case and says patient has died",
+          "publishedAt": "2026-10-06"
+        },
+        {
+          "id": 2,
+          "url": "https://www.bbc.co.uk/news/articles/cqzrd7v1j163o",
+          "source": "BBC",
+          "title": "Kenya confirms its first Ebola death as outbreak spreads",
+          "publishedAt": "2026-10-06"
+        },
+        {
+          "id": 3,
+          "url": "https://apnews.com/article/32ccde1e74048396ad5cb9f9fe47495e",
+          "source": "Associated Press",
+          "title": "Kenya confirms first Ebola case imported from Congo after patient dies in Nairobi",
+          "publishedAt": "2026-10-06"
+        }
+      ],
+      "tags": [
+        "Ebola",
+        "Kenya",
+        "public health"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "yemen-war-whats-the-latest-on-the-battlefield-ko",
+      "headline": "예멘 전쟁: 전선의 최신 상황은?",
+      "dek": "바브엘만데브 해협 인근에서 사우디 지원 세력의 진격과 후티의 사우디 공격 주장이 엇갈립니다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "사우디의 지원을 받는 예멘 정부군은 바브엘만데브 해협 인근의 후티 점령지를 탈환했다고 주장했습니다.",
+        "후티 세력은 사우디의 공항과 석유 기반시설, 군사 시설을 겨냥한 공격을 별도로 주장했습니다.",
+        "모카 항구도시 탈환 여부를 포함해 정부 측 진격 범위에 관한 보도는 서로 달랐습니다."
+      ],
+      "body": [
+        {
+          "text": "AP와 로이터를 인용한 알자지라 해설에 따르면 사우디 지원 세력은 바브엘만데브 인근의 여러 전략 거점을 탈환했다고 주장했고, 후티는 사우디 목표물에 대한 공격을 주장했습니다. 인용된 보도만으로는 이 주장을 독립적으로 확인할 수 없습니다.",
+          "citations": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "BBC는 예멘 군 소식통이 해협을 확보했다고 보도했다고 전했습니다. 앞서 AP는 인근 마을 탈환과 후티 측의 공격 주장을 보도했습니다. 서부 해안의 통제 상황은 여전히 불확실합니다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "바브엘만데브는 홍해와 아덴만을 연결하므로 통제권 다툼은 지역 안보와 상업 해운에 영향을 줍니다. 다만 현재 보도만으로는 전황을 확정하기 어렵습니다.",
+      "editorNote": "교전 당사자와 정부 측 관계자의 주장이 여전히 엇갈립니다. 영토 관련 주장을 독립적으로 확인된 사실처럼 다루지 않았습니다. TODO-review: “Bab el-Mandeb” 표기 확인.",
+      "cluster": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cw8rzd6lp0xpo",
+          "source": "BBC",
+          "title": "Yemeni military says it has ‘secured’ Red Sea waterway"
+        },
+        {
+          "url": "https://apnews.com/article/e87beb84a0d146e4f0546b50508f7e32",
+          "source": "Associated Press",
+          "title": "Saudi-backed Yemeni forces expel Houthi rebels from several areas around key strait, officials say"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.aljazeera.com/news/2026/10/6/yemen-war-whats-the-latest-on-the-battlefield",
+          "source": "Al Jazeera",
+          "title": "Yemen war: What’s the latest on the battlefield?",
+          "publishedAt": "2026-10-06"
+        },
+        {
+          "id": 2,
+          "url": "https://www.bbc.co.uk/news/articles/cw8rzd6lp0xpo",
+          "source": "BBC",
+          "title": "Yemeni military says it has ‘secured’ Red Sea waterway",
+          "publishedAt": "2026-10-06"
+        },
+        {
+          "id": 3,
+          "url": "https://apnews.com/article/e87beb84a0d146e4f0546b50508f7e32",
+          "source": "Associated Press",
+          "title": "Saudi-backed Yemeni forces expel Houthi rebels from several areas around key strait, officials say",
+          "publishedAt": "2026-10-05"
+        }
+      ],
+      "tags": [
+        "Yemen",
+        "Red Sea",
+        "Bab el-Mandeb"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

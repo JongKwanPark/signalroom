@@ -1,0 +1,127 @@
+{
+  "date": "2026-10-06",
+  "generatedAt": "2026-10-06T10:05:51Z",
+  "vertical": "markets",
+  "lang": "en",
+  "title": "Markets: regional AI outlook and Lucid deliveries",
+  "summary": "Two evidence-backed items today: a World Bank regional forecast and Lucid’s reported quarterly production and delivery totals.",
+  "stories": [
+    {
+      "slug": "east-asia-and-pacific-sees-steady-growth-amid-global-uncertainty",
+      "headline": "East Asia and Pacific Sees Steady Growth Amid Global Uncertainty",
+      "dek": "The World Bank projects 4.5% regional growth in 2026, while saying AI adoption and gains remain uneven.",
+      "type": "DATA",
+      "readMinutes": 4,
+      "tldr": [
+        "The World Bank projects East Asia and Pacific growth of 4.5% in 2026, citing high-tech goods exports and global AI-related activity as contributors.",
+        "Its regional update says AI uptake among firms and individuals is rising but remains uneven, with costs, skills and security concerns cited as barriers.",
+        "The forecast is an institutional projection, not a realized growth figure."
+      ],
+      "body": [
+        {
+          "text": "The World Bank’s October update projects regional growth at 4.5% in 2026. It says high-tech goods exports have benefited from the global increase in AI-related activity, while adoption across the broader economy remains uneven.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The Bank identifies infrastructure, skills, financing, security and privacy concerns among the conditions shaping wider AI uptake. CNBC’s coverage also reports the revised regional outlook and AI concentration concerns.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The outlook ties regional growth to the supply chain for AI-related goods while highlighting that production gains and economy-wide adoption are not the same.",
+      "editorNote": "Forecast and adoption statements are attributed to the World Bank’s October 6 economic update.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/06/world-bank-east-asia-growth-inflation-ai-exports-.html",
+          "source": "CNBC",
+          "title": "World Bank warns of AI concentration risks as it lifts East Asia and Pacific growth outlook to 4.5%"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/east-asia-and-pacific-holds-steady-amid-global-uncertainty-but-harnessing-ai-s-ful",
+          "source": "World Bank",
+          "title": "East Asia and Pacific Sees Steady Growth Amid Global Uncertainty",
+          "publishedAt": "2026-10-06"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/10/06/world-bank-east-asia-growth-inflation-ai-exports-.html",
+          "source": "CNBC",
+          "title": "World Bank warns of AI concentration risks as it lifts East Asia and Pacific growth outlook to 4.5%",
+          "publishedAt": "2026-10-06"
+        }
+      ],
+      "tags": [
+        "East Asia and Pacific",
+        "World Bank",
+        "AI"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "lucid-announces-q3-production-and-deliveries",
+      "headline": "Lucid Announces Q3 Production and Deliveries, Sets Date for Third Quarter 2026 Earnings",
+      "dek": "Lucid reported 3,806 deliveries and 2,954 vehicles produced in the third quarter as it reduced inventory.",
+      "type": "DATA",
+      "readMinutes": 3,
+      "tldr": [
+        "Lucid reported 3,806 vehicle deliveries and 2,954 vehicles produced in the third quarter of 2026.",
+        "The company said deliveries exceeded production as it reduced existing vehicle inventory under an operating reset.",
+        "The release presents production and delivery totals; Lucid said its broader financial results would come with its earnings announcement."
+      ],
+      "body": [
+        {
+          "text": "Lucid’s October 5 filing exhibit reports 3,806 deliveries and 2,954 vehicles produced for the quarter ended September 30, 2026. The company said deliveries exceeded production while it worked through existing inventory.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "CNBC separately reported the quarter’s delivery decline and production adjustment. Vehicle delivery counts alone do not establish the company’s full financial performance, which Lucid said would be reported later.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The figures provide an operating snapshot of an EV maker’s inventory reset, while the company’s financial results remain pending.",
+      "editorNote": "No investment conclusion is drawn from the operating figures; the company itself cautions that they are not a sole indicator of quarterly financial results.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/05/lucid-group-lcid-q3-2026-deliveries-production.html",
+          "source": "CNBC",
+          "title": "Lucid’s Q3 deliveries fall 6.7% as EV maker cuts production to align with demand"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.sec.gov/Archives/edgar/data/1811210/000162828026064910/q3fy26ex991-productionandd.htm",
+          "source": "Lucid Group / SEC filing",
+          "title": "Lucid Announces Q3 Production and Deliveries, Sets Date for Third Quarter 2026 Earnings",
+          "publishedAt": "2026-10-05"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/10/05/lucid-group-lcid-q3-2026-deliveries-production.html",
+          "source": "CNBC",
+          "title": "Lucid’s Q3 deliveries fall 6.7% as EV maker cuts production to align with demand",
+          "publishedAt": "2026-10-05"
+        }
+      ],
+      "tags": [
+        "Lucid",
+        "electric vehicles",
+        "deliveries"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}
