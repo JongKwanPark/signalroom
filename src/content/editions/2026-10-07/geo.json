@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-07",
+  "generatedAt": "2026-10-07T00:00:00.000Z",
+  "vertical": "geo",
+  "lang": "en",
+  "title": "Rebuilding after October 7: local questions and political aftershocks",
+  "summary": "A thin edition today: one cross-source story follows residents of a kibbutz destroyed in the 7 October Hamas-led attacks as they grapple with rebuilding, alongside reporting on how October 7 reshaped Israel.",
+  "stories": [
+    {
+      "slug": "kibbutz-residents-weigh-rebuilding-three-years-after-attacks",
+      "headline": "Residents of kibbutz destroyed in 7 October Hamas-led attacks grapple with how to rebuild",
+      "dek": "BBC reporting on residents’ rebuilding questions sits alongside Al Jazeera’s account of the attacks’ wider political aftershocks in Israel.",
+      "type": "DEEP",
+      "readMinutes": 2,
+      "tldr": [
+        "BBC reports that residents of a kibbutz destroyed in the 7 October Hamas-led attacks are grappling with how to rebuild.",
+        "Al Jazeera’s October 7 coverage examines how the attacks reshaped Israel and describes a far-right political shift.",
+        "Together, the reports connect a community’s rebuilding questions with the broader political consequences of the attacks, without resolving what reconstruction will look like."
+      ],
+      "body": [
+        {
+          "text": "Residents of a kibbutz destroyed in the 7 October Hamas-led attacks are grappling with how to rebuild, according to BBC reporting published on October 7. The headline identifies reconstruction as an open question for the community; the collected source metadata does not establish a decision or timetable. (Source: BBC.)",
+          "citations": [1]
+        },
+        {
+          "text": "Al Jazeera’s October 7 coverage frames the attacks’ wider Israeli aftermath as a far-right political shift. Read together, the two reports show distinct dimensions of the same aftermath: local questions about rebuilding and national political change. The available headlines do not establish a direct causal link between those dimensions. (Sources: BBC; Al Jazeera.)",
+          "citations": [1, 2]
+        }
+      ],
+      "whyItMatters": "Reconstruction after mass violence is shaped by both community-level choices and the political environment around them. These reports document both dimensions, while leaving the timing and conditions of rebuilding unresolved.",
+      "editorNote": "Thin-day edition: one story met the cross-source and relevance threshold. Summary is limited to collected headline metadata; no reconstruction decision or timeline was available in the source record.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/7/fear-and-a-far-right-lurch-how-october-7-reshaped-israel?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Fear and a far-right lurch: How October 7 reshaped Israel"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cqrmyz4mdn94o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Residents of kibbutz destroyed in 7 October Hamas-led attacks grapple with how to rebuild",
+          "publishedAt": "2026-10-07T05:02:18.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/news/2026/10/7/fear-and-a-far-right-lurch-how-october-7-reshaped-israel?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Fear and a far-right lurch: How October 7 reshaped Israel",
+          "publishedAt": "2026-10-07T08:53:23.000Z"
+        }
+      ],
+      "tags": ["Israel", "Gaza", "reconstruction", "politics"],
+      "confidence": "medium"
+    }
+  ]
+}
