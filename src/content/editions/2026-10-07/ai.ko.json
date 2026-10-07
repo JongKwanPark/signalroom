@@ -1,0 +1,243 @@
+{
+  "date": "2026-10-07",
+  "generatedAt": "2026-10-07T22:01:53.000Z",
+  "vertical": "ai",
+  "lang": "ko",
+  "title": "적응형 에이전트와 AI 연구",
+  "summary": "오늘은 조용한 연구 에디션입니다. 새 프리프린트 4편은 적응형 웹 에이전트 보안, 반복 작업 자동화, 로봇 정책 학습, AI 튜터링을 다룹니다. 결과는 저자들의 보고로 명시했으며, 수집된 보도에는 독립 재현이 없습니다.",
+  "stories": [
+    {
+      "slug": "qf3-fast-flow-rl-filtered-q-gradients-ko",
+      "headline": "QF3: 필터링된 Q 그래디언트를 이용한 빠른 플로우 강화학습",
+      "dek": "오프폴리시 방식으로 플로우 매칭과 필터링된 크리틱 그래디언트를 결합해 로봇 정책을 학습합니다. 저자들은 휴머노이드 정책 학습 속도와 하드웨어 전이 결과를 보고했습니다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "QF3는 플로우 정책을 오프폴리시 방식으로 학습하면서 리플레이 행동 주변에 머무는 행동 차원에만 크리틱 그래디언트를 적용합니다.",
+        "저자들은 휴머노이드 보행 및 동작 추적 정책을 처음부터 학습하고, 제로샷 방식으로 하드웨어에 전이했다고 보고했습니다.",
+        "휴머노이드 실험에서 FPO++보다 벽시계 기준 10배 빠른 학습을 보고했지만, 이는 독립 재현이 아닌 프리프린트 저자의 주장입니다."
+      ],
+      "body": [
+        {
+          "text": "논문은 플로우 정책 학습에 플로우 매칭과 크리틱의 행동 그래디언트를 결합한 온라인 오프폴리시 강화학습 알고리즘 QF3를 소개합니다. 리플레이 행동에 가까운 차원에만 업데이트를 적용해 크리틱 그래디언트를 더 신뢰할 수 있는 범위에 유지한다고 저자들은 설명합니다. 휴머노이드 보행 및 동작 추적 정책에서는 FPO++보다 벽시계 기준 10배 빠른 학습을 보고했습니다. [arXiv; QF3 프로젝트.]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "논문은 휴머노이드 정책의 제로샷 하드웨어 전이와 사전학습된 조작 정책의 미세조정 결과도 보고합니다. 이는 저자들의 실험 결과이며, 수집된 자료에는 독립 재현이 없습니다. [arXiv; QF3 프로젝트.]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "보고된 결과가 저자들의 실험 설정 밖에서도 재현된다면, QF3는 플로우 기반 로봇 정책을 개선하는 강화학습을 더 실용적으로 만들 수 있습니다. 현재 근거는 독립 재현이 없는 신규 프리프린트입니다.",
+      "editorNote": "프리프린트입니다. 성능과 하드웨어 전이 결과는 저자들이 보고했습니다. TODO-review: “flow policy”의 한국어 용어를 확인하세요.",
+      "cluster": [
+        {
+          "url": "https://qf3-rl.github.io/",
+          "source": "QF3 project",
+          "title": "QF3: Fast Flow RL with Filtered Q-Gradients"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "http://arxiv.org/abs/2610.08789v1",
+          "source": "arXiv",
+          "title": "QF3: Fast Flow RL with Filtered Q-Gradients",
+          "publishedAt": "2026-10-06T17:59:34Z"
+        },
+        {
+          "id": 2,
+          "url": "https://qf3-rl.github.io/",
+          "source": "QF3 project",
+          "title": "QF3: Fast Flow RL with Filtered Q-Gradients"
+        }
+      ],
+      "tags": [
+        "reinforcement learning",
+        "robotics",
+        "flow models"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "advsim2real-adaptive-prompt-injection-ko",
+      "headline": "AdvSim2Real: 웹 세계 모델에서 적응형 프롬프트 인젝션에 맞서 웹 에이전트 학습하기",
+      "dek": "프리프린트는 웹 에이전트, 과제 커리큘럼, 적응형 공격자를 함께 학습시킵니다. 보고된 보안성 향상은 웹 과제 150개를 시뮬레이션한 결과입니다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "AdvSim2Real은 고정된 웹 세계 모델 안에서 에이전트와 과제 커리큘럼, 인젝션 공격자를 함께 학습합니다.",
+        "저자들은 웹 과제 150개에서 미학습 공격자를 상대로 과제 완료율이 상대적으로 33.6% 높아졌다고 보고했습니다.",
+        "해당 보안성 수치는 시뮬레이터 기반입니다. 논문은 실제 브라우저로의 역량 전이도 보고하지만, 독립 평가는 없습니다."
+      ],
+      "body": [
+        {
+          "text": "이 연구는 제3자 웹페이지에 삽입된 지시가 페이지의 과제 관련 정보와 조작 요소를 그대로 둔 채 에이전트의 목표를 바꿀 수 있다는 문제를 다룹니다. AdvSim2Real은 고정된 웹 세계 모델에서 과제 커리큘럼, 인젝션 공격자, 에이전트를 함께 진화시킵니다. [arXiv; Hugging Face Papers.]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "웹 과제 150개에서 저자들은 미학습 공격자를 상대로 기본 에이전트보다 과제 완료율이 상대적으로 33.6% 높아졌다고 보고했습니다. 초록에는 역량 향상이 실제 브라우저로 이어졌다고 적혀 있지만, 주요 보안성 수치는 시뮬레이션 평가에서 나왔습니다. [arXiv; Hugging Face Papers.]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "웹 에이전트 보안은 과제에 필요한 웹페이지 정보를 버리지 않으면서 악의적인 지시를 처리하는 데 달려 있습니다. 이 프리프린트는 적응형 학습 접근을 시험하지만, 시뮬레이터 보안성 수치와 독립 재현의 부재는 해석의 범위를 제한합니다.",
+      "editorNote": "프리프린트입니다. 33.6%는 시뮬레이션 과제 150개에서 저자들이 보고한 상대적 수치입니다. TODO-review: “web world model”의 한국어 용어를 확인하세요.",
+      "cluster": [
+        {
+          "url": "https://huggingface.co/papers/2610.08773",
+          "source": "Hugging Face Papers",
+          "title": "AdvSim2Real : Training Web Agents Against Adaptive Prompt Injection in a Web World Model"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "http://arxiv.org/abs/2610.08773v1",
+          "source": "arXiv",
+          "title": "AdvSim2Real : Training Web Agents Against Adaptive Prompt Injection in a Web World Model",
+          "publishedAt": "2026-10-06T17:56:43Z"
+        },
+        {
+          "id": 2,
+          "url": "https://huggingface.co/papers/2610.08773",
+          "source": "Hugging Face Papers",
+          "title": "AdvSim2Real : Training Web Agents Against Adaptive Prompt Injection in a Web World Model"
+        }
+      ],
+      "tags": [
+        "AI agents",
+        "prompt injection",
+        "security"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "agent-in-a-bottle-bottling-benchmark-ko",
+      "headline": "Agent in a Bottle: LLM 에이전트는 역량을 저비용·확장형 산출물로 바꿀 수 있을까?",
+      "dek": "저자들은 언어 모델 에이전트가 반복 작업을 더 저렴하고 재사용 가능한 해법으로 전환할 수 있는지 평가하는 BOTTLED 벤치마크를 소개했습니다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "BOTTLED는 에이전트가 시간·연산량·API 예산이 정해진 상태에서 라벨 없는 작업 묶음을 해결하도록 평가합니다.",
+        "모델 10개와 과제 3개를 대상으로 한 실험에서 60회 중 48회가 해당 모델의 제로샷 95% 신뢰구간 하한보다 낮은 점수를 기록했습니다.",
+        "논문은 한 분류 과제에서 큰 비용 절감을 보고했지만, 결과는 실행과 과제에 따라 크게 달랐습니다."
+      ],
+      "body": [
+        {
+          "text": "논문은 일반 모델 역량을 재사용 가능한 저비용 작업 해법으로 바꾸는 과정을 “bottling”이라고 부릅니다. BOTTLED 벤치마크에서 에이전트는 라벨이 없는 작업 묶음을 받아 제한된 시간·연산량·언어 모델 API 예산 안에서 완료해야 합니다. [arXiv; Turing Wire.]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "모델 10개, 과제 3개를 대상으로 한 실험에서 60회 중 48회의 점수가 모델 제로샷 성능 95% 신뢰구간의 하한보다 낮았습니다. 저자들은 상품 관련성 분류 한 과제에서 Opus 5가 제로샷 macro-F1의 약 82%를 유지하면서 보고된 비용을 약 657분의 1로 낮춘 결과도 제시했으며, 이는 특정 과제의 결과입니다. [arXiv; Turing Wire.]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이 벤치마크는 원시 과제 정확도만으로는 답하기 어려운 배포 질문, 즉 에이전트가 반복 작업에서 초기 비용을 들여 이후의 비용을 줄일 수 있는지를 다룹니다. 결과 편차는 제로샷 성능이 자동화 효율을 보장하지 않음을 보여줍니다.",
+      "editorNote": "신규 벤치마크 프리프린트입니다. 비용·품질 결과는 저자들이 보고했으며 과제별로 다릅니다. TODO-review: “bottling”의 한국어 표기를 확정하세요.",
+      "cluster": [
+        {
+          "url": "https://turingwire.com/research/agent-in-a-bottle-can-llm-agents-turn-their-capabilities-into-cheap-scalable/",
+          "source": "Turing Wire",
+          "title": "Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "http://arxiv.org/abs/2610.08775v1",
+          "source": "arXiv",
+          "title": "Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?",
+          "publishedAt": "2026-10-06T17:57:19Z"
+        },
+        {
+          "id": 2,
+          "url": "https://turingwire.com/research/agent-in-a-bottle-can-llm-agents-turn-their-capabilities-into-cheap-scalable/",
+          "source": "Turing Wire",
+          "title": "Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?",
+          "publishedAt": "2026-10-06"
+        }
+      ],
+      "tags": [
+        "AI agents",
+        "evaluation",
+        "inference costs"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "sherpa-adaptive-llm-teaching-ko",
+      "headline": "Sherpa: LLM에게 적응형으로 가르치도록 학습시키기",
+      "dek": "강화학습 프레임워크가 시뮬레이션 학습자 프로필을 대상으로 언어 모델 교사를 훈련합니다. 논문은 학습 및 선호도 지표의 개선을 보고했습니다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "Sherpa는 시뮬레이션 학습자 유형별 학습 결과를 최적화해 LLM 교사가 수업을 조정하도록 훈련합니다.",
+        "저자들은 유형 전반에서 평균 20.5%포인트의 학습 향상과 MathTutorBench에서 79.2%의 교수법 점수를 보고했습니다.",
+        "사람을 대상으로 한 비교에서 훈련된 교사는 쌍대 비교의 79.6%에서 선호됐지만, 이는 연구에서 평가한 조건에 한정된 결과입니다."
+      ],
+      "body": [
+        {
+          "text": "논문은 문제를 잘 푸는 능력만으로는 효과적인 교사가 될 수 없다고 지적합니다. Sherpa는 학습 선호도가 다른 여러 LLM 시뮬레이션 학습자 유형을 두고, 학습 결과를 최대화하도록 교사 모델을 훈련합니다. [arXiv; Hugging Face Papers.]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "저자들은 학습자 유형 전반에서 평균 20.5%포인트의 성능 향상, MathTutorBench 교수법 점수의 52.5%에서 79.2%로의 상승, 사람 평가 쌍대 비교에서 훈련된 교사의 79.6% 선호를 보고했습니다. 이 결과는 논문이 평가한 조건에 해당하며 실제 교실 성과를 입증하지는 않습니다. [arXiv; Hugging Face Papers.]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "AI 교육 모델은 답변의 품질뿐 아니라 학습을 돕는 능력으로도 평가할 필요가 있습니다. Sherpa는 학습 결과를 중심으로 한 훈련 방식을 제시하지만, 시뮬레이션에서 얻은 학습 효과가 실제 교실로 이어지는지는 아직 확인되지 않았습니다.",
+      "editorNote": "신규 프리프린트이며 연구 결과는 저자들이 보고했습니다. TODO-review: “pedagogy score”의 표준 한국어 용어를 확인하세요.",
+      "cluster": [
+        {
+          "url": "https://huggingface.co/papers/2610.08778",
+          "source": "Hugging Face Papers",
+          "title": "Sherpa: Teaching LLMs to Teach Adaptively"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "http://arxiv.org/abs/2610.08778v1",
+          "source": "arXiv",
+          "title": "Sherpa: Teaching LLMs to Teach Adaptively",
+          "publishedAt": "2026-10-06T17:58:18Z"
+        },
+        {
+          "id": 2,
+          "url": "https://huggingface.co/papers/2610.08778",
+          "source": "Hugging Face Papers",
+          "title": "Sherpa: Teaching LLMs to Teach Adaptively"
+        }
+      ],
+      "tags": [
+        "AI in education",
+        "reinforcement learning",
+        "evaluation"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-07",
+  "generatedAt": "2026-10-07T22:01:53.000Z",
+  "vertical": "markets",
+  "lang": "en",
+  "title": "Fed minutes and Treasury demand in focus",
+  "summary": "A thin markets edition today: the Federal Reserve minutes and a Treasury auction shaped the day’s rate discussion. Coverage reports conditions at publication time; no trading advice is offered.",
+  "stories": [
+    {
+      "slug": "fomc-minutes-september-2026",
+      "headline": "Minutes of the Federal Open Market Committee, September 15-16, 2026",
+      "dek": "The Fed’s published minutes record participants’ views on inflation, employment and the policy path after the September meeting.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "The Federal Reserve released minutes from its September 15-16 meeting on October 7.",
+        "The minutes record policymakers’ discussion and are not a new rate decision.",
+        "AP reported that most officials expected another rate increase could be needed this year, while the timing remained unspecified in the minutes."
+      ],
+      "body": [
+        {
+          "text": "The Federal Reserve published the minutes from its September 15-16, 2026 meeting on October 7. The record summarizes participants’ discussion of economic conditions and monetary policy; it is not a new policy decision. [Federal Reserve; AP.]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP reported that most officials expected another interest-rate increase would likely be needed this year to address inflation, while the minutes gave no timing for such a move. The minutes describe views at the September meeting, not a forecast guarantee or an instruction to market participants. [Federal Reserve; AP.]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The minutes make the range of policymakers’ views public between meetings, helping explain the rationale around the September decision. Their time lag and lack of a new decision matter when interpreting them alongside current economic data.",
+      "editorNote": "The minutes document views at the September 15-16 meeting. No investment recommendation or trading signal.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/b7ed20e31e1a6fa5da6d78e5fe35b0c3",
+          "source": "AP",
+          "title": "Fed minutes: Another rate hike likely coming this year to combat persistent inflation"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260916.htm",
+          "source": "Federal Reserve",
+          "title": "Minutes of the Federal Open Market Committee, September 15-16, 2026",
+          "publishedAt": "2026-10-07"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/b7ed20e31e1a6fa5da6d78e5fe35b0c3",
+          "source": "AP",
+          "title": "Fed minutes: Another rate hike likely coming this year to combat persistent inflation",
+          "publishedAt": "2026-10-07T18:05:47Z"
+        }
+      ],
+      "tags": [
+        "Federal Reserve",
+        "interest rates",
+        "inflation"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "treasury-auction-eases-yield-demand-fears",
+      "headline": "10-year Treasury yield backs off from 24-year high after solid bond auction eases demand fears",
+      "dek": "A Treasury auction eased immediate demand concerns as the 10-year yield retreated from a 24-year high, according to market reports.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "CNBC reported that the 10-year Treasury yield moved down from a 24-year high after a bond auction eased concerns about demand.",
+        "MarketWatch’s coverage also described higher yields weighing on broad areas of the stock market.",
+        "The reports describe a market reaction and do not establish a durable change in borrowing costs or investor behavior."
+      ],
+      "body": [
+        {
+          "text": "CNBC reported that the 10-year Treasury yield backed off a 24-year high after a bond auction eased demand concerns. The article framed the move as a response to the auction rather than evidence that broader rate pressures had ended. [CNBC; MarketWatch.]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "MarketWatch separately reported that higher yields were weighing on much of the stock market. Taken together, the coverage links Treasury-market demand and equity-market pressure, but does not establish a lasting change in either trend. [CNBC; MarketWatch.]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Long-term Treasury yields influence financing conditions across markets, while auction demand offers a near-term signal about appetite for government debt. The reported retreat was limited to the cited trading window.",
+      "editorNote": "Short-term market coverage; yields and prices move continuously. No investment advice or trading signal.",
+      "cluster": [
+        {
+          "url": "https://www.marketwatch.com/story/higher-yields-are-taking-their-toll-on-all-areas-of-the-stock-market-except-the-one-that-matters-69a90322?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Higher yields are taking their toll on all areas of the stock market, except the one that matters"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/07/treasury-yields-auction-fomc-minutes.html",
+          "source": "CNBC",
+          "title": "10-year Treasury yield backs off from 24-year high after solid bond auction eases demand fears",
+          "publishedAt": "2026-10-07T20:09:59.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.marketwatch.com/story/higher-yields-are-taking-their-toll-on-all-areas-of-the-stock-market-except-the-one-that-matters-69a90322?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Higher yields are taking their toll on all areas of the stock market, except the one that matters",
+          "publishedAt": "2026-10-07T20:58:00.000Z"
+        }
+      ],
+      "tags": [
+        "Treasury yields",
+        "bond auction",
+        "equities"
+      ],
+      "confidence": "low"
+    }
+  ]
+}

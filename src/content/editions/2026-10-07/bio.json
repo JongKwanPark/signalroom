@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-07",
+  "generatedAt": "2026-10-07T22:01:53.000Z",
+  "vertical": "bio",
+  "lang": "en",
+  "title": "CARE study protocol outlines an AI tobacco-cessation interface",
+  "summary": "A thin BIO edition today: one new protocol describes an AI-supported tobacco-cessation project in India. It reports planned methods, not efficacy results, and offers no health advice.",
+  "stories": [
+    {
+      "slug": "care-ai-tobacco-cessation-study-protocol",
+      "headline": "Codevelopment, Implementation, and Evaluation of an AI-powered Conversational Interface for Tobacco Cessation: Protocol for a Single-Group Pre-Post Study",
+      "dek": "An Indian multi-site study protocol describes CARE, a multilingual AI conversational interface to be evaluated alongside existing tobacco-cessation services.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "The CARE protocol outlines development, feasibility testing and a six-month pre-post evaluation across three tobacco cessation centers.",
+        "The intervention is planned as a multilingual mobile-app chatbot using retrieval-augmented generation and an LLM.",
+        "The study has no control arm, so its planned effectiveness findings will be preliminary and hypothesis-generating."
+      ],
+      "body": [
+        {
+          "text": "The published protocol describes CARE as a conversational interface being developed with tobacco users and cessation providers, followed by feasibility testing and a six-month pre-post assessment. It lists engagement, usability, acceptability, quit attempts and intention to quit among the evaluation areas. No outcome results are reported in this protocol. [PubMed; Public Health Foundation of India.]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The protocol says the tool will use retrieval-augmented generation and a large language model, and will be delivered in a mobile app with multilingual support. It describes implementation across three tobacco cessation centers and explicitly notes that the single-group design has no control arm, making effectiveness results preliminary rather than causal. [PubMed; Public Health Foundation of India.]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The study connects AI product development with existing cessation-service infrastructure in India. Its design and planned measures are relevant to implementation, but the protocol provides no evidence yet that the intervention changes cessation outcomes.",
+      "editorNote": "Protocol only; no results are available. Single-group pre-post design has no control arm. No cessation or treatment advice is provided.",
+      "cluster": [
+        {
+          "url": "https://phfi.org/wp-content/uploads/2026/01/RFP-AI-based-CI-27-01-2026.pdf",
+          "source": "Public Health Foundation of India",
+          "title": "RFP: AI-based Conversational Interface to strengthen tobacco cessation services"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42842922/",
+          "source": "PubMed",
+          "title": "Codevelopment, Implementation, and Evaluation of an AI-powered Conversational Interface for Tobacco Cessation: Protocol for a Single-Group Pre-Post Study",
+          "publishedAt": "2026/10/07 00:00"
+        },
+        {
+          "id": 2,
+          "url": "https://phfi.org/wp-content/uploads/2026/01/RFP-AI-based-CI-27-01-2026.pdf",
+          "source": "Public Health Foundation of India",
+          "title": "RFP: AI-based Conversational Interface to strengthen tobacco cessation services",
+          "publishedAt": "2026-01"
+        }
+      ],
+      "tags": [
+        "digital health",
+        "clinical research",
+        "India"
+      ],
+      "confidence": "low"
+    }
+  ]
+}

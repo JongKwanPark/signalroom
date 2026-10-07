@@ -1,0 +1,243 @@
+{
+  "date": "2026-10-07",
+  "generatedAt": "2026-10-07T22:01:53.000Z",
+  "vertical": "ai",
+  "lang": "en",
+  "title": "Adaptive agents and AI research",
+  "summary": "A thin research edition today: four new preprints examine adaptive web-agent security, reusable task automation, robot-policy training and AI tutoring. Claims and results are attributed to the authors; independent replication is not available in the collected coverage.",
+  "stories": [
+    {
+      "slug": "qf3-fast-flow-rl-filtered-q-gradients",
+      "headline": "QF3: Fast Flow RL with Filtered Q-Gradients",
+      "dek": "An off-policy method combines flow matching with filtered critic gradients to train robot policies, with the authors reporting faster humanoid-policy training and hardware transfer.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "QF3 applies critic gradients only to action dimensions that remain near replay actions while training flow policies off-policy.",
+        "The authors report training humanoid locomotion and motion-tracking policies from scratch, with zero-shot transfer to hardware.",
+        "They report a 10x wall-clock speedup over FPO++ in their humanoid experiments; the result is a preprint claim, not an independent replication."
+      ],
+      "body": [
+        {
+          "text": "The paper introduces QF3, an online off-policy reinforcement-learning algorithm that combines flow matching with a critic’s action gradient. It filters updates to dimensions that stay near replay actions, which the authors say keeps the critic gradient within a more reliable region. The authors report a 10x wall-clock speedup over FPO++ for humanoid locomotion and motion-tracking policies. [arXiv; QF3 project.]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The paper also reports zero-shot transfer of humanoid policies to hardware and fine-tuning of pretrained manipulation policies. These are results from the authors’ experiments; the collected coverage does not provide an independent replication. [arXiv; QF3 project.]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "If the reported results hold beyond the authors’ setup, QF3 could make reinforcement learning a more practical route for improving flow-based robot policies. The evidence remains a new preprint with no independent replication in the collected sources.",
+      "editorNote": "Preprint; performance and hardware-transfer claims are author-reported. TODO-review: confirm Korean term for “flow policy.”",
+      "cluster": [
+        {
+          "url": "https://qf3-rl.github.io/",
+          "source": "QF3 project",
+          "title": "QF3: Fast Flow RL with Filtered Q-Gradients"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "http://arxiv.org/abs/2610.08789v1",
+          "source": "arXiv",
+          "title": "QF3: Fast Flow RL with Filtered Q-Gradients",
+          "publishedAt": "2026-10-06T17:59:34Z"
+        },
+        {
+          "id": 2,
+          "url": "https://qf3-rl.github.io/",
+          "source": "QF3 project",
+          "title": "QF3: Fast Flow RL with Filtered Q-Gradients"
+        }
+      ],
+      "tags": [
+        "reinforcement learning",
+        "robotics",
+        "flow models"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "advsim2real-adaptive-prompt-injection",
+      "headline": "AdvSim2Real : Training Web Agents Against Adaptive Prompt Injection in a Web World Model",
+      "dek": "The preprint co-trains a web agent, task curriculum and adaptive attacker; its reported robustness gain is measured on 150 simulated web tasks.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "AdvSim2Real trains an agent alongside tasks and an injection attacker inside a frozen web world model.",
+        "The authors report a 33.6% relative completion gain against an unseen adversary on 150 web tasks.",
+        "The reported gain is simulator-based; the paper also reports capability transfer to a real browser, but not independent evaluation."
+      ],
+      "body": [
+        {
+          "text": "The study targets instructions embedded in third-party webpages that can redirect an agent while the page also contains information needed to complete the task. AdvSim2Real co-evolves the task curriculum, an injection adversary and the agent in a frozen web world model. [arXiv; Hugging Face Papers.]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "On 150 web tasks, the authors report a 33.6% relative increase in completion against an unseen adversary compared with the base agent. The abstract says capability gains also carried over to a real browser, but the headline robustness figure is from the simulated evaluation. [arXiv; Hugging Face Papers.]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Web-agent security depends on handling hostile page instructions without discarding task-relevant page content. This preprint tests an adaptive training approach, while its simulator-based robustness figure and lack of independent replication limit what can be concluded.",
+      "editorNote": "Preprint; the 33.6% figure is a relative result reported by the authors on 150 simulated tasks. TODO-review: confirm Korean term for “web world model.”",
+      "cluster": [
+        {
+          "url": "https://huggingface.co/papers/2610.08773",
+          "source": "Hugging Face Papers",
+          "title": "AdvSim2Real : Training Web Agents Against Adaptive Prompt Injection in a Web World Model"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "http://arxiv.org/abs/2610.08773v1",
+          "source": "arXiv",
+          "title": "AdvSim2Real : Training Web Agents Against Adaptive Prompt Injection in a Web World Model",
+          "publishedAt": "2026-10-06T17:56:43Z"
+        },
+        {
+          "id": 2,
+          "url": "https://huggingface.co/papers/2610.08773",
+          "source": "Hugging Face Papers",
+          "title": "AdvSim2Real : Training Web Agents Against Adaptive Prompt Injection in a Web World Model"
+        }
+      ],
+      "tags": [
+        "AI agents",
+        "prompt injection",
+        "security"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "agent-in-a-bottle-bottling-benchmark",
+      "headline": "Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?",
+      "dek": "The authors introduce BOTTLED, a benchmark for testing whether language-model agents can turn repeated tasks into cheaper reusable solutions.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "BOTTLED evaluates agents asked to solve an unlabeled workload under fixed time, compute and API budgets.",
+        "Across ten models and three tasks, 48 of 60 runs scored below the lower bound of their model’s zero-shot 95% confidence interval.",
+        "The paper reports large cost savings in one classification task, but results varied substantially across runs and tasks."
+      ],
+      "body": [
+        {
+          "text": "The paper calls the process of converting general model capability into a reusable, lower-cost task solution “bottling.” In its BOTTLED benchmark, agents receive an unlabeled workload and must complete it within fixed time, compute and language-model API budgets. [arXiv; Hugging Face Papers.]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Across ten models and three tasks, 48 of 60 bottling runs fell below the lower bound of the model’s zero-shot 95% confidence interval. The authors also report that one Opus 5 product-relevance task retained about 82% of zero-shot macro-F1 at roughly 657 times lower reported cost; that result is task-specific. [arXiv; Hugging Face Papers.]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The benchmark highlights a deployment question that raw task accuracy does not answer: whether an agent can reliably trade up-front work for lower cost over repeated tasks. Its varied outcomes caution against assuming that strong zero-shot performance predicts effective automation.",
+      "editorNote": "New benchmark preprint. Cost and quality findings are reported by the paper authors and vary by task. TODO-review: confirm Korean term for “bottling.”",
+      "cluster": [
+        {
+          "url": "https://turingwire.com/research/agent-in-a-bottle-can-llm-agents-turn-their-capabilities-into-cheap-scalable/",
+          "source": "Turing Wire",
+          "title": "Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "http://arxiv.org/abs/2610.08775v1",
+          "source": "arXiv",
+          "title": "Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?",
+          "publishedAt": "2026-10-06T17:57:19Z"
+        },
+        {
+          "id": 2,
+          "url": "https://turingwire.com/research/agent-in-a-bottle-can-llm-agents-turn-their-capabilities-into-cheap-scalable/",
+          "source": "Turing Wire",
+          "title": "Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?",
+          "publishedAt": "2026-10-06"
+        }
+      ],
+      "tags": [
+        "AI agents",
+        "evaluation",
+        "inference costs"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "sherpa-adaptive-llm-teaching",
+      "headline": "Sherpa: Teaching LLMs to Teach Adaptively",
+      "dek": "A reinforcement-learning framework trains language-model teachers against simulated student profiles, with the paper reporting improved learning and preference results.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "Sherpa trains an LLM teacher to adapt lessons to simulated student archetypes by optimizing their learning outcomes.",
+        "The authors report a 20.5 percentage-point average improvement across archetypes and a 79.2% pedagogy score on MathTutorBench.",
+        "In a human comparison, the trained teacher was preferred in 79.6% of pairwise comparisons; these are study-specific results."
+      ],
+      "body": [
+        {
+          "text": "The paper argues that solving problems does not by itself make a model an effective teacher. Sherpa uses multiple LLM-simulated student archetypes with different learning preferences and trains a teacher model to maximize student learning outcomes. [arXiv; Hugging Face Papers.]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The authors report an average 20.5 percentage-point improvement in student performance across archetypes, a MathTutorBench pedagogy score rising from 52.5% to 79.2%, and preference for the trained teacher in 79.6% of human pairwise comparisons. The results concern the paper’s evaluated settings and do not establish classroom outcomes. [arXiv; Hugging Face Papers.]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Adaptive teaching is a more demanding test of education models than answer quality alone. Sherpa offers an outcome-oriented training approach, but whether simulated student gains transfer to real classrooms remains unresolved.",
+      "editorNote": "New preprint; study outcomes are author-reported. TODO-review: confirm Korean terms for “student archetype” and “pedagogy score.”",
+      "cluster": [
+        {
+          "url": "https://huggingface.co/papers/2610.08778",
+          "source": "Hugging Face Papers",
+          "title": "Sherpa: Teaching LLMs to Teach Adaptively"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "http://arxiv.org/abs/2610.08778v1",
+          "source": "arXiv",
+          "title": "Sherpa: Teaching LLMs to Teach Adaptively",
+          "publishedAt": "2026-10-06T17:58:18Z"
+        },
+        {
+          "id": 2,
+          "url": "https://huggingface.co/papers/2610.08778",
+          "source": "Hugging Face Papers",
+          "title": "Sherpa: Teaching LLMs to Teach Adaptively"
+        }
+      ],
+      "tags": [
+        "AI in education",
+        "reinforcement learning",
+        "evaluation"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

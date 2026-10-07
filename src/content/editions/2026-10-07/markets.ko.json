@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-07",
+  "generatedAt": "2026-10-07T22:01:53.000Z",
+  "vertical": "markets",
+  "lang": "ko",
+  "title": "FOMC 회의록과 국채 수요에 주목",
+  "summary": "오늘 시장 에디션은 조용합니다. 연방준비제도 회의록과 국채 입찰이 금리 논의에 영향을 줬습니다. 보도는 작성 시점의 시장 상황을 다루며 투자 조언을 제공하지 않습니다.",
+  "stories": [
+    {
+      "slug": "fomc-minutes-september-2026-ko",
+      "headline": "2026년 9월 15~16일 연방공개시장위원회 회의록",
+      "dek": "연방준비제도가 공개한 회의록에는 9월 회의 이후 물가, 고용, 정책 경로에 관한 참석자들의 견해가 담겼습니다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "연방준비제도는 10월 7일 9월 15~16일 회의록을 공개했습니다.",
+        "회의록은 정책 당국자들의 논의를 기록한 문서이며 새로운 금리 결정은 아닙니다.",
+        "AP는 회의록에 대부분의 참석자가 올해 추가 금리 인상이 필요할 수 있다고 봤다는 내용이 담겼지만, 시점은 제시되지 않았다고 보도했습니다."
+      ],
+      "body": [
+        {
+          "text": "연방준비제도는 2026년 9월 15~16일 회의록을 10월 7일 공개했습니다. 회의록은 경제 상황과 통화정책에 관한 참석자들의 논의를 요약하며, 새로운 정책 결정은 아닙니다. [Federal Reserve; AP.]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP는 참석자 대부분이 물가 대응을 위해 올해 추가 금리 인상이 필요할 가능성이 있다고 봤다고 보도했습니다. 회의록은 인상 시점을 제시하지 않았습니다. 이는 9월 회의 당시 견해를 기록한 것이며, 향후 전망을 보장하거나 시장 참여자에게 행동을 지시하지 않습니다. [Federal Reserve; AP.]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "회의록은 정례 회의 사이에 정책 당국자들의 견해 범위를 공개해 9월 결정의 배경을 설명합니다. 공개까지의 시차와 새로운 결정이 아니라는 점을 고려해 최신 경제 지표와 함께 해석할 필요가 있습니다.",
+      "editorNote": "회의록은 9월 15~16일 회의 당시의 견해를 기록합니다. 투자 권유나 매매 신호는 제공하지 않습니다.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/b7ed20e31e1a6fa5da6d78e5fe35b0c3",
+          "source": "AP",
+          "title": "Fed minutes: Another rate hike likely coming this year to combat persistent inflation"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260916.htm",
+          "source": "Federal Reserve",
+          "title": "Minutes of the Federal Open Market Committee, September 15-16, 2026",
+          "publishedAt": "2026-10-07"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/b7ed20e31e1a6fa5da6d78e5fe35b0c3",
+          "source": "AP",
+          "title": "Fed minutes: Another rate hike likely coming this year to combat persistent inflation",
+          "publishedAt": "2026-10-07T18:05:47Z"
+        }
+      ],
+      "tags": [
+        "Federal Reserve",
+        "interest rates",
+        "inflation"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "treasury-auction-eases-yield-demand-fears-ko",
+      "headline": "양호한 국채 입찰이 수요 우려를 덜며 10년물 금리, 24년 만의 최고치에서 하락",
+      "dek": "시장 보도에 따르면 국채 입찰이 단기 수요 우려를 덜어내면서 10년물 금리가 24년 만의 최고치에서 후퇴했습니다.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "CNBC는 국채 입찰 이후 수요 우려가 완화되면서 10년물 국채 금리가 24년 만의 최고치에서 하락했다고 보도했습니다.",
+        "MarketWatch도 높은 금리가 주식시장의 여러 부문에 부담을 주고 있다고 전했습니다.",
+        "두 보도는 시장 반응을 설명하지만, 차입 비용이나 투자자 행태의 지속적인 변화를 입증하지는 않습니다."
+      ],
+      "body": [
+        {
+          "text": "CNBC는 국채 입찰이 수요 우려를 완화하면서 10년물 금리가 24년 만의 최고치에서 후퇴했다고 보도했습니다. 해당 기사는 이를 입찰에 대한 반응으로 설명했으며, 광범위한 금리 압력이 끝났다는 근거로 제시하지는 않았습니다. [CNBC; MarketWatch.]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "MarketWatch는 높은 금리가 주식시장의 여러 부문에 부담을 주고 있다고 별도로 보도했습니다. 두 보도는 국채 수요와 주식시장 압력을 연결해 설명하지만, 어느 추세도 지속적으로 바뀌었다고 입증하지는 않습니다. [CNBC; MarketWatch.]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "장기 국채 금리는 여러 시장의 자금 조달 여건에 영향을 주고, 입찰 수요는 정부 부채에 대한 단기 수요를 보여줍니다. 보도된 금리 하락은 해당 거래 시간대에 한정된 움직임입니다.",
+      "editorNote": "단기 시장 보도이며 금리와 가격은 계속 변동합니다. 투자 조언이나 매매 신호는 제공하지 않습니다.",
+      "cluster": [
+        {
+          "url": "https://www.marketwatch.com/story/higher-yields-are-taking-their-toll-on-all-areas-of-the-stock-market-except-the-one-that-matters-69a90322?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Higher yields are taking their toll on all areas of the stock market, except the one that matters"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/07/treasury-yields-auction-fomc-minutes.html",
+          "source": "CNBC",
+          "title": "10-year Treasury yield backs off from 24-year high after solid bond auction eases demand fears",
+          "publishedAt": "2026-10-07T20:09:59.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.marketwatch.com/story/higher-yields-are-taking-their-toll-on-all-areas-of-the-stock-market-except-the-one-that-matters-69a90322?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Higher yields are taking their toll on all areas of the stock market, except the one that matters",
+          "publishedAt": "2026-10-07T20:58:00.000Z"
+        }
+      ],
+      "tags": [
+        "Treasury yields",
+        "bond auction",
+        "equities"
+      ],
+      "confidence": "low"
+    }
+  ]
+}

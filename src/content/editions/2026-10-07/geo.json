@@ -1,10 +1,10 @@
 {
   "date": "2026-10-07",
-  "generatedAt": "2026-10-07T00:00:00.000Z",
+  "generatedAt": "2026-10-07T22:01:53.000Z",
   "vertical": "geo",
   "lang": "en",
   "title": "Rebuilding after October 7: local questions and political aftershocks",
-  "summary": "A thin edition today: one cross-source story follows residents of a kibbutz destroyed in the 7 October Hamas-led attacks as they grapple with rebuilding, alongside reporting on how October 7 reshaped Israel.",
+  "summary": "A thin edition today keeps the existing kibbutz-rebuilding report and adds two developments: Canada’s planned indefinite exclusion for mental illness as a sole assisted-dying criterion, and conflicting reported tolls after a Russian attack on Ukraine.",
   "stories": [
     {
       "slug": "kibbutz-residents-weigh-rebuilding-three-years-after-attacks",
@@ -20,11 +20,16 @@
       "body": [
         {
           "text": "Residents of a kibbutz destroyed in the 7 October Hamas-led attacks are grappling with how to rebuild, according to BBC reporting published on October 7. The headline identifies reconstruction as an open question for the community; the collected source metadata does not establish a decision or timetable. (Source: BBC.)",
-          "citations": [1]
+          "citations": [
+            1
+          ]
         },
         {
           "text": "Al Jazeera’s October 7 coverage frames the attacks’ wider Israeli aftermath as a far-right political shift. Read together, the two reports show distinct dimensions of the same aftermath: local questions about rebuilding and national political change. The available headlines do not establish a direct causal link between those dimensions. (Sources: BBC; Al Jazeera.)",
-          "citations": [1, 2]
+          "citations": [
+            1,
+            2
+          ]
         }
       ],
       "whyItMatters": "Reconstruction after mass violence is shaped by both community-level choices and the political environment around them. These reports document both dimensions, while leaving the timing and conditions of rebuilding unresolved.",
@@ -52,8 +57,131 @@
           "publishedAt": "2026-10-07T08:53:23.000Z"
         }
       ],
-      "tags": ["Israel", "Gaza", "reconstruction", "politics"],
+      "tags": [
+        "Israel",
+        "Gaza",
+        "reconstruction",
+        "politics"
+      ],
       "confidence": "medium"
+    },
+    {
+      "slug": "canada-assisted-dying-mental-illness-exclusion",
+      "headline": "Canada to indefinitely bar mental illness as sole reason for access to euthanasia",
+      "dek": "Canada’s government says it will advance legislation to keep the existing exclusion in place; debate over eligibility and access to care continues.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "The Canadian government said it would move to make indefinite the exclusion for people whose sole underlying condition is mental illness.",
+        "The current exclusion is due to expire in March, and the policy remains contested among lawmakers and advocates.",
+        "The report also describes debate over advance requests; provinces would decide whether to provide for them."
+      ],
+      "body": [
+        {
+          "text": "Canada’s justice minister said the government would advance legislation to indefinitely bar people whose sole underlying medical condition is mental illness from medical assistance in dying. The existing pause is due to be lifted in March, and the issue has divided lawmakers. [The Guardian; BBC.]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The Guardian reports that advocates for expansion argue the current rules restrict constitutional rights and access to health care, while the government says the bill reflects its chosen approach. The same report says the government is also considering decriminalizing advance requests, with provinces deciding whether to permit them. [The Guardian; BBC.]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The proposal would settle a live eligibility question in Canadian law while leaving room for continued legal and provincial debate. The reports describe a government plan, not enacted legislation.",
+      "editorNote": "Based on contemporaneous reporting; the government’s proposed bill had not yet become law in the cited reports. Not medical or legal advice.",
+      "cluster": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cqd09g0gj50ko?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Canada suspends plans to expand assisted dying to people with mental illness"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.theguardian.com/world/2026/oct/07/canada-assisted-dying-mental-illness",
+          "source": "The Guardian",
+          "title": "Canada to indefinitely bar mental illness as sole reason for access to euthanasia",
+          "publishedAt": "2026-10-07T19:00:44.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.bbc.co.uk/news/articles/cqd09g0gj50ko?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Canada suspends plans to expand assisted dying to people with mental illness",
+          "publishedAt": "2026-10-07T19:30:51.000Z"
+        }
+      ],
+      "tags": [
+        "Canada",
+        "assisted dying",
+        "health policy"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "russia-ukraine-overnight-attack-reported-tolls",
+      "headline": "At least 24 killed as Russia launches massive attack on Ukraine",
+      "dek": "Al Jazeera’s newsfeed reports at least 24 deaths in a large overnight barrage; separate reporting gives a different toll as information develops.",
+      "type": "BRIEF",
+      "readMinutes": 2,
+      "tldr": [
+        "Al Jazeera’s October 7 newsfeed reported at least 24 people killed in a Russian overnight attack across several Ukrainian regions.",
+        "BBC reporting on a residential-building strike gave a toll of 19, including children, illustrating that reported counts differed across updates.",
+        "Ukraine’s account cited by Al Jazeera described a barrage involving drones and missiles and said air defences intercepted 161 targets."
+      ],
+      "body": [
+        {
+          "text": "Al Jazeera’s October 7 newsfeed reported at least 24 deaths across several regions, including four children in Pryluky, and said Ukraine reported an overnight barrage of 130 drones and 48 cruise and ballistic missiles. It also reported Ukraine’s statement that air defences intercepted 161 targets. [Al Jazeera; BBC.]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "A separate BBC report on a residential-building strike reported 19 deaths, including children. Because the reports use different updates and scopes, this edition preserves the discrepancy rather than treating either toll as a final count. [Al Jazeera; BBC.]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The attack adds pressure to Ukraine’s civilian protection and infrastructure challenges. The early reporting contains differing casualty totals, so the figures should be read as contemporaneous reports, not a settled final toll.",
+      "editorNote": "Conflicting contemporaneous casualty totals: Al Jazeera reported 24 deaths across several regions; BBC reported 19 in its residential-building report. Counts may reflect differing scope or update time.",
+      "cluster": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/ckr5ym098vdeo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Children killed while they slept as Russian missile kills 19 in block of flats"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/7/at-least-24-killed-as-russia-launches-massive-attack-on-ukraine?traffic_source=rss",
+          "source": "Al Jazeera Newsfeed",
+          "title": "At least 24 killed as Russia launches massive attack on Ukraine",
+          "publishedAt": "2026-10-07T18:32:08.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.bbc.co.uk/news/articles/ckr5ym098vdeo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Children killed while they slept as Russian missile kills 19 in block of flats",
+          "publishedAt": "2026-10-07T18:12:58.000Z"
+        }
+      ],
+      "tags": [
+        "Ukraine",
+        "Russia",
+        "civilian protection"
+      ],
+      "confidence": "low"
     }
   ]
 }
