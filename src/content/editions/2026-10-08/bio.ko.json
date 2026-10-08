@@ -1,0 +1,157 @@
+{
+  "date": "2026-10-08",
+  "generatedAt": "2026-10-08T10:02:13.118Z",
+  "vertical": "bio",
+  "lang": "ko",
+  "title": "초기 임상 근거와 의약품 관세 이행",
+  "summary": "오늘 Bio 에디션은 얇습니다. 소규모 광유전학 치료 연구에서 제한적인 시각 기능 개선이 보고됐고, 미국 지침은 일부 수입 의약품에 관세가 적용되는 방식을 구체화했습니다. 두 소식 모두 임상 지침을 바꾸지는 않습니다.",
+  "stories": [
+    {
+      "slug": "optogenetic-therapy-visual-function-trial-ko",
+      "headline": "시각 기능 회복을 위한 광유전학 치료",
+      "dek": "참가자 10명이 참여한 연구에서 일부 시각 과제의 개선이 보고됐지만, 결과는 달랐고 정상 시력을 회복하지는 못했습니다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "New England Journal of Medicine은 진행성 망막색소변성증 환자 10명에게 특수 고글과 병행한 광유전학 치료를 평가한 연구를 발표했습니다.",
+        "바젤대학교는 일부 참가자가 시각 기능 검사에서 개선을 보였다고 밝혔지만, 결과는 개인별로 달랐고 고해상도 시력은 회복되지 않았습니다.",
+        "이번 결과는 소규모 연구의 초기 임상 근거이며 치료의 전반적인 효과나 장기 결과를 확정하지 않습니다."
+      ],
+      "body": [
+        {
+          "text": "New England Journal of Medicine은 진행성 망막색소변성증에 대한 광유전학 치료 연구 결과를 발표했습니다. 이 접근법은 유전자 치료로 남아 있는 망막 세포가 빛에 반응하도록 하고, 카메라 영상을 빛 신호로 바꾸는 고글을 함께 사용합니다. [NEJM; University of Basel.]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "바젤대학교에 따르면 연구에는 참가자 10명이 참여했습니다. 고글을 착용했을 때 7명은 치료한 눈의 빛 민감도가 높아졌고, 6명은 연구가 사전에 정한 임상적으로 의미 있는 변화 기준에 도달했습니다. 물체 감지 검사를 마친 8명 중 4명은 여러 과제에서 일관된 개선을 보였으며, 참가자별 결과는 달랐습니다. [University of Basel; NEJM.]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "바젤대학교는 이 연구의 주된 목적이 안전성 평가였으며, 눈 관련 이상 반응 대부분은 경증 또는 중등도였다고 밝혔습니다. 치료로 고해상도 시력이 회복되지는 않았습니다. 소규모 연구만으로 장기적인 효과를 확정할 수는 없습니다. [NEJM; University of Basel.]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 결과는 생존한 망막 세포를 활용하는 유전자 변이 비의존적 접근법의 임상 신호를 제시하지만, 연구 규모가 작고 과제별 결과도 달라 근거는 초기 단계입니다. 후속 연구에서는 더 큰 규모로 지속적이고 실용적인 시각 기능을 확인해야 합니다.",
+      "editorNote": "초기 임상 근거로 보도했습니다. 이 기사는 의료 조언이 아니며 치료 결정을 뒷받침하지 않습니다.",
+      "cluster": [
+        {
+          "url": "https://www.statnews.com/2026/10/07/optogenetics-restores-some-vision-retinitis-pigmentosa/",
+          "source": "STAT",
+          "title": "In small trial, optogenetics restores some vision lost to retinitis pigmentosa"
+        },
+        {
+          "url": "https://www.eurekalert.org/news-releases/1146208",
+          "source": "EurekAlert",
+          "title": "Optogenetic therapy safe, shows signs of vision restoration in patients with advanced retinitis pigmentosa, according to international study led by Pitt scientists"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2602215",
+          "source": "New England Journal of Medicine",
+          "title": "Optogenetic Therapy for Restoring Aspects of Visual Function",
+          "publishedAt": "2026-10-07"
+        },
+        {
+          "id": 2,
+          "url": "https://www.unibas.ch/en/News-Events/News/Uni-Research/New-therapy-allows-blind-people-to-detect-simple-objects--Retinitis-pigmentosa-optogenetics.html",
+          "source": "University of Basel",
+          "title": "New therapy allows blind people to detect simple objects",
+          "publishedAt": "2026-10-08"
+        }
+      ],
+      "tags": [
+        "optogenetics",
+        "retinitis pigmentosa",
+        "clinical research"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "us-specialty-pharmaceutical-tariff-guidance-ko",
+      "headline": "포고령 11020에 따른 전문 의약품 및 관련 의약품 원료 관세 조정의 이행 절차와 지침, 미국 관세율표 기술 정정",
+      "dek": "상무부 지침은 전문 의약품 예외와 긴급 보건 수요 신청이 Section 232 의약품 관세 체계에 어떻게 적용되는지 설명합니다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "September 23자 Federal Register 공고는 포고령 11020에 따른 전문 의약품과 관련 원료의 절차를 설명합니다.",
+        "공고에 따르면 일부 특허 의약품 수입에는 September 29부터 100% 관세가 적용되며, 명시된 전문 의약품은 특정 조건 아래 0% 세율을 적용받을 수 있습니다.",
+        "STAT와 Axios는 제조업체들이 관세 적용 범위와 예외 절차를 파악하는 데 어려움을 겪는다고 보도했으며, 공고는 개별 신청의 처리 속도를 확정하지 않습니다."
+      ],
+      "body": [
+        {
+          "text": "미국 상무부의 September 23 공고는 관련 관할권에 적격 무역·안보 협정이 있거나 제품이 미국의 긴급 보건 수요를 충족할 때 0% 관세를 적용할 수 있는 전문 의약품을 정의합니다. 공고는 긴급 수요 정보를 제출하는 절차도 설명합니다. [Federal Register.]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "같은 공고에 따르면 지정된 협정이나 조치의 적용을 받지 않는 기업의 일부 특허 의약품 및 관련 원료에는 September 29부터 100%의 Section 232 관세가 적용됩니다. 공고는 현재 일반 의약품은 이 의약품 관세의 적용 대상이 아니라고 명시합니다. [Federal Register.]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "STAT와 Axios는 특히 생산을 외주화하는 소규모 제조업체들이 관세 적용 범위와 예외 신청 절차를 파악하고 있다고 보도했습니다. 인용한 보도에서도 기업별 구제 범위와 결정 시점은 확정되지 않았습니다. [STAT; Axios.]",
+          "citations": [
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "이번 지침은 광범위한 관세 정책을 의약품과 기업별 절차로 구체화해 의약품 공급망과 제조업체의 운영 가정에 영향을 줍니다. 예외와 심사 절차가 남아 있어 제품이나 생산 방식이 명시된 범주에 맞지 않는 기업을 중심으로 이행상의 질문이 계속될 수 있습니다.",
+      "editorNote": "Federal Register 공고와 업계 우려에 관한 보도를 바탕으로 정책을 요약했습니다. 의료·투자 조언은 포함하지 않습니다.",
+      "cluster": [
+        {
+          "url": "https://www.axios.com/2026/09/30/trump-drug-tariffs-biotech",
+          "source": "Axios",
+          "title": "Drug tariffs cast cloud over smaller biotechs"
+        },
+        {
+          "url": "https://www.whitehouse.gov/fact-sheets/2026/04/fact-sheet-president-donald-j-trump-bolsters-national-security-and-strengthens-u-s-supply-chains-by-imposing-tariffs-on-patented-pharmaceutical-products/",
+          "source": "The White House",
+          "title": "Fact Sheet: President Donald J. Trump Bolsters National Security and Strengthens U.S. Supply Chains by Imposing Tariffs on Patented Pharmaceutical Products"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-09-23/html/2026-19498.htm",
+          "source": "Federal Register",
+          "title": "Guidance and Procedures for Implementing Tariff Adjustments for Specialty Pharmaceuticals and Associated Pharmaceutical Ingredients and Technical Corrections to the Harmonized Tariff Schedule of the United States for Duties Imposed Under Proclamation 11020",
+          "publishedAt": "2026-09-23"
+        },
+        {
+          "id": 2,
+          "url": "https://www.statnews.com/2026/10/08/trump-tariffs-section-232-imported-prescription-drugs-challenge-biotech-companies/?utm_campaign=rss",
+          "source": "STAT",
+          "title": "STAT+: Biotech companies are struggling to navigate Trump’s new tariffs",
+          "publishedAt": "2026-10-08T08:30:00Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.axios.com/2026/09/30/trump-drug-tariffs-biotech",
+          "source": "Axios",
+          "title": "Drug tariffs cast cloud over smaller biotechs",
+          "publishedAt": "2026-09-30T09:40:06Z"
+        }
+      ],
+      "tags": [
+        "pharmaceuticals",
+        "trade policy",
+        "supply chain"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

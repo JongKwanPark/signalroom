@@ -1,0 +1,141 @@
+{
+  "date": "2026-10-08",
+  "generatedAt": "2026-10-08T10:02:13.118Z",
+  "vertical": "markets",
+  "lang": "en",
+  "title": "AI demand lifts chipmakers’ reported sales and earnings",
+  "summary": "A thin markets edition today: Samsung issued preliminary third-quarter guidance and TSMC reported September revenue growth. The reports describe company results and contain no investment advice.",
+  "stories": [
+    {
+      "slug": "samsung-q3-2026-earnings-guidance",
+      "headline": "Samsung Electronics Announces Earnings Guidance for Third Quarter 2026",
+      "dek": "Samsung’s preliminary figures show a sharp year-over-year increase in third-quarter operating profit; detailed results are due October 29.",
+      "type": "DATA",
+      "readMinutes": 2,
+      "tldr": [
+        "Samsung estimated third-quarter 2026 consolidated sales at approximately 195 trillion won and operating profit at 107.40 trillion won.",
+        "The company’s release lists third-quarter 2025 operating profit at 12.17 trillion won and second-quarter 2026 operating profit at 89.49 trillion won.",
+        "Investing.com reported that the profit estimate was below some market expectations, while Samsung said detailed results would follow on October 29."
+      ],
+      "body": [
+        {
+          "text": "Samsung’s October 8 earnings guidance put consolidated third-quarter sales at approximately 195 trillion won and operating profit at approximately 107.40 trillion won. The company said the estimates use K-IFRS and represent the median of underlying estimate ranges. [Samsung.]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Samsung’s table lists operating profit of 12.17 trillion won in the third quarter of 2025 and 89.49 trillion won in the second quarter of 2026. Investing.com reported that the preliminary profit figure was below some analyst expectations; Samsung scheduled detailed results for October 29. [Samsung; Investing.com.]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The guidance is preliminary and does not include the final segment breakdown. The company attributed the release to its standard quarterly earnings process; no market recommendation follows from the reported figures. [Samsung; Investing.com.]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The scale of the preliminary increase puts memory-chip earnings and AI-linked demand at the center of attention ahead of Samsung’s detailed release. Segment results on October 29 will show how much of the reported total came from semiconductors versus its other businesses.",
+      "editorNote": "Company guidance is preliminary; final results and segment detail are scheduled for October 29. No investment advice or trading signal.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/08/samsung-q3-earnings.html",
+          "source": "CNBC",
+          "title": "Samsung forecasts record third-quarter profit of $80 billion as AI boom fuels chip demand"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://news.samsung.com/global/samsung-electronics-announces-earnings-guidance-for-third-quarter-2026",
+          "source": "Samsung Electronics",
+          "title": "Samsung Electronics Announces Earnings Guidance for Third Quarter 2026",
+          "publishedAt": "2026-10-08"
+        },
+        {
+          "id": 2,
+          "url": "https://uk.investing.com/news/earnings/samsung-q3-profit-surges-to-record-high-but-misses-lofty-expectations-4900183",
+          "source": "Investing.com",
+          "title": "Samsung shares fall as record Q3 profit misses lofty expectations",
+          "publishedAt": "2026-10-08T00:24:00Z"
+        }
+      ],
+      "tags": [
+        "Samsung",
+        "semiconductors",
+        "earnings"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "tsmc-september-2026-revenue",
+      "headline": "TSMC September 2026 Revenue Report",
+      "dek": "September revenue rose year over year while easing slightly from August, and third-quarter revenue reached a record, according to company and Taiwanese news reports.",
+      "type": "DATA",
+      "readMinutes": 2,
+      "tldr": [
+        "TSMC reported September 2026 revenue of NT$511.86 billion, up 54.6% from September 2025 and down 0.6% from August 2026.",
+        "Revenue for January through September totaled NT$3,898.73 billion, up 41.1% year over year.",
+        "Focus Taiwan reported third-quarter revenue of NT$1.49 trillion, above the company’s guidance; TSMC’s investor conference is scheduled for October 15."
+      ],
+      "body": [
+        {
+          "text": "TSMC said consolidated September revenue was NT$511.86 billion, 54.6% above September 2025 and 0.6% below August 2026. January-through-September revenue totaled NT$3,898.73 billion, up 41.1% year over year. [TSMC.]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Focus Taiwan reported third-quarter consolidated revenue of NT$1.49 trillion, up 17.62% from the previous quarter and above the company’s guidance. The outlet attributed the quarter’s performance to strong AI-chip demand and smartphone-related orders; that explanation is reported analysis, not a company forecast. [TSMC; Focus Taiwan.]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "TSMC’s release provides monthly and year-to-date revenue, while Focus Taiwan adds quarterly context. TSMC scheduled its next investor conference for October 15, where it is expected to discuss additional operating details. [TSMC; Focus Taiwan.]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The revenue report provides a fresh measure of demand flowing through the world’s largest contract chipmaker and gives context for the AI hardware supply chain. Monthly sales do not establish margins or the durability of demand; those questions await the earnings discussion.",
+      "editorNote": "Revenue figures are company-reported and unaudited. Industry-demand explanations are attributed to Focus Taiwan. No investment advice or trading signal.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/08/tsmc-september-sales-hit-another-record-as-ai-boom-rolls-on.html",
+          "source": "CNBC",
+          "title": "TSMC’s September sales surge year-over-year as AI drives chip demand"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://pr.cld.tsmc.com/english/news/3343",
+          "source": "TSMC",
+          "title": "TSMC September 2026 Revenue Report",
+          "publishedAt": "2026-10-08"
+        },
+        {
+          "id": 2,
+          "url": "https://focustaiwan.tw/business/202610080012",
+          "source": "Focus Taiwan",
+          "title": "TSMC posts record quarterly revenue, highest-ever September sales",
+          "publishedAt": "2026-10-08T15:45:00+08:00"
+        }
+      ],
+      "tags": [
+        "TSMC",
+        "semiconductors",
+        "revenue",
+        "AI infrastructure"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

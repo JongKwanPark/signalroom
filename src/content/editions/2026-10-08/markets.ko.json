@@ -1,0 +1,141 @@
+{
+  "date": "2026-10-08",
+  "generatedAt": "2026-10-08T10:02:13.118Z",
+  "vertical": "markets",
+  "lang": "ko",
+  "title": "AI 수요가 반영된 반도체 기업 실적과 매출",
+  "summary": "오늘 시장 에디션은 얇습니다. Samsung은 3분기 잠정 실적 전망을 내놨고 TSMC는 9월 매출 증가를 발표했습니다. 각 기업의 실적을 다루며 투자 조언은 제공하지 않습니다.",
+  "stories": [
+    {
+      "slug": "samsung-q3-2026-earnings-guidance-ko",
+      "headline": "Samsung Electronics, 2026년 3분기 실적 가이던스 발표",
+      "dek": "Samsung의 잠정 수치는 3분기 영업이익이 전년 대비 크게 늘었음을 보여주며, 상세 실적은 October 29에 공개될 예정입니다.",
+      "type": "DATA",
+      "readMinutes": 2,
+      "tldr": [
+        "Samsung은 2026년 3분기 연결 매출을 약 195 trillion won, 영업이익을 107.40 trillion won으로 추정했습니다.",
+        "회사 자료에 따르면 2025년 3분기 영업이익은 12.17 trillion won, 2026년 2분기 영업이익은 89.49 trillion won이었습니다.",
+        "Investing.com은 영업이익 추정치가 일부 시장 기대를 밑돌았다고 보도했고, Samsung은 상세 실적을 October 29에 발표한다고 밝혔습니다."
+      ],
+      "body": [
+        {
+          "text": "Samsung은 October 8에 2026년 3분기 연결 매출을 약 195 trillion won, 영업이익을 약 107.40 trillion won으로 추정하는 가이던스를 발표했습니다. 회사는 K-IFRS 기준 추정치이며, 아래 추정 구간의 중간값이라고 밝혔습니다. [Samsung.]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Samsung 자료에 따르면 2025년 3분기 영업이익은 12.17 trillion won, 2026년 2분기는 89.49 trillion won이었습니다. Investing.com은 잠정 영업이익이 일부 애널리스트 기대를 밑돌았다고 보도했습니다. Samsung은 상세 실적을 October 29에 발표할 예정입니다. [Samsung; Investing.com.]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이번 가이던스는 잠정치이며 최종 사업 부문별 실적은 포함하지 않습니다. Samsung은 정례 분기 실적 절차에 따라 발표했으며, 보고된 수치만으로 시장 행동을 권고하지 않습니다. [Samsung; Investing.com.]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "잠정 증가 폭은 Samsung의 상세 실적 공개를 앞두고 메모리 반도체와 AI 연계 수요를 주목하게 합니다. October 29에 발표될 사업 부문별 실적을 보면 반도체와 다른 사업이 전체 수치에 각각 얼마나 기여했는지 확인할 수 있습니다.",
+      "editorNote": "회사 가이던스는 잠정치이며 최종 실적과 사업 부문별 세부 내용은 October 29에 공개될 예정입니다. 투자 조언이나 매매 신호는 제공하지 않습니다.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/08/samsung-q3-earnings.html",
+          "source": "CNBC",
+          "title": "Samsung forecasts record third-quarter profit of $80 billion as AI boom fuels chip demand"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://news.samsung.com/global/samsung-electronics-announces-earnings-guidance-for-third-quarter-2026",
+          "source": "Samsung Electronics",
+          "title": "Samsung Electronics Announces Earnings Guidance for Third Quarter 2026",
+          "publishedAt": "2026-10-08"
+        },
+        {
+          "id": 2,
+          "url": "https://uk.investing.com/news/earnings/samsung-q3-profit-surges-to-record-high-but-misses-lofty-expectations-4900183",
+          "source": "Investing.com",
+          "title": "Samsung shares fall as record Q3 profit misses lofty expectations",
+          "publishedAt": "2026-10-08T00:24:00Z"
+        }
+      ],
+      "tags": [
+        "Samsung",
+        "semiconductors",
+        "earnings"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "tsmc-september-2026-revenue-ko",
+      "headline": "TSMC 2026년 9월 매출 보고서",
+      "dek": "회사와 대만 언론 보도에 따르면 9월 매출은 전년보다 늘고 전월보다 소폭 줄었으며, 3분기 매출은 사상 최대였습니다.",
+      "type": "DATA",
+      "readMinutes": 2,
+      "tldr": [
+        "TSMC는 2026년 9월 매출이 NT$511.86 billion으로, 2025년 9월보다 54.6% 늘고 August 2026보다 0.6% 줄었다고 발표했습니다.",
+        "2026년 1~9월 매출은 NT$3,898.73 billion으로 전년 동기보다 41.1% 증가했습니다.",
+        "Focus Taiwan은 3분기 매출이 NT$1.49 trillion으로 회사 가이던스를 웃돌았다고 보도했고, TSMC의 투자자 회의는 October 15로 예정돼 있습니다."
+      ],
+      "body": [
+        {
+          "text": "TSMC는 2026년 9월 연결 매출이 NT$511.86 billion으로 2025년 9월보다 54.6% 늘고 August 2026보다 0.6% 줄었다고 밝혔습니다. 2026년 1~9월 매출은 NT$3,898.73 billion으로 전년 동기 대비 41.1% 증가했습니다. [TSMC.]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Focus Taiwan은 3분기 연결 매출이 NT$1.49 trillion으로 전 분기보다 17.62% 늘어 회사 가이던스를 웃돌았다고 보도했습니다. 이 매체는 AI 칩 수요와 스마트폰 관련 주문 증가를 분기 실적의 배경으로 설명했으며, 이는 회사 전망이 아니라 보도에 담긴 분석입니다. [TSMC; Focus Taiwan.]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "TSMC 자료는 월간 및 연초 이후 매출을 제시하고, Focus Taiwan은 분기 맥락을 더합니다. TSMC는 October 15에 투자자 회의를 열어 추가 영업 정보를 다룰 예정입니다. [TSMC; Focus Taiwan.]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 매출 보고서는 세계 최대 파운드리에서 발생하는 수요를 새로 보여주며 AI 하드웨어 공급망을 파악하는 데 맥락을 제공합니다. 월간 매출만으로 마진이나 수요의 지속성을 판단할 수는 없으며, 관련 내용은 실적 논의에서 확인될 예정입니다.",
+      "editorNote": "매출 수치는 회사가 발표한 미감사 수치입니다. 산업 수요 설명은 Focus Taiwan 보도로 귀속했습니다. 투자 조언이나 매매 신호는 제공하지 않습니다.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/08/tsmc-september-sales-hit-another-record-as-ai-boom-rolls-on.html",
+          "source": "CNBC",
+          "title": "TSMC’s September sales surge year-over-year as AI drives chip demand"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://pr.cld.tsmc.com/english/news/3343",
+          "source": "TSMC",
+          "title": "TSMC September 2026 Revenue Report",
+          "publishedAt": "2026-10-08"
+        },
+        {
+          "id": 2,
+          "url": "https://focustaiwan.tw/business/202610080012",
+          "source": "Focus Taiwan",
+          "title": "TSMC posts record quarterly revenue, highest-ever September sales",
+          "publishedAt": "2026-10-08T15:45:00+08:00"
+        }
+      ],
+      "tags": [
+        "TSMC",
+        "semiconductors",
+        "revenue",
+        "AI infrastructure"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

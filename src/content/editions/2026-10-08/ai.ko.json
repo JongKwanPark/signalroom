@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-08",
+  "generatedAt": "2026-10-08T10:02:13.118Z",
+  "vertical": "ai",
+  "lang": "ko",
+  "title": "Windows, 로컬 AI 연산 영역으로 확장",
+  "summary": "오늘 AI 에디션은 얇습니다. Microsoft와 NVIDIA가 로컬에서 더 큰 AI 작업을 실행하도록 설계한 RTX Spark 기반 Windows 기기를 소개했습니다. 이번 발표는 제품 출시 소식이며 실제 성능을 독립적으로 입증한 결과는 아닙니다.",
+  "stories": [
+    {
+      "slug": "microsoft-nvidia-rtx-spark-windows-ai-ko",
+      "headline": "NVIDIA와 Microsoft, RTX Spark 및 AI 에이전트로 Windows PC의 새 장을 열다",
+      "dek": "두 회사는 RTX Spark 노트북과 소형 데스크톱을 로컬 AI 및 에이전트 작업용 Windows 플랫폼으로 내세우고 있습니다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "Microsoft와 NVIDIA는 October 7에 Surface Laptop Ultra를 포함한 RTX Spark 기반 Windows 기기를 발표했습니다.",
+        "Microsoft에 따르면 해당 노트북 구성은 최대 128 GB 통합 메모리를 탑재하고 120B를 넘는 모델을 로컬에서 실행할 수 있습니다.",
+        "Axios는 이번 출시를 로컬 AI 작업을 겨냥한 고성능 Windows 제품군 구축 시도로 설명했으며, 독립적인 실제 성능 측정은 발표에 포함되지 않았습니다."
+      ],
+      "body": [
+        {
+          "text": "Microsoft와 NVIDIA는 Surface Laptop Ultra와 소형 데스크톱을 포함한 Windows 기기용 공동 하드웨어·소프트웨어 플랫폼으로 RTX Spark를 소개했습니다. 두 회사는 October 7에 사전 주문을 시작한다고 밝혔고, NVIDIA는 October 16을 출시일로 제시했습니다. [Microsoft; NVIDIA.]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Microsoft에 따르면 Surface Laptop Ultra 구성은 NVIDIA의 Blackwell RTX GPU와 NVIDIA의 Grace CPU를 결합하며, 최대 128 GB의 통합 메모리를 탑재하고 120B를 넘는 모델을 로컬에서 실행할 수 있습니다. 이는 회사가 제시한 사양과 주장으로, 발표 자료에는 독립적인 작업 부하 벤치마크가 없습니다. [Microsoft.]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Axios는 이번 발표를 로컬 AI 연산을 원하는 이용자를 겨냥해 Windows와 AI의 연결을 강화하려는 Microsoft의 시도로 설명했습니다. 이 포지셔닝은 제품 전략에 관한 설명이며, 로컬 실행이 클라우드 서비스를 대체한다는 증거는 아닙니다. [Axios; NVIDIA.]",
+          "citations": [
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "이번 출시는 Windows 기기 로드맵을 NVIDIA의 연산·메모리·AI 소프트웨어와 연결합니다. 발표된 사양대로 작동한다면 로컬 추론 접근성이 넓어질 수 있지만, 실제 출시 제품의 전력 사용량, 지속 성능, 소프트웨어 호환성은 아직 검증되지 않았습니다.",
+      "editorNote": "사양과 모델 처리 용량은 Microsoft와 NVIDIA의 설명으로 귀속했습니다. 인용한 출시 보도에는 독립적인 성능 측정이 없습니다.",
+      "cluster": [
+        {
+          "url": "https://www.axios.com/2026/10/07/microsoft-looks-to-reboot-the-ai-pc-with-nvidia",
+          "source": "Axios",
+          "title": "Microsoft looks to reboot the AI PC with Nvidia"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://blogs.windows.com/devices/2026/10/07/pre-order-our-most-powerful-surface-devices-ever/",
+          "source": "Microsoft Devices Blog",
+          "title": "Pre-order our most powerful Surface devices ever",
+          "publishedAt": "2026-10-07"
+        },
+        {
+          "id": 2,
+          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+          "source": "NVIDIA Blog",
+          "title": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs with RTX Spark and AI Agents",
+          "publishedAt": "2026-10-07"
+        },
+        {
+          "id": 3,
+          "url": "https://www.axios.com/2026/10/07/microsoft-looks-to-reboot-the-ai-pc-with-nvidia",
+          "source": "Axios",
+          "title": "Microsoft looks to reboot the AI PC with Nvidia",
+          "publishedAt": "2026-10-07T18:23:48Z"
+        }
+      ],
+      "tags": [
+        "Microsoft",
+        "NVIDIA",
+        "local inference",
+        "AI hardware"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

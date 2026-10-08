@@ -1,0 +1,160 @@
+{
+  "date": "2026-10-08",
+  "generatedAt": "2026-10-08T10:02:13.118Z",
+  "vertical": "geo",
+  "lang": "en",
+  "title": "Jerusalem mission deal and Tigray troop reports",
+  "summary": "A thin geopolitics edition today: Britain and Israel described the status of the East Jerusalem mission differently, while accounts of Eritrean troop movements in Tigray remain only partly verified.",
+  "stories": [
+    {
+      "slug": "uk-mission-jerusalem-israel-deal",
+      "headline": "Foreign Secretary statement on the UK's diplomatic presence in Jerusalem",
+      "dek": "The UK says its consulate building will remain open as a mission after talks with Israel, while Israel described the consular function and staffing differently.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "The UK said its Consulate General building in Jerusalem would remain open as the UK Mission, Jerusalem from October 8.",
+        "Israel said the consulate had ceased functioning in that capacity and that 20 diplomats would leave; the UK said a smaller team would continue providing services.",
+        "The two governments have not publicly described the arrangement in the same terms, and the UK said it would not take reciprocal action while discussions continue."
+      ],
+      "body": [
+        {
+          "text": "The UK Foreign Secretary said on October 8 that the Consulate General building would not close and would be known as the UK Mission, Jerusalem. The statement says the mission will remain independent and operational and continue work with Palestinians. [UK Foreign Office.]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The Associated Press reported that Israel’s foreign minister said the consulate had ceased to function in that capacity and that 20 British diplomats would leave Israel, while seven would continue in a limited task force. The UK’s statement said staff and families had been temporarily withdrawn for security reasons and that it would rebuild its presence. [AP; UK Foreign Office.]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The UK said it would not take reciprocal action while discussions remained credible. The public statements therefore describe a continued UK presence but differ on whether the building still functions as a consulate and on the scope of remaining activity. [UK Foreign Office; AP.]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The arrangement preserves a UK diplomatic presence serving Palestinians in East Jerusalem while the two governments maintain different public positions on the consulate’s status. That distinction matters to the practical reach of the UK’s local work and to an already strained bilateral relationship.",
+      "editorNote": "The UK and Israeli accounts differ on the building’s status and staff remit. This summary attributes each position and does not resolve the legal dispute.",
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/politics/2026/oct/08/uk-consulate-east-jerusalem-remain-open-uk-mission-ed-miliband",
+          "source": "The Guardian / Reuters",
+          "title": "British consulate in East Jerusalem will stay open as UK mission, says Ed Miliband"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/8/signage-at-uk-consulate-in-east-jerusalem-removed-as-israels-deadline-over",
+          "source": "Al Jazeera / Reuters",
+          "title": "Signage at UK consulate in East Jerusalem removed as Israel’s deadline over"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.gov.uk/government/news/foreign-secretary-statement-on-the-uks-diplomatic-presence-in-jerusalem",
+          "source": "UK Foreign Office",
+          "title": "Foreign Secretary statement on the UK's diplomatic presence in Jerusalem",
+          "publishedAt": "2026-10-08"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/israel-consulate-britain-mideast-october-8-2026-c7a446e1bd01966f19b88af07149c3d5",
+          "source": "AP",
+          "title": "Israel says British Consulate in east Jerusalem has ceased to function and 20 diplomats will leave",
+          "publishedAt": "2026-10-08T07:57:00Z"
+        }
+      ],
+      "tags": [
+        "United Kingdom",
+        "Israel",
+        "East Jerusalem",
+        "diplomacy"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "eritrea-troops-tigray-reports",
+      "headline": "Eritrean troops move deep into Ethiopia's Tigray region, residents tell BBC",
+      "dek": "Residents, a local commander and ACLED described Eritrean troop movements, but AP said it could not independently verify the accounts.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "Residents told the BBC that Eritrean troops had moved south through Adigrat in Ethiopia’s Tigray region.",
+        "ACLED separately said Eritrean forces crossed at Zelambesa on October 7 and that Ethiopian drones targeted them near Guada.",
+        "AP reported both accounts but said it could not independently verify them, leaving the reported movements uncertain."
+      ],
+      "body": [
+        {
+          "text": "Residents in Adigrat told the BBC they had seen Eritrean troops moving south from the border area. The report describes witness accounts rather than an independently confirmed troop deployment. [BBC; AP.]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "ACLED said Eritrean forces crossed the border at Zelambesa on October 7 and moved toward the Adigrat–Idaga Hamus route; it also reported Ethiopian drone strikes near Guada. AP separately relayed a local commander’s account and ACLED’s assessment. [ACLED; AP.]",
+          "citations": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "AP said it could not independently verify either account and had not received a response from ACLED about the basis for its claims by Thursday morning. The reports therefore indicate a possible cross-border escalation but do not establish the full scale or status of the movement. [AP; ACLED.]",
+          "citations": [
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "If confirmed, movement by Eritrean forces into Tigray would raise the risk that renewed fighting in northern Ethiopia crosses an international border. The available reporting is contested and partly unverified, so the scale and intent remain unclear.",
+      "editorNote": "Unverified conflict reporting: AP could not independently verify the accounts. Claims are attributed to residents, a local commander and ACLED; no independent confirmation of scale or intent.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/7/witnesses-spot-eritrean-troops-inside-northern-ethiopia-as-tensions-flare",
+          "source": "Al Jazeera / Reuters",
+          "title": "Witnesses spot Eritrean troops inside northern Ethiopia as tensions flare"
+        },
+        {
+          "url": "https://www.marketscreener.com/news/eritrean-troops-drive-through-northern-ethiopian-town-witnesses-say-ce785ddedb8ff321",
+          "source": "Reuters via MarketScreener",
+          "title": "Eritrean troops drive through northern Ethiopian town, witnesses say"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/ckvgd63rj92lo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Eritrean troops move deep into Ethiopia's Tigray region, residents tell BBC",
+          "publishedAt": "2026-10-07T18:40:52Z"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/6d89a0f53f527fb45d21637c5d9a0179",
+          "source": "AP",
+          "title": "Eritrean soldiers entered northern Ethiopian towns, government-allied commander says",
+          "publishedAt": "2026-10-08T06:43:48Z"
+        },
+        {
+          "id": 3,
+          "url": "https://acleddata.com/expert-comment/what-main-reason-eritrean-forces-crossed-border-fight-within-ethiopias-tigray-region",
+          "source": "ACLED",
+          "title": "What is the main reason Eritrean forces crossed the border to fight within Ethiopia’s Tigray region?",
+          "publishedAt": "2026-10-07"
+        }
+      ],
+      "tags": [
+        "Ethiopia",
+        "Eritrea",
+        "Tigray",
+        "conflict"
+      ],
+      "confidence": "low"
+    }
+  ]
+}
