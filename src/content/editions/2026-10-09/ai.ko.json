@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-09",
+  "generatedAt": "2026-10-09T10:05:32.990271Z",
+  "vertical": "ai",
+  "lang": "ko",
+  "title": "AI | 2026년 10월 9일",
+  "summary": "교차 확인을 거친 얇은 에디션입니다. OpenAI 연구자 해고 사유를 둘러싼 주요 이견 1건이 복수의 독립 출처로 확인됐습니다. 나머지 수집 항목은 대체로 단일 링크의 연구·제품 게시물이었습니다.",
+  "stories": [
+    {
+      "slug": "openai-researchers-dismissed-safety-dispute-ko",
+      "headline": "해고된 OpenAI 연구자들 “안전을 우선시해 내보내졌다”",
+      "dek": "OpenAI는 민감한 정보 취급 정책 위반이 해고 사유라고 밝혔고, 연구자들은 안전 문제를 둘러싼 이견이라고 설명합니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "BBC는 전직 OpenAI 연구자들이 안전을 우선시했다는 이유로 해고됐다고 말했다고 보도했습니다.",
+        "OpenAI는 해고 사유가 민감한 정보 취급 정책 위반이라고 반박했습니다.",
+        "Reuters는 정보 취급 조사 뒤 연구자 3명이 해고됐다는 OpenAI의 설명을 전했습니다."
+      ],
+      "body": [
+        {
+          "text": "해고 사유를 두고 양측 설명이 엇갈립니다. 연구자들은 안전 관련 이견을 말하고, OpenAI는 정보 취급 규정을 이유로 들었습니다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "현재 보도는 서로 다른 설명을 확인했지만, 인사 분쟁의 실제 경위를 독립적으로 판정하지는 못했습니다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "이 분쟁은 내부 안전 논의와 기업의 정보 통제를 함께 묻는 거버넌스 사안입니다. 현재 보도만으로 어느 쪽 설명이 맞는지는 확인되지 않습니다.",
+      "editorNote": "동시기 보도를 바탕으로 작성했으며, 해고 사유는 다투어지고 있습니다.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/09/openai-fired-researchers-ai-concerns.html",
+          "source": "CNBC",
+          "title": "OpenAI defends decision to fire researchers: 'These decisions were not about raising safety concerns or speaking out'"
+        },
+        {
+          "url": "https://live.euronext.com/en/financial-news/openai-says-it-has-fired-three-researchers-violating-sensitive-information-policy",
+          "source": "Reuters (via Euronext)",
+          "title": "OpenAI says it has fired three researchers for violating sensitive information policy"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cvlydn8d3lkjo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Fired OpenAI researchers say they were let go for 'prioritising safety'",
+          "publishedAt": "2026-10-09T09:30:49.000Z",
+          "id": 1
+        },
+        {
+          "url": "https://www.cnbc.com/2026/10/09/openai-fired-researchers-ai-concerns.html",
+          "source": "CNBC",
+          "title": "OpenAI defends decision to fire researchers: 'These decisions were not about raising safety concerns or speaking out'",
+          "publishedAt": "2026-10-09T08:33:53.000Z",
+          "id": 2
+        },
+        {
+          "url": "https://live.euronext.com/en/financial-news/openai-says-it-has-fired-three-researchers-violating-sensitive-information-policy",
+          "source": "Reuters (via Euronext)",
+          "title": "OpenAI says it has fired three researchers for violating sensitive information policy",
+          "publishedAt": "2026-10-09",
+          "id": 3
+        }
+      ],
+      "tags": [
+        "OpenAI",
+        "AI safety",
+        "governance"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

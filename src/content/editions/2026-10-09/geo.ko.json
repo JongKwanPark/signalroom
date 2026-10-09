@@ -1,0 +1,135 @@
+{
+  "date": "2026-10-09",
+  "generatedAt": "2026-10-09T10:05:32.990271Z",
+  "vertical": "geo",
+  "lang": "ko",
+  "title": "지정학 | 2026년 10월 9일",
+  "summary": "복수 출처로 확인된 두 가지 사안을 담은 얇은 에디션입니다. 나비 필라이의 노벨평화상 수상과 베네수엘라 전 지도자 니콜라스 마두로에 대한 미국의 기소를 다룹니다. 일부 피드는 자료가 없거나 차단돼 교차 확인된 사안만 실었습니다.",
+  "stories": [
+    {
+      "slug": "navi-pillay-nobel-peace-prize-ko",
+      "headline": "2026년 노벨평화상, 나비 필라이에게 수여",
+      "dek": "2026년 노벨평화상은 남아프리카공화국 출신 법조인이자 전 유엔 인권최고대표인 나비 필라이에게 돌아갔습니다.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "Al Jazeera와 Associated Press는 2026년 노벨평화상 수상자가 나비 필라이라고 보도했습니다.",
+        "보도는 필라이를 남아프리카공화국 출신 법조인이자 전 유엔 인권최고대표로 소개했습니다.",
+        "수상은 국제법과 정의를 위한 활동을 인정한 것이라고 보도됐습니다."
+      ],
+      "body": [
+        {
+          "text": "노벨위원회의 선택으로 나비 필라이가 평화상을 받았습니다. Al Jazeera, CNBC, Associated Press가 수상 사실을 각각 보도했습니다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "인용된 보도는 국제 정의와 인권을 위한 필라이의 활동을 수상 배경으로 들었습니다.",
+          "citations": [
+            1,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "이번 수상은 국제법과 인권 기관의 역할이 지정학적 논쟁의 대상이 되는 시점에 해당 제도의 중요성을 부각합니다.",
+      "editorNote": "수상 사실은 세 매체의 보도로 확인했으며, 보도에 명시된 수상 이유를 넘어선 해석은 덧붙이지 않았습니다.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/09/nobel-peace-prize-navanethem-navi-pillay-winner.html",
+          "source": "CNBC",
+          "title": "South Africa lawyer Navanethm 'Navi' Pillay wins Nobel Peace Prize for efforts to prosecute war crimes and genocide"
+        },
+        {
+          "url": "https://apnews.com/article/f60744c07df969e50e9e69786fdb7de1",
+          "source": "Associated Press",
+          "title": "Navanethem 'Navi' Pillay wins the Nobel Peace Prize for her work in international justice"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/9/2026-nobel-peace-prize-awarded-to-navi-pillay?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "2026 Nobel Peace Prize awarded to Navi Pillay",
+          "publishedAt": "2026-10-09T09:06:43.000Z",
+          "id": 1
+        },
+        {
+          "url": "https://www.cnbc.com/2026/10/09/nobel-peace-prize-navanethem-navi-pillay-winner.html",
+          "source": "CNBC",
+          "title": "South Africa lawyer Navanethm 'Navi' Pillay wins Nobel Peace Prize for efforts to prosecute war crimes and genocide",
+          "publishedAt": "2026-10-09T09:48:44.000Z",
+          "id": 2
+        },
+        {
+          "url": "https://apnews.com/article/f60744c07df969e50e9e69786fdb7de1",
+          "source": "Associated Press",
+          "title": "Navanethem 'Navi' Pillay wins the Nobel Peace Prize for her work in international justice",
+          "publishedAt": "2026-10-09",
+          "id": 3
+        }
+      ],
+      "tags": [
+        "Nobel Peace Prize",
+        "international law"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "maduro-indicted-torture-allegations-ko",
+      "headline": "베네수엘라 전 지도자 니콜라스 마두로, 고문 공모 혐의로 기소",
+      "dek": "미국 검찰이 베네수엘라 전 지도자와 그의 아내를 고문 혐의와 관련해 기소했습니다.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "BBC는 니콜라스 마두로가 고문 공모 혐의로 기소됐다고 보도했습니다.",
+        "The Guardian은 마두로와 그의 아내가 미국 시민 고문 혐의와 관련해 기소됐다고 별도로 전했습니다.",
+        "두 보도 모두 혐의와 기소 사실을 다루며 유죄를 확정하지 않습니다."
+      ],
+      "body": [
+        {
+          "text": "두 매체는 마두로에 대한 미국의 기소를 보도했습니다. BBC는 고문 공모 혐의를, The Guardian은 피해자로 지목된 미국 시민에 관한 내용을 전했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이 사건은 미국·베네수엘라 관계와 인권 침해 혐의에 대한 책임 추궁을 하나의 사법 절차에 연결합니다. 혐의는 아직 확정된 사실이 아닙니다.",
+      "editorNote": "사법적 판단이 아니라 형사 혐의에 관한 보도입니다.",
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/world/2026/oct/08/cilia-flores-nicolas-maduro-new-york-court",
+          "source": "The Guardian",
+          "title": "Nicolás Maduro and his wife indicted for alleged torture of US citizens"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c5pvgn7xvxpzo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Venezuela's ex-leader Nicolás Maduro charged with conspiracy to commit torture",
+          "publishedAt": "2026-10-08T17:38:59.000Z",
+          "id": 1
+        },
+        {
+          "url": "https://www.theguardian.com/world/2026/oct/08/cilia-flores-nicolas-maduro-new-york-court",
+          "source": "The Guardian",
+          "title": "Nicolás Maduro and his wife indicted for alleged torture of US citizens",
+          "publishedAt": "2026-10-08T18:04:16.000Z",
+          "id": 2
+        }
+      ],
+      "tags": [
+        "Venezuela",
+        "US foreign policy",
+        "accountability"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

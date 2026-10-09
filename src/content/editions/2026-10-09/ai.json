@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-09",
+  "generatedAt": "2026-10-09T10:05:32.990271Z",
+  "vertical": "ai",
+  "lang": "en",
+  "title": "AI | October 9, 2026",
+  "summary": "A thin, cross-verified edition: one major dispute over the stated reasons for OpenAI researcher dismissals cleared independent-source review. Other collected items were mostly single-link research or product posts.",
+  "stories": [
+    {
+      "slug": "openai-researchers-dismissed-safety-dispute",
+      "headline": "Fired OpenAI researchers say they were let go for 'prioritising safety'",
+      "dek": "OpenAI says the dismissals concerned its sensitive-information policies; the researchers describe a safety dispute.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "BBC reports that former OpenAI researchers say they were dismissed for prioritising safety.",
+        "OpenAI disputes that account and says the decisions concerned violations of its sensitive-information policies.",
+        "Reuters reports that OpenAI said three researchers were fired after an investigation into information handling."
+      ],
+      "body": [
+        {
+          "text": "The accounts differ on the stated reason for the dismissals: the researchers describe a safety disagreement, while OpenAI cites its information-handling rules.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "The available reporting establishes the competing explanations but does not independently resolve the underlying personnel dispute.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "The dispute puts internal safety debate and company information controls in the same governance question; the available reports do not establish which account is correct.",
+      "editorNote": "Coverage is based on contemporaneous reporting; the reason for the dismissals remains disputed.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/09/openai-fired-researchers-ai-concerns.html",
+          "source": "CNBC",
+          "title": "OpenAI defends decision to fire researchers: 'These decisions were not about raising safety concerns or speaking out'"
+        },
+        {
+          "url": "https://live.euronext.com/en/financial-news/openai-says-it-has-fired-three-researchers-violating-sensitive-information-policy",
+          "source": "Reuters (via Euronext)",
+          "title": "OpenAI says it has fired three researchers for violating sensitive information policy"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cvlydn8d3lkjo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Fired OpenAI researchers say they were let go for 'prioritising safety'",
+          "publishedAt": "2026-10-09T09:30:49.000Z",
+          "id": 1
+        },
+        {
+          "url": "https://www.cnbc.com/2026/10/09/openai-fired-researchers-ai-concerns.html",
+          "source": "CNBC",
+          "title": "OpenAI defends decision to fire researchers: 'These decisions were not about raising safety concerns or speaking out'",
+          "publishedAt": "2026-10-09T08:33:53.000Z",
+          "id": 2
+        },
+        {
+          "url": "https://live.euronext.com/en/financial-news/openai-says-it-has-fired-three-researchers-violating-sensitive-information-policy",
+          "source": "Reuters (via Euronext)",
+          "title": "OpenAI says it has fired three researchers for violating sensitive information policy",
+          "publishedAt": "2026-10-09",
+          "id": 3
+        }
+      ],
+      "tags": [
+        "OpenAI",
+        "AI safety",
+        "governance"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

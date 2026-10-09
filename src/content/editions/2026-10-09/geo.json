@@ -1,0 +1,135 @@
+{
+  "date": "2026-10-09",
+  "generatedAt": "2026-10-09T10:05:32.990271Z",
+  "vertical": "geo",
+  "lang": "en",
+  "title": "Geopolitics | October 9, 2026",
+  "summary": "A thin edition with two independently confirmed developments: Navi Pillay’s Nobel Peace Prize and US charges against former Venezuelan leader Nicolás Maduro. Several feeds returned no data or were blocked, so only cross-verified stories are included.",
+  "stories": [
+    {
+      "slug": "navi-pillay-nobel-peace-prize",
+      "headline": "2026 Nobel Peace Prize awarded to Navi Pillay",
+      "dek": "The 2026 award recognizes Navi Pillay, a South African jurist and former UN human-rights chief.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "The Nobel Peace Prize for 2026 was awarded to Navi Pillay, according to Al Jazeera and the Associated Press.",
+        "The coverage identifies Pillay as a South African jurist and former UN human-rights chief.",
+        "The reports describe the award as recognition of her work on international law and justice."
+      ],
+      "body": [
+        {
+          "text": "The Nobel Committee’s choice recognizes Navi Pillay; Al Jazeera, CNBC, and the Associated Press independently report the award.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "The cited coverage links the award to her work on international justice and human rights.",
+          "citations": [
+            1,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "The award spotlights international law and human-rights institutions at a time when their role is a subject of geopolitical debate.",
+      "editorNote": "Award details are confirmed across three outlets; this brief does not extend beyond their stated rationale.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/09/nobel-peace-prize-navanethem-navi-pillay-winner.html",
+          "source": "CNBC",
+          "title": "South Africa lawyer Navanethm 'Navi' Pillay wins Nobel Peace Prize for efforts to prosecute war crimes and genocide"
+        },
+        {
+          "url": "https://apnews.com/article/f60744c07df969e50e9e69786fdb7de1",
+          "source": "Associated Press",
+          "title": "Navanethem 'Navi' Pillay wins the Nobel Peace Prize for her work in international justice"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/9/2026-nobel-peace-prize-awarded-to-navi-pillay?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "2026 Nobel Peace Prize awarded to Navi Pillay",
+          "publishedAt": "2026-10-09T09:06:43.000Z",
+          "id": 1
+        },
+        {
+          "url": "https://www.cnbc.com/2026/10/09/nobel-peace-prize-navanethem-navi-pillay-winner.html",
+          "source": "CNBC",
+          "title": "South Africa lawyer Navanethm 'Navi' Pillay wins Nobel Peace Prize for efforts to prosecute war crimes and genocide",
+          "publishedAt": "2026-10-09T09:48:44.000Z",
+          "id": 2
+        },
+        {
+          "url": "https://apnews.com/article/f60744c07df969e50e9e69786fdb7de1",
+          "source": "Associated Press",
+          "title": "Navanethem 'Navi' Pillay wins the Nobel Peace Prize for her work in international justice",
+          "publishedAt": "2026-10-09",
+          "id": 3
+        }
+      ],
+      "tags": [
+        "Nobel Peace Prize",
+        "international law"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "maduro-indicted-torture-allegations",
+      "headline": "Venezuela's ex-leader Nicolás Maduro charged with conspiracy to commit torture",
+      "dek": "US prosecutors brought charges involving alleged torture against Venezuela’s former leader and his wife.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "The BBC reports that Nicolás Maduro was charged with conspiracy to commit torture.",
+        "The Guardian separately reports that Maduro and his wife were indicted over alleged torture of US citizens.",
+        "Both reports describe allegations and charges; they do not establish guilt."
+      ],
+      "body": [
+        {
+          "text": "Two outlets report US charges against Maduro, with the BBC specifying a conspiracy-to-commit-torture charge and The Guardian describing the indictment’s alleged victims.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The case brings US-Venezuela relations and accountability for alleged abuses into the same legal proceeding; the charges remain allegations.",
+      "editorNote": "The reporting concerns criminal allegations, not a judicial finding.",
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/world/2026/oct/08/cilia-flores-nicolas-maduro-new-york-court",
+          "source": "The Guardian",
+          "title": "Nicolás Maduro and his wife indicted for alleged torture of US citizens"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c5pvgn7xvxpzo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Venezuela's ex-leader Nicolás Maduro charged with conspiracy to commit torture",
+          "publishedAt": "2026-10-08T17:38:59.000Z",
+          "id": 1
+        },
+        {
+          "url": "https://www.theguardian.com/world/2026/oct/08/cilia-flores-nicolas-maduro-new-york-court",
+          "source": "The Guardian",
+          "title": "Nicolás Maduro and his wife indicted for alleged torture of US citizens",
+          "publishedAt": "2026-10-08T18:04:16.000Z",
+          "id": 2
+        }
+      ],
+      "tags": [
+        "Venezuela",
+        "US foreign policy",
+        "accountability"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

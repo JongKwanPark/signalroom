@@ -1,0 +1,248 @@
+{
+  "date": "2026-10-09",
+  "generatedAt": "2026-10-09T10:05:32.990271Z",
+  "vertical": "markets",
+  "lang": "ko",
+  "title": "시장 | 2026년 10월 9일",
+  "summary": "복수 매체 보도 또는 1차 자료로 확인된 네 가지 사안을 다루는 얇은 에디션입니다. 시장 데이터와 SEC 수집기는 실패했습니다. 투자 조언은 포함하지 않습니다.",
+  "stories": [
+    {
+      "slug": "spacex-spectrum-deal-us-wireless-competition-ko",
+      "headline": "SpaceX 주파수 면허 인수 거래에 AT&T·Verizon·T-Mobile 주가 타격",
+      "dek": "예정된 주파수 인수는 Starlink Mobile의 미국 사업 구상에 새로운 경쟁 요소를 더합니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "CNBC는 SpaceX가 Starlink Mobile을 위해 저대역 주파수 면허 포트폴리오를 인수하기로 합의했다고 보도했습니다.",
+        "CNBC와 MarketWatch는 발표 이후 미국 주요 통신사 주가가 압박을 받았다고 전했습니다.",
+        "보도에 따르면 거래에는 규제 당국의 승인이 남아 있습니다."
+      ],
+      "body": [
+        {
+          "text": "이번 거래는 SpaceX의 위성 서비스와 지상 이동통신용 면허 주파수를 연결하며, 매체들은 이를 기존 미국 통신사에 대한 도전으로 다뤘습니다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "발표 후 주가 반응이 보도됐지만, 이것만으로 거래가 최종적으로 경쟁 구도를 어떻게 바꿀지 판단할 수는 없습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "규제 승인과 실제 서비스 구현이 남아 있는 가운데 위성 통신과 이동통신 사업자 간 경쟁 지형을 바꿀 가능성이 있습니다.",
+      "editorNote": "주가 반응은 맥락 설명이며 매매 신호가 아닙니다.",
+      "cluster": [
+        {
+          "url": "https://www.marketwatch.com/story/spacexs-starlink-mobile-plans-are-pressuring-at-t-and-verizon-shares-7cb56764?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "SpaceX&#x2019;s Starlink Mobile plans are pressuring AT&T and Verizon shares"
+        },
+        {
+          "url": "https://finance.yahoo.com/markets/stocks/article/elon-musks-spacex-just-made-a-huge-play-to-challenge-the-phone-industry-and-stocks-like-att-t-mobile-and-verizon-are-getting-crushed-230647771.html",
+          "source": "Yahoo Finance",
+          "title": "Elon Musk’s SpaceX just made a huge play to challenge the phone industry and stocks like AT&T, T-Mobile and Verizon are getting crushed"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/08/spacex-spectrum-license-att-verizon-tmobile.html",
+          "source": "CNBC",
+          "title": "SpaceX deal to acquire spectrum license hammers shares of AT&T, Verizon and T-Mobile",
+          "publishedAt": "2026-10-08T22:55:46.000Z",
+          "id": 1
+        },
+        {
+          "url": "https://www.marketwatch.com/story/spacexs-starlink-mobile-plans-are-pressuring-at-t-and-verizon-shares-7cb56764?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "SpaceX&#x2019;s Starlink Mobile plans are pressuring AT&T and Verizon shares",
+          "publishedAt": "2026-10-09T00:52:00.000Z",
+          "id": 2
+        },
+        {
+          "url": "https://finance.yahoo.com/markets/stocks/article/elon-musks-spacex-just-made-a-huge-play-to-challenge-the-phone-industry-and-stocks-like-att-t-mobile-and-verizon-are-getting-crushed-230647771.html",
+          "source": "Yahoo Finance",
+          "title": "Elon Musk’s SpaceX just made a huge play to challenge the phone industry and stocks like AT&T, T-Mobile and Verizon are getting crushed",
+          "publishedAt": "2026-10-08",
+          "id": 3
+        }
+      ],
+      "tags": [
+        "telecommunications",
+        "spectrum",
+        "SpaceX"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "openai-annualized-revenue-reported-gap-ko",
+      "headline": "OpenAI 연환산 매출, 앞서 알려진 수치보다 200억 달러 낮아…FT 보도",
+      "dek": "새 보도는 OpenAI가 알린 연환산 매출과 앞서 널리 인용된 추정치를 구분합니다.",
+      "type": "DATA",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "Reuters는 Financial Times를 인용해 OpenAI가 9월 말 투자자들에게 연환산 매출이 500억 달러에 가까워졌다고 알렸다고 보도했습니다.",
+        "Axios도 해당 수치가 이전에 보도된 700억 달러보다 약 200억 달러 낮았다고 전했습니다.",
+        "두 보도가 다루는 수치는 연환산 매출이며 감사된 연간 실적이 아닙니다."
+      ],
+      "body": [
+        {
+          "text": "보도들은 매출 차이가 매출 인식 방식과 파트너 경유 매출을 계산하는 방식의 차이와 관련 있다고 설명합니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "공개된 수치는 현재 속도를 1년으로 환산한 값으로, 실현된 연간 매출로 해석해서는 안 됩니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "매출 정의가 고성장 AI 기업 간 비교에 어떤 영향을 주는지 보여줍니다. 이 보도만으로 수익성이나 장기 수요를 판단할 수는 없습니다.",
+      "editorNote": "연환산 수치와 회계 방식 설명은 보도 내용에 귀속했으며 전망으로 제시하지 않았습니다. TODO-review: “annualized revenue”의 용어집 표기를 검토해 주세요.",
+      "cluster": [
+        {
+          "url": "https://www.axios.com/2026/10/08/openai-50-billion-arr-anthropic-revenue-accounting",
+          "source": "Axios",
+          "title": "OpenAI annualized revenue $20 billion less than previously reported"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.investing.com/news/stock-market-news/openais-annualized-revenue-20-billion-less-than-previously-signaled-ft-reports-4939854",
+          "source": "Reuters via Investing.com",
+          "title": "OpenAI’s annualized revenue $20 billion less than previously signaled, FT reports",
+          "publishedAt": "2026-10-08",
+          "id": 1
+        },
+        {
+          "url": "https://www.axios.com/2026/10/08/openai-50-billion-arr-anthropic-revenue-accounting",
+          "source": "Axios",
+          "title": "OpenAI annualized revenue $20 billion less than previously reported",
+          "publishedAt": "2026-10-08",
+          "id": 2
+        }
+      ],
+      "tags": [
+        "OpenAI",
+        "annualized revenue",
+        "AI industry"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "starbucks-chipotle-takeover-exploration-ko",
+      "headline": "Starbucks의 Chipotle 인수 검토가 양사에 의미가 있을 수도, 없을 수도 있는 이유",
+      "dek": "보도는 잠재적 결합에 대한 탐색을 다루며, 거래가 발표된 것은 아닙니다.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "CNBC는 Starbucks가 Chipotle 인수를 검토한 적이 있다고 보도했습니다.",
+        "MarketWatch도 분석가 논의 차원에서 두 회사의 잠재적 결합을 다뤘습니다.",
+        "인용된 헤드라인 어디에도 서명된 계약이나 거래 발표는 나오지 않습니다."
+      ],
+      "body": [
+        {
+          "text": "보도는 인수 가능성에 대한 탐색과 외부 분석을 다룹니다. 두 회사가 거래에 합의했다는 점을 입증하지는 않습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "대형 외식업체 간 결합 가능성을 다룬 보도지만, 현재 확인된 자료로는 실제 거래가 진행 중이라고 볼 수 없습니다.",
+      "editorNote": "탐색 단계에 관한 보도로 한정했으며 거래 조건은 확인되지 않았습니다.",
+      "cluster": [
+        {
+          "url": "https://www.marketwatch.com/story/feel-like-a-pumpkin-spice-burrito-analysts-try-to-wrap-their-heads-around-a-possible-starbucks-chipotle-tie-up-5b8519fd?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Feel like a pumpkin-spice burrito? Analysts try to wrap their heads around a possible Starbucks-Chipotle tie-up."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/08/starbucks-chipotle-acquisition.html",
+          "source": "CNBC",
+          "title": "Why a Starbucks takeover of Chipotle would — and wouldn't — make sense for both companies",
+          "publishedAt": "2026-10-08T20:12:33.000Z",
+          "id": 1
+        },
+        {
+          "url": "https://www.marketwatch.com/story/feel-like-a-pumpkin-spice-burrito-analysts-try-to-wrap-their-heads-around-a-possible-starbucks-chipotle-tie-up-5b8519fd?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Feel like a pumpkin-spice burrito? Analysts try to wrap their heads around a possible Starbucks-Chipotle tie-up.",
+          "publishedAt": "2026-10-08T23:14:00.000Z",
+          "id": 2
+        }
+      ],
+      "tags": [
+        "restaurants",
+        "M&A"
+      ],
+      "confidence": "low"
+    },
+    {
+      "slug": "federal-reserve-american-express-enforcement-ko",
+      "headline": "연방준비제도, American Express에 자금세탁 방지 관련 제재 조치 발표",
+      "dek": "연준은 American Express의 자금세탁 방지 통제 미비를 다루는 집행 조치를 발표했습니다.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "연방준비제도는 American Express가 일부 의심 거래를 충분히 감지하고 보고하지 못한 점을 다루는 조치를 발표했습니다.",
+        "Investing.com은 자금세탁 방지 미비와 관련해 OCC가 3억 5,000만 달러의 벌금을 부과했다고 별도로 보도했습니다.",
+        "기관의 규제 조치는 사실관계이며 회사의 미래 실적에 대한 신호가 아닙니다."
+      ],
+      "body": [
+        {
+          "text": "연방준비제도 공지는 규제 조치의 근거를 1차 자료로 설명하고, 시장 보도는 관련 OCC 벌금을 전했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 조치는 대형 금융서비스 기업의 준법 통제와 규제 집행을 부각합니다.",
+      "editorNote": "연방준비제도 공지와 Investing.com 보도는 서로 다른 기관의 조치를 언급하므로 하나로 합쳐 서술하지 않았습니다.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/stock-market-news/american-express-stock-falls-after-occ-fines-bank-350m-for-aml-lapses-93CH-4940528",
+          "source": "Investing.com",
+          "title": "American Express stock falls after OCC fines bank $350M for AML lapses"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm",
+          "source": "Federal Reserve Board",
+          "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
+          "publishedAt": "2026-10-08T20:30:00.000Z",
+          "id": 1
+        },
+        {
+          "url": "https://www.investing.com/news/stock-market-news/american-express-stock-falls-after-occ-fines-bank-350m-for-aml-lapses-93CH-4940528",
+          "source": "Investing.com",
+          "title": "American Express stock falls after OCC fines bank $350M for AML lapses",
+          "publishedAt": "2026-10-09T00:48:44.000Z",
+          "id": 2
+        }
+      ],
+      "tags": [
+        "regulation",
+        "financial services",
+        "compliance"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

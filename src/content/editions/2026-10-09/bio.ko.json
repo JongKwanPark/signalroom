@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-09",
+  "generatedAt": "2026-10-09T10:05:32.990271Z",
+  "vertical": "bio",
+  "lang": "ko",
+  "title": "바이오·헬스 | 2026년 10월 9일",
+  "summary": "연구 중심의 얇은 에디션입니다. AI 기반 세포치료 연구 1건에서 추적 가능한 프리프린트와 데이터 저장소, 독립 보도를 확인했습니다. 임상 지침은 제공하지 않습니다.",
+  "stories": [
+    {
+      "slug": "bits-to-binders-car-t-design-validation-ko",
+      "headline": "Bits to Binders 대회에서 AI가 설계한 CAR-T 후보 12,000개를 검증·분석",
+      "dek": "대회에서 AI 설계 CD20 결합체를 CAR-T 세포에서 시험하고 데이터셋을 공개했습니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "Bits to Binders 연구는 CD20을 표적으로 하는 AI 설계 결합체 12,000개를 CAR-T 세포에서 시험했다고 보고했습니다.",
+        "논문은 풀드 스크리닝에서 CD20 특이적 증식이 유의했던 설계 707개를 보고했습니다.",
+        "관련 저장소에서 대회 데이터와 분석 코드를 확인할 수 있습니다."
+      ],
+      "body": [
+        {
+          "text": "프리프린트는 제출된 설계를 기능 실험으로 선별해 예측된 결합력에서 실제 세포 반응 측정으로 평가 범위를 넓혔다고 설명합니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "저자들은 CD20 특이적 증식이 유의했던 설계 707개를 보고했습니다. 저장소에는 관련 데이터와 코드가 공개돼 있습니다.",
+          "citations": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "whyItMatters": "바이오 연구에서 이 연구는 단백질 설계 주장을 기능 분석과 공개 데이터로 검증하는 방법을 보여줍니다. 임상 효능을 입증한 결과는 아닙니다.",
+      "editorNote": "인용한 원고는 동료 심사를 거치지 않은 프리프린트로 표시돼 있습니다. TODO-review: “binder”의 한국어 표기를 용어집에서 검토해 주세요.",
+      "cluster": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13001334/",
+          "source": "bioRxiv preprint (PMC)",
+          "title": "Validation and analysis of 12,000 AI-driven CAR-T designs in the Bits to Binders competition"
+        },
+        {
+          "url": "https://github.com/kosonocky/bits-to-binders",
+          "source": "Bits to Binders data repository",
+          "title": "Data and code from the Bits to Binders competition"
+        },
+        {
+          "url": "https://bioengineer.org/global-ai-protein-design-contest-puts-12000-computer-made-cancer-binders-to-the-test-in-living-t-cells/",
+          "source": "Bioengineer.org",
+          "title": "Global AI protein design contest puts 12,000 computer-made cancer binders to the test in living T cells"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42850288/",
+          "source": "PubMed record",
+          "title": "Validation and analysis of 12,000 AI-driven CAR-T designs in the Bits to Binders competition",
+          "publishedAt": "2026/10/08 00:00",
+          "id": 1
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13001334/",
+          "source": "bioRxiv preprint (PMC)",
+          "title": "Validation and analysis of 12,000 AI-driven CAR-T designs in the Bits to Binders competition",
+          "publishedAt": "2026-03-04",
+          "id": 2
+        },
+        {
+          "url": "https://github.com/kosonocky/bits-to-binders",
+          "source": "Bits to Binders data repository",
+          "title": "Data and code from the Bits to Binders competition",
+          "publishedAt": "2026-08-19",
+          "id": 3
+        },
+        {
+          "url": "https://bioengineer.org/global-ai-protein-design-contest-puts-12000-computer-made-cancer-binders-to-the-test-in-living-t-cells/",
+          "source": "Bioengineer.org",
+          "title": "Global AI protein design contest puts 12,000 computer-made cancer binders to the test in living T cells",
+          "publishedAt": "2026-10-08",
+          "id": 4
+        }
+      ],
+      "tags": [
+        "protein design",
+        "CAR-T",
+        "preprint"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}
