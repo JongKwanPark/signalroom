@@ -1,6 +1,6 @@
 {
   "date": "2026-10-09",
-  "generatedAt": "2026-10-09T10:00:36.129Z",
+  "generatedAt": "2026-10-09T22:00:22.709Z",
   "verticals": {
     "ai": {
       "items": 135,
@@ -33,7 +33,7 @@
       ]
     },
     "bio": {
-      "items": 128,
+      "items": 166,
       "sources": [
         {
           "name": "pubmed",
@@ -43,12 +43,12 @@
         {
           "name": "biorxiv",
           "status": "ok",
-          "count": 23
+          "count": 30
         },
         {
           "name": "medrxiv",
-          "status": "empty",
-          "count": 0
+          "status": "ok",
+          "count": 30
         },
         {
           "name": "openfda",
@@ -68,7 +68,7 @@
       ]
     },
     "geo": {
-      "items": 57,
+      "items": 58,
       "sources": [
         {
           "name": "gdelt",
@@ -90,7 +90,7 @@
         {
           "name": "wire",
           "status": "ok",
-          "count": 57
+          "count": 58
         },
         {
           "name": "polymarket",
@@ -101,7 +101,7 @@
       ]
     },
     "markets": {
-      "items": 86,
+      "items": 85,
       "sources": [
         {
           "name": "reddit",
