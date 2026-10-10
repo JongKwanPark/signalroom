@@ -1,0 +1,158 @@
+{
+  "date": "2026-10-11",
+  "generatedAt": "2026-10-11T07:09:00+09:00",
+  "vertical": "bio",
+  "lang": "ko",
+  "title": "바이오·헬스 — 2026년 10월 11일",
+  "summary": "세포 재프로그래밍의 초기 인체 데이터와 340B 리베이트 시범사업에 대한 재소송 등 두 가지 동향을 살핀다. ER-100 보도는 1상 참가자 3명을 다루며 소송으로 사업 시행 여부는 불확실해졌다. Nature의 PICK1 생쥐 연구는 10월 10일 판에서 이미 같은 내용을 다뤄 제외했고, 나머지 논문·임상시험 등록 항목은 별도 매체 보도가 부족했다.",
+  "stories": [
+    {
+      "slug": "life-biosciences-er100-phase-one-update-ko",
+      "headline": "Life Biosciences, 세포 재프로그래밍 약물의 녹내장 연구 현황 공개",
+      "dek": "회사는 참가자 3명의 초기 1상 관찰 결과를 발표했다. 소규모 안전성 시험만으로 효능이 입증되지는 않는다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Life Biosciences는 시신경 질환을 대상으로 연구 중인 ER-100의 1상 중간 데이터를 발표했다.",
+        "공개 내용은 개방각 녹내장 환자 3명의 안전성 관찰과 초기 시기능 측정 결과를 다뤘다.",
+        "시험은 진행 중이며 회사가 발표한 결과는 예비 자료로, 입증된 치료 효과를 보여주지 않는다."
+      ],
+      "body": [
+        {
+          "text": "Life Biosciences는 시신경 질환을 위한 연구용 세포 재프로그래밍 치료제 ER-100의 1상 중간 데이터를 발표했다고 밝혔다. 회사에 따르면 이번 업데이트는 개방각 녹내장 참가자 3명의 자료를 다뤘다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "회사는 이 치료제를 실험적 유전자 치료제로 설명했으며, 업데이트 시점까지 용량 제한 독성이 관찰되지 않았다고 밝혔다. 참가자 2명의 초기 시기능 관찰도 공개했지만, 이는 회사가 발표한 중간 결과이지 대조 임상에서 확인된 효능은 아니다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "STAT 보도는 이번 발표를 회사의 임상 개발 프로그램 맥락에 두고, 회사 자료는 데이터에 대한 자체 설명을 제공한다. 시험은 안전성과 내약성을 평가하는 것이 주목적인 1상 단계에 머물러 있다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "참가자 수가 매우 적고 추적 관찰이 진행 중이므로 관찰된 변화가 치료에 따른 것인지 알 수 없다. 효능과 지속성을 평가하려면 더 큰 규모의 대조 연구와 상세한 자료 공개가 필요하다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 업데이트는 부분 세포 재프로그래밍을 시신경 질환 환자에게 시험할 수 있는지를 살피는 초기 단계다. 바이오 업계에서는 사람 대상 시험 진입이 이정표지만, 현재 자료는 임상적 이점을 주장하기에 지나치게 예비적이다.",
+      "editorNote": "참가자 3명의 회사 발표 중간 결과다. 임상적 이점이 입증된 것은 아니다. 의료 조언은 포함하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://rss.globenewswire.com/news-release/2026/10/08/3377649/0/en/life-biosciences-announces-first-in-human-data-from-ongoing-phase-1-trial-evaluating-er-100-in-optic-neuropathies.html",
+          "source": "GlobeNewswire / Life Biosciences",
+          "title": "Life Biosciences Announces First-in-Human Data from Ongoing Phase 1 Trial Evaluating ER-100 in Optic Neuropathies"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.statnews.com/2026/10/09/biotech-news-life-biosciences-share-glaucoma-cellular-reprogramming-drug-update/",
+          "source": "STAT",
+          "title": "Life Biosciences share glaucoma study updates for its cellular reprogramming drug",
+          "publishedAt": "2026-10-09"
+        },
+        {
+          "id": 2,
+          "url": "https://rss.globenewswire.com/news-release/2026/10/08/3377649/0/en/life-biosciences-announces-first-in-human-data-from-ongoing-phase-1-trial-evaluating-er-100-in-optic-neuropathies.html",
+          "source": "Life Biosciences",
+          "title": "Life Biosciences Announces First-in-Human Data from Ongoing Phase 1 Trial Evaluating ER-100 in Optic Neuropathies",
+          "publishedAt": "2026-10-08"
+        }
+      ],
+      "tags": [
+        "clinical trials",
+        "cellular reprogramming",
+        "ophthalmology"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "hospitals-challenge-340b-rebate-pilot-again-ko",
+      "headline": "병원들, 트럼프 행정부 340B 리베이트 시범사업을 막기 위해 다시 소송",
+      "dek": "미국병원협회가 개정된 의약품 할인 시범사업에 법적 이의를 제기했다. 소송으로 사업 시행 여부는 불확실해졌다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "미국병원협회는 연방 340B 리베이트 시범사업을 막기 위한 추가 소송을 제기했다.",
+        "개정 모델은 일부 의약품의 선불 할인을 구매 후 리베이트로 바꾸는 방식이다.",
+        "이번 소송은 행정부의 권한과 절차를 다투며, 새 분쟁에 대한 법원의 판단은 아직 나오지 않았다."
+      ],
+      "body": [
+        {
+          "text": "미국병원협회는 340B 의약품 가격 프로그램의 할인 제공 방식을 바꾸려는 시범사업에 대해 다시 연방정부를 상대로 소송을 냈다. STAT와 Fierce Healthcare는 10월 9일 새 소송을 보도했다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "보도에 따르면 시범 모델에 참여하는 의료기관은 일부 약품을 먼저 구매한 뒤 리베이트를 청구하게 된다. 기존에는 구매 시점에 할인을 받았다. 협회는 행정부가 개정한 접근법도 법적으로 문제가 있다고 주장한다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이 분쟁에 앞서 이전 버전의 시범사업을 중단시킨 소송이 있었다. 이번 사건은 개정 프로그램과 시행 절차를 다루므로, 앞선 소송 결과만으로 새 소송의 결론이 정해지지는 않는다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "법원의 다음 조치와 프로그램 일정에 미칠 영향은 아직 정해지지 않았다. 소장은 병원 측의 입장을 담고 있으며, 보도 시점에 새 소송의 본안에 대한 최종 판결은 나오지 않았다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "340B 프로그램은 참여 안전망 의료기관의 의약품 구매와 현금 흐름에 영향을 준다. 선불 할인을 사후 리베이트로 바꾸면 행정·자금 조달 부담이 달라질 수 있지만, 소송으로 정책의 실제 운영은 불확실하다.",
+      "editorNote": "소송과 당사자 입장을 설명하며 법원 판단을 예측하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.fiercehealthcare.com/providers/hospital-industry-files-lawsuit-block-hhs-340b-rebate-pilot-again",
+          "source": "Fierce Healthcare",
+          "title": "Hospitals file lawsuit to block HHS' 340B rebate pilot, again"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.statnews.com/2026/10/09/hospitals-sue-to-halt-340b-rebate-pilot-trump/",
+          "source": "STAT",
+          "title": "Hospitals sue – again – to halt Trump administration’s 340B rebate pilot",
+          "publishedAt": "2026-10-09"
+        },
+        {
+          "id": 2,
+          "url": "https://www.fiercehealthcare.com/providers/hospital-industry-files-lawsuit-block-hhs-340b-rebate-pilot-again",
+          "source": "Fierce Healthcare",
+          "title": "Hospitals file lawsuit to block HHS' 340B rebate pilot, again",
+          "publishedAt": "2026-10-09"
+        }
+      ],
+      "tags": [
+        "340B",
+        "drug pricing",
+        "health policy"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

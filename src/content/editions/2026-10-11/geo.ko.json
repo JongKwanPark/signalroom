@@ -1,0 +1,607 @@
+{
+  "date": "2026-10-11",
+  "generatedAt": "2026-10-11T07:09:00+09:00",
+  "vertical": "geo",
+  "lang": "ko",
+  "title": "지정학·안보 — 2026년 10월 11일",
+  "summary": "미·러 연료 합의와 키이우의 긴장, 리야드 공항을 겨냥한 재공격, ICC에 대한 미국 제재, 가자 휴전 1년 뒤에도 이어지는 폭력에 관한 보도를 정리했다. 일부 주장은 당국이나 분쟁 당사자의 설명으로 제시됐다. 두 매체 확인을 통과한 개발은 여덟 건이다. 나머지 수집 항목은 단일 매체 보도, 일상적 사건 또는 버티컬 범위 밖의 내용이었다. 지면 때문에 제외한 다중 매체 교차 보도 개발은 없다.",
+  "stories": [
+    {
+      "slug": "trump-zelensky-russia-diesel-dispute-ko",
+      "headline": "젤렌스키가 디젤 합의를 비판하자 트럼프 “우크라이나에 새 대통령이 필요”",
+      "dek": "러시아산 디젤 합의를 발표한 뒤 트럼프가 우크라이나 대통령을 비판했다. 키이우와 유럽 동맹국은 제재 변경에 반발했다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "도널드 트럼프는 볼로디미르 젤렌스키가 미·러 디젤 합의를 비판한 뒤 우크라이나에 새 대통령이 필요하다고 말했다.",
+        "트럼프는 미국 연료 가격에 대응하기 위해 러시아산 디젤 수출을 허용하는 합의라고 설명했다.",
+        "합의 물량과 이행 방식, 가격 영향은 보도에서 아직 불분명하다."
+      ],
+      "body": [
+        {
+          "text": "도널드 트럼프는 볼로디미르 젤렌스키가 미·러 디젤 합의를 비난한 뒤 우크라이나에는 새 대통령이 있어야 한다고 말했다. BBC와 AP통신은 두 정상의 발언과 갈등을 보도했다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "트럼프는 러시아산 디젤의 미국 및 세계시장 수출을 허용하도록 제한을 풀겠다고 밝혔다. 젤렌스키는 합의가 불공정하다고 비판했고, 유럽 동맹국들은 우크라이나 지지를 재확인하며 대러 제재 정책에 우려를 나타냈다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "백악관은 연료 비용에 대응하는 방안으로 합의를 제시했다. 보도는 우크라이나의 러시아 에너지 기반시설 공격도 배경으로 언급하지만, 공개된 설명에는 최종 거래 조건이나 확인된 공급 일정이 없다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이번 공방은 미·우크라이나 관계의 뚜렷한 긴장을 드러내지만 정책 변화가 지속될지는 분명하지 않다. 연료 가격에 미칠 영향과 발표된 합의를 넘어 제재가 공식적으로 어떻게 바뀌는지는 여전히 확인되지 않았다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 갈등은 에너지 공급 정책을 군사 지원 및 제재 집행과 연결한다. 유럽 파트너들이 워싱턴의 키이우 지원 의지를 어떻게 평가할지에 영향을 줄 수 있지만, 발표만으로 연료시장 영향을 판단할 수는 없다.",
+      "editorNote": "트럼프·젤렌스키·유럽 당국자 발언을 각각 표시했다. 공급 세부와 가격 효과는 확인되지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.axios.com/2026/10/10/trump-ukraine-zelensky-replace-putin-diesel",
+          "source": "Axios",
+          "title": "Trump tells Ukraine to replace Zelensky over Russia fuel deal"
+        },
+        {
+          "url": "https://www.theguardian.com/world/2026/oct/10/ukraine-russia-strikes-war-trump-diesel-deal-zelenskyy",
+          "source": "The Guardian",
+          "title": "Ukraine hit by deadly Russian strikes as ‘thanks’ for Trump diesel deal, Zelenskyy says"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal",
+          "publishedAt": "2026-10-10"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/228ccf74b2848c1ff0ac23f038b37512",
+          "source": "Associated Press",
+          "title": "Trump says Ukraine should get a new president as he blames Zelenskyy for US diesel prices",
+          "publishedAt": "2026-10-10"
+        }
+      ],
+      "tags": [
+        "Ukraine",
+        "Russia",
+        "energy sanctions"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "riyadh-airport-attacked-again-ko",
+      "headline": "사우디 수도 리야드 공항 공격으로 여러 명 부상",
+      "dek": "잇따른 공격과 항공편 차질 속에 공항이 다시 공격받았다는 보도가 나왔다. 인용된 보도는 이번 공격의 배후를 확정하지 않았다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "사우디 당국은 킹칼리드 국제공항에 영향을 준 또 다른 공격을 보고했으며 부상자가 발생했다.",
+        "AP통신은 사우디 공항을 겨냥한 연속 공격 뒤 항공사들이 운항을 중단하거나 조정했다고 전했다.",
+        "인용된 보도만으로는 최신 공격의 주체나 전체 피해 규모가 독립적으로 확인되지 않는다."
+      ],
+      "body": [
+        {
+          "text": "BBC는 사우디 수도 리야드의 킹칼리드 국제공항에 영향을 준 공격으로 여러 명이 다쳤다고 보도했다. AP통신도 사우디가 잇따른 공격을 받는 가운데 공항이 다시 공격받았다고 전했다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "최근 며칠 사이 공항이 두 차례 이상 표적이 됐으며, AP에 따르면 에어인디아·플라이두바이·루프트한자 그룹 등 항공사들이 사우디 공항행 항공편을 중단하거나 조정했다. 사건의 즉각적인 영향은 공항을 넘어 민간 항공 운항으로 번졌다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "보도는 공항 공격을 사우디와 후티 세력 간 긴장, 더 넓은 역내 분쟁 맥락에 놓았다. 두 보도는 앞선 공격과 최신 사건을 구분하며, 최신 공격의 배후는 인용된 보도에서 독립적으로 확인되지 않았다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "부상자 수와 피해 평가, 공식적인 배후 확인은 당국이 정보를 내놓으면서 달라질 수 있다. 공항이 영구 폐쇄됐거나 모든 항공사의 운항 중단 기간이 같다는 점은 보도에서 확인되지 않았다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "주요 공항이 반복해서 공격받으면 역내 여객·화물 노선이 차질을 빚고 분쟁의 민간인 피해가 커질 수 있다. 배후와 운영 피해 규모가 불확실하므로 특정 세력의 책임이 확정됐다고 봐서는 안 된다.",
+      "editorNote": "최신 공격의 배후와 전체 피해 규모는 인용된 보도에서 확인되지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/damage-seen-inside-saudi-airport-after-third-attack-this-week?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Damage seen inside Saudi airport after third attack this week"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Several injured in attack on airport in Saudi capital Riyadh",
+          "publishedAt": "2026-10-10"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/f0e0e6105f33400e37bb20bb9a8130af",
+          "source": "Associated Press",
+          "title": "Trump weighs joining the fight against Houthis after Saudi capital's airport is struck again",
+          "publishedAt": "2026-10-10"
+        }
+      ],
+      "tags": [
+        "Saudi Arabia",
+        "aviation",
+        "regional conflict"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "us-sanctions-icc-navi-pillay-nobel-ko",
+      "headline": "노벨평화상 수상자, ICC에 대한 미국 제재는 “용납할 수 없다”고 비판",
+      "dek": "나비 필레이가 노벨평화상을 받은 날 제재가 발표되며 국제형사재판소의 역할과 권한을 둘러싼 갈등이 부각됐다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "나비 필레이는 국제형사재판소에 대한 미국 제재 발표 뒤 이를 용납할 수 없다고 비판했다.",
+        "보도에 따르면 제재 발표는 필레이가 2026년 노벨평화상 수상자로 선정된 직후 나왔다.",
+        "제재의 실제 운영상 영향과 다른 ICC 회원국의 대응은 아직 전개 중이다."
+      ],
+      "body": [
+        {
+          "text": "2026년 노벨평화상 수상자이자 전 ICC 판사인 나비 필레이는 국제형사재판소에 대한 미국 제재를 용납할 수 없다고 비판했다. BBC와 AFP 보도는 필레이의 반응과 미국 발표 시점을 전했다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP와 BBC 보도에 따르면 미국은 노벨상 발표 뒤 재판소에 새 제재를 부과했다. 워싱턴은 기관에 대한 광범위한 조치의 일환이라고 설명했고, ICC와 지지자들은 이에 반발했다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "필레이는 국제법 분야에서 주요 역할을 맡아 왔으며 전 ICC 판사이자 전 유엔 인권최고대표다. 노벨상과 제재는 같은 날 맞물린 별개의 결정이다. 시점은 대중의 관심을 키웠지만 제재의 명시된 동기를 그 자체로 입증하지는 않는다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "실질적 결과는 제재의 구체적 범위와 각국 정부, 금융기관, 재판소의 대응에 달려 있다. 인용 보도는 발표와 비판을 전하지만 ICC의 운영에 미칠 전체 영향은 아직 보여주지 않는다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 조치는 국제 사법기관에 압박을 가하며 국가 및 서비스 제공자의 협력에 영향을 줄 수 있다. 집행과 기관의 지속 가능성에 관한 의문이 남은 가운데 ICC를 둘러싼 미국 정책을 공개적으로 부각한다.",
+      "editorNote": "수상, 미국 발표, 필레이의 반응을 구분해 서술했다. 운영상 결과는 아직 확인되지 않았다.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/dab3307800c0bdb22cdca811bd29fc92",
+          "source": "Associated Press",
+          "title": "Israel's scorn of Nobel Peace Prize laureate highlights its combative relationship with UN bodies"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cqkgjrpmr47vo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Nobel peace laureate says US sanctions on ICC 'unacceptable'",
+          "publishedAt": "2026-10-10"
+        },
+        {
+          "id": 2,
+          "url": "https://www.the-star.co.ke/news/world/2026-10-10/nobel-peace-laureate-says-us-sanctions-on-icc-unacceptable",
+          "source": "The Star / AFP",
+          "title": "Nobel peace laureate says US sanctions on ICC unacceptable",
+          "publishedAt": "2026-10-10"
+        }
+      ],
+      "tags": [
+        "International Criminal Court",
+        "sanctions",
+        "Navi Pillay"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "zaporizhzhia-russian-glide-bomb-strike-ko",
+      "headline": "러시아 활공폭탄 공격으로 자포리자에서 최소 20명 사망",
+      "dek": "우크라이나 당국은 도시에 대한 치명적 공습을 보고했다. 사상자와 책임에 관한 내용은 교전 중 당국 발언을 인용한 보도다.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "BBC 보도에 따르면 러시아의 활공폭탄 공격으로 자포리자에서 최소 20명이 사망했다.",
+        "가디언은 젤렌스키가 공격을 새 러시아산 디젤 합의와 연결해 설명했다고 보도했다.",
+        "인용된 보도에서는 사상자 수와 공격의 정확한 경위에 대한 독립적인 확인이 제한적이다."
+      ],
+      "body": [
+        {
+          "text": "BBC는 현지 당국을 인용해 러시아의 활공폭탄 공격으로 자포리자에서 최소 20명이 사망했다고 보도했다. 가디언도 볼로디미르 젤렌스키 우크라이나 대통령이 도시에서 발생한 치명적 공격에 대해 전한 내용을 보도했다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "젤렌스키는 이 공격을 러시아산 디젤 수출 제한을 완화한 미국 결정에 대한 러시아의 대응이라고 표현했다. 이는 공격 시점과 정치적 맥락에 관한 그의 설명이며, 연료 합의와 공습 사이의 인과관계를 보도가 독립적으로 입증하지는 않는다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "공격은 러시아의 우크라이나 침공이 계속되는 가운데, 러시아 에너지 수출에 관한 미국 정책을 둘러싼 논쟁 속에 발생했다. 보도는 민간인 사상과 피해를 다루지만 구조 당국과 조사기관이 후속 정보를 내놓으면 세부 내용은 달라질 수 있다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "인용된 보도는 모든 사상자를 현장에서 독립적으로 확인하거나 공격에 대한 완전한 군사 평가를 제공하지 않는다. 따라서 사망자 수는 우크라이나 측 설명을 바탕으로 한 보도 수치로 읽어야 하며 별도로 확인된 집계는 아니다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 공격은 에너지 정책이 외교 분쟁의 일부가 된 상황에서 전쟁의 민간인 피해가 이어지고 있음을 보여준다. 공격을 디젤 합의와 연결한 설명은 인과관계가 독립적으로 검증된 사실이 아니라 당사자의 주장이다.",
+      "editorNote": "사상자 수는 현지 당국 발표로 표시했고 디젤 합의와의 연관성은 젤렌스키의 주장으로 명시했다.",
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/world/2026/oct/10/ukraine-russia-strikes-war-trump-diesel-deal-zelenskyy",
+          "source": "The Guardian",
+          "title": "Ukraine hit by deadly Russian strikes as ‘thanks’ for Trump diesel deal, Zelenskyy says"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Russian glide bomb attack on Zaporizhzhia kills at least 20 people",
+          "publishedAt": "2026-10-10"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theguardian.com/world/2026/oct/10/ukraine-russia-strikes-war-trump-diesel-deal-zelenskyy",
+          "source": "The Guardian",
+          "title": "Ukraine hit by deadly Russian strikes as ‘thanks’ for Trump diesel deal, Zelenskyy says",
+          "publishedAt": "2026-10-10"
+        }
+      ],
+      "tags": [
+        "Ukraine",
+        "Russia",
+        "civilian harm"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "gaza-ceasefire-year-later-progress-stalled-ko",
+      "headline": "미국 중재 가자 휴전, 전쟁을 끝내기로 했지만 1년 뒤에도 진전 정체",
+      "dek": "합의로 대규모 교전과 인질 문제는 줄었지만 통치, 무장 해제, 재건과 계속되는 공습은 해결되지 않았다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "미국이 중재한 가자 휴전 발효 1년 뒤에도 합의의 주요 조항이 이행되지 않았다고 AP통신이 보도했다.",
+        "이스라엘은 공습을 계속했고 하마스 무장 해제, 팔레스타인 통치, 재건을 둘러싼 이견으로 진전이 정체됐다.",
+        "당사자들은 이행 순서와 통제권을 두고 입장이 다르며 휴전 뒤에도 모든 폭력이 멈추지는 않았다."
+      ],
+      "body": [
+        {
+          "text": "미국이 중재한 휴전이 발효된 지 1년이 지난 뒤에도 이스라엘은 가자에서 공습을 이어갔다고 AP통신과 Al Jazeera가 보도했다. AP는 합의로 대규모 군사작전이 중단되고 남은 인질이 돌아왔지만, 더 폭넓은 정치 조항은 진전되지 않았다고 전했다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "미해결 조항에는 향후 팔레스타인 행정부, 하마스 무장 해제, 국제사회 개입, 이스라엘의 통제 범위 등이 포함된다. AP는 이스라엘이 하마스의 무장 해제를 진전의 조건으로 내건 반면 하마스와 미국 행정부는 조치가 함께 이뤄져야 한다고 밝혔다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "인도주의 단체들은 제한된 진전과 계속되는 민간인 피해를 비판했다. Al Jazeera는 가자 보건당국이 발표한 휴전 이후 사망·부상 수치를 인용했으며, 이는 현지 당국 집계로 표시되고 인용 보도에서 독립 감사되지는 않았다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "따라서 합의는 대규모 군사작전을 줄였지만 정치·안보 질서를 정착시키지는 못했다. 재건, 통치, 이행 감독이 미해결 상태이고 공습 보도는 폭력이 완전히 멈추지 않았음을 보여준다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "미해결 조항은 휴전의 정치적 종착점을 불분명하게 하고 역내 외교와 인도주의 지원의 불확실성을 연장한다. 대규모 교전 감소와 계속되는 공격을 구분하는 것이 합의의 성과와 한계를 이해하는 데 중요하다.",
+      "editorNote": "사상자 수와 현장 주장은 명시된 현지 당국에 귀속했다. 휴전을 폭력이 완전히 끝난 것으로 서술하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/9/gaza-ceasefire-exists-in-name-only-more-than-100-ngos-say",
+          "source": "Al Jazeera",
+          "title": "Gaza ceasefire “exists in name only”, more than 100 NGOs say"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/f6c105e8f72d8b478d78312142d888ed",
+          "source": "Associated Press",
+          "title": "A US-brokered ceasefire was supposed to end the war in Gaza. A year later, progress has stalled",
+          "publishedAt": "2026-10-10"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/news/2026/10/10/israeli-forces-kill-six-in-gaza-including-a-child",
+          "source": "Al Jazeera",
+          "title": "Child among seven killed by Israel in Gaza on ‘ceasefire’ anniversary",
+          "publishedAt": "2026-10-10"
+        }
+      ],
+      "tags": [
+        "Gaza",
+        "ceasefire",
+        "humanitarian access"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "sudan-drone-strike-displaced-people-ethiopia-border-ko",
+      "headline": "인권단체 “수단 국경 인근 무인기 공격으로 41명 사망”…준군사조직 소행 주장",
+      "dek": "에티오피아 국경 인근 피란민을 겨냥한 공격으로 보도됐다. 사망자 수와 배후는 언론이 인용한 인권단체의 주장이다.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "AP통신은 인권단체 Emergency Lawyers를 인용해 수단과 에티오피아 국경 인근 무인기 공격으로 41명이 숨졌다고 보도했다.",
+        "워싱턴포스트도 수단 준군사조직 신속지원군(RSF)이 공격했다는 같은 주장을 전했다.",
+        "인용된 보도에서 구체적 경위와 사상자 수는 독립적으로 확인되지 않았다."
+      ],
+      "body": [
+        {
+          "text": "AP통신은 인권단체 Emergency Lawyers를 인용해 수단과 에티오피아 국경 인근에서 피란민들이 모여 있던 곳에 무인기 공격이 발생해 41명이 사망했다고 보도했다. 워싱턴포스트도 같은 설명과 배후 주장을 전했다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "보도는 공격을 수단군과 싸우고 있는 준군사조직 신속지원군(RSF)의 소행으로 지목했다. 이는 인권단체의 주장으로 제시됐으며 독립적으로 확정된 조사 결과는 아니다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "공격은 수단 국경 인근에서 발생한 것으로 보도됐으며, 분쟁에 따른 피란은 국경을 넘는 우려를 키워 왔다. 보도는 표적, 사용된 무기, 공격이 일어난 구체적 상황에 관한 완전한 설명을 제공하지 않는다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "사망자 수와 책임 주체는 추가 증거가 나오면 수정될 수 있다. 두 보도 모두 현장 독립 조사를 전하지 않으므로 수치와 배후는 Emergency Lawyers에 귀속된 주장으로 남는다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "보도된 공격은 국경 인근의 피란 민간인을 위험에 빠뜨리고 수단 분쟁에 국경을 넘는 영향을 더한다. 현재 근거는 인권단체의 설명이므로 독립적인 확인이 중요하다.",
+      "editorNote": "사망자 수와 공격 주체를 Emergency Lawyers의 주장으로 명확히 표시했으며 독립 검증을 주장하지 않는다.",
+      "cluster": [
+        {
+          "url": "https://www.washingtonpost.com/world/2026/10/10/sudan-war-rsf-military/bd3671c6-c499-11f1-8170-681419af1cc9_story.html",
+          "source": "The Washington Post",
+          "title": "Rights group says paramilitary drone strike in Sudan killed 41 near Ethiopian border"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/6cb2c34499234e9bcd33c3c9b49521da",
+          "source": "Associated Press",
+          "title": "Rights group says paramilitary drone strike in Sudan killed 41 near Ethiopian border",
+          "publishedAt": "2026-10-10"
+        },
+        {
+          "id": 2,
+          "url": "https://www.washingtonpost.com/world/2026/10/10/sudan-war-rsf-military/bd3671c6-c499-11f1-8170-681419af1cc9_story.html",
+          "source": "The Washington Post",
+          "title": "Rights group says paramilitary drone strike in Sudan killed 41 near Ethiopian border",
+          "publishedAt": "2026-10-10"
+        }
+      ],
+      "tags": [
+        "Sudan",
+        "displacement",
+        "armed conflict"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "india-detains-cockroach-protest-leaders-delhi-ko",
+      "headline": "모디 총리와 선거 책임자에 대한 분노 확산 속 인도, 청년 시위 강경 진압",
+      "dek": "당국은 유권자 명부 개정에 항의하는 시위에서 지도자들을 구금했다. 인도 선거관리위원회는 조작 의혹을 부인한다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "AP통신에 따르면 인도 당국은 논란이 된 유권자 명부 개정에 반대하는 뉴델리 시위에서 수천 명을 구금했다.",
+        "‘바퀴벌레’ 운동은 선거 책임자와 명부 개정에 문제를 제기했고, 정부와 선거관리위원회는 유권자 조작 주장을 부인했다.",
+        "시위 규모와 당국 대응은 보도됐지만 명부 개정에 관한 핵심 주장은 여전히 다툼 중이다."
+      ],
+      "body": [
+        {
+          "text": "AP통신과 Al Jazeera는 인도 당국이 유권자 명부 개정에 반대하는 ‘바퀴벌레’ 운동의 뉴델리 시위에서 참가자들을 구금했다고 보도했다. AP에 따르면 이 운동 지도자들도 구금됐다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "시위대는 선거관리위원회의 유권자 명부 개정에 이의를 제기하며 선거 책임자의 사임을 요구했다. 선거관리위원회와 정부는 조작 의혹을 부인하고 중복되거나 자격이 없는 등록을 정리하기 위한 절차라고 설명했다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "경찰의 제한 조치와 구금으로 시위 중 수도 일부 지역의 접근이 차질을 빚었다. 보도는 대규모 보안 대응을 전하지만 명부 변경의 목적과 정당성에 대해서는 당사자들의 설명이 엇갈린다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "쟁점은 개정 절차가 투명한지, 자격을 갖춘 유권자에게 영향이 있었는지에 모인다. 인용 보도는 의혹과 당국의 부인을 기록하지만 명부의 사실관계 분쟁을 독립적으로 판정하지는 않는다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 대치는 세계 최대 민주주의 국가의 선거 행정 신뢰성과 집회 권리에 닿아 있다. 핵심인 유권자 명부 변경 의혹이 다툼 중이므로 절차에 대한 독립적 검증이 중요하다.",
+      "editorNote": "운동 측 의혹과 정부 측 반론을 각각 귀속했다. 보도는 유권자 명부 분쟁을 판정하지 않는다.",
+      "cluster": [
+        {
+          "url": "https://indianexpress.com/article/cities/delhi/delhi-lockdown-cockroach-janta-party-protest-cec-gyanesh-kumar-exit-10914814/",
+          "source": "The Indian Express",
+          "title": "Delhi locks down to block protests seeking CEC Gyanesh Kumar exit"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/030b35e23279c75394b7654233c99d6b",
+          "source": "Associated Press",
+          "title": "India cracks down on youth protests as anger grows against Modi and election chief",
+          "publishedAt": "2026-10-10"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown",
+          "source": "Al Jazeera",
+          "title": "India’s ‘Cockroach’ leaders detained; New Delhi in lockdown",
+          "publishedAt": "2026-10-10"
+        }
+      ],
+      "tags": [
+        "India",
+        "elections",
+        "protests"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "ethiopia-eritrea-mutual-accusations-un-ko",
+      "headline": "에티오피아 “에리트레아에 대한 자위 조치 중”…유엔에 통보",
+      "dek": "아디스아바바는 에리트레아 병력이 국경을 넘었다고 비난했다. 아스마라는 의혹을 부인하고 안보리에 에티오피아 억제를 요청했다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "AP통신에 따르면 에티오피아는 유엔 안보리에 자위 조치를 취하고 있다고 통보하며 에리트레아군의 자국 영토 진입을 비난했다.",
+        "DW에 따르면 에리트레아는 이를 부인하고 안보리에 에티오피아의 발표를 규탄하며 억제 조치를 취해 달라고 요청했다.",
+        "인용된 보도에서는 병력 이동과 양측의 상반된 설명을 독립적으로 확인하지 못했다."
+      ],
+      "body": [
+        {
+          "text": "AP통신은 에티오피아가 유엔 안보리에 자위 차원에서 대응 중이라고 통보하고 이웃 에리트레아가 국경을 넘어 병력을 보냈다고 비난했다고 전했다. DW는 에리트레아가 별도 서한을 통해 해당 주장을 부인했다고 보도했다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "에티오피아 외무장관은 유엔 헌장 51조를 근거로 들었지만 정부가 어떤 조치를 취하는지 구체적으로 밝히지는 않았다. 에리트레아는 에티오피아의 선언을 위협으로 규정하고 안보리에 규탄과 억제 조치를 요청했다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "양국 발표는 과거 전쟁으로 큰 피해를 입은 티그라이 지역의 교전과 정치적 긴장이 다시 고조되는 가운데 나왔다. AP는 에리트레아군 이동이나 무인기 공격 보도를 독립적으로 확인하지 못했다고 밝혀 국경 관련 주장은 다툼 중이다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "안보리의 대응과 병력 배치 변화는 아직 불확실하다. 양국 서한은 각 정부의 입장을 기록하지만, 침입 규모나 양측이 새로운 국가 간 전쟁에 돌입했다는 점을 독립적으로 확정하지 않는다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 비난은 티그라이의 재충돌이 주변국을 끌어들이는 더 큰 대치로 번질 위험을 높인다. 양국 정부가 모두 자위 조치라고 주장하고 병력 관련 주장이 확인되지 않은 만큼 독립 감시와 외교적 대응이 중요하다.",
+      "editorNote": "양국의 비난과 요청을 각각 귀속했다. AP는 병력 이동을 독립적으로 확인하지 못했다고 전했다.",
+      "cluster": [
+        {
+          "url": "https://amp.dw.com/en/eritrea-urges-un-deterrence-measures-against-ethiopia/a-79629670",
+          "source": "Deutsche Welle",
+          "title": "Eritrea urges UN deterrence measures against Ethiopia"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/9386a16a06e537a29ffe2de273267c8b",
+          "source": "Associated Press",
+          "title": "Ethiopia tells UN it is acting in self-defense against Eritrea",
+          "publishedAt": "2026-10-10"
+        },
+        {
+          "id": 2,
+          "url": "https://amp.dw.com/en/eritrea-urges-un-deterrence-measures-against-ethiopia/a-79629670",
+          "source": "Deutsche Welle",
+          "title": "Eritrea urges UN deterrence measures against Ethiopia",
+          "publishedAt": "2026-10-10"
+        }
+      ],
+      "tags": [
+        "Ethiopia",
+        "Eritrea",
+        "Tigray"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

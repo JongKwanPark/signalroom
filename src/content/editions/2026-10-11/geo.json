@@ -1,0 +1,607 @@
+{
+  "date": "2026-10-11",
+  "generatedAt": "2026-10-11T07:09:00+09:00",
+  "vertical": "geo",
+  "lang": "en",
+  "title": "Geopolitics & Security — October 11, 2026",
+  "summary": "The day's reporting links a US-Russia fuel agreement to tensions with Kyiv, a renewed attack on Riyadh airport, US sanctions against the ICC and continuing violence a year after the Gaza ceasefire. Several claims remain attributed to officials or parties to the conflicts. Eight developments cleared the two-outlet check; remaining feed items were single-outlet reports, routine incidents or outside the vertical. No corroborated multi-outlet development was dropped for space.",
+  "stories": [
+    {
+      "slug": "trump-zelensky-russia-diesel-dispute",
+      "headline": "'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal",
+      "dek": "Trump criticized Ukraine's president after announcing a Russian diesel arrangement; Kyiv and European allies objected to the sanctions change.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Donald Trump said Ukraine should get a new president after Volodymyr Zelensky criticized a US-Russia diesel agreement.",
+        "Trump said the deal would allow Russian diesel exports as his administration seeks to address US fuel prices.",
+        "The agreement's volume, implementation and effect on prices remain unclear in the reporting."
+      ],
+      "body": [
+        {
+          "text": "Donald Trump said Ukraine should have a new president after Volodymyr Zelensky condemned the US-Russia diesel agreement. The BBC and Associated Press reported the comments and the dispute between the leaders. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Trump said the arrangement would lift restrictions to permit Russian diesel exports to the United States and the wider market. Zelensky called the agreement unfair, while European allies reiterated support for Ukraine and raised concerns about sanctions policy. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The White House framed the deal as a way to address fuel costs. The reporting also describes Ukraine's attacks on Russian energy infrastructure as part of the context, but the public accounts do not provide final transaction terms or a verified delivery schedule. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The exchange marks a visible strain in US-Ukraine relations, but the durability of the policy change is not yet clear. The deal's effect on fuel prices, and whether sanctions are formally altered beyond the announced arrangement, remain open questions. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The dispute joins energy supply policy with military support and sanctions enforcement. It may affect how European partners assess Washington's alignment with Kyiv, while the fuel-market impact cannot be determined from the announcement alone.",
+      "editorNote": "Attributions to Trump, Zelensky and European officials are retained; delivery details and price effects are unconfirmed.",
+      "cluster": [
+        {
+          "url": "https://www.axios.com/2026/10/10/trump-ukraine-zelensky-replace-putin-diesel",
+          "source": "Axios",
+          "title": "Trump tells Ukraine to replace Zelensky over Russia fuel deal"
+        },
+        {
+          "url": "https://www.theguardian.com/world/2026/oct/10/ukraine-russia-strikes-war-trump-diesel-deal-zelenskyy",
+          "source": "The Guardian",
+          "title": "Ukraine hit by deadly Russian strikes as ‘thanks’ for Trump diesel deal, Zelenskyy says"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal",
+          "publishedAt": "2026-10-10"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/228ccf74b2848c1ff0ac23f038b37512",
+          "source": "Associated Press",
+          "title": "Trump says Ukraine should get a new president as he blames Zelenskyy for US diesel prices",
+          "publishedAt": "2026-10-10"
+        }
+      ],
+      "tags": [
+        "Ukraine",
+        "Russia",
+        "energy sanctions"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "riyadh-airport-attacked-again",
+      "headline": "Several injured in attack on airport in Saudi capital Riyadh",
+      "dek": "The latest reported strike came amid repeated attacks and airline disruptions; responsibility for this incident was not established in the cited accounts.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Saudi authorities reported another attack affecting Riyadh's King Khalid International Airport, with injuries reported.",
+        "The Associated Press said airlines had suspended or disrupted flights after a series of attacks on Saudi airports.",
+        "The cited reports do not independently establish who carried out the latest attack or its full damage."
+      ],
+      "body": [
+        {
+          "text": "Several people were injured in an attack affecting King Khalid International Airport in Riyadh, according to the BBC. The Associated Press also reported a renewed attack on the airport as Saudi Arabia faced a series of assaults. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The airport has been targeted more than once in recent days, and the AP reported that airlines including Air India, Flydubai and Lufthansa Group suspended or adjusted flights to Saudi airports. The disruptions show the incident's immediate effect on civilian aviation beyond the site itself. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The reporting places the airport attacks within escalating Saudi-Houthi hostilities and the broader regional conflict. The accounts distinguish earlier attacks from the latest incident; responsibility for the latest strike was not independently established in the cited coverage. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The number of injuries, damage assessment and any confirmed attribution could change as authorities release more information. The reports do not establish that the airport has permanently closed or that all airline suspensions have the same duration. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Repeated attacks on a major airport can disrupt regional passenger and cargo routes and widen the civilian impact of the conflict. Attribution and the extent of operational damage remain uncertain, so the event should not be treated as proof of a specific group's responsibility.",
+      "editorNote": "Latest attack attribution and full damage remain unconfirmed in the cited reports.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/damage-seen-inside-saudi-airport-after-third-attack-this-week?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Damage seen inside Saudi airport after third attack this week"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Several injured in attack on airport in Saudi capital Riyadh",
+          "publishedAt": "2026-10-10"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/f0e0e6105f33400e37bb20bb9a8130af",
+          "source": "Associated Press",
+          "title": "Trump weighs joining the fight against Houthis after Saudi capital's airport is struck again",
+          "publishedAt": "2026-10-10"
+        }
+      ],
+      "tags": [
+        "Saudi Arabia",
+        "aviation",
+        "regional conflict"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "us-sanctions-icc-navi-pillay-nobel",
+      "headline": "Nobel peace laureate says US sanctions on ICC 'unacceptable'",
+      "dek": "The sanctions were announced on the day Navi Pillay received the Nobel Peace Prize, sharpening a dispute over the court's role and authority.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Navi Pillay called US sanctions against the International Criminal Court unacceptable after the measures were announced.",
+        "The sanctions announcement followed Pillay's selection for the 2026 Nobel Peace Prize and targets the ICC as an institution, according to reporting.",
+        "The scope of operational effects and responses from other ICC member states remain developing."
+      ],
+      "body": [
+        {
+          "text": "Navi Pillay, the 2026 Nobel Peace Prize laureate and a former ICC judge, criticized US sanctions against the International Criminal Court as unacceptable. The BBC and Associated Press reported the reaction and the timing of the US announcement. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The US announced new sanctions against the court after the Nobel prize announcement, according to the AP and BBC reports. Washington described its action as part of a broader effort against the institution, while the ICC and supporters objected to the measures. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Pillay has held senior roles in international law, including as a former ICC judge and UN human-rights chief. Her prize and the sanctions are separate decisions that converged on the same day; the timing intensified public attention but does not by itself establish the stated motive for the sanctions. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The practical consequences will depend on the sanctions' specific scope and how governments, financial institutions and the court respond. The cited coverage describes the announcement and criticism, but does not yet show the full operational effect on the ICC. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The measures put pressure on an international judicial institution and may affect cooperation with states and service providers. The episode also places US policy toward the ICC in direct public focus as questions about enforcement and institutional continuity remain unresolved.",
+      "editorNote": "The story separates the award, the US announcement and Pillay's reaction; operational consequences are not yet established.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/dab3307800c0bdb22cdca811bd29fc92",
+          "source": "Associated Press",
+          "title": "Israel's scorn of Nobel Peace Prize laureate highlights its combative relationship with UN bodies"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cqkgjrpmr47vo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Nobel peace laureate says US sanctions on ICC 'unacceptable'",
+          "publishedAt": "2026-10-10"
+        },
+        {
+          "id": 2,
+          "url": "https://www.the-star.co.ke/news/world/2026-10-10/nobel-peace-laureate-says-us-sanctions-on-icc-unacceptable",
+          "source": "The Star / AFP",
+          "title": "Nobel peace laureate says US sanctions on ICC unacceptable",
+          "publishedAt": "2026-10-10"
+        }
+      ],
+      "tags": [
+        "International Criminal Court",
+        "sanctions",
+        "Navi Pillay"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "zaporizhzhia-russian-glide-bomb-strike",
+      "headline": "Russian glide bomb attack on Zaporizhzhia kills at least 20 people",
+      "dek": "Ukrainian authorities reported a deadly strike on the city; casualty details and responsibility are reported by officials amid active hostilities.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "A Russian glide-bomb attack on Zaporizhzhia killed at least 20 people, according to the BBC's report.",
+        "The Guardian reported that Zelensky linked the strikes to the newly announced Russian diesel arrangement, a characterization by Ukraine's president.",
+        "Independent verification of the casualty total and the precise circumstances of the attack remains limited in the cited reporting."
+      ],
+      "body": [
+        {
+          "text": "A Russian glide-bomb attack on Zaporizhzhia killed at least 20 people, the BBC reported, citing local authorities. The Guardian separately reported Ukrainian President Volodymyr Zelensky's account of deadly strikes in the city. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Zelensky described the attack as Russia's response to the US decision to ease restrictions on Russian diesel exports. That was his characterization of the timing and political context; the reporting does not independently establish a causal link between the fuel agreement and the strike. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The strike occurred during Russia's continuing war against Ukraine and amid dispute over US policy toward Russian energy exports. The cited reports describe civilian casualties and damage, but details may change as emergency services and investigators provide updates. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The reports do not provide an independent on-site verification of every casualty or a full military assessment of the attack. The stated toll should therefore be read as the figure reported by the outlets from Ukrainian accounts, not as a separately confirmed count. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The attack illustrates the continuing civilian cost of the war as energy policy becomes part of the diplomatic dispute. Linking the strike to the diesel agreement remains an attributed political claim rather than an independently verified causal finding.",
+      "editorNote": "Casualty count is attributed to local authorities; Zelensky's asserted connection to the fuel deal is labeled as his claim.",
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/world/2026/oct/10/ukraine-russia-strikes-war-trump-diesel-deal-zelenskyy",
+          "source": "The Guardian",
+          "title": "Ukraine hit by deadly Russian strikes as ‘thanks’ for Trump diesel deal, Zelenskyy says"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Russian glide bomb attack on Zaporizhzhia kills at least 20 people",
+          "publishedAt": "2026-10-10"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theguardian.com/world/2026/oct/10/ukraine-russia-strikes-war-trump-diesel-deal-zelenskyy",
+          "source": "The Guardian",
+          "title": "Ukraine hit by deadly Russian strikes as ‘thanks’ for Trump diesel deal, Zelenskyy says",
+          "publishedAt": "2026-10-10"
+        }
+      ],
+      "tags": [
+        "Ukraine",
+        "Russia",
+        "civilian harm"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "gaza-ceasefire-year-later-progress-stalled",
+      "headline": "A US-brokered ceasefire was supposed to end the war in Gaza. A year later, progress has stalled",
+      "dek": "The agreement reduced major fighting and returned hostages, but governance, disarmament, reconstruction and continued strikes remain unresolved.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "One year after the US-brokered Gaza ceasefire took effect, major parts of the agreement remain unimplemented, the Associated Press reported.",
+        "Israel has continued strikes, while disputes over Hamas disarmament, Palestinian governance and reconstruction have stalled progress.",
+        "The parties differ over sequencing and control, and the truce has not ended all violence."
+      ],
+      "body": [
+        {
+          "text": "One year after the US-brokered ceasefire took effect, Israel was still carrying out strikes in Gaza, according to the Associated Press and Al Jazeera. The AP said the agreement halted major military operations and led to the return of the remaining hostages, but broader political provisions have not advanced. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The unresolved provisions include a future Palestinian administration, Hamas disarmament, international involvement and the extent of Israeli control. The AP reported that Israel tied progress to Hamas disarming, while Hamas and the US administration said the steps should happen together. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Humanitarian groups have criticized the limited progress and continuing civilian harm. Al Jazeera cited Gaza health authorities on deaths and injuries since the ceasefire began; those figures are attributed to local authorities and were not independently audited in the cited report. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The agreement therefore marks a reduction in major operations but not a settled political or security arrangement. Reconstruction, governance and enforcement remain open, and reports of continued strikes show that violence has not fully stopped. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The stalled provisions leave the ceasefire’s political end state unclear and prolong uncertainty for regional diplomacy and humanitarian access. The distinction between reduced major combat and continuing attacks is central to understanding what the agreement has and has not achieved.",
+      "editorNote": "Casualty figures and field claims remain attributed to named local authorities; the ceasefire is not described as a complete end to violence.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/9/gaza-ceasefire-exists-in-name-only-more-than-100-ngos-say",
+          "source": "Al Jazeera",
+          "title": "Gaza ceasefire “exists in name only”, more than 100 NGOs say"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/f6c105e8f72d8b478d78312142d888ed",
+          "source": "Associated Press",
+          "title": "A US-brokered ceasefire was supposed to end the war in Gaza. A year later, progress has stalled",
+          "publishedAt": "2026-10-10"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/news/2026/10/10/israeli-forces-kill-six-in-gaza-including-a-child",
+          "source": "Al Jazeera",
+          "title": "Child among seven killed by Israel in Gaza on ‘ceasefire’ anniversary",
+          "publishedAt": "2026-10-10"
+        }
+      ],
+      "tags": [
+        "Gaza",
+        "ceasefire",
+        "humanitarian access"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "sudan-drone-strike-displaced-people-ethiopia-border",
+      "headline": "Rights group says paramilitary drone strike in Sudan killed 41 near Ethiopian border",
+      "dek": "The reported strike hit displaced people near the border; the toll and attribution come from a rights group cited by news outlets.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "A drone strike near Sudan’s border with Ethiopia killed 41 people, according to Emergency Lawyers, a rights group cited by the Associated Press.",
+        "The Washington Post also reported the account, which blamed Sudan’s Rapid Support Forces paramilitary group.",
+        "The precise circumstances and casualty count have not been independently verified in the cited coverage."
+      ],
+      "body": [
+        {
+          "text": "A drone strike hit a gathering of displaced people near Sudan’s border with Ethiopia and killed 41, the Associated Press reported, citing the Emergency Lawyers rights group. The Washington Post reported the same account and attribution. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The reports attributed the attack to Sudan’s Rapid Support Forces, a paramilitary group fighting the Sudanese army. The attribution is presented as the rights group’s account, not as an independently established finding. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The attack was reported near the Ethiopian border, where conflict-related displacement has raised cross-border concerns. The reporting does not provide a full account of the target, the weapon used or the circumstances that led to the strike. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The death toll and responsibility may be revised as additional evidence emerges. Neither cited report describes an independent on-site investigation, so the figure and attribution remain claims sourced to Emergency Lawyers. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The reported strike places displaced civilians near a border at risk and adds a cross-border dimension to Sudan’s conflict. The evidence available here is an attributed rights-group account, so independent verification remains important.",
+      "editorNote": "Toll and perpetrator attribution are explicitly attributed to Emergency Lawyers; no independent verification is claimed.",
+      "cluster": [
+        {
+          "url": "https://www.washingtonpost.com/world/2026/10/10/sudan-war-rsf-military/bd3671c6-c499-11f1-8170-681419af1cc9_story.html",
+          "source": "The Washington Post",
+          "title": "Rights group says paramilitary drone strike in Sudan killed 41 near Ethiopian border"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/6cb2c34499234e9bcd33c3c9b49521da",
+          "source": "Associated Press",
+          "title": "Rights group says paramilitary drone strike in Sudan killed 41 near Ethiopian border",
+          "publishedAt": "2026-10-10"
+        },
+        {
+          "id": 2,
+          "url": "https://www.washingtonpost.com/world/2026/10/10/sudan-war-rsf-military/bd3671c6-c499-11f1-8170-681419af1cc9_story.html",
+          "source": "The Washington Post",
+          "title": "Rights group says paramilitary drone strike in Sudan killed 41 near Ethiopian border",
+          "publishedAt": "2026-10-10"
+        }
+      ],
+      "tags": [
+        "Sudan",
+        "displacement",
+        "armed conflict"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "india-detains-cockroach-protest-leaders-delhi",
+      "headline": "India cracks down on youth protests as anger grows against Modi and election chief",
+      "dek": "Authorities detained protest leaders during demonstrations over voter-list revisions; India’s Election Commission denies allegations of manipulation.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Indian authorities detained thousands of protesters in New Delhi during demonstrations over a contested voter-list revision, the Associated Press reported.",
+        "The “Cockroach” movement called for action against the election chief and alleged irregularities; the government and Election Commission reject claims of voter manipulation.",
+        "The scale and conduct of the protests are documented, while the underlying allegations about voter rolls remain disputed."
+      ],
+      "body": [
+        {
+          "text": "Indian authorities detained protesters in New Delhi as the “Cockroach” movement held demonstrations over a voter-list revision, the Associated Press and Al Jazeera reported. The movement’s leaders were among those detained, according to the AP. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The protesters challenged the Election Commission’s revision of voter rolls and demanded the election chief’s resignation. The commission and government rejected claims of manipulation and said the revision was intended to remove duplicate or ineligible entries. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Police restrictions and detentions disrupted access to parts of the capital during the demonstrations. Coverage describes a large security response, but the two sides give conflicting accounts of the purpose and legitimacy of the voter-list changes. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The dispute now centers on whether the revision process is transparent and whether eligible voters have been affected. The cited reports document allegations and official denials; they do not independently resolve the factual dispute over the rolls. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The confrontation touches the credibility of electoral administration in the world’s largest democracy and the right to protest. The core claim about voter-list changes remains contested, making independent scrutiny of the process consequential.",
+      "editorNote": "Movement allegations and government responses are both attributed; the reports do not adjudicate the voter-roll dispute.",
+      "cluster": [
+        {
+          "url": "https://indianexpress.com/article/cities/delhi/delhi-lockdown-cockroach-janta-party-protest-cec-gyanesh-kumar-exit-10914814/",
+          "source": "The Indian Express",
+          "title": "Delhi locks down to block protests seeking CEC Gyanesh Kumar exit"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/030b35e23279c75394b7654233c99d6b",
+          "source": "Associated Press",
+          "title": "India cracks down on youth protests as anger grows against Modi and election chief",
+          "publishedAt": "2026-10-10"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown",
+          "source": "Al Jazeera",
+          "title": "India’s ‘Cockroach’ leaders detained; New Delhi in lockdown",
+          "publishedAt": "2026-10-10"
+        }
+      ],
+      "tags": [
+        "India",
+        "elections",
+        "protests"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "ethiopia-eritrea-mutual-accusations-un",
+      "headline": "Ethiopia tells UN it is acting in self-defense against Eritrea",
+      "dek": "Addis Ababa accused Eritrean forces of crossing the border; Asmara rejected the accusation and asked the Security Council to deter Ethiopia.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Ethiopia told the UN Security Council it was taking self-defense measures and accused Eritrean troops of entering its territory, the Associated Press reported.",
+        "Eritrea rejected the accusation and asked the Council to condemn Ethiopia’s statement and take deterrent measures, according to DW.",
+        "The troop movements and competing accounts have not been independently verified in the cited reports."
+      ],
+      "body": [
+        {
+          "text": "Ethiopia told the UN Security Council it was acting in self-defense against Eritrea and accused its neighbor of sending troops across the border, the Associated Press reported. DW reported that Eritrea rejected the allegation in a separate letter to the Council. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Ethiopia’s foreign minister invoked Article 51 of the UN Charter, which recognizes a right of self-defense, but did not specify what measures the government was taking. Eritrea called Ethiopia’s declaration a threat and urged the Council to condemn it and take deterrent steps. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The statements come amid renewed fighting and political strain in Tigray, a region devastated by a previous war. The AP said it could not independently verify reports of Eritrean troop movements or a drone attack, so the border claims remain disputed. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The Security Council’s response and any change in troop deployments remain uncertain. The letters document each government’s position, but do not independently establish the scale of any incursion or that either side has begun a new interstate war. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The accusations raise the risk that renewed conflict in Tigray could draw neighboring states into a wider confrontation. Because both governments frame their actions defensively and the troop claims remain unverified, independent monitoring and diplomatic response are central.",
+      "editorNote": "Both governments’ allegations and requests are attributed; AP reports it could not independently verify troop movements.",
+      "cluster": [
+        {
+          "url": "https://amp.dw.com/en/eritrea-urges-un-deterrence-measures-against-ethiopia/a-79629670",
+          "source": "Deutsche Welle",
+          "title": "Eritrea urges UN deterrence measures against Ethiopia"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/9386a16a06e537a29ffe2de273267c8b",
+          "source": "Associated Press",
+          "title": "Ethiopia tells UN it is acting in self-defense against Eritrea",
+          "publishedAt": "2026-10-10"
+        },
+        {
+          "id": 2,
+          "url": "https://amp.dw.com/en/eritrea-urges-un-deterrence-measures-against-ethiopia/a-79629670",
+          "source": "Deutsche Welle",
+          "title": "Eritrea urges UN deterrence measures against Ethiopia",
+          "publishedAt": "2026-10-10"
+        }
+      ],
+      "tags": [
+        "Ethiopia",
+        "Eritrea",
+        "Tigray"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

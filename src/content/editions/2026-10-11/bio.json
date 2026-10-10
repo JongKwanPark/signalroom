@@ -1,0 +1,158 @@
+{
+  "date": "2026-10-11",
+  "generatedAt": "2026-10-11T07:09:00+09:00",
+  "vertical": "bio",
+  "lang": "en",
+  "title": "Bio & Health — October 11, 2026",
+  "summary": "Two developments span early human data in cellular reprogramming and a renewed legal challenge to the 340B rebate pilot. The ER-100 report covers three Phase 1 participants; the lawsuit leaves the program’s implementation uncertain. The Nature PICK1 mouse study was excluded because the same finding was already covered in the October 10 edition; remaining journal and trial-register items lacked separate outlet coverage.",
+  "stories": [
+    {
+      "slug": "life-biosciences-er100-phase-one-update",
+      "headline": "Life Biosciences share glaucoma study updates for its cellular reprogramming drug",
+      "dek": "The company reported interim Phase 1 observations in three participants; the small, early safety study does not establish efficacy.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Life Biosciences announced interim Phase 1 data for ER-100, an investigational treatment being studied in optic neuropathies.",
+        "The update covered three participants with open-angle glaucoma and described safety observations and early visual-function measures.",
+        "The study is ongoing, and the company-reported findings are preliminary rather than evidence of established benefit."
+      ],
+      "body": [
+        {
+          "text": "Life Biosciences said it presented interim data from its Phase 1 study of ER-100, an investigational cellular-reprogramming treatment for optic neuropathies. The company said the update covered three participants with open-angle glaucoma. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The company described the treatment as an experimental gene therapy and reported that it had not observed dose-limiting toxicities at the time of the update. It also described early visual-function observations in two participants; these are company-reported interim findings, not a controlled efficacy result. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "STAT's coverage places the presentation within the company's clinical-development program, while the company's release provides its own account of the data. The trial remains in Phase 1, whose primary purpose is to assess safety and tolerability. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The number of participants is very small, follow-up is ongoing and the update does not establish whether any observed change is attributable to treatment. Larger, controlled studies and fuller reporting would be needed to assess efficacy and durability. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The update is an early test of whether partial cellular reprogramming can be studied in people with optic nerve disease. For the biotech sector, the milestone is entry into human testing; the available evidence remains too preliminary to support claims of clinical benefit.",
+      "editorNote": "Company-reported interim findings from three participants; no clinical benefit is established. No medical advice included.",
+      "cluster": [
+        {
+          "url": "https://rss.globenewswire.com/news-release/2026/10/08/3377649/0/en/life-biosciences-announces-first-in-human-data-from-ongoing-phase-1-trial-evaluating-er-100-in-optic-neuropathies.html",
+          "source": "GlobeNewswire / Life Biosciences",
+          "title": "Life Biosciences Announces First-in-Human Data from Ongoing Phase 1 Trial Evaluating ER-100 in Optic Neuropathies"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.statnews.com/2026/10/09/biotech-news-life-biosciences-share-glaucoma-cellular-reprogramming-drug-update/",
+          "source": "STAT",
+          "title": "Life Biosciences share glaucoma study updates for its cellular reprogramming drug",
+          "publishedAt": "2026-10-09"
+        },
+        {
+          "id": 2,
+          "url": "https://rss.globenewswire.com/news-release/2026/10/08/3377649/0/en/life-biosciences-announces-first-in-human-data-from-ongoing-phase-1-trial-evaluating-er-100-in-optic-neuropathies.html",
+          "source": "Life Biosciences",
+          "title": "Life Biosciences Announces First-in-Human Data from Ongoing Phase 1 Trial Evaluating ER-100 in Optic Neuropathies",
+          "publishedAt": "2026-10-08"
+        }
+      ],
+      "tags": [
+        "clinical trials",
+        "cellular reprogramming",
+        "ophthalmology"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "hospitals-challenge-340b-rebate-pilot-again",
+      "headline": "Hospitals sue – again – to halt Trump administration’s 340B rebate pilot",
+      "dek": "The American Hospital Association is challenging a revised drug-discount pilot in court; the legal dispute leaves the program's implementation uncertain.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "The American Hospital Association filed another lawsuit seeking to block the federal 340B rebate pilot.",
+        "The revised model would replace some upfront discounts with rebates after covered entities purchase medicines.",
+        "The case challenges the administration's authority and process; the court has not resolved the new dispute."
+      ],
+      "body": [
+        {
+          "text": "The American Hospital Association has sued the federal government again over a pilot that would change how discounts are delivered through the 340B Drug Pricing Program. STAT and Fierce Healthcare reported the new filing on October 9. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Under the pilot model described in the coverage, participating providers would pay for certain medicines and seek rebates afterward, rather than receiving the discount at purchase. The association argues that the agency's revised approach remains legally flawed. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The dispute follows an earlier court challenge that paused a prior version of the pilot. The current case concerns a revised program and its implementation, so the earlier litigation does not by itself determine how the new filing will be decided. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The court's next actions and any effect on the program's timing remain open. The filing presents the hospitals' position; the coverage does not establish a final judicial ruling on the merits of the renewed challenge. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The 340B program shapes drug purchasing and cash flow for participating safety-net providers. A shift from upfront discounts to after-purchase rebates could change administrative and financing burdens, but the legal challenge means the policy's operation remains uncertain.",
+      "editorNote": "Describes the lawsuit and parties' positions; no prediction about the court outcome.",
+      "cluster": [
+        {
+          "url": "https://www.fiercehealthcare.com/providers/hospital-industry-files-lawsuit-block-hhs-340b-rebate-pilot-again",
+          "source": "Fierce Healthcare",
+          "title": "Hospitals file lawsuit to block HHS' 340B rebate pilot, again"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.statnews.com/2026/10/09/hospitals-sue-to-halt-340b-rebate-pilot-trump/",
+          "source": "STAT",
+          "title": "Hospitals sue – again – to halt Trump administration’s 340B rebate pilot",
+          "publishedAt": "2026-10-09"
+        },
+        {
+          "id": 2,
+          "url": "https://www.fiercehealthcare.com/providers/hospital-industry-files-lawsuit-block-hhs-340b-rebate-pilot-again",
+          "source": "Fierce Healthcare",
+          "title": "Hospitals file lawsuit to block HHS' 340B rebate pilot, again",
+          "publishedAt": "2026-10-09"
+        }
+      ],
+      "tags": [
+        "340B",
+        "drug pricing",
+        "health policy"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

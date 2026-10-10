@@ -1,0 +1,380 @@
+{
+  "date": "2026-10-11",
+  "generatedAt": "2026-10-11T07:09:00+09:00",
+  "vertical": "markets",
+  "lang": "en",
+  "title": "Markets & Macro — October 11, 2026",
+  "summary": "The Federal Reserve's new household-finance survey, September meeting minutes and a record-setting week for US equities frame the market backdrop. The data describe conditions and policy discussion; they do not establish a forecast or trading signal. Five developments cleared the two-outlet check; most remaining items were single-post discussions, routine notices or repeats without separate coverage. No corroborated multi-outlet development was dropped for space.",
+  "stories": [
+    {
+      "slug": "fed-2025-survey-consumer-finances",
+      "headline": "Americans 75 and older are wealthiest age group, Fed survey finds",
+      "dek": "The 2025 Survey of Consumer Finances updates the Federal Reserve's triennial picture of household income, assets, debt and financial vulnerability.",
+      "type": "DATA",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "The Federal Reserve released its 2025 Survey of Consumer Finances, a triennial dataset on US family finances.",
+        "The Associated Press reported that adults aged 75 and older had the highest wealth among age groups in the survey.",
+        "The survey is descriptive and does not by itself explain the causes of differences or predict future household outcomes."
+      ],
+      "body": [
+        {
+          "text": "The Federal Reserve released the 2025 Survey of Consumer Finances on October 9, updating its recurring account of what US families own, owe and earn. The survey is conducted every three years and includes data on income, net worth, assets, debt and financial vulnerability. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The Associated Press reported one finding from the release: Americans aged 75 and older were the wealthiest age group. The Fed's report and public data provide the basis for comparing household balance sheets across age groups and over time. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The survey is designed to represent US family finances, but it is a snapshot based on sampled households and reported financial information. It can show distribution and change; the headline finding alone does not identify why older households hold more wealth. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The full report, tables and data files are available from the Federal Reserve for further analysis. Because the survey describes measured conditions rather than a market forecast, it should not be read as a signal about asset prices or an individual's financial choices. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The SCF is a key benchmark for household balance sheets and distributional analysis. The age-group result adds context to debates about wealth accumulation, but aggregate survey findings cannot be applied directly to every household.",
+      "editorNote": "Reports the survey finding without prescribing financial action or inferring individual outcomes.",
+      "cluster": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
+          "source": "Federal Reserve Board",
+          "title": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/82ddd18744c3af21ff9084b4c7eb45b2",
+          "source": "Associated Press",
+          "title": "Americans 75 and older are wealthiest age group, Fed survey finds",
+          "publishedAt": "2026-10-09"
+        },
+        {
+          "id": 2,
+          "url": "https://www.federalreserve.gov/econres/scfindex.htm",
+          "source": "Federal Reserve Board",
+          "title": "Survey of Consumer Finances (SCF)",
+          "publishedAt": "2026-10-09"
+        }
+      ],
+      "tags": [
+        "Federal Reserve",
+        "household finances",
+        "wealth distribution"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "fed-minutes-another-rate-hike-debate",
+      "headline": "Fed officials feared inflation pressures could spread, minutes show",
+      "dek": "September's minutes document inflation concerns and differing views on timing after the Federal Reserve raised its benchmark rate.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Minutes from the Federal Reserve's September meeting show that most officials saw another rate increase as likely before year-end.",
+        "Officials differed on timing and assessed inflation risks alongside a labor market they described as near maximum employment.",
+        "The minutes record discussion at a past meeting and do not announce a future decision or date."
+      ],
+      "body": [
+        {
+          "text": "The Federal Reserve's minutes from its September 15–16 meeting said most policymakers expected another rate increase could be appropriate before the end of 2026. The meeting had already produced a rate increase, the first in three years, according to the minutes and contemporaneous reporting. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The minutes describe officials' concern that inflation could remain persistent and spread more broadly. They also characterize the labor market as close to maximum employment and note that economic growth had picked up. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Axios reported that officials did not set out a clear timetable for another move and that views differed over how restrictive policy already was. The minutes are a record of the committee's discussion, not a commitment to raise rates at a particular meeting. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The next inflation data and later policy discussion could change the picture. The minutes leave open when, or whether, officials will act again; they should not be treated as a current decision or a forecast of the market's path. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The minutes show how inflation and employment considerations were weighed after a shift in policy. For markets, the record helps explain the range of policy concerns, but it does not resolve the timing of any future rate action.",
+      "editorNote": "Meeting minutes describe deliberation, not a forward commitment; no rate forecast or trading advice is offered.",
+      "cluster": [
+        {
+          "url": "https://www.axios.com/2026/10/07/fed-warsh-minutes-rates",
+          "source": "Axios",
+          "title": "Fed officials feared inflation pressures could spread, minutes show"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm",
+          "source": "Federal Reserve",
+          "title": "Minutes of the Federal Open Market Committee, September 15-16, 2026",
+          "publishedAt": "2026-10-07"
+        },
+        {
+          "id": 2,
+          "url": "https://www.axios.com/2026/10/07/fed-warsh-minutes-rates",
+          "source": "Axios",
+          "title": "Fed officials feared inflation pressures could spread, minutes show",
+          "publishedAt": "2026-10-07"
+        }
+      ],
+      "tags": [
+        "Federal Reserve",
+        "interest rates",
+        "inflation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "wall-street-record-setting-week-october-9",
+      "headline": "Wall Street finishes its record-setting week with gains",
+      "dek": "US indexes advanced Friday as investors looked toward inflation releases and the start of third-quarter earnings reports.",
+      "type": "DATA",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "US stocks ended Friday higher and recorded weekly gains, according to the Associated Press and Reuters.",
+        "The S&P 500 rose 0.6% on Friday, while the Dow gained 0.8% and the Nasdaq added 0.6% in the AP's closing report.",
+        "Upcoming inflation data and earnings were the next events cited by market coverage; the week's close does not determine future performance."
+      ],
+      "body": [
+        {
+          "text": "US equities rose on Friday, October 9, ending a record-setting week with gains, the Associated Press reported. Reuters also said Wall Street finished higher as investors turned toward the coming earnings season and inflation data. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The AP reported that the S&P 500 climbed 0.6% on Friday, the Dow Jones Industrial Average rose 0.8% and the Nasdaq Composite added 0.6%. Those are closing-session moves, not a measure of the next week's direction. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Reuters identified third-quarter company results and upcoming inflation releases as focal points for investors. These events may inform expectations about corporate performance and Federal Reserve policy, but the reports do not establish how markets will respond. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The same coverage described uneven conditions across asset classes, with Treasury yields and crude oil moving during the session. A strong weekly close is a market observation, not evidence that gains will persist or a basis for an individual investment decision. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The close captures a market heading into a dense calendar of earnings and inflation data, with policy expectations and energy prices still in the background. The figures are a dated snapshot and offer no reliable standalone signal about future returns.",
+      "editorNote": "Closing figures and event calendar are attributed to reporting; no investment recommendation or performance forecast.",
+      "cluster": [
+        {
+          "url": "https://www.fidelity.com/news/article/us-markets/202610091600RTRSNEWSCOMBINED_L6N45V10L_1",
+          "source": "Reuters via Fidelity",
+          "title": "US STOCKS-Wall Street posts weekly gains with earnings, inflation data on tap"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/5d0f953dbf96febb0690c1aef23fa8a9",
+          "source": "Associated Press",
+          "title": "Wall Street finishes its record-setting week with gains",
+          "publishedAt": "2026-10-09"
+        },
+        {
+          "id": 2,
+          "url": "https://www.fidelity.com/news/article/us-markets/202610091600RTRSNEWSCOMBINED_L6N45V10L_1",
+          "source": "Reuters",
+          "title": "US STOCKS-Wall Street posts weekly gains with earnings, inflation data on tap",
+          "publishedAt": "2026-10-09"
+        }
+      ],
+      "tags": [
+        "US equities",
+        "earnings",
+        "inflation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "european-bond-selloff-fiscal-risks",
+      "headline": "European Debt-Crisis Risks Have Risen Sharply, Bundesbanker Says",
+      "dek": "Bundesbank Executive Board member Michael Theurer called the latest selloff a warning sign as investors weigh France’s fiscal and political uncertainty.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Bundesbank official Michael Theurer said Europe’s latest bond selloff was a “clear warning sign” of investor concern about government debt plans.",
+        "Bloomberg reported that French political and fiscal pressures have contributed to market turbulence, while Reuters separately described sharp rises in French and Italian yields.",
+        "The reports describe market pricing and official concern; they do not establish a systemic debt crisis or predict a policy response."
+      ],
+      "body": [
+        {
+          "text": "Bundesbank Executive Board member Michael Theurer called Europe’s recent bond selloff a “clear warning sign” that investors were concerned about governments’ efforts to rein in debt, Bloomberg reported. Reuters had separately reported that French and Italian yields rose sharply amid energy-price and public-debt concerns. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Theurer said fiscal and political uncertainty in France and the United States could affect sovereign-bond markets. Bloomberg reported that the selloff had spread across heavily indebted euro-area countries, while also noting that he did not describe a systemic sovereign-debt crisis as already underway. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Reuters’ October 7 coverage described a widening gap between French and German 10-year yields and higher borrowing costs in Italy. Such yield moves reflect investors’ required compensation and market conditions; they do not on their own establish that a government cannot meet its obligations. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "France’s budget debate and the broader energy shock remain among the factors cited in reporting. The scale and persistence of any spillover, and whether policymakers respond, remain uncertain; the coverage does not establish an imminent crisis. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Sovereign yields affect governments’ refinancing costs and can transmit fiscal concerns across a currency union. The reporting captures rising risk pricing and a central-bank warning, but not a settled debt crisis or a guaranteed intervention.",
+      "editorNote": "Market levels and Theurer’s warning are attributed to Bloomberg and Reuters reporting; no investment recommendation or crisis prediction is made.",
+      "cluster": [
+        {
+          "url": "https://www.fidelity.com/news/article/us-markets/202610071207RTRSNEWSCOMBINED_L1N45T0KZ_1",
+          "source": "Reuters via Fidelity",
+          "title": "Yields on French and Italian debt rise sharply as global selloff intensifies"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://ca.finance.yahoo.com/news/european-debt-crisis-risks-risen-064109209.html",
+          "source": "Bloomberg via Yahoo Finance",
+          "title": "European Debt-Crisis Risks Have Risen Sharply, Bundesbanker Says",
+          "publishedAt": "2026-10-10"
+        },
+        {
+          "id": 2,
+          "url": "https://www.fidelity.com/news/article/us-markets/202610071207RTRSNEWSCOMBINED_L1N45T0KZ_1",
+          "source": "Reuters",
+          "title": "Yields on French and Italian debt rise sharply as global selloff intensifies",
+          "publishedAt": "2026-10-07"
+        }
+      ],
+      "tags": [
+        "sovereign bonds",
+        "France",
+        "European markets"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "spacex-spectrum-deal-telecom-stocks",
+      "headline": "US, European telecom stocks slide as SpaceX spectrum deal rattles sector",
+      "dek": "A proposed low-band spectrum acquisition intensified competitive concerns; the transaction remains subject to regulatory approval.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "SpaceX agreed to acquire Grain Management’s nationwide 800 MHz spectrum portfolio in a deal reported at about $8 billion.",
+        "US and European telecom shares fell after the announcement as investors assessed competition from satellite-to-mobile services.",
+        "The acquisition still requires regulatory approval, and the stock moves do not establish the deal’s eventual effect on carrier businesses."
+      ],
+      "body": [
+        {
+          "text": "SpaceX agreed to acquire Grain Management’s nationwide low-band spectrum portfolio, a transaction reported at about $8 billion. Reuters and Axios reported the deal and its potential role in Starlink Mobile’s effort to expand into US wireless service. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The spectrum portfolio covers 800 MHz frequencies that can help extend mobile coverage. Reuters said the deal heightened concern about satellite-based competition, while Axios reported that AT&T, Verizon and T-Mobile shares fell sharply in the first trading session after the news. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The price moves reflected investors’ response to a potential new competitor, not a completed shift in market share or network capability. SpaceX’s plan to become a major mobile carrier would require deployment and regulatory steps beyond acquiring spectrum. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The transaction remains subject to regulatory approval, and the reports do not establish when or how the spectrum will be put into service. The longer-term effect on incumbent carriers, customers or pricing remains uncertain. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The deal would give SpaceX spectrum that could support a more direct role in mobile telecom, bringing satellite connectivity into competition with established carriers. The market reaction signals investor concern, but does not settle the commercial outcome.",
+      "editorNote": "Transaction value and share moves are attributed to reporting; regulatory approval and commercial effects remain unresolved. No investment advice.",
+      "cluster": [
+        {
+          "url": "https://www.axios.com/2026/10/09/spacex-8-billion-spectrum",
+          "source": "Axios",
+          "title": "SpaceX pens $8B spectrum deal"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.investing.com/news/stock-market-news/us-european-telecom-stocks-slide-spacex-spectrum-deal-rattles-sector-4940422",
+          "source": "Reuters",
+          "title": "US, European telecom stocks slide as SpaceX spectrum deal rattles sector",
+          "publishedAt": "2026-10-09"
+        },
+        {
+          "id": 2,
+          "url": "https://www.axios.com/2026/10/09/spacex-spectrum",
+          "source": "Axios",
+          "title": "SpaceX spectrum deal unsettles investors in AT&T, Verizon, T-Mobile",
+          "publishedAt": "2026-10-09"
+        }
+      ],
+      "tags": [
+        "SpaceX",
+        "telecom",
+        "spectrum"
+      ],
+      "confidence": "high"
+    }
+  ]
+}
