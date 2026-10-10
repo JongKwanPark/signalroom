@@ -1,6 +1,6 @@
 ---
 import type { StoryRef } from '../lib/editions';
-import { outboundHref, sourceCount, timeLabel, verticalHref } from '../lib/editions';
+import { sourceCount, timeLabel, verticalHref } from '../lib/editions';
 import { formatDateLong, pluralize } from '../lib/format';
 import VerticalChip from './VerticalChip.astro';
 import TypeBadge from './TypeBadge.astro';
@@ -15,8 +15,6 @@ interface Props {
 
 const { ref, showTldr = false, showDek = true, showDate = true } = Astro.props;
 const { story, vertical } = ref;
-const sourceHref = outboundHref(ref);
-const opensSource = sourceHref !== ref.href;
 ---
 
 <article class="sr-card" data-vertical={vertical} data-nav-item-container>
@@ -28,13 +26,7 @@ const opensSource = sourceHref !== ref.href;
   </div>
 
   <h3>
-    <a
-      href={sourceHref}
-      data-nav-item
-      style={`view-transition-name: story-${ref.slug}`}
-      target={opensSource ? '_blank' : undefined}
-      rel={opensSource ? 'noopener noreferrer nofollow' : undefined}
-    >{story.headline}</a>
+    <a href={ref.href} data-nav-item style={`view-transition-name: story-${ref.slug}`}>{story.headline}</a>
   </h3>
 
   {showDek && story.dek && <p class="sr-card__dek">{story.dek}</p>}

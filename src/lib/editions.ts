@@ -128,12 +128,6 @@ export function primarySource(story: Story): StorySource | undefined {
   return [...story.sources].sort((a, b) => a.id - b.id)[0];
 }
 
-/** Edition rows open the primary source. Essays stay on the site. */
-export function outboundHref(ref: StoryRef): string {
-  if (ref.kind !== 'edition') return ref.href;
-  return primarySource(ref.story)?.url ?? ref.href;
-}
-
 export function sourceCount(story: Story): number {
   const hostnames = new Set<string>();
   for (const source of story.sources) {
