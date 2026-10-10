@@ -1,0 +1,338 @@
+{
+  "date": "2026-10-10",
+  "generatedAt": "2026-10-10T01:20:55Z",
+  "vertical": "geo",
+  "lang": "ko",
+  "title": "지정학·안보 | 2026년 10월 10일",
+  "summary": "러시아산 디젤 공급 합의, ICC에 대한 미국의 새 제재, 파나마 강진, 나비 필라이의 노벨평화상 수상, 에티오피아·에리트레아 긴장이 주요 이슈였습니다. ReliefWeb, ISW, Polymarket 수집에는 공백이 있었습니다.",
+  "stories": [
+    {
+      "slug": "us-russia-diesel-deal-sanctions-shift-ko",
+      "headline": "트럼프, 러시아산 디젤 공급 합의 발표…젤렌스키는 ‘푸틴에게 선물’ 비판",
+      "dek": "연료 가격 압박과 대러 제재 정책 사이의 충돌이 드러났습니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "BBC와 AP 보도에 따르면 Donald Trump 대통령은 러시아가 미국과 세계 시장에 디젤을 공급할 것이라고 밝혔습니다. [1,2]",
+        "AP는 이 발표가 높은 연료 가격에 대응하는 가운데 나왔으며, 최근 발표된 미국의 대러 제재 정책과 상반된다고 전했습니다. [1,2]",
+        "Volodymyr Zelensky 우크라이나 대통령은 이를 비판했습니다. 합의의 범위와 이행 여부는 이후 정책 세부사항에 달려 있습니다. [1,2]"
+      ],
+      "body": [
+        {
+          "text": "Trump 대통령은 러시아가 미국과 세계 시장에 디젤을 공급할 것이라고 발표했습니다. BBC는 Volodymyr Zelensky 우크라이나 대통령이 이를 푸틴에게 주는 선물이라고 비판했다고 보도했고, AP는 이를 미국 정책의 급격한 전환이라고 설명했습니다. [1,2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP에 따르면 발표에는 공급 물량과 이미 유조선에 적재된 일부 화물에 대한 제재 유예가 포함됐습니다. 이 합의는 국내 연료 가격 우려와 러시아의 우크라이나 전쟁에 대응해 마련된 제재 집행의 신뢰성을 연결합니다. [2]",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이 합의는 에너지 공급과 국내 가격 정치, 러시아의 우크라이나 전쟁을 둘러싼 제재 체계를 연결합니다. 실제 영향은 유예 범위와 발표된 물량의 인도 여부에 따라 달라집니다.",
+      "editorNote": "보도 내용은 공개 발언과 기사에 근거합니다. 실제 이행과 공급은 아직 불확실합니다.",
+      "cluster": [
+        {
+          "url": "https://www.dw.com/en/trump-announces-russian-diesel-deal-amid-soaring-us-fuel-prices/a-79621916",
+          "source": "DW",
+          "title": "Trump announces Russian diesel deal amid soaring US fuel prices"
+        },
+        {
+          "url": "https://www.axios.com/2026/10/09/trump-putin-diesel-agreement-ukraine-war",
+          "source": "Axios",
+          "title": "Trump announces major diesel deal with Putin, infuriating Ukraine"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno",
+          "source": "BBC",
+          "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
+          "publishedAt": "2026-10-10"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/12baccc7aade559bf329079b0548c9da",
+          "source": "AP",
+          "title": "Trump strikes deal with Putin to get diesel in sharp reversal of US policy weeks before midterms",
+          "publishedAt": "2026-10-09"
+        }
+      ],
+      "tags": [
+        "Russia",
+        "energy security",
+        "sanctions"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "us-sanctions-international-criminal-court-ko",
+      "headline": "미국, ICC 제재 발표…법원은 ‘법치주의 공격’이라며 반발",
+      "dek": "국제형사재판소는 미국의 제재 발표 뒤에도 임무를 계속하겠다고 밝혔습니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "미국은 국제형사재판소(ICC)에 대한 제재를 발표했고, ICC는 이를 공개적으로 거부했습니다. [1,2,3]",
+        "ICC는 이번 조치가 판사와 검사에 대한 기존 미국의 지정 조치에 뒤따랐다고 밝혔습니다. [2]",
+        "이번 조치로 미국의 동맹국을 다루는 사건과 ICC 직원·협력 기관에 미칠 영향에 대한 질문이 커졌습니다. [1,2,3]"
+      ],
+      "body": [
+        {
+          "text": "BBC는 미국이 ICC를 겨냥한 제재를 발표했고, ICC가 이를 법치주의에 대한 공격이라고 비판했다고 보도했습니다. [1,2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "ICC는 자체 성명에서 제재를 강하게 거부하고 독립적·공정하게 임무를 계속 수행하겠다고 밝혔습니다. DW는 이번 조치가 전직 ICC 판사들에 대한 제재에 이어 나왔다고 전했습니다. [2,3]",
+          "citations": [
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "국제형사재판소에 대한 제재는 재판소 업무를 지원하는 인력과 기관에 영향을 줄 수 있으며, 책무성과 관할권을 둘러싼 갈등을 키울 수 있습니다. 인용된 발표만으로 즉각적인 운영상 영향이 모두 확인된 것은 아닙니다.",
+      "editorNote": "미국의 조치와 ICC의 반응을 구분했습니다. ICC 성명은 해당 기관의 입장으로 표기했습니다.",
+      "cluster": [
+        {
+          "url": "https://www.icc-cpi.int/news/icc-strongly-rejects-us-sanctions-against-institution",
+          "source": "International Criminal Court",
+          "title": "The ICC strongly rejects US sanctions against the institution"
+        },
+        {
+          "url": "https://www.dw.com/en/us-imposes-sanctions-aiming-to-dismantle-international-criminal-court/a-79618577",
+          "source": "DW",
+          "title": "US imposes sanctions aiming to 'dismantle' International Criminal Court"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo",
+          "source": "BBC",
+          "title": "US unveils sanctions on ICC in move court condemns as 'assault on rule of law'",
+          "publishedAt": "2026-10-09"
+        },
+        {
+          "id": 2,
+          "url": "https://www.icc-cpi.int/news/icc-strongly-rejects-us-sanctions-against-institution",
+          "source": "International Criminal Court",
+          "title": "The ICC strongly rejects US sanctions against the institution",
+          "publishedAt": "2026-10-09"
+        },
+        {
+          "id": 3,
+          "url": "https://www.dw.com/en/us-imposes-sanctions-aiming-to-dismantle-international-criminal-court/a-79618577",
+          "source": "DW",
+          "title": "US imposes sanctions aiming to 'dismantle' International Criminal Court",
+          "publishedAt": "2026-10-09"
+        }
+      ],
+      "tags": [
+        "International Criminal Court",
+        "United States",
+        "sanctions"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "panama-earthquake-magnitude-77-ko",
+      "headline": "파나마에 규모 7.7 강진…건물 피해 보고",
+      "dek": "지진 뒤 대피와 피해 신고가 이어졌고 당국은 영향을 파악 중입니다.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "BBC는 규모 7.7 지진이 파나마를 강타해 건물이 파손됐다고 보도했고, Guardian은 수도에서 공황이 발생했다고 전했습니다. [1,2]",
+        "초기 보도에는 혼란과 피해 조사 상황이 담겼지만 전체 피해와 사상자 규모는 확인되지 않았습니다. [1,2]",
+        "현지 당국이 피해를 평가 중인 지역 재난 상황으로, 대응 규모는 후속 발표에 달려 있습니다. [1,2]"
+      ],
+      "body": [
+        {
+          "text": "BBC는 규모 7.7 지진이 파나마를 강타해 건물 피해가 발생했다고 보도했습니다. Guardian은 수도에서 공황이 일어났다고 별도로 전했습니다. [1,2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "초기 보도는 당국이 피해를 평가하는 동안 발생한 혼란을 전했습니다. 총 피해와 사상자 규모는 아직 확정되지 않았습니다. [1,2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 지진은 긴급 대응과 기반시설의 회복력을 주목하게 했습니다. 현지 당국의 평가가 이어지는 만큼 초기 보도는 잠정적입니다.",
+      "editorNote": "당국이 피해·사상자 평가를 발표하면 초기 보도 내용이 바뀔 수 있습니다.",
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/world/2026/oct/09/panama-earthquake",
+          "source": "The Guardian",
+          "title": "Powerful 7.7-magnitude earthquake strikes Panama and triggers panic in capital"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c620r39zdp9wo",
+          "source": "BBC",
+          "title": "Powerful magnitude 7.7 earthquake hits Panama, damaging buildings",
+          "publishedAt": "2026-10-09"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theguardian.com/world/2026/oct/09/panama-earthquake",
+          "source": "The Guardian",
+          "title": "Powerful 7.7-magnitude earthquake strikes Panama and triggers panic in capital",
+          "publishedAt": "2026-10-10"
+        }
+      ],
+      "tags": [
+        "Panama",
+        "earthquake",
+        "disaster response"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "navi-pillay-wins-nobel-peace-prize-ko",
+      "headline": "전 유엔 인권최고대표 나비 필라이, 노벨평화상 수상",
+      "dek": "노벨위원회는 국제법 증진을 위한 공로를 선정 이유로 들었습니다.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "전 유엔 인권최고대표 나비 필라이가 2026년 노벨평화상을 받았습니다. [1,2,3]",
+        "BBC와 AP에 따르면 노벨위원회는 국제법 증진을 위한 그의 노력을 선정 이유로 들었습니다. [1,2]",
+        "국제 사법기관과 다자기구가 다시 정치적 압박을 받는 시점에 나온 수상입니다. [2,3]"
+      ],
+      "body": [
+        {
+          "text": "BBC는 전 유엔 인권최고대표 나비 필라이가 노벨평화상을 수상했다고 보도했습니다. AP는 남아프리카공화국 출신 법조인인 필라이가 국제 사법기관에서 활동해 왔다고 설명했습니다. [1,2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Guardian은 국제법 증진을 위한 노력이 수상 이유라고 전했습니다. 수상 발표 시점에는 필라이가 과거 판사로 활동한 ICC에 미국이 제재를 발표했습니다. [2,3]",
+          "citations": [
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "이번 수상은 국제법과 다자기구의 역할을 둘러싼 정치적 논쟁이 커지는 가운데 해당 의제에 대한 대중의 관심을 높입니다.",
+      "editorNote": "수상 이유는 노벨위원회와 보도에 귀속했습니다. 인물 소개는 인용한 언론 보도를 따랐습니다.",
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize",
+          "source": "The Guardian",
+          "title": "Navanethem ‘Navi’ Pillay wins Nobel peace prize"
+        },
+        {
+          "url": "https://apnews.com/article/f60744c07df969e50e9e69786fdb7de1",
+          "source": "AP",
+          "title": "South African-born jurist Navi Pillay wins Nobel Peace Prize for her work in international justice"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cm9wz5kng0x1o",
+          "source": "BBC",
+          "title": "Navi Pillay, former UN human rights chief, wins Nobel Peace Prize",
+          "publishedAt": "2026-10-09"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize",
+          "source": "The Guardian",
+          "title": "Navanethem ‘Navi’ Pillay wins Nobel peace prize",
+          "publishedAt": "2026-10-09"
+        },
+        {
+          "id": 3,
+          "url": "https://apnews.com/article/f60744c07df969e50e9e69786fdb7de1",
+          "source": "AP",
+          "title": "South African-born jurist Navi Pillay wins Nobel Peace Prize for her work in international justice",
+          "publishedAt": "2026-10-09"
+        }
+      ],
+      "tags": [
+        "Nobel Peace Prize",
+        "international law",
+        "United Nations"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "ethiopia-eritrea-border-tensions-ko",
+      "headline": "에티오피아, 병력 월경 뒤 에리트레아에 방어 경고",
+      "dek": "에리트레아군 이동 보도에 지역 분쟁 확대 우려가 다시 커졌습니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "BBC는 에리트레아군이 국경을 넘은 뒤 에티오피아가 자위하겠다고 경고했다고 보도했습니다. [1,2]",
+        "BBC와 DW는 병력 이동으로 지역 전쟁 우려가 커졌다고 전했습니다. [1,2]",
+        "인용한 보도만으로 병력 이동의 범위나 확전 가능성이 독립적으로 확인되지는 않습니다. [1,2]"
+      ],
+      "body": [
+        {
+          "text": "BBC는 에리트레아군이 국경을 넘은 뒤 에티오피아가 방어에 나설 것이라고 경고했다고 보도했습니다. DW도 병력 이동으로 지역 전쟁 우려가 커졌다고 전했습니다. [1,2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "당장의 관건은 보도가 추가 병력 배치나 긴장 완화를 위한 공식 대응으로 이어지는지입니다. 현재 보도만으로 광범위한 군사적 확전이 확인된 것은 아닙니다. [1,2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "에티오피아와 에리트레아의 긴장이 다시 높아지면 아프리카의 뿔 지역 안정에 영향을 줄 수 있습니다. 다만 현재 보도가 뒷받침하는 것은 우려이며 전쟁이 임박했다는 결론은 아닙니다.",
+      "editorNote": "병력 이동 주장은 인용한 보도에 귀속했으며 확전 여부는 불확실합니다.",
+      "cluster": [
+        {
+          "url": "https://www.dw.com/en/eritrean-troops-in-ethiopia-raise-fears-of-a-regional-war/a-79615065",
+          "source": "DW",
+          "title": "Eritrean troops in Ethiopia raise fears of a regional war"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c65ynvw250y1o",
+          "source": "BBC",
+          "title": "Ethiopia warns Eritrea it will defend itself after troops cross border",
+          "publishedAt": "2026-10-09"
+        },
+        {
+          "id": 2,
+          "url": "https://www.dw.com/en/eritrean-troops-in-ethiopia-raise-fears-of-a-regional-war/a-79615065",
+          "source": "DW",
+          "title": "Eritrean troops in Ethiopia raise fears of a regional war",
+          "publishedAt": "2026-10-09"
+        }
+      ],
+      "tags": [
+        "Ethiopia",
+        "Eritrea",
+        "Horn of Africa"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

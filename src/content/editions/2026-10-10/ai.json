@@ -1,0 +1,137 @@
+{
+  "date": "2026-10-10",
+  "generatedAt": "2026-10-10T01:20:55Z",
+  "vertical": "ai",
+  "lang": "en",
+  "title": "AI | October 10, 2026",
+  "summary": "Coverage was unusually narrow today: two developments met the source and significance bar. Ecosia is changing its model provider, while a new preprint examines how AI task-time horizons are estimated.",
+  "stories": [
+    {
+      "slug": "ecosia-switches-to-open-weight-models",
+      "headline": "Ecosia switches from Mistral to open-weight AI models including Qwen, GLM and Kimi",
+      "dek": "The search company is moving its AI features to models served through German platform Melious.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "Ecosia is replacing Mistral with a group of open-weight models accessed through German AI platform Melious, TechNode reports. [1]",
+        "CEO Christian Kroll said the change followed technical and quality concerns with Mistral; he described lower cost and energy use as goals. [1,2]",
+        "The reported cost reduction is the company’s claim, and the coverage gives no independent measurement of it. [1,2]"
+      ],
+      "body": [
+        {
+          "text": "Ecosia is replacing Mistral with open-weight models including Qwen, GLM and Kimi through Melious, according to TechNode’s report based on a Politico interview. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "In a separate interview, Ecosia CEO Christian Kroll said the move is about using open models and European-hosted inference. TechNode reports that Kroll said the change roughly halved costs; no independent cost data is provided in either report. [1,2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The change is a concrete buyer-side test of whether model choice, hosting location and operating costs can matter as much as a model vendor’s brand. The reported savings remain an attributed company claim.",
+      "editorNote": "Reported claims are attributed to Ecosia; cost savings have not been independently verified.",
+      "cluster": [
+        {
+          "url": "https://www.politico.eu/article/germany-ecosia-search-engine-mistral-china-open-source-ai/",
+          "source": "POLITICO",
+          "title": "Ecosia to replace Mistral with open-source AI models, including Chinese options"
+        },
+        {
+          "url": "https://www.explainx.ai/blog/ecosia-drops-mistral-open-weight-models-melious-politico-2026",
+          "source": "explainx.ai",
+          "title": "Ecosia Drops Mistral: Qwen, GLM, Kimi, Costs Halved?"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://technode.com/2026/10/09/ecosia-switches-from-mistral-to-open-weight-ai-models-including-qwen-glm-and-kimi/",
+          "source": "TechNode",
+          "title": "Ecosia switches from Mistral to open-weight AI models including Qwen, GLM and Kimi",
+          "publishedAt": "2026-10-09"
+        },
+        {
+          "id": 2,
+          "url": "https://www.eu-startups.com/2026/10/ecosia-founder-clarifies-move-away-from-mistral-its-about-open-models-not-china/",
+          "source": "EU-Startups",
+          "title": "EXCLUSIVE: Ecosia founder clarifies move away from Mistral – It’s about open models, not China",
+          "publishedAt": "2026-10-09"
+        }
+      ],
+      "tags": [
+        "open-weight",
+        "AI infrastructure",
+        "Ecosia"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "metr-time-horizon-estimates-need-diagnostics",
+      "headline": "On the estimation and validity of AI time horizons---a statistical look at the METR plot",
+      "dek": "A new preprint argues that estimates depend on how task difficulty is modeled.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "The authors re-estimate METR-style task horizons using spline and item-response models over 228 tasks and 26 AI systems. [1]",
+        "Their fitted relationship between human task time and AI difficulty is nearly flat from 2–30 minutes and closer to linear elsewhere. [1]",
+        "They recommend reading horizon estimates alongside diagnostic plots; the work is a preprint, not a settled revision of METR’s measure. [1,2]"
+      ],
+      "body": [
+        {
+          "text": "A preprint by Drew T. Nguyen and William Fithian recomputes task-time horizons for 26 AI systems on 228 tasks, using spline and item-response models to relax the assumption that task difficulty changes linearly with the logarithm of human completion time. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The authors report that their fitted curve is nearly flat across 2–30-minute tasks and close to linear elsewhere. They argue that the same multiplicative increase in a headline horizon can represent different changes in task difficulty, and recommend interpreting estimates with diagnostic plots. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "METR describes its horizon as a 50%-success threshold on tasks measured by human completion time and notes that its suite is concentrated in software engineering, machine learning and cybersecurity. [2]",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Task-horizon figures can look like a single capability scale, but their interpretation depends on task mix and statistical assumptions. The preprint makes those assumptions more visible without establishing a new consensus measure.",
+      "editorNote": "The statistical critique is an unreviewed preprint; METR’s own documentation is included for the definition and scope of its benchmark.",
+      "cluster": [
+        {
+          "url": "https://metr.org/time-horizons/",
+          "source": "METR",
+          "title": "Task-Completion Time Horizons of Frontier AI Models"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://arxiv.org/abs/2610.12466",
+          "source": "arXiv",
+          "title": "On the estimation and validity of AI time horizons---a statistical look at the METR plot",
+          "publishedAt": "2026-10-08"
+        },
+        {
+          "id": 2,
+          "url": "https://metr.org/time-horizons/",
+          "source": "METR",
+          "title": "Task-Completion Time Horizons of Frontier AI Models"
+        }
+      ],
+      "tags": [
+        "AI evaluation",
+        "benchmarks",
+        "research"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

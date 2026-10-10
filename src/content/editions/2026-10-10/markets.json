@@ -1,0 +1,202 @@
+{
+  "date": "2026-10-10",
+  "generatedAt": "2026-10-10T01:20:55Z",
+  "vertical": "markets",
+  "lang": "en",
+  "title": "Markets & Macro | October 10, 2026",
+  "summary": "Three developments had sufficient independent coverage: the Federal Reserve’s new household-finance survey, a SpaceX spectrum purchase that pressured telecom shares, and Delta’s lower profit outlook amid higher fuel costs. Market data and SEC collection endpoints had notable failures.",
+  "stories": [
+    {
+      "slug": "fed-2025-survey-household-finances",
+      "headline": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families",
+      "dek": "The triennial survey shows higher debt-payment stress alongside changes in income and wealth since 2022.",
+      "type": "DATA",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "The Federal Reserve published its 2025 Survey of Consumer Finances, with the dataset and report covering changes from 2022 to 2025. [1,2]",
+        "Reuters reported that the share of families whose debt payments equaled at least 40% of income rose from 6.5% to 8.6%, its highest level since 2013. [1,2]",
+        "The survey is a broad household snapshot; it does not describe every family’s experience or current conditions beyond its survey period. [1,2]"
+      ],
+      "body": [
+        {
+          "text": "The Federal Reserve released the 2025 Survey of Consumer Finances on October 9. It is a triennial survey, and the agency provides the report, public data and technical documentation. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Reuters reported that the share of families with debt payments at or above 40% of income increased to 8.6% from 6.5% in 2022, the highest reading since the 2013 survey. The survey compares household finances through 2025 and should be read as a distributional snapshot, not a real-time indicator. [2]",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The results put household balance-sheet stress alongside changes in wealth and income, helping frame how elevated costs and borrowing burdens are distributed. The data are backward-looking and do not imply a uniform household outlook.",
+      "editorNote": "This is descriptive economic reporting, not personal financial guidance. Survey results and thresholds are attributed to the Federal Reserve and Reuters.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/economy-news/fed-says-household-income-wealth-debt-stress-rose-from-2022-to-2025-4941348",
+          "source": "Reuters via Investing.com",
+          "title": "Fed says household income, wealth, debt stress rose from 2022 to 2025"
+        },
+        {
+          "url": "https://apnews.com/article/82ddd18744c3af21ff9084b4c7eb45b2",
+          "source": "AP",
+          "title": "Americans 75 and older are wealthiest age group, Fed survey finds"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
+          "source": "Federal Reserve",
+          "title": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families",
+          "publishedAt": "2026-10-09"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/economy-news/fed-says-household-income-wealth-debt-stress-rose-from-2022-to-2025-4941348",
+          "source": "Reuters",
+          "title": "Fed says household income, wealth, debt stress rose from 2022 to 2025",
+          "publishedAt": "2026-10-09"
+        }
+      ],
+      "tags": [
+        "Federal Reserve",
+        "household finances",
+        "survey"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "spacex-spectrum-deal-telecom-shares",
+      "headline": "Verizon posts worst day since 2002 as SpaceX U.S. network plans whack cell provider stocks",
+      "dek": "A spectrum acquisition sharpened investors’ focus on SpaceX’s plans to expand Starlink Mobile.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "SpaceX agreed to acquire Grain Management’s low-band spectrum portfolio, a move that could support a broader U.S. wireless offering. [1,2]",
+        "CNBC reported that Verizon had its worst day since 2002 as carrier shares fell; Reuters also reported declines across U.S. and European telecom stocks. [1,2]",
+        "The acquisition still requires regulatory approval, and the reports describe a prospective competitive threat rather than an operating mobile network. [1,2]"
+      ],
+      "body": [
+        {
+          "text": "CNBC reported that Verizon posted its worst day since 2002 after SpaceX’s U.S. network plans unsettled carrier shares. Reuters reported that SpaceX’s acquisition of low-band spectrum heightened competition concerns across U.S. and European telecom stocks. [1,2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The spectrum portfolio would support Starlink Mobile’s expansion into wireless service, but Reuters reported the acquisition as a competitive concern rather than a completed launch of a nationwide service. [2]",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The market reaction reflects expectations about a possible new competitor and the value of spectrum assets. It does not establish how quickly SpaceX could build service or how incumbent operators’ results will change.",
+      "editorNote": "No investment view is offered. Share moves and deal status are reported as described by CNBC and Reuters.",
+      "cluster": [
+        {
+          "url": "https://www.marketwatch.com/story/as-at-t-verizon-and-t-mobile-shares-fall-wall-street-assesses-the-growing-spacex-threat-e869ef9e",
+          "source": "MarketWatch",
+          "title": "As AT&T, Verizon and T-Mobile shares fall, Wall Street assesses the growing SpaceX threat"
+        },
+        {
+          "url": "https://www.axios.com/2026/10/09/spacex-8-billion-spectrum",
+          "source": "Axios",
+          "title": "SpaceX pens $8B spectrum deal"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/09/verizon-att-tmobile-stocks-spacex-network.html",
+          "source": "CNBC",
+          "title": "Verizon posts worst day since 2002 as SpaceX U.S. network plans whack cell provider stocks",
+          "publishedAt": "2026-10-09"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/stock-market-news/us-european-telecom-stocks-slide-as-spacex-spectrum-deal-rattles-sector-4940422",
+          "source": "Reuters",
+          "title": "US, European telecom stocks slide as SpaceX spectrum deal rattles sector",
+          "publishedAt": "2026-10-09"
+        }
+      ],
+      "tags": [
+        "telecommunications",
+        "SpaceX",
+        "spectrum"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "delta-cuts-profit-outlook-as-fuel-costs-rise",
+      "headline": "Delta Air Lines cuts 2026 forecast on fuel surge, but CEO says demand is still strong",
+      "dek": "Delta lowered its annual profit outlook as fuel costs rose faster than fares.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "Delta cut its 2026 profit forecast as higher fuel costs outpaced fare gains, according to CNBC and Reuters. [1,2]",
+        "The airline’s chief executive said travel demand remained strong, even as the fuel bill pressured the outlook. [1,2]",
+        "The reports describe a company-specific forecast revision; they do not establish the effect on other airlines. [1,2]"
+      ],
+      "body": [
+        {
+          "text": "Delta Air Lines reduced its 2026 profit outlook amid a surge in fuel costs. CNBC reported that the CEO continued to describe demand as strong; Reuters said fuel costs overwhelmed higher ticket prices and travel demand. [1,2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The update puts the gap between operating demand and input costs at the center of Delta’s near-term outlook. [1,2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Airline guidance provides a current read on how fuel-price volatility can affect earnings even when demand remains firm. It is evidence about Delta’s outlook, not a market-wide forecast.",
+      "editorNote": "Company outlook and demand characterization are attributed to Delta and the cited reporting; no trading guidance is offered.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/stock-market-news/delta-air-lines-cuts-profit-outlook-as-fuel-costs-outpace-fare-gains-4940704",
+          "source": "Reuters",
+          "title": "Delta Air Lines cuts profit outlook as fuel costs outpace fare gains"
+        },
+        {
+          "url": "https://www.axios.com/2026/10/09/delta-air-jet-fuel-6-billion",
+          "source": "Axios",
+          "title": "Delta expects fuel bill to rise $6 billion this year"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/09/delta-air-lines-dal-q3-2026-earnings.html",
+          "source": "CNBC",
+          "title": "Delta Air Lines cuts 2026 forecast on fuel surge, but CEO says demand is still strong",
+          "publishedAt": "2026-10-09"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/stock-market-news/delta-air-lines-cuts-profit-outlook-as-fuel-costs-outpace-fare-gains-4940704",
+          "source": "Reuters",
+          "title": "Delta Air Lines cuts profit outlook as fuel costs outpace fare gains",
+          "publishedAt": "2026-10-09"
+        }
+      ],
+      "tags": [
+        "Delta Air Lines",
+        "fuel costs",
+        "airlines"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

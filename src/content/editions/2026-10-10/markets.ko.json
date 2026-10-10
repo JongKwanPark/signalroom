@@ -1,0 +1,202 @@
+{
+  "date": "2026-10-10",
+  "generatedAt": "2026-10-10T01:20:55Z",
+  "vertical": "markets",
+  "lang": "ko",
+  "title": "시장·거시경제 | 2026년 10월 10일",
+  "summary": "연방준비제도의 가계 금융 조사, 통신주를 압박한 SpaceX의 주파수 매입, 연료비 상승에 따른 Delta의 이익 전망 하향 등 세 건을 추렸습니다. 시장 데이터 및 SEC 수집 경로에 문제가 있었습니다.",
+  "stories": [
+    {
+      "slug": "fed-2025-survey-household-finances-ko",
+      "headline": "연방준비제도, 2025년 미국 가계 금융 조사 결과 발표",
+      "dek": "2022년 이후 부채 상환 부담이 커진 가운데 소득과 자산 변화도 담았습니다.",
+      "type": "DATA",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "연방준비제도는 2022~2025년 변화를 담은 2025년 소비자금융조사 결과를 공개했습니다. [1,2]",
+        "Reuters에 따르면 소득 대비 부채 상환액이 40% 이상인 가구 비중은 6.5%에서 8.6%로 올라 2013년 조사 이후 가장 높았습니다. [1,2]",
+        "이 조사는 가계 전반을 보여주는 자료이며 모든 가구의 경험이나 조사 기간 이후의 현재 상황을 설명하지는 않습니다. [1,2]"
+      ],
+      "body": [
+        {
+          "text": "연방준비제도는 10월 9일 2025년 소비자금융조사를 발표했습니다. 이 조사는 3년마다 실시되며, 연방준비제도는 보고서와 공개 데이터 및 기술 문서를 제공합니다. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Reuters는 소득 대비 부채 상환 비율이 40% 이상인 가구의 비중이 2022년 6.5%에서 8.6%로 높아졌다고 보도했습니다. 이는 2013년 조사 이후 가장 높은 수치입니다. 2025년까지 가계 재정을 비교한 자료이므로 실시간 지표가 아니라 분포를 보여주는 조사로 읽어야 합니다. [2]",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "조사 결과는 자산과 소득 변화와 함께 가계 재정 부담이 어떻게 분포하는지 보여줍니다. 과거를 다룬 자료이므로 모든 가구의 전망이 같다는 뜻은 아닙니다.",
+      "editorNote": "경제 현황을 설명하는 기사이며 개인 금융 조언이 아닙니다. 조사 결과와 기준치는 연방준비제도와 Reuters 보도에 근거했습니다.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/economy-news/fed-says-household-income-wealth-debt-stress-rose-from-2022-to-2025-4941348",
+          "source": "Reuters via Investing.com",
+          "title": "Fed says household income, wealth, debt stress rose from 2022 to 2025"
+        },
+        {
+          "url": "https://apnews.com/article/82ddd18744c3af21ff9084b4c7eb45b2",
+          "source": "AP",
+          "title": "Americans 75 and older are wealthiest age group, Fed survey finds"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
+          "source": "Federal Reserve",
+          "title": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families",
+          "publishedAt": "2026-10-09"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/economy-news/fed-says-household-income-wealth-debt-stress-rose-from-2022-to-2025-4941348",
+          "source": "Reuters",
+          "title": "Fed says household income, wealth, debt stress rose from 2022 to 2025",
+          "publishedAt": "2026-10-09"
+        }
+      ],
+      "tags": [
+        "Federal Reserve",
+        "household finances",
+        "survey"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "spacex-spectrum-deal-telecom-shares-ko",
+      "headline": "SpaceX의 미국 통신망 계획에 Verizon 주가 2002년 이후 최대 하락",
+      "dek": "주파수 매입으로 Starlink Mobile 확장 계획에 시장의 관심이 쏠렸습니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "SpaceX는 Grain Management의 저대역 주파수 포트폴리오를 인수하기로 했으며, 이를 더 넓은 미국 무선 서비스에 활용할 수 있습니다. [1,2]",
+        "CNBC는 통신사 주가가 하락하는 가운데 Verizon이 2002년 이후 최악의 하루를 보냈다고 보도했습니다. Reuters도 미국과 유럽 통신주 하락을 전했습니다. [1,2]",
+        "이번 인수에는 규제 승인이 필요합니다. 보도는 실제 이동통신망이 이미 운영 중이라는 뜻이 아니라 잠재적 경쟁 위협을 다룹니다. [1,2]"
+      ],
+      "body": [
+        {
+          "text": "CNBC는 SpaceX의 미국 네트워크 계획으로 통신주가 흔들리며 Verizon이 2002년 이후 최악의 하루를 보냈다고 보도했습니다. Reuters는 SpaceX의 저대역 주파수 인수가 미국과 유럽 통신주 전반의 경쟁 우려를 키웠다고 전했습니다. [1,2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "주파수 포트폴리오는 Starlink Mobile이 무선 서비스로 확장하는 데 쓰일 수 있습니다. 다만 Reuters 보도는 이를 경쟁 우려로 다뤘으며, 전국 단위 서비스의 실제 출범을 확인하지 않았습니다. [2]",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "시장 반응은 새로운 경쟁자의 등장 가능성과 주파수 자산의 가치에 대한 기대를 반영합니다. SpaceX가 얼마나 빠르게 서비스를 구축할지, 기존 사업자 실적이 어떻게 바뀔지는 아직 확정되지 않았습니다.",
+      "editorNote": "투자 판단은 제시하지 않았습니다. 주가 움직임과 거래 진행 상황은 CNBC와 Reuters 보도에 근거합니다.",
+      "cluster": [
+        {
+          "url": "https://www.marketwatch.com/story/as-at-t-verizon-and-t-mobile-shares-fall-wall-street-assesses-the-growing-spacex-threat-e869ef9e",
+          "source": "MarketWatch",
+          "title": "As AT&T, Verizon and T-Mobile shares fall, Wall Street assesses the growing SpaceX threat"
+        },
+        {
+          "url": "https://www.axios.com/2026/10/09/spacex-8-billion-spectrum",
+          "source": "Axios",
+          "title": "SpaceX pens $8B spectrum deal"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/09/verizon-att-tmobile-stocks-spacex-network.html",
+          "source": "CNBC",
+          "title": "Verizon posts worst day since 2002 as SpaceX U.S. network plans whack cell provider stocks",
+          "publishedAt": "2026-10-09"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/stock-market-news/us-european-telecom-stocks-slide-as-spacex-spectrum-deal-rattles-sector-4940422",
+          "source": "Reuters",
+          "title": "US, European telecom stocks slide as SpaceX spectrum deal rattles sector",
+          "publishedAt": "2026-10-09"
+        }
+      ],
+      "tags": [
+        "telecommunications",
+        "SpaceX",
+        "spectrum"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "delta-cuts-profit-outlook-as-fuel-costs-rise-ko",
+      "headline": "Delta Air Lines, 연료 급등에 2026년 전망 하향…CEO는 수요 강세 언급",
+      "dek": "연료비가 운임 상승을 앞지르자 Delta가 연간 이익 전망을 낮췄습니다.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "CNBC와 Reuters에 따르면 Delta는 연료비 상승으로 2026년 이익 전망을 낮췄습니다. [1,2]",
+        "연료비가 전망에 부담을 주는 가운데 회사 최고경영자는 여행 수요가 여전히 강하다고 밝혔습니다. [1,2]",
+        "보도는 한 기업의 전망 조정을 다루며 다른 항공사에 미치는 영향까지 입증하지는 않습니다. [1,2]"
+      ],
+      "body": [
+        {
+          "text": "Delta Air Lines는 연료비 급등으로 2026년 이익 전망을 낮췄습니다. CNBC는 CEO가 수요는 여전히 강하다고 말했다고 보도했고, Reuters는 연료비가 운임 상승과 여행 수요를 압도했다고 전했습니다. [1,2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이번 업데이트는 견조한 수요와 투입 비용 사이의 격차를 Delta의 단기 전망에서 핵심 변수로 부각했습니다. [1,2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "항공사 실적 전망은 수요가 견조해도 연료 가격 변동이 수익에 영향을 줄 수 있음을 보여줍니다. 이는 Delta의 전망에 관한 근거이지 시장 전체의 예측은 아닙니다.",
+      "editorNote": "회사 전망과 수요 평가는 Delta와 인용한 보도에 귀속했습니다. 매매 지침은 제시하지 않았습니다.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/stock-market-news/delta-air-lines-cuts-profit-outlook-as-fuel-costs-outpace-fare-gains-4940704",
+          "source": "Reuters",
+          "title": "Delta Air Lines cuts profit outlook as fuel costs outpace fare gains"
+        },
+        {
+          "url": "https://www.axios.com/2026/10/09/delta-air-jet-fuel-6-billion",
+          "source": "Axios",
+          "title": "Delta expects fuel bill to rise $6 billion this year"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/09/delta-air-lines-dal-q3-2026-earnings.html",
+          "source": "CNBC",
+          "title": "Delta Air Lines cuts 2026 forecast on fuel surge, but CEO says demand is still strong",
+          "publishedAt": "2026-10-09"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/stock-market-news/delta-air-lines-cuts-profit-outlook-as-fuel-costs-outpace-fare-gains-4940704",
+          "source": "Reuters",
+          "title": "Delta Air Lines cuts profit outlook as fuel costs outpace fare gains",
+          "publishedAt": "2026-10-09"
+        }
+      ],
+      "tags": [
+        "Delta Air Lines",
+        "fuel costs",
+        "airlines"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "date": "2026-10-10",
+  "generatedAt": "2026-10-10T01:20:55Z",
+  "vertical": "bio",
+  "lang": "ko",
+  "title": "바이오 | 2026년 10월 10일",
+  "summary": "조용한 날이어서 FDA의 종양학 승인 1건과 연구 보도 2건을 추렸습니다. 통증 연구의 결과는 생쥐 실험에서 나왔고, 배아 계보 추적 기술은 임상 적용이 아닌 연구 도구입니다.",
+  "stories": [
+    {
+      "slug": "fda-atezolizumab-stage-iii-dmmr-colon-cancer-ko",
+      "headline": "FDA, 3기 불일치 복구 결핍 대장암에 화학요법 병용 아테졸리주맙 승인",
+      "dek": "이번 승인은 2세 이상 환자의 수술 후 보조 치료를 대상으로 합니다.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 2,
+      "tldr": [
+        "FDA는 2세 이상 3기 불일치 복구 결핍 대장암 환자의 수술 후 보조 치료로 플루오로피리미딘·옥살리플라틴과 병용하는 아테졸리주맙을 승인했습니다. [1,2]",
+        "FDA는 체중 40kg 이상인 12세 이상 환자에게 히알루로니다아제-tqjs 병용 피하 제형도 승인했습니다. [1]",
+        "이번 결정은 허가 범위를 추가하지만, 발표만으로 모든 환자군의 치료 결과가 확정되는 것은 아닙니다. [1,2]"
+      ],
+      "body": [
+        {
+          "text": "FDA는 10월 8일 2세 이상 성인 및 소아의 3기 불일치 복구 결핍 대장암에 대해 플루오로피리미딘 및 옥살리플라틴과 병용하는 아테졸리주맙을 수술 후 보조 치료로 승인했습니다. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "FDA는 체중 40kg 이상인 12세 이상 환자에 대해 아테졸리주맙과 히알루로니다아제-tqjs 병용 요법도 승인했습니다. Fierce Pharma는 ATOMIC 임상시험이 승인 근거였다고 별도로 보도했습니다. [1,2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 결정은 특정 수술 후 암 치료에서 기존 면역치료 병용요법의 허가 범위를 넓혔습니다. 규제상 주요 단계이며 개인별 치료 지침은 아닙니다.",
+      "editorNote": "승인 범위는 FDA 발표를 따랐습니다. 치료 권고는 포함하지 않았습니다.",
+      "cluster": [
+        {
+          "url": "https://www.fiercepharma.com/pharma/fierce-pharma-regulatory-tracker-2026-h2",
+          "source": "Fierce Pharma",
+          "title": "Regulatory tracker: J&J, Ono, LIB Therapeutics gain approvals"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications",
+          "source": "FDA",
+          "title": "FDA approves atezolizumab in combination with chemotherapy for Stage III mismatch repair deficient colon cancer",
+          "publishedAt": "2026-10-08"
+        },
+        {
+          "id": 2,
+          "url": "https://www.fiercepharma.com/pharma/fierce-pharma-regulatory-tracker-2026-h2",
+          "source": "Fierce Pharma",
+          "title": "Regulatory tracker: J&J, Ono, LIB Therapeutics gain approvals",
+          "publishedAt": "2026-10-09"
+        }
+      ],
+      "tags": [
+        "FDA",
+        "oncology",
+        "atezolizumab"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "nerve-cell-scaffold-chronic-pain-mice-ko",
+      "headline": "신경세포 골격을 분해하자 생쥐의 만성 통증 완화",
+      "dek": "신경 손상 뒤 통증 신호를 지속시키는 세포 구조를 보여주는 생쥐 연구입니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "Nature는 신경 손상 생쥐에서 지속적으로 활성화된 뉴런과 관련된 세포 구조를 방해하자 만성 통증 행동이 줄었다고 보도했습니다. [1,2]",
+        "결과는 전임상 연구이며 사람에게서의 안전성이나 효과를 입증하지 않습니다. [1,2]",
+        "이번 연구는 통증 생물학의 후속 연구 방향을 제시할 수 있지만 임상에서 사용할 치료법은 아닙니다. [1]"
+      ],
+      "body": [
+        {
+          "text": "Nature의 연구 해설은 신경 손상 뒤 통증 신호를 증폭하는 세포 기전을 방해했을 때 생쥐의 만성 통증이 완화됐다고 설명합니다. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Nature는 Powell 연구진의 2026년 Cell Reports Medicine 논문을 인용했습니다. 보고된 근거는 동물 연구에서 나왔으며 사람에게도 효과가 있다고 보여주지는 않습니다. [1,2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이 연구는 세포 기전과 지속성 통증 행동을 연결해 추가 전임상 연구의 방향을 제시할 수 있습니다. 생쥐 연구에 한정된 근거라는 점이 임상적 해석의 경계입니다.",
+      "editorNote": "결과는 생쥐에서만 확인된 전임상 연구이며, 임상적 관련성은 아직 알 수 없습니다.",
+      "cluster": [
+        {
+          "url": "https://doi.org/10.1016/j.xcrm.2026.103090",
+          "source": "Cell Reports Medicine",
+          "title": "Cell Reports Medicine study cited by Nature (DOI 10.1016/j.xcrm.2026.103090)"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.nature.com/articles/d41586-026-03159-z",
+          "source": "Nature",
+          "title": "Breaking down nerve-cell scaffold relieves chronic pain in mice",
+          "publishedAt": "2026-10-09"
+        },
+        {
+          "id": 2,
+          "url": "https://doi.org/10.1016/j.xcrm.2026.103090",
+          "source": "Cell Reports Medicine",
+          "title": "Powell et al., Cell Reports Medicine (2026), article 103090",
+          "publishedAt": "2026"
+        }
+      ],
+      "tags": [
+        "pain research",
+        "preclinical",
+        "neuroscience"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "mouse-embryo-cell-lineage-recording-ko",
+      "headline": "생쥐 배아 발달을 세밀하게 추적한 세포 계보 기록 기술",
+      "dek": "두 연구팀이 유전자 편집 기반 기록 장치로 생쥐 배아 발달 과정의 세포 계보를 재구성했습니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "두 연구팀이 생쥐 배아 발달 중 세포 분열을 기록하는 유전자 편집 기반 연구 결과를 발표했습니다. [1,2,3]",
+        "한 연구팀은 2주 된 배아에서 편집된 세포 130만 개의 관계를 재구성했으며, 이는 전체 세포의 약 10%입니다. [1,2]",
+        "이 기술은 발달 연구를 위한 도구입니다. 완전한 디지털 생쥐나 인공 생쥐를 만든 연구는 아닙니다. [1]"
+      ],
+      "body": [
+        {
+          "text": "Nature 보도에 따르면 Science와 Cell에 독립적인 두 연구팀의 세포 계보 기록 연구가 발표됐습니다. 연구팀은 프라임 편집을 이용해 생쥐 배아 발달 이력을 추적했습니다. [1,2,3]",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Science 연구팀은 2주 된 배아에서 편집된 세포 130만 개의 관계를 재구성했습니다. Nature는 이를 배아 전체 세포의 약 10%라고 보도했습니다. 별도의 Cell 연구는 장기가 형성되는 동안 세포 분열의 대부분을 기록했습니다. [1,2,3]",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "세포 계보 기록 기술은 수정란 하나에서 포유류 조직이 형성되는 과정을 연구하는 데 도움을 줄 수 있습니다. 기초 연구 도구의 발전이며 임상 기술은 아닙니다.",
+      "editorNote": "보도는 생쥐 배아 실험을 설명합니다. 사람 배아 연구로 해석하지 않도록 했습니다.",
+      "cluster": [
+        {
+          "url": "https://doi.org/10.1126/science.ael0508",
+          "source": "Science",
+          "title": "Yu et al., Science (2026), DOI 10.1126/science.ael0508"
+        },
+        {
+          "url": "https://doi.org/10.1016/j.cell.2026.09.050",
+          "source": "Cell",
+          "title": "Colgan et al., Cell (2026), DOI 10.1016/j.cell.2026.09.050"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.nature.com/articles/d41586-026-03193-x",
+          "source": "Nature",
+          "title": "How to build a mouse: embryo development captured in stunning detail",
+          "publishedAt": "2026-10-08"
+        },
+        {
+          "id": 2,
+          "url": "https://doi.org/10.1126/science.ael0508",
+          "source": "Science",
+          "title": "Yu et al., Science (2026), DOI 10.1126/science.ael0508",
+          "publishedAt": "2026"
+        },
+        {
+          "id": 3,
+          "url": "https://doi.org/10.1016/j.cell.2026.09.050",
+          "source": "Cell",
+          "title": "Colgan et al., Cell (2026), DOI 10.1016/j.cell.2026.09.050",
+          "publishedAt": "2026"
+        }
+      ],
+      "tags": [
+        "developmental biology",
+        "gene editing",
+        "research tools"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}
