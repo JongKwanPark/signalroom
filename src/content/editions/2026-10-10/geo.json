@@ -1,10 +1,10 @@
 {
   "date": "2026-10-10",
-  "generatedAt": "2026-10-10T19:02:26+09:00",
+  "generatedAt": "2026-10-10T23:50:00+09:00",
   "vertical": "geo",
   "lang": "en",
   "title": "Geopolitics & Security | October 10, 2026",
-  "summary": "Five developments shaped the day’s coverage: a Russian diesel arrangement, new U.S. sanctions on the ICC, a major Panama earthquake, Navi Pillay’s Nobel Peace Prize, and renewed Ethiopia–Eritrea tensions. The collection had notable gaps in ReliefWeb, ISW and Polymarket feeds; no additional item met the independent-source and editorial bar.",
+  "summary": "Eight developments are in today's geopolitics edition. The morning five remain: a Russian diesel arrangement, U.S. sanctions on the ICC, the Panama earthquake, Navi Pillay's Nobel Peace Prize, and Ethiopia–Eritrea tensions. This pass adds the Delhi protest detentions, a guilty verdict in the killing of two Australian surfers and their American friend in Mexico, and a Peruvian mayoral result. ReliefWeb, ISW and Polymarket were still missing. Hurricane Isaias and the Norway Nobel criticism appeared in only one outlet in this collection and were not added.",
   "stories": [
     {
       "slug": "us-russia-diesel-deal-sanctions-shift",
@@ -333,6 +333,229 @@
         "Horn of Africa"
       ],
       "confidence": "medium"
+    },
+    {
+      "slug": "delhi-cockroach-protest-leaders-detained",
+      "headline": "'Cockroach' group leaders among hundreds detained in Delhi protest",
+      "dek": "BBC, Al Jazeera and Deutsche Welle describe a security lockdown in New Delhi ahead of protests aimed at India’s election chief.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 5,
+      "tldr": [
+        "The BBC reported that leaders of a group it identified as Cockroach were among hundreds detained, with tens of thousands of security personnel deployed and roads barricaded. [1]",
+        "Al Jazeera reported that the police crackdown appears to have stopped mass protests against India’s election chief from taking place. [2]",
+        "Deutsche Welle described New Delhi as locked down, with train and metro cancellations, ahead of Saturday protests against the head of the election body. [3]"
+      ],
+      "body": [
+        {
+          "text": "The BBC’s headline says leaders of a group called Cockroach were among hundreds detained around a Delhi protest. Its account adds that tens of thousands of security personnel were deployed and that roads were barricaded before the demonstration. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Al Jazeera reported that India’s Cockroach leaders were detained and that New Delhi was in lockdown. It said the police crackdown appears to have prevented mass protests against the country’s election chief from going ahead. [2]",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "Deutsche Welle described the capital as a fortress: train and metro services cancelled, barricades up, and a heavy police presence ahead of Saturday’s planned protests against the chief of India’s electoral body. The three outlets are describing the same planned demonstration and the same policing response. [3]",
+          "citations": [
+            3
+          ]
+        },
+        {
+          "text": "What the reports agree on is the detention of people identified with that group, a large security deployment, and a protest directed at the election authorities. They do not, in the text used here, establish how many people remain in custody or what charges, if any, have been filed. [1,2,3]",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "A capital-city lockdown around a protest aimed at the election authority is a fact about how India is policing political opposition this weekend, whoever the group’s nickname refers to.",
+      "editorNote": "The nickname Cockroach is the outlets’ label for the group, kept in their wording. Arrest counts beyond “hundreds” in the BBC headline are not added.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown",
+          "source": "Al Jazeera",
+          "title": "India’s ‘Cockroach’ leaders detained; New Delhi in lockdown"
+        },
+        {
+          "url": "https://www.dw.com/en/india-s-cockroaches-vs-election-commission-what-you-need-to-know-ahead-of-cjp-s-october-10-protests/a-79608760",
+          "source": "Deutsche Welle",
+          "title": "India's 'cockroaches' vs Election Commission: What you need to know ahead of CJP's October 10 protests"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c65yn7xvde7vo",
+          "source": "BBC",
+          "title": "'Cockroach' group leaders among hundreds detained in Delhi protest",
+          "publishedAt": "2026-10-10"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown",
+          "source": "Al Jazeera",
+          "title": "India’s ‘Cockroach’ leaders detained; New Delhi in lockdown",
+          "publishedAt": "2026-10-10"
+        },
+        {
+          "id": 3,
+          "url": "https://www.dw.com/en/india-s-cockroaches-vs-election-commission-what-you-need-to-know-ahead-of-cjp-s-october-10-protests/a-79608760",
+          "source": "Deutsche Welle",
+          "title": "India's 'cockroaches' vs Election Commission: What you need to know ahead of CJP's October 10 protests",
+          "publishedAt": "2026-10-10"
+        }
+      ],
+      "tags": [
+        "India",
+        "protests"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "mexico-surfers-murder-guilty-verdict",
+      "headline": "Three men found guilty of murders of Australian surfer brothers and US friend in Mexico",
+      "dek": "Jake and Callum Robinson and their friend Carter Rhoad were killed on a 2024 surfing trip. Three men have now been found guilty.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 5,
+      "tldr": [
+        "The Guardian reported that three men were found guilty of murdering Australian brothers Jake and Callum Robinson and their American friend Carter Rhoad. [1]",
+        "The Guardian gave their ages as 30, 33 and 30, and said they were killed on a surfing trip in 2024. [1]",
+        "The BBC described the killing as an apparent botched robbery during that surf trip. [2]"
+      ],
+      "body": [
+        {
+          "text": "The Guardian reported that three men were found guilty of the murders of Australian brothers Jake and Callum Robinson and their American friend Carter Rhoad. The headline is a verdict, not a new disappearance. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The same report identifies the victims as Jake Robinson, 30, Callum Robinson, 33, and Carter Rhoad, 30, and says they were killed on a surfing trip in 2024. Those ages and the year are the Guardian’s. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The BBC’s account of the same case says the three were on a surf trip and were killed in what it calls an apparent botched robbery. The phrase is the BBC’s characterization of the motive as it stands in that report. [2]",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "The two outlets agree on the victims, the setting and the guilty verdict against three men. They do not, in the passages used here, name the sentences or describe the trial evidence. Those details stay out of this brief until a report states them. [1,2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The verdict closes the question of guilt in a killing that drew attention in Australia, the United States and Mexico. The punishment is a separate, later fact.",
+      "editorNote": "Ages and the 2024 date are from The Guardian. The botched-robbery wording is the BBC’s.",
+      "cluster": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cj5ynwnye009o",
+          "source": "BBC",
+          "title": "Three men found guilty of murdering Australian brothers and US friend in Mexico"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.theguardian.com/world/2026/oct/10/jake-callum-robinson-australian-surfers-carter-rhoad-mexico-murder-guilty-verdict-ntwnfb",
+          "source": "The Guardian",
+          "title": "Three men found guilty of murders of Australian surfer brothers and US friend in Mexico",
+          "publishedAt": "2026-10-10"
+        },
+        {
+          "id": 2,
+          "url": "https://www.bbc.co.uk/news/articles/cj5ynwnye009o",
+          "source": "BBC",
+          "title": "Three men found guilty of murdering Australian brothers and US friend in Mexico",
+          "publishedAt": "2026-10-10"
+        }
+      ],
+      "tags": [
+        "Mexico",
+        "courts"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "peru-mayor-hitler-mussolini-simeon-flores",
+      "headline": "Candidate named Hitler Mussolini elected mayor in Peru",
+      "dek": "The Guardian identifies him as left-wing candidate Hitler Mussolini Simeon Flores, who defeated a far-right opponent in a remote Andean district.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 5,
+      "tldr": [
+        "The Guardian reported that a candidate named Hitler Mussolini Simeon Flores was elected mayor in a remote district of the Peruvian Andes. [1]",
+        "The Guardian described him as a left-wing candidate who beat a far-right opponent. [1]",
+        "The BBC also reported the win and said exit polls showed a narrow victory for the left-wing candidate. The two descriptions of how final the count is are not identical. [2]"
+      ],
+      "body": [
+        {
+          "text": "The Guardian’s headline says a candidate named Hitler Mussolini was elected mayor in Peru. The article identifies him as Hitler Mussolini Simeon Flores and says he won in a remote district in the Andes. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The Guardian describes the winner as a left-wing candidate who beat a far-right opponent. That political placement is the paper’s. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The BBC headline also says a man named Hitler Mussolini was elected mayor in Peru. Its description says the left-wing candidate won a narrow victory in a remote Andean district and attributes that reading to exit polls. [2]",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "Both outlets report an election result for a candidate with that name. The BBC’s reference to exit polls is a reason to treat the margin, and any last official tally, as still worth checking against a final electoral notice. The name and the district setting are not in dispute between the two reports. [1,2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The result is a local Andean election, reported internationally because of the candidate’s name and the left-versus-far-right framing.",
+      "editorNote": "The full name and the left-wing versus far-right description come from The Guardian. The BBC description cites exit polls for a narrow win.",
+      "cluster": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cmdxwn9dr42yo",
+          "source": "BBC",
+          "title": "Man named Hitler Mussolini elected mayor in Peru"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.theguardian.com/world/2026/oct/10/peru-election-hitler-mussolini-simeon-flores-mayor",
+          "source": "The Guardian",
+          "title": "Candidate named Hitler Mussolini elected mayor in Peru",
+          "publishedAt": "2026-10-10"
+        },
+        {
+          "id": 2,
+          "url": "https://www.bbc.co.uk/news/articles/cmdxwn9dr42yo",
+          "source": "BBC",
+          "title": "Man named Hitler Mussolini elected mayor in Peru",
+          "publishedAt": "2026-10-10"
+        }
+      ],
+      "tags": [
+        "Peru",
+        "elections"
+      ],
+      "confidence": "high"
     }
   ]
 }

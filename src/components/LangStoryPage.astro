@@ -14,6 +14,7 @@ import {
   storyHref,
   timeLabel,
   verticalHref,
+  primarySource,
   sourceCount,
   type Lang,
   type StoryRef,
@@ -39,6 +40,7 @@ const modifiedTime = ref.kind === 'article' ? (ref.updatedAt ?? ref.publishedAt)
 
 const sourcesById = new Map(story.sources.map((source) => [source.id, source]));
 const orderedSources = [...story.sources].sort((a, b) => a.id - b.id);
+const leadSource = ref.kind === 'edition' ? primarySource(story) : undefined;
 
 const editions = ref.kind === 'edition' ? await getEditions() : [];
 const edition = editions.find((entry) => entry.id === ref.editionId);
@@ -106,7 +108,11 @@ function hostname(url: string): string {
 
       </div>
 
-      <h1 style={`view-transition-name: story-${ref.slug}`}>{story.headline}</h1>
+      <h1 style={`view-transition-name: story-${ref.slug}`}>
+        {leadSource ? (
+          <a href={leadSource.url} target="_blank" rel="noopener noreferrer nofollow">{story.headline}</a>
+        ) : story.headline}
+      </h1>
       {story.dek && <p class="sr-story__dek">{story.dek}</p>}
     </header>
 

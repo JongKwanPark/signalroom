@@ -39,7 +39,7 @@ npm run build            # static build + PNG OG cards -> dist/
 npm run preview          # serve the production build
 npm run check            # astro check (types + Astro diagnostics)
 npm test                 # node --test (dedup + publish validation)
-npm run pipeline:collect -- --vertical all --date "$(date -u +%F)"
+npm run pipeline:collect -- --vertical all --date "$(TZ=Asia/Seoul date +%F)"
 npm run pipeline:synth   -- --date 2026-09-20 --vertical ai
 npx tsx scripts/validate.ts src/content/editions
 ```
@@ -48,7 +48,9 @@ Node 24 (see `.nvmrc`). Copy `.env.example` to `.env` for pipeline runs.
 
 ## Automation
 
-The active Paseo schedules run at **07:00 and 19:00 Asia/Seoul**. Each run collects and drafts
+The active Paseo schedules run at **07:00 and 19:00 Asia/Seoul**. The edition date is the
+Asia/Seoul calendar date, so the 07:00 run opens that day's edition and the 19:00 run merges into it.
+Each run collects and drafts
 English and Korean editions for `ai`, `bio`, `geo` and `markets`, runs the editorial and schema
 checks, builds the site, commits and pushes the checked output, then deploys to Vercel production.
 The two new site categories are manual-only; the automated collection target remains those four.

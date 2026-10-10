@@ -1,10 +1,10 @@
 {
   "date": "2026-10-10",
-  "generatedAt": "2026-10-10T19:02:26+09:00",
+  "generatedAt": "2026-10-10T23:50:00+09:00",
   "vertical": "markets",
   "lang": "en",
   "title": "Markets & Macro | October 10, 2026",
-  "summary": "Three developments had sufficient independent coverage: the Federal Reserve’s new household-finance survey, a SpaceX spectrum purchase that pressured telecom shares, and Delta’s lower profit outlook amid higher fuel costs. Market data and SEC collection endpoints had notable failures; no additional item met the independent-source and editorial bar.",
+  "summary": "Three developments stay in today's markets edition: the Federal Reserve's household-finance survey, a SpaceX spectrum purchase that pressured telecom shares, and Delta's lower profit outlook as fuel costs rose. This pass did not add stories. Reddit returned unscored discussion threads, and the wire items that were new did not have a second outlet. SEC EDGAR, market-data and Polymarket collection failed.",
   "stories": [
     {
       "slug": "fed-2025-survey-household-finances",

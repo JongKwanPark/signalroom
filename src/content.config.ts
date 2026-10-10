@@ -52,7 +52,7 @@ const editions = defineCollection({
     lang: z.enum(['ko', 'en']),
     title: z.string().min(1),
     summary: z.string().min(1),
-    stories: z.array(story).min(1).max(8),
+    stories: z.array(story).min(1).max(12),
   }),
 });
 

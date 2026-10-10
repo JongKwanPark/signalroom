@@ -1,10 +1,10 @@
 {
   "date": "2026-10-10",
-  "generatedAt": "2026-10-10T19:02:26+09:00",
+  "generatedAt": "2026-10-10T23:50:00+09:00",
   "vertical": "bio",
   "lang": "en",
   "title": "Bio | October 10, 2026",
-  "summary": "Three well-sourced developments stood out in a thin day: an FDA oncology approval and two research reports. The pain finding is from mice, and the embryo lineage work is a research tool rather than a clinical application. No additional collected item met the independent-source and editorial bar.",
+  "summary": "Four developments are in today's bio edition: an FDA oncology approval, two research reports, and a $1.8 billion commitment to open biological data for AI models. The pain finding is from mice, and the embryo lineage work is a research tool rather than a clinical application. Most other collected papers were single-host records and were not added.",
   "stories": [
     {
       "slug": "fda-atezolizumab-stage-iii-dmmr-colon-cancer",
@@ -195,6 +195,76 @@
         "developmental biology",
         "gene editing",
         "research tools"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "biohub-ai-ready-biology-data-commitment",
+      "headline": "AI-ready biological data: $1.8 billion global commitment",
+      "dek": "Biohub, the U.S. Department of Energy, the NIH and other partners say they will build open data for models that predict how cells respond.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 5,
+      "tldr": [
+        "Biohub says an international group, including the Department of Energy and the NIH, has committed $1.8 billion toward AI-ready biological data. [1]",
+        "The stated aim is open, standardized data for models that predict how cells respond to interventions. [1]",
+        "The Department of Energy’s share is described as more than $500 million over five years. The figure is the organizers’ announcement, not a completed spend. [1]"
+      ],
+      "body": [
+        {
+          "text": "Biohub’s news post announces what it calls a $1.8 billion global commitment to AI-ready biological data. The partners named in the post include Biohub, the U.S. Department of Energy, the NIH and others. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The stated purpose is to generate open, standardized data that can train AI models to predict how cells respond to interventions. That is a data-infrastructure claim. It is not a claim that such a model already works in the clinic. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The post says the Department of Energy will invest more than $500 million over five years in lab measurement, modeling and computation toward that shared resource, and that the NIH will coordinate contributions. Both are descriptions of intended roles in the announcement. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The announcement was discussed on Hacker News. A commitment is not the same thing as data already released or a model already validated. Readers should treat the dollar figures as what the organizers say they will put in, and wait for the datasets before treating the scientific goal as achieved. [1,2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Biology models are limited by the kind of data they can train on. A funded plan for open cellular data is a concrete input to that limit, if the data actually appears.",
+      "editorNote": "No medical advice. Dollar figures and partner roles are from Biohub’s announcement. Spending has not been independently audited here.",
+      "cluster": [
+        {
+          "url": "https://news.ycombinator.com/item?id=50011999",
+          "source": "Hacker News",
+          "title": "AI-ready biological data: $1.8B global commitment"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://biohub.org/news/virtual-biology-initiative-expansion/",
+          "source": "Biohub",
+          "title": "AI-ready biological data: $1.8 billion global commitment",
+          "publishedAt": "2026-10-07"
+        },
+        {
+          "id": 2,
+          "url": "https://news.ycombinator.com/item?id=50011999",
+          "source": "Hacker News",
+          "title": "AI-ready biological data: $1.8B global commitment",
+          "publishedAt": "2026-10-07"
+        }
+      ],
+      "tags": [
+        "open data",
+        "cell biology"
       ],
       "confidence": "medium"
     }

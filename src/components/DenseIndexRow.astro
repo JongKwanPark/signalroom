@@ -1,6 +1,6 @@
 ---
 import type { StoryRef } from '../lib/editions';
-import { sourceCount, timeLabel, verticalHref } from '../lib/editions';
+import { outboundHref, sourceCount, timeLabel, verticalHref } from '../lib/editions';
 import { VERTICAL_META } from '../lib/site';
 import { formatDateShort, joinMeta, pluralize } from '../lib/format';
 import TypeBadge from './TypeBadge.astro';
@@ -15,6 +15,8 @@ interface Props {
 
 const { ref, showDek = true, showDate = false, showType = true, transitionName = true } = Astro.props;
 const { story, vertical } = ref;
+const sourceHref = outboundHref(ref);
+const opensSource = sourceHref !== ref.href;
 
 const meta = joinMeta([
   timeLabel(ref.generatedAt),
@@ -25,7 +27,13 @@ const meta = joinMeta([
 ---
 
 <article class="sr-row" data-vertical={vertical}>
-  <a class="sr-row__link" href={ref.href} data-nav-item>
+  <a
+    class="sr-row__link"
+    href={sourceHref}
+    data-nav-item
+    target={opensSource ? '_blank' : undefined}
+    rel={opensSource ? 'noopener noreferrer nofollow' : undefined}
+  >
     <span class="sr-row__meta sr-micro">
       <span class="sr-vchip" data-vertical={vertical}>{VERTICAL_META[vertical].label}</span>
       <span>{meta}{ref.kind === 'edition' && story.confidence !== 'high' && ` · confidence ${story.confidence}`}</span>
@@ -35,6 +43,9 @@ const meta = joinMeta([
   </a>
   <span class="sr-row__aside sr-micro">
     {showType && <TypeBadge type={story.type} />}
+    {opensSource && (
+      <a class="sr-row__vlink" href={ref.href}>{ref.lang === 'ko' ? '정리' : 'Brief'}</a>
+    )}
     <a class="sr-row__vlink" href={verticalHref(vertical, ref.lang)} aria-label={`All ${VERTICAL_META[vertical].name} stories`}>
       {VERTICAL_META[vertical].label} feed
     </a>

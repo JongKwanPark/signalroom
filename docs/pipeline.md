@@ -71,7 +71,7 @@ JSON merge flow. Their metadata contract is owned by `src/content.config.ts` and
 
 ```bash
 npx tsx scripts/collect.ts --vertical ai --date 2026-09-20 --dry-run
-npx tsx scripts/collect.ts --vertical all --date $(date -u +%F)
+npx tsx scripts/collect.ts --vertical all --date $(TZ=Asia/Seoul date +%F)
 npx tsx scripts/synth.ts --date 2026-09-20 --vertical ai --provider gemini
 npx tsx scripts/synth.ts --date 2026-09-20 --vertical ai --input-json draft.json
 npx tsx scripts/validate.ts src/content/editions
@@ -117,8 +117,8 @@ Production env, so canonicals, sitemap, RSS and OG URLs use the custom domain.
 - Every published story needs >= 2 distinct sources and a citation set that
   fully resolves; the editor pass sets `confidence`.
 - Daily volume follows the editorial quotas in
-  [docs/editorial-guide.md](editorial-guide.md): a **12–24 stories/day band** and
-  **3–6 per active vertical**, with equal per-vertical counts never forced.
+  [docs/editorial-guide.md](editorial-guide.md): about **40 stories/day** and
+  **about 10 per active vertical** (schema cap 12), with equal per-vertical counts never forced.
 - Quiet verticals are skipped, never padded: log `quiet: <vertical>` in the
   daily log or commit message (docs/editorial-guide.md §4-3).
 - One core signal per day: a single cross-vertical lead whose `whyItMatters`
@@ -131,7 +131,10 @@ Production env, so canonicals, sitemap, RSS and OG URLs use the custom domain.
 ## Active automation and standby workflows
 
 Paseo is the active production runner. Its schedules run every day at **07:00 and 19:00
-Asia/Seoul**. Each run collects the existing four automated categories (`ai`, `bio`, `geo`,
+Asia/Seoul**. The edition date is the Asia/Seoul calendar date (`TZ=Asia/Seoul date +%F`), not UTC.
+The 07:00 run opens that day's edition. The 19:00 run merges into the same date. A run that only
+refreshes `data/editions-source` and leaves `src/content/editions/<date>` unchanged has not published.
+Each run collects the existing four automated categories (`ai`, `bio`, `geo`,
 `markets`) in English and Korean, performs the editorial and schema checks, builds the site, commits
 and pushes the checked editions, and deploys to Vercel production. Every production deploy, scheduled
 or manual, uses the local prebuilt path (`vercel build --prod` then `vercel deploy --prebuilt --prod`)

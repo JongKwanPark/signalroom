@@ -184,8 +184,8 @@ export function validateEditionData(data: unknown): Violation[] {
   if (!isStr(d.title) || d.title.length < 1) out.push({ path: "title", message: "title non-empty required" });
   if (!isStr(d.summary) || d.summary.length < 1) out.push({ path: "summary", message: "summary non-empty required" });
   if (!isLang(d.lang)) out.push({ path: "lang", message: "lang must be ko|en (A안: 언어 미표기 실패)" });
-  if (!Array.isArray(d.stories) || d.stories.length < 1 || d.stories.length > 8) {
-    out.push({ path: "stories", message: "stories must be 1..8 items" });
+  if (!Array.isArray(d.stories) || d.stories.length < 1 || d.stories.length > 12) {
+    out.push({ path: "stories", message: "stories must be 1..12 items" });
     return out;
   }
 

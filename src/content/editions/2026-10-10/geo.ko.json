@@ -1,10 +1,10 @@
 {
   "date": "2026-10-10",
-  "generatedAt": "2026-10-10T19:02:26+09:00",
+  "generatedAt": "2026-10-10T23:50:00+09:00",
   "vertical": "geo",
   "lang": "ko",
   "title": "지정학·안보 | 2026년 10월 10일",
-  "summary": "러시아산 디젤 공급 합의, ICC에 대한 미국의 새 제재, 파나마 강진, 나비 필라이의 노벨평화상 수상, 에티오피아·에리트레아 긴장이 주요 이슈였습니다. ReliefWeb, ISW, Polymarket 수집에는 공백이 있었고, 추가 항목 중 독립 출처와 편집 기준을 충족한 사안은 없었습니다.",
+  "summary": "오늘 지정학 판은 여덟 편이다. 오전의 다섯 편은 그대로다. 러시아산 디젤 합의, 미국의 ICC 제재, 파나마 지진, 나비 필라이의 노벨평화상, 에티오피아와 에리트레아 긴장이다. 이번 판에는 델리 시위 체포, 멕시코에서 호주 서퍼 형제와 미국인 친구가 살해된 사건의 유죄 판결, 페루 시장 선거 결과를 더했다. ReliefWeb와 ISW, Polymarket는 여전히 비어 있었다. 허리케인 이사이아스와 노르웨이 노벨상 비판은 이번 수집에서 매체 한 곳에만 보여 넣지 않았다.",
   "stories": [
     {
       "slug": "us-russia-diesel-deal-sanctions-shift-ko",
@@ -333,6 +333,229 @@
         "Horn of Africa"
       ],
       "confidence": "medium"
+    },
+    {
+      "slug": "delhi-cockroach-protest-leaders-detained-ko",
+      "headline": "델리 시위에서 ‘바퀴벌레’ 단체 지도부 포함 수백 명 체포",
+      "dek": "BBC와 Al Jazeera, Deutsche Welle는 인도 선거관리 수장을 향한 시위를 앞두고 뉴델리가 보안 봉쇄됐다고 전했다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 5,
+      "tldr": [
+        "BBC는 바퀴벌레로 지칭한 단체의 지도부가 체포된 수백 명에 포함됐고, 보안 인력 수만 명이 배치되고 도로가 봉쇄됐다고 전했다. [1]",
+        "Al Jazeera는 경찰 단속이 인도 선거관리 수장을 향한 대규모 시위를 막은 것으로 보인다고 전했다. [2]",
+        "Deutsche Welle는 토요일 선거관리기구 수장에 맞선 시위를 앞두고 열차와 지하철이 취소되고 뉴델리가 봉쇄됐다고 설명했다. [3]"
+      ],
+      "body": [
+        {
+          "text": "BBC 제목은 델리 시위에서 바퀴벌레라는 단체의 지도부가 체포된 수백 명 안에 있다는 것이다. 보도는 시위 전에 보안 인력 수만 명이 배치되고 도로가 바리케이드로 막혔다고 덧붙인다. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Al Jazeera는 인도에서 바퀴벌레 지도부가 체포되고 뉴델리가 봉쇄됐다고 전했다. 경찰 단속으로 나라의 선거관리 수장을 향한 대규모 시위가 열리지 못한 것으로 보인다고 했다. [2]",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "Deutsche Welle는 수도를 요새로 묘사했다. 열차와 지하철 운행이 취소되고 바리케이드가 섰으며, 토요일로 예정된 인도 선거관리기구 수장에 맞선 시위를 앞두고 경찰력이 짙게 배치됐다. 세 매체는 같은 예정 시위와 같은 경찰 대응을 말하고 있다. [3]",
+          "citations": [
+            3
+          ]
+        },
+        {
+          "text": "보도가 겹치는 지점은 그 단체로 식별된 사람들의 체포, 대규모 보안 배치, 그리고 선거 당국을 향한 시위다. 여기 사용한 텍스트만으로는 아직 구금 중인 인원이나 기소 여부를 확정할 수 없다. [1,2,3]",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "선거 당국을 향한 시위 때문에 수도가 봉쇄된 일은, 별명이 누구를 가리키든, 이번 주말 인도가 정치적 반대를 어떻게 경비하는지를 보여 준다.",
+      "editorNote": "바퀴벌레라는 별칭은 매체들이 그 단체를 부른 말을 그대로 둔 것이다. BBC 제목의 ‘수백 명’을 넘는 체포 수는 더하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown",
+          "source": "Al Jazeera",
+          "title": "India’s ‘Cockroach’ leaders detained; New Delhi in lockdown"
+        },
+        {
+          "url": "https://www.dw.com/en/india-s-cockroaches-vs-election-commission-what-you-need-to-know-ahead-of-cjp-s-october-10-protests/a-79608760",
+          "source": "Deutsche Welle",
+          "title": "India's 'cockroaches' vs Election Commission: What you need to know ahead of CJP's October 10 protests"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c65yn7xvde7vo",
+          "source": "BBC",
+          "title": "'Cockroach' group leaders among hundreds detained in Delhi protest",
+          "publishedAt": "2026-10-10"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown",
+          "source": "Al Jazeera",
+          "title": "India’s ‘Cockroach’ leaders detained; New Delhi in lockdown",
+          "publishedAt": "2026-10-10"
+        },
+        {
+          "id": 3,
+          "url": "https://www.dw.com/en/india-s-cockroaches-vs-election-commission-what-you-need-to-know-ahead-of-cjp-s-october-10-protests/a-79608760",
+          "source": "Deutsche Welle",
+          "title": "India's 'cockroaches' vs Election Commission: What you need to know ahead of CJP's October 10 protests",
+          "publishedAt": "2026-10-10"
+        }
+      ],
+      "tags": [
+        "India",
+        "protests"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "mexico-surfers-murder-guilty-verdict-ko",
+      "headline": "멕시코에서 호주 서퍼 형제와 미국인 친구를 살해한 남성 3명 유죄",
+      "dek": "Jake Robinson, Callum Robinson과 친구 Carter Rhoad는 2024년 서핑 여행 중 숨졌다. 남성 세 명이 유죄를 받았다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 5,
+      "tldr": [
+        "가디언은 호주 형제 Jake Robinson, Callum Robinson과 미국인 친구 Carter Rhoad를 살해한 혐의로 남성 세 명이 유죄를 받았다고 전했다. [1]",
+        "가디언은 나이를 30세, 33세, 30세로 적었고, 2024년 서핑 여행 중 숨졌다고 했다. [1]",
+        "BBC는 그 살인을 서핑 여행 중 겉으로 보기에는 실패한 강도 사건으로 설명했다. [2]"
+      ],
+      "body": [
+        {
+          "text": "가디언은 호주 형제 Jake Robinson, Callum Robinson과 미국인 친구 Carter Rhoad 살해 혐의로 남성 세 명이 유죄를 받았다고 전했다. 제목은 판결이지, 새로운 실종 소식은 아니다. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "같은 보도는 피해자를 Jake Robinson 30세, Callum Robinson 33세, Carter Rhoad 30세로 적고, 2024년 서핑 여행 중 숨졌다고 한다. 나이와 연도는 가디언의 것이다. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "같은 사건을 다룬 BBC는 세 사람이 서핑 여행 중이었고, 겉으로 보기에는 실패한 강도 과정에서 숨졌다고 설명한다. 그 표현은 동기에 대한 BBC의 성격 규정이다. [2]",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "두 매체는 피해자, 상황, 그리고 남성 세 명의 유죄에서 같다. 여기 사용한 대목에는 형량이나 재판 증거 설명이 없다. 그 세부 사항은 보도가 말하기 전에는 이 브리프에 넣지 않는다. [1,2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "판결은 호주와 미국, 멕시코에서 주목받은 살인의 유죄 문제를 닫는다. 형벌은 그다음의 별도 사실이다.",
+      "editorNote": "나이와 2024년이라는 시점은 가디언에서 가져왔다. 실패한 강도라는 표현은 BBC의 것이다.",
+      "cluster": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cj5ynwnye009o",
+          "source": "BBC",
+          "title": "Three men found guilty of murdering Australian brothers and US friend in Mexico"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.theguardian.com/world/2026/oct/10/jake-callum-robinson-australian-surfers-carter-rhoad-mexico-murder-guilty-verdict-ntwnfb",
+          "source": "The Guardian",
+          "title": "Three men found guilty of murders of Australian surfer brothers and US friend in Mexico",
+          "publishedAt": "2026-10-10"
+        },
+        {
+          "id": 2,
+          "url": "https://www.bbc.co.uk/news/articles/cj5ynwnye009o",
+          "source": "BBC",
+          "title": "Three men found guilty of murdering Australian brothers and US friend in Mexico",
+          "publishedAt": "2026-10-10"
+        }
+      ],
+      "tags": [
+        "Mexico",
+        "courts"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "peru-mayor-hitler-mussolini-simeon-flores-ko",
+      "headline": "히틀러 무솔리니라는 이름의 후보, 페루 시장에 당선",
+      "dek": "가디언은 그를 안데스 외딴 지역에서 극우 후보를 이긴 좌파 후보 Hitler Mussolini Simeon Flores로 식별했다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 5,
+      "tldr": [
+        "가디언은 Hitler Mussolini Simeon Flores라는 후보가 페루 안데스의 외딴 지역 시장에 당선됐다고 전했다. [1]",
+        "가디언은 그를 극우 후보를 이긴 좌파 후보로 설명했다. [1]",
+        "BBC도 당선을 전했고, 출구조사에서 좌파 후보의 근소한 승리로 보였다고 했다. 개표가 얼마나 최종적인지에 대한 두 설명은 같지 않다. [2]"
+      ],
+      "body": [
+        {
+          "text": "가디언 제목은 히틀러 무솔리니라는 이름의 후보가 페루 시장에 당선됐다는 것이다. 기사는 그를 Hitler Mussolini Simeon Flores로 적고, 안데스의 외딴 지역에서 이겼다고 한다. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "가디언은 당선자를 극우 후보를 이긴 좌파 후보로 설명한다. 그 정치적 위치는 가디언의 규정이다. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "BBC 제목도 히틀러 무솔리니라는 남성이 페루 시장에 당선됐다고 한다. 설명은 좌파 후보가 안데스 외딴 지역에서 근소하게 이겼고, 그 판독은 출구조사에 따른 것이라고 한다. [2]",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "두 매체는 그 이름의 후보에 대한 선거 결과를 전한다. BBC가 출구조사를 언급한 점은 표 차와 최종 공식 집계를 선거관리 공고와 다시 볼 이유다. 이름과 지역 설정은 두 보도 사이에서 다투어지지 않는다. [1,2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "결과는 안데스 지방 선거다. 후보 이름과 좌파 대 극우라는 구도 때문에 국제적으로 보도됐다.",
+      "editorNote": "전체 이름과 좌파 대 극우 설명은 가디언에서 가져왔다. BBC 설명은 근소한 승리에 출구조사를 인용한다.",
+      "cluster": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cmdxwn9dr42yo",
+          "source": "BBC",
+          "title": "Man named Hitler Mussolini elected mayor in Peru"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.theguardian.com/world/2026/oct/10/peru-election-hitler-mussolini-simeon-flores-mayor",
+          "source": "The Guardian",
+          "title": "Candidate named Hitler Mussolini elected mayor in Peru",
+          "publishedAt": "2026-10-10"
+        },
+        {
+          "id": 2,
+          "url": "https://www.bbc.co.uk/news/articles/cmdxwn9dr42yo",
+          "source": "BBC",
+          "title": "Man named Hitler Mussolini elected mayor in Peru",
+          "publishedAt": "2026-10-10"
+        }
+      ],
+      "tags": [
+        "Peru",
+        "elections"
+      ],
+      "confidence": "high"
     }
   ]
 }

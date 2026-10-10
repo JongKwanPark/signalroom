@@ -1,10 +1,10 @@
 {
   "date": "2026-10-10",
-  "generatedAt": "2026-10-10T19:02:26+09:00",
+  "generatedAt": "2026-10-10T23:50:00+09:00",
   "vertical": "bio",
   "lang": "ko",
   "title": "바이오 | 2026년 10월 10일",
-  "summary": "조용한 날이어서 FDA의 종양학 승인 1건과 연구 보도 2건을 추렸습니다. 통증 연구의 결과는 생쥐 실험에서 나왔고, 배아 계보 추적 기술은 임상 적용이 아닌 연구 도구입니다. 추가 수집 항목 가운데 독립 출처와 편집 기준을 충족한 사안은 없었습니다.",
+  "summary": "오늘 바이오 판은 네 편이다. FDA의 종양 승인, 연구 보고 두 편, 그리고 AI 모델을 위한 공개 생물 데이터에 18억 달러를 넣겠다는 공약이다. 통증 결과는 생쥐 실험이고, 배아 계보 작업은 임상 적용이 아니라 연구 도구다. 그 밖에 모은 논문은 대부분 단일 호스트 기록이라 넣지 않았다.",
   "stories": [
     {
       "slug": "fda-atezolizumab-stage-iii-dmmr-colon-cancer-ko",
@@ -195,6 +195,76 @@
         "developmental biology",
         "gene editing",
         "research tools"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "biohub-ai-ready-biology-data-commitment-ko",
+      "headline": "AI에 쓸 생물 데이터에 18억 달러 규모 국제 공약",
+      "dek": "Biohub와 미국 에너지부, NIH 등은 세포가 개입에 어떻게 반응하는지 예측하는 모델을 위한 공개 데이터를 만들겠다고 했다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 5,
+      "tldr": [
+        "Biohub는 에너지부와 NIH 등이 참여하는 국제 그룹이 AI용 생물 데이터에 18억 달러를 약속했다고 밝혔다. [1]",
+        "목적은 세포가 개입에 어떻게 반응하는지 예측하는 모델을 위한 공개되고 표준화된 데이터다. [1]",
+        "에너지부 몫은 5년에 걸쳐 5억 달러 이상으로 설명된다. 이 수치는 주최 측 발표이지 집행이 끝난 지출은 아니다. [1]"
+      ],
+      "body": [
+        {
+          "text": "Biohub 소식은 AI에 바로 쓸 수 있는 생물 데이터에 18억 달러 규모의 국제 공약을 알린다. 글에 이름을 올린 파트너에는 Biohub, 미국 에너지부, NIH 등이 있다. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "밝힌 목적은 세포가 개입에 어떻게 반응하는지 예측하는 AI 모델을 훈련할 공개되고 표준화된 데이터를 만드는 것이다. 데이터 인프라에 대한 주장이다. 그런 모델이 이미 진료에서 작동한다는 주장은 아니다. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "글은 에너지부가 실험 측정과 모델링, 계산에 5년간 5억 달러 이상을 넣겠다고 하고, NIH가 기여를 조율한다고 설명한다. 둘 다 발표문 안의 역할 설명이다. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "발표는 Hacker News에서도 다뤄졌다. 공약은 데이터가 이미 공개됐거나 모델이 이미 검증됐다는 뜻과 같지 않다. 금액은 주최 측이 넣겠다고 한 규모로 보고, 과학적 목표는 데이터셋이 나온 뒤에 판단하는 편이 맞다. [1,2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "생물학 모델은 학습할 수 있는 데이터의 종류에 묶여 있다. 공개 세포 데이터를 위한 자금 계획은, 데이터가 실제로 나오면 그 한계에 대한 구체적인 입력이 된다.",
+      "editorNote": "의학 조언이 아니다. 금액과 파트너 역할은 Biohub 발표에서 가져왔다. 지출을 여기서 별도로 감사하지는 않았다.",
+      "cluster": [
+        {
+          "url": "https://news.ycombinator.com/item?id=50011999",
+          "source": "Hacker News",
+          "title": "AI-ready biological data: $1.8B global commitment"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://biohub.org/news/virtual-biology-initiative-expansion/",
+          "source": "Biohub",
+          "title": "AI-ready biological data: $1.8 billion global commitment",
+          "publishedAt": "2026-10-07"
+        },
+        {
+          "id": 2,
+          "url": "https://news.ycombinator.com/item?id=50011999",
+          "source": "Hacker News",
+          "title": "AI-ready biological data: $1.8B global commitment",
+          "publishedAt": "2026-10-07"
+        }
+      ],
+      "tags": [
+        "open data",
+        "cell biology"
       ],
       "confidence": "medium"
     }

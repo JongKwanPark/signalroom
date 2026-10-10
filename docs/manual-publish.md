@@ -26,10 +26,10 @@ git pull --rebase origin main
 
 ### 2-1. 출처 확인과 작성
 
-1. 에디션 날짜를 UTC로 정한다.
+1. 에디션 날짜는 Asia/Seoul 달력 날짜다. UTC 날짜를 쓰면 한국 시간 오전 7시 실행이 전날 판에 붙고, 새 기사가 없어도 끝난 것으로 처리된다.
 
    ```bash
-   DATE=$(date -u +%F)
+   DATE=$(TZ=Asia/Seoul date +%F)
    ```
 
 2. 대상 버티컬과 날짜의 영어·한국어 JSON이 이미 있는지 확인한다. 버티컬은 `ai`, `bio`, `geo`, `markets`, `wisdom`, `society` 중 하나다.

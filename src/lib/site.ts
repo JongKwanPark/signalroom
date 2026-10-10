@@ -21,6 +21,6 @@ export const CONFIDENCE_LABEL: Record<'high' | 'medium' | 'low', string> = {
   low: 'low confidence',
 };
 
-export const HOME_INDEX_CAP = 14;
+export const HOME_INDEX_CAP = 40;
 export const RSS_ITEM_CAP = 50;
 export const SEARCH_RESULT_CAP = 8;

@@ -160,7 +160,7 @@ const pageTitle = latest ? `Signal, ${formatDateLong(latest)}` : SITE.name;
             <span class="sr-micro">Ordered by cluster size</span>
           </div>
           <div class="sr-index">
-            {indexRows.map((ref) => <DenseIndexRow ref={ref} showDek={false} />)}
+            {indexRows.map((ref) => <DenseIndexRow ref={ref} showDek />)}
           </div>
           <div class="sr-pager">
             <span class="sr-micro">
