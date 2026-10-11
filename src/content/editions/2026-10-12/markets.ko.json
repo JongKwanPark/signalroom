@@ -1,0 +1,113 @@
+{
+  "date":"2026-10-12","generatedAt":"2026-10-12T07:05:00+09:00","vertical":"markets","lang":"ko",
+  "title":"물가·금리와 새 통신 경쟁자",
+  "summary":"이번 주는 은행 실적과 물가 지표, 수십 년 만의 고점에 가까운 미 국채 수익률, SpaceX의 스펙트럼 인수 보도에 따른 통신주 움직임이 주목됩니다. 개발자 구인 공고와 러시아산 디젤 구상도 경제·정책 전망에 포함됐습니다.",
+  "stories":[
+    {
+      "slug":"software-developer-job-postings-rise-amid-ai-coding-ko",
+      "headline":"AI가 코딩을 자동화하는데, 소프트웨어 개발자 구인 공고는 왜 늘고 있나?",
+      "dek":"CNBC가 인용한 Indeed Hiring Lab 자료에 따르면 미국 소프트웨어 개발직 공고는 2025년 2월 이후 약 15% 늘었고 전체 공고는 감소했습니다.","type":"DATA","readMinutes":3,
+      "tldr":["CNBC는 Indeed Hiring Lab 자료를 인용해 미국 소프트웨어 개발직 공고가 2025년 2월 이후 거의 15% 늘었다고 보도했습니다.","Indeed 분석은 전체 구인 공고가 감소한 동안 개발직 공고는 반등했으며 AI 역량을 요구하는 고숙련 직무가 증가분의 상당 부분을 차지했다고 설명합니다.","구인 공고는 실제 채용이 아니라 게시된 수요를 측정하며 AI가 변화의 원인인지는 자료만으로 분리할 수 없습니다."],
+      "body":[
+        {"text":"Indeed Hiring Lab 자료를 인용한 CNBC는 2025년 2월 이후 미국 소프트웨어 개발직 공고가 거의 15% 늘었다고 10월 11일 보도했습니다. 보도는 전체 구인 공고 감소와 대조되는 흐름으로 설명했습니다. [1][2]","citations":[1,2]},
+        {"text":"Indeed Hiring Lab 분석은 기술직과 다른 직종의 공고가 전반적으로 감소한 뒤 소프트웨어 개발직 공고가 반등했다고 설명합니다. CNBC에 따르면 증가는 고숙련 직무와 AI 역량을 요구하는 역할에 집중됐고 일부 초급직 지표는 약세였습니다. [1][2]","citations":[1,2]},
+        {"text":"이 자료는 구인 공고를 집계하므로 실제 채용 완료나 순고용 증가를 직접 보여주지 않습니다. CNBC 보도와 인용된 Hiring Lab 분석 모두 AI 도구가 개발직 공고 증가의 원인이라고 입증하지는 않습니다. [1][2]","citations":[1,2]},
+        {"text":"이 차이는 코딩 자동화가 곧바로 소프트웨어 채용 감소로 이어진다는 단순한 주장을 복잡하게 만듭니다. AI가 향후 채용 규모나 경력 수준, 요구 역량을 얼마나 바꿀지는 열려 있으며 공고 수치만으로 답할 수 없습니다. [1][2]","citations":[1,2]}
+      ],
+      "whyItMatters":"구인 공고 자료는 코딩 도구가 빠르게 확산되는 시기의 노동 수요 신호를 제공하지만 실제 채용 결과나 자동화의 인과 효과를 증명하지 않습니다.",
+      "editorNote":"거의 15%라는 수치와 공고 추세는 CNBC가 보도한 Indeed Hiring Lab 자료에 귀속했습니다. 인과관계나 진로 조언은 제시하지 않습니다.",
+      "cluster":[
+        {"url":"https://hiringlab.indeed.com/2026/07/08/ai-and-job-postings-from-destruction-to-creation/","source":"Indeed Hiring Lab","title":"AI and Job Postings: From Destruction to Creation?"}
+      ],
+      "sources":[
+        {"id":1,"url":"https://www.cnbc.com/2026/10/11/ai-software-developer-jobs.html","source":"CNBC","title":"AI is automating coding. So why are software developer job postings on the rise?","publishedAt":"2026-10-11"},
+        {"id":2,"url":"https://hiringlab.indeed.com/2026/07/08/ai-and-job-postings-from-destruction-to-creation/","source":"Indeed Hiring Lab","title":"AI and Job Postings: From Destruction to Creation?","publishedAt":"2026-07-08"}
+      ],"tags":["labor market","software development","AI","job postings"],"confidence":"medium"
+    },
+    {
+      "slug":"bank-earnings-cpi-set-up-busy-market-week-ko","headline":"물가 보고서 2건, 소매판매, 대형 은행 실적이 이번 주 발표",
+      "dek":"연방준비제도의 다음 결정이 다가오는 가운데 소비자·생산자 물가와 소매판매, 주요 은행 실적이 투자자들의 관심사로 놓였습니다.","type":"DATA","readMinutes":3,
+      "tldr":["10월 12일이 포함된 주에 9월 CPI와 PPI, 소매판매 자료, 미국 주요 은행의 3분기 실적이 발표됩니다.","Reuters와 AP는 연준의 10월 말 회의를 앞두고 이번 자료가 물가와 가계 수요, 은행 활동을 보여줄 수 있다고 전했습니다.","이 보도는 예정된 일정에 관한 것이며 시장 영향은 실제 결과와 시장 예상의 차이에 따라 달라집니다."],
+      "body":[
+        {"text":"AP와 Reuters는 10월 12일 주간의 미국 시장 일정에 물가 지표, 소매판매와 주요 은행의 분기 실적이 포함된다고 전했습니다. 이 자료는 연방준비제도의 10월 말 정책회의 전에 나옵니다. [1][2]","citations":[1,2]},
+        {"text":"AP에 따르면 9월 소비자·생산자 물가 자료와 소매판매가 발표될 예정입니다. Reuters는 소비자물가지수가 연준 회의 전 마지막 주요 물가 지표 중 하나이며, 은행 실적은 기업 이익과 금리 환경에 관한 정보를 제공할 수 있다고 설명했습니다. [1][2]","citations":[1,2]},
+        {"text":"AP는 미국의 주요 은행들이 주초 실적을 발표할 예정이라고 전했습니다. Reuters는 은행 실적과 경제 지표가 이익과 금리 경로에 관한 신호를 제공할 수 있으며 S&P 500이 최근 기록에 가까운 수준에서 거래됐다고 전했습니다. [1][2]","citations":[1,2]},
+        {"text":"이는 일정에 관한 전망 보도이며 아직 결과가 발표되기 전입니다. 따라서 물가·소매판매·은행 실적에 따른 시장 반응 방향은 당시 확정되지 않았습니다. [1][2]","citations":[1,2]}
+      ],
+      "whyItMatters":"이번 발표들은 물가, 소비 수요, 은행 실적과 연준 정책에 대한 기대를 바꿀 수 있지만 일정 안내만으로 시장 반응을 단정할 수는 없습니다.",
+      "editorNote":"예정 일정에 관한 보도입니다. 전망이나 투자 권유는 제시하지 않습니다.",
+      "cluster":[
+        {"url":"https://www.investing.com/news/economy-news/bank-earnings-cpi-headline-busy-markets-week-as-sp-500-hovers-near-records-4940595","source":"Reuters via Investing.com","title":"Bank earnings, CPI headline busy markets week as S&P 500 hovers near records"},
+        {"url":"https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks","source":"Kiplinger","title":"Earnings Calendar and Analysis for This Week"}
+      ],
+      "sources":[
+        {"id":1,"url":"https://apnews.com/article/75c52cd60818e6c8957edfe8f8f535a9","source":"Associated Press","title":"2 Inflation Reports, Retail Sales and Big Bank Profits All Arrive in the Coming Week","publishedAt":"2026-10-09"},
+        {"id":2,"url":"https://www.investing.com/news/economy-news/bank-earnings-cpi-headline-busy-markets-week-as-sp-500-hovers-near-records-4940595","source":"Reuters via Investing.com","title":"Bank earnings, CPI headline busy markets week as S&P 500 hovers near records","publishedAt":"2026-10-09"}
+      ],"tags":["US economy","inflation","bank earnings","Federal Reserve"],"confidence":"high"
+    },
+    {
+      "slug":"treasury-yield-near-24-year-high-stocks-end-week-higher-ko","headline":"미 증시, 기록적인 한 주를 상승으로 마감",
+      "dek":"AP에 따르면 금요일 미국 주식은 상승했고 10년물 국채 수익률은 5.24%에 도달해 2002년 이후 최고 수준에 가까워졌습니다.","type":"DATA","readMinutes":3,
+      "tldr":["미국 주식은 금요일 상승 마감했고 10년물 국채 수익률은 5.24%로 올랐습니다.","AP는 물가 우려와 연방정부 차입, 견조한 경제 신호를 배경으로 수익률이 2002년 이후 최고치에 근접했다고 전했습니다.","이번 보도는 하루 장세를 설명하며 수익률 상승이 계속될지는 확인하지 않습니다."],
+      "body":[
+        {"text":"AP는 미국 주식이 금요일 상승 마감했고 국채 수익률은 올랐다고 보도했습니다. AP의 시장 마감 기사에 따르면 10년물 수익률은 목요일 늦은 시점의 5.22%에서 5.24%로 상승했습니다. [1]","citations":[1]},
+        {"text":"AP는 수익률이 최근 2002년 이후 최고 수준에 닿았다고 전했습니다. 보도는 지속되는 물가 상승, 미국 정부의 부채 규모, 경제가 계속 성장한다는 신호를 투자자 우려 요인으로 들었습니다. [1]","citations":[1]},
+        {"text":"Reuters의 주간 전망도 수익률이 5%를 넘었다고 언급하며 투자자들이 물가 자료와 연준 신호, 은행 실적을 주시한다고 전했습니다. 보도에 따르면 주말을 앞두고 채권시장 압박과 주식 상승이 동시에 나타났습니다. [1][2]","citations":[1,2]},
+        {"text":"인용 보도만으로 수익률 상승이 장기적인 금융 여건 변화인지 단기 움직임인지 알 수 없습니다. 예정된 물가 지표와 연준 결정이 남아 있어 이후 흐름은 미정입니다. [1][2]","citations":[1,2]}
+      ],
+      "whyItMatters":"높은 장기 국채 수익률은 차입 비용과 시장 가치평가에 영향을 줄 수 있습니다. 금요일에는 수익률 상승에도 주식이 올랐습니다.",
+      "editorNote":"5.24%와 2002년 이후 최고 수준이라는 비교는 AP가 해당 거래일에 관해 보도한 내용입니다. 가격이나 매매 조언은 없습니다.",
+      "cluster":[
+        {"url":"https://www.investing.com/news/economy-news/bank-earnings-cpi-headline-busy-markets-week-as-sp-500-hovers-near-records-4940595","source":"Reuters via Investing.com","title":"Bank earnings, CPI headline busy markets week as S&P 500 hovers near records"},
+        {"url":"https://apnews.com/article/dafbd0c4037ee10e2a9e305f3cfa8e70","source":"Associated Press","title":"How major US stock indexes fared Friday 10/9/2026"}
+      ],
+      "sources":[
+        {"id":1,"url":"https://apnews.com/article/5d0f953dbf96febb0690c1aef23fa8a9","source":"Associated Press","title":"Wall Street finishes its record-setting week with gains","publishedAt":"2026-10-09"},
+        {"id":2,"url":"https://www.investing.com/news/economy-news/bank-earnings-cpi-headline-busy-markets-week-as-sp-500-hovers-near-records-4940595","source":"Reuters via Investing.com","title":"Bank earnings, CPI headline busy markets week as S&P 500 hovers near records","publishedAt":"2026-10-09"}
+      ],"tags":["Treasury yields","US stocks","inflation","fixed income"],"confidence":"high"
+    },
+    {
+      "slug":"spacex-spectrum-purchase-telecom-share-selloff-ko","headline":"SpaceX 스펙트럼 거래에 미·유럽 통신주 하락",
+      "dek":"Reuters는 SpaceX가 저대역 스펙트럼을 인수하기로 한 뒤 통신주가 크게 하락했다고 보도했습니다. 이 거래는 향후 Starlink 모바일 서비스 기반이 될 수 있습니다.","type":"DEEP","readMinutes":3,
+      "tldr":["Reuters와 Axios에 따르면 SpaceX는 Grain Management의 전국 저대역 스펙트럼 포트폴리오를 인수하기로 했습니다.","투자자들이 새 경쟁자 가능성을 검토하면서 금요일 AT&T, Verizon, T-Mobile 주가가 큰 폭으로 하락했습니다.","인수에는 규제 승인이 필요하며 SpaceX는 모바일 서비스를 2027년 말 시작할 계획이라고 밝혔습니다."],
+      "body":[
+        {"text":"Reuters와 Axios에 따르면 SpaceX는 Grain Management의 전국 저대역 스펙트럼 포트폴리오를 인수하기로 했습니다. 이번 거래는 Starlink를 위성 연결에서 모바일 서비스로 확장하려는 SpaceX의 계획에 스펙트럼을 추가합니다. [1][2]","citations":[1,2]},
+        {"text":"Reuters는 발표 뒤 미국과 유럽 통신주가 하락했다고 전했습니다. Axios에 따르면 거래 발표 후 첫 거래일인 금요일 AT&T, Verizon, T-Mobile은 각각 9.8%, 8.8%, 13.3% 하락 마감했습니다. [1][2]","citations":[1,2]},
+        {"text":"Axios는 SpaceX가 미국 주요 도시에서 지상 모바일 서비스를 제공하려면 스펙트럼 외에도 더 많은 기반시설이 필요하다고 보도했습니다. 회사는 서비스 개시 시점을 2027년 말로 제시했으며 거래에는 규제 승인이 필요합니다. [2][3]","citations":[2,3]},
+        {"text":"주가 하락은 향후 경쟁에 대한 투자자 우려를 반영하며 SpaceX가 이미 전국 모바일망을 운영한다는 뜻은 아닙니다. 서비스 범위, 구축, 규제 심사와 실제 사업 방식은 아직 정해지지 않았습니다. [1][2]","citations":[1,2]}
+      ],
+      "whyItMatters":"이번 거래는 위성·지상 무선통신 사업자의 경쟁 구도를 바꿀 수 있지만, 실제 영향은 아직 이뤄지지 않은 승인과 기반시설 구축에 달려 있습니다.",
+      "editorNote":"주가 변동은 금요일 거래에 관한 보도입니다. 서비스 개시 시점은 회사 계획이지 현재 운영 사실이 아닙니다.",
+      "cluster":[
+        {"url":"https://www.axios.com/2026/10/09/spacex-8-billion-spectrum","source":"Axios","title":"SpaceX pens $8B spectrum deal"},
+        {"url":"https://qz.com/spacex-starlink-mobile-spectrum-grain-management-telecom-stocks-100926","source":"Quartz","title":"Verizon, AT&T, and T-Mobile stocks sank after SpaceX agreed to buy mobile spectrum"}
+      ],
+      "sources":[
+        {"id":1,"url":"https://www.marketscreener.com/news/us-european-telecom-stocks-slide-as-spacex-spectrum-deal-rattles-sector-ce785ddfd18af221","source":"Reuters via MarketScreener","title":"US, European telecom stocks slide as SpaceX spectrum deal rattles sector","publishedAt":"2026-10-09"},
+        {"id":2,"url":"https://www.axios.com/2026/10/09/spacex-elon-musk-spectrum","source":"Axios","title":"SpaceX spectrum deal unsettles investors in AT&T, Verizon, T-Mobile","publishedAt":"2026-10-09"},
+        {"id":3,"url":"https://qz.com/spacex-starlink-mobile-spectrum-grain-management-telecom-stocks-100926","source":"Quartz","title":"Verizon, AT&T, and T-Mobile stocks sank after SpaceX agreed to buy mobile spectrum","publishedAt":"2026-10-09"}
+      ],"tags":["SpaceX","telecommunications","spectrum","US equities"],"confidence":"high"
+    },
+    {
+      "slug":"senators-challenge-russian-diesel-plan-ko","headline":"6명 상원의원, Trump 행정부에 러시아산 디젤 계획 '즉각 철회' 촉구",
+      "dek":"초당적 상원의원 그룹은 러시아산 디젤을 수입하는 계획에 반대하며 행정부가 의회와 협의하거나 법적 근거를 설명하지 않았다고 주장했습니다.","type":"DEEP","readMinutes":3,
+      "tldr":["양당 소속 상원의원 6명은 Trump 행정부에 러시아산 디젤 수입 계획을 철회하라고 촉구했습니다.","AP에 따르면 상원의원들은 행정부가 의회와 협의하지 않았고 법에 따른 설명 자료를 제출하지 않았다고 주장했습니다.","인용 보도에서 제시된 연료 물량과 정책 계획은 독립적으로 확인되지 않았습니다."],
+      "body":[
+        {"text":"AP에 따르면 공화당 4명과 민주당 2명을 포함한 미국 상원의원 6명은 러시아산 디젤을 구매하려는 계획을 철회하라고 Trump 행정부에 촉구했습니다. Al Jazeera도 의원들의 반발을 보도했습니다. [1][2]","citations":[1,2]},
+        {"text":"AP는 Donald Trump 대통령이 금요일 러시아가 즉시 30만 톤 넘는 디젤을 공급하고 11월과 이후에도 추가 물량을 보낼 것이라고 말했다고 전했습니다. 상원의원 성명은 행정부가 의회와 협의하지 않았고 법이 요구하는 설명을 제출하지 않았다고 주장했습니다. [1]","citations":[1]},
+        {"text":"상원의원들은 연료 가격을 낮추려는 조치가 우크라이나 전쟁 중인 러시아에 수익을 제공할 수 있다고 말했습니다. Al Jazeera는 공화당 상원의원이 거래가 불법일 수 있다고 주장했다고 보도했지만 인용된 보도에서 법원 판단은 나오지 않았습니다. [1][2]","citations":[1,2]},
+        {"text":"실제 공급량과 제재 규정의 적용 방식, 행정부가 의원들의 요구에 응답할지는 여전히 확인되지 않았습니다. 보도된 계획은 정책 구상과 발표이며 연료가 이미 미국 시장에 도착했다는 의미는 아닙니다. [1][2]","citations":[1,2]}
+      ],
+      "whyItMatters":"이 논쟁은 연료 공급과 제재 정책, 의회의 감독 권한을 연결합니다. 계획의 법적 근거와 실제 공급 여부는 아직 확정되지 않았습니다.",
+      "editorNote":"물량과 행정부 발표는 AP 보도에 귀속했습니다. 합법성은 논쟁 중이며 법원에서 판단된 사실로 서술하지 않았습니다.",
+      "cluster":[
+        {"url":"https://www.aljazeera.com/news/2026/10/11/republican-senator-says-trumps-russian-diesel-agreement-may-be-illegal","source":"Al Jazeera","title":"Republican senator says Trump diesel agreement with Russia may be illegal"},
+        {"url":"https://www.lemonde.fr/en/international/article/2026/10/10/trump-and-putin-sign-diesel-deal-angering-ukraine-and-its-allies_6758450_4.html","source":"Le Monde","title":"Trump and Putin sign diesel deal, angering Ukraine and its allies"}
+      ],
+      "sources":[
+        {"id":1,"url":"https://apnews.com/article/93fa63c8aa8e538f1456e7d448fc550d","source":"Associated Press","title":"Six senators call for Trump administration to 'immediately reverse course' on Russian diesel plan","publishedAt":"2026-10-11"},
+        {"id":2,"url":"https://www.aljazeera.com/news/2026/10/11/republican-senator-says-trumps-russian-diesel-agreement-may-be-illegal","source":"Al Jazeera","title":"Republican senator says Trump diesel agreement with Russia may be illegal","publishedAt":"2026-10-11"}
+      ],"tags":["diesel","Russia","United States","sanctions"],"confidence":"medium"
+    }
+  ]
+}

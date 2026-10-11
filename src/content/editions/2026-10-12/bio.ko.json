@@ -1,0 +1,72 @@
+{
+  "date":"2026-10-12","generatedAt":"2026-10-12T07:05:00+09:00","vertical":"bio","lang":"ko",
+  "title":"임상 근거와 규제 결정",
+  "summary":"이번 판은 안과질환 후보 치료제의 초기 인체 자료, 중단된 3상 프로그램, 유방암 치료 요법의 새 유지요법 적응증을 다룹니다. 독립 보도가 없는 CAR-T 논문과 임상시험 등록은 제외했습니다.",
+  "stories":[
+    {
+      "slug":"life-biosciences-er100-first-human-data-ko","headline":"Life Biosciences, ER-100 안과질환 1상 진행 중 최초 인체 자료 발표",
+      "dek":"회사는 3명 규모의 1상 초기 코호트에서 안전성 관찰과 시야 변화를 보고했습니다. 시험은 진행 중이며 결과는 예비 자료입니다.","type":"DEEP","readMinutes":3,
+      "tldr":["Life Biosciences는 안과질환 대상 ER-100 진행 중인 1상 시험에서 최초 인체 관찰 자료를 발표했습니다.","회사는 참가자 3명이 8주 추적 관찰을 마쳤고 2명에게서 일부 시야 지표가 개선됐다고 밝혔습니다.","규모가 작고 초기 단계인 코호트만으로 효과를 입증할 수 없으며 더 긴 추적과 추가 참가자 자료가 필요합니다."],
+      "body":[
+        {"text":"Life Biosciences는 개방각 녹내장 등 시신경 질환을 대상으로 하는 임상시험용 후보물질 ER-100의 진행 중인 1상 시험에서 초기 인체 자료를 발표했습니다. STAT와 TIME도 10월 8일 회사 발표 내용을 보도했습니다. [1][2][3]","citations":[1,2,3]},
+        {"text":"회사는 참가자 3명이 8주 추적 관찰을 마쳤고 해당 기간 치료가 내약성 측면에서 관리 가능했다고 밝혔습니다. STAT는 이를 초기 안전성 결과로 설명했고, TIME은 참가자 2명에게서 시야 일부가 개선된 변화가 있었다고 전했습니다. [1][2][3]","citations":[1,2,3]},
+        {"text":"ER-100은 안전성과 내약성을 평가하는 1상 시험 단계에 있습니다. 보도는 매우 작은 초기 참가자 집단과 예비 관찰을 다루며, 치료가 시력을 개선한다는 대조 연구 결과를 제시하지는 않습니다. [1][2][3]","citations":[1,2,3]},
+        {"text":"시험은 계속 진행 중이며 인용된 보도에는 완전한 동료 심사 자료가 실리지 않았고 관찰된 변화가 얼마나 지속될지도 확인되지 않았습니다. 장기 안전성, 더 많은 참가자의 결과, 후속 시험에서 임상적 이익이 확인될지는 아직 열린 문제입니다. [1][2]","citations":[1,2]}
+      ],
+      "whyItMatters":"부분적 후성유전 재프로그래밍(partial epigenetic reprogramming)을 사람에게 시험하는 초기 임상 이정표입니다. 다만 시험 규모와 단계 때문에 치료 효과에 대해 내릴 수 있는 결론은 매우 제한적입니다.",
+      "editorNote":"TODO-review: '부분적 후성유전 재프로그래밍' 용어의 용례를 용어집 담당자가 검토해야 합니다. 회사가 발표한 예비 자료이며 효과를 입증하지 않습니다.",
+      "cluster":[
+        {"url":"https://www.statnews.com/2026/10/09/biotech-news-life-biosciences-share-glaucoma-cellular-reprogramming-drug-update/","source":"STAT","title":"Life Biosciences share glaucoma study updates for its cellular reprogramming drug"},
+        {"url":"https://ca.time.com/eye-cells-rejuvenated-for-the-first-time-in-people/","source":"TIME","title":"Eye Cells May Have Been Rejuvenated for the First Time in People"}
+      ],
+      "sources":[
+        {"id":1,"url":"https://www.lifebiosciences.com/life-biosciences-announces-first-in-human-data-from-ongoing-phase-1-trial-evaluating-er-100-in-optic-neuropathies/","source":"Life Biosciences","title":"Life Biosciences Announces First-in-Human Data from Ongoing Phase 1 Trial Evaluating ER-100 in Optic Neuropathies","publishedAt":"2026-10-08"},
+        {"id":2,"url":"https://www.statnews.com/2026/10/09/biotech-news-life-biosciences-share-glaucoma-cellular-reprogramming-drug-update/","source":"STAT","title":"Life Biosciences share glaucoma study updates for its cellular reprogramming drug","publishedAt":"2026-10-09"},
+        {"id":3,"url":"https://ca.time.com/eye-cells-rejuvenated-for-the-first-time-in-people/","source":"TIME","title":"Eye Cells May Have Been Rejuvenated for the First Time in People","publishedAt":"2026-10-08"}
+      ],"tags":["Life Biosciences","ER-100","Phase 1","ophthalmology"],"confidence":"medium"
+    },
+    {
+      "slug":"argenx-stops-unity-phase-three-sjogrens-study-ko","headline":"argenx, 쇼그렌병 대상 efgartigimod SC 3상 UNITY 시험 현황 발표",
+      "dek":"독립 모니터링 위원회는 중간 분석에서 1차 평가변수를 달성할 가능성이 낮다고 판단해 시험 중단을 권고했습니다.","type":"DEEP","readMinutes":3,
+      "tldr":["argenx는 중등도에서 중증 쇼그렌병 성인에게 피하 efgartigimod를 시험한 3상 UNITY를 중단한다고 밝혔습니다.","회사는 독립 모니터링 위원회가 중간 분석 후 1차 평가변수 달성이 어렵다고 판단해 중단을 권고했다고 설명했습니다.","회사는 새로운 안전성 신호가 없었다고 밝혔고 별도의 셀리악병 2상 결과는 긍정적이지만 UNITY 결과를 바꾸지는 않습니다."],
+      "body":[
+        {"text":"argenx는 중등도에서 중증 쇼그렌병 성인에게 피하 efgartigimod를 시험한 3상 UNITY를 중단한다고 밝혔습니다. BioPharma Dive와 Investing.com도 시험 중단과 회사의 설명을 보도했습니다. [1][2][3]","citations":[1,2,3]},
+        {"text":"회사는 독립 데이터 모니터링 위원회가 중간 분석 이후 무익성(futility)을 이유로 시험 중단을 권고했다고 밝혔습니다. 위원회는 연구가 1차 평가변수를 달성할 가능성이 낮다고 판단했으며, 회사 발표는 중간 유효성 자료를 공개하지 않았습니다. [1][2]","citations":[1,2]},
+        {"text":"argenx는 안전성이 efgartigimod의 기존 프로필과 일치했고 새로운 안전성 신호는 확인되지 않았다고 밝혔습니다. BioPharma Dive는 별도 프로그램인 셀리악병 치료 후보 FB102의 2상 시험이 1차 평가변수를 충족했다고 전했습니다. [1][2]","citations":[1,2]},
+        {"text":"이번 결정으로 쇼그렌병을 대상으로 한 이 3상 시험은 중단되지만, 중간 분석에서 평가변수를 놓친 이유나 다른 적응증에 미칠 영향은 발표만으로 확인되지 않습니다. 중간 분석의 세부 내용과 회사의 후속 개발 계획도 제한적으로만 공개됐습니다. [1][2][3]","citations":[1,2,3]}
+      ],
+      "whyItMatters":"기존 자가면역 치료제의 적응증 확대를 시도한 후기 임상에서 차질이 발생했습니다. 별도의 셀리악병 결과는 다른 후보물질 프로그램이므로 혼동하지 않아야 합니다.",
+      "editorNote":"무익성 판단은 독립 모니터링 위원회와 회사 발표에 귀속했습니다. 투자 또는 치료 조언은 포함하지 않았습니다.",
+      "cluster":[
+        {"url":"https://www.biopharmadive.com/news/argenx-sjogrens-vyvgart-celiac-forte-study-results/832463/","source":"BioPharma Dive","title":"Argenx falls as Sjögren’s setback offsets celiac drug progress"},
+        {"url":"https://za.investing.com/news/stock-market-news/why-is-argenx-stock-plunging-today-93CH-4494935","source":"Investing.com","title":"Why is argenx stock plunging today?"}
+      ],
+      "sources":[
+        {"id":1,"url":"https://argenx.com/news/2026/press-release-3376934","source":"argenx","title":"argenx Provides Update on Phase 3 UNITY Study of Efgartigimod SC in Sjögren's Disease","publishedAt":"2026-10-08"},
+        {"id":2,"url":"https://www.biopharmadive.com/news/argenx-sjogrens-vyvgart-celiac-forte-study-results/832463/","source":"BioPharma Dive","title":"Argenx falls as Sjögren’s setback offsets celiac drug progress","publishedAt":"2026-10-08"},
+        {"id":3,"url":"https://za.investing.com/news/stock-market-news/why-is-argenx-stock-plunging-today-93CH-4494935","source":"Investing.com","title":"Why is argenx stock plunging today?","publishedAt":"2026-10-08"}
+      ],"tags":["argenx","Sjögren's disease","Phase 3","clinical trials"],"confidence":"high"
+    },
+    {
+      "slug":"pfizer-tucatinib-frontline-maintenance-approval-ko","headline":"Pfizer의 TUKYSA 요법, HER2 양성 전이성 유방암 1차 유지치료제로 FDA 승인",
+      "dek":"FDA는 유도 치료 후 절제 불가능한 국소 진행성 또는 전이성 HER2 양성 질환 성인에게 tucatinib·trastuzumab·pertuzumab 병용 유지요법을 승인했습니다.","type":"DEEP","readMinutes":3,
+      "tldr":["FDA는 일부 HER2 양성 진행성 유방암 성인의 유지치료제로 tucatinib·trastuzumab·pertuzumab 병용요법을 승인했습니다.","이번 결정은 654명이 참여한 무작위 HER2CLIMB-05 시험을 근거로 하며 유도 치료 이후의 치료를 대상으로 합니다.","FDA는 tucatinib군의 무진행 생존기간 중앙값을 24.9개월, 위약군을 16.3개월로 보고했으며 전체 생존 자료는 아직 성숙하지 않았습니다."],
+      "body":[
+        {"text":"FDA는 유도 치료 후 절제 불가능한 국소 진행성 또는 전이성 HER2 양성 유방암 성인의 유지치료제로 tucatinib·trastuzumab·pertuzumab 병용요법을 승인했습니다. Pfizer는 10월 7일 승인 사실을 발표했습니다. [1][2]","citations":[1,2]},
+        {"text":"FDA는 무작위·이중맹검·위약 대조 시험인 HER2CLIMB-05의 성인 환자 654명을 통해 유효성을 평가했다고 밝혔습니다. 참가자는 유도 치료 4~8주기를 받은 뒤 질병 진행이 없는 환자였고, trastuzumab 및 pertuzumab과 함께 tucatinib 또는 위약을 받았습니다. [1]","citations":[1]},
+        {"text":"FDA가 보고한 연구자 평가 무진행 생존기간 중앙값은 tucatinib군 24.9개월, 위약군 16.3개월이었습니다. Pfizer 발표도 같은 시험 결과를 전하며 이 요법을 항암화학요법 없는 유지치료 선택지로 설명했습니다. [1][2]","citations":[1,2]},
+        {"text":"FDA는 분석 시점에 전체 생존 자료가 아직 성숙하지 않았으며 안전성 프로필은 각 약물의 알려진 위험과 일치했다고 밝혔습니다. 승인은 명시된 환자군과 치료 순서에 적용되며 그 범위 밖 환자의 결과까지 입증하지는 않습니다. [1]","citations":[1]}
+      ],
+      "whyItMatters":"정해진 HER2 양성 환자군에서 세 약물 병용요법이 1차 유지치료 단계로 확대됐습니다. FDA의 결정은 무작위 시험과 특정 치료 순서를 근거로 합니다.",
+      "editorNote":"규제 승인 보도입니다. 승인 대상과 안전성 정보는 제품 허가사항을 따릅니다.",
+      "cluster":[
+        {"url":"https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-tucatinib-trastuzumab-and-pertuzumab-maintenance-treatment-her2-positive-breast-cancer","source":"FDA","title":"FDA approves tucatinib with trastuzumab and pertuzumab for the maintenance treatment of HER2-positive breast cancer"},
+        {"url":"https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-tucatinib-trastuzumab-and-pertuzumab-maintenance-treatment-her2-positive-breast-cancer","source":"FDA","title":"FDA approves tucatinib with trastuzumab and pertuzumab for the maintenance treatment of HER2-positive breast cancer"}
+      ],
+      "sources":[
+        {"id":1,"url":"https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-tucatinib-trastuzumab-and-pertuzumab-maintenance-treatment-her2-positive-breast-cancer","source":"US Food and Drug Administration","title":"FDA approves tucatinib with trastuzumab and pertuzumab for the maintenance treatment of HER2-positive breast cancer","publishedAt":"2026-10-07"},
+        {"id":2,"url":"https://www.pfizer.com/news/press-release/press-release-detail/pfizers-tukysa-regimen-receives-fda-approval-front-line","source":"Pfizer","title":"Pfizer’s TUKYSA Regimen Receives FDA Approval as Front-Line Maintenance Treatment for HER2+ Metastatic Breast Cancer","publishedAt":"2026-10-07"}
+      ],"tags":["FDA","Pfizer","tucatinib","breast cancer"],"confidence":"high"
+    }
+  ]
+}

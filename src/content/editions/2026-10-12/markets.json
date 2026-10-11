@@ -1,0 +1,117 @@
+{
+  "date":"2026-10-12","generatedAt":"2026-10-12T07:05:00+09:00","vertical":"markets","lang":"en",
+  "title":"Inflation, rates and a new telecom competitor",
+  "summary":"The week opens with bank earnings and inflation releases in focus, Treasury yields near a multi-decade high, and a reported SpaceX spectrum purchase that unsettled telecom shares. Developer job postings and a Russian diesel proposal also feature in the economic and policy outlook.",
+  "stories":[
+    {
+      "slug":"software-developer-job-postings-rise-amid-ai-coding",
+      "headline":"AI is automating coding. So why are software developer job postings on the rise?",
+      "dek":"Indeed Hiring Lab data cited by CNBC show US software-development postings have risen nearly 15% since February 2025, even as overall postings declined.","type":"DATA","readMinutes":3,
+      "tldr":["CNBC reported that US software-development job postings were up nearly 15% since February 2025, citing Indeed Hiring Lab data.","Indeed's analysis says developer postings rebounded while overall postings remained lower, with AI-fluent and senior roles driving much of the increase.","Job advertisements measure posted demand, not completed hires, and the data do not isolate AI as the cause of the change."],
+      "body":[
+        {"text":"US software-development job postings have risen nearly 15% since February 2025, CNBC reported on October 11, citing Indeed Hiring Lab data. The report contrasted the increase with a decline in overall job postings. [1][2]","citations":[1,2]},
+        {"text":"Indeed Hiring Lab's analysis describes software-development postings as rebounding after a broader decline in technology and other job listings. CNBC said the rise was concentrated in senior and AI-focused roles, while some entry-level measures remained weaker. [1][2]","citations":[1,2]},
+        {"text":"The data count job postings, which indicate advertised demand rather than jobs filled or net employment growth. Neither the CNBC report nor the cited Hiring Lab analysis establishes that AI tools caused the increase in software-development listings. [1][2]","citations":[1,2]},
+        {"text":"The contrast complicates simple claims that coding automation will immediately reduce software hiring. The extent to which AI changes the number, seniority or skill mix of future hires remains open, and the postings series alone cannot answer it. [1][2]","citations":[1,2]}
+      ],
+      "whyItMatters":"The postings data offer a labor-demand signal during rapid adoption of coding tools, but they do not establish actual hiring outcomes or isolate automation's effect.",
+      "editorNote":"The nearly 15% figure and job-posting trend are attributed to Indeed Hiring Lab data reported by CNBC. No causal claim or career advice is made.",
+      "cluster":[
+        {"url":"https://hiringlab.indeed.com/2026/07/08/ai-and-job-postings-from-destruction-to-creation/","source":"Indeed Hiring Lab","title":"AI and Job Postings: From Destruction to Creation?"}
+      ],
+      "sources":[
+        {"id":1,"url":"https://www.cnbc.com/2026/10/11/ai-software-developer-jobs.html","source":"CNBC","title":"AI is automating coding. So why are software developer job postings on the rise?","publishedAt":"2026-10-11"},
+        {"id":2,"url":"https://hiringlab.indeed.com/2026/07/08/ai-and-job-postings-from-destruction-to-creation/","source":"Indeed Hiring Lab","title":"AI and Job Postings: From Destruction to Creation?","publishedAt":"2026-07-08"}
+      ],"tags":["labor market","software development","AI","job postings"],"confidence":"medium"
+    },
+    {
+      "slug":"bank-earnings-cpi-set-up-busy-market-week",
+      "headline":"2 Inflation Reports, Retail Sales and Big Bank Profits All Arrive in the Coming Week",
+      "dek":"The calendar puts consumer and producer inflation, retail sales and major bank results ahead of investors as the Federal Reserve's next decision approaches.","type":"DATA","readMinutes":3,
+      "tldr":["The week of October 12 brings September CPI, PPI, retail-sales data and third-quarter earnings from major US banks.","Reuters and AP describe the releases as tests of inflation, household demand and bank activity ahead of the Federal Reserve's late-October meeting.","The reports are scheduled events; their market effect will depend on the results and how they compare with expectations."],
+      "body":[
+        {"text":"The Associated Press and Reuters outlined a busy US market calendar for the week of October 12, including inflation releases, retail sales and quarterly results from major banks. The data arrive before the Federal Reserve’s late-October policy meeting. [1][2]","citations":[1,2]},
+        {"text":"AP reported that September consumer and producer inflation figures are due, alongside retail-sales data. Reuters said the Consumer Price Index is among the final major inflation readings before the Fed meets and that bank reports could offer information about corporate profits and interest-rate conditions. [1][2]","citations":[1,2]},
+        {"text":"JPMorgan Chase, Citigroup and Wells Fargo are among the banks reporting early in the week, according to AP. Reuters said the bank results and economic releases will provide signals about earnings and the path of rates, while the S&P 500 had recently traded near record levels. [1][2]","citations":[1,2]},
+        {"text":"These are calendar previews, not reported outcomes. Inflation, retail sales and bank results had not yet been released at the time of the reports, so the direction of any market response remained open. [1][2]","citations":[1,2]}
+      ],
+      "whyItMatters":"The combined releases may update expectations for inflation, consumer demand, bank earnings and Federal Reserve policy, but the preview alone does not determine how markets will react.",
+      "editorNote":"Forward-looking calendar coverage only; no forecast or investment recommendation is made.",
+      "cluster":[
+        {"url":"https://www.investing.com/news/economy-news/bank-earnings-cpi-headline-busy-markets-week-as-sp-500-hovers-near-records-4940595","source":"Reuters via Investing.com","title":"Bank earnings, CPI headline busy markets week as S&P 500 hovers near records"},
+        {"url":"https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks","source":"Kiplinger","title":"Earnings Calendar and Analysis for This Week"}
+      ],
+      "sources":[
+        {"id":1,"url":"https://apnews.com/article/75c52cd60818e6c8957edfe8f8f535a9","source":"Associated Press","title":"2 Inflation Reports, Retail Sales and Big Bank Profits All Arrive in the Coming Week","publishedAt":"2026-10-09"},
+        {"id":2,"url":"https://www.investing.com/news/economy-news/bank-earnings-cpi-headline-busy-markets-week-as-sp-500-hovers-near-records-4940595","source":"Reuters via Investing.com","title":"Bank earnings, CPI headline busy markets week as S&P 500 hovers near records","publishedAt":"2026-10-09"}
+      ],"tags":["US economy","inflation","bank earnings","Federal Reserve"],"confidence":"high"
+    },
+    {
+      "slug":"treasury-yield-near-24-year-high-stocks-end-week-higher",
+      "headline":"Wall Street finishes its record-setting week with gains",
+      "dek":"US shares rose on Friday even as the 10-year Treasury yield reached 5.24%, near a level last seen in 2002, AP reported.","type":"DATA","readMinutes":3,
+      "tldr":["US stocks ended Friday higher, while the 10-year Treasury yield rose to 5.24%.","AP said the yield was near its highest level since 2002 amid inflation concerns, federal borrowing and resilient economic signals.","The market report describes one session and does not establish whether the yield move will persist."],
+      "body":[
+        {"text":"US stocks finished Friday with gains, while Treasury yields moved higher, the Associated Press reported. The 10-year yield reached 5.24%, up from 5.22% late Thursday, according to AP’s market wrap. [1]","citations":[1]},
+        {"text":"AP said the yield had recently touched its highest level since 2002. It linked investor concerns to persistent inflation, the US government’s debt load and signals that the economy continued to grow. [1]","citations":[1]},
+        {"text":"Reuters’ week-ahead report also described yields above 5% and said investors were watching inflation data and Federal Reserve signals alongside bank earnings. The reports show that bond-market pressure and equity gains coexisted at the end of the week. [1][2]","citations":[1,2]},
+        {"text":"The cited coverage does not establish whether the yield increase marks a lasting change in financing conditions or a short-term move. Upcoming inflation releases and the Fed’s policy decision were still ahead, leaving the next direction unresolved. [1][2]","citations":[1,2]}
+      ],
+      "whyItMatters":"A high long-term Treasury yield can shape borrowing costs and market valuations, while Friday’s gains show that higher yields did not prevent equities from rising in that session.",
+      "editorNote":"The 5.24% figure and comparison with 2002 are reported by AP for the stated session; no price or trading advice.",
+      "cluster":[
+        {"url":"https://www.investing.com/news/economy-news/bank-earnings-cpi-headline-busy-markets-week-as-sp-500-hovers-near-records-4940595","source":"Reuters via Investing.com","title":"Bank earnings, CPI headline busy markets week as S&P 500 hovers near records"},
+        {"url":"https://apnews.com/article/dafbd0c4037ee10e2a9e305f3cfa8e70","source":"Associated Press","title":"How major US stock indexes fared Friday 10/9/2026"}
+      ],
+      "sources":[
+        {"id":1,"url":"https://apnews.com/article/5d0f953dbf96febb0690c1aef23fa8a9","source":"Associated Press","title":"Wall Street finishes its record-setting week with gains","publishedAt":"2026-10-09"},
+        {"id":2,"url":"https://www.investing.com/news/economy-news/bank-earnings-cpi-headline-busy-markets-week-as-sp-500-hovers-near-records-4940595","source":"Reuters via Investing.com","title":"Bank earnings, CPI headline busy markets week as S&P 500 hovers near records","publishedAt":"2026-10-09"}
+      ],"tags":["Treasury yields","US stocks","inflation","fixed income"],"confidence":"high"
+    },
+    {
+      "slug":"spacex-spectrum-purchase-telecom-share-selloff",
+      "headline":"US, European telecom stocks slide as SpaceX spectrum deal rattles sector",
+      "dek":"Reuters reported a sharp fall in telecom shares after SpaceX agreed to acquire low-band spectrum, a move that could support a future Starlink mobile service.","type":"DEEP","readMinutes":3,
+      "tldr":["SpaceX agreed to acquire a nationwide low-band spectrum portfolio from Grain Management, according to Reuters and Axios.","AT&T, Verizon and T-Mobile shares fell sharply on Friday as investors assessed the possibility of a new competitor.","The purchase is subject to regulatory approval, and SpaceX has said its mobile service is planned for late 2027."],
+      "body":[
+        {"text":"SpaceX agreed to acquire a nationwide low-band spectrum portfolio from Grain Management, according to Reuters and Axios. The deal adds spectrum to SpaceX’s plans to extend Starlink from satellite connectivity into mobile service. [1][2]","citations":[1,2]},
+        {"text":"Reuters reported that US and European telecom shares declined after the announcement. Axios said AT&T, Verizon and T-Mobile closed down 9.8%, 8.8% and 13.3%, respectively, on Friday, the first trading session after the deal was announced. [1][2]","citations":[1,2]},
+        {"text":"Axios reported that SpaceX still needs more than spectrum to provide terrestrial mobile service across major US cities and that the company has said it plans to launch the service in late 2027. The transaction also remains subject to regulatory approval, according to reporting on the deal. [2][3]","citations":[2,3]},
+        {"text":"The share decline reflects investor concern about future competition, not evidence that SpaceX already operates a nationwide mobile network. Coverage, buildout, regulatory review and the eventual service model remain unresolved. [1][2]","citations":[1,2]}
+      ],
+      "whyItMatters":"The deal could change the competitive position of satellite and terrestrial wireless providers, but the business impact depends on approvals and infrastructure that are not yet in place.",
+      "editorNote":"Market moves are reported for Friday's session; the service launch remains a company plan, not an operating fact.",
+      "cluster":[
+        {"url":"https://www.axios.com/2026/10/09/spacex-8-billion-spectrum","source":"Axios","title":"SpaceX pens $8B spectrum deal"},
+        {"url":"https://qz.com/spacex-starlink-mobile-spectrum-grain-management-telecom-stocks-100926","source":"Quartz","title":"Verizon, AT&T, and T-Mobile stocks sank after SpaceX agreed to buy mobile spectrum"}
+      ],
+      "sources":[
+        {"id":1,"url":"https://www.marketscreener.com/news/us-european-telecom-stocks-slide-as-spacex-spectrum-deal-rattles-sector-ce785ddfd18af221","source":"Reuters via MarketScreener","title":"US, European telecom stocks slide as SpaceX spectrum deal rattles sector","publishedAt":"2026-10-09"},
+        {"id":2,"url":"https://www.axios.com/2026/10/09/spacex-elon-musk-spectrum","source":"Axios","title":"SpaceX spectrum deal unsettles investors in AT&T, Verizon, T-Mobile","publishedAt":"2026-10-09"},
+        {"id":3,"url":"https://qz.com/spacex-starlink-mobile-spectrum-grain-management-telecom-stocks-100926","source":"Quartz","title":"Verizon, AT&T, and T-Mobile stocks sank after SpaceX agreed to buy mobile spectrum","publishedAt":"2026-10-09"}
+      ],"tags":["SpaceX","telecommunications","spectrum","US equities"],"confidence":"high"
+    },
+    {
+      "slug":"senators-challenge-russian-diesel-plan",
+      "headline":"Six senators call for Trump administration to 'immediately reverse course' on Russian diesel plan",
+      "dek":"A bipartisan group of senators objected to a reported plan to import Russian diesel, arguing that the administration had not consulted Congress or explained its legal basis.","type":"DEEP","readMinutes":3,
+      "tldr":["Six senators from both parties urged the Trump administration to reverse a plan involving Russian diesel imports.","The senators said the administration had not consulted Congress or supplied an explanation required by statute, according to AP.","The reported fuel volumes and policy arrangements have not been independently confirmed in the cited coverage."],
+      "body":[
+        {"text":"Six US senators, including four Republicans and two Democrats, called on the Trump administration to reverse course on a plan to purchase diesel from Russia, the Associated Press reported. Al Jazeera also covered the criticism from lawmakers. [1][2]","citations":[1,2]},
+        {"text":"AP reported that President Donald Trump said Friday that Russia would supply more than 300,000 tons of diesel immediately, followed by additional shipments in November and later. The senator statement said the administration had not consulted Congress or submitted an explanation as required by statute. [1]","citations":[1]},
+        {"text":"The senators said the effort to lower fuel prices could send revenue to Russia while the country remains at war with Ukraine. Al Jazeera reported that a Republican senator said the arrangement could be illegal; the legal status had not been resolved in court in the cited reports. [1][2]","citations":[1,2]},
+        {"text":"The public accounts leave open whether the proposed volumes will be delivered, how any sanctions rules would apply, and whether the administration will respond to the senators. The reported plan is a policy proposal and announcement, not evidence that the shipments have already reached the US market. [1][2]","citations":[1,2]}
+      ],
+      "whyItMatters":"The dispute links fuel supply, sanctions policy and congressional oversight, while the legal basis and practical delivery of the reported imports remain unsettled.",
+      "editorNote":"Volumes and the administration's announcement are attributed to AP; legality is contested and not presented as adjudicated.",
+      "cluster":[
+        {"url":"https://www.aljazeera.com/news/2026/10/11/republican-senator-says-trumps-russian-diesel-agreement-may-be-illegal","source":"Al Jazeera","title":"Republican senator says Trump diesel agreement with Russia may be illegal"},
+        {"url":"https://www.lemonde.fr/en/international/article/2026/10/10/trump-and-putin-sign-diesel-deal-angering-ukraine-and-its-allies_6758450_4.html","source":"Le Monde","title":"Trump and Putin sign diesel deal, angering Ukraine and its allies"}
+      ],
+      "sources":[
+        {"id":1,"url":"https://apnews.com/article/93fa63c8aa8e538f1456e7d448fc550d","source":"Associated Press","title":"Six senators call for Trump administration to 'immediately reverse course' on Russian diesel plan","publishedAt":"2026-10-11"},
+        {"id":2,"url":"https://www.aljazeera.com/news/2026/10/11/republican-senator-says-trumps-russian-diesel-agreement-may-be-illegal","source":"Al Jazeera","title":"Republican senator says Trump diesel agreement with Russia may be illegal","publishedAt":"2026-10-11"}
+      ],"tags":["diesel","Russia","United States","sanctions"],"confidence":"medium"
+    }
+  ]
+}
