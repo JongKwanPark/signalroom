@@ -1,10 +1,10 @@
 {
   "date": "2026-10-11",
-  "generatedAt": "2026-10-11T07:09:00+09:00",
+  "generatedAt": "2026-10-11T19:03:21+09:00",
   "vertical": "geo",
   "lang": "ko",
   "title": "지정학·안보 — 2026년 10월 11일",
-  "summary": "미·러 연료 합의와 키이우의 긴장, 리야드 공항을 겨냥한 재공격, ICC에 대한 미국 제재, 가자 휴전 1년 뒤에도 이어지는 폭력에 관한 보도를 정리했다. 일부 주장은 당국이나 분쟁 당사자의 설명으로 제시됐다. 두 매체 확인을 통과한 개발은 여덟 건이다. 나머지 수집 항목은 단일 매체 보도, 일상적 사건 또는 버티컬 범위 밖의 내용이었다. 지면 때문에 제외한 다중 매체 교차 보도 개발은 없다.",
+  "summary": "오늘 보도는 미국·러시아 연료 합의와 키이우의 긴장, 리야드 공항 재공격, ICC에 대한 미국 제재, 정체된 가자 휴전 이행, TV 공동 백악관 취재를 둘러싼 미 법무부 조사에 걸쳐 있다. 방송사 조사는 예비 단계이며, 분쟁 관련 주장의 일부는 당사자나 관계자의 발언으로 확인된다. 9개 개발이 두 매체 확인 기준을 통과했고, 나머지 수집 항목은 단일 매체 보도·통상 사건·분야 밖 사안이었다.",
   "stories": [
     {
       "slug": "trump-zelensky-russia-diesel-dispute-ko",
@@ -600,6 +600,86 @@
         "Ethiopia",
         "Eritrea",
         "Tigray"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "us-doj-antitrust-probe-tv-pool-coverage-ko",
+      "headline": "미국 법무부, 트럼프 보도를 중단한 TV 방송사들에 반독점 조사 착수",
+      "dek": "법무부는 방송사들이 백악관 공동 취재를 잠시 중단한 일이 경쟁법 위반인지 조사하고 있다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "미국 법무부는 5개 TV 방송사가 도널드 트럼프 대통령의 백악관 공동 취재를 중단했을 때 반독점법을 위반했는지 조사하고 있다고 밝혔다.",
+        "공동 취재 중단은 백악관이 CNN, MS NOW, Politico의 백악관 출입을 막은 뒤 이어졌으며, 법원 명령 후 공동 취재는 재개됐다.",
+        "이번 조사는 예비 단계이며, 공개된 보도에는 방송사에 대한 공식 판단이나 기소가 나오지 않았다."
+      ],
+      "body": [
+        {
+          "text": "미국 법무부는 ABC·CBS·CNN·NBC·Fox News가 도널드 트럼프 대통령의 공동 취재를 함께 중단한 일이 반독점법 위반인지 조사하고 있다고 밝혔다. Al Jazeera와 BBC News는 10월 11일 이 조사를 보도했다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이번 갈등은 백악관이 9월 CNN, MS NOW, Politico의 백악관 출입을 막은 뒤 시작됐다. 다섯 방송사는 대통령 행사를 순번제로 촬영하고 참여 매체에 영상을 배포하는 TV 공동 취재를 중단했다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "법무부 대변인은 반독점국이 방송사들의 행위가 위법한 공동 보이콧에 해당하는지 살펴보고 있다고 말했다. 연방법원이 출입 금지 조치를 일시적으로 막은 뒤 공동 취재가 재개됐다. 보도에 따르면 조사는 방송사들의 공동 결정에 관한 것으로, 법적 판단이 이미 끝난 것은 아니다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "언론인보호위원회는 언론의 취재 접근권을 옹호한 매체를 위협하는 데 반독점 조사를 이용해서는 안 된다고 비판했다. 방송사들에는 논평 요청이 전달됐으며, 보도 시점까지 공식 기소나 결론은 나오지 않았다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 조사는 경쟁법과 정부의 언론 관계가 직접 충돌하는 사례다. 결과에 따라 반독점 당국이 언론사의 공동 편집·취재 접근 결정을 어떻게 다루는지 기준이 제시될 수 있지만, 현재 확인된 것은 조사가 진행 중이라는 사실뿐이다.",
+      "editorNote": "조사는 예비 단계다. 법무부와 언론인보호위원회의 발언은 발언 주체를 밝혀 옮겼으며, 공식 판단이나 기소는 보도되지 않았다. TODO-review: antitrust를 ‘반독점’으로 옮김—용어집 미등재.",
+      "cluster": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c9vgregzk6gro?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "US justice department investigates TV networks over Trump pool coverage"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/11/us-opens-antitrust-probe-into-tv-networks-halting-trump-coverage?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "US opens antitrust probe into TV networks for halting Trump coverage"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.aljazeera.com/news/2026/10/11/us-opens-antitrust-probe-into-tv-networks-halting-trump-coverage?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "US opens antitrust probe into TV networks for halting Trump coverage",
+          "publishedAt": "2026-10-11"
+        },
+        {
+          "id": 2,
+          "url": "https://www.bbc.co.uk/news/articles/c9vgregzk6gro?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "US justice department investigates TV networks over Trump pool coverage",
+          "publishedAt": "2026-10-11"
+        }
+      ],
+      "tags": [
+        "US politics",
+        "media",
+        "antitrust",
+        "press freedom"
       ],
       "confidence": "medium"
     }

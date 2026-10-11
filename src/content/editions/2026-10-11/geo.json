@@ -1,10 +1,10 @@
 {
   "date": "2026-10-11",
-  "generatedAt": "2026-10-11T07:09:00+09:00",
+  "generatedAt": "2026-10-11T19:03:21+09:00",
   "vertical": "geo",
   "lang": "en",
   "title": "Geopolitics & Security — October 11, 2026",
-  "summary": "The day's reporting links a US-Russia fuel agreement to tensions with Kyiv, a renewed attack on Riyadh airport, US sanctions against the ICC and continuing violence a year after the Gaza ceasefire. Several claims remain attributed to officials or parties to the conflicts. Eight developments cleared the two-outlet check; remaining feed items were single-outlet reports, routine incidents or outside the vertical. No corroborated multi-outlet development was dropped for space.",
+  "summary": "The day's reporting links a US-Russia fuel agreement to tensions with Kyiv, a renewed attack on Riyadh airport, US sanctions against the ICC, stalled Gaza ceasefire progress and a new Justice Department probe into television networks' pooled White House coverage. The investigation is preliminary, and several conflict-related claims remain attributed to officials or parties. Nine developments cleared the two-outlet check; remaining feed items were single-outlet reports, routine incidents or outside the vertical.",
   "stories": [
     {
       "slug": "trump-zelensky-russia-diesel-dispute",
@@ -600,6 +600,86 @@
         "Ethiopia",
         "Eritrea",
         "Tigray"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "us-doj-antitrust-probe-tv-pool-coverage",
+      "headline": "US opens antitrust probe into TV networks for halting Trump coverage",
+      "dek": "The Justice Department is examining whether broadcasters violated competition law when they briefly stopped sharing White House coverage.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "The Justice Department said it is investigating whether five television networks violated antitrust law when they suspended shared White House coverage of Donald Trump.",
+        "The suspension followed the White House’s exclusion of CNN, MS NOW and Politico from its grounds, and pooled coverage later resumed after a court order.",
+        "The inquiry is preliminary; the public reports describe no formal finding or charge against the broadcasters."
+      ],
+      "body": [
+        {
+          "text": "The US Justice Department said it is investigating whether ABC, CBS, CNN, NBC and Fox News violated antitrust law when the broadcasters jointly suspended pooled coverage of President Donald Trump. Al Jazeera and BBC News reported the investigation on October 11. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The dispute began after the White House barred CNN, MS NOW and Politico from White House grounds in September. The five broadcasters then paused their shared television pool, which rotates camera coverage of presidential events and distributes footage to participating outlets. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "A Justice Department spokesperson said the Antitrust Division was examining whether the networks’ conduct amounted to an unlawful group boycott. The press pool resumed after a federal judge temporarily blocked the access ban; the reporting describes the inquiry as an investigation into the broadcasters’ collective decision, not a completed legal finding. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The Committee to Protect Journalists criticized the inquiry, warning that antitrust scrutiny should not be used to intimidate news organizations defending access. The networks had been asked for comment, and the reports did not identify any formal charge or conclusion. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The inquiry puts competition law and the government’s relationship with the press in direct tension. Its outcome could clarify how antitrust authorities treat coordinated editorial or access decisions, but the current reports establish only that an investigation is underway.",
+      "editorNote": "The investigation is preliminary. Attributions to the Justice Department and the Committee to Protect Journalists are retained; no formal finding or charge was reported.",
+      "cluster": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c9vgregzk6gro?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "US justice department investigates TV networks over Trump pool coverage"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/11/us-opens-antitrust-probe-into-tv-networks-halting-trump-coverage?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "US opens antitrust probe into TV networks for halting Trump coverage"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.aljazeera.com/news/2026/10/11/us-opens-antitrust-probe-into-tv-networks-halting-trump-coverage?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "US opens antitrust probe into TV networks for halting Trump coverage",
+          "publishedAt": "2026-10-11"
+        },
+        {
+          "id": 2,
+          "url": "https://www.bbc.co.uk/news/articles/c9vgregzk6gro?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "US justice department investigates TV networks over Trump pool coverage",
+          "publishedAt": "2026-10-11"
+        }
+      ],
+      "tags": [
+        "US politics",
+        "media",
+        "antitrust",
+        "press freedom"
       ],
       "confidence": "medium"
     }
