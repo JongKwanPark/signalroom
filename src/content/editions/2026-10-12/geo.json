@@ -1,8 +1,29 @@
 {
   "date":"2026-10-12","generatedAt":"2026-10-12T07:05:00+09:00","vertical":"geo","lang":"en",
   "title":"War, infrastructure and contested ceasefire claims",
-  "summary":"Coverage centers on a US-announced Russia–Ukraine energy ceasefire whose terms remain unclear, attacks on Saudi and Russian infrastructure, security developments in Poland and Sudan, and a US antitrust investigation involving White House press-pool coverage. Other collected items lacked a second independent report or sufficient confirmation.",
+  "summary":"Seven stories cleared the multi-source bar; the Nepal flood and Hurricane Simon updates stayed out because only one independent report was found for each. Coverage centers on the unverified Russia–Ukraine energy ceasefire claim, attacks on Saudi and Russian infrastructure, Poland's security and school-violence developments, Sudan, and a US antitrust inquiry into TV-pool coverage.",
   "stories":[
+    {
+      "slug":"poland-school-attacks-online-violence-glorification",
+      "headline":"Polish leader says school attacks were fueled by online glorification of violence",
+      "dek":"Donald Tusk said recent attacks at Polish schools were spontaneous acts influenced by online material; police had detained 117 people for weapons or threats by Sunday morning.","type":"DEEP","readMinutes":3,
+      "tldr":["Polish Prime Minister Donald Tusk said attacks at schools over the past week were spontaneous acts driven by online glorification of violence.","The Associated Press reported that police had detained 117 people across Poland for carrying knives or other dangerous weapons, or for threatening attacks.","Tusk's explanation is an official characterization; the reports do not establish a single cause for the incidents or their wider prevalence."],
+      "body":[
+        {"text":"Polish Prime Minister Donald Tusk said school attacks over the previous week were spontaneous acts driven by the online glorification of violence, the Associated Press reported. BBC coverage also described Polish officials linking recent stabbings to online content. [1][2]","citations":[1,2]},
+        {"text":"The Associated Press reported that police had detained 117 people across Poland by Sunday morning for carrying knives or other dangerous weapons, or for threatening attacks on schools or fellow students. The figure covers detentions for several kinds of conduct, not confirmed perpetrators of a single coordinated event. [1]","citations":[1]},
+        {"text":"Tusk's account frames the incidents as spontaneous and influenced by online material. The cited reports do not provide a full case-by-case account of the attacks or independent evidence establishing that online content caused each incident. [1][2]","citations":[1,2]},
+        {"text":"The number of detentions does not show how many threats became physical attacks or how representative the cases are nationally. Further police findings and case-specific evidence would be needed to assess the role of online content and the scale of the problem. [1][2]","citations":[1,2]}
+      ],
+      "whyItMatters":"The claims connect youth safety, online content and public-order policy, but the reported causal explanation remains an official assessment rather than a demonstrated account of each case.",
+      "editorNote":"The 117 figure refers to detentions for weapons or threats, not confirmed attackers. The stated cause is attributed to Tusk.",
+      "cluster":[
+        {"url":"https://www.bbc.co.uk/news/articles/ckp8gyd65z2go","source":"BBC","title":"Poland stabbings driven by online glorification of violence, Tusk says"}
+      ],
+      "sources":[
+        {"id":1,"url":"https://apnews.com/article/c5911d08b53e8d8c0a9ca7a484d0f075","source":"Associated Press","title":"Polish leader says school attacks were fueled by online glorification of violence","publishedAt":"2026-10-11"},
+        {"id":2,"url":"https://www.bbc.co.uk/news/articles/ckp8gyd65z2go","source":"BBC","title":"Poland stabbings driven by online glorification of violence, Tusk says","publishedAt":"2026-10-11"}
+      ],"tags":["Poland","public safety","online platforms","security"],"confidence":"medium"
+    },
     {
       "slug":"doj-investigates-tv-pool-coverage-antitrust",
       "headline":"DOJ says it's investigating whether White House TV pool's coverage halt violated antitrust law",

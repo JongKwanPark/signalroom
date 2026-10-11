@@ -4,7 +4,7 @@
   "vertical": "ai",
   "lang": "en",
   "title": "AI systems move into real-world workflows",
-  "summary": "This edition tracks reported Nvidia–Reflection AI discussions, data-centre cost disclosures, debates over human-made art and cases that put agent permissions and safety reporting under scrutiny. Deal terms and the scope of new federal requirements remain unresolved; single-source demos and research-only items were excluded.",
+  "summary": "Six stories cleared the evidence bar; the goal near ten was not met because the Berkeley persistence experiment, Epoch AI model-evaluation report, CNBC third-party-safety-evaluators story and Talorys/Talus software demos lacked a second independent news report or were not news developments. Covered here: Nvidia–Reflection AI talks, data-centre costs, human-made art, agent permissions and safety reporting.",
   "stories": [
     {
       "slug":"human-premium-for-art-made-by-people",

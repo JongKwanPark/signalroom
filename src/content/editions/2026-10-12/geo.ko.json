@@ -1,8 +1,29 @@
 {
   "date":"2026-10-12","generatedAt":"2026-10-12T07:05:00+09:00","vertical":"geo","lang":"ko",
   "title":"전쟁, 기반시설, 논쟁이 남은 휴전 발표",
-  "summary":"이번 판은 조건이 불분명한 미국 발표 러시아·우크라이나 에너지 휴전, 사우디와 러시아 기반시설 공격, 폴란드·수단 안보 상황, 백악관 언론 풀 보도에 관한 미국 반독점 조사를 다룹니다. 다른 수집 후보는 독립 보도가 없거나 확인이 부족해 제외했습니다.",
+  "summary":"7편이 복수 출처 기준을 통과했습니다. 네팔 홍수와 멕시코에 접근한 허리케인 관련 업데이트는 각각 독립 보도를 한 곳만 확인해 제외했습니다. 러시아·우크라이나 에너지 휴전 주장, 사우디·러시아 기반시설 공격, 폴란드의 안보·학교 폭력 논란, 수단, 미 TV 풀 반독점 조사를 다룹니다.",
   "stories":[
+    {
+      "slug":"poland-school-attacks-online-violence-glorification-ko",
+      "headline":"폴란드 총리, 학교 공격은 온라인 폭력 미화가 부추긴 자발적 행위라고 밝혀",
+      "dek":"Donald Tusk는 최근 폴란드 학교 공격이 온라인 콘텐츠의 영향을 받은 자발적 행위라고 말했습니다. 일요일 오전까지 경찰은 무기 소지나 위협 혐의로 117명을 구금했습니다.","type":"DEEP","readMinutes":3,
+      "tldr":["Donald Tusk 폴란드 총리는 지난주 학교 공격이 온라인 폭력 미화에 영향을 받은 자발적 행위라고 말했습니다.","AP는 일요일 오전까지 폴란드 전역에서 칼이나 기타 위험한 무기를 소지했거나 공격을 위협한 혐의로 117명이 구금됐다고 보도했습니다.","Tusk의 설명은 당국자의 해석이며, 인용 보도는 모든 사건의 단일 원인이나 더 넓은 확산을 입증하지 않습니다."],
+      "body":[
+        {"text":"AP에 따르면 Donald Tusk 폴란드 총리는 지난주 학교에서 발생한 공격이 온라인 폭력 미화에 영향을 받은 자발적 행위라고 말했습니다. BBC도 폴란드 당국이 최근 흉기 공격과 온라인 콘텐츠를 연결해 설명했다고 보도했습니다. [1][2]","citations":[1,2]},
+        {"text":"AP는 일요일 오전까지 경찰이 칼이나 다른 위험한 무기를 소지했거나 학교·학생을 공격하겠다고 위협한 혐의로 폴란드 전역에서 117명을 구금했다고 전했습니다. 이 수치는 여러 유형의 행위에 관한 구금 건수이며 하나의 조직적 사건에서 확인된 가해자 수가 아닙니다. [1]","citations":[1]},
+        {"text":"Tusk의 설명은 사건을 자발적 행위이자 온라인 자료의 영향을 받은 일로 규정합니다. 인용 보도는 각 공격의 상세 사례를 모두 제시하지 않으며 온라인 콘텐츠가 각 사건을 일으켰다는 독립적 근거도 제시하지 않았습니다. [1][2]","citations":[1,2]},
+        {"text":"구금 인원만으로 위협 가운데 실제 폭력으로 이어진 사례가 몇 건인지, 전국적으로 어느 정도 대표성이 있는지 알 수 없습니다. 온라인 콘텐츠의 역할과 문제의 규모를 평가하려면 경찰 조사 결과와 개별 사건의 근거가 더 필요합니다. [1][2]","citations":[1,2]}
+      ],
+      "whyItMatters":"이번 설명은 청소년 안전, 온라인 콘텐츠, 공공질서 정책을 연결하지만, 원인에 대한 평가는 각 사건에서 입증된 결론이 아니라 당국자의 설명입니다.",
+      "editorNote":"117명은 무기 소지 또는 위협 혐의로 구금된 인원입니다. 확인된 공격자 수로 표현하지 않았습니다. 원인 설명은 Tusk 발언으로 귀속했습니다.",
+      "cluster":[
+        {"url":"https://www.bbc.co.uk/news/articles/ckp8gyd65z2go","source":"BBC","title":"Poland stabbings driven by online glorification of violence, Tusk says"}
+      ],
+      "sources":[
+        {"id":1,"url":"https://apnews.com/article/c5911d08b53e8d8c0a9ca7a484d0f075","source":"Associated Press","title":"Polish leader says school attacks were fueled by online glorification of violence","publishedAt":"2026-10-11"},
+        {"id":2,"url":"https://www.bbc.co.uk/news/articles/ckp8gyd65z2go","source":"BBC","title":"Poland stabbings driven by online glorification of violence, Tusk says","publishedAt":"2026-10-11"}
+      ],"tags":["Poland","public safety","online platforms","security"],"confidence":"medium"
+    },
     {
       "slug":"doj-investigates-tv-pool-coverage-antitrust-ko",
       "headline":"미 법무부, 백악관 TV 풀 보도 중단이 반독점법 위반인지 조사한다고 밝혀",

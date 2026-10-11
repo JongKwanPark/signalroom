@@ -1,7 +1,7 @@
 {
   "date":"2026-10-12","generatedAt":"2026-10-12T07:05:00+09:00","vertical":"ai","lang":"ko",
   "title":"현실 업무로 들어온 AI 시스템",
-  "summary":"이번 판은 Nvidia와 Reflection AI 협의 보도, 데이터센터 비용 공개, 사람이 만든 예술의 가치 논쟁, 에이전트 권한과 안전사고 보고 문제를 다룹니다. 거래 조건과 연방 정부의 보고 요구 범위는 확인되지 않았으며, 단일 출처의 시연과 연구 자료는 제외했습니다.",
+  "summary":"6편이 근거 기준을 통과했습니다. Berkeley의 인내력 실험, Epoch AI 모델 평가, CNBC의 제3자 안전평가 조직 보도, Talorys/Talus 소프트웨어 시연은 독립된 두 번째 보도가 없거나 뉴스 개발이 아니어서 10편 목표에 도달하지 못했습니다. Nvidia–Reflection AI 협의, 데이터센터 비용, 인간 창작물, 에이전트 권한과 안전사고 보고를 다룹니다.",
   "stories":[
     {
       "slug":"human-premium-for-art-made-by-people-ko",
