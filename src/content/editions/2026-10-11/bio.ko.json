@@ -1,10 +1,10 @@
 {
   "date": "2026-10-11",
-  "generatedAt": "2026-10-11T07:09:00+09:00",
+  "generatedAt": "2026-10-11T10:20:00+09:00",
   "vertical": "bio",
   "lang": "ko",
   "title": "바이오·헬스 — 2026년 10월 11일",
-  "summary": "세포 재프로그래밍의 초기 인체 데이터와 340B 리베이트 시범사업에 대한 재소송 등 두 가지 동향을 살핀다. ER-100 보도는 1상 참가자 3명을 다루며 소송으로 사업 시행 여부는 불확실해졌다. Nature의 PICK1 생쥐 연구는 10월 10일 판에서 이미 같은 내용을 다뤄 제외했고, 나머지 논문·임상시험 등록 항목은 별도 매체 보도가 부족했다.",
+  "summary": "세포 재프로그래밍 업데이트와 340B 재소송을 유지하고, 두 곳 이상에서 확인된 치료제 동향 네 건을 더한다. 파킨슨병 초기 환자에서 NAD+ 전구체 니코틴아미드 리보사이드의 3상 시험, 헵시딘 유사 펩타이드 루스퍼타이드의 미국 허가, CAR-T 테카르투스의 외투세포림프종 정식 허가, 중국의 클라우딘18.2 CAR-T 위암 허가다. 최근 N-아세틸시스테인 논문은 두 번째 매체가 없어 기사로 쓰지 않았다.",
   "stories": [
     {
       "slug": "life-biosciences-er100-phase-one-update-ko",
@@ -152,6 +152,238 @@
         "drug pricing",
         "health policy"
       ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "nopark-nicotinamide-riboside-parkinson-ko",
+      "headline": "파킨슨병 초기 환자에서 니코틴아미드 리보사이드는 임상 결과를 개선하지 못했다",
+      "dek": "410명이 참여한 3상 시험에서 NAD+ 전구체 니코틴아미드 리보사이드는 초기 파킨슨병에 임상적 이득을 보이지 않았다.",
+      "type": "DEEP",
+      "publication": "manual",
+      "readMinutes": 4,
+      "tldr": [
+        "NOPARK 시험은 초기 파킨슨병 환자 410명을 니코틴아미드 리보사이드군과 위약군으로 나눠 52주 동안 추적했다.",
+        "증상 척도인 MDS-UPDRS 점수는 니코틴아미드 리보사이드군에서 2.45점 악화됐고, 위약군은 거의 변하지 않았다. 보정 차이는 위약군이 2.72점 나았다.",
+        "연구진은 이 결과가 파킨슨병의 진행을 늦추는 치료라는 주장을 뒷받침하지 않는다고 밝혔다. 다른 질환에서의 효과는 이 시험이 답하지 않는다."
+      ],
+      "body": [
+        {
+          "text": "NAD+의 전구체인 니코틴아미드 리보사이드를 초기 파킨슨병에 쓴 3상 시험에서 임상적 이득이 확인되지 않았다. 베르겐 대학교는 NOPARK 연구가 노르웨이 11개 센터에서 410명을 등록했다고 밝혔다. JAMA는 2026년 10월 8일 이 시험을 온라인으로 공개했고, 보도자료에서 52주 치료가 임상 결과를 개선하지 못했으며 위약보다 결과가 나빴다고 적었다. [1, 2]",
+          "citations": [1, 2]
+        },
+        {
+          "text": "참가자는 1년 동안 니코틴아미드 리보사이드 500mg을 하루 두 번 받거나 같은 모양의 위약을 받았고, 참가자와 연구팀 모두 배정을 알지 못했다. 증상은 점수가 높을수록 심한 MDS-UPDRS로 측정했다. 52주 뒤 니코틴아미드 리보사이드군은 평균 2.45점 악화됐고 위약군은 사실상 변화가 없었다. 보정한 차이는 위약군 쪽으로 2.72점이었다. [2]",
+          "citations": [2]
+        },
+        {
+          "text": "대학 측은 이 차이가 통계적으로는 유의했지만 크기가 작았고, 임상적으로 의미 있다고 흔히 보는 기준에는 못 미쳤다고 했다. 뇌 영상에서는 니코틴아미드 리보사이드가 도파민 계통의 변화를 늦추거나 재촉했다는 증거가 없었고, 이상반응의 전체 발생률은 두 군이 비슷했다. 연구 책임자 차랄람포스 출리스는 니코틴아미드 리보사이드가 NAD 대사는 올렸지만 그것이 임상 호전으로 이어지지 않았다고 말했다. [2]",
+          "citations": [2]
+        },
+        {
+          "text": "크로마덱스(나이아젠 바이오사이언스)가 시험약과 위약을 공급했다. 대학 측은 자금 제공자가 설계, 수행, 분석, 해석, 출판 결정에 관여하지 않았다고 밝혔다. 연구진은 파킨슨병 환자가 통제된 임상시험 밖에서 니코틴아미드 리보사이드나 다른 NAD 보충 제품을 쓰는 것을 권하지 않는다고 말했고, 이번 결과가 다른 질환의 이득 가능성을 배제하지는 않는다고 덧붙였다. 하위군 분석은 아직 진행 중이다. [1, 2]",
+          "citations": [1, 2]
+        }
+      ],
+      "whyItMatters": "NAD+ 전구체는 건강식품으로도 팔리고 신약 가설로도 시험된다. NOPARK는 초기 파킨슨병에서 그 가설을 위약과 비교한 대규모 시험이며, NAD 대사가 올랐다는 사실과 증상이 바뀌었다는 사실을 분리한다. 이 화합물을 공급하는 회사에는 파킨슨병 관련 주장이 기댈 수 있는 범위가 좁아진 결과이고, 다른 적응증은 그대로 남아 있다.",
+      "editorNote": "수동 치료제 특집. 시험 용량과 점수는 발표된 수치를 옮긴 것이며 복용을 권하거나 중단을 권하는 내용이 아니다. 시험 밖 사용에 대한 문장은 연구진의 발언으로 귀속했다.",
+      "cluster": [
+        {
+          "url": "https://mednews.hofstra.edu/2026/10/09/nicotinamide-riboside-not-a-disease-modifying-treatment-for-parkinsons/",
+          "source": "Hofstra/Northwell",
+          "title": "Nicotinamide Riboside Not a Disease-Modifying Treatment for Parkinsons"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://media.jamanetwork.com/media-releases/10.1001/jama.2026.18828",
+          "source": "JAMA",
+          "title": "Nicotinamide Riboside for Patients With Early-Stage Parkinson Disease",
+          "publishedAt": "2026-10-08"
+        },
+        {
+          "id": 2,
+          "url": "https://www4.uib.no/en/research/featured/major-trial-of-nad-boosting-treatment-finds-no-benefit-in-parkinsons-disease",
+          "source": "University of Bergen",
+          "title": "Major trial of NAD-boosting treatment finds no benefit in Parkinson’s disease",
+          "publishedAt": "2026-10-07"
+        }
+      ],
+      "tags": ["NAD+", "nicotinamide riboside", "Parkinson's disease", "clinical trials"],
+      "confidence": "high"
+    },
+    {
+      "slug": "mimrylo-rusfertide-polycythemia-vera-ko",
+      "headline": "다케다, 진성 적혈구증가증 치료제 밈릴로로 미국 허가",
+      "dek": "미국 식품의약국은 헵시딘을 흉내 낸 펩타이드 루스퍼타이드를 성인 진성 적혈구증가증의 적혈구 과다에 허가했다.",
+      "type": "DEEP",
+      "publication": "manual",
+      "readMinutes": 4,
+      "tldr": [
+        "2026년 8월 28일 미국 식품의약국은 다케다의 밈릴로(루스퍼타이드)를 성인 진성 적혈구증가증의 적혈구 과다에 허가했다. 최초의 헵시딘 유사 펩타이드다.",
+        "293명이 참여한 3상 VERIFY 시험에서 20주에서 32주 사이 반응 기준을 충족한 비율은 밈릴로군 76.9%, 위약군 32.9%였다.",
+        "회사 기재에 따르면 15%를 넘는 흔한 이상반응은 주사 부위 반응과 빈혈이었다. 공개 연장 시험은 계속된다."
+      ],
+      "body": [
+        {
+          "text": "미국 식품의약국은 2026년 8월 28일 다케다의 밈릴로(루스퍼타이드)를 성인 진성 적혈구증가증의 적혈구 과다에 허가했다. 다케다는 밈릴로를 주 1회 피하 주사하는 최초의 헵시딘 유사체로 설명하며, 과잉 적혈구 생성에 쓰이는 철의 공급을 제한한다고 밝혔다. 피어스 파마도 같은 날 이 허가를 보도했다. [1, 2]",
+          "citations": [1, 2]
+        },
+        {
+          "text": "허가의 근거는 조절되지 않는 헤마토크릿 환자 293명을 등록한 무작위 3상 VERIFY 시험이다. 다케다는 20주에서 32주 사이 밈릴로군 환자의 76.9%가 임상 반응을 보였다고 했다. 피어스 파마는 같은 기간 위약군 수치를 32.9%로 전했으며, 이는 사혈 대상이 아니게 된 시험의 정의에 따른 것이다. 다케다는 사혈 필요 감소와 피로 점수 개선도 보고했다. [1, 2]",
+          "citations": [1, 2]
+        },
+        {
+          "text": "다케다 발표문은 치료 환자의 56%에서 주사 부위 반응이, 16%에서 빈혈이 나타났다고 적었고 이를 15%를 넘는 가장 흔한 이상반응으로 꼽았다. 기재 요약에는 혈소판 증가가 새로 생기거나 악화될 수 있다는 경고와 태아 위해 가능성도 있다. 피어스 파마는 미국 식품의약국 비악성 혈액질환 부문 책임자 타냐 로블레스키의 말을 인용해, 잦은 채혈 부담을 줄일 수 있는 새 계열의 선택지라고 전했다. VERIFY의 공개 연장 구간은 진행 중이다. [1, 2]",
+          "citations": [1, 2]
+        },
+        {
+          "text": "다케다는 미국 내 진성 적혈구증가증 환자가 약 9만 명이며, 기존 치료로 헤마토크릿이 조절되지 않는 환자가 약 78%라고 밝혔다. 펩타이드는 프로타고니스트 테라퓨틱스가 발견해 3상까지 이끌었다. 피어스 파마는 다케다가 2024년 선급금 3억 달러를 지급한 뒤 파트너를 인수했고, 이제 전 세계 상업화를 맡으며 프로타고니스트는 판매 로열티를 받을 수 있다고 전했다. [1, 2]",
+          "citations": [1, 2]
+        }
+      ],
+      "whyItMatters": "루스퍼타이드는 건강식품이 아니라 펩타이드 의약품이며, 사혈과 히드록시우레아, 인터페론, JAK 억제제에 기대 온 혈액암에 새 기전을 더한다. 상업적으로는 혈액내과 의사가 처방을 바꿀지가 문제이고, 임상적으로는 공개 연장 시험과 미국 밖 허가에서 효과가 어떻게 유지되는지가 아직 열려 있다.",
+      "editorNote": "2026년 8월 28일 허가를 이전 판에서 다루지 않아 수동으로 보충했다. 회사 수치는 다케다에 귀속한다. 치료 권고는 없다.",
+      "cluster": [
+        {
+          "url": "https://www.biospace.com/press-releases/protagonist-therapeutics-announces-u-s-fda-approval-of-hepcidin-mimetic-peptide-mimrylotm-rusfertide-for-polycythemia-vera",
+          "source": "Protagonist Therapeutics",
+          "title": "Protagonist Therapeutics Announces U.S. FDA Approval of Hepcidin Mimetic Peptide MIMRYLO (rusfertide) for Polycythemia Vera"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.fiercepharma.com/pharma/takeda-bolsters-blood-cancer-portfolio-fda-approval-mimrylo-polycythemia-vera",
+          "source": "Fierce Pharma",
+          "title": "Takeda bolsters blood cancer portfolio with FDA nod for Mimrylo in polycythemia vera",
+          "publishedAt": "2026-08-28"
+        },
+        {
+          "id": 2,
+          "url": "https://www.takeda.com/en-us/newsroom/news-releases/2026/fda-approval-mimrylo/",
+          "source": "Takeda",
+          "title": "FDA Approves MIMRYLO (rusfertide) for Polycythemia Vera",
+          "publishedAt": "2026-08-28"
+        }
+      ],
+      "tags": ["peptide therapeutic", "rusfertide", "FDA", "polycythemia vera"],
+      "confidence": "high"
+    },
+    {
+      "slug": "tecartus-traditional-approval-mantle-cell-ko",
+      "headline": "미국 식품의약국, 재발·불응 외투세포림프종에 브렉수캅타진 오토류셀 정식 허가",
+      "dek": "미국 식품의약국은 테카르투스의 재발 또는 불응 외투세포림프종 적응증을 가속 허가에서 정식 허가로 전환했다. 근거는 ZUMA-2 확증 자료다.",
+      "type": "DEEP",
+      "publication": "manual",
+      "readMinutes": 5,
+      "tldr": [
+        "2026년 4월 2일 미국 식품의약국은 재발 또는 불응 외투세포림프종 성인 환자에 브렉수캅타진 오토류셀(테카르투스)을 정식 허가했다.",
+        "BTK 억제제를 쓰지 않은 ZUMA-2 3코호트 86명에서 객관적 반응률은 91%, 완전관해율은 79%였다.",
+        "168명을 합친 안전성에서 사이토카인 방출 증후군은 93%, 신경학적 사건은 80%였다. 시험은 단일군이라 다른 치료와의 비교는 되지 않는다."
+      ],
+      "body": [
+        {
+          "text": "미국 식품의약국은 CD19를 겨냥한 CAR-T 치료제 브렉수캅타진 오토류셀(테카르투스)을 재발 또는 불응 외투세포림프종 성인 환자에 정식 허가했다. ASCO Post와 OncLive는 이번 조치가 이전 가속 허가를 전환하고, 단일군 시험 ZUMA-2의 3코호트 확증 자료를 더한다고 전했다. 대상은 한 가지 이상 치료를 받은 뒤 재발하거나 불응했고 BTK 억제제를 쓰지 않은 환자다. [1, 2]",
+          "citations": [1, 2]
+        },
+        {
+          "text": "ZUMA-2는 공개 라벨 다기관 시험이다. 1·2코호트는 화학요법, 항CD20 항체, BTK 억제제를 포함해 최대 다섯 차례 치료를 받은 82명을 치료했다. 3코호트는 BTK 억제제를 쓰지 않은 86명을 치료했다. 1차 평가변수는 루가노 2014 기준에 따른 독립 검토 객관적 반응률이었다. [1, 2]",
+          "citations": [1, 2]
+        },
+        {
+          "text": "3코호트의 객관적 반응률은 91%, 완전관해율은 79%였고, 반응 지속 기간의 중앙값은 중앙 추적 23.0개월 시점에 도달하지 않았다. 1코호트의 객관적 반응률은 87%, 완전관해율은 62%였고, 반응 지속 기간의 중앙값은 추적 8.6개월 시점에 도달하지 않았다. 두 보도 모두 반응률이 높고 안전성 프로파일은 이전 경험과 비슷하다고 전했다. [1, 2]",
+          "citations": [1, 2]
+        },
+        {
+          "text": "외투세포림프종 환자 168명을 합치면 사이토카인 방출 증후군은 93%에서 나타났고 그중 3등급 이상은 12%였다. 신경학적 사건은 80%, 3등급 이상은 33%였다. 모든 등급의 감염은 63%, 3등급 이상 감염은 33%였다. 3코호트에서 중대한 이상반응은 환자의 65%에서 발생했다. 대조군이 없으므로 다른 요법과 비교한 결과는 이 보도로 확정되지 않는다. [1, 2]",
+          "citations": [1, 2]
+        }
+      ],
+      "whyItMatters": "정식 허가는 이 테카르투스 적응증을 가속 경로에 묶어 두었던 시판 후 요건을 확증 시험이 충족했다는 뜻이다. CAR-T 분야에서는 3코호트 자료가 BTK 억제제를 아직 쓰지 않은 환자까지 허가 근거를 넓힌다. 단일군 설계라 비교 효과는 여전히 열려 있다.",
+      "editorNote": "2026년 4월 2일 허가를 이전 판에서 다루지 않아 수동으로 보충했다. 반응률은 두 매체가 함께 전한 수치만 썼다. 매체 사이에 시험 식별자가 달라 그 번호는 빼 두었다. 치료 권고는 없다.",
+      "cluster": [
+        {
+          "url": "https://www.gilead.com/company/company-statements/2026/us-fda-grants-full-approval-of-kite-tecartus-for-adult-patients-with-relapsed-or-refractory-mantle-cell-lymphoma",
+          "source": "Gilead / Kite",
+          "title": "U.S. FDA Grants Full Approval of Kite’s Tecartus for Adult Patients with Relapsed or Refractory Mantle Cell Lymphoma"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://ascopost.com/news/april-2026/fda-grants-traditional-approval-to-brexucabtagene-autoleucel-for-relapsed-or-refractory-mcl/",
+          "source": "ASCO Post",
+          "title": "FDA Grants Traditional Approval to Brexucabtagene Autoleucel for Relapsed or Refractory MCL",
+          "publishedAt": "2026-04-03"
+        },
+        {
+          "id": 2,
+          "url": "https://www.onclive.com/view/fda-approves-brexu-cel-for-relapsed-refractory-mcl",
+          "source": "OncLive",
+          "title": "FDA Approves Brexu-Cel for Relapsed/Refractory MCL",
+          "publishedAt": "2026-04-02"
+        }
+      ],
+      "tags": ["CAR-T", "Tecartus", "FDA", "mantle cell lymphoma"],
+      "confidence": "high"
+    },
+    {
+      "slug": "satri-cel-china-solid-tumor-car-t-ko",
+      "headline": "중국, 고형암을 겨냥한 CAR-T 사트리셀 허가",
+      "dek": "중국 규제당국은 최소 두 차례 치료를 받은 클라우딘18.2 양성 위암에 사트리캅타진 오토류셀을 허가했다.",
+      "type": "DEEP",
+      "publication": "manual",
+      "readMinutes": 4,
+      "tldr": [
+        "2026년 6월 22일 중국 국가약품감독관리국은 카스젠의 사트리캅타진 오토류셀을 클라우딘18.2 양성이고 HER2 음성인 진행성 위암 또는 위식도접합부암에 허가했다.",
+        "허가 대상은 이미 두 가지 이상 치료를 받은 환자다. 회사는 이를 고형암에 허가된 첫 CAR-T라고 부른다.",
+        "회사가 보고한 2상 무진행생존 중앙값은 사트리셀 3.25개월, 의사 선택 치료 1.77개월이었다. 중국 밖 사용 범위는 아직 열려 있다."
+      ],
+      "body": [
+        {
+          "text": "중국 국가약품감독관리국은 2026년 6월 22일 사트리캅타진 오토류셀(사트리셀)을 허가했다고 카스젠이 같은 날 홍콩거래소 공시에서 밝혔다. 적응증은 클라우딘18.2 양성이고 HER2 음성인 진행성 위암 또는 위식도접합부암으로, 최소 두 차례 치료에 실패한 환자다. 피어스 파마는 이 결정을 고형암을 겨냥한 CAR-T의 첫 허가로 보도했다. [1, 2]",
+          "citations": [1, 2]
+        },
+        {
+          "text": "사트리셀은 클라우딘18.2를 겨냥한 자가 CAR-T다. 거래소 공시는 이 단백질이 분화된 위 점막 세포에 주로 한정되고 위암에서 높게 발현된다고 설명한다. 회사는 클라우딘18.2를 CAR-T 표적으로 검증한 첫 곳이라고 말한다. 이 설명은 개발사의 주장이지 독립 실험실의 결론은 아니다. [1, 2]",
+          "citations": [1, 2]
+        },
+        {
+          "text": "피어스 파마는 회사가 미국임상종양학회에서 발표한 2상 결과를 전했다. 무진행생존 중앙값은 사트리셀 3.25개월, 의사가 고른 화학요법 1.77개월이었고, 전체생존 중앙값은 7.92개월 대 5.49개월이었다. 거래소 공시는 허가와 적응증을 확인하지만 이 생존 수치는 반복하지 않는다. 비교 대상은 이름이 하나로 고정된 요법이 아니라 의사의 선택이었다. [1]",
+          "citations": [1]
+        },
+        {
+          "text": "카스젠은 더 앞선 치료 단계와 수술 전후 사용을 연구 중이며, 중국에서 췌장암 1상이 진행 중이라고 밝혔다. 최고경영자 리쭝하이는 피어스 파마에 더 많은 나라에서 사용을 추진하겠다고 말했다. 공시에는 중국 밖 허가 일정이 없어 제품이 어디까지 쓰일지는 아직 열려 있다. [1, 2]",
+          "citations": [1, 2]
+        }
+      ],
+      "whyItMatters": "허가된 CAR-T는 혈액암에 모여 있었다. 한 시장, 후기 치료 대상이라는 한계가 있어도 고형암 허가가 나온 것은 클라우딘18.2 세포 치료가 시험 단계를 넘어설 수 있는지를 보는 자리다. 회사가 보고한 생존 이득은 수개월 단위이고, 중국 밖 사용은 아직 허가된 사실이 아니다.",
+      "editorNote": "2026년 6월 22일 허가를 수동으로 보충했다. 고형암 첫 CAR-T라는 표현은 회사의 주장이며 피어스 파마도 그렇게 전했다. 생존 수치는 피어스 파마가 전한 회사 발표이고 거래소 공시에는 없다. 치료 권고는 없다.",
+      "cluster": [
+        {
+          "url": "https://www.carsgen.com/en/news/20260622/",
+          "source": "CARsgen",
+          "title": "CARsgen Announces Approval of Satri-cel, the World’s First CAR T-Cell Therapy Product for Solid Tumors"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.fiercepharma.com/pharma/carsgens-gastric-cancer-car-t-nabs-world-first-approval-china-checking-landmark-solid-tumor",
+          "source": "Fierce Pharma",
+          "title": "CARsgen makes history as China approves world's first CAR-T therapy for solid tumors",
+          "publishedAt": "2026-06-22"
+        },
+        {
+          "id": 2,
+          "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0622/2026062200474.pdf",
+          "source": "HKEX / CARsgen",
+          "title": "NMPA approves the NDA for satricabtagene autoleucel",
+          "publishedAt": "2026-06-22"
+        }
+      ],
+      "tags": ["CAR-T", "satri-cel", "gastric cancer", "China"],
       "confidence": "medium"
     }
   ]

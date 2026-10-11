@@ -1,10 +1,10 @@
 {
   "date": "2026-10-11",
-  "generatedAt": "2026-10-11T07:09:00+09:00",
+  "generatedAt": "2026-10-11T10:20:00+09:00",
   "vertical": "bio",
   "lang": "en",
   "title": "Bio & Health — October 11, 2026",
-  "summary": "Two developments span early human data in cellular reprogramming and a renewed legal challenge to the 340B rebate pilot. The ER-100 report covers three Phase 1 participants; the lawsuit leaves the program’s implementation uncertain. The Nature PICK1 mouse study was excluded because the same finding was already covered in the October 10 edition; remaining journal and trial-register items lacked separate outlet coverage.",
+  "summary": "The edition keeps the cellular-reprogramming update and the renewed 340B lawsuit, and adds four therapeutics developments with a second outlet: a Phase 3 trial of the NAD+ precursor nicotinamide riboside in early Parkinson's disease, FDA approval of the hepcidin-mimetic peptide rusfertide, traditional approval of the CAR-T Tecartus in mantle cell lymphoma, and China's approval of a Claudin18.2 CAR-T for gastric cancer. Recent N-acetylcysteine papers had no second outlet and were not written as stories.",
   "stories": [
     {
       "slug": "life-biosciences-er100-phase-one-update",
@@ -152,6 +152,238 @@
         "drug pricing",
         "health policy"
       ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "nopark-nicotinamide-riboside-parkinson",
+      "headline": "Nicotinamide Riboside for Patients With Early-Stage Parkinson Disease",
+      "dek": "A 410-person Phase 3 trial found no clinical benefit from the NAD+ precursor nicotinamide riboside in early Parkinson's disease.",
+      "type": "DEEP",
+      "publication": "manual",
+      "readMinutes": 4,
+      "tldr": [
+        "The NOPARK trial assigned 410 people with early Parkinson's disease to nicotinamide riboside or placebo for 52 weeks.",
+        "Scores on the MDS-UPDRS worsened by 2.45 points with nicotinamide riboside, against little change on placebo; the adjusted difference was 2.72 points in favor of placebo.",
+        "Investigators said the results do not support nicotinamide riboside as a treatment to slow Parkinson's disease. The trial does not answer whether NAD+ precursors help other conditions."
+      ],
+      "body": [
+        {
+          "text": "A Phase 3 trial of nicotinamide riboside, a precursor of nicotinamide adenine dinucleotide (NAD+), found no clinical benefit in early Parkinson's disease. The University of Bergen said the NOPARK study enrolled 410 participants at 11 centers in Norway. JAMA published the trial online on October 8, 2026, and its media notice said treatment for 52 weeks did not improve clinical outcomes and was associated with worse outcomes than placebo. [1, 2]",
+          "citations": [1, 2]
+        },
+        {
+          "text": "Participants received 500 mg of nicotinamide riboside twice daily or a matching placebo for one year, and neither they nor the study teams knew the assignment. Disease severity was measured with the MDS-UPDRS, on which a higher score means more pronounced symptoms. After 52 weeks, the nicotinamide riboside group had worsened by an average of 2.45 points, while the placebo group was essentially unchanged. The adjusted difference was 2.72 points in favor of placebo. [2]",
+          "citations": [2]
+        },
+        {
+          "text": "The university said the difference was statistically significant but modest, and below a commonly used threshold for a clinically important difference. Brain imaging showed no evidence that nicotinamide riboside slowed or accelerated changes in the dopamine system, and the overall rate of adverse events was similar in the two groups. Study director Charalampos Tzoulis said nicotinamide riboside increased NAD metabolism but that this did not translate into clinical improvement. [2]",
+          "citations": [2]
+        },
+        {
+          "text": "ChromaDex, a Niagen Bioscience company, supplied the nicotinamide riboside and placebo. The university said the funders had no role in the design, conduct, analysis, interpretation, or publication decision. The investigators said they do not recommend that people with Parkinson's disease use nicotinamide riboside or other NAD-boosting supplements outside controlled studies, and that the findings do not rule out a benefit in other diseases. Further subgroup analyses are still underway. [1, 2]",
+          "citations": [1, 2]
+        }
+      ],
+      "whyItMatters": "NAD+ precursors are both a supplement category and a drug-development hypothesis. NOPARK is a large placebo-controlled test of that hypothesis in early Parkinson's disease, and it separates a rise in NAD metabolism from a change in symptoms. For companies supplying these compounds, the trial narrows what a Parkinson's claim can rest on, without settling other indications.",
+      "editorNote": "Manual therapeutics brief. Trial dose and scores are reported as published; this is not a recommendation to start or stop any product. The investigators' statement about use outside trials is attributed to them.",
+      "cluster": [
+        {
+          "url": "https://mednews.hofstra.edu/2026/10/09/nicotinamide-riboside-not-a-disease-modifying-treatment-for-parkinsons/",
+          "source": "Hofstra/Northwell",
+          "title": "Nicotinamide Riboside Not a Disease-Modifying Treatment for Parkinsons"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://media.jamanetwork.com/media-releases/10.1001/jama.2026.18828",
+          "source": "JAMA",
+          "title": "Nicotinamide Riboside for Patients With Early-Stage Parkinson Disease",
+          "publishedAt": "2026-10-08"
+        },
+        {
+          "id": 2,
+          "url": "https://www4.uib.no/en/research/featured/major-trial-of-nad-boosting-treatment-finds-no-benefit-in-parkinsons-disease",
+          "source": "University of Bergen",
+          "title": "Major trial of NAD-boosting treatment finds no benefit in Parkinson’s disease",
+          "publishedAt": "2026-10-07"
+        }
+      ],
+      "tags": ["NAD+", "nicotinamide riboside", "Parkinson's disease", "clinical trials"],
+      "confidence": "high"
+    },
+    {
+      "slug": "mimrylo-rusfertide-polycythemia-vera",
+      "headline": "Takeda bolsters blood cancer portfolio with FDA nod for Mimrylo in polycythemia vera",
+      "dek": "The FDA approved the hepcidin-mimetic peptide rusfertide for erythrocytosis in adults with polycythemia vera.",
+      "type": "DEEP",
+      "publication": "manual",
+      "readMinutes": 4,
+      "tldr": [
+        "On August 28, 2026, the FDA approved Takeda's Mimrylo (rusfertide), a first-in-class hepcidin-mimetic peptide, for erythrocytosis in adults with polycythemia vera.",
+        "In the Phase 3 VERIFY trial of 293 patients, 76.9% of those on Mimrylo met the response definition in weeks 20 to 32, compared with 32.9% on placebo.",
+        "The most common adverse reactions above 15% in the company labeling summary were injection-site reactions and anemia. The open-label extension is still underway."
+      ],
+      "body": [
+        {
+          "text": "The FDA approved Takeda's Mimrylo (rusfertide) on August 28, 2026, for erythrocytosis in adults with polycythemia vera. Takeda describes Mimrylo as a first-in-class hepcidin mimetic, given once weekly under the skin, that limits iron available for excess red-cell production. Fierce Pharma reported the decision the same day. [1, 2]",
+          "citations": [1, 2]
+        },
+        {
+          "text": "The approval rests on the randomized Phase 3 VERIFY study, which enrolled 293 patients with uncontrolled hematocrit. Takeda said 76.9% of patients on Mimrylo achieved a clinical response during weeks 20 to 32. Fierce Pharma reported the corresponding placebo figure as 32.9%, using the trial's definition of no longer being eligible for phlebotomy. Takeda also reported less need for phlebotomy and an improvement in fatigue on the PROMIS Fatigue Short Form 8a. [1, 2]",
+          "citations": [1, 2]
+        },
+        {
+          "text": "Takeda's release lists injection-site reactions in 56% of treated patients and anemia in 16% as the most common adverse reactions above 15%. The label summary also warns of new or worsening thrombocytosis and of possible fetal harm. Fierce Pharma quoted Tanya Wroblewski of the FDA's Center for Drug Evaluation and Research, who called the approval a first-in-class option that could reduce the burden of frequent blood draws. The open-label portion of VERIFY is continuing. [1, 2]",
+          "citations": [1, 2]
+        },
+        {
+          "text": "Takeda says polycythemia vera affects about 90,000 people in the United States and that about 78% of patients do not keep hematocrit controlled on current care. Protagonist Therapeutics discovered the peptide and led it through Phase 3. Fierce Pharma reported that Takeda paid $300 million upfront in 2024 and later bought out its partner, and that Takeda now commercializes the drug globally while Protagonist remains eligible for sales royalties. [1, 2]",
+          "citations": [1, 2]
+        }
+      ],
+      "whyItMatters": "Rusfertide is a peptide drug, not a supplement, and its approval adds a new mechanism in a blood cancer that has relied on phlebotomy, hydroxyurea, interferons, and a JAK inhibitor. The commercial question is whether hematologists change practice; the clinical question still open is how the benefit holds up in the ongoing open-label extension and outside the United States.",
+      "editorNote": "Manual catch-up of the August 28, 2026 approval, which was not in an earlier edition. Company figures are attributed to Takeda. No treatment recommendation.",
+      "cluster": [
+        {
+          "url": "https://www.biospace.com/press-releases/protagonist-therapeutics-announces-u-s-fda-approval-of-hepcidin-mimetic-peptide-mimrylotm-rusfertide-for-polycythemia-vera",
+          "source": "Protagonist Therapeutics",
+          "title": "Protagonist Therapeutics Announces U.S. FDA Approval of Hepcidin Mimetic Peptide MIMRYLO (rusfertide) for Polycythemia Vera"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.fiercepharma.com/pharma/takeda-bolsters-blood-cancer-portfolio-fda-approval-mimrylo-polycythemia-vera",
+          "source": "Fierce Pharma",
+          "title": "Takeda bolsters blood cancer portfolio with FDA nod for Mimrylo in polycythemia vera",
+          "publishedAt": "2026-08-28"
+        },
+        {
+          "id": 2,
+          "url": "https://www.takeda.com/en-us/newsroom/news-releases/2026/fda-approval-mimrylo/",
+          "source": "Takeda",
+          "title": "FDA Approves MIMRYLO (rusfertide) for Polycythemia Vera",
+          "publishedAt": "2026-08-28"
+        }
+      ],
+      "tags": ["peptide therapeutic", "rusfertide", "FDA", "polycythemia vera"],
+      "confidence": "high"
+    },
+    {
+      "slug": "tecartus-traditional-approval-mantle-cell",
+      "headline": "FDA Grants Traditional Approval to Brexucabtagene Autoleucel for Relapsed or Refractory MCL",
+      "dek": "The FDA converted Tecartus from accelerated to traditional approval in relapsed or refractory mantle cell lymphoma, using confirmatory ZUMA-2 data.",
+      "type": "DEEP",
+      "publication": "manual",
+      "readMinutes": 5,
+      "tldr": [
+        "On April 2, 2026, the FDA granted traditional approval to brexucabtagene autoleucel (Tecartus) for adults with relapsed or refractory mantle cell lymphoma.",
+        "In ZUMA-2 cohort 3, 86 treated patients who had not received a BTK inhibitor had an objective response rate of 91% and a complete remission rate of 79%.",
+        "Pooled safety across 168 patients showed cytokine release syndrome in 93% and neurologic events in 80%. The study was single-arm, so it does not compare Tecartus with another treatment."
+      ],
+      "body": [
+        {
+          "text": "The FDA granted traditional approval to the CD19-directed CAR-T therapy brexucabtagene autoleucel (Tecartus) for adults with relapsed or refractory mantle cell lymphoma. The ASCO Post and OncLive both reported that the action converts the earlier accelerated approval and adds confirmatory data from cohort 3 of the single-arm ZUMA-2 study, in patients whose disease relapsed or was refractory after one or more lines of therapy and who had not received a BTK inhibitor. [1, 2]",
+          "citations": [1, 2]
+        },
+        {
+          "text": "ZUMA-2 is an open-label multicenter study. Cohorts 1 and 2 treated 82 patients who had received up to five prior lines, including chemotherapy, an anti-CD20 antibody, and a BTK inhibitor. Cohort 3 treated 86 patients who were BTK-inhibitor naive. The primary endpoint was objective response rate by independent review under the Lugano 2014 criteria. [1, 2]",
+          "citations": [1, 2]
+        },
+        {
+          "text": "In cohort 3, the objective response rate was 91% and the complete remission rate was 79%, with median duration of response not reached at a median follow-up of 23.0 months. In cohort 1, the objective response rate was 87% and the complete remission rate was 62%, with median duration of response not reached at 8.6 months of follow-up. Both reports describe the responses as high and the safety profile as consistent with earlier experience. [1, 2]",
+          "citations": [1, 2]
+        },
+        {
+          "text": "In the pooled mantle-cell population of 168 patients, cytokine release syndrome occurred in 93%, including grade 3 or higher in 12%, and neurologic events occurred in 80%, including grade 3 or higher in 33%. Infections of any grade occurred in 63%, including grade 3 or higher in 33%. In cohort 3, serious adverse reactions occurred in 65% of patients. Because the trial has no control arm, the reports do not establish how these results compare with another regimen. [1, 2]",
+          "citations": [1, 2]
+        }
+      ],
+      "whyItMatters": "Traditional approval means the confirmatory study fulfilled the postmarketing requirement that had kept this Tecartus indication on the accelerated pathway. For the CAR-T field, the cohort 3 data extend the labeled evidence to patients who have not yet received a BTK inhibitor, while the single-arm design still leaves comparative effectiveness open.",
+      "editorNote": "Manual catch-up of the April 2, 2026 approval, which was not in an earlier edition. Response rates are those reported by both outlets. Conflicting trial-identifier details between outlets were left out. No treatment recommendation.",
+      "cluster": [
+        {
+          "url": "https://www.gilead.com/company/company-statements/2026/us-fda-grants-full-approval-of-kite-tecartus-for-adult-patients-with-relapsed-or-refractory-mantle-cell-lymphoma",
+          "source": "Gilead / Kite",
+          "title": "U.S. FDA Grants Full Approval of Kite’s Tecartus for Adult Patients with Relapsed or Refractory Mantle Cell Lymphoma"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://ascopost.com/news/april-2026/fda-grants-traditional-approval-to-brexucabtagene-autoleucel-for-relapsed-or-refractory-mcl/",
+          "source": "ASCO Post",
+          "title": "FDA Grants Traditional Approval to Brexucabtagene Autoleucel for Relapsed or Refractory MCL",
+          "publishedAt": "2026-04-03"
+        },
+        {
+          "id": 2,
+          "url": "https://www.onclive.com/view/fda-approves-brexu-cel-for-relapsed-refractory-mcl",
+          "source": "OncLive",
+          "title": "FDA Approves Brexu-Cel for Relapsed/Refractory MCL",
+          "publishedAt": "2026-04-02"
+        }
+      ],
+      "tags": ["CAR-T", "Tecartus", "FDA", "mantle cell lymphoma"],
+      "confidence": "high"
+    },
+    {
+      "slug": "satri-cel-china-solid-tumor-car-t",
+      "headline": "CARsgen makes history as China approves world's first CAR-T therapy for solid tumors",
+      "dek": "China's drug regulator approved satricabtagene autoleucel for Claudin18.2-positive gastric cancer after at least two prior therapies.",
+      "type": "DEEP",
+      "publication": "manual",
+      "readMinutes": 4,
+      "tldr": [
+        "On June 22, 2026, China's NMPA approved CARsgen's satricabtagene autoleucel for Claudin18.2-positive, HER2-negative advanced gastric or gastroesophageal junction cancer.",
+        "The labeled population is patients who have already received at least two prior lines of therapy. The company calls it the first approved CAR-T for a solid tumor.",
+        "Company-reported Phase 2 figures were a median progression-free survival of 3.25 months versus 1.77 months on physician's choice. How widely the product will be used outside China is still open."
+      ],
+      "body": [
+        {
+          "text": "China's National Medical Products Administration approved satricabtagene autoleucel (satri-cel) on June 22, 2026, CARsgen said in a Hong Kong exchange filing the same day. The indication is Claudin18.2-positive, HER2-negative advanced gastric or gastroesophageal junction adenocarcinoma in patients who have failed at least two prior lines of therapy. Fierce Pharma reported the decision as the first approval of a CAR-T therapy aimed at a solid tumor. [1, 2]",
+          "citations": [1, 2]
+        },
+        {
+          "text": "Satri-cel is an autologous CAR-T product directed at Claudin18.2. The exchange filing describes that protein as largely limited to differentiated gastric mucosal cells and highly expressed in gastric cancer. The company says it was the first to validate Claudin18.2 as a CAR-T target. Those statements are the sponsor's account of the target, not an independent laboratory finding. [1, 2]",
+          "citations": [1, 2]
+        },
+        {
+          "text": "Fierce Pharma reported Phase 2 results the company had presented at ASCO: median progression-free survival of 3.25 months with satri-cel versus 1.77 months with a physician's choice of chemotherapy, and median overall survival of 7.92 months versus 5.49 months. The exchange filing confirms the approval and the indication; it does not restate those survival figures. The comparison was with physician's choice, not with a single named regimen. [1]",
+          "citations": [1]
+        },
+        {
+          "text": "CARsgen said it is studying earlier-line and perioperative use, and that a Phase 1 study in pancreatic cancer is underway in China. Chief executive Zonghai Li told Fierce Pharma the company intends to seek use in more countries. The filing does not set a timetable for approvals outside China, so the geographic reach of the product remains open. [1, 2]",
+          "citations": [1, 2]
+        }
+      ],
+      "whyItMatters": "Approved CAR-T products have been concentrated in blood cancers. A regulated solid-tumor approval, even in one market and a late-line population, is a test of whether Claudin18.2 cell therapy can move beyond trials. The survival gains reported by the company are measured in months, and use beyond China is not yet an approved fact.",
+      "editorNote": "Manual catch-up of the June 22, 2026 approval. The 'first solid-tumor CAR-T' wording is the company's claim, also reported by Fierce Pharma. Survival figures are company-reported via Fierce Pharma and are not in the exchange filing. No treatment recommendation.",
+      "cluster": [
+        {
+          "url": "https://www.carsgen.com/en/news/20260622/",
+          "source": "CARsgen",
+          "title": "CARsgen Announces Approval of Satri-cel, the World’s First CAR T-Cell Therapy Product for Solid Tumors"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.fiercepharma.com/pharma/carsgens-gastric-cancer-car-t-nabs-world-first-approval-china-checking-landmark-solid-tumor",
+          "source": "Fierce Pharma",
+          "title": "CARsgen makes history as China approves world's first CAR-T therapy for solid tumors",
+          "publishedAt": "2026-06-22"
+        },
+        {
+          "id": 2,
+          "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0622/2026062200474.pdf",
+          "source": "HKEX / CARsgen",
+          "title": "NMPA approves the NDA for satricabtagene autoleucel",
+          "publishedAt": "2026-06-22"
+        }
+      ],
+      "tags": ["CAR-T", "satri-cel", "gastric cancer", "China"],
       "confidence": "medium"
     }
   ]
