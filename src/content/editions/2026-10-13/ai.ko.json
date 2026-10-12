@@ -325,6 +325,91 @@
         "safety"
       ],
       "confidence": "high"
+    },
+    {
+      "slug": "ai-task-persistence-after-chatgpt-assistance-2026-10-13-ko",
+      "headline": "AI를 10분만 써도 어려운 과제에 끈기 있게 매달리는 힘이 약해질 수 있다는 연구",
+      "dek": "온라인 무작위 실험 세 건에서 ChatGPT를 사용한 참가자는 도구가 제거된 뒤 과제를 수행하는 데 더 어려움을 겪었다. 장기 영향은 측정하지 않았다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "온라인 실험 세 건에서 1,222명이 AI를 활용한 분수·독해 과제를 수행했다.",
+        "AI 접근이 끝난 뒤 일부 참가자는 후속 문제를 덜 풀거나 더 많이 건너뛰었다.",
+        "실험은 즉각적인 변화를 측정했으며 장기적인 학습·지속성 변화는 확인하지 않았다."
+      ],
+      "body": [
+        {
+          "text": "UC Berkeley 보도는 온라인 참가자 1,222명을 대상으로 한 무작위 실험 세 건을 소개한다. 일부 참가자는 분수 문제나 독해 과제를 풀면서 ChatGPT를 사용할 수 있었고, 연구진은 이후 도구 접근을 중단시킨 뒤 참가자의 수행을 측정했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "첫 번째 실험에서 AI를 사용할 수 있던 참가자는 처음에는 분수 문제를 더 정확히 풀었지만, 접근이 차단된 뒤 정답률이 떨어졌다. Berkeley는 더 큰 두 번째 분수 실험과 세 번째 독해 실험에서도 비슷한 양상을 보고했다. 연구는 2026년 언어모델링 콘퍼런스에서 동료심사를 거친 논문으로 발표됐다.",
+          "citations": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "논문은 짧은 온라인 과제에서 AI 사용을 중단한 직후의 수행을 측정한다. 10분 사용이 장기간 지속되는 인지 저하를 일으킨다는 증거는 아니며, 이 실험만으로 연령·과목·장기적인 학교나 직장 환경 전반의 영향을 확정할 수 없다.",
+          "citations": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "이번 결과는 AI 학습 도구가 사용자가 문제를 풀어가도록 돕는지, 아니면 답을 바로 제공하는지에 관한 설계 질문을 던진다. 단기 수행 차이가 오래 지속되는지, 학습 맥락에 따라 결과가 어떻게 달라지는지는 아직 확인되지 않았으며 연구도 이 질문들에 답을 내리지는 않는다.",
+          "citations": [
+            1,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "이 연구는 AI 도움을 중단한 직후 과제 수행에서 나타난 실험 결과를 제시하지만 장기 학습 효과는 확인하지 않았다.",
+      "editorNote": "Berkeley 제목을 그대로 번역했다. 단기 실험 결과와 지속적인 인지 변화 주장을 구분했다.",
+      "cluster": [
+        {
+          "url": "https://news.ycombinator.com/item?id=50041765",
+          "source": "Hacker News",
+          "title": "Using AI for just 10 minutes erodes your ability to persist at hard things"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2604.04721",
+          "source": "arXiv",
+          "title": "AI Assistance Reduces Persistence and Hurts Independent Performance"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://news.berkeley.edu/2026/10/09/using-ai-for-just-10-minutes-erodes-your-ability-to-persist-at-hard-things/",
+          "source": "UC Berkeley News",
+          "title": "Using AI for just 10 minutes erodes your ability to persist at hard things",
+          "publishedAt": "2026-10-09"
+        },
+        {
+          "id": 2,
+          "url": "https://news.ycombinator.com/item?id=50041765",
+          "source": "Hacker News discussion",
+          "title": "Using AI for just 10 minutes erodes your ability to persist at hard things",
+          "publishedAt": "2026-10-12"
+        },
+        {
+          "id": 3,
+          "url": "https://arxiv.org/pdf/2604.04721",
+          "source": "arXiv",
+          "title": "AI Assistance Reduces Persistence and Hurts Independent Performance"
+        }
+      ],
+      "tags": [
+        "AI",
+        "research",
+        "education"
+      ],
+      "confidence": "medium"
     }
   ]
 }

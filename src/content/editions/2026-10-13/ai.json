@@ -325,6 +325,91 @@
         "safety"
       ],
       "confidence": "high"
+    },
+    {
+      "slug": "ai-task-persistence-after-chatgpt-assistance-2026-10-13",
+      "headline": "Using AI for just 10 minutes erodes your ability to persist at hard things",
+      "dek": "Three randomized online experiments found that participants who used ChatGPT struggled more on difficult tasks after the tool was removed; longer-term effects were not measured.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Three online experiments tested 1,222 participants using AI on fraction and reading tasks.",
+        "After AI access ended, participants who had used it solved fewer subsequent problems or skipped more.",
+        "The experiments measured immediate effects, not lasting changes in learning or persistence."
+      ],
+      "body": [
+        {
+          "text": "A University of California, Berkeley report describes three randomized online experiments involving 1,222 recruited participants. Some participants could use ChatGPT while solving fractions or a reading-comprehension task; researchers later removed access and measured performance without the tool.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "In the first experiment, participants with AI access initially answered more fraction problems correctly, but their accuracy fell after access was removed. Berkeley reports similar patterns in a larger second fraction experiment and a third reading experiment; the study was presented as a peer-reviewed paper at the 2026 Conference on Language Modeling.",
+          "citations": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "The paper measures performance immediately after AI assistance was withdrawn in short online tasks. It does not show that ten minutes of use causes persistent cognitive decline, and the authors’ experiments cannot by themselves establish effects across different ages, subjects, or long-term classroom and workplace settings.",
+          "citations": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "The findings raise a design question for AI-assisted learning: whether systems support users in working through problems or simply provide answers. The unresolved issue is whether the observed short-term performance differences persist, and how instructional context changes the outcome; the study does not settle those questions.",
+          "citations": [
+            1,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "The study offers experimental evidence about immediate task performance after AI assistance ends, while leaving long-term learning effects unresolved.",
+      "editorNote": "Berkeley’s headline is reproduced verbatim. The report separates short-term experimental results from claims about enduring cognitive effects.",
+      "cluster": [
+        {
+          "url": "https://news.ycombinator.com/item?id=50041765",
+          "source": "Hacker News",
+          "title": "Using AI for just 10 minutes erodes your ability to persist at hard things"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2604.04721",
+          "source": "arXiv",
+          "title": "AI Assistance Reduces Persistence and Hurts Independent Performance"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://news.berkeley.edu/2026/10/09/using-ai-for-just-10-minutes-erodes-your-ability-to-persist-at-hard-things/",
+          "source": "UC Berkeley News",
+          "title": "Using AI for just 10 minutes erodes your ability to persist at hard things",
+          "publishedAt": "2026-10-09"
+        },
+        {
+          "id": 2,
+          "url": "https://news.ycombinator.com/item?id=50041765",
+          "source": "Hacker News discussion",
+          "title": "Using AI for just 10 minutes erodes your ability to persist at hard things",
+          "publishedAt": "2026-10-12"
+        },
+        {
+          "id": 3,
+          "url": "https://arxiv.org/pdf/2604.04721",
+          "source": "arXiv",
+          "title": "AI Assistance Reduces Persistence and Hurts Independent Performance"
+        }
+      ],
+      "tags": [
+        "AI",
+        "research",
+        "education"
+      ],
+      "confidence": "medium"
     }
   ]
 }
