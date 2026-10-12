@@ -1,7 +1,7 @@
 {
-  "date":"2026-10-12","generatedAt":"2026-10-12T07:05:00+09:00","vertical":"markets","lang":"ko",
+  "date":"2026-10-12","generatedAt":"2026-10-12T19:04:56+09:00","vertical":"markets","lang":"ko",
   "title":"물가·금리와 새 통신 경쟁자",
-  "summary":"5편이 복수 출처 기준을 통과했습니다. JPMorgan의 채권 기회 발언은 보도가 한 곳뿐이었고, 소매 상품군 축소 기사는 CNBC 보도를 독립 취재 없이 재배포한 수준이었으며, Bitcoin 가격 범위 평가는 단일 출처여서 10편 목표에 미달했습니다. 은행 실적·물가, 국채 수익률, 개발자 공고, SpaceX 스펙트럼, 러시아산 디젤 구상을 다룹니다.",
+  "summary":"다매체 보도 기준을 통과한 7편을 담았습니다. 추가 후보 다수는 독립된 두 번째 출처가 없거나 기존 보도와 중복되어 10편 목표에 미달했습니다. 저녁 병합에서는 AI 인프라 자금 조달과 에너지 휴전안에 대한 시장 반응을 추가했습니다.",
   "stories":[
     {
       "slug":"software-developer-job-postings-rise-amid-ai-coding-ko",
@@ -108,6 +108,153 @@
         {"id":1,"url":"https://apnews.com/article/93fa63c8aa8e538f1456e7d448fc550d","source":"Associated Press","title":"Six senators call for Trump administration to 'immediately reverse course' on Russian diesel plan","publishedAt":"2026-10-11"},
         {"id":2,"url":"https://www.aljazeera.com/news/2026/10/11/republican-senator-says-trumps-russian-diesel-agreement-may-be-illegal","source":"Al Jazeera","title":"Republican senator says Trump diesel agreement with Russia may be illegal","publishedAt":"2026-10-11"}
       ],"tags":["diesel","Russia","United States","sanctions"],"confidence":"medium"
+    },
+    {
+      "slug": "ai-capital-access-emerges-as-infrastructure-constraint-ko",
+      "headline": "Intel·Broadcom CEO들, 자본 부족이 AI 최대 병목이 될 수 있다고 경고",
+      "dek": "두 반도체 기업 경영자는 공급보다 자금 조달과 투자 수익의 입증이 인프라 확장을 제약할 수 있다고 말했다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "Intel CEO Lip-Bu Tan과 Broadcom CEO Hock Tan은 AI 인프라 확장의 제약이 칩 부족에서 자본 조달로 옮겨갈 수 있다고 말했다.",
+        "두 경영자는 싱가포르 행사에서 투자 비용과 AI 지출의 수익성을 언급했으며, Broadcom은 웨이퍼와 메모리 공급 제약이 완화되고 있다고 설명했다.",
+        "수요와 단기 전망은 여전히 강하지만, 실제 투자 수익과 자금 조달 여건이 장기 확장의 관건으로 남아 있다."
+      ],
+      "body": [
+        {
+          "text": "Intel의 Lip-Bu Tan과 Broadcom의 Hock Tan은 싱가포르 DBS Asia Future Forward Conference에서 AI 인프라 확장의 병목이 자본이 될 수 있다고 말했다. CNBC는 두 CEO가 컴퓨팅 수요가 공급을 웃도는 가운데 자금 조달을 주요 제약으로 지목했다고 보도했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Hock Tan은 자본이 반도체, 메모리 칩, 전력보다 더 큰 제약이 될 수 있다고 말했다. Reuters 보도에 따르면 그는 웨이퍼와 메모리 부족은 회사가 극복 중인 반면 투자 자본은 앞으로 더 큰 한계가 될 것으로 봤다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "Lip-Bu Tan은 자본 비용이 높아지는 상황과 AI에 큰돈을 투입하는 기업이 충분한 수익을 낼 수 있는지를 함께 문제로 제시했다. 두 CEO의 발언은 데이터센터, 칩, 전력 인프라에 대한 지출이 커지는 동시에 그 지출의 수익성이 검증되어야 한다는 점을 드러낸다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "두 경영자는 단기 AI 컴퓨팅 수요에는 낙관적이었지만, 투자 수익의 규모와 시점은 아직 확인되지 않았다. Broadcom은 일부 공급 부족이 완화될 수 있다고 봤으며, 자금 접근성과 장기 수요가 실제 인프라 확장 속도를 좌우할지는 열린 문제다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "AI 인프라 경쟁은 칩 공급에서 자본 배분과 수익성 검증으로 무게중심이 이동할 수 있다. 이 변화는 데이터센터 구축 속도와 관련 기술 기업의 자금 조달 환경에 영향을 줄 수 있지만, 두 경영자의 발언만으로 업계 전체의 투자 계획을 확정할 수는 없다.",
+      "editorNote": "19:00 KST 병합 추가. CNBC와 Reuters의 별도 보도를 대조했으며, 발언 외의 시장 규모나 수익 수치는 덧붙이지 않았다.",
+      "cluster": [
+        {
+          "url": "https://seekingalpha.com/news/4651984-broadcom-ceo-says-capital-will-be-biggest-constraint-for-ai-development-report",
+          "source": "Seeking Alpha",
+          "title": "Broadcom CEO says capital will be biggest constraint for AI development: report"
+        },
+        {
+          "url": "https://ca.marketscreener.com/news/broadcom-ceo-says-biggest-hurdle-in-ai-fuelled-tech-growth-is-capital-not-memory-chips-ce785ddcde89fe20",
+          "source": "Reuters via MarketScreener",
+          "title": "Broadcom CEO says biggest hurdle in AI-fuelled tech growth is capital, not memory chips"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/12/intel-broadcom-ceos-warn-capital-crunch-could-become-ai-bottleneck.html",
+          "source": "CNBC",
+          "title": "Intel, Broadcom CEOs warn capital crunch could become AI's biggest bottleneck",
+          "publishedAt": "2026-10-12T08:27:52.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://ca.marketscreener.com/news/broadcom-ceo-says-biggest-hurdle-in-ai-fuelled-tech-growth-is-capital-not-memory-chips-ce785ddcde89fe20",
+          "source": "Reuters via MarketScreener",
+          "title": "Broadcom CEO says biggest hurdle in AI-fuelled tech growth is capital, not memory chips",
+          "publishedAt": "2026-10-12T06:55:00.000Z"
+        }
+      ],
+      "tags": [
+        "AI infrastructure",
+        "semiconductors",
+        "capital spending"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "oil-prices-weigh-ceasefire-supply-hopes-against-risk-ko",
+      "headline": "러시아·우크라이나 ‘에너지 휴전’의 공급 효과에 회의론이 커지며 유가 반등",
+      "dek": "시장은 러시아 에너지 흐름의 차질이 줄어들 가능성과 휴전안의 불확실성을 저울질했다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "유가는 러시아와 우크라이나의 에너지 휴전이 공급을 늘릴 것이라는 기대와 실제 합의 여부에 대한 의구심을 함께 반영했다.",
+        "Reuters는 월요일 이른 시점에 러시아산 공급 증가 기대 속 유가가 하락했다고 보도했고, CNBC는 이후 휴전 효과에 대한 회의론 속 유가가 반등했다고 전했다.",
+        "양측의 합의 이행과 러시아산 연료 흐름의 변화는 아직 확인되지 않아 시장 영향의 방향과 지속성은 열려 있다."
+      ],
+      "body": [
+        {
+          "text": "시장은 도널드 트럼프 대통령이 발표한 러시아·우크라이나 에너지 휴전 구상이 실제 공급을 늘릴지 평가했다. CNBC는 휴전의 공급 개선 효과에 의구심이 커지면서 유가가 상승세로 돌아섰다고 보도했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Reuters는 같은 날 이른 거래에서 러시아산 공급이 늘어날 수 있다는 기대가 유가를 낮췄다고 전했다. 보도 시점에 따라 가격 움직임이 달랐다는 점은 시장이 발표 자체보다 예상되는 공급 변화와 실행 가능성을 다시 가격에 반영하고 있음을 보여준다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "휴전 발표는 에너지 시설에 대한 상호 공격 중단을 전제로 했지만, 우크라이나의 Volodymyr Zelenskyy 대통령은 세부 조건을 기다리고 있다고 밝혔다. 러시아 측의 확인도 보도 당시 나오지 않아 합의가 양측의 실제 행동으로 이어질지는 불분명했다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "따라서 이번 가격 움직임은 확정된 공급 회복보다 상반된 기대와 불확실성을 반영한다. 휴전 이행 여부와 러시아의 수출 흐름, 중동의 공급 위험이 이후 가격에 어떤 비중으로 반영될지는 아직 판단하기 이르다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "원유 가격은 러시아산 공급 전망과 중동의 지정학적 위험이 동시에 흔들 때 보도 시점별로 빠르게 달라질 수 있다. 이번 사례는 발표와 실제 공급 변화가 다를 수 있음을 보여주며, 지정학 뉴스가 에너지 시장에 전달되는 경로를 드러낸다.",
+      "editorNote": "19:00 KST 병합 추가. CNBC와 Reuters의 시점별 보도를 대조했으며, 유가 움직임은 각 보도 시점에 한정해 서술했다.",
+      "cluster": [
+        {
+          "url": "https://au.investing.com/news/commodities-news/oil-climbs-as-mideast-conflict-tanker-attacks-persist-4683285",
+          "source": "Reuters via Investing.com",
+          "title": "Oil falls on hopes Russia-Ukraine energy ceasefire will boost supplies"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/12/oil-prics-today-iran-us-saudi-arabia-crude-.html",
+          "source": "CNBC",
+          "title": "Oil turns higher amid skepticism Trump's 'energy ceasefire' between Russia and Ukraine will improve supply",
+          "publishedAt": "2026-10-12T09:40:28.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://au.investing.com/news/commodities-news/oil-climbs-as-mideast-conflict-tanker-attacks-persist-4683285",
+          "source": "Reuters via Investing.com",
+          "title": "Oil falls on hopes Russia-Ukraine energy ceasefire will boost supplies",
+          "publishedAt": "2026-10-12T01:27:00.000Z"
+        }
+      ],
+      "tags": [
+        "oil",
+        "Russia-Ukraine war",
+        "energy markets"
+      ],
+      "confidence": "medium"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
-  "date":"2026-10-12","generatedAt":"2026-10-12T07:05:00+09:00","vertical":"markets","lang":"en",
+  "date":"2026-10-12","generatedAt":"2026-10-12T19:04:56+09:00","vertical":"markets","lang":"en",
   "title":"Inflation, rates and a new telecom competitor",
-  "summary":"Five stories cleared the multi-source bar; the goal near ten was not met because the JPMorgan fixed-income opportunity call had one outlet, retail assortment cuts were repeated from CNBC without independent reporting, and Bitcoin range commentary had one source. Covered here: bank earnings and inflation, Treasury yields, developer postings, SpaceX spectrum and the Russian diesel proposal.",
+  "summary":"Seven stories cleared the multi-outlet bar; the goal near ten was not met because most additional candidates lacked a second independent outlet or repeated existing coverage. This evening pass adds reporting on AI infrastructure financing and the market reaction to the proposed energy ceasefire.",
   "stories":[
     {
       "slug":"software-developer-job-postings-rise-amid-ai-coding",
@@ -112,6 +112,153 @@
         {"id":1,"url":"https://apnews.com/article/93fa63c8aa8e538f1456e7d448fc550d","source":"Associated Press","title":"Six senators call for Trump administration to 'immediately reverse course' on Russian diesel plan","publishedAt":"2026-10-11"},
         {"id":2,"url":"https://www.aljazeera.com/news/2026/10/11/republican-senator-says-trumps-russian-diesel-agreement-may-be-illegal","source":"Al Jazeera","title":"Republican senator says Trump diesel agreement with Russia may be illegal","publishedAt":"2026-10-11"}
       ],"tags":["diesel","Russia","United States","sanctions"],"confidence":"medium"
+    },
+    {
+      "slug": "ai-capital-access-emerges-as-infrastructure-constraint",
+      "headline": "Intel, Broadcom CEOs warn capital crunch could become AI's biggest bottleneck",
+      "dek": "Executives at both chipmakers said financing and evidence of returns may constrain an infrastructure build-out whose demand still exceeds supply.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "Intel CEO Lip-Bu Tan and Broadcom CEO Hock Tan said access to capital could replace chip shortages as a constraint on AI infrastructure expansion.",
+        "At a Singapore conference, both executives raised financing costs and the need to demonstrate returns on AI spending; Broadcom said wafer and memory constraints were easing.",
+        "Demand and near-term expectations remain strong, while financing conditions and realized returns remain open questions for longer-term expansion."
+      ],
+      "body": [
+        {
+          "text": "Intel CEO Lip-Bu Tan and Broadcom CEO Hock Tan said at the DBS Asia Future Forward Conference in Singapore that capital could become a bottleneck for AI infrastructure expansion. CNBC reported that both executives identified financing as a key constraint while demand for computing capacity continues to outstrip supply.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Hock Tan said capital could become a larger constraint than semiconductors, memory chips or power. Reuters reported that he described wafer and memory shortages as constraints the company was overcoming, while capital would be the larger limit ahead.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "Lip-Bu Tan pointed to the rising cost of capital and questions about whether companies investing heavily in AI will generate sufficient returns. Their comments highlight the need to demonstrate the economics of growing spending on data centers, chips and power infrastructure.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Both executives remained optimistic about near-term demand for AI computing, but the scale and timing of returns have not been established. Broadcom expects some supply shortages to ease; whether access to funding and longer-term demand will sustain infrastructure expansion remains open.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The AI infrastructure race may shift from chip availability toward capital allocation and proof of returns. That could affect data-center construction and financing for related technology companies, although remarks by two executives do not establish investment plans across the industry.",
+      "editorNote": "Added in the 19:00 KST merge. CNBC and Reuters reports were compared; no market-size or return figures beyond the cited reporting were added.",
+      "cluster": [
+        {
+          "url": "https://seekingalpha.com/news/4651984-broadcom-ceo-says-capital-will-be-biggest-constraint-for-ai-development-report",
+          "source": "Seeking Alpha",
+          "title": "Broadcom CEO says capital will be biggest constraint for AI development: report"
+        },
+        {
+          "url": "https://ca.marketscreener.com/news/broadcom-ceo-says-biggest-hurdle-in-ai-fuelled-tech-growth-is-capital-not-memory-chips-ce785ddcde89fe20",
+          "source": "Reuters via MarketScreener",
+          "title": "Broadcom CEO says biggest hurdle in AI-fuelled tech growth is capital, not memory chips"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/12/intel-broadcom-ceos-warn-capital-crunch-could-become-ai-bottleneck.html",
+          "source": "CNBC",
+          "title": "Intel, Broadcom CEOs warn capital crunch could become AI's biggest bottleneck",
+          "publishedAt": "2026-10-12T08:27:52.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://ca.marketscreener.com/news/broadcom-ceo-says-biggest-hurdle-in-ai-fuelled-tech-growth-is-capital-not-memory-chips-ce785ddcde89fe20",
+          "source": "Reuters via MarketScreener",
+          "title": "Broadcom CEO says biggest hurdle in AI-fuelled tech growth is capital, not memory chips",
+          "publishedAt": "2026-10-12T06:55:00.000Z"
+        }
+      ],
+      "tags": [
+        "AI infrastructure",
+        "semiconductors",
+        "capital spending"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "oil-prices-weigh-ceasefire-supply-hopes-against-risk",
+      "headline": "Oil turns higher amid skepticism Trump's 'energy ceasefire' between Russia and Ukraine will improve supply",
+      "dek": "The market weighed the prospect of fewer disruptions to Russian energy flows against continued uncertainty over the proposed pause and wider supply risks.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "Oil prices reflected both hopes that an energy ceasefire between Russia and Ukraine could increase supply and doubts about whether a deal would take effect.",
+        "Reuters reported an earlier Monday decline on expectations of more Russian supply, while CNBC later reported a rebound amid skepticism about the ceasefire’s effect.",
+        "Implementation by both sides and changes in Russian fuel flows remain unconfirmed, leaving the direction and durability of the market impact open."
+      ],
+      "body": [
+        {
+          "text": "Markets assessed whether the energy ceasefire announced by President Donald Trump could lead to more reliable supplies. CNBC reported that oil turned higher as skepticism grew about whether the proposal would improve supply.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Reuters reported that oil prices had slipped earlier on Monday as traders anticipated more Russian supply. The different moves at different reporting times show how the market was repricing expected supply changes and uncertainty over whether they would materialize.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "The announcement proposed a mutual pause in attacks on energy facilities, but Ukrainian President Volodymyr Zelenskyy said he was waiting for details. Russia had not confirmed the arrangement in the Reuters report, leaving open whether either side would change its actions.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "The price moves therefore reflected competing expectations rather than confirmed supply recovery. Whether the ceasefire holds, Russian exports change, or Middle East supply risks dominate subsequent trading remains unresolved.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Oil prices can move quickly when expectations for Russian supply and geopolitical risks in the Middle East shift at the same time. This episode shows the gap between an announced arrangement and verified changes in physical supply, as well as how geopolitical news reaches energy markets.",
+      "editorNote": "Added in the 19:00 KST merge. CNBC and Reuters reports at different times were compared; price action is described relative to each report’s publication time.",
+      "cluster": [
+        {
+          "url": "https://au.investing.com/news/commodities-news/oil-climbs-as-mideast-conflict-tanker-attacks-persist-4683285",
+          "source": "Reuters via Investing.com",
+          "title": "Oil falls on hopes Russia-Ukraine energy ceasefire will boost supplies"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/12/oil-prics-today-iran-us-saudi-arabia-crude-.html",
+          "source": "CNBC",
+          "title": "Oil turns higher amid skepticism Trump's 'energy ceasefire' between Russia and Ukraine will improve supply",
+          "publishedAt": "2026-10-12T09:40:28.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://au.investing.com/news/commodities-news/oil-climbs-as-mideast-conflict-tanker-attacks-persist-4683285",
+          "source": "Reuters via Investing.com",
+          "title": "Oil falls on hopes Russia-Ukraine energy ceasefire will boost supplies",
+          "publishedAt": "2026-10-12T01:27:00.000Z"
+        }
+      ],
+      "tags": [
+        "oil",
+        "Russia-Ukraine war",
+        "energy markets"
+      ],
+      "confidence": "medium"
     }
   ]
 }
