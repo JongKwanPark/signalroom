@@ -1,0 +1,183 @@
+{
+  "date": "2026-10-13",
+  "generatedAt": "2026-10-13T07:06:24+09:00",
+  "vertical": "markets",
+  "lang": "en",
+  "title": "Fed inflation outlook and a quantum-security acquisition",
+  "summary": "Fed officials are weighing inflation risks and labor-market costs, while IonQ agreed to a pending acquisition in cybersecurity.",
+  "stories": [
+    {
+      "slug": "fed-hammack-inflation-rates-demand-2026-10-13",
+      "headline": "Higher rates could be needed to avoid 'inflationary mindset' taking hold, says Fed's Hammack",
+      "dek": "Cleveland Fed President Beth Hammack said rates may need to stay restrictive as officials weigh persistent inflation against labor-market risks.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Beth Hammack said higher rates may be needed to prevent persistent inflation.",
+        "Her remarks are an individual policy view, not an FOMC decision.",
+        "Energy costs and upcoming inflation data shape the outlook."
+      ],
+      "body": [
+        {
+          "text": "Cleveland Federal Reserve President Beth Hammack said higher interest rates could be needed to prevent an “inflationary mindset” from taking hold, CNBC reported. Investing.com separately reported her remarks that the Fed hopes to cool demand and inflation without causing labor-market pain.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The comments came as the Federal Reserve considers inflation and employment risks amid elevated energy costs. Hammack’s remarks describe her policy view; they are not a Federal Open Market Committee decision or a commitment to a particular rate path.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "A separate CNN report said fuel prices had risen after the war with Iran and described Fed officials’ concern that energy costs could spill into broader inflation. The September consumer-price report was due later in the week, leaving policymakers waiting for updated data before judging the persistence of price pressures.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Markets will be watching whether energy-driven inflation changes expectations for the timing and scale of rate adjustments. The unresolved balance is whether tighter policy can prevent broader price increases without materially weakening hiring and spending; the remarks alone do not determine that outcome.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Hammack’s comments underline the Fed’s competing inflation and employment concerns, with upcoming price data still central to policy expectations.",
+      "editorNote": "Comments are attributed to Hammack and distinguished from committee policy; no investment recommendations.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/economy-news/feds-hammack-hope-to-cool-demand-and-inflation-without-job-market-pain-4945244",
+          "source": "Investing.com",
+          "title": "Fed’s Hammack: Hope to cool demand, and inflation, without job market pain"
+        },
+        {
+          "url": "https://edition.cnn.com/2026/10/12/economy/federal-reserve-inflation-pain",
+          "source": "CNN",
+          "title": "Fed officials are warning of more pain"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/12/beth-hammack-fed-inflation-policy.html",
+          "source": "CNBC",
+          "title": "Higher rates could be needed to avoid 'inflationary mindset' taking hold, says Fed's Hammack",
+          "publishedAt": "2026-10-12"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/economy-news/feds-hammack-hope-to-cool-demand-and-inflation-without-job-market-pain-4945244",
+          "source": "Investing.com",
+          "title": "Fed’s Hammack: Hope to cool demand, and inflation, without job market pain",
+          "publishedAt": "2026-10-12"
+        },
+        {
+          "id": 3,
+          "url": "https://edition.cnn.com/2026/10/12/economy/federal-reserve-inflation-pain",
+          "source": "CNN",
+          "title": "Fed officials are warning of more pain. Many Americans are already feeling it",
+          "publishedAt": "2026-10-12"
+        }
+      ],
+      "tags": [
+        "markets",
+        "Federal Reserve",
+        "inflation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "ionq-elisity-acquisition-quantum-security-2026-10-13",
+      "headline": "IonQ to acquire cybersecurity firm Elisity in an all-stock deal for up to $1.3 billion",
+      "dek": "IonQ agreed to buy Elisity, extending the quantum-computing company into enterprise identity and zero-trust security.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "IonQ agreed to acquire Elisity in a stock deal valued up to $1.3 billion.",
+        "The transaction is pending and includes up to $150 million in earnout.",
+        "Final value and strategic returns depend on approvals and future performance."
+      ],
+      "body": [
+        {
+          "text": "IonQ announced a definitive agreement to acquire privately held cybersecurity company Elisity in an all-stock transaction valued at up to $1.3 billion. CNBC reported the deal, while IonQ and Elisity each published statements confirming the agreement.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "IonQ said the maximum value includes up to $150 million in performance-based earnout opportunity. The companies expect the transaction to close in the fourth quarter of 2026, subject to customary conditions including regulatory approval; the deal has not yet closed.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The strategic rationale is to combine IonQ’s post-quantum cryptography and quantum key distribution work with Elisity’s enterprise zero-trust platform. That rationale comes from the companies and does not establish that the combination will create the expected customer demand or technical integration.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "For investors, the open questions include the final share issuance, Elisity’s performance against earnout conditions, integration costs, and the path to revenue contribution. The headline transaction value is a maximum stated figure, not cash paid at signing or a guaranteed value at closing.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The deal broadens IonQ’s security business, but its final value and strategic returns depend on closing conditions and future performance.",
+      "editorNote": "The transaction is pending; maximum consideration is not described as guaranteed or already paid. No investment advice.",
+      "cluster": [
+        {
+          "url": "https://www.ionq.com/news/ionq-to-acquire-elisity-to-accelerate-zero-trust-for-the-quantum-era",
+          "source": "IonQ",
+          "title": "IonQ to Acquire Elisity"
+        },
+        {
+          "url": "https://www.elisity.com/news/elisity-announces-acquisition-by-ionq-to-advance-zero-trust-for-the-quantum-era",
+          "source": "Elisity",
+          "title": "Elisity announces acquisition by IonQ"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/12/ionq-elisity-acquisition-cybersecurity.html",
+          "source": "CNBC",
+          "title": "IonQ to acquire cybersecurity firm Elisity in an all-stock deal for up to $1.3 billion",
+          "publishedAt": "2026-10-12"
+        },
+        {
+          "id": 2,
+          "url": "https://www.ionq.com/news/ionq-to-acquire-elisity-to-accelerate-zero-trust-for-the-quantum-era",
+          "source": "IonQ",
+          "title": "IonQ to Acquire Elisity to Accelerate Zero Trust for the Quantum Era",
+          "publishedAt": "2026-10-12"
+        },
+        {
+          "id": 3,
+          "url": "https://www.elisity.com/news/elisity-announces-acquisition-by-ionq-to-advance-zero-trust-for-the-quantum-era",
+          "source": "Elisity",
+          "title": "Elisity announces acquisition by IonQ to advance Zero Trust for the quantum era",
+          "publishedAt": "2026-10-12"
+        }
+      ],
+      "tags": [
+        "markets",
+        "M&A",
+        "cybersecurity",
+        "quantum computing"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

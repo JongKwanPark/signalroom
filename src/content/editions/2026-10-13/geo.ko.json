@@ -1,0 +1,269 @@
+{
+  "date": "2026-10-13",
+  "generatedAt": "2026-10-13T07:06:24+09:00",
+  "vertical": "geo",
+  "lang": "ko",
+  "title": "에너지 휴전 주장, 중국 무역 제한, 연방 수사",
+  "summary": "러시아-우크라이나 에너지 휴전의 불확실성, EU-중국 차량 쿼터 합의, 현직 미국 의원 자택 수색 소식을 전한다.",
+  "stories": [
+    {
+      "slug": "russia-ukraine-energy-ceasefire-attacks-2026-10-13-ko",
+      "headline": "트럼프 휴전 발표 뒤 러시아가 우크라이나 에너지 시설 6곳 공격했다고 젤렌스키 주장",
+      "dek": "휴전 발표 후 우크라이나 에너지 시설에 대한 공격이 보고됐지만 모스크바는 합의를 공개적으로 확인하지 않았다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "젤렌스키는 러시아가 우크라이나 에너지 시설 6곳을 공격했다고 말했다.",
+        "트럼프는 양측이 공격 중단에 동의했다고 했으나 러시아는 합의를 확인하지 않았다.",
+        "상호 합의된 조건과 감시 체계가 마련됐는지는 열린 쟁점이다."
+      ],
+      "body": [
+        {
+          "text": "우크라이나 대통령 볼로디미르 젤렌스키는 도널드 트럼프가 러시아와 우크라이나의 즉각적인 에너지 휴전을 발표한 뒤 러시아가 에너지 시설 6곳을 공격했다고 말했다. BBC는 이 주장을 젤렌스키에게 귀속했고 AP도 러시아가 우크라이나 에너지 시설을 계속 공격했다는 그의 발언을 전했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "트럼프는 양국이 에너지 기반시설 공격을 중단하기로 합의했다고 말했지만 발표에는 세부 사항이 거의 없었다. AP에 따르면 크렘린 대변인 드미트리 페스코프는 러시아가 동의했는지 확인하지 않고 접촉이 진행 중이라고만 말했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "젤렌스키는 우크라이나가 러시아 에너지 시설 공격을 중단할 준비가 됐으며 트럼프 발표 이후 공격을 자제했다고 말했다. 트럼프는 양측 모두 위반이 있었다고 했고, AP는 이를 시행이 확인된 휴전이 아니라 상태가 불분명한 합의 주장으로 다뤘다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "양국 정부가 조건과 감시 방식, 시작 시점에 합의했는지가 당장의 쟁점이다. 과거 휴전 발표 뒤에도 공격이 멈추지 않았고, 겨울이 다가오면서 난방과 전력 공급에 중요한 에너지 시설의 전략적 가치가 커지고 있다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "상호 확인과 감시 체계를 갖춘 공격 중단이 성립했는지 아직 확인되지 않았으며 보고된 타격은 합의의 실효성을 시험한다.",
+      "editorNote": "젤렌스키의 주장과 트럼프의 발표를 귀속해 서술했다. 휴전이 양측에 의해 확인됐다고 단정하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/6fdef6ff4d033b379c74e1d62183d078",
+          "source": "Associated Press",
+          "title": "Zelenskyy says Russia strikes energy facilities despite Trump claim"
+        },
+        {
+          "url": "https://www.dw.com/en/trump-claims-russia-and-ukraine-agreed-to-energy-ceasefire/a-79634509",
+          "source": "Deutsche Welle",
+          "title": "Trump claims Russia and Ukraine agreed to energy ceasefire"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cvlyd4pdlwkxo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says",
+          "publishedAt": "2026-10-12"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/6fdef6ff4d033b379c74e1d62183d078",
+          "source": "Associated Press",
+          "title": "Zelenskyy says Russia strikes energy facilities despite Trump claim of an energy ceasefire",
+          "publishedAt": "2026-10-12"
+        },
+        {
+          "id": 3,
+          "url": "https://www.dw.com/en/trump-claims-russia-and-ukraine-agreed-to-energy-ceasefire/a-79634509",
+          "source": "Deutsche Welle",
+          "title": "Trump claims Russia and Ukraine agreed to energy ceasefire",
+          "publishedAt": "2026-10-11"
+        }
+      ],
+      "tags": [
+        "geopolitics",
+        "Ukraine",
+        "energy security"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "eu-china-hybrid-import-quota-350000-2026-10-13-ko",
+      "headline": "EU, 중국산 하이브리드 차량 수입 연 35만 대로 제한",
+      "dek": "브뤼셀과 베이징이 중국산 하이브리드차의 EU 수입을 제한하는 잠정 쿼터 합의에 이르렀다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "EU는 중국산 하이브리드차 수입을 연간 35만 대로 제한할 계획이다.",
+        "보도에 따르면 플러그인 하이브리드가 포함되며 12월 발효가 예상된다.",
+        "구체적인 집행 방식과 자동차 시장 영향은 아직 정해지지 않았다."
+      ],
+      "body": [
+        {
+          "text": "EU는 중국산 하이브리드 차량 수입을 연간 35만 대로 제한할 계획이라고 가디언과 AP가 EU 당국자를 인용해 보도했다. 플러그인 하이브리드도 쿼터에 포함되며, 브뤼셀과 베이징의 차량 수출 및 무역 갈등 협상 뒤 나온 조치다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP는 중국의 9월 승용차 수출이 약 91만 9천 대에 이르렀고 국내 판매는 전년 동월보다 27% 감소했다고 전했다. 중국 업체가 자국 내 수요 약화 속에서 해외 시장에 더 의존하게 된 점도 유럽 수입 제한의 배경으로 설명됐다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "가디언은 이 합의가 12월 발효될 것으로 예상되며 EU 시장에서 중국의 점유율을 절반으로 낮출 수 있다고 보도했다. 해당 합의는 잠정 조치로 설명됐고, 업체별로 쿼터를 어떻게 적용할지는 보도만으로 확정되지 않았다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "유럽에서 이 조치는 무역 정책과 자동차 산업의 경쟁·생산 역량을 연결한다. 최종 법적 수단과 제품 분류, 가격 경쟁에 미칠 영향, 중국차 수출을 둘러싼 추가 협상 여부가 남은 쟁점이다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "협상된 수입 상한으로 EU-중국 자동차 갈등이 구체화됐지만 집행 방식과 시장 영향은 아직 불확실하다.",
+      "editorNote": "쿼터와 시장 전망은 보도 및 당국자 발언에 귀속했다.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/0d0bf31b40a68fa75ea6ccf8e9f6467e",
+          "source": "Associated Press",
+          "title": "China’s carmakers export more as EU caps hybrid vehicle imports"
+        },
+        {
+          "url": "https://www.malaymail.com/news/money/2026/10/12/eu-to-cap-chinese-hybrid-vehicle-imports-at-350000-a-year/238825",
+          "source": "Malay Mail / AFP",
+          "title": "EU to cap Chinese hybrid vehicle imports at 350,000 a year"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.theguardian.com/environment/2026/oct/12/eu-deal-china-limit-imports-hybrid-electric-vehicles",
+          "source": "The Guardian",
+          "title": "EU to limit Chinese hybrid vehicle imports to 350,000 a year",
+          "publishedAt": "2026-10-12"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/0d0bf31b40a68fa75ea6ccf8e9f6467e",
+          "source": "Associated Press",
+          "title": "China’s carmakers export more as EU caps hybrid vehicle imports at 350,000 a year",
+          "publishedAt": "2026-10-12"
+        },
+        {
+          "id": 3,
+          "url": "https://www.malaymail.com/news/money/2026/10/12/eu-to-cap-chinese-hybrid-vehicle-imports-at-350000-a-year/238825",
+          "source": "Malay Mail / AFP",
+          "title": "EU to cap Chinese hybrid vehicle imports at 350,000 a year",
+          "publishedAt": "2026-10-12"
+        }
+      ],
+      "tags": [
+        "geopolitics",
+        "trade",
+        "China",
+        "European Union"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "federal-search-ilhan-omar-home-2026-10-13-ko",
+      "headline": "이민 수사관, Ilhan Omar 하원의원 자택 수색",
+      "dek": "수사의 범위와 법적 근거가 초기 보도에서 명확히 공개되지 않은 가운데 연방 요원들이 Omar 의원의 워싱턴 자택을 수색했다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "BBC와 AP는 10월 12일 Omar 의원 자택 수색을 보도했다.",
+        "당국은 수사를 언급했지만 위법 행위나 영장 근거는 공개되지 않았다.",
+        "정치적 동기라는 주장은 Omar 의원의 입장이며 수사기관 동기에 대한 판정은 아니다."
+      ],
+      "body": [
+        {
+          "text": "BBC와 AP에 따르면 연방 요원들은 10월 12일 민주당 소속 하원의원 Ilhan Omar의 워싱턴 자택을 수색했다. Omar는 자신을 침묵시키려는 시도라고 주장했지만 이는 의원의 입장이지 수사기관의 동기에 관한 판단은 아니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP는 수사의 성격과 범위가 불분명하다고 보도했다. Axios는 법무부가 진행 중인 이민 관련 수사를 확인했다고 전했고 CBS News는 Omar가 어렸을 때 작성된 이민 서류를 둘러싼 조사라는 소식통 설명을 보도했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Omar 의원실과 민주당 지도부는 수색을 비판하고 중간선거를 앞둔 시점에 우려를 제기했다. 보도로 확인된 것은 수색이 있었고 당국이 이를 수사와 연결했다는 점이다. Omar가 범죄를 저질렀다는 사실이나 영장의 근거 증거는 공개되지 않았다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "현직 연방의원과 선거를 앞둔 시기의 연방 수사 권한이 관련돼 제도적으로 중요한 사안이다. 다음 확인 지점은 법원 기록, 수사의 구체적 설명, Omar 의원 법률대리인의 대응이다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "수색 자체는 확인됐지만 증거 근거와 수사 범위는 공개된 보도에서 아직 드러나지 않았다.",
+      "editorNote": "혐의와 정치적 주장, 확인된 절차 사실을 구분했으며 유죄를 암시하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/8e18c2aea948bd90f4d7a4eb32b9ec3a",
+          "source": "Associated Press",
+          "title": "Agents search Rep. Omar’s Washington home"
+        },
+        {
+          "url": "https://www.axios.com/2026/10/12/ilhan-omar-search-immigration",
+          "source": "Axios",
+          "title": "Feds search Rep. Ilhan Omar’s home in immigration probe"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cvp8glg97393o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Immigration agents search Congresswoman Ilhan Omar's home",
+          "publishedAt": "2026-10-12"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/8e18c2aea948bd90f4d7a4eb32b9ec3a",
+          "source": "Associated Press",
+          "title": "Agents search Rep. Omar's Washington home in criminal probe as she vows she won't be silenced",
+          "publishedAt": "2026-10-12"
+        },
+        {
+          "id": 3,
+          "url": "https://www.axios.com/2026/10/12/ilhan-omar-search-immigration",
+          "source": "Axios",
+          "title": "Feds search Rep. Ilhan Omar's home in immigration probe",
+          "publishedAt": "2026-10-12"
+        }
+      ],
+      "tags": [
+        "geopolitics",
+        "United States",
+        "rule of law"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

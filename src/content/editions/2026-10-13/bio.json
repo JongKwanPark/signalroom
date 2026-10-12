@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-13",
+  "generatedAt": "2026-10-13T07:06:24+09:00",
+  "vertical": "bio",
+  "lang": "en",
+  "title": "NAD+ precursor trial reports no benefit in early Parkinson disease",
+  "summary": "A randomized trial reported no clinical benefit from nicotinamide riboside in early Parkinson disease; broader NAD+ questions remain open.",
+  "stories": [
+    {
+      "slug": "nopark-nicotinamide-riboside-parkinson-trial-2026-10-13",
+      "headline": "Nicotinamide Riboside for Patients With Early-Stage Parkinson Disease: The NOPARK Randomized Clinical Trial",
+      "dek": "A phase 3 trial reported no clinical benefit from nicotinamide riboside in early Parkinson disease, with the primary outcome favoring placebo.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "NOPARK randomized 410 participants across 11 Norwegian centers for 52 weeks.",
+        "The primary outcome favored placebo over nicotinamide riboside.",
+        "The result is specific to this trial and does not generalize to all NAD+ research."
+      ],
+      "body": [
+        {
+          "text": "The NOPARK randomized trial enrolled 410 people with early Parkinson disease at 11 Norwegian centers and compared nicotinamide riboside with placebo over 52 weeks. The results were published online in JAMA on October 8, 2026, and summarized by the University of Bergen and the study team.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "On the primary MDS-UPDRS outcome, the nicotinamide-riboside group changed by 2.45 points from baseline, while the placebo group changed by minus 0.27 points. The study authors report that this difference was statistically significant in favor of placebo; the trial therefore did not show clinical benefit for the tested intervention and population.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The University of Bergen release says the trial was randomized and double-blind, with participants assigned at 11 Norwegian sites. The finding concerns this specific clinical trial, dose regimen, duration, and early-stage Parkinson population; it should not be generalized to other NAD+ precursors, conditions, or uses.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The result is a material clinical data point for development of NAD+ precursors in neurology, but it does not settle every biological or clinical question about the pathway. Longer-term outcomes, other patient groups, and independent interpretation of the trial’s clinical significance remain separate questions; this report offers no supplement or treatment advice.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The randomized clinical result weighs against efficacy for this tested regimen in early Parkinson disease and is not a general conclusion about all NAD+ research.",
+      "editorNote": "This is clinical outcome news with journal and institutional coverage; no consumer health advice is offered.",
+      "cluster": [
+        {
+          "url": "https://www.eurekalert.org/news-releases/1146813",
+          "source": "EurekAlert! / University of Bergen",
+          "title": "Major trial of NAD-boosting treatment finds no benefit in Parkinson’s disease"
+        },
+        {
+          "url": "https://kommunikasjon.ntb.no/pressemelding/19094686/stor-norsk-klinisk-studie-viser-at-behandling-med-nad-ikke-bremser-parkinsons-sykdom?lang=no",
+          "source": "University of Bergen",
+          "title": "University of Bergen report on NOPARK trial"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://jamanetwork.com/journals/jama/article-abstract/2855023",
+          "source": "JAMA",
+          "title": "Nicotinamide Riboside for Patients With Early-Stage Parkinson Disease: The NOPARK Randomized Clinical Trial",
+          "publishedAt": "2026-10-08"
+        },
+        {
+          "id": 2,
+          "url": "https://kommunikasjon.ntb.no/pressemelding/19094686/stor-norsk-klinisk-studie-viser-at-behandling-med-nad-ikke-bremser-parkinsons-sykdom?lang=no",
+          "source": "University of Bergen",
+          "title": "Large Norwegian clinical study finds NAD treatment does not slow Parkinson’s disease",
+          "publishedAt": "2026-10-09"
+        },
+        {
+          "id": 3,
+          "url": "https://www.eurekalert.org/news-releases/1146813",
+          "source": "EurekAlert! / University of Bergen",
+          "title": "Major trial of NAD-boosting treatment finds no benefit in Parkinson’s disease",
+          "publishedAt": "2026-10-08"
+        }
+      ],
+      "tags": [
+        "bio",
+        "clinical trial",
+        "NAD+"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

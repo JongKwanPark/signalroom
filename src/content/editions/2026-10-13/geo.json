@@ -1,0 +1,269 @@
+{
+  "date": "2026-10-13",
+  "generatedAt": "2026-10-13T07:06:24+09:00",
+  "vertical": "geo",
+  "lang": "en",
+  "title": "Energy ceasefire claims, China trade limits and a federal search",
+  "summary": "Reports track an unconfirmed Russia-Ukraine energy ceasefire, an EU-China vehicle quota agreement and a search of a sitting US representative’s home.",
+  "stories": [
+    {
+      "slug": "russia-ukraine-energy-ceasefire-attacks-2026-10-13",
+      "headline": "Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says",
+      "dek": "A ceasefire announcement by President Trump was followed by reported strikes on Ukrainian energy sites, while Moscow had not publicly confirmed the arrangement.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Zelenskyy said Russia hit six Ukrainian energy sites after Trump’s announcement.",
+        "Moscow did not publicly confirm accepting the proposed ceasefire.",
+        "Terms, monitoring, and a mutually recognized start time remain unclear."
+      ],
+      "body": [
+        {
+          "text": "Ukrainian President Volodymyr Zelenskyy said Russian attacks struck six energy facilities after Donald Trump announced an immediate energy ceasefire between Russia and Ukraine. The BBC report attributes the account to Zelenskyy; the Associated Press separately reported his statement that Moscow continued to hit Ukrainian energy sites.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Trump said the two countries had agreed to stop attacks on energy infrastructure, but the announcement offered few details. The AP reported that Kremlin spokesman Dmitry Peskov would not confirm a Russian agreement and said contacts were ongoing.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Zelenskyy said Ukraine was prepared to halt attacks on Russian energy infrastructure and had refrained from strikes since Trump’s announcement. Trump said there had been violations on both sides, while the AP report described the status of the arrangement as disputed rather than implemented and verified.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The immediate question is whether the parties have agreed on terms, monitoring, and a start time that both governments recognize. Previous ceasefire announcements had not stopped attacks, and the approaching winter raises the strategic importance of energy infrastructure for civilian heating and power.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The announcement has not yet established a mutually confirmed, monitored halt to attacks; reported strikes are a key test of its status.",
+      "editorNote": "Zelenskyy’s account and Trump’s claim are attributed; the ceasefire is not presented as mutually confirmed.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/6fdef6ff4d033b379c74e1d62183d078",
+          "source": "Associated Press",
+          "title": "Zelenskyy says Russia strikes energy facilities despite Trump claim"
+        },
+        {
+          "url": "https://www.dw.com/en/trump-claims-russia-and-ukraine-agreed-to-energy-ceasefire/a-79634509",
+          "source": "Deutsche Welle",
+          "title": "Trump claims Russia and Ukraine agreed to energy ceasefire"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cvlyd4pdlwkxo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says",
+          "publishedAt": "2026-10-12"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/6fdef6ff4d033b379c74e1d62183d078",
+          "source": "Associated Press",
+          "title": "Zelenskyy says Russia strikes energy facilities despite Trump claim of an energy ceasefire",
+          "publishedAt": "2026-10-12"
+        },
+        {
+          "id": 3,
+          "url": "https://www.dw.com/en/trump-claims-russia-and-ukraine-agreed-to-energy-ceasefire/a-79634509",
+          "source": "Deutsche Welle",
+          "title": "Trump claims Russia and Ukraine agreed to energy ceasefire",
+          "publishedAt": "2026-10-11"
+        }
+      ],
+      "tags": [
+        "geopolitics",
+        "Ukraine",
+        "energy security"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "eu-china-hybrid-import-quota-350000-2026-10-13",
+      "headline": "EU to limit Chinese hybrid vehicle imports to 350,000 a year",
+      "dek": "Brussels and Beijing reached an interim quota agreement that would restrict Chinese-made hybrid vehicle imports into the EU.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "The EU plans an annual 350,000-unit cap on Chinese hybrid imports.",
+        "The interim agreement reportedly includes plug-in hybrids and may start in December.",
+        "Administration and market effects remain unresolved."
+      ],
+      "body": [
+        {
+          "text": "The European Union plans to cap imports of Chinese-made hybrid vehicles at 350,000 a year, according to EU officials cited by the Guardian and Associated Press. The quota includes plug-in hybrids and follows negotiations between Brussels and Beijing over vehicle exports and trade tensions.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The Associated Press reported that Chinese passenger-car exports reached about 919,000 in September and domestic sales fell 27% year over year that month. It described automakers’ growing reliance on overseas markets amid weaker demand at home; the figures provide context for the stakes of a European import limit.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The Guardian reported that the arrangement was expected to take effect in December and could halve China’s share of the EU market, currently about 6%. The agreement is described as interim and the details depend on implementation; the reports do not establish how the quota will be administered across manufacturers.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "For Europe, the measure connects trade policy with competition and industrial capacity in the auto sector. The unresolved questions include the final legal mechanism, product classification, and whether the quota changes price competition or leads to further negotiation on Chinese vehicle exports.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "A negotiated import cap would make the EU-China auto dispute more specific, but implementation and effects on the market remain uncertain.",
+      "editorNote": "Quota details and projected market effects are attributed to reporting and officials.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/0d0bf31b40a68fa75ea6ccf8e9f6467e",
+          "source": "Associated Press",
+          "title": "China’s carmakers export more as EU caps hybrid vehicle imports"
+        },
+        {
+          "url": "https://www.malaymail.com/news/money/2026/10/12/eu-to-cap-chinese-hybrid-vehicle-imports-at-350000-a-year/238825",
+          "source": "Malay Mail / AFP",
+          "title": "EU to cap Chinese hybrid vehicle imports at 350,000 a year"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.theguardian.com/environment/2026/oct/12/eu-deal-china-limit-imports-hybrid-electric-vehicles",
+          "source": "The Guardian",
+          "title": "EU to limit Chinese hybrid vehicle imports to 350,000 a year",
+          "publishedAt": "2026-10-12"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/0d0bf31b40a68fa75ea6ccf8e9f6467e",
+          "source": "Associated Press",
+          "title": "China’s carmakers export more as EU caps hybrid vehicle imports at 350,000 a year",
+          "publishedAt": "2026-10-12"
+        },
+        {
+          "id": 3,
+          "url": "https://www.malaymail.com/news/money/2026/10/12/eu-to-cap-chinese-hybrid-vehicle-imports-at-350000-a-year/238825",
+          "source": "Malay Mail / AFP",
+          "title": "EU to cap Chinese hybrid vehicle imports at 350,000 a year",
+          "publishedAt": "2026-10-12"
+        }
+      ],
+      "tags": [
+        "geopolitics",
+        "trade",
+        "China",
+        "European Union"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "federal-search-ilhan-omar-home-2026-10-13",
+      "headline": "Immigration agents search Congresswoman Ilhan Omar's home",
+      "dek": "Federal agents searched the Washington home of Rep. Ilhan Omar during an investigation whose scope and legal basis were not publicly clear in initial reports.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Federal agents searched Rep. Ilhan Omar’s Washington home on October 12.",
+        "Reports linked it to an immigration investigation but offered limited detail.",
+        "The search does not establish wrongdoing; its basis remains unclear."
+      ],
+      "body": [
+        {
+          "text": "Federal agents searched the Washington home of Democratic Representative Ilhan Omar on October 12, according to BBC News and the Associated Press. Omar said she would not be silenced and characterized the search as political targeting; those are her claims, not a finding about investigators’ motives.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The Associated Press reported that the nature and scope of the investigation were unclear. Axios reported that the Department of Justice confirmed an ongoing immigration probe, while CBS News said sources described questions about immigration paperwork from Omar’s childhood.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Omar’s office and Democratic leaders criticized the search and raised concerns about timing ahead of midterm elections. The reports establish that a search occurred and that officials connected it to an investigation; they do not establish that Omar committed an offense or disclose the evidence underlying the warrant.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The event has immediate institutional significance because it involves a sitting member of Congress and federal investigative power near an election. The next verifiable developments are likely to be official court records, a clearer description of the investigation, and any response from Omar’s legal representatives.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The search is confirmed, but its evidentiary basis and the investigation’s scope remain undisclosed in available reporting.",
+      "editorNote": "Allegations, political characterizations, and confirmed procedural facts are kept distinct; no guilt is implied.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/8e18c2aea948bd90f4d7a4eb32b9ec3a",
+          "source": "Associated Press",
+          "title": "Agents search Rep. Omar’s Washington home"
+        },
+        {
+          "url": "https://www.axios.com/2026/10/12/ilhan-omar-search-immigration",
+          "source": "Axios",
+          "title": "Feds search Rep. Ilhan Omar’s home in immigration probe"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cvp8glg97393o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Immigration agents search Congresswoman Ilhan Omar's home",
+          "publishedAt": "2026-10-12"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/8e18c2aea948bd90f4d7a4eb32b9ec3a",
+          "source": "Associated Press",
+          "title": "Agents search Rep. Omar's Washington home in criminal probe as she vows she won't be silenced",
+          "publishedAt": "2026-10-12"
+        },
+        {
+          "id": 3,
+          "url": "https://www.axios.com/2026/10/12/ilhan-omar-search-immigration",
+          "source": "Axios",
+          "title": "Feds search Rep. Ilhan Omar's home in immigration probe",
+          "publishedAt": "2026-10-12"
+        }
+      ],
+      "tags": [
+        "geopolitics",
+        "United States",
+        "rule of law"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

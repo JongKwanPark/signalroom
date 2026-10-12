@@ -1,0 +1,330 @@
+{
+  "date": "2026-10-13",
+  "generatedAt": "2026-10-13T07:06:24+09:00",
+  "vertical": "ai",
+  "lang": "ko",
+  "title": "AI 연구·모델 출시·안전 논쟁",
+  "summary": "코딩 에이전트 생산성 연구, Meta의 새 모델, AI 자기 복제 위험, 안전 규제 요구를 살펴본다.",
+  "stories": [
+    {
+      "slug": "coding-agents-output-review-bottleneck-2026-10-13-ko",
+      "headline": "AI 코딩 에이전트는 코드를 더 많이 만들었지만 소프트웨어를 더 많이 만들지는 않았다",
+      "dek": "기업 단위 분석에서 코드량은 증가했지만 측정된 소프트웨어 납품은 늘지 않았고, 검토 시간이 길어졌다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "연구진은 700여 개 기업과 70만 명 이상의 엔지니어 활동을 분석했다.",
+        "에이전트 도입 뒤 코드·커밋·풀 리퀘스트는 늘었지만 완료된 소프트웨어 이슈와 에픽은 유의하게 증가하지 않았다.",
+        "연구 결과는 관찰 분석이며 2026년 3월 이후의 현장 변화를 포함하지 않는다."
+      ],
+      "body": [
+        {
+          "text": "연구진 피오나 첸과 제임스 스트래턴은 2026년 3월까지 700개가 넘는 소프트웨어 기업에서 70만 명 이상이 만든 엔지니어링 활동을 분석했다. 연구는 AI 코딩 에이전트가 코드 생산을 늘렸지만 완료된 소프트웨어 이슈나 에픽의 수를 통계적으로 유의하게 높이지는 못했다고 밝혔다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "에이전트 도입 이후 코드 줄 수는 평균 30%, 커밋은 20%, 풀 리퀘스트는 23% 증가했다. 연구진은 검토 과정이 길어지고 수정 요청이 늘어난 점도 관찰했다. 이는 코드 생성 단계의 속도 향상이 업무를 없애기보다 후속 단계로 옮길 수 있음을 시사한다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Ars Technica에 따르면 이 연구는 Jellyfish의 집계형 엔지니어링 데이터와 도입 전후를 비교하는 차분의 차분 분석을 활용했다. 관찰 자료에 기반한 기업 단위 결과이므로 모든 도구와 팀에서 같은 현상이 나타난다고 단정할 수는 없다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "기업이 코드 검토와 통합 역량을 개선해 늘어난 코드를 실제 출시 기능으로 전환할 수 있을지는 아직 열린 질문이다. 자료는 2026년 3월까지만 다뤄 이후의 에이전트 성능과 현장 관행 변화는 반영하지 않았다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "AI 에이전트는 코드 산출량을 늘릴 수 있지만 측정된 납품량은 늘리지 못해, 생산성 평가에서 완성 결과물과 검토 비용의 중요성이 커진다.",
+      "editorNote": "Ars Technica의 제목을 그대로 옮겼다. 연구 결과는 관찰 자료에 기반한 것으로 보편적 인과 법칙으로 표현하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://news.ycombinator.com/item?id=50059523",
+          "source": "Hacker News",
+          "title": "AI coding agents generate more code, but not more software"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+          "source": "Ars Technica",
+          "title": "AI coding agents generate more code, but not more software",
+          "publishedAt": "2026-10-09"
+        },
+        {
+          "id": 2,
+          "url": "https://news.ycombinator.com/item?id=50059523",
+          "source": "Hacker News discussion",
+          "title": "AI coding agents generate more code, but not more software",
+          "publishedAt": "2026-10-12"
+        }
+      ],
+      "tags": [
+        "AI",
+        "software",
+        "productivity"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "meta-muse-wonder-frontier-model-release-2026-10-13-ko",
+      "headline": "Meta, 유료 이용 의향을 시험하는 Muse Wonder AI 모델 공개",
+      "dek": "Meta가 에이전트 작업용 모델 두 종을 출시하며 AI 투자 성과를 유료 서비스로 연결할 수 있는지 시험하고 있다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Meta는 Muse Wonder와 Muse Wonder Full을 공개하고 두 모델의 접근 경로를 발표했다.",
+        "회사 설명과 독립 평가 결과는 구분해야 한다.",
+        "실제 이용자 규모와 매출, 소비자 앱의 전면 배포 일정은 공개되지 않았다."
+      ],
+      "body": [
+        {
+          "text": "Meta는 10월 12일 Muse Wonder와 Muse Wonder Full을 공개하면서 지금까지 가장 역량이 높은 모델이라고 소개하고 개인·업무용 에이전트 작업을 강조했다. 회사는 Wonder를 모델 API와 Muse Code에서, Wonder Full을 Muse Code 구독자에게 제공한다고 밝혔다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Meta는 모델이 에이전트 작업, 코딩, 대화 간 정보를 유지하는 Active Memory와 Active Focus 기능에 초점을 맞췄다고 설명했다. 이는 회사의 설명이며, 발표만으로 독립 평가에서의 상대적 성능이 입증된 것은 아니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "CNBC는 이번 공개를 이용자가 Meta의 AI 제품에 비용을 낼지 시험하는 사례로 다뤘고, Axios는 OpenAI·Anthropic·Google과 경쟁하려는 Meta의 행보를 보도했다. Axios에 따르면 Meta는 Wonder 계열 모델의 가중치를 공개할지 밝히지 않았다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "앞으로 독립 벤치마크 결과, Meta 소비자 앱에서의 이용 가능성, 유료 수요가 확인될지가 관전점이다. 발표로 출시와 접근 경로는 확인됐지만 실제 이용자 수, 매출, 전면 배포 일정은 공개되지 않았다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "구체적인 제품 출시가 확인됐지만 프런티어 성능과 향후 수익화 주장은 아직 독립 검증이 필요하다.",
+      "editorNote": "성능과 이용 가능성은 Meta 발표에 귀속했다. 독립 평가와 실제 이용 규모는 확인되지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.axios.com/2026/10/12/meta-new-ai-models-anthropic-openai",
+          "source": "Axios",
+          "title": "Meta unveils new frontier-class AI models to compete with OpenAI, Anthropic"
+        },
+        {
+          "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+          "source": "Meta",
+          "title": "Introducing Muse Wonder and Muse Wonder Full"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/12/meta-muse-wonder-ai-model-agent.html",
+          "source": "CNBC",
+          "title": "Meta debuts Muse Wonder AI model in latest test of users' willingness to pay",
+          "publishedAt": "2026-10-12"
+        },
+        {
+          "id": 2,
+          "url": "https://www.axios.com/2026/10/12/meta-new-ai-models-anthropic-openai",
+          "source": "Axios",
+          "title": "Meta unveils new frontier-class AI models to compete with OpenAI, Anthropic",
+          "publishedAt": "2026-10-12"
+        },
+        {
+          "id": 3,
+          "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+          "source": "Meta Newsroom",
+          "title": "Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents",
+          "publishedAt": "2026-10-12"
+        }
+      ],
+      "tags": [
+        "AI",
+        "models",
+        "Meta"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "small-model-iot-self-replication-risk-2026-10-13-ko",
+      "headline": "데이터센터 없이 자기 복제가 가능할 수 있는 AI 모델",
+      "dek": "Anthropic 레드팀은 소형 모델이 인터넷 연결 기기에서 복제 과정의 일부를 수행한 통제 실험을 공개했다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "9B 파라미터 모델은 시험한 하드웨어 9종 중 8종에서 추론 실행 환경을 마련했다.",
+        "Anthropic은 일부 모델이 단순화된 평가에서 종단 간 복제를 수행했다고 보고했다.",
+        "현실에서 자율 확산이 발생했다는 증거는 제시되지 않았다."
+      ],
+      "body": [
+        {
+          "text": "Anthropic의 Frontier Red Team은 90억 개 파라미터 모델이 시험한 하드웨어 유형 9개 가운데 8개에서 추론 실행 환경을 구축했다고 밝혔다. 300억 개 이하 모델도 개별 단계 대부분을 수행했지만 여러 단계를 끝까지 연결할 때는 오류가 남았다고 설명했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Anthropic은 단순화된 평가에서 GLM-5.2와 그보다 강한 모델이 종단 간 복제 작업을 완료했다고 보고했다. 회사는 이를 상용 사물인터넷 기기의 보안 위험으로 제시했으며, 실제 환경에서 자기 전파 모델이 발견됐다고 주장한 것은 아니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Anthropic은 과거 개선 속도가 이어진다면 연말까지 이런 역량을 가진 모델이 소비자 기기에서 실행될 정도로 작아질 수 있다고 추정했다. 이는 추세선에 근거한 전망이며, 회사 자체 평가로 독립 재현된 결과가 아니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "모델 기반 자동화가 악성코드의 규모나 적응성을 바꾸는지, 기기 제조사와 클라우드 관리 사업자가 어떤 방어책을 마련할지가 보안상 핵심 질문이다. 외부로 연결되는 관리 터널이 접근 경로가 될 수 있다는 분석은 있지만, 현실의 발생 빈도와 자율 확산의 신뢰성, 실질적인 차단 가능성은 확인되지 않았다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이 보고서는 통제된 실험에서 나온 조건부 역량·보안 주장으로, 실제 발생 중인 감염 사태를 보고한 것은 아니다.",
+      "editorNote": "실험 결과와 미래 전망을 구분했으며, 실제 자기 복제 사건이 발생했다고 쓰지 않았다.",
+      "cluster": [
+        {
+          "url": "https://news.ycombinator.com/item?id=50061603",
+          "source": "Hacker News",
+          "title": "AI models may be capable of self-replicating without access to a datacenter"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.anthropic.com/research/self-replicating-ai",
+          "source": "Anthropic",
+          "title": "AI models may be capable of self-replicating without access to a datacenter",
+          "publishedAt": "2026-10-12"
+        },
+        {
+          "id": 2,
+          "url": "https://news.ycombinator.com/item?id=50061603",
+          "source": "Hacker News discussion",
+          "title": "AI models may be capable of self-replicating without access to a datacenter",
+          "publishedAt": "2026-10-12"
+        }
+      ],
+      "tags": [
+        "AI",
+        "security",
+        "agents"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ai-safety-rules-microsoft-president-2026-10-13-ko",
+      "headline": "Microsoft 사장, AI 안전 경고하며 “우유보다 규제가 적다”",
+      "dek": "Brad Smith는 피해자에 대한 책임과 위험한 시스템을 멈출 수 있는 수단을 포함한 AI 안전 규칙 강화를 촉구했다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Brad Smith는 AI 제품에 더 많은 안전 규칙과 비상 정지 수단이 필요하다고 말했다.",
+        "영국의 입법 감독은 검토 단계로 보도됐으며 시행된 규칙이 아니다.",
+        "우유와의 비교는 Smith의 주장이며 업종별 규제를 측정한 분석은 아니다."
+      ],
+      "body": [
+        {
+          "text": "Microsoft 사장 Brad Smith는 BBC에 우유와 세탁기 같은 일반 제품은 AI에 없는 안전 규칙을 적용받는다고 말했다. 그는 AI 에이전트가 피해를 입힐 경우 피해자에 대한 의무를 두고, 시스템을 일시 정지하거나 속도를 늦출 비상 수단을 마련해야 한다고 주장했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The Guardian은 Smith가 AI를 도구이자 잠재적 무기로 설명하며 시급한 규제를 요구했다고 보도했다. 같은 보도에 따르면 Microsoft CEO Satya Nadella도 모델의 행동과 한계를 관찰하고 시험할 수 있는 시스템을 지지했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이 발언은 고급 AI에 대한 감독을 요구하는 안전 연구자와 정부의 목소리가 커지는 가운데 나왔다. 영국 정부가 프런티어 모델 개발사에 안전장치를 강화하라고 촉구하고 입법 감독을 검토 중이라는 보도는 계획과 예고된 발언에 해당하며, 이미 시행 중인 규칙은 아니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "정책 담당자가 어떤 의무와 시험 기준, 집행 절차를 채택할지는 아직 정해지지 않았다. 우유와의 비교는 규제 필요성에 관한 Smith의 주장이지 여러 산업의 법규를 측정해 비교한 결과가 아니다. 이번 논의만으로 확정된 법체계가 생긴 것도 아니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "주요 AI 기업 경영진이 안전 규제를 공개적으로 지지했지만 구체적인 법적 의무와 시행 여부는 아직 정해지지 않았다.",
+      "editorNote": "제목의 비유는 Smith의 발언으로 귀속했다. 규제 제안이 법제화된 것으로 서술하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.independent.co.uk/tech/all-ai-is-compromised-and-has-fewer-rules-than-milk-microsoft-bosses-say-b3065075.html",
+          "source": "The Independent",
+          "title": "All AI is compromised and has fewer rules than milk, Microsoft bosses say"
+        },
+        {
+          "url": "https://news.ycombinator.com/item?id=50055654",
+          "source": "Hacker News",
+          "title": "AI less regulated than milk, Microsoft president says in warning over safety"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.theguardian.com/technology/2026/oct/12/ai-less-regulated-than-milk-microsoft-president-calls-for-tougher-rules",
+          "source": "The Guardian",
+          "title": "AI less regulated than milk, Microsoft president says in warning over safety",
+          "publishedAt": "2026-10-12"
+        },
+        {
+          "id": 2,
+          "url": "https://news.ycombinator.com/item?id=50055654",
+          "source": "Hacker News discussion",
+          "title": "AI less regulated than milk, Microsoft president says in warning over safety",
+          "publishedAt": "2026-10-12"
+        },
+        {
+          "id": 3,
+          "url": "https://www.independent.co.uk/tech/all-ai-is-compromised-and-has-fewer-rules-than-milk-microsoft-bosses-say-b3065075.html",
+          "source": "The Independent",
+          "title": "All AI is compromised and has fewer rules than milk, Microsoft bosses say",
+          "publishedAt": "2026-10-12"
+        }
+      ],
+      "tags": [
+        "AI",
+        "policy",
+        "safety"
+      ],
+      "confidence": "high"
+    }
+  ]
+}
