@@ -1,10 +1,10 @@
 {
   "date": "2026-10-14",
-  "generatedAt": "2026-10-13T22:06:33.142Z",
+  "generatedAt": "2026-10-13T22:15:00.302Z",
   "vertical": "markets",
   "lang": "en",
   "title": "Signal Daily Markets — 2026-10-14",
-  "summary": "Five multi-outlet developments cleared the gate: bank enforcement, the IMF outlook, Six Flags, Kroger and South Korean exports. The $747 billion Korean energy plan was reported earlier in the week and was not treated as a new development today.",
+  "summary": "Seven multi-outlet developments cleared the gate, including the IMF warning about financial-stability risks from a possible AI-market correction. South Korea’s $747 billion energy plan was reported earlier in the week and was not treated as new today.",
   "stories": [
     {
       "type": "DEEP",
@@ -413,6 +413,157 @@
       ],
       "whyItMatters": "The short-period data show how strongly semiconductors are shaping South Korea’s export growth, but calendar effects and the provisional window limit what they say about the full month.",
       "editorNote": "Provisional ten-day figures; calendar effects may affect year-on-year comparison."
+    },
+    {
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "confidence": "medium",
+      "tags": [
+        "IMF",
+        "financial stability",
+        "AI investment",
+        "asset markets"
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
+          "source": "The Guardian",
+          "title": "Threat of AI share crash puts world financial stability at risk, says IMF",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://mediacenter.imf.org/news/imf---global-financial-stability-report-annual-meetings--2026/s/f55368c1-983b-45b7-ba7c-1978f67c168c",
+          "source": "International Monetary Fund",
+          "title": "IMF / Global Financial Stability Report Annual Meetings, 2026",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
+          "source": "The Guardian",
+          "title": "Threat of AI share crash puts world financial stability at risk, says IMF"
+        }
+      ],
+      "slug": "imf-warns-ai-market-correction-could-threaten-stability",
+      "headline": "Threat of AI share crash puts world financial stability at risk, says IMF",
+      "dek": "The IMF’s financial-stability report identifies a sharp correction in AI-related markets as a potential stress trigger.",
+      "tldr": [
+        "The IMF said financial-stability risks remain elevated despite resilient markets.",
+        "It named a sharp AI-market correction, sovereign bond pressure and cyber incidents as possible stress channels.",
+        "The report describes risks, not a forecast that an AI-market crash will occur."
+      ],
+      "body": [
+        {
+          "text": "The IMF’s October 2026 Global Financial Stability Report said markets had remained resilient but risks were still elevated. It identified a sharp AI-related market correction as one potential trigger for stress if expectations for investment or profits disappoint.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "The Fund also pointed to rising sovereign bond yields, fiscal imbalances, large issuance by governments and private borrowers, and cyber incidents that could disrupt financial services or weaken confidence.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "The Guardian reported the warning in the context of concerns about AI-related shares and concentrated exposure in major technology companies. The IMF framed this as a risk scenario, not a prediction that a crash will occur.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The report gives no precise probability or timetable for a market correction. How losses might spread would depend on valuations, leverage, funding links and market conditions at the time.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The IMF described a path through which optimism around AI investment could become a financial-stability risk, but framed it as a scenario rather than a forecast.",
+      "editorNote": "The IMF described a risk scenario, not an imminent crash forecast; it gave no probability or timing."
+    },
+    {
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "confidence": "medium",
+      "tags": [
+        "United States",
+        "inflation",
+        "CPI",
+        "macroeconomics"
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/13/september-consumer-price-index-inflation.html",
+          "source": "CNBC",
+          "title": "The latest inflation data is expected to show price increases are accelerating",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/a9a26b9706963afe9bdeda1b2eb1f51d",
+          "source": "Associated Press",
+          "title": "US stocks hover near their latest record in mixed trading on Wall Street",
+          "publishedAt": "2026-10-12"
+        },
+        {
+          "id": 3,
+          "url": "https://www.bls.gov/schedule/2026/10_sched.htm",
+          "source": "U.S. Bureau of Labor Statistics",
+          "title": "Release Calendar: October 2026",
+          "publishedAt": "2026-10"
+        }
+      ],
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/a9a26b9706963afe9bdeda1b2eb1f51d",
+          "source": "Associated Press",
+          "title": "US stocks hover near their latest record in mixed trading on Wall Street"
+        }
+      ],
+      "slug": "us-september-cpi-preview-inflation-accelerating",
+      "headline": "The latest inflation data is expected to show price increases are accelerating",
+      "dek": "Economists expected September headline inflation to rise ahead of the October 14 CPI release.",
+      "tldr": [
+        "The Bureau of Labor Statistics scheduled the September CPI release for October 14.",
+        "Before the release, economists expected annual inflation to rise to 3.6% from 3.4% in August.",
+        "This was a forecast, not the actual September CPI result."
+      ],
+      "body": [
+        {
+          "text": "The U.S. Bureau of Labor Statistics scheduled the September Consumer Price Index report for October 14. Before its release, CNBC reported that economists expected headline inflation to accelerate, with higher energy prices among the factors in forecasts.",
+          "citations": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "The Associated Press also reported that economists expected the annual inflation rate to rise to 3.6% in September from 3.4% in August. This was a forecast ahead of the government release, not a reported CPI result.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "The CPI tracks price changes for goods and services purchased by urban consumers. The scheduled report includes headline inflation and a core measure excluding food and energy, allowing readers to distinguish broad movement from volatile categories.",
+          "citations": [
+            3
+          ]
+        },
+        {
+          "text": "The actual September reading had not been published in the cited preview coverage. Until the release, the forecast and the role of energy prices remained expectations rather than confirmed data.",
+          "citations": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "The scheduled release would show how energy costs fed through to inflation, but only expectations were available in the preview reports.",
+      "editorNote": "This is a pre-release preview, not the actual CPI result."
     }
   ]
 }

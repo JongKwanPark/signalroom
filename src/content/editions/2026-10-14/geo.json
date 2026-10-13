@@ -1,10 +1,10 @@
 {
   "date": "2026-10-14",
-  "generatedAt": "2026-10-13T22:06:33.142Z",
+  "generatedAt": "2026-10-13T22:15:00.301Z",
   "vertical": "geo",
   "lang": "en",
   "title": "Signal Daily Geo — 2026-10-14",
-  "summary": "Three developments had independent coverage. The widely reported Pope Leo health update was excluded as off-vertical, and the OpenAI recording-device arrest is covered under AI rather than duplicated here.",
+  "summary": "Six developments had independent coverage. The Pope Leo health update was excluded as off-vertical, and the OpenAI recording-device arrest is covered under AI rather than duplicated here.",
   "stories": [
     {
       "type": "DEEP",
@@ -261,6 +261,236 @@
       ],
       "whyItMatters": "The arrest raises risks for reporting and diplomatic ties between Russia and Japan, but the public record currently contains an unverified allegation from Russian authorities.",
       "editorNote": "Espionage remains an allegation by Russian authorities; identity and evidence are not public in the cited reports."
+    },
+    {
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "confidence": "medium",
+      "tags": [
+        "Bulgaria",
+        "Black Sea",
+        "maritime security",
+        "Russia-Ukraine war"
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/7dfef251fb7d47a717f0d600873dbf5b",
+          "source": "Associated Press",
+          "title": "Drones hit ships in Black Sea, sinking 1 and prompting rescue operations, Bulgaria says",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://amp.dw.com/en/bulgaria-condemns-black-sea-drone-attacks-as-russias-war-in-ukraine-spills-over-into-eastern-europe/a-79648001",
+          "source": "Deutsche Welle",
+          "title": "Bulgaria condemns Black Sea drone attacks, Russia suspected",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "cluster": [
+        {
+          "url": "https://amp.dw.com/en/bulgaria-condemns-black-sea-drone-attacks-as-russias-war-in-ukraine-spills-over-into-eastern-europe/a-79648001",
+          "source": "Deutsche Welle",
+          "title": "Bulgaria condemns Black Sea drone attacks, Russia suspected"
+        }
+      ],
+      "slug": "black-sea-drone-strikes-bulgarian-ships",
+      "headline": "Drones hit ships in Black Sea, sinking 1 and prompting rescue operations, Bulgaria says",
+      "dek": "Bulgaria reported strikes on two ships near its coast; authorities had not established who was responsible.",
+      "tldr": [
+        "Bulgaria’s prime minister said two ships were struck on October 13 and one sank, triggering rescue operations.",
+        "The Associated Press and Deutsche Welle both reported that the origin of the drones had not been established.",
+        "The incident raises maritime-security concerns near Bulgaria, but responsibility remains unverified."
+      ],
+      "body": [
+        {
+          "text": "Bulgaria’s prime minister said drones struck two ships in the Black Sea off the country’s coast on October 13, sinking one and prompting rescue operations. The Associated Press reported that authorities had not established who was responsible.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The affected vessels included a Ukrainian-owned ship, and reported crews included Ukrainian and Azerbaijani nationals. Bulgarian officials said they were coordinating rescue work and raised the incident with Russian diplomatic representatives.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Deutsche Welle reported that Bulgaria condemned the attacks and that officials had not publicly identified the origin of the drones. The reports describe suspicion and political accusations, but provide no independently verified evidence assigning responsibility.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "The incident extends the security consequences of the Russia-Ukraine war into commercial shipping near a NATO member’s coast. The number of damaged vessels, the source of the drones and any further security response remain under investigation.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The strikes raise concern that the war’s security effects are extending to civilian shipping near NATO territory, while responsibility remains unknown.",
+      "editorNote": "Responsibility for the drone strikes was not established in the cited reporting."
+    },
+    {
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "confidence": "medium",
+      "tags": [
+        "United Kingdom",
+        "MI5",
+        "Iran",
+        "Russia",
+        "AI security"
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cn8jdjv22d2o",
+          "source": "BBC News",
+          "title": "MI5 chief warns of threats to UK from Russia, Iran and AI",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/a8a03a2dbac09648fa4c56f728fa09ac",
+          "source": "Associated Press",
+          "title": "MI5 chief says Iran is targeting military sites and suspected plot at RAF Fairford is not unique",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 3,
+          "url": "https://www.washingtonpost.com/world/2026/10/13/uk-intelligence-chief-warns-iran-is-shifting-plots-harder-targets/",
+          "source": "The Washington Post",
+          "title": "U.K. intelligence chief warns Iran is shifting plots to harder targets",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/a8a03a2dbac09648fa4c56f728fa09ac",
+          "source": "Associated Press",
+          "title": "MI5 chief says Iran is targeting military sites and suspected plot at RAF Fairford is not unique"
+        },
+        {
+          "url": "https://www.washingtonpost.com/world/2026/10/13/uk-intelligence-chief-warns-iran-is-shifting-plots-harder-targets/",
+          "source": "The Washington Post",
+          "title": "U.K. intelligence chief warns Iran is shifting plots to harder targets"
+        }
+      ],
+      "slug": "mi5-warns-russia-iran-and-ai-threats",
+      "headline": "MI5 chief warns of threats to UK from Russia, Iran and AI",
+      "dek": "MI5 director-general Ken McCallum described state threats and announced a new AI Threat Assessment Centre.",
+      "tldr": [
+        "McCallum said work countering state threats had increased and described concerns involving Russia, Iran and China.",
+        "He said Iran was targeting military sites and announced a new centre to assess AI-related threats.",
+        "These are intelligence assessments; public reports do not disclose all supporting evidence."
+      ],
+      "body": [
+        {
+          "text": "MI5 director-general Ken McCallum said the United Kingdom faced heightened threats from Russia, Iran and China, alongside risks associated with artificial intelligence. BBC and AP reported his annual assessment and his statement that state-threat work had increased substantially over the past decade.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "McCallum said Iran was seeking to target military sites and that a suspected plot involving RAF Fairford was not an isolated case. The Washington Post reported that he described a shift toward harder, more secure targets.",
+          "citations": [
+            3
+          ]
+        },
+        {
+          "text": "The MI5 chief announced a new AI Threat Assessment Centre involving security and law-enforcement bodies. He warned that advanced AI could lower barriers to harmful activity, including biological threats; these were intelligence-service assessments, not evidence that an attack had occurred.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "The speech does not identify all underlying intelligence or publicly substantiate each suspected operation. The centre’s scope, authorities and methods for assessing AI-related threats remain to be detailed.",
+          "citations": [
+            1,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "The UK security service is treating foreign-state activity and AI risks as connected security concerns, while public reporting cannot verify all classified assessments.",
+      "editorNote": "Statements about plots are attributed to MI5; cited reports do not independently verify classified intelligence."
+    },
+    {
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "confidence": "medium",
+      "tags": [
+        "Yemen",
+        "Taiz",
+        "Houthis",
+        "humanitarian crisis"
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/89a793d5c55c34fd4f7e08c9df5835a6",
+          "source": "Associated Press",
+          "title": "Fear grips Taiz as Houthi rebels tighten siege of Yemen’s 3rd largest city",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/food-shortages-in-yemens-taiz-as-houthi-siege-hits-supplies",
+          "source": "Al Jazeera",
+          "title": "Food shortages in Yemen’s Taiz as Houthi siege hits supplies",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/food-shortages-in-yemens-taiz-as-houthi-siege-hits-supplies",
+          "source": "Al Jazeera",
+          "title": "Food shortages in Yemen’s Taiz as Houthi siege hits supplies"
+        }
+      ],
+      "slug": "taiz-siege-food-and-supply-shortages",
+      "headline": "Food shortages in Yemen’s Taiz as Houthi siege hits supplies",
+      "dek": "Residents and aid-linked sources report shortages as fighting and the siege around Taiz intensify.",
+      "tldr": [
+        "The Associated Press reported that Houthi forces were advancing around Taiz and residents were leaving.",
+        "Residents described shortages of food, water and cooking gas, and a U.N. spokesperson said fighting was driving displacement and shortages.",
+        "Al Jazeera also reported food shortages; future aid access and the duration of the siege remain unclear."
+      ],
+      "body": [
+        {
+          "text": "The Associated Press reported that Houthi forces were advancing around Taiz, Yemen’s third-largest city, prompting some residents to leave. The fighting is part of a wider conflict in southwestern Yemen and has intensified alongside attacks elsewhere in the country.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Residents described shortages of food, water and cooking gas, while merchants raised prices. AP cited a local child-protection consultant who said some families were using cardboard and wood for cooking.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Al Jazeera separately reported food shortages and the effect of the siege on supplies. A U.N. spokesperson said fighting had displaced people and increased shortages, with cooking gas largely unavailable and food prices reportedly higher.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "The accounts describe conditions during active fighting and rely partly on residents and local officials. Future access to aid, the security of evacuation routes and the duration of shortages remain uncertain.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The siege shows how military conflict affects civilian supply and movement; local conditions and aid access remain uncertain.",
+      "editorNote": "Humanitarian conditions come from accounts during active fighting; access and duration remain uncertain."
     }
   ]
 }

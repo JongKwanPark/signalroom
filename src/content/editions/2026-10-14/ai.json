@@ -1,10 +1,10 @@
 {
   "date": "2026-10-14",
-  "generatedAt": "2026-10-13T22:06:33.142Z",
+  "generatedAt": "2026-10-13T22:15:00.298Z",
   "vertical": "ai",
   "lang": "en",
   "title": "Signal Daily AI — 2026-10-14",
-  "summary": "Five multi-outlet developments cleared the source gate. The IMF’s AI-market correction warning is covered in Markets to avoid duplication; single-outlet demos, papers and benchmark posts were excluded.",
+  "summary": "Seven multi-outlet stories cleared the source gate. The IMF financial-stability warning is covered in Markets to avoid duplication; single-outlet demonstrations and isolated papers were excluded.",
   "stories": [
     {
       "type": "DEEP",
@@ -370,6 +370,149 @@
       ],
       "whyItMatters": "The assessment focuses attention on security boundaries for capable models connected to consumer devices, while the scenario remains hypothetical and its timeline uncertain.",
       "editorNote": "Capability and timing are framed as a risk assessment, not an observed event."
+    },
+    {
+      "type": "DATA",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "confidence": "medium",
+      "tags": [
+        "AI coding",
+        "software engineering",
+        "productivity",
+        "code review"
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://fion.ac/jellyfish.pdf",
+          "source": "Fiona Chen and James Stratton, Harvard University",
+          "title": "Artificial Intelligence in the Firm: Bottlenecks in Software Production",
+          "publishedAt": "2026-08-04"
+        },
+        {
+          "id": 2,
+          "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+          "source": "Ars Technica",
+          "title": "AI coding agents generate more code, but not more software",
+          "publishedAt": "2026-10-09"
+        }
+      ],
+      "cluster": [
+        {
+          "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+          "source": "Ars Technica",
+          "title": "AI coding agents generate more code, but not more software"
+        }
+      ],
+      "slug": "ai-coding-agents-add-code-but-review-remains-bottleneck",
+      "headline": "AI coding agents generate more code, but not more software",
+      "dek": "A Harvard working paper finds that greater coding activity did not translate into a statistically significant rise in completed work.",
+      "tldr": [
+        "The working paper analyzed about 300 million engineering events across 718 firms and more than 725,000 workers.",
+        "Coding-agent adoption was associated with more code, commits and pull requests, but no statistically significant rise in completed issues or larger features.",
+        "The measured review interval also grew; the study is observational and does not establish a universal causal effect."
+      ],
+      "body": [
+        {
+          "text": "Harvard researchers Fiona Chen and James Stratton analyzed about 300 million engineering work events across 718 firms and more than 725,000 workers, covering January 2021 through March 2026. Their August working-paper version studies AI coding tools.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The authors estimate that coding-agent adoption was associated with 30% more lines of code, 20% more commits and 23% more pull requests per active worker. They found no statistically significant increase in resolved issues or larger software features in the measures they analyzed.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Ars Technica reported that the interval from pull-request submission to merge rose by an average of 49% after firms introduced coding agents. This is elapsed process time, which can include waiting and rework, rather than a direct measure of reviewer labor.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "The results are observational and come from firms using an engineering analytics platform, so they do not prove that AI agents caused the changes in every organization. The estimate for completed work is uncertain, not proof of exactly zero effect.",
+          "citations": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "The study shows how review and integration can limit the conversion of increased AI-generated code into completed software.",
+      "editorNote": "This is an observational estimate, not a universal causal result; code volume and completed work are distinguished."
+    },
+    {
+      "type": "DATA",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "confidence": "medium",
+      "tags": [
+        "Google",
+        "Gemini",
+        "robotics",
+        "embodied AI"
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://developers.googleblog.com/en/gemini-4-argon-for-robotics/",
+          "source": "Google Developers Blog",
+          "title": "Gemini 4 Argon for Robotics",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://techbeat.co/story/google-gemini-4-argon-scores-87-on-erqa-and-advances-robotics",
+          "source": "Tech Beat",
+          "title": "Google Gemini 4 Argon Scores 87% on ERQA and Advances Robotics",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "cluster": [
+        {
+          "url": "https://techbeat.co/story/google-gemini-4-argon-scores-87-on-erqa-and-advances-robotics",
+          "source": "Tech Beat",
+          "title": "Google Gemini 4 Argon Scores 87% on ERQA and Advances Robotics"
+        }
+      ],
+      "slug": "gemini-4-argon-robotics-demo",
+      "headline": "Gemini 4 Argon for Robotics",
+      "dek": "Google says Argon can help build simulation environments and improve selected physical robot tasks.",
+      "tldr": [
+        "Google reported an 87% result on its Embodied Reasoning benchmark and described a simulation workflow built from a tabletop image.",
+        "In one reported setup, 4,500 simulated episodes were associated with success improving from 56% to 75% and completion time falling from 35 seconds to 24 seconds.",
+        "These are demonstrations on selected tasks, not evidence of performance across robots or real-world settings."
+      ],
+      "body": [
+        {
+          "text": "Google’s Developers Blog described robotics demonstrations for Gemini 4 Argon, including turning a tabletop image into a calibrated MuJoCo simulation and generating episodes for robot training. The company presented these as research examples, not a generally available robot-control product.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Google reported an 87% score on its Embodied Reasoning benchmark. It also said a workflow using 4,500 simulated episodes raised a physical robot task success rate from 56% to 75% and reduced completion time from 35 seconds to 24 seconds.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Tech Beat independently covered the demonstrations and repeated the reported benchmark and task results. The measured improvement is specific to the described tasks and evaluation setup; it does not establish performance across different robots or environments.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "The examples show how a model could help create simulations and control workflows, but remain company-selected demonstrations. Transfer to unfamiliar hardware, safety-critical settings and long-running deployments remains open.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The demonstrations connect AI models with robotics training and control, while leaving transfer to real settings unresolved.",
+      "editorNote": "Benchmark and task figures are attributed to Google and do not establish general-purpose deployment readiness."
     }
   ]
 }

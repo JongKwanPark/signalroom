@@ -1,10 +1,10 @@
 {
   "date": "2026-10-14",
-  "generatedAt": "2026-10-13T22:06:33.142Z",
+  "generatedAt": "2026-10-13T22:15:00.302Z",
   "vertical": "markets",
   "lang": "ko",
   "title": "시그널 데일리 마켓 — 2026-10-14",
-  "summary": "은행 제재, IMF 전망, 식스플래그, 크로거, 한국 수출 등 교차 보도가 확인된 다섯 가지 동향을 담았다. 한국의 7,470억 달러 에너지 계획은 이번 주 초 보도돼 오늘의 새 동향으로 다루지 않았다.",
+  "summary": "AI 시장 조정이 금융 안정성에 미칠 수 있는 위험에 대한 IMF 경고를 포함해 교차 보도가 확인된 일곱 가지 동향을 담았다. 한국의 7,470억 달러 에너지 계획은 이번 주 초 보도돼 오늘의 새 동향으로 다루지 않았다.",
   "stories": [
     {
       "type": "DEEP",
@@ -413,6 +413,157 @@
       "slug": "south-korea-early-october-exports-double-ko",
       "whyItMatters": "단기 통계는 반도체가 한국 수출 증가를 크게 좌우하고 있음을 보여준다. 다만 달력 효과와 잠정 집계 기간 때문에 월간 흐름을 단정하기는 어렵다.",
       "editorNote": "열흘 단위 잠정치이며 달력 효과가 전년 대비 비교에 영향을 줄 수 있다."
+    },
+    {
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "confidence": "medium",
+      "tags": [
+        "IMF",
+        "financial stability",
+        "AI investment",
+        "asset markets"
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
+          "source": "The Guardian",
+          "title": "Threat of AI share crash puts world financial stability at risk, says IMF",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://mediacenter.imf.org/news/imf---global-financial-stability-report-annual-meetings--2026/s/f55368c1-983b-45b7-ba7c-1978f67c168c",
+          "source": "International Monetary Fund",
+          "title": "IMF / Global Financial Stability Report Annual Meetings, 2026",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
+          "source": "The Guardian",
+          "title": "Threat of AI share crash puts world financial stability at risk, says IMF"
+        }
+      ],
+      "slug": "imf-warns-ai-market-correction-could-threaten-stability-ko",
+      "headline": "IMF, AI 주가 급락이 세계 금융 안정성을 위협할 수 있다고 경고",
+      "dek": "IMF 금융안정보고서는 AI 관련 시장의 급격한 조정을 잠재적 불안 촉발 요인으로 들었다.",
+      "tldr": [
+        "IMF는 금융시장이 회복력을 보였지만 금융 안정성 위험은 여전히 높다고 밝혔다.",
+        "급격한 AI 시장 조정, 국채 시장 압력, 사이버 사건을 가능한 불안 경로로 지목했다.",
+        "보고서는 위험을 설명하며 AI 시장 폭락이 발생한다고 예측하지 않았다."
+      ],
+      "body": [
+        {
+          "text": "IMF의 2026년 10월 글로벌 금융안정보고서는 금융시장이 회복력을 유지했지만 위험은 여전히 높다고 밝혔다. 투자나 수익 기대가 빗나가면 AI 관련 급격한 시장 조정이 금융시장 불안의 촉발 요인이 될 수 있다고 지적했다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "IMF는 국채 금리 상승, 재정 불균형, 정부와 민간 차입자의 대규모 채권 발행, 금융 서비스를 중단시키거나 신뢰를 약화할 수 있는 사이버 사건도 위험으로 들었다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "가디언은 AI 관련 주가 하락 가능성과 주요 기술기업에 대한 노출 집중 우려 속에서 이 경고를 보도했다. IMF는 이를 위험 시나리오로 다뤘으며 폭락이 발생할 것이라는 예측은 내놓지 않았다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "보고서는 AI 시장 조정의 정확한 확률이나 시점을 제시하지 않았다. 손실 확산 여부는 당시 밸류에이션, 레버리지, 자금 조달 연결, 시장 상황에 달려 있다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "IMF는 AI 투자 낙관이 금융시장 안정성 위험으로 번질 수 있는 경로를 지적했다. 이는 확정된 전망이 아니라 점검할 위험 시나리오다.",
+      "editorNote": "IMF는 위험 시나리오를 제시했으며 임박한 폭락을 예측하지 않았다."
+    },
+    {
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "confidence": "medium",
+      "tags": [
+        "United States",
+        "inflation",
+        "CPI",
+        "macroeconomics"
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/13/september-consumer-price-index-inflation.html",
+          "source": "CNBC",
+          "title": "The latest inflation data is expected to show price increases are accelerating",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/a9a26b9706963afe9bdeda1b2eb1f51d",
+          "source": "Associated Press",
+          "title": "US stocks hover near their latest record in mixed trading on Wall Street",
+          "publishedAt": "2026-10-12"
+        },
+        {
+          "id": 3,
+          "url": "https://www.bls.gov/schedule/2026/10_sched.htm",
+          "source": "U.S. Bureau of Labor Statistics",
+          "title": "Release Calendar: October 2026",
+          "publishedAt": "2026-10"
+        }
+      ],
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/a9a26b9706963afe9bdeda1b2eb1f51d",
+          "source": "Associated Press",
+          "title": "US stocks hover near their latest record in mixed trading on Wall Street"
+        }
+      ],
+      "slug": "us-september-cpi-preview-inflation-accelerating-ko",
+      "headline": "최신 물가 지표, 가격 상승세 가속을 보여줄 전망",
+      "dek": "경제학자들은 10월 14일 CPI 발표에 앞서 9월 헤드라인 물가 상승률이 높아질 것으로 예상했다.",
+      "tldr": [
+        "미 노동통계국은 9월 CPI 발표를 10월 14일로 예정했다.",
+        "발표 전 경제학자들은 연간 물가 상승률이 8월 3.4%에서 3.6%로 오를 것으로 예상했다.",
+        "이는 전망치이며 실제 9월 CPI 결과는 아니다."
+      ],
+      "body": [
+        {
+          "text": "미 노동통계국은 9월 소비자물가지수(CPI) 발표를 10월 14일로 예정했다. 발표 전 CNBC는 경제학자들이 헤드라인 물가 상승률의 가속을 예상했으며 에너지 가격 상승을 주요 요인으로 들었다고 보도했다.",
+          "citations": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "AP도 경제학자들이 연간 물가 상승률이 8월 3.4%에서 9월 3.6%로 높아질 것으로 예상한다고 전했다. 이는 정부 발표 전 전망이며 실제 CPI 결과가 아니다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "CPI는 도시 소비자가 지불하는 상품과 서비스 가격 변화를 측정한다. 예정된 보고서에는 전체 물가와 식품·에너지를 제외한 근원 지표가 포함돼 변동성이 큰 항목과 전반적 움직임을 구분한다.",
+          "citations": [
+            3
+          ]
+        },
+        {
+          "text": "인용한 사전 보도 시점에는 9월 실제 수치가 발표되지 않았다. 보고서가 나오기 전까지 전망과 에너지 가격에 관한 설명은 확인된 통계가 아니라 예상으로 남아 있었다.",
+          "citations": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "예정된 CPI 발표는 에너지 가격 상승이 물가에 얼마나 반영됐는지 보여줄 예정이지만 당시에는 예상치만 공개돼 있었다.",
+      "editorNote": "발표 전 전망 기사이며 실제 9월 CPI 결과는 인용한 보도 시점에 나오지 않았다."
     }
   ]
 }
