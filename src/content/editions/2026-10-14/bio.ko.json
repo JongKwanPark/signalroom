@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-14",
+  "generatedAt": "2026-10-13T22:06:33.142Z",
+  "vertical": "bio",
+  "lang": "ko",
+  "title": "시그널 데일리 바이오 — 2026-10-14",
+  "summary": "독립 출처 기준을 통과한 두 가지 동향을 담았다. 수집된 CAR-T, 펩타이드, N-아세틸시스테인, NAD+ 자료는 독립 보도가 없는 단일 논문이나 임상시험 기록이어서 뉴스로 구성하지 않았다.",
+  "stories": [
+    {
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "confidence": "medium",
+      "tags": [
+        "Humana",
+        "BlackRock",
+        "healthcare",
+        "primary care",
+        "Medicare"
+      ],
+      "cluster": [
+        {
+          "url": "https://www.statnews.com/2026/10/13/blackrock-humana-centerwell-deal-senior-care-medicare-clinics/",
+          "source": "STAT",
+          "title": "BlackRock to buy majority stake in Humana’s CenterWell clinics for $2.8 billion"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://humana.gcs-web.com/static-files/dfe310cd-69fc-4205-ae9f-8477b5a0d9bc",
+          "source": "Humana",
+          "title": "Form 8-K filed October 13, 2026",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://www.statnews.com/2026/10/13/blackrock-humana-centerwell-deal-senior-care-medicare-clinics/",
+          "source": "STAT",
+          "title": "BlackRock to buy majority stake in Humana’s CenterWell clinics for $2.8 billion",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "headline": "블랙록, 휴매나 센터웰 클리닉 과반 지분 28억 달러에 인수 예정",
+      "dek": "휴매나는 승인 절차를 전제로 거래 대금이 클리닉 운영과 확장에 쓰일 것이라고 밝혔다.",
+      "tldr": [
+        "휴매나는 블랙록이 웨일스 카슨의 센터웰 과반 지분을 28억 달러 가치로 인수한다고 밝혔다.",
+        "센터웰은 메디케어 어드밴티지 중심 150개 1차 진료 클리닉을 운영하며, 휴매나는 거래 대금을 운영과 확장에 쓸 계획이다.",
+        "거래는 통상 절차와 규제 승인을 전제로 2026년 4분기 종결될 예정이며, 휴매나는 2026년 조정 이익 가이던스에 중대한 영향이 없을 것으로 봤다."
+      ],
+      "body": [
+        {
+          "text": "휴매나는 블랙록이 웨일스 카슨의 센터웰 과반 지분을 인수한다고 발표했다. 거래 가치는 약 28억 달러이며, 회사 설명에 따르면 센터웰은 메디케어 어드밴티지 가입자에 초점을 둔 1차 진료 클리닉 150곳을 운영한다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "휴매나는 향후 2년 동안 거래 대금으로 기존 클리닉 운영, 신규 클리닉, 전략적 인수를 지원할 계획이라고 밝혔다. STAT은 거래를 보도하면서 2020년 이후 투자해 온 사모펀드의 지분 회수 맥락도 전했다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "회사 공시에는 통상적인 종결 조건과 주·연방 규제 승인을 전제로 거래가 2026년 4분기에 마무리될 예정이라고 적혀 있다. 공시는 이번 거래가 2026년 조정 이익 가이던스에 중대한 영향을 미칠 것으로 예상하지 않는다고도 밝혔다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "지분 이전은 아직 완료되지 않았고 최종 조건은 심사에 달려 있다. 발표는 투자금 사용 목적을 제시하지만 클리닉 운영, 환자 접근성, 향후 인수 계획에 어떤 변화가 생길지는 구체화하지 않았다.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "slug": "blackrock-humana-centerwell-majority-stake-ko",
+      "whyItMatters": "이번 거래는 상당한 규모의 1차 진료망 소유권을 바꾸며 메디케어 중심 클리닉의 자본 배분에 영향을 줄 수 있다. 다만 승인과 이후 운영 결정이 남아 있다.",
+      "editorNote": "거래 조건은 회사 발표에 근거하며 종결에는 규제 승인이 남아 있다."
+    },
+    {
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "confidence": "medium",
+      "tags": [
+        "Neurocrine Biosciences",
+        "Vykat XR",
+        "Prader-Willi syndrome",
+        "drug safety",
+        "FDA"
+      ],
+      "cluster": [
+        {
+          "url": "https://pwsa-usa.org/vykat-safety",
+          "source": "Prader-Willi Syndrome Association USA",
+          "title": "Vykat safety signal, 2026"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.statnews.com/2026/10/13/neurocrine-biosciences-prader-willi-vykat-xr/",
+          "source": "STAT",
+          "title": "Concerns grow on safety issues tied to Neurocrine Biosciences rare disease drug",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://pwsa-usa.org/vykat-safety",
+          "source": "Prader-Willi Syndrome Association USA",
+          "title": "Vykat safety signal, 2026"
+        }
+      ],
+      "headline": "뉴로크라인 바이오사이언시스 희귀질환 치료제 안전성 우려 커져",
+      "dek": "규제기관에 제출된 보고가 우려를 낳았지만, 약물이 해당 사례를 일으켰다는 점을 입증하지는 않는다.",
+      "tldr": [
+        "STAT은 Vykat XR 처방 환자와 관련해 승인 이후 사망 7건과 입원 약 100건이 보고됐다고 전했다.",
+        "이상사례 보고는 인과관계를 입증하지 않으며, 환자들은 복합적인 질환이 있거나 다른 약을 함께 사용한 경우도 있었다.",
+        "환자 단체와 일부 전문가가 검토를 촉구하는 한편 신중한 해석을 요구하는 의견도 있으며, 보도 당시 새 규제 조치는 확인되지 않았다."
+      ],
+      "body": [
+        {
+          "text": "STAT은 뉴로크라인 바이오사이언시스의 Vykat XR을 처방받은 환자와 관련해 규제기관에 제출된 사례 보고에 사망 7건과 입원 약 100건이 포함됐다고 보도했다. 이 약은 프라더-윌리 증후군 환자의 과도한 식욕 치료제로 승인됐다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "STAT은 정보공개 청구로 사례 보고를 확보했다고 밝혔다. 다만 보고만으로 인과관계를 확인할 수 없으며, 여러 사례에서 복합적인 질환과 복수 약물 사용이 있었다고 강조했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "프라더-윌리 증후군 협회도 FDA 이상사례 시스템에 접수된 보고를 설명하면서 현재 자료로 약물이 사례를 일으켰는지 판단할 수 없다고 밝혔다. 일부 환자 단체와 전문가는 더 면밀한 검토를 요구하고, 다른 임상의들은 신중한 해석을 촉구한다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "추가 조사가 인과관계를 밝혀낼지, 규제기관이나 제조사가 모니터링 또는 표시사항을 바꿀지는 아직 열린 사안이다. 현재 보고는 검토가 필요한 안전성 신호이지 약효의 위해성을 입증한 결과가 아니며 개인 치료 조언의 근거도 아니다.",
+          "citations": [
+            1
+          ]
+        }
+      ],
+      "slug": "vykat-xr-postmarket-safety-reports-ko",
+      "whyItMatters": "이번 보고는 희귀질환 치료제의 시판 후 안전성 신호가 검토를 촉발하는 과정을 보여준다. 다만 자발적 보고만으로 인과관계를 입증하거나 개인별 위험을 산출할 수는 없다.",
+      "editorNote": "보고된 이상사례는 인과관계를 입증하지 않으며 의학적 조언을 제공하지 않는다."
+    }
+  ]
+}

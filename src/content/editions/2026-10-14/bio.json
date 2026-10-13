@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-14",
+  "generatedAt": "2026-10-13T22:06:33.142Z",
+  "vertical": "bio",
+  "lang": "en",
+  "title": "Signal Daily Bio — 2026-10-14",
+  "summary": "Two developments cleared the independent-source gate. The collected CAR-T, peptide, N-acetylcysteine and NAD+ items were single papers or trial records without independent coverage, so they were not treated as stories.",
+  "stories": [
+    {
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "confidence": "medium",
+      "tags": [
+        "Humana",
+        "BlackRock",
+        "healthcare",
+        "primary care",
+        "Medicare"
+      ],
+      "cluster": [
+        {
+          "url": "https://www.statnews.com/2026/10/13/blackrock-humana-centerwell-deal-senior-care-medicare-clinics/",
+          "source": "STAT",
+          "title": "BlackRock to buy majority stake in Humana’s CenterWell clinics for $2.8 billion"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://humana.gcs-web.com/static-files/dfe310cd-69fc-4205-ae9f-8477b5a0d9bc",
+          "source": "Humana",
+          "title": "Form 8-K filed October 13, 2026",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://www.statnews.com/2026/10/13/blackrock-humana-centerwell-deal-senior-care-medicare-clinics/",
+          "source": "STAT",
+          "title": "BlackRock to buy majority stake in Humana’s CenterWell clinics for $2.8 billion",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "slug": "blackrock-humana-centerwell-majority-stake",
+      "headline": "BlackRock to buy majority stake in Humana’s CenterWell clinics for $2.8 billion",
+      "dek": "Humana says the transaction will fund clinic operations and possible expansion, subject to approvals.",
+      "tldr": [
+        "Humana said BlackRock will acquire Welsh Carson’s majority stake in CenterWell in a transaction valued at $2.8 billion.",
+        "The clinic network includes 150 Medicare Advantage-focused primary-care sites, and Humana says proceeds will support operations and expansion.",
+        "The deal is expected to close in the fourth quarter of 2026, subject to customary and regulatory approvals; Humana said it does not expect a material effect on its 2026 adjusted earnings guidance."
+      ],
+      "body": [
+        {
+          "text": "Humana announced that BlackRock would acquire Welsh Carson’s majority ownership in CenterWell, valuing the transaction at about $2.8 billion. The company described the network as operating 150 primary-care clinics focused on Medicare Advantage members.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Humana said proceeds over the next two years would help fund existing clinic operations, additional clinics and strategic acquisitions. STAT reported the transaction and placed it in the context of the private-equity firm’s exit after investing in the venture since 2020.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "The company’s filing says the transaction is expected to close in the fourth quarter of 2026, subject to customary closing conditions and state and federal regulatory approval. The filing also says the deal is not expected to materially affect Humana’s 2026 adjusted earnings guidance.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The ownership transfer has not yet closed, and the final conditions remain subject to review. The announcement does not specify how the investment will alter clinic operations, patient access or future acquisitions beyond the stated funding purpose.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The transaction would shift ownership of a sizeable primary-care network and may influence how capital is allocated to Medicare-focused clinics, subject to approvals and later operating choices.",
+      "editorNote": "Transaction terms are company-reported; closing remains subject to regulatory approvals."
+    },
+    {
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "confidence": "medium",
+      "tags": [
+        "Neurocrine Biosciences",
+        "Vykat XR",
+        "Prader-Willi syndrome",
+        "drug safety",
+        "FDA"
+      ],
+      "cluster": [
+        {
+          "url": "https://pwsa-usa.org/vykat-safety",
+          "source": "Prader-Willi Syndrome Association USA",
+          "title": "Vykat safety signal, 2026"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.statnews.com/2026/10/13/neurocrine-biosciences-prader-willi-vykat-xr/",
+          "source": "STAT",
+          "title": "Concerns grow on safety issues tied to Neurocrine Biosciences rare disease drug",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://pwsa-usa.org/vykat-safety",
+          "source": "Prader-Willi Syndrome Association USA",
+          "title": "Vykat safety signal, 2026"
+        }
+      ],
+      "slug": "vykat-xr-postmarket-safety-reports",
+      "headline": "Concerns grow on safety issues tied to Neurocrine Biosciences rare disease drug",
+      "dek": "Reports submitted to regulators have raised concern, but they do not establish that the medicine caused the events.",
+      "tldr": [
+        "STAT reported that seven deaths and nearly 100 hospitalizations had been reported among people prescribed Vykat XR since its approval.",
+        "The adverse-event reports do not prove causation, and the patients had complex medical conditions and sometimes used other medications.",
+        "Patient advocates and some experts are pressing for scrutiny while others urge caution; no new regulatory action was confirmed in the reporting."
+      ],
+      "body": [
+        {
+          "text": "STAT reported that case reports submitted to regulators included seven deaths and nearly 100 hospitalizations among people prescribed Neurocrine Biosciences’ Vykat XR since its approval. The reports concern a treatment for hyperphagia in people with Prader-Willi syndrome.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The outlet obtained the case reports through a Freedom of Information Act request. It emphasized that the reports do not establish causality: many cases involved complex medical conditions and multiple medications.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The Prader-Willi Syndrome Association’s safety page also describes reports in the FDA adverse-event system and says the available reports cannot determine whether the drug caused the events. Some advocates and experts want more scrutiny, while other clinicians urge careful interpretation.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "The open questions include whether further investigation will identify a causal link and whether regulators or the manufacturer will change monitoring or labeling. The current reports are a safety signal for review, not proof of a drug effect and not a basis for individual treatment advice.",
+          "citations": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "The reports show how post-market safety signals can trigger scrutiny for a rare-disease medicine, but spontaneous reports cannot establish causation or quantify individual risk.",
+      "editorNote": "Reported adverse events do not establish causality; no medical advice is offered."
+    }
+  ]
+}

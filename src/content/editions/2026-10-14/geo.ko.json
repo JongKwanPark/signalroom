@@ -1,0 +1,266 @@
+{
+  "date": "2026-10-14",
+  "generatedAt": "2026-10-13T22:06:33.142Z",
+  "vertical": "geo",
+  "lang": "ko",
+  "title": "시그널 데일리 지정학 — 2026-10-14",
+  "summary": "독립 보도가 확인된 세 가지 동향을 담았다. 여러 매체가 보도한 교황 레오의 건강 소식은 버티컬 범위 밖이라 제외했고, OpenAI 녹음 장치 사건은 AI에 실어 중복하지 않았다.",
+  "stories": [
+    {
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "confidence": "medium",
+      "tags": [
+        "Saudi Arabia",
+        "Yemen",
+        "Houthis",
+        "energy security",
+        "air defense"
+      ],
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/307d49abfe63ff66c99c318d94ca3e15",
+          "source": "Associated Press",
+          "title": "Saudi-led coalition struck oil facilities west of Yemen’s capital, Houthi-run broadcaster says"
+        },
+        {
+          "url": "https://www.theguardian.com/world/2026/oct/13/saudi-arabia-strikes-strategic-oil-depots-near-yemen-capital",
+          "source": "The Guardian",
+          "title": "Saudi Arabia strikes strategic oil depots near Yemen capital"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o",
+          "source": "BBC News",
+          "title": "Missiles intercepted near Riyadh after Saudi coalition hits Yemen fuel depot",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/307d49abfe63ff66c99c318d94ca3e15",
+          "source": "Associated Press",
+          "title": "Saudi-led coalition struck oil facilities west of Yemen’s capital, Houthi-run broadcaster says",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 3,
+          "url": "https://www.theguardian.com/world/2026/oct/13/saudi-arabia-strikes-strategic-oil-depots-near-yemen-capital",
+          "source": "The Guardian",
+          "title": "Saudi Arabia strikes strategic oil depots near Yemen capital",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "headline": "사우디 연합군의 예멘 연료 저장소 공습 뒤 리야드 인근 미사일 요격",
+      "dek": "공습과 뒤이은 위협이 사우디와 후티 간 대립을 확대하고 있다.",
+      "tldr": [
+        "사우디 주도 연합군은 후티 장악 지역의 예멘 연료 시설을 공격했다고 밝혔고, 후티 측 매체는 현장 피해를 보도했다.",
+        "사우디 당국은 공습 뒤 리야드 인근에서 미사일과 드론을 요격했다고 발표했으며, 양측의 설명은 순서와 세부 사항에서 다르다.",
+        "에너지 시설과 민간 지역을 겨냥한 위협이 이어지는 가운데 피해 규모와 양측의 다음 대응은 불확실하다."
+      ],
+      "body": [
+        {
+          "text": "BBC는 사우디 주도 연합군이 예멘의 연료 저장소를 공격한 뒤 리야드 인근에서 미사일을 요격했다고 보도했다. AP도 연합군의 공습을 전하며, 공격 대상에 대한 초기 설명은 후티 측 매체를, 군사적 근거는 사우디 당국을 인용했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "가디언은 저장소가 사나에 있었으며 예멘 석유회사가 공격 당시 저장 시설은 비어 있었다고 밝혔다고 전했다. 연합군은 후티가 미사일과 드론 보급에 이용한다고 판단한 시설을 겨냥했다고 설명했다.",
+          "citations": [
+            3
+          ]
+        },
+        {
+          "text": "보도에는 분쟁 당사자들의 상반된 주장이 담겨 있다. 공개된 정보만으로는 저장소 피해 규모나 요격 무기에 대한 모든 설명을 독립적으로 확인할 수 없다.",
+          "citations": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "이번 충돌은 사우디 도시 주변의 미사일·드론 공격과 더불어 연료 기반시설까지 대립의 범위가 넓어졌다는 점에서 중요하다. 위협이 추가 공습으로 이어질지, 해운이나 에너지 시설에 어떤 영향이 생길지는 아직 확인되지 않았다.",
+          "citations": [
+            1
+          ]
+        }
+      ],
+      "slug": "saudi-yemen-oil-strike-houthi-retaliation-threats-ko",
+      "whyItMatters": "이번 충돌은 분쟁 확대를 에너지 기반시설과 민간 안전에 연결하지만, 피해와 요격 무기에 대한 주장은 여전히 엇갈린다.",
+      "editorNote": "분쟁 당사자의 주장을 귀속해 서술했으며 피해와 요격 세부 내용은 독립적으로 확인되지 않았다."
+    },
+    {
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "confidence": "medium",
+      "tags": [
+        "Argentina",
+        "United Kingdom",
+        "Falkland Islands",
+        "energy security",
+        "international law"
+      ],
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/uk-news/2026/oct/13/britain-interpol-reject-argentina-falkland-islands-arrests",
+          "source": "The Guardian",
+          "title": "UK asks Interpol to reject Argentina’s ‘politically motivated’ requests for Falklands oil arrests"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cmp3g14p3z2ko",
+          "source": "BBC News",
+          "title": "Argentina targets UK in legal claim over Falklands oil exploration"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/2a78578f0a9ffda403f4721c4e1d304f",
+          "source": "Associated Press",
+          "title": "Argentina takes fight with UK over Falklands’ oil industry to international tribunal",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theguardian.com/uk-news/2026/oct/13/britain-interpol-reject-argentina-falkland-islands-arrests",
+          "source": "The Guardian",
+          "title": "UK asks Interpol to reject Argentina’s ‘politically motivated’ requests for Falklands oil arrests",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 3,
+          "url": "https://www.bbc.co.uk/news/articles/cmp3g14p3z2ko",
+          "source": "BBC News",
+          "title": "Argentina targets UK in legal claim over Falklands oil exploration",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "headline": "포클랜드 석유 탐사 법적 분쟁에서 영국 겨냥한 아르헨티나",
+      "dek": "부에노스아이레스는 씨 라이언 개발 중단을 요구하고 있으며 영국은 이에 반대하고 있다.",
+      "tldr": [
+        "아르헨티나는 포클랜드 제도 인근 씨 라이언 석유 프로젝트를 중단시키기 위해 국제 해양재판소에 잠정 조치를 요청했다고 밝혔다.",
+        "이 프로젝트는 이스라엘과 영국 기업이 참여하며 가치는 약 22억 달러다. 개발사들은 2028년 생산 개시를 예상한다고 밝혔다.",
+        "영국도 석유 분쟁과 관련한 아르헨티나의 요청을 인터폴이 기각해야 한다고 요구해 법적·외교적 대응이 남아 있다."
+      ],
+      "body": [
+        {
+          "text": "AP는 아르헨티나 정부가 포클랜드 제도 북쪽 씨 라이언 프로젝트를 중단시키기 위해 국제해양법재판소에 잠정 조치를 요청했다고 보도했다. 부에노스아이레스는 자국의 주권적 권리를 보전하기 위한 요청이라고 밝혔다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "AP는 씨 라이언을 약 22억 달러 규모의 이스라엘·영국 석유 프로젝트로 설명했다. 보도에 따르면 개발사인 나비타스 페트롤리엄과 록호퍼 익스플로레이션은 여러 차례 지연 이후 2028년 생산을 시작할 것으로 예상한다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "가디언은 영국이 석유 업계 관계자에 대해 체포 요청을 발부해 달라는 아르헨티나의 요구를 인터폴이 기각해야 한다고 요청했다고 전했다. 영국은 해당 요구가 정치적 동기에서 비롯됐다고 주장했다. 이 분쟁은 제도의 주권을 둘러싼 양국의 오랜 대립을 반영한다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "재판소는 아르헨티나의 요청에 아직 판결하지 않았으며 프로젝트 일정도 법적·상업적 전개에 달려 있다. 어느 정부도 섬의 주권에 대한 입장을 바꿨다는 보도는 없다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "slug": "argentina-falklands-sea-lion-legal-action-ko",
+      "whyItMatters": "법적 대응은 영토 분쟁을 해상 에너지 개발 및 국경 간 집행 문제와 연결하며 프로젝트 일정과 역내 외교에 영향을 줄 수 있다.",
+      "editorNote": "주권에 대한 입장은 각 정부에 귀속했으며 재판소 판결은 아직 나오지 않았다."
+    },
+    {
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "confidence": "medium",
+      "tags": [
+        "Russia",
+        "Japan",
+        "espionage",
+        "security",
+        "diplomacy"
+      ],
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/9af00a424124dcbe398a97d90a7f40d9",
+          "source": "Associated Press",
+          "title": "Japanese journalist arrested in Russia’s Sakhalin region on spying charges"
+        },
+        {
+          "url": "https://www.marketscreener.com/news/russia-detains-japanese-journalist-on-suspicion-of-spying-ce785dddd181f627",
+          "source": "Reuters",
+          "title": "Russia detains Japanese journalist on suspicion of spying"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.aljazeera.com/news/2026/10/13/russia-arrests-japanese-reporter-for-alleged",
+          "source": "Al Jazeera",
+          "title": "Russia arrests Japanese reporter for alleged espionage",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/9af00a424124dcbe398a97d90a7f40d9",
+          "source": "Associated Press",
+          "title": "Japanese journalist arrested in Russia’s Sakhalin region on spying charges",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 3,
+          "url": "https://www.marketscreener.com/news/russia-detains-japanese-journalist-on-suspicion-of-spying-ce785dddd181f627",
+          "source": "Reuters",
+          "title": "Russia detains Japanese journalist on suspicion of spying",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "headline": "러시아, 간첩 혐의로 일본 기자 체포",
+      "dek": "FSB는 기자가 러시아 방위 정보를 수집했다고 주장했지만, 공개 보도에는 일본 측 반응과 기자의 실명이 나오지 않았다.",
+      "tldr": [
+        "러시아 연방보안국은 사할린에서 러시아 방위 능력에 관한 정보를 모은 혐의로 일본 기자를 구금했다고 밝혔다.",
+        "AP에 따르면 해당 기자는 홋카이도신문 소속으로 모스크바로 이송됐지만 러시아 당국은 공개적으로 이름을 밝히지 않았다.",
+        "간첩 혐의는 보도에서 독립적으로 입증되지 않았으며, 법률 대리인과 일본 정부의 대응도 공개된 보도에서 확인되지 않았다."
+      ],
+      "body": [
+        {
+          "text": "알자지라는 러시아가 간첩 혐의로 일본 기자를 체포했다고 보도했다. AP에 따르면 러시아 연방보안국은 해당 인물이 일본 정보기관을 위해 자국 방위 능력 관련 정보를 수집했다고 주장했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP는 기자가 홋카이도신문 소속이며 러시아를 떠나려던 중 사할린에서 구금된 뒤 모스크바로 이송됐다고 전했다. AP가 설명한 FSB 발표에서는 기자의 신원이 공개되지 않았다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "AP는 러시아가 통제하고 일본이 영유권을 주장하는 쿠릴 열도를 둘러싸고 모스크바와 도쿄의 긴장이 높아진 가운데 체포가 이뤄졌다고 전했다. 간첩 혐의는 러시아 기관의 주장으로 남아 있으며, 보도는 간첩 행위가 있었다는 사실을 독립적으로 입증하지 않는다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "보도 시점에 공개된 정보에는 기자의 실명, 법률 대리인, 증거, 일본 정부나 홋카이도신문의 입장이 포함되지 않았다. 향후 절차와 외교적 대응은 아직 확인되지 않았다.",
+          "citations": [
+            1
+          ]
+        }
+      ],
+      "slug": "russia-detains-japanese-journalist-espionage-allegation-ko",
+      "whyItMatters": "이번 체포는 러시아와 일본 사이의 취재 환경과 외교 관계에 부담을 줄 수 있지만, 공개 기록에는 러시아 당국의 미확인 혐의만 담겨 있다.",
+      "editorNote": "간첩 혐의는 러시아 당국의 주장으로 남아 있으며 인용한 보도에서 신원과 증거는 공개되지 않았다."
+    }
+  ]
+}

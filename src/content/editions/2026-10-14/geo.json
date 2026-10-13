@@ -1,0 +1,266 @@
+{
+  "date": "2026-10-14",
+  "generatedAt": "2026-10-13T22:06:33.142Z",
+  "vertical": "geo",
+  "lang": "en",
+  "title": "Signal Daily Geo — 2026-10-14",
+  "summary": "Three developments had independent coverage. The widely reported Pope Leo health update was excluded as off-vertical, and the OpenAI recording-device arrest is covered under AI rather than duplicated here.",
+  "stories": [
+    {
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "confidence": "medium",
+      "tags": [
+        "Saudi Arabia",
+        "Yemen",
+        "Houthis",
+        "energy security",
+        "air defense"
+      ],
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/307d49abfe63ff66c99c318d94ca3e15",
+          "source": "Associated Press",
+          "title": "Saudi-led coalition struck oil facilities west of Yemen’s capital, Houthi-run broadcaster says"
+        },
+        {
+          "url": "https://www.theguardian.com/world/2026/oct/13/saudi-arabia-strikes-strategic-oil-depots-near-yemen-capital",
+          "source": "The Guardian",
+          "title": "Saudi Arabia strikes strategic oil depots near Yemen capital"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o",
+          "source": "BBC News",
+          "title": "Missiles intercepted near Riyadh after Saudi coalition hits Yemen fuel depot",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/307d49abfe63ff66c99c318d94ca3e15",
+          "source": "Associated Press",
+          "title": "Saudi-led coalition struck oil facilities west of Yemen’s capital, Houthi-run broadcaster says",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 3,
+          "url": "https://www.theguardian.com/world/2026/oct/13/saudi-arabia-strikes-strategic-oil-depots-near-yemen-capital",
+          "source": "The Guardian",
+          "title": "Saudi Arabia strikes strategic oil depots near Yemen capital",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "slug": "saudi-yemen-oil-strike-houthi-retaliation-threats",
+      "headline": "Missiles intercepted near Riyadh after Saudi coalition hits Yemen fuel depot",
+      "dek": "The strike and subsequent threats add pressure to a widening Saudi-Houthi confrontation.",
+      "tldr": [
+        "The Saudi-led coalition said it struck a fuel facility in Houthi-held Yemen, while Houthi-run media reported damage at the site.",
+        "Saudi officials said air defenses intercepted missiles and drones near Riyadh after the strike; the accounts differ on the sequence and details.",
+        "The extent of damage and the next steps by both sides remain uncertain as threats extend to energy infrastructure and civilian areas."
+      ],
+      "body": [
+        {
+          "text": "The BBC reported that the Saudi-led coalition struck a fuel depot in Yemen and that missiles were intercepted near Riyadh afterward. The Associated Press separately reported the coalition strike, citing Houthi-run media for the initial account of the target and Saudi officials for the stated military rationale.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The Guardian reported that the depot was in Sanaa and that the Yemeni Oil Company said its storage facilities were empty at the time of the attack. The coalition said it targeted a facility it believed the Houthis used for missile and drone supplies.",
+          "citations": [
+            3
+          ]
+        },
+        {
+          "text": "The reporting describes competing claims from the parties to the conflict. Available reports do not independently establish the full extent of damage at the depot or verify all claims about the intercepted weapons.",
+          "citations": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "The episode matters because the exchange now involves fuel infrastructure as well as missile and drone attacks around Saudi cities. Whether the threats lead to further strikes, and how shipping or energy facilities are affected, remained unresolved in the reports.",
+          "citations": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "The exchange connects conflict escalation with energy infrastructure and civilian security, although claims about damage and intercepted weapons remain contested.",
+      "editorNote": "Claims from conflict parties are attributed; damage and interception details are not independently confirmed."
+    },
+    {
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "confidence": "medium",
+      "tags": [
+        "Argentina",
+        "United Kingdom",
+        "Falkland Islands",
+        "energy security",
+        "international law"
+      ],
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/uk-news/2026/oct/13/britain-interpol-reject-argentina-falkland-islands-arrests",
+          "source": "The Guardian",
+          "title": "UK asks Interpol to reject Argentina’s ‘politically motivated’ requests for Falklands oil arrests"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cmp3g14p3z2ko",
+          "source": "BBC News",
+          "title": "Argentina targets UK in legal claim over Falklands oil exploration"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/2a78578f0a9ffda403f4721c4e1d304f",
+          "source": "Associated Press",
+          "title": "Argentina takes fight with UK over Falklands’ oil industry to international tribunal",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theguardian.com/uk-news/2026/oct/13/britain-interpol-reject-argentina-falkland-islands-arrests",
+          "source": "The Guardian",
+          "title": "UK asks Interpol to reject Argentina’s ‘politically motivated’ requests for Falklands oil arrests",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 3,
+          "url": "https://www.bbc.co.uk/news/articles/cmp3g14p3z2ko",
+          "source": "BBC News",
+          "title": "Argentina targets UK in legal claim over Falklands oil exploration",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "slug": "argentina-falklands-sea-lion-legal-action",
+      "headline": "Argentina targets UK in legal claim over Falklands oil exploration",
+      "dek": "Buenos Aires is seeking to stop development of the Sea Lion project, while Britain contests the move.",
+      "tldr": [
+        "Argentina said it sought provisional measures at an international maritime tribunal to halt the Sea Lion oil project near the Falkland Islands.",
+        "The project is backed by Israeli and British companies and is valued at about $2.2 billion; developers have said they expect production to start in 2028.",
+        "The UK also asked Interpol to reject Argentina’s requests linked to the oil dispute, leaving legal and diplomatic steps unresolved."
+      ],
+      "body": [
+        {
+          "text": "The Associated Press reported that Argentina’s government sought provisional measures from the International Tribunal for the Law of the Sea to stop development of the Sea Lion project north of the Falkland Islands. Buenos Aires said the request was intended to preserve its sovereign rights.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "AP described Sea Lion as a roughly $2.2 billion Israeli-British oil project. Its developers, Navitas Petroleum and Rockhopper Exploration, expect production to begin in 2028 after years of delays, according to the report.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The Guardian reported that the UK asked Interpol to reject Argentine requests for arrest notices against people involved in the oil sector. Britain characterized the requests as politically motivated; the dispute reflects the countries’ longstanding, opposing sovereignty claims over the islands.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "The tribunal has not yet ruled on Argentina’s request, and the project’s schedule remains dependent on legal and commercial developments. The reports do not indicate that either government has changed its position on sovereignty.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The legal moves tie a territorial dispute to offshore energy development and cross-border enforcement, with potential implications for the project schedule and regional diplomacy.",
+      "editorNote": "Sovereignty positions are attributed to the governments; no tribunal ruling has issued."
+    },
+    {
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "confidence": "medium",
+      "tags": [
+        "Russia",
+        "Japan",
+        "espionage",
+        "security",
+        "diplomacy"
+      ],
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/9af00a424124dcbe398a97d90a7f40d9",
+          "source": "Associated Press",
+          "title": "Japanese journalist arrested in Russia’s Sakhalin region on spying charges"
+        },
+        {
+          "url": "https://www.marketscreener.com/news/russia-detains-japanese-journalist-on-suspicion-of-spying-ce785dddd181f627",
+          "source": "Reuters",
+          "title": "Russia detains Japanese journalist on suspicion of spying"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.aljazeera.com/news/2026/10/13/russia-arrests-japanese-reporter-for-alleged",
+          "source": "Al Jazeera",
+          "title": "Russia arrests Japanese reporter for alleged espionage",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/9af00a424124dcbe398a97d90a7f40d9",
+          "source": "Associated Press",
+          "title": "Japanese journalist arrested in Russia’s Sakhalin region on spying charges",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 3,
+          "url": "https://www.marketscreener.com/news/russia-detains-japanese-journalist-on-suspicion-of-spying-ce785dddd181f627",
+          "source": "Reuters",
+          "title": "Russia detains Japanese journalist on suspicion of spying",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "slug": "russia-detains-japanese-journalist-espionage-allegation",
+      "headline": "Russia arrests Japanese reporter for alleged espionage",
+      "dek": "The FSB alleges the journalist collected defense information; Japan and the detained man’s employer have not been quoted in the available reports.",
+      "tldr": [
+        "Russia’s Federal Security Service said it detained a Japanese journalist on Sakhalin on suspicion of gathering information about Russian defense capabilities.",
+        "The Associated Press reported that the journalist worked for Hokkaido Shimbun and was transferred to Moscow, but Russian authorities did not publicly name him.",
+        "The espionage allegation has not been independently substantiated in the reports, and the available accounts leave his legal representation and Japan’s response unclear."
+      ],
+      "body": [
+        {
+          "text": "Al Jazeera reported that Russia arrested a Japanese reporter on suspicion of espionage. The Associated Press said Russia’s Federal Security Service alleged the man gathered information about the country’s defense capabilities for a Japanese intelligence agency.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The AP report said the journalist worked for Hokkaido Shimbun and was detained on Sakhalin as he prepared to leave Russia, then transferred to Moscow. The FSB did not identify him publicly in the statement described by AP.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "The arrest comes amid tension between Moscow and Tokyo over the Kuril Islands, which are controlled by Russia and claimed by Japan, according to AP. The allegation itself remains the Russian agency’s account; the reports do not independently establish that espionage occurred.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "The reports available at publication did not identify the journalist or provide details about legal counsel, evidence or a response from Japan or Hokkaido Shimbun. The next procedural steps and any diplomatic response remain open.",
+          "citations": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "The arrest raises risks for reporting and diplomatic ties between Russia and Japan, but the public record currently contains an unverified allegation from Russian authorities.",
+      "editorNote": "Espionage remains an allegation by Russian authorities; identity and evidence are not public in the cited reports."
+    }
+  ]
+}

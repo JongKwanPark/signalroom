@@ -1,0 +1,418 @@
+{
+  "date": "2026-10-14",
+  "generatedAt": "2026-10-13T22:06:33.142Z",
+  "vertical": "markets",
+  "lang": "ko",
+  "title": "시그널 데일리 마켓 — 2026-10-14",
+  "summary": "은행 제재, IMF 전망, 식스플래그, 크로거, 한국 수출 등 교차 보도가 확인된 다섯 가지 동향을 담았다. 한국의 7,470억 달러 에너지 계획은 이번 주 초 보도돼 오늘의 새 동향으로 다루지 않았다.",
+  "stories": [
+    {
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "confidence": "medium",
+      "tags": [
+        "Bank of America",
+        "FinCEN",
+        "anti-money laundering",
+        "bank regulation",
+        "sanctions"
+      ],
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/29013b2c8f08a3a8d579a96721ed1aa4",
+          "source": "Associated Press",
+          "title": "US hits Bank of America with $1.2 billion fine, saying it violated money laundering, sanctions laws"
+        },
+        {
+          "url": "https://www.investing.com/news/stock-market-news/bofa-fined-12-billion-by-us-government-for-failing-to-police-suspicious-activity-4947537",
+          "source": "Reuters",
+          "title": "BofA fined $1.2 billion by US government for failing to police suspicious activity"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.fincen.gov/news/news-releases/fincen-assesses-12-billion-penalty-against-bank-america",
+          "source": "FinCEN",
+          "title": "FinCEN Assesses $1.2 Billion Penalty against Bank of America",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/stock-market-news/bofa-fined-12-billion-by-us-government-for-failing-to-police-suspicious-activity-4947537",
+          "source": "Reuters",
+          "title": "BofA fined $1.2 billion by US government for failing to police suspicious activity",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 3,
+          "url": "https://apnews.com/article/29013b2c8f08a3a8d579a96721ed1aa4",
+          "source": "Associated Press",
+          "title": "US hits Bank of America with $1.2 billion fine, saying it violated money laundering, sanctions laws",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "headline": "FinCEN, 뱅크오브아메리카에 12억 달러 과징금 부과",
+      "dek": "미국 기관들은 자금세탁 방지와 제재 통제 실패와 관련한 과징금과 합의를 발표했다.",
+      "tldr": [
+        "미국 기관들은 뱅크오브아메리카에 FinCEN 과징금 12억 달러와 OCC 과징금 7억 5,000만 달러를 별도로 부과했다고 밝혔다.",
+        "재무부는 은행이 우선순위 위험을 완화·보고하지 않았다고 했고, 로이터는 의심 거래 50억 달러 이상이 보고되지 않았다고 전했다.",
+        "은행은 OFAC와 1,160만 달러 합의도 맺었다. 이는 규제기관의 판단과 인정에 따른 조치이며 형사 유죄 판결은 아니다."
+      ],
+      "body": [
+        {
+          "text": "미 재무부 산하 금융범죄단속네트워크(FinCEN)는 뱅크오브아메리카에 12억 달러 과징금을 부과한다고 발표했다. 재무부는 중국계 자금세탁망과 미국 남서부 국경 인근의 불법 금융을 포함한 국가안보 위험을 은행이 완화하고 보고하지 못했다고 설명했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "통화감독청(OCC)은 은행비밀법과 자금세탁 방지 준수 프로그램의 결함을 이유로 민사 과징금 7억 5,000만 달러를 별도로 부과했다. 로이터는 규제기관이 보고되지 않은 의심 거래가 50억 달러를 넘는다고 설명했다고 보도했다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "재무부에 따르면 해외자산통제국(OFAC)은 이란, 러시아, 마약, 테러 관련 제재 프로그램의 위반 정황을 두고 1,160만 달러 합의를 맺었다. AP는 이 조치들을 함께 보도하고 금융 시스템 위험에 대한 재무부의 설명을 전했다.",
+          "citations": [
+            3
+          ]
+        },
+        {
+          "text": "발표된 조치는 규제기관의 과징금과 합의이며 형사 유죄 판결은 아니다. 이번 조치는 유사 사례 중 큰 규모에 속하지만, 은행의 준법 운영에 미칠 장기 영향과 추가 감독 조치 여부는 더 지켜봐야 한다.",
+          "citations": [
+            1
+          ]
+        }
+      ],
+      "slug": "bank-of-america-anti-money-laundering-penalties-ko",
+      "whyItMatters": "이번 제재는 은행 준법 체계의 규제·국가안보상 중요성을 보여주며 장기 운영 영향과 후속 감독은 앞으로 드러날 전망이다.",
+      "editorNote": "규제기관 과징금·합의와 형사 유죄 판결을 구분했다."
+    },
+    {
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "confidence": "medium",
+      "tags": [
+        "IMF",
+        "global growth",
+        "AI investment",
+        "public debt",
+        "energy prices"
+      ],
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/23aa01c0c6922fbf0b564a0ff9b2c8e5",
+          "source": "Associated Press",
+          "title": "IMF raises its forecast for world growth this year but warns of risks from AI boom and debt"
+        },
+        {
+          "url": "https://www.investing.com/news/economy-news/imf-says-ai-investment-propping-up-global-growth-but-war-and-debt-threaten-outlook-4946017",
+          "source": "Reuters",
+          "title": "IMF says AI investment propping up global growth, but war and debt threaten outlook"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.imf.org/en/publications/weo/issues/2026/10/13/world-economic-outlook-october-2026",
+          "source": "International Monetary Fund",
+          "title": "World Economic Outlook, October 2026",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/economy-news/imf-says-ai-investment-propping-up-global-growth-but-war-and-debt-threaten-outlook-4946017",
+          "source": "Reuters",
+          "title": "IMF says AI investment propping up global growth, but war and debt threaten outlook",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 3,
+          "url": "https://apnews.com/article/23aa01c0c6922fbf0b564a0ff9b2c8e5",
+          "source": "Associated Press",
+          "title": "IMF raises its forecast for world growth this year but warns of risks from AI boom and debt",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "headline": "IMF, AI 투자로 세계 성장 지탱되지만 전쟁과 부채가 전망 위협",
+      "dek": "기금은 2026년 성장률 전망을 소폭 높이는 한편 AI 시장 조정과 에너지 충격이 하방 위험을 키울 수 있다고 경고했다.",
+      "tldr": [
+        "IMF의 10월 전망은 2026년 세계 성장률을 7월의 3.0%에서 오른 3.1%, 2027년은 3.4%로 제시했다.",
+        "기금은 강한 AI 인프라 투자가 에너지 비용 상승을 상쇄하고 있지만, 투자 붐의 반전과 부채 증가, 분쟁이 전망을 약화할 수 있다고 경고했다.",
+        "전망은 에너지 가격과 호르무즈 해협의 해운에 대한 가정에 달려 있으며, AI 시장 조정의 규모는 불확실하다."
+      ],
+      "body": [
+        {
+          "text": "국제통화기금(IMF)은 2026년 세계 성장률 전망을 7월의 3.0%에서 3.1%로 높이고 2027년에는 3.4% 성장을 예상했다. 10월 세계경제전망은 방콕에서 열린 IMF·세계은행 연차총회 중 발표됐다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "기금은 AI 인프라 투자가 중동 분쟁과 연결된 에너지 가격 상승의 영향을 상쇄하는 데 도움이 된다고 밝혔다. 로이터는 IMF가 공공부채 증가와 AI 투자 붐의 종료 또는 반전 가능성도 위험으로 꼽았다고 전했다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "AP에 따르면 IMF 전망은 2026년 유가가 배럴당 평균 96달러로 약 41% 오를 것으로 가정한다. 로이터 보도는 호르무즈 해협이 3월까지 다시 열리고 해운 여건이 2027년 10월까지 전쟁 전 수준으로 돌아온다는 조건도 전망에 포함됐다고 전했다.",
+          "citations": [
+            3
+          ]
+        },
+        {
+          "text": "기본 전망은 조건부 추정치이지 보장이 아니다. AI 관련 시장 조정의 규모, 에너지 공급 차질 기간, 각국의 재정 대응은 성장 경로를 바꿀 수 있는 미확정 변수다.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "slug": "imf-october-outlook-ai-debt-oil-risks-ko",
+      "whyItMatters": "이번 전망은 AI 투자가 현재 성장의 버팀목이라고 보면서 부채와 에너지 차질이 하방 위험을 키운다고 연결한다. 따라서 수치 해석에서 가정이 중요하다.",
+      "editorNote": "전망은 에너지와 해운 가정에 달려 있으며 보장된 결과가 아니다."
+    },
+    {
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "confidence": "medium",
+      "tags": [
+        "Six Flags",
+        "theme parks",
+        "safety investigation",
+        "equities"
+      ],
+      "cluster": [
+        {
+          "url": "https://www.cbsnews.com/news/six-flags-shares-slide-roller-coaster-death-georgia/",
+          "source": "CBS News",
+          "title": "Six Flags shares slide 16% after fatal roller coaster incident in Georgia"
+        },
+        {
+          "url": "https://apnews.com/article/a9ce45f681772b828f7b5d3c59d010d1",
+          "source": "Associated Press",
+          "title": "Six Flags closes 9 North American roller coasters after families watch man fall to his death"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/a9ce45f681772b828f7b5d3c59d010d1",
+          "source": "Associated Press",
+          "title": "Six Flags closes 9 North American roller coasters after families watch man fall to his death",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/10/13/six-flags-shares-plunge-after-hours-deadly-roller-coaster-incident-goliath-georgia.html",
+          "source": "CNBC",
+          "title": "Six Flags shares decline following deadly roller coaster incident",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 3,
+          "url": "https://www.cbsnews.com/news/six-flags-shares-slide-roller-coaster-death-georgia/",
+          "source": "CBS News",
+          "title": "Six Flags shares slide 16% after fatal roller coaster incident in Georgia",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "headline": "치명적 롤러코스터 사고 뒤 식스플래그 주가 하락",
+      "dek": "회사는 조지아 공원에서 발생한 사망 사고를 당국이 조사하는 동안 유사한 놀이기구를 폐쇄했다.",
+      "tldr": [
+        "보도에 따르면 식스플래그 오버 조지아의 골리앗 롤러코스터에서 42세 남성이 튕겨 나와 사망했다.",
+        "경찰과 주정부 검사기관이 추락 경위를 조사하는 동안 식스플래그는 북미의 유사 롤러코스터 9대를 임시 폐쇄했다.",
+        "사고 뒤 식스플래그 주가가 큰 폭으로 하락했으며 원인과 검사 결과는 아직 확인되지 않았다."
+      ],
+      "body": [
+        {
+          "text": "AP는 월요일 식스플래그 오버 조지아의 골리앗 롤러코스터에서 42세 남성이 좌석에서 튕겨 나와 사망했다고 보도했다. 회사는 사고 뒤 북미에서 유사한 놀이기구 9대를 임시 폐쇄했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "경찰과 주정부 놀이기구 검사기관이 조사 중이다. AP는 탑승자가 어떻게 좌석에서 이탈했는지, 안전장치에 문제가 있었는지 의문이 남아 있다고 전했으며 보도 당시 원인에 대한 조사 결과는 나오지 않았다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "CNBC는 사고 뒤 식스플래그 주가가 하락했다고 보도했고, CBS 뉴스는 장중 최대 16.3% 하락을 전했다. 이는 당일 시장 반응이며 회사의 장기 재무 영향이 확정됐다는 뜻은 아니다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "조사와 검사 결과, 폐쇄된 놀이기구의 재개 시점은 아직 미정이다. 회사가 더 넓은 재정 압박을 받고 있는 가운데 사고가 발생했지만, 현재 보도는 기존의 경영 문제를 이번 사건 탓으로 돌리지는 않는다.",
+          "citations": [
+            3
+          ]
+        }
+      ],
+      "slug": "six-flags-shares-fall-after-coaster-death-ko",
+      "whyItMatters": "이번 사건은 즉각적인 안전 감독과 시장 반응을 함께 보여주지만, 조사는 원인이나 최종 재무 영향을 아직 확정하지 않았다.",
+      "editorNote": "사고 원인은 조사 중이며 주가 움직임을 투자 조언 없이 보도했다."
+    },
+    {
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "confidence": "medium",
+      "tags": [
+        "Kroger",
+        "retail",
+        "labor",
+        "artificial intelligence",
+        "corporate restructuring"
+      ],
+      "cluster": [
+        {
+          "url": "https://www.fastcompany.com/91622849/kroger-layoffs-news-today-thousands-jobs-slashed-ceo-memo",
+          "source": "Fast Company",
+          "title": "Kroger layoffs news today. Thousands of jobs to be slashed: memo"
+        },
+        {
+          "url": "https://www.supermarketnews.com/retail-labor/kroger-plans-3-000-corporate-staff-cuts",
+          "source": "Supermarket News",
+          "title": "Kroger plans 3,000 corporate staff cuts"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/30f0a5d88377e9969ce8994644e14498",
+          "source": "Associated Press",
+          "title": "Kroger to lay off 3,000 corporate employees over 3 years as it leans into artificial intelligence",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://www.fastcompany.com/91622849/kroger-layoffs-news-today-thousands-jobs-slashed-ceo-memo",
+          "source": "Fast Company",
+          "title": "Kroger layoffs news today. Thousands of jobs to be slashed: memo",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 3,
+          "url": "https://www.supermarketnews.com/retail-labor/kroger-plans-3-000-corporate-staff-cuts",
+          "source": "Supermarket News",
+          "title": "Kroger plans 3,000 corporate staff cuts",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "headline": "크로거, AI 활용 확대 속 3년간 본사 직원 3,000명 감축 예정",
+      "dek": "식료품 체인은 업무 조직을 바꾸면서 본사 직무를 줄일 계획이라고 밝혔으며 구체적인 직무는 공개하지 않았다.",
+      "tldr": [
+        "크로거는 인공지능 활용을 확대하면서 3년에 걸쳐 본사 직무 3,000개를 없앨 계획이라고 밝혔다.",
+        "회사는 중복 업무를 줄이고 운영 방식을 조정하는 광범위한 노력의 일부라고 설명했으며, 보도는 이를 AI 전략과 연결했다.",
+        "어떤 부서나 직무가 영향을 받는지 공개되지 않았고, 감축 가운데 자동화가 직접 원인인 규모도 현재 보도로는 확인되지 않았다."
+      ],
+      "body": [
+        {
+          "text": "크로거는 인공지능 활용을 확대하면서 향후 3년에 걸쳐 본사 일자리 약 3,000개를 없앨 계획이라고 밝혔다. AP에 따르면 회사는 기술이 업무 방식을 바꾸고 있다며 중복 업무를 줄이겠다고 설명했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "AP에 따르면 크로거 전체 직원 수는 약 40만 9,000명이며 2,700개가 넘는 매장을 운영한다. Fast Company는 본사 인력이 약 8,200명이라고 보도했지만, 크로거는 영향을 받을 구체적인 직무나 팀을 밝히지 않았다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "크로거는 고객 경험을 개선하고 매장 직원을 돕고 사업 성과를 지원하기 위한 AI 전략을 제시한 바 있다. 출처들은 예정된 감축과 이러한 변화의 연결을 보도하지만 3,000개 직무 전부가 AI 시스템으로 직접 대체된다고 입증하지는 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "감축 일정은 3년에 걸쳐 진행될 예정이며 최종 직무별 배분은 알려지지 않았다. 회사는 생산성 향상을 어떻게 측정할지, 인력 감축에 어떤 운영 변화가 뒤따를지 설명하지 않았다.",
+          "citations": [
+            1
+          ]
+        }
+      ],
+      "slug": "kroger-plans-three-thousand-corporate-job-cuts-ko",
+      "whyItMatters": "이번 계획은 AI 도입과 함께 진행되는 인력 재편의 사례지만, 감축 중 얼마가 자동화에 직접 따른 것인지는 회사가 밝히지 않았다.",
+      "editorNote": "회사는 감축 직무를 구체화하거나 AI에 따른 직접 대체 규모를 밝히지 않았다."
+    },
+    {
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "confidence": "medium",
+      "tags": [
+        "South Korea",
+        "exports",
+        "semiconductors",
+        "trade",
+        "Korea Customs Service"
+      ],
+      "cluster": [
+        {
+          "url": "https://world.kbs.co.kr/service/news_view.htm?Seq_Code=204788&lang=e",
+          "source": "KBS World",
+          "title": "Export Reach New High of $26.1 Billion during First 10 Days of October"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://en.yna.co.kr/view/AEN20261012001851320?section=economy-finance%2Feconomy",
+          "source": "Yonhap News Agency",
+          "title": "(LEAD) Exports double in first 10 days of October on chips",
+          "publishedAt": "2026-10-12"
+        },
+        {
+          "id": 2,
+          "url": "https://world.kbs.co.kr/service/news_view.htm?Seq_Code=204788&lang=e",
+          "source": "KBS World",
+          "title": "Export Reach New High of $26.1 Billion during First 10 Days of October",
+          "publishedAt": "2026-10-12"
+        }
+      ],
+      "headline": "(종합) 10월 첫 10일 수출 2배 증가…반도체가 견인",
+      "dek": "잠정 관세 자료에서 해당 기간 사상 최대 수출액이 집계됐으며 반도체 출하가 증가를 이끌었다.",
+      "tldr": [
+        "한국의 10월 1~10일 수출은 전년 동기보다 102% 증가한 261억 달러로 해당 기간 최고치를 기록했다.",
+        "반도체 수출은 170.9% 늘어난 121억 달러였고 수입은 65.5% 증가한 223억 달러였다.",
+        "이 수치는 열흘간의 잠정 집계이며, 영업일 수 차이도 전년 대비 비교에 영향을 준다."
+      ],
+      "body": [
+        {
+          "text": "관세청 자료를 인용한 연합뉴스 보도에 따르면 한국의 10월 1~10일 수출액은 261억 달러로 전년 동기보다 102% 증가했다. 10월 첫 열흘 기준으로는 가장 높은 금액이다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "반도체 출하는 170.9% 증가한 121억 달러였다. 하루 평균 수출액은 47억 5,000만 달러로 열흘 단위 기준 사상 최대였고, 수입은 65.5% 늘어난 223억 달러로 무역수지는 38억 달러 흑자였다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "KBS도 잠정 관세 통계를 별도로 보도하며 반도체 출하를 주요 동인으로 꼽았다. 공개된 세부 자료에는 자동차와 석유제품 수출 증가도 나타났고, 선박 수출은 감소했다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "이번 수치는 한 달 전체가 아니라 짧은 기간의 잠정 집계다. 연합뉴스는 영업일 수가 전년 대비 수치에 영향을 줄 수 있다고 설명했다. 10월 나머지 기간의 수출 구성과 증가 속도는 아직 알 수 없다.",
+          "citations": [
+            1
+          ]
+        }
+      ],
+      "slug": "south-korea-early-october-exports-double-ko",
+      "whyItMatters": "단기 통계는 반도체가 한국 수출 증가를 크게 좌우하고 있음을 보여준다. 다만 달력 효과와 잠정 집계 기간 때문에 월간 흐름을 단정하기는 어렵다.",
+      "editorNote": "열흘 단위 잠정치이며 달력 효과가 전년 대비 비교에 영향을 줄 수 있다."
+    }
+  ]
+}

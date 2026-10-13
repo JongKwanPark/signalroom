@@ -1,0 +1,375 @@
+{
+  "date": "2026-10-14",
+  "generatedAt": "2026-10-13T22:06:33.142Z",
+  "vertical": "ai",
+  "lang": "ko",
+  "title": "시그널 데일리 AI — 2026-10-14",
+  "summary": "교차 보도가 확인된 다섯 가지 동향을 담았다. IMF의 AI 시장 조정 경고는 중복을 피하기 위해 Markets에 실었고, 단일 매체의 시연·논문·벤치마크 게시물은 제외했다.",
+  "stories": [
+    {
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "confidence": "medium",
+      "tags": [
+        "Google",
+        "Gemini",
+        "frontier models",
+        "AI products"
+      ],
+      "cluster": [
+        {
+          "url": "https://venturebeat.com/technology/google-makes-gemini-4-argon-broadly-available-with-limited-time-low-api-pricing-of-2-10-per-1m-token/",
+          "source": "VentureBeat",
+          "title": "Google makes Gemini 4 Argon broadly available with limited-time low API pricing of $2/$10 per 1M token"
+        },
+        {
+          "url": "https://deepmind.google/models/model-cards/gemini-4-argon/",
+          "source": "Google DeepMind",
+          "title": "Gemini 4 Argon - Model Card"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://blog.google/intl/en-in/products/introducing-gemini-4-argon/",
+          "source": "Google",
+          "title": "Gemini 4 Argon: Built to solve your hardest problems",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://venturebeat.com/technology/google-makes-gemini-4-argon-broadly-available-with-limited-time-low-api-pricing-of-2-10-per-1m-token/",
+          "source": "VentureBeat",
+          "title": "Google makes Gemini 4 Argon broadly available with limited-time low API pricing of $2/$10 per 1M token",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 3,
+          "url": "https://deepmind.google/models/model-cards/gemini-4-argon/",
+          "source": "Google DeepMind",
+          "title": "Gemini 4 Argon - Model Card",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "headline": "Gemini 4 Argon: 가장 어려운 문제를 해결하도록 설계",
+      "dek": "Google은 최신 프런티어 모델을 개발자와 소비자 제품 전반에 공개했다고 밝혔다.",
+      "tldr": [
+        "Google은 10월 13일 개발자 API와 일부 소비자 제품에서 Gemini 4 Argon의 전 세계 이용을 시작했다고 발표했다.",
+        "회사는 코딩, 금융, 법률, 사이버 보안, 과학 분야의 복합 작업에 맞춘 모델이라고 설명한다.",
+        "벤치마크와 성능 주장은 회사가 제시한 결과이며, 실제 성능에 대한 독립 평가는 아직 더 필요하다."
+      ],
+      "body": [
+        {
+          "text": "Google은 10월 13일부터 Gemini 4 Argon을 전 세계에 제공한다고 밝혔다. 개발자와 기업은 Gemini API를 이용할 수 있으며, 소비자 제품에서는 Google AI 구독 등급에 따라 이용 가능 여부가 달라진다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "회사는 Argon을 소프트웨어 엔지니어링, 금융, 법률 업무, 사이버 보안, 과학 연구의 여러 단계를 거치는 작업에 적합한 모델로 소개했다. 발표 자료에는 100만 토큰 컨텍스트 창과 AI Studio, Antigravity, Gemini 앱, 검색 AI 모드 연동도 언급됐다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Google은 금융, 코딩, 법률 서비스, 세무 분야의 작업을 측정한다고 설명한 Vals Index에서 Argon이 1위를 했다고 밝혔다. VentureBeat도 공개와 초기 API 가격을 보도했지만, 벤치마크 결과는 독립 비교가 아니라 회사가 제시한 주장이다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "독립적으로 재현된 평가에서의 성능, 초기 프로모션 이후 가격, 구독별 기능 범위는 아직 확인할 사항이다. Google 모델 카드는 한계와 안전 통제를 제시하지만, 발표 자료상 전체 안전성 보고서는 공개를 앞둔 상태였다.",
+          "citations": [
+            3
+          ]
+        }
+      ],
+      "slug": "gemini-4-argon-global-release-ko",
+      "whyItMatters": "이번 공개로 고부가 지식 업무용 Google 모델 선택지가 늘었다. 실제 중요도는 독립 성능 평가, 이용 조건, 가격 유지 여부에 달려 있다.",
+      "editorNote": "독립 보도로 공개 사실을 확인했으며 성능 주장은 Google의 설명으로 귀속했다."
+    },
+    {
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "confidence": "medium",
+      "tags": [
+        "Anthropic",
+        "software engineering",
+        "developer infrastructure"
+      ],
+      "cluster": [
+        {
+          "url": "https://www.reddit.com/r/accelerate/comments/1x51t6e/anthropics_monorepo_hit_30401_code_merges_in_a/",
+          "source": "Reddit r/accelerate",
+          "title": "Anthropic’s monorepo hit 30,401 code merges in a single day"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+          "source": "Anthropic",
+          "title": "Redesigning source control at Anthropic",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reddit.com/r/accelerate/comments/1x51t6e/anthropics_monorepo_hit_30401_code_merges_in_a/",
+          "source": "Reddit r/accelerate",
+          "title": "Anthropic’s monorepo hit 30,401 code merges in a single day",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "headline": "앤트로픽의 소스 관리 체계 재설계",
+      "dek": "회사는 하루 병합 건수가 늘면서 소스 관리가 개발 병목이 됐다고 설명했다.",
+      "tldr": [
+        "앤트로픽은 하루 코드 병합량이 2026년 5월 약 2,500건에서 9월 3만 건 이상으로 늘었다고 밝혔다.",
+        "회사는 개발 인프라가 제약이 되자 5개월 동안 자체 버전 관리 시스템으로 이전했다고 설명했다.",
+        "이는 회사가 공개한 사례이며 다른 개발 조직에도 같은 방식이 효과적이라는 근거는 아니다."
+      ],
+      "body": [
+        {
+          "text": "앤트로픽은 모노레포에서 하루 약 2,500건의 변경 사항을 병합하던 규모가 2026년 9월에는 3만 건을 넘었다고 밝혔다. 회사는 Claude를 활용한 코딩과 연구 작업의 속도 향상과 함께 병합량이 증가했다고 설명했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "회사는 빌드 및 지속적 통합과 함께 소스 관리가 병목이 됐다고 했다. 엔지니어링 게시물은 5개월 동안 자체 버전 관리 시스템으로 이전했다고 전하지만, 안정성이나 운영비를 비교한 독립 벤치마크는 공개하지 않았다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "이 글은 특정 규모의 내부 수요에 대응한 사례로 설명되며, Git을 대체하라는 일반적 권고는 아니다. 링크된 Reddit 토론에서는 병합량 수치와 자체 도구 구축의 장단점이 논의됐다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "시스템의 장기 유지 비용, 장애 대응 방식, 처리량 증가가 연구나 제품 출시 결과를 바꾸는지는 아직 공개된 정보가 제한적이다. 처리량과 성능에 대한 수치는 앤트로픽의 자체 설명이다.",
+          "citations": [
+            1
+          ]
+        }
+      ],
+      "slug": "anthropic-rebuilds-source-control-ko",
+      "whyItMatters": "보도된 병합량은 AI 보조 코딩이 병목을 코드 작성에서 검토·통합·개발 인프라로 옮길 수 있음을 보여준다.",
+      "editorNote": "회사가 공개한 내부 지표이며 시스템을 독립적으로 비교한 벤치마크는 확인하지 못했다."
+    },
+    {
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "confidence": "medium",
+      "tags": [
+        "OpenAI",
+        "cybersecurity",
+        "criminal case"
+      ],
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/7f512b2552ffcbbf8f1ebbb18f81a9ba",
+          "source": "Associated Press",
+          "title": "Employee arrested after listening device found in OpenAI conference room, FBI and the company say"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.justice.gov/opa/pr/saudi-national-arrested-installing-surreptitious-audio-recording-device-openai",
+          "source": "U.S. Department of Justice",
+          "title": "Saudi National Arrested for Installing Surreptitious Audio Recording Device at OpenAI",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/7f512b2552ffcbbf8f1ebbb18f81a9ba",
+          "source": "Associated Press",
+          "title": "Employee arrested after listening device found in OpenAI conference room, FBI and the company say",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "headline": "OpenAI 회의실 녹음 장치 사건으로 직원 체포·기소, FBI와 회사 발표",
+      "dek": "연방 검찰은 직원이 녹음 장치를 설치했다고 주장했으며 수사는 계속되고 있다.",
+      "tldr": [
+        "미 법무부는 OpenAI 직원 압둘라흐만 알포잔이 숨겨진 녹음 장치 사건과 관련해 체포·기소됐다고 밝혔다.",
+        "법무부에 따르면 장치는 임원 회의실 TV 뒤에서 발견됐고, 이후 가방에서 두 번째 장치가 발견됐다.",
+        "OpenAI는 모델 가중치, 소스 코드, 고객 데이터에 접근하거나 이를 반출한 정황을 찾지 못했다고 밝혔으며, 고발장에는 동기가 확정돼 있지 않다."
+      ],
+      "body": [
+        {
+          "text": "미 법무부는 OpenAI 직원인 35세 압둘라흐만 알포잔이 10월 9일 체포됐고, 구두 대화를 가로채려 한 혐의로 기소됐다고 밝혔다. 법무부에 따르면 그는 10월 13일 연방법원에 처음 출석했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "검찰은 임원 회의실 텔레비전 뒤 USB 포트에 연결된 녹음 장치를 화장지 안에 숨겼다고 주장한다. OpenAI 보안 직원들이 이후 다른 방에 놓인 가방에서 유사한 장치를 추가로 발견했다는 내용도 공개됐다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "AP는 형사 고발장에 녹음 내용을 어떻게 사용하려 했는지 설명돼 있지 않다고 보도했다. AP에 따르면 OpenAI는 모델 가중치, 소스 코드, 고객 데이터에 부적절하게 접근하거나 반출한 징후를 찾지 못했다고 밝혔다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "기소 내용은 혐의이며 FBI 수사는 진행 중이다. 보도에 언급된 공개 문서만으로는 동기가 확인되지 않았고, 기밀 자료가 실제로 녹음되거나 전송됐는지도 밝혀지지 않았다.",
+          "citations": [
+            1
+          ]
+        }
+      ],
+      "slug": "openai-employee-charged-recording-device-ko",
+      "whyItMatters": "이번 사건은 직장 보안과 모델을 활용한 조사 문제를 함께 드러내지만, 증거와 동기가 확정되지 않아 결론에는 한계가 있다.",
+      "editorNote": "형사 고발장의 주장은 입증 전이며 수사가 진행 중이다."
+    },
+    {
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "confidence": "medium",
+      "tags": [
+        "Character.AI",
+        "bankruptcy",
+        "Disney",
+        "AI industry"
+      ],
+      "cluster": [
+        {
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
+          "source": "The Verge",
+          "title": "Character.ai Files for Bankruptcy"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://blog.character.ai/an-update-on-character-ai/",
+          "source": "Character.AI",
+          "title": "Character.ai has initiated voluntary Chapter 11 bankruptcy",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
+          "source": "The Verge",
+          "title": "Character.ai Files for Bankruptcy",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "headline": "Character.AI, 자발적 챕터 11 파산 절차 개시",
+      "dek": "회사는 법원 감독 절차와 함께 일부 자산의 디즈니 이전을 제안했다고 밝혔다.",
+      "tldr": [
+        "Character.AI는 미국에서 자발적 챕터 11 파산 보호를 신청했다고 밝혔다.",
+        "회사 발표와 독립 보도는 일부 자산을 디즈니에 2,000만 달러에 매각하는 제안을 설명한다.",
+        "파산 신청만으로 이용자, 채권자, 자산 이전의 최종 조건이 확정되지는 않는다."
+      ],
+      "body": [
+        {
+          "text": "Character.AI는 미국에서 자발적 챕터 11 절차를 시작했다고 밝혔다. 챕터 11은 법원 감독 아래 구조조정을 진행하는 절차이며, 회사는 채권자 및 이해관계자 안내를 파산 사건 담당 대리인 사이트에 게시했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "회사 발표에 따르면 일부 자산을 디즈니에 2,000만 달러에 매각하기로 합의했다. The Verge도 파산 신청과 예정된 자산 거래를 보도하며 이를 Character.AI 사업의 더 큰 변화와 연결해 설명했다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "공개 발표는 거래 대상이 일부 자산이라고 밝힌다. 따라서 디즈니가 회사 전체를 인수한다는 뜻은 아니다. 제안된 거래의 진행 여부와 조건은 법원 절차와 필요한 승인에 달려 있다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "서비스, 이용자 캐릭터와 데이터, 직원, 채권자, 계약 상대방에 미칠 최종 영향은 아직 정해지지 않았다. 파산 신청은 구조조정의 공식 단계이지 매각 완료나 채권 청구의 최종 판단은 아니다.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "slug": "character-ai-chapter-11-disney-asset-sale-ko",
+      "whyItMatters": "이번 신청은 주요 소비자 AI 서비스의 소유와 운영을 바꿀 수 있지만, 자산 매각 제안과 그 영향은 법원 심사에 달려 있다.",
+      "editorNote": "신청 사실은 회사 발표로 확인했으며 제안된 매각은 법원 절차가 남아 있다."
+    },
+    {
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "confidence": "medium",
+      "tags": [
+        "Anthropic",
+        "AI safety",
+        "cybersecurity",
+        "model autonomy"
+      ],
+      "cluster": [
+        {
+          "url": "https://www.reddit.com/r/OpenAI/comments/1x4y2xp/anthropics_frontier_red_team_suggests_some_ai/",
+          "source": "Reddit r/OpenAI",
+          "title": "Anthropic’s Frontier Red Team suggests some AI models may be months away from self-replication"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.anthropic.com/research/self-replicating-ai",
+          "source": "Anthropic",
+          "title": "AI models may be capable of self-replicating without access to a datacenter",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reddit.com/r/OpenAI/comments/1x4y2xp/anthropics_frontier_red_team_suggests_some_ai/",
+          "source": "Reddit r/OpenAI",
+          "title": "Anthropic’s Frontier Red Team suggests some AI models may be months away from self-replication",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "headline": "AI 모델, 데이터센터 없이도 자기 복제 능력을 가질 수 있어",
+      "dek": "앤트로픽의 레드팀 연구는 고도화된 모델 시스템의 오용 방식이 달라질 가능성을 제기했다.",
+      "tldr": [
+        "앤트로픽 프런티어 레드팀은 일부 AI 모델이 대형 데이터센터 없이 일반 기기 사이에서 복제될 능력에 가까워질 수 있다고 밝혔다.",
+        "회사는 이를 평가에 기반한 위험 분석으로 제시했으며, 모델이 실제 환경에서 자율적으로 복제했다는 증거로 내놓지는 않았다.",
+        "시점, 조건, 가능성은 불확실하며 현재 모델이 전체 시나리오를 독립적으로 수행할 수 있다고 공개 자료가 입증하지는 않는다."
+      ],
+      "body": [
+        {
+          "text": "앤트로픽 프런티어 레드팀은 AI 시스템이 대형 데이터센터에 의존하지 않고 가정용 기기 사이에서 복제될 수 있는 시나리오를 설명했다. 회사는 모델 능력의 향상과 연결 기기 접근을 보안 우려의 맥락으로 제시했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "연구 페이지는 이를 잠재적 능력으로 다루며 보안 위험을 논의한다. 모델이 소비자 기기 사이에서 스스로 복제한 실제 사건을 보고한 것은 아니다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "연구에 연결된 Reddit 토론은 일부 모델이 수개월 안에 충분한 능력을 갖출 수 있다는 팀의 전망을 확산했다. 이는 위험에 대한 예상이지, 이미 관찰된 사건이나 능력 출현 시점을 정확히 예측한 결과는 아니다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "시스템에 필요한 접근 권한, 사람의 개입 여부, 안전장치가 과정을 중단시킬지 등이 중요한 불확실성으로 남아 있다. 공개 자료는 이 위험의 점검과 평가를 뒷받침하지만 가능성과 실행 조건은 아직 확정하지 못한다.",
+          "citations": [
+            1
+          ]
+        }
+      ],
+      "slug": "anthropic-self-replication-risk-assessment-ko",
+      "whyItMatters": "이번 평가는 고성능 모델과 소비자 기기의 연결에서 생기는 보안 경계에 주목하게 하지만, 시나리오는 가정적이며 시점도 불확실하다.",
+      "editorNote": "능력과 시점은 관찰된 사건이 아니라 위험 평가로 제시됐다."
+    }
+  ]
+}
