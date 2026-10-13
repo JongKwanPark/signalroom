@@ -1,10 +1,10 @@
 {
   "date": "2026-10-13",
-  "generatedAt": "2026-10-13T07:06:24+09:00",
+  "generatedAt": "2026-10-13T19:05:00+09:00",
   "vertical": "geo",
   "lang": "ko",
-  "title": "에너지 휴전 주장, 중국 무역 제한, 연방 수사",
-  "summary": "러시아-우크라이나 에너지 휴전의 불확실성, EU-중국 차량 쿼터 합의, 현직 미국 의원 자택 수색 소식을 전한다.",
+  "title": "흑해 공격, 시위대 구금과 폭풍 피해",
+  "summary": "7편을 담았다. 기존 에너지 휴전, 중국 무역, 의원 자택 수색 기사를 유지하고 두 매체가 다룬 새 사건 네 건을 추가했다. 러시아의 공세 능력이 무너졌다는 주장과 한국의 대러 연료 공급 조사 등 다른 주요 보도는 수집된 매체가 한 곳뿐이어서 제외했다.",
   "stories": [
     {
       "slug": "russia-ukraine-energy-ceasefire-attacks-2026-10-13-ko",
@@ -262,6 +262,302 @@
         "geopolitics",
         "United States",
         "rule of law"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "india-cockroach-protest-leaders-detained-2026-10-13-ko",
+      "headline": "인도, ‘바퀴벌레’ 운동 지도자들 시위 현장 진입 후 구금",
+      "dek": "인도 경찰은 투표 부정 의혹을 둘러싼 시위에서 지도자들이 바리케이드 안으로 진입한 뒤 이들을 구금했습니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "경찰은 뉴델리 시위 현장의 바리케이드 안으로 진입한 “바퀴벌레” 운동 지도자들을 구금했습니다.",
+        "시위는 투표 부정 의혹을 중심으로 진행됐지만, 보도에서 해당 의혹이 확인된 사실로 입증되지는 않았습니다.",
+        "BBC와 Al Jazeera가 구금 사실을 보도했으며, 수집된 보도에서는 정식 기소 범위가 확인되지 않았습니다."
+      ],
+      "body": [
+        {
+          "text": "Al Jazeera는 뉴델리 시위에서 인도의 “바퀴벌레” 운동 지도자들이 경찰에 구금됐다고 보도했습니다. BBC는 시위대가 바리케이드가 설치된 현장에 진입한 뒤 구금됐다고 전했습니다. 이 운동은 투표 부정 의혹과 관련한 시위에서 해당 표현을 사용해 왔습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "두 보도는 구금과 시위의 직접적 맥락을 전하지만, 투표 부정 의혹 자체를 독립적으로 입증하지는 않습니다. 인도의 Narendra Modi 총리는 별도 발언에서 국가의 민주주의 기록을 옹호했다고 두 매체가 보도했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "두 매체는 운동 관계자들이 구금됐다는 점에는 일치하지만, 시위가 전개된 방식은 각각 다른 비중으로 다룹니다. 구금 인원과 각 사람의 법적 상태는 계속 확인이 필요합니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이번 사건은 시위 통제와 선거 정당성에 대한 주장이 같은 정치적 갈등 안에 놓여 있음을 보여줍니다. 당국의 기소 여부와 의혹에 대한 증거 기반 검토가 후속 쟁점입니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "구금은 선거 정당성 관련 의혹이 공공질서 문제로 번질 수 있음을 보여주지만, 해당 의혹은 인용한 보도만으로 확인되지 않았습니다.",
+      "editorNote": "투표 부정 주장은 출처를 밝혀 전하며 사실로 단정하지 않았습니다. BBC와 Al Jazeera 보도 범위에 한정했습니다.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/13/police-detain-leaders-of-indias-cockroach-movement-at-new-delhi-protest?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Police detain leaders of India’s ‘cockroach’ movement at New Delhi protest"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cqz0v11n2vj5o",
+          "source": "BBC",
+          "title": "India ‘cockroach’ leaders detained after entering barricaded protest site",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/news/2026/10/13/police-detain-leaders-of-indias-cockroach-movement-at-new-delhi-protest?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Police detain leaders of India’s ‘cockroach’ movement at New Delhi protest",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "tags": [
+        "India",
+        "protests",
+        "politics"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "drone-attack-sinks-ship-off-bulgaria-black-sea-2026-10-13-ko",
+      "headline": "불가리아 앞바다 드론 공격으로 선박 침몰, 총리 러시아 대사 소환",
+      "dek": "불가리아 흑해 연안에서 드론 공격으로 선박이 침몰했고, 총리가 러시아 대사를 소환했다고 BBC가 보도했습니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "불가리아는 흑해 연안에서 드론 공격 뒤 선박이 침몰했다고 밝혔습니다.",
+        "BBC 보도에 따르면 총리는 러시아 대사를 소환했으며, Al Jazeera도 불가리아 당국 설명을 인용해 침몰을 보도했습니다.",
+        "수집된 보도는 드론을 발사한 주체나 선박이 공격 목표였는지를 확인하지 못했습니다."
+      ],
+      "body": [
+        {
+          "text": "BBC는 불가리아 앞바다에서 드론 공격으로 선박이 침몰했고 총리가 러시아 대사를 소환했다고 보도했습니다. Al Jazeera도 불가리아 총리 발언을 인용해 흑해 연안 선박의 드론 공격 침몰을 전했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "보도는 우크라이나 전쟁으로 해운과 항만 인프라 위험이 반복적으로 제기된 지역의 해상 사건을 다룹니다. 수집된 기사에는 선박의 화물이나 드론의 출처가 확인돼 있지 않습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "대사 소환은 불가리아 정부의 대응이지 공격 주체를 입증하는 증거는 아닙니다. 가해 주체, 목표, 러시아-우크라이나 전쟁과의 연관성은 인용한 보도에서 해결되지 않았습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "추가 공식 발표와 해상 조사 결과에 따라 이번 사건이 직접적인 안보 사건으로 분류될지, 미해결 국경 간 공격으로 남을지가 결정될 수 있습니다. 두 매체 모두 침몰을 보도했지만 책임 소재는 열려 있습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "NATO 회원국인 불가리아 인근 공격은 해상 안보 우려를 키우지만, 책임 소재는 아직 확인되지 않았습니다.",
+      "editorNote": "헤드라인은 BBC 보도 표현을 따릅니다. 공식 근거가 나오기 전까지 공격 주체를 특정하지 않았습니다.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/13/drone-attack-sinks-ship-off-bulgarias-black-sea-coast-pm-says?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Drone attack sinks ship off Bulgaria’s Black Sea coast, PM says"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o",
+          "source": "BBC",
+          "title": "Ship sinks in new drone attack off Bulgaria, PM summons Russian ambassador",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/news/2026/10/13/drone-attack-sinks-ship-off-bulgarias-black-sea-coast-pm-says?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Drone attack sinks ship off Bulgaria’s Black Sea coast, PM says",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "tags": [
+        "Black Sea",
+        "security",
+        "Ukraine war"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "hurricane-simon-rachel-kill-five-mexico-pacific-coast-2026-10-13-ko",
+      "headline": "허리케인 Simon·열대성 폭풍 Rachel, 멕시코 태평양 연안서 5명 사망",
+      "dek": "The Guardian은 허리케인 Simon과 열대성 폭풍 Rachel의 영향으로 멕시코 태평양 연안에서 5명이 사망했다고 보도했습니다.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "The Guardian은 멕시코에서 허리케인 Simon과 열대성 폭풍 Rachel의 영향으로 5명이 사망했다고 보도했습니다.",
+        "Deutsche Welle도 허리케인 Simon이 멕시코 태평양 연안을 강타했다고 별도로 전했습니다.",
+        "수집된 보도는 각 폭풍이 사망자 발생에 기여한 정도를 완전히 구분하지 못했습니다."
+      ],
+      "body": [
+        {
+          "text": "The Guardian은 허리케인 Simon과 열대성 폭풍 Rachel이 멕시코 태평양 연안에서 5명의 목숨을 앗아갔다고 보도했습니다. Deutsche Welle는 같은 연안에서 허리케인 Simon이 강타했다고 별도로 전해 폭풍 영향에 대한 독립 보도를 제공했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "두 기상 시스템은 같은 기간 보도됐지만, 수집된 헤드라인만으로는 피해와 사망 중 각각의 비중을 구분할 수 없습니다. 사망자 5명 수치는 The Guardian 보도를 근거로 합니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "두 보도는 심각한 기상 영향과 사망이 있었다는 점을 전하지만, 피해 지역사회와 기반시설, 대피 인원에 대한 종합 평가는 제공하지 않습니다. 당국이 대응 현황을 갱신하면 세부 사항은 달라질 수 있습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "폭풍의 최종 경로, 피해 규모, 추가 사망 또는 대피 소식은 아직 확인 대상입니다. 이 에디션은 출처별 귀속을 유지하고 두 폭풍이 함께 만든 효과를 보도 이상으로 추론하지 않습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "두 폭풍이 태평양 연안에 미친 피해를 함께 평가하기는 어렵습니다. 당국의 후속 집계에 따라 확인된 피해와 귀속이 달라질 수 있습니다.",
+      "editorNote": "사망자 수는 The Guardian 보도에 귀속했습니다. DW는 Simon의 영향을 뒷받침하지만 사망자 수를 확인한 출처는 아닙니다.",
+      "cluster": [
+        {
+          "url": "https://www.dw.com/en/hurricane-simon-batters-mexico-s-pacific-coast/a-79636873",
+          "source": "Deutsche Welle",
+          "title": "Hurricane Simon batters Mexico’s Pacific Coast"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.theguardian.com/world/2026/oct/13/mexico-hurricane-simon-tropical-storm-rachel-kill-five-pacific-coast",
+          "source": "The Guardian",
+          "title": "Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://www.dw.com/en/hurricane-simon-batters-mexico-s-pacific-coast/a-79636873",
+          "source": "Deutsche Welle",
+          "title": "Hurricane Simon batters Mexico’s Pacific Coast",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "tags": [
+        "Mexico",
+        "weather",
+        "disaster"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "french-supermarket-fridges-cyberattack-fires-2026-10-13-ko",
+      "headline": "프랑스 슈퍼마켓 냉장고 사이버 공격 피해",
+      "dek": "사이버 공격으로 프랑스 슈퍼마켓 냉장 시스템의 온도가 상승하고 화재가 발생했다고 보도됐습니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "BBC와 CNBC는 프랑스 슈퍼마켓의 냉장 시스템이 사이버 공격을 받았다고 보도했습니다.",
+        "CNBC는 일부 장치 온도가 122°F까지 오르고 화재가 발생했다고 전했습니다.",
+        "수집된 보도는 공격자, 피해 체인, 확인된 동기를 밝히지 않았습니다."
+      ],
+      "body": [
+        {
+          "text": "BBC는 프랑스 슈퍼마켓의 냉장고가 사이버 공격을 받았다고 보도했습니다. CNBC는 침해된 시스템으로 일부 장치 온도가 122°F까지 오르고 화재가 발생했다고 별도로 전했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이 사건은 디지털 접근이 물리 기반시설에 미칠 수 있는 영향을 보여줍니다. 냉장 제어가 교란되면 식품 안전과 화재 위험에 영향을 줄 수 있습니다. 두 매체의 수집된 헤드라인은 책임 주체나 침입 경로를 특정하지 않습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "보도는 사건과 물리적 피해를 확인하지만 범위는 불분명합니다. 수집된 자료로는 피해 매장 수, 손실 규모, 식품 공급 영향이 집계되지 않았습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "공격 주체와 취약점, 운영자 및 당국의 대응은 확인이 더 필요합니다. 확인된 서비스 피해와 공격자를 둘러싼 추측을 구분해야 합니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "사건은 디지털 운영 시스템 공격이 정보 유출을 넘어 물리적 피해를 낳을 수 있음을 보여주지만, 공격 주체와 진입 경로는 확인되지 않았습니다.",
+      "editorNote": "공격자에 대한 귀속은 하지 않았습니다. 온도와 화재 세부사항은 CNBC 보도에 귀속되며, 보도 범위를 넘어 일반화하지 않았습니다.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/13/france-supermarket-hack-cyberattack-fridges-fires.html",
+          "source": "CNBC",
+          "title": "French supermarket fridges get hacked, heating to 122°F and sparking fires"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/crq5nzxv9q4yo",
+          "source": "BBC",
+          "title": "Fridges in French supermarkets hit by cyber attack",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/10/13/france-supermarket-hack-cyberattack-fridges-fires.html",
+          "source": "CNBC",
+          "title": "French supermarket fridges get hacked, heating to 122°F and sparking fires",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "tags": [
+        "cybersecurity",
+        "France",
+        "critical infrastructure"
       ],
       "confidence": "medium"
     }

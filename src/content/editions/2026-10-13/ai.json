@@ -1,10 +1,10 @@
 {
   "date": "2026-10-13",
-  "generatedAt": "2026-10-13T07:06:24+09:00",
+  "generatedAt": "2026-10-13T19:05:00+09:00",
   "vertical": "ai",
   "lang": "en",
-  "title": "AI research, model releases and safety debates",
-  "summary": "Today’s reporting examines evidence on coding-agent productivity, Meta’s new models, AI self-replication risk and demands for safety rules.",
+  "title": "AI capability, governance and safety signals",
+  "summary": "This 9-story edition adds QGIS’s AI-contribution policy, a preprint on hidden capabilities, Karpathy’s capability-gap post and an FFT analysis. The already-covered Anthropic self-replication warning was not duplicated; the IMF market-stability warning is filed under markets. Other high-engagement leads lacked a distinct second-outlet development.",
   "stories": [
     {
       "slug": "coding-agents-output-review-bottleneck-2026-10-13",
@@ -408,6 +408,302 @@
         "AI",
         "research",
         "education"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "qgis-adopts-no-ai-code-contributions-policy-2026-10-13",
+      "headline": "Add QEP428: No ai contributions permitted",
+      "dek": "QGIS merged a proposal prohibiting AI-assisted code contributions, citing pressure on maintainer review capacity.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "QGIS merged QEP 428 on October 7, changing its contribution policy to prohibit AI-assisted contributions to QGIS repositories.",
+        "The proposal author and supporters cited a rise in review workload and the risk that submitted code would exceed maintainers’ capacity.",
+        "The policy is framed as an initial restrictive rule that may be revisited through later discussion."
+      ],
+      "body": [
+        {
+          "text": "QGIS merged pull request 387, titled “Add QEP428: No ai contributions permitted,” into its enhancement-proposal repository on October 7. The pull request records a formal shift from the project’s earlier human-in-the-loop policy to a prohibition on AI contributions.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "In discussion, QGIS contributors said AI-assisted submissions had increased pressure on an already limited review group. One maintainer argued that a volume of generated submissions could leave work unreviewed or lead to code being merged without adequate scrutiny.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The discussion also records disagreement about scope. Contributors raised questions about whether the wording covers autocomplete, translation, research, and AI-assisted review; the proposal author said the measure is an initial stopgap that could later be narrowed through separate discussion.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The confirmed change is the policy proposal’s merge, not evidence that every possible use of AI in the development process has been operationally defined. How the project will interpret edge cases and enforce the policy remains open.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "QGIS makes maintainer review capacity an explicit constraint on accepting AI-assisted code, turning a fast-growing open-source governance question into a project-level policy.",
+      "editorNote": "The headline reproduces the merged GitHub pull-request title. The Hacker News page is linked discussion, not independent reporting; wording about scope follows the public proposal discussion.",
+      "cluster": [
+        {
+          "url": "https://news.ycombinator.com/item?id=50054751",
+          "source": "Hacker News",
+          "title": "QGIS enacts moratorium on AI contributions"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+          "source": "QGIS Enhancement Proposals",
+          "title": "Add QEP428: No ai contributions permitted",
+          "publishedAt": "2026-10-07"
+        },
+        {
+          "id": 2,
+          "url": "https://news.ycombinator.com/item?id=50054751",
+          "source": "Hacker News",
+          "title": "QGIS enacts moratorium on AI contributions",
+          "publishedAt": "2026-10-12"
+        }
+      ],
+      "tags": [
+        "AI",
+        "open source",
+        "governance"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "ai-models-provably-hide-arbitrary-capabilities-2026-10-13",
+      "headline": "AI Models Can Provably Hide Arbitrary Capabilities",
+      "dek": "A research preprint describes cryptographic “digital lockers” that can conceal model capabilities from common elicitation tests.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "The authors describe a proof-of-concept method that embeds an encrypted neural network inside another model’s weights.",
+        "The hidden capability activates only after a secret trigger and is designed to resist several elicitation methods.",
+        "The paper reports experiments on a small chemical-reaction prediction task and identifies a limit of capability audits based only on elicitation."
+      ],
+      "body": [
+        {
+          "text": "An October 9 arXiv preprint by Andis Draguns, Sumeet Ramesh Motwani, Raymond Douglas, and Christian Schroeder de Witt studies whether hidden behaviors can be found by testing a model. The authors argue that evaluations relying on eliciting a capability cannot prove that an unelicited capability is absent.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Their construction places an encrypted neural network inside a host model’s weights and uses a secret trigger to decrypt and run it. The paper calls these structures “digital lockers” and gives cryptographic assumptions under which they are hard to elicit or interpret, even when the weights are available.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The researchers report a proof-of-concept implementation in PyTorch. Their experiments try fine-tuning, weight noising, gradient-based trigger search, and latent adversarial training on a small chemical-reaction prediction task described as a proxy, rather than a demonstration of a deployed dangerous capability.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The result is a constructed attack and a theoretical warning about evaluation limits, not evidence that a particular production model contains a hidden capability. The authors say they release models to support defensive work; how audits should adapt to the construction is still an open research question.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The paper challenges one assumption behind pre-deployment safety evaluation: failure to elicit a behavior does not establish its absence when a model may be deliberately engineered to hide it.",
+      "editorNote": "This reports a preprint and proof of concept. The Hacker News item is a discussion listing of the same paper, not a separate experimental replication.",
+      "cluster": [
+        {
+          "url": "https://news.ycombinator.com/item?id=50065692",
+          "source": "Hacker News",
+          "title": "AI models can provably hide arbitrary capabilities"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://arxiv.org/abs/2610.13928",
+          "source": "arXiv",
+          "title": "AI Models Can Provably Hide Arbitrary Capabilities",
+          "publishedAt": "2026-10-09"
+        },
+        {
+          "id": 2,
+          "url": "https://news.ycombinator.com/item?id=50065692",
+          "source": "Hacker News",
+          "title": "AI models can provably hide arbitrary capabilities",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "tags": [
+        "AI safety",
+        "security",
+        "research"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "openai-fast-fourier-transform-claim-analysis-2026-10-13",
+      "headline": "Faster Fourier Transforms",
+      "dek": "A technical commentary examines the mathematical basis and limits of OpenAI’s claimed faster Fourier-transform method.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "The commentary examines a mathematical claim by OpenAI about computing Fourier transforms faster.",
+        "Its author frames the result as a specific algorithmic claim, rather than evidence of a broad improvement across computing workloads.",
+        "The available material is a technical analysis and discussion; independent benchmark replication is not established in the collected sources."
+      ],
+      "body": [
+        {
+          "text": "Ben Recht’s technical blog post “Faster Fourier Transforms” examines a method OpenAI has claimed can compute Fourier transforms more quickly. The post walks through the mathematical structure behind the claim rather than presenting a general performance report.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The discussion focuses on what the algorithm changes and what assumptions are needed for the speedup. The claim concerns a defined transform computation and should not be read as a general statement that AI systems make all numerical workloads faster.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The post is analysis of a published technical claim; it does not establish that the method has been independently reproduced across implementations, hardware, or problem sizes. Hacker News users discussed the article, but discussion votes do not validate its performance.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Open questions include how the approach compares under practical implementation constraints and where its asymptotic or constant-factor gains apply. Those answers require benchmarks and independent technical scrutiny beyond the available commentary.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The story highlights the distinction between a mathematically interesting algorithmic result and demonstrated performance across real workloads.",
+      "editorNote": "Headline follows the collected Hacker News item; source coverage here is the technical post and its linked discussion. No independent replication is claimed.",
+      "cluster": [
+        {
+          "url": "https://news.ycombinator.com/item?id=50065932",
+          "source": "Hacker News",
+          "title": "A look at the math that OpenAI claims computes faster Fourier transforms"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.argmin.net/p/faster-fourier-transforms",
+          "source": "arg min",
+          "title": "Faster Fourier Transforms",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://news.ycombinator.com/item?id=50065932",
+          "source": "Hacker News",
+          "title": "A look at the math that OpenAI claims computes faster Fourier transforms",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "tags": [
+        "AI",
+        "algorithms",
+        "OpenAI"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "karpathy-llm-capability-understanding-gap-2026-10-13",
+      "headline": "The gap in shared understanding of LLM capability is widening",
+      "dek": "Andrej Karpathy described a widening gap between casual users’ experience of LLMs and the capabilities seen by technical professionals with frontier systems.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Karpathy said people’s understanding of LLM capabilities is separating into a “sharp funnel” shaped by unequal access and use.",
+        "He offered rough estimates for the population tiers, including about 20 million professional users and about 5,000 with internal frontier-system access.",
+        "The figures are his informal estimates, not measured population data or an independent capability assessment."
+      ],
+      "body": [
+        {
+          "text": "Andrej Karpathy, an AI researcher, wrote on X on October 11 that the gap in shared understanding of large language model capability is widening. He described it as a “sharp funnel,” moving beyond two groups simply talking past each other.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Karpathy’s post gives rough tiers: about 6 billion people with little contact with LLMs, 1–2 billion casual users, around 20 million professionals using frontier systems for mathematics and software work, and approximately 5,000 people with internal access to the most capable systems. He labels the estimates “napkin math.”",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "He says these groups encounter different kinds of systems and report different levels of capability, from basic chatbot use to agents completing extended projects. His examples of internal systems working on large software projects, cybersecurity and science are his account; the post does not provide independent measurements or disclose a particular model release.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The Hacker News discussion shows the post attracted substantial attention, but reactions do not verify its estimates. How many people fall into each tier, and whether access differences produce the claimed gap in understanding, remain unmeasured in the cited material.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The post frames uneven access as a reason public and professional debates about AI capability may diverge, while leaving the population estimates and frontier claims unverified.",
+      "editorNote": "This is a high-engagement commentary, not a study or product announcement. Karpathy’s numbers and frontier-system examples are explicitly treated as his estimates and account.",
+      "cluster": [
+        {
+          "url": "https://news.ycombinator.com/item?id=50047422",
+          "source": "Hacker News",
+          "title": "The gap in shared understanding of LLM capability is widening"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://twitter.com/karpathy/status/2109361546505966046",
+          "source": "Andrej Karpathy / X",
+          "title": "The gap in shared understanding of LLM capability is widening",
+          "publishedAt": "2026-10-11"
+        },
+        {
+          "id": 2,
+          "url": "https://news.ycombinator.com/item?id=50047422",
+          "source": "Hacker News",
+          "title": "The gap in shared understanding of LLM capability is widening",
+          "publishedAt": "2026-10-12"
+        }
+      ],
+      "tags": [
+        "AI capabilities",
+        "AI access",
+        "Andrej Karpathy"
       ],
       "confidence": "medium"
     }

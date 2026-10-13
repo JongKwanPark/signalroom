@@ -1,10 +1,10 @@
 {
   "date": "2026-10-13",
-  "generatedAt": "2026-10-13T07:06:24+09:00",
+  "generatedAt": "2026-10-13T19:05:00+09:00",
   "vertical": "bio",
   "lang": "en",
-  "title": "NAD+ precursor trial reports no benefit in early Parkinson disease",
-  "summary": "A randomized trial reported no clinical benefit from nicotinamide riboside in early Parkinson disease; broader NAD+ questions remain open.",
+  "title": "CAR-T development, Phase 3 readouts and regulatory decisions",
+  "summary": "This 6-story edition adds CAR-T program and trial updates, Phase 3 topline results and an FDA approval. No additional independently covered clinical or regulatory development on CAR-T, peptide therapeutics, NAC or NAD+ precursors was available in the collection; standalone papers and registry entries were excluded.",
   "stories": [
     {
       "slug": "nopark-nicotinamide-riboside-parkinson-trial-2026-10-13",
@@ -91,6 +91,376 @@
         "NAD+"
       ],
       "confidence": "high"
+    },
+    {
+      "slug": "caribou-discontinues-allogeneic-car-t-programs-2026-10-13",
+      "headline": "Caribou Biosciences to Evaluate Strategic Alternatives",
+      "dek": "Caribou said it plans to stop developing vispa-cel and CB-011 while it seeks strategic alternatives amid financing constraints.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Caribou announced on October 6 that it plans to discontinue its two allogeneic CAR-T programs, vispa-cel and CB-011.",
+        "The company said it is exploring strategic alternatives and will reduce its workforce and costs.",
+        "Its release reported $113.8 million in cash, equivalents, and marketable securities as of June 30, 2026."
+      ],
+      "body": [
+        {
+          "text": "Caribou Biosciences said it is exploring strategic alternatives and plans to discontinue further development of vispa-cel, for relapsed or refractory B-cell non-Hodgkin lymphoma, and CB-011, for relapsed or refractory multiple myeloma. The company announced the decision on October 6.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The company linked the decision to difficulty securing enough capital to advance the programs and said it would reduce its workforce and operating costs. Its release reported $113.8 million in cash, cash equivalents, and marketable securities at June 30, 2026.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Drug Discovery World’s coverage likewise described the two program cancellations as a financing-driven retreat. The two candidates were allogeneic, or donor-derived, CAR-T programs; their development status should not be confused with a regulatory safety finding about the CAR-T class.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Caribou said it would review options for the business and its assets. The timing and form of any transaction, and the disposition of ongoing program activities, remain uncertain; no new clinical efficacy conclusion is established by the corporate decision.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The decision removes two clinical-stage allogeneic CAR-T programs from active development and illustrates how financing conditions can determine whether late-stage cell-therapy plans proceed.",
+      "editorNote": "Company announcement and independent trade coverage agree on the discontinuation and financing context. No medical guidance is offered.",
+      "cluster": [
+        {
+          "url": "https://www.ddw-online.com/caribou-biosciences-cancels-allogeneic-car-t-programmes-44246-202610/",
+          "source": "Drug Discovery World",
+          "title": "Caribou Biosciences cancels allogeneic CAR-T programmes"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://cariboubio.gcs-web.com/news-releases/news-release-details/caribou-biosciences-evaluate-strategic-alternatives",
+          "source": "Caribou Biosciences",
+          "title": "Caribou Biosciences to Evaluate Strategic Alternatives",
+          "publishedAt": "2026-10-06"
+        },
+        {
+          "id": 2,
+          "url": "https://www.ddw-online.com/caribou-biosciences-cancels-allogeneic-car-t-programmes-44246-202610/",
+          "source": "Drug Discovery World",
+          "title": "Caribou Biosciences cancels allogeneic CAR-T programmes",
+          "publishedAt": "2026-10-12"
+        }
+      ],
+      "tags": [
+        "CAR-T",
+        "clinical development",
+        "biotechnology"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "bms-ryz101-phase3-action1-results-2026-10-13",
+      "headline": "Bristol Myers Squibb Announces Positive Topline Results from the Interim Analysis of Phase 3 ACTION-1 for RYZ101, RayzeBio’s Radiopharmaceutical Therapy, in Patients with GEP-NETs",
+      "dek": "BMS said the interim ACTION-1 analysis met its primary progression-free-survival endpoint in previously treated GEP-NETs.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Bristol Myers Squibb reported positive topline interim results from the Phase 3 ACTION-1 trial of RYZ101 in GEP-NETs.",
+        "The company said the study met its primary endpoint of progression-free survival by blinded independent central review.",
+        "Full numerical results and detailed safety data were not included in the topline announcement."
+      ],
+      "body": [
+        {
+          "text": "Bristol Myers Squibb announced on October 12 that an interim analysis of ACTION-1 met its primary endpoint, reporting a statistically significant and clinically meaningful improvement in progression-free survival for RYZ101 compared with investigator’s choice of standard care.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "ACTION-1 is a randomized Phase 3 study of RYZ101, also known as 225Ac-DOTATATE, in people with somatostatin-receptor-positive gastroenteropancreatic neuroendocrine tumors whose disease progressed after lutetium-177-based therapy. The comparator options listed by the company include somatostatin analogues, everolimus, or sunitinib.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The announcement says the endpoint was assessed by blinded independent central review and that the safety findings were consistent with the known profile. It is a topline corporate report; the release does not provide the full effect size, confidence intervals, or a peer-reviewed account.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "BMS said the trial would continue and that further details would be presented at a future medical meeting. The magnitude and durability of benefit, and how regulators may assess the data, remain open pending fuller results.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "An interim Phase 3 endpoint result can change the development outlook for a radiopharmaceutical candidate, but the topline disclosure leaves important clinical detail for later presentation.",
+      "editorNote": "Headlines and numerical claims follow the BMS announcement. BioBriefs coverage is secondary reporting; the full dataset is not yet available in the cited release.",
+      "cluster": [
+        {
+          "url": "https://www.biopharminternational.com/view/ryz101-phase-3-action-1-gep-net-primary-endpoint",
+          "source": "BioPharm International",
+          "title": "RYZ101 Meets Phase 3 Primary Endpoint in Neuroendocrine Tumors After Lutetium-177 Therapy"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://investors.bms.com/iframes/press-releases/press-release-details/2026/Bristol-Myers-Squibb-Announces-Positive-Topline-Results-from-the-Interim-Analysis-of-Phase-3-ACTION-1-for-RYZ101-RayzeBios-Radiopharmaceutical-Therapy-in-Patients-with-GEP-NETs/default.aspx",
+          "source": "Bristol Myers Squibb",
+          "title": "Bristol Myers Squibb Announces Positive Topline Results from the Interim Analysis of Phase 3 ACTION-1 for RYZ101, RayzeBio’s Radiopharmaceutical Therapy, in Patients with GEP-NETs",
+          "publishedAt": "2026-10-12"
+        },
+        {
+          "id": 2,
+          "url": "https://www.biopharminternational.com/view/ryz101-phase-3-action-1-gep-net-primary-endpoint",
+          "source": "BioPharm International",
+          "title": "RYZ101 Meets Phase 3 Primary Endpoint in Neuroendocrine Tumors After Lutetium-177 Therapy",
+          "publishedAt": "2026-10-12"
+        }
+      ],
+      "tags": [
+        "clinical trial",
+        "oncology",
+        "radiopharmaceutical"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "bms-admilparant-aloft-ipf-phase3-results-2026-10-13",
+      "headline": "Bristol Myers Squibb Announces Phase 3 ALOFT-IPF Trial Evaluating Admilparant in Adults with Idiopathic Pulmonary Fibrosis Met Primary Endpoint",
+      "dek": "BMS said the Phase 3 ALOFT-IPF trial met its primary lung-function endpoint at the 60 mg dose; complete results remain pending.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Bristol Myers Squibb reported that Phase 3 ALOFT-IPF met its primary endpoint for admilparant in idiopathic pulmonary fibrosis.",
+        "The company said the 60 mg twice-daily group had a statistically significant benefit in forced vital capacity change at Week 52 versus placebo.",
+        "The topline release reported a favorable safety profile but did not supply a full peer-reviewed dataset."
+      ],
+      "body": [
+        {
+          "text": "Bristol Myers Squibb said on October 12 that its Phase 3 ALOFT-IPF trial met the primary endpoint for admilparant in adults with idiopathic pulmonary fibrosis. The study compared 60 mg and 120 mg doses, each given twice daily for at least 52 weeks, with placebo.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The company reported that the 60 mg group showed a statistically significant benefit in absolute change in forced vital capacity from baseline to Week 52 versus placebo. HCPLive’s separate coverage reports that the 120 mg dose slowed decline but did not reach statistical significance; the BMS release did not include the complete numerical results.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "BioBriefs’ October 13 summary placed the result among same-day clinical developments and noted that the readout was mixed across BMS respiratory programs. The primary trial result remains a company topline disclosure, not a journal publication.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Further interpretation depends on complete effect estimates, secondary outcomes, and regulatory review. The available report does not establish approval or a change to clinical practice.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The result advances a Phase 3 candidate in a disease area with substantial unmet need, while the topline format limits independent assessment of clinical magnitude.",
+      "editorNote": "No treatment advice is offered. The BMS release is the primary source; BioBriefs provides separate coverage but the full trial dataset is not yet published.",
+      "cluster": [
+        {
+          "url": "https://www.hcplive.com/view/aloft-ipf-admilparant-60-mg-meets-primary-fvc-end-point",
+          "source": "HCPLive",
+          "title": "ALOFT-IPF: Admilparant 60 mg Meets Primary FVC End Point"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://news.bms.com/news/corporate-financial/2026/Bristol-Myers-Squibb-Announces-Phase-3-ALOFT-IPF-Trial-Evaluating-Admilparant-in-Adults-with-Idiopathic-Pulmonary-Fibrosis-Met-Primary-Endpoint/default.aspx",
+          "source": "Bristol Myers Squibb",
+          "title": "Bristol Myers Squibb Announces Phase 3 ALOFT-IPF Trial Evaluating Admilparant in Adults with Idiopathic Pulmonary Fibrosis Met Primary Endpoint",
+          "publishedAt": "2026-10-12"
+        },
+        {
+          "id": 2,
+          "url": "https://www.hcplive.com/view/aloft-ipf-admilparant-60-mg-meets-primary-fvc-end-point",
+          "source": "HCPLive",
+          "title": "ALOFT-IPF: Admilparant 60 mg Meets Primary FVC End Point",
+          "publishedAt": "2026-10-12"
+        }
+      ],
+      "tags": [
+        "clinical trial",
+        "pulmonary fibrosis",
+        "drug development"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "fda-approves-pritelivir-hovilpri-refractory-hsv-2026-10-13",
+      "headline": "FDA Approves Drug to Treat Lesions Caused by Herpes Simplex Virus",
+      "dek": "The FDA approved pritelivir tablets for specified mucocutaneous HSV lesions in immunocompromised adults whose infections resist standard antivirals.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "The FDA approved Hovilpri (pritelivir) for mucocutaneous HSV lesions in immunocompromised adults who did not respond to specified antivirals.",
+        "The approved use covers lesions caused by HSV-1 or HSV-2 that are refractory to acyclovir, valacyclovir, or famciclovir.",
+        "The approval does not cover all people with HSV or establish use for other populations."
+      ],
+      "body": [
+        {
+          "text": "The U.S. Food and Drug Administration approved Hovilpri, the brand name for pritelivir tablets, for immunocompromised adults with mucocutaneous lesions caused by herpes simplex virus who have not responded to other treatments. The FDA notice identifies acyclovir, valacyclovir, and famciclovir as the prior therapies.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Asahi Kasei Therapeutics’ announcement describes the approved indication as lesions refractory, with or without documented resistance, to those standard antiviral treatments. The company identifies pritelivir as a helicase-primase inhibitor.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The indication is limited to the specified patient group and disease presentation. The approval notice does not say that the drug cures HSV, which can remain latent, and it should not be generalized to immunocompetent people or other uses.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "FDA approval establishes authorization for this labeled use; questions about real-world uptake, comparative outcomes, and post-market safety will require evidence after launch. This summary reports the regulatory action and is not treatment guidance.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The decision adds an FDA-authorized option for a narrowly defined group with refractory HSV lesions, while the label’s population limits remain central to interpreting the approval.",
+      "editorNote": "The FDA notice and manufacturer release agree on the approved indication. No dosing or treatment advice is included.",
+      "cluster": [
+        {
+          "url": "https://www.aktx.com/en/news/hovilpri-now-approved/",
+          "source": "Asahi Kasei Therapeutics",
+          "title": "Asahi Kasei Therapeutics Announces FDA Approval of HOVILPRI® (pritelivir) Tablets for Mucocutaneous HSV Lesions Refractory to Standard Antiviral Treatment"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://content.govdelivery.com/accounts/USFDA/bulletins/42ea4fe",
+          "source": "U.S. Food and Drug Administration",
+          "title": "FDA Approves Drug to Treat Lesions Caused by Herpes Simplex Virus",
+          "publishedAt": "2026-10-09"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aktx.com/en/news/hovilpri-now-approved/",
+          "source": "Asahi Kasei Therapeutics",
+          "title": "Asahi Kasei Therapeutics Announces FDA Approval of HOVILPRI® (pritelivir) Tablets",
+          "publishedAt": "2026-10-09"
+        }
+      ],
+      "tags": [
+        "FDA",
+        "regulatory",
+        "HSV"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "mt027-b7h3-cart-phase2-brain-metastases-2026-10-13",
+      "headline": "T-MAXIMUM's B7-H3-Targeted Allogeneic CAR-T MT027 Receives FDA Clearance for Phase 2 Study in Brain Metastases from Lung and Breast Cancer",
+      "dek": "The FDA cleared a second Phase 2 study of MT027, an investigational allogeneic CAR-T, in brain metastases from lung and breast cancer.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "T-MAXIMUM said FDA cleared MT027 for a Phase 2 study in brain metastases from lung and breast cancer.",
+        "The company described this as MT027’s second FDA-cleared Phase 2 program, after recurrent glioblastoma.",
+        "A clearance to begin a study is not evidence that the therapy is effective or an approval for marketing."
+      ],
+      "body": [
+        {
+          "text": "T-MAXIMUM Pharmaceutical said on October 12 that the U.S. Food and Drug Administration cleared it to initiate a Phase 2 clinical study of MT027 in patients with brain metastases from lung or breast cancer. The company describes MT027 as an investigational, B7-H3-targeted allogeneic CAR-T therapy.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The company said this is MT027’s second FDA-cleared Phase 2 study. It previously received clearance for a Phase 2 study in recurrent glioblastoma and holds Orphan Drug and Fast Track designations, according to the announcement and separate BioPharm International coverage.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The new study concerns secondary brain tumors arising from lung or breast cancer. The cited announcement does not provide a trial registry number, enrollment target, start date, or a complete protocol description for this study.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Regulatory clearance to start a clinical study is not evidence of clinical benefit and is not marketing authorization. Safety and efficacy in the specified patient groups remain questions for the planned study and subsequent review.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The clearance expands clinical testing of an allogeneic CAR-T approach into brain metastases from two common solid tumors, while providing no efficacy conclusion yet.",
+      "editorNote": "The study clearance and prior designations are reported by the company and BioPharm International. The new program’s registry details were not disclosed in the cited reports; no treatment advice is offered.",
+      "cluster": [
+        {
+          "url": "https://www.biopharminternational.com/view/t-maximum-mt027-car-t-phase-2-brain-metastases",
+          "source": "BioPharm International",
+          "title": "T-MAXIMUM's MT027 CAR-T Cleared for Phase 2 Brain Metastases"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.prnewswire.com/news-releases/t-maximums-b7-h3-targeted-allogeneic-car-t-mt027-receives-fda-clearance-for-phase-2-study-in-brain-metastases-from-lung-and-breast-cancer-302905007.html",
+          "source": "T-MAXIMUM Pharmaceutical / PR Newswire",
+          "title": "T-MAXIMUM's B7-H3-Targeted Allogeneic CAR-T MT027 Receives FDA Clearance for Phase 2 Study in Brain Metastases from Lung and Breast Cancer",
+          "publishedAt": "2026-10-12"
+        },
+        {
+          "id": 2,
+          "url": "https://www.biopharminternational.com/view/t-maximum-mt027-car-t-phase-2-brain-metastases",
+          "source": "BioPharm International",
+          "title": "T-MAXIMUM's MT027 CAR-T Cleared for Phase 2 Brain Metastases",
+          "publishedAt": "2026-10-12"
+        }
+      ],
+      "tags": [
+        "CAR-T",
+        "clinical development",
+        "oncology"
+      ],
+      "confidence": "medium"
     }
   ]
 }

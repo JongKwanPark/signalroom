@@ -1,10 +1,10 @@
 {
   "date": "2026-10-13",
-  "generatedAt": "2026-10-13T07:06:24+09:00",
+  "generatedAt": "2026-10-13T19:05:00+09:00",
   "vertical": "bio",
   "lang": "ko",
-  "title": "초기 파킨슨병에서 니코틴아미드 리보사이드 효과 확인되지 않아",
-  "summary": "무작위 임상시험에서 초기 파킨슨병에 대한 니코틴아미드 리보사이드의 임상적 이득이 확인되지 않았다. NAD+ 관련 다른 질문은 열려 있다.",
+  "title": "CAR-T 개발, 3상 결과와 규제 결정",
+  "summary": "6편을 담았다. CAR-T 프로그램·임상시험 소식, 3상 톱라인 결과, FDA 승인을 추가했다. 수집 자료에는 CAR-T·펩타이드 치료제·NAC·NAD+ 전구체에 관한 추가 임상 또는 규제 개발을 독립적으로 다룬 두 번째 매체 보도가 없었다. 단일 논문과 임상시험 등록 정보는 제외했다.",
   "stories": [
     {
       "slug": "nopark-nicotinamide-riboside-parkinson-trial-2026-10-13-ko",
@@ -91,6 +91,376 @@
         "NAD+"
       ],
       "confidence": "high"
+    },
+    {
+      "slug": "caribou-discontinues-allogeneic-car-t-programs-2026-10-13-ko",
+      "headline": "Caribou Biosciences, 전략적 대안 검토 발표",
+      "dek": "Caribou는 자금 조달의 어려움 속에 vispa-cel과 CB-011 개발을 중단하고 전략적 대안을 찾겠다고 밝혔습니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Caribou는 10월 6일 동종 CAR-T 프로그램 두 건인 vispa-cel과 CB-011의 개발을 중단할 계획이라고 발표했습니다.",
+        "회사는 전략적 대안을 검토하고 인력과 비용을 줄이겠다고 밝혔습니다.",
+        "회사 자료에 따르면 2026년 6월 30일 기준 현금 및 유가증권은 1억 1,380만 달러였습니다."
+      ],
+      "body": [
+        {
+          "text": "Caribou Biosciences는 전략적 대안을 모색하며 재발성 또는 불응성 B세포 비호지킨 림프종용 vispa-cel과 재발성 또는 불응성 다발골수종용 CB-011의 추가 개발을 중단할 계획이라고 밝혔습니다. 회사는 10월 6일 이 결정을 발표했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "회사는 해당 프로그램을 발전시키는 데 필요한 자금 확보가 어려워진 점을 결정 배경으로 들었고, 인력과 운영 비용도 줄이겠다고 했습니다. 발표문에 따르면 2026년 6월 30일 기준 현금·현금성 자산·유가증권은 1억 1,380만 달러였습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Drug Discovery World도 자금 조달의 어려움으로 두 프로그램이 중단된다고 보도했습니다. 두 후보는 동종, 즉 공여자 유래 CAR-T 프로그램이었습니다. 이번 결정은 CAR-T 계열에 대한 규제상 안전성 판단과는 구분해야 합니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Caribou는 회사와 자산의 향후 선택지를 검토한다고 밝혔습니다. 거래의 형태와 시점, 진행 중인 프로그램 활동의 처리 방식은 불확실하며, 회사의 결정만으로 새로운 임상 효능 결론이 생긴 것은 아닙니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 결정은 임상 단계 동종 CAR-T 프로그램 두 건을 개발 경로에서 제외하며, 후기 단계 세포 치료제 계획이 자금 여건에 좌우될 수 있음을 보여줍니다.",
+      "editorNote": "회사 발표와 독립 업계 보도는 개발 중단과 자금 조달 배경을 함께 전합니다. 의료 조언은 제공하지 않습니다.",
+      "cluster": [
+        {
+          "url": "https://www.ddw-online.com/caribou-biosciences-cancels-allogeneic-car-t-programmes-44246-202610/",
+          "source": "Drug Discovery World",
+          "title": "Caribou Biosciences cancels allogeneic CAR-T programmes"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://cariboubio.gcs-web.com/news-releases/news-release-details/caribou-biosciences-evaluate-strategic-alternatives",
+          "source": "Caribou Biosciences",
+          "title": "Caribou Biosciences to Evaluate Strategic Alternatives",
+          "publishedAt": "2026-10-06"
+        },
+        {
+          "id": 2,
+          "url": "https://www.ddw-online.com/caribou-biosciences-cancels-allogeneic-car-t-programmes-44246-202610/",
+          "source": "Drug Discovery World",
+          "title": "Caribou Biosciences cancels allogeneic CAR-T programmes",
+          "publishedAt": "2026-10-12"
+        }
+      ],
+      "tags": [
+        "CAR-T",
+        "clinical development",
+        "biotechnology"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "bms-ryz101-phase3-action1-results-2026-10-13-ko",
+      "headline": "Bristol Myers Squibb, ACTION-1 3상 RYZ101 중간분석 톱라인 결과 긍정적 발표",
+      "dek": "BMS는 ACTION-1 중간 분석에서 GEP-NET 환자의 무진행생존기간 1차 평가변수를 충족했다고 밝혔습니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Bristol Myers Squibb은 GEP-NET 환자를 대상으로 한 RYZ101 3상 ACTION-1 임상시험의 중간 톱라인 결과가 긍정적이라고 발표했습니다.",
+        "회사는 맹검 독립 중앙 검토 기준 무진행생존기간 1차 평가변수를 충족했다고 밝혔습니다.",
+        "톱라인 발표에는 전체 수치 결과와 상세 안전성 자료가 포함되지 않았습니다."
+      ],
+      "body": [
+        {
+          "text": "Bristol Myers Squibb은 10월 12일 ACTION-1 중간 분석에서 RYZ101이 연구자 선택 표준 치료 대비 무진행생존기간을 통계적으로 유의하고 임상적으로 의미 있게 개선했다고 발표했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "ACTION-1은 루테튬-177 기반 치료 후 질병이 진행된 소마토스타틴 수용체 양성 위장관·췌장 신경내분비종양 환자를 대상으로 RYZ101, 즉 225Ac-DOTATATE를 평가하는 무작위 3상 연구입니다. 회사가 열거한 비교 치료에는 소마토스타틴 유사체, 에베로리무스, 수니티닙이 포함됩니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "회사는 맹검 독립 중앙 검토로 평가변수를 확인했고 안전성 결과는 알려진 특성과 일치했다고 밝혔습니다. 이는 회사의 톱라인 발표이며, 전체 효과 크기·신뢰구간·동료심사 결과는 자료에 제시되지 않았습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "BMS는 임상시험이 계속 진행될 예정이며 추후 의학 학회에서 자세한 결과를 발표하겠다고 했습니다. 효과의 규모와 지속성, 규제기관의 평가 방식은 상세 결과가 나와야 판단할 수 있습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "중간 3상 평가변수 결과는 방사성의약품 후보의 개발 전망에 영향을 줄 수 있지만, 톱라인 발표만으로는 임상적 효과를 충분히 독립 평가하기 어렵습니다.",
+      "editorNote": "수치 관련 주장은 BMS 발표를 따릅니다. BioBriefs는 별도 보도이며, 전체 임상 데이터는 아직 공개되지 않았습니다.",
+      "cluster": [
+        {
+          "url": "https://www.biopharminternational.com/view/ryz101-phase-3-action-1-gep-net-primary-endpoint",
+          "source": "BioPharm International",
+          "title": "RYZ101 Meets Phase 3 Primary Endpoint in Neuroendocrine Tumors After Lutetium-177 Therapy"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://investors.bms.com/iframes/press-releases/press-release-details/2026/Bristol-Myers-Squibb-Announces-Positive-Topline-Results-from-the-Interim-Analysis-of-Phase-3-ACTION-1-for-RYZ101-RayzeBios-Radiopharmaceutical-Therapy-in-Patients-with-GEP-NETs/default.aspx",
+          "source": "Bristol Myers Squibb",
+          "title": "Bristol Myers Squibb Announces Positive Topline Results from the Interim Analysis of Phase 3 ACTION-1 for RYZ101, RayzeBio’s Radiopharmaceutical Therapy, in Patients with GEP-NETs",
+          "publishedAt": "2026-10-12"
+        },
+        {
+          "id": 2,
+          "url": "https://www.biopharminternational.com/view/ryz101-phase-3-action-1-gep-net-primary-endpoint",
+          "source": "BioPharm International",
+          "title": "RYZ101 Meets Phase 3 Primary Endpoint in Neuroendocrine Tumors After Lutetium-177 Therapy",
+          "publishedAt": "2026-10-12"
+        }
+      ],
+      "tags": [
+        "clinical trial",
+        "oncology",
+        "radiopharmaceutical"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "bms-admilparant-aloft-ipf-phase3-results-2026-10-13-ko",
+      "headline": "Bristol Myers Squibb, 특발성 폐섬유증 3상 ALOFT-IPF 1차 평가변수 충족 발표",
+      "dek": "BMS는 특발성 폐섬유증 치료 후보 admilparant의 3상에서 60 mg 용량이 폐기능 1차 평가변수를 충족했다고 밝혔습니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Bristol Myers Squibb은 특발성 폐섬유증 환자 대상 ALOFT-IPF 3상 임상시험에서 admilparant가 1차 평가변수를 충족했다고 발표했습니다.",
+        "회사는 60 mg 하루 두 번 투여군에서 52주 시점의 강제폐활량 변화가 위약보다 통계적으로 유의하게 개선됐다고 밝혔습니다.",
+        "톱라인 발표는 안전성 프로필이 양호하다고 전했지만, 동료심사를 거친 전체 데이터는 공개하지 않았습니다."
+      ],
+      "body": [
+        {
+          "text": "Bristol Myers Squibb은 10월 12일 성인 특발성 폐섬유증 환자 대상 ALOFT-IPF 3상에서 admilparant가 1차 평가변수를 충족했다고 밝혔습니다. 임상시험은 60 mg과 120 mg을 각각 하루 두 번 최소 52주 투여하고 위약과 비교했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "회사는 60 mg 투여군이 기저치부터 52주까지의 강제폐활량 절대 변화에서 위약 대비 통계적으로 유의한 이점을 보였다고 보고했습니다. HCPLive의 별도 보도에 따르면 120 mg 용량은 감소를 늦췄지만 통계적 유의성에는 도달하지 않았습니다. BMS 발표문은 전체 수치를 제공하지 않았습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "BioBriefs는 10월 13일 임상 개발 소식 중 하나로 결과를 소개하며 BMS의 호흡기 프로그램에서 엇갈린 결과가 있었다고 요약했습니다. 1차 임상 결과는 여전히 회사가 발표한 톱라인 정보이며 학술지 논문은 아닙니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "완전한 효과 추정치, 이차 평가변수, 규제 검토를 확인해야 추가 해석이 가능합니다. 현재 자료만으로는 승인이나 진료 관행의 변화가 확정되지 않았습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 결과는 임상적 필요가 큰 질환의 3상 후보에 진전을 보여주지만, 톱라인 형식 때문에 임상적 효과의 크기를 독립 평가하기 어렵습니다.",
+      "editorNote": "치료 조언은 제공하지 않습니다. BMS 발표가 1차 출처이고 BioBriefs는 별도 보도를 제공하지만, 전체 시험 데이터는 아직 공개되지 않았습니다.",
+      "cluster": [
+        {
+          "url": "https://www.hcplive.com/view/aloft-ipf-admilparant-60-mg-meets-primary-fvc-end-point",
+          "source": "HCPLive",
+          "title": "ALOFT-IPF: Admilparant 60 mg Meets Primary FVC End Point"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://news.bms.com/news/corporate-financial/2026/Bristol-Myers-Squibb-Announces-Phase-3-ALOFT-IPF-Trial-Evaluating-Admilparant-in-Adults-with-Idiopathic-Pulmonary-Fibrosis-Met-Primary-Endpoint/default.aspx",
+          "source": "Bristol Myers Squibb",
+          "title": "Bristol Myers Squibb Announces Phase 3 ALOFT-IPF Trial Evaluating Admilparant in Adults with Idiopathic Pulmonary Fibrosis Met Primary Endpoint",
+          "publishedAt": "2026-10-12"
+        },
+        {
+          "id": 2,
+          "url": "https://www.hcplive.com/view/aloft-ipf-admilparant-60-mg-meets-primary-fvc-end-point",
+          "source": "HCPLive",
+          "title": "ALOFT-IPF: Admilparant 60 mg Meets Primary FVC End Point",
+          "publishedAt": "2026-10-12"
+        }
+      ],
+      "tags": [
+        "clinical trial",
+        "pulmonary fibrosis",
+        "drug development"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "fda-approves-pritelivir-hovilpri-refractory-hsv-2026-10-13-ko",
+      "headline": "FDA, 단순포진바이러스 병변 치료제 승인",
+      "dek": "FDA는 특정 항바이러스제에 반응하지 않은 면역저하 성인의 점막피부 HSV 병변에 pritelivir 정제를 승인했습니다.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "FDA는 표준 항바이러스제에 반응하지 않은 면역저하 성인의 점막피부 HSV 병변에 Hovilpri(pritelivir)를 승인했습니다.",
+        "승인 적응증은 acyclovir, valacyclovir 또는 famciclovir에 반응하지 않는 HSV-1 또는 HSV-2 병변입니다.",
+        "이번 승인이 HSV 감염자 전체나 다른 환자군을 대상으로 한 것은 아닙니다."
+      ],
+      "body": [
+        {
+          "text": "미국 식품의약국(FDA)은 단순포진바이러스 병변이 기존 치료에 반응하지 않은 면역저하 성인에게 Hovilpri, 즉 pritelivir 정제를 승인했습니다. FDA 공지는 이전 치료제로 acyclovir, valacyclovir, famciclovir를 명시합니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Asahi Kasei Therapeutics의 발표는 승인 적응증을 이들 표준 항바이러스 치료에 반응하지 않는, 저항성이 확인됐거나 확인되지 않은 점막피부 병변으로 설명합니다. 회사는 pritelivir가 helicase-primase 억제제라고 밝혔습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "적응증은 명시된 환자군과 병변에 한정됩니다. HSV는 잠복 상태로 남을 수 있으므로 이번 공지를 면역정상인이나 다른 사용에 일반화해서는 안 됩니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "FDA 승인은 표시된 사용에 대한 규제 허가를 의미합니다. 실제 도입, 비교 임상 결과, 시판 후 안전성은 출시 후 확보될 증거가 필요합니다. 이 요약은 규제 조치를 전하며 치료 지침을 제공하지 않습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 결정은 치료가 어려운 특정 HSV 병변 환자군에 FDA 허가 선택지를 추가하지만, 승인 대상의 제한이 해석의 핵심입니다.",
+      "editorNote": "FDA 공지와 제조사 발표는 승인 적응증을 함께 확인합니다. 용량이나 치료 조언은 포함하지 않았습니다.",
+      "cluster": [
+        {
+          "url": "https://www.aktx.com/en/news/hovilpri-now-approved/",
+          "source": "Asahi Kasei Therapeutics",
+          "title": "Asahi Kasei Therapeutics Announces FDA Approval of HOVILPRI® (pritelivir) Tablets for Mucocutaneous HSV Lesions Refractory to Standard Antiviral Treatment"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://content.govdelivery.com/accounts/USFDA/bulletins/42ea4fe",
+          "source": "U.S. Food and Drug Administration",
+          "title": "FDA Approves Drug to Treat Lesions Caused by Herpes Simplex Virus",
+          "publishedAt": "2026-10-09"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aktx.com/en/news/hovilpri-now-approved/",
+          "source": "Asahi Kasei Therapeutics",
+          "title": "Asahi Kasei Therapeutics Announces FDA Approval of HOVILPRI® (pritelivir) Tablets",
+          "publishedAt": "2026-10-09"
+        }
+      ],
+      "tags": [
+        "FDA",
+        "regulatory",
+        "HSV"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "mt027-b7h3-cart-phase2-brain-metastases-2026-10-13-ko",
+      "headline": "T-MAXIMUM의 B7-H3 표적 동종 CAR-T MT027, 폐암·유방암 뇌전이 2상 FDA 허가",
+      "dek": "FDA가 시험 단계 동종 CAR-T MT027의 폐암·유방암 뇌전이 대상 두 번째 2상 임상시험을 허가했습니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "T-MAXIMUM은 FDA가 폐암과 유방암 뇌전이 환자 대상 MT027 2상 임상시험을 허가했다고 밝혔습니다.",
+        "회사는 재발성 교모세포종에 이어 이번이 MT027의 두 번째 FDA 허가 2상 프로그램이라고 설명했습니다.",
+        "임상시험 개시 허가는 치료 효과의 증거나 판매 승인이 아닙니다."
+      ],
+      "body": [
+        {
+          "text": "T-MAXIMUM Pharmaceutical은 10월 12일 미국 식품의약국(FDA)이 폐암 또는 유방암 뇌전이 환자 대상 MT027 2상 임상시험 개시를 허가했다고 밝혔습니다. 회사는 MT027을 B7-H3 표적 시험 단계 동종 CAR-T 치료제로 설명합니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "회사는 이번이 MT027의 두 번째 FDA 허가 2상 임상시험이라고 밝혔습니다. 앞서 재발성 교모세포종 대상 2상 임상시험도 허가받았고, 희귀의약품 지정과 신속심사 지정도 보유하고 있다고 발표문과 BioPharm International이 전했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "새 임상시험은 폐암 또는 유방암에서 발생한 뇌전이를 대상으로 합니다. 인용한 발표문에는 이번 시험의 임상시험 등록번호, 모집 목표, 개시일, 전체 프로토콜이 제시되지 않았습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "임상시험 개시를 위한 규제 허가는 임상적 이점의 증거가 아니며 판매 허가도 아닙니다. 지정된 환자군에서의 안전성과 유효성은 계획된 임상시험과 이후 검토를 통해 확인해야 합니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 허가는 동종 CAR-T 접근법의 임상시험 범위를 흔한 두 고형암의 뇌전이로 확장하지만, 아직 효능에 관한 결론을 제공하지 않습니다.",
+      "editorNote": "임상시험 허가와 기존 지정은 회사와 BioPharm International이 보도했습니다. 신규 시험의 등록 정보는 인용한 보도에 없으며 치료 조언은 제공하지 않습니다.",
+      "cluster": [
+        {
+          "url": "https://www.biopharminternational.com/view/t-maximum-mt027-car-t-phase-2-brain-metastases",
+          "source": "BioPharm International",
+          "title": "T-MAXIMUM's MT027 CAR-T Cleared for Phase 2 Brain Metastases"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.prnewswire.com/news-releases/t-maximums-b7-h3-targeted-allogeneic-car-t-mt027-receives-fda-clearance-for-phase-2-study-in-brain-metastases-from-lung-and-breast-cancer-302905007.html",
+          "source": "T-MAXIMUM Pharmaceutical / PR Newswire",
+          "title": "T-MAXIMUM's B7-H3-Targeted Allogeneic CAR-T MT027 Receives FDA Clearance for Phase 2 Study in Brain Metastases from Lung and Breast Cancer",
+          "publishedAt": "2026-10-12"
+        },
+        {
+          "id": 2,
+          "url": "https://www.biopharminternational.com/view/t-maximum-mt027-car-t-phase-2-brain-metastases",
+          "source": "BioPharm International",
+          "title": "T-MAXIMUM's MT027 CAR-T Cleared for Phase 2 Brain Metastases",
+          "publishedAt": "2026-10-12"
+        }
+      ],
+      "tags": [
+        "CAR-T",
+        "clinical development",
+        "oncology"
+      ],
+      "confidence": "medium"
     }
   ]
 }

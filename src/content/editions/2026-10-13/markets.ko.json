@@ -1,10 +1,10 @@
 {
   "date": "2026-10-13",
-  "generatedAt": "2026-10-13T07:06:24+09:00",
+  "generatedAt": "2026-10-13T19:05:00+09:00",
   "vertical": "markets",
   "lang": "ko",
-  "title": "연준의 물가 전망과 양자 보안 인수",
-  "summary": "연준 인사들은 물가 위험과 고용 비용을 저울질하고 있으며 IonQ는 사이버보안 기업 인수를 추진한다.",
+  "title": "AI 시장 위험, 반도체 매도세와 기업 실적",
+  "summary": "8편을 담았다. 반도체 매도세, IMF 금융 안정 위험, Visa의 중국 사업 준비 승인, UnitedHealth 실적 등 복수 매체가 보도한 내용을 추가했다. Anthropic 자기복제 경고는 기존 AI 기사에 남겼고, 프랑스 예산·부채 분석은 수집된 매체가 한 곳뿐이어서 추가하지 않았다.",
   "stories": [
     {
       "slug": "fed-hammack-inflation-rates-demand-2026-10-13-ko",
@@ -176,6 +176,469 @@
         "M&A",
         "cybersecurity",
         "quantum computing"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "global-chip-selloff-ai-trade-asia-october-2026-10-13-ko",
+      "headline": "AI 호황 우려 속 글로벌 반도체주 매도세가 아시아 증시를 끌어내려",
+      "dek": "반도체주 전반의 매도세가 아시아 주식을 끌어내렸고, 투자자들은 AI 관련 밸류에이션과 중국 업체의 경쟁력을 다시 평가했습니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "AP는 한국 코스피가 장중 5% 넘게 하락하는 등 아시아 반도체주가 급락했다고 보도했습니다.",
+        "Reuters와 CNBC도 삼성전자, SK하이닉스, TSMC, SoftBank 등의 하락을 포함한 지역 반도체 매도세를 전했습니다.",
+        "보도는 중국 메모리 반도체 업체의 진전과 AI 관련 거래 재평가를 투자자 우려로 들었지만, 시장 움직임은 변동성이 있습니다."
+      ],
+      "body": [
+        {
+          "text": "Associated Press는 10월 13일 반도체주 하락이 아시아 시장을 끌어내렸고 한국 코스피가 보도 시점에 5% 넘게 하락했다고 전했습니다. Reuters는 지역 반도체주 매도세와 함께 투자자들이 국채로 이동하는 흐름을 별도로 보도했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "보도들은 삼성전자와 SK하이닉스 주가 하락을 다뤘으며, Reuters는 TSMC, Kioxia, SoftBank 하락도 언급했습니다. CNBC와 Seeking Alpha도 반도체 관련 주식 전반으로 매도세가 번졌다고 각각 전했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "보도는 ChangXin Memory Technologies를 포함한 중국 업체의 경쟁력 우려와 AI 거래에 대한 기대치가 낮아지는 흐름을 원인으로 연결했습니다. 이는 시장 움직임에 대한 보도된 해석이지 단일 원인이 입증됐다는 뜻은 아닙니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "주가와 지수는 장중 변할 수 있고 각 보도는 서로 다른 시점의 상황을 반영합니다. 재평가가 이어질지, 반도체 기업의 실적 기대에 어떤 영향을 줄지는 불확실합니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 움직임은 AI 확장에 필요한 하드웨어에 대한 투자 심리 변화를 보여주며, 메모리 반도체 경쟁과 밸류에이션 우려를 연결합니다.",
+      "editorNote": "시장 수준은 각 보도 시점의 스냅샷입니다. 설명을 위한 보도이며 매매를 권하지 않습니다.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
+          "source": "CNBC",
+          "title": "Micron, SoftBank and ASML slide as Wall Street chip rout spreads"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/asian-stocks-hit-2-month-low-on-ai-jitters-bonds-find-favour-ce785dddda81f325",
+          "source": "Reuters / MarketScreener",
+          "title": "Asian stocks hit 2-month low on AI jitters, bonds find favour"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/a2edaf9ec297fb75ff2a4e245063ec08",
+          "source": "Associated Press",
+          "title": "Global semiconductor stocks sell-off over AI boom worries pulls Asian shares lower",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://in.marketscreener.com/news/asian-stocks-hit-2-month-low-on-ai-jitters-bonds-find-favour-ce785dddda81f325",
+          "source": "Reuters / MarketScreener",
+          "title": "Asian stocks hit 2-month low on AI jitters, bonds find favour",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "tags": [
+        "semiconductors",
+        "AI trade",
+        "markets"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "visa-china-card-clearing-approval-2026-10-13-ko",
+      "headline": "Visa, 중국서 은행카드 청산 사업 준비 승인 받아",
+      "dek": "중국이 Visa의 은행카드 청산 사업 준비를 승인해 자국 결제 시장에서 경쟁할 가능성을 열었습니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Visa는 중국에서 은행카드 청산 사업을 준비하도록 승인받았다고 밝혔습니다.",
+        "AP는 당국이 1년 안에 준비 작업을 완료하도록 요구한다고 보도했습니다.",
+        "이번 승인은 준비 단계이며 사업이 이미 운영되거나 최종 시장 접근이 확정된 것은 아닙니다."
+      ],
+      "body": [
+        {
+          "text": "Associated Press와 CNBC에 따르면 Visa는 중국에서 은행카드 청산 사업을 준비하도록 승인받았습니다. Visa는 이번 조치가 중국 시장에서 더 큰 역할을 위해 수십 년간 노력해 온 과정의 진전이라고 밝혔습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "중국 관영 신화통신은 Visa가 1년 안에 준비 작업을 완료해야 한다고 전했다고 AP가 보도했습니다. 따라서 이번 승인은 완전히 운영되는 서비스의 즉각적인 출범이 아니라 인허가 과정의 한 단계입니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이번 조치는 워싱턴과 베이징의 교류가 늘어난 시기에 나왔지만, 특정 외교 합의의 결과인지는 보도에서 확인되지 않았습니다. Visa가 추가로 충족해야 할 요건도 자세히 공개되지 않았습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "다음 단계는 준비 작업 완료와 출범에 필요한 추가 규제 승인입니다. 중국에서 Visa가 실제로 어느 정도 규모의 사업을 할지는 아직 알 수 없습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 승인은 국경 간 금융 서비스와 미중 상업 관계에 영향을 줄 가능성이 있지만, 운영 요건이 남은 초기 규제 단계입니다.",
+      "editorNote": "승인 조건은 AP와 CNBC 보도를 근거로 서술했습니다. 투자 조언은 제공하지 않습니다.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/13/visa-china-green-light-bank-card-business-.html",
+          "source": "CNBC",
+          "title": "Visa gets Beijing’s green light for bank card business after 40 years of working with China"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/535e88e9af58db60ab88eda0d06c769f",
+          "source": "Associated Press",
+          "title": "Visa wins approval to prepare a bank card clearing business in China",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/10/13/visa-china-green-light-bank-card-business-.html",
+          "source": "CNBC",
+          "title": "Visa gets Beijing’s green light for bank card business after 40 years of working with China",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "tags": [
+        "payments",
+        "China",
+        "regulation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "unitedhealth-q3-2026-earnings-outlook-2026-10-13-ko",
+      "headline": "UnitedHealth Group, 예상치 웃돈 실적과 연간 이익 전망 상향",
+      "dek": "UnitedHealth는 의료비 상승을 관리하는 가운데 분기 실적이 예상치를 웃돌고 2026년 이익 전망을 높였다고 발표했습니다.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "UnitedHealth는 분기 실적이 애널리스트 예상치를 웃돌고 연간 이익 전망을 상향했다고 밝혔습니다.",
+        "CNBC와 Seeking Alpha는 의료비 상승이 여전히 경영진의 주요 관심사라고 보도했습니다.",
+        "보도만으로 올해 남은 기간 의료비 추세가 어떻게 바뀔지는 알 수 없습니다."
+      ],
+      "body": [
+        {
+          "text": "CNBC와 Seeking Alpha에 따르면 UnitedHealth Group은 애널리스트 예상치를 웃돈 분기 실적을 발표하고 2026년 이익 전망을 상향했습니다. 보험사는 높아진 의료비를 관리하는 상황에서 결과를 내놓았습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "보도된 전망 변경은 실적 발표 당시 회사가 제시한 내용입니다. 수집된 보도는 각 사업 부문이 전망 상향에 얼마나 기여했는지 전체적으로 설명하지 않습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "의료비 압박은 건강보험사의 핵심 운영 변수로 남아 있습니다. 이번 실적 보도는 현재 결과와 경영진의 전망을 다루며, 이후 분기에도 의료비나 마진이 같은 흐름을 이어간다고 보장하지 않습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "투자자와 보건 정책 관찰자들은 이용 추세와 전망 변경 배경을 포함해 회사 공시와 컨퍼런스콜의 세부사항을 확인할 것입니다. 이 기사는 회사 주식에 대한 견해를 제시하지 않습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "UnitedHealth의 전망 조정은 보험사 이익과 의료비 상승 사이의 균형을 보여주며, 이는 해당 업종의 핵심 변수입니다.",
+      "editorNote": "헤드라인은 CNBC 보도를 따르고 Seeking Alpha는 같은 실적 발표를 별도로 보도했습니다. 투자 조언은 제공하지 않습니다.",
+      "cluster": [
+        {
+          "url": "https://seekingalpha.com/news/4652356-unitedhealth-beats-top-line-and-bottom-line-estimates-updates-fy26-outlook",
+          "source": "Seeking Alpha",
+          "title": "UnitedHealth beats top-line and bottom-line estimates; updates FY26 outlook"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/13/unitedhealth-group-unh-earnings-q3-2026.html",
+          "source": "CNBC",
+          "title": "UnitedHealth Group tops estimates, hikes profit outlook as insurer manages high medical costs",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://seekingalpha.com/news/4652356-unitedhealth-beats-top-line-and-bottom-line-estimates-updates-fy26-outlook",
+          "source": "Seeking Alpha",
+          "title": "UnitedHealth beats top-line and bottom-line estimates; updates FY26 outlook",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "tags": [
+        "health insurers",
+        "earnings",
+        "UnitedHealth"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "us-stock-futures-bank-earnings-inflation-data-2026-10-13-ko",
+      "headline": "대형 은행 실적과 물가 지표 앞두고 S&P 선물 낙폭 만회",
+      "dek": "미국 주식 선물은 대형 은행 실적과 향후 물가 지표 발표를 앞두고 앞선 하락분을 만회했습니다.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Investing.com은 은행 실적과 물가 지표를 앞두고 S&P 선물이 앞선 하락을 만회했다고 보도했습니다.",
+        "Seeking Alpha도 대형 은행 실적 전 주식 선물 흐름이 혼조였다고 전했습니다.",
+        "보도는 장중 스냅샷이며 정규장 최종 방향을 보여주지는 않습니다."
+      ],
+      "body": [
+        {
+          "text": "Investing.com은 투자자들이 은행 실적과 물가 지표를 앞두고 S&P 선물이 이전 하락을 만회했다고 보도했습니다. Seeking Alpha도 대형 은행 실적을 앞둔 주식 선물이 혼조였다고 별도로 전했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "두 보도는 특정 시점의 시장 상황을 다룹니다. 선물 가격은 새 정보에 따라 움직일 수 있으므로 정규 거래 시간의 방향이 이미 정해졌다는 뜻으로 해석해서는 안 됩니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "대형 은행 실적은 대출, 신용의 질, 수수료 수입에 관한 정보를 제공할 수 있고, 물가 지표는 금리 기대에 영향을 줄 수 있습니다. 수집된 보도는 향후 발표 내용이 무엇일지 밝히지 않았습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "자료와 실적 발표 이후 시장이 어느 방향으로 움직일지는 보도 당시 결정되지 않았습니다. 이 기사는 일정과 선물 흐름을 전하며 매매 신호를 추론하지 않습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이 시장 흐름은 실적과 거시경제 지표 발표를 앞두고 포지션이 바뀔 수 있음을 보여주지만, 실제 발표 결과는 아직 알 수 없습니다.",
+      "editorNote": "시간에 민감한 시장 스냅샷입니다. 전망이나 투자 조언은 제공하지 않습니다.",
+      "cluster": [
+        {
+          "url": "https://seekingalpha.com/news/4652329-stock-futures-mixed-as-investors-as-big-bank-earnings-loom",
+          "source": "Seeking Alpha",
+          "title": "Stock futures mixed as big bank earnings loom"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-steady-as-bank-earnings-inflation-data-loom-4945262",
+          "source": "Investing.com",
+          "title": "S&P futures erase declines with bank earnings slate ahead",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://seekingalpha.com/news/4652329-stock-futures-mixed-as-investors-as-big-bank-earnings-loom",
+          "source": "Seeking Alpha",
+          "title": "Stock futures mixed as big bank earnings loom",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "tags": [
+        "U.S. markets",
+        "earnings",
+        "economic data"
+      ],
+      "confidence": "low"
+    },
+    {
+      "slug": "broadcom-ceo-ai-investors-gamblers-comment-2026-10-13-ko",
+      "headline": "Broadcom CEO, AI 투자를 두고 투자자 이해도 비판… “도박꾼” 발언 논란",
+      "dek": "Hock Tan은 AI 투자 내용을 제대로 이해하지 못하는 투자자가 있다고 지적하고 기업의 AI 지출이 생산적인지 물었습니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Broadcom CEO Hock Tan은 AI 관련 투자 내용을 투자자들이 충분히 이해하지 못한다고 비판했습니다.",
+        "보도와 연결된 토론에 따르면 그는 기업의 AI 지출이 생산적인지도 의문을 제기했습니다.",
+        "이 발언은 경영진의 견해이며 AI 투자 수익률 전반을 측정한 결과는 아닙니다."
+      ],
+      "body": [
+        {
+          "text": "MarketWatch는 Broadcom CEO Hock Tan이 일부 AI 투자자를 도박꾼으로 표현하고, 투자 대상에 대한 이해 여부를 문제 삼았다고 보도했습니다. CNBC도 Tan이 AI 지출과 수익을 평가하기 어려운 점에 대해 한 별도 발언을 전했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "보도는 Tan의 발언을 AI 투자의 규모와 근거에 대한 회의적 시각으로 제시합니다. 이는 AI 수요가 감소할 것이라는 전망은 아닙니다. 그가 제기한 우려에는 기업이 AI 도구와 인프라에 생산적으로 지출하는지 여부가 포함됩니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "WallStreetBets의 Reddit 토론에는 Tan의 발언을 다룬 보도 링크와 개인 이용자들의 다양한 반응이 담겼습니다. 이 토론은 관련 논의가 있다는 근거이며, 투자자 의견을 대표하는 조사도 회사 관련 사실의 별도 확인 출처도 아닙니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "발언은 AI 지출의 투자수익을 수치화하거나 생산성을 판단할 단일 기준을 제시하지 않았습니다. 대규모 투자 계획과 입증된 사업 가치 사이의 간극은 기업과 투자자에게 여전히 열린 과제입니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "주요 반도체 기업 경영진의 발언은 AI 인프라 투자가 확대되는 가운데 투자로 얻을 경제적 수익이 아직 명확하지 않다는 긴장을 보여줍니다.",
+      "editorNote": "MarketWatch 보도와 Reddit 토론을 연결했습니다. 토론은 대표성 있는 근거로 취급하지 않았으며 투자 조언은 제공하지 않습니다.",
+      "cluster": [
+        {
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1x3zx2v/broadcom_ceo_hock_tan_calls_ai_investors_casino/",
+          "source": "Reddit / r/wallstreetbets",
+          "title": "Broadcom CEO Hock Tan calls AI investors casino gamblers"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.marketwatch.com/story/was-broadcom-ceo-bullish-or-bearish-on-ai-gamblers-comment-creates-storm-33f11787",
+          "source": "MarketWatch",
+          "title": "Was Broadcom CEO bullish or bearish on AI? ‘Gamblers’ comment creates storm",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1x3zx2v/broadcom_ceo_hock_tan_calls_ai_investors_casino/",
+          "source": "Reddit / r/wallstreetbets",
+          "title": "Broadcom CEO Hock Tan calls AI investors casino gamblers",
+          "publishedAt": "2026-10-12"
+        }
+      ],
+      "tags": [
+        "AI",
+        "semiconductors",
+        "markets"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "imf-ai-equity-correction-financial-stability-risk-2026-10-13-ko",
+      "headline": "IMF, AI 주가 급락이 세계 금융 안정 위협할 수 있다고 경고",
+      "dek": "IMF는 AI 관련 시장 조정과 정부 차입비용 상승, 대형 사이버 공격이 금융 여건을 위축시킬 위험으로 꼽았습니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 5,
+      "tldr": [
+        "IMF는 높은 AI 밸류에이션, 업종 부채 증가, 집중된 익스포저, 순환 금융이 시장 조정의 충격을 키울 수 있다고 밝혔습니다.",
+        "2026년 10월 글로벌 금융안정보고서는 국채 조달비용과 대형 사이버 사고도 주요 위험으로 들었습니다.",
+        "보고서는 시스템 위험이 전파될 가능성을 다루며 AI 시장 급락을 예측한 것은 아닙니다."
+      ],
+      "body": [
+        {
+          "text": "국제통화기금(IMF)의 2026년 10월 글로벌 금융안정보고서는 AI 관련 자산의 시장 조정이 세계 시장으로 파급될 수 있다고 밝혔습니다. IMF는 높은 밸류에이션, 부채 증가, 익스포저 집중, 순환 금융 구조를 충격을 키울 수 있는 요인으로 들었습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "IMF에 따르면 미국 대형 기술기업 7곳은 S&P 500의 35% 넘게 차지했으며, 10년 전에는 12%였습니다. 이들 기업의 합산 시가총액은 2년 사이 50% 넘게 증가했습니다. IMF는 AI 도입에 현재 하이퍼스케일러가 계획하는 정도의 투자가 필요할지 불확실하다고도 지적했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "보고서는 AI 관련 시장 조정과 함께 정부 차입비용 상승, 대형 사이버 사고를 금융 여건을 위축시킬 수 있는 세 가지 단기 촉발 요인으로 꼽았습니다. The Guardian은 미국 이외 지역, 특히 아시아 시장의 익스포저에 대한 IMF의 경고를 전했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이는 금융 안정성 평가의 위험 시나리오이지, 시장 조정이 임박했거나 AI 투자가 실패한다는 증거는 아닙니다. 투자 수익이 기대에 미치지 못할지, 레버리지가 어떻게 변할지, 재평가가 시장 전반에 어떤 경로로 전파될지는 불확실합니다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "IMF 분석은 AI 업종의 밸류에이션과 자금 조달 구조가 더 넓은 시장으로 충격을 전파할 가능성을 연결하면서도, 금융 스트레스가 확산되려면 여러 조건이 함께 작용해야 한다고 봅니다.",
+      "editorNote": "IMF 보고서가 1차 출처이고 The Guardian은 독립 보도, Hacker News는 토론 링크입니다. 시나리오 분석은 시장 전망이나 투자 조언이 아닙니다.",
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
+          "source": "The Guardian",
+          "title": "Threat of AI share crash puts world financial stability at risk, says IMF"
+        },
+        {
+          "url": "https://news.ycombinator.com/item?id=50067356",
+          "source": "Hacker News",
+          "title": "Threat of AI share crash puts world financial stability at risk, says IMF"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://mediacenter.imf.org/news/imf---global-financial-stability-report-annual-meetings--2026/s/f55368c1-983b-45b7-ba7c-1978f67c168c",
+          "source": "International Monetary Fund",
+          "title": "IMF / Global Financial Stability Report Annual Meetings, 2026",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
+          "source": "The Guardian",
+          "title": "Threat of AI share crash puts world financial stability at risk, says IMF",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 3,
+          "url": "https://news.ycombinator.com/item?id=50067356",
+          "source": "Hacker News",
+          "title": "Threat of AI share crash puts world financial stability at risk, says IMF",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "tags": [
+        "AI",
+        "financial stability",
+        "IMF",
+        "markets"
       ],
       "confidence": "high"
     }

@@ -1,10 +1,10 @@
 {
   "date": "2026-10-13",
-  "generatedAt": "2026-10-13T07:06:24+09:00",
+  "generatedAt": "2026-10-13T19:05:00+09:00",
   "vertical": "markets",
   "lang": "en",
-  "title": "Fed inflation outlook and a quantum-security acquisition",
-  "summary": "Fed officials are weighing inflation risks and labor-market costs, while IonQ agreed to a pending acquisition in cybersecurity.",
+  "title": "AI market risk, chip sell-off and company earnings",
+  "summary": "This 8-story edition adds the chip sell-off, IMF financial-stability risks, Visa’s China clearance, UnitedHealth’s results and other multi-outlet coverage. Anthropic’s self-replication warning remains in the existing AI story; France’s budget-debt analysis appeared in only one collected outlet and was not added.",
   "stories": [
     {
       "slug": "fed-hammack-inflation-rates-demand-2026-10-13",
@@ -176,6 +176,469 @@
         "M&A",
         "cybersecurity",
         "quantum computing"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "global-chip-selloff-ai-trade-asia-october-2026-10-13",
+      "headline": "Global semiconductor stocks sell-off over AI boom worries pulls Asian shares lower",
+      "dek": "A broad semiconductor sell-off pushed Asian equities lower as investors reassessed AI-related valuations and competition from Chinese chipmakers.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "AP reported a sharp decline in Asian semiconductor shares, with South Korea’s Kospi falling more than 5% during the session.",
+        "Reuters and CNBC also described a regional chip sell-off, including declines in Samsung, SK Hynix, TSMC, and SoftBank.",
+        "Reports tied investor concern to Chinese memory-chip progress and a reassessment of the AI trade, while market moves remain volatile."
+      ],
+      "body": [
+        {
+          "text": "Associated Press reported that global semiconductor shares fell and pulled Asian markets lower on October 13, with South Korea’s Kospi down more than 5% at the time of its report. Reuters separately described a broader move toward government bonds as regional chipmakers sold off.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The reports cited falls in Samsung Electronics and SK Hynix, with Reuters also noting declines in TSMC, Kioxia, and SoftBank. CNBC and Seeking Alpha separately described the sell-off as spreading across chip-related shares.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Coverage connected the move to heightened competition from Chinese companies, including concerns about ChangXin Memory Technologies, and to investors becoming less tolerant of high expectations embedded in the AI trade. These are reported explanations for a market move, not proof of a single cause.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Prices and index levels can change through the session, and the reports capture different publication times. The persistence of the repricing and the effect on chip-company earnings expectations remain uncertain.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The move captures a shift in sentiment around the hardware supporting AI expansion, linking competitive pressure in memory chips with broader valuation concerns.",
+      "editorNote": "Market levels are snapshots from the cited publication windows. This is descriptive reporting and does not recommend trades.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
+          "source": "CNBC",
+          "title": "Micron, SoftBank and ASML slide as Wall Street chip rout spreads"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/asian-stocks-hit-2-month-low-on-ai-jitters-bonds-find-favour-ce785dddda81f325",
+          "source": "Reuters / MarketScreener",
+          "title": "Asian stocks hit 2-month low on AI jitters, bonds find favour"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/a2edaf9ec297fb75ff2a4e245063ec08",
+          "source": "Associated Press",
+          "title": "Global semiconductor stocks sell-off over AI boom worries pulls Asian shares lower",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://in.marketscreener.com/news/asian-stocks-hit-2-month-low-on-ai-jitters-bonds-find-favour-ce785dddda81f325",
+          "source": "Reuters / MarketScreener",
+          "title": "Asian stocks hit 2-month low on AI jitters, bonds find favour",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "tags": [
+        "semiconductors",
+        "AI trade",
+        "markets"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "visa-china-card-clearing-approval-2026-10-13",
+      "headline": "Visa wins approval to prepare a bank card clearing business in China",
+      "dek": "China approved Visa to prepare a bank-card clearing business, a step toward potential competition in the country’s payments market.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Visa said it received approval to prepare to establish a bank-card clearing business in China.",
+        "The Associated Press reported that authorities require Visa to complete preparatory work within one year.",
+        "The approval is a preparatory step; it does not mean the business is already operating or that final market access is assured."
+      ],
+      "body": [
+        {
+          "text": "Visa said it received Chinese approval to prepare a bank-card clearing business, according to the Associated Press and CNBC. The company described the move as a step forward after decades of seeking a larger role in the country.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "China’s official Xinhua news agency said Visa must complete preparatory work within one year, AP reported. The approval therefore marks a phase in the licensing process rather than an immediate opening of a fully operational service.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The development follows a period of heightened engagement between Washington and Beijing, but the reporting does not establish that the approval resulted from a specific diplomatic agreement. It also does not detail what additional requirements Visa must meet.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The next milestones are completion of preparatory work and any further regulatory authorization needed to launch. The size of Visa’s eventual business in China remains unknown.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The approval could matter for cross-border financial services and U.S.-China commercial ties, but it is an initial regulatory step with operational conditions still ahead.",
+      "editorNote": "Headlines and conditions are based on AP and CNBC reports. No market or investment advice is offered.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/13/visa-china-green-light-bank-card-business-.html",
+          "source": "CNBC",
+          "title": "Visa gets Beijing’s green light for bank card business after 40 years of working with China"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/535e88e9af58db60ab88eda0d06c769f",
+          "source": "Associated Press",
+          "title": "Visa wins approval to prepare a bank card clearing business in China",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/10/13/visa-china-green-light-bank-card-business-.html",
+          "source": "CNBC",
+          "title": "Visa gets Beijing’s green light for bank card business after 40 years of working with China",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "tags": [
+        "payments",
+        "China",
+        "regulation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "unitedhealth-q3-2026-earnings-outlook-2026-10-13",
+      "headline": "UnitedHealth Group tops estimates, hikes profit outlook as insurer manages high medical costs",
+      "dek": "UnitedHealth reported quarterly results above analyst estimates and raised its 2026 profit outlook while citing elevated medical costs.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "UnitedHealth reported quarterly results that exceeded analyst estimates and raised its full-year profit outlook.",
+        "CNBC and Seeking Alpha both reported the update, with medical costs remaining a management focus.",
+        "The reports do not settle how medical-cost trends will develop over the rest of the year."
+      ],
+      "body": [
+        {
+          "text": "UnitedHealth Group reported quarterly results above analyst expectations and raised its profit outlook for 2026, according to CNBC and Seeking Alpha. The results came as the insurer continued to manage higher medical costs.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The reported change reflects the company’s outlook at the time of its earnings release. The available collected coverage does not supply a full breakdown of how each business segment contributed to the revision.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Medical-cost pressure remains a central operating variable for the health insurer. The earnings reports describe current results and management guidance, not a guarantee that costs or margins will follow the same pattern in later quarters.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Investors and health-policy observers will look for more detail in the company’s filings and calls, including utilization trends and the drivers of the updated forecast. This report does not express a view on the company’s shares.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "UnitedHealth’s updated outlook provides a current read on the balance between insurer earnings and medical-cost inflation, a pressure point for the sector.",
+      "editorNote": "The headline follows CNBC wording; Seeking Alpha provides separate coverage of the same earnings release. No investment advice.",
+      "cluster": [
+        {
+          "url": "https://seekingalpha.com/news/4652356-unitedhealth-beats-top-line-and-bottom-line-estimates-updates-fy26-outlook",
+          "source": "Seeking Alpha",
+          "title": "UnitedHealth beats top-line and bottom-line estimates; updates FY26 outlook"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/13/unitedhealth-group-unh-earnings-q3-2026.html",
+          "source": "CNBC",
+          "title": "UnitedHealth Group tops estimates, hikes profit outlook as insurer manages high medical costs",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://seekingalpha.com/news/4652356-unitedhealth-beats-top-line-and-bottom-line-estimates-updates-fy26-outlook",
+          "source": "Seeking Alpha",
+          "title": "UnitedHealth beats top-line and bottom-line estimates; updates FY26 outlook",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "tags": [
+        "health insurers",
+        "earnings",
+        "UnitedHealth"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "us-stock-futures-bank-earnings-inflation-data-2026-10-13",
+      "headline": "S&P futures erase declines with bank earnings slate ahead",
+      "dek": "U.S. stock futures recovered earlier losses before major bank earnings and upcoming inflation data.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Investing.com reported that S&P futures erased earlier declines ahead of bank earnings and inflation data.",
+        "Seeking Alpha also described U.S. futures as mixed before the earnings slate.",
+        "The reports are session snapshots and do not establish the eventual direction of cash markets."
+      ],
+      "body": [
+        {
+          "text": "Investing.com reported that S&P futures erased earlier declines as investors looked ahead to bank earnings and inflation data. Seeking Alpha separately described stock futures as mixed before the large-bank reports.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The two reports frame the move as a pre-event market snapshot. Futures prices can move with new information and should not be treated as a settled signal for the regular trading session.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The upcoming bank results may provide information about lending, credit quality, and fee income, while inflation data can affect expectations for interest rates. The collected reports do not state what those releases will show.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The direction of the market after the data and earnings remained open at publication time. This story reports the calendar and futures move without inferring a trading signal.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The session illustrates how market positioning can shift ahead of concentrated earnings and macroeconomic releases, with the actual results still unknown.",
+      "editorNote": "This is a time-sensitive market snapshot. No forecast or investment advice is offered.",
+      "cluster": [
+        {
+          "url": "https://seekingalpha.com/news/4652329-stock-futures-mixed-as-investors-as-big-bank-earnings-loom",
+          "source": "Seeking Alpha",
+          "title": "Stock futures mixed as big bank earnings loom"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-steady-as-bank-earnings-inflation-data-loom-4945262",
+          "source": "Investing.com",
+          "title": "S&P futures erase declines with bank earnings slate ahead",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://seekingalpha.com/news/4652329-stock-futures-mixed-as-investors-as-big-bank-earnings-loom",
+          "source": "Seeking Alpha",
+          "title": "Stock futures mixed as big bank earnings loom",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "tags": [
+        "U.S. markets",
+        "earnings",
+        "economic data"
+      ],
+      "confidence": "low"
+    },
+    {
+      "slug": "broadcom-ceo-ai-investors-gamblers-comment-2026-10-13",
+      "headline": "Was Broadcom CEO bullish or bearish on AI? ‘Gamblers’ comment creates storm",
+      "dek": "Hock Tan questioned investors’ understanding of AI bets and whether companies are spending productively, prompting debate among traders.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Broadcom CEO Hock Tan criticized what he described as investors’ limited understanding of AI-related bets.",
+        "He also questioned whether businesses are spending productively on AI, according to coverage and the linked discussion.",
+        "The remarks express an executive’s view and do not establish a broad measure of AI investment returns."
+      ],
+      "body": [
+        {
+          "text": "MarketWatch reported that Broadcom CEO Hock Tan described some AI investors as gamblers and questioned whether businesses understand what they are backing. CNBC also reported a separate version of Tan’s comments about AI spending and the difficulty of judging returns.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The reporting presents Tan’s remarks as skepticism about the scale and rationale of AI investment, not as a forecast that AI demand will fall. The quoted concern included whether businesses are spending productively on AI tools and infrastructure.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "A WallStreetBets Reddit discussion linked to coverage of Tan’s comment and showed varied reactions from retail participants. The thread is evidence of discussion, not a representative survey of investor views or a second source for the underlying corporate facts.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The comments do not quantify returns on AI spending or specify a single standard for determining whether a project is productive. The gap between large investment plans and demonstrated business value remains an open issue for companies and their investors.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "A leading semiconductor executive’s comments capture a tension between strong AI infrastructure spending and unanswered questions about the economic returns those investments will generate.",
+      "editorNote": "MarketWatch coverage and a Reddit discussion are linked; the discussion is not treated as representative evidence. This item reports the comments without investment advice.",
+      "cluster": [
+        {
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1x3zx2v/broadcom_ceo_hock_tan_calls_ai_investors_casino/",
+          "source": "Reddit / r/wallstreetbets",
+          "title": "Broadcom CEO Hock Tan calls AI investors casino gamblers"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.marketwatch.com/story/was-broadcom-ceo-bullish-or-bearish-on-ai-gamblers-comment-creates-storm-33f11787",
+          "source": "MarketWatch",
+          "title": "Was Broadcom CEO bullish or bearish on AI? ‘Gamblers’ comment creates storm",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1x3zx2v/broadcom_ceo_hock_tan_calls_ai_investors_casino/",
+          "source": "Reddit / r/wallstreetbets",
+          "title": "Broadcom CEO Hock Tan calls AI investors casino gamblers",
+          "publishedAt": "2026-10-12"
+        }
+      ],
+      "tags": [
+        "AI",
+        "semiconductors",
+        "markets"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "imf-ai-equity-correction-financial-stability-risk-2026-10-13",
+      "headline": "Threat of AI share crash puts world financial stability at risk, says IMF",
+      "dek": "The IMF identified a potential AI-related market correction, government borrowing costs and cyberattacks as risks that could tighten financial conditions.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 5,
+      "tldr": [
+        "The IMF said elevated AI valuations, rising sector debt, concentrated exposures and circular financing could amplify a market correction.",
+        "Its October 2026 Global Financial Stability Report also identified sovereign borrowing costs and major cyber incidents as salient risks.",
+        "The report describes potential systemic channels, not a forecast that an AI market crash will occur."
+      ],
+      "body": [
+        {
+          "text": "The International Monetary Fund’s October 2026 Global Financial Stability Report said a correction in AI-related assets could spill into global markets. The IMF cited high valuations, increasing debt, concentrated exposures and circular financing arrangements among the factors that could amplify the effect.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The IMF said the seven largest U.S. technology companies represented more than 35% of the S&P 500, compared with 12% a decade earlier, and that their combined market capitalization had risen by more than 50% in two years. It also noted uncertainty over whether AI deployment will require the scale of investment now planned by hyperscalers.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The report identifies an AI-related market correction alongside rising government borrowing costs and a major cyber incident as three potential near-term catalysts for tighter financial conditions. The Guardian’s coverage describes the IMF’s warning about exposures beyond the United States, particularly in Asian markets.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "These are risk scenarios in a stability assessment, not evidence that a correction is imminent or that AI investment will fail. Whether investment returns disappoint, how leverage evolves, and how any repricing would transmit across markets remain uncertain.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "The IMF’s analysis links AI-sector valuations and financing structures to potential broader market spillovers, while identifying several conditions that would have to interact for stress to spread.",
+      "editorNote": "The IMF report is the primary source; The Guardian provides independent coverage and Hacker News links discussion. Scenario analysis is not a market forecast or investment advice.",
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
+          "source": "The Guardian",
+          "title": "Threat of AI share crash puts world financial stability at risk, says IMF"
+        },
+        {
+          "url": "https://news.ycombinator.com/item?id=50067356",
+          "source": "Hacker News",
+          "title": "Threat of AI share crash puts world financial stability at risk, says IMF"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://mediacenter.imf.org/news/imf---global-financial-stability-report-annual-meetings--2026/s/f55368c1-983b-45b7-ba7c-1978f67c168c",
+          "source": "International Monetary Fund",
+          "title": "IMF / Global Financial Stability Report Annual Meetings, 2026",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
+          "source": "The Guardian",
+          "title": "Threat of AI share crash puts world financial stability at risk, says IMF",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 3,
+          "url": "https://news.ycombinator.com/item?id=50067356",
+          "source": "Hacker News",
+          "title": "Threat of AI share crash puts world financial stability at risk, says IMF",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "tags": [
+        "AI",
+        "financial stability",
+        "IMF",
+        "markets"
       ],
       "confidence": "high"
     }

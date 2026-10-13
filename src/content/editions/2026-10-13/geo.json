@@ -1,10 +1,10 @@
 {
   "date": "2026-10-13",
-  "generatedAt": "2026-10-13T07:06:24+09:00",
+  "generatedAt": "2026-10-13T19:05:00+09:00",
   "vertical": "geo",
   "lang": "en",
-  "title": "Energy ceasefire claims, China trade limits and a federal search",
-  "summary": "Reports track an unconfirmed Russia-Ukraine energy ceasefire, an EU-China vehicle quota agreement and a search of a sitting US representative’s home.",
+  "title": "Black Sea attack, protest detentions and storm damage",
+  "summary": "This 7-story edition merges the existing ceasefire, China trade and congressional-search stories with four new two-outlet developments. Other notable leads, including the claim that Russia’s offensive capacity is broken and South Korea’s fuel-shipment investigation, appeared in only one collected outlet and were held back.",
   "stories": [
     {
       "slug": "russia-ukraine-energy-ceasefire-attacks-2026-10-13",
@@ -262,6 +262,302 @@
         "geopolitics",
         "United States",
         "rule of law"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "india-cockroach-protest-leaders-detained-2026-10-13",
+      "headline": "Police detain leaders of India’s ‘cockroach’ movement at New Delhi protest",
+      "dek": "Indian police detained protest leaders after they entered a barricaded site during demonstrations over alleged voter fraud.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Police detained leaders of the “cockroach” protest movement after they entered a barricaded protest site in New Delhi.",
+        "The demonstrations center on allegations of voter fraud, which remain contested claims rather than established findings in these reports.",
+        "BBC and Al Jazeera report the detentions; the scope of any formal charges was not established in the collected coverage."
+      ],
+      "body": [
+        {
+          "text": "Al Jazeera reported that police detained leaders of India’s “cockroach” movement at a New Delhi protest, while BBC coverage said demonstrators entered a barricaded protest site before the detentions. The protest movement has used the label in demonstrations linked to allegations of voter fraud.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The reports describe arrests and the immediate protest context; they do not independently establish the underlying voter-fraud allegations. India’s Prime Minister Narendra Modi defended the country’s democratic record in separate remarks reported by the outlets.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The two reports agree that several movement figures were detained but provide different emphasis on how the protest unfolded. The number of people detained and the legal status of each person require continued confirmation.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The episode places protest policing and claims about electoral legitimacy in the same political dispute. Further developments depend on whether authorities file charges and whether the allegations receive evidence-based review.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The detentions show how allegations about electoral integrity can become a public-order issue, but the allegations themselves remain unverified in the cited reporting.",
+      "editorNote": "Claims of voter fraud are attributed and not presented as facts. Coverage is limited to BBC and Al Jazeera reports.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/13/police-detain-leaders-of-indias-cockroach-movement-at-new-delhi-protest?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Police detain leaders of India’s ‘cockroach’ movement at New Delhi protest"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cqz0v11n2vj5o",
+          "source": "BBC",
+          "title": "India ‘cockroach’ leaders detained after entering barricaded protest site",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/news/2026/10/13/police-detain-leaders-of-indias-cockroach-movement-at-new-delhi-protest?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Police detain leaders of India’s ‘cockroach’ movement at New Delhi protest",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "tags": [
+        "India",
+        "protests",
+        "politics"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "drone-attack-sinks-ship-off-bulgaria-black-sea-2026-10-13",
+      "headline": "Ship sinks in new drone attack off Bulgaria, PM summons Russian ambassador",
+      "dek": "A drone attack sank a vessel off Bulgaria’s Black Sea coast, prompting the prime minister to summon Russia’s ambassador.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Bulgaria said a ship sank after a drone attack off its Black Sea coast.",
+        "The prime minister summoned Russia’s ambassador, according to BBC reporting; Al Jazeera also reported the sinking and attributed details to Bulgarian officials.",
+        "The collected reports do not establish who launched the drone or whether the vessel was the intended target."
+      ],
+      "body": [
+        {
+          "text": "BBC reported that a vessel sank in a drone attack off Bulgaria and that the country’s prime minister summoned the Russian ambassador. Al Jazeera separately reported a drone attack sinking a ship off Bulgaria’s Black Sea coast and attributed the account to the prime minister.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The incident adds a maritime event to a region where the war in Ukraine has repeatedly raised risks to shipping and port infrastructure. The reporting available in the collection does not identify the vessel’s cargo or confirm the drone’s origin.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The diplomatic summons is a Bulgarian government response, not proof of responsibility. Attribution, the attack’s intended target, and any connection to the Russia-Ukraine conflict remain unresolved in the cited coverage.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Additional official statements and maritime investigation findings will determine whether the event is treated as a direct security incident or an unresolved cross-border attack. Both outlets report the sinking, while responsibility remains open.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "An attack near a NATO member’s Black Sea coast raises maritime-security concerns, but attribution is not yet confirmed.",
+      "editorNote": "Headline follows BBC source wording. Attribution and responsibility are deliberately left unresolved pending official evidence.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/13/drone-attack-sinks-ship-off-bulgarias-black-sea-coast-pm-says?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Drone attack sinks ship off Bulgaria’s Black Sea coast, PM says"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o",
+          "source": "BBC",
+          "title": "Ship sinks in new drone attack off Bulgaria, PM summons Russian ambassador",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/news/2026/10/13/drone-attack-sinks-ship-off-bulgarias-black-sea-coast-pm-says?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Drone attack sinks ship off Bulgaria’s Black Sea coast, PM says",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "tags": [
+        "Black Sea",
+        "security",
+        "Ukraine war"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "hurricane-simon-rachel-kill-five-mexico-pacific-coast-2026-10-13",
+      "headline": "Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast",
+      "dek": "The Guardian reported five deaths from the impact of Hurricane Simon and Tropical Storm Rachel along Mexico’s Pacific coast.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "The Guardian reported five deaths linked to Hurricane Simon and Tropical Storm Rachel in Mexico.",
+        "Deutsche Welle separately reported that Hurricane Simon battered the country’s Pacific coast.",
+        "The collected reports do not fully establish the storms’ separate contributions to the reported deaths."
+      ],
+      "body": [
+        {
+          "text": "The Guardian reported that Hurricane Simon and Tropical Storm Rachel killed five people on Mexico’s Pacific coast. Deutsche Welle separately reported that Hurricane Simon battered the same coast, providing independent coverage of the storm’s impact.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The two weather systems were reported during the same period, but the available headlines do not separate how much damage or loss of life was attributable to each. The Guardian account is the source for the five-death figure.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The reports establish severe weather impacts and fatalities, but do not provide a complete consolidated assessment of affected communities, infrastructure, or displaced residents. Those details may change as authorities update their response.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The immediate open questions are the storms’ final tracks, the scale of damage, and whether additional casualties or evacuations are reported. This edition preserves the attribution and does not infer a combined storm effect beyond the coverage.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Two concurrent storm systems complicate the assessment of impacts along the Pacific coast; confirmed casualty totals and attribution may change as response agencies report.",
+      "editorNote": "Fatality count is attributed to The Guardian. DW coverage supports the storm impact, not the count.",
+      "cluster": [
+        {
+          "url": "https://www.dw.com/en/hurricane-simon-batters-mexico-s-pacific-coast/a-79636873",
+          "source": "Deutsche Welle",
+          "title": "Hurricane Simon batters Mexico’s Pacific Coast"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.theguardian.com/world/2026/oct/13/mexico-hurricane-simon-tropical-storm-rachel-kill-five-pacific-coast",
+          "source": "The Guardian",
+          "title": "Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://www.dw.com/en/hurricane-simon-batters-mexico-s-pacific-coast/a-79636873",
+          "source": "Deutsche Welle",
+          "title": "Hurricane Simon batters Mexico’s Pacific Coast",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "tags": [
+        "Mexico",
+        "weather",
+        "disaster"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "french-supermarket-fridges-cyberattack-fires-2026-10-13",
+      "headline": "Fridges in French supermarkets hit by cyber attack",
+      "dek": "A cyberattack on supermarket refrigeration systems in France reportedly raised fridge temperatures and sparked fires.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "BBC and CNBC reported cyberattacks affecting refrigeration systems at French supermarkets.",
+        "CNBC reported temperatures reaching 122°F and fires; the reports attribute those details to the incident coverage.",
+        "The collected accounts do not identify the attackers, the affected chain, or a confirmed motive."
+      ],
+      "body": [
+        {
+          "text": "BBC reported that fridges in French supermarkets were hit by a cyberattack. CNBC separately reported that compromised systems heated some units to 122°F and sparked fires.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The event links digital access to physical infrastructure: refrigeration controls can affect food safety and fire risk when disrupted. Neither outlet’s collected headline identifies the responsible actor or describes a confirmed intrusion path.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The reports establish an incident and physical consequences but leave the scope uncertain. The available collection does not quantify the number of stores, losses, or whether food supplies were affected.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Attribution, the security weakness involved, and any corrective steps by operators or authorities remain open. The incident underscores the need to distinguish confirmed service impact from speculation about who carried out an attack.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The incident shows how attacks on connected operational systems can create physical consequences beyond data loss, while the responsible actor and entry method remain unknown.",
+      "editorNote": "No attacker attribution is made. Temperature and fire details are reported by CNBC and should not be generalized beyond the reported affected units.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/13/france-supermarket-hack-cyberattack-fridges-fires.html",
+          "source": "CNBC",
+          "title": "French supermarket fridges get hacked, heating to 122°F and sparking fires"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/crq5nzxv9q4yo",
+          "source": "BBC",
+          "title": "Fridges in French supermarkets hit by cyber attack",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/10/13/france-supermarket-hack-cyberattack-fridges-fires.html",
+          "source": "CNBC",
+          "title": "French supermarket fridges get hacked, heating to 122°F and sparking fires",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "tags": [
+        "cybersecurity",
+        "France",
+        "critical infrastructure"
       ],
       "confidence": "medium"
     }

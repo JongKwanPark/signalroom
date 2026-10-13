@@ -1,10 +1,10 @@
 {
   "date": "2026-10-13",
-  "generatedAt": "2026-10-13T07:06:24+09:00",
+  "generatedAt": "2026-10-13T19:05:00+09:00",
   "vertical": "ai",
   "lang": "ko",
-  "title": "AI 연구·모델 출시·안전 논쟁",
-  "summary": "코딩 에이전트 생산성 연구, Meta의 새 모델, AI 자기 복제 위험, 안전 규제 요구를 살펴본다.",
+  "title": "AI 역량·거버넌스·안전 신호",
+  "summary": "9편을 담았다. 이번 병합에서는 QGIS의 AI 기여 정책, 숨겨진 능력 관련 사전 논문, Karpathy의 역량 격차 게시물, 푸리에 변환 분석을 추가했다. 기존 판에서 다룬 Anthropic 자기복제 경고는 중복 게재하지 않았고, IMF의 금융 안정 경고는 markets에 배치했다. 그 밖의 높은 관심 항목은 별도 매체의 확인 보도가 없었다.",
   "stories": [
     {
       "slug": "coding-agents-output-review-bottleneck-2026-10-13-ko",
@@ -408,6 +408,302 @@
         "AI",
         "research",
         "education"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "qgis-adopts-no-ai-code-contributions-policy-2026-10-13-ko",
+      "headline": "QGIS, AI 기여 금지 정책 QEP428 병합",
+      "dek": "QGIS가 AI 보조 코드 기여를 금지하는 제안을 병합했으며, 검토 역량에 가해지는 부담을 이유로 들었다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "QGIS는 10월 7일 QEP 428을 병합해 프로젝트 저장소에 대한 AI 보조 기여를 금지하는 정책으로 전환했습니다.",
+        "제안자와 지지자들은 검토 업무가 늘고 제출 코드가 유지관리자의 검토 역량을 넘어설 수 있다고 설명했습니다.",
+        "정책은 향후 별도 논의를 통해 다시 검토할 수 있는 초기 제한 조치로 제시됐습니다."
+      ],
+      "body": [
+        {
+          "text": "QGIS는 10월 7일 “Add QEP428: No ai contributions permitted”라는 제목의 제안 387번을 개선안 저장소에 병합했습니다. 이 병합은 기존의 사람 검토 포함 정책에서 AI 기여 금지 정책으로 공식 전환한 것입니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "논의에서 QGIS 기여자들은 AI 보조 제출물 증가가 이미 제한된 검토 인력에 부담을 준다고 말했습니다. 한 유지관리자는 생성된 제출물이 늘면 검토되지 않은 작업이 쌓이거나 충분히 살피지 않은 코드가 병합될 수 있다고 설명했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "논의에는 적용 범위를 둘러싼 이견도 기록돼 있습니다. 기여자들은 자동완성, 번역, 조사, AI 보조 검토가 금지 대상인지 질문했고, 제안자는 이 조치가 우선 적용하는 임시 규칙이며 이후 별도 논의로 범위를 조정할 수 있다고 밝혔습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "확인된 사실은 정책 제안이 병합됐다는 점이며, 개발 과정에서 AI를 사용하는 모든 경우의 운영상 해석이 확정된 것은 아닙니다. 예외 사례를 어떻게 해석하고 집행할지는 아직 열려 있습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "QGIS는 AI 보조 코드의 수용 여부를 유지관리자의 검토 역량과 직접 연결해, 오픈소스 프로젝트가 직면한 AI 거버넌스 문제를 프로젝트 정책으로 구체화했습니다.",
+      "editorNote": "헤드라인은 병합된 GitHub PR 제목을 따릅니다. Hacker News는 해당 제안에 관한 토론 페이지이며 별도 취재 보도는 아닙니다. 적용 범위는 공개 논의에 근거해 서술했습니다.",
+      "cluster": [
+        {
+          "url": "https://news.ycombinator.com/item?id=50054751",
+          "source": "Hacker News",
+          "title": "QGIS enacts moratorium on AI contributions"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+          "source": "QGIS Enhancement Proposals",
+          "title": "Add QEP428: No ai contributions permitted",
+          "publishedAt": "2026-10-07"
+        },
+        {
+          "id": 2,
+          "url": "https://news.ycombinator.com/item?id=50054751",
+          "source": "Hacker News",
+          "title": "QGIS enacts moratorium on AI contributions",
+          "publishedAt": "2026-10-12"
+        }
+      ],
+      "tags": [
+        "AI",
+        "open source",
+        "governance"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "ai-models-provably-hide-arbitrary-capabilities-2026-10-13-ko",
+      "headline": "AI 모델이 임의의 능력을 숨길 수 있음을 증명한 연구",
+      "dek": "연구 사전 공개 논문은 흔히 쓰이는 능력 유도 검사에서 모델 능력을 숨길 수 있는 암호학적 “디지털 보관함”을 제시했습니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "저자들은 암호화된 신경망을 다른 모델의 가중치 안에 넣는 개념 증명을 설명했습니다.",
+        "숨겨진 능력은 비밀 트리거를 받은 뒤에만 작동하며, 여러 능력 유도 검사에 저항하도록 설계됐습니다.",
+        "논문은 소규모 화학 반응 예측 과제에서 실험하고 능력 유도만으로 진행하는 감사를 평가의 한계로 지적했습니다."
+      ],
+      "body": [
+        {
+          "text": "10월 9일 arXiv에 공개된 사전 논문은 모델의 숨은 행동을 평가로 찾아낼 수 있는지를 다룹니다. 저자들은 능력을 유도하는 데 의존하는 평가만으로는 아직 유도되지 않은 능력이 없다고 증명할 수 없다고 주장합니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이들의 구성은 암호화된 신경망을 호스트 모델의 가중치 안에 넣고 비밀 트리거로 이를 복호화해 실행합니다. 논문은 이 구조를 “디지털 보관함”이라 부르며, 가중치에 접근할 수 있어도 암호학적 가정 아래에서는 이를 찾아내거나 해석하기 어렵다고 설명합니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "연구진은 PyTorch로 개념 증명을 구현했다고 보고했습니다. 실험에서는 미세조정, 가중치 노이즈 추가, 기울기 기반 트리거 탐색, 잠재 적대 학습을 소규모 화학 반응 예측 과제에 적용했습니다. 논문은 이를 위험 능력의 실제 배포 사례가 아니라 대리 과제로 설명합니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이는 의도적으로 숨기도록 설계된 능력이 들어 있을 수 있다면, 능력을 유도하지 못했다는 사실만으로 부재를 입증할 수 없다는 구성 공격과 이론적 경고입니다. 저자들은 방어 연구를 위해 모델을 공개한다고 밝혔으며, 감사 방식을 어떻게 바꿔야 할지는 후속 연구 과제입니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이 논문은 배포 전 안전 평가의 전제 하나에 도전합니다. 행동을 유도하지 못했다는 결과만으로, 의도적으로 숨겨진 능력이 없다고 단정할 수 없다는 것입니다.",
+      "editorNote": "사전 공개 논문과 개념 증명을 다룹니다. Hacker News는 동일 논문을 소개하는 토론 목록으로, 별도의 실험 재현은 아닙니다.",
+      "cluster": [
+        {
+          "url": "https://news.ycombinator.com/item?id=50065692",
+          "source": "Hacker News",
+          "title": "AI models can provably hide arbitrary capabilities"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://arxiv.org/abs/2610.13928",
+          "source": "arXiv",
+          "title": "AI Models Can Provably Hide Arbitrary Capabilities",
+          "publishedAt": "2026-10-09"
+        },
+        {
+          "id": 2,
+          "url": "https://news.ycombinator.com/item?id=50065692",
+          "source": "Hacker News",
+          "title": "AI models can provably hide arbitrary capabilities",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "tags": [
+        "AI safety",
+        "security",
+        "research"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "openai-fast-fourier-transform-claim-analysis-2026-10-13-ko",
+      "headline": "고속 푸리에 변환",
+      "dek": "기술 해설은 푸리에 변환을 더 빠르게 계산한다는 OpenAI의 주장에 담긴 수학적 근거와 한계를 검토합니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "해설은 푸리에 변환을 더 빠르게 계산할 수 있다는 OpenAI의 수학적 주장을 살펴봅니다.",
+        "저자는 이를 모든 계산 작업의 광범위한 개선이 아니라 특정 알고리즘에 관한 주장으로 다룹니다.",
+        "수집된 자료는 기술 분석과 토론이며, 독립적인 벤치마크 재현은 확인되지 않았습니다."
+      ],
+      "body": [
+        {
+          "text": "Ben Recht의 기술 블로그 “Faster Fourier Transforms”는 푸리에 변환을 더 빠르게 계산할 수 있다는 OpenAI의 방법을 검토합니다. 글은 일반적인 성능 보고서를 내기보다 주장의 수학적 구조를 설명합니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "논의는 알고리즘이 무엇을 바꾸며 속도 향상에 어떤 가정이 필요한지에 초점을 둡니다. 이 주장은 특정 변환 계산에 관한 것으로, 모든 수치 계산 작업이 AI로 빨라진다는 뜻은 아닙니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이 글은 기술적 주장에 대한 분석이며, 여러 구현·하드웨어·문제 크기에서 방법이 독립적으로 재현됐음을 입증하지 않습니다. Hacker News 이용자들이 글을 토론했지만, 토론의 반응 수가 성능을 검증하지는 않습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "실제 구현 제약에서 이 방법이 기존 방식과 어떻게 비교되는지, 점근적 또는 상수 계수 이득이 어디에 적용되는지는 아직 열려 있습니다. 이러한 질문에는 현재 해설을 넘어서는 벤치마크와 독립적인 기술 검토가 필요합니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이 이야기는 수학적으로 흥미로운 알고리즘 결과와 실제 작업 전반에서 입증된 성능 향상을 구분하는 데 의미가 있습니다.",
+      "editorNote": "헤드라인은 수집된 Hacker News 항목의 표기를 따릅니다. 인용된 출처는 기술 블로그와 연결된 토론입니다. 독립 재현은 확인되지 않았습니다.",
+      "cluster": [
+        {
+          "url": "https://news.ycombinator.com/item?id=50065932",
+          "source": "Hacker News",
+          "title": "A look at the math that OpenAI claims computes faster Fourier transforms"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.argmin.net/p/faster-fourier-transforms",
+          "source": "arg min",
+          "title": "Faster Fourier Transforms",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://news.ycombinator.com/item?id=50065932",
+          "source": "Hacker News",
+          "title": "A look at the math that OpenAI claims computes faster Fourier transforms",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "tags": [
+        "AI",
+        "algorithms",
+        "OpenAI"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "karpathy-llm-capability-understanding-gap-2026-10-13-ko",
+      "headline": "LLM 역량에 대한 인식 격차가 커지고 있다는 Andrej Karpathy의 진단",
+      "dek": "Andrej Karpathy는 일반 이용자와 최첨단 시스템을 쓰는 기술 전문가가 경험하는 LLM 역량의 격차가 커지고 있다고 설명했습니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Karpathy는 접근성과 사용 방식의 차이로 LLM 역량에 대한 사람들의 인식이 “가파른 깔때기”처럼 갈라진다고 말했습니다.",
+        "그는 전문 이용자를 약 2,000만 명, 내부 최첨단 시스템 접근자를 약 5,000명으로 추산했습니다.",
+        "이 수치는 비공식 추정이며 인구 조사나 독립적인 역량 평가 결과가 아닙니다."
+      ],
+      "body": [
+        {
+          "text": "AI 연구자 Andrej Karpathy는 10월 11일 X 게시물에서 대규모 언어 모델(LLM) 역량에 대한 공통된 이해의 격차가 커지고 있다고 썼습니다. 그는 이를 단순히 두 집단이 서로 다른 말을 하는 상황을 넘어선 “가파른 깔때기”라고 표현했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Karpathy의 게시물은 LLM을 거의 접하지 못한 약 60억 명, 가끔 이용하는 10억~20억 명, 수학과 소프트웨어 업무에 최첨단 시스템을 쓰는 약 2,000만 명, 가장 뛰어난 내부 시스템에 접근하는 약 5,000명으로 대략 나눕니다. 그는 이 수치를 “대략적인 계산”이라고 밝혔습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "그는 각 집단이 접하는 시스템의 종류와 역량 수준이 다르다고 말하며, 기본 챗봇부터 장기 프로젝트를 수행하는 에이전트까지 예를 들었습니다. 대규모 소프트웨어 작업, 사이버 보안, 과학 연구에 내부 시스템이 쓰인다는 설명은 그의 견해이며, 게시물에는 독립 측정 결과나 특정 모델 출시 정보가 없습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Hacker News 토론은 해당 게시물이 상당한 관심을 받았음을 보여주지만, 반응이 추정치를 검증하지는 않습니다. 각 집단의 실제 인원과 접근성 차이가 인식 격차를 만든다는 주장은 인용된 자료에서 측정되지 않았습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이 게시물은 AI 접근성의 차이가 역량을 둘러싼 대중·전문가 논의를 갈라놓을 수 있다고 제시하지만, 인구 추정과 최첨단 능력에 관한 주장은 검증되지 않았습니다.",
+      "editorNote": "높은 관심을 받은 의견 게시물이며 연구나 제품 발표는 아닙니다. Karpathy의 수치와 최첨단 시스템 사례는 그의 추정과 설명으로 한정했습니다.",
+      "cluster": [
+        {
+          "url": "https://news.ycombinator.com/item?id=50047422",
+          "source": "Hacker News",
+          "title": "The gap in shared understanding of LLM capability is widening"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://twitter.com/karpathy/status/2109361546505966046",
+          "source": "Andrej Karpathy / X",
+          "title": "The gap in shared understanding of LLM capability is widening",
+          "publishedAt": "2026-10-11"
+        },
+        {
+          "id": 2,
+          "url": "https://news.ycombinator.com/item?id=50047422",
+          "source": "Hacker News",
+          "title": "The gap in shared understanding of LLM capability is widening",
+          "publishedAt": "2026-10-12"
+        }
+      ],
+      "tags": [
+        "AI capabilities",
+        "AI access",
+        "Andrej Karpathy"
       ],
       "confidence": "medium"
     }
