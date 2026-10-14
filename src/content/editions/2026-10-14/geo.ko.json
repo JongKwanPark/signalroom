@@ -1,10 +1,10 @@
 {
   "date": "2026-10-14",
-  "generatedAt": "2026-10-13T22:15:00.301Z",
+  "generatedAt": "2026-10-14T10:04:05.000Z",
   "vertical": "geo",
   "lang": "ko",
   "title": "시그널 데일리 지정학 — 2026-10-14",
-  "summary": "독립 보도가 확인된 여섯 가지 동향을 담았다. 교황 레오의 건강 소식은 버티컬 범위 밖이라 제외했고 OpenAI 녹음 장치 사건은 AI에 실어 중복하지 않았다.",
+  "summary": "독립 보도가 확인된 열 가지 동향을 담았다. 우크라이나 에너지 시설 공습, Starlink 서비스 제한, Nord Stream 재판, Halk TV 압수수색을 추가했으며 OpenAI 녹음 장치 사건은 AI에 두었다.",
   "stories": [
     {
       "type": "DEEP",
@@ -491,6 +491,325 @@
       ],
       "whyItMatters": "타이즈 포위는 군사 충돌이 민간 보급과 이동에 미치는 영향을 보여준다. 현지 상황은 빠르게 달라질 수 있고 지원 접근성은 불투명하다.",
       "editorNote": "인도적 상황은 교전 중 전해진 현지 보고에 기반하며 접근성과 지속 기간은 불확실하다."
+    },
+    {
+      "slug": "russian-strikes-cut-ukraine-power-to-600000-ko",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "cluster": [
+        {
+          "url": "https://abcnews.com/International/600000-power-ukraine-russia-launches-missile-drone-attack/story?id=137248732",
+          "source": "ABC News",
+          "title": "600,000 without power in Ukraine as Russia launches missile and drone attack, Zelenskyy says"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Russian strikes leave 600,000 without power in Ukraine"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.investing.com/news/commodities-news/russian-strikes-kill-three-damage-dozens-of-power-facilities-4948302",
+          "source": "Reuters",
+          "title": "Russian strikes kill three, damage dozens of power facilities",
+          "publishedAt": "2026-10-14"
+        },
+        {
+          "id": 2,
+          "url": "https://abcnews.com/International/600000-power-ukraine-russia-launches-missile-drone-attack/story?id=137248732",
+          "source": "ABC News",
+          "title": "600,000 without power in Ukraine as Russia launches missile and drone attack, Zelenskyy says",
+          "publishedAt": "2026-10-14"
+        }
+      ],
+      "tags": [
+        "Ukraine",
+        "Russia",
+        "energy security",
+        "war"
+      ],
+      "confidence": "medium",
+      "headline": "러시아 공습으로 3명 사망, 에너지 시설 수십 곳 피해",
+      "dek": "우크라이나 당국은 야간 공격으로 에너지 기반시설이 타격을 입고 최소 600,000명이 정전됐다고 밝혔다.",
+      "tldr": [
+        "Reuters는 우크라이나 당국을 인용해 러시아 공습으로 3명이 숨지고 에너지 시설 30곳이 피해를 입었다고 보도했다.",
+        "Volodymyr Zelenskyy 대통령은 최소 600,000명이 정전됐다고 밝혔으며 ABC News도 정전 규모와 에너지 시설 피해를 전했다.",
+        "정전의 최종 규모와 복구 일정은 우크라이나 당국의 후속 발표에 따라 달라질 수 있다."
+      ],
+      "body": [
+        {
+          "text": "Reuters는 Volodymyr Zelenskyy 우크라이나 대통령을 인용해 러시아의 미사일·드론 공격이 야간에 Kyiv와 Kharkiv를 겨냥해 3명이 숨지고 에너지 시설 30곳이 피해를 입었다고 보도했다. ABC News도 최소 600,000명이 정전됐다는 대통령의 발표를 별도로 전했다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "보도된 피해에는 에너지 기반시설이 포함되며 우크라이나 당국은 정전 지역이 더 넓어질 수 있다고 경고했다. 현재 진행 중인 무력 충돌 상황에서 피해 규모와 공격 주체에 관한 이 수치는 우크라이나 당국이 밝힌 내용이다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Zelenskyy는 이번 공격이 제안된 에너지 휴전 대상 기반시설을 의도적으로 겨냥했다고 규정했다. 보도에 따르면 양측은 에너지 시설 공격을 서로 중단하기로 합의했다는 세부 내용을 공식 확인하지 않았다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "현재 보도로는 전력 공급이 언제 복구될지, 피해 전체 규모가 어느 정도인지 확정할 수 없다. 복구 작업과 당국의 현장 평가가 진행되면서 확인될 사안이다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 공격은 겨울을 앞두고 전선의 긴장과 민간 에너지 공급 문제를 연결한다. 전력 공급과 에너지 휴전의 실효성에 미칠 영향은 피해 평가와 이후 군사 행동에 달려 있다.",
+      "editorNote": "사망자, 시설 피해, 정전 규모는 인용한 보도에서 우크라이나 당국 발표로 제시됐다. 복구 일정은 확인되지 않았다.",
+      "publication": "scheduled"
+    },
+    {
+      "slug": "spacex-starlink-limits-disrupt-ukrainian-operations-ko",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/14/russia-ukraine-energy-ceasefire-power-outages.html",
+          "source": "CNBC",
+          "title": "Ukraine warns Starlink limits are disrupting military operations as Russia pounds its energy infrastructure"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Russian strikes leave 600,000 without power in Ukraine, as Starlink restrictions affect front line"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.investing.com/news/stock-market-news/ukraine-says-spacex-limits-starlink-operations-disrupting-military-4948343",
+          "source": "Reuters",
+          "title": "Ukraine says SpaceX limits Starlink operations, disrupting military",
+          "publishedAt": "2026-10-14"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/10/14/russia-ukraine-energy-ceasefire-power-outages.html",
+          "source": "CNBC",
+          "title": "Ukraine warns Starlink limits are disrupting military operations as Russia pounds its energy infrastructure",
+          "publishedAt": "2026-10-14"
+        }
+      ],
+      "tags": [
+        "Ukraine",
+        "Starlink",
+        "SpaceX",
+        "military communications"
+      ],
+      "confidence": "medium",
+      "headline": "우크라이나 “SpaceX의 Starlink 운용 제한으로 군사 작전에 차질”",
+      "dek": "우크라이나 당국은 새 제한 조치가 전투 드론 임무에 영향을 줬다고 밝혔다. 구체적인 범위와 운영상 영향은 불분명하다.",
+      "tldr": [
+        "Reuters는 우크라이나 당국을 인용해 SpaceX가 우크라이나의 일부 Starlink 서비스를 제한해 전투 드론 임무에 차질이 생겼다고 보도했다.",
+        "대통령실 고문은 여러 임무가 중단되기 전에 군이 사전 통보를 받지 못했다고 말했다.",
+        "보도에는 영향을 받은 단말 수와 제한 기간, 제한이 바뀔지 여부가 구체적으로 제시되지 않았다."
+      ],
+      "body": [
+        {
+          "text": "Reuters는 SpaceX가 우크라이나의 일부 Starlink 서비스에 제한을 도입했으며 우크라이나 당국은 이 조치가 전투 드론 임무에 차질을 줬다고 밝혔다고 보도했다. Reuters는 해당 단말이 통신과 일부 장거리 드론 작전에 중요한 역할을 한다고 설명했다. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Serhiy Beskrestnov 대통령실 고문은 우크라이나 방위군이 사전 통보를 받지 못했고 여러 임무가 중단됐다고 말했다. CNBC도 서비스 제한이 군사 작전에 영향을 줬다는 우크라이나 측의 주장을 보도했지만, 현재 보도는 정확한 범위를 밝히지 않는다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Reuters에 따르면 러시아의 2022년 침공 이후 우크라이나 부대는 전장 통신에 Starlink를 사용해 왔다. 보도는 이번에 보고된 차질과 시스템의 전반적인 역할을 구분하며 군 통신 전체가 중단됐다고 전하지는 않는다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "두 보도 모두 영향을 받은 단말이나 임무의 수, 제한이 지속될 기간, 제한을 촉발한 기술적·정책적 변경을 확인하지 못했다. SpaceX의 전체 설명과 이후 작전상 영향은 아직 미정이다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 사안은 우크라이나가 전장 통신과 일부 드론 작전에 민간 운영 위성망을 의존하고 있음을 보여준다. 차질의 범위와 접근 제한이 장기적으로 바뀔지는 확인되지 않았다.",
+      "editorNote": "작전상 영향은 우크라이나 당국의 설명으로 인용됐다. 영향을 받은 임무의 규모와 SpaceX의 전체 설명은 보도에서 확인되지 않았다.",
+      "publication": "scheduled"
+    },
+    {
+      "slug": "ukrainian-officer-trial-over-nord-stream-blasts-ko",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "cluster": [
+        {
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/14/ukrainian-ex-officer-stands-trial-in-germany-over-nord-stream-bombing",
+          "source": "Reuters",
+          "title": "Ukrainian ex-officer stands trial in Germany over Nord Stream bombing"
+        },
+        {
+          "url": "https://www.theguardian.com/world/2026/oct/14/germany-puts-ukrainian-on-trial-accused-of-blowing-up-nord-stream-pipelines",
+          "source": "The Guardian",
+          "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/fdbddfa8c362df5a9f81e617e546b287",
+          "source": "Associated Press",
+          "title": "Former Ukrainian officer goes on trial over Nord Stream gas pipeline blasts",
+          "publishedAt": "2026-10-14"
+        },
+        {
+          "id": 2,
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/14/ukrainian-ex-officer-stands-trial-in-germany-over-nord-stream-bombing",
+          "source": "Reuters",
+          "title": "Ukrainian ex-officer stands trial in Germany over Nord Stream bombing",
+          "publishedAt": "2026-10-14"
+        }
+      ],
+      "tags": [
+        "Germany",
+        "Ukraine",
+        "Nord Stream",
+        "energy security"
+      ],
+      "confidence": "high",
+      "headline": "Nord Stream 가스관 폭발 사건으로 전 우크라이나 장교 재판 시작",
+      "dek": "독일 검찰은 전 우크라이나 장교가 2022년 가스관 파괴 작전을 조직하는 데 관여했다고 기소했으며, 유죄 여부는 아직 재판에서 판단되지 않았다.",
+      "tldr": [
+        "2022년 Nord Stream 가스관을 훼손한 폭발 사건과 관련해 전 우크라이나 군 장교의 함부르크 재판이 시작됐다.",
+        "독일 검찰은 피고인이 작전을 조직하는 데 관여했다고 주장하지만, 법정에서 입증될 혐의다.",
+        "사보타주 책임 주체와 사건의 더 넓은 정치적 파장에 관한 의문은 아직 남아 있다."
+      ],
+      "body": [
+        {
+          "text": "Associated Press는 2022년 폭발로 Nord Stream 가스관이 훼손된 사건과 관련해 전 우크라이나 육군 장교의 재판이 수요일 Hamburg에서 시작됐다고 보도했다. Reuters도 독일 재판의 시작을 전했다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Reuters에 따르면 검찰은 피고인이 폭발을 일으킨 작전을 조직하는 데 관여했다고 주장한다. 이는 법원이 심리할 혐의이며, 재판에서 유죄가 확정된 것은 아니다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "해당 가스관은 러시아와 독일을 연결했고 2022년 9월 폭발로 손상됐다. 이번 사건은 사보타주를 계획하고 실행한 주체를 밝히려는 더 큰 수사·사법 절차의 일부다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "현재 보도만으로는 다른 관련자가 누구인지, 법원이 피고인의 역할에 대해 어떤 결론을 내릴지 알 수 없다. 재판 결과와 항소 여부는 미정이다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 재판은 유럽의 주요 에너지 기반시설 공격에 대한 형사 책임을 심리하며 Nord Stream 사보타주를 법적·정치적 기록에 남긴다. 사건의 함의는 혐의만으로 정해지지 않으며 법정에서 제시될 증거에 달려 있다.",
+      "editorNote": "피고인은 무죄 추정의 원칙에 따라야 한다. 보도는 검찰의 혐의를 전하며 재판에서 책임이 확정되지는 않았다.",
+      "publication": "scheduled"
+    },
+    {
+      "slug": "turkey-raids-opposition-halk-tv-ko",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "cluster": [
+        {
+          "url": "https://www.euronews.com/2026/10/14/turkish-police-take-pro-opposition-channel-halk-tv-off-air-and-arrest-11-in-istanbul-raid",
+          "source": "Euronews",
+          "title": "Turkish police take pro-opposition channel Halk TV off air and arrest 11 in Istanbul raid"
+        },
+        {
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/14/turkish-police-raid-office-of-opposition-tv-channel-the-broadcaster-says",
+          "source": "Reuters",
+          "title": "Turkish police raid office of opposition TV channel, the broadcaster says"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/59176d1028ef288e959f06e123dd7009",
+          "source": "Associated Press",
+          "title": "Turkish authorities raid TV channel as press freedom groups warn of a crackdown",
+          "publishedAt": "2026-10-14"
+        },
+        {
+          "id": 2,
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/14/turkish-police-raid-office-of-opposition-tv-channel-the-broadcaster-says",
+          "source": "Reuters",
+          "title": "Turkish police raid office of opposition TV channel, the broadcaster says",
+          "publishedAt": "2026-10-14"
+        }
+      ],
+      "tags": [
+        "Turkey",
+        "press freedom",
+        "media",
+        "politics"
+      ],
+      "confidence": "high",
+      "headline": "터키 당국, 방송국 압수수색…언론자유 단체는 탄압 우려",
+      "dek": "경찰이 야권 성향 Halk TV를 압수수색하고 관리인을 선임했으며 생방송이 중단됐다.",
+      "tldr": [
+        "Associated Press에 따르면 터키 당국은 Halk TV의 Istanbul 본사를 압수수색하고 방송사를 감독할 관리인을 선임했다.",
+        "Reuters는 생방송이 끊겼으며 이번 조치가 야권 매체에 대한 압박 우려를 키웠다고 보도했다.",
+        "당국이 언급한 부패 수사와 관리인 선임의 법적 근거는 공개 보도에서 논란의 여지가 남아 있다."
+      ],
+      "body": [
+        {
+          "text": "Associated Press는 터키 당국이 정부와 거리를 둔 방송사인 Halk TV 본사를 압수수색하고 부패 혐의 수사 중 관리인을 선임했다고 보도했다. Reuters도 압수수색과 관리인 선임을 별도로 전했다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Reuters에 따르면 Halk TV는 경찰이 Istanbul 사무실에 들어왔고 생방송이 중단됐다고 밝혔다. AP는 당국의 현장 수색 동안 방송이 일시 중단됐다고 전했다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "당국은 이번 조치를 부패 수사의 일부로 설명했지만, 언론자유 단체와 야권 인사들은 언론 자유에 대한 위협이라고 비판했다. 이는 각 주체의 입장이며 수사 혐의에 대한 법원의 판단은 아니다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "수사 결과가 어떻게 나올지, 관리인이 얼마나 오래 업무를 맡을지, 생방송이 기존 조건으로 재개될지는 보도에서 확인되지 않았다. 이후 진행은 아직 미정이다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "압수수색과 관리인 선임은 터키 언론에 대한 감시가 이어지는 가운데 야권 성향 방송사에 직접 영향을 준다. 법적 결론과 방송사의 편집·운영에 장기 변화가 생길지는 아직 알 수 없다.",
+      "editorNote": "부패 사건은 수사 단계로 보도됐으며 혐의가 사법적으로 판단되지는 않았다. 언론자유 우려는 단체와 야권 인사의 발언으로 귀속했다.",
+      "publication": "scheduled"
     }
   ]
 }

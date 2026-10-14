@@ -1,10 +1,10 @@
 {
   "date": "2026-10-14",
-  "generatedAt": "2026-10-13T22:06:33.142Z",
+  "generatedAt": "2026-10-14T10:04:05.000Z",
   "vertical": "bio",
   "lang": "en",
   "title": "Signal Daily Bio — 2026-10-14",
-  "summary": "Two developments cleared the independent-source gate. The collected CAR-T, peptide, N-acetylcysteine and NAD+ items were single papers or trial records without independent coverage, so they were not treated as stories.",
+  "summary": "Three developments cleared the independent-source gate, including GSK’s proposed Belgian restructuring. No independently reported clinical or regulatory CAR-T, peptide, N-acetylcysteine or NAD+ development cleared the two-outlet rule; single papers and trial records remain excluded.",
   "stories": [
     {
       "type": "DEEP",
@@ -148,6 +148,93 @@
       ],
       "whyItMatters": "The reports show how post-market safety signals can trigger scrutiny for a rare-disease medicine, but spontaneous reports cannot establish causation or quantify individual risk.",
       "editorNote": "Reported adverse events do not establish causality; no medical advice is offered."
+    },
+    {
+      "slug": "gsk-proposes-belgium-job-restructuring",
+      "headline": "GSK to cut up to 1,217 jobs in Belgium, L’Echo says",
+      "dek": "The proposed reorganization covers research and development, production and global support functions; consultations are beginning.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "GSK said a proposed Belgian reorganization could affect up to 1,217 roles, according to reports from local outlets and Reuters.",
+        "The reported scope includes research and development, production and global support functions at Belgian sites.",
+        "The proposal is at an announced-intent stage, with worker consultations expected before any final decisions."
+      ],
+      "body": [
+        {
+          "text": "GSK has announced a proposed reorganization in Belgium that could affect up to 1,217 jobs, Reuters reported, citing Belgian newspaper L’Echo. Belgian broadcaster TVcom also reported the proposed figure and said the company presented the plan at an extraordinary works council. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The reported scope includes research and development, production and global support activities across sites in Wavre, Rixensart and Gembloux. Local reporting says the proposal distinguishes between employee groups, but the company has not published a final list of positions to be removed. [2, 3]",
+          "citations": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "GSK framed the move as a reorganization of its Belgian operations, while reports describe a formal consultation process with employee representatives. That process means the announced maximum is a proposed impact, not a finalized count of dismissals. [1, 3]",
+          "citations": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "The available reports do not establish which functions or locations will ultimately lose roles, or the timetable for any departures. Those details remain open while discussions with worker representatives proceed. [2, 3]",
+          "citations": [
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "The proposal puts a large Belgian pharmaceutical workforce and functions spanning research, manufacturing and support into a restructuring process. Its eventual effect on GSK’s research capacity and production footprint cannot yet be determined because the plan remains subject to consultation.",
+      "editorNote": "Reporting identifies a proposed maximum of 1,217 affected jobs; the final number and affected positions remain unsettled. No independent CAR-T, peptide-therapy or NAC/NAD+ clinical or regulatory development with two-outlet coverage cleared this pass.",
+      "cluster": [
+        {
+          "url": "https://www.tvcom.be/info/economie/1217-emplois-menaces-chez-gsk/59035",
+          "source": "TVcom",
+          "title": "1217 emplois menacés chez GSK"
+        },
+        {
+          "url": "https://lpost.be/bain-de-sang-social-chez-gsk-le-groupe-pharma-va-supprimer-1-217-emplois-chez-les-cadres-et-les-employes/",
+          "source": "L-Post",
+          "title": "GSK plans to eliminate 1,217 jobs in Belgium"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://whbl.com/2026/10/14/gsk-to-cut-up-to-1217-jobs-in-belgium-lecho-says/",
+          "source": "Reuters",
+          "title": "GSK to cut up to 1,217 jobs in Belgium, L’Echo says",
+          "publishedAt": "2026-10-14"
+        },
+        {
+          "id": 2,
+          "url": "https://www.tvcom.be/info/economie/1217-emplois-menaces-chez-gsk/59035",
+          "source": "TVcom",
+          "title": "1217 emplois menacés chez GSK",
+          "publishedAt": "2026-10-14"
+        },
+        {
+          "id": 3,
+          "url": "https://lpost.be/bain-de-sang-social-chez-gsk-le-groupe-pharma-va-supprimer-1-217-emplois-chez-les-cadres-et-les-employes/",
+          "source": "L-Post",
+          "title": "GSK plans to eliminate 1,217 jobs in Belgium",
+          "publishedAt": "2026-10-14"
+        }
+      ],
+      "tags": [
+        "GSK",
+        "Belgium",
+        "biopharma",
+        "restructuring"
+      ],
+      "confidence": "medium",
+      "publication": "scheduled"
     }
   ]
 }

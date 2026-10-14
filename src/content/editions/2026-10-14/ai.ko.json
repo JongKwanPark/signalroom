@@ -1,10 +1,10 @@
 {
   "date": "2026-10-14",
-  "generatedAt": "2026-10-13T22:15:00.298Z",
+  "generatedAt": "2026-10-14T10:04:05.000Z",
   "vertical": "ai",
   "lang": "ko",
   "title": "시그널 데일리 AI — 2026-10-14",
-  "summary": "독립 보도로 확인된 일곱 가지 동향을 담았다. IMF 금융안정 경고는 중복을 피하기 위해 Markets에 실었고 단일 매체 시연과 개별 논문은 제외했다.",
+  "summary": "독립 보도로 확인된 여덟 가지 동향을 담았으며 Intel의 추론 가속기 발표를 추가했다. IMF 금융안정 경고는 Markets에 두었고, 단일 매체 시연과 개별 논문은 제외했다.",
   "stories": [
     {
       "type": "DEEP",
@@ -52,7 +52,7 @@
           "publishedAt": "2026-10-13"
         }
       ],
-      "headline": "Gemini 4 Argon: 가장 어려운 문제를 해결하도록 설계",
+      "headline": "Intel® GPU D270: 추론 최적화 데이터센터 GPU",
       "dek": "Google은 최신 프런티어 모델을 개발자와 소비자 제품 전반에 공개했다고 밝혔다.",
       "tldr": [
         "Google은 10월 13일 개발자 API와 일부 소비자 제품에서 Gemini 4 Argon의 전 세계 이용을 시작했다고 발표했다.",
@@ -513,6 +513,78 @@
       ],
       "whyItMatters": "특정 실험의 성과가 실제 환경 전반으로 전이되는지는 별도 검증이 필요하다.",
       "editorNote": "벤치마크와 과제 수치는 Google 발표에 귀속했으며 범용 배포 준비를 입증하지 않는다."
+    },
+    {
+      "slug": "intel-d270-targets-ai-inference-ko",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "cluster": [
+        {
+          "url": "https://www.storagereview.com/news/intel-gpu-d-series-480gb-lpddr5x-1-3-pflops-350w-pcie-card",
+          "source": "StorageReview",
+          "title": "Intel GPU D-Series Packs 480GB LPDDR5X and 1.3 PFLOPS FP8 into a 350W PCIe Card"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
+          "source": "Intel",
+          "title": "Intel GPU D270 │ Inference-Optimized Data Center GPU",
+          "publishedAt": "2026-10-12"
+        },
+        {
+          "id": 2,
+          "url": "https://www.storagereview.com/news/intel-gpu-d-series-480gb-lpddr5x-1-3-pflops-350w-pcie-card",
+          "source": "StorageReview",
+          "title": "Intel GPU D-Series Packs 480GB LPDDR5X and 1.3 PFLOPS FP8 into a 350W PCIe Card",
+          "publishedAt": "2026-10-12"
+        }
+      ],
+      "tags": [
+        "Intel",
+        "AI infrastructure",
+        "inference",
+        "semiconductors"
+      ],
+      "confidence": "medium",
+      "headline": "Intel® GPU D270: 추론 최적화 데이터센터 GPU",
+      "dek": "Intel의 D-series는 최대 480 GB LPDDR5X 메모리를 공랭식 카드에 탑재해 추론에 초점을 맞췄다.",
+      "tldr": [
+        "Intel은 D270을 최대 480 GB LPDDR5X 메모리를 갖춘 추론 최적화 데이터센터 GPU로 소개했다.",
+        "제품 페이지에는 350 W 공랭 설계와 32개 Xe3P 코어, 256개 XMX 행렬 엔진이 명시돼 있다.",
+        "이 사양은 제조사 발표이며, 독립적인 실제 작업 성능과 폭넓은 출시 시점은 아직 확인되지 않았다."
+      ],
+      "body": [
+        {
+          "text": "Intel 제품 페이지는 D270을 D-series의 추론 최적화 데이터센터 GPU로 소개한다. 회사는 카드당 최대 480 GB LPDDR5X 메모리와 350 W 공랭 설계를 제시했다. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Intel은 이 제품에 Xe3P 코어 32개와 XMX 행렬 엔진 256개가 들어가며, 긴 문맥과 에이전트형 작업을 겨냥한다고 설명한다. 이는 제조사가 제시한 사양과 용도이며, 성능이나 비용을 독립적으로 측정한 결과는 아니다. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "StorageReview는 파트너 제작 카드에는 최대 480 GB가 탑재될 수 있지만 Intel 기준 제품은 160 GB로 기재됐다고 전했다. 또한 그래픽보다 추론을 겨냥한 제품이라고 설명했으며, 메모리 구성이 출시의 핵심이지만 모델 규모나 서빙 조건별 실제 성능까지 입증된 것은 아니다. [2]",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "공개된 사양만으로는 가격, 일반 판매 시점, 실제 운영 환경의 비교 처리량이 확정되지 않는다. Intel이 제시한 제품 방향은 분명하지만 고객 도입과 독립 시험 결과는 아직 지켜봐야 한다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "D270은 대용량 메모리와 기존 공랭식 배치를 앞세워 추론 인프라 시장에서 경쟁하려는 Intel의 시도다. 데이터센터 비용 구조를 바꿀지는 독립 성능, 가격, 출시 가능성에 관한 근거가 더 나와야 판단할 수 있다.",
+      "editorNote": "헤드라인은 Intel 제품 페이지의 제목을 따랐다. 기술 사양은 제조사 발표이며 독립 벤치마크나 일반 판매일은 확인되지 않았다.",
+      "publication": "scheduled"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "date": "2026-10-14",
-  "generatedAt": "2026-10-13T22:15:00.302Z",
+  "generatedAt": "2026-10-14T10:04:05.000Z",
   "vertical": "markets",
   "lang": "ko",
   "title": "시그널 데일리 마켓 — 2026-10-14",
-  "summary": "AI 시장 조정이 금융 안정성에 미칠 수 있는 위험에 대한 IMF 경고를 포함해 교차 보도가 확인된 일곱 가지 동향을 담았다. 한국의 7,470억 달러 에너지 계획은 이번 주 초 보도돼 오늘의 새 동향으로 다루지 않았다.",
+  "summary": "ASML 3분기 실적과 중국 9월 무역 통계를 포함해 교차 보도가 확인된 아홉 가지 동향을 담았다. 19:00 KST 업데이트 시점에 9월 CPI가 아직 발표되지 않아 기존 전망 기사를 유지했다.",
   "stories": [
     {
       "type": "DEEP",
@@ -564,6 +564,172 @@
       ],
       "whyItMatters": "예정된 CPI 발표는 에너지 가격 상승이 물가에 얼마나 반영됐는지 보여줄 예정이지만 당시에는 예상치만 공개돼 있었다.",
       "editorNote": "발표 전 전망 기사이며 실제 9월 CPI 결과는 인용한 보도 시점에 나오지 않았다."
+    },
+    {
+      "slug": "asml-q3-2026-record-sales-ai-demand-ko",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/14/asml-3q-earnings-ai-demand-orders-capacity.html",
+          "source": "CNBC",
+          "title": "ASML says it’s getting order interest through 2030 as profit smashes expectations"
+        },
+        {
+          "url": "https://live.euronext.com/en/financial-news/chip-tool-giant-asml-nudges-outlook-ai-driven-demand-outruns-supply",
+          "source": "Reuters",
+          "title": "Chip tool giant ASML nudges up outlook as AI-driven demand outruns supply"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.investor.asml.com/news-releases/news-release-details/asml-reports-eu11.7-billion-total-net-sales-and-eu5.0-billion-net-income-q3-2026",
+          "source": "ASML",
+          "title": "ASML reports €11.7 billion total net sales and €5.0 billion net income in Q3 2026",
+          "publishedAt": "2026-10-14"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/10/14/asml-3q-earnings-ai-demand-orders-capacity.html",
+          "source": "CNBC",
+          "title": "ASML says it’s getting order interest through 2030 as profit smashes expectations",
+          "publishedAt": "2026-10-14"
+        },
+        {
+          "id": 3,
+          "url": "https://live.euronext.com/en/financial-news/chip-tool-giant-asml-nudges-outlook-ai-driven-demand-outruns-supply",
+          "source": "Reuters",
+          "title": "Chip tool giant ASML nudges up outlook as AI-driven demand outruns supply",
+          "publishedAt": "2026-10-14"
+        }
+      ],
+      "tags": [
+        "ASML",
+        "semiconductors",
+        "AI infrastructure",
+        "earnings"
+      ],
+      "confidence": "high",
+      "headline": "ASML, 2026년 3분기 총매출 €11.7 billion·순이익 €5.0 billion 기록",
+      "dek": "반도체 장비업체 ASML은 연간 매출 전망을 높였고 2027년과 2028년에는 계획된 공급량이 수요를 모두 충족하지 못할 수 있다고 밝혔다.",
+      "tldr": [
+        "ASML은 2026년 3분기 순매출 €11.7 billion과 순이익 €5.0 billion을 발표했다.",
+        "회사는 4분기 매출을 €14.2 billion~€15.2 billion, 연간 매출을 €44 billion~€45 billion으로 전망했다.",
+        "ASML은 계획된 공급량이 2027년과 2028년 고객 수요에 미치지 못할 것이라며 2030년까지 이어지는 주문 관심을 언급했다."
+      ],
+      "body": [
+        {
+          "text": "ASML은 2026년 3분기 총매출 €11.7 billion, 순이익 €5.0 billion, 매출총이익률 57.5%를 발표했다. 회사 자료는 이번 실적이 생산 확대와 설치 기반 서비스 수요 증가를 반영한다고 설명했다. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "회사는 4분기 매출을 €14.2 billion~€15.2 billion, 2026년 연간 매출을 €44 billion~€45 billion으로 전망했다. 이는 회사가 제시한 전망치이며 확정된 실적이 아니다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "ASML은 고객들이 2029년과 2030년 주문을 논의하고 있으며 계획된 2027년·2028년 공급량이 예상 수요를 모두 충족하지 못할 것이라고 밝혔다. Reuters와 CNBC는 이러한 생산능력 압박의 주요 배경으로 AI 관련 반도체 수요를 들었다. [1, 2, 3]",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "회사는 생산능력을 늘릴 방법을 검토 중이라고 했지만, 구체적인 증설 일정이나 먼 미래 연도에 대한 고객 관심이 확정 주문으로 이어질지는 보도자료에서 약속하지 않았다. 실행 계획과 향후 수요, 관심의 계약 전환 여부는 아직 미정이다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "ASML의 실적과 수주 가시성은 AI 수요와 연결된 반도체 제조 투자를 직접 보여준다. 장비 수요가 계획된 공급을 웃돌면 고객의 증설을 제약할 수 있지만 2029~2030년 주문 관심은 확정 수주와 다르다.",
+      "editorNote": "헤드라인과 재무 수치는 ASML 발표를 따랐다. 2029~2030년 수요는 확정 주문이 아닌 고객 관심으로 보도됐으며 전망에는 불확실성이 있다.",
+      "publication": "scheduled"
+    },
+    {
+      "slug": "china-september-exports-trade-surplus-ko",
+      "type": "DATA",
+      "readMinutes": 3,
+      "cluster": [
+        {
+          "url": "https://www.marketscreener.com/news/china-s-september-exports-soar-putting-1-trillion-trade-surplus-in-sight-ce785dd2db89f72d",
+          "source": "Reuters",
+          "title": "China’s September exports soar, putting $1 trillion trade surplus in sight"
+        },
+        {
+          "url": "https://www.reddit.com/r/Economics/comments/1x5jgpu/chinas_september_trade_surplus_widens_to_13353b/",
+          "source": "Reddit",
+          "title": "China’s September trade surplus widens to $133.53B; exports up 36.3%, imports up 31.0%"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/db43e08437b65f65c2ead64c82f9b990",
+          "source": "Associated Press",
+          "title": "China’s trade surplus hits $938 billion for Jan-Sep as pressure ramps up to rebalance trade",
+          "publishedAt": "2026-10-14"
+        },
+        {
+          "id": 2,
+          "url": "https://www.marketscreener.com/news/china-s-september-exports-soar-putting-1-trillion-trade-surplus-in-sight-ce785dd2db89f72d",
+          "source": "Reuters",
+          "title": "China’s September exports soar, putting $1 trillion trade surplus in sight",
+          "publishedAt": "2026-10-14"
+        }
+      ],
+      "tags": [
+        "China",
+        "trade",
+        "exports",
+        "macroeconomics"
+      ],
+      "confidence": "high",
+      "headline": "중국 1~9월 무역흑자 $938 billion…무역 재균형 압력 커져",
+      "dek": "첨단제품과 자동차가 수출을 뒷받침하며 9월 수출이 가속했고, 무역흑자 확대는 통상 압력을 키울 전망이다.",
+      "tldr": [
+        "AP와 Reuters가 세관 자료를 인용해 보도한 바에 따르면 중국의 9월 수출은 전년 대비 36.3%, 수입은 31% 증가했다.",
+        "월간 무역흑자는 약 $133.5 billion으로 늘었고 1~9월 누계는 $938 billion에 달했다.",
+        "이 수치는 수출 호조를 보여주지만 교역 상대국의 대응이나 향후 수요가 연간 무역수지에 미칠 영향은 아직 확정하지 않는다."
+      ],
+      "body": [
+        {
+          "text": "Associated Press는 중국의 9월 수출이 전년 대비 36.3% 증가해 2월 이후 가장 빠른 증가세를 보였으며 수입은 31% 늘었다고 보도했다. Reuters도 세관 자료를 근거로 큰 폭의 수출 증가를 전했다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP 보도에 따르면 중국의 9월 무역흑자는 약 $133.5 billion으로 8월의 $119.1 billion보다 확대됐다. Reuters가 전한 수치는 $133.53 billion으로 거의 일치한다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP는 1~9월 누계 흑자가 $938 billion에 이르렀고 첨단제품과 자동차가 수출을 뒷받침했다고 전했다. 보도는 이 흐름이 연간 기존 기록을 넘어설 가능성을 키운다고 설명했지만, 결과가 확정된 것은 아니다. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "AP에 따르면 이번 자료는 교역 상대국들이 중국에 무역 재균형을 요구하는 가운데 나왔다. 이후 수출 증가세와 연간 흑자, 정책 대응은 아직 미정이며 월간 수치만으로는 이를 확정할 수 없다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "첨단제품 수출을 포함한 중국의 수출 강세가 대외 흑자를 유지하는 가운데 교역 상대국의 불균형 우려도 커지고 있음을 보여주는 자료다. 정책과 통상 관계에 미칠 최종 영향은 후속 통계와 각국 대응에 달려 있다.",
+      "editorNote": "무역 수치는 세관 자료를 인용한 보도에 따랐다. Reuters는 9월 흑자를 $133.53 billion으로 보도했다. 연간 기록 경신은 가능성이지 확정된 결과가 아니다.",
+      "publication": "scheduled"
     }
   ]
 }

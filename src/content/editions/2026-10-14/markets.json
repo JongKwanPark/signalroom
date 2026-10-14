@@ -1,10 +1,10 @@
 {
   "date": "2026-10-14",
-  "generatedAt": "2026-10-13T22:15:00.302Z",
+  "generatedAt": "2026-10-14T10:04:05.000Z",
   "vertical": "markets",
   "lang": "en",
   "title": "Signal Daily Markets — 2026-10-14",
-  "summary": "Seven multi-outlet developments cleared the gate, including the IMF warning about financial-stability risks from a possible AI-market correction. South Korea’s $747 billion energy plan was reported earlier in the week and was not treated as new today.",
+  "summary": "Nine multi-outlet developments cleared the gate, including ASML’s Q3 results and China’s September trade figures. The September CPI report had not yet been released at the 19:00 KST edition update; the existing preview is retained.",
   "stories": [
     {
       "type": "DEEP",
@@ -564,6 +564,172 @@
       ],
       "whyItMatters": "The scheduled release would show how energy costs fed through to inflation, but only expectations were available in the preview reports.",
       "editorNote": "This is a pre-release preview, not the actual CPI result."
+    },
+    {
+      "slug": "asml-q3-2026-record-sales-ai-demand",
+      "headline": "ASML reports €11.7 billion total net sales and €5.0 billion net income in Q3 2026",
+      "dek": "The chip-equipment maker raised its full-year sales outlook and said customer demand could exceed planned supply in 2027 and 2028.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "ASML reported €11.7 billion in Q3 2026 net sales and €5.0 billion in net income.",
+        "The company expects Q4 sales of €14.2 billion to €15.2 billion and full-year sales of €44 billion to €45 billion.",
+        "ASML said planned supply will not fully meet customer demand in 2027 and 2028, while interest in orders extends as far as 2030."
+      ],
+      "body": [
+        {
+          "text": "ASML reported €11.7 billion in total net sales and €5.0 billion in net income for Q3 2026, with a gross margin of 57.5%. The company’s release said the results reflected a ramp-up and stronger installed-base services demand. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The company forecast Q4 sales of €14.2 billion to €15.2 billion and full-year 2026 sales of €44 billion to €45 billion. Those are company outlook figures, not completed results. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "ASML said customers were discussing orders for 2029 and 2030 and that planned supply for 2027 and 2028 would not fully meet expected demand. Reuters and CNBC attributed that capacity pressure primarily to AI-related chip demand. [1, 2, 3]",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "The company said it was looking at ways to increase capacity, but the release does not promise a particular expansion schedule or confirm that customer interest in distant-year orders will become firm orders. Execution, future demand and conversion of interest into contracts remain open. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "ASML’s results and order visibility provide a direct read-through to semiconductor manufacturing investment tied to AI demand. The gap between expected chip-tool demand and planned supply may constrain customer expansion, but the 2029–2030 interest is not equivalent to booked orders.",
+      "editorNote": "Headline and financial figures follow ASML’s release. Customer interest in 2029–2030 is not reported as firm orders; forecasts remain forward-looking.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/14/asml-3q-earnings-ai-demand-orders-capacity.html",
+          "source": "CNBC",
+          "title": "ASML says it’s getting order interest through 2030 as profit smashes expectations"
+        },
+        {
+          "url": "https://live.euronext.com/en/financial-news/chip-tool-giant-asml-nudges-outlook-ai-driven-demand-outruns-supply",
+          "source": "Reuters",
+          "title": "Chip tool giant ASML nudges up outlook as AI-driven demand outruns supply"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.investor.asml.com/news-releases/news-release-details/asml-reports-eu11.7-billion-total-net-sales-and-eu5.0-billion-net-income-q3-2026",
+          "source": "ASML",
+          "title": "ASML reports €11.7 billion total net sales and €5.0 billion net income in Q3 2026",
+          "publishedAt": "2026-10-14"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/10/14/asml-3q-earnings-ai-demand-orders-capacity.html",
+          "source": "CNBC",
+          "title": "ASML says it’s getting order interest through 2030 as profit smashes expectations",
+          "publishedAt": "2026-10-14"
+        },
+        {
+          "id": 3,
+          "url": "https://live.euronext.com/en/financial-news/chip-tool-giant-asml-nudges-outlook-ai-driven-demand-outruns-supply",
+          "source": "Reuters",
+          "title": "Chip tool giant ASML nudges up outlook as AI-driven demand outruns supply",
+          "publishedAt": "2026-10-14"
+        }
+      ],
+      "tags": [
+        "ASML",
+        "semiconductors",
+        "AI infrastructure",
+        "earnings"
+      ],
+      "confidence": "high",
+      "publication": "scheduled"
+    },
+    {
+      "slug": "china-september-exports-trade-surplus",
+      "headline": "China’s trade surplus hits $938 billion for Jan-Sep as pressure ramps up to rebalance trade",
+      "dek": "September exports accelerated as high-tech goods and autos supported shipments; the widening surplus is likely to intensify trade pressure.",
+      "type": "DATA",
+      "readMinutes": 3,
+      "tldr": [
+        "China’s exports rose 36.3% year over year in September, while imports increased 31%, according to customs data reported by AP and Reuters.",
+        "The monthly trade surplus widened to about $133.5 billion, taking the January–September total to $938 billion.",
+        "The figures document a stronger export run but do not settle how trade partners or future demand will affect the full-year balance."
+      ],
+      "body": [
+        {
+          "text": "The Associated Press reported that China’s exports rose 36.3% year over year in September, the fastest pace since February, while imports increased 31%. Reuters also reported a sharp export rise based on customs data. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "China recorded a September trade surplus of about $133.5 billion, up from $119.1 billion in August, AP reported. Reuters gave a closely matching figure of $133.53 billion. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The January–September surplus reached $938 billion, according to AP, which said high-tech goods and autos helped support exports. The reporting said the result could put China on course to exceed its prior annual record, but that outcome is not yet established. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The data arrive as trading partners press Beijing to rebalance trade, AP reported. Future export growth, the full-year surplus and any policy response remain open; the monthly figures alone do not determine them. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The data show how export strength, including high-tech shipments, is sustaining China’s external surplus as trade partners raise concerns about imbalances. The eventual effect on policy and trade relations depends on subsequent data and government responses.",
+      "editorNote": "Trade figures are reported from customs data and rounded as AP presented them; Reuters reports the September surplus at $133.53 billion. The annual record remains a possibility, not a result.",
+      "cluster": [
+        {
+          "url": "https://www.marketscreener.com/news/china-s-september-exports-soar-putting-1-trillion-trade-surplus-in-sight-ce785dd2db89f72d",
+          "source": "Reuters",
+          "title": "China’s September exports soar, putting $1 trillion trade surplus in sight"
+        },
+        {
+          "url": "https://www.reddit.com/r/Economics/comments/1x5jgpu/chinas_september_trade_surplus_widens_to_13353b/",
+          "source": "Reddit",
+          "title": "China’s September trade surplus widens to $133.53B; exports up 36.3%, imports up 31.0%"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/db43e08437b65f65c2ead64c82f9b990",
+          "source": "Associated Press",
+          "title": "China’s trade surplus hits $938 billion for Jan-Sep as pressure ramps up to rebalance trade",
+          "publishedAt": "2026-10-14"
+        },
+        {
+          "id": 2,
+          "url": "https://www.marketscreener.com/news/china-s-september-exports-soar-putting-1-trillion-trade-surplus-in-sight-ce785dd2db89f72d",
+          "source": "Reuters",
+          "title": "China’s September exports soar, putting $1 trillion trade surplus in sight",
+          "publishedAt": "2026-10-14"
+        }
+      ],
+      "tags": [
+        "China",
+        "trade",
+        "exports",
+        "macroeconomics"
+      ],
+      "confidence": "high",
+      "publication": "scheduled"
     }
   ]
 }

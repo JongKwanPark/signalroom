@@ -1,10 +1,10 @@
 {
   "date": "2026-10-14",
-  "generatedAt": "2026-10-13T22:15:00.301Z",
+  "generatedAt": "2026-10-14T10:04:05.000Z",
   "vertical": "geo",
   "lang": "en",
   "title": "Signal Daily Geo — 2026-10-14",
-  "summary": "Six developments had independent coverage. The Pope Leo health update was excluded as off-vertical, and the OpenAI recording-device arrest is covered under AI rather than duplicated here.",
+  "summary": "Ten developments have independent coverage. This pass adds Russia’s attack on Ukraine’s energy system, Starlink service limits, the Nord Stream trial and the raid on Halk TV; the OpenAI recording-device case remains under AI.",
   "stories": [
     {
       "type": "DEEP",
@@ -491,6 +491,325 @@
       ],
       "whyItMatters": "The siege shows how military conflict affects civilian supply and movement; local conditions and aid access remain uncertain.",
       "editorNote": "Humanitarian conditions come from accounts during active fighting; access and duration remain uncertain."
+    },
+    {
+      "slug": "russian-strikes-cut-ukraine-power-to-600000",
+      "headline": "Russian strikes kill three, damage dozens of power facilities",
+      "dek": "Ukrainian officials said overnight attacks hit energy infrastructure and left at least 600,000 people without power.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "Reuters reported that Russian strikes killed three people and damaged 30 energy facilities, according to Ukrainian officials.",
+        "At least 600,000 people were without power, President Volodymyr Zelenskyy said, while ABC News reported the outage figure and damage to energy sites.",
+        "The scale of outages and restoration timeline remain subject to updates from Ukrainian authorities."
+      ],
+      "body": [
+        {
+          "text": "Reuters reported that Russian missile and drone strikes targeted Kyiv and Kharkiv overnight, killing three people and damaging 30 energy facilities, according to Ukrainian President Volodymyr Zelenskyy. ABC News separately reported his statement that at least 600,000 people were without power. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The reported damage includes energy infrastructure, and Ukrainian officials warned that outages could spread. These figures and the attribution in the available coverage come from Ukrainian authorities during an active conflict. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Zelenskyy characterized the attack as a deliberate strike on infrastructure covered by a proposed energy ceasefire. The reports say neither side had published details confirming a mutual halt to attacks on energy facilities. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The reports do not establish how quickly electricity service will be restored or the full extent of damage. Those questions remain open as repair work and official assessments continue. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The attack links battlefield escalation with civilian energy supply as winter approaches. Its effect on power availability and the status of any energy ceasefire will depend on damage assessments and subsequent military actions.",
+      "editorNote": "Fatalities, facility damage and outage totals are attributed to Ukrainian officials in the cited coverage; repair timelines were not confirmed.",
+      "cluster": [
+        {
+          "url": "https://abcnews.com/International/600000-power-ukraine-russia-launches-missile-drone-attack/story?id=137248732",
+          "source": "ABC News",
+          "title": "600,000 without power in Ukraine as Russia launches missile and drone attack, Zelenskyy says"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Russian strikes leave 600,000 without power in Ukraine"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.investing.com/news/commodities-news/russian-strikes-kill-three-damage-dozens-of-power-facilities-4948302",
+          "source": "Reuters",
+          "title": "Russian strikes kill three, damage dozens of power facilities",
+          "publishedAt": "2026-10-14"
+        },
+        {
+          "id": 2,
+          "url": "https://abcnews.com/International/600000-power-ukraine-russia-launches-missile-drone-attack/story?id=137248732",
+          "source": "ABC News",
+          "title": "600,000 without power in Ukraine as Russia launches missile and drone attack, Zelenskyy says",
+          "publishedAt": "2026-10-14"
+        }
+      ],
+      "tags": [
+        "Ukraine",
+        "Russia",
+        "energy security",
+        "war"
+      ],
+      "confidence": "medium",
+      "publication": "scheduled"
+    },
+    {
+      "slug": "spacex-starlink-limits-disrupt-ukrainian-operations",
+      "headline": "Ukraine says SpaceX limits Starlink operations, disrupting military",
+      "dek": "Ukrainian officials said new limits affected combat drone missions; the details and operational scope remain unclear.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "Reuters reported that SpaceX limited some Starlink services in Ukraine, disrupting combat drone missions, according to Ukrainian officials.",
+        "A presidential adviser said the forces received no warning before several missions were disrupted.",
+        "The reports do not specify the affected terminals, duration or whether the restrictions will change."
+      ],
+      "body": [
+        {
+          "text": "Reuters reported that SpaceX introduced limits on some Starlink services in Ukraine and that Ukrainian officials said the changes disrupted combat drone missions. Reuters described the terminals as important to communications and some longer-range drone operations. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Presidential adviser Serhiy Beskrestnov said Ukraine’s defense forces had not received advance notice and that several missions were disrupted. CNBC also reported Ukrainian complaints that service restrictions affected military operations, while the available accounts do not detail the exact scope. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Starlink has been used by Ukrainian units for battlefield communications since Russia’s 2022 invasion, according to Reuters. The reports distinguish the immediate disruption from the system’s broader role and do not say all military connectivity was lost. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Neither report establishes how many terminals or missions were affected, how long the limits will remain, or what technical or policy changes prompted them. SpaceX’s full explanation and the subsequent operational effect remain open. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The episode highlights Ukraine’s reliance on a privately operated satellite network for some battlefield communications and drone operations. The scale of disruption and any longer-term change in access remain unconfirmed.",
+      "editorNote": "Operational effects are attributed to Ukrainian officials; the reports do not provide SpaceX’s full explanation or quantify the affected missions.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/14/russia-ukraine-energy-ceasefire-power-outages.html",
+          "source": "CNBC",
+          "title": "Ukraine warns Starlink limits are disrupting military operations as Russia pounds its energy infrastructure"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Russian strikes leave 600,000 without power in Ukraine, as Starlink restrictions affect front line"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.investing.com/news/stock-market-news/ukraine-says-spacex-limits-starlink-operations-disrupting-military-4948343",
+          "source": "Reuters",
+          "title": "Ukraine says SpaceX limits Starlink operations, disrupting military",
+          "publishedAt": "2026-10-14"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/10/14/russia-ukraine-energy-ceasefire-power-outages.html",
+          "source": "CNBC",
+          "title": "Ukraine warns Starlink limits are disrupting military operations as Russia pounds its energy infrastructure",
+          "publishedAt": "2026-10-14"
+        }
+      ],
+      "tags": [
+        "Ukraine",
+        "Starlink",
+        "SpaceX",
+        "military communications"
+      ],
+      "confidence": "medium",
+      "publication": "scheduled"
+    },
+    {
+      "slug": "ukrainian-officer-trial-over-nord-stream-blasts",
+      "headline": "Former Ukrainian officer goes on trial over Nord Stream gas pipeline blasts",
+      "dek": "German prosecutors accuse a former Ukrainian officer of helping organize the 2022 pipeline sabotage; the trial has not established guilt.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "A former Ukrainian military officer went on trial in Hamburg over the 2022 explosions that damaged the Nord Stream pipelines.",
+        "German prosecutors accuse him of helping organize the operation, but the allegations remain to be tested in court.",
+        "The case proceeds amid unresolved questions about responsibility for the sabotage and its wider political consequences."
+      ],
+      "body": [
+        {
+          "text": "The Associated Press reported that a former Ukrainian army officer went on trial in Hamburg on Wednesday over the explosions that damaged the Nord Stream gas pipelines in 2022. Reuters also reported the start of the German trial. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Prosecutors accuse the defendant of helping organize the operation that caused the blasts, according to Reuters. The charge is an allegation being examined by the court; the trial has not determined guilt. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The pipelines connected Russia and Germany and were damaged by explosions in September 2022. The case is one part of a broader effort to establish who planned and carried out the sabotage. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The available reports do not resolve who else may have been involved or what the court will conclude about the defendant’s role. The trial’s findings and any appeal remain open. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The trial tests criminal responsibility for an attack on major European energy infrastructure and keeps the Nord Stream sabotage in the legal and political record. Its implications depend on evidence presented in court, not on the accusation alone.",
+      "editorNote": "The accused is presumed innocent. The reports describe prosecutors’ allegations; the proceedings have not established responsibility.",
+      "cluster": [
+        {
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/14/ukrainian-ex-officer-stands-trial-in-germany-over-nord-stream-bombing",
+          "source": "Reuters",
+          "title": "Ukrainian ex-officer stands trial in Germany over Nord Stream bombing"
+        },
+        {
+          "url": "https://www.theguardian.com/world/2026/oct/14/germany-puts-ukrainian-on-trial-accused-of-blowing-up-nord-stream-pipelines",
+          "source": "The Guardian",
+          "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/fdbddfa8c362df5a9f81e617e546b287",
+          "source": "Associated Press",
+          "title": "Former Ukrainian officer goes on trial over Nord Stream gas pipeline blasts",
+          "publishedAt": "2026-10-14"
+        },
+        {
+          "id": 2,
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/14/ukrainian-ex-officer-stands-trial-in-germany-over-nord-stream-bombing",
+          "source": "Reuters",
+          "title": "Ukrainian ex-officer stands trial in Germany over Nord Stream bombing",
+          "publishedAt": "2026-10-14"
+        }
+      ],
+      "tags": [
+        "Germany",
+        "Ukraine",
+        "Nord Stream",
+        "energy security"
+      ],
+      "confidence": "high",
+      "publication": "scheduled"
+    },
+    {
+      "slug": "turkey-raids-opposition-halk-tv",
+      "headline": "Turkish authorities raid TV channel as press freedom groups warn of a crackdown",
+      "dek": "Police raided opposition-aligned Halk TV and a trustee was appointed while the channel’s live broadcasts were interrupted.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "Turkish authorities raided Halk TV’s Istanbul headquarters and appointed a trustee to oversee the broadcaster, according to the Associated Press.",
+        "Reuters reported that the channel’s live broadcast was cut and that the move added to concerns about pressure on opposition media.",
+        "The corruption investigation cited by authorities and the legal basis for the trustee appointment remain contested in public reporting."
+      ],
+      "body": [
+        {
+          "text": "The Associated Press reported that Turkish authorities raided the headquarters of Halk TV, a broadcaster not aligned with the government, and appointed a trustee manager during an investigation into alleged corruption. Reuters separately reported the raid and trustee appointment. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Halk TV said police entered its Istanbul office and its live broadcast was interrupted, according to Reuters. The AP reported that broadcasts were temporarily halted as authorities searched the premises. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Authorities framed the operation as part of a corruption investigation, while press freedom groups and opposition figures described the intervention as a threat to media freedom. Those characterizations are attributed positions, not a court finding about the investigation. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The reports do not establish the investigation’s eventual findings, how long the trustee will remain, or whether live programming will resume under the same conditions. Those outcomes remain open. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The raid and trustee appointment affect an opposition-aligned broadcaster during a period of wider scrutiny of Turkish media. The legal outcome and any lasting change to the channel’s editorial operation are not yet known.",
+      "editorNote": "The corruption matter is described as an investigation and the allegations have not been adjudicated. Press-freedom concerns are attributed to named groups and opposition figures.",
+      "cluster": [
+        {
+          "url": "https://www.euronews.com/2026/10/14/turkish-police-take-pro-opposition-channel-halk-tv-off-air-and-arrest-11-in-istanbul-raid",
+          "source": "Euronews",
+          "title": "Turkish police take pro-opposition channel Halk TV off air and arrest 11 in Istanbul raid"
+        },
+        {
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/14/turkish-police-raid-office-of-opposition-tv-channel-the-broadcaster-says",
+          "source": "Reuters",
+          "title": "Turkish police raid office of opposition TV channel, the broadcaster says"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/59176d1028ef288e959f06e123dd7009",
+          "source": "Associated Press",
+          "title": "Turkish authorities raid TV channel as press freedom groups warn of a crackdown",
+          "publishedAt": "2026-10-14"
+        },
+        {
+          "id": 2,
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/14/turkish-police-raid-office-of-opposition-tv-channel-the-broadcaster-says",
+          "source": "Reuters",
+          "title": "Turkish police raid office of opposition TV channel, the broadcaster says",
+          "publishedAt": "2026-10-14"
+        }
+      ],
+      "tags": [
+        "Turkey",
+        "press freedom",
+        "media",
+        "politics"
+      ],
+      "confidence": "high",
+      "publication": "scheduled"
     }
   ]
 }
