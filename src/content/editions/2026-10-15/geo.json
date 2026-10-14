@@ -1,0 +1,629 @@
+{
+  "date": "2026-10-15",
+  "generatedAt": "2026-10-15T07:10:04+09:00",
+  "vertical": "geo",
+  "lang": "en",
+  "title": "Conflict, protest and trade-policy shifts",
+  "summary": "Eight developments had independent reporting. The Indonesia wildfire had no second outlet in the collection; the world’s-oldest-shipwreck discovery had parallel coverage but limited relevance to this geopolitics edition and was left out. GDELT and ISW feeds were unavailable.",
+  "stories": [
+    {
+      "slug": "hormuz-container-ship-sinks",
+      "headline": "Container ship hit by projectile sinks in Strait of Hormuz, Singapore says",
+      "dek": "Singapore said two registered vessels were struck by unknown projectiles; one sank and its crew were evacuated.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "Singapore said two Singapore-registered cargo vessels were hit by unknown projectiles in the Strait of Hormuz.",
+        "One sank after catching fire; the second was damaged. The sunken vessel’s crew were evacuated and no injuries were reported.",
+        "Iran separately said a ship sank after hitting a mine, but reports did not establish it was the same vessel."
+      ],
+      "body": [
+        {
+          "text": "BBC reported a container ship sank after a projectile strike, citing Singapore. AP and Reuters reported the maritime authority’s account that two Singapore-registered vessels were struck and one sank.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Singapore said the sunken vessel’s crew were evacuated and no injuries were reported. Reuters reported damage to the second vessel; the source of the projectiles was not identified.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Iran’s Revolutionary Guard said a cargo ship sank after striking a mine. AP noted it was unclear whether this was the Singapore-flagged vessel, so cause and identity are not settled.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The incidents add risk to shipping through a strategic corridor, but attribution remains open. Reports confirm damage and a sinking, not who fired or whether the incidents were coordinated.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The Strait of Hormuz is a critical shipping route; vessel losses can raise insurance, routing and energy-supply uncertainty, while responsibility remains unconfirmed.",
+      "editorNote": "Iran’s mine statement and Singapore’s unknown-projectile report remain separate; reporting does not confirm they concern the same ship.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/7e2c57a29fd5c3afc7ffe0cf63954bf3",
+          "source": "Associated Press",
+          "title": "Iran says a ship sank after striking a mine in Strait of Hormuz"
+        },
+        {
+          "url": "https://malaysia.news.yahoo.com/two-singapore-registered-vessels-struck-133140800.html",
+          "source": "Reuters via Yahoo News",
+          "title": "Two Singapore-registered vessels struck in Strait of Hormuz; one sinks"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/crkg7q97z078o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Container ship hit by projectile sinks in Strait of Hormuz, Singapore says"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/7e2c57a29fd5c3afc7ffe0cf63954bf3",
+          "source": "Associated Press",
+          "title": "Iran says a ship sank after striking a mine in Strait of Hormuz"
+        },
+        {
+          "id": 3,
+          "url": "https://malaysia.news.yahoo.com/two-singapore-registered-vessels-struck-133140800.html",
+          "source": "Reuters via Yahoo News",
+          "title": "Two Singapore-registered vessels struck in Strait of Hormuz; one sinks"
+        }
+      ],
+      "tags": [
+        "shipping",
+        "Iran",
+        "Strait of Hormuz"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "albania-student-protests",
+      "headline": "Student protesters attack government buildings in Tirana",
+      "dek": "Two days of demonstrations over education reforms escalated into violence in Albania’s capital.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "Students joined anti-government demonstrations in Tirana, where protesters attacked government buildings and other sites.",
+        "AP said student groups organized demonstrations for education reform and unrest lasted more than eight hours.",
+        "Police were deployed during a second day of protests; a final tally of participants and damage is not established."
+      ],
+      "body": [
+        {
+          "text": "BBC and AP reported that protests in Tirana escalated October 14, with attacks on government buildings. DW reported a fire at the Education Ministry during the second day.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP said student groups organized the latest demonstrations to seek education reforms, within a broader anti-government movement that had held rallies for months.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "The Guardian reported protesters also cited rising education costs and corruption. The EU delegation raised concerns about alleged police violence; this is a reported statement, not a final finding on every incident.",
+          "citations": [
+            2,
+            4
+          ]
+        },
+        {
+          "text": "The protests increase pressure on Albania’s government. Reporting does not establish whether they will lead to policy changes or a negotiated response.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The unrest connects education policy to wider anti-government grievances and raises questions about state response and reform commitments in Albania.",
+      "editorNote": "Causes and police conduct are attributed to reporting and the EU delegation; no outcome is confirmed.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/0d94664379a2b470a1f7d95429c4e446",
+          "source": "Associated Press",
+          "title": "Riots erupt in Albania’s capital as students join anti-government movement"
+        },
+        {
+          "url": "https://amp.dw.com/en/albania-fire-at-education-ministry-as-students-protest/a-79661193",
+          "source": "Deutsche Welle",
+          "title": "Albania: Fire at Education Ministry as students protest"
+        },
+        {
+          "url": "https://www.theguardian.com/world/2026/oct/14/student-protests-tirana-albania-police-clashes",
+          "source": "The Guardian",
+          "title": "Student protests in Albania turn violent as demonstrators clash with police"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cq80zk5k2ep4o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Student protesters attack government buildings in Tirana"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/0d94664379a2b470a1f7d95429c4e446",
+          "source": "Associated Press",
+          "title": "Riots erupt in Albania’s capital as students join anti-government movement"
+        },
+        {
+          "id": 3,
+          "url": "https://amp.dw.com/en/albania-fire-at-education-ministry-as-students-protest/a-79661193",
+          "source": "Deutsche Welle",
+          "title": "Albania: Fire at Education Ministry as students protest"
+        },
+        {
+          "id": 4,
+          "url": "https://www.theguardian.com/world/2026/oct/14/student-protests-tirana-albania-police-clashes",
+          "source": "The Guardian",
+          "title": "Student protests in Albania turn violent as demonstrators clash with police"
+        }
+      ],
+      "tags": [
+        "Albania",
+        "protests",
+        "education"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "eu-china-hybrid-import-quota",
+      "headline": "EU to limit Chinese hybrid vehicle imports to 350,000 a year",
+      "dek": "A reported interim trade arrangement would set an annual quota for vehicle imports.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "The Guardian reported the EU agreed to limit Chinese hybrid vehicle imports to 350,000 a year.",
+        "AP described the quota as part of an interim arrangement covering hybrids made in China.",
+        "The reported measure is not a general ban on Chinese cars."
+      ],
+      "body": [
+        {
+          "text": "The Guardian and AP reported an interim arrangement setting a quota of 350,000 Chinese-made hybrid vehicles a year.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP said the quota includes plug-in hybrids and cited two senior EU officials. Chinese carmakers have expanded exports amid weaker domestic demand.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The quota is part of a wider trade dispute over vehicle imports and competition. AP reported the arrangement could also lower some tariffs on EU products; those terms are separate from the quota.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Reports do not describe a blanket prohibition. Implementation details and long-term effects remain open and depend on how the limit is applied.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The agreement adjusts access in China–EU automotive supply chains through a negotiated limit rather than a broad import ban.",
+      "editorNote": "Quota and scope cross-checked against AP; longer-term effects remain uncertain.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/0d0bf31b40a68fa75ea6ccf8e9f6467e",
+          "source": "Associated Press",
+          "title": "China’s carmakers export more as EU caps hybrid vehicle imports at 350,000 a year"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.theguardian.com/environment/2026/oct/12/eu-deal-china-limit-imports-hybrid-electric-vehicles",
+          "source": "The Guardian",
+          "title": "EU to limit Chinese hybrid vehicle imports to 350,000 a year"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/0d0bf31b40a68fa75ea6ccf8e9f6467e",
+          "source": "Associated Press",
+          "title": "China’s carmakers export more as EU caps hybrid vehicle imports at 350,000 a year"
+        }
+      ],
+      "tags": [
+        "European Union",
+        "China",
+        "trade"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "uk-argentina-falklands-oil-interpol",
+      "headline": "UK asks Interpol to reject Argentina’s ‘politically motivated’ requests for Falklands oil arrests",
+      "dek": "London objected to Argentine requests linked to oil exploration in the disputed Falklands/Malvinas area.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "The Guardian reported the UK asked Interpol to reject Argentine arrest requests linked to oil activity around the Falklands.",
+        "AP separately reported Argentina took its dispute with the UK over the islands’ oil industry to an international tribunal.",
+        "The reports describe distinct legal steps in a wider dispute, not an Interpol ruling."
+      ],
+      "body": [
+        {
+          "text": "The Guardian reported the UK asked Interpol not to act on Argentine requests it called politically motivated, concerning people linked to oil exploration in the Falklands. It did not report an Interpol decision.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP reported Argentina took its dispute with the UK over the Falklands oil industry to an international tribunal. This is the same wider dispute but a separate legal track.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The dispute concerns competing sovereignty claims and authority to license offshore oil activity. Neither report indicates a change in territorial control or resolution of sovereignty.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Open questions include how Interpol handles the requests and whether the tribunal process advances Argentina’s challenge. Reports confirm escalation, not an arrest or final ruling.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The dispute joins maritime resources, sovereignty claims and international policing institutions, giving procedural decisions diplomatic weight before a final outcome.",
+      "editorNote": "AP covers the tribunal step, not the exact Interpol request; both concern the wider Falklands oil dispute.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/2a78578f0a9ffda403f4721c4e1d304f",
+          "source": "Associated Press",
+          "title": "Argentina takes fight with UK over Falklands’ oil industry to international tribunal"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.theguardian.com/uk-news/2026/oct/13/britain-interpol-reject-argentina-falkland-islands-arrests",
+          "source": "The Guardian",
+          "title": "UK asks Interpol to reject Argentina’s ‘politically motivated’ requests for Falklands oil arrests"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/2a78578f0a9ffda403f4721c4e1d304f",
+          "source": "Associated Press",
+          "title": "Argentina takes fight with UK over Falklands’ oil industry to international tribunal"
+        }
+      ],
+      "tags": [
+        "Falkland Islands",
+        "Argentina",
+        "oil",
+        "Interpol"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "russia-detains-japanese-journalist",
+      "headline": "Russia arrests Japanese journalist on allegations of spying",
+      "dek": "Moscow said the FSB detained a Japanese newspaper correspondent on Sakhalin; Japan sought information and consular access.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "Russia’s FSB said it detained a Japanese journalist on Sakhalin and accused him of espionage.",
+        "Japan protested and requested an explanation, consular access and humane treatment, according to AP.",
+        "The arrest does not establish the alleged espionage."
+      ],
+      "body": [
+        {
+          "text": "The Guardian, AP and Euronews reported that Russia’s FSB detained a Japanese journalist on Sakhalin and accused him of spying. The reports identified him as a Hokkaido Shimbun correspondent.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "AP reported Japan lodged a protest and sought an explanation, consular access and humane treatment. Euronews said the journalist had recently covered regional issues in the Russian Far East.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The accusation comes amid tension between Moscow and Tokyo, including a dispute over the Kuril Islands. The arrest and accusation are confirmed as Russian statements; the alleged conduct has not been independently established.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Open questions include consular access, the evidence Russia presents, and whether the journalist will face trial. The reports do not resolve them.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The detention adds a consular and press-freedom dispute to Russia–Japan tensions over territory and regional security.",
+      "editorNote": "Espionage is an allegation by Russian authorities, not an established finding.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/5b4ae97e83d638c191d8b32c3e119713",
+          "source": "Associated Press",
+          "title": "Tokyo protests Russia’s arrest of Japanese journalist on suspicion of spying"
+        },
+        {
+          "url": "https://www.euronews.com/2026/10/14/russia-arrests-japanese-hokkaido-shimbun-journalist-on-suspicion-of-spying",
+          "source": "Euronews",
+          "title": "Russia arrests Japanese Hokkaido Shimbun journalist on suspicion of spying"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.theguardian.com/world/2026/oct/14/russia-detains-japanese-journalist-suspicion-spying",
+          "source": "The Guardian",
+          "title": "Russia arrests Japanese journalist on allegations of spying"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/5b4ae97e83d638c191d8b32c3e119713",
+          "source": "Associated Press",
+          "title": "Tokyo protests Russia’s arrest of Japanese journalist on suspicion of spying"
+        },
+        {
+          "id": 3,
+          "url": "https://www.euronews.com/2026/10/14/russia-arrests-japanese-hokkaido-shimbun-journalist-on-suspicion-of-spying",
+          "source": "Euronews",
+          "title": "Russia arrests Japanese Hokkaido Shimbun journalist on suspicion of spying"
+        }
+      ],
+      "tags": [
+        "Russia",
+        "Japan",
+        "journalism"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "mexico-platform-minor-safety",
+      "headline": "Mexico to force Meta, TikTok, and X to better protect minors on platform",
+      "dek": "A presidential decree requires online platforms to limit minors’ exposure to violent and sexual content.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "President Claudia Sheinbaum signed a decree requiring platforms to protect minors from harmful content.",
+        "Reuters reported officials had consulted Meta, Microsoft, Apple, TikTok, Google, X and Huawei.",
+        "Implementation and enforcement details remain to be tested."
+      ],
+      "body": [
+        {
+          "text": "Al Jazeera and Reuters reported that Mexican President Claudia Sheinbaum signed a decree requiring digital platforms, including Meta, TikTok and X, to protect minors from harmful content.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The decree requires platforms to restrict minors’ exposure to violence, harassment and sexual abuse content and remove risky material from minors’ profiles, Al Jazeera reported.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Reuters reported that officials had met platform representatives before the decree. The reports describe a new government requirement, not a tested implementation.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The scope of covered services, enforcement process and impact on lawful content remain open. Practical effects depend on implementing details.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The decree adds a national child-safety obligation for major platforms and raises implementation questions for cross-border services.",
+      "editorNote": "Kept the decree’s stated scope; implementation remains open.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/stock-market-news/mexico-to-require-digital-platforms-to-protect-minors-from-violent-sexual-content-4949581",
+          "source": "Reuters via Investing.com",
+          "title": "Mexico to require digital platforms to protect minors from violent, sexual content"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.aljazeera.com/news/2026/10/14/mexico-to-force-meta-tiktok-and-x-to-better-protect-minors-on-platform",
+          "source": "Al Jazeera",
+          "title": "Mexico to force Meta, TikTok, and X to better protect minors on platform"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/stock-market-news/mexico-to-require-digital-platforms-to-protect-minors-from-violent-sexual-content-4949581",
+          "source": "Reuters via Investing.com",
+          "title": "Mexico to require digital platforms to protect minors from violent, sexual content"
+        }
+      ],
+      "tags": [
+        "Mexico",
+        "platform regulation",
+        "child safety"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "trump-russia-diesel-ukraine",
+      "headline": "How Trump's diesel deal with Russia will impact the United States and Ukraine",
+      "dek": "The reported plan links U.S. fuel-supply concerns to sanctions policy and support for Ukraine.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "DW reported a U.S. arrangement involving Russian diesel as Washington responds to supply pressure.",
+        "Axios reported bipartisan senators called the reported sanctions relief a betrayal of Ukraine.",
+        "The scale of supply, legal implementation and effects on the war remain open."
+      ],
+      "body": [
+        {
+          "text": "DW reported that President Donald Trump’s diesel arrangement with Russia could affect U.S. fuel supply and Ukraine policy. Axios separately reported a bipartisan group of senators criticized the plan and said lifting sanctions would benefit Moscow.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The reports place the arrangement against a global diesel squeeze and U.S. efforts to pressure Russia over its invasion of Ukraine. They describe political positions and a proposed supply arrangement, not a completed change in fuel flows.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Public reporting does not establish final delivery volumes, the precise sanctions instruments affected or shipment timing. The senators’ criticism is a political response, not a legal block on the arrangement.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Open questions include whether the plan is implemented, how much fuel reaches the market and whether sanctions changes alter Russia’s revenues or U.S.–Ukraine policy. Effects cannot yet be measured.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The proposal puts energy access and sanctions enforcement in tension with U.S. policy toward Russia’s war in Ukraine.",
+      "editorNote": "Distinguishes the reported plan from realized deliveries and attributes criticism to senators.",
+      "cluster": [
+        {
+          "url": "https://www.axios.com/2026/10/13/trump-russian-diesel-deal-betrayal-bipartisan-letter",
+          "source": "Axios",
+          "title": "Russian diesel deal “a betrayal,” bipartisan coalition says"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.dw.com/en/how-trump-s-diesel-deal-with-russia-will-impact-the-united-states-and-ukraine/a-79658596?maca=en-rss-en-world-4025-rdf",
+          "source": "Deutsche Welle",
+          "title": "How Trump's diesel deal with Russia will impact the United States and Ukraine"
+        },
+        {
+          "id": 2,
+          "url": "https://www.axios.com/2026/10/13/trump-russian-diesel-deal-betrayal-bipartisan-letter",
+          "source": "Axios",
+          "title": "Russian diesel deal “a betrayal,” bipartisan coalition says"
+        }
+      ],
+      "tags": [
+        "United States",
+        "Russia",
+        "Ukraine",
+        "energy",
+        "sanctions"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "houthi-attacks-disrupt-pilgrim-travel",
+      "headline": "Houthi attacks disrupt travel plans for Mecca pilgrims",
+      "dek": "Missile and drone attacks in Saudi Arabia disrupted travel as pilgrims arrived for Umrah.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "Al Jazeera reported Houthi attacks in Saudi Arabia disrupted travel plans for people heading to Mecca for Umrah.",
+        "AP reported repeated Houthi missile and drone strikes on Saudi airports, with deaths and airport disruption.",
+        "The reports concern Saudi territory and travel disruption; they do not report an attack on Mecca itself."
+      ],
+      "body": [
+        {
+          "text": "Al Jazeera reported that pilgrims traveling to Mecca for Umrah faced disruption as Houthi attacks struck Saudi Arabia. The report describes altered travel plans, not an attack on the holy city.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The Associated Press separately reported Houthi missile and drone attacks on Saudi airports, including deadly strikes in Riyadh. Its coverage cited Saudi authorities and regional officials.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The attacks form part of a wider escalation between the Houthis and Saudi Arabia. The reports confirm airport strikes and travel disruption but do not establish the total number of pilgrims affected.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Open questions include how long airport operations and pilgrimage travel will remain disrupted, whether attacks continue, and what response Saudi Arabia will take.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The attacks affect civilian mobility and religious travel while widening pressure on Saudi infrastructure and regional security.",
+      "editorNote": "The reporting concerns Saudi airports and pilgrimage travel; it does not claim Mecca was attacked.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/d5c0345968e682ac551e9cb99ecfeec6",
+          "source": "Associated Press",
+          "title": "Why Saudi Arabia has struggled to defend itself against the Houthis’ recent attacks"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/houthi-attacks-disrupt-travel-plans-for-mecca-pilgrims",
+          "source": "Al Jazeera",
+          "title": "Houthi attacks disrupt travel plans for Mecca pilgrims"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/d5c0345968e682ac551e9cb99ecfeec6",
+          "source": "Associated Press",
+          "title": "Why Saudi Arabia has struggled to defend itself against the Houthis’ recent attacks"
+        }
+      ],
+      "tags": [
+        "Saudi Arabia",
+        "Yemen",
+        "Houthis",
+        "pilgrimage"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

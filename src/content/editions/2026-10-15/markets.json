@@ -1,0 +1,652 @@
+{
+  "date": "2026-10-15",
+  "generatedAt": "2026-10-15T07:10:39+09:00",
+  "vertical": "markets",
+  "lang": "en",
+  "title": "Inflation, credit and corporate restructuring",
+  "summary": "Eight market developments had independent coverage or primary data. The Fannie Mae forecast and small-cap decline lacked a second independent report in the collected set; Lockheed expansion items were overlapping company-news syndications. Market-data and SEC EDGAR collectors were unavailable.",
+  "stories": [
+    {
+      "slug": "us-cpi-september-2026",
+      "headline": "Here's the inflation breakdown for September 2026 — in one chart",
+      "dek": "U.S. consumer prices rose faster in September, with gasoline accounting for over half the monthly increase.",
+      "type": "DATA",
+      "readMinutes": 3,
+      "tldr": [
+        "CPI rose 0.6% in September from August and 3.7% over the 12 months through September.",
+        "BLS said gasoline prices rose 9.1%, accounting for more than half of the monthly increase.",
+        "The monthly gain accelerated from 0.4% in August; shelter prices rose 0.4%."
+      ],
+      "body": [
+        {
+          "text": "The Bureau of Labor Statistics reported CPI increased 0.6% on a seasonally adjusted basis in September, after 0.4% in August. The index rose 3.7% over 12 months.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "BLS said gasoline rose 9.1% in September and accounted for over half the monthly increase. Energy rose 5.2%, while shelter rose 0.4%; this describes the index, not every household.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP also reported the 3.7% annual rate and 0.6% monthly rise. CNBC’s breakdown focused on the category contributions in the report.",
+          "citations": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "The September figures are backward-looking price data and do not determine the Federal Reserve’s next decision. Policy responses remain a separate development.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Energy’s contribution helps explain how inflation affects household costs and rate expectations, while the release itself does not imply a policy decision.",
+      "editorNote": "Figures checked against the BLS release; no market prediction or investment advice.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/3985019a54c82421e6112fb57baba048",
+          "source": "Associated Press",
+          "title": "Inflation worsened last month to 3.7% in sign that prices remain elevated"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-breakdown-september-2026.html",
+          "source": "CNBC",
+          "title": "Here’s the inflation breakdown for September 2026 — in one chart"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm",
+          "source": "U.S. Bureau of Labor Statistics",
+          "title": "Consumer Price Index News Release — September 2026"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/3985019a54c82421e6112fb57baba048",
+          "source": "Associated Press",
+          "title": "Inflation worsened last month to 3.7% in sign that prices remain elevated"
+        },
+        {
+          "id": 3,
+          "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-breakdown-september-2026.html",
+          "source": "CNBC",
+          "title": "Here's the inflation breakdown for September 2026 — in one chart"
+        }
+      ],
+      "tags": [
+        "inflation",
+        "CPI",
+        "United States",
+        "prices"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "coreweave-ai-bond-yields",
+      "headline": "CoreWeave shares tumble as bond yields near 15% on concern about AI borrowing binge",
+      "dek": "CoreWeave’s falling shares and rising borrowing costs became a focus of a wider sell-off in debt-heavy AI infrastructure firms.",
+      "type": "DATA",
+      "readMinutes": 3,
+      "tldr": [
+        "CoreWeave shares fell sharply October 14 amid concern about debt-funded AI infrastructure spending.",
+        "CNBC reported bond yields approached 15%; MarketWatch said the bond decline raised broader credit-market concerns.",
+        "Reuters reported higher rate expectations weighed on CoreWeave, Nebius, Dell and HPE."
+      ],
+      "body": [
+        {
+          "text": "CNBC reported CoreWeave shares tumbled and bond yields approached 15% on October 14. MarketWatch said the bond decline raised concern about possible stress beyond the company.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Reuters described a wider decline in debt-heavy AI firms as higher rate expectations raised questions about financing the sector’s build-out.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "The reports connect price moves to borrowing costs and capital needs. They do not establish that CoreWeave is in default or cannot meet customer commitments.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Bond yields reflect returns investors require and move with market prices. The sell-off shows financing concern and volatility, not a definitive measure of future solvency or AI demand.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The development shows how debt financing links AI data-center expansion to credit conditions while longer-term demand remains uncertain.",
+      "editorNote": "No company default is established; reports attribute the move to financing concerns and rate expectations.",
+      "cluster": [
+        {
+          "url": "https://www.marketwatch.com/story/coreweave-sparks-worry-about-broader-credit-market-stress-as-its-bonds-tumble-887458e4?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "CoreWeave’s AI bonds tumble, raising red flags for the wider market"
+        },
+        {
+          "url": "https://www.investing.com/news/economy-news/ai-infrastructure-firms-slump-as-us-rate-hike-bets-rise-4949759",
+          "source": "Reuters via Investing.com",
+          "title": "AI infrastructure firms slump as US rate hike bets rise"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/14/coreweave-stock-bond-yields-ai-debt.html",
+          "source": "CNBC",
+          "title": "CoreWeave shares tumble as bond yields near 15% on concern about AI borrowing binge"
+        },
+        {
+          "id": 2,
+          "url": "https://www.marketwatch.com/story/coreweave-sparks-worry-about-broader-credit-market-stress-as-its-bonds-tumble-887458e4?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "CoreWeave’s AI bonds tumble, raising red flags for the wider market"
+        },
+        {
+          "id": 3,
+          "url": "https://www.investing.com/news/economy-news/ai-infrastructure-firms-slump-as-us-rate-hike-bets-rise-4949759",
+          "source": "Reuters via Investing.com",
+          "title": "AI infrastructure firms slump as US rate hike bets rise"
+        }
+      ],
+      "tags": [
+        "AI infrastructure",
+        "credit markets",
+        "bonds"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "dell-ai-infrastructure-selloff",
+      "headline": "Dell stock plunges 11%, leading data center sell-off as fears mount about 'enterprise AI timing'",
+      "dek": "Investors reassessed the timing and financing of enterprise AI spending as Dell and other infrastructure shares fell.",
+      "type": "DATA",
+      "readMinutes": 3,
+      "tldr": [
+        "CNBC reported Dell shares fell 11% October 14, leading data-center-related stocks lower.",
+        "Reuters said higher rate expectations sharpened financing concerns across AI infrastructure names including Dell.",
+        "MarketWatch also reported Dell’s decline as part of a broader hardware retreat."
+      ],
+      "body": [
+        {
+          "text": "CNBC reported an 11% decline in Dell shares and linked it to concern about when enterprise AI spending would materialize.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Reuters reported Dell fell with other infrastructure firms after inflation strengthened rate expectations. It said Barclays lowered Dell and HPE ratings to equal-weight from overweight.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "MarketWatch separately described Dell as one of the S&P 500’s weakest performers that day. The reports describe investor reassessment across AI infrastructure, not a Dell-only announcement.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "The coverage records a one-day market move and analyst concerns; it does not establish that enterprise AI demand has been cancelled or predict Dell’s future results.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Dell’s move reflects market sensitivity to infrastructure suppliers when investors question how fast enterprise AI projects translate into spending and returns.",
+      "editorNote": "The 11% figure is for the reported session; no forward claim is made.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/economy-news/ai-infrastructure-firms-slump-as-us-rate-hike-bets-rise-4949759",
+          "source": "Reuters via Investing.com",
+          "title": "AI infrastructure firms slump as US rate hike bets rise"
+        },
+        {
+          "url": "https://www.marketwatch.com/story/why-dells-stock-was-one-of-the-s-p-500s-biggest-laggards-on-wednesday-70ce279e?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Why Dell’s stock was one of the S&P 500’s biggest laggards on Wednesday"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/14/dell-stock-barclays-enterprise-ai.html",
+          "source": "CNBC",
+          "title": "Dell stock plunges 11%, leading data center sell-off as fears mount about 'enterprise AI timing'"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/economy-news/ai-infrastructure-firms-slump-as-us-rate-hike-bets-rise-4949759",
+          "source": "Reuters via Investing.com",
+          "title": "AI infrastructure firms slump as US rate hike bets rise"
+        },
+        {
+          "id": 3,
+          "url": "https://www.marketwatch.com/story/why-dells-stock-was-one-of-the-s-p-500s-biggest-laggards-on-wednesday-70ce279e?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Why Dell’s stock was one of the S&P 500’s biggest laggards on Wednesday"
+        }
+      ],
+      "tags": [
+        "Dell",
+        "AI infrastructure",
+        "equities"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "netflix-workforce-cuts",
+      "headline": "Netflix to lay off roughly 1,000 employees, or 6% of workforce",
+      "dek": "The company told employees it is cutting about 6% of global staff in its largest reduction since 2022.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "Netflix plans to cut about 1,000 jobs, or roughly 6% of its workforce, according to a CEO memo.",
+        "AP said product, technology, legal and human-resources teams would be most affected.",
+        "Netflix had about 16,000 full-time employees at end-2025, according to filings cited by AP."
+      ],
+      "body": [
+        {
+          "text": "CNBC and AP reported Netflix plans to lay off around 1,000 employees, about 6% of its workforce. Co-CEOs Ted Sarandos and Greg Peters shared the plan in an October 14 memo.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP said the memo described organizational changes and identified product, technology, legal and human-resources teams as most affected. Netflix offered no further comment to AP.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The scale would make this Netflix’s largest layoff round in several years. AP cited company filings showing around 16,000 full-time employees at the end of 2025.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Reports do not provide a full country breakdown, role counts or a quantified savings target. Netflix described the decision as resource prioritization.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The cuts are a significant operating-cost and workforce decision, but public reports do not quantify expected savings or product effects.",
+      "editorNote": "Counts and affected teams are attributed to the CEO memo; no investment advice is included.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/2290c8472a155adb9c4b85fdc885bc7e",
+          "source": "Associated Press",
+          "title": "Netflix is laying off 6% of its workforce, in biggest round of job cuts at streaming giant in years"
+        },
+        {
+          "url": "https://techcrunch.com/2026/10/14/netflix-to-lay-off-1000-staff-amid-intensifying-competition-for-user-attention/",
+          "source": "TechCrunch",
+          "title": "Netflix to lay off 1,000 staff amid intensifying competition for user attention"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/14/netflix-layoffs.html",
+          "source": "CNBC",
+          "title": "Netflix to lay off roughly 1,000 employees, or 6% of workforce"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/2290c8472a155adb9c4b85fdc885bc7e",
+          "source": "Associated Press",
+          "title": "Netflix is laying off 6% of its workforce, in biggest round of job cuts at streaming giant in years"
+        },
+        {
+          "id": 3,
+          "url": "https://techcrunch.com/2026/10/14/netflix-to-lay-off-1000-staff-amid-intensifying-competition-for-user-attention/",
+          "source": "TechCrunch",
+          "title": "Netflix to lay off 1,000 staff amid intensifying competition for user attention"
+        }
+      ],
+      "tags": [
+        "Netflix",
+        "media",
+        "employment"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "imf-ai-correction-financial-stability-risk",
+      "headline": "Threat of AI share crash puts world financial stability at risk, says IMF",
+      "dek": "The IMF’s October stability report says an AI-related market correction could be amplified by leverage and concentrated exposures.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "The IMF said financial-stability risks remain elevated despite resilient markets.",
+        "Its October report identified weaker AI investment or profitability expectations as a possible trigger for correction in AI-related asset prices.",
+        "The report describes a risk scenario, not a forecast that a crash will occur."
+      ],
+      "body": [
+        {
+          "text": "The Guardian reported that the IMF’s October 2026 Global Financial Stability Report warned that an AI-related asset-price correction could threaten financial stability. The report said risks remained elevated even as markets had been resilient.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The IMF’s own report says weaker or less durable AI investment and profitability could trigger a correction in AI-related asset prices. It says leverage and concentrated exposures could amplify the adjustment.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The Associated Press separately covered the IMF’s warning about risks from the AI boom and debt. The IMF document is the primary source for the risk assessment; the news reports provide independent coverage.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "The report presents a conditional risk, not a prediction that AI shares will crash. The scale and timing of any correction, and its effects on credit and financial institutions, remain uncertain.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The warning connects concentrated AI valuations and borrowing to wider market resilience, making financing links a systemic question rather than a sector-only concern.",
+      "editorNote": "The IMF characterizes this as a risk scenario; the edition does not convert it into a crash prediction.",
+      "cluster": [
+        {
+          "url": "https://www.imf.org/en/publications/gfsr/issues/2026/10/13/global-financial-stability-report-october-2026",
+          "source": "International Monetary Fund",
+          "title": "Global Financial Stability Report: Resilience, Risk, and Transformation"
+        },
+        {
+          "url": "https://apnews.com/article/23aa01c0c6922fbf0b564a0ff9b2c8e5",
+          "source": "Associated Press",
+          "title": "IMF raises its forecast for world growth this year but warns of risks from AI boom and debt"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
+          "source": "The Guardian",
+          "title": "Threat of AI share crash puts world financial stability at risk, says IMF"
+        },
+        {
+          "id": 2,
+          "url": "https://www.imf.org/en/publications/gfsr/issues/2026/10/13/global-financial-stability-report-october-2026",
+          "source": "International Monetary Fund",
+          "title": "Global Financial Stability Report: Resilience, Risk, and Transformation"
+        },
+        {
+          "id": 3,
+          "url": "https://apnews.com/article/23aa01c0c6922fbf0b564a0ff9b2c8e5",
+          "source": "Associated Press",
+          "title": "IMF raises its forecast for world growth this year but warns of risks from AI boom and debt"
+        }
+      ],
+      "tags": [
+        "IMF",
+        "financial stability",
+        "AI valuation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "anduril-tender-near-90-billion-valuation",
+      "headline": "Anduril employee tender offer would value the defense tech startup at $90 billion",
+      "dek": "Bloomberg and CNBC reported a proposed employee tender that would let staff sell shares at a valuation near $90 billion.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "Anduril opened an employee share tender on October 13, Bloomberg reported, at a valuation near $90 billion.",
+        "The offer reportedly sets a $94.80 share price and caps the transaction at about $1.3 billion.",
+        "The terms were attributed to people familiar with the plans; the company had not publicly confirmed them in the cited reports."
+      ],
+      "body": [
+        {
+          "text": "Bloomberg reported Anduril Industries was allowing employees to sell shares through a tender offer that could value the defense technology company at roughly $90 billion. CNBC also reported the proposed tender.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "People familiar with the plans told Bloomberg the offer was priced at $94.80 per share, capped at about $1.3 billion, and opened October 13 with a November 9 close date. These terms were not publicly announced by the company in the reports.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "A tender gives existing shareholders an opportunity to sell shares without an initial public offering. The reported valuation is an implied transaction price, not a public-market price or completed company sale.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "The number of shares employees tender, final transaction size and whether the offer closes on those terms remain open. The reporting relies on people familiar with private plans.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The reported tender offers a private-market valuation signal for a large defense-technology company, but it is a proposed secondary transaction rather than a public listing or completed financing round.",
+      "editorNote": "Valuation and terms are reported by Bloomberg/CNBC from unnamed sources; company confirmation and final closing remain outstanding.",
+      "cluster": [
+        {
+          "url": "https://news.bloomberglaw.com/private-equity/anduril-to-sell-insider-shares-at-roughly-90-billion-valuation-correct",
+          "source": "Bloomberg Law",
+          "title": "Anduril to Sell Insider Shares at Roughly $90 Billion Valuation"
+        },
+        {
+          "url": "https://qz.com/anduril-employee-tender-offer-90-billion-valuation-101426",
+          "source": "Quartz",
+          "title": "Anduril employee tender offer values company near $90 billion"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/14/anduril-tender-offer-valuation.html",
+          "source": "CNBC",
+          "title": "Anduril employee tender offer would value the defense tech startup at $90 billion"
+        },
+        {
+          "id": 2,
+          "url": "https://news.bloomberglaw.com/private-equity/anduril-to-sell-insider-shares-at-roughly-90-billion-valuation-correct",
+          "source": "Bloomberg Law",
+          "title": "Anduril to Sell Insider Shares at Roughly $90 Billion Valuation"
+        },
+        {
+          "id": 3,
+          "url": "https://qz.com/anduril-employee-tender-offer-90-billion-valuation-101426",
+          "source": "Quartz",
+          "title": "Anduril employee tender offer values company near $90 billion"
+        }
+      ],
+      "tags": [
+        "Anduril",
+        "private markets",
+        "defense technology"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "fox-roku-shareholder-approval",
+      "headline": "Fox, Roku shareholders approve $22 billion streaming deal",
+      "dek": "Shareholders approved the proposed acquisition, removing one condition while regulatory review remains.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "Fox and Roku shareholders approved the proposed $22 billion transaction, according to preliminary vote tallies.",
+        "The deal would combine Fox’s media businesses with Roku’s streaming platform and advertising reach.",
+        "Regulatory approval and other closing conditions remain before completion."
+      ],
+      "body": [
+        {
+          "text": "Investing.com and TheWrap reported that shareholders of both Fox and Roku approved the proposed acquisition on October 14. Preliminary vote tallies cleared the shareholder-approval condition.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The transaction was announced in June as a cash-and-stock acquisition valued at about $22 billion. The current development is the shareholder vote, not a completed merger.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "TheWrap reported approval advances the deal while regulatory review remains. Earlier company materials said Fox would pay $160 per Roku share in cash and stock.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The transaction still depends on regulatory clearance and other closing conditions. Reports do not establish when it will close or what changes customers will see.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The vote advances a major streaming and advertising consolidation but leaves regulatory review and closing execution as the next gates.",
+      "editorNote": "The story distinguishes shareholder approval from a completed merger; regulatory clearance remains outstanding.",
+      "cluster": [
+        {
+          "url": "https://www.thewrap.com/industry-news/deals-ma/fox-roku-acquisition-shareholders-approved/",
+          "source": "TheWrap",
+          "title": "Fox’s $22 Billion Roku Acquisition Secures Shareholder Approval"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.investing.com/news/company-news/fox-roku-shareholders-approve-22-billion-streaming-deal-4950152",
+          "source": "Investing.com",
+          "title": "Fox, Roku shareholders approve $22 billion streaming deal"
+        },
+        {
+          "id": 2,
+          "url": "https://www.thewrap.com/industry-news/deals-ma/fox-roku-acquisition-shareholders-approved/",
+          "source": "TheWrap",
+          "title": "Fox’s $22 Billion Roku Acquisition Secures Shareholder Approval"
+        }
+      ],
+      "tags": [
+        "Fox",
+        "Roku",
+        "streaming",
+        "M&A"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "us-stocks-worst-day-since-july-inflation",
+      "headline": "US stocks drop to their worst day since July as inflation worsens",
+      "dek": "The September inflation report pushed bond yields higher and weighed on equities, particularly AI-linked technology names.",
+      "type": "DATA",
+      "readMinutes": 3,
+      "tldr": [
+        "U.S. stocks had their worst day since July after September inflation accelerated.",
+        "Higher Treasury yields and expectations of tighter Federal Reserve policy added pressure.",
+        "AI-linked technology shares were among the session’s major decliners."
+      ],
+      "body": [
+        {
+          "text": "The Associated Press reported that U.S. stocks fell to their worst day since July after September inflation data showed prices rose 3.7% over the year.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The report said pressure came as bond yields rose and investors assessed the possibility of higher interest rates. Reuters likewise described a broad equity decline as inflation and financing concerns weighed on technology shares.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP reported that companies tied to the AI boom contributed substantially to the market’s losses. Reuters reported declines among data-center operators and AI infrastructure firms as borrowing costs came under scrutiny.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The market reaction records how investors repriced risk after the data; it does not establish the Federal Reserve’s next decision or a lasting change in earnings outlook.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The sell-off connects inflation, interest-rate expectations and the debt-financed AI build-out, showing how macroeconomic pressure can reach concentrated technology exposures.",
+      "editorNote": "Market reaction is described as a one-day move; it is not a policy forecast or investment signal.",
+      "cluster": [
+        {
+          "url": "https://www.marketscreener.com/news/trading-day-tech-melt-ce785dd2d08bf022",
+          "source": "Reuters via MarketScreener",
+          "title": "Trading Day: Tech melt"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/704d3190f0fba2908df07c85f26346ec",
+          "source": "Associated Press",
+          "title": "US stocks drop to their worst day since July as inflation worsens"
+        },
+        {
+          "id": 2,
+          "url": "https://www.marketscreener.com/news/trading-day-tech-melt-ce785dd2d08bf022",
+          "source": "Reuters via MarketScreener",
+          "title": "Trading Day: Tech melt"
+        }
+      ],
+      "tags": [
+        "United States",
+        "equities",
+        "inflation",
+        "AI infrastructure"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,652 @@
+{
+  "date": "2026-10-15",
+  "generatedAt": "2026-10-15T07:10:39+09:00",
+  "vertical": "markets",
+  "lang": "ko",
+  "title": "물가, 신용과 기업 구조조정",
+  "summary": "독립 보도 또는 1차 자료가 확인된 시장 소식 8건을 실었다. Fannie Mae 전망과 소형주 하락은 수집 자료에서 두 번째 독립 보도가 없었고 Lockheed 증설은 중복 배포된 회사 소식으로 판단했다. 시장 데이터와 SEC EDGAR 수집기는 이용할 수 없었다.",
+  "stories": [
+    {
+      "slug": "us-cpi-september-2026-ko",
+      "headline": "2026년 9월 물가 구성: 한눈에 보는 인플레이션",
+      "dek": "미국 소비자물가는 9월 더 빠르게 상승했고 휘발유가 월간 상승분의 절반 이상을 차지했다.",
+      "type": "DATA",
+      "readMinutes": 3,
+      "tldr": [
+        "미국 소비자물가지수(CPI)는 9월 전월보다 0.6%, 전년 동월보다 3.7% 상승했다.",
+        "노동통계국은 9월 휘발유 가격이 9.1% 올라 월간 상승분의 절반 이상을 차지했다고 밝혔다.",
+        "월간 CPI 상승률은 8월 0.4%에서 가속했다. 주거비는 9월 0.4% 올랐다."
+      ],
+      "body": [
+        {
+          "text": "미국 노동통계국은 계절 조정한 CPI가 9월 0.6% 올랐다고 발표했다. 8월 상승률은 0.4%였으며 지난 12개월 동안 3.7% 상승했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "노동통계국에 따르면 휘발유 가격은 9월 9.1% 올라 전체 월간 상승의 절반 이상을 차지했다. 에너지는 5.2%, 주거비는 0.4% 올랐다. 이는 지수 구성이지 모든 가구의 체감 물가를 뜻하지 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP도 연간 3.7%, 월간 0.6% 상승을 보도했다. CNBC는 보고서의 품목별 기여도를 다뤘다.",
+          "citations": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "9월 수치는 과거의 가격 변화를 기록한다. 연방준비제도의 다음 결정이 정해졌다는 뜻은 아니며 정책 반응은 별도의 사안이다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "에너지 상승분은 물가 지표가 가계 비용과 금리 기대에 영향을 줄 수 있는 이유를 보여준다. 통계 발표만으로 정책 결정이 정해지지는 않는다.",
+      "editorNote": "수치는 노동통계국 발표와 대조했다. 투자 조언은 포함하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/3985019a54c82421e6112fb57baba048",
+          "source": "Associated Press",
+          "title": "Inflation worsened last month to 3.7% in sign that prices remain elevated"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-breakdown-september-2026.html",
+          "source": "CNBC",
+          "title": "Here’s the inflation breakdown for September 2026 — in one chart"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm",
+          "source": "U.S. Bureau of Labor Statistics",
+          "title": "Consumer Price Index News Release — September 2026"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/3985019a54c82421e6112fb57baba048",
+          "source": "Associated Press",
+          "title": "Inflation worsened last month to 3.7% in sign that prices remain elevated"
+        },
+        {
+          "id": 3,
+          "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-breakdown-september-2026.html",
+          "source": "CNBC",
+          "title": "Here’s the inflation breakdown for September 2026 — in one chart"
+        }
+      ],
+      "tags": [
+        "inflation",
+        "CPI",
+        "United States",
+        "prices"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "coreweave-ai-bond-yields-ko",
+      "headline": "CoreWeave 주가 급락, 채권 수익률 15% 근접…AI 차입 우려",
+      "dek": "주가 하락과 차입 비용 상승이 부채로 조달되는 AI 인프라 기업의 매도세에서 주목받았다.",
+      "type": "DATA",
+      "readMinutes": 3,
+      "tldr": [
+        "CoreWeave 주가는 10월 14일 AI 인프라 부채 조달 우려 속에 크게 하락했다.",
+        "CNBC는 회사채 수익률이 15%에 가까워졌다고 보도했고 MarketWatch는 더 넓은 신용시장 우려를 전했다.",
+        "Reuters는 금리 기대 속 CoreWeave, Nebius, Dell, HPE 주가가 하락했다고 보도했다."
+      ],
+      "body": [
+        {
+          "text": "CNBC는 10월 14일 CoreWeave 주가 급락과 회사채 수익률의 15% 근접을 보도했다. MarketWatch는 채권 하락이 회사 밖 신용시장 우려도 키웠다고 전했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Reuters는 금리 기대가 높아지며 AI 인프라 구축 자금 조달에 의문이 커졌다고 보도했다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "보도는 가격 움직임을 차입 비용과 자본 수요 재평가에 연결한다. CoreWeave의 채무불이행이나 고객 약속 이행 불능을 입증하지는 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "채권 수익률은 투자자가 요구하는 수익률을 반영하며 시장 가격에 따라 움직인다. 매도세는 우려와 변동성의 증거이지 지급능력이나 AI 수요의 확정 지표는 아니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이 사건은 부채 조달이 AI 데이터센터 확장을 신용시장 여건과 연결함을 보여준다. 장기 수요는 여전히 불확실하다.",
+      "editorNote": "회사 차원의 채무불이행은 확인되지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.marketwatch.com/story/coreweave-sparks-worry-about-broader-credit-market-stress-as-its-bonds-tumble-887458e4?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "CoreWeave’s AI bonds tumble, raising red flags for the wider market"
+        },
+        {
+          "url": "https://www.investing.com/news/economy-news/ai-infrastructure-firms-slump-as-us-rate-hike-bets-rise-4949759",
+          "source": "Reuters via Investing.com",
+          "title": "AI infrastructure firms slump as US rate hike bets rise"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/14/coreweave-stock-bond-yields-ai-debt.html",
+          "source": "CNBC",
+          "title": "CoreWeave shares tumble as bond yields near 15% on concern about AI borrowing binge"
+        },
+        {
+          "id": 2,
+          "url": "https://www.marketwatch.com/story/coreweave-sparks-worry-about-broader-credit-market-stress-as-its-bonds-tumble-887458e4?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "CoreWeave’s AI bonds tumble, raising red flags for the wider market"
+        },
+        {
+          "id": 3,
+          "url": "https://www.investing.com/news/economy-news/ai-infrastructure-firms-slump-as-us-rate-hike-bets-rise-4949759",
+          "source": "Reuters via Investing.com",
+          "title": "AI infrastructure firms slump as US rate hike bets rise"
+        }
+      ],
+      "tags": [
+        "AI infrastructure",
+        "credit markets",
+        "bonds"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "dell-ai-infrastructure-selloff-ko",
+      "headline": "Dell 주가 11% 급락, 데이터센터 매도세 주도…기업 AI 시점 우려",
+      "dek": "투자자들이 기업용 AI 지출 시점과 자금 조달을 재평가하면서 Dell 등 기술 인프라 주식이 하락했다.",
+      "type": "DATA",
+      "readMinutes": 3,
+      "tldr": [
+        "CNBC는 10월 14일 Dell 주가가 11% 하락해 데이터센터 관련 종목의 매도세를 이끌었다고 보도했다.",
+        "Reuters는 금리 기대가 자금 조달 우려를 키우며 Dell도 하락했다고 전했다.",
+        "MarketWatch도 Dell의 하락을 기술 하드웨어 전반의 후퇴와 연결했다."
+      ],
+      "body": [
+        {
+          "text": "CNBC는 Dell 주가가 11% 하락했으며 기업용 AI 지출 시점에 대한 우려가 있었다고 보도했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Reuters는 물가 지표 뒤 금리 기대가 높아지면서 Dell 등 AI 인프라 기업이 하락했다고 보도했다. Barclays가 Dell과 HPE 평가를 ‘동등비중’으로 낮췄다는 내용도 전했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "MarketWatch도 Dell이 당일 S&P 500에서 가장 부진한 종목 중 하나였다고 보도했다. 세 보도는 AI 인프라 전반의 재평가를 다룬다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "보도는 하루 주가 움직임과 애널리스트 우려를 기록한다. 기업용 AI 수요 취소나 Dell의 미래 실적을 입증하지 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Dell 주가는 기업용 AI 프로젝트가 지출과 수익으로 이어지는 속도에 의문이 생길 때 인프라 공급업체가 민감하게 반응함을 보여준다.",
+      "editorNote": "11%는 해당 거래일 수치이며 전망은 제시하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/economy-news/ai-infrastructure-firms-slump-as-us-rate-hike-bets-rise-4949759",
+          "source": "Reuters via Investing.com",
+          "title": "AI infrastructure firms slump as US rate hike bets rise"
+        },
+        {
+          "url": "https://www.marketwatch.com/story/why-dells-stock-was-one-of-the-s-p-500s-biggest-laggards-on-wednesday-70ce279e?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Why Dell’s stock was one of the S&P 500’s biggest laggards on Wednesday"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/14/dell-stock-barclays-enterprise-ai.html",
+          "source": "CNBC",
+          "title": "Dell stock plunges 11%, leading data center sell-off as fears mount about enterprise AI timing"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/economy-news/ai-infrastructure-firms-slump-as-us-rate-hike-bets-rise-4949759",
+          "source": "Reuters via Investing.com",
+          "title": "AI infrastructure firms slump as US rate hike bets rise"
+        },
+        {
+          "id": 3,
+          "url": "https://www.marketwatch.com/story/why-dells-stock-was-one-of-the-s-p-500s-biggest-laggards-on-wednesday-70ce279e?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Why Dell’s stock was one of the S&P 500’s biggest laggards on Wednesday"
+        }
+      ],
+      "tags": [
+        "Dell",
+        "AI infrastructure",
+        "equities"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "netflix-workforce-cuts-ko",
+      "headline": "Netflix, 직원 약 1,000명 감원…전체 인력의 6%",
+      "dek": "스트리밍 기업은 전 세계 직원의 약 6%를 줄이며 2022년 이후 가장 큰 감원을 진행한다고 알렸다.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "Netflix는 공동 CEO 메모를 통해 직원 약 1,000명, 전체 인력의 약 6%를 감원할 계획이라고 밝혔다.",
+        "AP에 따르면 제품·기술·법무·인사팀이 특히 영향을 받는다.",
+        "AP가 인용한 공시에 따르면 2025년 말 Netflix 정규직은 약 16,000명이었다."
+      ],
+      "body": [
+        {
+          "text": "CNBC와 AP는 Netflix가 직원 약 1,000명, 전체 인력의 약 6%를 감원할 계획이라고 보도했다. 공동 CEO 테드 서랜도스와 그레그 피터스가 10월 14일 메모로 직원에게 알렸다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP는 메모가 조직 변화를 설명하며 제품·기술·법무·인사팀이 가장 크게 영향을 받을 것이라고 전했다. Netflix는 메모 외에 추가 논평을 하지 않았다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이 규모라면 수년 만에 가장 큰 감원이다. AP는 2025년 말 정규직이 약 16,000명이었다는 회사 공시를 인용했다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "공개 보도는 국가별·직무별 인원이나 비용 절감 목표를 제시하지 않는다. Netflix는 메모에서 자원 배분에 관한 결정이라고 설명했다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 감원은 대형 스트리밍 기업의 중요한 운영 비용 및 인력 결정이다. 공개 보도는 예상 절감액이나 제품 영향을 수치로 제시하지 않는다.",
+      "editorNote": "인원과 영향 팀은 CEO 메모에 귀속했다. 투자 조언은 없다.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/2290c8472a155adb9c4b85fdc885bc7e",
+          "source": "Associated Press",
+          "title": "Netflix is laying off 6% of its workforce, in biggest round of job cuts at streaming giant in years"
+        },
+        {
+          "url": "https://techcrunch.com/2026/10/14/netflix-to-lay-off-1000-staff-amid-intensifying-competition-for-user-attention/",
+          "source": "TechCrunch",
+          "title": "Netflix to lay off 1,000 staff amid intensifying competition for user attention"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/14/netflix-layoffs.html",
+          "source": "CNBC",
+          "title": "Netflix to lay off roughly 1,000 employees, or 6% of workforce"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/2290c8472a155adb9c4b85fdc885bc7e",
+          "source": "Associated Press",
+          "title": "Netflix is laying off 6% of its workforce, in biggest round of job cuts at streaming giant in years"
+        },
+        {
+          "id": 3,
+          "url": "https://techcrunch.com/2026/10/14/netflix-to-lay-off-1000-staff-amid-intensifying-competition-for-user-attention/",
+          "source": "TechCrunch",
+          "title": "Netflix to lay off 1,000 staff amid intensifying competition for user attention"
+        }
+      ],
+      "tags": [
+        "Netflix",
+        "media",
+        "employment"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "imf-ai-correction-financial-stability-risk-ko",
+      "headline": "AI 주가 급락 위험이 세계 금융안정 위협할 수 있다고 IMF 경고",
+      "dek": "IMF의 10월 금융안정보고서는 레버리지와 집중 익스포저가 AI 관련 시장 조정을 키울 수 있다고 밝혔다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "IMF는 시장이 견조한 가운데서도 금융안정 위험이 높다고 밝혔다.",
+        "10월 보고서는 AI 투자나 수익성 기대가 약해지면 관련 자산 가격이 조정받을 수 있다고 지적했다.",
+        "보고서는 위험 시나리오를 제시한 것이며 주가 폭락을 예측하지 않는다."
+      ],
+      "body": [
+        {
+          "text": "가디언은 IMF의 2026년 10월 세계금융안정보고서가 AI 관련 자산 가격 조정이 금융안정을 위협할 수 있다고 경고했다고 보도했다. 시장이 견조했지만 위험은 높다고 보고서는 밝혔다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "IMF 보고서는 AI 투자나 수익성 기대가 약화되면 관련 자산 가격이 조정될 수 있다고 설명한다. 레버리지와 집중 익스포저가 조정을 키울 수 있다고 지적했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP도 AI 붐과 부채에 따른 위험에 관한 IMF 경고를 별도로 보도했다. 위험 평가는 IMF 문서가 1차 출처이며 뉴스 보도는 독립적인 전달 경로다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "보고서는 조건부 위험을 제시하며 AI 주가 폭락을 예측하지 않는다. 조정의 규모와 시점, 신용시장 및 금융기관에 미칠 영향은 불확실하다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이 경고는 AI 자산 평가와 차입 집중을 시장 전반의 회복력과 연결한다. 자금 조달 연결고리가 개별 산업을 넘어 시스템 위험이 될 수 있다.",
+      "editorNote": "IMF는 이를 위험 시나리오로 제시했다. 주가 폭락 예측으로 바꾸지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.imf.org/en/publications/gfsr/issues/2026/10/13/global-financial-stability-report-october-2026",
+          "source": "International Monetary Fund",
+          "title": "Global Financial Stability Report: Resilience, Risk, and Transformation"
+        },
+        {
+          "url": "https://apnews.com/article/23aa01c0c6922fbf0b564a0ff9b2c8e5",
+          "source": "Associated Press",
+          "title": "IMF raises its forecast for world growth this year but warns of risks from AI boom and debt"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
+          "source": "The Guardian",
+          "title": "Threat of AI share crash puts world financial stability at risk, says IMF"
+        },
+        {
+          "id": 2,
+          "url": "https://www.imf.org/en/publications/gfsr/issues/2026/10/13/global-financial-stability-report-october-2026",
+          "source": "International Monetary Fund",
+          "title": "Global Financial Stability Report: Resilience, Risk, and Transformation"
+        },
+        {
+          "id": 3,
+          "url": "https://apnews.com/article/23aa01c0c6922fbf0b564a0ff9b2c8e5",
+          "source": "Associated Press",
+          "title": "IMF raises its forecast for world growth this year but warns of risks from AI boom and debt"
+        }
+      ],
+      "tags": [
+        "IMF",
+        "financial stability",
+        "AI valuation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "anduril-tender-near-90-billion-valuation-ko",
+      "headline": "직원 지분 매각 입찰로 Anduril 기업가치 900억 달러 평가 가능성",
+      "dek": "Bloomberg와 CNBC는 직원이 주식을 매각할 수 있는 입찰이 기업가치를 약 900억 달러로 평가할 수 있다고 보도했다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "Bloomberg에 따르면 Anduril은 10월 13일 기업가치 약 900억 달러를 기준으로 직원 주식 입찰을 시작했다.",
+        "보도된 조건은 주당 94.80달러, 전체 입찰 규모 약 13억 달러 상한이다.",
+        "조건은 계획을 아는 관계자들의 설명에 근거했으며 인용한 보도 시점에 회사가 공개 확인하지 않았다."
+      ],
+      "body": [
+        {
+          "text": "Bloomberg는 방산 기술 기업 Anduril Industries가 직원에게 주식을 매각할 수 있는 입찰을 제공해 기업가치가 약 900억 달러로 평가될 수 있다고 보도했다. CNBC도 제안된 입찰을 전했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "계획을 아는 관계자들은 주당 94.80달러, 약 13억 달러 상한, 10월 13일 개시와 11월 9일 종료 일정을 Bloomberg에 설명했다. 보도 당시 회사는 이 조건을 공개 발표하지 않았다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "입찰은 기존 주주가 기업공개 없이 주식을 매각할 기회를 제공한다. 보도된 평가는 거래가 암시하는 가격이지 공개시장 가격이나 회사 전체의 매각 완료가 아니다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "직원들이 실제로 내놓을 주식 수와 최종 거래 규모, 조건대로 마감될지는 미정이다. 보도는 비공개 계획을 아는 관계자 설명에 의존한다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "보도된 입찰은 대형 방산 기술 기업의 비공개 시장 평가 신호를 제공하지만, 기업공개나 신규 자금조달 완료가 아니라 제안된 구주 거래다.",
+      "editorNote": "평가액과 조건은 Bloomberg·CNBC가 익명 관계자를 인용해 보도했다. 회사 확인과 최종 마감은 아직 남아 있다.",
+      "cluster": [
+        {
+          "url": "https://news.bloomberglaw.com/private-equity/anduril-to-sell-insider-shares-at-roughly-90-billion-valuation-correct",
+          "source": "Bloomberg Law",
+          "title": "Anduril to Sell Insider Shares at Roughly $90 Billion Valuation"
+        },
+        {
+          "url": "https://qz.com/anduril-employee-tender-offer-90-billion-valuation-101426",
+          "source": "Quartz",
+          "title": "Anduril employee tender offer values company near $90 billion"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/14/anduril-tender-offer-valuation.html",
+          "source": "CNBC",
+          "title": "Anduril employee tender offer would value the defense tech startup at $90 billion"
+        },
+        {
+          "id": 2,
+          "url": "https://news.bloomberglaw.com/private-equity/anduril-to-sell-insider-shares-at-roughly-90-billion-valuation-correct",
+          "source": "Bloomberg Law",
+          "title": "Anduril to Sell Insider Shares at Roughly $90 Billion Valuation"
+        },
+        {
+          "id": 3,
+          "url": "https://qz.com/anduril-employee-tender-offer-90-billion-valuation-101426",
+          "source": "Quartz",
+          "title": "Anduril employee tender offer values company near $90 billion"
+        }
+      ],
+      "tags": [
+        "Anduril",
+        "private markets",
+        "defense technology"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "fox-roku-shareholder-approval-ko",
+      "headline": "Fox·Roku 주주, 220억 달러 스트리밍 거래 승인",
+      "dek": "인수안이 주주 승인을 받았지만 규제 심사는 남아 있다.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "Fox와 Roku 주주들은 회사의 잠정 집계에 따라 220억 달러 규모의 인수안을 승인했다.",
+        "거래는 Fox 미디어 사업과 Roku 스트리밍·광고 사업을 결합한다.",
+        "거래 완료 전 규제 승인과 다른 종결 조건이 남아 있다."
+      ],
+      "body": [
+        {
+          "text": "Investing.com과 TheWrap은 Fox와 Roku 주주가 10월 14일 제안된 인수를 승인했다고 보도했다. 잠정 집계상 주주 승인 조건이 충족됐다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "거래는 6월 약 220억 달러 규모의 현금·주식 인수로 발표됐다. 새로 확인된 것은 주주 표결이며 합병 완료는 아니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "TheWrap은 승인이 거래를 진전시켰지만 규제 심사는 남았다고 전했다. 회사는 Roku 주당 160달러를 현금과 주식으로 지급할 계획이다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "거래 완료에는 규제 승인과 다른 조건이 필요하다. 완료 시점이나 고객이 겪을 변화는 확정되지 않았다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 표결은 대형 스트리밍·광고 사업 통합을 진전시키지만 규제 심사와 종결 절차는 남아 있다.",
+      "editorNote": "주주 승인은 합병 완료와 다르며 규제 승인은 남아 있다.",
+      "cluster": [
+        {
+          "url": "https://www.thewrap.com/industry-news/deals-ma/fox-roku-acquisition-shareholders-approved/",
+          "source": "TheWrap",
+          "title": "Fox’s $22 Billion Roku Acquisition Secures Shareholder Approval"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.investing.com/news/company-news/fox-roku-shareholders-approve-22-billion-streaming-deal-4950152",
+          "source": "Investing.com",
+          "title": "Fox, Roku shareholders approve $22 billion streaming deal"
+        },
+        {
+          "id": 2,
+          "url": "https://www.thewrap.com/industry-news/deals-ma/fox-roku-acquisition-shareholders-approved/",
+          "source": "TheWrap",
+          "title": "Fox’s $22 Billion Roku Acquisition Secures Shareholder Approval"
+        }
+      ],
+      "tags": [
+        "Fox",
+        "Roku",
+        "streaming",
+        "M&A"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "us-stocks-worst-day-since-july-inflation-ko",
+      "headline": "물가 악화 뒤 미국 증시, 7월 이후 최악의 하루",
+      "dek": "9월 물가 발표 뒤 국채 수익률이 오르고 특히 AI 관련 기술주를 중심으로 주식이 하락했다.",
+      "type": "DATA",
+      "readMinutes": 3,
+      "tldr": [
+        "9월 물가 상승이 가속하자 미국 증시는 7월 이후 가장 큰 하루 하락을 기록했다.",
+        "국채 수익률 상승과 연방준비제도의 긴축 가능성에 대한 기대가 부담을 더했다.",
+        "AI 관련 기술주가 당일 주요 하락 종목에 포함됐다."
+      ],
+      "body": [
+        {
+          "text": "AP는 9월 물가 지표에서 전년 대비 3.7% 상승이 확인된 뒤 미국 증시가 7월 이후 최악의 하루를 기록했다고 보도했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP는 국채 수익률 상승과 금리 인상 가능성에 대한 투자자들의 판단이 하락 압력에 영향을 줬다고 전했다. Reuters도 물가와 자금 조달 우려가 기술주에 부담을 줬다고 보도했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP는 AI 붐과 연결된 기업들이 시장 하락에 크게 기여했다고 보도했다. Reuters는 차입 비용에 대한 우려 속에 데이터센터 운영사와 AI 인프라 기업의 하락을 전했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이번 시장 반응은 지표 발표 뒤 위험 가격이 재조정된 하루의 움직임이다. 연방준비제도의 다음 결정이나 기업 이익 전망의 지속적 변화를 확정하지 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 하락은 물가, 금리 기대, 부채 조달형 AI 인프라 투자를 연결하며 거시경제 압력이 집중된 기술주로 전달되는 경로를 보여준다.",
+      "editorNote": "하루의 시장 움직임을 설명했으며 정책 전망이나 투자 신호로 제시하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.marketscreener.com/news/trading-day-tech-melt-ce785dd2d08bf022",
+          "source": "Reuters via MarketScreener",
+          "title": "Trading Day: Tech melt"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/704d3190f0fba2908df07c85f26346ec",
+          "source": "Associated Press",
+          "title": "US stocks drop to their worst day since July as inflation worsens"
+        },
+        {
+          "id": 2,
+          "url": "https://www.marketscreener.com/news/trading-day-tech-melt-ce785dd2d08bf022",
+          "source": "Reuters via MarketScreener",
+          "title": "Trading Day: Tech melt"
+        }
+      ],
+      "tags": [
+        "United States",
+        "equities",
+        "inflation",
+        "AI infrastructure"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

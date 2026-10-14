@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-15",
+  "generatedAt": "2026-10-15T07:10:39+09:00",
+  "vertical": "bio",
+  "lang": "en",
+  "title": "Biopharma regulation and clinical development",
+  "summary": "One biopharma regulatory development had independent reporting from two outlets. Collected CAR-T, peptide, N-acetylcysteine and NAD+ candidates were individual papers or trial-registry records without a second independent outlet, so they were excluded.",
+  "stories": [
+    {
+      "slug": "sanofi-eu-vaccine-antitrust",
+      "headline": "Sanofi avoids fine as EU accepts offer to end antitrust probe over disparaging rival vaccine",
+      "dek": "The European Commission accepted binding commitments after investigating Sanofi’s communications about a rival influenza vaccine.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "The Commission accepted Sanofi commitments to resolve an antitrust investigation into communications about CSL Seqirus’s Fluad vaccine.",
+        "It had raised concerns that messages in Germany and France portrayed Fluad as inferior to Sanofi’s Efluelda.",
+        "Sanofi agreed to corrective communications and to refrain from similar conduct; it avoided a fine."
+      ],
+      "body": [
+        {
+          "text": "STAT and El País reported October 14 that the Commission accepted Sanofi’s commitments and closed its investigation without a fine. The case concerned communications about rival influenza vaccines.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The Commission’s concerns focused on whether promotional messages could mislead health professionals about Fluad, marketed by CSL Seqirus, compared with Sanofi’s Efluelda in Germany and France. This was a regulatory concern, not a court finding.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Sanofi committed to a corrective campaign and to refrain from the conduct. STAT reported that the agreement is legally binding; the outcome was accepted commitments rather than a monetary penalty.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The case concerns competition and promotion in the influenza-vaccine market. The resolution does not compare clinical performance or change indications; no patient-outcome conclusion follows.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The resolution shows how competition oversight can constrain vaccine promotion in a market where the Commission said one supplier held a dominant position in two national markets.",
+      "editorNote": "The reports do not establish a clinical comparison between vaccines.",
+      "cluster": [
+        {
+          "url": "https://elpais.com/economia/2026-10-14/sanofi-se-compromete-ante-la-ue-a-corregir-sus-mensajes-sobre-una-vacuna-rival-contra-la-gripe-para-evitar-una-multa.html",
+          "source": "El País",
+          "title": "Sanofi commits to correcting EU messaging about rival flu vaccine to avoid a fine"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.statnews.com/pharmalot/2026/10/14/sanofi-avoids-fine-as-eu-accepts-offer-ends-antitrust-probe-over-disparaging-rival-vaccine/",
+          "source": "STAT",
+          "title": "Sanofi avoids fine as EU accepts offer to end antitrust probe over disparaging rival vaccine"
+        },
+        {
+          "id": 2,
+          "url": "https://elpais.com/economia/2026-10-14/sanofi-se-compromete-ante-la-ue-a-corregir-sus-mensajes-sobre-una-vacuna-rival-contra-la-gripe-para-evitar-una-multa.html",
+          "source": "El País",
+          "title": "Sanofi commits to correcting EU messaging about rival flu vaccine to avoid a fine"
+        }
+      ],
+      "tags": [
+        "pharma",
+        "antitrust",
+        "vaccines"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

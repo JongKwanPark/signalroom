@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-15",
+  "generatedAt": "2026-10-15T07:10:39+09:00",
+  "vertical": "bio",
+  "lang": "ko",
+  "title": "바이오 제약 규제와 임상 개발",
+  "summary": "독립 보도가 확인된 바이오 규제 소식 1건을 실었다. 수집된 CAR-T·펩타이드·N-아세틸시스테인·NAD+ 후보는 두 번째 독립 매체가 없는 개별 논문 또는 임상시험 등록 기록이어서 제외했다.",
+  "stories": [
+    {
+      "slug": "sanofi-eu-vaccine-antitrust-ko",
+      "headline": "Sanofi, 경쟁 백신 비방 조사 종료 합의 수용으로 EU 과징금 피해",
+      "dek": "유럽연합 집행위원회는 경쟁 인플루엔자 백신 홍보를 조사한 뒤 구속력 있는 시정 약속을 수용했다.",
+      "type": "BRIEF",
+      "readMinutes": 3,
+      "tldr": [
+        "집행위원회는 CSL Seqirus의 Fluad 백신 관련 홍보를 조사한 뒤 Sanofi의 약속을 수용했다.",
+        "집행위는 독일과 프랑스의 메시지가 Fluad를 Sanofi의 Efluelda보다 열등하게 보이게 했을 가능성을 우려했다.",
+        "Sanofi는 시정 커뮤니케이션을 하고 유사한 행위를 반복하지 않기로 했다. 합의로 과징금을 피했다."
+      ],
+      "body": [
+        {
+          "text": "STAT와 El País는 10월 14일 집행위가 Sanofi의 약속을 수용하고 과징금 없이 조사를 끝냈다고 보도했다. 사안은 경쟁 인플루엔자 백신 홍보였다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "집행위는 독일과 프랑스 의료인 대상 메시지가 CSL Seqirus의 Fluad를 Sanofi의 Efluelda보다 열등하게 보이게 할 가능성을 우려했다. 이는 규제기관의 우려이지 법원 판단은 아니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Sanofi는 시정 홍보를 하고 같은 행위를 반복하지 않기로 약속했다. STAT는 합의가 법적 구속력을 갖는다고 보도했다. 결과는 금전적 벌금이 아닌 약속 수용 절차였다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이 사건은 인플루엔자 백신 시장의 경쟁과 홍보에 관한 것이다. 해결 절차는 백신 성능을 비교하거나 허가 적응증을 바꾸지 않으며 환자 결과에 관한 결론을 내리지 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 결과는 두 국가에서 한 공급자가 지배적 지위를 갖는다고 집행위가 본 시장에서 경쟁 감시가 백신 홍보를 제한할 수 있음을 보여준다.",
+      "editorNote": "보도는 백신 간 임상 비교를 입증하지 않는다.",
+      "cluster": [
+        {
+          "url": "https://elpais.com/economia/2026-10-14/sanofi-se-compromete-ante-la-ue-a-corregir-sus-mensajes-sobre-una-vacuna-rival-contra-la-gripe-para-evitar-una-multa.html",
+          "source": "El País",
+          "title": "Sanofi commits to correcting EU messaging about rival flu vaccine to avoid a fine"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.statnews.com/pharmalot/2026/10/14/sanofi-avoids-fine-as-eu-accepts-offer-ends-antitrust-probe-over-disparaging-rival-vaccine/",
+          "source": "STAT",
+          "title": "Sanofi avoids fine as EU accepts offer to end antitrust probe over disparaging rival vaccine"
+        },
+        {
+          "id": 2,
+          "url": "https://elpais.com/economia/2026-10-14/sanofi-se-compromete-ante-la-ue-a-corregir-sus-mensajes-sobre-una-vacuna-rival-contra-la-gripe-para-evitar-una-multa.html",
+          "source": "El País",
+          "title": "Sanofi commits to correcting EU messaging about rival flu vaccine to avoid a fine"
+        }
+      ],
+      "tags": [
+        "pharma",
+        "antitrust",
+        "vaccines"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

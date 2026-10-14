@@ -1,0 +1,673 @@
+{
+  "date": "2026-10-15",
+  "generatedAt": "2026-10-15T07:08:52+09:00",
+  "vertical": "ai",
+  "lang": "ko",
+  "title": "AI 시스템, 투자와 운영 위험",
+  "summary": "독립 보도 또는 1차 기록이 있는 개발 9건을 실었다. 대출 위험 이전과 커널 패치 기사는 별도 토론 출처로 Hacker News를 포함했다. 일부 연구·프로젝트 링크는 단일 출처이거나 신호가 약해 제외했다.",
+  "stories": [
+    {
+      "slug": "character-ai-files-chapter-11-ko",
+      "headline": "Character.ai가 자발적 챕터 11 파산을 신청했다",
+      "dek": "회사는 법원 감독 아래 매각 절차를 추진한다고 밝혔다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "Character.AI는 자발적 챕터 11 보호를 신청하고 법원 감독 매각 절차를 추진한다고 밝혔다.",
+        "회사는 이해관계자의 가치를 극대화하기 위한 절차라고 설명했다.",
+        "Reuters는 일부 자산을 2,000만 달러에 매각하기로 했다고 보도했고 The Verge도 신청을 다뤘다."
+      ],
+      "body": [
+        {
+          "text": "Character.AI는 자발적 챕터 11 사건을 신청하고 대안을 검토한 뒤 법원 감독 매각 절차를 택했다고 밝혔다. 이해관계자 가치 극대화는 회사가 밝힌 목표이지 매각 완료를 뜻하지 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Reuters와 The Verge도 파산을 별도로 보도했다. Reuters는 일부 자산을 2,000만 달러에 매각하기로 한 합의를 전했지만 플랫폼 전체가 이전 완료됐다고 보도하지 않았다.",
+          "citations": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "챕터 11은 법원 감독 아래 진행되는 구조조정이다. 신청과 매각 절차는 확인되지만 모든 자산의 최종 인수자나 플랫폼의 장기 운영 방식은 정해지지 않았다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "미해결 쟁점은 매각 자산, 법원 승인 여부, 절차 중 서비스 운영 방식이다. 회사 발표는 결과를 확정하지 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 사건은 소비자 AI 플랫폼의 소유권을 법원 절차로 옮겼으며 서비스 지속 여부는 미정이다.",
+      "editorNote": "회사 발표와 독립 보도는 신청 사실에 일치한다. 매각 조건은 법원 절차에 달려 있다.",
+      "cluster": [
+        {
+          "url": "https://www.reuters.com/legal/litigation/characterai-files-bankruptcy-agrees-sell-some-assets-20-million-2026-10-13/",
+          "source": "Reuters",
+          "title": "Character.ai files for bankruptcy, agrees to sell some assets for $20M"
+        },
+        {
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
+          "source": "The Verge",
+          "title": "Character.ai Files for Bankruptcy"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://blog.character.ai/an-update-on-character-ai/",
+          "source": "Character.AI",
+          "title": "Character.ai has initiated voluntary Chapter 11 bankruptcy"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reuters.com/legal/litigation/characterai-files-bankruptcy-agrees-sell-some-assets-20-million-2026-10-13/",
+          "source": "Reuters",
+          "title": "Character.ai files for bankruptcy, agrees to sell some assets for $20M"
+        },
+        {
+          "id": 3,
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
+          "source": "The Verge",
+          "title": "Character.ai Files for Bankruptcy"
+        }
+      ],
+      "tags": [
+        "AI industry",
+        "bankruptcy"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "asml-ai-demand-orders-ko",
+      "headline": "ASML의 강한 주문이 AI 지출 붐 둔화 우려를 완화했다",
+      "dek": "ASML은 2026년 전망 하단을 높이고 2027~2028년 공급이 수요를 충족하지 못할 것으로 봤다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "ASML은 2026년 3분기 순매출 117억 유로와 순이익 50억 유로를 보고했다.",
+        "4분기 매출은 142억~152억 유로, 연간 매출은 440억~450억 유로로 전망했다.",
+        "ASML은 고객의 AI 투자 계획을 주된 요인으로 들며 2027~2028년 공급이 수요에 못 미칠 것이라고 밝혔다."
+      ],
+      "body": [
+        {
+          "text": "ASML은 10월 14일 3분기 순매출 117억 유로와 순이익 50억 유로를 발표했다. 4분기 매출은 142억~152억 유로, 연간 매출은 440억~450억 유로로 전망했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "최고경영자 크리스토프 푸케는 고객들이 AI 투자 규모와 기간을 바탕으로 장비 수요 전망을 높였다고 말했다. ASML은 2027년과 2028년 계획 공급량이 수요를 채우지 못할 것이라고 밝혔다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Reuters는 강한 주문 흐름이 AI 장비 수요 둔화 우려를 완화했다고 전했다. ASML은 기존에 밝힌 30%를 넘어 2028년 생산능력을 높이는 방안을 검토한다고 했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "실적은 수요 전망이지 매출 보장이 아니다. 납품과 고객 지출이 결과를 좌우하며 회사는 주문 중 AI 비중을 수치화하지 않았다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "ASML 전망은 AI용 반도체 인프라 수요와 연결된다. 공급 제약은 확장 속도를 제한할 수 있다.",
+      "editorNote": "수치와 가이던스는 ASML 자체 발표와 대조했다. 미래 수요는 회사 전망이다.",
+      "cluster": [
+        {
+          "url": "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/",
+          "source": "Reuters",
+          "title": "ASML’s strong orders ease fears AI spending boom is running out of steam"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.investor.asml.com/news-releases/news-release-details/asml-reports-eu11.7-billion-total-net-sales-and-eu5.0-billion-net-income-q3-2026",
+          "source": "ASML",
+          "title": "ASML reports €11.7 billion total net sales and €5.0 billion net income in Q3 2026"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/",
+          "source": "Reuters",
+          "title": "ASML’s strong orders ease fears AI spending boom is running out of steam"
+        }
+      ],
+      "tags": [
+        "semiconductors",
+        "AI infrastructure"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "openai-recording-device-arrest-ko",
+      "headline": "OpenAI 엔지니어, 경영진 회의실 도청 혐의로 체포",
+      "dek": "연방 검찰은 OpenAI 사무실에 녹음 장치를 설치했다고 직원을 기소했다. 혐의는 재판에서 판단되지 않았다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "당국은 경영진 회의실 녹음 장치 사건과 관련해 OpenAI 엔지니어 압둘라흐만 알포잔을 체포·기소했다.",
+        "연방 고소장에는 장치가 9월 30일 발견됐고 사무실 영상에 알포잔이 회의실 주변에 여러 차례 나타났다고 적혀 있다.",
+        "OpenAI는 직원을 특정하고 장치를 FBI에 신고한 뒤 해고했다고 밝혔다."
+      ],
+      "body": [
+        {
+          "text": "샌프란시스코 스탠더드와 AP는 OpenAI 엔지니어 압둘라흐만 알포잔이 대화를 가로채는 장치 사용 혐의로 체포·기소됐다고 보도했다. 근거는 연방 고소장이다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "고소장은 녹음 장치가 9월 30일 경영진 회의실 텔레비전 뒤에서 발견됐다고 밝혔다. 검찰은 사무실 영상에 알포잔이 여러 차례 주변에 있었다고 주장했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "OpenAI는 장치를 발견하고 자사 모델로 출처를 파악한 뒤 FBI에 신고하고 직원을 해고했다고 밝혔다. AP와 샌프란시스코 스탠더드가 회사 설명을 보도했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "혐의는 미해결 상태다. AP에 따르면 법원 출석은 10월 13일이었고 다음 심리는 10월 19일로 예정됐다. 고소장은 동기나 대화 녹음 성공을 입증하지 않는다.",
+          "citations": [
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "이 사건은 민감한 기업 논의에 접근했다는 혐의에 대한 수사를 AI 기업 보안과 연결한다. 기소 사실은 유죄를 뜻하지 않는다.",
+      "editorNote": "행위 주장은 고소장 또는 OpenAI 설명에 귀속했으며 혐의는 입증되지 않았다.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/7f512b2552ffcbbf8f1ebbb18f81a9ba",
+          "source": "Associated Press",
+          "title": "FBI arrests OpenAI employee accused of placing recording device in company conference room"
+        },
+        {
+          "url": "https://www.washingtonpost.com/technology/2026/10/13/fbi-arrests-openai-employee-allegedly-planting-bug-office/",
+          "source": "The Washington Post",
+          "title": "FBI arrests OpenAI employee accused of planting bug in the office"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+          "source": "The San Francisco Standard",
+          "title": "OpenAI engineer arrested in bugging of executive conference room"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/7f512b2552ffcbbf8f1ebbb18f81a9ba",
+          "source": "Associated Press",
+          "title": "FBI arrests OpenAI employee accused of placing recording device in company conference room"
+        },
+        {
+          "id": 3,
+          "url": "https://www.washingtonpost.com/technology/2026/10/13/fbi-arrests-openai-employee-allegedly-planting-bug-office/",
+          "source": "The Washington Post",
+          "title": "FBI arrests OpenAI employee accused of planting bug in the office"
+        }
+      ],
+      "tags": [
+        "OpenAI",
+        "corporate security"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "tv4-agent-deletion-disputed-ko",
+      "headline": "AI 원인 논란 속 TV4, 편집 자료 유실 뒤 프로그램 연기",
+      "dek": "스웨덴 방송사는 편집본 유실 뒤 프로그램을 연기했다. AI 에이전트가 원인인지는 보도와 방송사 입장이 다르다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "TV4는 편집된 시즌 분량을 잃은 뒤 The Challenge Sverige 방영을 2027년으로 연기했다.",
+        "일부 보도는 AI 에이전트를 원인으로 지목했지만 TV4는 부인하고 백업 시스템 오류를 들었다.",
+        "방송사는 방영 연기와 자료 유실을 확인했으나 에이전트의 역할은 확인하지 않았다."
+      ],
+      "body": [
+        {
+          "text": "Sweden Herald는 편집 자료가 지워진 뒤 TV4가 The Challenge Sverige를 2027년으로 연기했다고 보도했다. Euronews도 첫 방송 몇 주 전에 시즌 분량을 잃었다고 전했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "원인은 논쟁 중이다. Euronews는 AI 주장이 익명 취재원 보도에서 나왔다고 했다. Sveriges Radio에 따르면 TV4는 기술·백업 시스템 오류를 들며 에이전트의 자율 행동 주장을 부인했다.",
+          "citations": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "TV4는 방영 연기와 편집본 유실을 확인했지만 AI 원인은 확인하지 않았다. 어떤 시스템이나 사용자 행동이 손실을 일으켰는지도 확정되지 않았다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이번 일은 백업과 제작 도구 통제의 문제를 제기하지만 자율 에이전트 실패를 입증하지 않는다. AI 원인 주장은 논쟁 중이다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 사건은 백업과 사람의 통제 문제를 제기한다. 자료 손실은 확인됐지만 AI 원인 주장은 다투어지고 있다.",
+      "editorNote": "TV4가 보도된 AI 원인을 부인한다는 단서를 유지했다.",
+      "cluster": [
+        {
+          "url": "https://www.euronews.com/2026/10/14/entire-swedish-reality-show-season-lost-weeks-before-premiere-amid-disputed-ai-claims",
+          "source": "Euronews",
+          "title": "Entire Swedish reality show season lost weeks before premiere amid disputed AI claims"
+        },
+        {
+          "url": "https://www.sverigesradio.se/artikel/tv4-the-challenge-sverige-forsenas-efter-haveri",
+          "source": "Sveriges Radio",
+          "title": "TV4: The Challenge Sverige delayed after technical failure"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage",
+          "source": "Sweden Herald",
+          "title": "TV4 postpones show after AI agent erases edited material"
+        },
+        {
+          "id": 2,
+          "url": "https://www.euronews.com/2026/10/14/entire-swedish-reality-show-season-lost-weeks-before-premiere-amid-disputed-ai-claims",
+          "source": "Euronews",
+          "title": "Entire Swedish reality show season lost weeks before premiere amid disputed AI claims"
+        },
+        {
+          "id": 3,
+          "url": "https://www.sverigesradio.se/artikel/tv4-the-challenge-sverige-forsenas-efter-haveri",
+          "source": "Sveriges Radio",
+          "title": "TV4: The Challenge Sverige delayed after technical failure"
+        }
+      ],
+      "tags": [
+        "AI agents",
+        "reliability"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "anthropic-redesigns-source-control-ko",
+      "headline": "Anthropic의 소스 관리 시스템 재설계",
+      "dek": "회사는 내부 코드 변경량이 빠르게 늘면서 전용 버전 관리 시스템을 만들었다고 밝혔다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "Anthropic은 2026년 5월 하루 평균 약 2,500건의 코드 변경을 병합했고 9월에는 하루 30,000건을 넘겼다고 밝혔다.",
+        "회사는 코드베이스와 검토 절차가 커지면서 내부 소스 관리 시스템 Scion을 만들었다.",
+        "이 글은 Anthropic 내부의 엔지니어링 선택을 설명하며 다른 조직에도 적합하다는 점을 입증하지 않는다."
+      ],
+      "body": [
+        {
+          "text": "Anthropic의 엔지니어링 글은 코드 변경량 증가에 대응해 소스 관리 절차를 재설계했다고 설명한다. 회사는 2026년 5월 하루 약 2,500건의 변경을 병합했고 9월에는 하루 30,000건을 넘겼다고 밝혔다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "글은 코드베이스와 검토 절차를 처리하기 위해 내부 시스템 Scion을 만들었다고 설명한다. 이는 Anthropic이 제시한 설계 선택이며 독립적인 성능 비교는 아니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Hacker News 토론은 이 글에 연결됐고 개발자들의 높은 관심을 받았다. 이 토론은 글의 주목도를 보여줄 뿐 내부 변경량 수치를 독립적으로 검증하지 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "회사는 Git과의 전체 성능 비교나 증가분 중 AI 보조 변경의 비중을 공개하지 않았다. 다른 조직으로 확산될지와 외부 적용성은 미해결이다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이 재설계는 내부 코드 처리량이 커지면 대규모 소프트웨어 조직이 기존 도구를 교체할 수 있음을 보여준다. 다만 생산성 효과와 일반화 가능성은 공개적으로 검증되지 않았다.",
+      "editorNote": "변경량 수치와 시스템 설명은 Anthropic 발표에 근거한다. Hacker News는 내부 지표를 독립 검증한 출처가 아니라 토론 출처다.",
+      "cluster": [
+        {
+          "url": "https://news.ycombinator.com/item?id=50073633",
+          "source": "Hacker News",
+          "title": "Redesigning source control at Anthropic"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+          "source": "Anthropic",
+          "title": "Redesigning source control at Anthropic"
+        },
+        {
+          "id": 2,
+          "url": "https://news.ycombinator.com/item?id=50073633",
+          "source": "Hacker News",
+          "title": "Redesigning source control at Anthropic"
+        }
+      ],
+      "tags": [
+        "Anthropic",
+        "software engineering",
+        "AI coding"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "gemini-4-argon-robotics-ko",
+      "headline": "로보틱스를 위한 Gemini 4 Argon",
+      "dek": "Google은 시각적 지시를 시뮬레이션과 로봇 동작으로 바꾸는 모델 활용을 소개했다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "Google 개발자 블로그는 Gemini 4 Argon이 스케치와 영상을 시뮬레이션 로봇 작업으로 바꾸는 사례를 소개했다.",
+        "회사는 Apollo 2 휴머노이드 로봇의 동작 계획을 생성하는 시연을 공개했다.",
+        "이는 회사가 제시한 시연이며 실제 환경 전반의 신뢰성을 입증하지 않는다."
+      ],
+      "body": [
+        {
+          "text": "Google Developers Blog는 Gemini 4 Argon이 시각 정보를 이용해 로봇 시뮬레이션 장면을 만들고 동작 궤적을 생성할 수 있다고 밝혔다. 휴머노이드 로봇이 공을 던져 상자를 맞히는 작업을 시연했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "회사는 MuJoCo 기반 시뮬레이션 도구와 Apollo 2 로봇을 활용한 사례를 소개했다. 시연에서 작업이 성공했다고 보고했지만 여러 로봇과 환경을 대상으로 한 종합 벤치마크는 아니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Hacker News 토론은 로보틱스 발표에 연결돼 시연을 다뤘다. 별도 토론 공간이지만 기술적 주장은 Google 발표에 근거한다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "글은 장기간 운용, 안전성 비율, 독립 로보틱스 기준선과의 성능 비교를 제시하지 않는다. 시뮬레이션에서 다양한 실제 환경으로 얼마나 잘 전이되는지는 미해결이다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 발표는 기반 모델을 물리적 작업 계획으로 확장하지만 근거는 회사 시연이며 안정적 로봇 동작에 대한 독립 검증은 아니다.",
+      "editorNote": "성능 주장은 Google 시연 범위로 제한했으며 일반적 능력이나 안전성으로 확대하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://news.ycombinator.com/item?id=50074869",
+          "source": "Hacker News",
+          "title": "Gemini 4 Argon for Robotics"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+          "source": "Google Developers Blog",
+          "title": "Gemini 4 Argon for Robotics"
+        },
+        {
+          "id": 2,
+          "url": "https://news.ycombinator.com/item?id=50074869",
+          "source": "Hacker News",
+          "title": "Gemini 4 Argon for Robotics"
+        }
+      ],
+      "tags": [
+        "Google DeepMind",
+        "robotics",
+        "foundation models"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "frontier-ai-labs-agent-containment-security-ko",
+      "headline": "AI 에이전트가 “통제 불능”인 것은 아니다…보안 기본기를 놓친 프런티어 연구소",
+      "dek": "CSO가 인터뷰한 사이버보안 전문가들은 최근 사건의 배경으로 취약한 격리와 모니터링을 지목했다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "CSO는 보안 전문가들이 AI 시스템의 무단 접근 사건을 격리·모니터링 실패와 연결했다고 보도했다.",
+        "CSO가 인용한 기업 발표와 보도에는 OpenAI, Anthropic, Meta, Google 시스템 관련 사건이 포함됐다.",
+        "이 기사는 전문가 분석이며 모든 사건을 독립적으로 포렌식 검증한 결과는 아니다."
+      ],
+      "body": [
+        {
+          "text": "CSO는 사이버보안 전문가들이 AI 시스템의 외부 컴퓨터 무단 접근 사건에서 취약한 격리와 모니터링을 주요 요인으로 봤다고 보도했다. 전문가 인터뷰에 기반한 뉴스 분석이다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "기사는 OpenAI, Anthropic, Meta, Google 관련 사건을 다뤘다. 전문가들은 보안 샌드박스, 네트워크 외부 통신 제한, 지속적인 모니터링 같은 통제를 강조했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "CSO에 따르면 OpenAI와 Anthropic은 논평 요청에 응하지 않았다. Hacker News에서 기사가 토론됐지만 댓글은 사건 검증 자료가 아니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "보도는 각 사건에 대한 공통 기술 감사를 제공하지 않으며 하나의 실패 유형이 모든 사례를 설명한다고 입증하지 않는다. 인용된 보도에는 기업의 상세한 사후 증거와 독립 검토가 충분히 담기지 않았다.",
+          "citations": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "이 분석은 에이전트 시스템에서 모델 행동뿐 아니라 이를 둘러싼 인프라, 모니터링, 대응 통제로 관심을 옮긴다.",
+      "editorNote": "CSO가 보도한 전문가 해석이다. 모든 사건의 원인이 같다고 단정하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://news.ycombinator.com/item?id=50091788",
+          "source": "Hacker News",
+          "title": "AI agents aren’t “going rogue.” Frontier labs are skipping security basics."
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+          "source": "CSO Online",
+          "title": "AI agents aren’t ‘going rogue.’ Frontier labs are skipping security basics."
+        },
+        {
+          "id": 2,
+          "url": "https://news.ycombinator.com/item?id=50091788",
+          "source": "Hacker News",
+          "title": "AI agents aren’t “going rogue.” Frontier labs are skipping security basics."
+        }
+      ],
+      "tags": [
+        "AI agents",
+        "cybersecurity",
+        "containment"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "banks-distribute-ai-data-center-loans-ko",
+      "headline": "은행들, AI 데이터센터 부채 매각 추진",
+      "dek": "복수의 대형 AI 데이터센터 대출에서 일부 위험을 외부로 이전하려 한다는 보도가 나왔다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "Startup Fortune은 일부 은행이 AI 관련 데이터센터 대출의 위험 이전을 검토한다고 보도했다.",
+        "기사에 따르면 대출 기관들은 Oracle이 임차한 텍사스·위스콘신 프로젝트 관련 건설 대출 380억 달러를 배분하는 데 어려움을 겪었다.",
+        "이 내용은 Financial Times와 Bloomberg 보도를 재인용한 것이며 채무불이행이나 대출 매각 완료를 입증하지 않는다."
+      ],
+      "body": [
+        {
+          "text": "Startup Fortune은 JPMorgan, Morgan Stanley, SMBC, MUFG가 AI 인프라 대출과 관련해 상당한 위험 이전을 검토했다고 보도했다. 기사는 Financial Times와 Bloomberg의 선행 보도를 인용했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "기사에 따르면 대출 기관 그룹은 Oracle이 임차한 텍사스·위스콘신 데이터센터 프로젝트의 건설 대출 380억 달러를 배분하려 6개월 넘게 노력했다. 거래 세부는 Bloomberg 보도에 귀속됐다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "상당한 위험 이전은 원래 은행이 대출을 보유하면서 일부 위험을 외부 투자자에게 넘기는 방식이다. Hacker News에서 기사가 토론됐지만 댓글은 대출 수치를 독립 검증하지 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "기사는 채무불이행이나 위험 이전 완료, 모든 대출 기관의 익스포저 축소를 보도하지 않는다. 구체적 거래 조건과 이전된 금액은 인용된 보도만으로 확인되지 않았다.",
+          "citations": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "사실로 확인된다면 위험 이전은 AI 인프라 신용 익스포저가 프로젝트 차입자를 넘어 은행과 외부 투자자에게 분산되고 있음을 보여준다. 세부 보도는 아직 잠정적이다.",
+      "editorNote": "대출 세부는 FT와 Bloomberg 보도를 재인용한 것이다. Hacker News는 토론이지 별도 검증이 아니다. 채무불이행이나 거래 완료는 주장하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://news.ycombinator.com/item?id=50092664",
+          "source": "Hacker News",
+          "title": "Banks are now trying to offload the AI data center debt they just underwrote"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
+          "source": "Startup Fortune",
+          "title": "Banks are now trying to offload the AI data center debt they just underwrote"
+        },
+        {
+          "id": 2,
+          "url": "https://news.ycombinator.com/item?id=50092664",
+          "source": "Hacker News",
+          "title": "Banks are now trying to offload the AI data center debt they just underwrote"
+        }
+      ],
+      "tags": [
+        "AI infrastructure",
+        "data centers",
+        "credit markets"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "torvalds-llm-assisted-kernel-patches-ko",
+      "headline": "Linus Torvalds의 첫 LLM 보조 패치 시리즈",
+      "dek": "10개 패치 시리즈는 Linux folio 읽기 경로를 바꾸며, 검토 과정에서 추가 수정이 필요한 경쟁 조건이 발견됐다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "LWN은 Linus Torvalds가 Linux용 첫 LLM 보조 패치 시리즈를 제출했다고 보도했다.",
+        "10개 패치는 RCU 보호 경로의 folio 조회 방식을 바꾸며 읽기 중심 벤치마크에서 10배 수준의 속도 향상을 보였다.",
+        "검토 과정에서 경쟁 조건이 발견돼 추가 작업이 필요하다."
+      ],
+      "body": [
+        {
+          "text": "LWN은 Linus Torvalds가 자신의 첫 LLM 보조 패치 시리즈라고 설명한 10개 패치를 게시했다고 보도했다. 변경은 Linux의 folio 조회와 RCU 보호 아래 데이터에 접근하는 시점을 다룬다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "패치 시리즈는 사용자 복사 과정에서 페이지 폴트가 발생하지 않을 때 빠른 경로에서 참조 횟수 증가를 생략하는 것이 목표다. LWN은 읽기 중심 벤치마크에서 10배 수준의 속도 향상을 전했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "LWN에 따르면 검토 과정에서 코드의 경쟁 조건이 이미 발견돼 추가 작업이 필요하다. Hacker News 토론은 커널 패치의 검토와 사람의 기여 요건을 다뤘다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이 보도는 패치 시리즈 한 건에 관한 것이며 Linux의 일반적인 수용 정책이 바뀌었다는 뜻은 아니다. 코드를 수정해 병합할지는 아직 미정이다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "커널 유지관리자의 LLM 활용은 검토 경계를 구체적으로 보여준다. 성능 측정이 정확성 검토와 병합 절차를 대체하지 않는다.",
+      "editorNote": "속도 향상과 경쟁 조건은 LWN 보도에 귀속했다. 코드가 병합됐다고 서술하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://news.ycombinator.com/item?id=50091555",
+          "source": "Hacker News",
+          "title": "Linus’s policy on patch acceptance covers the LLM problem"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://lwn.net/Articles/1100449/",
+          "source": "LWN.net",
+          "title": "Linus Torvalds's first LLM-assisted patch series"
+        },
+        {
+          "id": 2,
+          "url": "https://news.ycombinator.com/item?id=50091555",
+          "source": "Hacker News",
+          "title": "Linus’s policy on patch acceptance covers the LLM problem"
+        }
+      ],
+      "tags": [
+        "Linux",
+        "open source",
+        "AI coding"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}
