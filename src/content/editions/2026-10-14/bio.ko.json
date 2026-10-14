@@ -1,10 +1,10 @@
 {
   "date": "2026-10-14",
-  "generatedAt": "2026-10-14T10:04:05.000Z",
+  "generatedAt": "2026-10-14T10:17:28.000Z",
   "vertical": "bio",
   "lang": "ko",
   "title": "시그널 데일리 바이오 — 2026-10-14",
-  "summary": "GSK의 벨기에 구조조정안을 포함해 독립 보도로 확인된 세 가지 동향을 담았다. 두 매체 보도 기준을 통과한 CAR-T, 펩타이드, N-아세틸시스테인, NAD+ 임상·규제 동향은 없었으며 단일 논문과 임상시험 기록은 제외했다.",
+  "summary": "GSK의 벨기에 구조조정안과 Martin Shkreli에 대한 FTC 신청을 포함해 독립 보도로 확인된 네 가지 동향을 담았다. 두 매체 보도 기준을 통과한 CAR-T, 펩타이드, N-아세틸시스테인, NAD+ 임상·규제 동향은 없었으며 단일 논문과 임상시험 기록은 제외했다.",
   "stories": [
     {
       "type": "DEEP",
@@ -234,6 +234,94 @@
       ],
       "whyItMatters": "이번 계획은 벨기에의 대규모 제약업계 고용과 연구, 제조, 지원 기능을 아우르는 구조조정 절차다. 아직 협의 단계이므로 GSK의 연구 역량과 생산 거점에 미칠 최종 영향은 판단하기 이르다.",
       "editorNote": "보도는 영향을 받을 수 있는 일자리를 최대 1,217개로 제시했지만 최종 인원과 대상 직무는 정해지지 않았다. CAR-T, 펩타이드 치료제, NAC/NAD+의 임상·규제 동향 중 이번 수집에서 독립 매체 두 곳이 보도한 사안은 확인되지 않았다.",
+      "publication": "scheduled"
+    },
+    {
+      "slug": "ftc-seeks-contempt-finding-against-martin-shkreli-ko",
+      "headline": "FTC·주정부, Martin Shkreli의 제약업계 영구 활동 금지 위반 혐의로 법원에 법정모독 판단 요청",
+      "dek": "FTC와 주 검찰총장들은 Shkreli가 제약주 거래와 공개 발언으로 2022년 금지명령을 위반했다고 주장했다. 법원 판단은 아직 나오지 않았다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "FTC와 주 검찰총장들은 Martin Shkreli가 제약업계 영구 활동 금지를 위반했다며 연방법원에 법정모독 판단을 요청했다.",
+        "신청서에 따르면 Shkreli는 제약주를 거래하고 공개 발언으로 기업 의사결정에 영향을 주려 했다.",
+        "이번 신청은 혐의 제기와 구제 요청이며 법원의 위반 판단이나 제재가 아니다. 판사는 아직 결정하지 않았다."
+      ],
+      "body": [
+        {
+          "text": "Federal Trade Commission과 주 검찰총장들은 Martin Shkreli가 제약업계 참여를 금지한 2022년 영구 명령을 위반했다며 연방법원에 법정모독 판단을 요청했다. Reuters와 STAT가 신청을 보도했고 FTC도 자체 발표를 냈다. [1, 2, 3]",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "FTC는 혐의에 제약회사 주식 거래와 업계 기업의 경영·사업에 공개 발언으로 영향을 주려 한 행위가 포함된다고 밝혔다. 규제 당국은 이를 금지명령 위반으로 주장했으며 법원의 심리를 앞둔 혐의다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "FTC에 따르면 요청한 구제 조치에는 Shkreli가 보유한 제약회사 주식을 처분하고 제약주 거래 수익에 사전 판결 이자를 더한 금액의 벌금을 내도록 하는 내용이 포함된다. 이는 법원에 요청한 조치이며 이미 부과된 제재가 아니다. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "법원은 Shkreli가 금지명령을 위반했는지, 어떤 구제 조치를 적용할지 아직 결정하지 않았다. 향후 명령의 범위와 규제 당국 주장의 처리 방식은 미정이다. [1, 3]",
+          "citations": [
+            1,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "이번 신청은 제약업계 활동을 영구 제한한 명령을 규제 당국이 어떻게 집행하고 위반 혐의에 재정적 구제를 청구하는지 시험한다. 파장은 당국의 주장만이 아니라 법원의 판단에 달려 있다.",
+      "editorNote": "FTC와 주정부 주장은 혐의다. 신청서는 법정모독 판단과 구제 조치를 요청했으며 에디션 작성 시점에 법원의 판단이나 제재는 보도되지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/stock-market-news/martin-shkreli-violated-lifetime-pharma-industry-ban-ftc-and-states-say-4947222",
+          "source": "Reuters",
+          "title": "Martin Shkreli violated lifetime pharma industry ban, FTC and states say"
+        },
+        {
+          "url": "https://www.statnews.com/2026/10/13/martin-shkreli-pharma-bro-ftc-contempt-stock-trades/?utm_campaign=rss",
+          "source": "STAT",
+          "title": "FTC demands Martin Shkreli divest his pharma stocks"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-states-ask-federal-court-hold-martin-shkreli-contempt-allegedly-violating-lifetime",
+          "source": "Federal Trade Commission",
+          "title": "FTC, States Ask Federal Court to Hold Martin Shkreli in Contempt for Allegedly Violating Lifetime Ban from Pharmaceutical Industry",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/stock-market-news/martin-shkreli-violated-lifetime-pharma-industry-ban-ftc-and-states-say-4947222",
+          "source": "Reuters",
+          "title": "Martin Shkreli violated lifetime pharma industry ban, FTC and states say",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 3,
+          "url": "https://www.statnews.com/2026/10/13/martin-shkreli-pharma-bro-ftc-contempt-stock-trades/?utm_campaign=rss",
+          "source": "STAT",
+          "title": "FTC demands Martin Shkreli divest his pharma stocks",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "tags": [
+        "FTC",
+        "pharmaceuticals",
+        "regulation",
+        "antitrust"
+      ],
+      "confidence": "high",
       "publication": "scheduled"
     }
   ]

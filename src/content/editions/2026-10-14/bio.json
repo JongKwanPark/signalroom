@@ -1,10 +1,10 @@
 {
   "date": "2026-10-14",
-  "generatedAt": "2026-10-14T10:04:05.000Z",
+  "generatedAt": "2026-10-14T10:17:28.000Z",
   "vertical": "bio",
   "lang": "en",
   "title": "Signal Daily Bio — 2026-10-14",
-  "summary": "Three developments cleared the independent-source gate, including GSK’s proposed Belgian restructuring. No independently reported clinical or regulatory CAR-T, peptide, N-acetylcysteine or NAD+ development cleared the two-outlet rule; single papers and trial records remain excluded.",
+  "summary": "Four developments cleared the independent-source gate, including GSK’s proposed Belgian restructuring and the FTC filing against Martin Shkreli. No independently reported clinical or regulatory CAR-T, peptide, N-acetylcysteine or NAD+ development cleared the two-outlet rule; single papers and trial records remain excluded.",
   "stories": [
     {
       "type": "DEEP",
@@ -234,6 +234,94 @@
         "restructuring"
       ],
       "confidence": "medium",
+      "publication": "scheduled"
+    },
+    {
+      "slug": "ftc-seeks-contempt-finding-against-martin-shkreli",
+      "headline": "FTC, States Ask Federal Court to Hold Martin Shkreli in Contempt for Allegedly Violating Lifetime Ban from Pharmaceutical Industry",
+      "dek": "The FTC and state attorneys general allege Shkreli violated a 2022 injunction through pharmaceutical stock trading and public commentary; the court has not ruled.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "The FTC and state attorneys general asked a federal court to hold Martin Shkreli in contempt, alleging he violated a lifetime pharmaceutical-industry ban.",
+        "The filing says Shkreli traded pharmaceutical stocks and sought to influence company decisions through public commentary.",
+        "The request is an allegation and proposed remedy, not a court finding; the judge has not yet ruled on contempt or penalties."
+      ],
+      "body": [
+        {
+          "text": "The Federal Trade Commission and state attorneys general asked a federal court to hold Martin Shkreli in contempt, alleging he violated a 2022 permanent injunction barring him from participating in the pharmaceutical industry. Reuters and STAT reported the filing, and the FTC published its own announcement. [1, 2, 3]",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "The FTC said the alleged conduct included trading pharmaceutical-company stocks and publicly seeking to influence the business and management of companies in the industry. The regulators’ filing characterizes those actions as violations of the injunction; they remain allegations pending court review. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The requested remedies include requiring Shkreli to divest pharmaceutical stocks and pay a fine tied to profits from pharmaceutical stock trading, plus prejudgment interest, according to the FTC. These are requests to the court, not penalties already imposed. [1, 2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The court has not yet decided whether Shkreli violated the injunction or what remedy, if any, would apply. The scope of any order and the treatment of the regulators’ claims remain open. [1, 3]",
+          "citations": [
+            1,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "The filing tests how regulators enforce a lifetime restriction on participation in the pharmaceutical industry and seek financial remedies for alleged violations. Its consequences depend on the court’s findings, not the agencies’ allegations alone.",
+      "editorNote": "The FTC and state claims are allegations. The filing requests contempt and remedies; no court finding or penalty was reported at edition time.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/stock-market-news/martin-shkreli-violated-lifetime-pharma-industry-ban-ftc-and-states-say-4947222",
+          "source": "Reuters",
+          "title": "Martin Shkreli violated lifetime pharma industry ban, FTC and states say"
+        },
+        {
+          "url": "https://www.statnews.com/2026/10/13/martin-shkreli-pharma-bro-ftc-contempt-stock-trades/?utm_campaign=rss",
+          "source": "STAT",
+          "title": "FTC demands Martin Shkreli divest his pharma stocks"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-states-ask-federal-court-hold-martin-shkreli-contempt-allegedly-violating-lifetime",
+          "source": "Federal Trade Commission",
+          "title": "FTC, States Ask Federal Court to Hold Martin Shkreli in Contempt for Allegedly Violating Lifetime Ban from Pharmaceutical Industry",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/stock-market-news/martin-shkreli-violated-lifetime-pharma-industry-ban-ftc-and-states-say-4947222",
+          "source": "Reuters",
+          "title": "Martin Shkreli violated lifetime pharma industry ban, FTC and states say",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 3,
+          "url": "https://www.statnews.com/2026/10/13/martin-shkreli-pharma-bro-ftc-contempt-stock-trades/?utm_campaign=rss",
+          "source": "STAT",
+          "title": "FTC demands Martin Shkreli divest his pharma stocks",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "tags": [
+        "FTC",
+        "pharmaceuticals",
+        "regulation",
+        "antitrust"
+      ],
+      "confidence": "high",
       "publication": "scheduled"
     }
   ]
