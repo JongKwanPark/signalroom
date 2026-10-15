@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "generatedAt": "2026-10-15T07:10:04+09:00",
+  "generatedAt": "2026-10-15T10:04:27.338Z",
   "vertical": "geo",
   "lang": "ko",
   "title": "분쟁, 시위와 무역정책 변화",
@@ -622,6 +622,78 @@
         "Yemen",
         "Houthis",
         "pilgrimage"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ukraine-resumes-strikes-russian-refineries-energy-truce-ko",
+      "headline": "우크라이나, 짧은 휴전 뒤 러시아 정유시설 공격 재개",
+      "dek": "키이우가 단기 에너지 휴전의 종료를 밝힌 뒤 러시아 랴잔 지역에서 공격이 발생했다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "AP가 인용한 러시아 당국자와 우크라이나 당국자에 따르면 목요일 이른 시간 우크라이나 드론이 러시아 랴잔 지역 정유시설을 공격했다.",
+        "Volodymyr Zelenskyy 대통령은 러시아가 우크라이나 에너지 기반시설 공격을 이어간 뒤 짧은 에너지 휴전이 끝났다고 밝혔다.",
+        "공격 재개는 키이우와 워싱턴의 관계를 더 긴장시킬 수 있으며, 작전의 범위와 지속 기간은 아직 불분명하다."
+      ],
+      "body": [
+        {
+          "text": "Associated Press에 따르면 목요일 이른 시간 우크라이나 드론이 러시아 랴잔 지역의 정유시설을 공격해 화재가 발생했다고 러시아 국방부와 지역 주지사 Pavel Malkov가 밝혔다. 공개 발언 권한이 없어 익명을 요청한 우크라이나 고위 당국자도 AP에 공격 사실을 확인했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "공격은 Volodymyr Zelenskyy 우크라이나 대통령이 짧은 에너지 휴전이 끝났다고 밝힌 지 몇 시간 뒤에 일어났다. AP는 Zelenskyy가 양측에 공격 중단을 요구한 Donald Trump 미국 대통령의 발언에도 러시아가 우크라이나 에너지 시설 공격을 계속했다고 말했다고 전했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "CNBC도 휴전이 깨진 뒤 우크라이나가 러시아 정유시설 공격을 재개할 것이라고 보도했다. 이 보도 역시 이번 조치가 에너지 기반시설 공격을 멈추려는 기대에 차질을 줬다고 설명했다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "보도는 공격 재개와 휴전 종료에 관한 키이우의 공개 입장은 확인하지만, 우크라이나가 추가 공격을 얼마나 계획하는지 또는 워싱턴이 지원 방침을 바꿀지는 밝히지 않는다. 휴전 조건을 두고 양국 정부가 이견을 보이는 가운데 공격 재개는 미국과 우크라이나의 관계를 복잡하게 만들 수 있다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "단기 에너지 휴전의 종료는 전장 전술을 외교와 석유 기반시설 문제에 연결한다. 정유시설 공격이 계속 확대되면 러시아의 연료 체계에 영향을 주고 분쟁 조정에서 워싱턴의 역할을 시험할 수 있지만, 보도에서 확인된 것은 공격 재개와 키이우의 입장이다.",
+      "editorNote": "AP와 CNBC의 당일 보도를 확인해 19시 KST 병합에 추가했다. AP는 러시아 당국자와 익명의 우크라이나 당국자를 인용해 랴잔 공격을 보도했으며, 작전 범위는 확인되지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/15/ukraine-russia-energy-ceasefire-zelenskyy.html",
+          "source": "CNBC",
+          "title": "Ukraine to resume strikes on Russian refineries, shattering hopes of an energy ceasefire"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/0071b4f3792c9912b977b0ee73505b18",
+          "source": "Associated Press",
+          "title": "Ukraine resumes attacks on Russian oil refineries, officials say, after brief truce",
+          "publishedAt": "2026-10-15T09:06:02Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/10/15/ukraine-russia-energy-ceasefire-zelenskyy.html",
+          "source": "CNBC",
+          "title": "Ukraine to resume strikes on Russian refineries, shattering hopes of an energy ceasefire",
+          "publishedAt": "2026-10-15T07:46:30Z"
+        }
+      ],
+      "tags": [
+        "Ukraine",
+        "Russia",
+        "energy security"
       ],
       "confidence": "medium"
     }

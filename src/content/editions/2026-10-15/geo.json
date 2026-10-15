@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "generatedAt": "2026-10-15T07:10:04+09:00",
+  "generatedAt": "2026-10-15T10:04:27.338Z",
   "vertical": "geo",
   "lang": "en",
   "title": "Conflict, protest and trade-policy shifts",
@@ -622,6 +622,78 @@
         "Yemen",
         "Houthis",
         "pilgrimage"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ukraine-resumes-strikes-russian-refineries-energy-truce",
+      "headline": "Ukraine resumes attacks on Russian oil refineries, officials say, after brief truce",
+      "dek": "A strike in Russia’s Ryazan region followed Kyiv’s declaration that a short-lived energy truce was over.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Ukrainian drones struck a refinery in Russia’s Ryazan region early Thursday, according to Russian officials and a Ukrainian official cited by AP.",
+        "President Volodymyr Zelenskyy said the brief energy truce had ended after continued Russian attacks on Ukrainian energy infrastructure.",
+        "The renewed strikes could further strain Kyiv’s relations with Washington; the scope and duration of any renewed campaign remain unclear."
+      ],
+      "body": [
+        {
+          "text": "Ukrainian drones struck an oil refinery in Russia’s Ryazan region early Thursday and caused a fire, Russia’s Defense Ministry and regional governor Pavel Malkov said, according to the Associated Press. A senior Ukrainian official, speaking anonymously because they were not authorized to comment publicly, also confirmed the strike to AP.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The attack came hours after Ukrainian President Volodymyr Zelenskyy said a brief energy truce was over. AP reported that Zelenskyy said Russia had continued striking Ukrainian energy sites despite U.S. President Donald Trump’s demand that both sides halt such attacks.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "CNBC separately reported that Ukraine would resume strikes on Russian refineries after the truce broke down. That coverage also described the move as a setback to hopes for a pause in attacks on energy infrastructure.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "The reporting confirms a strike and a public statement that the pause had ended, but it does not establish how many further attacks Kyiv plans or whether Washington will change its support. The renewed campaign could complicate U.S.-Ukraine relations as the two governments disagree over the truce’s terms.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The end of the short energy truce links battlefield tactics to diplomacy and oil infrastructure. Any sustained expansion of refinery attacks could affect Russia’s fuel system and further test Washington’s role in managing the conflict, although the coverage confirms only the renewed strike and Kyiv’s stated position.",
+      "editorNote": "Added in the 19:00 KST merge after same-day reporting by AP and CNBC. AP cites Russian authorities and an anonymous Ukrainian official for the Ryazan strike; operational scope remains unconfirmed.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/15/ukraine-russia-energy-ceasefire-zelenskyy.html",
+          "source": "CNBC",
+          "title": "Ukraine to resume strikes on Russian refineries, shattering hopes of an energy ceasefire"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/0071b4f3792c9912b977b0ee73505b18",
+          "source": "Associated Press",
+          "title": "Ukraine resumes attacks on Russian oil refineries, officials say, after brief truce",
+          "publishedAt": "2026-10-15T09:06:02Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/10/15/ukraine-russia-energy-ceasefire-zelenskyy.html",
+          "source": "CNBC",
+          "title": "Ukraine to resume strikes on Russian refineries, shattering hopes of an energy ceasefire",
+          "publishedAt": "2026-10-15T07:46:30Z"
+        }
+      ],
+      "tags": [
+        "Ukraine",
+        "Russia",
+        "energy security"
       ],
       "confidence": "medium"
     }

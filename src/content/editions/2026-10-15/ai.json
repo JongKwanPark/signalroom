@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "generatedAt": "2026-10-15T07:08:52+09:00",
+  "generatedAt": "2026-10-15T10:04:27.338Z",
   "vertical": "ai",
   "lang": "en",
   "title": "AI systems, investment and operational risk",
@@ -666,6 +666,87 @@
         "Linux",
         "open source",
         "AI coding"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ftc-subpoenas-openai-anthropic-safety-incidents",
+      "headline": "Scoop: FTC subpoenas OpenAI, Anthropic over consumer harms",
+      "dek": "The agency is seeking records on safety incidents as part of its existing AI consumer-protection investigation.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "The Federal Trade Commission sent civil investigative demands to OpenAI and Anthropic seeking documents about safety incidents, Axios reported.",
+        "The requests are part of a probe into potential consumer-protection violations that the FTC opened in September.",
+        "The FTC is also considering testimony from senior executives, while the companies and agency have not publicly detailed the requests."
+      ],
+      "body": [
+        {
+          "text": "The Federal Trade Commission sent civil investigative demands to OpenAI and Anthropic on Wednesday, seeking documents about safety incidents involving their AI systems, Axios reported, citing a person familiar with the matter. The demands are information-gathering requests that can precede potential litigation; they do not establish that either company violated the law.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The request advances an investigation the FTC disclosed in late September into whether AI companies’ products could pose risks to consumers. That earlier announcement established the inquiry; the new reported step is the formal demand for records from the two companies.",
+          "citations": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "Axios reported that the agency also plans to seek testimony from senior AI executives. The article describes the testimony plan as prospective, and does not say that a court case or enforcement finding has been issued.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The public record in the cited coverage does not identify the full list of documents sought, the response deadlines, or the companies’ responses. The scope and outcome of the inquiry therefore remain open.",
+          "citations": [
+            1,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "The reported demands move federal scrutiny from announcing an inquiry toward collecting company records. For AI developers, the eventual scope of the FTC’s consumer-protection theory could shape how safety incidents and product claims are documented, but no legal conclusion has been reached.",
+      "editorNote": "New 19:00 KST multi-source development; Axios reported the demands, and a Reddit discussion links to and discusses the report. The separate September investigation is cited only as context.",
+      "cluster": [
+        {
+          "url": "https://www.reddit.com/r/MarketFluxHub/comments/1x6haqj/ftc_subpoenas_openai_and_anthropic_over_consumer/",
+          "source": "Reddit r/MarketFluxHub discussion",
+          "title": "FTC Subpoenas OpenAI and Anthropic Over Consumer Protection Violations"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation",
+          "source": "Axios",
+          "title": "Scoop: FTC subpoenas OpenAI, Anthropic over consumer harms",
+          "publishedAt": "2026-10-15T09:00:07Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reddit.com/r/MarketFluxHub/comments/1x6haqj/ftc_subpoenas_openai_and_anthropic_over_consumer/",
+          "source": "Reddit r/MarketFluxHub discussion",
+          "title": "FTC Subpoenas OpenAI and Anthropic Over Consumer Protection Violations",
+          "publishedAt": "2026-10-15"
+        },
+        {
+          "id": 3,
+          "url": "https://apnews.com/article/89ac416717adbfb1d72f2d85e6ce83d1",
+          "source": "Associated Press",
+          "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
+          "publishedAt": "2026-09-30T19:27:51Z"
+        }
+      ],
+      "tags": [
+        "AI policy",
+        "AI safety",
+        "FTC"
       ],
       "confidence": "medium"
     }

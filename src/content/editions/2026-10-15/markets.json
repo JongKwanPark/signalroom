@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "generatedAt": "2026-10-15T07:10:39+09:00",
+  "generatedAt": "2026-10-15T10:04:27.338Z",
   "vertical": "markets",
   "lang": "en",
   "title": "Inflation, credit and corporate restructuring",
@@ -645,6 +645,79 @@
         "equities",
         "inflation",
         "AI infrastructure"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "tsmc-third-quarter-2026-record-profit-ai-demand",
+      "headline": "TSMC Reports Third Quarter EPS of NT$29.43",
+      "dek": "The chipmaker reported record quarterly revenue and net income as AI processor demand remained strong.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Taiwan Semiconductor Manufacturing Co. reported third-quarter revenue of NT$1,494.24 billion and net income of NT$763.06 billion.",
+        "Net income rose 68.7% year over year, while diluted earnings per share reached NT$29.43, according to the company’s release.",
+        "TSMC forecast fourth-quarter revenue of US$52.3 billion to US$54.3 billion; the results document demand but do not settle how long current AI-related orders will persist."
+      ],
+      "body": [
+        {
+          "text": "Taiwan Semiconductor Manufacturing Co. reported consolidated third-quarter revenue of NT$1,494.24 billion and net income of NT$763.06 billion for the quarter ended September 30, 2026. Diluted earnings per share were NT$29.43, the company said in its earnings release.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Net income increased 68.7% from a year earlier, while revenue rose 50.9%, according to the company’s quarterly management report. Reuters reported that the profit exceeded market forecasts and attributed the result to demand for AI processors.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "TSMC forecast fourth-quarter revenue of US$52.3 billion to US$54.3 billion in its report. The company also said its third-quarter gross margin was 66.4%, compared with 59.5% in the same quarter a year earlier.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The release shows continued growth in the world’s largest contract chipmaker during a period when data-center and AI-related semiconductor demand is driving investment. The outlook is company guidance, however, and does not establish whether demand or margins will hold at the same level in later quarters.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "TSMC’s results provide a direct operating measure of demand behind the AI hardware buildout. The record quarter and forward revenue range contrast with same-day market volatility around AI financing and valuations, showing that strong reported orders and investor concerns can coexist; neither establishes future returns.",
+      "editorNote": "Added in the 19:00 KST merge. Financial figures and outlook are from TSMC’s official report; Reuters provides independent coverage and forecast context. No investment recommendation is made.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/stock-market-news/tsmc-q3-profit-jumps-69-to-record-beating-expectations-4950551",
+          "source": "Reuters via Investing.com",
+          "title": "TSMC Q3 profit jumps 69% to record, beating expectations"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/f83780000ddc0c3b48e57a87eab6814c4ab35058/3Q26%20ManagementReport.pdf",
+          "source": "TSMC",
+          "title": "3Q26 Management Report",
+          "publishedAt": "2026-10-15"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/stock-market-news/tsmc-q3-profit-jumps-69-to-record-beating-expectations-4950551",
+          "source": "Reuters",
+          "title": "TSMC Q3 profit jumps 69% to record, beating expectations",
+          "publishedAt": "2026-10-15T01:35:00Z"
+        }
+      ],
+      "tags": [
+        "TSMC",
+        "semiconductors",
+        "AI infrastructure",
+        "earnings"
       ],
       "confidence": "high"
     }

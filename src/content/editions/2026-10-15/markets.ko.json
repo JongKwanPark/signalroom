@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "generatedAt": "2026-10-15T07:10:39+09:00",
+  "generatedAt": "2026-10-15T10:04:27.338Z",
   "vertical": "markets",
   "lang": "ko",
   "title": "물가, 신용과 기업 구조조정",
@@ -645,6 +645,79 @@
         "equities",
         "inflation",
         "AI infrastructure"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "tsmc-third-quarter-2026-record-profit-ai-demand-ko",
+      "headline": "TSMC, 3분기 주당순이익 NT$29.43 발표",
+      "dek": "AI 프로세서 수요가 이어지는 가운데 분기 매출과 순이익이 사상 최고치를 기록했다고 반도체 기업이 밝혔다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Taiwan Semiconductor Manufacturing Co.는 3분기 매출 NT$1,494.24 billion, 순이익 NT$763.06 billion을 기록했다고 발표했다.",
+        "회사 발표에 따르면 순이익은 전년 대비 68.7% 증가했고 희석 주당순이익은 NT$29.43이었다.",
+        "TSMC는 4분기 매출을 US$52.3 billion~US$54.3 billion으로 전망했으며, 이번 실적은 AI 관련 주문이 얼마나 오래 지속될지는 확정하지 않는다."
+      ],
+      "body": [
+        {
+          "text": "Taiwan Semiconductor Manufacturing Co.는 2026년 9월 30일로 끝난 3분기에 연결 매출 NT$1,494.24 billion, 순이익 NT$763.06 billion을 기록했다고 발표했다. 희석 주당순이익은 NT$29.43이었다고 회사 실적 자료는 밝혔다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "회사 분기 보고서에 따르면 순이익은 전년 동기 대비 68.7% 늘었고 매출은 50.9% 증가했다. Reuters는 순이익이 시장 전망을 웃돌았으며 AI 프로세서 수요가 실적을 뒷받침했다고 보도했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "TSMC는 보고서에서 4분기 매출을 US$52.3 billion~US$54.3 billion으로 전망했다. 회사가 발표한 3분기 매출총이익률은 66.4%로, 전년 동기 59.5%보다 높았다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "이번 실적은 세계 최대 파운드리 업체의 성장을 보여주며 데이터센터와 AI 관련 반도체 수요가 투자를 이끄는 시기에 나왔다. 다만 전망치는 회사 가이던스이며, 이후 분기에도 수요와 마진이 같은 수준을 유지할지는 확정하지 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "TSMC 실적은 AI 하드웨어 인프라 구축을 뒷받침하는 수요를 직접 보여주는 지표다. 사상 최고 분기 실적과 향후 매출 전망은 AI 자금 조달·밸류에이션 우려에 따른 당일 시장 변동성과 대비되며, 양호한 주문과 투자자 우려가 함께 존재할 수 있음을 보여준다. 어느 쪽도 미래 수익을 확정하지 않는다.",
+      "editorNote": "19시 KST 병합에서 추가했다. 재무 수치와 전망은 TSMC 공식 보고서에서, 시장 전망 맥락은 Reuters의 독립 보도에서 확인했다. 투자 권유는 포함하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/stock-market-news/tsmc-q3-profit-jumps-69-to-record-beating-expectations-4950551",
+          "source": "Reuters via Investing.com",
+          "title": "TSMC Q3 profit jumps 69% to record, beating expectations"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/f83780000ddc0c3b48e57a87eab6814c4ab35058/3Q26%20ManagementReport.pdf",
+          "source": "TSMC",
+          "title": "3Q26 Management Report",
+          "publishedAt": "2026-10-15"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/stock-market-news/tsmc-q3-profit-jumps-69-to-record-beating-expectations-4950551",
+          "source": "Reuters",
+          "title": "TSMC Q3 profit jumps 69% to record, beating expectations",
+          "publishedAt": "2026-10-15T01:35:00Z"
+        }
+      ],
+      "tags": [
+        "TSMC",
+        "semiconductors",
+        "AI infrastructure",
+        "earnings"
       ],
       "confidence": "high"
     }
