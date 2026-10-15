@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-16",
+  "generatedAt": "2026-10-16T07:05:43+09:00",
+  "vertical": "bio",
+  "lang": "ko",
+  "title": "BIO | 바이오·헬스",
+  "summary": "다중 매체 기준을 통과한 개발은 케냐의 연계된 두 번째 에볼라 사례 한 건이었다. 펩타이드 정책 후보는 AP/STAT 기사가 AP 전재였고, CAR-T·NAC·NAD+ 후보는 독립 보도가 없는 단일 논문 또는 등록 기록이라 제외했다.",
+  "stories": [
+    {
+      "slug": "kenya-second-ebola-case-quarantine-ko",
+      "headline": "케냐, 첫 환자의 가족인 두 번째 에볼라 환자 보고",
+      "dek": "케냐 당국은 두 번째 환자가 첫 감염자의 친척이며 격리 상태에서 확인됐다고 밝혔다.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "당국과 독립 보도에 따르면 케냐는 첫 환자의 친척에게서 두 번째 분디부교 바이러스병 감염을 확인했다.",
+        "두 번째 환자는 격리 중 확인됐으며, 당시 당국은 지역사회 전파 증거가 없다고 밝혔다.",
+        "접촉자 추적과 국경을 넘는 통보가 진행 중이었고, 환자 수만으로 추가 전파를 단정할 수는 없었다."
+      ],
+      "body": [
+        {
+          "text": "케냐 보건부는 10월 14일 첫 환자의 친척인 두 번째 에볼라 환자를 확인했다고 밝혔다. Reuters는 이 감염이 콩고민주공화국에 거주하다 나이로비에서 치료를 받은 뒤 사망한 케냐인 남성의 사례 이후 확인됐다고 보도했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Associated Press는 두 번째 환자가 격리 중 증상이 나타난 뒤 양성 판정을 받았다고 전했다. 보건부는 두 사례가 연결돼 있으며, 발표 당시 지역사회 전파 증거는 없다고 밝혔다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "당국은 첫 환자와 연결된 접촉자를 파악해 다수를 격리했고, 일부 접촉자가 있는 다른 국가에도 통보했다. 보도에 따르면 대응에는 국경과 공항에서의 검역 강화가 포함됐다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "보도 시점에 추가 감염이 이어질지, 전파가 연결된 사례를 넘어섰는지는 확인되지 않았다. 두 번째 환자는 감시 중인 접촉자 집단에서 발견됐지만, 더 넓은 유행의 향방은 불확실했다.",
+          "citations": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "이번 사례는 콩고민주공화국의 유행과 케냐를 연결하며, 대응의 중심에 국경 간 감시와 접촉자 추적을 놓았다.",
+      "editorNote": "Reuters와 Associated Press 보도를 사용했다. 환자 수와 지역사회 전파가 확인되지 않았다는 내용은 당국에 귀속되며, 보도 당시 기준이다.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/09bbb179f730abecbb2f5b2951e0fc28",
+          "source": "Associated Press",
+          "title": "Kenya confirms second Ebola case, a relative of first patient"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://uk.marketscreener.com/news/kenya-reports-second-ebola-case-family-member-of-first-patient-ce785dd2de8df425",
+          "source": "Reuters",
+          "title": "Kenya reports second Ebola case, family member of first patient",
+          "publishedAt": "2026-10-14"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/09bbb179f730abecbb2f5b2951e0fc28",
+          "source": "Associated Press",
+          "title": "Kenya confirms second Ebola case, a relative of first patient",
+          "publishedAt": "2026-10-14"
+        }
+      ],
+      "tags": [
+        "bio",
+        "Ebola",
+        "public health"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-16",
+  "generatedAt": "2026-10-16T07:05:43+09:00",
+  "vertical": "bio",
+  "lang": "en",
+  "title": "BIO | Biotechnology & Health",
+  "summary": "One multi-outlet development met the gate: Kenya’s linked second Ebola case. The peptide policy item was excluded because the apparent AP/STAT pair was AP syndication; CAR-T, NAC and NAD+ candidates were single papers or registry records without independent reporting.",
+  "stories": [
+    {
+      "slug": "kenya-second-ebola-case-quarantine",
+      "headline": "Kenya reports second Ebola case, family member of first patient",
+      "dek": "The second patient was a relative of the first case and had been placed in quarantine, Kenyan authorities said.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Kenya confirmed a second Bundibugyo virus disease case in a relative of its first patient, according to authorities and independent reporting.",
+        "The second patient was identified while in quarantine; officials reported no evidence of community spread at that point.",
+        "Contact tracing and cross-border notification were ongoing, and the case count alone did not establish wider transmission."
+      ],
+      "body": [
+        {
+          "text": "Kenya’s Health Ministry confirmed a second Ebola case on Oct. 14, involving a relative of the first patient. Reuters reported that the new case followed the death of a Kenyan man who had been living in the Democratic Republic of Congo and was treated in Nairobi.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The Associated Press reported that the second patient had been in quarantine and developed symptoms before testing positive. The ministry said the two cases were linked and that it had no evidence of spread in the community at the time of its statement.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Authorities had identified contacts connected to the first patient and placed many under quarantine; officials also notified countries where some contacts were located. The response included screening at borders and airports, according to the reports.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The reports did not establish whether additional infections would follow or whether transmission had moved beyond the linked cases. The second case showed detection within the monitored contact group, while the outbreak’s wider trajectory remained uncertain.",
+          "citations": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "The case connected an outbreak in the Democratic Republic of Congo to Kenya and put cross-border surveillance and contact tracing at the center of the response.",
+      "editorNote": "Uses Reuters and Associated Press reporting. Counts and the absence of community transmission are attributed to authorities and reflect the reports available at publication.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/09bbb179f730abecbb2f5b2951e0fc28",
+          "source": "Associated Press",
+          "title": "Kenya confirms second Ebola case, a relative of first patient"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://uk.marketscreener.com/news/kenya-reports-second-ebola-case-family-member-of-first-patient-ce785dd2de8df425",
+          "source": "Reuters",
+          "title": "Kenya reports second Ebola case, family member of first patient",
+          "publishedAt": "2026-10-14"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/09bbb179f730abecbb2f5b2951e0fc28",
+          "source": "Associated Press",
+          "title": "Kenya confirms second Ebola case, a relative of first patient",
+          "publishedAt": "2026-10-14"
+        }
+      ],
+      "tags": [
+        "bio",
+        "Ebola",
+        "public health"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

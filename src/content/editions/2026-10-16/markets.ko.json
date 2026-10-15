@@ -1,0 +1,223 @@
+{
+  "date": "2026-10-16",
+  "generatedAt": "2026-10-16T07:05:43+09:00",
+  "vertical": "markets",
+  "lang": "ko",
+  "title": "MARKETS | 시장·거시경제",
+  "summary": "다중 매체 기준을 통과한 개발은 CoreWeave 신용 재평가, AI 부채·채권을 둘러싼 시장 이동, 미국 9월 생산자물가 세 건이었다. 하버드 기금 성과와 Apple–Meta 모델 제공 등은 수집 자료에서 두 번째 독립 매체를 찾지 못했고, 투자 조언성 기사는 제외했다.",
+  "stories": [
+    {
+      "slug": "coreweave-credit-distress-ai-debt-ko",
+      "headline": "CoreWeave 신용부도스와프, 투자자들의 AI 부채 우려 속 위험 수준 도달",
+      "dek": "신용파생상품과 채권 수익률이 부도 위험이 높다고 여겨지는 구간으로 더 이동했다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 5,
+      "tldr": [
+        "CNBC에 따르면 CoreWeave의 5년물 신용부도스와프 스프레드는 장중 1,140bp를 웃돌았고 이후 1,088bp로 보도됐다.",
+        "Reuters와 Axios도 부채로 조달한 AI 인프라에 대한 우려 속에서 회사의 채권과 주가가 계속 압박받았다고 전했다.",
+        "시장 가격은 인식된 위험을 반영하지만 실제 부도가 발생한다는 뜻은 아니다."
+      ],
+      "body": [
+        {
+          "text": "CNBC는 CoreWeave의 5년물 신용부도스와프가 장중 한때 1,140bp를 웃돈 뒤 1,088bp에 거래됐다고 보도했다. 매체는 이 수준이 일반적으로 신용위험이 심각한 구간으로 간주된다고 설명했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Reuters는 AI 부채 우려가 커지는 가운데 CoreWeave 주식과 채권이 하락했다고 별도로 보도했다. Axios는 회사 채권이 이틀 연속 매도됐고 수익률이 15%를 넘었다고 전했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "시장 우려의 중심에는 AI 데이터센터 금융의 규모와 회수 시점이 있다. 보도에 따르면 CoreWeave는 대규모 인프라 약정을 보유한 반면, 투자자들은 영업 현금흐름이 부채 상환을 뒷받침할 만큼 빨리 발생할지 주시하고 있다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "신용부도스와프 스프레드와 채권 수익률은 시장 지표이며 회사가 실제로 부도날 것이라는 예측은 아니다. CNBC가 보도한 사내 메모에서 Mike Intrator CEO는 수주 잔고가 부채 상환을 뒷받침한다고 밝혔다. 실제 현금 창출과 차환 경로는 아직 열려 있다.",
+          "citations": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "이번 재평가는 AI 지출에 대한 검토가 주식 밸류에이션을 넘어 신용시장으로 옮겨가며, 대출기관과 채권 보유자가 인프라 투자 회수 시점을 따지고 있음을 보여준다.",
+      "editorNote": "수치는 CNBC의 시장 보도에 귀속했다. Reuters와 Axios가 관련 채권·주가 압박을 별도로 보도했으며, 시장 가격을 실제 부도 발생으로 해석하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.axios.com/2026/10/15/ai-coreweave-bonds-stocks",
+          "source": "Axios",
+          "title": "AI tremors felt in corporate bond market"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/15/coreweave-credit-default-swaps-hit-distress-levels-as-investors-sour-on-ai-debt.html",
+          "source": "CNBC",
+          "title": "CoreWeave credit default swaps hit distress levels as investors sour on AI debt",
+          "publishedAt": "2026-10-15T21:33:24Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.axios.com/2026/10/15/ai-coreweave-bonds-stocks",
+          "source": "Axios",
+          "title": "AI tremors felt in corporate bond market",
+          "publishedAt": "2026-10-15"
+        }
+      ],
+      "tags": [
+        "markets",
+        "credit",
+        "AI infrastructure"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ai-rout-investors-bonds-safe-haven-ko",
+      "headline": "AI 매도세가 채권을 다시 안전자산으로 만들고 있나?",
+      "dek": "Reuters는 투자자들이 부채로 조달되는 AI 지출을 재평가하며 국채로 이동했다고 보도했다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 5,
+      "tldr": [
+        "Reuters는 AI 관련 주식 중심의 매도세 속에 투자자들이 주식에서 국채로 이동했다고 보도했다.",
+        "Axios는 AI 투자가 미국 시장의 차입 비용을 높이고 다른 차입자들의 자금 조달을 압박하고 있다고 별도로 전했다.",
+        "두 보도는 시장 포지셔닝과 우려를 보여줄 뿐 AI 투자 사이클이 끝났다고 확정하지 않는다."
+      ],
+      "body": [
+        {
+          "text": "Reuters는 10월 15일 AI 관련 주식 매도와 함께 국채 수요가 다시 늘었다고 보도했다. 최근 물가 지표가 연방준비제도의 추가 긴축 가능성을 남겨둔 가운데 미국 국채와 다른 국채 가격이 올랐다고 전했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Axios는 AI 투자가 미국 시장의 금융 조달에서 차지하는 비중이 커지고 있다고 별도로 설명했다. 하이퍼스케일러와 데이터센터 기업이 확장을 위해 차입하고 있으며, Axios가 인용한 자료에 따르면 9월 글로벌 AI 부채 발행액은 230억 달러로 8월보다 적고 6월 정점보다 낮았다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "두 보도는 투자자들이 대규모 AI 인프라 약정의 기대 수익과 높은 물가가 이어지는 시장의 조달 비용을 함께 따지고 있음을 보여준다. Reuters는 물가가 채권의 안전자산 역할을 약화했던 시기를 지나 국채가 일부 피난처 매력을 되찾았다고 설명했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "보도는 투자자들이 AI 자산을 완전히 포기했다거나 인프라 구축이 중단됐다고 말하지 않는다. 채권 이동이 이어질지는 후속 물가 지표, 중앙은행 결정, AI 매출과 현금흐름이 차입을 정당화하는지에 달려 있다.",
+          "citations": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "AI 확장의 자금 조달 방식은 기술기업을 넘어 다른 부문의 차입 여건에도 영향을 줄 수 있어, 해당 산업의 투자 사이클이 자본 비용을 통해 시장 전반에 파급된다.",
+      "editorNote": "Reuters와 Axios가 같은 시장 재평가의 서로 다른 측면을 보도했다. 230억 달러 발행액은 Axios가 인용한 Financial Times/Morgan Stanley 자료에 귀속했다.",
+      "cluster": [
+        {
+          "url": "https://www.axios.com/2026/10/14/ai-investment-stocks-bonds",
+          "source": "Axios",
+          "title": "AI investment is crowding everything else out"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.investing.com/news/economy-news/is-the-ai-rout-making-bonds-safe-again-4950570",
+          "source": "Reuters",
+          "title": "Is the AI rout making bonds safe again?",
+          "publishedAt": "2026-10-15"
+        },
+        {
+          "id": 2,
+          "url": "https://www.axios.com/2026/10/14/ai-investment-stocks-bonds",
+          "source": "Axios",
+          "title": "AI investment is crowding everything else out",
+          "publishedAt": "2026-10-14"
+        }
+      ],
+      "tags": [
+        "markets",
+        "bonds",
+        "AI spending"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "us-ppi-september-2026-ko",
+      "headline": "미국 9월 생산자물가, 4년 반 만에 최대 상승",
+      "dek": "9월 생산자물가지수는 전월 대비 1.3%, 전년 대비 6.3% 올랐다.",
+      "type": "DATA",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "미 노동통계국 자료에 따르면 9월 최종수요 생산자물가지수는 1.3% 상승해 2022년 3월 이후 가장 큰 월간 상승률을 기록했다.",
+        "Reuters와 AP는 지수가 전년 대비 6.3% 올랐으며 연료와 상품·서비스 전반의 비용이 상승에 기여했다고 보도했다.",
+        "이번 지표는 물가 압력을 더하지만 연방준비제도의 다음 결정을 확정하지는 않는다."
+      ],
+      "body": [
+        {
+          "text": "미 노동통계국은 9월 최종수요 생산자물가지수가 1.3% 상승해 2022년 3월 이후 가장 큰 월간 상승폭을 기록했다고 밝혔다. Reuters와 Associated Press는 10월 15일 발표를 보도했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP에 따르면 지수는 전년 대비 6.3% 상승했으며, 8월의 5.6%보다 높았다. Reuters는 상승이 에너지에만 국한되지 않고 상품과 서비스 비용 전반에 나타났다고 전했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "노동통계국 자료에서 최종수요 상품 가격은 월간 2.6%, 서비스 가격은 0.8% 올랐다. AP는 연료비 상승이 주요 요인이며 운송·창고·식품 비용에도 압력이 생겼다고 설명했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "생산자물가지수는 국내 생산자가 받는 가격을 측정하며, 이후 소비자물가나 연방준비제도 정책을 참고하는 지표지만 기계적으로 결정하지는 않는다. 향후 발표에서도 상승 폭과 지속성이 이어질지는 불확실하다.",
+          "citations": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "월간 물가가 폭넓게 상승한 시점은 소비자물가가 높은 가운데 나타났다. 이는 기업의 투입 비용, 가계 가격, 연방준비제도의 정책 평가와 관련된 압력을 부각한다.",
+      "editorNote": "헤드라인은 Reuters 표현을 따랐다. 1.3%와 6.3% 수치는 노동통계국 자료와 AP 보도로 확인했으며, 금리 전망은 단정하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/ff5adf8283a770c2ca9897b10a09dda7",
+          "source": "Associated Press",
+          "title": "Wholesale inflation reaches levels last seen in 2022"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.investing.com/news/economy-news/us-producer-prices-post-largest-increase-in-412-years-in-september-4951935",
+          "source": "Reuters",
+          "title": "US producer prices post largest increase in 4-1/2 years in September",
+          "publishedAt": "2026-10-15"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/ff5adf8283a770c2ca9897b10a09dda7",
+          "source": "Associated Press",
+          "title": "Wholesale inflation reaches levels last seen in 2022",
+          "publishedAt": "2026-10-15"
+        }
+      ],
+      "tags": [
+        "markets",
+        "inflation",
+        "US economy"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

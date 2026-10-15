@@ -1,0 +1,366 @@
+{
+  "date": "2026-10-16",
+  "generatedAt": "2026-10-16T07:05:43+09:00",
+  "vertical": "geo",
+  "lang": "ko",
+  "title": "GEO | 지정학·안보",
+  "summary": "다중 매체 기준을 통과한 개발은 흑해 유조선 공격, 브라질 노동시간 개정안, 아덴 후티 공격, 마두로의 법정 답변, 이스탄불 침수 다섯 건이었다. 이스탄불 보도는 사망자 수와 강우 비교 기준이 달라 AP 헤드라인을 유지하고 본문에 차이를 밝혔다.",
+  "stories": [
+    {
+      "slug": "black-sea-tanker-drone-attack-romania-ko",
+      "headline": "루마니아 해안서 드론 공격으로 유조선 화재, 선원 7명 실종",
+      "dek": "루마니아 당국은 다뉴브강 하구 인근에서 Wine Trader호가 공격받았다고 밝혔다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 5,
+      "tldr": [
+        "BBC와 AP가 루마니아 당국을 인용해 보도한 내용에 따르면, 산마리노 선적 화학 유조선 Wine Trader호가 루마니아 앞바다에서 드론 공격을 받아 불이 났다.",
+        "선원 12명 가운데 7명이 실종됐고 5명은 구조됐다고 보도됐다.",
+        "공격 주체와 선박의 정확한 임무는 보도 당시 조사 중이었다."
+      ],
+      "body": [
+        {
+          "text": "루마니아 당국은 산마리노 선적 화학 유조선 Wine Trader호가 10월 15일 흑해의 루마니아 앞바다에서 폭발과 화재를 신고했다고 밝혔다. BBC와 Associated Press는 선박이 다뉴브강 하구와 가까운 술리나 인근에 있었다고 보도했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "보도에 따르면 선원 12명 가운데 7명이 실종됐고 5명은 구조됐다. 루마니아 구조대는 거친 해상 상황에서 선박과 항공기를 동원해 수색·구조 작업에 나섰다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "루마니아 당국은 선박이 드론에 맞았다고 밝혔으며, AP는 이 선박이 튀니지에서 루마니아로 향하던 중이었다고 전했다. 보도는 하루 전 다른 유조선 Yara J도 공격받았다고 전해 이 지역 선박 사고에 대한 우려를 키웠다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "확인된 보도만으로는 드론을 누가 발사했는지, Wine Trader호가 의도적으로 표적이 됐는지 알 수 없다. 루마니아 당국의 조사가 이어지는 가운데 공격 주체와 더 넓은 작전 양상은 미확인 상태다.",
+          "citations": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "이번 사건은 전쟁으로 인한 상업 선박 위험을 루마니아 해안과 흑해 교역의 전략적 통로인 다뉴브 회랑 가까이 끌어왔다.",
+      "editorNote": "공격 주체는 미확인이다. 선원 수와 위치는 BBC/AP가 루마니아 당국을 인용한 내용이며, 책임 소재를 단정하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/b4a471ba3de9029f80e1450fecbc2ffc",
+          "source": "Associated Press",
+          "title": "Drone strike and fire on ship in Romanian waters raise fears that war in Ukraine is spreading"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c60qkgpp592yo",
+          "source": "BBC",
+          "title": "Seven crew missing after drone attack leaves tanker ablaze off Romania's coast",
+          "publishedAt": "2026-10-15T14:51:30Z"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/b4a471ba3de9029f80e1450fecbc2ffc",
+          "source": "Associated Press",
+          "title": "Drone strike and fire on ship in Romanian waters raise fears that war in Ukraine is spreading",
+          "publishedAt": "2026-10-15"
+        }
+      ],
+      "tags": [
+        "geopolitics",
+        "Black Sea",
+        "maritime security"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "brazil-40-hour-workweek-constitutional-amendment-ko",
+      "headline": "브라질 의회, 룰라에게 정치적 승리 안긴 주 노동시간 단축안 승인",
+      "dek": "헌법 개정안은 주 최대 노동시간을 44시간에서 40시간으로 단계적으로 줄인다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 5,
+      "tldr": [
+        "BBC와 The Guardian에 따르면 브라질 의회는 주 최대 노동시간을 44시간에서 40시간으로 줄이는 헌법 개정안을 승인했다.",
+        "개정안은 6일 근무제를 단계적으로 없애며, 공포 절차 이후 시행된다.",
+        "표결은 10월 25일 대선을 앞둔 Luiz Inácio Lula da Silva 대통령에게 정치적 승리로 평가됐다."
+      ],
+      "body": [
+        {
+          "text": "브라질 의회는 주 최대 노동시간을 줄이는 헌법 개정안을 승인했으며, 상원 표결은 10월 14일 이뤄졌다. BBC와 The Guardian은 이 조치가 상한을 44시간에서 40시간으로 낮추고 6일 근무제를 없애는 내용이라고 전했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The Guardian은 하원이 5월에 안을 통과시켰고, 상원에서 75명이 찬성하고 1명이 반대했다고 보도했다. 개정안은 즉시 시행되는 것이 아니라 공포와 단계적 전환 기간을 거친다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "보도에 따르면 전환 과정에서 먼저 상한이 42시간으로 줄고, 추가 기간이 지나면 40시간이 된다. 특히 서비스 업종을 중심으로 수천만 명에게 영향을 미칠 것으로 예상되지만, 실제 적용 범위는 시행 방식에 달려 있다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Luiz Inácio Lula da Silva 대통령은 10월 25일 Flávio Bolsonaro와의 결선투표를 앞두고 개정안을 지지했다. 표결의 정치적 효과와 고용·기업 비용에 미칠 실제 영향은 아직 열려 있으며, 현재 확인된 것은 승인 사실이지 측정된 결과가 아니다.",
+          "citations": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "헌법 개정은 노동 기준을 다가오는 대선 경쟁과 연결하며, 소매·숙박·기타 서비스업의 인력 운영을 바꿀 수 있다.",
+      "editorNote": "승인과 40시간 목표에 대한 보도는 일치한다. 보도 당시 새 규정은 아직 시행 전이었다.",
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/world/2026/oct/15/brazil-cuts-work-week-to-40-hours-lula-bolsonaro-election-runoff",
+          "source": "The Guardian",
+          "title": "Brazil cuts work week to 40 hours in win for Lula ahead of runoff"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Brazil's Congress approves shorter working week in win for Lula",
+          "publishedAt": "2026-10-15T14:51:30Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theguardian.com/world/2026/oct/15/brazil-cuts-work-week-to-40-hours-lula-bolsonaro-election-runoff",
+          "source": "The Guardian",
+          "title": "Brazil cuts work week to 40 hours in win for Lula ahead of runoff",
+          "publishedAt": "2026-10-15"
+        }
+      ],
+      "tags": [
+        "Brazil",
+        "labor policy",
+        "elections"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "houthi-attack-aden-presidential-palace-ko",
+      "headline": "예멘 대통령궁 겨냥한 후티 미사일 공격으로 2명 사망, 장관 밝혀",
+      "dek": "예멘 정부는 아덴의 대통령궁 단지가 미사일과 드론 공격을 받았다고 밝혔다.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "예멘 정부와 AP·Reuters 보도에 따르면 10월 15일 후티가 아덴의 대통령궁 단지를 미사일과 드론으로 공격했다.",
+        "당국은 2명이 사망했다고 밝혔으며, 정부는 각료들이 무사하다고 전했다.",
+        "Reuters와 AP에 따르면 이번 공격은 사우디 기반 시설 공격을 포함한 더 넓은 긴장 고조 속에 발생했다."
+      ],
+      "body": [
+        {
+          "text": "예멘 정부와 Associated Press·Reuters 보도에 따르면 10월 15일 미사일과 드론이 아덴의 대통령궁 단지를 공격했다. 이 단지는 국제적으로 인정받는 예멘 정부가 사용하는 곳이다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP는 한 당국자를 인용해 최소 2명이 사망했다고 보도했다. Reuters는 경호원 2명이 사망했다고 전했으며, 예멘 내각은 미사일과 드론 공격이 있었지만 고위 정부 인사들은 다치지 않았다고 밝혔다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "보도는 이 사건을 후티의 공격과 역내 대응이 이어지는 더 넓은 흐름 속에 놓았다. Reuters는 사우디 주도 연합군도 분쟁이 고조되는 가운데 사우디 기반 시설에 대한 공격을 설명했다고 전했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "확인된 보도는 후티가 공격을 주장했다고 전하지만 피해의 전체 규모나 당사자들의 다음 대응은 확정하지 않는다. 안보 상황과 추가 국경 간 공격 위험은 여전히 열려 있다.",
+          "citations": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "이번 공격은 아덴의 정부 중심지를 겨냥했으며, 병행된 공격과 대응은 대치를 예멘과 사우디아라비아 전역으로 확장했다.",
+      "editorNote": "사망자 수는 당국 발표에 귀속했다. AP와 Reuters의 제목 표현은 다르지만 두 명 사망을 보도했다.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/commodities-news/yemens-houthis-hit-palace-in-aden-coalition-details-attacks-on-saudi-infrastructure-4952575",
+          "source": "Reuters",
+          "title": "Yemen’s Houthis hit palace in Aden, coalition details attacks on Saudi infrastructure"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cm62y6lp73zdo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Houthi missile attack on Yemeni presidential palace kills two, minister says",
+          "publishedAt": "2026-10-15T17:18:49Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/commodities-news/yemens-houthis-hit-palace-in-aden-coalition-details-attacks-on-saudi-infrastructure-4952575",
+          "source": "Reuters",
+          "title": "Yemen’s Houthis hit palace in Aden, coalition details attacks on Saudi infrastructure",
+          "publishedAt": "2026-10-15"
+        }
+      ],
+      "tags": [
+        "Yemen",
+        "Houthis",
+        "regional security"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "maduro-pleads-not-guilty-torture-charges-ko",
+      "headline": "마두로, 뉴욕서 새로운 고문 관련 혐의에 무죄 주장",
+      "dek": "베네수엘라 전 대통령은 고문 공모 혐의를 다루는 미국 사건에서 혐의를 부인했다.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "AP와 Al Jazeera에 따르면 Nicolás Maduro는 뉴욕에서 새로 제기된 미국의 고문 관련 혐의에 무죄를 주장했다.",
+        "Maduro는 혐의가 거짓이라고 말했으며, 공소장은 전주에 공개됐다.",
+        "이번 답변은 절차상 진전이며 혐의나 사건의 결론을 확정하지 않는다."
+      ],
+      "body": [
+        {
+          "text": "Associated Press와 Al Jazeera는 베네수엘라 전 대통령 Nicolás Maduro가 10월 15일 뉴욕 법원에서 고문 공모 혐의와 관련한 새 혐의에 무죄를 주장했다고 보도했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP에 따르면 Maduro는 법정에서 혐의를 거짓이라고 부르며 부인했다. 새 공소장은 심리 전 주에 공개됐다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "이 사건은 검찰이 주장하는 고문 혐의와 관련해, 피해 발생국 밖에서도 기소를 허용하는 미국 법률을 다룬다. AP는 Maduro가 별도의 미국 마약 사건에서도 앞서 무죄를 주장했다고 전했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "이번 심리는 Maduro의 답변을 기록한 절차일 뿐 유죄를 입증하거나 증거를 판단한 것은 아니다. 다음 절차와 새 사건이 기존 미국 소송과 어떤 관계를 맺을지는 보도 당시 확정되지 않았다.",
+          "citations": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "이 절차는 베네수엘라 전 지도자에 대한 혐의를 미국 법원에서 다루며 관할권·증거·정치적 파장에 관한 질문을 이어간다.",
+      "editorNote": "보도는 혐의와 피고인의 답변만 다루며 유죄 판단을 암시하지 않는다.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/15/venezuelas-maduro-pleads-not-guilty-to-us-conspiracy-to-torture-charges",
+          "source": "Al Jazeera",
+          "title": "Venezuela’s Maduro pleads not guilty to US conspiracy to torture charges"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cqwyrn1l74zro?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Maduro pleads not guilty to new torture-related charges in New York",
+          "publishedAt": "2026-10-15T16:52:44Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/news/2026/10/15/venezuelas-maduro-pleads-not-guilty-to-us-conspiracy-to-torture-charges",
+          "source": "Al Jazeera",
+          "title": "Venezuela’s Maduro pleads not guilty to US conspiracy to torture charges",
+          "publishedAt": "2026-10-15"
+        }
+      ],
+      "tags": [
+        "Venezuela",
+        "US courts",
+        "international law"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "istanbul-floods-heavy-rain-october-2026-ko",
+      "headline": "폭우로 이스탄불 마비…홍수로 3명 사망",
+      "dek": "AP는 폭우로 도로와 주택이 침수되고 구조대가 고립된 주민을 대피시켰다고 보도했다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "AP와 Al Jazeera는 10월 14~15일 이스탄불 일부 지역이 침수되고 학교가 문을 닫으며 교통이 마비됐다고 보도했다.",
+        "AP는 최소 3명이 사망했다고 전했지만, BBC가 인용한 앞선 현지 보도는 사망자 수를 다르게 전했다.",
+        "당국은 수십 년 만의 큰비라고 설명했으나 비교 기간은 보도마다 달랐다."
+      ],
+      "body": [
+        {
+          "text": "Associated Press와 Al Jazeera는 10월 14~15일 이스탄불의 주택·도로·지하차도가 침수돼 휴교와 구조 작업이 이어졌다고 보도했다. 차량이 고립됐고 일부 지역에서는 물에 휩쓸린 자동차도 발생했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP는 주지사실과 현지 언론을 인용해 최소 3명이 숨지고 여러 명이 실종됐다고 전했다. BBC가 앞서 주지사를 인용해 2명이 사망했다고 보도한 바 있어, 확인된 보도는 서로 다른 시점의 집계를 반영한다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "보도들은 이번 비가 이례적으로 강했다고 설명했지만 비교 기준은 달랐다. AP는 83년 만의 최대 강우라고 전했고, Al Jazeera 영상 보도는 1985년 이후 가장 강한 비라고 표현했다. 현지 측정값과 비교 기간은 보도에서 일치하지 않았다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "당국은 침수 지역에서 주민을 대피시키는 동안 학교를 닫고 외출을 자제하라고 당부했다. 보도는 즉각적인 피해와 사상자를 전했지만, 전체 피해 평가와 최종 사망자 수는 후속 업데이트가 필요한 상태였다.",
+          "citations": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "이번 침수는 튀르키예 최대 도시의 교통·주거 인프라가 집중호우에 취약하다는 점을 드러냈으며, 사망자 집계는 업데이트 중이었다.",
+      "editorNote": "AP와 Al Jazeera가 독립적으로 보도했다. AP는 사망자 3명, BBC의 앞선 보도는 2명을 전했다. 헤드라인은 AP 원문을 따르고 본문에 차이를 밝혔다.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/15/istanbul-flash-floods-torrential-rain",
+          "source": "Al Jazeera",
+          "title": "Istanbul in chaos, shut down by heaviest rainfall since 1985"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/51f3d03c2662b8b5d50098ae6a069a80",
+          "source": "Associated Press",
+          "title": "Heavy rain shuts down Istanbul, causing flooding and 3 deaths",
+          "publishedAt": "2026-10-15"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/15/istanbul-flash-floods-torrential-rain",
+          "source": "Al Jazeera",
+          "title": "Istanbul in chaos, shut down by heaviest rainfall since 1985",
+          "publishedAt": "2026-10-15"
+        }
+      ],
+      "tags": [
+        "Turkey",
+        "flooding",
+        "urban infrastructure"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}
