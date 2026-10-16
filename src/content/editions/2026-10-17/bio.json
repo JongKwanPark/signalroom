@@ -1,0 +1,158 @@
+{
+  "date": "2026-10-17",
+  "generatedAt": "2026-10-16T22:06:04.054Z",
+  "vertical": "bio",
+  "lang": "en",
+  "title": "Signal Daily BIO — October 17, 2026",
+  "summary": "2 stories. Included a reported first-in-human CAR-T trial and a peptide compounding policy filing with separate coverage. NAC and NAD+ precursor papers, animal studies and trial-registry updates were excluded because no second independent outlet reported a qualifying clinical or regulatory development.",
+  "stories": [
+    {
+      "slug": "first-in-human-trispecific-car-t-trial-reports-early-results",
+      "headline": "Safety and Clinical Outcomes of a First-in-Human Trial of Point-of-Care Manufactured Trispecific CAR T Cells Targeting CD19, CD20, and CD22",
+      "dek": "A phase I study reported early clinical outcomes from a locally manufactured CAR T approach for relapsed or treatment-resistant B-cell cancers.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "미국 연구진은 재발성 또는 치료 저항성 B세포 암 환자를 대상으로 CD19·CD20·CD22를 표적하는 삼중표적 CAR T 치료의 1상 결과를 보고했다.",
+        "연구 논문과 Ohio State 보도자료에 따르면 18명이 등록됐고 16명이 치료를 받았으며, 연구는 병원 현장에서 세포를 제조하는 방식을 평가했다.",
+        "초기 결과는 소규모 1상 자료이며 비교군이 없고 장기 효과와 안전성은 확정되지 않았다."
+      ],
+      "body": [
+        {
+          "text": "Ohio State 연구진이 재발하거나 기존 치료에 반응하지 않는 B세포 혈액암 환자에게 삼중표적 CAR T 세포를 투여한 첫 사람 대상 1상 연구를 보고했다. 논문은 CD19, CD20, CD22를 표적하고 병원 현장에서 제조한 세포 치료의 안전성과 임상 결과를 다룬다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "연구 초록과 Ohio State 보도에 따르면 임상시험에는 18명이 등록됐고 16명이 실제 치료를 받았다. 연구팀은 세 표적을 함께 겨냥해 암세포가 하나의 표적을 잃는 경우 치료를 피할 수 있는 가능성을 낮추려는 설계를 평가했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "MedicalXpress의 보도는 결과를 초기 가능성으로 묘사하고, 연구진 역시 제한된 치료 선택지를 가진 환자군에서 추가 평가가 필요하다고 설명했다. 현재 자료는 소규모 1상 연구이며, 치료 효과를 표준 치료와 직접 비교한 결과는 아니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "더 큰 환자군과 장기 추적 자료가 있어야 반응의 지속성, 부작용, 제조 방식의 재현성을 판단할 수 있다. 따라서 이번 결과는 임상 개발의 초기 신호이지 치료 권고나 허가된 치료의 근거가 아니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "병원 현장 제조와 여러 표적을 결합한 CAR T 설계가 임상 개발에서 어떤 역할을 할지 보여주는 초기 사례다. 더 큰 연구에서 결과가 재현되는지가 남은 쟁점이다.",
+      "editorNote": "초기 1상 결과로 한정했으며 임상 권고나 효능 확정 표현을 피했다.",
+      "cluster": [
+        {
+          "url": "https://medicalxpress.com/news/2026-10-car-cell-therapy-early-cancers.html",
+          "source": "MedicalXpress",
+          "title": "Enhanced CAR T-cell therapy shows early promise for B-cell cancers in first-in-human trial"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://doi.org/10.1158/2643-3230.BCD-26-0186",
+          "source": "Blood Cancer Discovery",
+          "title": "Safety and Clinical Outcomes of a First-in-Human Trial of Point-of-Care Manufactured Trispecific CAR T Cells Targeting CD19, CD20, and CD22",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "id": 2,
+          "url": "https://medicalxpress.com/news/2026-10-car-cell-therapy-early-cancers.html",
+          "source": "MedicalXpress",
+          "title": "Enhanced CAR T-cell therapy shows early promise for B-cell cancers in first-in-human trial",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "tags": [
+        "CAR-T",
+        "clinical trial",
+        "cell therapy"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "hhs-peptide-compounding-plan-enters-white-house-review",
+      "headline": "Trump administration advances plan for peptide drugs favored by RFK Jr.",
+      "dek": "HHS sent an interim compounding policy for certain peptides to the White House for review; no rule or access change has been issued.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "미 보건복지부는 일부 펩타이드의 약국 조제에 관한 임시 접근 정책을 백악관 검토 절차에 제출했다.",
+        "AP와 The Epoch Times는 정부 규제 추적 사이트에 제출 사실이 게시됐다고 보도했으며, AP는 일부 제품에 대한 임시 집행 재량 방안을 취재원 설명으로 전했다.",
+        "정책 문안은 공개되지 않았고 최종 결정도 나지 않아 현재 조제 가능 여부나 안전성·유효성에 변화가 생겼다고 볼 수 없다."
+      ],
+      "body": [
+        {
+          "text": "미 보건복지부(HHS)가 특정 펩타이드의 약국 조제에 관한 “Interim Access Policy”를 백악관 예산관리국(OMB)에 제출했다. AP와 The Epoch Times는 10월 14일 제출 사실이 정부 규제 검토 사이트에 게시됐다고 각각 보도했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP는 계획에 정통한 두 사람을 인용해 일부 인기 펩타이드의 조제를 일정 기간 허용하는 집행 재량 방안이 포함될 수 있다고 전했다. The Epoch Times는 공식 추적 항목의 제목이 “Interim Access Policy for Compounding Using Certain Peptides”라고 보도했지만 세부 정책 내용은 게시되지 않았다고 설명했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "제출은 규제 검토의 시작 단계이며 FDA 승인이나 최종 규칙이 아니다. AP는 HHS가 취재 요청에 즉시 답하지 않았다고 전했고, 현재 공개된 문안만으로 포함되는 물질이나 적용 조건을 확정할 수 없다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이 사안은 임상 개발이나 효능 자료의 발표가 아니라 조제 규정과 집행 정책의 검토다. 정책이 확정될지, 어떤 성분과 조건을 다룰지, 안전성 우려를 어떻게 반영할지는 열린 질문으로 남아 있다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "정책 검토는 특정 펩타이드의 규제 경로에 영향을 줄 수 있지만, 제출 사실을 승인이나 안전성·유효성 판단으로 해석해서는 안 된다.",
+      "editorNote": "규제 검토 단계와 승인 상태를 명확히 구분했다. 소비자 사용이나 복용 조언은 포함하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.hklaw.com/en/insights/publications/2026/10/peptides-at-a-crossroads-what-wellness-providers-need-to-know",
+          "source": "Holland & Knight",
+          "title": "Peptides at a Crossroads: What Wellness Providers Need to Know About HHS and FDA Actions"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/fb12641dfe791f443f7b7d1eb3bd4a0a",
+          "source": "Associated Press",
+          "title": "Trump administration advances plan for peptide drugs favored by RFK Jr.",
+          "publishedAt": "2026-10-15"
+        },
+        {
+          "id": 2,
+          "url": "https://cmsapi.theepochtimes.com/health/rfk-jr-s-agency-sends-plan-for-peptide-drugs-to-white-house-6104447",
+          "source": "The Epoch Times",
+          "title": "RFK Jr.’s Agency Sends Plan for Peptide Drugs to White House",
+          "publishedAt": "2026-10-15"
+        }
+      ],
+      "tags": [
+        "peptide therapeutics",
+        "FDA",
+        "regulation"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

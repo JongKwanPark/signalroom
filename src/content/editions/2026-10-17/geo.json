@@ -1,0 +1,306 @@
+{
+  "date": "2026-10-17",
+  "generatedAt": "2026-10-16T22:06:04.054Z",
+  "vertical": "geo",
+  "lang": "en",
+  "title": "Signal Daily GEO — October 17, 2026",
+  "summary": "4 stories. Included independently covered Starlink restrictions, West Bank harvest attacks, the EU summit and Hormuz shipping incidents. Other single-outlet conflict and political items were excluded for lack of a second independent outlet or corroborating coverage.",
+  "stories": [
+    {
+      "slug": "ukraine-starlink-restrictions-disrupt-frontline-communications",
+      "headline": "Presidential adviser says Ukraine is in talks to lift speed limit on military satellite network",
+      "dek": "A speed cap on moving terminals disrupted some battlefield communications as Kyiv sought clarification from SpaceX and the Pentagon.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "우크라이나 대통령 고문은 군용 위성 통신 서비스의 속도 제한을 해제하기 위해 SpaceX와 미 국방부와 협의 중이라고 밝혔다.",
+        "AP와 Reuters는 이동 속도가 시속 160km를 넘는 단말의 연결을 제한하는 조치가 드론 운용과 전선 통신에 영향을 줬다고 보도했다.",
+        "제한이 내려진 이유와 향후 적용 범위는 공개되지 않았으며, 우크라이나가 해제를 요청한 협의의 결과도 아직 확인되지 않았다."
+      ],
+      "body": [
+        {
+          "text": "우크라이나는 군용 위성 통신 서비스에 적용된 속도 제한을 해제하기 위해 SpaceX와 미 국방부와 협의하고 있다고 대통령 고문이 밝혔다. AP는 제한이 목요일 갑자기 적용됐고, 단말이 시속 160km를 넘으면 인터넷 연결이 느려지거나 차단될 수 있다고 전했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Reuters가 전한 전선의 포병 부대 사례에서는 본부와의 통신이 끊기고 속도가 떨어져 작전 상황을 공유하는 데 문제가 생겼다. 양 매체는 드론 운용과 빠르게 움직이는 군용 단말이 영향을 받았다고 보도했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "도널드 트럼프 대통령은 백악관이 제한을 지시하지 않았다고 말했지만, 서비스 설정을 누가 왜 바꿨는지는 보도 시점에 설명되지 않았다. SpaceX도 조치의 목적과 대상에 대한 자세한 공개 설명을 내놓지 않았다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "우크라이나가 요청한 제한 해제가 이뤄질지, 속도 제한이 모든 사용자에게 적용되는지, 군용 Starshield와 상용 Starlink의 조치가 어떻게 다른지는 여전히 불분명하다. 이번 사건은 전장 통신이 민간 기업의 운영 결정에 의존하는 구조를 드러냈다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "상업 위성망이 우크라이나의 전장 통신에서 차지하는 역할과 서비스 제공자의 운영 결정이 군사 작전에 미칠 수 있는 영향을 함께 보여준다.",
+      "editorNote": "우크라이나 측 설명과 미 대통령의 부인을 구분하고 제한 이유는 미확인으로 남겼다.",
+      "cluster": [
+        {
+          "url": "https://www.axios.com/2026/10/16/ukraine-starlink-zelensky-spacex-musk-trump",
+          "source": "Axios",
+          "title": "Ukraine’s Starlink restrictions raise suspicions of Musk, Trump retaliation"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/385eb944f6c34990bdf21f624416b820",
+          "source": "Associated Press",
+          "title": "Presidential adviser says Ukraine is in talks to lift speed limit on military satellite network",
+          "publishedAt": "2026-10-16"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/stock-market-news/ukraine-says-spacex-limits-starlink-operations-disrupting-military-4948343",
+          "source": "Reuters",
+          "title": "Ukraine says SpaceX limits Starlink operations, disrupting military",
+          "publishedAt": "2026-10-14"
+        }
+      ],
+      "tags": [
+        "Ukraine",
+        "Starlink",
+        "military communications"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "settler-attacks-disrupt-west-bank-olive-harvest",
+      "headline": "Israeli settlers burn olive trees, injure journalist in West Bank attack",
+      "dek": "Separate accounts from Reuters and AP describe attacks across several villages during the annual olive harvest.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Reuters와 AP는 10월 16일 서안지구 여러 마을에서 정착민 공격이 발생해 주민과 언론인이 다쳤다고 보도했다.",
+        "현장 보도와 현지 기관 집계에는 올리브 나무와 차량 방화, 돌 투척, 수확 작업 방해가 포함됐다.",
+        "피해 규모와 각 공격의 경위는 지역별로 다르며, 이스라엘 당국의 대응과 수사 결과는 아직 정리되지 않았다."
+      ],
+      "body": [
+        {
+          "text": "Reuters는 서안지구 아부 팔라 마을의 올리브 수확 현장에서 정착민들이 나무를 불태우고 팔레스타인 주민들에게 돌을 던져 최소 두 명이 다쳤다고 보도했다. 부상자 중에는 취재 중이던 언론인이 포함됐다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP는 현지 당국과 팔레스타인 적신월사 발표를 인용해 북부 서안지구 최소 8개 마을에서 공격이 보고됐고, 차량과 나무에 불이 났으며 주민과 외국 언론인이 폭행당했다고 전했다. 두 보도는 연례 수확철에 폭력이 확산해 주민의 생계와 농사 작업을 방해했다고 설명한다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Reuters가 전한 현장 목격자 설명과 AP의 현지 기관 집계는 각기 다른 장소와 증언을 담고 있어 모든 피해를 하나의 사건으로 단순 합산할 수는 없다. 이스라엘 총리는 정착민 폭력을 소수의 청년층 행동으로 설명해 왔다고 AP는 전했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "정확한 피해 규모, 가해자 신원과 각 공격에 대한 수사·기소 여부는 계속 확인해야 한다. 보도된 내용은 현장 증언과 기관 발표를 바탕으로 하며, 모든 사건에 대한 공식 조사 결과가 나온 것은 아니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "올리브 수확은 서안지구 여러 가정의 소득과 연결돼 있어, 반복되는 공격은 안전 문제뿐 아니라 농업 활동과 생계에도 직접 영향을 준다.",
+      "editorNote": "두 매체가 보도한 지역과 집계 범위를 구분했다. 집계 수치를 전체 피해로 확장하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/16/israeli-settlers-continue-progrom-amid-olive-harvest-in-occupied-west-bank",
+          "source": "Al Jazeera",
+          "title": "Israeli settlers continue progrom amid olive harvest in occupied West Bank"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.investing.com/news/world-news/israeli-settlers-burn-olive-trees-injure-journalist-in-west-bank-attack-4953461",
+          "source": "Reuters",
+          "title": "Israeli settlers burn olive trees, injure journalist in West Bank attack",
+          "publishedAt": "2026-10-16"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/078194df041b835ec95cad9c3d3ac060",
+          "source": "Associated Press",
+          "title": "Israeli settlers torch cars and trees in West Bank villages, disrupting Palestinians’ olive harvest",
+          "publishedAt": "2026-10-16"
+        }
+      ],
+      "tags": [
+        "West Bank",
+        "settler violence",
+        "olive harvest"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "eu-leaders-reaffirm-support-for-ukraine-as-washington-ties-fray",
+      "headline": "EU rallies in support of Ukraine amid Trump standoff",
+      "dek": "At a Brussels summit, European leaders pledged continued support as Zelenskyy sought funding and air-defense help ahead of winter.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "EU 지도자들은 브뤼셀 정상회의에서 미국과 키이우의 갈등이 커지는 가운데 우크라이나 지원을 계속하겠다고 밝혔다.",
+        "젤렌스키 대통령은 겨울 방어를 위해 내년 추가 재정 지원과 방공 체계가 필요하다고 요청했다.",
+        "추가 지원의 규모와 재원은 확정되지 않았고, 유럽의 약속이 실제 무기·자금 집행으로 이어지는지가 남은 과제다."
+      ],
+      "body": [
+        {
+          "text": "유럽연합 지도자들은 금요일 브뤼셀 정상회의에서 러시아의 침공을 받는 우크라이나에 대한 지원을 이어가겠다고 밝혔다. Al Jazeera와 Deutsche Welle는 미국과 우크라이나 사이의 긴장이 커진 상황에서 볼로디미르 젤렌스키 대통령이 회의에 참석했다고 보도했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "젤렌스키는 겨울철 에너지 시설 공격에 대비해 내년 우크라이나의 방위와 회복력에 필요한 추가 자금을 요청했다. Al Jazeera는 그가 700억 유로, 약 790억 달러의 추가 지원을 요구했다고 전했고, 방공 체계도 주요 요청 사항으로 다뤘다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "유럽이 우크라이나를 계속 지원하겠다는 정치적 약속을 내놓았지만, 구체적인 자금 조달 방식과 각국의 기여 규모는 합의되지 않았다. Deutsche Welle는 유럽 지도자들이 지원 의지를 나타내면서도 새로운 재정 약속의 규모를 따져봐야 한다는 의견도 있었다고 보도했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "미국의 정보 공유와 무기 지원이 줄어들 수 있다는 우려가 커지는 가운데, 유럽이 실제로 어느 정도의 역량을 보완할지는 아직 열린 문제다. 정상회의 발언은 정책 방향을 보여주지만, 전달 일정과 실행 계획을 대신하지 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "우크라이나의 겨울 방어와 재정 지속성은 유럽의 정치적 공약이 실제 예산·방공 지원으로 전환되는지에 달려 있다.",
+      "editorNote": "젤렌스키의 요청과 EU의 확정된 지원을 구분했다. 지원 규모는 요청액으로 표기했다.",
+      "cluster": [
+        {
+          "url": "https://www.euronews.com/2026/10/16/ukraines-zelenskyy-turns-to-brussels-as-us-support-falters",
+          "source": "Euronews",
+          "title": "Ukraine’s Zelenskyy turns to Brussels as US support falters"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.aljazeera.com/news/2026/10/16/eu-rallies-in-support-of-ukraine-amid-trump-standoff",
+          "source": "Al Jazeera",
+          "title": "EU rallies in support of Ukraine amid Trump standoff",
+          "publishedAt": "2026-10-16"
+        },
+        {
+          "id": 2,
+          "url": "https://amp.dw.com/en/at-summit-eu-leaders-pledge-support-for-ukraines-zelenskyy/a-79678808",
+          "source": "Deutsche Welle",
+          "title": "EU summit: European leaders pledge support for Ukraine",
+          "publishedAt": "2026-10-16"
+        }
+      ],
+      "tags": [
+        "Ukraine",
+        "European Union",
+        "security assistance"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "hormuz-ship-attack-reports-hit-high-as-oil-exports-slow",
+      "headline": "Ship attack reports near Hormuz reach record high as oil exports slow",
+      "dek": "UK maritime monitors say incomplete reporting complicates the count as shipping risks remain elevated around the strait.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "BBC Verify는 영국 해사기관 자료를 토대로 호르무즈 해협 주변에서 공격을 보고한 선박 수가 기록적 수준이라고 보도했다.",
+        "AP는 영국 해상무역작전국이 다수 선박이 공격을 신고하지 않아 실제 공격 건수를 정확히 파악하기 어렵다고 밝혔다고 전했다.",
+        "공격 전체 규모와 원유 수송에 미친 영향은 불완전한 신고 때문에 확정하기 어렵다."
+      ],
+      "body": [
+        {
+          "text": "BBC Verify는 영국의 해사기관 자료를 분석해 호르무즈 해협 인근에서 공격을 보고한 선박 수가 기록적으로 높아졌다고 보도했다. 보도는 10월이 이란 전쟁 초기 이후 신고된 공격이 가장 많은 달이 될 수 있다고 전했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP는 영국 해상무역작전국(UKMTO)이 현재 정확한 공격 건수를 집계하기 어렵다고 설명했다고 보도했다. 공격을 받은 것으로 의심되는 선박 다수가 신고하지 않거나 위치 정보를 공개하지 않는다는 것이 이유로 제시됐다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "두 보도는 해협을 통과하는 상선의 위험이 지속되고 있음을 보여주지만, 신고 건수만으로 실제 공격 총량을 확정할 수는 없다. AP는 한 선박이 침몰했고 최근 공격 상당수가 오만 인근에서 발생했다고 전했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "신고가 불완전한 만큼 해상 통항과 원유 수출에 미친 전체 영향도 정확히 파악하기 어렵다. 선박 운항 자료와 정부·해사기관의 후속 집계가 추가돼야 위험 수준과 공급 차질의 규모를 더 분명히 판단할 수 있다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "호르무즈 해협의 안전은 에너지 수송과 보험·운항 비용에 영향을 주지만, 현재 공격 건수는 미신고가 많아 불확실성이 크다.",
+      "editorNote": "보고된 공격과 실제 총량을 구분했다. 수송 차질의 규모를 단정하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no",
+          "source": "BBC Verify",
+          "title": "Israeli settlers attack Palestinians during olive harvest, and other Middle East developments"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no",
+          "source": "BBC",
+          "title": "Ship attack reports near Hormuz reach record high as oil exports slow",
+          "publishedAt": "2026-10-16"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/5da500114e070ccaa27d36837b095de5",
+          "source": "Associated Press",
+          "title": "Israeli settlers attack Palestinians during olive harvest, and other Middle East developments",
+          "publishedAt": "2026-10-16"
+        }
+      ],
+      "tags": [
+        "Strait of Hormuz",
+        "shipping security",
+        "energy supply"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

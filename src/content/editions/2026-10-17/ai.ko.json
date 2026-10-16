@@ -1,0 +1,232 @@
+{
+  "date": "2026-10-17",
+  "generatedAt": "2026-10-16T22:06:04.054Z",
+  "vertical": "ai",
+  "lang": "ko",
+  "title": "시그널 데일리 AI — 2026년 10월 17일",
+  "summary": "3건. 독립 매체의 교차 보도를 확인하지 못한 단독 제품 출시, 단일 출처 주장, Postgres 19 기사는 제외했다. 중국의 수출 통제 초안, AI 인프라 부채 우려, Anthropic의 암호학 주장은 별도 매체 보도가 확인됐다.",
+  "stories": [
+    {
+      "slug": "china-drafts-controls-on-23-ai-technologies-ko",
+      "headline": "중국, 국가 안보 이유로 AI 포함 기술 수출 제한 추진",
+      "dek": "여러 분야의 40개 추가 제안 가운데 23개가 AI 기술이며, 목록 개정은 아직 초안 단계다.",
+      "tldr": [
+        "중국 상무부와 과학기술부는 AI·바이오·태양광 분야 기술 40개를 수출 제한 목록에 추가하는 초안을 공개했다.",
+        "AI 관련 항목 23개에는 대형 모델, 에이전트, 컴퓨팅 클러스터 등이 포함되며, 제안은 아직 의견 수렴 단계다.",
+        "공개 연구나 오픈소스로 이미 공개된 기술은 적용 범위에서 제외될 수 있지만, 최종 기준과 시행 방식은 확정되지 않았다."
+      ],
+      "body": [
+        {
+          "text": "중국 상무부와 과학기술부가 금요일 수출 금지·제한 기술 목록을 개정하는 초안을 내놓았다. AP 보도에 따르면 전체 40개 추가 항목 중 23개가 인공지능 관련 기술이며, 초안은 국가 안보와 오용 방지를 이유로 제시했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "제안된 AI 범위에는 대형 모델, AI 에이전트, 칩 설계와 컴퓨팅 클러스터 기술이 포함된다. The Information은 해외로 이전하는 모델·코드·설계에 사전 승인이 필요할 수 있고, 상위 모델에 별도 기준이 적용될 수 있다고 보도했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "부처 대변인은 이 조치가 AI를 인간의 통제 아래 두고 오용을 막기 위한 것이라고 설명했다. AP는 민감한 국가 데이터를 학습한 모델의 핵심 기술과 국방·핵심 인프라용 에이전트의 수출 금지 가능성도 전했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "초안은 확정 규정이 아니며 공개 의견 수렴은 11월 15일까지 진행될 예정이다. 공개된 연구나 오픈소스 기술의 예외 범위, 적용 기준과 최종 허가 절차는 아직 정해지지 않았다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "중국의 AI 산업이 해외에 모델과 기술을 제공하는 방식에 수출 심사라는 새로운 제약이 붙을 수 있어, 정책 초안과 실제 적용 범위를 구분해 볼 필요가 있다.",
+      "editorNote": "초안 발표와 최종 시행을 구분했다. 공개 연구·오픈소스 예외는 제안 단계로 서술했다.",
+      "cluster": [
+        {
+          "url": "https://www.marketscreener.com/news/china-proposes-adding-40-ai-biotech-solar-technologies-to-export-control-list-ce785cdad88cf12c",
+          "source": "Reuters via MarketScreener",
+          "title": "Beijing seeks tighter grip on AI exports amid US rivalry"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/5ac381c0c6d6628bbea2e0da7d855a5b",
+          "source": "Associated Press",
+          "title": "China moves to curb tech exports, including AI, citing national security risks",
+          "publishedAt": "2026-10-16"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theinformation.com/briefings/china-proposes-export-controls-ai-technology",
+          "source": "The Information",
+          "title": "China Proposes Export Controls on AI Technology",
+          "publishedAt": "2026-10-16"
+        }
+      ],
+      "tags": [
+        "China",
+        "export controls",
+        "AI policy"
+      ],
+      "confidence": "high",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4
+    },
+    {
+      "slug": "ai-data-center-financing-faces-lender-scrutiny-ko",
+      "headline": "AI 부채로 추진된 붐에 균열 조짐",
+      "dek": "데이터센터 확장을 위한 차입 우려가 AI 투자 자금 조달 전반으로 확산되고 있다.",
+      "tldr": [
+        "AI 데이터센터와 컴퓨팅 용량 확장을 뒷받침하는 차입에 대한 투자자 경계가 커지고 있다.",
+        "Axios는 CoreWeave의 주식·채권 매도세를 사례로 들었고, Reuters는 금리 상승과 자금 조달 우려가 거래 전망을 압박한다고 보도했다.",
+        "대출 시장이 실제로 투자를 제한할지, 기업의 매출이 자금 조달 비용을 따라잡을지는 아직 확인되지 않았다."
+      ],
+      "body": [
+        {
+          "text": "AI 인프라 확장을 위해 쌓이는 부채가 투자자들의 우려를 키우고 있다. Axios는 데이터센터와 칩에 필요한 자금 조달이 경제적 수익 전망과 어긋날 수 있다는 월가의 불안을 전하며, CoreWeave의 주식과 채권이 며칠간 매도 압력을 받았다고 보도했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Reuters도 시장 매도와 금리 상승이 데이터센터 거래 붐을 시험하고 있다고 전했다. 해당 보도는 AI 관련 거래의 자금 조달 조건과 비용이 투자자 평가에 영향을 주고 있다고 설명한다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "두 보도는 신용 시장이 AI 인프라 확장의 다음 병목이 될 수 있다는 점을 보여주지만, 프로젝트가 취소되거나 대출이 중단됐다고 확인하지는 않는다. 개별 기업의 자금 조달 위험과 전체 산업의 투자 계획은 구별해야 한다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "앞으로 확인할 핵심은 데이터센터 운영사와 인프라 개발사가 예정된 자금을 실제로 조달하는지, 그리고 AI 서비스 수익이 차입 비용을 감당할 만큼 늘어나는지다. 현재 보도만으로 산업 전체의 투자 둔화를 단정할 수는 없다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "AI 경쟁은 칩과 전력뿐 아니라 이를 선투자하는 신용 시장의 여건에도 좌우된다. 차입 비용 변화가 실제 설비 투자로 이어지는지 지켜볼 사안이다.",
+      "editorNote": "시장 우려와 확정된 투자 축소를 구분했다. Reuters 기사는 후보 수집 피드에 수록된 원문 보도다.",
+      "cluster": [
+        {
+          "url": "https://www.axios.com/2026/10/16/coreweave-ai-borrowing-yields",
+          "source": "Axios",
+          "title": "Why CoreWeave’s woes matter to the market"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.axios.com/2026/10/16/wall-street-limit-ai-spending-debt",
+          "source": "Axios",
+          "title": "The debt-fueled AI boom is cracking",
+          "publishedAt": "2026-10-16"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/",
+          "source": "Reuters",
+          "title": "Market selloff, rising rates test AI data centre deal boom",
+          "publishedAt": "2026-10-15"
+        }
+      ],
+      "tags": [
+        "AI infrastructure",
+        "credit markets",
+        "data centers"
+      ],
+      "confidence": "medium",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4
+    },
+    {
+      "slug": "claude-traces-ecdsa-seeds-to-random-number-generator-ko",
+      "headline": "Claude, ECDSA 곡선의 기원을 밝혀",
+      "dek": "Anthropic은 연구 모델이 장기간 사용된 타원곡선 상수의 시드를 타임스탬프 기반 난수 절차와 연결했다고 설명했다.",
+      "tldr": [
+        "Anthropic은 내부 연구 모델 Claude가 ECDSA 표준의 일부 곡선 상수가 어떻게 만들어졌는지 추적했다고 밝혔다.",
+        "회사는 모델이 과거 상수에 사용된 시드가 시간 정보를 활용한 난수 생성 절차에서 나왔다는 가설을 찾아냈다고 설명했다.",
+        "발견은 기업의 연구 기록과 후속 독립 검증에 달려 있으며, 이 결과만으로 ECDSA의 보안성이 바뀌는 것은 아니다."
+      ],
+      "body": [
+        {
+          "text": "Anthropic은 자사 연구 모델 Claude가 타원곡선 전자서명 표준 ECDSA에 쓰인 상수의 기원을 추적했다고 발표했다. 회사 글에 따르면 이 문제는 공개되지 않은 시드가 어떻게 만들어졌는지에 관한 장기간의 수수께끼였다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Anthropic은 연구자가 모델에 단서를 주지 않은 채 시드 생성 방식을 찾아보도록 했고, 모델이 타임스탬프를 이용한 단순 난수 생성 절차에 도달했다고 설명했다. Investing.com도 Anthropic의 발표를 보도하며 Claude가 수십 년 된 암호 표준의 기원을 찾았다는 내용을 전했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "현재 상세한 방법과 검증 과정은 Anthropic이 공개한 연구 설명에 기반한다. 보도된 내용은 상수 생성 경위를 설명하는 발견이며, ECDSA 자체가 취약해졌다거나 기존 서명이 무효화됐다는 의미는 아니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이 주장의 강도는 독립적인 재현과 암호학 연구자들의 평가에 달려 있다. Anthropic은 어떤 데이터를 모델에 제공했는지와 연구 과정을 공개했지만, 외부 검증의 범위는 아직 별도로 확인할 필요가 있다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "생성형 모델이 암호학의 역사적 기록을 찾아내는 연구 도구가 될 수 있다는 사례지만, 기업이 보고한 발견과 독립적으로 검증된 결과를 구별해야 한다.",
+      "editorNote": "기업 발표에 기반한 주장임을 명시하고 보안 취약점 발견으로 과장하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.reddit.com/r/crypto/comments/1x7q90l/claude_reveals_ecdsa_curve_origins/",
+          "source": "Hacker News/Reddit discussion",
+          "title": "Claude reveals ECDSA curve origins"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+          "source": "Anthropic",
+          "title": "Claude reveals ECDSA curve origins",
+          "publishedAt": "2026-10-16"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/economy-news/anthropic-says-claude-solved-25year-cryptography-mystery-in-30-minutes-4954741",
+          "source": "Investing.com",
+          "title": "Anthropic says Claude solved 25-year cryptography mystery in 30 minutes",
+          "publishedAt": "2026-10-16"
+        }
+      ],
+      "tags": [
+        "Anthropic",
+        "cryptography",
+        "AI research"
+      ],
+      "confidence": "medium",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4
+    }
+  ]
+}
