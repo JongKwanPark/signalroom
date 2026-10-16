@@ -1,10 +1,10 @@
 {
   "date": "2026-10-16",
-  "generatedAt": "2026-10-16T07:05:43+09:00",
+  "generatedAt": "2026-10-16T19:03:51+09:00",
   "vertical": "bio",
   "lang": "en",
   "title": "BIO | Biotechnology & Health",
-  "summary": "One multi-outlet development met the gate: Kenya’s linked second Ebola case. The peptide policy item was excluded because the apparent AP/STAT pair was AP syndication; CAR-T, NAC and NAD+ candidates were single papers or registry records without independent reporting.",
+  "summary": "Two multi-outlet developments met the gate: Kenya’s linked second Ebola case and HHS’s peptide-compounding policy submission, verified against the OIRA register and AP reporting. CAR-T, NAC and NAD+ candidates were single papers or registry records without independent reporting.",
   "stories": [
     {
       "slug": "kenya-second-ebola-case-quarantine",
@@ -74,6 +74,80 @@
         "bio",
         "Ebola",
         "public health"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "hhs-peptide-compounding-policy-review",
+      "headline": "Trump administration advances plan for peptide drugs favored by RFK Jr.",
+      "dek": "HHS sent an interim peptide-compounding policy to White House review; its scope and eventual status remain unsettled.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 5,
+      "tldr": [
+        "HHS submitted an interim access policy for compounding certain peptides to the White House for review.",
+        "The OIRA register lists the FDA submission as pending review, while AP reports that the plan could give pharmacies temporary enforcement discretion for some peptides.",
+        "The filing does not establish which substances would be covered or whether the policy will be adopted."
+      ],
+      "body": [
+        {
+          "text": "The Department of Health and Human Services submitted an “Interim Access Policy for Compounding Using Certain Peptides” for review by the Office of Information and Regulatory Affairs. The government register lists the submission under HHS and FDA, received October 14, 2026, with a pending-review status.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The register confirms the submission and its title, but does not publish the policy text or name the peptides it would cover. The Associated Press reported, citing people familiar with the plan, that it could allow temporary compounding of some peptides through enforcement discretion.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP reported that BPC-157 was among the substances the plan might cover, while noting that the proposed approach would not itself add the peptides to FDA’s formal list of substances considered safe for compounding. The article said formal changes would require a separate federal rulemaking process.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The AP report also described FDA safety concerns, including possible contamination, allergic reactions and tumor growth, and said available evidence had not established the safety and effectiveness of the peptides at issue. The government filing remains under review, so the policy’s contents, timing and final decision are still open.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The filing puts a potential change to the US compounding framework into formal review, with implications for pharmacy regulation and the boundary between enforcement discretion and a formal safety determination.",
+      "editorNote": "The official OIRA record confirms only the submission, title and pending status. Reported details about substances and intended enforcement discretion rely on unnamed sources cited by AP; no policy text or final decision was available.",
+      "cluster": [
+        {
+          "url": "https://www.reginfo.gov/public/do/eoReviewSearch?agencyCode=0900",
+          "source": "OIRA / Reginfo.gov",
+          "title": "Executive Order Submissions Under Review"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/fb12641dfe791f443f7b7d1eb3bd4a0a",
+          "source": "Associated Press",
+          "title": "Trump administration advances plan for peptide drugs favored by RFK Jr.",
+          "publishedAt": "2026-10-15T19:09:08Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reginfo.gov/public/do/eoReviewSearch?agencyCode=0900",
+          "source": "OIRA / Reginfo.gov",
+          "title": "Interim Access Policy for Compounding Using Certain Peptides",
+          "publishedAt": "2026-10-16"
+        }
+      ],
+      "tags": [
+        "FDA",
+        "peptides",
+        "compounding",
+        "regulation"
       ],
       "confidence": "medium"
     }

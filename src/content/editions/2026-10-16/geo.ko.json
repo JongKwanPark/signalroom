@@ -1,10 +1,10 @@
 {
   "date": "2026-10-16",
-  "generatedAt": "2026-10-16T07:05:43+09:00",
+  "generatedAt": "2026-10-16T19:03:51+09:00",
   "vertical": "geo",
   "lang": "ko",
   "title": "GEO | 지정학·안보",
-  "summary": "다중 매체 기준을 통과한 개발은 흑해 유조선 공격, 브라질 노동시간 개정안, 아덴 후티 공격, 마두로의 법정 답변, 이스탄불 침수 다섯 건이었다. 이스탄불 보도는 사망자 수와 강우 비교 기준이 달라 AP 헤드라인을 유지하고 본문에 차이를 밝혔다.",
+  "summary": "다중 매체 기준을 통과한 개발은 중국·북한 교량 개통과 우크라이나·EU 정상회의 긴장 등 7건이었다. GDELT와 ISW를 포함한 일부 수집 피드는 이용할 수 없었고, 단일 매체 보도는 제외했다.",
   "stories": [
     {
       "slug": "black-sea-tanker-drone-attack-romania-ko",
@@ -359,6 +359,154 @@
         "Turkey",
         "flooding",
         "urban infrastructure"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "china-north-korea-new-yalu-bridge-opens-ko",
+      "headline": "중국·북한 국경 교량, 개통돼도 교역 증가는 제한적일 수 있다고 전문가들은 말한다",
+      "dek": "New Yalu River Bridge가 12년 지연 끝에 개통했지만, 분석가들은 제재와 정치적 선택이 경제적 효과를 좌우할 것이라고 본다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 5,
+      "tldr": [
+        "중국과 북한은 10월 15일 Dandong과 Sinuiju를 잇는 4차선 New Yalu River Bridge를 개통했다.",
+        "건설은 2011년 시작됐고 중국 측은 2014년 완공됐지만, 북한이 연결 인프라를 마무리할 때까지 교량은 사용되지 않았다.",
+        "분석가들은 교량이 물류를 개선할 수 있지만 제재와 정치적 우선순위 때문에 교역 증가 폭은 불확실하다고 말했다."
+      ],
+      "body": [
+        {
+          "text": "New Yalu River Bridge는 10월 15일 개통해 중국 Dandong과 북한 Sinuiju를 연결했다. Al Jazeera와 DW는 4차선 교량이 여러 해 전에 완공됐지만 장기간 지연된 뒤에야 운영을 시작했다고 보도했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "건설은 2011년 시작됐고 중국 측 공사는 2014년 끝났다. 이후 북한 쪽 도로와 세관 시설이 완공되지 않아 교량은 사용되지 않았다. DW는 새 경로가 1943년부터 도로와 철도 교통을 담당해 온 기존 Friendship Bridge를 보완한다고 전했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "중국 당국은 개통을 협력 강화의 계기로 설명했지만, Al Jazeera가 인용한 분석가들은 인프라만으로 국제 제재를 없애거나 평양의 경제적 우선순위를 바꾸기는 어렵다고 봤다. 중국은 북한의 최대 공식 교역 상대지만 교량 개통만으로 교역 규모가 달라졌다고 볼 수는 없다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "이번 개통은 외교 관계가 다시 가까워지는 시기에 이뤄졌고, 한 달 전에는 북한과 러시아가 두만강을 가로지르는 도로 교량을 개통했다. 이 교량이 교역을 크게 늘릴지, 정치적 협력 신호에 그칠지는 인프라 외의 양국 결정에 달려 있다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이 교량은 전략적으로 중요한 중국·북한 회랑에 운송 역량을 더한다. 그러나 상업적 효과는 제재 집행과 양국 정부의 정치적 우선순위에 좌우될 것이다.",
+      "editorNote": "교역 효과는 전망으로 구분했다. 건설 시점과 개통은 두 매체가 보도했으며, 교역 영향 평가는 분석가의 견해다. 교량 개통 자체가 제재나 교역 흐름의 변화를 입증하지는 않는다.",
+      "cluster": [
+        {
+          "url": "https://www.dw.com/en/north-korea-china-open-border-bridge-after-12-year-delay/a-79666112",
+          "source": "DW",
+          "title": "North Korea, China open border bridge after 12-year delay"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.aljazeera.com/economy/2026/10/16/china-north-korea-border-bridge-may-do-little-to-spur-trade-experts-say?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "China-North Korea border bridge may do little to spur trade, experts say",
+          "publishedAt": "2026-10-16T09:21:40Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.dw.com/en/north-korea-china-open-border-bridge-after-12-year-delay/a-79666112?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "North Korea, China open border bridge after 12-year delay",
+          "publishedAt": "2026-10-15T08:12:00Z"
+        }
+      ],
+      "tags": [
+        "China",
+        "North Korea",
+        "trade",
+        "infrastructure"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "zelensky-eu-summit-refinery-strikes-ko",
+      "headline": "젤렌스키, EU 지지 규합…트럼프는 우크라이나 지도자가 푸틴보다 “상대하기 어렵다”고 말해",
+      "dek": "EU 정상회의 기간 우크라이나의 러시아 정유시설 공격 재개와 일시 중단을 둘러싸고 긴장이 다시 불거졌다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Volodymyr Zelenskyy는 브뤼셀에서 유럽 지도자들을 만났고, EU 정상회의에서는 우크라이나와 유럽 안보 의제가 논의됐다.",
+        "Donald Trump는 Zelenskyy를 비판하고 우크라이나의 러시아 정유시설 공격 재개를 “불명예”라고 불렀다.",
+        "Zelenskyy는 러시아가 우크라이나 에너지 시설 공격을 멈추지 않아 공격을 재개했다고 말했다."
+      ],
+      "body": [
+        {
+          "text": "Zelenskyy는 우크라이나 문제와 유럽 안보 의제를 논의하는 EU 정상회의에 참석하기 위해 브뤼셀에 도착했다. 정상회의 논의와 함께 Donald Trump와의 긴장 관계도 주목을 받았다고 BBC와 CNBC가 보도했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Trump는 Zelenskyy가 Vladimir Putin보다 상대하기 어렵다고 말했고, 우크라이나의 러시아 정유시설 공격 재개를 비판했다. BBC에 따르면 그는 해당 공격을 “불명예”라고 불렀다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "BBC 보도에 따르면 Zelenskyy는 Trump의 요청으로 러시아 에너지 시설 공격을 사흘간 멈췄지만, 러시아가 공격을 중단하지 않아 우크라이나도 공격을 재개했다고 말했다. 보도는 일시 중단과 조건을 둘러싼 상반된 주장을 전했으며 새 합의가 성립했다고 밝히지는 않았다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "보도에서는 미국과 우크라이나 간 새로운 합의나 분쟁을 해소할 구체적인 EU 결정이 확인되지 않았다. 이에 따라 유럽의 지원 신호, 미국의 압박, 러시아 에너지 기반 시설을 겨냥한 우크라이나의 작전이 어떻게 맞물릴지는 여전히 열려 있다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 갈등은 유럽 안보 논의를 전쟁의 에너지 기반 시설과 대서양 양안 외교에 연결한다. 따라서 정상회의에서 나온 지원 신호는 당사자 간 발언을 넘어선 의미를 갖는다.",
+      "editorNote": "공개 발언과 BBC가 보도한 공격 중단 관련 설명을 정리했다. 정상회의 보도만으로 휴전 합의나 확정된 정책 결과를 추론하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/16/zelenskyy-trump-eu-summit-russia-ukraine.html",
+          "source": "CNBC",
+          "title": "Zelenskyy praises “real leaders” in Europe, as his strained relationship with Trump overshadows EU summit"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c58jz174w89ro?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Zelensky rallies EU support as Trump says Ukraine leader “more difficult to deal with than Putin”",
+          "publishedAt": "2026-10-16T09:34:30Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/10/16/zelenskyy-trump-eu-summit-russia-ukraine.html",
+          "source": "CNBC",
+          "title": "Zelenskyy praises “real leaders” in Europe, as his strained relationship with Trump overshadows EU summit",
+          "publishedAt": "2026-10-16T08:52:54Z"
+        }
+      ],
+      "tags": [
+        "Ukraine",
+        "European Union",
+        "energy security",
+        "United States"
       ],
       "confidence": "medium"
     }

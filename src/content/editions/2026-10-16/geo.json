@@ -1,10 +1,10 @@
 {
   "date": "2026-10-16",
-  "generatedAt": "2026-10-16T07:05:43+09:00",
+  "generatedAt": "2026-10-16T19:03:51+09:00",
   "vertical": "geo",
   "lang": "en",
   "title": "GEO | Geopolitics & Security",
-  "summary": "Five multi-outlet developments met the gate: the Black Sea tanker attack, Brazil’s workweek amendment, the Houthi strike in Aden, Maduro’s plea and Istanbul flooding. The Istanbul reports differed on the casualty count and rainfall comparison; the story preserves the AP headline and states the discrepancy.",
+  "summary": "Seven multi-outlet developments met the gate, including the China–North Korea bridge opening and Ukraine–EU summit tensions. Several collector feeds were unavailable, including GDELT and ISW; single-outlet items were excluded.",
   "stories": [
     {
       "slug": "black-sea-tanker-drone-attack-romania",
@@ -359,6 +359,154 @@
         "Turkey",
         "flooding",
         "urban infrastructure"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "china-north-korea-new-yalu-bridge-opens",
+      "headline": "China-North Korea border bridge may do little to spur trade, experts say",
+      "dek": "The New Yalu River Bridge opened after a 12-year delay, but analysts say sanctions and political choices will shape its economic impact.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 5,
+      "tldr": [
+        "China and North Korea opened the four-lane New Yalu River Bridge linking Dandong and Sinuiju on October 15.",
+        "Construction began in 2011 and was completed on China’s side in 2014, but the crossing remained unused until North Korea finished its connecting infrastructure.",
+        "Analysts said the bridge could ease logistics, while sanctions and political priorities leave the scale of any trade increase uncertain."
+      ],
+      "body": [
+        {
+          "text": "The New Yalu River Bridge opened on October 15, connecting Dandong in China with Sinuiju in North Korea. Al Jazeera and DW reported that the four-lane crossing had been completed years earlier but only became operational after a prolonged delay.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Construction began in 2011, and the Chinese side was completed in 2014; the crossing then sat idle while North Korea’s roads and customs facilities remained unfinished. DW reported that the new route follows the older Friendship Bridge, which has carried road and rail traffic since 1943.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Chinese officials presented the opening as a step toward closer cooperation, while analysts cited by Al Jazeera cautioned that infrastructure alone cannot remove international sanctions or determine Pyongyang’s economic priorities. China remains North Korea’s largest official trade partner, but the bridge’s opening does not by itself establish a new trade level.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The opening follows a period of warmer diplomatic engagement and comes after North Korea and Russia opened a road bridge across the Tumen River the previous month, according to Al Jazeera. Whether the crossing materially expands trade or mainly signals political alignment will depend on decisions beyond the infrastructure project itself.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The crossing adds capacity to a strategically important China–North Korea corridor, but its commercial effect will be shaped by sanctions enforcement and the two governments’ political priorities.",
+      "editorNote": "Trade effects are prospective. Construction dates and opening are reported by both outlets; assessments of likely trade impact are attributed to analysts, and the new bridge does not itself demonstrate a change in sanctions or trade flows.",
+      "cluster": [
+        {
+          "url": "https://www.dw.com/en/north-korea-china-open-border-bridge-after-12-year-delay/a-79666112",
+          "source": "DW",
+          "title": "North Korea, China open border bridge after 12-year delay"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.aljazeera.com/economy/2026/10/16/china-north-korea-border-bridge-may-do-little-to-spur-trade-experts-say?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "China-North Korea border bridge may do little to spur trade, experts say",
+          "publishedAt": "2026-10-16T09:21:40Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.dw.com/en/north-korea-china-open-border-bridge-after-12-year-delay/a-79666112?maca=en-rss-en-world-4025-rdf",
+          "source": "DW",
+          "title": "North Korea, China open border bridge after 12-year delay",
+          "publishedAt": "2026-10-15T08:12:00Z"
+        }
+      ],
+      "tags": [
+        "China",
+        "North Korea",
+        "trade",
+        "infrastructure"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "zelensky-eu-summit-refinery-strikes",
+      "headline": "Zelensky rallies EU support as Trump says Ukraine leader 'more difficult to deal with than Putin'",
+      "dek": "The EU summit coincided with renewed tension over Ukraine’s strikes on Russian oil infrastructure and US pressure for a pause.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Volodymyr Zelenskyy met European leaders in Brussels as the EU summit focused on Ukraine and the bloc’s wider security agenda.",
+        "Donald Trump criticized Zelenskyy and called Ukraine’s renewed strikes on Russian oil refineries a “disgrace.”",
+        "Zelenskyy said Ukraine resumed the strikes after a pause because Russia had continued attacks on Ukrainian energy targets."
+      ],
+      "body": [
+        {
+          "text": "Zelenskyy arrived in Brussels for talks with European leaders as the summit addressed Ukraine, while his strained relationship with Donald Trump drew attention alongside the discussions. BBC and CNBC both covered the summit and the renewed disagreement between Washington and Kyiv.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Trump said Zelenskyy was more difficult to deal with than Vladimir Putin and criticized Ukraine’s renewed strikes on Russian oil refineries. The BBC reported that Trump called those strikes a “disgrace.”",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Zelenskyy said Ukraine had paused attacks on Russian energy targets for three days at Trump’s request, then resumed them because Russia had not stopped its own strikes, according to the BBC report. The reports describe competing claims about the pause and its terms rather than a new agreement.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The coverage did not establish a new US–Ukraine understanding or a concrete EU decision that resolved the dispute. The summit therefore left open how European support, US pressure and Ukraine’s campaign against Russian energy infrastructure will interact.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The dispute links European security discussions with the war’s energy infrastructure and transatlantic diplomacy, making the summit’s support signals relevant beyond the immediate exchange of criticism.",
+      "editorNote": "The story reports public statements and the BBC’s account of the pause in strikes. It does not infer an agreed ceasefire or a settled policy outcome from the summit coverage.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/16/zelenskyy-trump-eu-summit-russia-ukraine.html",
+          "source": "CNBC",
+          "title": "Zelenskyy praises “real leaders” in Europe, as his strained relationship with Trump overshadows EU summit"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c58jz174w89ro?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Zelensky rallies EU support as Trump says Ukraine leader “more difficult to deal with than Putin”",
+          "publishedAt": "2026-10-16T09:34:30Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/10/16/zelenskyy-trump-eu-summit-russia-ukraine.html",
+          "source": "CNBC",
+          "title": "Zelenskyy praises “real leaders” in Europe, as his strained relationship with Trump overshadows EU summit",
+          "publishedAt": "2026-10-16T08:52:54Z"
+        }
+      ],
+      "tags": [
+        "Ukraine",
+        "European Union",
+        "energy security",
+        "United States"
       ],
       "confidence": "medium"
     }

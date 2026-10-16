@@ -1,10 +1,10 @@
 {
   "date": "2026-10-16",
-  "generatedAt": "2026-10-16T07:05:43+09:00",
+  "generatedAt": "2026-10-16T19:03:51+09:00",
   "vertical": "markets",
   "lang": "ko",
   "title": "MARKETS | 시장·거시경제",
-  "summary": "다중 매체 기준을 통과한 개발은 CoreWeave 신용 재평가, AI 부채·채권을 둘러싼 시장 이동, 미국 9월 생산자물가 세 건이었다. 하버드 기금 성과와 Apple–Meta 모델 제공 등은 수집 자료에서 두 번째 독립 매체를 찾지 못했고, 투자 조언성 기사는 제외했다.",
+  "summary": "다중 매체 기준을 통과한 개발은 방콕에서의 Kevin Warsh 연준 의장 발언을 포함해 4건이었다. SEC EDGAR(403), 시세 데이터(404), 일부 Reddit 커뮤니티를 이용할 수 없었으며 조언성 게시물은 제외했다.",
   "stories": [
     {
       "slug": "coreweave-credit-distress-ai-debt-ko",
@@ -218,6 +218,79 @@
         "US economy"
       ],
       "confidence": "high"
+    },
+    {
+      "slug": "warsh-withholds-rate-signal-global-tightening-ko",
+      "headline": "연준의 Warsh, 금리 신호는 내놓지 않고 최근 세계적 긴축을 “무임승차자는 없다”고 평가",
+      "dek": "방콕 IMF 회의에서 연준 의장은 다음 금리 결정을 예고하지 않고, 동시다발적인 세계 긴축 흐름을 언급했다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Kevin Warsh는 연방준비제도가 다가오는 금리 결정 회의에서 어떻게 표결할지 신호를 주지 않았다.",
+        "그는 중앙은행들이 나란히 통화정책을 긴축하고 있다고 설명하며 “무임승차자는 없다”고 말했다.",
+        "Warsh는 AI가 장기적으로 생산성을 높일 수 있지만 전환 과정은 순탄하지 않고 단기 고용 효과는 불확실하다고 말했다."
+      ],
+      "body": [
+        {
+          "text": "연방준비제도 의장 Kevin Warsh는 방콕에서 열린 IMF 회의에서 발언하며 다가오는 회의에서 금리를 올릴지 예고하지 않았다. CNBC와 MarketWatch는 그가 시장에 구체적인 금리 신호를 주지 않았다고 보도했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Warsh는 여러 중앙은행이 동시에 통화정책을 긴축하는 흐름을 설명하며 “무임승차자는 없다”고 말했다. CNBC는 그가 여러 경제권에 공통된 인플레이션 압력에 대응하는 동시다발적 움직임이라고 설명했다고 전했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "그는 인공지능을 잘 도입하는 경제가 생산성과 부를 높일 수 있다고 말하면서도 그 과정은 “매우 순탄치 않을 것”이라고 덧붙였다. CNBC는 단기 고용 효과가 불확실하다는 그의 발언도 전했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "이번 발언은 금리 결정이나 연준의 목표 범위 변경을 발표한 것이 아니었다. 행사 이후에도 다음 결정과 정책 당국자들이 물가·성장 데이터를 어떻게 평가할지는 미정으로 남았다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Warsh의 발언은 연준의 최근 소통 방식을 보여 주며, 인플레이션과 차입 비용을 세계적 긴축 흐름과 연결한다.",
+      "editorNote": "Warsh의 발언과 정책 결정을 구분했다. 인용한 보도는 구체적인 선제 지침이나 새로운 금리 조치가 발표되지 않았다고 전한다.",
+      "cluster": [
+        {
+          "url": "https://www.marketwatch.com/story/here-are-the-key-things-fed-chairman-kevin-warsh-said-and-didnt-say-while-americans-were-sleeping-thursday-night-b82238a1?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Here are the key things Fed Chairman Kevin Warsh said — and didn’t say — while Americans were sleeping Thursday night"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/16/feds-warsh-says-ai-development-path-will-be-very-bumpy-.html",
+          "source": "CNBC",
+          "title": "Fed's Warsh withholds rate signal, praises recent global tightening with 'no free riders'",
+          "publishedAt": "2026-10-16T07:11:22Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.marketwatch.com/story/here-are-the-key-things-fed-chairman-kevin-warsh-said-and-didnt-say-while-americans-were-sleeping-thursday-night-b82238a1?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "title": "Here are the key things Fed Chairman Kevin Warsh said — and didn’t say — while Americans were sleeping Thursday night",
+          "publishedAt": "2026-10-16T09:16:00Z"
+        }
+      ],
+      "tags": [
+        "Federal Reserve",
+        "interest rates",
+        "inflation",
+        "monetary policy"
+      ],
+      "confidence": "medium"
     }
   ]
 }
