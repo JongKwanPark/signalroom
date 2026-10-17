@@ -1,0 +1,245 @@
+{
+  "date": "2026-10-18",
+  "generatedAt": "2026-10-17T22:04:48.035Z",
+  "vertical": "markets",
+  "lang": "en",
+  "title": "MARKETS — October 18, 2026",
+  "summary": "Three multi-source developments are covered: September producer-price inflation, CoreWeave’s debt-market pressure, and the fiscal 2026 deficit estimate. The Russia-sanctions waiver is covered in Geo and was not duplicated here; other collected items were single-outlet commentary, routine price moves, or investor discussions without independent reporting.",
+  "stories": [
+    {
+      "slug": "us-producer-prices-september-2026",
+      "headline": "Wholesale inflation reaches levels last seen in 2022",
+      "dek": "US producer prices rose 6.3% over the year through September, according to BLS data.",
+      "type": "DATA",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "The September Producer Price Index rose 1.3% month over month and 6.3% year over year, BLS reported.",
+        "The annual increase was the largest since December 2022, while August’s annual rate was 5.6%.",
+        "The release shows broad price pressure but does not establish how quickly it will pass through to consumer prices."
+      ],
+      "body": [
+        {
+          "text": "The Bureau of Labor Statistics reported that its final-demand Producer Price Index rose 1.3% in September on a seasonally adjusted monthly basis. The index was up 6.3% over 12 months, compared with 5.6% in August.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP reported that the annual increase was the largest since December 2022 and connected much of the acceleration to fuel costs. The official release provides the underlying index tables and separates goods, services and trade services.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Producer prices measure prices received by domestic producers and can signal cost pressures earlier in the supply chain, but they are not a direct measure of consumer inflation. The BLS release records the price changes; it does not forecast the timing or extent of pass-through.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The September result therefore confirms a sharp increase in producer prices, while the persistence of energy-driven pressure and its effect on consumer prices remain open. Future readings will show whether the jump continues or reverses.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The data add to evidence of renewed upstream price pressure, a factor watched by policymakers and businesses when assessing costs and inflation persistence.",
+      "editorNote": "Headline and figures checked against AP and the BLS release; no market advice.",
+      "cluster": [
+        {
+          "url": "https://www.bls.gov/news.release/archives/ppi_10152026.htm",
+          "source": "US Bureau of Labor Statistics",
+          "title": "Producer Price Index News Release - 2026 M09 Results"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/ff5adf8283a770c2ca9897b10a09dda7",
+          "source": "Associated Press",
+          "title": "Wholesale inflation reaches levels last seen in 2022",
+          "publishedAt": "2026-10-15"
+        },
+        {
+          "id": 2,
+          "url": "https://www.bls.gov/news.release/archives/ppi_10152026.htm",
+          "source": "US Bureau of Labor Statistics",
+          "title": "Producer Price Index News Release - 2026 M09 Results",
+          "publishedAt": "2026-10-15"
+        }
+      ],
+      "tags": [
+        "inflation",
+        "producer prices",
+        "United States"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "coreweave-debt-tests-ai-infrastructure-financing",
+      "headline": "CoreWeave’s slump spotlights growing burden of debt behind AI boom",
+      "dek": "Bond and equity pressure at CoreWeave has focused attention on debt-funded data-center expansion.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 5,
+      "tldr": [
+        "Reuters reported that CoreWeave shares and bonds came under pressure as investors questioned AI infrastructure debt.",
+        "Axios described the company’s borrowing, spending plans and ties to major technology customers as a test for the broader buildout.",
+        "The reports raise financing questions but do not establish that demand for AI computing has weakened across the sector."
+      ],
+      "body": [
+        {
+          "text": "Reuters reported that CoreWeave shares and bonds fell as investors questioned the debt financing behind AI infrastructure expansion. Axios described the company as carrying substantial debt and lease liabilities while funding data-center construction through borrowing.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The reporting situates CoreWeave within a network of technology customers and partners, including Nvidia and major cloud buyers. Reuters said the company’s financing relies on private-credit investors, banks and bond markets.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Axios framed the bond pressure as a test of whether lenders will continue financing data-center construction on current terms. This is a market interpretation of borrowing costs and investor appetite, rather than evidence that computing demand has already collapsed.",
+          "citations": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "CoreWeave’s future funding costs, customer contracts and ability to convert infrastructure spending into revenue remain central uncertainties. The reports do not show that the company has defaulted or that its projects have stopped.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "The episode exposes how AI infrastructure growth is increasingly linked to credit-market conditions as well as customer demand.",
+      "editorNote": "Separates reported debt-market movements from broader claims about AI demand; no investment advice.",
+      "cluster": [
+        {
+          "url": "https://www.axios.com/2026/10/16/coreweave-ai-borrowing-yields",
+          "source": "Axios",
+          "title": "Why CoreWeave’s woes matter to the market"
+        },
+        {
+          "url": "https://www.marketscreener.com/news/coreweave-s-ai-contracts-and-the-lenders-financing-its-build-out-ce785dd3de80f12c",
+          "source": "Reuters via MarketScreener",
+          "title": "CoreWeave’s AI contracts and the lenders financing its build-out"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.investing.com/news/stock-market-news/coreweave-shares-bonds-slide-further-as-ai-debt-fears-mount-4951350?source=newscura",
+          "source": "Reuters via Investing.com",
+          "title": "CoreWeave’s slump spotlights growing burden of debt behind AI boom",
+          "publishedAt": "2026-10-15"
+        },
+        {
+          "id": 2,
+          "url": "https://www.axios.com/2026/10/16/coreweave-ai-borrowing-yields",
+          "source": "Axios",
+          "title": "Why CoreWeave’s woes matter to the market",
+          "publishedAt": "2026-10-16"
+        },
+        {
+          "id": 3,
+          "url": "https://www.marketscreener.com/news/coreweave-s-ai-contracts-and-the-lenders-financing-its-build-out-ce785dd3de80f12c",
+          "source": "Reuters via MarketScreener",
+          "title": "CoreWeave’s AI contracts and the lenders financing its build-out",
+          "publishedAt": "2026-10-15"
+        }
+      ],
+      "tags": [
+        "CoreWeave",
+        "AI infrastructure",
+        "credit markets"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "us-federal-deficit-fy2026",
+      "headline": "U.S. budget deficit swells to almost $2 trillion for fiscal 2026, up 12% in a single year",
+      "dek": "The fiscal-year estimate was $218 billion above the prior year, according to CBO.",
+      "type": "DATA",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "CBO estimated the federal deficit at $2.0 trillion for fiscal 2026, $218 billion above fiscal 2025.",
+        "The estimate was described by CNBC as an increase of about 12% in one year.",
+        "The annual total is an estimate and does not by itself explain the drivers or future borrowing costs."
+      ],
+      "body": [
+        {
+          "text": "The Congressional Budget Office’s September monthly budget review estimated the federal deficit for fiscal 2026 at $2.0 trillion. It said that was $218 billion more than the fiscal 2025 deficit.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "CNBC reported the increase as 12% in a single year, using the CBO’s annual comparison. The CBO review is the primary source for the estimate and its comparison period.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "A fiscal-year deficit measures the gap between federal spending and revenue over the year; it is different from total federal debt. The cited estimate does not, on its own, identify which policy decisions account for the change.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The reported figure is the CBO’s estimate for the completed fiscal year and may be refined as additional accounting data are incorporated. Its implications for future financing conditions depend on broader economic and budget developments.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The increase adds to the scale of federal borrowing needs, while the estimate alone does not establish how markets or policymakers will respond.",
+      "editorNote": "Figure and comparison checked against CBO; CNBC used for headline framing. No investment advice.",
+      "cluster": [
+        {
+          "url": "https://www.cbo.gov/publication/61985",
+          "source": "Congressional Budget Office",
+          "title": "Monthly Budget Review: September 2026"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/16/us-budget-deficit-2026.html",
+          "source": "wire",
+          "title": "U.S. budget deficit swells to almost $2 trillion for fiscal 2026, up 12% in a single year",
+          "publishedAt": "2026-10-16T22:34:29.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cbo.gov/publication/61985",
+          "source": "Congressional Budget Office",
+          "title": "Monthly Budget Review: September 2026",
+          "publishedAt": "2026-10-08"
+        }
+      ],
+      "tags": [
+        "United States",
+        "federal budget",
+        "deficit"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

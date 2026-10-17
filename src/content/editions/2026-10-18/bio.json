@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-18",
+  "generatedAt": "2026-10-17T22:04:48.035Z",
+  "vertical": "bio",
+  "lang": "en",
+  "title": "BIO — October 18, 2026",
+  "summary": "One peptide-regulation development is covered: the policy submission is confirmed, but its text and scope remain unpublished. CAR-T records were individual papers or trial registrations without independent outlet coverage; no multi-outlet clinical or regulatory reporting on CAR-T, N-acetylcysteine, or NAD+ precursors was available in this collection.",
+  "stories": [
+    {
+      "slug": "fda-peptide-interim-access-policy-review",
+      "headline": "Trump administration advances plan for peptide drugs favored by RFK Jr.",
+      "dek": "A proposed interim access policy has reached White House review; its text and scope are not public.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "HHS and FDA submitted an interim policy on compounding certain peptides to the Office of Management and Budget, AP reported.",
+        "The White House review record identifies the filing but does not publish its text or list covered peptides.",
+        "The submission is not an FDA approval or a final rule, and the policy’s terms remain open."
+      ],
+      "body": [
+        {
+          "text": "The Associated Press reported that federal health officials submitted an “interim access policy” for certain compounded peptides to the White House for review. The Office of Information and Regulatory Affairs record lists an FDA action titled “Interim Access Policy for Compounding Using Certain Peptides” received on October 14, 2026.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The agency record establishes that a policy entered review, but it does not provide the policy text, the substances it would cover, or operating conditions. AP reported that the administration was considering broader pharmacy production of certain peptides.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The submission is a regulatory step rather than an approval of any drug or a final change to compounding rules. A separate STAT report describes the administration’s plan as advancing, while noting that details were still pending.",
+          "citations": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "The outstanding questions include which peptides would qualify, which pharmacies and safeguards would be covered, and whether the review will produce an enforceable policy. Until the text is released, claims about access to a named peptide remain unconfirmed.",
+          "citations": [
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "The development may alter the US regulatory path for compounded peptide products, but the unpublished text prevents conclusions about scope or clinical status.",
+      "editorNote": "Coverage cross-checked against AP, STAT and the OIRA review listing. No treatment or wellness claims included.",
+      "cluster": [
+        {
+          "url": "https://www.reginfo.gov/public/do/eoDetails?rrid=0910-ZD94",
+          "source": "Office of Information and Regulatory Affairs",
+          "title": "Interim Access Policy for Compounding Using Certain Peptides"
+        },
+        {
+          "url": "https://www.statnews.com/2026/10/15/trump-administration-advances-plan-peptides-rfk-jr/?utm_campaign=rss",
+          "source": "journal_rss",
+          "title": "Trump administration advances plan for peptide drugs favored by RFK Jr."
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/fb12641dfe791f443f7b7d1eb3bd4a0a",
+          "source": "Associated Press",
+          "title": "Trump administration advances plan for peptide drugs favored by RFK Jr.",
+          "publishedAt": "2026-10-15"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reginfo.gov/public/do/eo/neweomeeting?rin=0910-ZD94",
+          "source": "Office of Information and Regulatory Affairs",
+          "title": "Interim Access Policy for Compounding Using Certain Peptides",
+          "publishedAt": "2026-10-14"
+        },
+        {
+          "id": 3,
+          "url": "https://www.statnews.com/2026/10/15/trump-administration-advances-plan-peptides-rfk-jr/?utm_campaign=rss",
+          "source": "journal_rss",
+          "title": "Trump administration advances plan for peptide drugs favored by RFK Jr.",
+          "publishedAt": "2026-10-15T20:46:09.000Z"
+        }
+      ],
+      "tags": [
+        "FDA",
+        "peptide therapeutics",
+        "drug regulation"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

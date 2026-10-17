@@ -1,0 +1,245 @@
+{
+  "date": "2026-10-18",
+  "generatedAt": "2026-10-17T22:04:48.035Z",
+  "vertical": "markets",
+  "lang": "ko",
+  "title": "MARKETS — 2026년 10월 18일",
+  "summary": "9월 생산자물가 상승, CoreWeave의 채권시장 압박, 2026 회계연도 재정적자 추산 등 다중 출처 전개 3건을 다룹니다. 러시아 제재 유예는 Geo에서 다뤄 중복하지 않았습니다. 그 밖의 수집 항목은 단일 매체 논평, 일상적 가격 변동, 독립 보도 없는 투자자 토론이어서 제외했습니다.",
+  "stories": [
+    {
+      "slug": "us-producer-prices-september-2026-ko",
+      "headline": "도매 물가 상승률, 2022년에 마지막으로 나타난 수준 기록",
+      "dek": "미국 생산자물가지수는 9월까지 1년간 6.3% 상승했다고 노동통계국이 밝혔다.",
+      "type": "DATA",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "미 노동통계국에 따르면 9월 생산자물가지수는 전월 대비 1.3%, 전년 대비 6.3% 올랐다.",
+        "연간 상승률은 2022년 12월 이후 가장 컸으며 8월 상승률은 5.6%였다.",
+        "자료는 생산 단계의 폭넓은 가격 압력을 보여주지만 소비자 물가로의 전가 속도는 확정하지 않는다."
+      ],
+      "body": [
+        {
+          "text": "미 노동통계국은 계절 조정 기준 9월 최종수요 생산자물가지수가 전월보다 1.3% 상승했다고 발표했다. 12개월 상승률은 6.3%로 8월의 5.6%보다 높았다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP는 연간 상승 폭이 2022년 12월 이후 가장 컸으며 가속의 상당 부분이 연료비와 관련됐다고 보도했다. 노동통계국 자료에는 상품, 서비스, 무역 서비스를 나눈 세부 지표가 담겼다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "생산자물가는 국내 생산자가 받는 가격을 측정해 공급망 초기에 비용 압력을 보여줄 수 있지만 소비자 물가를 직접 측정하지는 않는다. 노동통계국 발표는 가격 변화를 기록하며 소비자 전가 시점이나 정도를 예측하지 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "따라서 9월 자료는 생산자 가격이 급등했다는 점을 확인하지만 에너지발 압력이 지속될지와 소비자 물가에 미칠 영향은 아직 열려 있다. 이후 발표에서 상승이 이어질지 되돌려질지 확인할 수 있다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "정책당국과 기업이 비용과 물가 지속성을 판단할 때 보는 생산 단계의 가격 압력이 다시 커졌다는 증거다.",
+      "editorNote": "TODO-review: producer prices의 번역과 계절조정 표기 검토. 투자 조언 없음.",
+      "cluster": [
+        {
+          "url": "https://www.bls.gov/news.release/archives/ppi_10152026.htm",
+          "source": "US Bureau of Labor Statistics",
+          "title": "Producer Price Index News Release - 2026 M09 Results"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/ff5adf8283a770c2ca9897b10a09dda7",
+          "source": "Associated Press",
+          "title": "Wholesale inflation reaches levels last seen in 2022",
+          "publishedAt": "2026-10-15"
+        },
+        {
+          "id": 2,
+          "url": "https://www.bls.gov/news.release/archives/ppi_10152026.htm",
+          "source": "US Bureau of Labor Statistics",
+          "title": "Producer Price Index News Release - 2026 M09 Results",
+          "publishedAt": "2026-10-15"
+        }
+      ],
+      "tags": [
+        "inflation",
+        "producer prices",
+        "United States"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "coreweave-debt-tests-ai-infrastructure-financing-ko",
+      "headline": "CoreWeave 주가·채권 하락, AI 붐의 부채 부담 부각",
+      "dek": "CoreWeave의 주식과 채권 압박으로 부채에 의존한 데이터센터 확장이 주목받고 있다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 5,
+      "tldr": [
+        "Reuters는 투자자들이 AI 인프라 확장의 부채 조달을 우려하면서 CoreWeave 주식과 채권이 압박받았다고 보도했다.",
+        "Axios는 이 회사의 차입, 지출 계획, 주요 기술 고객과의 연계가 더 넓은 인프라 구축의 시험대라고 설명했다.",
+        "보도는 자금 조달의 불확실성을 제기하지만 업계 전반의 AI 컴퓨팅 수요가 약해졌음을 입증하지는 않는다."
+      ],
+      "body": [
+        {
+          "text": "Reuters는 투자자들이 AI 인프라 확장에 필요한 부채 조달을 문제 삼으면서 CoreWeave의 주식과 채권이 하락 압력을 받았다고 보도했다. Axios는 회사가 상당한 부채와 리스 부채를 보유한 채 차입으로 데이터센터를 건설하고 있다고 설명했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "보도는 CoreWeave를 Nvidia와 주요 클라우드 고객을 포함한 기술 고객·파트너 네트워크 안에 놓고 설명한다. Reuters에 따르면 회사는 사모신용 투자자, 은행, 채권시장에 의존해 자금을 조달한다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Axios는 채권 압박을 현재 조건으로 대출기관이 데이터센터 건설 자금을 계속 제공할지 가늠하는 시험으로 해석했다. 이는 조달 비용과 투자자 선호에 대한 시장 해석이지 컴퓨팅 수요가 이미 무너졌다는 증거는 아니다.",
+          "citations": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "향후 조달 비용, 고객 계약, 인프라 지출을 매출로 전환하는 능력이 핵심 불확실성으로 남는다. 보도는 회사의 채무불이행이나 프로젝트 중단을 보여주지 않는다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "AI 인프라 확장이 고객 수요뿐 아니라 신용시장 여건에도 점점 더 연결되고 있음을 보여준다.",
+      "editorNote": "TODO-review: lease liabilities(리스 부채)와 private credit(사모신용) 표기 검토. 투자 조언 없음.",
+      "cluster": [
+        {
+          "url": "https://www.axios.com/2026/10/16/coreweave-ai-borrowing-yields",
+          "source": "Axios",
+          "title": "Why CoreWeave’s woes matter to the market"
+        },
+        {
+          "url": "https://www.marketscreener.com/news/coreweave-s-ai-contracts-and-the-lenders-financing-its-build-out-ce785dd3de80f12c",
+          "source": "Reuters via MarketScreener",
+          "title": "CoreWeave’s AI contracts and the lenders financing its build-out"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.investing.com/news/stock-market-news/coreweave-shares-bonds-slide-further-as-ai-debt-fears-mount-4951350?source=newscura",
+          "source": "Reuters via Investing.com",
+          "title": "CoreWeave’s slump spotlights growing burden of debt behind AI boom",
+          "publishedAt": "2026-10-15"
+        },
+        {
+          "id": 2,
+          "url": "https://www.axios.com/2026/10/16/coreweave-ai-borrowing-yields",
+          "source": "Axios",
+          "title": "Why CoreWeave’s woes matter to the market",
+          "publishedAt": "2026-10-16"
+        },
+        {
+          "id": 3,
+          "url": "https://www.marketscreener.com/news/coreweave-s-ai-contracts-and-the-lenders-financing-its-build-out-ce785dd3de80f12c",
+          "source": "Reuters via MarketScreener",
+          "title": "CoreWeave’s AI contracts and the lenders financing its build-out",
+          "publishedAt": "2026-10-15"
+        }
+      ],
+      "tags": [
+        "CoreWeave",
+        "AI infrastructure",
+        "credit markets"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "us-federal-deficit-fy2026-ko",
+      "headline": "미국 2026 회계연도 재정적자 2조 달러 육박…1년 새 12% 증가",
+      "dek": "CBO 추산에 따르면 회계연도 적자는 전년도보다 2,180억 달러 많았다.",
+      "type": "DATA",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "CBO는 2026 회계연도 연방 재정적자를 2조 달러로 추산했으며 전년보다 2,180억 달러 많다고 밝혔다.",
+        "CNBC는 이를 1년 사이 약 12% 증가한 것으로 보도했다.",
+        "연간 적자 추산만으로 증가 원인이나 향후 차입 비용을 설명할 수는 없다."
+      ],
+      "body": [
+        {
+          "text": "의회예산국은 9월 월간 예산 검토에서 2026 회계연도 연방 재정적자를 2조 달러로 추산했다. 이는 2025 회계연도 적자보다 2,180억 달러 많은 수치라고 밝혔다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "CNBC는 의회예산국의 연간 비교를 바탕으로 증가 폭을 1년 새 12%라고 보도했다. 의회예산국 검토 자료가 추산치와 비교 기간의 1차 출처다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "회계연도 적자는 한 해 동안 연방 지출과 수입 간 차이를 뜻하며 연방정부의 총부채와는 다른 지표다. 인용된 추산만으로 어떤 정책 결정이 변화의 원인인지 알 수 없다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "보도된 수치는 종료된 회계연도에 대한 의회예산국의 추산이며 추가 회계 자료가 반영되면서 조정될 수 있다. 향후 자금 조달 여건에 미칠 영향은 더 넓은 경제·예산 흐름에 달려 있다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "연방정부의 차입 필요 규모가 커졌다는 점을 보여주지만 이 추산만으로 시장이나 정책당국의 반응을 확정할 수는 없다.",
+      "editorNote": "TODO-review: fiscal deficit(회계연도 재정적자) 표기 검토. 투자 조언 없음.",
+      "cluster": [
+        {
+          "url": "https://www.cbo.gov/publication/61985",
+          "source": "Congressional Budget Office",
+          "title": "Monthly Budget Review: September 2026"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/16/us-budget-deficit-2026.html",
+          "source": "wire",
+          "title": "U.S. budget deficit swells to almost $2 trillion for fiscal 2026, up 12% in a single year",
+          "publishedAt": "2026-10-16T22:34:29.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cbo.gov/publication/61985",
+          "source": "Congressional Budget Office",
+          "title": "Monthly Budget Review: September 2026",
+          "publishedAt": "2026-10-08"
+        }
+      ],
+      "tags": [
+        "United States",
+        "federal budget",
+        "deficit"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-18",
+  "generatedAt": "2026-10-17T22:04:48.035Z",
+  "vertical": "bio",
+  "lang": "ko",
+  "title": "BIO — 2026년 10월 18일",
+  "summary": "펩타이드 규제 전개 1건을 다룹니다. 정책 제출은 확인됐지만 문안과 범위는 공개되지 않았습니다. CAR-T 자료는 개별 논문이나 시험 등록뿐이어서 독립 매체 보도가 부족했고, CAR-T·N-아세틸시스테인·NAD+ 전구체의 다중 매체 임상·규제 보도는 이번 수집에서 확인되지 않았습니다.",
+  "stories": [
+    {
+      "slug": "fda-peptide-interim-access-policy-review-ko",
+      "headline": "트럼프 행정부, RFK Jr.가 지지한 펩타이드 의약품 계획 추진",
+      "dek": "특정 펩타이드 조제에 관한 임시 접근 정책이 백악관 검토에 들어갔지만, 문안과 적용 범위는 공개되지 않았다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "AP는 연방 보건 당국이 특정 펩타이드 조제에 관한 임시 정책을 관리예산처에 제출했다고 보도했다.",
+        "백악관 검토 기록은 제출 사실을 확인하지만 정책 문안이나 대상 펩타이드 목록은 공개하지 않는다.",
+        "이번 제출은 FDA 승인이나 최종 규정이 아니며 정책의 구체적 조건은 아직 정해지지 않았다."
+      ],
+      "body": [
+        {
+          "text": "AP는 연방 보건 당국이 특정 조제 펩타이드에 관한 ‘임시 접근 정책’을 백악관 검토에 제출했다고 보도했다. 관리예산처 산하 정보·규제업무국 기록에는 ‘특정 펩타이드 조제를 위한 임시 접근 정책’이라는 FDA 조치가 2026년 10월 14일 접수된 것으로 나와 있다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "정부 기록은 정책이 검토 단계에 들어갔다는 점을 확인하지만, 문안이나 포함될 물질, 운영 조건은 공개하지 않는다. AP는 행정부가 약국의 특정 펩타이드 생산을 확대하는 방안을 검토 중이라고 보도했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이번 제출은 규제 절차의 한 단계이며 의약품 승인이나 조제 규정의 최종 변경은 아니다. STAT의 별도 보도도 행정부 계획이 진전되고 있다고 전했지만 세부 내용은 공개되지 않았다고 설명했다.",
+          "citations": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "남은 쟁점은 어떤 펩타이드가 대상인지, 어떤 약국과 안전장치가 적용되는지, 검토 뒤 집행 가능한 정책이 나올지다. 문안이 공개되기 전에는 특정 펩타이드 접근성에 관한 주장을 확인된 사실로 볼 수 없다.",
+          "citations": [
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "미국의 조제 펩타이드 규제 경로가 바뀔 가능성이 있지만, 문안이 공개되지 않아 범위나 임상적 지위에 관한 결론은 이르다.",
+      "editorNote": "TODO-review: compounding(조제) 표기 검토. 치료·웰니스 관련 권고는 포함하지 않음.",
+      "cluster": [
+        {
+          "url": "https://www.reginfo.gov/public/do/eoDetails?rrid=0910-ZD94",
+          "source": "Office of Information and Regulatory Affairs",
+          "title": "Interim Access Policy for Compounding Using Certain Peptides"
+        },
+        {
+          "url": "https://www.statnews.com/2026/10/15/trump-administration-advances-plan-peptides-rfk-jr/?utm_campaign=rss",
+          "source": "journal_rss",
+          "title": "Trump administration advances plan for peptide drugs favored by RFK Jr."
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/fb12641dfe791f443f7b7d1eb3bd4a0a",
+          "source": "Associated Press",
+          "title": "Trump administration advances plan for peptide drugs favored by RFK Jr.",
+          "publishedAt": "2026-10-15"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reginfo.gov/public/do/eo/neweomeeting?rin=0910-ZD94",
+          "source": "Office of Information and Regulatory Affairs",
+          "title": "Interim Access Policy for Compounding Using Certain Peptides",
+          "publishedAt": "2026-10-14"
+        },
+        {
+          "id": 3,
+          "url": "https://www.statnews.com/2026/10/15/trump-administration-advances-plan-peptides-rfk-jr/?utm_campaign=rss",
+          "source": "journal_rss",
+          "title": "Trump administration advances plan for peptide drugs favored by RFK Jr.",
+          "publishedAt": "2026-10-15T20:46:09.000Z"
+        }
+      ],
+      "tags": [
+        "FDA",
+        "peptide therapeutics",
+        "drug regulation"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

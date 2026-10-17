@@ -1,0 +1,445 @@
+{
+  "date": "2026-10-18",
+  "generatedAt": "2026-10-17T22:04:48.035Z",
+  "vertical": "geo",
+  "lang": "ko",
+  "title": "GEO — 2026년 10월 18일",
+  "summary": "러시아 제재 유예, 프랑스·알바니아 시위, 인도 군중 압박 사고, 브라질 아마존 산림 파괴 등 다중 매체 보도 5건을 다룹니다. 교황 레오의 퇴원은 지정학이 아닌 건강 뉴스여서 제외했고, 기니비사우 백신 시험 보도는 같은 Guardian 도메인에서 상반되게 나와 독립 출처로 보지 않았습니다. 그 밖의 항목은 두 번째 독립 매체 보도가 부족했습니다.",
+  "stories": [
+    {
+      "slug": "trump-waives-russia-sanctions-ko",
+      "headline": "트럼프, 젤렌스키와 갈등 커지는 가운데 러시아 제재 일부 유예",
+      "dek": "대통령은 새 제재 조치의 시행 예정일 직전에 관련 법에 따른 제재를 유예했다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 5,
+      "tldr": [
+        "여러 매체는 트럼프가 새 조치 시행 전에 러시아 관련 제재의 핵심 내용을 유예했다고 보도했다.",
+        "행정부는 미국의 국익을 이유로 들었고, 젤렌스키와 미국 의원들은 이를 비판했다.",
+        "유예의 실제 기간과 집행 효과는 명령의 문구와 후속 이행에 달려 있다."
+      ],
+      "body": [
+        {
+          "text": "BBC는 도널드 트럼프 대통령이 블라디미르 젤렌스키 우크라이나 대통령과 긴장이 고조되는 가운데 러시아 제재 일부를 유예했다고 보도했다. AFP와 Axios는 유예 대상이 전월 서명된 법률상 조치이며 시행 예정일 직전에 발표됐다고 전했다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Axios에 따르면 백악관은 결정을 미국의 국익에 따른 것이라고 설명했다. AFP는 해당 법이 러시아산 석유·가스의 주요 구매국에 최대 100% 관세를 부과할 권한을 허용했으며, 유예로 예정된 조치가 미뤄졌다고 보도했다.",
+          "citations": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "젤렌스키는 이 조치를 비판했고, Al Jazeera는 미국 내 초당적 반발을 전했다. 보도들은 모스크바에 대한 압박과 키이우 지원을 둘러싼 워싱턴의 갈등이 커지고 있음을 보여준다.",
+          "citations": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "현재 보도는 행정명령과 즉각적인 정치적 반응을 확인하지만 유예가 얼마나 지속될지, 정부 기관이 어느 범위까지 적용할지는 확정하지 못한다. 이는 명령 전문과 후속 집행에 달려 있다.",
+          "citations": [
+            1,
+            2,
+            4
+          ]
+        }
+      ],
+      "whyItMatters": "유예 조치는 새 제재법에 따라 단기적으로 행사할 수 있었던 압박 수단을 바꾸며 미국과 우크라이나 관계에도 부담을 더한다.",
+      "editorNote": "TODO-review: 제재 유예의 법률상 범위는 명령 집행 과정에서 확인 필요.",
+      "cluster": [
+        {
+          "url": "https://www.afp.com/en/trump-waives-new-russia-sanctions-ukraine-ties-slump",
+          "source": "AFP",
+          "title": "Trump waives new Russia sanctions as Ukraine ties slump"
+        },
+        {
+          "url": "https://www.axios.com/2026/10/17/trump-russia-sanctions",
+          "source": "Axios",
+          "title": "Trump waives new Russia sanctions in the “national interests”"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/17/trump-faces-bipartisan-backlash-over-russia-sanctions-waiver?traffic_source=rss",
+          "source": "wire",
+          "title": "Trump faces bipartisan backlash over Russia sanctions waiver"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+          "source": "wire",
+          "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+          "publishedAt": "2026-10-17T19:19:19.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.afp.com/en/trump-waives-new-russia-sanctions-ukraine-ties-slump",
+          "source": "AFP",
+          "title": "Trump waives new Russia sanctions as Ukraine ties slump",
+          "publishedAt": "2026-10-17"
+        },
+        {
+          "id": 3,
+          "url": "https://www.axios.com/2026/10/17/trump-russia-sanctions",
+          "source": "Axios",
+          "title": "Trump waives new Russia sanctions in the “national interests”",
+          "publishedAt": "2026-10-17"
+        },
+        {
+          "id": 4,
+          "url": "https://www.aljazeera.com/news/2026/10/17/trump-faces-bipartisan-backlash-over-russia-sanctions-waiver?traffic_source=rss",
+          "source": "wire",
+          "title": "Trump faces bipartisan backlash over Russia sanctions waiver",
+          "publishedAt": "2026-10-17T17:24:07.000Z"
+        }
+      ],
+      "tags": [
+        "Russia",
+        "Ukraine",
+        "sanctions"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "france-protest-clashes-october-17-ko",
+      "headline": "프랑스 시위 뒤 충돌·약탈·건물 화재…1,000명 넘게 체포",
+      "dek": "여러 매체는 물가와 불평등에 항의하는 전국 시위가 충돌과 체포로 이어졌다고 보도했다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "10월 17일 프랑스 여러 도시에서 시위가 열렸고 경찰과 시위대가 충돌했다.",
+        "보도들은 생활비, 불평등, 학생과 노동조합을 시위 동력으로 언급했다.",
+        "매체와 발표 시점에 따라 체포 인원이 달라 최종 수치를 하나로 단정하기 어렵다."
+      ],
+      "body": [
+        {
+          "text": "BBC는 프랑스 시위 중 충돌·약탈·화재가 발생했으며 1,000명 이상이 체포됐다는 제목으로 보도했다. DW는 학생, 노동조합, 노란 조끼 운동 참가자들이 물가와 불평등에 항의하는 전국 시위에 참여했다고 전했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP는 로랑 누녜 내무장관을 인용해 전국에서 약 400명이 체포됐다고 보도했고, DW는 오후 중반까지 약 272명이 체포됐다고 전했다. 서로 다른 수치는 보도 시점과 집계 범위 차이를 반영할 수 있다.",
+          "citations": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "보도들은 생활비 부담과 더 넓은 사회적 불만을 시위 배경으로 연결하며 여러 도시에서 폭력 사태가 있었다고 전했다. 모든 참가자가 폭력에 가담했다는 점은 확인되지 않았다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "확인된 전개는 전국적인 시위와 충돌, 체포가 발생했다는 점이며 최종 체포 인원과 책임의 분포는 이용 가능한 보도에서 확정되지 않았다. 이후 공식 집계에서 수치가 바뀔 수 있다.",
+          "citations": [
+            1,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "이번 시위는 생활비 압박과 사회적 양극화가 한데 모인 양상을 보여준다. 매체별 체포 수치 차이는 시점이 표시된 통계의 중요성도 드러낸다.",
+      "editorNote": "TODO-review: 노란 조끼 운동의 한국어 표기 검토. 체포 수치는 출처별 차이를 명시함.",
+      "cluster": [
+        {
+          "url": "https://www.dw.com/en/france-protesters-clash-with-police-in-nationwide-protests-amid-rising-social-polarization/a-79685584?maca=en-rss-en-world-4025-rdf",
+          "source": "wire",
+          "title": "France: Protesters clash with police in nationwide protests, amid rising social polarization"
+        },
+        {
+          "url": "https://apnews.com/article/44b9d3ba91ffad4029f975dced7e31cb",
+          "source": "Associated Press",
+          "title": "Clashes, fires and looting break out as protesters rally across France, joining students"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo?at_medium=RSS&at_campaign=rss",
+          "source": "wire",
+          "title": "Violent clashes, looting and buildings ablaze in France as over 1,000 arrested after protests",
+          "publishedAt": "2026-10-17T20:52:17.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.dw.com/en/france-protesters-clash-with-police-in-nationwide-protests-amid-rising-social-polarization/a-79685584?maca=en-rss-en-world-4025-rdf",
+          "source": "wire",
+          "title": "France: Protesters clash with police in nationwide protests, amid rising social polarization",
+          "publishedAt": "2026-10-17T08:02:00.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://apnews.com/article/44b9d3ba91ffad4029f975dced7e31cb",
+          "source": "Associated Press",
+          "title": "Clashes, fires and looting break out as protesters rally across France, joining students",
+          "publishedAt": "2026-10-17"
+        }
+      ],
+      "tags": [
+        "France",
+        "protests",
+        "cost of living"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "albania-protests-escalate-ko",
+      "headline": "알바니아 반정부 시위대와 경찰 충돌",
+      "dek": "티라나 시위에 학생들이 합류했고 경찰의 강경 대응과 체포가 보도됐다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "AP와 Al Jazeera에 따르면 알바니아 반정부 시위는 닷새째 이어졌다.",
+        "학생들이 총리 에디 라마의 사임과 정치 변화를 요구하는 더 넓은 움직임에 합류했다.",
+        "보도에는 충돌, 경찰력 사용, 체포가 담겼지만 시위의 다음 단계와 정부 대응은 아직 열려 있다."
+      ],
+      "body": [
+        {
+          "text": "AP는 티라나 총리 집무실 인근에서 충돌이 이어지며 반정부 시위가 닷새째에 접어들었다고 보도했다. Al Jazeera와 DW도 시위 격화와 학생 참여를 전했다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "DW와 Al Jazeera에 따르면 시위대는 에디 라마 총리의 사임을 포함한 정치적 변화를 요구해 왔다. AP는 고등학생과 대학생이 더 넓은 반정부 운동에 합류하면서 최근 긴장이 고조됐다고 전했다.",
+          "citations": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "AP는 경찰이 최루가스, 물대포, 곤봉을 사용했고 경찰 발표 기준 167명이 체포되고 경찰관 132명이 다쳤다고 보도했다. Al Jazeera는 10월 17일 충돌에서 경찰이 고무탄을 발사했다고 전했다.",
+          "citations": [
+            2,
+            4
+          ]
+        },
+        {
+          "text": "출처들은 충돌과 시위 확산을 확인하지만 체포·부상 수치는 경찰 발표로 귀속해 보도한다. 대중 지지 규모와 시위가 정치적 양보로 이어질지는 아직 확인되지 않았다.",
+          "citations": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "whyItMatters": "학생들의 요구가 정부 전반에 대한 도전과 결합해 제도권에 압박을 높이고 있다. 경찰력 사용과 책임을 둘러싼 설명은 계속 검증이 필요하다.",
+      "editorNote": "TODO-review: 총리 직함·기관명 표기 검토. 체포·부상 수치를 경찰 발표로 귀속함.",
+      "cluster": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/crwydey50xeno?at_medium=RSS&at_campaign=rss",
+          "source": "wire",
+          "title": "Anti-government protesters battle with police in Albania"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/17/albanian-police-fire-rubber-bullets-as-protests-against-rama-escalate?traffic_source=rss",
+          "source": "wire",
+          "title": "Albanian police fire rubber bullets as protests against Rama escalate"
+        },
+        {
+          "url": "https://www.dw.com/en/albania-students-demand-political-change-and-resignation-of-prime-minister-edi-rama/a-79682217?maca=en-rss-en-world-4025-rdf",
+          "source": "wire",
+          "title": "Albania: Students demand political change and resignation of Prime Minister Edi Rama"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/9f0ce30c446aa9f273068b98d9f40b14",
+          "source": "Associated Press",
+          "title": "Riots in Tirana enter a fifth day as Albania’s anti-government protests escalate",
+          "publishedAt": "2026-10-17"
+        },
+        {
+          "id": 2,
+          "url": "https://www.bbc.co.uk/news/articles/crwydey50xeno?at_medium=RSS&at_campaign=rss",
+          "source": "wire",
+          "title": "Anti-government protesters battle with police in Albania",
+          "publishedAt": "2026-10-17T20:53:00.000Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.aljazeera.com/news/2026/10/17/albanian-police-fire-rubber-bullets-as-protests-against-rama-escalate?traffic_source=rss",
+          "source": "wire",
+          "title": "Albanian police fire rubber bullets as protests against Rama escalate",
+          "publishedAt": "2026-10-17T19:26:13.000Z"
+        },
+        {
+          "id": 4,
+          "url": "https://www.dw.com/en/albania-students-demand-political-change-and-resignation-of-prime-minister-edi-rama/a-79682217?maca=en-rss-en-world-4025-rdf",
+          "source": "wire",
+          "title": "Albania: Students demand political change and resignation of Prime Minister Edi Rama",
+          "publishedAt": "2026-10-16T14:23:00.000Z"
+        }
+      ],
+      "tags": [
+        "Albania",
+        "protests",
+        "politics"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "india-religious-gathering-stampede-ko",
+      "headline": "인도 힌두 축제 행사 압사 사고로 최소 17명 사망",
+      "dek": "BBC와 Al Jazeera는 종교 행사에서 발생한 군중 압박 사고로 사망자가 나왔다고 보도했다.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "BBC와 Al Jazeera는 인도 힌두교 종교 행사에서 발생한 압사 사고로 최소 17명이 숨졌다고 보도했다.",
+        "두 보도는 종교 모임 중 발생한 사고로 설명하지만 군중 사고를 표현하는 용어에는 차이가 있다.",
+        "초기 보도는 사망자 수를 확인했지만 사고의 구체적 경위와 원인은 확정하지 않았다."
+      ],
+      "body": [
+        {
+          "text": "BBC는 인도 힌두 축제 행사에서 발생한 압사 사고로 최소 17명이 숨졌다고 보도했다. Al Jazeera도 종교 모임에서 발생한 군중 압박 사고로 최소 17명이 사망했다고 별도로 전했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "두 보도는 최소 사망자 수와 종교 행사 중 사고가 발생했다는 점에서 일치한다. 다만 군중 사고를 설명하는 제목의 표현은 조금 다르다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "확인 가능한 자료만으로는 구체적인 시간대별 경과, 군중 통제 방식, 공식적인 원인 판정을 알 수 없다. 사망자 수만으로 이런 세부 사항을 추정해서는 안 된다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "군중이 몰리기 시작한 경위와 당시 안전 조치를 확인하려면 당국 발표와 현지 후속 보도가 더 필요하다. 당국의 신원 확인이나 수치 정정에 따라 사망자 집계가 바뀔 수 있다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "대형 종교 모임의 군중 안전 문제를 드러내지만 초기 보도만으로 원인과 책임 소재가 확정되지는 않았다.",
+      "editorNote": "TODO-review: crowd crush/stampede의 문맥별 번역 검토. 초기 사망자 수로 원인을 추정하지 않음.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/17/at-least-17-killed-in-stampede-at-religious-gathering-in-india?traffic_source=rss",
+          "source": "wire",
+          "title": "At least 17 killed in stampede at religious gathering in India"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c820vwq7qg2ko?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "At least 17 dead in crush at Hindu festival event in India",
+          "publishedAt": "2026-10-17T19:19:16.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/news/2026/10/17/at-least-17-killed-in-stampede-at-religious-gathering-in-india?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "At least 17 killed in stampede at religious gathering in India",
+          "publishedAt": "2026-10-17T19:48:54.000Z"
+        }
+      ],
+      "tags": [
+        "India",
+        "public safety",
+        "religious gatherings"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "brazil-amazon-deforestation-lowest-ko",
+      "headline": "브라질 아마존 산림 파괴, 선거 앞두고 기록적 감소",
+      "dek": "공식 위성 자료는 브라질 대선 결선 투표를 앞두고 연간 산림 파괴율이 낮아졌다고 나타냈다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "AP와 The Guardian은 브라질 아마존 산림 파괴가 공식 집계 사상 최저 수준으로 줄었다고 보도했다.",
+        "보도된 연간 측정 기간은 2025년 8월부터 2026년 7월까지이며 3,335제곱킬로미터가 사라졌다.",
+        "대선을 앞두고 향후 정책이 감소세를 이어갈지는 불확실하다."
+      ],
+      "body": [
+        {
+          "text": "AP는 공식 위성 자료 기준 2025년 8월부터 2026년 7월까지 아마존 열대우림 3,335제곱킬로미터가 사라졌으며, 이는 1988년 기록 시작 이후 가장 낮은 연간 수치라고 보도했다. The Guardian도 브라질 대선 결선을 앞두고 기록적 저점을 보도했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이 수치는 실시간 집계가 아니라 위성 관측에 기반한 연간 측정 기간을 나타낸다. The Guardian은 감소 폭이 이전 최저치보다 1,236제곱킬로미터 컸다고 전했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The Guardian은 이 결과를 루이스 이나시우 룰라 다 시우바 대통령 정부의 집행·정책과 연결하고, 10월 25일 결선에 산림 정책이 크게 다른 후보들이 나선다고 전했다. AP는 면적 수치가 공식 위성 자료에 근거한다고 밝혔다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "측정 기간의 감소는 확인됐지만 향후 산림 파괴는 단속, 토지 이용 압력, 선거 이후 정책에 달려 있다. 보도들은 감소 추세가 되돌릴 수 없다고 확정하지 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "선거 결과가 산림 보호 정책의 지속성에 영향을 줄 수 있어 이번 감소는 향후 기후·토지 이용 정책의 중요한 기준점이다.",
+      "editorNote": "TODO-review: 면적 단위 표기 검토. 향후 추세를 확정적으로 서술하지 않음.",
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/environment/2026/oct/16/brazil-amazon-deforestation-lowest-on-record-election",
+          "source": "wire",
+          "title": "Brazilian Amazon deforestation falls to lowest on record as pivotal vote looms"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/c00358ad3db9d53fcdf3a1e65da5d8ec",
+          "source": "Associated Press",
+          "title": "Brazil says Amazon deforestation fell to the lowest level since 1988",
+          "publishedAt": "2026-10-16"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theguardian.com/environment/2026/oct/16/brazil-amazon-deforestation-lowest-on-record-election",
+          "source": "wire",
+          "title": "Brazilian Amazon deforestation falls to lowest on record as pivotal vote looms",
+          "publishedAt": "2026-10-16T19:37:53.000Z"
+        }
+      ],
+      "tags": [
+        "Brazil",
+        "Amazon",
+        "deforestation"
+      ],
+      "confidence": "high"
+    }
+  ]
+}
