@@ -1,10 +1,10 @@
 {
   "date": "2026-10-17",
-  "generatedAt": "2026-10-16T22:06:04.054Z",
+  "generatedAt": "2026-10-17T10:06:36.531Z",
   "vertical": "markets",
   "lang": "en",
   "title": "Signal Daily MARKETS — October 17, 2026",
-  "summary": "2 stories. Included the technology sell-off and oil-market response to Hormuz risk. The Mastercard/Citigroup China-access talks were excluded because coverage found was based on the same CNBC report; standalone market moves and opinion pieces lacked independent confirmation.",
+  "summary": "3 stories. Added Treasury’s fiscal 2026 deficit report. The technology selloff and Hormuz-related oil risks remain in their existing stories. The Anthropic junk-rating item describes a rating assigned in June, not a new October development; the China market-access report was carried by CNBC alone, and other corporate-price items lacked independent corroboration.",
   "stories": [
     {
       "slug": "tech-selloff-deepens-as-ai-financing-and-inflation-worries-converge",
@@ -14,42 +14,42 @@
       "publication": "scheduled",
       "readMinutes": 4,
       "tldr": [
-        "미국 기술주 매도세가 금요일에도 이어져 주요 지수가 최근 몇 달 사이 가장 약한 한 주를 마감했다.",
-        "AP와 Reuters는 AI 투자 지속 가능성, 데이터센터 기업의 부채 부담, 높은 금리 우려가 기술주 압박 요인이라고 보도했다.",
-        "이번 조정이 AI 설비 투자 축소나 경기 둔화로 이어질지는 아직 확인되지 않았다."
+        "U.S. technology shares extended a selloff on Friday, leaving major indexes with one of their weakest weeks in recent months.",
+        "The Associated Press and Reuters linked pressure on technology names to questions about AI investment, data-center borrowing and interest-rate risks.",
+        "The market move does not establish that AI demand has fallen or that planned infrastructure investment has been cancelled."
       ],
       "body": [
         {
-          "text": "미국 주식시장에서 기술주 매도세가 금요일까지 이어지며 주요 지수는 늦은 6월 이후 가장 약한 주간 흐름을 기록했다. AP는 AI 인프라 투자 열기가 얼마나 오래 지속될지에 대한 우려가 반도체 종목을 포함한 기술주에 부담을 줬다고 보도했다.",
+          "text": "U.S. technology shares continued falling through Friday, and major indexes recorded one of their weakest weekly performances since late June, according to the Associated Press. Its report cited concerns about the durability of the AI investment boom as one pressure on chipmakers and other technology stocks.",
           "citations": [
             1,
             2
           ]
         },
         {
-          "text": "Reuters도 AI 관련 종목의 하락과 데이터센터 운영사의 부채 부담이 시장 심리를 압박했다고 전했다. CoreWeave 등 차입을 활용해 AI 컴퓨팅 용량을 늘리는 기업이 투자자들의 재평가 대상이 됐다.",
+          "text": "Reuters also reported declines in AI-linked shares and investor attention to the debt used by data-center operators to expand computing capacity. CoreWeave was among the borrowers facing closer scrutiny.",
           "citations": [
             1,
             2
           ]
         },
         {
-          "text": "매도세는 기업의 자금 조달 비용에 대한 우려와 인플레이션·금리 경로가 맞물린 시점에 나타났다. 그렇다고 주가 하락만으로 AI 수요가 줄었거나 데이터센터 계획이 취소됐다고 볼 수는 없다.",
+          "text": "The selling came as investors weighed financing costs alongside inflation and the outlook for interest rates. Falling share prices alone do not show that demand for AI has weakened or that data-center projects have been cancelled.",
           "citations": [
             1,
             2
           ]
         },
         {
-          "text": "시장 참여자들이 주시할 사안은 차입 비용이 실제 투자 계획과 기업 실적에 어떤 영향을 주는지다. 현재 보도는 투자자 우려와 주가 변동을 확인하지만, 향후 수익과 설비 지출의 방향은 아직 열려 있다.",
+          "text": "Further evidence will come from companies’ financing plans, capital spending and results. Current coverage describes market performance and investor concerns, while the direction of future earnings and infrastructure investment remains open.",
           "citations": [
             1,
             2
           ]
         }
       ],
-      "whyItMatters": "AI 인프라 투자가 자본시장 전반과 연결되면서 기술주 변동이 대형 기술기업뿐 아니라 신용·금리 기대에도 영향을 줄 수 있다.",
-      "editorNote": "주가 하락과 산업 투자 축소를 동일시하지 않았다. 매매 신호나 투자 조언은 포함하지 않았다.",
+      "whyItMatters": "The selloff brings financing costs and the expected returns on AI infrastructure into focus. Market prices reflect current investor concerns, but do not establish that AI demand or planned capital spending has turned down.",
+      "editorNote": "Reports market movements and stated concerns without treating them as proof of lower demand or cancelled projects.",
       "cluster": [
         {
           "url": "https://www.theguardian.com/business/2026/oct/15/tech-market-sell-off-deepens-amid-fears-over-us-inflation-and-ai-debt",
@@ -88,13 +88,13 @@
       "publication": "scheduled",
       "readMinutes": 4,
       "tldr": [
-        "CNBC는 이란의 호르무즈 해협 공격 확대와 우크라이나의 러시아 정유시설 타격 재개 발언 속에 브렌트유가 배럴당 110달러를 기록했다고 보도했다.",
-        "AP와 BBC는 해협 인근 선박 공격 신고가 늘었지만 미신고가 많아 실제 위험 규모가 불분명하다고 전했다.",
-        "가격 움직임의 지속 여부와 실제 원유 수송 차질 규모는 아직 확인되지 않았다."
+        "CNBC reported that Brent crude touched $110 a barrel amid rising risks around the Strait of Hormuz and renewed threats to Russian refinery sites.",
+        "BBC and AP reported increasing attack notices near the strait but also said underreporting makes the scale difficult to determine.",
+        "The available coverage does not establish how much oil transport was disrupted or whether the price move will persist."
       ],
       "body": [
         {
-          "text": "브렌트유 가격이 배럴당 110달러에 닿았다고 CNBC가 보도했다. 보도는 이란의 호르무즈 해협 공격 확대와 우크라이나가 러시아 정유시설을 다시 겨냥하겠다는 입장을 공급 위험의 배경으로 들었다.",
+          "text": "Brent crude touched $110 a barrel, CNBC reported, as it cited escalating attacks near the Strait of Hormuz and Ukraine’s stated intention to target Russian refineries. The report linked both developments to concerns about supply routes.",
           "citations": [
             1,
             2,
@@ -102,7 +102,7 @@
           ]
         },
         {
-          "text": "BBC Verify는 해협 주변 선박 공격 신고가 높아졌고 원유 수출이 느려지고 있다고 전했다. AP는 영국 해상무역작전국이 신고되지 않은 공격이 많아 전체 상황을 정확히 집계하기 어렵다고 밝혔다고 보도했다.",
+          "text": "BBC Verify reported a rise in ships reporting attacks near Hormuz and a slowdown in oil exports. The Associated Press said the UK Maritime Trade Operations agency could not reliably count all incidents because some vessels do not report suspected attacks.",
           "citations": [
             1,
             2,
@@ -110,7 +110,7 @@
           ]
         },
         {
-          "text": "이 자료들은 운송 위험이 가격 불확실성을 키우는 맥락을 제공하지만, 보도된 공격 건수가 전체 사건을 대표하지는 않는다. 실제 원유 선적량과 공급 차질이 어느 정도인지 확인할 완전한 해상 데이터는 아직 공개되지 않았다.",
+          "text": "These reports describe a security backdrop that can heighten uncertainty around transport, but incident reports are incomplete and do not by themselves measure lost oil volumes. The available coverage does not provide a full accounting of actual shipment delays or supply shortfalls.",
           "citations": [
             1,
             2,
@@ -118,7 +118,7 @@
           ]
         },
         {
-          "text": "시장이 주시할 것은 해협 통항과 원유 출하가 실제로 얼마나 지속적으로 제한되는지, 그리고 다른 공급 경로가 이를 얼마나 보완하는지다. 이 보도는 현재의 가격·안보 상황을 설명할 뿐 이후 가격 방향을 예측하지 않는다.",
+          "text": "The key unresolved questions are whether passage and exports remain constrained and how much other supply routes can compensate. This coverage reports current prices and security concerns; it does not establish a future price direction.",
           "citations": [
             1,
             2,
@@ -126,8 +126,8 @@
           ]
         }
       ],
-      "whyItMatters": "해상 운송의 불확실성이 원유 가격과 공급 기대에 연결돼 있지만, 불완전한 공격 신고만으로 공급 손실을 정량화하기는 어렵다.",
-      "editorNote": "가격 관측과 이후 방향을 분리했다. 공급 차질 규모는 미확인으로 서술했다.",
+      "whyItMatters": "Risks near Hormuz are relevant to oil markets, but incomplete attack reporting makes the scale of any physical disruption uncertain. Current price moves do not establish what supply or prices will do next.",
+      "editorNote": "Labels the reports as context for current pricing and does not imply a forecast or quantified supply loss.",
       "cluster": [
         {
           "url": "https://apnews.com/article/5da500114e070ccaa27d36837b095de5",
@@ -162,6 +162,80 @@
         "Brent",
         "oil markets",
         "Strait of Hormuz"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "us-budget-deficit-reaches-nearly-two-trillion-in-fy2026",
+      "headline": "U.S. budget deficit swells to almost $2 trillion for fiscal 2026, up 12% in a single year",
+      "dek": "Treasury figures showed a $1.992 trillion deficit for the fiscal year ended September 30, compared with $1.775 trillion in fiscal 2025.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "The U.S. budget deficit reached $1.992 trillion in fiscal 2026, up $217 billion, or about 12%, from fiscal 2025.",
+        "CNBC and Reuters reported that Treasury Department figures showed the shortfall was the largest in five years.",
+        "Tariff refunds and debt-service costs were among the reported factors, but the annual total does not establish a future deficit path."
+      ],
+      "body": [
+        {
+          "text": "The United States ended fiscal 2026, which closed on September 30, with a $1.992 trillion budget deficit, according to Treasury figures reported by CNBC and Reuters. The shortfall was $217 billion higher than the $1.775 trillion deficit in fiscal 2025.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The reports said the increase was about 12% and described the result as the largest deficit in five years. Reuters cited tariff refunds and record debt-service spending among factors behind the annual change.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The deficit is the difference between federal outlays and receipts over the fiscal year. It measures annual borrowing need, but one year’s result does not establish how the balance will change in subsequent fiscal years.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The contribution of individual policy changes and the outlook for interest costs and receipts remain subjects for further analysis. The Treasury’s next monthly statement will provide the first data for fiscal 2027, but this release alone does not establish a projection.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The larger annual shortfall adds to attention on federal borrowing and debt-service costs. Its longer-term implications depend on future receipts, spending and interest expenses rather than this total alone.",
+      "editorNote": "Uses Treasury figures as reported by CNBC and Reuters; does not infer a future deficit trajectory from the annual result.",
+      "cluster": [
+        {
+          "url": "https://www.marketscreener.com/news/us-fiscal-2026-budget-deficit-rises-to-1-99-trillion-largest-in-5-years-ce785cdadc80f623",
+          "source": "Reuters via MarketScreener",
+          "title": "US annual budget gap hits nearly $2 trillion, largest in 5 years"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/16/us-budget-deficit-2026.html",
+          "source": "CNBC",
+          "title": "U.S. budget deficit swells to almost $2 trillion for fiscal 2026, up 12% in a single year",
+          "publishedAt": "2026-10-16"
+        },
+        {
+          "id": 2,
+          "url": "https://www.marketscreener.com/news/us-fiscal-2026-budget-deficit-rises-to-1-99-trillion-largest-in-5-years-ce785cdadc80f623",
+          "source": "Reuters via MarketScreener",
+          "title": "US annual budget gap hits nearly $2 trillion, largest in 5 years",
+          "publishedAt": "2026-10-16"
+        }
+      ],
+      "tags": [
+        "fiscal policy",
+        "U.S. Treasury",
+        "budget deficit"
       ],
       "confidence": "medium"
     }

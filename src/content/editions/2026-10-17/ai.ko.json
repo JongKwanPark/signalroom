@@ -1,10 +1,10 @@
 {
   "date": "2026-10-17",
-  "generatedAt": "2026-10-16T22:06:04.054Z",
+  "generatedAt": "2026-10-17T10:13:16.615Z",
   "vertical": "ai",
   "lang": "ko",
   "title": "시그널 데일리 AI — 2026년 10월 17일",
-  "summary": "3건. 독립 매체의 교차 보도를 확인하지 못한 단독 제품 출시, 단일 출처 주장, Postgres 19 기사는 제외했다. 중국의 수출 통제 초안, AI 인프라 부채 우려, Anthropic의 암호학 주장은 별도 매체 보도가 확인됐다.",
+  "summary": "9건. Mercor 벤치마크 지도, Simons 수학 지원 사업, PostgreSQL 19 출시 연기, Anthropic 코드 검토 방식과 양자 회로 연구, 특정 장치의 하드웨어 역설계 사례를 추가했다. DeepSeek·Gemini 단독 출시와 확인되지 않은 Scion·Mononoke 의혹은 관련성이 낮거나 귀속이 확정되지 않아 제외했다.",
   "stories": [
     {
       "slug": "china-drafts-controls-on-23-ai-technologies-ko",
@@ -227,6 +227,479 @@
       "type": "DEEP",
       "publication": "scheduled",
       "readMinutes": 4
+    },
+    {
+      "slug": "mercor-map-finds-ai-benchmarks-miss-most-us-work-hours-ko",
+      "headline": "Mercor 지도, 미국 근로시간 대부분이 AI 벤치마크에서 빠졌다고 추정",
+      "dek": "Mercor는 AI 평가 기준 29개 표본을 미국 직업별 과업과 비교해 유급 근로시간 대부분의 벤치마크 범위가 제한적이라고 추정했다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Mercor는 미국 근로시간의 90%가 자사 지도에 포함된 29개 벤치마크로 충분히 다뤄지지 않는 과업에 해당한다고 밝혔다.",
+        "회사는 벤치마크 프롬프트를 미 노동부 O*NET 과업 분류에 연결하고 해당 과업에 쓰이는 시간을 추정치와 결합했다.",
+        "이 결과는 제한된 표본의 벤치마크 범위를 측정한 것으로, 모든 업무에서 AI 성능이나 일자리 감소를 예측하지 않는다."
+      ],
+      "body": [
+        {
+          "text": "Mercor는 29개 AI 벤치마크를 미국 노동부 O*NET 과업 분류와 비교한 지도를 공개했다. 회사는 벤치마크가 거의 없거나 전혀 없는 과업이 미국 근로시간의 90%를 차지한다고 추정했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "분석은 벤치마크 프롬프트를 직업과 과업에 연결한 뒤 각 과업에 노동자가 소비하는 시간 추정치와 결합했다. Mercor는 의미 있는 범위 기준을 충족한 과업이 일부 직업에만 포함됐다고 설명했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "이 결과는 Mercor가 선택한 벤치마크 표본과 연결 방식에 기반한다. 노동 분류에 포함된 업무 가운데 얼마나 많이 평가 기준으로 다뤄지는지 측정할 뿐 현재 AI가 해당 업무를 수행할 수 있는지를 판정하지 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "회사는 이 지도가 초기 목록이며 범위를 넓힐 계획이라고 밝혔다. 더 많은 벤치마크를 포함하면 90% 추정치가 어떻게 달라질지, 범위가 실제 생산성과 어떻게 연결되는지는 열려 있다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이 지도는 공개 벤치마크 점수가 전체 업무 가운데 일부만 포괄한다는 점을 보여준다. 제한된 표본의 범위 지표이므로 노동시장 전반의 AI 역량을 직접 측정한 결과로 해석해서는 안 된다.",
+      "editorNote": "90% 추정치를 Mercor에 귀속하고, 일자리 영향 예측이 아닌 제한적 벤치마크 범위 분석으로 설명했다.",
+      "cluster": [
+        {
+          "url": "https://news.ycombinator.com/item?id=50121179",
+          "source": "Hacker News",
+          "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+          "source": "Mercor",
+          "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+          "publishedAt": "2026-10-16"
+        },
+        {
+          "id": 2,
+          "url": "https://news.ycombinator.com/item?id=50121179",
+          "source": "Hacker News discussion",
+          "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+          "publishedAt": "2026-10-16"
+        }
+      ],
+      "tags": [
+        "AI evaluation",
+        "labor market",
+        "benchmarks"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "simons-foundation-launches-15m-ai-mathematics-effort-ko",
+      "headline": "Simons Foundation, AI 시대 수학자 지원에 1,500만 달러 투입",
+      "dek": "재단은 Anthropic·OpenAI와 함께 AI 활용 수학 연구를 위한 자금과 자원을 제공하고 공모를 포함한 프로그램을 운영한다고 밝혔다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Simons Foundation, Anthropic, OpenAI는 수학 분야 사업을 위해 총 1,500만 달러의 자금과 자원을 약속했다.",
+        "재단은 AI 활용 연구 결과를 검토하고 도구를 익히며 공동 기준을 논의할 워크숍과 프로그램을 지원한다고 밝혔다.",
+        "파트너들은 계획을 발표했지만 지원 일정과 공모를 통해 선정될 사업은 아직 공개되지 않았다."
+      ],
+      "body": [
+        {
+          "text": "Simons Foundation은 Anthropic 및 OpenAI와 새 사업을 발표했고 세 기관은 합산 1,500만 달러의 자금과 자원을 제공하기로 했다. 재단은 공모를 포함해 지원금을 관리하고 배분한다고 밝혔다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "발표된 지원은 수학자들이 AI 활용 결과를 평가하고 도구를 익히며 AI 사용 기준을 논의하도록 워크숍과 사업을 지원하는 데 쓰일 예정이다. OpenAI는 이 사업에 500만 달러를 기여한다고 별도로 밝혔다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "재단은 수학 연구에서 AI가 빠르게 확산하는 데 대응하는 프로그램이라고 설명했다. Hacker News 토론에서는 보조금 배분과 연구자에게 필요한 지원 형태를 두고 의견이 나왔다.",
+          "citations": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "선정 사업과 지원 일정, 각 파트너 자원의 세부 배분은 아직 공개되지 않았다. 이러한 내용은 재단 프로그램과 공모 절차를 통해 구체화될 예정이다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 약속은 수학 연구자들이 AI 활용 결과를 검토하고 분야 공통의 실무를 논의할 별도 지원 통로를 만든다. 실제 영향은 선정 사업과 공모 운영에 달려 있다.",
+      "editorNote": "파트너가 발표한 지원 약속을 전하고 지원금 배분과 프로그램 성과는 미확정으로 남겼다.",
+      "cluster": [
+        {
+          "url": "https://news.ycombinator.com/item?id=50104654",
+          "source": "Hacker News",
+          "title": "Simons Foundation launches $15M effort to help mathematicians navigate AI era"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
+          "source": "Simons Foundation",
+          "title": "Simons Foundation Launches $15M Effort To Help Mathematicians Navigate AI Era",
+          "publishedAt": "2026-10-15"
+        },
+        {
+          "id": 2,
+          "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+          "source": "OpenAI",
+          "title": "Sharing AI progress in mathematics",
+          "publishedAt": "2026-10-15"
+        },
+        {
+          "id": 3,
+          "url": "https://news.ycombinator.com/item?id=50104654",
+          "source": "Hacker News discussion",
+          "title": "Simons Foundation launches $15M effort to help mathematicians navigate AI era",
+          "publishedAt": "2026-10-15"
+        }
+      ],
+      "tags": [
+        "AI research",
+        "mathematics",
+        "funding"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "postgres-19-delay-ai-assisted-review-ko",
+      "headline": "AI 보강 코드 검토 뒤 PostgreSQL 19 출시 연기",
+      "dek": "베타 검토에서 8~10개 기능이 되돌려진 뒤 PostgreSQL의 차기 주요 버전은 11월 19일 전후 출시될 예정이다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "PostgreSQL 19는 기존에 예상했던 9월 말~10월 초보다 늦은 11월 19일 전후 출시될 전망이다.",
+        "The Register와 원기여자 Peter Eisentraut는 AI 보강 검토가 많은 결함 목록을 드러냈다고 전했으며, 일부 기능에는 더 근본적인 구조적 문제도 있었다.",
+        "보도는 일정과 기능 범위 변경을 설명하지만 AI 검토만이 지연의 원인이라고 입증하지는 않는다."
+      ],
+      "body": [
+        {
+          "text": "PostgreSQL Global Development Group이 PostgreSQL 19 출시를 연기했으며, The Register는 일반 공개가 11월 19일 전후로 예상된다고 보도했다. 개발자들은 주요 기능 8~10개를 제거했으며 PostgreSQL 20으로 미룰 예정이다.",
+          "citations": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "주요 기여자인 Peter Eisentraut는 일부 기능에 구조적 결함이 있었고, AI 보강 코드 검토가 베타 후반에 다수의 작은 예외 상황 관련 결함을 찾아냈다고 설명했다. 그는 추가 수정 작업을 기존 일정 안에 마치기 어려웠다고 밝혔다.",
+          "citations": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "Eisentraut는 고위 개발자들이 보안 수정에 집중하느라 검토와 테스트가 줄어든 시기도 원인으로 들었다. 영향을 받은 코드는 현재의 LLM 보강 검토가 널리 쓰이기 전에 작성됐으며, 그는 “바이브 코딩”이 문제의 원인이라는 설명을 부인했다.",
+          "citations": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "보도는 하나의 원인보다 기능 복잡성, 보안 작업, 늦은 결함 발견, 검토 역량 향상이 함께 작용한 것으로 설명한다. 수정된 출시 일정과 최종 기능 구성은 개발 진척에 따라 달라질 수 있다. The Register 보도에 대한 Hacker News 토론에서는 AI 검토가 품질을 높이는 동시에 유지보수 업무를 늘릴 수 있는지를 두고 논의가 이어졌다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "이번 사례는 검토 강화가 결함을 더 일찍 찾는 동시에 수정할 작업량을 늘려 출시를 늦출 수 있다는 소프트웨어 개발의 상충 관계를 보여준다. 프로젝트 설명은 여러 원인을 제시하며 AI 검토만을 단일 원인으로 지목하지 않는다.",
+      "editorNote": "프로젝트 기여자의 설명과 The Register 보도를 구분하고 일정·기능 수치는 출처에 귀속했다.",
+      "cluster": [
+        {
+          "url": "https://peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves",
+          "source": "Peter Eisentraut",
+          "title": "The reverts will continue until morale improves"
+        },
+        {
+          "url": "https://news.ycombinator.com/item?id=50119991",
+          "source": "Hacker News",
+          "title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+          "source": "The Register",
+          "title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+          "publishedAt": "2026-10-16"
+        },
+        {
+          "id": 2,
+          "url": "https://news.ycombinator.com/item?id=50119991",
+          "source": "Hacker News discussion",
+          "title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+          "publishedAt": "2026-10-16"
+        },
+        {
+          "id": 3,
+          "url": "https://peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves",
+          "source": "Peter Eisentraut",
+          "title": "The reverts will continue until morale improves",
+          "publishedAt": "2026-10-09"
+        }
+      ],
+      "tags": [
+        "PostgreSQL",
+        "AI code review",
+        "open source"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "claude-code-team-rethinks-code-review-ko",
+      "headline": "Claude Code 팀의 코드 리뷰 방식",
+      "dek": "Anthropic은 코드 변경량이 늘면서 일상적인 검토를 자동화하고 고위험 판단과 책임은 사람에게 남기는 과정을 설명했다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Anthropic은 Claude Code 저장소의 병합 요청이 6월부터 9월까지 두 배 넘게 늘었고, 이후 되돌린 변경의 비율은 40% 넘게 줄었다고 밝혔다.",
+        "회사는 AI 코드 검토, 자동 점검, 위험도에 따른 사람의 승인, 기능 플래그와 신속한 롤백을 결합한 절차를 설명했다.",
+        "수치와 결과는 회사가 보고한 내부 자료이며 어떤 변경이 결과를 만들었는지 통제 비교로 입증하지는 않는다."
+      ],
+      "body": [
+        {
+          "text": "Anthropic 엔지니어들은 AI가 작성한 코드가 늘면서 Claude Code 팀의 검토 방식이 어떻게 바뀌었는지 공개했다. 회사는 Claude Code 저장소의 병합 요청이 6월부터 9월까지 두 배 넘게 늘었고 이후 되돌린 변경 비율은 40% 넘게 낮아졌다고 밝혔다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "절차는 일상적인 검토의 상당 부분을 자동화한다. Claude가 사람이 보기 전에 병합 요청을 검토하고 별도의 보안 점검이 병합을 막을 수 있으며 테스트·린트·빌드 결과도 요구한다. 사람의 승인은 변경 위험도에 맞추고 기능 플래그와 단계적 배포로 영향을 제한한다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "작성자들은 자사 모노레포의 일일 변경량도 5월 약 2,500건에서 9월 30,000건 이상으로 늘었다고 보고했다. 과거 사고와 되돌림을 바탕으로 자동 검토기를 계속 평가한다고 설명했으며 Hacker News 독자들은 다른 팀의 검토 방식도 논의했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "수치와 성과는 Anthropic 내부에서 측정한 결과이며 AI 검토와 다른 절차 변경의 효과를 분리하지 않는다. 코드베이스와 위험 수준, 인력이 다른 팀에서도 같은 결과가 나올지는 확인되지 않았다.",
+          "citations": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "이 사례는 코드 변경량이 커질 때 사람의 검토를 위험도 판단·설계·책임에 집중하는 방식을 보여준다. 보고된 개선은 독립 평가가 아니라 회사 내부 수치다.",
+      "editorNote": "절차와 성과 수치를 Anthropic에 귀속하고 인과성·일반화 가능성이 입증되지 않았음을 밝혔다.",
+      "cluster": [
+        {
+          "url": "https://news.ycombinator.com/item?id=50122951",
+          "source": "Hacker News",
+          "title": "How the Claude Code team does code review"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+          "source": "Anthropic engineering blog",
+          "title": "How the Claude Code team does code review",
+          "publishedAt": "2026-10-15"
+        },
+        {
+          "id": 2,
+          "url": "https://news.ycombinator.com/item?id=50122951",
+          "source": "Hacker News discussion",
+          "title": "How the Claude Code team does code review",
+          "publishedAt": "2026-10-15"
+        }
+      ],
+      "tags": [
+        "Anthropic",
+        "software engineering",
+        "code review"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "claude-designs-more-efficient-quantum-circuits-ko",
+      "headline": "Claude를 활용한 효율적인 양자 회로 설계",
+      "dek": "Anthropic은 Claude가 8개 계산 과제에서 큐비트와 게이트 수를 줄이는 회로를 설계했다고 밝혔으며, 결과를 담은 프리프린트를 공개했다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Anthropic은 Claude가 8개 양자 회로 과제에서 더 적은 자원이 필요한 설계를 제안했으며, 동반 프리프린트는 8개 중 7개에서 개선을 보고했다.",
+        "연구진은 설계의 정확성을 확인하고 비용을 점수화하는 평가기를 사용했으며 새로운 가역 모듈러 역원 설계를 제시했다.",
+        "이 연구는 프리프린트이자 기업 주도 연구이며, 실제 내결함 양자컴퓨터의 등장 시기를 입증하지 않는다."
+      ],
+      "body": [
+        {
+          "text": "Anthropic 연구진은 Claude를 이용해 화학·최적화·시뮬레이션·정수론 분야 과제를 위한 양자 회로를 설계했다고 발표했다. 회사는 자동 평가기가 회로의 정확성을 검사하고 큐비트와 게이트 요구량에 따라 점수를 매겼다고 설명했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "함께 공개된 프리프린트는 8개 과제 중 7개에서 기존 설계보다 Toffoli 게이트와 큐비트 수를 모두 줄였다고 보고한다. 나머지 과제에서는 타원곡선 계산에 쓰이는 연산인 모듈러 역원을 위한 새로운 가역 구조를 제시했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Anthropic은 Claude가 평가기와 피드백을 주고받으며 작업했고, 한 점 덧셈 회로 설계에는 사람의 개입을 최소화한 53시간 실행이 들었다고 밝혔다. 연구진은 양자 최적화 알고리즘에서 가장 비용이 큰 단계도 새로 설계해 비용을 12분의 1로 줄였다고 보고했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "결과는 프리프린트와 회사 연구 설명에 제시됐으며 동료 심사나 독립 재현으로 확립되지는 않았다. 이 연구는 회로 자원 추정치를 다루며 실용적인 양자컴퓨터의 완성이나 등장 일정을 보여주지는 않는다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "이 연구는 모델을 활용한 탐색이 양자 알고리즘의 회로 자원 요구량을 줄일 수 있는지 시험한다. 의미는 독립 검토와 실제 하드웨어에서의 적용 가능성에 달려 있다.",
+      "editorNote": "성능 주장을 프리프린트 및 회사가 보고한 결과로 표현하고 실용 양자컴퓨팅의 일정을 추정하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://arxiv.org/abs/2610.22367",
+          "source": "arXiv",
+          "title": "Discovering state-of-the-art quantum circuits with large language models"
+        },
+        {
+          "url": "https://news.ycombinator.com/item?id=50121939",
+          "source": "Hacker News",
+          "title": "Designing more efficient quantum circuits with Claude"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+          "source": "Anthropic",
+          "title": "Designing more efficient quantum circuits with Claude",
+          "publishedAt": "2026-10-16"
+        },
+        {
+          "id": 2,
+          "url": "https://arxiv.org/abs/2610.22367",
+          "source": "arXiv",
+          "title": "Discovering state-of-the-art quantum circuits with large language models",
+          "publishedAt": "2026-10-15"
+        },
+        {
+          "id": 3,
+          "url": "https://news.ycombinator.com/item?id=50121939",
+          "source": "Hacker News discussion",
+          "title": "Designing more efficient quantum circuits with Claude",
+          "publishedAt": "2026-10-16"
+        }
+      ],
+      "tags": [
+        "Anthropic",
+        "quantum computing",
+        "AI research"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ai-assisted-hardware-reverse-engineering-linux-drivers-ko",
+      "headline": "AI를 활용한 하드웨어 역설계",
+      "dek": "GNOME 커뮤니티 기여자는 Claude와 장치 통신 기록을 이용해 필름 스캐너용 Linux 지원을 만들고 노트북 카메라 드라이버를 개선한 과정을 설명했다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "GNOME 커뮤니티 기여자 Christian F.K. Schaller는 Claude의 도움을 받아 기존 드라이버가 지원하지 않던 필름 스캐너 칩셋의 Linux 지원을 개발하고 노트북 카메라 드라이버를 개선했다고 밝혔다.",
+        "그는 Windows 드라이버의 USB 통신 기록과 Linux 동작을 비교하고 실제 장치에서 변경 사항을 확인했다고 설명했다.",
+        "특정 하드웨어에 대한 개인 사례이며 독립적으로 시험된 일반 방법이나 폭넓은 벤치마크는 아니다."
+      ],
+      "body": [
+        {
+          "text": "GNOME 커뮤니티 기여자 Christian F.K. Schaller는 새 칩셋이 기존 드라이버에서 지원되지 않던 Plustek 필름 스캐너의 Linux 지원에 Claude를 활용한 과정을 설명했다. 그는 인식 가능한 스캔을 얻었고 이후 적외선 스캔도 지원하게 됐다고 밝혔다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "스캐너 작업에서는 Windows 가상머신에서 제조사 드라이버를 실행하는 동안 USB 통신을 기록한 뒤 Linux 드라이버의 기록과 비교했다. Schaller는 비슷한 접근으로 ThinkPad 카메라를 위한 커널 및 libcamera 패치도 준비했다고 전했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "그는 실제 스캐너와 노트북에서 변경 사항을 시험하고 캡처·비교 절차를 일반화한 도구를 공개했다. 카메라 패치는 검토 중이었으며 SANE 프로젝트도 9월에 해당 스캐너 지원을 별도로 추가했다고 설명했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "이 글은 특정 장치에 관한 한 기여자의 설명이며 작성자는 일부 결과가 아직 완벽하지 않다고 밝혔다. 문서화되지 않은 하드웨어를 다루는 가능한 작업 흐름의 사례이지, 일반적인 신뢰성에 대한 독립 평가나 사람의 검증이 불필요하다는 주장은 아니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이 사례는 코딩 모델이 하드웨어 통신 기록과 드라이버 동작을 비교하는 반복적인 작업을 보조할 수 있음을 보여준다. 근거는 소수 장치에 대한 기여자의 설명에 한정된다.",
+      "editorNote": "기술 결과를 작성자 설명으로 귀속하고 검증된 일반 방법이 아닌 장치별 개념 증명으로 표시했다.",
+      "cluster": [
+        {
+          "url": "https://news.ycombinator.com/item?id=50104299",
+          "source": "Hacker News",
+          "title": "Using AI to reverse engineer hardware"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
+          "source": "Christian F.K. Schaller",
+          "title": "Using Artificial Intelligence to reverse engineer hardware",
+          "publishedAt": "2026-10-15"
+        },
+        {
+          "id": 2,
+          "url": "https://news.ycombinator.com/item?id=50104299",
+          "source": "Hacker News discussion",
+          "title": "Using AI to reverse engineer hardware",
+          "publishedAt": "2026-10-15"
+        }
+      ],
+      "tags": [
+        "open source",
+        "Linux",
+        "hardware",
+        "AI coding"
+      ],
+      "confidence": "medium"
     }
   ]
 }

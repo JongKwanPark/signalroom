@@ -1,10 +1,10 @@
 {
   "date": "2026-10-17",
-  "generatedAt": "2026-10-16T22:06:04.054Z",
+  "generatedAt": "2026-10-17T10:06:36.531Z",
   "vertical": "geo",
   "lang": "ko",
   "title": "시그널 데일리 GEO — 2026년 10월 17일",
-  "summary": "4건. Starlink 제한, 서안지구 수확철 공격, EU 정상회의, 호르무즈 해운 사건 가운데 독립 보도가 확인된 사안을 담았다. 나머지 단일 매체 분쟁·정치 기사는 독립 출처나 교차 보도가 부족해 제외했다.",
+  "summary": "6건. 브라질 아마존 산림 훼손 수치와 미국의 신규 대러 제재 보류를 별도 매체 보도와 함께 추가했다. 프랑스 전국 시위와 아덴 후티 공격은 수집된 보도만으로 네 단락의 사실 관계를 충분히 확인하기 어려워 싣지 않았으며 단일 출처 항목도 제외했다.",
   "stories": [
     {
       "slug": "ukraine-starlink-restrictions-disrupt-frontline-communications-ko",
@@ -301,6 +301,153 @@
       "type": "DEEP",
       "publication": "scheduled",
       "readMinutes": 4
+    },
+    {
+      "slug": "brazil-amazon-deforestation-falls-to-record-low-ko",
+      "headline": "브라질 “아마존 산림 훼손, 1988년 기록 시작 이후 최저”",
+      "dek": "브라질 위성 자료는 2025년 8월부터 2026년 7월까지 아마존 산림 훼손 면적을 3,335제곱킬로미터로 집계했다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "브라질은 2025년 8월부터 2026년 7월까지 아마존 산림 3,335제곱킬로미터가 훼손돼 1988년 이후 최저였다고 밝혔다.",
+        "AP와 The Guardian은 대선 결선 투표를 앞두고 위성 자료에서 감소가 확인됐다고 보도했다.",
+        "연간 집계만으로 추세가 다음 정부에서도 이어질지, 다른 형태의 산림 훼손까지 줄었는지는 알 수 없다."
+      ],
+      "body": [
+        {
+          "text": "브라질 정부는 아마존의 연간 산림 훼손이 1988년 기록 시작 이후 가장 낮은 수준으로 떨어졌다고 밝혔다. AP는 2025년 8월부터 2026년 7월까지 위성 자료상 훼손 면적이 3,335제곱킬로미터였다고 보도했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The Guardian도 기록상 최저치를 보도하며 10월 25일 대선 결선 투표가 다가오는 시점이라는 점을 전했다. 두 매체는 Jair Bolsonaro의 2019~2022년 재임 기간 더 높은 훼손 수준과 대비했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "보도에 인용된 환경단체 관계자들은 단속과 산림 보호 정책을 감소 원인으로 들면서 정치적 방향이 바뀌면 성과가 되돌려질 수 있다고 경고했다. 연간 위성 집계만으로 어떤 정책이 변화에 기여했는지 확정할 수는 없다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이 수치는 정해진 관측 기간의 산림 훼손 지표이며 산림 황폐화나 모든 토지 이용 변화를 빠짐없이 나타내지 않는다. 선거 이후에도 낮은 수준이 이어질지는 아직 확인되지 않았다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "산림 훼손 감소는 주요 환경 신호지만 다가오는 선거는 현재 정책의 지속 가능성을 쟁점으로 만든다. 한 해의 관측치만으로 추세가 이어질지 단정할 수는 없다.",
+      "editorNote": "관측 기간과 보도된 수치를 명시하고 관측된 감소와 원인·향후 지속성 주장을 구분했다.",
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/environment/2026/oct/16/brazil-amazon-deforestation-lowest-on-record-election",
+          "source": "The Guardian",
+          "title": "Brazilian Amazon deforestation falls to lowest on record as pivotal vote looms"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/c00358ad3db9d53fcdf3a1e65da5d8ec",
+          "source": "Associated Press",
+          "title": "Brazil says Amazon deforestation fell to the lowest level since 1988",
+          "publishedAt": "2026-10-16"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theguardian.com/environment/2026/oct/16/brazil-amazon-deforestation-lowest-on-record-election",
+          "source": "The Guardian",
+          "title": "Brazilian Amazon deforestation falls to lowest on record as pivotal vote looms",
+          "publishedAt": "2026-10-16"
+        }
+      ],
+      "tags": [
+        "Brazil",
+        "Amazon",
+        "environment"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "trump-holds-new-russia-sanctions-citing-national-interest-ko",
+      "headline": "트럼프, 국가 이익 이유로 새 대러 제재 보류",
+      "dek": "대통령은 최근 서명한 법률에 따른 신규 제재를 미뤘으며 보도는 별도의 러시아산 경유 합의 논란과 함께 이 결정을 다뤘다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Donald Trump 대통령은 국가 이익을 이유로 최근 서명한 법률에 따른 신규 대러 제재를 보류했다.",
+        "AP와 BBC는 러시아산 경유 합의 논란 속에 이 결정이 나왔다고 보도했다.",
+        "보류가 얼마나 지속될지, 법률의 면제 조항이 실제로 어떻게 적용될지는 아직 분명하지 않다."
+      ],
+      "body": [
+        {
+          "text": "Associated Press는 Donald Trump 대통령이 국가 이익을 이유로 최근 서명한 법률에 포함된 신규 대러 제재를 보류했다고 보도했다. BBC도 Volodymyr Zelenskyy 우크라이나 대통령과의 갈등이 커지는 가운데 일부 제재 면제를 보도했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP는 해당 결정을 국제 에너지 가격을 낮추기 위해 미국이 러시아산 경유를 구매하겠다는 이전 발표와 연결해 설명했다. 러시아가 우크라이나 전쟁을 계속하는 상황에서 제재를 완화하면 모스크바에 이익이 될 수 있다는 의원들의 비판도 이어졌다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이번 결정은 신규 제재의 이행에 관한 것이며 기존 제재 전반을 해제했다는 보도는 아니다. 보도는 면제 사유를 다루지만 대상 조치 전체와 보류 기간을 확정하지는 않는다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "법률상 면제 권한의 범위와 보고 의무, 향후 적용은 계속 확인할 사안이다. 행정부가 내세운 에너지 목적과 우크라이나에 미칠 잠재적 영향에 논쟁이 이어지고 있으며 실제 결과는 후속 조치에 달려 있다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "제재 보류는 미국의 에너지 정책과 러시아 제재 및 우크라이나 지원 사이의 긴장을 드러낸다. 면제의 기간과 실제 범위는 추가 설명이 필요하다.",
+      "editorNote": "보도된 보류를 제재 전반의 해제와 구분하고 경유 합의는 별도의 정책 맥락으로 다뤘다.",
+      "cluster": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o",
+          "source": "BBC News",
+          "title": "Trump waives several Russia sanctions as row with Zelensky intensifies"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/e50c561ab805883bb4e484c092d8fadd",
+          "source": "Associated Press",
+          "title": "Trump puts new Russia sanctions that he recently signed into law on hold, citing national interest",
+          "publishedAt": "2026-10-17"
+        },
+        {
+          "id": 2,
+          "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o",
+          "source": "BBC News",
+          "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+          "publishedAt": "2026-10-17"
+        }
+      ],
+      "tags": [
+        "Russia",
+        "sanctions",
+        "Ukraine"
+      ],
+      "confidence": "medium"
     }
   ]
 }

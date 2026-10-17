@@ -1,10 +1,10 @@
 {
   "date": "2026-10-17",
-  "generatedAt": "2026-10-16T22:06:04.054Z",
+  "generatedAt": "2026-10-17T10:06:36.531Z",
   "vertical": "markets",
   "lang": "ko",
   "title": "시그널 데일리 MARKETS — 2026년 10월 17일",
-  "summary": "2건. 기술주 매도세와 호르무즈 위험이 원유 시장에 미친 영향을 실었다. Mastercard·Citigroup의 중국 시장 접근 협상은 확인된 보도가 동일 CNBC 기사에 기반해 제외했다. 개별 시세 기사와 논평도 독립 보도가 확인되지 않았다.",
+  "summary": "3건. 재무부의 2026 회계연도 적자 발표를 추가했다. 기술주 매도와 호르무즈 관련 원유 위험은 기존 기사에 유지했다. Anthropic 정크 등급 기사는 10월 신규 사안이 아닌 6월 부여 등급을 다뤄 제외했고, 중국 시장 접근 보도는 CNBC 단독이었다. 그 밖의 기업 주가 항목도 독립된 교차 보도가 부족했다.",
   "stories": [
     {
       "slug": "tech-selloff-deepens-as-ai-financing-and-inflation-worries-converge-ko",
@@ -164,6 +164,80 @@
       "type": "DEEP",
       "publication": "scheduled",
       "readMinutes": 4
+    },
+    {
+      "slug": "us-budget-deficit-reaches-nearly-two-trillion-in-fy2026-ko",
+      "headline": "미국 2026 회계연도 재정적자, 12% 늘어 약 2조 달러",
+      "dek": "재무부 자료에 따르면 9월 30일 끝난 회계연도 적자는 1조 9,920억 달러로 2025 회계연도의 1조 7,750억 달러보다 늘었다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "미국의 2026 회계연도 재정적자는 1조 9,920억 달러로 2025년보다 2,170억 달러, 약 12% 증가했다.",
+        "CNBC와 Reuters는 재무부 자료를 인용해 5년 만에 가장 큰 적자라고 보도했다.",
+        "연간 수치에는 관세 환급과 부채 이자 비용 등이 영향을 줬지만 이 결과만으로 향후 적자 경로를 확정할 수는 없다."
+      ],
+      "body": [
+        {
+          "text": "9월 30일 끝난 2026 회계연도에 미국은 1조 9,920억 달러의 재정적자를 기록했다고 재무부 자료를 인용해 CNBC와 Reuters가 보도했다. 이는 2025 회계연도의 1조 7,750억 달러보다 2,170억 달러 늘어난 규모다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "두 매체는 증가율이 약 12%이며 5년 만에 가장 큰 적자라고 전했다. Reuters는 관세 환급과 기록적인 부채 이자 지출을 연간 변화의 요인으로 들었다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "재정적자는 한 회계연도 동안 연방정부의 지출과 수입 차이를 나타내며 연간 차입 필요성을 측정하는 지표다. 한 해 결과만으로 이후 회계연도의 재정수지가 어떻게 움직일지 알 수는 없다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "정책 변화와 이자 비용, 세입이 각각 미친 영향은 추가 분석이 필요한 부분이다. 재무부의 다음 월간 보고서가 2027 회계연도의 첫 자료를 제공하겠지만 이번 발표만으로 전망이 정해진 것은 아니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "적자 확대는 연방정부의 차입과 부채 이자 비용에 대한 관심을 높인다. 장기적인 영향은 이번 연간 합계만이 아니라 향후 세입·지출과 이자 비용에 달려 있다.",
+      "editorNote": "CNBC와 Reuters가 전한 재무부 수치를 사용했고 연간 결과에서 향후 적자 경로를 추정하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.marketscreener.com/news/us-fiscal-2026-budget-deficit-rises-to-1-99-trillion-largest-in-5-years-ce785cdadc80f623",
+          "source": "Reuters via MarketScreener",
+          "title": "US annual budget gap hits nearly $2 trillion, largest in 5 years"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/16/us-budget-deficit-2026.html",
+          "source": "CNBC",
+          "title": "U.S. budget deficit swells to almost $2 trillion for fiscal 2026, up 12% in a single year",
+          "publishedAt": "2026-10-16"
+        },
+        {
+          "id": 2,
+          "url": "https://www.marketscreener.com/news/us-fiscal-2026-budget-deficit-rises-to-1-99-trillion-largest-in-5-years-ce785cdadc80f623",
+          "source": "Reuters via MarketScreener",
+          "title": "US annual budget gap hits nearly $2 trillion, largest in 5 years",
+          "publishedAt": "2026-10-16"
+        }
+      ],
+      "tags": [
+        "fiscal policy",
+        "U.S. Treasury",
+        "budget deficit"
+      ],
+      "confidence": "medium"
     }
   ]
 }

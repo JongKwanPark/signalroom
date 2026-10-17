@@ -1,10 +1,10 @@
 {
   "date": "2026-10-17",
-  "generatedAt": "2026-10-16T22:06:04.054Z",
+  "generatedAt": "2026-10-17T10:06:36.530Z",
   "vertical": "bio",
   "lang": "en",
   "title": "Signal Daily BIO — October 17, 2026",
-  "summary": "2 stories. Included a reported first-in-human CAR-T trial and a peptide compounding policy filing with separate coverage. NAC and NAD+ precursor papers, animal studies and trial-registry updates were excluded because no second independent outlet reported a qualifying clinical or regulatory development.",
+  "summary": "3 stories. RASONQUE’s positive EMA committee opinion adds a regulatory development alongside the CAR-T study and peptide-policy review. Other CAR-T and NAC/NAD+ records were single papers, trial-registry entries or lacked a second independent outlet.",
   "stories": [
     {
       "slug": "first-in-human-trispecific-car-t-trial-reports-early-results",
@@ -14,42 +14,42 @@
       "publication": "scheduled",
       "readMinutes": 4,
       "tldr": [
-        "미국 연구진은 재발성 또는 치료 저항성 B세포 암 환자를 대상으로 CD19·CD20·CD22를 표적하는 삼중표적 CAR T 치료의 1상 결과를 보고했다.",
-        "연구 논문과 Ohio State 보도자료에 따르면 18명이 등록됐고 16명이 치료를 받았으며, 연구는 병원 현장에서 세포를 제조하는 방식을 평가했다.",
-        "초기 결과는 소규모 1상 자료이며 비교군이 없고 장기 효과와 안전성은 확정되지 않았다."
+        "Researchers reported phase 1 results from a first-in-human, locally manufactured CAR T-cell approach targeting CD19, CD20 and CD22 in B-cell cancers.",
+        "The paper and Ohio State’s coverage say 18 people enrolled and 16 received treatment.",
+        "The early study is small and uncontrolled; longer follow-up is needed to assess durability, safety and reproducibility."
       ],
       "body": [
         {
-          "text": "Ohio State 연구진이 재발하거나 기존 치료에 반응하지 않는 B세포 혈액암 환자에게 삼중표적 CAR T 세포를 투여한 첫 사람 대상 1상 연구를 보고했다. 논문은 CD19, CD20, CD22를 표적하고 병원 현장에서 제조한 세포 치료의 안전성과 임상 결과를 다룬다.",
+          "text": "Researchers at Ohio State reported a first-in-human phase 1 study of trispecific CAR T cells for people with relapsed or treatment-resistant B-cell cancers. The cells were designed to target CD19, CD20 and CD22 and were manufactured at the treatment center.",
           "citations": [
             1,
             2
           ]
         },
         {
-          "text": "연구 초록과 Ohio State 보도에 따르면 임상시험에는 18명이 등록됐고 16명이 실제 치료를 받았다. 연구팀은 세 표적을 함께 겨냥해 암세포가 하나의 표적을 잃는 경우 치료를 피할 수 있는 가능성을 낮추려는 설계를 평가했다.",
+          "text": "The paper and Ohio State’s institutional coverage report that 18 participants enrolled and 16 received treatment. The multi-target design was intended to address the possibility that cancer cells could evade a therapy directed at a single target.",
           "citations": [
             1,
             2
           ]
         },
         {
-          "text": "MedicalXpress의 보도는 결과를 초기 가능성으로 묘사하고, 연구진 역시 제한된 치료 선택지를 가진 환자군에서 추가 평가가 필요하다고 설명했다. 현재 자료는 소규모 1상 연구이며, 치료 효과를 표준 치료와 직접 비교한 결과는 아니다.",
+          "text": "MedicalXpress summarized the work as an early clinical result. The study was small and did not compare the approach directly with standard treatment, so it cannot establish comparative benefit.",
           "citations": [
             1,
             2
           ]
         },
         {
-          "text": "더 큰 환자군과 장기 추적 자료가 있어야 반응의 지속성, 부작용, 제조 방식의 재현성을 판단할 수 있다. 따라서 이번 결과는 임상 개발의 초기 신호이지 치료 권고나 허가된 치료의 근거가 아니다.",
+          "text": "A larger cohort and longer follow-up are needed to assess how durable responses are, what adverse events occur and whether the local manufacturing process can be reproduced. These phase 1 findings are an early development signal, not evidence of an approved treatment or a recommendation for patients.",
           "citations": [
             1,
             2
           ]
         }
       ],
-      "whyItMatters": "병원 현장 제조와 여러 표적을 결합한 CAR T 설계가 임상 개발에서 어떤 역할을 할지 보여주는 초기 사례다. 더 큰 연구에서 결과가 재현되는지가 남은 쟁점이다.",
-      "editorNote": "초기 1상 결과로 한정했으며 임상 권고나 효능 확정 표현을 피했다.",
+      "whyItMatters": "The study tests whether a multi-target design and local manufacturing can be advanced into clinical development. Its small, early-phase dataset leaves efficacy, long-term safety and reproducibility open.",
+      "editorNote": "Labels the findings as early phase 1 evidence and avoids implying comparative benefit or treatment advice.",
       "cluster": [
         {
           "url": "https://medicalxpress.com/news/2026-10-car-cell-therapy-early-cancers.html",
@@ -88,42 +88,42 @@
       "publication": "scheduled",
       "readMinutes": 4,
       "tldr": [
-        "미 보건복지부는 일부 펩타이드의 약국 조제에 관한 임시 접근 정책을 백악관 검토 절차에 제출했다.",
-        "AP와 The Epoch Times는 정부 규제 추적 사이트에 제출 사실이 게시됐다고 보도했으며, AP는 일부 제품에 대한 임시 집행 재량 방안을 취재원 설명으로 전했다.",
-        "정책 문안은 공개되지 않았고 최종 결정도 나지 않아 현재 조제 가능 여부나 안전성·유효성에 변화가 생겼다고 볼 수 없다."
+        "HHS submitted an interim policy concerning pharmacy compounding of certain peptides for White House review.",
+        "The Associated Press and The Epoch Times reported that the submission appeared in the federal review tracker; AP cited people familiar with a possible temporary enforcement-discretion approach.",
+        "The policy text has not been published and no final decision has been made, so current authorization or evidence of safety and efficacy has not changed."
       ],
       "body": [
         {
-          "text": "미 보건복지부(HHS)가 특정 펩타이드의 약국 조제에 관한 “Interim Access Policy”를 백악관 예산관리국(OMB)에 제출했다. AP와 The Epoch Times는 10월 14일 제출 사실이 정부 규제 검토 사이트에 게시됐다고 각각 보도했다.",
+          "text": "The U.S. Department of Health and Human Services submitted an “Interim Access Policy” concerning compounding of certain peptides to the White House Office of Management and Budget. The Associated Press and The Epoch Times reported that the submission appeared in the federal regulatory review tracker on October 14.",
           "citations": [
             1,
             2
           ]
         },
         {
-          "text": "AP는 계획에 정통한 두 사람을 인용해 일부 인기 펩타이드의 조제를 일정 기간 허용하는 집행 재량 방안이 포함될 수 있다고 전했다. The Epoch Times는 공식 추적 항목의 제목이 “Interim Access Policy for Compounding Using Certain Peptides”라고 보도했지만 세부 정책 내용은 게시되지 않았다고 설명했다.",
+          "text": "AP cited two people familiar with the plan who said it may include temporary enforcement discretion for compounding some peptides. The Epoch Times reported the title of the tracker entry but said the detailed policy text was not public.",
           "citations": [
             1,
             2
           ]
         },
         {
-          "text": "제출은 규제 검토의 시작 단계이며 FDA 승인이나 최종 규칙이 아니다. AP는 HHS가 취재 요청에 즉시 답하지 않았다고 전했고, 현재 공개된 문안만으로 포함되는 물질이나 적용 조건을 확정할 수 없다.",
+          "text": "Submission for review is an early administrative step, not FDA approval or a final rule. The available public record does not establish which substances would be covered or what conditions would apply.",
           "citations": [
             1,
             2
           ]
         },
         {
-          "text": "이 사안은 임상 개발이나 효능 자료의 발표가 아니라 조제 규정과 집행 정책의 검토다. 정책이 확정될지, 어떤 성분과 조건을 다룰지, 안전성 우려를 어떻게 반영할지는 열린 질문으로 남아 있다.",
+          "text": "This is a policy review concerning compounding and enforcement, rather than new clinical evidence about peptide therapies. Whether the proposal advances, which products it may cover and how safety concerns are addressed remain unresolved.",
           "citations": [
             1,
             2
           ]
         }
       ],
-      "whyItMatters": "정책 검토는 특정 펩타이드의 규제 경로에 영향을 줄 수 있지만, 제출 사실을 승인이나 안전성·유효성 판단으로 해석해서는 안 된다.",
-      "editorNote": "규제 검토 단계와 승인 상태를 명확히 구분했다. 소비자 사용이나 복용 조언은 포함하지 않았다.",
+      "whyItMatters": "The development concerns a possible change in compounding policy, not a clinical finding. The proposal’s scope and final status are unknown, and no new evidence of safety or efficacy is reported.",
+      "editorNote": "Distinguishes the policy submission from FDA approval and from clinical evidence; detailed text remains unpublished.",
       "cluster": [
         {
           "url": "https://www.hklaw.com/en/insights/publications/2026/10/peptides-at-a-crossroads-what-wellness-providers-need-to-know",
@@ -151,6 +151,93 @@
         "peptide therapeutics",
         "FDA",
         "regulation"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ema-recommends-revolution-medicines-pancreatic-cancer-drug",
+      "headline": "EMA recommends approval of Revolution's pancreatic cancer drug",
+      "dek": "The EMA medicines committee recommended marketing authorization for RASONQUE (daraxonrasib); the European Commission still must decide.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "The EMA committee recommended EU marketing authorization for Revolution Medicines’ RASONQUE (daraxonrasib).",
+        "The recommendation covers adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy.",
+        "A committee opinion is not final European Commission authorization, and the reports do not replace review of the full clinical evidence."
+      ],
+      "body": [
+        {
+          "text": "The European Medicines Agency’s medicines committee recommended marketing authorization for Revolution Medicines’ RASONQUE, also known as daraxonrasib. Reuters and Pharmaphorum reported the committee’s positive opinion on October 15.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The company says the proposed indication is for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy. It said the recommendation followed review of the phase 3 RASolute 302 trial.",
+          "citations": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "The milestone is a committee recommendation, not a final authorization. A European Commission decision is still required, and accessible news coverage does not provide a full independent appraisal of trial data.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "The regulatory path and any eventual product information remain to be confirmed. The recommendation does not establish availability, reimbursement or outcomes outside the studied population.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The committee opinion is a step toward potential EU authorization for a late-stage pancreatic cancer therapy. The final regulatory decision and authorized indication remain pending.",
+      "editorNote": "Keeps the CHMP recommendation distinct from final European Commission authorization; no treatment advice.",
+      "cluster": [
+        {
+          "url": "https://pharmaphorum.com/news/revmed-nears-eu-okay-pancreatic-cancer-drug-rasonque",
+          "source": "pharmaphorum",
+          "title": "RevMed nears EU okay for pancreatic cancer drug Rasonque"
+        },
+        {
+          "url": "https://rss.globenewswire.com/news-release/2026/10/15/3381786/0/en/revolution-medicines-rasonque-daraxonrasib-receives-positive-chmp-opinion-recommending-marketing-authorization-in-european-union-for-metastatic-pancreatic-cancer.html",
+          "source": "Revolution Medicines",
+          "title": "RASONQUE receives positive CHMP opinion recommending EU marketing authorization"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.boursorama.com/bourse/actualites-amp/l-ema-recommande-l-autorisation-du-medicament-de-revolution-contre-le-cancer-du-pancreas-22ba528f9956fab53ba2ba271156a5ed",
+          "source": "Reuters via Boursorama",
+          "title": "EMA recommends approval of Revolution's pancreatic cancer drug",
+          "publishedAt": "2026-10-15"
+        },
+        {
+          "id": 2,
+          "url": "https://pharmaphorum.com/news/revmed-nears-eu-okay-pancreatic-cancer-drug-rasonque",
+          "source": "pharmaphorum",
+          "title": "RevMed nears EU okay for pancreatic cancer drug Rasonque",
+          "publishedAt": "2026-10-16"
+        },
+        {
+          "id": 3,
+          "url": "https://rss.globenewswire.com/news-release/2026/10/15/3381786/0/en/revolution-medicines-rasonque-daraxonrasib-receives-positive-chmp-opinion-recommending-marketing-authorization-in-european-union-for-metastatic-pancreatic-cancer.html",
+          "source": "Revolution Medicines",
+          "title": "RASONQUE receives positive CHMP opinion recommending EU marketing authorization",
+          "publishedAt": "2026-10-15"
+        }
+      ],
+      "tags": [
+        "oncology",
+        "pancreatic cancer",
+        "regulatory"
       ],
       "confidence": "medium"
     }
