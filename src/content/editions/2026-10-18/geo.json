@@ -1,10 +1,10 @@
 {
   "date": "2026-10-18",
-  "generatedAt": "2026-10-17T22:04:48.035Z",
+  "generatedAt": "2026-10-18T10:04:47.527Z",
   "vertical": "geo",
   "lang": "en",
   "title": "GEO — October 18, 2026",
-  "summary": "Five multi-outlet developments are covered: the Russia sanctions waiver, protests in France and Albania, the India crowd crush, and Amazon deforestation in Brazil. Pope Leo’s hospital discharge was excluded as health news outside this vertical; the Guinea-Bissau vaccine-trial reports came from the same Guardian hostname and conflicted; other items lacked a second independent outlet.",
+  "summary": "Eight stories are included. Three multi-outlet developments were added in the 19:00 KST same-date merge: the West Bank attack on European diplomats, the CFB Wainwright fire, and No Kings rallies ahead of the US midterms. The India crowd-crush story was already covered; new single-outlet items were excluded.",
   "stories": [
     {
       "slug": "trump-waives-russia-sanctions",
@@ -440,6 +440,238 @@
         "deforestation"
       ],
       "confidence": "high"
+    },
+    {
+      "slug": "west-bank-settlers-attack-european-diplomats",
+      "headline": "Israeli settlers attack European diplomats in West Bank",
+      "dek": "Masked settlers assaulted diplomats visiting Palestinian olive harvesters in Taybeh, according to officials and multiple reports.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "Masked settlers attacked European diplomats during a visit to Palestinian olive harvesters in Taybeh in the occupied West Bank.",
+        "Belgium said its consul general and French and Polish diplomats were among those targeted, while Israeli authorities said they were investigating.",
+        "The incident followed a separate attack that seriously injured a Washington Post photographer, and the circumstances and accountability remain under investigation."
+      ],
+      "body": [
+        {
+          "text": "AP and The Guardian reported that European diplomats visiting Palestinian olive harvesters in Taybeh were attacked on October 17. The visit took place during the olive harvest, when violence against Palestinians and visitors has also been reported.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Belgian Foreign Minister Maxime Prévot said Belgium’s consul general, French and Polish diplomats, and Catholic representatives were targeted. AP reported an assault with metal bars; The Guardian reported three injuries and damage to a vehicle.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Israeli police said they were investigating, and the military said the visit had not been coordinated with it and no soldiers were at the scene, AP reported. Those statements do not establish who carried out the assault.",
+          "citations": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "The Guardian reported that settlers had seriously injured Washington Post photographer Heidi Levine near Abu Falah the previous day. Belgium’s foreign minister said he would press for further European Union sanctions; any resulting action remains open.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The attack puts European diplomatic access and the safety of Palestinians and international observers in the West Bank in focus. Any EU response would connect local settler violence to Israel’s relations with European governments, but responsibility and consequences remain unresolved.",
+      "editorNote": "Added in the 19:00 KST same-date merge. Core details are corroborated by AP and The Guardian; Israeli authorities’ investigation is ongoing.",
+      "cluster": [
+        {
+          "url": "https://www.washingtonpost.com/world/2026/10/17/european-diplomats-attacked-west-bank-day-after-beating-of-post-photographer/",
+          "source": "The Washington Post",
+          "title": "European diplomats attacked in West Bank a day after beating of Post photographer"
+        },
+        {
+          "url": "https://www.cbsnews.com/news/european-diplomats-attacked-west-bank/",
+          "source": "CBS News",
+          "title": "European diplomats say they were attacked by Israeli settlers in the West Bank; Israel urges caution before drawing conclusions"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/89ebd068167669db357ad1fa4f3a8758",
+          "source": "Associated Press",
+          "title": "Masked settlers attack European diplomats in the occupied West Bank",
+          "publishedAt": "2026-10-17"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theguardian.com/world/2026/oct/17/israeli-settlers-attack-european-diplomats-in-west-bank",
+          "source": "The Guardian",
+          "title": "Israeli settlers attack European diplomats in West Bank",
+          "publishedAt": "2026-10-17"
+        },
+        {
+          "id": 3,
+          "url": "https://www.timesofisrael.com/liveblog_entry/idf-condemns-severe-settler-attack-on-european-diplomats-says-visit-not-coordinated-with-army/",
+          "source": "The Times of Israel",
+          "title": "IDF condemns “severe” settler attack on European diplomats, says visit not coordinated with army",
+          "publishedAt": "2026-10-17"
+        }
+      ],
+      "tags": [
+        "West Bank",
+        "Israel",
+        "European Union",
+        "diplomacy"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "canada-wainwright-base-fire",
+      "headline": "‘Serious incident’ at Alberta military base causes deaths and injuries, Canada officials say",
+      "dek": "A fire spread from a training area at Canadian Forces Base Wainwright as military and civilian responders worked to contain it.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "A fire began in the training area of Canadian Forces Base Wainwright in Alberta on October 17 and spread beyond the area.",
+        "Canada’s Department of National Defence confirmed deaths and injuries but did not provide a public casualty count in its statement.",
+        "The cause and full impact of the incident have not been established in the available official information."
+      ],
+      "body": [
+        {
+          "text": "Canada’s Department of National Defence said a fire ignited in the training area of CFB Wainwright at about 4 p.m. local time on October 17. It spread beyond the area, prompting a response from military and civilian emergency services.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The department confirmed deaths and injuries but did not give a number in its statement. AP also reported that Canada’s defence minister said people had been killed and injured.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The military said responders were working to control the fire and support those affected. The public statement did not identify the cause or say whether the fire was linked to a training activity.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "CFB Wainwright is a Canadian Army training facility in Alberta. Casualty figures and the circumstances of the fire remain pending further official information or investigation.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The incident involves a major military training site and required both armed-forces and civilian emergency response. Until the department releases more information, operational impact and implications for training safety remain uncertain.",
+      "editorNote": "Added in the 19:00 KST merge. Used the Department of National Defence statement for confirmed facts and AP as independent reporting. No casualty number is stated because the official release gives none.",
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright",
+          "source": "The Guardian",
+          "title": "‘Serious incident’ at Alberta military base causes deaths and injuries, Canada officials say"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.canada.ca/en/department-national-defence/news/2026/10/incident-at-canadian-forces-base-wainwright.html",
+          "source": "Canada Department of National Defence",
+          "title": "Incident at Canadian Forces Base Wainwright",
+          "publishedAt": "2026-10-18"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/1a41899da5b6e797b000061fa4da9c6a",
+          "source": "Associated Press",
+          "title": "Major fire breaks out in Alberta after deadly incident at Canadian military base",
+          "publishedAt": "2026-10-18"
+        }
+      ],
+      "tags": [
+        "Canada",
+        "military",
+        "Alberta",
+        "emergency response"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "no-kings-rallies-midterm-early-voting",
+      "headline": "No Kings rallies across US urge voters to cast ballots early ahead of midterms",
+      "dek": "Demonstrations organized by the No Kings network were held in communities across the country on October 17.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "No Kings demonstrations took place across the United States on October 17, according to AP and Al Jazeera.",
+        "Organizers framed the rallies as opposition to President Donald Trump and a push for early voting in the November midterm elections.",
+        "The scale of participation and any effect on voter turnout were not established in the reports."
+      ],
+      "body": [
+        {
+          "text": "AP reported that No Kings rallies were held in cities and communities across the United States on October 17. Al Jazeera also reported that demonstrations spread across the country.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP said the network organized the rallies in opposition to President Donald Trump and urged people to vote early in the midterm elections. The demonstrations combined protest messaging with a voter-mobilization goal.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Al Jazeera described nationwide protests ahead of the midterms but did not provide a final attendance total. AP likewise reported events across communities without a consolidated turnout figure.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The reports document the stated purpose and geographic spread, not any effect on election participation. Whether early voting changes after the demonstrations will become clearer through election and turnout data.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The rallies connect opposition to the president with early-voting mobilization ahead of a national election. Their significance will depend on whether the demonstrations translate into participation, which the current reports do not measure.",
+      "editorNote": "Added in the 19:00 KST merge. AP and Al Jazeera report the demonstrations; no attendance estimate or electoral effect is asserted.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/f4acc7a7655244ba846247bad250492a",
+          "source": "Associated Press",
+          "title": "Photos show No Kings rallies across America"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/02d78e3dc4f1f75f8f8a5c327ba79008",
+          "source": "Associated Press",
+          "title": "No Kings rallies across US urge voters to cast ballots early ahead of midterms",
+          "publishedAt": "2026-10-17"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/amp/video/newsfeed/2026/10/18/no-kings-protests-spread-across-the-us-ahead-of-midterm-elections",
+          "source": "Al Jazeera",
+          "title": "‘No Kings’ protests spread across the US ahead of midterm elections",
+          "publishedAt": "2026-10-18"
+        }
+      ],
+      "tags": [
+        "United States",
+        "protests",
+        "midterm elections",
+        "politics"
+      ],
+      "confidence": "medium"
     }
   ]
 }

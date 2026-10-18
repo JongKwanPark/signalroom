@@ -1,10 +1,10 @@
 {
   "date": "2026-10-18",
-  "generatedAt": "2026-10-17T22:04:48.035Z",
+  "generatedAt": "2026-10-18T10:04:47.527Z",
   "vertical": "markets",
   "lang": "ko",
   "title": "MARKETS — 2026년 10월 18일",
-  "summary": "9월 생산자물가 상승, CoreWeave의 채권시장 압박, 2026 회계연도 재정적자 추산 등 다중 출처 전개 3건을 다룹니다. 러시아 제재 유예는 Geo에서 다뤄 중복하지 않았습니다. 그 밖의 수집 항목은 단일 매체 논평, 일상적 가격 변동, 독립 보도 없는 투자자 토론이어서 제외했습니다.",
+  "summary": "5개 스토리를 수록했다. 19:00 KST 병합에서 중국의 기술 수출 통제 제안과 호르무즈 선박 공격·정유시설 위험에 따른 유가 반응 등 다매체 보도 두 건을 추가했다. 단일 매체 논평과 통상적인 시장 등락은 제외했다.",
   "stories": [
     {
       "slug": "us-producer-prices-september-2026-ko",
@@ -240,6 +240,166 @@
         "deficit"
       ],
       "confidence": "high"
+    },
+    {
+      "slug": "china-proposes-export-controls-solar-ai-tech-ko",
+      "headline": "중국, 국가안보 이유로 AI 등 기술 수출 통제 추진",
+      "dek": "중국 부처와 언론 보도에 따르면 태양광 제조 분야 12개를 포함해 40개 기술의 수출을 제한하거나 금지하는 초안이 제시됐다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "중국은 AI·반도체·태양광 분야 40개 기술을 대상으로 수출 제한 또는 금지를 제안했다.",
+        "초안에는 태양광 기술 12개가 포함됐으며 당국은 국가안보와 국익을 제안 이유로 들었다.",
+        "아직 제안 단계로 최종 범위와 해외 생산·기술 공유에 미칠 영향은 확정되지 않았다."
+      ],
+      "body": [
+        {
+          "text": "AP통신에 따르면 중국 상무부와 과학기술부는 10월 16일 수출 통제 목록 개정 초안을 공개했다. 추가 대상은 인공지능·반도체·태양광 분야 40개 기술이다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "중국 상무부는 폴리실리콘·웨이퍼·태양전지 제조에 쓰이는 12개 기술이 초안에 포함된다고 밝혔다. 당국은 국가안보와 국익 보호를 이유로 들며 통제 기준에 미달하는 기술은 수출할 수 있다고 설명했다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "AP는 초안에 첨단 대형 모델과 에이전트 등 AI 기술 23개도 포함된다고 보도했다. 따라서 채택될 경우 태양광 장비뿐 아니라 일부 기술 지식의 국경 간 공유에도 영향을 줄 수 있다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이번 조치는 최종 규정이 아니다. 협의와 시행 절차에서 구체적인 통제 범위, 허가 방식, 발효 시점이 정해질 것이며 인용한 자료는 개별 기업이나 프로젝트에 미칠 영향을 수치화하지 않았다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 초안은 AI·반도체·태양광 제조 기술의 수출 가능성을 산업 정책과 국가안보 통제의 문제로 연결한다. 중국은 태양광 제조 기술의 핵심 공급국이지만 최종 제한 범위와 해외 생산 계획에 미칠 영향은 아직 판단하기 이르다.",
+      "editorNote": "19:00 KST 동일 날짜 병합에서 추가. AP 보도와 중국 상무부 설명으로 제안 사실을 확인했다. 초안과 시행 중인 규정을 구분했다.",
+      "cluster": [
+        {
+          "url": "https://au.investing.com/news/economy-news/china-proposes-export-curbs-on-12-key-solar-manufacturing-technologies-4696807",
+          "source": "Investing.com",
+          "title": "China proposes export curbs on 12 key solar manufacturing technologies"
+        },
+        {
+          "url": "https://live.euronext.com/en/financial-news/china-proposes-export-controls-solar-manufacturing-technologies",
+          "source": "Reuters via Euronext",
+          "title": "China proposes export controls on solar-manufacturing technologies"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/5ac381c0c6d6628bbea2e0da7d855a5b",
+          "source": "Associated Press",
+          "title": "China moves to curb tech exports, including AI, citing national security risks",
+          "publishedAt": "2026-10-16"
+        },
+        {
+          "id": 2,
+          "url": "https://www.mofcom.gov.cn/syxwfb/art/2026/art_a4acff07e134447fbe7bbeb486df3ea6.html",
+          "source": "China Ministry of Commerce",
+          "title": "Spokesperson answers questions on revision of the Catalogue of Technologies Prohibited or Restricted from Export",
+          "publishedAt": "2026-10-16"
+        },
+        {
+          "id": 3,
+          "url": "https://live.euronext.com/en/financial-news/china-proposes-export-controls-solar-manufacturing-technologies",
+          "source": "Reuters via Euronext",
+          "title": "China proposes export controls on solar-manufacturing technologies",
+          "publishedAt": "2026-10-18"
+        }
+      ],
+      "tags": [
+        "China",
+        "export controls",
+        "solar",
+        "AI",
+        "semiconductors"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "oil-hits-110-hormuz-attacks-supply-risk-ko",
+      "headline": "브렌트유 110달러 도달…호르무즈 공격과 우크라이나 정유시설 위험 부각",
+      "dek": "호르무즈 해협 선박 공격과 러시아 정유시설 위험이 공급 우려를 키우면서 브렌트유가 5월 이후 최고치를 기록했다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "CNBC와 알자지라에 따르면 브렌트유는 금요일 배럴당 110달러에 닿아 5월 이후 처음 해당 수준을 기록했다.",
+        "보도는 호르무즈 해협 인근 선박 공격과 러시아 석유 인프라를 둘러싼 불확실성을 배경으로 들었다.",
+        "자료는 공급 위험에 대한 시장 반응을 설명하지만 가격 움직임의 지속 기간은 확인하지 않는다."
+      ],
+      "body": [
+        {
+          "text": "CNBC와 알자지라에 따르면 브렌트유는 10월 16일 배럴당 110달러에 닿아 5월 이후 처음 해당 수준을 기록했다. 두 매체는 호르무즈 해협 원유 흐름에 대한 우려를 배경으로 전했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "알자지라는 해협 안팎의 선박 공격을 보도하고 Kpler 자료를 인용해 10월 13일까지 7일간 유량이 하루 1,160만 배럴이었다고 전했다. 전쟁 전 기준치 하루 1,710만 배럴의 약 68%이며, 해당 기간 관측값이지 전망치는 아니다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "CNBC는 우크라이나가 러시아 정유시설 공격을 계속하겠다고 한 점도 잠재적 공급 차질 요인으로 다뤘다. 다만 보도는 이 위험이 가격 상승 전체를 야기했다고 입증하지 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "보도는 겹치는 지정학적 위험에 대한 단기 시장 반응을 보여준다. 공급 차질의 지속 기간과 규모, 브렌트유가 해당 가격대에 머물지는 당시 확인되지 않았다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 사례는 호르무즈 해협 선박 안전과 정유 인프라 공격 가능성이 하나의 공급 위험 평가에 반영되는 양상을 보여준다. 원유 비용 상승은 물가와 에너지 산업 계획에 영향을 줄 수 있지만 향후 가격은 예측하지 않는다.",
+      "editorNote": "19:00 KST 병합에서 추가. 가격과 날짜는 CNBC·알자지라 보도, 유량은 알자지라가 Kpler 자료로 명시한 값이다. 가격 전망이나 매매 조언은 없다.",
+      "cluster": [
+        {
+          "url": "https://www.reddit.com/r/Economics/comments/1x7n4gp/us_crude_oil_tops_100_as_iran_escalates_hormuz/",
+          "source": "Reddit r/Economics",
+          "title": "U.S. crude oil tops $100 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html",
+          "source": "CNBC",
+          "title": "Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries",
+          "publishedAt": "2026-10-16"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/news-analysis/2026/10/17/us-and-iran-both-claim-control-of-strait-of-hormuz-amid-attacks-on-vessels",
+          "source": "Al Jazeera",
+          "title": "US and Iran both claim control of Strait of Hormuz amid attacks on vessels",
+          "publishedAt": "2026-10-17"
+        }
+      ],
+      "tags": [
+        "Brent",
+        "oil",
+        "Strait of Hormuz",
+        "Iran",
+        "Ukraine"
+      ],
+      "confidence": "medium"
     }
   ]
 }

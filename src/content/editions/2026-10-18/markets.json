@@ -1,10 +1,10 @@
 {
   "date": "2026-10-18",
-  "generatedAt": "2026-10-17T22:04:48.035Z",
+  "generatedAt": "2026-10-18T10:04:47.527Z",
   "vertical": "markets",
   "lang": "en",
   "title": "MARKETS — October 18, 2026",
-  "summary": "Three multi-source developments are covered: September producer-price inflation, CoreWeave’s debt-market pressure, and the fiscal 2026 deficit estimate. The Russia-sanctions waiver is covered in Geo and was not duplicated here; other collected items were single-outlet commentary, routine price moves, or investor discussions without independent reporting.",
+  "summary": "Five stories are included. Two multi-outlet developments were added in the 19:00 KST merge: China’s proposed technology export controls and the oil-price response to Hormuz shipping attacks and refinery risks. Single-outlet commentary and routine market moves were excluded.",
   "stories": [
     {
       "slug": "us-producer-prices-september-2026",
@@ -240,6 +240,166 @@
         "deficit"
       ],
       "confidence": "high"
+    },
+    {
+      "slug": "china-proposes-export-controls-solar-ai-tech",
+      "headline": "China moves to curb tech exports, including AI, citing national security risks",
+      "dek": "A draft revision would restrict or prohibit exports of 40 technologies, including 12 in solar manufacturing.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "China proposed restrictions or bans covering 40 technologies across AI, chips and solar power.",
+        "The draft includes 12 solar technologies, and officials cited national security and interests as reasons for the proposed controls.",
+        "The measure is a proposal; its final scope and effects on overseas production and technology sharing remain open."
+      ],
+      "body": [
+        {
+          "text": "China’s commerce and science ministries published a draft revision to the export-control catalogue on October 16, AP reported. The proposed additions cover 40 technologies across AI, chips and solar power.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The Ministry of Commerce said the proposal includes 12 technologies used in polysilicon, wafer and solar-cell manufacturing. It cited national security and interests, while saying technologies below the control thresholds would remain exportable.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "AP reported that the draft also includes 23 AI technologies, from advanced large models to agents. The broader package could affect cross-border sharing of certain technical know-how if adopted.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The proposal is not a final rule. Consultation and implementation will determine its scope, licensing treatment and timing; the cited sources do not quantify effects on specific companies or projects.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The draft links industrial policy and national-security controls to exportable know-how in AI, semiconductors and solar manufacturing. China is a central supplier of solar manufacturing technology, but the final scope and effects on overseas plans cannot yet be measured.",
+      "editorNote": "Added in the 19:00 KST same-date merge. AP and the Chinese Ministry of Commerce corroborate the proposal; it is distinguished from a rule already in force.",
+      "cluster": [
+        {
+          "url": "https://au.investing.com/news/economy-news/china-proposes-export-curbs-on-12-key-solar-manufacturing-technologies-4696807",
+          "source": "Investing.com",
+          "title": "China proposes export curbs on 12 key solar manufacturing technologies"
+        },
+        {
+          "url": "https://live.euronext.com/en/financial-news/china-proposes-export-controls-solar-manufacturing-technologies",
+          "source": "Reuters via Euronext",
+          "title": "China proposes export controls on solar-manufacturing technologies"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/5ac381c0c6d6628bbea2e0da7d855a5b",
+          "source": "Associated Press",
+          "title": "China moves to curb tech exports, including AI, citing national security risks",
+          "publishedAt": "2026-10-16"
+        },
+        {
+          "id": 2,
+          "url": "https://www.mofcom.gov.cn/syxwfb/art/2026/art_a4acff07e134447fbe7bbeb486df3ea6.html",
+          "source": "China Ministry of Commerce",
+          "title": "Spokesperson answers questions on revision of the Catalogue of Technologies Prohibited or Restricted from Export",
+          "publishedAt": "2026-10-16"
+        },
+        {
+          "id": 3,
+          "url": "https://live.euronext.com/en/financial-news/china-proposes-export-controls-solar-manufacturing-technologies",
+          "source": "Reuters via Euronext",
+          "title": "China proposes export controls on solar-manufacturing technologies",
+          "publishedAt": "2026-10-18"
+        }
+      ],
+      "tags": [
+        "China",
+        "export controls",
+        "solar",
+        "AI",
+        "semiconductors"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "oil-hits-110-hormuz-attacks-supply-risk",
+      "headline": "Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries",
+      "dek": "Brent briefly reached its highest level since May as shipping attacks and refinery risks raised concern about supply.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "Brent crude touched $110 a barrel on Friday, its first time at that level since May, CNBC and Al Jazeera reported.",
+        "The reports linked the move to attacks on shipping near the Strait of Hormuz and uncertainty around Russian oil infrastructure.",
+        "The sources describe a market response to supply risks; they do not establish how long the price move will persist."
+      ],
+      "body": [
+        {
+          "text": "Brent crude touched $110 a barrel on October 16, its first time at that level since May, CNBC and Al Jazeera reported. Both linked the move to concern about oil flows through the Strait of Hormuz.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Al Jazeera reported attacks on vessels in or near the strait and cited Kpler data showing flows at 11.6 million barrels per day in the seven days through October 13, about 68 percent of the 17.1 million-barrel-per-day pre-war baseline. These are observed flows for that period, not a forecast.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "CNBC also cited Ukraine’s stated intention to continue striking Russian refineries as a potential source of disruption. The reports do not establish that this risk caused the entire price move.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The coverage captures a short-term price response to overlapping geopolitical risks. The duration and size of any supply disruption, and whether Brent would remain near that level, were unresolved.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The episode shows how shipping security in the Strait of Hormuz and attacks on refining infrastructure can enter the same supply-risk assessment. Higher crude costs can feed into inflation and energy-sector planning, but this report makes no claim about future prices.",
+      "editorNote": "Added in the 19:00 KST merge. Price and date are reported by CNBC and Al Jazeera; flow volumes are attributed by Al Jazeera to Kpler. No forecast or trading advice.",
+      "cluster": [
+        {
+          "url": "https://www.reddit.com/r/Economics/comments/1x7n4gp/us_crude_oil_tops_100_as_iran_escalates_hormuz/",
+          "source": "Reddit r/Economics",
+          "title": "U.S. crude oil tops $100 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html",
+          "source": "CNBC",
+          "title": "Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries",
+          "publishedAt": "2026-10-16"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/news-analysis/2026/10/17/us-and-iran-both-claim-control-of-strait-of-hormuz-amid-attacks-on-vessels",
+          "source": "Al Jazeera",
+          "title": "US and Iran both claim control of Strait of Hormuz amid attacks on vessels",
+          "publishedAt": "2026-10-17"
+        }
+      ],
+      "tags": [
+        "Brent",
+        "oil",
+        "Strait of Hormuz",
+        "Iran",
+        "Ukraine"
+      ],
+      "confidence": "medium"
     }
   ]
 }
