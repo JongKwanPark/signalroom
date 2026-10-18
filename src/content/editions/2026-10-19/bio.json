@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T07:04:00+09:00",
+  "vertical": "bio",
+  "lang": "en",
+  "title": "Bio: peptide compounding policy under review",
+  "summary": "One independently corroborated regulatory development cleared the publication threshold: FDA and HHS submitted an interim peptide-compounding policy for White House review. CAR-T, N-acetylcysteine and NAD+ items in this collection were predominantly single papers or registry records, which do not qualify as stories; no separate, multi-outlet clinical or regulatory development was confirmed.",
+  "stories": [
+    {
+      "slug": "fda-peptide-compounding-policy-white-house-review",
+      "headline": "Trump administration advances plan for peptide drugs favored by RFK Jr.",
+      "dek": "A regulatory filing has reached White House review; the policy text and covered substances are not public.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "HHS and FDA submitted an “Interim Access Policy for Compounding Using Certain Peptides” for White House review.",
+        "The filing concerns a possible change to pharmacy compounding policy, but the public record does not disclose the covered peptides or the policy’s terms.",
+        "The submission is not an approval of any peptide drug, and the policy has not taken effect."
+      ],
+      "body": [
+        {
+          "text": "The Department of Health and Human Services and the FDA sent an interim access policy on compounding certain peptides to the White House Office of Management and Budget for review, according to the Associated Press and Reuters. The filing’s title indicates a compounding policy; it does not by itself set a new rule.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The AP reports that the proposal was submitted to the office that reviews federal rules and regulations with potential economic impact. Reuters likewise reports that the policy was submitted for consideration, while noting that the filing does not describe its contents.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "What is confirmed at this stage is the submission and review status. The list of peptides potentially covered, implementation conditions and timing are not specified in the public filing as described by the two reports.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The proposal is not yet an effective policy and does not establish that any peptide is FDA-approved. Its eventual scope and whether the White House review results in a published policy remain unresolved.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "A change in compounding enforcement could affect the boundary between individualized pharmacy preparation and broader access to unapproved peptide products. The filing leaves that boundary unsettled until its text and any final agency action become public.",
+      "editorNote": "Regulatory status only. No efficacy, safety or consumer-use claims are made; the filing is under review and is not an approval.",
+      "cluster": [
+        {
+          "url": "https://malaysia.news.yahoo.com/us-fda-takes-step-change-213124893.html",
+          "source": "Reuters via Yahoo News",
+          "title": "US FDA takes step to change peptide compounding policy"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/fb12641dfe791f443f7b7d1eb3bd4a0a",
+          "source": "Associated Press",
+          "title": "Trump administration advances plan for peptide drugs favored by RFK Jr."
+        },
+        {
+          "id": 2,
+          "url": "https://malaysia.news.yahoo.com/us-fda-takes-step-change-213124893.html",
+          "source": "Reuters via Yahoo News",
+          "title": "US FDA takes step to change peptide compounding policy"
+        }
+      ],
+      "tags": [
+        "FDA",
+        "peptides",
+        "compounding",
+        "regulation"
+      ],
+      "confidence": "medium",
+      "publication": "scheduled"
+    }
+  ]
+}

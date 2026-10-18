@@ -1,0 +1,151 @@
+{
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T07:04:00+09:00",
+  "vertical": "geo",
+  "lang": "ko",
+  "title": "지정학: Ukraine 드론 공격과 위성 통신 접근",
+  "summary": "독립 보도로 교차 확인된 동향 두 건을 담았다. 미국과의 공개 갈등 속 Ukraine의 대규모 드론 공격, 군사 목적 Starlink/Starshield 이용에 영향을 준 제한이다. 겨울철 에너지 공격과 이란 관련 수집 헤드라인은 구체 주장에 대한 독립적인 교차 확인이 검토한 출처에서 이뤄지지 않아 제외했다.",
+  "stories": [
+    {
+      "slug": "ukraine-drone-attack-us-zelensky-dispute-ko",
+      "headline": "Ukraine, 1,000대 넘는 드론으로 Russia 공격…Trump·Zelenskyy 갈등도 이어져",
+      "dek": "Russia 에너지 시설 공격을 둘러싼 공개 충돌과 외교 접촉이 동시에 이어지고 있다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "Associated Press는 10월 18일 Ukraine가 Russia에 1,000대 넘는 드론을 발사했다고 보도했다.",
+        "보도는 Russia 에너지 시설에 대한 Ukraine 공격을 둘러싼 도널드 Trump와 볼로디미르 Zelenskyy의 공개 이견을 함께 전했다.",
+        "별도 보도에 따르면 Zelenskyy는 미국 특사들과 통화했다. 작전과 외교의 후속 영향은 아직 알 수 없다."
+      ],
+      "body": [
+        {
+          "text": "Associated Press는 10월 18일 Ukraine가 Russia에 1,000대 넘는 드론을 발사했다고 보도하며 Russia와 Ukraine의 발표를 인용했다. 기사에는 Russia 에너지 인프라를 겨냥한 Ukraine 공격을 둘러싼 도널드 Trump 대통령과 볼로디미르 Zelenskyy 대통령의 갈등도 담겼다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "AP에 따르면 Trump는 해당 공격을 비판하며 Zelenskyy가 전쟁을 끝내려 하지 않는다고 주장했고, Ukraine 측은 군사 목표물 공격이라고 설명했다. 이는 당사자 발언을 귀속한 내용이며 작전의 군사적 효과를 독립적으로 판정한 것은 아니다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Axios는 Zelenskyy가 일요일 Trump 특사 스티브 Witkoff, 재러드 Kushner와 통화했다고 별도로 보도했다. 미국 행정부가 Russia와의 평화 협상을 재개하려는 가운데 이뤄진 연락으로, 공개적인 이견에도 외교 접촉은 이어졌다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "두 보도만으로 드론 작전이 전황이나 협상에 어떤 변화를 줬는지는 확인되지 않는다. 피해 규모, 당사국의 다음 조치, 대화가 새로운 협상 절차로 이어질지는 남은 쟁점이다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "장거리 Russia 기반시설 공격이 미국·Ukraine 관계와 협상 재개 노력에 맞물려 있다. 군사 행동과 외교적 지렛대가 동시에 움직이는 국면이다.",
+      "editorNote": "정치 지도자 발언은 발언 주체를 표시했다. 전장 영향과 협상 결과는 확인된 사실처럼 쓰지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.axios.com/2026/10/18/zelensky-witkoff-kushner-ukraine-russia-crisis",
+          "source": "Axios",
+          "title": "Zelensky speaks to Witkoff, Kushner amid U.S.-Ukraine crisis"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/f813d3725b8b5f23958a68a95729fd0d",
+          "source": "Associated Press",
+          "title": "Ukraine launches more than 1,000 drones at Russia as spat between Trump and Zelenskyy continues"
+        },
+        {
+          "id": 2,
+          "url": "https://www.axios.com/2026/10/18/zelensky-witkoff-kushner-ukraine-russia-crisis",
+          "source": "Axios",
+          "title": "Zelensky speaks to Witkoff, Kushner amid U.S.-Ukraine crisis"
+        }
+      ],
+      "tags": [
+        "Ukraine",
+        "Russia",
+        "US foreign policy",
+        "drones"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "ukraine-starlink-speed-restrictions-military-use-ko",
+      "headline": "대통령 고문 “Ukraine, 군용 위성망 속도 제한 해제 논의 중”",
+      "dek": "이동 중인 단말기에 대한 제한이 Ukraine군이 쓰는 통신 체계에 영향을 준 것으로 보도됐다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "AP에 따르면 Ukraine는 군용 위성 통신 서비스의 속도 제한을 풀기 위해 SpaceX 및 Pentagon와 논의 중이다.",
+        "보도된 제한은 시속 160km(100mph)를 넘는 단말기의 연결을 끊으며, Starshield를 탑재한 드론 운용에 영향을 줄 수 있다.",
+        "제한 이유와 논의 결과는 아직 불분명하다."
+      ],
+      "body": [
+        {
+          "text": "볼로디미르 Zelenskyy 대통령의 고문이 Ukraine가 군용 위성 통신 서비스 속도 제한을 해제하기 위해 SpaceX와 Pentagon에 논의하고 있다고 Associated Press에 말했다. AP는 제한이 목요일 이른 시간에 사전 경고 없이 적용됐다고 보도했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "보도된 제한은 단말기가 시속 160km(100mph)를 넘으면 연결을 끊는다. AP에 따르면 이 속도는 Starlink의 군용 버전인 Starshield를 장착한 Ukraine 드론에서 흔히 나타난다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Axios는 Zelenskyy가 위성 통신 체계가 계속 제한된다고 말했으며, 이 제한이 공격 드론 요격과 전선 병력에 보급품을 보내는 군사 작전에 영향을 준다고 보도했다. 인용된 보도에는 당국이 설명한 영향을 독립적으로 측정한 수치는 없다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "AP에 따르면 Ukraine 측은 제한이 왜 적용됐는지 알지 못한다고 밝혔다. 논의가 접근 복구나 운용 기준 변경으로 이어질지, 공식적인 이유가 제시될지는 아직 해결되지 않았다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Ukraine군이 민간 기업이 통제하는 위성망에 의존하는 현실과, 서비스 규칙이 전쟁 중 작전상 지렛대가 될 수 있음을 보여준다.",
+      "editorNote": "영향은 Ukraine 당국과 보도에 귀속했다. 제한 이유와 해결 여부는 출처에서 확인되지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.axios.com/2026/10/17/zelensky-starlink-elon-musk-trump",
+          "source": "Axios",
+          "title": "Zelensky says Musk-owned satellite system still restricted in Ukraine"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/385eb944f6c34990bdf21f624416b820",
+          "source": "Associated Press",
+          "title": "Presidential adviser says Ukraine is in talks to lift speed limit on military satellite network"
+        },
+        {
+          "id": 2,
+          "url": "https://www.axios.com/2026/10/17/zelensky-starlink-elon-musk-trump",
+          "source": "Axios",
+          "title": "Zelensky says Musk-owned satellite system still restricted in Ukraine"
+        }
+      ],
+      "tags": [
+        "Ukraine",
+        "Starlink",
+        "Starshield",
+        "military communications"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

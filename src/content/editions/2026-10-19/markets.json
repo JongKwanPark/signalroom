@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T07:04:00+09:00",
+  "vertical": "markets",
+  "lang": "en",
+  "title": "Markets: AI infrastructure debt tests risk appetite",
+  "summary": "One multi-outlet market development met the evidence threshold: the technology selloff and repricing of debt-backed AI infrastructure spending. Other market-feed items were opinion, personal-finance columns, stale releases or single-outlet notes; the hedge-fund bond-shock warning was not given a separate story because no independent report of that specific warning was confirmed.",
+  "stories": [
+    {
+      "slug": "ai-infrastructure-debt-tech-selloff",
+      "headline": "US markets are weighed down by an extended sell-off in the tech sector",
+      "dek": "Investors are reassessing the debt and borrowing costs behind the AI infrastructure buildout.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "A technology-led selloff extended through October 16 as investors questioned the durability of the AI buildout.",
+        "The Associated Press and Axios both describe rising concern that debt-financed infrastructure spending may become harder to sustain as borrowing costs rise.",
+        "The reporting shows market repricing, not a confirmed collapse in AI demand or a final judgment on the economics of the buildout."
+      ],
+      "body": [
+        {
+          "text": "Technology stocks fell on October 16, extending a selloff that AP described as the market’s worst week since late June. The report linked weakness in chip shares to questions about how long the AI infrastructure boom can continue.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Axios focused on the financing channel, reporting that CoreWeave’s stock and bonds had fallen as investors scrutinized the company’s debt burden and the cash flows supporting its data-center expansion. The outlet described a broader market question about whether capital markets will continue funding the buildout on the same terms.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "The AP report adds that companies have relied on debt markets to finance technology investment while global bond yields have climbed. Taken together, the coverage points to a reassessment of both equity valuations and the cost of financing infrastructure.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The sources do not establish that demand for AI computing has weakened or that the buildout will stop. The open question is whether revenue growth and available financing can support the scale of planned investment as borrowing conditions change.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "AI infrastructure spending connects technology valuations to credit conditions. If borrowing becomes more expensive or selective, the effect could reach data-center developers, equipment suppliers and the companies buying compute.",
+      "editorNote": "Market interpretation is attributed to reporting and investors; this is not investment advice or a forecast.",
+      "cluster": [
+        {
+          "url": "https://www.axios.com/2026/10/16/wall-street-limit-ai-spending-debt",
+          "source": "Axios",
+          "title": "The debt-fueled AI boom is cracking"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/d2655f64db7ec8ae450525d58f97b628",
+          "source": "Associated Press",
+          "title": "US markets are weighed down by an extended sell-off in the tech sector"
+        },
+        {
+          "id": 2,
+          "url": "https://www.axios.com/2026/10/16/wall-street-limit-ai-spending-debt",
+          "source": "Axios",
+          "title": "The debt-fueled AI boom is cracking"
+        }
+      ],
+      "tags": [
+        "AI infrastructure",
+        "credit markets",
+        "technology stocks"
+      ],
+      "confidence": "medium",
+      "publication": "scheduled"
+    }
+  ]
+}

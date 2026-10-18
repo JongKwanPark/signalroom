@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T07:04:00+09:00",
+  "vertical": "bio",
+  "lang": "ko",
+  "title": "Bio: 펩타이드 조제 정책, White House 검토 단계",
+  "summary": "독립 보도로 확인된 규제 동향은 FDA와 HHS가 펩타이드 조제 관련 임시 정책을 White House 검토에 제출한 건이다. CAR-T, N-아세틸시스테인, NAD+ 관련 수집물은 대부분 단일 논문이나 임상시험 등록이어서 기사 기준에 맞지 않았다. 별도의 다중 매체 임상·규제 보도는 확인되지 않았다.",
+  "stories": [
+    {
+      "slug": "fda-peptide-compounding-policy-white-house-review-ko",
+      "headline": "Trump 행정부, RFK 주도로 추진된 펩타이드 약물 계획 진전",
+      "dek": "규제 문건이 White House 검토에 들어갔지만 정책 내용과 대상 물질은 공개되지 않았다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "HHS와 FDA는 특정 펩타이드 조제를 위한 “임시 접근 정책”을 White House 검토에 제출했다.",
+        "문건은 약국 조제 정책 변경 가능성에 관한 것이지만 대상 펩타이드나 구체 조건은 공개 기록에 나타나지 않는다.",
+        "제출은 펩타이드 약물 승인이나 정책 시행을 뜻하지 않는다."
+      ],
+      "body": [
+        {
+          "text": "미 보건복지부(HHS)와 FDA가 특정 펩타이드 조제에 관한 임시 접근 정책을 White House 예산관리국(OMB) 검토에 제출했다고 Associated Press와 Reuters가 보도했다. 문건 제목은 조제 정책을 가리키며 그 자체로 새 규칙을 정하지는 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP는 경제적 영향이 큰 연방 규정과 정책을 검토하는 기관에 제안이 제출됐다고 전했다. Reuters도 검토를 위한 제출 사실을 보도하면서 문건에 정책 내용이 기재되지 않았다고 설명했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "현재 확인된 사실은 제출 및 검토 단계다. 두 보도가 설명한 공개 문건에는 대상이 될 수 있는 펩타이드 목록, 시행 조건, 일정이 구체적으로 나오지 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이 제안은 아직 발효된 정책이 아니며 어떤 펩타이드도 FDA 승인 의약품으로 만들지 않는다. 최종 범위와 White House 검토 뒤 정책이 공개될지는 미정이다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "조제 집행 방식이 바뀌면 개별 약국 조제와 미승인 펩타이드 제품에 대한 접근의 경계가 달라질 수 있다. 문건과 후속 규제 조치가 공개되기 전까지 그 경계는 확정되지 않는다.",
+      "editorNote": "규제 절차만 다룬다. 효능·안전성·소비자 사용 주장은 하지 않았다. 검토 중인 문건은 의약품 승인이 아니다. TODO-review: “compounding” is rendered as “조제”; confirm the regulatory term.",
+      "cluster": [
+        {
+          "url": "https://malaysia.news.yahoo.com/us-fda-takes-step-change-213124893.html",
+          "source": "Reuters via Yahoo News",
+          "title": "US FDA takes step to change peptide compounding policy"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/fb12641dfe791f443f7b7d1eb3bd4a0a",
+          "source": "Associated Press",
+          "title": "Trump administration advances plan for peptide drugs favored by RFK Jr."
+        },
+        {
+          "id": 2,
+          "url": "https://malaysia.news.yahoo.com/us-fda-takes-step-change-213124893.html",
+          "source": "Reuters via Yahoo News",
+          "title": "US FDA takes step to change peptide compounding policy"
+        }
+      ],
+      "tags": [
+        "FDA",
+        "peptides",
+        "compounding",
+        "regulation"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

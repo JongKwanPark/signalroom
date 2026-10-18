@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T07:04:00+09:00",
+  "vertical": "markets",
+  "lang": "ko",
+  "title": "Markets: AI 인프라 부채에 대한 위험 재평가",
+  "summary": "다중 매체 보도로 확인된 시장 동향 한 건을 담았다. 기술주 매도와 부채 기반 AI 인프라 투자에 대한 재평가다. 그 밖의 시장 피드는 의견·개인 재무 상담·시점이 오래된 발표 또는 단일 매체 보도였으며, 헤지펀드의 채권시장 충격 경고는 별도 독립 보도를 확인하지 못해 단독 기사로 만들지 않았다.",
+  "stories": [
+    {
+      "slug": "ai-infrastructure-debt-tech-selloff-ko",
+      "headline": "기술주 장기 매도세가 미국 시장을 압박",
+      "dek": "투자자들은 AI 인프라 구축을 뒷받침하는 부채와 차입 비용을 다시 평가하고 있다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "10월 16일까지 기술주 중심 매도세가 이어지며 투자자들은 AI 인프라 붐의 지속 가능성을 재검토했다.",
+        "Associated Press와 Axios는 차입 비용 상승 속에서 부채로 조달한 인프라 투자를 계속하기 어려울 수 있다는 우려를 함께 전했다.",
+        "보도는 시장의 가격 재평가를 보여줄 뿐 AI 수요가 무너졌거나 인프라 투자가 중단된 사실을 확인한 것은 아니다."
+      ],
+      "body": [
+        {
+          "text": "10월 16일 기술주가 하락하며 매도세가 이어졌다. Associated Press는 그 주가 6월 말 이후 가장 약한 한 주였다고 전했고, 반도체주 약세를 AI 인프라 붐이 얼마나 이어질지에 대한 의문과 연결했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Axios는 자금 조달 측면에 초점을 맞춰 CoreWeave의 주식과 채권이 하락했다고 보도했다. 투자자들은 데이터센터 확장을 뒷받침하는 회사의 부채 부담과 현금 흐름을 따져보기 시작했고, 시장이 같은 조건으로 계속 자금을 대줄지에 관한 질문이 커졌다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "AP는 기업들이 기술 투자에 채권시장을 활용해 왔지만 전 세계 채권 수익률이 오른 점을 투자자 우려의 배경으로 들었다. 두 보도를 종합하면 주식 가치뿐 아니라 인프라 구축 비용도 함께 재평가되는 상황이다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "보도는 AI 컴퓨팅 수요가 약해졌거나 구축이 멈췄다고 확인하지 않는다. 차입 여건이 달라지는 가운데 매출 성장과 조달 가능한 자금이 계획된 투자 규모를 뒷받침할지가 남은 질문이다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "AI 인프라 투자는 기술기업 가치와 신용 여건을 연결한다. 차입 비용이 오르거나 대출이 선별적으로 바뀌면 데이터센터 개발사, 장비 공급사, 컴퓨팅 구매 기업까지 영향이 이어질 수 있다.",
+      "editorNote": "시장 해석은 보도와 투자자 관점에 귀속했다. 투자 조언이나 전망이 아니다.",
+      "cluster": [
+        {
+          "url": "https://www.axios.com/2026/10/16/wall-street-limit-ai-spending-debt",
+          "source": "Axios",
+          "title": "The debt-fueled AI boom is cracking"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/d2655f64db7ec8ae450525d58f97b628",
+          "source": "Associated Press",
+          "title": "US markets are weighed down by an extended sell-off in the tech sector"
+        },
+        {
+          "id": 2,
+          "url": "https://www.axios.com/2026/10/16/wall-street-limit-ai-spending-debt",
+          "source": "Axios",
+          "title": "The debt-fueled AI boom is cracking"
+        }
+      ],
+      "tags": [
+        "AI infrastructure",
+        "credit markets",
+        "technology stocks"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

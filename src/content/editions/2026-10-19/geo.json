@@ -1,0 +1,151 @@
+{
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T07:04:00+09:00",
+  "vertical": "geo",
+  "lang": "en",
+  "title": "Geopolitics: Ukraine’s drone campaign and satellite access",
+  "summary": "Two developments have independent reporting: Ukraine’s large drone attack amid a public dispute with Washington, and restrictions affecting military use of Starlink/Starshield. Other collected conflict headlines on winter energy attacks and Iran were not expanded because independent corroboration of the specific claims was not established in the reviewed source set.",
+  "stories": [
+    {
+      "slug": "ukraine-drone-attack-us-zelensky-dispute",
+      "headline": "Ukraine launches more than 1,000 drones at Russia as spat between Trump and Zelenskyy continues",
+      "dek": "The attack and the dispute over strikes on energy infrastructure are unfolding alongside renewed diplomatic contacts.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "The Associated Press reports that Ukraine launched more than 1,000 drones at Russia on October 18.",
+        "The report places the attack amid a public disagreement between Donald Trump and Volodymyr Zelenskyy over Ukrainian strikes on Russian energy infrastructure.",
+        "Separate reporting says Zelenskyy spoke with U.S. envoys as Washington sought to resume peace talks; the operational and diplomatic consequences remain open."
+      ],
+      "body": [
+        {
+          "text": "Ukraine launched more than 1,000 drones at Russia, the Associated Press reported on October 18, citing Russian and Ukrainian statements about the attack. The report also describes a dispute between President Donald Trump and President Volodymyr Zelenskyy over Ukrainian strikes on Russian energy infrastructure.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "AP says Trump criticized the strikes and claimed Zelenskyy did not want to end the war, while Ukrainian officials defended their operations against military targets. Those positions are attributed statements; they do not independently resolve the military effect of the attack.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Axios separately reported that Zelenskyy spoke on Sunday with Trump envoys Steve Witkoff and Jared Kushner amid efforts by the U.S. administration to resume peace talks with Russia. The call signals continued diplomatic contact while public disagreements persist.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "The sources do not establish whether the drone operation changed the battlefield or affected negotiations. The scale of damage, the parties’ next steps and whether the talks produce a new process remain open.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The reporting links long-range attacks on Russian infrastructure with the state of U.S.-Ukraine relations and efforts to restart negotiations. Military action and diplomatic leverage are developing at the same time.",
+      "editorNote": "Attribution preserved for statements by political leaders; battlefield impact and negotiation outcome remain unverified.",
+      "cluster": [
+        {
+          "url": "https://www.axios.com/2026/10/18/zelensky-witkoff-kushner-ukraine-russia-crisis",
+          "source": "Axios",
+          "title": "Zelensky speaks to Witkoff, Kushner amid U.S.-Ukraine crisis"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/f813d3725b8b5f23958a68a95729fd0d",
+          "source": "Associated Press",
+          "title": "Ukraine launches more than 1,000 drones at Russia as spat between Trump and Zelenskyy continues"
+        },
+        {
+          "id": 2,
+          "url": "https://www.axios.com/2026/10/18/zelensky-witkoff-kushner-ukraine-russia-crisis",
+          "source": "Axios",
+          "title": "Zelensky speaks to Witkoff, Kushner amid U.S.-Ukraine crisis"
+        }
+      ],
+      "tags": [
+        "Ukraine",
+        "Russia",
+        "US foreign policy",
+        "drones"
+      ],
+      "confidence": "medium",
+      "publication": "scheduled"
+    },
+    {
+      "slug": "ukraine-starlink-speed-restrictions-military-use",
+      "headline": "Presidential adviser says Ukraine is in talks to lift speed limit on military satellite network",
+      "dek": "A restriction on moving terminals affects a system used by Ukrainian forces; talks with SpaceX and the Pentagon are reported.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "Ukraine is in talks with SpaceX and the Pentagon to lift a speed cap on its military satellite communications service, AP reports.",
+        "The reported cap disconnects terminals moving faster than 160 kph (100 mph), a constraint relevant to drones equipped with Starshield.",
+        "The reason for the restriction and whether the talks will change it remain unclear."
+      ],
+      "body": [
+        {
+          "text": "Ukraine is discussing with SpaceX and the Pentagon how to lift a speed cap on its military satellite communications service, an adviser to President Volodymyr Zelenskyy told the Associated Press. AP reports that the limit was imposed without warning early Thursday.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The reported restriction cuts the connection when a terminal moves faster than 160 kph (100 mph). AP says that speed is common for Ukrainian drones equipped with Starshield, the military version of Starlink.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Axios separately reports that Zelenskyy said the satellite system remained restricted and that the limits affect military uses such as intercepting attack drones and moving supplies. The impact described by officials has not been independently quantified in the cited reports.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "Ukraine said it had no explanation for why the cap was imposed, according to AP. Whether the talks will restore access, change operating limits or produce a formal explanation remains unresolved.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The episode highlights the operational dependence of Ukraine’s forces on a privately controlled satellite network and the leverage that service rules can create during a conflict.",
+      "editorNote": "Impacts are attributed to Ukrainian officials and reporting. The source set does not establish the reason for the restriction or a resolution.",
+      "cluster": [
+        {
+          "url": "https://www.axios.com/2026/10/17/zelensky-starlink-elon-musk-trump",
+          "source": "Axios",
+          "title": "Zelensky says Musk-owned satellite system still restricted in Ukraine"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/385eb944f6c34990bdf21f624416b820",
+          "source": "Associated Press",
+          "title": "Presidential adviser says Ukraine is in talks to lift speed limit on military satellite network"
+        },
+        {
+          "id": 2,
+          "url": "https://www.axios.com/2026/10/17/zelensky-starlink-elon-musk-trump",
+          "source": "Axios",
+          "title": "Zelensky says Musk-owned satellite system still restricted in Ukraine"
+        }
+      ],
+      "tags": [
+        "Ukraine",
+        "Starlink",
+        "Starshield",
+        "military communications"
+      ],
+      "confidence": "medium",
+      "publication": "scheduled"
+    }
+  ]
+}
