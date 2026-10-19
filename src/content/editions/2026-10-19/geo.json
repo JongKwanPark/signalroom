@@ -1,10 +1,10 @@
 {
   "date": "2026-10-19",
-  "generatedAt": "2026-10-19T19:04:31+09:00",
+  "generatedAt": "2026-10-19T19:20:00+09:00",
   "vertical": "geo",
   "lang": "en",
-  "title": "Geopolitics: Ukraine’s drone campaign and satellite access",
-  "summary": "기존 Ukraine 드론 공격과 Starlink 군사 이용 제한 보도를 유지하고, 프랑스 정부의 시위 대응과 Human Rights Watch의 Mali 민간인 학대 조사 결과를 추가했다. Mali 관련 주장은 보고서와 보도에 귀속했으며 사법적으로 확정된 사실처럼 서술하지 않았다.",
+  "title": "지정학: Ukraine 드론 공격과 위성 통신 접근",
+  "summary": "여섯 동향을 유지한다. 오전판 Ukraine 관련 두 기사에 프랑스 정부 대응, Mali 학대 의혹, Alberta 주민투표, 러시아 제재 유예를 추가했다. 브라질 아마존 산림 감소도 AP와 The Guardian이 보도했지만, 환경 정책 보도로서 지정학·안보 주제와 거리가 있어 제외했다. 그 밖의 러시아 사보타주와 Gaza 구호 삭감은 두 번째 독립 보도를 확인하지 못했다.",
   "stories": [
     {
       "slug": "ukraine-drone-attack-us-zelensky-dispute",
@@ -304,6 +304,172 @@
         "Human Rights Watch"
       ],
       "confidence": "medium"
+    },
+    {
+      "slug": "alberta-referendum-vote-tests-canadian-unity",
+      "headline": "Albertans vote on path to independence as Carney fights to keep Canada united",
+      "dek": "The vote asks whether Alberta should remain in Canada or begin a legal process that could lead to a future separation referendum.",
+      "type": "DEEP",
+      "readMinutes": 5,
+      "tldr": [
+        "The Alberta referendum asks whether the province should remain part of Canada or begin a legal process toward a future separation referendum.",
+        "The ballot is not itself a direct vote to leave Canada, and official results are not expected immediately after polls close.",
+        "The outcome could shape provincial-federal relations, but the next legal steps depend on the vote and subsequent decisions."
+      ],
+      "body": [
+        {
+          "text": "The Alberta referendum asks residents whether the province should remain part of Canada or begin a process that could lead to a future separation vote. AP and The Guardian reported on the vote and the political campaign around it.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The ballot is not a direct independence referendum. AP reported that a result favoring the separation process would open a legal path toward another vote rather than automatically remove Alberta from Canada.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Canadian Prime Minister Mark Carney campaigned for national unity, while Alberta Premier Danielle Smith has said she supports remaining in Canada even as her government held the vote. The province is a major oil-producing region, adding economic and energy stakes to the dispute.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "AP’s report described the vote as scheduled for Monday, and no result was included in the reporting reviewed for this edition. Elections Alberta said unofficial results would be posted within 48 hours after voting locations closed and official results would follow on October 29, leaving the vote’s immediate political effect uncertain.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The vote tests Canadian federal cohesion in a province central to the country’s energy economy. Its immediate legal effect is limited to whether a later separation process advances; the longer-term consequence depends on official results and subsequent political decisions.",
+      "editorNote": "AP and The Guardian provide independent reporting; Elections Alberta documents the results timetable. The vote is described as a step toward a possible future referendum, not a direct independence decision.",
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/world/2026/oct/19/alberta-goes-to-polls-in-referendum-divisions-separatists-canada",
+          "source": "The Guardian",
+          "title": "“This is not poker”: Alberta goes to polls in referendum that has exposed divisions, not least among separatists"
+        },
+        {
+          "url": "https://www.elections.ab.ca/resources/media/news-releases/2026-10-13/",
+          "source": "Elections Alberta",
+          "title": "Referendum Advance Voting Now Open"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/1fd99a12188ff82a33a914a0051a0908",
+          "source": "Associated Press",
+          "title": "Albertans vote on path to independence as Carney fights to keep Canada united",
+          "publishedAt": "2026-10-19"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theguardian.com/world/2026/oct/19/alberta-goes-to-polls-in-referendum-divisions-separatists-canada",
+          "source": "The Guardian",
+          "title": "“This is not poker”: Alberta goes to polls in referendum that has exposed divisions, not least among separatists",
+          "publishedAt": "2026-10-19"
+        },
+        {
+          "id": 3,
+          "url": "https://www.elections.ab.ca/resources/media/news-releases/2026-10-13/",
+          "source": "Elections Alberta",
+          "title": "Referendum Advance Voting Now Open",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "tags": [
+        "Canada",
+        "Alberta",
+        "referendum"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "trump-waives-new-russia-sanctions-under-national-interest",
+      "headline": "Trump’s decision to waive Russian sanctions outrages Congress, but no quick counter seen",
+      "dek": "The president paused new sanctions shortly before they were due to take effect, citing U.S. national interests and ongoing negotiations.",
+      "type": "DEEP",
+      "readMinutes": 5,
+      "tldr": [
+        "Donald Trump waived new U.S. sanctions on Russia shortly before the measures were due to take effect.",
+        "The administration said the pause was tied to national interests and peace negotiations, while critics in Congress argued it weakened pressure on Moscow.",
+        "The waiver’s duration and whether the sanctions will later be reimposed remain unclear."
+      ],
+      "body": [
+        {
+          "text": "President Donald Trump paused new U.S. sanctions on Russia shortly before they were due to take effect under legislation passed by Congress. AP, Axios, and BBC reported the decision and the administration’s stated rationale.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Trump said the waiver was in the national interest and described it as a way to keep negotiations with Russia moving. The reporting also noted a separate U.S. arrangement to import Russian diesel, which has become part of the debate over the administration’s energy policy.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Members of Congress criticized the move, arguing that it reduced pressure on Moscow after bipartisan support for the sanctions legislation. The administration defended the pause as a temporary measure connected to diplomacy and energy considerations.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The sources do not establish how long the waiver will remain in force or whether the administration will activate the sanctions later. The effect on negotiations and Russia’s energy revenue is also unresolved.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The decision changes the near-term U.S. sanctions posture toward Russia and exposes tension between diplomatic flexibility, energy policy, and bipartisan pressure to constrain Moscow. Its strategic effect depends on whether the pause is temporary and what conditions govern any later enforcement.",
+      "editorNote": "AP, Axios, and BBC independently reported the waiver. The rationale is attributed to the administration; the decision’s duration and effect remain unresolved.",
+      "cluster": [
+        {
+          "url": "https://www.axios.com/2026/10/17/trump-russia-sanctions",
+          "source": "Axios",
+          "title": "Trump waives new Russia sanctions in the “national interests”"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Trump says suspension of Russia sanctions is to keep peace negotiations going"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/3cc9740c39e9e9eb713b1c553b5709e6",
+          "source": "Associated Press",
+          "title": "Trump’s decision to waive Russian sanctions outrages Congress, but no quick counter seen",
+          "publishedAt": "2026-10-17"
+        },
+        {
+          "id": 2,
+          "url": "https://www.axios.com/2026/10/17/trump-russia-sanctions",
+          "source": "Axios",
+          "title": "Trump waives new Russia sanctions in the “national interests”",
+          "publishedAt": "2026-10-17"
+        },
+        {
+          "id": 3,
+          "url": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Trump says suspension of Russia sanctions is to keep peace negotiations going",
+          "publishedAt": "2026-10-18"
+        }
+      ],
+      "tags": [
+        "Russia",
+        "sanctions",
+        "Ukraine"
+      ],
+      "confidence": "high"
     }
   ]
 }

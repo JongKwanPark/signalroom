@@ -1,10 +1,10 @@
 {
   "date": "2026-10-19",
-  "generatedAt": "2026-10-19T19:04:31+09:00",
+  "generatedAt": "2026-10-19T19:20:00+09:00",
   "vertical": "ai",
   "lang": "ko",
   "title": "AI: 안전 규정, 에이전트 사고와 웹 접근",
-  "summary": "오늘 판에는 다중 출처로 확인된 Anthropic의 AI 안전 법안 초안, OpenAI 에이전트 사고 추가 공개, 웹사이트의 AI 에이전트 접근 제한에 더해 Anthropic의 고용 변화·공익 기금과 DeepSeek 검색·가져오기 API 출시를 담았다. Anthropic 고용 분석은 회사 내부 사례로 한정해 서술했고, API 실제 사용량과 비용 영향은 아직 확인되지 않았다.",
+  "summary": "독립 보도로 확인된 일곱 동향을 담았다. 오전판의 세 기사에 Anthropic의 고용 분석과 공익 기금, DeepSeek Search & Fetch API와 V4.1-Flash-1017 업데이트를 더했다. Amazon Atlas 노조 위험 분석은 수집 근거가 openDemocracy와 이를 요약한 파생 보도에 집중돼 독립된 두 번째 보도로 확인되지 않아 제외했다. 논문 목록과 단독 제품 시연도 기사화하지 않았다.",
   "stories": [
     {
       "slug": "anthropic-draft-ai-bill-intervention-thresholds-ko",
@@ -464,6 +464,77 @@
         "DeepSeek",
         "AI infrastructure",
         "APIs"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "deepseek-v4-1-flash-1017-checkpoint-update-ko",
+      "headline": "DeepSeek-V4.1-Flash-1017: 바라는 코딩을 현실로",
+      "dek": "DeepSeek은 10월 17일 V4.1 Flash의 새 체크포인트를 공개하고 API와 모델 채널에 업데이트했다고 밝혔다.",
+      "type": "DEEP",
+      "readMinutes": 5,
+      "tldr": [
+        "DeepSeek은 10월 17일 V4.1-Flash-1017 업데이트를 발표하고 웹, 앱, API 버전을 갱신했다고 밝혔다.",
+        "회사 발표에는 자체 벤치마크 비교가 담겼으며, 독립 보도는 이를 기존 모델 이름을 유지한 체크포인트 업데이트로 설명했다.",
+        "검토한 출처에는 모델 성능 주장을 폭넓게 독립 검증한 결과가 없다."
+      ],
+      "body": [
+        {
+          "text": "DeepSeek은 10월 17일 V4.1 Flash 업데이트인 DeepSeek-V4.1-Flash-1017을 발표했다. 회사는 새 버전이 웹사이트, 앱, API에 동시 반영됐다고 밝혔다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "출시 자료에는 회사 자체 평가 체계에 따른 벤치마크 결과와 사례가 실렸다. TheFrontier는 해당 체크포인트가 MIT 라이선스로 공개됐으며 기존 V4.1 Flash의 소폭 업데이트라고 보도했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "DeepSeek 발표만으로 제시된 벤치마크 변화가 독립적인 실제 업무에서도 더 나은 성능으로 이어지는지는 확인되지 않는다. TheFrontier는 출시 자료를 요약했으며 별도의 통제 평가를 수행한 것은 아니다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "이번 업데이트는 기존 Flash 모델 계열을 확장하지만 성능 변화의 범위와 재현성은 아직 열려 있다. 이전 체크포인트와의 실질적 차이를 평가하려면 다양한 과제와 배포 환경에서 독립 시험이 필요하다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "체크포인트 업데이트는 새 모델 이름이나 API 이전 없이 개발자가 사용하는 성능·비용 특성을 바꿀 수 있다. 출시 사실은 확인됐지만 벤치마크 주장의 크기와 일반성은 독립 검증이 더 필요하다.",
+      "editorNote": "1차 출처는 DeepSeek 출시 자료이며 TheFrontier가 체크포인트 공개를 별도로 보도했다. 벤치마크 결과는 회사 발표에 귀속해 독립 시험 결과처럼 쓰지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.thefrontier.dev/articles/deepseek-v41-flash-1017",
+          "source": "TheFrontier",
+          "title": "DeepSeek ships V4.1-Flash-1017 under MIT with a company agent-bench table"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://api-docs.deepseek.com/news/news261017/",
+          "source": "DeepSeek API Docs",
+          "title": "DeepSeek-V4.1-Flash-1017: Wish-Driven Programming Made Real",
+          "publishedAt": "2026-10-17"
+        },
+        {
+          "id": 2,
+          "url": "https://www.thefrontier.dev/articles/deepseek-v41-flash-1017",
+          "source": "TheFrontier",
+          "title": "DeepSeek ships V4.1-Flash-1017 under MIT with a company agent-bench table",
+          "publishedAt": "2026-10-19"
+        }
+      ],
+      "tags": [
+        "DeepSeek",
+        "AI models",
+        "open weights"
       ],
       "confidence": "medium"
     }

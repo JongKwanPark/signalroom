@@ -1,10 +1,10 @@
 {
   "date": "2026-10-19",
-  "generatedAt": "2026-10-19T19:04:31+09:00",
+  "generatedAt": "2026-10-19T19:20:00+09:00",
   "vertical": "ai",
   "lang": "en",
-  "title": "AI: safety rules, agent incidents and access",
-  "summary": "오늘 판에는 다중 출처로 확인된 Anthropic의 AI 안전 법안 초안, OpenAI 에이전트 사고 추가 공개, 웹사이트의 AI 에이전트 접근 제한에 더해 Anthropic의 고용 변화·공익 기금과 DeepSeek 검색·가져오기 API 출시를 담았다. Anthropic 고용 분석은 회사 내부 사례로 한정해 서술했고, API 실제 사용량과 비용 영향은 아직 확인되지 않았다.",
+  "title": "AI: 안전 규정, 에이전트 사고와 웹 접근",
+  "summary": "독립 보도로 확인된 일곱 동향을 담았다. 오전판의 세 기사에 Anthropic의 고용 분석과 공익 기금, DeepSeek Search & Fetch API와 V4.1-Flash-1017 업데이트를 더했다. Amazon Atlas 노조 위험 분석은 수집 근거가 openDemocracy와 이를 요약한 파생 보도에 집중돼 독립된 두 번째 보도로 확인되지 않아 제외했다. 논문 목록과 단독 제품 시연도 기사화하지 않았다.",
   "stories": [
     {
       "slug": "anthropic-draft-ai-bill-intervention-thresholds",
@@ -464,6 +464,77 @@
         "DeepSeek",
         "AI infrastructure",
         "APIs"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "deepseek-v4-1-flash-1017-checkpoint-update",
+      "headline": "DeepSeek-V4.1-Flash-1017: Wish-Driven Programming Made Real",
+      "dek": "DeepSeek says it updated V4.1 Flash to a new October 17 checkpoint and published the release through its API and model channels.",
+      "type": "DEEP",
+      "readMinutes": 5,
+      "tldr": [
+        "DeepSeek announced the V4.1-Flash-1017 update on October 17 and said its web, app, and API versions were updated.",
+        "The company’s release note presents benchmark comparisons, while independent coverage describes the checkpoint as an update under the existing model name.",
+        "The reviewed sources do not provide an independent, broad evaluation of the model’s performance claims."
+      ],
+      "body": [
+        {
+          "text": "DeepSeek’s October 17 release note announced DeepSeek-V4.1-Flash-1017, an update to V4.1 Flash. The company said the new version was synchronized across its website, app, and API.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The release page presents benchmark results and examples under the company’s own evaluation framework. TheFrontier reported that the checkpoint was published with an MIT license and described it as a minor update to V4.1 Flash.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "DeepSeek’s announcement does not establish that the reported benchmark changes will translate into better performance across independent workloads. TheFrontier summarized the launch and release materials rather than reporting a separate controlled evaluation.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The update extends the company’s existing Flash model line, but the scope of capability changes and their reproducibility remain open. Independent testing across tasks and deployment settings would be needed to assess the practical difference from the previous checkpoint.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "A checkpoint update can change the performance and cost profile available to developers without requiring a new model name or API migration. The release is documented, while the magnitude and generality of its benchmark claims still need independent evaluation.",
+      "editorNote": "Primary source is DeepSeek’s release note; TheFrontier independently covered the checkpoint publication. Benchmark claims are attributed to DeepSeek and are not presented as independent test results.",
+      "cluster": [
+        {
+          "url": "https://www.thefrontier.dev/articles/deepseek-v41-flash-1017",
+          "source": "TheFrontier",
+          "title": "DeepSeek ships V4.1-Flash-1017 under MIT with a company agent-bench table"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://api-docs.deepseek.com/news/news261017/",
+          "source": "DeepSeek API Docs",
+          "title": "DeepSeek-V4.1-Flash-1017: Wish-Driven Programming Made Real",
+          "publishedAt": "2026-10-17"
+        },
+        {
+          "id": 2,
+          "url": "https://www.thefrontier.dev/articles/deepseek-v41-flash-1017",
+          "source": "TheFrontier",
+          "title": "DeepSeek ships V4.1-Flash-1017 under MIT with a company agent-bench table",
+          "publishedAt": "2026-10-19"
+        }
+      ],
+      "tags": [
+        "DeepSeek",
+        "AI models",
+        "open weights"
       ],
       "confidence": "medium"
     }

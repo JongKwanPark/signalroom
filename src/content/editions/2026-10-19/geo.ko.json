@@ -1,10 +1,10 @@
 {
   "date": "2026-10-19",
-  "generatedAt": "2026-10-19T19:04:31+09:00",
+  "generatedAt": "2026-10-19T19:20:00+09:00",
   "vertical": "geo",
   "lang": "ko",
   "title": "지정학: Ukraine 드론 공격과 위성 통신 접근",
-  "summary": "기존 Ukraine 드론 공격과 Starlink 군사 이용 제한 보도를 유지하고, 프랑스 정부의 시위 대응과 Human Rights Watch의 Mali 민간인 학대 조사 결과를 추가했다. Mali 관련 주장은 보고서와 보도에 귀속했으며 사법적으로 확정된 사실처럼 서술하지 않았다.",
+  "summary": "여섯 동향을 유지한다. 오전판 Ukraine 관련 두 기사에 프랑스 정부 대응, Mali 학대 의혹, Alberta 주민투표, 러시아 제재 유예를 추가했다. 브라질 아마존 산림 감소도 AP와 The Guardian이 보도했지만, 환경 정책 보도로서 지정학·안보 주제와 거리가 있어 제외했다. 그 밖의 러시아 사보타주와 Gaza 구호 삭감은 두 번째 독립 보도를 확인하지 못했다.",
   "stories": [
     {
       "slug": "ukraine-drone-attack-us-zelensky-dispute-ko",
@@ -304,6 +304,172 @@
         "Human Rights Watch"
       ],
       "confidence": "medium"
+    },
+    {
+      "slug": "alberta-referendum-vote-tests-canadian-unity-ko",
+      "headline": "분리 독립 경로 놓고 Alberta 주민투표, Carney는 캐나다 단합 호소",
+      "dek": "Alberta가 캐나다에 남을지, 향후 분리 주민투표로 이어질 수 있는 법적 절차를 시작할지를 묻는 투표를 진행했다.",
+      "type": "DEEP",
+      "readMinutes": 5,
+      "tldr": [
+        "Alberta 주민투표는 주가 캐나다에 남을지 향후 분리 주민투표를 위한 법적 절차를 시작할지 묻는다.",
+        "이번 투표는 독립 여부를 직접 결정하는 투표가 아니며 투표 종료 직후 공식 결과가 나오지는 않는다.",
+        "결과는 주정부와 연방정부 관계에 영향을 줄 수 있지만 다음 법적 절차는 투표 결과와 후속 결정에 달려 있다."
+      ],
+      "body": [
+        {
+          "text": "Alberta 주민투표는 주민들에게 캐나다에 남을지 향후 분리 투표로 이어질 수 있는 절차를 시작할지 묻는다. AP와 The Guardian은 투표와 관련 정치 캠페인을 보도했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이번 투표는 독립 여부를 직접 결정하는 투표가 아니다. AP는 분리 절차 지지가 우세하더라도 Alberta가 자동으로 캐나다를 떠나는 것이 아니라 이후 투표로 이어질 법적 경로가 열리는 것이라고 설명했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "캐나다 총리 Mark Carney는 국가 단합을 위해 유세했고 Alberta 주지사 Danielle Smith는 정부가 주민투표를 추진하면서도 캐나다에 남는 쪽을 지지한다고 밝혔다. 이 지역은 주요 산유지이기도 해 논쟁에는 경제와 에너지 이해관계가 얽혀 있다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "AP는 월요일 투표가 예정돼 있다고 보도했고 이 판에서 검토한 보도에는 결과가 포함되지 않았다. Elections Alberta는 투표소가 닫힌 뒤 48시간 이내에 비공식 결과를 게시하고 공식 결과는 10월 29일 발표한다고 밝혀, 투표의 즉각적인 정치적 효과는 아직 불확실하다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 투표는 캐나다 에너지 경제의 중심 지역에서 연방 결속을 시험한다. 당장의 법적 효과는 향후 분리 절차를 진행할지 여부에 한정되며 장기적 결과는 공식 개표와 후속 정치 결정에 달려 있다.",
+      "editorNote": "AP와 The Guardian의 독립 보도를 대조했고, 결과 일정은 Elections Alberta 자료에서 확인했다. 직접적인 독립 결정이 아니라 향후 주민투표를 위한 절차를 묻는 투표로 서술했다.",
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/world/2026/oct/19/alberta-goes-to-polls-in-referendum-divisions-separatists-canada",
+          "source": "The Guardian",
+          "title": "“This is not poker”: Alberta goes to polls in referendum that has exposed divisions, not least among separatists"
+        },
+        {
+          "url": "https://www.elections.ab.ca/resources/media/news-releases/2026-10-13/",
+          "source": "Elections Alberta",
+          "title": "Referendum Advance Voting Now Open"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/1fd99a12188ff82a33a914a0051a0908",
+          "source": "Associated Press",
+          "title": "Albertans vote on path to independence as Carney fights to keep Canada united",
+          "publishedAt": "2026-10-19"
+        },
+        {
+          "id": 2,
+          "url": "https://www.theguardian.com/world/2026/oct/19/alberta-goes-to-polls-in-referendum-divisions-separatists-canada",
+          "source": "The Guardian",
+          "title": "“This is not poker”: Alberta goes to polls in referendum that has exposed divisions, not least among separatists",
+          "publishedAt": "2026-10-19"
+        },
+        {
+          "id": 3,
+          "url": "https://www.elections.ab.ca/resources/media/news-releases/2026-10-13/",
+          "source": "Elections Alberta",
+          "title": "Referendum Advance Voting Now Open",
+          "publishedAt": "2026-10-13"
+        }
+      ],
+      "tags": [
+        "Canada",
+        "Alberta",
+        "referendum"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "trump-waives-new-russia-sanctions-under-national-interest-ko",
+      "headline": "트럼프의 러시아 제재 유예에 의회 반발, 즉각적 대응은 불투명",
+      "dek": "대통령은 새 제재가 발효되기 직전 이를 보류하고 미국의 국익과 협상을 근거로 들었다.",
+      "type": "DEEP",
+      "readMinutes": 5,
+      "tldr": [
+        "Donald Trump 대통령은 발효 예정이던 대러시아 신규 제재를 직전에 유예했다.",
+        "행정부는 국익과 평화 협상을 이유로 들었고 의회 비판자들은 대러 압박이 약해졌다고 지적했다.",
+        "유예 기간과 제재가 다시 시행될지는 불분명하다."
+      ],
+      "body": [
+        {
+          "text": "Donald Trump 대통령은 의회가 통과시킨 법률에 따라 발효 예정이던 대러시아 신규 제재를 직전에 보류했다. AP, Axios, BBC는 결정과 행정부가 밝힌 이유를 보도했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Trump는 유예가 미국의 국익에 부합하며 러시아와의 협상을 이어가기 위한 조치라고 말했다. 보도는 행정부의 러시아산 디젤 수입 합의도 에너지 정책 논쟁의 일부로 다뤘다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "의회 의원들은 초당적 지지로 통과된 제재 법률 이후 대러 압박을 줄이는 결정이라고 비판했다. 행정부는 외교와 에너지 상황에 연결된 임시 조치라고 옹호했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "검토한 출처에는 유예 기간이나 행정부가 이후 제재를 발동할지 여부가 나와 있지 않다. 협상과 러시아 에너지 수입에 미칠 효과도 아직 확정되지 않았다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 결정은 러시아를 향한 미국의 단기 제재 기조를 바꾸며 외교적 유연성, 에너지 정책, 초당적 대러 압박 사이의 긴장을 드러낸다. 전략적 효과는 유예가 얼마나 지속되고 향후 집행을 어떤 조건으로 결정하는지에 달려 있다.",
+      "editorNote": "AP, Axios, BBC가 유예를 각각 보도했다. 유예의 근거는 행정부 발표에 귀속했으며 지속 기간과 효과는 미정으로 표시했다.",
+      "cluster": [
+        {
+          "url": "https://www.axios.com/2026/10/17/trump-russia-sanctions",
+          "source": "Axios",
+          "title": "Trump waives new Russia sanctions in the “national interests”"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Trump says suspension of Russia sanctions is to keep peace negotiations going"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/3cc9740c39e9e9eb713b1c553b5709e6",
+          "source": "Associated Press",
+          "title": "Trump’s decision to waive Russian sanctions outrages Congress, but no quick counter seen",
+          "publishedAt": "2026-10-17"
+        },
+        {
+          "id": 2,
+          "url": "https://www.axios.com/2026/10/17/trump-russia-sanctions",
+          "source": "Axios",
+          "title": "Trump waives new Russia sanctions in the “national interests”",
+          "publishedAt": "2026-10-17"
+        },
+        {
+          "id": 3,
+          "url": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Trump says suspension of Russia sanctions is to keep peace negotiations going",
+          "publishedAt": "2026-10-18"
+        }
+      ],
+      "tags": [
+        "Russia",
+        "sanctions",
+        "Ukraine"
+      ],
+      "confidence": "high"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "date": "2026-10-19",
-  "generatedAt": "2026-10-19T19:04:31+09:00",
+  "generatedAt": "2026-10-19T19:20:00+09:00",
   "vertical": "markets",
   "lang": "en",
-  "title": "Markets: AI infrastructure debt tests risk appetite",
-  "summary": "기존 미국 기술주 매도세 보도에 중국 3분기 GDP 4.5% 성장과 프랑스 시위 이후 주식·채권·유로 약세를 추가했다. 중국 수치는 국가통계국과 AP·Reuters를 대조했고, 프랑스 장중 지수 수치는 보도 시점 차이를 함께 표시했다.",
+  "title": "Markets: AI 인프라 부채와 기술주 매도세",
+  "summary": "다중 출처로 확인된 네 동향을 담았다. 기존 기술주 매도세에 중국 3분기 GDP, 프랑스 시위 이후 시장 반응, 러시아 제재 유예 뒤 원유 하락을 더했다. Volkswagen의 임금 동결 보도와 KKR–Telecom Italia 의혹은 검토한 수집 자료에서 각각 단일 매체 보도여서 제외했다.",
   "stories": [
     {
       "slug": "ai-infrastructure-debt-tech-selloff",
@@ -259,6 +259,82 @@
         "France",
         "sovereign debt",
         "markets"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "oil-prices-fall-after-us-waives-russia-sanctions",
+      "headline": "Oil tumbles as Trump’s Russia sanctions waiver may lead to more fuel supplies",
+      "dek": "Crude prices fell after the U.S. paused new Russia sanctions, with traders weighing the prospect of additional Russian exports.",
+      "type": "DATA",
+      "readMinutes": 5,
+      "tldr": [
+        "Oil prices fell on October 19 after the U.S. waived new sanctions on Russian energy exports.",
+        "AP and Reuters reported that the policy change could allow more Russian fuel onto global markets, though supply effects were not yet measured.",
+        "The move came amid other oil-supply risks, so the price decline cannot be attributed to the waiver alone."
+      ],
+      "body": [
+        {
+          "text": "Oil prices declined on Monday after President Donald Trump waived new sanctions on Russia that had been due to take effect. AP and Reuters reported that the decision could allow additional Russian energy exports.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Reuters reported that Brent crude fell 1.77% to $107.92 a barrel by 02:27 GMT, while AP described oil as down around 2% in early trading. These are intraday figures from different reporting times, not a closing price.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The sanctions pause followed a U.S. agreement to import Russian diesel, and the administration framed the policy around national interests and energy supply. The reports do not quantify how much additional crude or fuel will reach global markets as a result of the waiver.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Oil prices also remained exposed to other supply risks, including Middle East tensions and uncertainty around shipping through the Strait of Hormuz. The session’s decline therefore does not isolate the waiver’s contribution or indicate how prices will move after current supply expectations change.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The waiver links U.S. sanctions policy to global fuel supply expectations at a time when shipping and geopolitical risks remain elevated. The immediate market move was measurable, but the actual export response and the waiver’s lasting price effect are not yet known.",
+      "editorNote": "Reuters and AP independently reported the oil decline and sanctions rationale. Brent figures are time-qualified intraday observations; no investment advice or price forecast is included.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/494fbe4361a0360b2f6368e7a6d8f058",
+          "source": "Associated Press",
+          "title": "European stocks slip led by France, and oil falls on Trump’s Russian sanctions waiver"
+        },
+        {
+          "url": "https://live.euronext.com/en/financial-news/oil-tumbles-trumps-russia-sanctions-waiver-may-lead-more-fuel-supplies",
+          "source": "Reuters via Euronext",
+          "title": "Oil tumbles as Trump’s Russia sanctions waiver may lead to more fuel supplies"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://live.euronext.com/en/financial-news/oil-tumbles-trumps-russia-sanctions-waiver-may-lead-more-fuel-supplies",
+          "source": "Reuters via Euronext",
+          "title": "Oil tumbles as Trump’s Russia sanctions waiver may lead to more fuel supplies",
+          "publishedAt": "2026-10-19"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/494fbe4361a0360b2f6368e7a6d8f058",
+          "source": "Associated Press",
+          "title": "European stocks slip led by France, and oil falls on Trump’s Russian sanctions waiver",
+          "publishedAt": "2026-10-19"
+        }
+      ],
+      "tags": [
+        "oil",
+        "Russia",
+        "sanctions"
       ],
       "confidence": "high"
     }
