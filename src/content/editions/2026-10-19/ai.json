@@ -1,10 +1,10 @@
 {
   "date": "2026-10-19",
-  "generatedAt": "2026-10-19T07:04:00+09:00",
+  "generatedAt": "2026-10-19T19:04:31+09:00",
   "vertical": "ai",
   "lang": "en",
   "title": "AI: safety rules, agent incidents and access",
-  "summary": "Today’s file carries three developments with independent coverage: Anthropic’s draft safety bill, newly disclosed OpenAI agent incidents, and websites restricting AI agents. Other collected items were product or paper listings without independent reporting; DeepSeek V4.1 Flash release coverage and Anthropic’s employment report were not expanded because no separate outlet coverage was confirmed in the collected set.",
+  "summary": "오늘 판에는 다중 출처로 확인된 Anthropic의 AI 안전 법안 초안, OpenAI 에이전트 사고 추가 공개, 웹사이트의 AI 에이전트 접근 제한에 더해 Anthropic의 고용 변화·공익 기금과 DeepSeek 검색·가져오기 API 출시를 담았다. Anthropic 고용 분석은 회사 내부 사례로 한정해 서술했고, API 실제 사용량과 비용 영향은 아직 확인되지 않았다.",
   "stories": [
     {
       "slug": "anthropic-draft-ai-bill-intervention-thresholds",
@@ -225,6 +225,247 @@
       ],
       "confidence": "medium",
       "publication": "scheduled"
+    },
+    {
+      "slug": "anthropic-public-benefit-fund-equity-commitment",
+      "headline": "Investing in the public benefit",
+      "dek": "Anthropic says 5% of its shares will support a new fund, subject to stockholder approval.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "Anthropic announced a new Public Benefit Fund and said 5% of its shares will be committed to it, subject to stockholder approval.",
+        "The company said the board may add 2% for each 50% increase in its value above a baseline.",
+        "Anthropic has not yet published the fund’s full governance or valuation-milestone rules."
+      ],
+      "body": [
+        {
+          "text": "Anthropic said it is establishing the Anthropic Public Benefit Fund and committing 5% of company shares to it, subject to stockholder approval. The announcement was published on Oct. 18 and described a new entity intended to support public-benefit work.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The company said the fund could receive another 2% of shares at the board’s discretion for every 50% increase in Anthropic’s value above a set baseline. The baseline and the detailed mechanics have not yet been disclosed.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Anthropic described possible uses including grants to nonprofits and direct distributions to specific populations. It said the fund would be a wholly owned LLC and that its shares would not be used for lobbying or political giving.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The announcement leaves governance, allocation criteria, and the timing of any distributions unresolved. The company said it plans to provide more detail in the coming months, so the announced equity commitment is not yet a fully specified grant program.",
+          "citations": [
+            1,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "The plan ties a portion of a fast-growing AI company’s equity to public-benefit spending and makes the potential allocation rise with company value. Its practical significance will depend on the governance and distribution rules that Anthropic has not yet published.",
+      "editorNote": "Company announcement cross-checked against AP and CNBC coverage. The commitment is subject to stockholder approval; future additions are discretionary and governance details remain open.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/8181332fbbc48f2ef9447cef096f14de",
+          "source": "Associated Press",
+          "title": "Anthropic commits 5% of its stock to a new “public benefit” fund"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/10/18/anthropic-ai-public-benefit-fund.html",
+          "source": "CNBC",
+          "title": "Anthropic commits 5% of shares to new public benefit fund that could address AI job disruption"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.anthropic.com/news/public-benefit-fund",
+          "source": "Anthropic",
+          "title": "Investing in the public benefit",
+          "publishedAt": "2026-10-18"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/8181332fbbc48f2ef9447cef096f14de",
+          "source": "Associated Press",
+          "title": "Anthropic commits 5% of its stock to a new “public benefit” fund",
+          "publishedAt": "2026-10-18"
+        },
+        {
+          "id": 3,
+          "url": "https://www.cnbc.com/2026/10/18/anthropic-ai-public-benefit-fund.html",
+          "source": "CNBC",
+          "title": "Anthropic commits 5% of shares to new public benefit fund that could address AI job disruption",
+          "publishedAt": "2026-10-18"
+        }
+      ],
+      "tags": [
+        "Anthropic",
+        "AI governance",
+        "philanthropy"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "anthropic-internal-employment-shifts-ai-agent-use",
+      "headline": "How employment is changing at Anthropic",
+      "dek": "The company’s internal data shows shifting junior hiring and a rapid rise in agent activity, but does not establish economy-wide effects.",
+      "type": "DEEP",
+      "readMinutes": 5,
+      "tldr": [
+        "Anthropic’s analysis says it has hired a smaller share of junior technical workers as AI agent activity expanded inside the company.",
+        "By August, interactive AI agent hours at Anthropic outnumbered employee hours 6 to 1, according to the company’s report.",
+        "The findings describe one AI company and do not establish how employment will change across the wider economy."
+      ],
+      "body": [
+        {
+          "text": "Anthropic published an analysis of how AI use has changed work inside the company. The report combines company employment information, internal AI usage records, employee surveys, and interviews, making it a case study of a frontier AI developer rather than a representative labor-market survey.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The company said it has been hiring for a smaller share of junior technical positions while agent use expanded. By August, interactive AI agent hours at Anthropic outnumbered employee hours 6 to 1, according to the report.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Anthropic also reported higher output per employee in several internal work areas as workers adopted AI tools, including coding, sales, and contract processing. The analysis links these changes to the company’s own workflows and measures; it does not show that the same productivity pattern has occurred across other employers.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The report says human attention has become a constraint on agent output, while its employment findings remain limited by the company-specific sample and methods. Whether the reported shifts translate into durable reductions in junior hiring elsewhere is still open.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The report offers a rare company-level view of how agent use and hiring can change together at an AI developer. Its value is as an early operational case study; the evidence does not support treating Anthropic’s internal pattern as a forecast for the whole labor market.",
+      "editorNote": "Primary source is Anthropic’s internal company analysis; the secondary report summarizes the same release. Company-specific findings are not generalized to the wider labor market.",
+      "cluster": [
+        {
+          "url": "https://gigazine.net/gsc_news/en/20261019-employment-at-anthropic/",
+          "source": "GIGAZINE",
+          "title": "Anthropic has discovered that AI is working six times harder than humans, and employees’ jobs have shifted to “supervising the AI.”"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.anthropic.com/research/employment-at-anthropic",
+          "source": "Anthropic",
+          "title": "How employment is changing at Anthropic",
+          "publishedAt": "2026-10-16"
+        },
+        {
+          "id": 2,
+          "url": "https://gigazine.net/gsc_news/en/20261019-employment-at-anthropic/",
+          "source": "GIGAZINE",
+          "title": "Anthropic has discovered that AI is working six times harder than humans, and employees’ jobs have shifted to “supervising the AI.”",
+          "publishedAt": "2026-10-19"
+        }
+      ],
+      "tags": [
+        "Anthropic",
+        "labor",
+        "AI agents"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "deepseek-search-fetch-api-pricing",
+      "headline": "Search & Fetch",
+      "dek": "DeepSeek opened Search and Fetch APIs and set usage-based pricing at $0.75 per 1,000 successful requests for each endpoint.",
+      "type": "BRIEF",
+      "readMinutes": 4,
+      "tldr": [
+        "DeepSeek’s Search and Fetch endpoints are priced at $0.75 per 1,000 successful requests each, according to its API documentation.",
+        "The company’s documentation says requests through DeepSeek Harness, Claude Code, and Codex remain free until November 1, 2026.",
+        "The documentation describes API access and billing terms; it does not establish how frequently agent applications will call the services."
+      ],
+      "body": [
+        {
+          "text": "DeepSeek’s developer documentation describes a Search API that returns web results and a Fetch API that retrieves page content. The two endpoints give developers direct retrieval tools to connect to applications and agents.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The documentation lists each endpoint at $0.75 per 1,000 successful requests. It says the fee applies to successful requests rather than attempts, and the published terms distinguish Search from Fetch usage.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "DeepSeek says use through DeepSeek Harness, Claude Code, and Codex is free until November 1, 2026, after which per-request billing begins. The available material does not quantify how many calls typical agent workflows will make or what their resulting costs will be.",
+          "citations": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "The change makes retrieval a separately priced component of an AI application rather than an opaque bundled feature. Adoption, request volumes, and the effect on total agent costs remain unmeasured in the announcement and independent coverage reviewed here.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Separately priced Search and Fetch calls make retrieval spend more visible to developers building tool-using agents. The listed unit price is clear, while the impact on application economics will depend on usage patterns that are not yet documented.",
+      "editorNote": "The official documentation is the primary source for endpoint features and fees. Yahoo Finance and Startup Fortune independently reported the launch; actual customer usage and cost impact remain unknown.",
+      "cluster": [
+        {
+          "url": "https://finance.yahoo.com/technology/ai/articles/deepseek-monetizes-agent-retrieval-layer-185236272.html",
+          "source": "Yahoo Finance",
+          "title": "DeepSeek Monetizes the Agent Retrieval Layer at $0.75 per 1,000 Calls. Every Competitor Charges at Least $5."
+        },
+        {
+          "url": "https://startupfortune.com/deepseek-opens-its-search-and-fetch-apis-at-075-per-1000-calls/",
+          "source": "Startup Fortune",
+          "title": "DeepSeek Opens Its Search and Fetch APIs at $0.75 per 1,000 Calls"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://api-docs.deepseek.com/guides/search/",
+          "source": "DeepSeek",
+          "title": "Search & Fetch",
+          "publishedAt": "2026-10-17"
+        },
+        {
+          "id": 2,
+          "url": "https://finance.yahoo.com/technology/ai/articles/deepseek-monetizes-agent-retrieval-layer-185236272.html",
+          "source": "Yahoo Finance",
+          "title": "DeepSeek Monetizes the Agent Retrieval Layer at $0.75 per 1,000 Calls. Every Competitor Charges at Least $5.",
+          "publishedAt": "2026-10-18"
+        },
+        {
+          "id": 3,
+          "url": "https://startupfortune.com/deepseek-opens-its-search-and-fetch-apis-at-075-per-1000-calls/",
+          "source": "Startup Fortune",
+          "title": "DeepSeek Opens Its Search and Fetch APIs at $0.75 per 1,000 Calls",
+          "publishedAt": "2026-10-18"
+        }
+      ],
+      "tags": [
+        "DeepSeek",
+        "AI infrastructure",
+        "APIs"
+      ],
+      "confidence": "medium"
     }
   ]
 }

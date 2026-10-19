@@ -1,10 +1,10 @@
 {
   "date": "2026-10-19",
-  "generatedAt": "2026-10-19T07:04:00+09:00",
+  "generatedAt": "2026-10-19T19:04:31+09:00",
   "vertical": "geo",
   "lang": "en",
   "title": "Geopolitics: Ukraine’s drone campaign and satellite access",
-  "summary": "Two developments have independent reporting: Ukraine’s large drone attack amid a public dispute with Washington, and restrictions affecting military use of Starlink/Starshield. Other collected conflict headlines on winter energy attacks and Iran were not expanded because independent corroboration of the specific claims was not established in the reviewed source set.",
+  "summary": "기존 Ukraine 드론 공격과 Starlink 군사 이용 제한 보도를 유지하고, 프랑스 정부의 시위 대응과 Human Rights Watch의 Mali 민간인 학대 조사 결과를 추가했다. Mali 관련 주장은 보고서와 보도에 귀속했으며 사법적으로 확정된 사실처럼 서술하지 않았다.",
   "stories": [
     {
       "slug": "ukraine-drone-attack-us-zelensky-dispute",
@@ -146,6 +146,164 @@
       ],
       "confidence": "medium",
       "publication": "scheduled"
+    },
+    {
+      "slug": "macron-keeps-interior-minister-after-protest-violence",
+      "headline": "Macron rejects interior minister’s resignation as rioting and looting expose policing failures",
+      "dek": "The French president kept Laurent Nuñez in office and called for a response to security and intelligence failures after weekend unrest.",
+      "type": "DEEP",
+      "readMinutes": 5,
+      "tldr": [
+        "Emmanuel Macron rejected Interior Minister Laurent Nuñez’s offer to resign after rioting and looting during nationwide protests.",
+        "Macron’s office said he asked Nuñez to remain and address police needs following violence in several cities.",
+        "The government’s response to the unrest and the underlying cost-of-living and school-funding grievances remain unresolved."
+      ],
+      "body": [
+        {
+          "text": "French President Emmanuel Macron rejected Interior Minister Laurent Nuñez’s offer to resign after weekend rioting and looting, according to the Élysée and reports from AP and Al Jazeera. Macron asked the minister to stay and respond to police needs.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The violence followed nationwide demonstrations over the cost of living and conditions in schools. Reports described fires and looting in several cities after a day that included large demonstrations, while accounts differ in how they characterize the balance between peaceful marches and violent incidents.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Macron’s decision shifts the immediate focus toward the government’s handling of security and intelligence failures rather than a cabinet change. Al Jazeera reported that Macron acknowledged failures; AP described the offer of resignation and his request that Nuñez remain in office.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The minister remains in place, but the public-order response and the political demands behind the protests are still in dispute. The reporting does not establish whether retaining the minister will alter police operations or reduce the unrest.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The episode tests the French government’s ability to respond to street violence while maintaining political accountability for policing. It links immediate security decisions to longer-running disputes over living costs and public services, with the government’s next steps still unclear.",
+      "editorNote": "Macron’s decision and the resignation offer are cross-checked across AP and Al Jazeera. Protest motives and the extent of violence are attributed to the reporting; no single characterization is treated as settled.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/19/frances-macron-declines-ministers-resignation-after-violent-protests?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "France’s Macron declines minister’s resignation after violent protests"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/75825aafc5412ae389c6d41443b4082e",
+          "source": "Associated Press",
+          "title": "Macron rejects interior minister’s resignation as rioting and looting expose policing failures",
+          "publishedAt": "2026-10-19"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/news/2026/10/19/frances-macron-declines-ministers-resignation-after-violent-protests?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "France’s Macron declines minister’s resignation after violent protests",
+          "publishedAt": "2026-10-19"
+        }
+      ],
+      "tags": [
+        "France",
+        "civil unrest",
+        "policing"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "mali-hrw-report-civilian-abuses-by-military-and-armed-groups",
+      "headline": "Mali: Military Attacks on Civilians, Insurgent Abuses",
+      "dek": "Human Rights Watch says Malian forces and armed groups committed abuses against civilians amid renewed fighting.",
+      "type": "DEEP",
+      "readMinutes": 5,
+      "tldr": [
+        "Human Rights Watch reported civilian deaths and injuries in attacks and custody involving Malian forces and Russia-controlled Africa Corps.",
+        "The organization also described abuses by opposition armed groups and separatist fighters.",
+        "The findings are based on the rights group’s investigation, and independent access to affected areas remains constrained."
+      ],
+      "body": [
+        {
+          "text": "Human Rights Watch published a report alleging that Mali’s military and the Russia-controlled Africa Corps killed and wounded civilians in attacks and while people were in custody. The organization said the conduct violated international humanitarian law.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The report also describes abuses by armed groups and separatist fighters. Al Jazeera’s account of the findings likewise attributes allegations against both government-aligned forces and opposition groups to Human Rights Watch.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The claims concern renewed fighting and an intensified military campaign. Human Rights Watch said it documented incidents through its investigation; the available reporting does not provide an independent, comprehensive count of civilian casualties across the conflict.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The allegations raise questions about civilian protection and accountability for all parties. The claims have not been adjudicated in the sources reviewed, and access restrictions and the security environment leave the full scale and responsibility for individual incidents open.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The report places civilian protection and accountability at the center of Mali’s security campaign, where state forces, allied foreign fighters, and opposition armed groups are all accused of abuses. Distinguishing documented incidents from the broader conflict-wide picture will require continued independent access and investigation.",
+      "editorNote": "Human Rights Watch is the primary source for the investigation; Al Jazeera independently reported its findings. Allegations remain attributed and are not presented as judicial determinations.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/19/malis-military-and-armed-groups-committing-abuses-against-civilians-hrw?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Mali’s military and armed groups committing abuses against civilians: HRW"
+        },
+        {
+          "url": "https://www.marketscreener.com/news/mali-forces-russian-backers-kill-scores-of-civilians-in-drone-strikes-report-says-ce785cdad089f32c",
+          "source": "Reuters via MarketScreener",
+          "title": "Mali forces, Russian backers kill scores of civilians in drone strikes, report says"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.hrw.org/news/2026/10/19/mali-military-attacks-on-civilians-insurgent-abuses",
+          "source": "Human Rights Watch",
+          "title": "Mali: Military Attacks on Civilians, Insurgent Abuses",
+          "publishedAt": "2026-10-19"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/news/2026/10/19/malis-military-and-armed-groups-committing-abuses-against-civilians-hrw?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Mali’s military and armed groups committing abuses against civilians: HRW",
+          "publishedAt": "2026-10-19"
+        },
+        {
+          "id": 3,
+          "url": "https://www.marketscreener.com/news/mali-forces-russian-backers-kill-scores-of-civilians-in-drone-strikes-report-says-ce785cdad089f32c",
+          "source": "Reuters via MarketScreener",
+          "title": "Mali forces, Russian backers kill scores of civilians in drone strikes, report says",
+          "publishedAt": "2026-10-19"
+        }
+      ],
+      "tags": [
+        "Mali",
+        "civilian protection",
+        "Human Rights Watch"
+      ],
+      "confidence": "medium"
     }
   ]
 }

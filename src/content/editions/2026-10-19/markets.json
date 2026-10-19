@@ -1,10 +1,10 @@
 {
   "date": "2026-10-19",
-  "generatedAt": "2026-10-19T07:04:00+09:00",
+  "generatedAt": "2026-10-19T19:04:31+09:00",
   "vertical": "markets",
   "lang": "en",
   "title": "Markets: AI infrastructure debt tests risk appetite",
-  "summary": "One multi-outlet market development met the evidence threshold: the technology selloff and repricing of debt-backed AI infrastructure spending. Other market-feed items were opinion, personal-finance columns, stale releases or single-outlet notes; the hedge-fund bond-shock warning was not given a separate story because no independent report of that specific warning was confirmed.",
+  "summary": "기존 미국 기술주 매도세 보도에 중국 3분기 GDP 4.5% 성장과 프랑스 시위 이후 주식·채권·유로 약세를 추가했다. 중국 수치는 국가통계국과 AP·Reuters를 대조했고, 프랑스 장중 지수 수치는 보도 시점 차이를 함께 표시했다.",
   "stories": [
     {
       "slug": "ai-infrastructure-debt-tech-selloff",
@@ -75,6 +75,192 @@
       ],
       "confidence": "medium",
       "publication": "scheduled"
+    },
+    {
+      "slug": "china-q3-gdp-growth-rebounds-to-4-5-percent",
+      "headline": "China’s economy accelerated in the July-September quarter on robust exports",
+      "dek": "Official data put third-quarter growth at 4.5% year over year, with exports helping offset domestic weakness.",
+      "type": "DATA",
+      "readMinutes": 4,
+      "tldr": [
+        "China’s economy grew 4.5% year over year in the July-September quarter, according to official data reported by AP and Reuters.",
+        "The pace was faster than the second quarter’s 4.3% growth, while January-September growth was 4.8% in the National Bureau of Statistics release.",
+        "The headline growth figure does not resolve questions about the durability of exports or the strength of domestic demand."
+      ],
+      "body": [
+        {
+          "text": "China’s gross domestic product grew 4.5% year over year in the July-September quarter, the National Bureau of Statistics said. The result was above the prior quarter’s 4.3% pace and was reported by AP and Reuters.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "The statistics bureau said growth for the first three quarters combined was 4.8%. AP reported that robust exports helped support the quarterly result as China remained near its official full-year growth target.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The data show aggregate output growth, not that household demand or the property sector has recovered. The bureau’s release and the news reports describe continuing challenges, while the available figures do not isolate how durable export support will be.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "The release gives policymakers a stronger quarterly headline, but the composition of growth remains important for trade partners and domestic policy decisions. Future data will show whether export strength persists and whether other parts of the economy contribute more evenly.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "China’s 4.5% quarterly growth rate provides a fresh reading on demand and export momentum in the world’s second-largest economy. The headline can inform trade and policy assessments, while its implications depend on the balance between exports and still-uncertain domestic demand.",
+      "editorNote": "Headline is AP’s verbatim title. The growth rates are cross-checked against China’s National Bureau of Statistics, AP, and Reuters reporting; the reporting attributes export support without treating it as proof of broad recovery.",
+      "cluster": [
+        {
+          "url": "https://english.www.gov.cn/archive/statistics/202610/19/content_WS6ad5a59bc6d00ca5f9a0dc86.html",
+          "source": "State Council of the People’s Republic of China",
+          "title": "China’s GDP expands 4.5 pct year on year in Q3"
+        },
+        {
+          "url": "https://apnews.com/article/71354a055a412ef13e4e2edad070b4a5",
+          "source": "Associated Press",
+          "title": "China’s economy accelerated in the July-September quarter on robust exports"
+        },
+        {
+          "url": "https://www.marketscreener.com/news/china-s-q3-gdp-growth-accelerates-to-4-5-beating-f-cast-ce785cdad181f423",
+          "source": "Reuters via MarketScreener",
+          "title": "China’s Q3 GDP growth accelerates to 4.5%, beating forecast"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.stats.gov.cn/english/PressRelease/202610/t20261019_1965619.html",
+          "source": "National Bureau of Statistics of China",
+          "title": "National Economy was Generally Stable with New Achievement Made in High-Quality Development in the First Three Quarters",
+          "publishedAt": "2026-10-19"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/71354a055a412ef13e4e2edad070b4a5",
+          "source": "Associated Press",
+          "title": "China’s economy accelerated in the July-September quarter on robust exports",
+          "publishedAt": "2026-10-19"
+        },
+        {
+          "id": 3,
+          "url": "https://www.marketscreener.com/news/china-s-q3-gdp-growth-accelerates-to-4-5-beating-f-cast-ce785cdad181f423",
+          "source": "Reuters via MarketScreener",
+          "title": "China’s Q3 GDP growth accelerates to 4.5%, beating forecast",
+          "publishedAt": "2026-10-19"
+        }
+      ],
+      "tags": [
+        "China",
+        "GDP",
+        "exports"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "france-unrest-weighs-on-stocks-bonds-and-euro",
+      "headline": "French unrest compounds debt crisis fears. Paris-listed stocks, bonds and the euro fall",
+      "dek": "French equities and the euro weakened as protests added to concerns about the country’s fiscal outlook.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "French shares and the euro fell on October 19 after weekend protests, while government bond yields rose in early trading.",
+        "Reuters and AP reported that the market reaction came amid concerns about France’s fiscal position and political uncertainty.",
+        "The available reporting does not establish how long the price moves will last or isolate the effect of protests from broader market factors."
+      ],
+      "body": [
+        {
+          "text": "French shares and the euro weakened on Monday after violent weekend protests, while French government bond yields rose. CNBC, AP, and Reuters reported the market move against a backdrop of concern about France’s debt and political outlook.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Reuters reported that the CAC 40 was down 1.02% after nationwide protests, while AP reported a 1.3% decline in early European trading. The figures reflect different reports and times during the session rather than a single closing value.",
+          "citations": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "The protests added to uncertainty around the government’s ability to manage public finances and pass a budget, but the reports also described broader market influences. The observed moves do not by themselves establish that unrest was the sole cause of the changes in prices or yields.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "The immediate question is whether political disruption will persist and complicate fiscal decisions, or whether markets will treat the reaction as short-lived. The session’s later prices and the government’s budget path will be needed to assess whether the move marks a lasting repricing.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "The episode shows how domestic political unrest can interact with existing sovereign-debt concerns in a major euro-area economy. The market response was visible in equities, bonds, and currency trading, but its duration and the relative contribution of each factor remain open.",
+      "editorNote": "Market direction is corroborated by CNBC, AP, and Reuters. Intraday CAC 40 figures differ by outlet and timestamp, so both are time-qualified; no investment advice or price forecast is included.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/494fbe4361a0360b2f6368e7a6d8f058",
+          "source": "Associated Press",
+          "title": "European stocks slip led by France, and oil falls on Trump’s Russian sanctions waiver"
+        },
+        {
+          "url": "https://www.investing.com/news/stock-market-news/french-stocks-slide-after-violent-protests-4956498",
+          "source": "Reuters via Investing.com",
+          "title": "French stocks slide after violent protests"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/10/19/france-protests-bond-yields-markets.html",
+          "source": "CNBC",
+          "title": "French unrest compounds debt crisis fears. Paris-listed stocks, bonds and the euro fall"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/19/france-protests-bond-yields-markets.html",
+          "source": "CNBC",
+          "title": "French unrest compounds debt crisis fears. Paris-listed stocks, bonds and the euro fall",
+          "publishedAt": "2026-10-19"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/stock-market-news/french-stocks-slide-after-violent-protests-4956498",
+          "source": "Reuters via Investing.com",
+          "title": "French stocks slide after violent protests",
+          "publishedAt": "2026-10-19"
+        },
+        {
+          "id": 3,
+          "url": "https://apnews.com/article/494fbe4361a0360b2f6368e7a6d8f058",
+          "source": "Associated Press",
+          "title": "European stocks slip led by France, and oil falls on Trump’s Russian sanctions waiver",
+          "publishedAt": "2026-10-19"
+        }
+      ],
+      "tags": [
+        "France",
+        "sovereign debt",
+        "markets"
+      ],
+      "confidence": "high"
     }
   ]
 }

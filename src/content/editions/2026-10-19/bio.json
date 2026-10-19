@@ -1,10 +1,10 @@
 {
   "date": "2026-10-19",
-  "generatedAt": "2026-10-19T07:04:00+09:00",
+  "generatedAt": "2026-10-19T19:04:31+09:00",
   "vertical": "bio",
   "lang": "en",
   "title": "Bio: peptide compounding policy under review",
-  "summary": "One independently corroborated regulatory development cleared the publication threshold: FDA and HHS submitted an interim peptide-compounding policy for White House review. CAR-T, N-acetylcysteine and NAD+ items in this collection were predominantly single papers or registry records, which do not qualify as stories; no separate, multi-outlet clinical or regulatory development was confirmed.",
+  "summary": "One independently corroborated regulatory development remains publishable: FDA and HHS submitted an interim peptide-compounding policy for White House review. The newly collected Gilead Phase 2 ulcerative-colitis report appeared in STAT without a second independent outlet, so it was excluded; CAR-T, N-acetylcysteine and NAD+ candidates were predominantly single papers or registry records.",
   "stories": [
     {
       "slug": "fda-peptide-compounding-policy-white-house-review",

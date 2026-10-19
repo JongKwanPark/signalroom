@@ -1,10 +1,10 @@
 {
   "date": "2026-10-19",
-  "generatedAt": "2026-10-19T07:04:00+09:00",
+  "generatedAt": "2026-10-19T19:04:31+09:00",
   "vertical": "markets",
   "lang": "ko",
-  "title": "Markets: AI 인프라 부채에 대한 위험 재평가",
-  "summary": "다중 매체 보도로 확인된 시장 동향 한 건을 담았다. 기술주 매도와 부채 기반 AI 인프라 투자에 대한 재평가다. 그 밖의 시장 피드는 의견·개인 재무 상담·시점이 오래된 발표 또는 단일 매체 보도였으며, 헤지펀드의 채권시장 충격 경고는 별도 독립 보도를 확인하지 못해 단독 기사로 만들지 않았다.",
+  "title": "Markets: AI 인프라 부채와 기술주 매도세",
+  "summary": "기존 미국 기술주 매도세 보도에 중국 3분기 GDP 4.5% 성장과 프랑스 시위 이후 주식·채권·유로 약세를 추가했다. 중국 수치는 국가통계국과 AP·Reuters를 대조했고, 프랑스 장중 지수 수치는 보도 시점 차이를 함께 표시했다.",
   "stories": [
     {
       "slug": "ai-infrastructure-debt-tech-selloff-ko",
@@ -75,6 +75,192 @@
         "technology stocks"
       ],
       "confidence": "medium"
+    },
+    {
+      "slug": "china-q3-gdp-growth-rebounds-to-4-5-percent-ko",
+      "headline": "중국 경제, 견조한 수출에 힘입어 7~9월 분기 성장 가속",
+      "dek": "공식 자료에 따르면 3분기 성장률은 전년 대비 4.5%로 높아졌고, 수출이 국내 수요 약세를 일부 상쇄했다.",
+      "type": "DATA",
+      "readMinutes": 4,
+      "tldr": [
+        "AP와 Reuters 보도에 따르면 중국 경제는 7~9월 분기 전년 대비 4.5% 성장했다.",
+        "국가통계국 자료상 분기 성장률은 2분기 4.3%에서 높아졌고, 1~9월 누적 성장률은 4.8%였다.",
+        "성장률 headline만으로 수출의 지속성이나 국내 수요의 강도를 판단할 수는 없다."
+      ],
+      "body": [
+        {
+          "text": "중국 국가통계국은 2026년 7~9월 국내총생산이 전년 동기보다 4.5% 성장했다고 발표했다. AP와 Reuters는 이를 전 분기의 4.3%보다 높은 결과로 보도했다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "통계국은 1~3분기 누적 성장률이 4.8%라고 밝혔다. AP 보도는 중국이 공식 연간 성장 목표에 가까워지는 과정에서 견조한 수출이 분기 결과를 뒷받침했다고 설명했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "GDP 수치는 총산출 증가를 보여주지만 가계 수요나 부동산 부문이 회복됐다는 뜻은 아니다. 통계국 발표와 보도는 계속되는 경제적 난제를 언급하며, 수출 지원이 얼마나 지속될지는 아직 알 수 없다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "이번 발표는 정책당국에 더 나은 분기 headline을 제공하지만 성장의 구성도 중요하다. 향후 통계에서 수출 강세가 지속되는지, 경제의 다른 부문이 더 고르게 기여하는지 확인해야 한다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "중국의 분기 성장률 4.5%는 세계 2위 경제의 수요와 수출 흐름을 새로 보여주는 지표다. 무역 상대국과 정책 판단에 영향을 줄 수 있지만, 의미는 수출과 아직 불확실한 내수의 균형에 달려 있다.",
+      "editorNote": "헤드라인은 AP 제목을 그대로 사용했다. 성장률은 중국 국가통계국, AP, Reuters 보도로 대조했으며 수출이 성장을 뒷받침했다는 보도를 광범위한 경기 회복의 증거로 확대하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://english.www.gov.cn/archive/statistics/202610/19/content_WS6ad5a59bc6d00ca5f9a0dc86.html",
+          "source": "State Council of the People’s Republic of China",
+          "title": "China’s GDP expands 4.5 pct year on year in Q3"
+        },
+        {
+          "url": "https://apnews.com/article/71354a055a412ef13e4e2edad070b4a5",
+          "source": "Associated Press",
+          "title": "China’s economy accelerated in the July-September quarter on robust exports"
+        },
+        {
+          "url": "https://www.marketscreener.com/news/china-s-q3-gdp-growth-accelerates-to-4-5-beating-f-cast-ce785cdad181f423",
+          "source": "Reuters via MarketScreener",
+          "title": "China’s Q3 GDP growth accelerates to 4.5%, beating forecast"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.stats.gov.cn/english/PressRelease/202610/t20261019_1965619.html",
+          "source": "National Bureau of Statistics of China",
+          "title": "National Economy was Generally Stable with New Achievement Made in High-Quality Development in the First Three Quarters",
+          "publishedAt": "2026-10-19"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/71354a055a412ef13e4e2edad070b4a5",
+          "source": "Associated Press",
+          "title": "China’s economy accelerated in the July-September quarter on robust exports",
+          "publishedAt": "2026-10-19"
+        },
+        {
+          "id": 3,
+          "url": "https://www.marketscreener.com/news/china-s-q3-gdp-growth-accelerates-to-4-5-beating-f-cast-ce785cdad181f423",
+          "source": "Reuters via MarketScreener",
+          "title": "China’s Q3 GDP growth accelerates to 4.5%, beating forecast",
+          "publishedAt": "2026-10-19"
+        }
+      ],
+      "tags": [
+        "China",
+        "GDP",
+        "exports"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "france-unrest-weighs-on-stocks-bonds-and-euro-ko",
+      "headline": "프랑스 시위로 부채 위기 우려가 커지며 파리 주식·채권·유로 하락",
+      "dek": "시위가 프랑스 재정 전망에 대한 우려를 더하면서 프랑스 주식과 유로가 약세를 보였다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "10월 19일 주말 시위 이후 프랑스 주식과 유로가 약세를 보였고, 장 초반 국채 수익률은 상승했다.",
+        "Reuters와 AP는 프랑스의 재정 상황과 정치적 불확실성에 대한 우려 속에서 시장이 움직였다고 전했다.",
+        "가격 움직임이 얼마나 지속될지, 시위 외 요인이 얼마나 작용했는지는 현재 보도로 확정할 수 없다."
+      ],
+      "body": [
+        {
+          "text": "주말 폭력 시위 뒤 월요일 프랑스 주식과 유로가 약세를 보였고 프랑스 국채 수익률은 상승했다. CNBC, AP, Reuters는 프랑스 부채와 정치 전망에 대한 우려 속에서 나타난 시장 움직임으로 보도했다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Reuters는 전국 시위 뒤 CAC 40이 1.02% 하락했다고 전했고 AP는 유럽 장 초반 1.3% 하락을 보도했다. 두 수치는 거래 시간대가 다른 장중 보도이며 종가를 뜻하지 않는다.",
+          "citations": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "시위는 정부의 재정 운용과 예산 통과 능력에 대한 불확실성을 더했지만, 보도는 더 넓은 시장 요인도 함께 언급했다. 관측된 움직임만으로 소요 사태가 가격과 수익률 변화의 유일한 원인이라고 단정할 수 없다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "정치적 혼란이 지속돼 재정 결정이 어려워질지, 시장이 이를 단기 반응으로 볼지가 당장의 쟁점이다. 움직임이 지속적인 재평가인지 판단하려면 이후 거래 가격과 정부의 예산 경로를 확인해야 한다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "이번 사례는 국내 정치 불안이 유로존 주요국의 기존 국가부채 우려와 맞물릴 수 있음을 보여준다. 주식·채권·외환 시장에서 반응이 나타났지만 지속 기간과 각 요인의 기여도는 아직 확정되지 않았다.",
+      "editorNote": "시장 방향은 CNBC, AP, Reuters가 교차 보도했다. 장중 CAC 40 수치는 매체별 시점 차이를 명시했고 투자 조언이나 가격 전망은 넣지 않았다.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/494fbe4361a0360b2f6368e7a6d8f058",
+          "source": "Associated Press",
+          "title": "European stocks slip led by France, and oil falls on Trump’s Russian sanctions waiver"
+        },
+        {
+          "url": "https://www.investing.com/news/stock-market-news/french-stocks-slide-after-violent-protests-4956498",
+          "source": "Reuters via Investing.com",
+          "title": "French stocks slide after violent protests"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/10/19/france-protests-bond-yields-markets.html",
+          "source": "CNBC",
+          "title": "French unrest compounds debt crisis fears. Paris-listed stocks, bonds and the euro fall"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/19/france-protests-bond-yields-markets.html",
+          "source": "CNBC",
+          "title": "French unrest compounds debt crisis fears. Paris-listed stocks, bonds and the euro fall",
+          "publishedAt": "2026-10-19"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/stock-market-news/french-stocks-slide-after-violent-protests-4956498",
+          "source": "Reuters via Investing.com",
+          "title": "French stocks slide after violent protests",
+          "publishedAt": "2026-10-19"
+        },
+        {
+          "id": 3,
+          "url": "https://apnews.com/article/494fbe4361a0360b2f6368e7a6d8f058",
+          "source": "Associated Press",
+          "title": "European stocks slip led by France, and oil falls on Trump’s Russian sanctions waiver",
+          "publishedAt": "2026-10-19"
+        }
+      ],
+      "tags": [
+        "France",
+        "sovereign debt",
+        "markets"
+      ],
+      "confidence": "high"
     }
   ]
 }

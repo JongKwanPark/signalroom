@@ -1,10 +1,10 @@
 {
   "date": "2026-10-19",
-  "generatedAt": "2026-10-19T07:04:00+09:00",
+  "generatedAt": "2026-10-19T19:04:31+09:00",
   "vertical": "ai",
   "lang": "ko",
   "title": "AI: 안전 규정, 에이전트 사고와 웹 접근",
-  "summary": "오늘 판에는 독립 보도로 교차 확인된 세 가지 동향을 담았다. Anthropic의 AI 안전 법안 초안, OpenAI 에이전트 사고 추가 공개, 웹사이트의 AI 에이전트 접근 제한이다. 그 밖의 수집 항목은 제품·논문 소개 성격이거나 별도 보도가 확인되지 않아 제외했다. DeepSeek V4.1 Flash 출시와 Anthropic 고용 보고서는 수집 자료에서 독립적인 추가 보도를 확인하지 못해 기사화하지 않았다.",
+  "summary": "오늘 판에는 다중 출처로 확인된 Anthropic의 AI 안전 법안 초안, OpenAI 에이전트 사고 추가 공개, 웹사이트의 AI 에이전트 접근 제한에 더해 Anthropic의 고용 변화·공익 기금과 DeepSeek 검색·가져오기 API 출시를 담았다. Anthropic 고용 분석은 회사 내부 사례로 한정해 서술했고, API 실제 사용량과 비용 영향은 아직 확인되지 않았다.",
   "stories": [
     {
       "slug": "anthropic-draft-ai-bill-intervention-thresholds-ko",
@@ -223,6 +223,247 @@
         "AI agents",
         "web access",
         "platform policy"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "anthropic-public-benefit-fund-equity-commitment-ko",
+      "headline": "Anthropic, 공익을 위한 투자",
+      "dek": "Anthropic은 주주 승인을 전제로 회사 지분 5%를 새 기금에 배정한다고 밝혔다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "Anthropic은 새 공익 기금을 만들고 주주 승인을 전제로 회사 지분 5%를 배정한다고 발표했다.",
+        "회사는 기준 가치에서 기업가치가 50% 오를 때마다 이사회 재량으로 지분 2%를 추가할 수 있다고 밝혔다.",
+        "기금의 상세한 지배구조와 가치 산정 기준은 아직 공개되지 않았다."
+      ],
+      "body": [
+        {
+          "text": "Anthropic은 회사 지분 5%를 Anthropic Public Benefit Fund에 배정하겠다고 밝혔다. 이 발표는 10월 18일 공개됐으며 공익 목적 사업을 지원할 새 조직을 설명했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "회사는 정해진 기준 가치보다 기업가치가 50% 오를 때마다 이사회 재량으로 지분 2%를 추가할 수 있다고 했다. 기준 가치와 세부 산정 방식은 아직 공개되지 않았다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Anthropic은 비영리단체 기부와 특정 집단에 대한 직접 지원을 가능한 사용처로 들었다. 기금은 회사가 전액 소유한 LLC로 만들며, 보유 지분을 로비나 정치 기부에 사용하지 않겠다고 밝혔다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "지배구조, 배분 기준, 실제 지급 시점은 아직 정해지지 않았다. 회사는 앞으로 몇 달 안에 세부사항을 추가 공개하겠다고 했으며, 현재 발표만으로 완성된 기부 프로그램이 확정된 것은 아니다.",
+          "citations": [
+            1,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "이번 계획은 빠르게 성장하는 AI 기업 지분 일부를 공익 지출과 연결하고, 기업가치 상승에 따라 그 비중이 늘어날 수 있도록 설계됐다. 실제 의미는 아직 공개되지 않은 지배구조와 배분 규칙에 달려 있다.",
+      "editorNote": "회사 발표를 AP와 CNBC 보도로 대조했다. 지분 배정은 주주 승인 조건부이며, 추가 배정은 재량 사항이고 지배구조 세부 내용은 미정이다.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/8181332fbbc48f2ef9447cef096f14de",
+          "source": "Associated Press",
+          "title": "Anthropic commits 5% of its stock to a new “public benefit” fund"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/10/18/anthropic-ai-public-benefit-fund.html",
+          "source": "CNBC",
+          "title": "Anthropic commits 5% of shares to new public benefit fund that could address AI job disruption"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.anthropic.com/news/public-benefit-fund",
+          "source": "Anthropic",
+          "title": "Investing in the public benefit",
+          "publishedAt": "2026-10-18"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/8181332fbbc48f2ef9447cef096f14de",
+          "source": "Associated Press",
+          "title": "Anthropic commits 5% of its stock to a new “public benefit” fund",
+          "publishedAt": "2026-10-18"
+        },
+        {
+          "id": 3,
+          "url": "https://www.cnbc.com/2026/10/18/anthropic-ai-public-benefit-fund.html",
+          "source": "CNBC",
+          "title": "Anthropic commits 5% of shares to new public benefit fund that could address AI job disruption",
+          "publishedAt": "2026-10-18"
+        }
+      ],
+      "tags": [
+        "Anthropic",
+        "AI governance",
+        "philanthropy"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "anthropic-internal-employment-shifts-ai-agent-use-ko",
+      "headline": "Anthropic에서 고용은 어떻게 변하고 있는가",
+      "dek": "회사 내부 자료에서는 주니어 채용 비중 변화와 에이전트 활동 증가가 나타났지만, 이를 전체 경제의 효과로 볼 수는 없다.",
+      "type": "DEEP",
+      "readMinutes": 5,
+      "tldr": [
+        "Anthropic 분석에 따르면 회사 내 AI 에이전트 활동이 늘어나는 동안 주니어 기술직 채용 비중이 줄었다.",
+        "회사 보고서에 따르면 8월 Anthropic의 대화형 AI 에이전트 사용 시간은 직원 근무 시간의 6배를 넘었다.",
+        "이번 결과는 한 AI 기업 사례이며 경제 전반의 고용 변화를 입증하지 않는다."
+      ],
+      "body": [
+        {
+          "text": "Anthropic은 회사 내부의 AI 사용이 업무를 어떻게 바꿨는지 분석한 보고서를 공개했다. 이 보고서는 사내 고용 자료와 AI 사용 기록, 직원 설문, 인터뷰를 결합한 사례 연구로, 업계 전체를 대표하는 노동시장 조사와는 다르다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "회사는 에이전트 사용이 늘어나는 동안 주니어 기술직 채용 비중이 낮아졌다고 밝혔다. 보고서에 따르면 8월에는 Anthropic의 대화형 AI 에이전트 사용 시간이 직원 근무 시간을 6대 1로 앞섰다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Anthropic은 직원이 AI 도구를 도입하면서 코딩, 영업, 계약 처리 등 여러 업무 영역에서 직원 1인당 산출이 늘었다고 보고했다. 이 분석은 회사 내부 업무와 측정 방식에 관한 것이며, 같은 생산성 변화가 다른 고용주에게도 일어났음을 보여주지는 않는다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "보고서는 에이전트 산출을 제한하는 요인으로 사람의 주의력을 들었지만, 고용에 관한 결과는 한 기업의 표본과 방법론에 한정된다. 주니어 채용 변화가 다른 기업에서도 지속적으로 나타날지는 아직 확인되지 않았다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이 보고서는 AI 개발사에서 에이전트 사용과 채용이 어떻게 함께 변할 수 있는지 보여주는 드문 기업 단위 사례다. 초기 운영 사례로는 유용하지만 Anthropic 내부의 변화를 노동시장 전체의 전망으로 일반화할 근거는 아니다.",
+      "editorNote": "1차 출처는 Anthropic의 사내 분석이며, 2차 보도는 같은 발표를 요약한다. 회사 단위 결과를 노동시장 전체로 일반화하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://gigazine.net/gsc_news/en/20261019-employment-at-anthropic/",
+          "source": "GIGAZINE",
+          "title": "Anthropic has discovered that AI is working six times harder than humans, and employees’ jobs have shifted to “supervising the AI.”"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.anthropic.com/research/employment-at-anthropic",
+          "source": "Anthropic",
+          "title": "How employment is changing at Anthropic",
+          "publishedAt": "2026-10-16"
+        },
+        {
+          "id": 2,
+          "url": "https://gigazine.net/gsc_news/en/20261019-employment-at-anthropic/",
+          "source": "GIGAZINE",
+          "title": "Anthropic has discovered that AI is working six times harder than humans, and employees’ jobs have shifted to “supervising the AI.”",
+          "publishedAt": "2026-10-19"
+        }
+      ],
+      "tags": [
+        "Anthropic",
+        "labor",
+        "AI agents"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "deepseek-search-fetch-api-pricing-ko",
+      "headline": "Search & Fetch",
+      "dek": "DeepSeek은 Search와 Fetch API를 열고 각 엔드포인트의 성공 요청 1,000건당 $0.75를 책정했다.",
+      "type": "BRIEF",
+      "readMinutes": 4,
+      "tldr": [
+        "DeepSeek 개발자 문서에 따르면 Search와 Fetch 엔드포인트는 각각 성공 요청 1,000건당 $0.75다.",
+        "회사는 DeepSeek Harness, Claude Code, Codex를 통한 요청은 2026년 11월 1일까지 무료라고 안내했다.",
+        "문서에는 API 접근과 과금 조건이 적혀 있지만 에이전트 앱이 API를 얼마나 자주 호출할지는 확인되지 않았다."
+      ],
+      "body": [
+        {
+          "text": "DeepSeek 개발자 문서는 웹 검색 결과를 반환하는 Search API와 페이지 내용을 가져오는 Fetch API를 설명한다. 두 엔드포인트는 개발자가 검색·가져오기 기능을 애플리케이션과 에이전트에 직접 연결할 수 있도록 한다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "문서에는 각 엔드포인트가 성공 요청 1,000건당 $0.75로 표시돼 있다. 요금은 시도 횟수가 아니라 성공한 요청 기준이며 Search와 Fetch 사용량을 구분한다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "DeepSeek은 DeepSeek Harness, Claude Code, Codex를 통한 사용은 2026년 11월 1일까지 무료라고 안내했다. 통상적인 에이전트 흐름에서 호출이 얼마나 발생하고 실제 비용이 어느 정도인지는 공개 자료에 수치가 없다.",
+          "citations": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "검색·가져오기 비용을 AI 애플리케이션의 별도 항목으로 파악할 수 있게 한 변화다. 채택 규모와 요청량, 전체 에이전트 비용에 미칠 영향은 발표와 현재 확인된 독립 보도만으로는 아직 측정되지 않았다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Search와 Fetch 호출에 별도 요금을 붙이면 도구형 에이전트를 만드는 개발자가 검색 비용을 더 명확히 계산할 수 있다. 단위 가격은 공개됐지만 애플리케이션 경제성에 미칠 영향은 실제 사용 패턴에 달려 있다.",
+      "editorNote": "공식 개발자 문서를 엔드포인트와 요금의 1차 출처로 삼았다. Yahoo Finance와 Startup Fortune이 출시를 별도로 보도했지만 실제 사용량과 비용 영향은 아직 알려지지 않았다.",
+      "cluster": [
+        {
+          "url": "https://finance.yahoo.com/technology/ai/articles/deepseek-monetizes-agent-retrieval-layer-185236272.html",
+          "source": "Yahoo Finance",
+          "title": "DeepSeek Monetizes the Agent Retrieval Layer at $0.75 per 1,000 Calls. Every Competitor Charges at Least $5."
+        },
+        {
+          "url": "https://startupfortune.com/deepseek-opens-its-search-and-fetch-apis-at-075-per-1000-calls/",
+          "source": "Startup Fortune",
+          "title": "DeepSeek Opens Its Search and Fetch APIs at $0.75 per 1,000 Calls"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://api-docs.deepseek.com/guides/search/",
+          "source": "DeepSeek",
+          "title": "Search",
+          "publishedAt": "2026-10-17"
+        },
+        {
+          "id": 2,
+          "url": "https://finance.yahoo.com/technology/ai/articles/deepseek-monetizes-agent-retrieval-layer-185236272.html",
+          "source": "Yahoo Finance",
+          "title": "DeepSeek Monetizes the Agent Retrieval Layer at $0.75 per 1,000 Calls. Every Competitor Charges at Least $5.",
+          "publishedAt": "2026-10-18"
+        },
+        {
+          "id": 3,
+          "url": "https://startupfortune.com/deepseek-opens-its-search-and-fetch-apis-at-075-per-1000-calls/",
+          "source": "Startup Fortune",
+          "title": "DeepSeek Opens Its Search and Fetch APIs at $0.75 per 1,000 Calls",
+          "publishedAt": "2026-10-18"
+        }
+      ],
+      "tags": [
+        "DeepSeek",
+        "AI infrastructure",
+        "APIs"
       ],
       "confidence": "medium"
     }

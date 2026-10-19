@@ -1,10 +1,10 @@
 {
   "date": "2026-10-19",
-  "generatedAt": "2026-10-19T07:04:00+09:00",
+  "generatedAt": "2026-10-19T19:04:31+09:00",
   "vertical": "geo",
   "lang": "ko",
   "title": "지정학: Ukraine 드론 공격과 위성 통신 접근",
-  "summary": "독립 보도로 교차 확인된 동향 두 건을 담았다. 미국과의 공개 갈등 속 Ukraine의 대규모 드론 공격, 군사 목적 Starlink/Starshield 이용에 영향을 준 제한이다. 겨울철 에너지 공격과 이란 관련 수집 헤드라인은 구체 주장에 대한 독립적인 교차 확인이 검토한 출처에서 이뤄지지 않아 제외했다.",
+  "summary": "기존 Ukraine 드론 공격과 Starlink 군사 이용 제한 보도를 유지하고, 프랑스 정부의 시위 대응과 Human Rights Watch의 Mali 민간인 학대 조사 결과를 추가했다. Mali 관련 주장은 보고서와 보도에 귀속했으며 사법적으로 확정된 사실처럼 서술하지 않았다.",
   "stories": [
     {
       "slug": "ukraine-drone-attack-us-zelensky-dispute-ko",
@@ -144,6 +144,164 @@
         "Starlink",
         "Starshield",
         "military communications"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "macron-keeps-interior-minister-after-protest-violence-ko",
+      "headline": "Macron, 폭동·약탈 속 치안 실패가 드러나자 내무장관 사임 반려",
+      "dek": "프랑스 대통령은 주말 소요 사태 뒤 Laurent Nuñez를 유임하고 치안·정보 실패에 대응하라고 했다.",
+      "type": "DEEP",
+      "readMinutes": 5,
+      "tldr": [
+        "Emmanuel Macron 프랑스 대통령은 전국 시위 중 발생한 폭동과 약탈 이후 Laurent Nuñez 내무장관의 사임 제의를 거부했다.",
+        "엘리제궁은 Macron이 경찰 수요에 대응하도록 Nuñez에게 유임을 요청했다고 밝혔다.",
+        "정부의 시위 대응과 생활비·학교 재정 문제를 둘러싼 불만은 아직 해결되지 않았다."
+      ],
+      "body": [
+        {
+          "text": "AP와 Al Jazeera 보도에 따르면 Emmanuel Macron 프랑스 대통령은 주말 폭동과 약탈 뒤 Laurent Nuñez 내무장관의 사임 제의를 거부했다. Macron은 장관에게 유임해 경찰 수요에 대응하도록 요청했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "폭력 사태는 생활비와 학교 여건을 둘러싼 전국 시위 뒤 이어졌다. 여러 도시에서 방화와 약탈이 발생했다는 보도가 나왔으며, 평화적 행진과 폭력 사건의 비중을 설명하는 방식은 매체별 보도에 따라 다르다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Macron의 결정으로 당장의 초점은 내각 교체보다 정부의 치안·정보 대응으로 옮겨갔다. Al Jazeera는 Macron이 실패를 인정했다고 전했고, AP는 내무장관의 사임 제의와 유임 요청을 보도했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "장관은 자리를 유지하지만 공공질서 대응과 시위의 근본 요구를 둘러싼 논쟁은 계속되고 있다. 현재 보도만으로 내무장관 유임이 경찰 운영을 바꾸거나 소요를 줄일지는 알 수 없다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 사태는 프랑스 정부가 거리 폭력에 대응하면서 치안 책임에 대한 정치적 책무를 유지할 수 있는지 시험한다. 당장의 안보 조치와 생활비·공공서비스를 둘러싼 장기 갈등이 맞물렸지만 정부의 다음 조치는 아직 불분명하다.",
+      "editorNote": "Macron의 결정과 사임 제의는 AP와 Al Jazeera 보도로 교차 확인했다. 시위 동기와 폭력 규모는 보도에 귀속했으며 단일한 서술을 확정 사실로 취급하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/19/frances-macron-declines-ministers-resignation-after-violent-protests?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "France’s Macron declines minister’s resignation after violent protests"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/75825aafc5412ae389c6d41443b4082e",
+          "source": "Associated Press",
+          "title": "Macron rejects interior minister’s resignation as rioting and looting expose policing failures",
+          "publishedAt": "2026-10-19"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/news/2026/10/19/frances-macron-declines-ministers-resignation-after-violent-protests?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "France’s Macron declines minister’s resignation after violent protests",
+          "publishedAt": "2026-10-19"
+        }
+      ],
+      "tags": [
+        "France",
+        "civil unrest",
+        "policing"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "mali-hrw-report-civilian-abuses-by-military-and-armed-groups-ko",
+      "headline": "Mali: 민간인 공격과 반군의 학대",
+      "dek": "Human Rights Watch는 Mali 정부군과 무장단체가 민간인을 상대로 학대를 저질렀다고 밝혔다.",
+      "type": "DEEP",
+      "readMinutes": 5,
+      "tldr": [
+        "Human Rights Watch는 Mali 정부군과 러시아 통제하의 Africa Corps가 공격과 구금 과정에서 민간인을 사망·부상시켰다고 보고했다.",
+        "이 단체는 반대 무장단체와 분리주의 전투원의 학대도 기록했다고 밝혔다.",
+        "이번 조사 결과는 인권단체의 조사에 근거하며, 피해 지역에 대한 독립적 접근은 여전히 제한적이다."
+      ],
+      "body": [
+        {
+          "text": "Human Rights Watch는 Mali 군과 러시아가 통제하는 Africa Corps가 공격과 구금 과정에서 민간인을 살해하고 다치게 했다는 보고서를 발표했다. 이 단체는 해당 행위가 국제인도법 위반이라고 밝혔다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "보고서는 무장단체와 분리주의 전투원의 학대도 기술했다. Al Jazeera 역시 정부 측 병력과 반대 무장단체 양쪽의 위반 주장을 Human Rights Watch 조사 결과로 귀속해 보도했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "주장은 교전이 재개되고 군사작전이 강화된 상황을 다룬다. Human Rights Watch는 자체 조사로 사건을 기록했다고 밝혔지만, 현재 보도만으로는 분쟁 전반의 민간인 사상자 수를 종합적으로 산출하기 어렵다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이 주장은 민간인 보호와 모든 당사자의 책임 문제를 제기한다. 검토한 출처에서 혐의는 법원 판단으로 확정되지 않았으며, 접근 제한과 치안 상황 때문에 사건별 책임과 전체 피해 규모는 여전히 열려 있다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 보고서는 정부군, 외국 지원 병력, 반대 무장단체 모두 민간인 학대를 저질렀다는 주장을 제기하며 Mali의 안보작전에서 민간인 보호와 책임 규명을 핵심 쟁점으로 만든다. 전체 상황을 판단하려면 독립적 접근과 추가 조사가 필요하다.",
+      "editorNote": "Human Rights Watch가 조사 내용의 1차 출처이며 Al Jazeera가 이를 별도로 보도했다. 혐의는 귀속된 주장으로 서술하고 사법 판결처럼 단정하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/19/malis-military-and-armed-groups-committing-abuses-against-civilians-hrw?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Mali’s military and armed groups committing abuses against civilians: HRW"
+        },
+        {
+          "url": "https://www.marketscreener.com/news/mali-forces-russian-backers-kill-scores-of-civilians-in-drone-strikes-report-says-ce785cdad089f32c",
+          "source": "Reuters via MarketScreener",
+          "title": "Mali forces, Russian backers kill scores of civilians in drone strikes, report says"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.hrw.org/news/2026/10/19/mali-military-attacks-on-civilians-insurgent-abuses",
+          "source": "Human Rights Watch",
+          "title": "Mali: Military Attacks on Civilians, Insurgent Abuses",
+          "publishedAt": "2026-10-19"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/news/2026/10/19/malis-military-and-armed-groups-committing-abuses-against-civilians-hrw?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "Mali’s military and armed groups committing abuses against civilians: HRW",
+          "publishedAt": "2026-10-19"
+        },
+        {
+          "id": 3,
+          "url": "https://www.marketscreener.com/news/mali-forces-russian-backers-kill-scores-of-civilians-in-drone-strikes-report-says-ce785cdad089f32c",
+          "source": "Reuters via MarketScreener",
+          "title": "Mali forces, Russian backers kill scores of civilians in drone strikes, report says",
+          "publishedAt": "2026-10-19"
+        }
+      ],
+      "tags": [
+        "Mali",
+        "civilian protection",
+        "Human Rights Watch"
       ],
       "confidence": "medium"
     }

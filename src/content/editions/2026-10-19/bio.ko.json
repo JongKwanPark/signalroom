@@ -1,10 +1,10 @@
 {
   "date": "2026-10-19",
-  "generatedAt": "2026-10-19T07:04:00+09:00",
+  "generatedAt": "2026-10-19T19:04:31+09:00",
   "vertical": "bio",
   "lang": "ko",
-  "title": "Bio: 펩타이드 조제 정책, White House 검토 단계",
-  "summary": "독립 보도로 확인된 규제 동향은 FDA와 HHS가 펩타이드 조제 관련 임시 정책을 White House 검토에 제출한 건이다. CAR-T, N-아세틸시스테인, NAD+ 관련 수집물은 대부분 단일 논문이나 임상시험 등록이어서 기사 기준에 맞지 않았다. 별도의 다중 매체 임상·규제 보도는 확인되지 않았다.",
+  "title": "Bio: 펩타이드 조제 정책, 백악관 검토 단계",
+  "summary": "독립 보도로 확인된 규제 동향은 FDA와 HHS가 펩타이드 조제 관련 임시 정책을 White House 검토에 제출한 건이다. 새로 수집된 Gilead 궤양성 대장염 2상 결과는 STAT 단독 보도여서 추가하지 않았다. CAR-T, N-아세틸시스테인, NAD+ 후보는 대부분 단일 논문이나 임상시험 등록 자료였다.",
   "stories": [
     {
       "slug": "fda-peptide-compounding-policy-white-house-review-ko",
