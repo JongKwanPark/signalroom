@@ -66,18 +66,20 @@ const pageTitle = latest ? `Signal, ${formatDateLong(latest)}` : SITE.name;
 >
   {
     editions.length === 0 ? (
-      <section class="sr-cover">
-        <p class="sr-micro sr-cover__date">{lang === 'ko' ? '뉴스 · 특집 · 에세이' : 'News · features · essays'}</p>
-        <h1>{lang === 'ko' ? '오늘의 뉴스, 오래 생각할 이야기.' : 'The day’s news, and ideas that endure.'}</h1>
-        <p class="sr-cover__lede">{lang === 'ko'
-          ? 'AI·BIO·GEO·MARKETS·WISDOM·SOCIETY, 여섯 분야에서 세상의 변화와 삶의 질문을 살펴봅니다.'
-          : 'Explore a changing world and enduring questions across AI, BIO, GEO, MARKETS, WISDOM and SOCIETY.'}</p>
-        <div class="sr-empty" style="margin-top: var(--sp-6)">
-          <p>{lang === 'ko' ? '새 글을 준비하고 있습니다. 아래에서 분야별 이야기와 특집·에세이를 만나보세요.' : 'New writing is on its way. Explore the categories and features & essays below.'}</p>
-          <div class="sr-empty__actions"><a class="sr-btn" href={`/${lang}/archive`}>{lang === 'ko' ? '아카이브' : 'Archive'}</a><a class="sr-btn" href="/about">About Signal Daily</a></div>
-        </div>
-      </section>
-      {mainFeature && <PinnedArticleLead article={mainFeature} lang={lang} />}
+      <>
+        <section class="sr-cover">
+          <p class="sr-micro sr-cover__date">{lang === 'ko' ? '뉴스 · 특집 · 에세이' : 'News · features · essays'}</p>
+          <h1>{lang === 'ko' ? '오늘의 뉴스, 오래 생각할 이야기.' : 'The day’s news, and ideas that endure.'}</h1>
+          <p class="sr-cover__lede">{lang === 'ko'
+            ? 'AI·BIO·GEO·MARKETS·WISDOM·SOCIETY, 여섯 분야에서 세상의 변화와 삶의 질문을 살펴봅니다.'
+            : 'Explore a changing world and enduring questions across AI, BIO, GEO, MARKETS, WISDOM and SOCIETY.'}</p>
+          <div class="sr-empty" style="margin-top: var(--sp-6)">
+            <p>{lang === 'ko' ? '새 글을 준비하고 있습니다. 아래에서 분야별 이야기와 특집·에세이를 만나보세요.' : 'New writing is on its way. Explore the categories and features & essays below.'}</p>
+            <div class="sr-empty__actions"><a class="sr-btn" href={`/${lang}/archive`}>{lang === 'ko' ? '아카이브' : 'Archive'}</a><a class="sr-btn" href="/about">About Signal Daily</a></div>
+          </div>
+        </section>
+        {mainFeature && <PinnedArticleLead article={mainFeature} lang={lang} />}
+      </>
     ) : (
       <>
         <section class="sr-cover" aria-labelledby="cover-heading">
