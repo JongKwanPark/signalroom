@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-20",
+  "generatedAt": "2026-10-20T19:04:05+09:00",
+  "vertical": "ai",
+  "lang": "en",
+  "title": "AI: Federal agencies ordered to remove DeepSeek",
+  "summary": "A newly public DHS order bars DeepSeek products from civilian agency procurement and directs agencies to remove them, including third-party systems built using DeepSeek implementations.",
+  "stories": [
+    {
+      "slug": "dhs-orders-removal-of-deepseek-from-civilian-agencies",
+      "headline": "China defends DeepSeek after US ban of its AI from government systems",
+      "dek": "A DHS order covers procurement and existing federal civilian IT systems, while Beijing objected to what it called politicization of technology.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "A DHS order excludes DeepSeek products and services from civilian agency procurement and requires their removal from agency IT systems.",
+        "The order also covers affiliated products and third-party products and services developed using DeepSeek implementations.",
+        "China said it opposed politicizing technology issues; DeepSeek had not immediately commented, and the notice states the government's security concerns rather than independently establishing them."
+      ],
+      "body": [
+        {"text":"The Department of Homeland Security order, made public on October 19 and scheduled for Federal Register publication on October 20, directs federal civilian agencies to exclude DeepSeek products and services from procurement and remove them from their IT systems. The scope includes affiliates and third-party products or services developed using DeepSeek implementations.","citations":[1,2]},
+        {"text":"The notice says the order followed a Federal Acquisition Security Council recommendation and invokes the Federal Acquisition Supply Chain Security Act of 2018. It describes concerns about potential security risks; those are the government's stated grounds for the action, not findings independently tested in the notice.","citations":[1]},
+        {"text":"The Associated Press reported that China's Foreign Ministry spokesperson Mao Ning said Beijing would safeguard Chinese companies' rights and opposed what it called the overextension of national security and politicization of science, technology, economic and trade issues. DeepSeek had not immediately responded to AP's request for comment.","citations":[2]},
+        {"text":"The action is directed at federal civilian agency systems and procurement. The cited notice does not announce a general prohibition on private-sector or individual use, and the materials reviewed do not establish how agencies will identify every third-party system that incorporates DeepSeek implementations.","citations":[1,2]}
+      ],
+      "whyItMatters": "The order makes model provenance a procurement and IT-removal issue for federal agencies, extending the scope beyond direct use of DeepSeek products to third-party implementations. How agencies identify those implementations remains an operational question.",
+      "editorNote": "Based on the DHS notice and AP reporting. The security allegations are attributed to DHS; the notice does not independently substantiate them.",
+      "cluster": [{"url":"https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/","source":"Reuters","title":"DeepSeek banned from U.S. federal civilian agencies under new DHS order"}],
+      "sources": [
+        {"id":1,"url":"https://public-inspection.federalregister.gov/2026-21447.pdf","source":"U.S. Department of Homeland Security / Federal Register","title":"Notice of Order Regarding Exclusion and Removal of DeepSeek Products from Federal Civilian Executive Branch Information Technology Systems and Procurements","publishedAt":"2026-10-20"},
+        {"id":2,"url":"https://apnews.com/article/us-china-deepseek-ai-ban-2bffa5b0131808735280b2c0e6f0d856","source":"Associated Press","title":"China defends DeepSeek after US ban of its AI from government systems","publishedAt":"2026-10-20"}
+      ],
+      "tags": ["DeepSeek","US policy","AI procurement"],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-20",
+  "generatedAt": "2026-10-20T19:04:05+09:00",
+  "vertical": "ai",
+  "lang": "ko",
+  "title": "AI: 연방기관, DeepSeek 제거 명령 받아",
+  "summary": "공개된 국토안보부 명령은 연방 민간기관의 DeepSeek 제품 조달을 금지하고, DeepSeek 구현을 사용해 만든 제3자 시스템을 포함해 기존 제품을 제거하도록 지시했습니다.",
+  "stories": [
+    {
+      "slug": "dhs-orders-removal-of-deepseek-from-civilian-agencies-ko",
+      "headline": "미국 정부 시스템에서 DeepSeek AI 금지한 뒤 중국이 반발",
+      "dek": "국토안보부 명령은 민간기관의 조달과 기존 IT 시스템을 모두 대상으로 하며, 중국은 기술의 정치화라고 비판했습니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "국토안보부 명령은 연방 민간기관이 DeepSeek 제품과 서비스를 조달하지 못하게 하고 기존 IT 시스템에서 제거하도록 합니다.",
+        "이 명령은 계열사 제품과 DeepSeek 구현을 사용해 개발된 제3자 제품 및 서비스도 포함합니다.",
+        "중국은 기술 문제의 정치화에 반대한다고 밝혔고 DeepSeek는 즉각 입장을 내지 않았으며, 공고는 정부의 안보 우려를 밝힐 뿐 이를 독립적으로 입증하지는 않습니다."
+      ],
+      "body": [
+        {"text":"국토안보부의 명령은 10월 19일 공개됐고 10월 20일 연방 관보에 게재될 예정입니다. 명령은 연방 민간기관에 DeepSeek 제품과 서비스를 조달 대상에서 제외하고 IT 시스템에서 제거하도록 지시하며, 계열사와 DeepSeek 구현을 사용해 개발된 제3자 제품·서비스도 범위에 포함합니다.","citations":[1,2]},
+        {"text":"공고에 따르면 이 명령은 연방조달안보위원회의 권고를 검토한 뒤 내려졌으며, 2018년 연방 인수 공급망 보안법에 근거합니다. 문서는 잠재적 보안 위험에 대한 우려를 설명하지만, 이는 정부가 제시한 조치 근거이며 공고 자체가 독립적인 검증 결과를 제시하는 것은 아닙니다.","citations":[1]},
+        {"text":"AP 보도에 따르면 중국 외교부 대변인 마오닝은 중국 기업의 정당한 권익을 지키겠다고 밝혔고, 국가안보 개념의 확대와 과학·기술·경제·무역 문제의 정치화에 반대한다고 말했습니다. AP가 논평을 요청했을 때 DeepSeek는 즉시 답변하지 않았습니다.","citations":[2]},
+        {"text":"이번 조치는 연방 민간기관의 시스템과 조달을 대상으로 합니다. 인용된 공고는 민간기업이나 개인의 일반적인 이용 금지를 발표하지 않았으며, 기관들이 DeepSeek 구현이 들어간 모든 제3자 시스템을 어떻게 식별할지도 자료에서 확인되지 않았습니다.","citations":[1,2]}
+      ],
+      "whyItMatters": "이 명령은 모델의 출처를 연방기관의 조달과 IT 시스템 제거 문제로 확대하고, DeepSeek 제품의 직접 사용뿐 아니라 제3자 구현까지 다룹니다. 기관이 그런 구현을 어떻게 찾아낼지는 아직 운영상 과제로 남아 있습니다.",
+      "editorNote": "국토안보부 공고와 AP 보도를 바탕으로 작성했습니다. 보안 관련 주장은 국토안보부의 입장으로 표시했으며, 공고가 이를 독립적으로 입증하지는 않습니다.",
+      "cluster": [{"url":"https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/","source":"Reuters","title":"DeepSeek banned from U.S. federal civilian agencies under new DHS order"}],
+      "sources": [
+        {"id":1,"url":"https://public-inspection.federalregister.gov/2026-21447.pdf","source":"U.S. Department of Homeland Security / Federal Register","title":"Notice of Order Regarding Exclusion and Removal of DeepSeek Products from Federal Civilian Executive Branch Information Technology Systems and Procurements","publishedAt":"2026-10-20"},
+        {"id":2,"url":"https://apnews.com/article/us-china-deepseek-ai-ban-2bffa5b0131808735280b2c0e6f0d856","source":"Associated Press","title":"China defends DeepSeek after US ban of its AI from government systems","publishedAt":"2026-10-20"}
+      ],
+      "tags": ["DeepSeek","US policy","AI procurement"],
+      "confidence": "high"
+    }
+  ]
+}

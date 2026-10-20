@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-20",
+  "generatedAt": "2026-10-20T19:04:05+09:00",
+  "vertical": "markets",
+  "lang": "en",
+  "title": "Markets: China growth rebounds to 4.5% in Q3",
+  "summary": "China's year-on-year growth accelerated from 4.3% in Q2 and exceeded the 4.4% Reuters poll forecast, while domestic demand and investment remained concerns in the reporting.",
+  "stories": [
+    {
+      "slug": "china-q3-growth-accelerates-to-45-percent",
+      "headline": "China's Q3 GDP growth accelerates to 4.5%, beating forecast",
+      "dek": "The quarterly result exceeded the Reuters poll forecast, but reporting still pointed to muted domestic demand and investment.",
+      "type": "DATA",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "China's GDP grew 4.5% year over year in Q3 2026, compared with 4.3% in Q2 and a 4.4% Reuters poll forecast.",
+        "Quarter-on-quarter growth was 1.2%, above the 1.1% forecast cited by Reuters.",
+        "The release beat expectations, while domestic demand and investment remained areas of weakness described in the reporting."
+      ],
+      "body": [
+        {"text":"China's economy grew 4.5% year over year in the third quarter of 2026, Reuters reported, above the 4.4% forecast from economists it surveyed. The prior quarter's year-on-year growth was 4.3%, a more-than-three-year low, according to the same report.","citations":[1,2]},
+        {"text":"On a quarter-on-quarter basis, GDP increased 1.2%, compared with a Reuters poll forecast of 1.1% and 0.9% growth in the previous quarter. Axios also reported the year-on-year figure of 4.5% and the prior-quarter rate of 4.3%.","citations":[1,2]},
+        {"text":"Reuters said muted domestic demand and investment continued to weigh on the broader recovery despite solid goods export performance. It reported that authorities had expanded homebuyer support and directed cheaper credit toward infrastructure and technology, while refraining from large-scale stimulus.","citations":[1]},
+        {"text":"The stronger quarterly reading eased pressure for more aggressive near-term stimulus in Reuters' account, but does not by itself resolve the demand and investment concerns. The reports do not establish whether the improvement will persist through the remainder of the year.","citations":[1,2]}
+      ],
+      "whyItMatters": "The result provides a stronger near-term growth signal than economists expected, while the reported weakness in domestic demand and investment keeps the composition and durability of growth in focus. It is an economic data point, not a basis for market direction or investment advice.",
+      "editorNote": "Neutral macroeconomic reporting. Forecast and growth figures are attributed to Reuters' reporting and poll; no investment advice.",
+      "cluster": [{"url":"https://www.axios.com/2026/10/19/china-gdp-exports-trade","source":"Axios","title":"China's export juggernaut hits international resistance"}],
+      "sources": [
+        {"id":1,"url":"https://www.marketscreener.com/news/china-s-q3-gdp-growth-accelerates-to-4-5-beating-f-cast-ce785cdad181f423","source":"Reuters","title":"China's Q3 GDP growth accelerates to 4.5%, beating forecast","publishedAt":"2026-10-19"},
+        {"id":2,"url":"https://www.axios.com/2026/10/19/china-gdp-exports-trade","source":"Axios","title":"China's export juggernaut hits international resistance","publishedAt":"2026-10-19"}
+      ],
+      "tags": ["China","GDP","macroeconomics"],
+      "confidence": "high"
+    }
+  ]
+}

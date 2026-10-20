@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-20",
+  "generatedAt": "2026-10-20T19:04:05+09:00",
+  "vertical": "geo",
+  "lang": "en",
+  "title": "Geopolitics: French unrest tests government response",
+  "summary": "Violent disorder followed nationwide protests over living costs and school conditions; President Emmanuel Macron rejected his interior minister's resignation offer as officials faced scrutiny over security preparedness.",
+  "stories": [
+    {
+      "slug": "french-riots-put-security-response-under-scrutiny",
+      "headline": "How France’s worst rioting in years erupted and how the government responded",
+      "dek": "The unrest followed mass demonstrations over living costs and schools, with further protests called and the government facing questions about its response.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "Violence and looting erupted in several French cities during demonstrations against rising living costs and poor school conditions.",
+        "The Associated Press reported about 2,400 arrests over the weekend, while Reuters said Macron rejected Interior Minister Laurent Nunez's resignation offer.",
+        "Authorities' security response and the continuation of protests remain unresolved as student groups called for further demonstrations."
+      ],
+      "body": [
+        {"text":"Nationwide demonstrations in France over rising living costs and poor school conditions were accompanied by clashes, fires and looting in multiple cities. The Associated Press reported that hundreds of thousands marched peacefully while disorder overshadowed the protests.","citations":[1,2]},
+        {"text":"The Associated Press reported about 2,400 arrests over the weekend and damage or looting at thousands of businesses, citing authorities. It also reported that President Emmanuel Macron denounced the violence and attributed it to radical far-left groups and criminals; that characterization is Macron's statement.","citations":[1]},
+        {"text":"Reuters reported that Macron rejected Interior Minister Laurent Nunez's offer to resign and instructed him to address barricades and looting and to be transparent about intelligence and foresight failures. Reuters also reported that mayors of Paris, Marseille and Lyon said they had felt parts of their cities were left without protection.","citations":[2]},
+        {"text":"The response is unfolding alongside a wider dispute over public services and cost-of-living pressures, with student organizations calling further demonstrations. The available reporting does not settle whether the government's security changes will prevent renewed disorder or how the protest movement will develop.","citations":[1,2]}
+      ],
+      "whyItMatters": "The unrest is putting pressure on France's ability to maintain public order while addressing grievances tied to living costs and public services. Political accountability and further mobilization remain open questions rather than settled outcomes.",
+      "editorNote": "Arrest and damage figures are attributed to authorities through AP; political characterizations are explicitly attributed to Macron.",
+      "cluster": [{"url":"https://www.investing.com/news/stock-market-news/as-france-reels-from-violence-macron-points-to-security-failings-4956666","source":"Reuters (via Investing.com)","title":"France imposes curfews in parts of Paris, other cities after weekend of riots"}],
+      "sources": [
+        {"id":1,"url":"https://apnews.com/article/france-protests-riots-looting-ca52b503a4ac8b2a489109f7de852847","source":"Associated Press","title":"How France’s worst rioting in years erupted and how the government responded","publishedAt":"2026-10-19"},
+        {"id":2,"url":"https://www.investing.com/news/stock-market-news/as-france-reels-from-violence-macron-points-to-security-failings-4956666","source":"Reuters","title":"France imposes curfews in parts of Paris, other cities after weekend of riots","publishedAt":"2026-10-19"}
+      ],
+      "tags": ["France","protests","public security"],
+      "confidence": "high"
+    }
+  ]
+}

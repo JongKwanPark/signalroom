@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-20",
+  "generatedAt": "2026-10-20T19:04:05+09:00",
+  "vertical": "geo",
+  "lang": "ko",
+  "title": "지정학: 프랑스 소요 속 정부 대응 시험대",
+  "summary": "생활비와 학교 여건을 둘러싼 전국 시위 뒤 폭력 사태가 발생했습니다. Emmanuel Macron 대통령은 내무장관의 사임 제안을 거부했고, 당국의 치안 대비에 대한 검증이 이어지고 있습니다.",
+  "stories": [
+    {
+      "slug": "french-riots-put-security-response-under-scrutiny-ko",
+      "headline": "프랑스 수년 만의 최악 폭동은 어떻게 시작됐고 정부는 어떻게 대응했나",
+      "dek": "생활비와 학교 문제를 둘러싼 대규모 시위 뒤 소요가 발생했고, 정부 대응에 대한 질문이 이어지는 가운데 추가 시위도 예고됐습니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "생활비 상승과 열악한 학교 여건에 항의하는 프랑스 전국 시위 중 여러 도시에서 폭력과 약탈이 발생했습니다.",
+        "AP는 주말 동안 약 2,400명이 체포됐다고 보도했고, Reuters는 Macron 대통령이 Laurent Nunez 내무장관의 사임 제안을 거부했다고 전했습니다.",
+        "학생 단체들이 추가 시위를 예고한 가운데 당국의 치안 대응과 시위의 향방은 아직 정해지지 않았습니다."
+      ],
+      "body": [
+        {"text":"생활비 상승과 열악한 학교 여건에 항의하는 프랑스 전국 시위와 함께 여러 도시에서 충돌, 화재, 약탈이 발생했습니다. AP는 수십만 명이 평화롭게 행진했지만 일부 지역의 소요가 시위의 주목을 압도했다고 보도했습니다.","citations":[1,2]},
+        {"text":"AP는 당국을 인용해 주말 동안 약 2,400명이 체포됐고 수천 개 사업장이 피해를 입거나 약탈당했다고 전했습니다. 또한 Emmanuel Macron 대통령이 폭력을 규탄하고 이를 급진 좌파 단체와 범죄자들의 소행으로 규정했다고 보도했으며, 이는 Macron 대통령의 발언입니다.","citations":[1]},
+        {"text":"Reuters에 따르면 Macron 대통령은 Laurent Nunez 내무장관의 사임 제안을 거부하고 바리케이드와 약탈에 대응하며 정보·예측 실패에 관해 투명하게 설명하라고 지시했습니다. Reuters는 Paris, Marseille, Lyon 시장들이 도시 일부가 보호받지 못한 듯한 느낌을 받았다고 공동으로 밝혔다고 전했습니다.","citations":[2]},
+        {"text":"당국의 대응은 공공서비스와 생활비 부담을 둘러싼 더 큰 논쟁 속에서 진행되고 있으며, 학생 단체들은 추가 시위를 예고했습니다. 정부의 치안 조치가 새로운 소요를 막을지, 시위 운동이 어떻게 전개될지는 보도만으로 확정할 수 없습니다.","citations":[1,2]}
+      ],
+      "whyItMatters": "이번 소요는 생활비와 공공서비스에 대한 불만을 다루는 동시에 공공질서를 유지해야 하는 프랑스 정부의 역량에 압박을 가하고 있습니다. 정치적 책임 소재와 추가 동원 여부는 아직 결론 나지 않았습니다.",
+      "editorNote": "체포·피해 규모는 AP가 당국을 인용한 수치이며, 정치적 평가는 Macron 대통령의 발언으로 명시했습니다.",
+      "cluster": [{"url":"https://www.investing.com/news/stock-market-news/as-france-reels-from-violence-macron-points-to-security-failings-4956666","source":"Reuters (via Investing.com)","title":"France imposes curfews in parts of Paris, other cities after weekend of riots"}],
+      "sources": [
+        {"id":1,"url":"https://apnews.com/article/france-protests-riots-looting-ca52b503a4ac8b2a489109f7de852847","source":"Associated Press","title":"How France’s worst rioting in years erupted and how the government responded","publishedAt":"2026-10-19"},
+        {"id":2,"url":"https://www.investing.com/news/stock-market-news/as-france-reels-from-violence-macron-points-to-security-failings-4956666","source":"Reuters","title":"France imposes curfews in parts of Paris, other cities after weekend of riots","publishedAt":"2026-10-19"}
+      ],
+      "tags": ["France","protests","public security"],
+      "confidence": "high"
+    }
+  ]
+}

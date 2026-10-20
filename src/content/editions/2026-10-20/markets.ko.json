@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-20",
+  "generatedAt": "2026-10-20T19:04:05+09:00",
+  "vertical": "markets",
+  "lang": "ko",
+  "title": "시장: 중국 3분기 성장률 4.5%로 반등",
+  "summary": "중국의 전년 동기 대비 성장률은 2분기 4.3%에서 상승해 Reuters 설문 전망치 4.4%를 웃돌았습니다. 보도는 국내 수요와 투자가 여전히 우려 요인이라고 전했습니다.",
+  "stories": [
+    {
+      "slug": "china-q3-growth-accelerates-to-45-percent-ko",
+      "headline": "중국 3분기 GDP 성장률 4.5%로 가속, 전망 상회",
+      "dek": "분기 성장률은 Reuters 설문 전망을 웃돌았지만 보도는 국내 수요와 투자 부진도 함께 지적했습니다.",
+      "type": "DATA",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "중국의 2026년 3분기 GDP는 전년 동기 대비 4.5% 성장해 2분기 4.3%와 Reuters 설문 전망치 4.4%를 웃돌았습니다.",
+        "전분기 대비 성장률은 1.2%로 Reuters가 전한 전망치 1.1%보다 높았습니다.",
+        "성장률은 전망을 넘어섰지만 보도에서 국내 수요와 투자는 여전히 약한 부문으로 언급됐습니다."
+      ],
+      "body": [
+        {"text":"Reuters 보도에 따르면 중국 경제는 2026년 3분기에 전년 동기 대비 4.5% 성장해 Reuters가 조사한 경제학자들의 전망치 4.4%를 넘어섰습니다. 같은 보도는 전분기 성장률이 4.3%로 3년여 만의 최저 수준이었다고 전했습니다.","citations":[1,2]},
+        {"text":"전분기 대비 GDP는 1.2% 증가해 Reuters 설문 전망치 1.1%와 이전 분기의 0.9%를 웃돌았습니다. Axios도 전년 동기 대비 성장률 4.5%와 이전 분기 4.3%라는 수치를 보도했습니다.","citations":[1,2]},
+        {"text":"Reuters는 상품 수출이 견조했지만 국내 수요와 투자가 전반적인 회복을 제약했다고 전했습니다. 당국은 주택 구매 지원을 확대하고 인프라·기술 부문으로 저리 신용을 유도하는 조치를 발표했지만 대규모 경기부양책은 내놓지 않았다고 보도했습니다.","citations":[1]},
+        {"text":"Reuters 보도에서 이번 수치의 상회는 단기적으로 더 공격적인 경기부양 압력을 낮추는 요인으로 설명됐지만, 국내 수요와 투자 우려가 해소된 것은 아닙니다. 이 개선세가 올해 남은 기간에도 이어질지는 보도만으로 확인되지 않습니다.","citations":[1,2]}
+      ],
+      "whyItMatters": "이번 결과는 경제학자들의 예상보다 강한 단기 성장 신호를 보여주지만, 국내 수요와 투자의 약세가 보도된 만큼 성장의 구성과 지속성이 여전히 중요합니다. 거시경제 지표이며 시장 방향이나 투자 판단에 대한 조언은 아닙니다.",
+      "editorNote": "중립적인 거시경제 보도입니다. 전망과 성장률은 Reuters 보도 및 설문을 출처로 표시했으며 투자 조언은 포함하지 않습니다.",
+      "cluster": [{"url":"https://www.axios.com/2026/10/19/china-gdp-exports-trade","source":"Axios","title":"China's export juggernaut hits international resistance"}],
+      "sources": [
+        {"id":1,"url":"https://www.marketscreener.com/news/china-s-q3-gdp-growth-accelerates-to-4-5-beating-f-cast-ce785cdad181f423","source":"Reuters","title":"China's Q3 GDP growth accelerates to 4.5%, beating forecast","publishedAt":"2026-10-19"},
+        {"id":2,"url":"https://www.axios.com/2026/10/19/china-gdp-exports-trade","source":"Axios","title":"China's export juggernaut hits international resistance","publishedAt":"2026-10-19"}
+      ],
+      "tags": ["China","GDP","macroeconomics"],
+      "confidence": "high"
+    }
+  ]
+}

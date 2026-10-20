@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-20",
+  "generatedAt": "2026-10-20T19:04:05+09:00",
+  "vertical": "bio",
+  "lang": "en",
+  "title": "Bio: Early data for a three-target CAR-T approach",
+  "summary": "A first-in-human phase I study reported responses with CAR-T cells targeting CD19, CD20 and CD22; its small, mixed patient group limits what can be concluded.",
+  "stories": [
+    {
+      "slug": "phase-one-trispecific-car-t-reports-early-responses",
+      "headline": "Three Targets, One CAR T Therapy",
+      "dek": "A first-in-human phase I study tested rapidly manufactured CAR-T cells directed at three B-cell antigens in relapsed or refractory malignancies.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "The phase I study tested CAR-T cells targeting CD19, CD20 and CD22 in patients with relapsed or refractory B-cell malignancies.",
+        "Sixteen patients received treatment; the reported overall response rate was 50%, and 38% had complete responses.",
+        "The study was small and included different diseases, so larger studies are needed to assess efficacy and safety."
+      ],
+      "body": [
+        {"text":"The first-in-human phase I study evaluated a trispecific CAR-T product directed at CD19, CD20 and CD22. The Medicine Maker reports that the study enrolled 18 people with relapsed or refractory B-cell malignancies, and 16 received treatment.","citations":[1,2]},
+        {"text":"The publication reports a 50% overall response rate among treated patients, with complete responses in 38%. In the subgroup with B-cell non-Hodgkin lymphoma, five of six patients achieved complete remission; four of those five remained in remission beyond one year.","citations":[1,2]},
+        {"text":"The cells were produced using point-of-care manufacturing, with a median manufacturing time of 7 days and successful production for 16 of 17 patients for whom manufacturing was attempted. The report also describes no severe cytokine release syndrome, dose-limiting toxicities or immune effector cell-associated neurotoxicity syndrome in this small cohort.","citations":[1,2]},
+        {"text":"The population combined several disease types and was limited in size, so the results do not establish comparative benefit or a broadly applicable safety profile. The researchers identify larger studies as necessary; the early findings leave open how outcomes will vary by disease and patient characteristics.","citations":[1,2]}
+      ],
+      "whyItMatters": "The study brings together multi-antigen targeting and faster, point-of-care cell manufacturing, two approaches intended to address antigen escape and production delays. Its small phase I cohort makes the findings an early clinical signal rather than confirmation of benefit.",
+      "editorNote": "TODO-review: Confirm detailed safety and subgroup figures against the full journal article; publisher page access was restricted during preparation. No treatment guidance is implied.",
+      "cluster": [{"url":"https://themedicinemaker.com/issues/2026/articles/october/three-targets-one-car-t-therapy/","source":"The Medicine Maker","title":"Three Targets, One CAR T Therapy"}],
+      "sources": [
+        {"id":1,"url":"https://aacrjournals.org/bloodcancerdiscov/article/7/5/711/787638/Safety-and-Clinical-Outcomes-of-a-First-in-Human","source":"Blood Cancer Discovery","title":"Safety and Clinical Outcomes of a First-in-Human Trial of Point-of-Care Manufactured Trispecific CAR T Cells Targeting CD19, CD20, and CD22","publishedAt":"2026-09-03"},
+        {"id":2,"url":"https://themedicinemaker.com/issues/2026/articles/october/three-targets-one-car-t-therapy/","source":"The Medicine Maker","title":"Three Targets, One CAR T Therapy","publishedAt":"2026-10-19"}
+      ],
+      "tags": ["CAR-T","clinical trials","cell therapy"],
+      "confidence": "medium"
+    }
+  ]
+}

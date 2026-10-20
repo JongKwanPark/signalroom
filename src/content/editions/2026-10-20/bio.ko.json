@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-20",
+  "generatedAt": "2026-10-20T19:04:05+09:00",
+  "vertical": "bio",
+  "lang": "ko",
+  "title": "Bio: 삼중 표적 CAR-T 초기 임상 데이터",
+  "summary": "CD19, CD20, CD22를 겨냥한 CAR-T 세포의 사람 대상 첫 1상 연구에서 반응이 보고됐습니다. 환자 수가 적고 질환 구성이 다양해 결론에는 한계가 있습니다.",
+  "stories": [
+    {
+      "slug": "phase-one-trispecific-car-t-reports-early-responses-ko",
+      "headline": "표적 세 개, CAR T 치료 하나",
+      "dek": "사람 대상 첫 1상 연구에서 재발성 또는 불응성 악성종양 환자에게 세 가지 B세포 항원을 겨냥해 신속 제조한 CAR-T 세포를 시험했습니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "1상 연구는 재발성 또는 불응성 B세포 악성종양 환자에게 CD19, CD20, CD22를 표적으로 하는 CAR-T 세포를 시험했습니다.",
+        "16명이 치료를 받았고 전체 반응률은 50%, 완전 반응률은 38%로 보고됐습니다.",
+        "연구 규모가 작고 여러 질환이 포함돼 유효성과 안전성을 평가하려면 더 큰 연구가 필요합니다."
+      ],
+      "body": [
+        {"text":"사람 대상 첫 1상 연구는 CD19, CD20, CD22를 표적으로 하는 삼중 특이 CAR-T 제품을 평가했습니다. The Medicine Maker에 따르면 재발성 또는 불응성 B세포 악성종양 환자 18명이 등록됐고 이 가운데 16명이 치료를 받았습니다.","citations":[1,2]},
+        {"text":"논문은 치료받은 환자 전체의 반응률을 50%, 완전 반응률을 38%로 보고했습니다. B세포 비호지킨림프종 하위집단에서는 6명 중 5명이 완전 관해에 도달했고, 그중 4명은 1년 넘게 관해 상태를 유지했습니다.","citations":[1,2]},
+        {"text":"세포는 현장 제조 방식으로 생산됐으며 제조 기간 중앙값은 7일이었고, 제조를 시도한 17명 중 16명에서 생산에 성공했습니다. 이 소규모 환자군에서는 중증 사이토카인 방출 증후군, 용량 제한 독성, 면역 효과 세포 관련 신경독성 증후군이 보고되지 않았다고 자료는 설명합니다.","citations":[1,2]},
+        {"text":"환자 수가 적고 여러 질환 유형이 섞여 있어 이 결과만으로 비교 우위나 폭넓게 적용할 안전성 프로필을 확정할 수 없습니다. 연구진은 더 큰 규모의 연구가 필요하다고 밝혔으며, 질환과 환자 특성에 따라 결과가 어떻게 달라질지는 아직 열린 문제입니다.","citations":[1,2]}
+      ],
+      "whyItMatters": "이 연구는 항원 소실과 제조 지연을 해결하려는 다중 항원 표적화와 신속한 현장 세포 제조를 함께 시험했습니다. 소규모 1상 환자군의 결과는 초기 임상 신호이며 치료 효과의 확증은 아닙니다.",
+      "editorNote": "학술지 논문 초록과 독립적인 업계 보도를 대조했습니다. 소규모 초기 임상 결과이며 치료 지침을 제시하지 않습니다.",
+      "cluster": [{"url":"https://themedicinemaker.com/issues/2026/articles/october/three-targets-one-car-t-therapy/","source":"The Medicine Maker","title":"Three Targets, One CAR T Therapy"}],
+      "sources": [
+        {"id":1,"url":"https://aacrjournals.org/bloodcancerdiscov/article/7/5/711/787638/Safety-and-Clinical-Outcomes-of-a-First-in-Human","source":"Blood Cancer Discovery","title":"Safety and Clinical Outcomes of a First-in-Human Trial of Point-of-Care Manufactured Trispecific CAR T Cells Targeting CD19, CD20, and CD22","publishedAt":"2026-09-03"},
+        {"id":2,"url":"https://themedicinemaker.com/issues/2026/articles/october/three-targets-one-car-t-therapy/","source":"The Medicine Maker","title":"Three Targets, One CAR T Therapy","publishedAt":"2026-10-19"}
+      ],
+      "tags": ["CAR-T","clinical trials","cell therapy"],
+      "confidence": "medium"
+    }
+  ]
+}
