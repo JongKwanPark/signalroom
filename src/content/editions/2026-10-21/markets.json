@@ -1,0 +1,274 @@
+{
+  "date": "2026-10-21",
+  "generatedAt": "2026-10-21T07:02:51+09:00",
+  "vertical": "markets",
+  "lang": "en",
+  "title": "Markets: Earnings, an acquisition and aircraft approval",
+  "summary": "Netflix beat third-quarter earnings expectations but lowered its advertising outlook; Salesforce agreed to acquire Braze for $5.66 billion; and Boeing received FAA approval for the 737 MAX 10. These are reported corporate and regulatory developments, not investment signals.",
+  "stories": [
+    {
+      "slug": "netflix-q3-beat-lower-ad-outlook",
+      "headline": "Netflix posts third-quarter earnings beat, but shares fall on advertising and revenue guidance",
+      "dek": "The company reported quarterly earnings above analyst expectations while lowering its 2026 advertising forecast and issuing a weaker-than-expected fourth-quarter profit outlook.",
+      "type": "DATA",
+      "readMinutes": 3,
+      "tldr": [
+        "Netflix reported third-quarter earnings per share of $0.87, above the $0.82 analyst average cited by Reuters.",
+        "The company lowered its 2026 advertising revenue forecast to about $2.7 billion from roughly $3 billion, citing a slower rollout of some ad capabilities.",
+        "Netflix also issued a weaker-than-expected fourth-quarter profit outlook, and its shares fell after the report."
+      ],
+      "body": [
+        {
+          "text": "Netflix reported third-quarter earnings per share of $0.87, ahead of the $0.82 average estimate cited by Reuters. The company said subscription revenue growth exceeded its expectations, according to its shareholder letter.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "The letter projected 2026 advertising revenue of about $2.7 billion, down from the company's earlier estimate of approximately $3 billion. Netflix attributed the reduction to a somewhat slower-than-expected rollout of some advertising product capabilities.",
+          "citations": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Reuters reported a weaker-than-expected fourth-quarter profit forecast, and CNBC reported that the shares fell as investors weighed the advertising and revenue outlook. The market reaction is a reported price response, not evidence by itself about the company's long-term performance.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The unresolved issue is whether advertising products and subscriber growth will develop in line with the company's later guidance. The cited materials establish management's current forecast and its stated explanation, but not whether those expectations will be met.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "The results show a split between reported earnings strength and a lower advertising forecast, a segment Netflix has identified as a growth area. The company's own explanation points to rollout timing; subsequent results will show whether that is the main constraint.",
+      "editorNote": "First-pass edition. Market movement is reported descriptively; no investment recommendation or price target is included.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/stock-market-news/netflix-issues-weak-fourthquarter-forecast-as-company-seeks-to-kickstart-growth-4960954",
+          "source": "Reuters",
+          "title": "Netflix issues weak fourth-quarter forecast as company seeks to kick-start growth"
+        },
+        {
+          "url": "https://ir.netflix.net/files/doc_financials/2026/q3/FINAL-Q3-26-Shareholder-Letter.pdf",
+          "source": "Netflix",
+          "title": "Q3 Results and Forecast"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/20/netflix-nflx-earnings-q3-2026.html",
+          "source": "CNBC",
+          "title": "Netflix posts third-quarter earnings beat, but shares fall on advertising and revenue guidance",
+          "publishedAt": "2026-10-20T21:30:06Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/stock-market-news/netflix-issues-weak-fourthquarter-forecast-as-company-seeks-to-kickstart-growth-4960954",
+          "source": "Reuters via Investing.com",
+          "title": "Netflix issues weak fourth-quarter forecast as company seeks to kick-start growth",
+          "publishedAt": "2026-10-20"
+        },
+        {
+          "id": 3,
+          "url": "https://ir.netflix.net/files/doc_financials/2026/q3/FINAL-Q3-26-Shareholder-Letter.pdf",
+          "source": "Netflix",
+          "title": "Q3 Results and Forecast",
+          "publishedAt": "2026-10-20"
+        }
+      ],
+      "tags": [
+        "Netflix",
+        "earnings",
+        "streaming",
+        "advertising"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "salesforce-acquires-braze-566-billion",
+      "headline": "Salesforce announces $5.66 billion deal for Braze, sending BRZE stock soaring 51%",
+      "dek": "The definitive agreement expands Salesforce's customer-engagement software portfolio; completion remains subject to transaction conditions.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "Salesforce agreed to acquire customer-engagement software company Braze in a deal valued at approximately $5.66 billion.",
+        "Salesforce and Axios described the agreed consideration as $47.50 per Braze share in cash.",
+        "The acquisition is proposed and remains subject to shareholder, regulatory and other closing conditions."
+      ],
+      "body": [
+        {
+          "text": "Salesforce announced a definitive agreement to acquire Braze for approximately $5.66 billion in enterprise value. The companies describe Braze as a customer-engagement platform, and Salesforce said the agreement was signed on October 20.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Axios reported that the consideration is $47.50 per share in cash. CNBC reported that Braze shares rose sharply after the announcement; that move reflects the immediate market response and does not establish the transaction's eventual value to either company's shareholders.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Salesforce's announcement says the proposed transaction is subject to customary closing conditions, including regulatory approvals and a Braze shareholder vote. The parties have announced an agreement, not a completed acquisition.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The deal would add Braze's customer-engagement products to Salesforce's software portfolio, but the companies have not yet completed integration. The cited announcement does not quantify expected cost savings or establish how the combined products will be packaged after closing.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The transaction is a sizable software acquisition at a time when vendors are broadening customer-data and AI-enabled marketing offerings. Its eventual strategic and financial effect depends on closing, integration and execution, none of which is settled by the announcement.",
+      "editorNote": "First-pass edition. Deal value and price terms are attributed to the company announcement and independent coverage; completion is not implied.",
+      "cluster": [
+        {
+          "url": "https://www.salesforce.com/news/press-releases/2026/10/20/salesforce-signs-definitive-agreement-to-acquire-braze/?bc=OTH",
+          "source": "Salesforce",
+          "title": "Salesforce Signs Definitive Agreement to Acquire Braze"
+        },
+        {
+          "url": "https://www.axios.com/2026/10/20/salesforce-braze",
+          "source": "Axios",
+          "title": "Salesforce is buying Braze for $5.7 billion"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/20/salesforce-braze-acquisition-deal.html",
+          "source": "CNBC",
+          "title": "Salesforce announces $5.66 billion deal for Braze, sending BRZE stock soaring 51%",
+          "publishedAt": "2026-10-20T20:10:30Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.salesforce.com/news/press-releases/2026/10/20/salesforce-signs-definitive-agreement-to-acquire-braze/?bc=OTH",
+          "source": "Salesforce",
+          "title": "Salesforce Signs Definitive Agreement to Acquire Braze",
+          "publishedAt": "2026-10-20"
+        },
+        {
+          "id": 3,
+          "url": "https://www.axios.com/2026/10/20/salesforce-braze",
+          "source": "Axios",
+          "title": "Salesforce is buying Braze for $5.7 billion",
+          "publishedAt": "2026-10-20T14:38:21Z"
+        }
+      ],
+      "tags": [
+        "Salesforce",
+        "Braze",
+        "M&A",
+        "software"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "faa-approves-boeing-737-max-10",
+      "headline": "Boeing wins FAA approval for 737 Max 10 after years of delays as Duffy says certification process should be faster",
+      "dek": "The FAA's final approval clears the way for Boeing to begin deliveries of the delayed aircraft variant.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "The Federal Aviation Administration granted final approval for Boeing's 737 MAX 10 on October 20, 2026.",
+        "The approval clears the way for Boeing to begin deliveries of the largest version of its 737 aircraft family.",
+        "The certification resolves a major regulatory milestone, while the cited reports do not establish a delivery schedule or production target."
+      ],
+      "body": [
+        {
+          "text": "The Federal Aviation Administration granted final approval for Boeing's 737 MAX 10 on Tuesday, October 20, clearing the way for deliveries, according to Reuters and the Associated Press. CNBC also reported the approval and quoted Transportation Secretary Sean Duffy calling for a faster certification process.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "The MAX 10 is the largest version of Boeing's best-selling 737 family and had been delayed for years. The approval follows FAA engineering reviews and flight testing, the Associated Press reported.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Certification means the FAA has determined the aircraft design meets applicable safety standards, but it does not by itself state how quickly Boeing will deliver aircraft or how many it can produce. The reports describe regulatory clearance, not a new delivery commitment.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "For Boeing, the decision removes a key certification obstacle for this variant. Remaining commercial outcomes depend on production readiness, airline schedules and the company's ability to meet its delivery plans; those outcomes are not confirmed by the approval announcement.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The decision opens a path to deliveries for a delayed aircraft program, affecting Boeing's commercial backlog and airline fleet planning. It is a regulatory milestone rather than evidence that production or delivery performance has already improved.",
+      "editorNote": "First-pass edition. Distinguishes design certification from production and delivery outcomes.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/stock-market-news/faa-certifies-boeings-737-max-10-clearing-way-for-deliveries-4960916",
+          "source": "Reuters via Investing.com",
+          "title": "FAA certifies Boeing’s 737 MAX 10, clearing way for deliveries"
+        },
+        {
+          "url": "https://apnews.com/article/a18eb4a039f37a6f67d40edceb28f52c",
+          "source": "Associated Press",
+          "title": "FAA clears the way for airlines to put Boeing's long-delayed 737 Max 10 into service"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/20/boeing-737-max-10-certification.html",
+          "source": "CNBC",
+          "title": "Boeing wins FAA approval for 737 Max 10 after years of delays as Duffy says certification process should be faster",
+          "publishedAt": "2026-10-20T20:59:32Z"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/stock-market-news/faa-certifies-boeings-737-max-10-clearing-way-for-deliveries-4960916",
+          "source": "Reuters via Investing.com",
+          "title": "FAA certifies Boeing’s 737 MAX 10, clearing way for deliveries",
+          "publishedAt": "2026-10-20T12:54:51Z"
+        },
+        {
+          "id": 3,
+          "url": "https://apnews.com/article/a18eb4a039f37a6f67d40edceb28f52c",
+          "source": "Associated Press",
+          "title": "FAA clears the way for airlines to put Boeing's long-delayed 737 Max 10 into service",
+          "publishedAt": "2026-10-20T16:13:48Z"
+        }
+      ],
+      "tags": [
+        "Boeing",
+        "FAA",
+        "737 MAX 10",
+        "aviation"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

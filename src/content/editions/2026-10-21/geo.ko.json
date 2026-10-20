@@ -1,0 +1,185 @@
+{
+  "date": "2026-10-21",
+  "generatedAt": "2026-10-21T07:02:51+09:00",
+  "vertical": "geo",
+  "lang": "ko",
+  "title": "지정학: 캐나다의 결속과 무역 압박",
+  "summary": "앨버타 유권자들은 분리독립으로 이어질 수 있는 절차를 시작하자는 제안을 거부했다. 한편 미국 수입업체는 캐나다산 상품에 대한 50% 관세의 법적 근거에 이의를 제기했다. 두 사안은 캐나다와 미국 관계에 가해지는 국내 정치·무역 압박을 보여준다.",
+  "stories": [
+    {
+      "slug": "alberta-voters-reject-secession-process-ko",
+      "headline": "앨버타 분리주의 부결에 카니 총리 “캐나다에 큰 결과”",
+      "dek": "유권자들은 분리 절차를 시작하자는 제안을 거부했다. 이번 주민투표는 독립 여부를 직접 묻지는 않았다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "앨버타 유권자들은 캐나다에서 분리되는 방향의 절차를 시작하자는 제안을 거부했다.",
+        "AP는 이번 주민투표가 독립 여부를 직접 묻는 투표는 아니었다고 보도했고, CBC는 해당 제안이 부결될 것으로 전망했다.",
+        "이번 결과는 분리주의자들에게 정치적 타격이지만, 인용된 보도만으로 주와 오타와 사이의 헌법·경제 갈등이 해소됐다고 볼 수는 없다."
+      ],
+      "body": [
+        {
+          "text": "CBC의 예측과 AP 및 The Guardian의 보도에 따르면 앨버타 유권자들은 캐나다에서 분리되는 절차를 시작하자는 제안을 거부했다. Mark Carney 총리는 결과를 캐나다에 긍정적인 것으로 표현했다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "투표는 독립 여부를 직접 묻지 않았다. AP 보도에서 강조했듯이 질문은 분리로 이어질 수 있는 절차를 개시할지에 관한 것이었다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "이번 결과는 연방 통합을 지지하는 쪽에 단기적인 정치적 승리를 안겼지만, 앨버타와 연방정부 사이의 더 넓은 갈등을 해결한 것으로 보도되지는 않았다. 인용한 보도만으로는 분리주의 정서나 그 배경 쟁점이 사라졌다고 확인할 수 없다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "주정부와 연방정부 지도자들이 어떻게 대응할지, 이번 결과가 주 권한 논쟁을 바꿀지는 남은 쟁점이다. 여기서 검토한 출처에는 투표로 구속력 있는 헌법 변경이 발생했다는 내용이 없다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 결과는 주요 에너지 생산 주에서 공식적인 분리 절차가 당장 진행될 위험을 낮춘다. 캐나다가 미국의 무역 압박에도 대응하는 시점이라 국가적 결속은 오타와의 협상 입지와 관련되지만, 투표만으로 무역 정책이 결정되지는 않는다.",
+      "editorNote": "초회판. 분리 절차 제안의 부결과 독립 여부에 대한 직접 투표를 구분했다.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/ed0d58ef051859ce12052e75d2d6e8a0",
+          "source": "Associated Press",
+          "title": "Alberta rejects a move toward independence from Canada in a victory for Carney"
+        },
+        {
+          "url": "https://www.theguardian.com/world/2026/oct/20/canada-alberta-rejects-independence-succession-referendum",
+          "source": "The Guardian",
+          "title": "Alberta voters reject plan for referendum to leave Canada, CBC projects"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cxr5yqqd7nlpo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "'Great result for Canada', says Carney as Alberta votes to reject separatism",
+          "publishedAt": "2026-10-20"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/ed0d58ef051859ce12052e75d2d6e8a0",
+          "source": "Associated Press",
+          "title": "Alberta rejects a move toward independence from Canada in a victory for Carney",
+          "publishedAt": "2026-10-20T04:13:07Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.theguardian.com/world/2026/oct/20/canada-alberta-rejects-independence-succession-referendum",
+          "source": "The Guardian",
+          "title": "Alberta voters reject plan for referendum to leave Canada, CBC projects",
+          "publishedAt": "2026-10-20"
+        }
+      ],
+      "tags": [
+        "Canada",
+        "Alberta",
+        "separatism",
+        "referendum"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "importer-challenges-us-canada-tariff-authority-ko",
+      "headline": "캐나다 관세에 대한 새 법적 도전으로 트럼프 피소",
+      "dek": "뉴저지 수입업체가 1930년 법률을 근거로 캐나다산 상품에 50% 관세를 부과한 행정부 조치에 이의를 제기했다.",
+      "type": "DEEP",
+      "readMinutes": 3,
+      "tldr": [
+        "뉴저지 식품 수입업체가 대공황 시기 법률에 따라 캐나다산 상품에 50% 관세를 부과할 권한이 대통령에게 있는지 다투는 소송을 냈다.",
+        "AP는 관세 대상이 200억 달러 규모 상품이라고 보도했고, Al Jazeera는 소장에서 수입업체가 9월 16일부터 10월 11일까지 520,000달러 넘는 관세를 냈다고 전했다.",
+        "소송은 관세의 법적 근거에 문제를 제기한다. 인용된 보도에는 본안에 대한 법원 판단이 나오지 않았다."
+      ],
+      "body": [
+        {
+          "text": "뉴저지 식품 수입업체가 1930년 관세법 Section 338을 이용해 캐나다산 상품에 50% 관세를 부과한 Donald Trump 대통령의 조치에 이의를 제기하는 소송을 냈다. AP와 Al Jazeera가 소송을 보도했고 CNBC도 최근 법적 다툼으로 전했다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "AP는 관세 대상 상품 규모가 약 200억 달러라고 보도했다. Al Jazeera는 소장을 인용해 수입업체 Gellert가 9월 16일부터 10월 11일까지 520,000달러 넘는 관세를 냈다고 전했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "소장은 행정부가 관세 근거로 든 캐나다 정책에 해당 법률이 적용되지 않는다고 주장한다. 이는 원고의 주장이지 법원의 판단이 아니다. 현재 보도는 판결이 아니라 소송 제기를 다룬다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "이 사건은 양국 무역 분쟁에 미국 국내의 법적 심사를 추가한다. 재판부가 언제 판단할지, 소송 진행 중 관세 체계가 바뀔지는 인용된 출처에서 확인되지 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이 소송은 주요 관세 조치의 법적 근거를 시험하고 미국과 캐나다를 잇는 공급망에서 수입업체의 불확실성을 키울 수 있다. 실제 영향은 향후 법원 판단에 달려 있으며 아직 결과가 확정되지 않았다.",
+      "editorNote": "초회판. 원고의 주장을 주장으로 표시했으며 법원 판단이 나온 것처럼 쓰지 않았다.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/3c3097a0ec530327281a89ecc05452ff",
+          "source": "Associated Press",
+          "title": "New Jersey food importer files lawsuit challenging Trump's 50% tariffs on Canadian goods"
+        },
+        {
+          "url": "https://www.aljazeera.com/economy/2026/10/20/us-food-importer-sues-trump-over-50-percent-tariffs-on-canadian-goods?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "US food importer sues Trump over 50 percent tariffs on Canadian goods"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cqrkyj13m588o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Trump sued over Canadian tariffs in latest legal challenge",
+          "publishedAt": "2026-10-20"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/3c3097a0ec530327281a89ecc05452ff",
+          "source": "Associated Press",
+          "title": "New Jersey food importer files lawsuit challenging Trump's 50% tariffs on Canadian goods",
+          "publishedAt": "2026-10-20T20:03:25Z"
+        },
+        {
+          "id": 3,
+          "url": "https://www.aljazeera.com/economy/2026/10/20/us-food-importer-sues-trump-over-50-percent-tariffs-on-canadian-goods?traffic_source=rss",
+          "source": "Al Jazeera",
+          "title": "US food importer sues Trump over 50 percent tariffs on Canadian goods",
+          "publishedAt": "2026-10-20"
+        }
+      ],
+      "tags": [
+        "US-Canada relations",
+        "tariffs",
+        "trade law",
+        "Section 338"
+      ],
+      "confidence": "high"
+    }
+  ]
+}
