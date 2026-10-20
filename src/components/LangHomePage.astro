@@ -1,12 +1,14 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import DenseIndexRow from '../components/DenseIndexRow.astro';
+import PinnedArticleLead from '../components/PinnedArticleLead.astro';
 import TldrList from '../components/TldrList.astro';
 import VerticalChip from '../components/VerticalChip.astro';
 import TypeBadge from '../components/TypeBadge.astro';
 import {
   allStoryRefs,
   getStoryRefs,
+  type ArticleStoryRef,
   type Lang,
   bySignal,
   editionsInLang,
@@ -28,7 +30,11 @@ const { lang, path = `/${lang}` } = Astro.props;
 const editions = editionsInLang(await getEditions(), lang);
 const newsRefs = allStoryRefs(editions, lang);
 const refs = await getStoryRefs(lang);
-const featuredRefs = refs.filter((ref) => ref.kind === 'article' || ref.publication === 'manual').slice(0, 6);
+const HOME_MAIN_FEATURE_SLUG = 'ai-inference-acceleration-10x';
+const mainFeature = refs.find((ref): ref is ArticleStoryRef => ref.kind === 'article' && ref.slug === HOME_MAIN_FEATURE_SLUG);
+const featuredRefs = refs
+  .filter((ref) => (ref.kind === 'article' || ref.publication === 'manual') && ref.slug !== HOME_MAIN_FEATURE_SLUG)
+  .slice(0, 6);
 const latest = newestDate(editions);
 const todayRefs = latest ? refsOnDate(newsRefs, latest) : [];
 const ranked = [...todayRefs].sort(bySignal);
@@ -71,6 +77,7 @@ const pageTitle = latest ? `Signal, ${formatDateLong(latest)}` : SITE.name;
           <div class="sr-empty__actions"><a class="sr-btn" href={`/${lang}/archive`}>{lang === 'ko' ? '아카이브' : 'Archive'}</a><a class="sr-btn" href="/about">About Signal Daily</a></div>
         </div>
       </section>
+      {mainFeature && <PinnedArticleLead article={mainFeature} lang={lang} />}
     ) : (
       <>
         <section class="sr-cover" aria-labelledby="cover-heading">
@@ -91,6 +98,8 @@ const pageTitle = latest ? `Signal, ${formatDateLong(latest)}` : SITE.name;
             </span>
           </div>
         </section>
+
+        {mainFeature && <PinnedArticleLead article={mainFeature} lang={lang} />}
 
         {startHere && (
           <section class="sr-section" aria-labelledby="start-heading">

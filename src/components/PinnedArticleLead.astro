@@ -1,0 +1,35 @@
+---
+import VerticalChip from './VerticalChip.astro';
+import { verticalHref, type ArticleStoryRef, type Lang } from '../lib/editions';
+import { formatDateLong } from '../lib/format';
+
+interface Props { article: ArticleStoryRef; lang: Lang }
+const { article, lang } = Astro.props;
+---
+
+<section class="sr-section sr-main-feature" aria-labelledby="main-feature-heading">
+  <div class="sr-section__head">
+    <h2 class="sr-section__title" id="main-feature-heading">
+      {lang === 'ko' ? '메인 기사' : 'Main feature'}
+    </h2>
+    <span class="sr-micro">{lang === 'ko' ? 'AI 분석' : 'AI analysis'}</span>
+  </div>
+  <div class="sr-start">
+    <div class="sr-main-feature__content">
+      <div class="sr-row__meta sr-micro">
+        <VerticalChip vertical={article.vertical} href={verticalHref(article.vertical, lang)} />
+        <span>{lang === 'ko' ? '분석' : 'Analysis'}</span>
+        <span>{formatDateLong(article.date)} · {article.story.readMinutes} {lang === 'ko' ? '분 읽기' : 'min read'}</span>
+      </div>
+      <h3 class="sr-main-feature__headline">
+        <a href={article.href}>{article.story.headline}</a>
+      </h3>
+      {article.story.dek && <p class="sr-cover__lede">{article.story.dek}</p>}
+      <p class="sr-main-feature__action">
+        <a class="sr-btn sr-btn--accent" href={article.href}>
+          {lang === 'ko' ? '기사 전체 읽기 →' : 'Read the full analysis →'}
+        </a>
+      </p>
+    </div>
+  </div>
+</section>

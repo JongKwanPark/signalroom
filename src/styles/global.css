@@ -444,6 +444,30 @@ hr {
   margin-top: var(--sp-4);
 }
 
+.sr-main-feature__content {
+  grid-column: 1 / -1;
+}
+
+.sr-main-feature__headline {
+  max-width: 32ch;
+  margin-top: var(--sp-3);
+  font-size: clamp(1.5rem, 3.6vw, var(--fs-2xl));
+}
+
+.sr-main-feature__headline a {
+  text-decoration: none;
+}
+
+.sr-main-feature__headline a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--accent-ai);
+  text-underline-offset: 0.15em;
+}
+
+.sr-main-feature__action {
+  margin-top: var(--sp-5);
+}
+
 .sr-start__side {
   border-left: 1px solid var(--hairline);
   padding-left: var(--sp-5);
