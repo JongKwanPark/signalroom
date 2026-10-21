@@ -1,10 +1,10 @@
 {
   "date": "2026-10-21",
-  "generatedAt": "2026-10-21T10:20:00.000Z",
+  "generatedAt": "2026-10-21T10:28:00.000Z",
   "vertical": "ai",
   "lang": "ko",
   "title": "AI: 연방 조달 정책과 선도 기업의 경제성",
-  "summary": "두 가지 동향이 AI 거버넌스와 운영 경제성을 부각한다. 하나는 DeepSeek 제품을 연방 기관에서 제거하라는 명령이고, 다른 하나는 Anthropic의 IPO 초안 공시에 관한 보도다. 후자의 세부 내용은 The Wall Street Journal이 열람한 초안에 근거한 것으로 보도됐다.후속 업데이트에는 WhatsApp 도움말의 숨은 AI 지시문 보도가 추가됐다.",
+  "summary": "두 가지 동향이 AI 거버넌스와 운영 경제성을 부각한다. 하나는 DeepSeek 제품을 연방 기관에서 제거하라는 명령이고, 다른 하나는 Anthropic의 IPO 초안 공시에 관한 보도다. 후자의 세부 내용은 The Wall Street Journal이 열람한 초안에 근거한 것으로 보도됐다.후속 업데이트에는 WhatsApp 도움말의 숨은 AI 지시문 보도가 추가됐다. 후속 보도에는 Steam 이용자의 AI 필터 요구가 추가됐다.",
   "stories": [
     {
       "slug": "deepseek-banned-us-federal-civilian-agencies-ko",
@@ -242,6 +242,79 @@
           "publishedAt": "2026-10-20"
         }
       ]
+    },
+    {
+      "slug": "steam-next-fest-players-call-for-ai-filter-ko",
+      "headline": "Steam Next Fest에 AI 게임 늘자 이용자들, ‘AI 제외 필터’ 요구",
+      "dek": "10월 Steam Next Fest가 수천 개의 데모와 함께 시작되자, 이용자들이 AI 제작 게임을 걸러낼 기능을 Valve에 요구했다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "IGN은 10월 Steam Next Fest 기간 이용자들이 Valve에 ‘AI 제외’ 필터를 요구하고 있다고 보도했다.",
+        "이번 행사는 수천 개의 플레이 가능한 데모와 함께 시작됐으며 Reddit 토론에서도 관련 관심이 확인됐다.",
+        "Valve 문서는 행사 참여 요건과 공개 절차를 설명하지만 필터 도입 여부는 밝히지 않았다."
+      ],
+      "body": [
+        {
+          "text": "IGN은 10월 Next Fest에서 출시 예정작의 데모를 둘러보는 이용자들이 AI 생성 게임을 숨길 수 있는 기능을 요구하고 있다고 보도했다. 기사에는 완성도가 낮은 항목이 많다는 이용자 불만도 담겼다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "행사 관련 Reddit 토론에서도 데모가 많고 AI 사용 표시가 뒤섞여 원하는 게임을 찾기 어렵다는 반응이 나왔다. 이 토론은 이용자 반응을 보여주는 자료이지 AI 제작 게임의 검증된 수량은 아니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Valve의 공식 행사 문서는 플레이 가능한 데모의 참가 요건과 등록 절차를 설명한다. 하지만 AI 게임 제외 필터를 발표하거나 도입 계획을 밝히지는 않았다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "확인된 것은 행사 기간 이용자들이 기능을 요구했다는 점이며 Valve의 정책 변경은 아니다. 필터 기준에서 AI 사용을 어떻게 정의할지, 개발자 공개 정보가 일관적인지, 회사가 요구에 응답할지는 미정이다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "필터는 논쟁 중인 AI 사용 표시를 대형 게임 마켓의 검색·발견 기능으로 바꾸는 선택이다. Valve가 이용자 요구를 어떤 기준으로 표준화하고 적용할지가 관건이다.",
+      "editorNote": "이용자 요구는 IGN 보도와 참여가 많은 Reddit 토론에 근거했다. Valve 공식 행사 문서는 필터 도입을 발표하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://partner.steamgames.com/doc/marketing/upcoming_events/nextfest/2026october?l=english",
+          "source": "Steamworks",
+          "title": "Steam Next Fest: October 2026"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop",
+          "source": "IGN",
+          "title": "Steam Users Beg for \"No AI\" Filter as Vibecoders Flood Next Fest",
+          "publishedAt": "2026-10-20"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reddit.com/r/pcmasterrace/comments/1xap7mm/demands_for_ai_filter_on_steam_grow_as_next_fest/",
+          "source": "Reddit r/pcmasterrace",
+          "title": "Demands for AI Filter on Steam Grow as Next Fest Is Flooded with AI Slop",
+          "publishedAt": "2026-10-20"
+        }
+      ],
+      "tags": [
+        "AI",
+        "gaming",
+        "platform policy"
+      ],
+      "confidence": "medium"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "date": "2026-10-21",
-  "generatedAt": "2026-10-21T10:20:00.000Z",
+  "generatedAt": "2026-10-21T10:28:00.000Z",
   "vertical": "ai",
   "lang": "en",
   "title": "AI: Federal procurement and frontier-company economics",
-  "summary": "Two developments put AI governance and operating economics in focus: a federal removal order for DeepSeek and new reporting on Anthropic's draft IPO disclosures. The details of the latter remain attributed to a draft filing viewed by The Wall Street Journal.A later update adds reporting on hidden AI instructions on WhatsApp help pages.",
+  "summary": "Two developments put AI governance and operating economics in focus: a federal removal order for DeepSeek and new reporting on Anthropic's draft IPO disclosures. The details of the latter remain attributed to a draft filing viewed by The Wall Street Journal.A later update adds reporting on hidden AI instructions on WhatsApp help pages. Added reporting on Steam players’ AI-filter requests.",
   "stories": [
     {
       "slug": "deepseek-banned-us-federal-civilian-agencies",
@@ -242,6 +242,79 @@
           "publishedAt": "2026-10-20"
         }
       ]
+    },
+    {
+      "slug": "steam-next-fest-players-call-for-ai-filter",
+      "headline": "Steam Users Beg for \"No AI\" Filter as Vibecoders Flood Next Fest",
+      "dek": "Players asked Valve for a way to filter AI-made games as October’s Steam Next Fest opened with thousands of demos.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "IGN reported that players were asking Valve for a “No AI” filter during October’s Steam Next Fest.",
+        "The festival began with thousands of playable demos, while Reddit discussion showed strong user attention to the issue.",
+        "Valve’s documentation describes event eligibility and disclosures but does not establish that it will add a filter."
+      ],
+      "body": [
+        {
+          "text": "IGN reported that Steam users were asking for a way to hide AI-generated games during the October Next Fest, where players browse demos from upcoming releases. The article described the volume of low-effort entries as a source of frustration among users.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "A highly engaged Reddit discussion about the festival also focused on the difficulty of finding games among the volume of demos and AI disclosures. The discussion is evidence of player reaction, not a verified count of AI-made games.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Valve’s official event documentation says developers can participate with playable demos and explains event registration and disclosure-related options. It does not announce an AI exclusion filter or say that Valve plans to add one.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The confirmed development is a request from players during the event, not a policy change by Valve. It remains open how Steam would define AI use for filtering, whether developers’ disclosures are sufficiently consistent, and whether the company will respond.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "A filter would turn a contested disclosure label into a discovery control for a major game marketplace. The open question is whether Valve will standardize the signal users want and how it would enforce it.",
+      "editorNote": "Player requests are attributed to IGN and a high-engagement Reddit discussion. Valve’s official event documentation does not announce a filter.",
+      "cluster": [
+        {
+          "url": "https://partner.steamgames.com/doc/marketing/upcoming_events/nextfest/2026october?l=english",
+          "source": "Steamworks",
+          "title": "Steam Next Fest: October 2026"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop",
+          "source": "IGN",
+          "title": "Steam Users Beg for \"No AI\" Filter as Vibecoders Flood Next Fest",
+          "publishedAt": "2026-10-20"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reddit.com/r/pcmasterrace/comments/1xap7mm/demands_for_ai_filter_on_steam_grow_as_next_fest/",
+          "source": "Reddit r/pcmasterrace",
+          "title": "Demands for AI Filter on Steam Grow as Next Fest Is Flooded with AI Slop",
+          "publishedAt": "2026-10-20"
+        }
+      ],
+      "tags": [
+        "AI",
+        "gaming",
+        "platform policy"
+      ],
+      "confidence": "medium"
     }
   ]
 }

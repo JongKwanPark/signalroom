@@ -1,10 +1,10 @@
 {
   "date": "2026-10-21",
-  "generatedAt": "2026-10-21T10:20:00.000Z",
+  "generatedAt": "2026-10-21T10:28:00.000Z",
   "vertical": "markets",
   "lang": "en",
   "title": "Markets: Earnings, an acquisition and aircraft approval",
-  "summary": "Netflix beat third-quarter earnings expectations but lowered its advertising outlook; Salesforce agreed to acquire Braze for $5.66 billion; and Boeing received FAA approval for the 737 MAX 10. These are reported corporate and regulatory developments, not investment signals. A later update adds China’s Q3 growth and its export-led mix alongside weak domestic demand.",
+  "summary": "Netflix beat third-quarter earnings expectations but lowered its advertising outlook; Salesforce agreed to acquire Braze for $5.66 billion; and Boeing received FAA approval for the 737 MAX 10. These are reported corporate and regulatory developments, not investment signals. A later update adds China’s Q3 growth and its export-led mix alongside weak domestic demand. Later updates add SpaceX’s quarterly results and exploratory Tesla merger talks, plus a rise in French borrowing costs. Later updates add SpaceX’s quarterly results and exploratory Tesla merger talks, plus a rise in French borrowing costs.",
   "stories": [
     {
       "slug": "netflix-q3-beat-lower-ad-outlook",
@@ -343,6 +343,154 @@
           "publishedAt": "2026-10-19"
         }
       ]
+    },
+    {
+      "slug": "spacex-q3-profit-and-tesla-merger-exploration",
+      "headline": "Elon Musk’s SpaceX reports a profit and he hints at a possible merger with Tesla",
+      "dek": "SpaceX reported $14.6 billion in Q3 revenue and $4.4 billion in net income; independent director committees are discussing a possible Tesla combination.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "SpaceX reported $14.6 billion in Q3 revenue, up 161%, and $4.4 billion in net income, according to AP and Axios.",
+        "Elon Musk said independent director committees at SpaceX and Tesla were discussing a possible merger, while cautioning that a deal was not certain.",
+        "SpaceX’s AI unit became its largest revenue segment, while Starlink remained its largest profit generator."
+      ],
+      "body": [
+        {
+          "text": "SpaceX reported $14.6 billion in revenue for the three months through September, up 161% year over year, and net income of $4.4 billion, according to the company results reported by the Associated Press and Axios. The profit reversed a loss a year earlier and exceeded analysts’ expectations.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Musk said the companies had formed special committees of independent directors to discuss a possible merger between SpaceX and Tesla. He also cautioned that a deal was not certain and played down the chance of an imminent transaction.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The AI business became SpaceX’s largest revenue segment in the quarter, while Starlink remained its largest profit generator. The company also reported $19.6 billion in quarterly capital expenditures, a measure of the investment required to expand its businesses.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The results show rapid expansion alongside heavy spending, while the merger discussion remains exploratory. The companies have not announced a transaction, its terms, or a timeline, leaving governance, financing and regulatory questions unresolved.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The results link SpaceX’s AI and connectivity expansion to unusually high capital spending, while a potential combination with Tesla could raise governance and control questions. The companies have disclosed discussion, not a deal.",
+      "editorNote": "Financial figures come from company results reported by AP and Axios. The merger is described as exploratory, with no announced agreement.",
+      "cluster": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
+          "source": "SpaceX",
+          "title": "SpaceX Reports Third Quarter 2026 Results"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/spacex-musk-turns-profit-losses-67064446bf0afdf529db55bdec82af69",
+          "source": "Associated Press",
+          "title": "Elon Musk’s SpaceX reports a profit and he hints at a possible merger with Tesla",
+          "publishedAt": "2026-10-20"
+        },
+        {
+          "id": 2,
+          "url": "https://www.axios.com/2026/10/20/spacex-earnings-ai-elon-musk",
+          "source": "Axios",
+          "title": "SpaceX earnings soar past expectations as AI business surges",
+          "publishedAt": "2026-10-20"
+        }
+      ],
+      "tags": [
+        "SpaceX",
+        "Tesla",
+        "earnings",
+        "AI infrastructure"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "french-ten-year-bond-yield-hits-five-percent",
+      "headline": "French 10-year bond yields hit 5%, highest since 2002",
+      "dek": "Reuters linked the rise in borrowing costs to fragile public finances, budget uncertainty and nationwide protests.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "France’s 10-year government bond yield touched 5.002%, a 24-year high, Reuters reported.",
+        "The spread over German Bunds was around 157 basis points as investors priced France’s fiscal and political risks.",
+        "The yield move reflects market conditions; it does not establish a specific government financing outcome or policy decision."
+      ],
+      "body": [
+        {
+          "text": "France’s 10-year government bond yield reached 5.002% during Wednesday trading, a level Reuters described as a 24-year high. It later traded just below 5%, up around 8 basis points on the day.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Reuters said the gap between French and German 10-year yields stood near 157 basis points, reflecting the additional return investors demand to hold French debt. The report situated the move within a broader rise in global government borrowing costs.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "France’s weakened government was trying to pass a budget and reduce a high deficit. The country was also facing widespread protests and uncertainty ahead of a closely contested election next year, factors Reuters said were weighing on the market.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The yield marks investor concern, not a finding that France cannot finance itself or a forecast of a specific policy response. Whether budget negotiations ease the pressure, and how long the protest and election uncertainty persist, remain open.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The yield is a market signal of rising concern about France’s fiscal position and political capacity to pass a budget. It also affects the relative cost of sovereign borrowing within the euro area, though the move alone does not determine a policy outcome.",
+      "editorNote": "Yield and spread figures are attributed to Reuters reporting. This is market context, not investment advice.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/economy-news/french-bondslead-euro-zone-yields-higher-4962106",
+          "source": "Reuters",
+          "title": "French bonds lead euro zone yields higher"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.investing.com/news/economy-news/french-10year-bond-yields-hit-5-highest-since-2002-4962104",
+          "source": "Reuters",
+          "title": "French 10-year bond yields hit 5%, highest since 2002",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/10/21/france-protests-bonds-debt.html",
+          "source": "CNBC",
+          "title": "French 10-year bond yield hits 5% for first time since 2002 amid unrest",
+          "publishedAt": "2026-10-21"
+        }
+      ],
+      "tags": [
+        "France",
+        "sovereign debt",
+        "bond yields",
+        "euro area"
+      ],
+      "confidence": "high"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "date": "2026-10-21",
-  "generatedAt": "2026-10-21T10:20:00.000Z",
+  "generatedAt": "2026-10-21T10:28:00.000Z",
   "vertical": "markets",
   "lang": "ko",
   "title": "시장: 실적, 인수 계약, 항공기 승인",
-  "summary": "Netflix는 3분기 실적 전망을 웃돌았지만 광고 매출 전망을 낮췄다. Salesforce는 Braze를 56억 6,000만 달러에 인수하기로 했고 Boeing은 737 MAX 10에 대한 FAA 승인을 받았다. 이는 보도된 기업·규제 동향이며 투자 신호가 아니다. 후속 업데이트에는 중국 3분기 성장률과 내수 부진 속 수출 중심 성장 구성이 추가됐다.",
+  "summary": "Netflix는 3분기 실적 전망을 웃돌았지만 광고 매출 전망을 낮췄다. Salesforce는 Braze를 56억 6,000만 달러에 인수하기로 했고 Boeing은 737 MAX 10에 대한 FAA 승인을 받았다. 이는 보도된 기업·규제 동향이며 투자 신호가 아니다. 후속 업데이트에는 중국 3분기 성장률과 내수 부진 속 수출 중심 성장 구성이 추가됐다. 후속 보도에는 SpaceX 분기 실적과 탐색 중인 Tesla 합병 논의, 프랑스 차입 비용 상승이 추가됐다. 후속 보도에는 SpaceX 분기 실적과 탐색 중인 Tesla 합병 논의, 프랑스 차입 비용 상승이 추가됐다.",
   "stories": [
     {
       "slug": "netflix-q3-beat-lower-ad-outlook-ko",
@@ -343,6 +343,154 @@
           "publishedAt": "2026-10-19"
         }
       ]
+    },
+    {
+      "slug": "spacex-q3-profit-and-tesla-merger-exploration-ko",
+      "headline": "SpaceX, 분기 순이익 44억 달러…머스크는 Tesla와 합병 가능성 시사",
+      "dek": "SpaceX는 3분기 매출 146억 달러와 순이익 44억 달러를 기록했다. 독립 이사 위원회가 Tesla와의 합병 가능성을 논의 중이다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "AP와 Axios에 따르면 SpaceX는 3분기 매출 146억 달러와 순이익 44억 달러를 기록했고, 매출은 161% 증가했다.",
+        "Elon Musk는 SpaceX와 Tesla의 독립 이사 위원회가 합병 가능성을 논의 중이라고 밝혔지만, 거래가 확정된 것은 아니라고 했다.",
+        "SpaceX의 AI 사업부는 최대 매출 부문이 됐지만, Starlink는 여전히 가장 큰 이익을 내는 사업이다."
+      ],
+      "body": [
+        {
+          "text": "AP와 Axios가 보도한 회사 실적에 따르면 SpaceX는 9월까지 3개월 동안 매출 146억 달러를 기록해 전년 대비 161% 증가했고 순이익은 44억 달러였다. 1년 전 손실에서 흑자로 돌아섰으며 시장 예상도 웃돌았다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Musk는 SpaceX와 Tesla가 합병 가능성을 논의하기 위해 독립 이사들로 구성된 특별위원회를 만들었다고 말했다. 다만 거래가 확정된 것은 아니며 임박한 합병 가능성도 낮게 봤다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이번 분기 SpaceX의 최대 매출 부문은 AI 사업이었고, 가장 큰 이익을 낸 사업은 Starlink였다. 회사는 사업 확장에 필요한 투자 규모를 보여주는 분기 자본적 지출로 196억 달러도 보고했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "실적은 빠른 사업 확장과 큰 지출이 함께 진행되고 있음을 보여주며 합병 논의는 아직 탐색 단계다. 거래나 조건, 일정은 발표되지 않아 지배구조·자금조달·규제 관련 쟁점이 남아 있다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "실적은 SpaceX의 AI·통신 사업 확장과 큰 자본적 지출이 함께 진행됨을 보여준다. Tesla와의 결합 가능성은 지배구조와 통제 문제를 제기할 수 있지만, 양사가 밝힌 것은 논의이지 거래가 아니다.",
+      "editorNote": "재무 수치는 회사 실적과 AP·Axios 보도를 따랐다. 합병 논의는 탐색 단계이며 합의가 발표된 것은 아니다.",
+      "cluster": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
+          "source": "SpaceX",
+          "title": "SpaceX Reports Third Quarter 2026 Results"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/spacex-musk-turns-profit-losses-67064446bf0afdf529db55bdec82af69",
+          "source": "Associated Press",
+          "title": "Elon Musk’s SpaceX reports a profit and he hints at a possible merger with Tesla",
+          "publishedAt": "2026-10-20"
+        },
+        {
+          "id": 2,
+          "url": "https://www.axios.com/2026/10/20/spacex-earnings-ai-elon-musk",
+          "source": "Axios",
+          "title": "SpaceX earnings soar past expectations as AI business surges",
+          "publishedAt": "2026-10-20"
+        }
+      ],
+      "tags": [
+        "SpaceX",
+        "Tesla",
+        "earnings",
+        "AI infrastructure"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "french-ten-year-bond-yield-hits-five-percent-ko",
+      "headline": "프랑스 10년물 국채 금리 5% 도달…2002년 이후 최고",
+      "dek": "Reuters는 취약한 재정, 예산 불확실성, 전국적 시위와 차입 비용 상승을 연결해 보도했다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "Reuters에 따르면 프랑스 10년물 국채 금리는 5.002%에 도달해 24년 만의 최고치를 기록했다.",
+        "독일 국채 대비 금리 차는 약 157bp로, 투자자들이 프랑스의 재정·정치 위험을 반영했다.",
+        "금리 움직임은 시장 상황을 보여줄 뿐 특정 정부 조달 결과나 정책 결정이 확정됐다는 뜻은 아니다."
+      ],
+      "body": [
+        {
+          "text": "Reuters에 따르면 프랑스 10년물 국채 금리는 수요일 장중 5.002%에 도달해 24년 만의 최고치를 기록했다. 이후에는 5%를 조금 밑돌았으며 당일 약 8bp 상승했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "프랑스와 독일의 10년물 금리 차는 약 157bp로, Reuters는 프랑스 국채를 보유하는 데 투자자들이 요구하는 추가 수익률을 반영한다고 설명했다. 보도는 이 움직임을 세계 각국의 국채 조달 비용 상승 흐름 속에 놓았다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "프랑스 정부는 재정적자를 줄이고 예산안을 의회에서 통과시키려 하고 있었다. Reuters는 약화된 정부, 전국적 시위, 내년 치열한 선거를 앞둔 불확실성이 시장에 부담을 주고 있다고 전했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "금리 수준은 투자자 우려를 나타내지만 프랑스가 자금을 조달할 수 없다는 결론이나 특정 정책 대응의 예고는 아니다. 예산 협상이 압박을 완화할지, 시위와 선거 불확실성이 얼마나 이어질지는 미정이다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "금리 상승은 프랑스 재정 상황과 예산 통과를 둘러싼 정치적 역량에 대한 우려를 반영한다. 유로존 안에서 국채 조달 비용의 상대 격차에도 영향을 주지만, 이 움직임만으로 정책 결과가 정해지는 것은 아니다.",
+      "editorNote": "금리와 격차 수치는 Reuters 보도에 근거했다. 시장 상황 설명이며 투자 조언은 아니다.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/economy-news/french-bondslead-euro-zone-yields-higher-4962106",
+          "source": "Reuters",
+          "title": "French bonds lead euro zone yields higher"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.investing.com/news/economy-news/french-10year-bond-yields-hit-5-highest-since-2002-4962104",
+          "source": "Reuters",
+          "title": "French 10-year bond yields hit 5%, highest since 2002",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/10/21/france-protests-bonds-debt.html",
+          "source": "CNBC",
+          "title": "French 10-year bond yield hits 5% for first time since 2002 amid unrest",
+          "publishedAt": "2026-10-21"
+        }
+      ],
+      "tags": [
+        "France",
+        "sovereign debt",
+        "bond yields",
+        "euro area"
+      ],
+      "confidence": "high"
     }
   ]
 }

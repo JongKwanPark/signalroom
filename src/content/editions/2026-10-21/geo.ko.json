@@ -1,10 +1,10 @@
 {
   "date": "2026-10-21",
-  "generatedAt": "2026-10-21T10:20:00.000Z",
+  "generatedAt": "2026-10-21T10:28:00.000Z",
   "vertical": "geo",
   "lang": "ko",
   "title": "지정학: 캐나다의 결속과 무역 압박",
-  "summary": "앨버타 유권자들은 분리독립으로 이어질 수 있는 절차를 시작하자는 제안을 거부했다. 한편 미국 수입업체는 캐나다산 상품에 대한 50% 관세의 법적 근거에 이의를 제기했다. 두 사안은 캐나다와 미국 관계에 가해지는 국내 정치·무역 압박을 보여준다. 후속 업데이트에는 아비에이 시장 공습과 사상자·책임 주체를 둘러싼 상반된 설명이 추가됐다.",
+  "summary": "앨버타 유권자들은 분리독립으로 이어질 수 있는 절차를 시작하자는 제안을 거부했다. 한편 미국 수입업체는 캐나다산 상품에 대한 50% 관세의 법적 근거에 이의를 제기했다. 두 사안은 캐나다와 미국 관계에 가해지는 국내 정치·무역 압박을 보여준다. 후속 업데이트에는 아비에이 시장 공습과 사상자·책임 주체를 둘러싼 상반된 설명이 추가됐다. 후속 보도에는 호주 의원 헬렌 헤인스 공격과 러시아의 스티븐 허버드 석방이 추가됐다. 후속 보도에는 호주 의원 헬렌 헤인스 공격과 러시아의 스티븐 허버드 석방이 추가됐다.",
   "stories": [
     {
       "slug": "alberta-voters-reject-secession-process-ko",
@@ -254,6 +254,153 @@
           "publishedAt": "2026-10-21"
         }
       ]
+    },
+    {
+      "slug": "australian-mp-helen-haines-car-attack-ko",
+      "headline": "차량에 치인 호주 연방의원 헬렌 헤인스, 양쪽 다리 절단",
+      "dek": "독립 의원 헬렌 헤인스는 고의 공격으로 의심되는 사건 뒤 안정 상태다. 피의자는 법원에 출석했으며 경찰은 동기를 밝히지 못했다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "호주 연방의원 헬렌 헤인스가 왕가라타에서 차량에 치인 뒤 의료진이 양쪽 다리를 절단했다.",
+        "43세 남성이 중상해 고의 유발 등을 포함한 혐의로 법원에 출석했으며, 기소 사실에 대한 답변은 하지 않았다.",
+        "경찰은 동기를 밝히지 못했고, 사전에 구체적인 위협 정보가 있었던 것은 아니라고 밝혔다."
+      ],
+      "body": [
+        {
+          "text": "호주 연방의회 독립 의원 헬렌 헤인스가 월요일 왕가라타 지역구 사무실 밖에서 차량에 치인 뒤 양쪽 다리를 절단했다. 남편은 멜버른 병원에서 치료받는 헤인스가 안정 상태라고 말했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP통신에 따르면 43세 남성이 수요일 법원에 출석했다. 고의 중상해, 위험 운전으로 인한 중상해, 연방 공직자 위해 혐의 등이 적용됐으며, 피의자는 보석을 신청하거나 혐의에 답변하지 않았다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Al Jazeera는 Reuters를 인용해 경찰이 헤인스에 대한 구체적인 위협 정보를 갖고 있지 않았다고 전했다. 동기는 수사 중이며, 법정에서 피의자 변호인이 언급한 건강 상태는 확정된 사건 설명이 아니라 변호인 측 주장이다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이번 사건은 선출직 공직자의 안전 문제에 관심을 모았지만, 당국은 더 광범위한 조직적 위협의 일부라고 규정하지 않았다. 수사에서 동기가 어떻게 밝혀질지와 첫 법정 출석 뒤 재판 절차가 남은 쟁점이다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "현직 연방의원에 대한 공격은 선출직 공직자의 안전 문제를 제기한다. 다만 동기가 확인되지 않아 정치적 표적 공격이나 더 넓은 위협 양상으로 일반화할 수는 없다.",
+      "editorNote": "부상과 혐의는 AP 보도로 확인했다. 동기는 수사 중이며 피의자 변호인의 건강 관련 주장은 확정 사실로 다루지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.abc.net.au/news/2026-10-21/helen-haines-attack-live-updates-brendan-nugent-court-hearing/107290276",
+          "source": "ABC News",
+          "title": "Helen Haines live updates: MP has lost both legs in car attack, husband confirms"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/australia-legs-helen-haines-lawmaker-c7c1691a1e308b2bdbede5e4d56d2852",
+          "source": "Associated Press",
+          "title": "Australian politician who was hit by car has lost both legs",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/amp/news/2026/10/21/australian-mp-loses-both-legs-in-vehicle-attack-as-suspect-appears-in-court",
+          "source": "Al Jazeera",
+          "title": "Australian MP loses both legs in vehicle attack as suspect appears in court",
+          "publishedAt": "2026-10-21"
+        }
+      ],
+      "tags": [
+        "Australia",
+        "political security",
+        "violence"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "russia-releases-us-citizen-stephen-hubbard-ko",
+      "headline": "러시아, 우크라이나 용병 혐의로 수감된 미국인 교사 석방",
+      "dek": "미국 특사 스티브 위트코프가 블라디미르 푸틴과의 회담 중 스티븐 허버드 석방을 발표했다. 그의 군사 활동 혐의에 관한 설명은 엇갈린다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "러시아가 우크라이나 관련 용병 혐의로 비공개 재판에서 형을 선고받은 미국인 은퇴 교사 스티븐 허버드를 석방했다.",
+        "미국 특사 스티브 위트코프가 상트페테르부르크에서 블라디미르 푸틴 대통령과 회담하며 석방을 발표했다.",
+        "미국 정부는 허버드를 부당 구금자로 지정했으며, Reuters는 변호인이 혐의를 반박하고 허버드가 군부대 복무를 부인했다고 전했다."
+      ],
+      "body": [
+        {
+          "text": "미국 특사 스티브 위트코프는 수요일 상트페테르부르크에서 블라디미르 푸틴 대통령과 회담하며 우크라이나에서 용병으로 싸운 혐의로 수감됐던 미국인 은퇴 교사 스티븐 허버드의 석방을 발표했다. 푸틴은 석방 뒤 허버드가 현지 공항에 있다고 말했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "미시간주 출신 허버드는 2024년 비공개 재판 뒤 약 7년형을 선고받았다. 러시아 검찰은 그가 우크라이나군과 계약을 맺고 함께 싸우다 붙잡혔다고 주장했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "그의 군사 활동 혐의에 관한 설명은 엇갈린다. Reuters는 미국에 있는 허버드의 변호인이 과거 혐의가 거짓이며 허버드가 전투 부대나 군부대에서 복무하지 않았다고 자신에게 말했다고 전했다. 미국 정부는 허버드를 부당 구금자로 지정했었다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "석방은 우크라이나 전쟁을 둘러싼 미·러 접촉이 이어지는 가운데 발표됐지만, 당국은 교환이나 합의 조건을 설명하지 않았다. 허버드의 귀국과 구금의 법적 경위는 더 넓은 외교적 결과와 구분해 살펴볼 사안이다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 석방은 미·러 직접 접촉 중 발표된 인도적 사안이지만 교환 조건이나 더 넓은 외교 합의는 공개되지 않았다. 논란이 된 유죄 판결과 석방 사실도 구분해 다뤄야 한다.",
+      "editorNote": "미국 특사가 석방을 확인했고 AP와 Reuters가 보도했다. 혐의와 허버드 측 부인은 각 출처의 설명으로 귀속했다.",
+      "cluster": [
+        {
+          "url": "https://www.cbsnews.com/news/russia-stephen-hubbard-freed-american-ukraine-war-witkoff-putin/",
+          "source": "CBS News",
+          "title": "U.S. citizen Stephen Hubbard released by Russia after years in jail, Witkoff and Russian news agencies say"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/russia-american-released-stephen-hubbard-ukraine-witkoff-2c7e34d6606be242ed4a7473e57110c7",
+          "source": "Associated Press",
+          "title": "Russia frees American teacher imprisoned as mercenary in Ukraine",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/world-news/putin-says-russia-has-freed-us-citizen-stephen-hubbard-4962152",
+          "source": "Reuters",
+          "title": "Putin says Russia has freed US citizen Stephen Hubbard",
+          "publishedAt": "2026-10-21"
+        }
+      ],
+      "tags": [
+        "Russia",
+        "United States",
+        "Ukraine",
+        "diplomacy"
+      ],
+      "confidence": "high"
     }
   ]
 }
