@@ -4,7 +4,7 @@
   "vertical": "ai",
   "lang": "ko",
   "title": "AI: 연방 조달 정책과 선도 기업의 경제성",
-  "summary": "두 가지 동향이 AI 거버넌스와 운영 경제성을 부각한다. 하나는 DeepSeek 제품을 연방 기관에서 제거하라는 명령이고, 다른 하나는 Anthropic의 IPO 초안 공시에 관한 보도다. 후자의 세부 내용은 The Wall Street Journal이 열람한 초안에 근거한 것으로 보도됐다.후속 업데이트에는 WhatsApp 도움말의 숨은 AI 지시문 보도가 추가됐다. 후속 보도에는 Steam 이용자의 AI 필터 요구가 추가됐다.",
+  "summary": "두 가지 동향이 AI 거버넌스와 운영 경제성을 부각한다. 하나는 DeepSeek 제품을 연방 기관에서 제거하라는 명령이고, 다른 하나는 Anthropic의 IPO 초안 공시에 관한 보도다. 후자의 세부 내용은 The Wall Street Journal이 열람한 초안에 근거한 것으로 보도됐다.후속 업데이트에는 WhatsApp 도움말의 숨은 AI 지시문 보도가 추가됐다. 후속 보도에는 Steam 이용자의 AI 필터 요구가 추가됐다. 수집된 나머지 AI 후보는 독립된 두 번째 매체 보도가 없는 논문·저장소 게시물·토론이 대부분이어서 제외했다.",
   "stories": [
     {
       "slug": "deepseek-banned-us-federal-civilian-agencies-ko",
