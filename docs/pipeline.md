@@ -105,6 +105,24 @@ and `npm run build:og` (`scripts/og.mjs`).
 - **Measured 2026-10-21** (1,049 cards): full build about **7m50s → 21s**; OG step
   **7m20s → 0.5s** warm, **11s** cold or `--force`.
 
+### Share cards are rendered from code, not generated
+
+The cards are **not AI-generated images and not HTML pages**. `scripts/og.mjs` builds a small JS
+element tree (`h(type, style, children)`, `frame()`, `brandLockup()`, `storyElement()`), satori lays
+it out into SVG, and resvg rasterizes it to a 1200×630 PNG at build time. Text is real text set in
+the bundled faces (Inter, Noto Sans KR, JetBrains Mono), category colors are read from the
+`--accent-*` tokens in `src/styles/theme.css`, and the brand mark comes from
+`public/brand/logo-mark.svg`. No image model, image skill or generation API is involved.
+
+Why not a generative model: 1,000+ cards are rebuilt whenever content moves, and generation is
+non-deterministic, billed per image and rate-limited. Code rendering is deterministic, so the
+content-hash cache holds and the same story always produces the same card.
+
+Changing this pipeline: keep new card types on the same contract — a stable `key` over every input
+the card renders and a `targets` list of output paths — or they will re-render on every build. A
+template, font, theme-token or brand change invalidates one whole generation; that costs ~11s once
+and needs no manual cache clearing.
+
 ## Environment / secrets
 
 | Var | Used for | Required? |

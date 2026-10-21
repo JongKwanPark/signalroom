@@ -210,6 +210,9 @@ Usage rules:
 - `scripts/og.mjs` embeds `logo-mark.svg` as a data URI and sets the wordmark as live text with
   the same split (Inter SemiBold `--text`, Inter Regular `--muted`).
 
+OG cards are **code-rendered** (JS element tree → satori → SVG → resvg PNG), not generated images;
+the render and caching contract is in [pipeline.md](pipeline.md#share-cards-are-rendered-from-code-not-generated).
+
 Don't:
 
 - Don't recolor, retypeset, outline, rotate, stretch or crop the logo; no radius, shadow,
