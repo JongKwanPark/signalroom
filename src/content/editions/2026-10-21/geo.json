@@ -1,10 +1,10 @@
 {
   "date": "2026-10-21",
-  "generatedAt": "2026-10-21T07:02:51+09:00",
+  "generatedAt": "2026-10-21T10:20:00.000Z",
   "vertical": "geo",
   "lang": "en",
   "title": "Geopolitics: Canadian unity and trade pressure",
-  "summary": "Alberta voters rejected a proposal that would have opened a path toward secession, while a US importer challenged the legal basis for Washington's 50% tariffs on Canadian goods. The two stories show domestic and trade pressures testing the Canada-US relationship.",
+  "summary": "Alberta voters rejected a proposal that would have opened a path toward secession, while a US importer challenged the legal basis for Washington's 50% tariffs on Canadian goods. The two stories show domestic and trade pressures testing the Canada-US relationship. A later update adds the Abyei market drone strike and disputed accounts of casualties and responsibility.",
   "stories": [
     {
       "slug": "alberta-voters-reject-secession-process",
@@ -67,6 +67,80 @@
       ],
       "tags": ["US-Canada relations", "tariffs", "trade law", "Section 338"],
       "confidence": "high"
+    },
+    {
+      "slug": "abyei-market-drone-strike-kills-at-least-153",
+      "headline": "Drone strike on a market in disputed African region of Abyei kills at least 153",
+      "dek": "A strike hit a fuel depot at Amiet Market; Sudanese and South Sudanese accounts differ over the targets and those killed.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tags": [
+        "Sudan",
+        "South Sudan",
+        "Abyei",
+        "conflict"
+      ],
+      "confidence": "medium",
+      "tldr": [
+        "A drone strike and fire at Amiet Market killed at least 153 people, according to Abyei’s caretaker information minister.",
+        "South Sudanese officials blamed Sudan’s military, while an unnamed Sudanese officer said the strike targeted tankers allegedly bound for the Rapid Support Forces.",
+        "The UN said it was verifying casualties; responsibility and victims’ identities remain disputed."
+      ],
+      "body": [
+        {
+          "text": "A drone strike hit Amiet Market in Abyei, a territory claimed by Sudan and South Sudan, and ignited a fire at a nearby fuel depot. Abyei’s caretaker information minister told the Associated Press the death toll reached at least 153 and could rise.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Abyei’s caretaker minister and South Sudan’s foreign ministry blamed Sudan’s military. South Sudan said drones struck several parts of the market and summoned Sudan’s ambassador to protest. Al Jazeera reported no immediate public comment from Sudan’s armed forces.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "An unnamed Sudanese military officer told AP the army targeted fuel tankers arriving from South Sudan that were allegedly bound for the Rapid Support Forces. He said those killed were RSF members or fuel smugglers, but AP could not independently verify the targets or identities.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The UN condemned drone attacks near Amiet Market and Todach without naming who carried them out. Its interim force was checking casualties as people remained missing; Doctors Without Borders said it was treating more than 20 wounded. Abyei’s status remains unresolved.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Abyei is disputed territory and a strategic corridor near Sudan’s war front. The reported civilian toll and competing accounts raise the risk that cross-border effects of the war will deepen an unresolved sovereignty dispute.",
+      "editorNote": "Casualty figure and attribution are reported claims. The UN had not assigned responsibility, and AP said it could not verify the officer’s account.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/21/drone-attack-in-disputed-sudan-south-sudan-border-region-kills-at-least-153",
+          "source": "Al Jazeera",
+          "title": "Drone attack in disputed Sudan-South Sudan border region kills at least 153"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/sudan-drone-strike-fuel-depot-abyei-deaths-f36b3c7d15be6b48efdc35eed7219d6d",
+          "source": "Associated Press",
+          "title": "Drone strike on a market in disputed African region of Abyei kills at least 153",
+          "publishedAt": "2026-10-20"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/news/2026/10/21/drone-attack-in-disputed-sudan-south-sudan-border-region-kills-at-least-153",
+          "source": "Al Jazeera",
+          "title": "Drone attack in disputed Sudan-South Sudan border region kills at least 153",
+          "publishedAt": "2026-10-21"
+        }
+      ]
     }
   ]
 }

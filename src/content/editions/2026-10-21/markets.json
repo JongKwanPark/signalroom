@@ -1,10 +1,10 @@
 {
   "date": "2026-10-21",
-  "generatedAt": "2026-10-21T07:02:51+09:00",
+  "generatedAt": "2026-10-21T10:20:00.000Z",
   "vertical": "markets",
   "lang": "en",
   "title": "Markets: Earnings, an acquisition and aircraft approval",
-  "summary": "Netflix beat third-quarter earnings expectations but lowered its advertising outlook; Salesforce agreed to acquire Braze for $5.66 billion; and Boeing received FAA approval for the 737 MAX 10. These are reported corporate and regulatory developments, not investment signals.",
+  "summary": "Netflix beat third-quarter earnings expectations but lowered its advertising outlook; Salesforce agreed to acquire Braze for $5.66 billion; and Boeing received FAA approval for the 737 MAX 10. These are reported corporate and regulatory developments, not investment signals. A later update adds China’s Q3 growth and its export-led mix alongside weak domestic demand.",
   "stories": [
     {
       "slug": "netflix-q3-beat-lower-ad-outlook",
@@ -269,6 +269,80 @@
         "aviation"
       ],
       "confidence": "high"
+    },
+    {
+      "slug": "china-q3-gdp-grows-45-export-led-growth",
+      "headline": "China's export juggernaut hits international resistance",
+      "dek": "Third-quarter growth accelerated to 4.5% year over year as exports and manufacturing offset weak household demand and property investment.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tags": [
+        "China",
+        "GDP",
+        "exports",
+        "trade"
+      ],
+      "confidence": "high",
+      "tldr": [
+        "China’s GDP grew 4.5% year over year in Q3 2026, up from 4.3% in Q2, according to official figures reported by Axios and El País.",
+        "Industrial production rose 5.5% in September while retail sales increased 1.1%; property investment fell 20.6% over the first nine months.",
+        "The annual growth target remains in reach, but the figures show reliance on exports amid weak domestic demand and rising trade resistance."
+      ],
+      "body": [
+        {
+          "text": "China’s economy grew 4.5% year over year in Q3 2026, compared with 4.3% in Q2, according to National Bureau of Statistics data reported by Axios and El País. The result slightly exceeded expectations and left the government’s 4.5%–5% annual target within reach.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The growth mix remained uneven. Industrial production rose 5.5% in September while retail sales grew 1.1%. Property investment declined 20.6% over the first nine months, and fixed-asset investment fell 7.2%, according to figures cited by El País.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Exports and manufacturing offset some domestic weakness. Axios reported that exports rose 36% in September and chips and computing equipment accounted for roughly a third of export growth, linking part of the momentum to global AI investment. El País also cited exports and industrial activity as support for Q3 growth.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The data confirm stronger headline growth but do not resolve weak household demand or the property downturn. Axios noted that Chinese export growth is prompting resistance from trading partners. Whether domestic spending can contribute more without renewed policy stimulus remains open.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "China’s growth mix links weak domestic demand to trade tensions abroad: exports support output while prompting resistance from trading partners. The split among industrial production, consumer spending and property investment matters to the durability of headline growth.",
+      "editorNote": "Figures are attributed to official statistics as reported by Axios and El País. No investment recommendation is implied.",
+      "cluster": [
+        {
+          "url": "https://elpais.com/economia/2026-10-19/la-economia-china-acelera-su-crecimiento-al-45-en-el-tercer-trimestre.html",
+          "source": "El País",
+          "title": "La economía china acelera su crecimiento al 4,5% en el tercer trimestre"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.axios.com/2026/10/19/china-gdp-exports-trade",
+          "source": "Axios",
+          "title": "China's export juggernaut hits international resistance",
+          "publishedAt": "2026-10-19"
+        },
+        {
+          "id": 2,
+          "url": "https://elpais.com/economia/2026-10-19/la-economia-china-acelera-su-crecimiento-al-45-en-el-tercer-trimestre.html",
+          "source": "El País",
+          "title": "La economía china acelera su crecimiento al 4,5% en el tercer trimestre",
+          "publishedAt": "2026-10-19"
+        }
+      ]
     }
   ]
 }

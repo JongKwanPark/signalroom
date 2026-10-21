@@ -1,10 +1,10 @@
 {
   "date": "2026-10-21",
-  "generatedAt": "2026-10-21T07:02:51+09:00",
+  "generatedAt": "2026-10-21T10:20:00.000Z",
   "vertical": "ai",
   "lang": "en",
   "title": "AI: Federal procurement and frontier-company economics",
-  "summary": "Two developments put AI governance and operating economics in focus: a federal removal order for DeepSeek and new reporting on Anthropic's draft IPO disclosures. The details of the latter remain attributed to a draft filing viewed by The Wall Street Journal.",
+  "summary": "Two developments put AI governance and operating economics in focus: a federal removal order for DeepSeek and new reporting on Anthropic's draft IPO disclosures. The details of the latter remain attributed to a draft filing viewed by The Wall Street Journal.A later update adds reporting on hidden AI instructions on WhatsApp help pages.",
   "stories": [
     {
       "slug": "deepseek-banned-us-federal-civilian-agencies",
@@ -169,6 +169,79 @@
         "AI economics"
       ],
       "confidence": "medium"
+    },
+    {
+      "slug": "whatsapp-help-pages-hidden-ai-instructions",
+      "headline": "WhatsApp's Hidden Notes Told AI Not to Recommend a Regulator",
+      "dek": "A researcher found hidden instructions on WhatsApp help pages that could steer AI systems away from privacy complaint routes.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tags": [
+        "AI governance",
+        "privacy",
+        "prompt injection"
+      ],
+      "confidence": "medium",
+      "tldr": [
+        "Redact said it found hidden AI instructions on 80 of 545 WhatsApp Help Center pages.",
+        "Some notes told AI not to recommend contacting a data-protection regulator or cite privacy law in certain support cases.",
+        "Meta said the instructions were for its own support chatbot and removed them; effects on external AI systems are unconfirmed."
+      ],
+      "body": [
+        {
+          "text": "Redact said it examined 545 pages linked from WhatsApp’s Help Center and found 102 hidden instruction blocks on 80 pages. The text was not visible in the ordinary page view but appeared in content AI systems could retrieve.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Two instructions drew scrutiny: one told an AI not to recommend contacting a data-protection authority when a user could not delete an account; another said not to cite privacy laws after a user mentioned a lawyer or legal action. Redact said the notes remained until mid-October.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Redact reported that WhatsApp described the text as instructions for its own support chatbot and removed the notes after the issue was raised. The stated audience was WhatsApp’s bot, though the instructions had appeared on public pages accessible to other AI retrieval systems.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The reporting establishes the text’s presence and wording, not that an external chatbot retrieved it or changed an answer. It remains unclear how widely the pages were indexed, whether support answers were affected, and how Meta will separate chatbot guidance from public documentation.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Public support content can become part of an AI system’s input even when people viewing the page cannot see it. The case puts content provenance and access to privacy information into the same AI governance question.",
+      "editorNote": "Page contents are attributed to Redact; Meta’s stated purpose and removal are reported as the company’s account. No external AI effect is asserted.",
+      "cluster": [
+        {
+          "url": "https://news.ycombinator.com/item?id=50159341",
+          "source": "Hacker News",
+          "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+          "source": "Redact",
+          "title": "WhatsApp's Hidden Notes Told AI Not to Recommend a Regulator",
+          "publishedAt": "2026-10-19"
+        },
+        {
+          "id": 2,
+          "url": "https://news.ycombinator.com/item?id=50159341",
+          "source": "Hacker News",
+          "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+          "publishedAt": "2026-10-20"
+        }
+      ]
     }
   ]
 }

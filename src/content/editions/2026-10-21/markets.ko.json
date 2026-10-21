@@ -1,10 +1,10 @@
 {
   "date": "2026-10-21",
-  "generatedAt": "2026-10-21T07:02:51+09:00",
+  "generatedAt": "2026-10-21T10:20:00.000Z",
   "vertical": "markets",
   "lang": "ko",
   "title": "시장: 실적, 인수 계약, 항공기 승인",
-  "summary": "Netflix는 3분기 실적 전망을 웃돌았지만 광고 매출 전망을 낮췄다. Salesforce는 Braze를 56억 6,000만 달러에 인수하기로 했고 Boeing은 737 MAX 10에 대한 FAA 승인을 받았다. 이는 보도된 기업·규제 동향이며 투자 신호가 아니다.",
+  "summary": "Netflix는 3분기 실적 전망을 웃돌았지만 광고 매출 전망을 낮췄다. Salesforce는 Braze를 56억 6,000만 달러에 인수하기로 했고 Boeing은 737 MAX 10에 대한 FAA 승인을 받았다. 이는 보도된 기업·규제 동향이며 투자 신호가 아니다. 후속 업데이트에는 중국 3분기 성장률과 내수 부진 속 수출 중심 성장 구성이 추가됐다.",
   "stories": [
     {
       "slug": "netflix-q3-beat-lower-ad-outlook-ko",
@@ -269,6 +269,80 @@
         "aviation"
       ],
       "confidence": "high"
+    },
+    {
+      "slug": "china-q3-gdp-grows-45-export-led-growth-ko",
+      "headline": "중국 수출 공세, 국제적 저항에 부딪혀",
+      "dek": "수출과 제조업이 부진한 가계 수요와 부동산 투자를 상쇄하면서 3분기 성장률은 전년 대비 4.5%로 높아졌다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tags": [
+        "China",
+        "GDP",
+        "exports",
+        "trade"
+      ],
+      "confidence": "high",
+      "tldr": [
+        "Axios와 El País가 인용한 공식 통계에 따르면 중국의 2026년 3분기 GDP는 전년 대비 4.5% 성장해 2분기 4.3%보다 높았다.",
+        "9월 산업생산은 5.5%, 소매판매는 1.1% 증가했고 1~9월 부동산 투자는 20.6% 감소했다.",
+        "연간 성장 목표 달성 가능성은 유지됐지만 약한 내수와 교역 상대국의 견제 속에 수출 의존이 이어지고 있다."
+      ],
+      "body": [
+        {
+          "text": "Axios와 El País가 중국 국가통계국 자료를 인용해 보도한 바에 따르면 중국 경제는 2026년 3분기에 전년 동기 대비 4.5% 성장했다. 2분기 4.3%보다 높고 예상도 소폭 웃돌아 정부의 연간 목표 4.5~5%를 달성할 수 있는 범위에 들었다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "성장 구성은 고르지 않았다. 9월 산업생산은 5.5% 증가했지만 소매판매 증가율은 1.1%였다. El País에 따르면 첫 9개월 부동산 투자는 20.6%, 고정자산 투자는 7.2% 감소했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "수출과 제조업이 내수 부진을 일부 상쇄했다. Axios는 9월 수출이 36% 늘었고 반도체와 컴퓨팅 장비가 수출 증가분의 약 3분의 1을 차지했다고 전하며 글로벌 AI 투자 붐과 연결했다. El País도 수출과 산업 활동이 성장세를 뒷받침했다고 보도했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "공식 통계는 전체 성장률이 높아졌음을 보여주지만 가계 수요 부진이나 부동산 침체가 해소됐다는 뜻은 아니다. Axios는 중국 수출 증가에 교역 상대국의 반발도 커지고 있다고 짚었다. 정책 부양에 다시 기대지 않고 내수가 더 기여할 수 있을지는 남은 질문이다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "중국의 성장 구성은 내수 부진과 대외 무역 긴장을 연결한다. 수출이 생산을 떠받치는 동시에 교역 상대국의 견제를 부르고 있다. 산업생산·소비·부동산 투자의 격차는 headline 성장률의 지속 가능성을 살피는 데 중요하다.",
+      "editorNote": "성장률과 활동 지표는 Axios와 El País가 공식 통계를 인용한 내용으로 서술했다. 투자 권유는 포함하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://elpais.com/economia/2026-10-19/la-economia-china-acelera-su-crecimiento-al-45-en-el-tercer-trimestre.html",
+          "source": "El País",
+          "title": "La economía china acelera su crecimiento al 4,5% en el tercer trimestre"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.axios.com/2026/10/19/china-gdp-exports-trade",
+          "source": "Axios",
+          "title": "China's export juggernaut hits international resistance",
+          "publishedAt": "2026-10-19"
+        },
+        {
+          "id": 2,
+          "url": "https://elpais.com/economia/2026-10-19/la-economia-china-acelera-su-crecimiento-al-45-en-el-tercer-trimestre.html",
+          "source": "El País",
+          "title": "La economía china acelera su crecimiento al 4,5% en el tercer trimestre",
+          "publishedAt": "2026-10-19"
+        }
+      ]
     }
   ]
 }

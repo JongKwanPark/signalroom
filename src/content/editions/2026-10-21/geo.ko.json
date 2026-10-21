@@ -1,10 +1,10 @@
 {
   "date": "2026-10-21",
-  "generatedAt": "2026-10-21T07:02:51+09:00",
+  "generatedAt": "2026-10-21T10:20:00.000Z",
   "vertical": "geo",
   "lang": "ko",
   "title": "지정학: 캐나다의 결속과 무역 압박",
-  "summary": "앨버타 유권자들은 분리독립으로 이어질 수 있는 절차를 시작하자는 제안을 거부했다. 한편 미국 수입업체는 캐나다산 상품에 대한 50% 관세의 법적 근거에 이의를 제기했다. 두 사안은 캐나다와 미국 관계에 가해지는 국내 정치·무역 압박을 보여준다.",
+  "summary": "앨버타 유권자들은 분리독립으로 이어질 수 있는 절차를 시작하자는 제안을 거부했다. 한편 미국 수입업체는 캐나다산 상품에 대한 50% 관세의 법적 근거에 이의를 제기했다. 두 사안은 캐나다와 미국 관계에 가해지는 국내 정치·무역 압박을 보여준다. 후속 업데이트에는 아비에이 시장 공습과 사상자·책임 주체를 둘러싼 상반된 설명이 추가됐다.",
   "stories": [
     {
       "slug": "alberta-voters-reject-secession-process-ko",
@@ -180,6 +180,80 @@
         "Section 338"
       ],
       "confidence": "high"
+    },
+    {
+      "slug": "abyei-market-drone-strike-kills-at-least-153-ko",
+      "headline": "수단·남수단 분쟁 지역 아비에이 시장 드론 공습으로 최소 153명 사망",
+      "dek": "아미엣 시장 연료 저장소가 타격을 받았다. 양측은 공격 대상과 사망자 구성에 대해 다른 설명을 내놨다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tags": [
+        "Sudan",
+        "South Sudan",
+        "Abyei",
+        "conflict"
+      ],
+      "confidence": "medium",
+      "tldr": [
+        "아비에이 임시 정보장관에 따르면 아미엣 시장 공습과 화재로 최소 153명이 사망했다.",
+        "남수단 측은 수단군을 지목했지만 익명의 수단군 장교는 급속지원군(RSF)으로 향하던 연료 운송차량을 겨냥했다고 말했다.",
+        "유엔은 사상자를 확인 중이며 공격 주체와 사망자 신원은 여전히 엇갈린다."
+      ],
+      "body": [
+        {
+          "text": "수단과 남수단이 영유권을 주장하는 아비에이의 아미엣 시장에서 드론 공습이 발생해 인근 연료 저장소에 불이 붙었다. 아비에이 임시 정보장관은 AP통신에 사망자가 최소 153명이며 더 늘 수 있다고 말했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "아비에이 임시 정보장관과 남수단 외무부는 수단군을 공격 주체로 지목했다. 남수단 측은 시장 여러 지점이 타격을 받았다며 수단 대사를 소환해 항의했다. Al Jazeera 보도 당시 수단군은 즉각 공개 입장을 내지 않았다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "익명의 수단군 장교는 AP통신에 남수단에서 들어와 급속지원군(RSF)으로 향하는 것으로 의심되는 연료 운송차량을 겨냥했다고 말했다. 그는 사망자가 RSF 대원이나 밀수업자라고 했지만, AP는 표적과 신원을 독립 검증하지 못했다고 밝혔다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "유엔은 아미엣 시장과 토다흐 인근 공습을 규탄했지만 공격 주체를 특정하지 않았다. 임시 평화유지군은 사상자를 확인하고 있으며 실종자가 남아 있다고 전해졌다. 국경없는의사회는 부상자 20명 이상을 치료 중이라고 밝혔다. 아비에이의 지위는 미해결 상태다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "아비에이는 영유권 분쟁지이자 수단 내전 전선과 가까운 전략 통로다. 민간인 피해와 상반된 설명은 내전의 국경 너머 파장이 미해결 주권 분쟁을 키울 위험을 보여준다.",
+      "editorNote": "사망자 수와 책임 주체는 보도된 주장으로 표시했다. 유엔은 책임을 특정하지 않았고 AP는 장교의 설명을 독립 검증하지 못했다고 밝혔다.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/21/drone-attack-in-disputed-sudan-south-sudan-border-region-kills-at-least-153",
+          "source": "Al Jazeera",
+          "title": "Drone attack in disputed Sudan-South Sudan border region kills at least 153"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/sudan-drone-strike-fuel-depot-abyei-deaths-f36b3c7d15be6b48efdc35eed7219d6d",
+          "source": "Associated Press",
+          "title": "Drone strike on a market in disputed African region of Abyei kills at least 153",
+          "publishedAt": "2026-10-20"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/news/2026/10/21/drone-attack-in-disputed-sudan-south-sudan-border-region-kills-at-least-153",
+          "source": "Al Jazeera",
+          "title": "Drone attack in disputed Sudan-South Sudan border region kills at least 153",
+          "publishedAt": "2026-10-21"
+        }
+      ]
     }
   ]
 }

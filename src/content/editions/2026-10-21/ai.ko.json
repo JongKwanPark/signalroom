@@ -1,10 +1,10 @@
 {
   "date": "2026-10-21",
-  "generatedAt": "2026-10-21T07:02:51+09:00",
+  "generatedAt": "2026-10-21T10:20:00.000Z",
   "vertical": "ai",
   "lang": "ko",
   "title": "AI: 연방 조달 정책과 선도 기업의 경제성",
-  "summary": "두 가지 동향이 AI 거버넌스와 운영 경제성을 부각한다. 하나는 DeepSeek 제품을 연방 기관에서 제거하라는 명령이고, 다른 하나는 Anthropic의 IPO 초안 공시에 관한 보도다. 후자의 세부 내용은 The Wall Street Journal이 열람한 초안에 근거한 것으로 보도됐다.",
+  "summary": "두 가지 동향이 AI 거버넌스와 운영 경제성을 부각한다. 하나는 DeepSeek 제품을 연방 기관에서 제거하라는 명령이고, 다른 하나는 Anthropic의 IPO 초안 공시에 관한 보도다. 후자의 세부 내용은 The Wall Street Journal이 열람한 초안에 근거한 것으로 보도됐다.후속 업데이트에는 WhatsApp 도움말의 숨은 AI 지시문 보도가 추가됐다.",
   "stories": [
     {
       "slug": "deepseek-banned-us-federal-civilian-agencies-ko",
@@ -169,6 +169,79 @@
         "AI economics"
       ],
       "confidence": "medium"
+    },
+    {
+      "slug": "whatsapp-help-pages-hidden-ai-instructions-ko",
+      "headline": "WhatsApp의 숨은 지시문, AI에 규제기관을 권하지 말라고 했다",
+      "dek": "보안 연구진은 WhatsApp 도움말 페이지에서 AI가 개인정보 민원 경로를 안내하지 않도록 유도할 수 있는 지시문을 발견했다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tags": [
+        "AI governance",
+        "privacy",
+        "prompt injection"
+      ],
+      "confidence": "medium",
+      "tldr": [
+        "Redact는 WhatsApp 고객센터 페이지 545개 중 80개에서 AI 대상 숨은 지시문 102개를 찾았다고 밝혔다.",
+        "일부 지시문은 개인정보 감독기관에 문의하라고 권하지 말거나 특정 개인정보 법률을 인용하지 말라고 했다.",
+        "Meta는 자사 고객지원 챗봇용이라고 설명하고 삭제했지만 외부 AI에 실제 영향을 줬는지는 확인되지 않았다."
+      ],
+      "body": [
+        {
+          "text": "Redact는 WhatsApp 고객센터 연결 페이지 545개를 조사해 80개 페이지에서 숨은 지시문 102개를 발견했다고 밝혔다. 일반 화면에는 보이지 않았지만 AI가 검색·수집할 수 있는 페이지 내용에 포함돼 있었다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "두 지시문이 특히 논란이 됐다. 계정을 삭제할 수 없는 사용자에게 개인정보 감독기관을 안내하지 말라는 내용과, 변호사나 법적 조치가 언급된 뒤 개인정보 법률을 인용하지 말라는 내용이다. Redact는 이 메모가 10월 중순까지 남아 있었다고 전했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Redact에 따르면 WhatsApp은 해당 텍스트가 자사 고객지원 챗봇용이라고 설명했고, 문제 제기 뒤 메모를 삭제했다. 의도된 대상은 WhatsApp 챗봇이었지만 지시문은 다른 AI 검색·수집 시스템도 접근할 수 있는 공개 페이지에 있었다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "보도로 확인된 것은 텍스트의 존재와 문구다. 외부 챗봇이 이를 가져와 답변을 바꿨는지는 입증되지 않았다. 페이지가 얼마나 색인됐는지, 실제 지원 답변에 영향이 있었는지, Meta가 공개 문서와 챗봇 지침을 어떻게 분리할지는 확인되지 않았다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "사람에게 보이지 않는 공개 고객지원 콘텐츠도 AI 입력으로 쓰일 수 있다. 콘텐츠 출처 관리와 개인정보 권리 안내 사이의 경계가 AI 거버넌스 쟁점으로 떠올랐다.",
+      "editorNote": "페이지 내용은 Redact의 조사에 근거하며 목적과 삭제는 Meta 설명으로 귀속했다. 외부 AI가 실제로 지시를 따랐다고 단정하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://news.ycombinator.com/item?id=50159341",
+          "source": "Hacker News",
+          "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+          "source": "Redact",
+          "title": "WhatsApp's Hidden Notes Told AI Not to Recommend a Regulator",
+          "publishedAt": "2026-10-19"
+        },
+        {
+          "id": 2,
+          "url": "https://news.ycombinator.com/item?id=50159341",
+          "source": "Hacker News",
+          "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+          "publishedAt": "2026-10-20"
+        }
+      ]
     }
   ]
 }
