@@ -179,6 +179,93 @@
         "litigation"
       ],
       "confidence": "high"
+    },
+    {
+      "slug": "spacex-q3-2026-space-ai-growth-ko",
+      "headline": "SpaceX, 44억 달러 분기 이익 기록…Tesla와 합병 가능성도 검토",
+      "dek": "SpaceX는 AI 사업이 성장하는 가운데 44억 달러의 분기 이익을 보고했으며, Tesla와의 결합 가능성도 논의하기 시작했다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Associated Press에 따르면 SpaceX는 9월까지 분기 동안 44억 달러 이익과 146억 달러 매출을 기록했다.",
+        "Elon Musk는 SpaceX와 Tesla가 합병 가능성을 논의하기 위해 독립 위원회를 구성했지만 거래는 불확실하다고 밝혔다.",
+        "SpaceX는 지난 분기 자본적 지출이 196억 달러였으며 이번 분기에는 350억~400억 달러를 전망했다."
+      ],
+      "body": [
+        {
+          "text": "Associated Press에 따르면 SpaceX는 9월까지 3개월 동안 전년 동기 손실에서 흑자로 돌아서 44억 달러 이익을 기록했고, 매출은 161% 증가한 146억 달러였다. 실적은 애널리스트 예상치를 웃돌았다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP에 따르면 회사의 인공지능 사업은 해당 분기 매출 기준 가장 큰 사업이 됐지만, Starlink는 여전히 이익 기여가 가장 큰 사업이었다. 이번 실적에는 위성 통신과 AI 관련 사업의 성장이 함께 반영됐다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Musk는 SpaceX와 Tesla가 결합 가능성을 논의하기 위해 독립 위원회를 구성했다고 말했다. 그는 합병이 확정된 것은 아니며 장애물이 있다고 강조했고, 거래는 발표되지 않았다.",
+          "citations": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "SpaceX는 분기 자본적 지출이 196억 달러였다고 밝혔고, 이번 분기에는 350억~400억 달러를 전망했다. 투자 확대 규모와 잠재적 결합 논의의 향방은 회사와 투자자에게 남은 쟁점이다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "이번 실적은 SpaceX의 AI와 위성 사업이 각각 성장에 기여하는 모습을 보여주는 동시에 향후 투자 지출이 크게 늘어날 수 있음을 드러낸다. Tesla와의 잠재적 결합은 아직 검토 단계라 두 사업의 자금 조달과 지배구조가 어떻게 될지는 정해지지 않았다.",
+      "editorNote": "재무 수치는 회사 발표를 인용한 AP 보도에 근거하며, 합병 가능성은 탐색 단계로 확정되지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/21/spacex-spcx-stock-musk-merger-tesla.html",
+          "source": "CNBC",
+          "title": "SpaceX stock jumps 10% after earnings beat and Musk hints at Tesla tie-up"
+        },
+        {
+          "url": "https://seekingalpha.com/news/4655528-spacex-climbs-8-percent-after-earnings-beat-ai-growth-outlook",
+          "source": "Seeking Alpha",
+          "title": "SpaceX climbs 8% after earnings beat, AI growth outlook"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/67064446bf0afdf529db55bdec82af69",
+          "source": "Associated Press",
+          "title": "Elon Musk's SpaceX reports a profit and he hints at a possible merger with Tesla",
+          "publishedAt": "2026-10-20"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/10/21/spacex-spcx-stock-musk-merger-tesla.html",
+          "source": "CNBC",
+          "title": "SpaceX stock jumps 10% after earnings beat and Musk hints at Tesla tie-up",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 3,
+          "url": "https://seekingalpha.com/news/4655528-spacex-climbs-8-percent-after-earnings-beat-ai-growth-outlook",
+          "source": "Seeking Alpha",
+          "title": "SpaceX climbs 8% after earnings beat, AI growth outlook",
+          "publishedAt": "2026-10-21"
+        }
+      ],
+      "tags": [
+        "SpaceX",
+        "AI infrastructure",
+        "earnings"
+      ],
+      "confidence": "high"
     }
   ]
 }

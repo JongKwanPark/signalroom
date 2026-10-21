@@ -179,6 +179,93 @@
         "litigation"
       ],
       "confidence": "high"
+    },
+    {
+      "slug": "spacex-q3-2026-space-ai-growth",
+      "headline": "Elon Musk's SpaceX reports a profit and he hints at a possible merger with Tesla",
+      "dek": "SpaceX reported a $4.4 billion quarterly profit as its AI business grew, while directors began considering a possible Tesla combination.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "SpaceX reported a $4.4 billion profit and $14.6 billion in revenue for the quarter through September, according to the Associated Press.",
+        "Elon Musk said independent committees at SpaceX and Tesla had been formed to discuss a possible combination, while describing a deal as uncertain.",
+        "SpaceX said capital expenditure reached $19.6 billion last quarter and forecast $35 billion to $40 billion for the current quarter."
+      ],
+      "body": [
+        {
+          "text": "SpaceX reported a profit of $4.4 billion for the three months through September, reversing a year-earlier loss, while revenue rose 161% to $14.6 billion, the Associated Press reported. The results exceeded analyst expectations.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The company’s artificial-intelligence business became its largest by revenue in the quarter, although Starlink remained its largest profit generator, according to AP. The earnings therefore reflect growth across both satellite connectivity and AI-related operations.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Musk said independent committees at SpaceX and Tesla had been formed to discuss a possible combination. He cautioned that a merger was not certain and that there were hurdles, and no transaction has been announced.",
+          "citations": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "SpaceX reported $19.6 billion in capital expenditure in the quarter and forecast spending of $35 billion to $40 billion in the current quarter. The scale of planned investment and the status of any combination remain open questions for the companies and their investors.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "The results make SpaceX’s AI and satellite businesses visible as distinct contributors to growth while showing a steep increase in planned investment. The potential Tesla combination remains exploratory, so the results do not resolve how the businesses might be financed or governed together.",
+      "editorNote": "Financial figures are attributed to AP coverage of company disclosures; the proposed combination is exploratory and unconfirmed.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/21/spacex-spcx-stock-musk-merger-tesla.html",
+          "source": "CNBC",
+          "title": "SpaceX stock jumps 10% after earnings beat and Musk hints at Tesla tie-up"
+        },
+        {
+          "url": "https://seekingalpha.com/news/4655528-spacex-climbs-8-percent-after-earnings-beat-ai-growth-outlook",
+          "source": "Seeking Alpha",
+          "title": "SpaceX climbs 8% after earnings beat, AI growth outlook"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/67064446bf0afdf529db55bdec82af69",
+          "source": "Associated Press",
+          "title": "Elon Musk's SpaceX reports a profit and he hints at a possible merger with Tesla",
+          "publishedAt": "2026-10-20"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/10/21/spacex-spcx-stock-musk-merger-tesla.html",
+          "source": "CNBC",
+          "title": "SpaceX stock jumps 10% after earnings beat and Musk hints at Tesla tie-up",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 3,
+          "url": "https://seekingalpha.com/news/4655528-spacex-climbs-8-percent-after-earnings-beat-ai-growth-outlook",
+          "source": "Seeking Alpha",
+          "title": "SpaceX climbs 8% after earnings beat, AI growth outlook",
+          "publishedAt": "2026-10-21"
+        }
+      ],
+      "tags": [
+        "SpaceX",
+        "AI infrastructure",
+        "earnings"
+      ],
+      "confidence": "high"
     }
   ]
 }

@@ -177,6 +177,85 @@
         "asset forfeiture"
       ],
       "confidence": "high"
+    },
+    {
+      "slug": "mexico-prosecutor-treason-us-drug-raid-ko",
+      "headline": "멕시코, 미국 마약 단속 작전 관련 전직 관리에 이례적 반역 혐의 적용",
+      "dek": "검찰은 전직 치와와주 검찰총장이 연방 승인 없이 미국 인력을 마약 단속 작전에 참여시켰다고 주장했다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "멕시코 연방 검찰은 미국 인력의 무단 작전 참여 혐의와 관련해 전 치와와주 검찰총장 Cesar Jauregui를 반역 혐의로 기소했다.",
+        "검찰은 미국 요원들이 연방 정부 승인 없이 4월의 마약 제조 의심 시설 급습에 참여했다고 주장했다.",
+        "작전에서 돌아오던 미국 요원 2명이 교통사고로 사망한 뒤 사건이 알려졌으며, 혐의는 아직 법원에서 판단되지 않았다."
+      ],
+      "body": [
+        {
+          "text": "Reuters는 멕시코 연방 검찰이 전 치와와주 검찰총장 Cesar Jauregui를 반역 혐의로 기소했다고 보도했다. 당국은 그가 연방 정부 승인 없이 미국 인력을 4월 마약 제조 의심 시설 작전에 참여시켰다고 주장한다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "작전은 미국과 접한 치와와주에서 벌어졌다. Reuters에 따르면 현장에서 복귀하던 미국 요원 2명이 교통사고로 사망한 뒤 미국 인력의 작전 참여 사실이 알려졌다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Reuters는 Claudia Sheinbaum 대통령이 작전을 문제 삼았고, 이 사안이 대통령과 치와와주 주지사 Maru Campos 간 갈등으로 이어졌다고 전했다. 드물게 적용되는 혐의가 국경 간 안보 협력을 둘러싼 국내 정치 논쟁의 중심에 놓였다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "기소는 혐의 제기이지 유죄 판결이 아니다. Jauregui가 요원 참여를 승인했는지 또는 검찰이 어떤 증거를 제시할지는 보도만으로 확인되지 않으며, 재판 절차에서 결론이 나게 된다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 사건은 멕시코 연방 당국이 미국 안보 인력과의 협력을 어떻게 통제하는지를 시험한다. 판결은 공동 작전의 정치적·법적 경계에 영향을 줄 수 있지만, 그 영향은 증거와 사법 절차에 달려 있다.",
+      "editorNote": "기소와 혐의 내용은 Reuters와 Al Jazeera 보도에 근거하며, 유죄가 확정된 것은 아니다.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/21/mexico-charges-prosecutor-with-treason-over-us-involvement-in-drug-raid",
+          "source": "Al Jazeera",
+          "title": "Mexico charges prosecutor with treason over US involvement in drug raid"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/articles/ckx2qpw4rjd7o",
+          "source": "BBC News",
+          "title": "Ex-prosecutor charged with treason in Mexico over US drug raid"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.investing.com/news/world-news/mexico-levies-rare-treason-charge-against-exofficial-over-us-drug-operation-4963793",
+          "source": "Reuters",
+          "title": "Mexico levies rare treason charge against ex-official over US drug operation",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/news/2026/10/21/mexico-charges-prosecutor-with-treason-over-us-involvement-in-drug-raid",
+          "source": "Al Jazeera",
+          "title": "Mexico charges prosecutor with treason over US involvement in drug raid",
+          "publishedAt": "2026-10-21"
+        }
+      ],
+      "tags": [
+        "Mexico",
+        "US-Mexico relations",
+        "security"
+      ],
+      "confidence": "medium"
     }
   ]
 }

@@ -177,6 +177,85 @@
         "asset forfeiture"
       ],
       "confidence": "high"
+    },
+    {
+      "slug": "mexico-prosecutor-treason-us-drug-raid",
+      "headline": "Mexico levies rare treason charge against ex-official over US drug operation",
+      "dek": "Federal prosecutors accused a former Chihuahua state prosecutor of allowing US personnel to join a drug raid without federal approval.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Mexican federal prosecutors charged former Chihuahua Attorney General Cesar Jauregui with treason over alleged unauthorized US involvement in a drug operation.",
+        "Prosecutors said US agents participated in an April raid on a suspected drug lab without federal approval.",
+        "The case followed the deaths of two US agents in a car crash while returning from the operation; the allegations have not been adjudicated."
+      ],
+      "body": [
+        {
+          "text": "Mexican federal prosecutors charged former Chihuahua state prosecutor Cesar Jauregui with treason, Reuters reported. Authorities allege that he allowed US personnel to take part in an April operation against a suspected drug lab without approval from Mexico’s federal government.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The operation took place in Chihuahua, a state on the US border that has long been central to Mexico’s campaign against organized crime. The involvement of US agents became public after two of them died in a car crash while returning from the scene, according to Reuters.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "President Claudia Sheinbaum scrutinized the operation, while the case brought her into conflict with Chihuahua Governor Maru Campos, Reuters reported. The charge invokes a rarely used offense and places cross-border security cooperation at the center of a domestic political dispute.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The charge is an allegation, not a finding of guilt. Reporting does not establish whether Jauregui authorized the agents’ participation or what evidence prosecutors will present, and the court process will determine the case’s outcome.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The case tests how Mexican federal authorities define and control cooperation with US security personnel. Its outcome could shape the political and legal boundaries for joint operations, but those consequences remain contingent on the evidence and court proceedings.",
+      "editorNote": "The indictment and alleged conduct are attributed to Reuters and Al Jazeera reporting; guilt has not been established.",
+      "cluster": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/21/mexico-charges-prosecutor-with-treason-over-us-involvement-in-drug-raid",
+          "source": "Al Jazeera",
+          "title": "Mexico charges prosecutor with treason over US involvement in drug raid"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/articles/ckx2qpw4rjd7o",
+          "source": "BBC News",
+          "title": "Ex-prosecutor charged with treason in Mexico over US drug raid"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.investing.com/news/world-news/mexico-levies-rare-treason-charge-against-exofficial-over-us-drug-operation-4963793",
+          "source": "Reuters",
+          "title": "Mexico levies rare treason charge against ex-official over US drug operation",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aljazeera.com/news/2026/10/21/mexico-charges-prosecutor-with-treason-over-us-involvement-in-drug-raid",
+          "source": "Al Jazeera",
+          "title": "Mexico charges prosecutor with treason over US involvement in drug raid",
+          "publishedAt": "2026-10-21"
+        }
+      ],
+      "tags": [
+        "Mexico",
+        "US-Mexico relations",
+        "security"
+      ],
+      "confidence": "medium"
     }
   ]
 }
