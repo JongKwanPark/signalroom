@@ -79,6 +79,32 @@ npx tsx scripts/validate-article.ts src/content/articles
 npm test
 ```
 
+## Build performance
+
+`npm run build` is two steps that can also run on their own: `npm run build:site` (`astro build`)
+and `npm run build:og` (`scripts/og.mjs`).
+
+- **Page build is a full static build** — about 1,180 pages in 20–30s. Astro's
+  `experimental.incrementalBuild` is deliberately **off**: every story page renders `Header` and
+  `Footer`, which carry the newest edition date, so one day's new content invalidates every page and
+  a content-addressed page cache would never hit. The page build is not the bottleneck.
+- **Share cards are incremental.** At 1,000+ cards the OG step was the bottleneck, and it is now
+  content-addressed:
+  - Each card is keyed by a SHA-256 of the data it renders (headline, date, vertical, language,
+    author, read time, source count, generated time) and stored at
+    `.cache/og/<template-signature>/<key>.png`. The signature hashes the renderer, the bundled
+    fonts, the theme tokens and the brand mark, so a design change invalidates one whole generation
+    at once instead of drifting card by card.
+  - A build renders only new or edited cards and hard-links the rest into `dist/og`; a daily build
+    renders a handful of cards in well under a second.
+  - Stale cards and old template generations are pruned automatically. `--force` re-renders
+    everything, `OG_CACHE=0` disables the cache, `OG_CACHE_DIR` relocates it, and `.cache/` stays
+    out of Git.
+  - resvg renders with the bundled font files (`loadSystemFonts: false`). Scanning host system fonts
+    cost ~445ms per card; the bundled faces cost ~7ms and keep the output identical on any machine.
+- **Measured 2026-10-21** (1,049 cards): full build about **7m50s → 21s**; OG step
+  **7m20s → 0.5s** warm, **11s** cold or `--force`.
+
 ## Environment / secrets
 
 | Var | Used for | Required? |

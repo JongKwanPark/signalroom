@@ -24,9 +24,12 @@ six. See [docs/manual-publish.md](docs/manual-publish.md) for the current operat
   Edition JSON remains at `src/content/editions/<date>/`; independent Markdown is under
   `src/content/articles/`. `src/lib/categories.ts` owns the six site categories and four automated
   collection targets.
-- **Build-time OG images.** `npm run build` runs `scripts/og.mjs` after `astro build` and emits
-  1200×630 PNGs (`satori` + `@resvg/resvg-js`) to `dist/og/site.png` and `dist/og/<slug>.png`;
-  `SeoHead` points `og:image` / `twitter:image` at those absolute URLs.
+- **Build-time OG images, incremental.** `npm run build` runs `astro build` then
+  `scripts/og.mjs`, which emits 1200×630 PNGs (`satori` + `@resvg/resvg-js`) to `dist/og/site.png`,
+  `dist/og/<lang>/<slug>.png` and the legacy `dist/og/<slug>.png`; `SeoHead` points `og:image` /
+  `twitter:image` at those absolute URLs. Cards are content-hashed and cached in `.cache/og/`, so a
+  build renders only new or edited stories. See
+  [docs/pipeline.md](docs/pipeline.md#build-performance).
 - **Design rules** — off-black canvas, 1px hairlines, mono metadata and six category accents
   — are documented in [docs/design-system.md](docs/design-system.md).
 

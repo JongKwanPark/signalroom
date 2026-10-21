@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build && node scripts/og.mjs",
+    "build:site": "astro build",
+    "build:og": "node scripts/og.mjs",
     "preview": "astro preview",
     "check": "astro check",
     "test": "node --test",

@@ -12,3 +12,4 @@ data/cache/
 .idea/
 .vscode/
 .vercel
+.cache/

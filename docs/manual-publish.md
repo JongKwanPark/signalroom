@@ -113,4 +113,5 @@ rm -f .vercel/.env.production.local
 - `vercel build --prod`는 `vercel.json`의 `buildCommand`(`npm run build` = Astro 빌드 + OG 이미지)를 로컬에서 실행하고 `.vercel/output/`을 만든다. `npm run deploy:vercel`도 같은 build→prebuilt 순서를 실행하지만 위의 pull·env 단계는 먼저 해 둬야 한다.
 - 빌드 입력은 작업 트리다. 커밋되지 않은 무관한 변경(다른 작업의 수정 파일)이 있으면 그 트리에서 빌드하지 않고, 커밋된 HEAD를 임시 경로로 꺼내 빌드·배포한다. `git archive HEAD | tar -x -C <tmp>`로 꺼낸 다음 `.vercel/project.json`을 복사하고 `node_modules`를 링크한 뒤 위 명령을 그 경로에서 실행한다.
 - 배포 로그에 `Installing dependencies`나 `astro build` 같은 원격 빌드 출력이 없고 `readyState: READY`, `Aliased https://signaldaily.cloud`가 나오면 정상이다.
+- `.cache/og/`는 공유 카드 렌더 캐시다. 배포 전에 지울 필요가 없다 — 카드 디자인·폰트·브랜드 마크를 바꾼 뒤 첫 빌드에서만 전체 카드를 다시 렌더한다(약 11초).
 

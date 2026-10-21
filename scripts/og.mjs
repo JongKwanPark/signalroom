@@ -3,9 +3,15 @@
 // Runs after `astro build` from `npm run build`; writes dist/og/site.png and
 // dist/og/<lang>/<slug>.png for every story. Fails the build on any bad output so we
 // never silently ship blank or malformed share cards.
+//
+// Incremental: each card is content-addressed by a hash of the data it renders and
+// stored in `.cache/og/<template signature>/`. Only new or edited cards are
+// re-rendered; the rest are hard-linked into dist. `--force` ignores the cache,
+// `OG_CACHE=0` disables it, `OG_CACHE_DIR` relocates it.
 
+import { createHash } from 'node:crypto';
 import { existsSync, readFileSync } from 'node:fs';
-import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
+import { copyFile, link, mkdir, open, readFile, readdir, rename, rm, stat, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import satori from 'satori';
@@ -16,11 +22,47 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const CONTENT_DIR = path.join(ROOT, 'src/content/editions');
 const FONT_DIR = path.join(ROOT, 'src/assets/fonts');
 const OUT_DIR = path.join(ROOT, 'dist/og');
+const CACHE_DIR = process.env.OG_CACHE_DIR
+  ? path.resolve(process.env.OG_CACHE_DIR)
+  : path.join(ROOT, '.cache/og');
+const CACHE_ENABLED = process.env.OG_CACHE !== '0';
+const FORCE_RENDER = process.argv.includes('--force');
+const CONCURRENCY = 4;
 
 const WIDTH = 1200;
 const HEIGHT = 630;
 const PAD = 96;
 const CONTENT_WIDTH = WIDTH - PAD * 2;
+const FONT_FILES = [
+  'Inter-Regular.ttf',
+  'Inter-SemiBold.ttf',
+  'NotoSansKR-Bold.otf',
+  'JetBrainsMono-Regular.ttf',
+];
+
+// resvg resolves text through the faces satori laid it out with. Letting resvg scan
+// the host's system fonts costs ~445ms per card (~7.7 min for 1,000 cards) and makes
+// the output depend on which fonts the build machine happens to have. Passing the
+// bundled faces explicitly is ~7ms per card.
+const RESVG_FONT = {
+  loadSystemFonts: false,
+  fontFiles: FONT_FILES.map((file) => path.join(FONT_DIR, file)),
+  defaultFontFamily: 'Inter',
+};
+
+// Any change to the renderer, its fonts, theme tokens or brand mark changes every
+// card, so this signature is part of the cache path and old generations are pruned
+// whole instead of being invalidated entry by entry.
+const TEMPLATE_SIG = (() => {
+  const hash = createHash('sha256');
+  hash.update(readFileSync(path.join(ROOT, 'scripts/og.mjs')));
+  hash.update(readFileSync(path.join(ROOT, 'src/styles/theme.css')));
+  hash.update(readFileSync(path.join(ROOT, 'public/brand/logo-mark.svg')));
+  for (const file of FONT_FILES) hash.update(readFileSync(path.join(FONT_DIR, file)));
+  hash.update(`${WIDTH}x${HEIGHT}`);
+  return hash.digest('hex').slice(0, 12);
+})();
+const CACHE_GENERATION_DIR = path.join(CACHE_DIR, TEMPLATE_SIG);
 
 const CANVAS = '#0a0d12';
 const TEXT = '#e8ecf1';
@@ -334,8 +376,72 @@ async function loadPublicRefs(editions) {
 
 async function renderPng(element, fonts) {
   const svg = await satori(element, { width: WIDTH, height: HEIGHT, fonts });
-  const rendered = new Resvg(svg, { fitTo: { mode: 'width', value: WIDTH } }).render();
+  const rendered = new Resvg(svg, { font: RESVG_FONT, fitTo: { mode: 'width', value: WIDTH } }).render();
   return Buffer.from(rendered.asPng());
+}
+
+const cardKey = (parts) => createHash('sha256').update(JSON.stringify(parts)).digest('hex').slice(0, 24);
+
+// A cache hit must be a complete PNG at the expected size; anything else is a
+// half-written or truncated leftover and gets re-rendered.
+async function isCachedPng(file) {
+  let handle;
+  try {
+    if ((await stat(file)).size < 4096) return false;
+    handle = await open(file, 'r');
+    const header = Buffer.alloc(24);
+    const { bytesRead } = await handle.read(header, 0, 24, 0);
+    if (bytesRead < 24) return false;
+    if (header.subarray(0, 8).toString('hex') !== '89504e470d0a1a0a') return false;
+    return header.readUInt32BE(16) === WIDTH && header.readUInt32BE(20) === HEIGHT;
+  } catch {
+    return false;
+  } finally {
+    await handle?.close();
+  }
+}
+
+async function writeFileAtomic(file, data) {
+  await mkdir(path.dirname(file), { recursive: true });
+  const temporary = `${file}.${process.pid}.tmp`;
+  await writeFile(temporary, data);
+  await rename(temporary, file);
+}
+
+// Hard-link the cached card into dist (no bytes copied); copy when the cache lives
+// on another volume.
+async function placeCard(source, destination) {
+  if (!source) return false;
+  try {
+    await link(source, destination);
+    return true;
+  } catch {
+    try {
+      await copyFile(source, destination);
+      return true;
+    } catch {
+      return false;
+    }
+  }
+}
+
+// Drop cache generations from older template signatures, plus cards no longer
+// produced by this build.
+async function pruneCache(used) {
+  if (!CACHE_ENABLED || !existsSync(CACHE_DIR)) return 0;
+  let removed = 0;
+  for (const entry of await readdir(CACHE_DIR, { withFileTypes: true })) {
+    if (entry.name === TEMPLATE_SIG) continue;
+    await rm(path.join(CACHE_DIR, entry.name), { recursive: true, force: true });
+    removed += 1;
+  }
+  if (!existsSync(CACHE_GENERATION_DIR)) return removed;
+  for (const file of await readdir(CACHE_GENERATION_DIR)) {
+    if (used.has(file)) continue;
+    await rm(path.join(CACHE_GENERATION_DIR, file), { force: true });
+    removed += 1;
+  }
+  return removed;
 }
 
 function assertPng(buffer, label) {
@@ -377,22 +483,67 @@ async function main() {
   await mkdir(path.join(OUT_DIR, 'en'), { recursive: true });
   await mkdir(path.join(OUT_DIR, 'ko'), { recursive: true });
 
-  const sitePng = await renderPng(siteElement(editions[0]?.date), fonts);
-  assertPng(sitePng, 'site');
-  await writeFile(path.join(OUT_DIR, 'site.png'), sitePng);
-  await writeFile(path.join(OUT_DIR, 'en/site.png'), sitePng);
-  const koSitePng = await renderPng(siteElement(editions.find((edition) => edition.lang === 'ko')?.date, 'ko'), fonts);
-  assertPng(koSitePng, 'ko/site');
-  await writeFile(path.join(OUT_DIR, 'ko/site.png'), koSitePng);
+  // One card per distinct output. The English legacy copy (`/og/<slug>.png`) keeps
+  // already-shared links working and reuses the same cached render.
+  const cards = [
+    {
+      key: cardKey(['site', 'en', editions[0]?.date]),
+      label: 'site',
+      targets: ['site.png', 'en/site.png'],
+      element: () => siteElement(editions[0]?.date),
+    },
+    {
+      key: cardKey(['site', 'ko', editions.find((edition) => edition.lang === 'ko')?.date]),
+      label: 'ko/site',
+      targets: ['ko/site.png'],
+      element: () => siteElement(editions.find((edition) => edition.lang === 'ko')?.date, 'ko'),
+    },
+    ...refs.map((ref) => ({
+      key: cardKey([
+        'story', ref.lang, ref.slug, ref.kind, ref.author ?? '', ref.headline,
+        ref.readMinutes, ref.sources ?? 0, ref.vertical, ref.date, ref.generatedAt,
+      ]),
+      label: `${ref.lang}/${ref.slug}`,
+      targets: [`${ref.lang}/${ref.slug}.png`, ...(ref.lang === 'en' ? [`${ref.slug}.png`] : [])],
+      element: () => storyElement(ref),
+    })),
+  ];
 
-  await mapWithLimit(refs, 4, async (ref) => {
-    const png = await renderPng(storyElement(ref), fonts);
-    assertPng(png, `${ref.lang}/${ref.slug}`);
-    await writeFile(path.join(OUT_DIR, ref.lang, `${ref.slug}.png`), png);
-    if (ref.lang === 'en') await writeFile(path.join(OUT_DIR, `${ref.slug}.png`), png);
+  const started = Date.now();
+  const stats = { rendered: 0, cached: 0, written: 0 };
+  const used = new Set();
+
+  await mapWithLimit(cards, CONCURRENCY, async (card) => {
+    const cachedFile = CACHE_ENABLED ? path.join(CACHE_GENERATION_DIR, `${card.key}.png`) : null;
+    const cached = cachedFile !== null && !FORCE_RENDER && await isCachedPng(cachedFile);
+    let png;
+    if (cached) {
+      stats.cached += 1;
+      used.add(path.basename(cachedFile));
+    } else {
+      png = await renderPng(card.element(), fonts);
+      assertPng(png, card.label);
+      stats.rendered += 1;
+      if (cachedFile) {
+        await writeFileAtomic(cachedFile, png);
+        used.add(path.basename(cachedFile));
+      }
+    }
+    for (const target of card.targets) {
+      const destination = path.join(OUT_DIR, target);
+      if (!await placeCard(cachedFile, destination)) {
+        await writeFile(destination, png ?? await readFile(cachedFile));
+      }
+      stats.written += 1;
+    }
   });
 
-  console.log(`[og] wrote en/ko site.png + ${refs.length} story PNGs to dist/og`);
+  const pruned = await pruneCache(used);
+  const seconds = ((Date.now() - started) / 1000).toFixed(1);
+  const cacheNote = CACHE_ENABLED
+    ? `${stats.rendered} rendered, ${stats.cached} cached`
+    : `${stats.rendered} rendered, cache off`;
+  console.log(`[og] ${cards.length} cards → ${stats.written} files in ${seconds}s (${cacheNote}${pruned ? `, ${pruned} pruned` : ''})`);
 }
 
 await main();
