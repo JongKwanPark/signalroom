@@ -1,0 +1,184 @@
+{
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-21T22:04:34.793Z",
+  "vertical": "markets",
+  "lang": "en",
+  "title": "Markets: Tesla earnings and Meta’s $25 billion judgment",
+  "summary": "Quarterly results and a major privacy judgment put operating performance and legal exposure in focus; both stories have unresolved next steps.",
+  "stories": [
+    {
+      "slug": "tesla-q3-2026-results",
+      "headline": "Tesla beats on earnings and sales even as auto revenue declines",
+      "dek": "Tesla reported third-quarter results as its vehicle revenue fell, while the company also faces questions about a possible SpaceX combination.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Tesla reported third-quarter net income of $787 million, down 44% year over year, while revenue was roughly flat at $28 billion.",
+        "Adjusted earnings per share of 48 cents exceeded analyst expectations, even as revenue fell slightly short of forecasts, according to the Associated Press.",
+        "Elon Musk said special committees at Tesla and SpaceX were considering a possible combination, but both companies still face hurdles and no deal has been announced."
+      ],
+      "body": [
+        {
+          "text": "Tesla reported third-quarter net income of $787 million, or 22 cents per share, down 44% from the year-earlier period, the Associated Press reported. Revenue was approximately $28 billion and broadly flat, slightly below analyst forecasts.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Adjusted earnings per share were 48 cents, beating analysts’ expectations by 3 cents, according to AP. CNBC reported that Tesla beat on earnings and sales even as automotive revenue declined, highlighting mixed performance across the business.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The results arrived as Elon Musk said special committees at Tesla and SpaceX had been set up to discuss a possible combination. Musk cautioned that significant hurdles remained, and the companies had not announced an agreement.",
+          "citations": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "Tesla shares moved higher after the results in after-hours trading, AP reported. The filings and earnings call provide the confirmed quarter results; the timing, structure and feasibility of any Tesla-SpaceX transaction remain unresolved.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "Tesla’s results combine a reported earnings beat with weaker automotive revenue, so headline earnings alone do not describe the operating picture. A potential combination with SpaceX adds a separate governance and capital-allocation question, but remains exploratory.",
+      "editorNote": "Quarter figures are attributed to company reporting and AP/CNBC coverage; the possible combination is not a completed transaction.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/cfe0453f6bf0d08d22150022128492fa",
+          "source": "Associated Press",
+          "title": "Tesla’s Q3 profit drops as it prepares for possible merger with Musk’s other public company, SpaceX"
+        },
+        {
+          "url": "https://www.axios.com/2026/10/21/tesla-earnings-elon-musk",
+          "source": "Axios",
+          "title": "Tesla revenue flattens out as Elon Musk eyes possible SpaceX deal"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/21/tesla-tsla-q3-2026-earnings-report.html",
+          "source": "CNBC",
+          "title": "Tesla beats on earnings and sales even as auto revenue declines",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/cfe0453f6bf0d08d22150022128492fa",
+          "source": "Associated Press",
+          "title": "Tesla’s Q3 profit drops as it prepares for possible merger with Musk’s other public company, SpaceX",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 3,
+          "url": "https://www.axios.com/2026/10/21/tesla-earnings-elon-musk",
+          "source": "Axios",
+          "title": "Tesla revenue flattens out as Elon Musk eyes possible SpaceX deal",
+          "publishedAt": "2026-10-21"
+        }
+      ],
+      "tags": [
+        "Tesla",
+        "earnings",
+        "automotive"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "meta-new-mexico-25-billion-penalty",
+      "headline": "Meta ordered to pay New Mexico $25 billion for deceiving users about privacy on Facebook",
+      "dek": "A judge set the penalty after a jury found Meta liable in a case tied to Facebook user privacy; Meta said it would appeal.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "A New Mexico judge ordered Meta to pay $25 billion after a jury found the company misled users about privacy on Facebook.",
+        "The case followed allegations that Cambridge Analytica obtained personal data from millions of Facebook users without consent.",
+        "Meta said it would appeal, so the amount and timing of any payment remain subject to further court proceedings."
+      ],
+      "body": [
+        {
+          "text": "A New Mexico judge ordered Meta Platforms to pay $25 billion after a jury found the company had misled consumers about Facebook privacy, Reuters and the Associated Press reported. The judgment followed a state lawsuit first filed in 2021.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The case arose from allegations that Cambridge Analytica obtained Facebook users’ personal data through a third-party app without their consent. New Mexico accused Meta of misrepresenting data access and the platform’s handling of harmful content and misinformation.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The state’s law allows penalties of up to $5,000 per violation, with proceeds directed to New Mexico’s school system, according to Reuters. The $25 billion award reflects the judge’s ruling on the jury’s findings, rather than a settled payment.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Meta said it disagreed with the ruling and planned to appeal. The appeal could take years and may alter the amount or liability findings, so the ultimate payment and timing remain unsettled.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "The judgment makes privacy-related legal exposure financially material for a large platform, while the appeal means the award is not yet a final cash outflow. The case also revives scrutiny of how platforms describe data practices after third-party access.",
+      "editorNote": "The judgment is reported by AP and Reuters; the penalty remains subject to Meta’s announced appeal.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/stock-market-news/meta-ordered-to-pay-25-billion-to-new-mexico-after-jury-finds-company-misled-consumers-about-data-privacy-4963776",
+          "source": "Reuters",
+          "title": "Meta ordered to pay $25 billion to New Mexico after jury finds company misled consumers about data privacy"
+        },
+        {
+          "url": "https://www.axios.com/2026/10/21/meta-25-billion-cambridge-analytica-scandal-ruling",
+          "source": "Axios",
+          "title": "Meta hit with $25 billion penalty for misleading Facebook users"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/b329f82c3d3db3758a159405acbd4d0e",
+          "source": "Associated Press",
+          "title": "Meta ordered to pay New Mexico $25 billion for deceiving users about privacy on Facebook",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/stock-market-news/meta-ordered-to-pay-25-billion-to-new-mexico-after-jury-finds-company-misled-consumers-about-data-privacy-4963776",
+          "source": "Reuters",
+          "title": "Meta ordered to pay $25 billion to New Mexico after jury finds company misled consumers about data privacy",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 3,
+          "url": "https://www.axios.com/2026/10/21/meta-25-billion-cambridge-analytica-scandal-ruling",
+          "source": "Axios",
+          "title": "Meta hit with $25 billion penalty for misleading Facebook users",
+          "publishedAt": "2026-10-21"
+        }
+      ],
+      "tags": [
+        "Meta",
+        "privacy",
+        "litigation"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

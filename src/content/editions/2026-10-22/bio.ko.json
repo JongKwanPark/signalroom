@@ -1,0 +1,183 @@
+{
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-21T22:04:34.793Z",
+  "vertical": "bio",
+  "lang": "ko",
+  "title": "바이오 동향: 새 B형 간염 치료제와 포도막염 임상 결과",
+  "summary": "규제 승인과 임상 결과로 두 개발 프로그램이 진전됐지만, 대상 환자와 후속 근거가 중요하다.",
+  "stories": [
+    {
+      "slug": "fda-approves-hibsago-hepatitis-b-ko",
+      "headline": "FDA, 최초의 만성 B형 간염 치료제 승인",
+      "dek": "FDA는 특정 만성 B형 간염 성인에게 기존 항바이러스 치료와 함께 쓰는 bepirovirsen을 승인했다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "FDA는 간경변이 없는 특정 만성 B형 간염 성인에게 기존 항바이러스제와 병용하는 Hibsago를 승인했다.",
+        "두 시험에서 투여군의 24%가 기존 약 중단 기준을 충족했고 위약군에서는 해당 환자가 없었다.",
+        "허가사항에는 심각한 간 반응과 낮은 혈소판 수치에 대한 박스형 경고가 포함됐다."
+      ],
+      "body": [
+        {
+          "text": "FDA는 간경변이 없는 특정 만성 B형 간염 성인에게 기존 항바이러스 치료와 병용하는 Hibsago(bepirovirsen)를 승인했다고 밝혔다. 대상 환자는 기존 치료를 최소 6개월 받았고, 정해진 바이러스 표지 기준을 충족해야 한다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "FDA는 Hibsago가 만성 B형 간염에 승인된 최초의 안티센스 올리고뉴클레오타이드라고 설명했다. 기존 약과 함께 최대 24주간 주사하며, 환자는 마지막 Hibsago 투여 뒤에도 최소 24주 동안 기존 약을 계속 복용한다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "FDA가 인용한 두 임상시험에서 Hibsago 투여군의 24%가 기존 약을 중단할 기준을 충족한 반면 위약군은 해당 환자가 없었다. 모든 B형 간염 치료를 중단한 뒤 24주가 지난 시점에도 투여군의 19%에서 바이러스가 억제되고 표면 항원이 검출되지 않았다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "FDA 허가사항에는 심각한 간 반응과 낮은 혈소판 수치에 대한 박스형 경고와 그 밖의 주의사항이 포함됐다. 승인은 허가사항에 명시된 환자군에 한정되며, 치료를 중단한 뒤 억제 상태가 장기간 지속되는지는 후속 근거가 필요하다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "이번 결정은 장기간 바이러스 억제를 이어온 만성 B형 간염 치료 영역에 안티센스 치료제를 추가한다. 제한된 대상, 병용 요건과 안전성 모니터링이 근거를 적용할 수 있는 범위를 정한다.",
+      "editorNote": "규제 세부와 시험 수치는 FDA 자료를 기준으로 했으며, 개인별 치료 판단은 포함하지 않았다.",
+      "cluster": [
+        {
+          "url": "https://www.statnews.com/2026/10/21/biotech-news-gsk-picks-up-hep-b-drug-approval/",
+          "source": "STAT",
+          "title": "GSK picks up hep B drug approval"
+        },
+        {
+          "url": "https://ir.ionis.com/news-releases/news-release-details/ionis-partner-gsk-announces-hibsago-bepirovirsen-approved-us",
+          "source": "Ionis Pharmaceuticals",
+          "title": "Ionis partner GSK announces Hibsago approved in the U.S."
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-its-kind-chronic-hepatitis-b-treatment",
+          "source": "U.S. Food and Drug Administration",
+          "title": "FDA Approves First-of-Its-Kind Chronic Hepatitis B Treatment",
+          "publishedAt": "2026-10-20"
+        },
+        {
+          "id": 2,
+          "url": "https://www.statnews.com/2026/10/21/biotech-news-gsk-picks-up-hep-b-drug-approval/",
+          "source": "STAT",
+          "title": "GSK picks up hep B drug approval",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 3,
+          "url": "https://ir.ionis.com/news-releases/news-release-details/ionis-partner-gsk-announces-hibsago-bepirovirsen-approved-us",
+          "source": "Ionis Pharmaceuticals",
+          "title": "Ionis partner GSK announces Hibsago approved in the U.S.",
+          "publishedAt": "2026-10-20"
+        }
+      ],
+      "tags": [
+        "hepatitis B",
+        "FDA",
+        "bepirovirsen"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "brepocitinib-phase-3-uveitis-results-ko",
+      "headline": "Brepocitinib, 비감염성 포도막염 3상 모든 평가변수 충족",
+      "dek": "Roivant와 Priovant는 두 건의 3상 시험 결과를 발표했으며 해당 적응증은 아직 승인되지 않았다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Roivant와 Priovant는 비감염성 포도막염 대상 CLARITY 두 3상 시험에서 1차 평가변수를 충족했다고 발표했다.",
+        "회사 발표상 두 시험에서 48주 치료 실패 비율은 brepocitinib군이 위약군보다 낮았다.",
+        "결과는 회사의 톱라인 발표이며 규제 심사와 전체 논문 발표가 남아 있다."
+      ],
+      "body": [
+        {
+          "text": "Roivant와 자회사 Priovant는 비감염성 포도막염 치료를 평가한 CLARITY-1과 CLARITY-2 3상 시험에서 긍정적인 톱라인 결과를 발표했다. 두 시험 모두 1차 평가변수를 충족했다고 회사는 밝혔다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "회사 발표에 따르면 두 시험은 각각 166명과 204명을 등록했다. 48주 시점 치료 실패 누적 비율은 CLARITY-1에서 brepocitinib군 35.4%, 위약군 78.7%였고, CLARITY-2에서는 각각 32.4%와 77.8%였다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "후원사 측은 48주 시점 스테로이드 없이 염증이 가라앉은 비율도 치료군에서 위약군보다 높았다고 보고했다. 이는 회사가 발표한 톱라인 결과이며, 전체 동료심사 논문이나 규제기관의 평가를 대체하지 않는다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "보도에 따르면 brepocitinib은 LISRAYA라는 제품명으로 피부근염 치료에 이미 승인돼 있다. 비감염성 포도막염 적응증은 아직 승인되지 않았으며, 회사는 2027년 추가 적응증 허가를 신청할 계획이라고 밝혔다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "이번 결과는 기존 약물의 적용 범위를 염증성 안질환으로 넓힐 가능성이 있는 임상 단계 진전이다. 다만 회사 발표에 근거한 결과이며 규제 심사와 세부 공개를 거쳐야 해석이 가능하다.",
+      "editorNote": "임상 결과는 회사 발표와 보도를 기준으로 했으며, 치료 지침을 제시하지 않는다.",
+      "cluster": [
+        {
+          "url": "https://www.statnews.com/2026/10/21/roivant-immune-drug-lisraya-noninfectious-uveitis-trial-results/",
+          "source": "STAT",
+          "title": "Roivant says closely watched immune drug succeeded in new eye disease"
+        },
+        {
+          "url": "https://www.ophthalmologytimes.com/view/brepocitinib-meets-all-phase-3-end-points-in-noninfectious-uveitis",
+          "source": "Ophthalmology Times",
+          "title": "Brepocitinib meets all Phase 3 end points in noninfectious uveitis"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://investor.roivant.com/news-releases/news-release-details/roivant-and-priovant-announce-positive-results-clarity-1-and/",
+          "source": "Roivant Sciences",
+          "title": "Roivant and Priovant Announce Positive Results in CLARITY-1 and CLARITY-2 Phase 3 Trials for Brepocitinib in Non-Infectious Uveitis (NIU)",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 2,
+          "url": "https://www.statnews.com/2026/10/21/roivant-immune-drug-lisraya-noninfectious-uveitis-trial-results/",
+          "source": "STAT",
+          "title": "Roivant says closely watched immune drug succeeded in new eye disease",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 3,
+          "url": "https://www.ophthalmologytimes.com/view/brepocitinib-meets-all-phase-3-end-points-in-noninfectious-uveitis",
+          "source": "Ophthalmology Times",
+          "title": "Brepocitinib meets all Phase 3 end points in noninfectious uveitis",
+          "publishedAt": "2026-10-21"
+        }
+      ],
+      "tags": [
+        "clinical trials",
+        "uveitis",
+        "brepocitinib"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

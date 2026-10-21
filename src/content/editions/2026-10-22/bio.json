@@ -1,0 +1,183 @@
+{
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-21T22:04:34.793Z",
+  "vertical": "bio",
+  "lang": "en",
+  "title": "Bio signals: a new hepatitis B option and uveitis trial results",
+  "summary": "Regulatory and clinical updates moved two programs forward, with treatment eligibility and confirmatory evidence still central.",
+  "stories": [
+    {
+      "slug": "fda-approves-hibsago-hepatitis-b",
+      "headline": "FDA Approves First-of-Its-Kind Chronic Hepatitis B Treatment",
+      "dek": "The FDA approved bepirovirsen with existing antiviral therapy for a defined group of adults with chronic hepatitis B.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "The FDA approved Hibsago (bepirovirsen) with existing antiviral therapy for certain adults with chronic hepatitis B who do not have cirrhosis.",
+        "The agency said 24% of treated patients in two trials met criteria to stop their existing medicine, compared with none receiving placebo.",
+        "The label includes a boxed warning for serious liver reactions and low platelet counts; the approval does not apply to all people with hepatitis B."
+      ],
+      "body": [
+        {
+          "text": "The FDA said it approved Hibsago (bepirovirsen), in combination with existing antiviral therapy, for certain adults with chronic hepatitis B who do not have cirrhosis. Eligible patients must have taken antiviral therapy for at least six months and meet specified viral-marker criteria.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The agency described Hibsago as the first FDA-approved antisense oligonucleotide for chronic hepatitis B. It is administered by injection for up to 24 weeks alongside existing medicine, which patients continue for at least 24 weeks after the last Hibsago dose.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Across the two trials cited by FDA, 24% of patients receiving Hibsago met requirements to stop their existing medicine, compared with none receiving placebo. Twenty-four weeks after stopping all hepatitis B treatment, 19% still had controlled virus with hepatitis B surface antigen undetectable.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The FDA label carries a boxed warning for serious liver reactions and low platelet counts, as well as other warnings. The approval is limited to the labeled patient group, and the long-term durability of treatment-free control remains a question for follow-up evidence.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "The decision introduces an antisense option into a treatment area where many patients have relied on long-term suppression. Its restricted eligibility, required combination therapy and safety monitoring define how narrowly the evidence can be applied.",
+      "editorNote": "Regulatory details and trial percentages are taken from FDA materials; no patient-specific treatment conclusions are implied.",
+      "cluster": [
+        {
+          "url": "https://www.statnews.com/2026/10/21/biotech-news-gsk-picks-up-hep-b-drug-approval/",
+          "source": "STAT",
+          "title": "GSK picks up hep B drug approval"
+        },
+        {
+          "url": "https://ir.ionis.com/news-releases/news-release-details/ionis-partner-gsk-announces-hibsago-bepirovirsen-approved-us",
+          "source": "Ionis Pharmaceuticals",
+          "title": "Ionis partner GSK announces Hibsago approved in the U.S."
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-its-kind-chronic-hepatitis-b-treatment",
+          "source": "U.S. Food and Drug Administration",
+          "title": "FDA Approves First-of-Its-Kind Chronic Hepatitis B Treatment",
+          "publishedAt": "2026-10-20"
+        },
+        {
+          "id": 2,
+          "url": "https://www.statnews.com/2026/10/21/biotech-news-gsk-picks-up-hep-b-drug-approval/",
+          "source": "STAT",
+          "title": "GSK picks up hep B drug approval",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 3,
+          "url": "https://ir.ionis.com/news-releases/news-release-details/ionis-partner-gsk-announces-hibsago-bepirovirsen-approved-us",
+          "source": "Ionis Pharmaceuticals",
+          "title": "Ionis partner GSK announces Hibsago approved in the U.S.",
+          "publishedAt": "2026-10-20"
+        }
+      ],
+      "tags": [
+        "hepatitis B",
+        "FDA",
+        "bepirovirsen"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "brepocitinib-phase-3-uveitis-results",
+      "headline": "Brepocitinib meets all Phase 3 end points in noninfectious uveitis",
+      "dek": "Roivant and Priovant reported positive results from two Phase 3 studies; the indication has not been approved.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Roivant and Priovant said brepocitinib met the primary endpoint in both CLARITY Phase 3 trials for noninfectious uveitis.",
+        "The company-reported studies enrolled 166 and 204 participants, and treatment failure by week 48 was lower in the brepocitinib groups than in placebo groups.",
+        "The results are topline company disclosures; regulatory review and full peer-reviewed reporting remain pending."
+      ],
+      "body": [
+        {
+          "text": "Roivant and its subsidiary Priovant reported positive topline results from CLARITY-1 and CLARITY-2, two Phase 3 trials of brepocitinib for noninfectious uveitis. The companies said the primary endpoint was met in both studies.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The sponsor reported that the trials enrolled 166 and 204 participants. At week 48, cumulative treatment failure was 35.4% with brepocitinib versus 78.7% with placebo in CLARITY-1, and 32.4% versus 77.8% in CLARITY-2.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The company also reported higher rates of steroid-free quiescence at week 48 in the treatment groups than in the placebo groups. These are sponsor-reported topline findings; the announcement does not substitute for a full peer-reviewed publication or regulator assessment.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Brepocitinib is already approved for dermatomyositis under the LISRAYA brand, according to the coverage. The noninfectious uveitis use remains investigational, and the companies said they intend to seek an additional indication in 2027.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "The results could support expansion of an existing drug into an inflammatory eye disease, but they remain a sponsor-reported clinical milestone. Regulatory review and detailed publication will determine how the topline efficacy and safety findings are interpreted.",
+      "editorNote": "Trial outcomes are attributed to company disclosures and reported coverage; no treatment guidance is offered.",
+      "cluster": [
+        {
+          "url": "https://www.statnews.com/2026/10/21/roivant-immune-drug-lisraya-noninfectious-uveitis-trial-results/",
+          "source": "STAT",
+          "title": "Roivant says closely watched immune drug succeeded in new eye disease"
+        },
+        {
+          "url": "https://www.ophthalmologytimes.com/view/brepocitinib-meets-all-phase-3-end-points-in-noninfectious-uveitis",
+          "source": "Ophthalmology Times",
+          "title": "Brepocitinib meets all Phase 3 end points in noninfectious uveitis"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://investor.roivant.com/news-releases/news-release-details/roivant-and-priovant-announce-positive-results-clarity-1-and/",
+          "source": "Roivant Sciences",
+          "title": "Roivant and Priovant Announce Positive Results in CLARITY-1 and CLARITY-2 Phase 3 Trials for Brepocitinib in Non-Infectious Uveitis (NIU)",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 2,
+          "url": "https://www.statnews.com/2026/10/21/roivant-immune-drug-lisraya-noninfectious-uveitis-trial-results/",
+          "source": "STAT",
+          "title": "Roivant says closely watched immune drug succeeded in new eye disease",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 3,
+          "url": "https://www.ophthalmologytimes.com/view/brepocitinib-meets-all-phase-3-end-points-in-noninfectious-uveitis",
+          "source": "Ophthalmology Times",
+          "title": "Brepocitinib meets all Phase 3 end points in noninfectious uveitis",
+          "publishedAt": "2026-10-21"
+        }
+      ],
+      "tags": [
+        "clinical trials",
+        "uveitis",
+        "brepocitinib"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

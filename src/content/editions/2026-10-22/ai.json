@@ -1,0 +1,260 @@
+{
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-21T22:04:34.793Z",
+  "vertical": "ai",
+  "lang": "en",
+  "title": "AI signals: distribution, disclosure and guardrails",
+  "summary": "Three developments show how AI competition is moving through cloud distribution, IPO disclosure and user-facing safeguards.",
+  "stories": [
+    {
+      "slug": "openai-models-google-cloud",
+      "headline": "OpenAI models are coming to Google Cloud",
+      "dek": "OpenAI is adding its frontier models and Codex workflows to Google Cloud’s Model Garden, with general availability planned in the coming weeks.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "OpenAI and Google Cloud said their partnership will make OpenAI frontier models and Codex workflows available through Google Cloud’s Model Garden.",
+        "Customers will buy access through Google Cloud Marketplace, and some may apply existing Google Cloud spending commitments to those purchases.",
+        "The companies said general availability is planned in the coming weeks, while Microsoft remains OpenAI’s primary cloud partner."
+      ],
+      "body": [
+        {
+          "text": "OpenAI announced that its frontier models and Codex agentic workflows are coming to Google Cloud’s Model Garden. The company said the integration will pair its models with Google Cloud access controls, centralized data governance and infrastructure.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The commercial route runs through Google Cloud Marketplace. Enterprises with existing Google Cloud spending commitments will be able to use those commitments for the purchases, according to OpenAI and Google Cloud.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "OpenAI said access is rolling out to enterprise customers and that general availability is planned in the coming weeks. Google Cloud separately described the offering as a private preview for select customers, so broad availability has not yet happened.",
+          "citations": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "The arrangement expands OpenAI’s distribution beyond its own services and Microsoft Azure, while Microsoft remains its primary cloud partner. The announcement does not disclose the commercial terms or how many customers have enrolled.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The deal shows cloud marketplaces becoming a route for model providers to reach enterprise buyers already committed to a cloud platform. It also gives Google Cloud customers another model choice without implying that Google’s own models are being displaced.",
+      "editorNote": "Primary company announcements confirm availability plans and purchase mechanics; general availability and customer uptake remain pending.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/stock-market-news/openai-to-sell-its-top-models-on-google-cloud-in-latest-enterprise-push-4962854",
+          "source": "Reuters",
+          "title": "OpenAI to sell its top models on Google Cloud in latest enterprise push"
+        },
+        {
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers",
+          "source": "Google Cloud",
+          "title": "Google Cloud expands model choice and flexibility, bringing OpenAI models to customers"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://openai.com/index/openai-models-google-cloud/",
+          "source": "OpenAI",
+          "title": "OpenAI models are coming to Google Cloud",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/stock-market-news/openai-to-sell-its-top-models-on-google-cloud-in-latest-enterprise-push-4962854",
+          "source": "Reuters",
+          "title": "OpenAI to sell its top models on Google Cloud in latest enterprise push",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 3,
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers",
+          "source": "Google Cloud",
+          "title": "Google Cloud expands model choice and flexibility, bringing OpenAI models to customers",
+          "publishedAt": "2026-10-21"
+        }
+      ],
+      "tags": [
+        "OpenAI",
+        "Google Cloud",
+        "enterprise AI"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "anthropic-h1-2026-ipo-disclosure",
+      "headline": "Anthropic logged net loss of over $80 billion in first half of 2026, WSJ reports",
+      "dek": "A draft IPO prospectus reportedly shows a large accounting-driven loss alongside rapid revenue growth and substantial compute commitments.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 5,
+      "tldr": [
+        "Reuters reported that a draft IPO prospectus reviewed by The Wall Street Journal showed an $80.7 billion net loss for Anthropic in the first half of 2026.",
+        "The reported loss included $72 billion in accounting charges tied largely to changes in the value of convertible notes and other financing instruments.",
+        "The figures are from a draft prospectus cited by news outlets, and Anthropic had not publicly confirmed the reported filing details."
+      ],
+      "body": [
+        {
+          "text": "Reuters reported that Anthropic recorded a net loss of more than $80 billion in the first half of 2026, citing a draft IPO prospectus reviewed by The Wall Street Journal. The Journal’s report described the loss as $80.7 billion.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The reported loss included about $72 billion in accounting charges connected to changes in the value of convertible notes and other instruments issued to raise funding. That accounting component means the headline loss is not equivalent to cash spent during the period.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The same reporting said revenue rose sharply year over year, with the draft prospectus showing $16.3 billion for the first half compared with $1.1 billion a year earlier. Those amounts remain figures reported from a draft filing, rather than audited public results in a filed registration statement.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The filing also reportedly outlines large future computing commitments and risks including data-center opposition. Anthropic did not immediately respond to Reuters; the final prospectus, accounting presentation and IPO timetable remain open.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "The reported figures put the cost and accounting structure of frontier-model expansion in view just as Anthropic prepares to seek public-market financing. The distinction between non-cash valuation changes and operating cash use is essential to interpreting the headline loss.",
+      "editorNote": "Figures are attributed to a draft IPO prospectus described by Reuters and WSJ; the final public filing may differ.",
+      "cluster": [
+        {
+          "url": "https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1",
+          "source": "The Wall Street Journal",
+          "title": "Anthropic’s New Prospectus Shows Red-Hot Growth, Many Risks and Massive Computing Costs"
+        },
+        {
+          "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-books-colossal-81b-loss-220602127.html",
+          "source": "Fortune",
+          "title": "Anthropic books colossal $81B loss, warns of data center backlash as Amodei siblings draw modest salaries"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.marketscreener.com/news/anthropic-logged-net-loss-over-80-billion-in-first-half-of-2026-wsj-reports-ce785cd8dd8ef426",
+          "source": "Reuters",
+          "title": "Anthropic recorded net loss of over $80 billion in first half of this year, WSJ reports",
+          "publishedAt": "2026-10-20"
+        },
+        {
+          "id": 2,
+          "url": "https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1",
+          "source": "The Wall Street Journal",
+          "title": "Anthropic’s New Prospectus Shows Red-Hot Growth, Many Risks and Massive Computing Costs",
+          "publishedAt": "2026-10-20"
+        },
+        {
+          "id": 3,
+          "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-books-colossal-81b-loss-220602127.html",
+          "source": "Fortune",
+          "title": "Anthropic books colossal $81B loss, warns of data center backlash as Amodei siblings draw modest salaries",
+          "publishedAt": "2026-10-20"
+        }
+      ],
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "AI infrastructure"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "whatsapp-hidden-support-ai-instructions",
+      "headline": "WhatsApp’s help pages hid LLM instructions: don’t recommend a regulator",
+      "dek": "An investigation found chatbot instructions embedded in public help pages; Meta said a bug exposed support-bot text.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Redact said it found 102 hidden language-model instruction blocks across 80 WhatsApp help pages reviewed between October 8 and 18, 2026.",
+        "Some instructions told the support chatbot not to recommend contacting a data-protection regulator in certain user-support situations.",
+        "Meta said the text was intended for its WhatsApp Support with AI chatbot and that a bug had exposed it on public help pages."
+      ],
+      "body": [
+        {
+          "text": "Redact reported that it found 102 hidden instruction blocks on 80 of 545 WhatsApp help pages during a review from October 8 through 18. The material was intended for a support chatbot but appeared in page content, according to the investigation.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "One instruction described by Redact told the chatbot not to recommend that users contact a data-protection authority or regulator. The finding concerns the chatbot’s written instructions; it does not by itself establish how often the bot followed them in real conversations.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Meta spokesperson Joshua Breckman told WIRED, as reported by Malwarebytes, that the text was instructions for WhatsApp Support with AI and that a bug had caused it to appear on public pages. The company said the bug was fixed after WIRED contacted Meta.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "Redact said archived copies of the pages showed the instruction on October 9 but not October 18. That supports removal from the public pages, but does not establish whether the underlying chatbot instructions changed or whether similar language remains elsewhere.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The episode raises a concrete question about the boundary between automated customer support and access to independent redress. Meta’s explanation accounts for the public exposure, while the available reporting does not establish whether the instruction affected actual support outcomes.",
+      "editorNote": "The instruction wording is attributed to Redact’s page analysis; Meta’s explanation is reported through WIRED and secondary coverage.",
+      "cluster": [
+        {
+          "url": "https://www.frontier.dev/articles/whatsapp-hidden-llm-instructions",
+          "source": "The Frontier",
+          "title": "WhatsApp help pages hid LLM instructions barring regulator referrals"
+        },
+        {
+          "url": "https://www.malwarebytes.com/blog/news/2026/10/whatsapp-chatbot-privacy-regulators",
+          "source": "Malwarebytes",
+          "title": "WhatsApp’s chatbot was given hidden instructions to not mention privacy regulators"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+          "source": "Redact",
+          "title": "WhatsApp help pages hid LLM notes barring regulator referrals",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 2,
+          "url": "https://www.malwarebytes.com/blog/news/2026/10/whatsapp-chatbot-privacy-regulators",
+          "source": "Malwarebytes",
+          "title": "WhatsApp’s chatbot was given hidden instructions to not mention privacy regulators",
+          "publishedAt": "2026-10-21"
+        }
+      ],
+      "tags": [
+        "WhatsApp",
+        "chatbots",
+        "privacy"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

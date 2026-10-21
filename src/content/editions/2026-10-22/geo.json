@@ -1,0 +1,182 @@
+{
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-21T22:04:34.793Z",
+  "vertical": "geo",
+  "lang": "en",
+  "title": "Geopolitics: Ukraine talks and Gambia reparations",
+  "summary": "Diplomatic signals around Ukraine remain tentative, while The Gambia received proceeds designated for victims of Yahya Jammeh’s rule.",
+  "stories": [
+    {
+      "slug": "russia-agrees-resume-ukraine-talks",
+      "headline": "Russia agrees to resume three-way talks on Ukraine war with Kyiv and Washington, Kremlin says",
+      "dek": "A Kremlin statement pointed to renewed trilateral talks, even as a missile alert and explosions were reported in Kyiv.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "The Kremlin said Russia was ready to resume three-way talks with Ukraine and the United States, according to the Associated Press.",
+        "The announcement followed a meeting between Vladimir Putin and U.S. envoy Steve Witkoff, while the proposal and timing of any talks remained unspecified.",
+        "A missile alert sounded in Kyiv and explosions were heard shortly after the announcement, underscoring that diplomatic movement had not halted the fighting."
+      ],
+      "body": [
+        {
+          "text": "The Kremlin said Russia had agreed in principle to resume trilateral talks with Ukraine and the United States, the Associated Press reported. The statement followed a meeting between President Vladimir Putin and U.S. envoy Steve Witkoff.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The reported signal concerns willingness to restart talks; the reports did not identify a confirmed date, agenda or agreed negotiating framework. Any resumption would require participation and terms acceptable to Kyiv as well as Moscow and Washington.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The AP reported that a missile alert sounded over Kyiv and loud explosions were heard shortly after the announcement. That sequence shows the diplomatic statement occurred alongside continued military activity, rather than a ceasefire.",
+          "citations": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "Ukrainian officials have continued to emphasize security and territorial issues in prior negotiations, while the current reporting leaves the next steps uncertain. No agreement to end the war was announced.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The announcement signals a possible return to a diplomatic channel, but the lack of a timetable or agreed framework limits what can be inferred. Continued strikes also show that the battlefield and negotiations remain active at the same time.",
+      "editorNote": "The talks signal is attributed to Kremlin statements reported by AP and Axios; no ceasefire or agreement was announced.",
+      "cluster": [
+        {
+          "url": "https://www.axios.com/2026/10/21/putin-witkoff-russia-ukraine-peace",
+          "source": "Axios",
+          "title": "Putin tells Witkoff he is ready to resume direct peace talks, Russia releases U.S. detainee"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o",
+          "source": "BBC News",
+          "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/3f00c0c6fd10bab948c2c3f8502e0a91",
+          "source": "Associated Press",
+          "title": "Russia agrees to resume three-way talks on Ukraine war with Kyiv and Washington, Kremlin says",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 2,
+          "url": "https://www.axios.com/2026/10/21/putin-witkoff-russia-ukraine-peace",
+          "source": "Axios",
+          "title": "Putin tells Witkoff he is ready to resume direct peace talks, Russia releases U.S. detainee",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 3,
+          "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o",
+          "source": "BBC News",
+          "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
+          "publishedAt": "2026-10-21"
+        }
+      ],
+      "tags": [
+        "Ukraine",
+        "Russia",
+        "diplomacy"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "gambia-jammeh-property-reparations",
+      "headline": "Gambia to pay victims of Yahya Jammeh’s rule from proceeds of his seized US mansion",
+      "dek": "The Gambia said it received more than $2.5 million from the U.S. forfeiture and sale of a property linked to its former president.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "The Gambia said it received $2,573,414.10 from the forfeiture and sale of a Potomac, Maryland, property owned by former ruler Yahya Jammeh.",
+        "Authorities said the money will be used by the Gambia Reparations Commission to compensate victims and survivors of abuses during Jammeh’s rule.",
+        "The U.S. Justice Department had announced the return of approximately $2.5 million in September; the timing and distribution of individual payments remain for the commission."
+      ],
+      "body": [
+        {
+          "text": "Gambian authorities said the country received $2,573,414.10 recovered from the forfeiture and sale of a mansion in Potomac, Maryland, linked to former president Yahya Jammeh. The proceeds were transferred from the United States.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The Gambia Reparations Commission said the funds are to be used only for reparations payments to victims and survivors of abuses during Jammeh’s rule. The commission was established to administer compensation under a 2023 law, according to reporting.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The U.S. Justice Department had announced in September that it was returning approximately $2.5 million in corruption proceeds to The Gambia. The funds came from a property it said had been purchased with criminal proceeds and misappropriated public funds.",
+          "citations": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "The announcement confirms transfer of the proceeds, not completion of individual compensation payments. The commission has said it will manage the funds, while reporting did not specify a timetable or the allocation method for each recipient.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The transfer turns a U.S. asset-forfeiture action into a concrete reparations resource administered by The Gambia. The remaining question is how quickly and through what criteria the commission will distribute the money to survivors.",
+      "editorNote": "Transfer amount and intended use are based on government and commission statements reported by AP, AFP and the U.S. Justice Department.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/26ae78b5a3c2848e60e8cc3d58741ef5",
+          "source": "Associated Press",
+          "title": "Funds from sale of former Gambian ruler’s US property to be used to compensate victims"
+        },
+        {
+          "url": "https://citizen.digital/article/gambia-to-use-25-mn-from-us-to-compensate-ex-dictators-victims-n392435",
+          "source": "AFP / Citizen Digital",
+          "title": "Gambia to use $2.5 mn from US to compensate ex-dictator’s victims"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/26ae78b5a3c2848e60e8cc3d58741ef5",
+          "source": "Associated Press",
+          "title": "Funds from sale of former Gambian ruler’s US property to be used to compensate victims",
+          "publishedAt": "2026-10-20"
+        },
+        {
+          "id": 2,
+          "url": "https://citizen.digital/article/gambia-to-use-25-mn-from-us-to-compensate-ex-dictators-victims-n392435",
+          "source": "AFP / Citizen Digital",
+          "title": "Gambia to use $2.5 mn from US to compensate ex-dictator’s victims",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 3,
+          "url": "https://www.justice.gov/opa/pr/department-justice-returns-approximately-25-million-corruption-proceeds-victims-ex-president",
+          "source": "U.S. Department of Justice",
+          "title": "Department of Justice Returns Approximately $2.5 Million in Corruption Proceeds for Victims of the Ex-President of The Gambia",
+          "publishedAt": "2026-09-18"
+        }
+      ],
+      "tags": [
+        "The Gambia",
+        "reparations",
+        "asset forfeiture"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

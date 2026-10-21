@@ -1,0 +1,184 @@
+{
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-21T22:04:34.793Z",
+  "vertical": "markets",
+  "lang": "ko",
+  "title": "시장: Tesla 실적과 Meta의 250억 달러 판결",
+  "summary": "분기 실적과 대규모 개인정보 판결이 영업 성과와 법적 노출을 부각했다. 두 사안 모두 후속 절차가 남아 있다.",
+  "stories": [
+    {
+      "slug": "tesla-q3-2026-results-ko",
+      "headline": "Tesla, 자동차 매출 감소에도 이익·매출 전망 상회",
+      "dek": "Tesla는 자동차 매출 감소 속에 3분기 실적을 발표했고 SpaceX와의 잠재적 결합도 검토 중이라고 밝혔다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Tesla의 3분기 순이익은 7억 8,700만 달러로 전년보다 44% 감소했고 매출은 약 280억 달러였다.",
+        "조정 주당순이익은 예상치를 웃돌았지만 자동차 매출은 감소했다.",
+        "Elon Musk는 Tesla와 SpaceX의 결합 가능성을 논의 중이라고 했지만 거래는 확정되지 않았다."
+      ],
+      "body": [
+        {
+          "text": "Associated Press에 따르면 Tesla는 3분기 순이익 7억 8,700만 달러, 주당 22센트를 기록해 전년 동기보다 44% 감소했다. 매출은 약 280억 달러로 대체로 보합이었으며 애널리스트 전망을 소폭 밑돌았다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AP는 조정 주당순이익이 48센트로 애널리스트 예상치를 3센트 웃돌았다고 전했다. CNBC는 자동차 부문 매출이 줄었는데도 회사가 이익과 매출 전망을 상회했다고 보도해 사업 부문별 흐름이 엇갈렸음을 보여줬다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "실적 발표 시점에 Elon Musk는 Tesla와 SpaceX가 두 회사의 결합 가능성을 논의하기 위해 특별위원회를 구성했다고 말했다. 다만 해결해야 할 장애물이 많다고 덧붙였으며, 양사는 합의를 발표하지 않았다.",
+          "citations": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "AP는 실적 발표 뒤 시간 외 거래에서 Tesla 주가가 올랐다고 보도했다. 분기 실적은 회사 발표로 확인됐지만, Tesla와 SpaceX의 거래가 성사될지, 어떤 구조와 일정으로 진행될지는 아직 정해지지 않았다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "Tesla 실적은 이익 전망 상회와 자동차 매출 감소가 함께 나타나 단일 지표만으로 영업 상황을 설명하기 어렵다. SpaceX 결합 가능성은 별도의 지배구조·자본 배분 문제를 더하지만 아직 검토 단계다.",
+      "editorNote": "분기 수치는 회사 실적 발표와 AP·CNBC 보도를 기준으로 했으며, 잠재적 결합은 확정되지 않았다.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/cfe0453f6bf0d08d22150022128492fa",
+          "source": "Associated Press",
+          "title": "Tesla’s Q3 profit drops as it prepares for possible merger with Musk’s other public company, SpaceX"
+        },
+        {
+          "url": "https://www.axios.com/2026/10/21/tesla-earnings-elon-musk",
+          "source": "Axios",
+          "title": "Tesla revenue flattens out as Elon Musk eyes possible SpaceX deal"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.cnbc.com/2026/10/21/tesla-tsla-q3-2026-earnings-report.html",
+          "source": "CNBC",
+          "title": "Tesla beats on earnings and sales even as auto revenue declines",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/cfe0453f6bf0d08d22150022128492fa",
+          "source": "Associated Press",
+          "title": "Tesla’s Q3 profit drops as it prepares for possible merger with Musk’s other public company, SpaceX",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 3,
+          "url": "https://www.axios.com/2026/10/21/tesla-earnings-elon-musk",
+          "source": "Axios",
+          "title": "Tesla revenue flattens out as Elon Musk eyes possible SpaceX deal",
+          "publishedAt": "2026-10-21"
+        }
+      ],
+      "tags": [
+        "Tesla",
+        "earnings",
+        "automotive"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "meta-new-mexico-25-billion-penalty-ko",
+      "headline": "Meta, Facebook 개인정보 이용자 오도 판결로 뉴멕시코주에 250억 달러 지급 명령",
+      "dek": "개인정보 사건의 판결로 대규모 벌금이 명령됐지만 Meta가 항소할 계획이어서 절차는 계속된다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "뉴멕시코주 판사는 Facebook 개인정보 사건에서 배심원 평결에 따라 Meta에 250억 달러 지급을 명령했다.",
+        "소송은 Cambridge Analytica가 Facebook 이용자 데이터를 동의 없이 얻었다는 주장에 뿌리를 둔다.",
+        "Meta가 항소할 계획이어서 최종 지급액과 시점은 미정이다."
+      ],
+      "body": [
+        {
+          "text": "Reuters와 Associated Press는 뉴멕시코주 판사가 Facebook 개인정보 보호와 관련해 이용자를 오도했다는 배심원 평결에 따라 Meta Platforms에 250억 달러를 내라고 명령했다고 보도했다. 이 판결은 2021년 제기된 주 정부 소송에서 나왔다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "소송은 Cambridge Analytica가 제3자 앱을 통해 Facebook 이용자의 개인정보를 동의 없이 확보했다는 주장과 관련된다. 뉴멕시코주는 데이터 접근 범위와 유해 콘텐츠·허위정보 처리 방침을 Meta가 이용자에게 잘못 설명했다고 주장했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Reuters에 따르면 주법은 위반 한 건당 최대 5,000달러의 벌금을 허용하고, 벌금은 뉴멕시코주 교육 체계에 돌아가도록 규정한다. 250억 달러는 배심원 판단에 대한 판사 명령이며 확정 지급액과 같은 의미는 아니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Meta는 판결에 동의하지 않으며 항소할 계획이라고 밝혔다. 항소는 수년이 걸릴 수 있고 위반 건수나 책임 판단이 달라질 수 있어 최종 지급액과 시점은 아직 정해지지 않았다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "이번 판결은 대형 플랫폼의 개인정보 관련 법적 노출이 재무적으로 중대할 수 있음을 보여주지만, 항소로 인해 실제 현금 유출은 확정되지 않았다. 제3자 데이터 접근 뒤 플랫폼의 설명 책임도 다시 쟁점이 됐다.",
+      "editorNote": "판결은 AP와 Reuters 보도를 기준으로 했으며, Meta가 항소할 계획이다.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/stock-market-news/meta-ordered-to-pay-25-billion-to-new-mexico-after-jury-finds-company-misled-consumers-about-data-privacy-4963776",
+          "source": "Reuters",
+          "title": "Meta ordered to pay $25 billion to New Mexico after jury finds company misled consumers about data privacy"
+        },
+        {
+          "url": "https://www.axios.com/2026/10/21/meta-25-billion-cambridge-analytica-scandal-ruling",
+          "source": "Axios",
+          "title": "Meta hit with $25 billion penalty for misleading Facebook users"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/b329f82c3d3db3758a159405acbd4d0e",
+          "source": "Associated Press",
+          "title": "Meta ordered to pay New Mexico $25 billion for deceiving users about privacy on Facebook",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/stock-market-news/meta-ordered-to-pay-25-billion-to-new-mexico-after-jury-finds-company-misled-consumers-about-data-privacy-4963776",
+          "source": "Reuters",
+          "title": "Meta ordered to pay $25 billion to New Mexico after jury finds company misled consumers about data privacy",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 3,
+          "url": "https://www.axios.com/2026/10/21/meta-25-billion-cambridge-analytica-scandal-ruling",
+          "source": "Axios",
+          "title": "Meta hit with $25 billion penalty for misleading Facebook users",
+          "publishedAt": "2026-10-21"
+        }
+      ],
+      "tags": [
+        "Meta",
+        "privacy",
+        "litigation"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

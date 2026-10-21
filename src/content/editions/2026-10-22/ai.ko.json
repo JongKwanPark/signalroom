@@ -1,0 +1,260 @@
+{
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-21T22:04:34.793Z",
+  "vertical": "ai",
+  "lang": "ko",
+  "title": "AI 동향: 클라우드 유통, 재무 공개와 이용자 보호",
+  "summary": "AI 경쟁이 클라우드 유통, IPO 재무 공개, 이용자 접점의 보호 장치로 확장되는 세 가지 움직임을 살펴본다.",
+  "stories": [
+    {
+      "slug": "openai-models-google-cloud-ko",
+      "headline": "OpenAI 모델, Google Cloud에 제공된다",
+      "dek": "OpenAI 프런티어 모델과 Codex 워크플로가 Google Cloud Model Garden에 추가되며, 일반 제공은 앞으로 몇 주 안에 시작될 예정이다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "OpenAI와 Google Cloud는 OpenAI 프런티어 모델과 Codex 워크플로를 Google Cloud Model Garden에서 제공한다고 밝혔다.",
+        "기업 고객은 Google Cloud Marketplace에서 모델을 구매하며 기존 지출 약정을 사용할 수 있다.",
+        "일반 제공은 앞으로 몇 주 내 계획돼 있으며 Microsoft는 여전히 OpenAI의 주요 클라우드 파트너다."
+      ],
+      "body": [
+        {
+          "text": "OpenAI는 프런티어 모델과 Codex 에이전트 워크플로를 Google Cloud의 Model Garden에 제공한다고 발표했다. 회사는 통합 과정에서 Google Cloud의 접근 제어, 중앙화된 데이터 거버넌스, 고성능 인프라를 활용한다고 밝혔다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "구매는 Google Cloud Marketplace를 통해 이뤄진다. OpenAI와 Google Cloud에 따르면 기존 Google Cloud 지출 약정이 있는 기업은 해당 약정액을 모델 구매에 사용할 수 있다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "OpenAI는 기업 고객을 대상으로 접근을 순차 제공하고 있으며, 일반 제공은 앞으로 몇 주 안에 시작할 계획이라고 밝혔다. Google Cloud는 일부 고객을 대상으로 한 비공개 프리뷰라고 별도로 설명해, 아직 폭넓게 공개된 단계는 아니다.",
+          "citations": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "이번 계약은 OpenAI가 자체 서비스와 Microsoft Azure를 넘어 모델 유통 경로를 넓히는 움직임이다. Microsoft는 여전히 OpenAI의 주요 클라우드 파트너이며, 이번 발표에는 계약 조건이나 참여 고객 수가 공개되지 않았다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 계약은 클라우드 플랫폼에 이미 지출을 약정한 기업을 모델 공급자가 만나는 유통 경로가 커지고 있음을 보여준다. Google Cloud 고객이 플랫폼을 옮기지 않고 모델을 선택할 수 있다는 의미도 있다.",
+      "editorNote": "공식 발표가 접근 및 구매 계획을 확인하며, 일반 제공과 고객 도입은 아직 진행 전이다.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/stock-market-news/openai-to-sell-its-top-models-on-google-cloud-in-latest-enterprise-push-4962854",
+          "source": "Reuters",
+          "title": "OpenAI to sell its top models on Google Cloud in latest enterprise push"
+        },
+        {
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers",
+          "source": "Google Cloud",
+          "title": "Google Cloud expands model choice and flexibility, bringing OpenAI models to customers"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://openai.com/index/openai-models-google-cloud/",
+          "source": "OpenAI",
+          "title": "OpenAI models are coming to Google Cloud",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/stock-market-news/openai-to-sell-its-top-models-on-google-cloud-in-latest-enterprise-push-4962854",
+          "source": "Reuters",
+          "title": "OpenAI to sell its top models on Google Cloud in latest enterprise push",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 3,
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers",
+          "source": "Google Cloud",
+          "title": "Google Cloud expands model choice and flexibility, bringing OpenAI models to customers",
+          "publishedAt": "2026-10-21"
+        }
+      ],
+      "tags": [
+        "OpenAI",
+        "Google Cloud",
+        "enterprise AI"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "anthropic-h1-2026-ipo-disclosure-ko",
+      "headline": "Anthropic, 2026년 상반기 800억 달러 넘는 순손실 기록…WSJ 보도",
+      "dek": "IPO 초안에는 급격한 매출 증가와 대규모 회계상 손실, 상당한 컴퓨팅 약정이 함께 제시된 것으로 보도됐다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 5,
+      "tldr": [
+        "Reuters는 WSJ가 확인한 IPO 초안에 Anthropic의 2026년 상반기 순손실 807억 달러가 기재됐다고 보도했다.",
+        "보도된 손실에는 전환사채 등 금융상품 가치 변동에 따른 회계상 비용 720억 달러가 포함됐다.",
+        "수치는 언론이 확인한 초안에서 나온 것으로 Anthropic의 공개 확정 자료는 아니다."
+      ],
+      "body": [
+        {
+          "text": "Reuters는 The Wall Street Journal이 검토한 Anthropic의 IPO 초안 투자설명서를 인용해, 회사가 2026년 상반기에 800억 달러가 넘는 순손실을 기록했다고 보도했다. Journal은 손실액을 807억 달러로 전했다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "보도된 손실에는 전환사채와 기타 자금조달 수단의 가치 변동과 관련된 약 720억 달러의 회계상 비용이 포함됐다. 이 회계 항목은 손실 규모가 해당 기간에 실제 지출한 현금과 같지 않다는 점을 뜻한다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "같은 보도에 따르면 초안 투자설명서에는 상반기 매출이 전년 동기 11억 달러에서 163억 달러로 증가한 것으로 기재됐다. 이는 공개 등록 서류의 감사된 결과가 아니라 언론이 확인한 초안 수치다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "초안에는 향후 대규모 컴퓨팅 약정과 데이터센터 반대 움직임 등 위험 요인도 담긴 것으로 보도됐다. Anthropic은 Reuters의 문의에 즉시 답하지 않았으며, 최종 투자설명서와 회계 내역, 상장 일정은 아직 확정되지 않았다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "보도된 수치는 Anthropic이 상장 자금을 모색하는 시점에 프런티어 모델 확장 비용과 회계 구조를 드러낸다. 손실 중 비현금 가치 변동과 실제 영업 현금 사용을 구분해야 한다.",
+      "editorNote": "재무 수치는 언론이 확인한 IPO 초안에 근거하며, 최종 공개 서류에서 달라질 수 있다.",
+      "cluster": [
+        {
+          "url": "https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1",
+          "source": "The Wall Street Journal",
+          "title": "Anthropic’s New Prospectus Shows Red-Hot Growth, Many Risks and Massive Computing Costs"
+        },
+        {
+          "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-books-colossal-81b-loss-220602127.html",
+          "source": "Fortune",
+          "title": "Anthropic books colossal $81B loss, warns of data center backlash as Amodei siblings draw modest salaries"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.marketscreener.com/news/anthropic-logged-net-loss-over-80-billion-in-first-half-of-2026-wsj-reports-ce785cd8dd8ef426",
+          "source": "Reuters",
+          "title": "Anthropic recorded net loss of over $80 billion in first half of this year, WSJ reports",
+          "publishedAt": "2026-10-20"
+        },
+        {
+          "id": 2,
+          "url": "https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1",
+          "source": "The Wall Street Journal",
+          "title": "Anthropic’s New Prospectus Shows Red-Hot Growth, Many Risks and Massive Computing Costs",
+          "publishedAt": "2026-10-20"
+        },
+        {
+          "id": 3,
+          "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-books-colossal-81b-loss-220602127.html",
+          "source": "Fortune",
+          "title": "Anthropic books colossal $81B loss, warns of data center backlash as Amodei siblings draw modest salaries",
+          "publishedAt": "2026-10-20"
+        }
+      ],
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "AI infrastructure"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "whatsapp-hidden-support-ai-instructions-ko",
+      "headline": "WhatsApp 도움말에 숨겨진 LLM 지침…“규제기관을 권하지 말라”",
+      "dek": "조사에서 공개 도움말 페이지에 삽입된 챗봇 지침이 발견됐고, Meta는 지원 봇 문구가 버그로 노출됐다고 설명했다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Redact는 WhatsApp 도움말 페이지 80개에서 숨겨진 언어모델 지침 102개를 확인했다고 밝혔다.",
+        "일부 지침은 특정 상황에서 데이터 보호 규제기관에 연락하라고 권하지 말도록 챗봇에 지시했다.",
+        "Meta는 지원 챗봇 지침이 버그로 공개됐으며 이를 수정했다고 설명했다."
+      ],
+      "body": [
+        {
+          "text": "Redact는 10월 8일부터 18일까지 WhatsApp 도움말 페이지 545개 중 80개에서 숨겨진 지침 블록 102개를 발견했다고 보도했다. 조사에 따르면 이 내용은 지원 챗봇용이었지만 웹페이지에도 노출돼 있었다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Redact가 소개한 지침 중 하나는 특정 이용자 지원 상황에서 데이터 보호 기관이나 규제기관에 연락하라고 권하지 말도록 챗봇에 지시했다. 이 발견만으로 실제 대화에서 챗봇이 해당 지침을 얼마나 따랐는지는 확인할 수 없다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Meta 대변인 Joshua Breckman은 WIRED에 이 문구가 WhatsApp Support with AI용 지침이며 버그 때문에 공개 페이지에 나타났다고 설명했다. 회사는 WIRED의 문의 뒤 버그를 수정했다고 밝혔다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "Redact는 10월 9일의 보관본에는 해당 지침이 있었지만 10월 18일 사본에서는 보이지 않았다고 전했다. 이는 공개 페이지에서 제거됐다는 점을 뒷받침하지만, 챗봇 내부 지침이 바뀌었는지 또는 유사한 문구가 다른 곳에 남았는지는 확인되지 않았다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이 사건은 자동 고객지원과 독립적인 구제 절차 접근 사이의 경계를 구체적으로 묻는다. Meta의 설명은 공개 노출 경위를 제시하지만 실제 지원 결과에 미친 영향은 확인되지 않았다.",
+      "editorNote": "지침은 Redact의 페이지 분석에 근거하며, Meta의 설명은 Malwarebytes 보도를 통해 전했다.",
+      "cluster": [
+        {
+          "url": "https://www.frontier.dev/articles/whatsapp-hidden-llm-instructions",
+          "source": "The Frontier",
+          "title": "WhatsApp help pages hid LLM instructions barring regulator referrals"
+        },
+        {
+          "url": "https://www.malwarebytes.com/blog/news/2026/10/whatsapp-chatbot-privacy-regulators",
+          "source": "Malwarebytes",
+          "title": "WhatsApp’s chatbot was given hidden instructions to not mention privacy regulators"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+          "source": "Redact",
+          "title": "WhatsApp help pages hid LLM notes barring regulator referrals",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 2,
+          "url": "https://www.malwarebytes.com/blog/news/2026/10/whatsapp-chatbot-privacy-regulators",
+          "source": "Malwarebytes",
+          "title": "WhatsApp’s chatbot was given hidden instructions to not mention privacy regulators",
+          "publishedAt": "2026-10-21"
+        }
+      ],
+      "tags": [
+        "WhatsApp",
+        "chatbots",
+        "privacy"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}
