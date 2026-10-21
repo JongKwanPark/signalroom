@@ -4,7 +4,7 @@
   "vertical": "geo",
   "lang": "ko",
   "title": "지정학: 캐나다의 결속과 무역 압박",
-  "summary": "앨버타 유권자들은 분리독립으로 이어질 수 있는 절차를 시작하자는 제안을 거부했다. 한편 미국 수입업체는 캐나다산 상품에 대한 50% 관세의 법적 근거에 이의를 제기했다. 두 사안은 캐나다와 미국 관계에 가해지는 국내 정치·무역 압박을 보여준다. 후속 업데이트에는 아비에이 시장 공습과 사상자·책임 주체를 둘러싼 상반된 설명이 추가됐다. 후속 보도에는 호주 의원 헬렌 헤인스 공격과 러시아의 스티븐 허버드 석방이 추가됐다. 후속 보도에는 호주 의원 헬렌 헤인스 공격과 러시아의 스티븐 허버드 석방이 추가됐다.",
+  "summary": "앨버타 유권자들은 분리독립으로 이어질 수 있는 절차를 시작하자는 제안을 거부했다. 한편 미국 수입업체는 캐나다산 상품에 대한 50% 관세의 법적 근거에 이의를 제기했다. 두 사안은 캐나다와 미국 관계에 가해지는 국내 정치·무역 압박을 보여준다. 후속 업데이트에는 아비에이 시장 공습과 사상자·책임 주체를 둘러싼 상반된 설명이 추가됐다. 후속 보도에는 호주 의원 헬렌 헤인스 공격과 러시아의 스티븐 허버드 석방이 추가됐다. 후속 보도에는 호주 의원 헬렌 헤인스 공격과 러시아의 스티븐 허버드 석방이 추가됐다. 나머지 후보에는 독립된 두 번째 매체 보도가 없었다. BBC의 300명 초과 제목은 서코르도판의 별도 공습과 아비에이 공격을 합산한다. 이 판은 사건을 구분하고 각 보도의 사망자 수를 출처에 귀속했다.",
   "stories": [
     {
       "slug": "alberta-voters-reject-secession-process-ko",
@@ -401,6 +401,77 @@
         "diplomacy"
       ],
       "confidence": "high"
+    },
+    {
+      "slug": "sudan-drone-strikes-khartoum-west-kordofan-ko",
+      "headline": "수단 드론 공격으로 하르툼 어린이 3명, 코르도판 민간인 다수 사망",
+      "dek": "하르툼과 서코르도판의 별도 공격이 보도됐으며, 사상자 집계와 책임 주체는 출처마다 다르다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "인권단체는 하르툼 드론 공격으로 어린이 3명이 사망했다고 AP통신에 밝혔으며, 급속지원군(RSF)을 공격 주체로 지목했다.",
+        "AP는 서코르도판에서 별도의 수단군 공습을 보도했고, BBC는 감시단체가 두 차례 공격의 사망자를 약 150명으로 집계했다고 전했다.",
+        "보도된 사건은 장소와 날짜가 다르며, 정확한 전체 사망자 수와 책임은 독립적으로 확정되지 않은 출처별 주장이다."
+      ],
+      "body": [
+        {
+          "text": "수단 폭력을 감시하는 인권단체 Emergency Lawyers에 따르면 하르툼 공항 인근 드론 사건으로 어린이 3명이 사망했다. AP통신은 해당 단체를 인용했으며, 한 주민은 공항 쪽으로 향하는 드론을 본 뒤 폭발음을 들었다고 전했다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "AP는 서코르도판에서 별도로 발생한 공격도 보도했다. 토요일 알무글라드 시장과 일요일 알다밥 지역에 대한 공습으로 여성과 어린이를 포함한 민간인 수십 명이 숨졌다고 해당 단체는 밝혔다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "BBC는 Sudan War Observatory가 일요일 저녁 서코르도판 두 지역에서 발생한 공습의 사망자를 약 150명으로 추산했다고 보도했다. 여기에는 장례식에 가던 사람들이 포함됐다. 이 설명은 AP가 별도로 보도한 하르툼 사건 및 이번 판의 다른 기사에서 다룬 아비에이 시장 공습과 구분된다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "사망자 수는 각 언론이 인용한 인권·감시단체의 추산이며 공격 장소도 서로 다르다. 현재 보도만으로 검증된 전체 사망자 수를 합산하거나 모든 공격의 책임 주체를 확정할 수 없다. 사건별 귀속과 연관성은 계속 확인이 필요하다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "보도는 수단에서 민간 지역을 겨냥한 드론 사용이 확대되고 있음을 보여주지만, 서로 다른 사건과 각 출처의 사망자 추산을 하나의 검증된 합계로 묶어서는 안 된다. 전쟁이 코르도판과 하르툼으로 번지는 가운데 장소·시점·출처별 책임 귀속을 구분하는 일이 중요하다.",
+      "editorNote": "하르툼과 서코르도판 보도를 아비에이 시장 공습과 구분했다. 사망자 추산과 책임은 AP와 BBC가 인용한 단체·출처의 주장으로 귀속했다.",
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/world/2026/oct/21/abyei-drone-strike-market-south-sudan-war-death-toll",
+          "source": "The Guardian",
+          "title": "Drone strike kills more than 150 at market in Sudanese war"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/97536d115acd1afb479d2c7ff6df580d",
+          "source": "Associated Press",
+          "title": "Sudan drone attacks kill 3 children in Khartoum, dozens of civilians in Kordofan",
+          "publishedAt": "2026-10-19"
+        },
+        {
+          "id": 2,
+          "url": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
+          "publishedAt": "2026-10-20"
+        }
+      ],
+      "tags": [
+        "Sudan",
+        "Khartoum",
+        "West Kordofan",
+        "drone warfare"
+      ],
+      "confidence": "medium"
     }
   ]
 }

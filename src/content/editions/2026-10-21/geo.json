@@ -4,7 +4,7 @@
   "vertical": "geo",
   "lang": "en",
   "title": "Geopolitics: Canadian unity and trade pressure",
-  "summary": "Alberta voters rejected a proposal that would have opened a path toward secession, while a US importer challenged the legal basis for Washington's 50% tariffs on Canadian goods. The two stories show domestic and trade pressures testing the Canada-US relationship. A later update adds the Abyei market drone strike and disputed accounts of casualties and responsibility. Later updates cover an attack on Australian lawmaker Helen Haines and Russia’s release of Stephen Hubbard. Later updates cover an attack on Australian lawmaker Helen Haines and Russia’s release of Stephen Hubbard.",
+  "summary": "Alberta voters rejected a proposal that would have opened a path toward secession, while a US importer challenged the legal basis for Washington's 50% tariffs on Canadian goods. The two stories show domestic and trade pressures testing the Canada-US relationship. A later update adds the Abyei market drone strike and disputed accounts of casualties and responsibility. Later updates cover an attack on Australian lawmaker Helen Haines and Russia’s release of Stephen Hubbard. Later updates cover an attack on Australian lawmaker Helen Haines and Russia’s release of Stephen Hubbard. The remaining candidates lacked independent second-outlet reporting. The BBC’s more-than-300 headline aggregates separate West Kordofan strikes and the Abyei attack; this edition keeps those incidents distinct and attributes their reported counts.",
   "stories": [
     {
       "slug": "alberta-voters-reject-secession-process",
@@ -288,6 +288,77 @@
         "diplomacy"
       ],
       "confidence": "high"
+    },
+    {
+      "slug": "sudan-drone-strikes-khartoum-west-kordofan",
+      "headline": "Sudan drone attacks kill 3 children in Khartoum, dozens of civilians in Kordofan",
+      "dek": "Reports describe separate attacks in Khartoum and West Kordofan, with differing casualty accounts and disputed attribution.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "A rights group told AP that a drone strike in Khartoum killed three children; it blamed the Rapid Support Forces.",
+        "AP reported separate Sudanese military strikes in West Kordofan, while BBC cited a monitor’s estimate of about 150 deaths in two attacks there.",
+        "The reported events span different sites and days; exact totals and responsibility remain attributed claims, not independently established findings."
+      ],
+      "body": [
+        {
+          "text": "A drone incident near Khartoum’s airport killed three children, according to Emergency Lawyers, a rights group that tracks violence in Sudan, as reported by the Associated Press. A resident told AP he saw a drone near the airport before hearing an explosion.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "AP also reported separate attacks in West Kordofan: a strike on a market in al-Muglad on Saturday and another in the Al-Dabab area on Sunday. The group said dozens of civilians, including women and children, were killed.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "BBC reported that the Sudan War Observatory put the toll from strikes in two West Kordofan areas on Sunday evening at about 150, including people travelling to a funeral. That broader account is distinct from AP’s separate Khartoum report and from the Abyei market strike covered elsewhere in this edition.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "The casualty figures come from rights and monitoring groups cited by the outlets, and the attacks occurred across different locations. The available reports do not establish one verified aggregate toll or resolve responsibility for every strike; attribution and the relationship among individual attacks remain under investigation.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The reports point to expanding drone use against civilian areas in Sudan, but different incidents and attributed casualty estimates should not be collapsed into one verified total. Distinguishing location, timing and source attribution is essential as the war spreads across Kordofan and Khartoum.",
+      "editorNote": "Keeps the Khartoum and West Kordofan reports separate from the Abyei market strike. Casualty estimates and responsibility are attributed to the groups and sources cited by AP and BBC.",
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/world/2026/oct/21/abyei-drone-strike-market-south-sudan-war-death-toll",
+          "source": "The Guardian",
+          "title": "Drone strike kills more than 150 at market in Sudanese war"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/97536d115acd1afb479d2c7ff6df580d",
+          "source": "Associated Press",
+          "title": "Sudan drone attacks kill 3 children in Khartoum, dozens of civilians in Kordofan",
+          "publishedAt": "2026-10-19"
+        },
+        {
+          "id": 2,
+          "url": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
+          "publishedAt": "2026-10-20"
+        }
+      ],
+      "tags": [
+        "Sudan",
+        "Khartoum",
+        "West Kordofan",
+        "drone warfare"
+      ],
+      "confidence": "medium"
     }
   ]
 }
