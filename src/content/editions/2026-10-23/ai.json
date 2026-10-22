@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-22T22:06:44.340Z",
+  "vertical": "ai",
+  "lang": "en",
+  "title": "AI: Research agents",
+  "summary": "One independently reported research development qualified: OpenAI, PerturbAI, and Scripps described an agent-assisted analysis of a large mouse-brain dataset. Other launches and demos lacked independent follow-up coverage; the OpenAI-Google Cloud agreement was already covered in the Oct. 22 edition.",
+  "stories": [
+    {
+      "slug": "openai-perturbai-biological-research-agents",
+      "headline": "Using thousands of AI agents to uncover new leads in biological data",
+      "dek": "OpenAI, PerturbAI, and Scripps Research described a parallel analysis of mouse-brain cell data that generated hypotheses for follow-up experiments.",
+      "type": "DEEP",
+      "readMinutes": 5,
+      "tldr": [
+        "OpenAI, PerturbAI, and Scripps Research said thousands of GPT-Rosalind agents analyzed experimental data from millions of mouse brain cells in 32 minutes.",
+        "The system connected gene disruptions, cellular responses, and scientific literature to produce a reasoning atlas with candidate biological mechanisms.",
+        "The reported output is a set of research leads that still require experiments; it is not evidence that the proposed mechanisms or treatments are established."
+      ],
+      "body": [
+        {
+          "text": "OpenAI described a collaboration with PerturbAI and Scripps Research in which thousands of GPT-Rosalind agents analyzed existing experimental data from millions of mouse brain cells. The teams said the parallel analysis and synthesis took 32 minutes. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The agents examined gene disruptions, cellular responses, and scientific literature, then combined their reports into a reasoning atlas linking genes, cell effects, publications, and possible mechanisms. The partner announcement describes the dataset as an 8-million-cell, whole-brain CRISPR atlas. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The teams reported that the system reproduced findings from human analyses and surfaced additional leads, including a possible connection involving cholesterol regulation and neurodegeneration. They also said blinded human experts’ assessments of novelty and scientific value aligned with the agents’ evaluations. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "These are hypotheses drawn from existing data and literature, not demonstrated treatment effects or validated disease mechanisms. The researchers said follow-up experiments are needed to test the proposed connections, so the clinical relevance and reproducibility of the leads remain unresolved. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The case shows how agent systems may help researchers search large experimental datasets and prioritize hypotheses. Its practical value depends on whether the proposed links survive experimental follow-up, which the announcement does not yet establish.",
+      "editorNote": "OpenAI and PerturbAI announcements agree on the workflow and 32-minute analysis. Treated findings as hypotheses pending experiments.",
+      "cluster": [
+        {
+          "url": "https://firstwordpharma.com/story/8251747",
+          "source": "FirstWord Pharma",
+          "title": "PerturbAI, OpenAI mine brain CRISPR data for drug discovery leads"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
+          "source": "OpenAI",
+          "title": "Using thousands of AI agents to uncover new leads in biological data",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 2,
+          "url": "https://firstwordpharma.com/story/8251747",
+          "source": "FirstWord Pharma",
+          "title": "PerturbAI, OpenAI mine brain CRISPR data for drug discovery leads",
+          "publishedAt": "2026-10-21"
+        }
+      ],
+      "tags": [
+        "AI research",
+        "biotechnology",
+        "agents"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-22T22:06:44.340Z",
+  "vertical": "bio",
+  "lang": "en",
+  "title": "Bio: Detailed melanoma vaccine results",
+  "summary": "One multi-outlet clinical development qualified: detailed Phase 3 results for Moderna and Merck’s investigational melanoma vaccine combination. CAR-T, peptide therapeutics, NAC, and NAD+ candidates in the collection were papers or registry records without independent outlet coverage of a clinical or regulatory development.",
+  "stories": [
+    {
+      "slug": "moderna-merck-intismeran-melanoma-phase-3-results",
+      "headline": "A novel mRNA cancer vaccine helps reduce the chances of melanoma patients' tumors returning",
+      "dek": "Detailed Phase 3 results for intismeran autogene plus pembrolizumab showed reductions in recurrence and distant metastasis endpoints versus pembrolizumab alone.",
+      "type": "DEEP",
+      "readMinutes": 5,
+      "tldr": [
+        "Moderna and Merck reported detailed INTerpath-001 results for intismeran autogene combined with pembrolizumab in patients with resected stage IIB-IV melanoma.",
+        "The companies reported a 42% reduction in recurrence or death risk and a 38% reduction in distant metastasis or death risk compared with pembrolizumab alone.",
+        "Overall survival and regulatory review remain open, and the findings do not establish an approval decision or a treatment recommendation."
+      ],
+      "body": [
+        {
+          "text": "Moderna and Merck released detailed results from INTerpath-001, a Phase 3 study of intismeran autogene, an individualized mRNA-based therapy, given with pembrolizumab after surgery for stage IIB-IV melanoma. The comparison group received pembrolizumab alone. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The trial enrolled more than 1,100 patients, and the companies had previously announced that it met its recurrence-free survival and distant metastasis-free survival endpoints. The newly reported results supplied the numerical detail ahead of a planned presentation at the European Society for Medical Oncology meeting. [1][2][3]",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "The reported combination reduced the risk of recurrence or death by 42% and the risk of distant metastasis or death by 38% versus pembrolizumab alone. Reuters reported that the analysis covered the first two years after treatment; AP also reported that the combination was tested as an addition to standard follow-up immunotherapy. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The reported endpoints do not resolve overall survival, longer-term outcomes, or the eventual regulatory decision. These results concern a specific post-surgical melanoma population and investigational combination; further follow-up and regulator review remain necessary. [1][3]",
+          "citations": [
+            1,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "The detailed readout moves the program beyond a topline announcement by quantifying recurrence and distant-metastasis outcomes in a late-stage trial. Whether those endpoint gains translate into longer survival, broader use, or regulatory approval remains unsettled.",
+      "editorNote": "Results cross-checked across AP, Reuters, and STAT. No clinical advice; overall survival and regulatory status remain open.",
+      "cluster": [
+        {
+          "url": "https://www.statnews.com/2026/10/22/esmo-moderna-merck-cancer-vaccine-intismeran-data-released/?utm_campaign=rss",
+          "source": "STAT",
+          "title": "Detailed data confirm Moderna and Merck cancer vaccine met key endpoints in melanoma trial"
+        },
+        {
+          "url": "https://d2233.cms.socastsrm.com/2026/10/22/merck-moderna-cancer-vaccine-cuts-risk-of-death-or-recurrence-from-melanoma-by-over-40/",
+          "source": "Reuters",
+          "title": "Merck/Moderna cancer vaccine cuts risk of death or recurrence from melanoma by over 40%"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/415ececd79c9411498751246742aafa2",
+          "source": "Associated Press",
+          "title": "A novel mRNA cancer vaccine helps reduce the chances of melanoma patients' tumors returning",
+          "publishedAt": "2026-10-22"
+        },
+        {
+          "id": 2,
+          "url": "https://d2233.cms.socastsrm.com/2026/10/22/merck-moderna-cancer-vaccine-cuts-risk-of-death-or-recurrence-from-melanoma-by-over-40/",
+          "source": "Reuters",
+          "title": "Merck/Moderna cancer vaccine cuts risk of death or recurrence from melanoma by over 40%",
+          "publishedAt": "2026-10-22"
+        },
+        {
+          "id": 3,
+          "url": "https://www.statnews.com/2026/10/22/esmo-moderna-merck-cancer-vaccine-intismeran-data-released/?utm_campaign=rss",
+          "source": "STAT",
+          "title": "Detailed data confirm Moderna and Merck cancer vaccine met key endpoints in melanoma trial",
+          "publishedAt": "2026-10-22"
+        }
+      ],
+      "tags": [
+        "melanoma",
+        "mRNA",
+        "Phase 3",
+        "Moderna",
+        "Merck"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

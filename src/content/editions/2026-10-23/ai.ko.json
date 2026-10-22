@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-22T22:06:44.340Z",
+  "vertical": "ai",
+  "lang": "ko",
+  "title": "AI: 연구 에이전트",
+  "summary": "독립 보도가 확인된 연구 개발 한 건을 실었습니다. OpenAI, PerturbAI, Scripps는 대규모 생쥐 뇌 데이터 분석에 에이전트를 활용했다고 밝혔습니다. 다른 출시와 시연은 독립적인 후속 보도가 확인되지 않았고, OpenAI-Google Cloud 소식은 10월 22일 판에 이미 실렸습니다.",
+  "stories": [
+    {
+      "slug": "openai-perturbai-biological-research-agents-ko",
+      "headline": "수천 개의 AI 에이전트로 생물학 데이터에서 새로운 연구 단서 찾기",
+      "dek": "OpenAI, PerturbAI, Scripps Research는 생쥐 뇌 세포 데이터의 병렬 분석으로 후속 실험이 필요한 가설을 만들었다고 밝혔습니다.",
+      "type": "DEEP",
+      "readMinutes": 5,
+      "tldr": [
+        "OpenAI, PerturbAI, Scripps Research는 GPT-Rosalind 기반 에이전트 수천 개가 수백만 개 생쥐 뇌 세포의 실험 데이터를 32 minutes 동안 분석했다고 밝혔습니다.",
+        "시스템은 유전자 교란, 세포 반응, 과학 문헌을 연결해 후보 생물학적 기전을 담은 추론 지도를 만들었습니다.",
+        "보고된 결과는 후속 실험이 필요한 연구 단서이며, 제안된 기전이나 치료 효과가 확립됐다는 증거는 아닙니다."
+      ],
+      "body": [
+        {
+          "text": "OpenAI는 PerturbAI, Scripps Research와 협력해 GPT-Rosalind 기반 에이전트 수천 개로 수백만 개 생쥐 뇌 세포의 기존 실험 데이터를 분석했다고 설명했습니다. 양측은 병렬 분석과 종합에 32 minutes가 걸렸다고 밝혔습니다. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "에이전트들은 유전자 교란, 세포 반응, 과학 문헌을 살핀 뒤 유전자와 세포 효과, 관련 논문, 가능한 기전을 연결하는 추론 지도로 결과를 통합했습니다. 파트너 발표는 데이터셋을 뇌 전체를 다룬 8-million-cell CRISPR 지도라고 설명합니다. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "양측은 시스템이 인간 연구자의 분석 결과를 재현하면서 추가 단서도 찾았다고 보고했습니다. 여기에는 콜레스테롤 조절과 신경퇴행 사이의 가능한 연관성이 포함됐으며, 블라인드 평가를 맡은 전문가들의 새로움·과학적 가치 판단도 에이전트 평가와 일치했다고 밝혔습니다. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이는 기존 데이터와 문헌에서 도출한 가설이지, 치료 효과나 질병 기전이 입증됐다는 뜻은 아닙니다. 연구진은 제안된 연결을 검증하려면 후속 실험이 필요하다고 밝혔으며, 임상적 관련성과 재현성은 아직 확인되지 않았습니다. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 사례는 에이전트 시스템이 대규모 실험 데이터를 탐색하고 가설의 우선순위를 정하는 데 도움을 줄 가능성을 보여줍니다. 실제 가치는 제안된 연결이 후속 실험에서도 확인되는지에 달려 있으며, 현재 발표만으로는 입증되지 않았습니다.",
+      "editorNote": "OpenAI와 PerturbAI 발표에서 작업 방식과 32분 분석 시간이 일치합니다. 실험 전 단계의 가설로 다뤘습니다.",
+      "cluster": [
+        {
+          "url": "https://firstwordpharma.com/story/8251747",
+          "source": "FirstWord Pharma",
+          "title": "PerturbAI, OpenAI mine brain CRISPR data for drug discovery leads"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
+          "source": "OpenAI",
+          "title": "Using thousands of AI agents to uncover new leads in biological data",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 2,
+          "url": "https://firstwordpharma.com/story/8251747",
+          "source": "FirstWord Pharma",
+          "title": "PerturbAI, OpenAI mine brain CRISPR data for drug discovery leads",
+          "publishedAt": "2026-10-21"
+        }
+      ],
+      "tags": [
+        "AI research",
+        "biotechnology",
+        "agents"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

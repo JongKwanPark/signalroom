@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-22T22:06:44.340Z",
+  "vertical": "bio",
+  "lang": "ko",
+  "title": "Bio: 흑색종 백신의 상세 임상 결과",
+  "summary": "다중 매체가 확인한 임상 소식 한 건을 실었습니다. Moderna와 Merck의 시험용 흑색종 백신 병용요법에서 3상 상세 결과가 나왔습니다. 수집된 CAR-T·펩타이드·NAC·NAD+ 후보는 임상·규제 진전의 독립 보도가 아니라 논문 또는 등록 자료에 그쳤습니다.",
+  "stories": [
+    {
+      "slug": "moderna-merck-intismeran-melanoma-phase-3-results-ko",
+      "headline": "새로운 mRNA 암 백신, 흑색종 환자의 종양 재발 가능성을 낮춰",
+      "dek": "Pembrolizumab과 병용한 intismeran autogene의 3상 상세 결과에서 단독 pembrolizumab 대비 재발과 원격 전이 관련 평가변수가 개선됐습니다.",
+      "type": "DEEP",
+      "readMinutes": 5,
+      "tldr": [
+        "Moderna와 Merck는 절제 수술을 받은 stage IIB-IV 흑색종 환자를 대상으로 intismeran autogene 병용요법을 평가한 INTerpath-001 상세 결과를 발표했습니다.",
+        "양사는 pembrolizumab 단독 투여와 비교해 재발 또는 사망 위험이 42%, 원격 전이 또는 사망 위험이 38% 감소했다고 보고했습니다.",
+        "전체 생존과 규제 심사는 아직 미해결이며, 이번 결과만으로 승인 여부나 치료 권고가 확정되지는 않습니다."
+      ],
+      "body": [
+        {
+          "text": "Moderna와 Merck는 수술 후 stage IIB-IV 흑색종 환자에게 개별화 mRNA 치료제 intismeran autogene을 pembrolizumab과 함께 투여한 INTerpath-001 3상 시험의 상세 결과를 공개했습니다. 비교군은 pembrolizumab만 투여받았습니다. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "시험에는 1,100명이 넘는 환자가 참여했으며, 회사들은 앞서 재발 없는 생존과 원격 전이 없는 생존 평가변수를 충족했다고 발표했습니다. 이번 공개로 수치가 구체화됐고, 결과는 ESMO 학회에서 발표될 예정이었습니다. [1][2][3]",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "보고된 결과에 따르면 병용요법은 pembrolizumab 단독 대비 재발 또는 사망 위험을 42%, 원격 전이 또는 사망 위험을 38% 낮췄습니다. Reuters는 분석이 치료 후 첫 2년간의 환자 데이터를 다뤘다고 보도했고, AP는 표준 면역요법에 병용한 시험이라고 설명했습니다. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이번 평가변수 결과만으로 전체 생존이나 장기 결과, 최종 규제 결정을 알 수는 없습니다. 보도된 결과는 수술 후 특정 흑색종 환자군과 시험용 병용요법에 관한 것으로, 추가 추적 관찰과 규제 심사가 남아 있습니다. [1][3]",
+          "citations": [
+            1,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "상세 결과가 공개되면서 이 프로그램은 초기 성공 발표를 넘어 후기 임상시험의 재발·원격 전이 수치를 제시했습니다. 이 평가변수의 개선이 생존 기간 연장이나 더 넓은 사용, 규제 승인으로 이어질지는 아직 정해지지 않았습니다.",
+      "editorNote": "AP, Reuters, STAT 보도를 대조했습니다. 임상 조언은 배제하고 전체 생존과 규제 상태가 미확정임을 밝혔습니다.",
+      "cluster": [
+        {
+          "url": "https://www.statnews.com/2026/10/22/esmo-moderna-merck-cancer-vaccine-intismeran-data-released/?utm_campaign=rss",
+          "source": "STAT",
+          "title": "Detailed data confirm Moderna and Merck cancer vaccine met key endpoints in melanoma trial"
+        },
+        {
+          "url": "https://d2233.cms.socastsrm.com/2026/10/22/merck-moderna-cancer-vaccine-cuts-risk-of-death-or-recurrence-from-melanoma-by-over-40/",
+          "source": "Reuters",
+          "title": "Merck/Moderna cancer vaccine cuts risk of death or recurrence from melanoma by over 40%"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/415ececd79c9411498751246742aafa2",
+          "source": "Associated Press",
+          "title": "A novel mRNA cancer vaccine helps reduce the chances of melanoma patients’ tumors returning",
+          "publishedAt": "2026-10-22"
+        },
+        {
+          "id": 2,
+          "url": "https://d2233.cms.socastsrm.com/2026/10/22/merck-moderna-cancer-vaccine-cuts-risk-of-death-or-recurrence-from-melanoma-by-over-40/",
+          "source": "Reuters",
+          "title": "Merck/Moderna cancer vaccine cuts risk of death or recurrence from melanoma by over 40%",
+          "publishedAt": "2026-10-22"
+        },
+        {
+          "id": 3,
+          "url": "https://www.statnews.com/2026/10/22/esmo-moderna-merck-cancer-vaccine-intismeran-data-released/?utm_campaign=rss",
+          "source": "STAT",
+          "title": "Detailed data confirm Moderna and Merck cancer vaccine met key endpoints in melanoma trial",
+          "publishedAt": "2026-10-22"
+        }
+      ],
+      "tags": [
+        "melanoma",
+        "mRNA",
+        "Phase 3",
+        "Moderna",
+        "Merck"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

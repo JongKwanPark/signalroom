@@ -1,0 +1,182 @@
+{
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-22T22:06:44.340Z",
+  "vertical": "geo",
+  "lang": "en",
+  "title": "Geopolitics: Court pressure and Korean border signaling",
+  "summary": "Two developments had independent coverage: a U.S. court set a deposition deadline in Trump’s BBC lawsuit, and North Korea said it would reactivate border loudspeakers. Other collected items lacked a second independent outlet or did not clear the editorial relevance threshold.",
+  "stories": [
+    {
+      "slug": "trump-bbc-lawsuit-deposition-deadline",
+      "headline": "Trump ordered to answer questions under oath in BBC lawsuit",
+      "dek": "A U.S. magistrate judge ordered Trump to sit for a deposition by Dec. 11 in his defamation case against the BBC.",
+      "type": "BRIEF",
+      "readMinutes": 4,
+      "tldr": [
+        "A U.S. magistrate judge ordered Donald Trump to sit for a deposition by Dec. 11 in his $10 billion defamation lawsuit against the BBC.",
+        "The case concerns a BBC documentary that edited together portions of Trump’s Jan. 6, 2021 speech; the broadcaster acknowledged the edits were misleading but denies defamation liability.",
+        "The judge also ordered the Justice Department to respond by Nov. 2 about whether former special counsel Jack Smith may testify."
+      ],
+      "body": [
+        {
+          "text": "U.S. Magistrate Judge Enjoliqué Lett ordered Donald Trump to answer questions under oath by Dec. 11 in his $10 billion defamation lawsuit against the BBC. The order followed the BBC’s complaint that Trump had delayed a deposition during the discovery period. [1][2][3]",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "The lawsuit concerns a BBC documentary that spliced together separate parts of Trump’s Jan. 6, 2021 speech. The BBC has acknowledged that the edits were misleading, while denying that it is liable for defamation. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The judge warned that failure to comply could lead to sanctions, including dismissal of the lawsuit, unless the presiding judge changes the schedule. Discovery is scheduled to end on Dec. 18, leaving the deposition deadline before that cutoff. [1][3]",
+          "citations": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "The court separately directed the Justice Department to respond by Nov. 2 to Jack Smith’s request for permission to testify. Whether Smith will be allowed to give evidence remains unresolved, as does the lawsuit’s eventual outcome. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The case brings a sitting president’s media-defamation suit into formal discovery, with a court-imposed deadline and potential dismissal consequences. The order advances procedure but does not decide the merits of Trump’s claim or the BBC’s defenses.",
+      "editorNote": "BBC report cross-checked against AP and Axios. Distinguishes the deposition order from the unresolved merits and Smith testimony question.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/0a26fa60b265f55a9bcf7ed88cfacab8",
+          "source": "Associated Press",
+          "title": "Judge orders Trump to sit for a deposition in his defamation lawsuit against the BBC by Dec. 11"
+        },
+        {
+          "url": "https://www.axios.com/2026/10/22/trump-bbc-lawsuit-december-deposition-deadline",
+          "source": "Axios",
+          "title": "Trump ordered to sit for deposition in $10 billion BBC lawsuit"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Trump ordered to answer questions under oath in BBC lawsuit",
+          "publishedAt": "2026-10-22T17:14:04Z"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/0a26fa60b265f55a9bcf7ed88cfacab8",
+          "source": "Associated Press",
+          "title": "Judge orders Trump to sit for a deposition in his defamation lawsuit against the BBC by Dec. 11",
+          "publishedAt": "2026-10-22"
+        },
+        {
+          "id": 3,
+          "url": "https://www.axios.com/2026/10/22/trump-bbc-lawsuit-december-deposition-deadline",
+          "source": "Axios",
+          "title": "Trump ordered to sit for deposition in $10 billion BBC lawsuit",
+          "publishedAt": "2026-10-22"
+        }
+      ],
+      "tags": [
+        "United States",
+        "media",
+        "courts"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "north-korea-border-propaganda-loudspeakers",
+      "headline": "North Korea prepares to restart propaganda loudspeakers as ties sour with South",
+      "dek": "Kim Yo Jong said the loudspeakers would be placed in operation along the border by the end of October, amid rising tensions after mine blasts injured South Korean soldiers.",
+      "type": "BRIEF",
+      "readMinutes": 4,
+      "tldr": [
+        "Kim Yo Jong said North Korea would reactivate propaganda loudspeakers along the border with South Korea by the end of October.",
+        "The announcement followed land-mine blasts that injured three South Korean front-line soldiers and a renewed exchange of accusations between the two governments.",
+        "The planned broadcasts signal a return to psychological pressure, but the sources do not confirm that the loudspeakers have yet been activated."
+      ],
+      "body": [
+        {
+          "text": "North Korea said it plans to reactivate propaganda loudspeakers along the entire border with South Korea by the end of October. Kim Yo Jong, the North Korean leader’s sister, described the move as a response to South Korean measures, according to state media and reporting by the Guardian and Reuters. [1][2][3]",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "The announcement came after land-mine blasts injured three South Korean front-line soldiers, prompting renewed accusations between the two governments. South Korea has attributed the mines to the North, while Pyongyang has framed its response as defensive. [2][3]",
+          "citations": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "The two Koreas have used loudspeaker broadcasts as psychological warfare, with messages and music transmitted across the border. Their use has been periodically suspended and resumed as relations shifted, making the announcement a visible signal of worsening ties. [1][3]",
+          "citations": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "The reports describe a stated plan and timeline, not confirmed activation along the border. The extent of deployment and any South Korean response remain open. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The planned broadcasts add a public and operational signal to a tense border dispute already involving recent mine injuries. Whether the move becomes a sustained campaign or triggers a reciprocal step is not yet known.",
+      "editorNote": "Guardian headline retained verbatim; claims cross-checked against Reuters and AP. Planned activation is not reported as completed.",
+      "cluster": [
+        {
+          "url": "https://theprint.in/world/north-korea-to-activate-anti-south-loudspeakers-along-border/3077831/",
+          "source": "Reuters",
+          "title": "North Korea to activate anti-South loudspeakers along border"
+        },
+        {
+          "url": "https://apnews.com/article/8c8d7f87b20c4be0859e5206044b1813",
+          "source": "Associated Press",
+          "title": "North Korea says it will resume propaganda broadcasts across border into South Korea"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.theguardian.com/world/2026/oct/22/north-korea-to-restart-propaganda-loudspeakers-south-korea",
+          "source": "The Guardian",
+          "title": "North Korea prepares to restart propaganda loudspeakers as ties sour with South",
+          "publishedAt": "2026-10-22T03:56:46Z"
+        },
+        {
+          "id": 2,
+          "url": "https://theprint.in/world/north-korea-to-activate-anti-south-loudspeakers-along-border/3077831/",
+          "source": "Reuters",
+          "title": "North Korea to activate anti-South loudspeakers along border",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 3,
+          "url": "https://apnews.com/article/8c8d7f87b20c4be0859e5206044b1813",
+          "source": "Associated Press",
+          "title": "North Korea says it will resume propaganda broadcasts across border into South Korea",
+          "publishedAt": "2026-10-21"
+        }
+      ],
+      "tags": [
+        "North Korea",
+        "South Korea",
+        "security"
+      ],
+      "confidence": "high"
+    }
+  ]
+}
