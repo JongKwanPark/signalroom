@@ -1,10 +1,10 @@
 {
   "date": "2026-10-22",
-  "generatedAt": "2026-10-21T22:04:34.793Z",
+  "generatedAt": "2026-10-22T10:07:44.074Z",
   "vertical": "geo",
   "lang": "en",
-  "title": "Geopolitics: Ukraine talks and Gambia reparations",
-  "summary": "Diplomatic signals around Ukraine remain tentative, while The Gambia received proceeds designated for victims of Yahya Jammeh’s rule.",
+  "title": "Geopolitics: Ukraine talks, Gambia reparations, Mexico and Gulf security",
+  "summary": "Today’s edition follows Ukraine talks, Gambia reparations, Mexico’s treason charge, a deadly Saudi airport attack and the U.S. order for non-emergency staff to leave Saudi Arabia.",
   "stories": [
     {
       "slug": "russia-agrees-resume-ukraine-talks",
@@ -256,6 +256,161 @@
         "security"
       ],
       "confidence": "medium"
+    },
+    {
+      "slug": "saudi-airport-attack-kills-two",
+      "headline": "Two killed in attack on airport in eastern Saudi Arabia, authorities say",
+      "dek": "Saudi authorities said two people were killed and eight injured at King Fahd International Airport in Dammam; responsibility has not been established.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "Saudi Arabia’s Civil Aviation Authority said an attack late Wednesday at King Fahd International Airport in Dammam killed two people and injured eight.",
+        "The victims were identified as a Saudi citizen and an Indian national living in the kingdom, while the airport sustained material damage and flights were diverted.",
+        "Authorities did not identify who carried out the attack, and the Houthis had not commented in the Associated Press report."
+      ],
+      "body": [
+        {
+          "text": "Saudi Arabia’s Civil Aviation Authority said two people were killed in an attack late Wednesday at King Fahd International Airport in Dammam, in the kingdom’s eastern region. BBC News and the Associated Press reported the incident; AP said the authority later confirmed the death toll had risen to two.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The authority identified the dead as a Saudi citizen and an Indian national living in Saudi Arabia. AP reported that eight other people were injured and that the airport sustained material damage.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Flights were diverted away from the airport, according to AP’s account of information from flight-tracking service Flightradar24. The airport is near the Persian Gulf coast, close to Bahrain and Qatar.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Saudi authorities did not say who was responsible or provide further details about the attack, AP reported. The Houthis had issued no statement at the time of that report, leaving attribution unresolved.",
+          "citations": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "The attack adds pressure to security around Saudi aviation and the wider Gulf at a time of repeated strikes on the kingdom’s airports and infrastructure. Responsibility for this incident remains unconfirmed in the cited reporting, so attribution should not be inferred from the broader regional context.",
+      "editorNote": "Added in the 19:00 KST same-date merge. The initial one-death AP report was superseded by the same outlet’s later update confirming two deaths; the story reflects the updated figure.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/mideast-yemen-saudi-israel-october-22-2026-dde5b98a8bf961224514994b02babce9",
+          "source": "Associated Press",
+          "title": "7 tankers on fire or damaged in Strait of Hormuz, Iran says"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Two killed in attack on airport in eastern Saudi Arabia, authorities say"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/mideast-yemen-saudi-israel-october-22-2026-dde5b98a8bf961224514994b02babce9",
+          "source": "Associated Press",
+          "title": "7 tankers on fire or damaged in Strait of Hormuz, Iran says",
+          "publishedAt": "2026-10-22"
+        },
+        {
+          "id": 2,
+          "url": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Two killed in attack on airport in eastern Saudi Arabia, authorities say",
+          "publishedAt": "2026-10-22"
+        }
+      ],
+      "tags": [
+        "Saudi Arabia",
+        "Gulf security",
+        "aviation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "us-orders-nonemergency-staff-out-of-saudi-arabia",
+      "headline": "US orders some diplomats to leave Saudi Arabia as fears of escalating Houthi attacks rise",
+      "dek": "The State Department ordered non-emergency U.S. government employees and family members to depart Saudi Arabia amid attacks on civilian targets.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "The U.S. State Department ordered non-emergency government employees and their family members to leave Saudi Arabia, according to the department and multiple reports.",
+        "Officials cited repeated Houthi attacks on civilian airports and other infrastructure, while the department’s public clarification applied the order to Saudi Arabia.",
+        "The move reflects a security drawdown as attacks continue, but the cited reports do not establish that U.S. forces will take military action."
+      ],
+      "body": [
+        {
+          "text": "The U.S. State Department ordered non-emergency government employees and their family members to leave Saudi Arabia, including personnel at the U.S. Embassy in Riyadh and satellite consulates, according to the department and Associated Press reporting.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "State Department spokesperson Tommy Pigott said the ordered departure applied to non-emergency U.S. government employees and their family members in Saudi Arabia. Reuters reported that the move followed Houthi attacks on civilian targets in the kingdom.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The department cited attacks on civilian airports and other critical infrastructure, including incidents that caused civilian casualties and travel disruption. AP described the order as coming after a series of deadly attacks and growing concern about escalation.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Reuters reported that officials had discussed family departures at other Gulf missions, but the public clarification specified Saudi Arabia only. The cited accounts describe a personnel security measure and do not establish a decision to launch U.S. military action.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The departure order is a formal U.S. response to worsening risks around Saudi civilian infrastructure and signals concern about personnel safety as Houthi attacks continue. It also illustrates the distinction between diplomatic risk reduction and any separate decision on military involvement.",
+      "editorNote": "Added in the 19:00 KST same-date merge. The order’s scope follows the State Department clarification quoted in Reuters and AP; no inference about planned U.S. military action is made.",
+      "cluster": [
+        {
+          "url": "https://www.aol.ca/articles/us-preparing-issue-ordered-departure-185740000.html",
+          "source": "Reuters",
+          "title": "US orders departure of diplomats from Saudi Arabia amid Houthi strikes"
+        },
+        {
+          "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/10/21/us-orders-departure-of-some-embassy-staff-and-families-from-saudi-arabia-amid-houthi-threat/",
+          "source": "CNN",
+          "title": "US orders departure of some embassy staff and families from Saudi Arabia amid Houthi threat"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.aol.ca/articles/us-preparing-issue-ordered-departure-185740000.html",
+          "source": "Reuters",
+          "title": "US orders departure of diplomats from Saudi Arabia amid Houthi strikes",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/fa9a4806bff404a23a16a8c209afbd2b",
+          "source": "Associated Press",
+          "title": "US orders some diplomats to leave Saudi Arabia as fears of escalating Houthi attacks rise",
+          "publishedAt": "2026-10-21"
+        }
+      ],
+      "tags": [
+        "United States",
+        "Saudi Arabia",
+        "Houthi",
+        "diplomacy"
+      ],
+      "confidence": "high"
     }
   ]
 }

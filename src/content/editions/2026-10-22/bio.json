@@ -1,10 +1,10 @@
 {
   "date": "2026-10-22",
-  "generatedAt": "2026-10-21T22:04:34.793Z",
+  "generatedAt": "2026-10-22T10:07:44.073Z",
   "vertical": "bio",
   "lang": "en",
-  "title": "Bio signals: a new hepatitis B option and uveitis trial results",
-  "summary": "Regulatory and clinical updates moved two programs forward, with treatment eligibility and confirmatory evidence still central.",
+  "title": "Bio signals: hepatitis B, uveitis, Ebola and coverage costs",
+  "summary": "Today’s edition covers a new hepatitis B treatment approval, Phase 3 uveitis results, Nigeria’s imported Ebola case and a reported 9% rise in workers’ family health coverage costs.",
   "stories": [
     {
       "slug": "fda-approves-hibsago-hepatitis-b",
@@ -176,6 +176,161 @@
         "clinical trials",
         "uveitis",
         "brepocitinib"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "nigeria-imported-ebola-bundibugyo-case",
+      "headline": "Nigeria confirms imported case of Ebola Bundibugyo virus disease",
+      "dek": "The WHO says a patient in Abuja tested positive after recent travel to Uganda; authorities identified 44 contacts and are tracing exposures.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "Nigeria confirmed one imported Ebola Bundibugyo virus disease case in Abuja, the fifth country to report the virus in the outbreak that began in the Democratic Republic of the Congo.",
+        "The WHO said the patient had recently travelled to Uganda, tested positive on October 20 and was receiving care in isolation; investigators were still tracing travel and exposure history.",
+        "Nigeria reported 44 contacts under monitoring, while Africa CDC called a regional meeting for October 28 as cases continued to be reported across several countries."
+      ],
+      "body": [
+        {
+          "text": "Nigeria confirmed one imported case of Ebola Bundibugyo virus disease in the Federal Capital Territory, according to the World Health Organization’s regional office. The WHO said the patient was a woman with recent travel to Uganda and that a laboratory test confirmed the virus on October 20.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The WHO reported that symptoms began on October 7, four days after the patient arrived in Nigeria, and that she sought care at a private Abuja facility on October 11. She was in isolation and receiving medical care; investigators were still establishing her likely infection source and reconstructing her travel and exposure history.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The Nigerian health ministry reported 44 contacts identified and monitored, and said infection-control measures were being intensified at the facility. The Associated Press reported that most contacts were health workers and that the patient’s spouse was also among them.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The WHO described Nigeria as the fifth country to detect the virus since the Democratic Republic of the Congo outbreak was declared on May 15. The Associated Press reported that Africa CDC invited health ministers to an extraordinary virtual meeting scheduled for October 28; the extent of onward transmission from the imported case remained under investigation.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The confirmed case expands the outbreak’s geographic footprint and places emphasis on case investigation, contact monitoring and coordination between national health authorities and regional agencies. The WHO said the source and exposure history were still under investigation, so the route and onward transmission risk were not yet fully established.",
+      "editorNote": "Added in the 19:00 KST same-date merge, using WHO reporting and independent Associated Press coverage. No clinical or prevention advice is included.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/africa-health-summit-ebola-nigeria-spread-c1329a2cad0a18dda4dff2e3adadb6ca",
+          "source": "Associated Press",
+          "title": "Africa CDC calls an Ebola crisis summit as Nigeria records its first case"
+        },
+        {
+          "url": "https://www.afro.who.int/countries/nigeria/news/nigeria-confirms-imported-case-ebola-bundibugyo-virus-disease?form=FUNKUKTZPCK",
+          "source": "WHO Regional Office for Africa",
+          "title": "Nigeria confirms imported case of Ebola Bundibugyo virus disease"
+        },
+        {
+          "url": "https://www.theguardian.com/world/2026/oct/21/nigeria-first-ebola-case-africa-outbreak-latest",
+          "source": "The Guardian",
+          "title": "Nigeria confirms Ebola case as outbreak spreads into western Africa"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.afro.who.int/countries/nigeria/news/nigeria-confirms-imported-case-ebola-bundibugyo-virus-disease?form=FUNKUKTZPCK",
+          "source": "WHO Regional Office for Africa",
+          "title": "Nigeria confirms imported case of Ebola Bundibugyo virus disease",
+          "publishedAt": "2026-10-20"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/africa-health-summit-ebola-nigeria-spread-c1329a2cad0a18dda4dff2e3adadb6ca",
+          "source": "Associated Press",
+          "title": "Africa CDC calls an Ebola crisis summit as Nigeria records its first case",
+          "publishedAt": "2026-10-21"
+        }
+      ],
+      "tags": [
+        "Ebola",
+        "public health",
+        "Africa"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "family-health-coverage-costs-rise-9-percent",
+      "headline": "Workers are paying 9% more for family health coverage this year, a higher jump than in the recent past",
+      "dek": "A KFF survey found the average worker contribution for family coverage rose to $7,471 in 2026.",
+      "type": "DATA",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "Workers’ average contribution toward employer family health coverage reached $7,471 in 2026, up 9% from 2025, according to KFF survey findings reported by STAT and Axios.",
+        "The annual survey covered more than 1,900 employers and found employers are responding with measures such as onsite clinics and direct negotiations with health systems.",
+        "The reported increase describes employer-sponsored coverage and does not represent every worker’s premium or other forms of insurance."
+      ],
+      "body": [
+        {
+          "text": "Workers paid an average of $7,471 toward family health coverage through employers in 2026, a 9% increase from 2025, according to the annual KFF employer survey reported by STAT and Axios. The reported increase was larger than in the recent past.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "KFF’s survey included more than 1,900 employers. STAT reported that the increase reflected higher family coverage costs for workers, while Axios described employers exploring ways to manage the expense.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Axios reported that some employers are establishing onsite clinics and negotiating directly with health systems. Those approaches were presented as employer responses to rising spending; the survey does not establish how broadly they are available or how much they reduce costs.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "The $7,471 figure is an average worker contribution for employer-sponsored family coverage, not a universal household bill. The reports do not imply that every employee faced the same increase or describe costs for individual-market, public or other coverage.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Employer health coverage is a major channel through which medical cost changes reach workers and businesses. The 9% figure signals a higher reported worker contribution in this survey, while its employer-sponsored scope limits how far it can be generalized to all insured households.",
+      "editorNote": "Added in the 19:00 KST same-date merge. Figures are attributed to KFF’s employer survey as reported by STAT and Axios; no health or insurance advice is offered.",
+      "cluster": [
+        {
+          "url": "https://www.axios.com/2026/10/22/workplace-coverage-health-cost-surge",
+          "source": "Axios",
+          "title": "Employers are looking for ways to soften health price shocks"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.statnews.com/2026/10/22/kff-2026-benefits-survey-9-percent-premium-increase/?utm_campaign=rss",
+          "source": "STAT",
+          "title": "Workers are paying 9% more for family health coverage this year, a higher jump than in the recent past",
+          "publishedAt": "2026-10-22"
+        },
+        {
+          "id": 2,
+          "url": "https://www.axios.com/2026/10/22/workplace-coverage-health-cost-surge",
+          "source": "Axios",
+          "title": "Employers are looking for ways to soften health price shocks",
+          "publishedAt": "2026-10-22"
+        }
+      ],
+      "tags": [
+        "healthcare costs",
+        "insurance",
+        "employers"
       ],
       "confidence": "medium"
     }

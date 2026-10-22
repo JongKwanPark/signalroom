@@ -1,10 +1,10 @@
 {
   "date": "2026-10-22",
-  "generatedAt": "2026-10-21T22:04:34.793Z",
+  "generatedAt": "2026-10-22T10:07:44.075Z",
   "vertical": "markets",
   "lang": "ko",
-  "title": "시장: Tesla 실적과 Meta의 250억 달러 판결",
-  "summary": "분기 실적과 대규모 개인정보 판결이 영업 성과와 법적 노출을 부각했다. 두 사안 모두 후속 절차가 남아 있다.",
+  "title": "시장: Tesla, Meta, Barclays, 노르웨이 국부펀드와 유가 위험",
+  "summary": "오늘 판은 Tesla 실적, 뉴멕시코주의 Meta 판결, SpaceX 실적, Barclays 감원, 노르웨이 국부펀드 손실, 호르무즈 해협 보도 속 유가 상승을 다룹니다.",
   "stories": [
     {
       "slug": "tesla-q3-2026-results-ko",
@@ -266,6 +266,248 @@
         "earnings"
       ],
       "confidence": "high"
+    },
+    {
+      "slug": "barclays-to-cut-5000-jobs-this-year-ko",
+      "headline": "Barclays, 올해 5,000명 감원 예정",
+      "dek": "은행은 AI를 포함한 기술을 고정비 절감 노력의 일부로 제시했습니다. 재무책임자는 이미 1,000명 감원이 완료됐다고 밝혔습니다.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "Barclays는 AI를 포함한 기술을 활용해 고정비를 줄이면서 2026년에 직원 약 5,000명, 전체 인력의 5%를 감원할 계획이라고 밝혔습니다.",
+        "재무책임자 Anna Cross는 1,000명 감원이 이미 이뤄졌고 4분기 말까지 4,000명이 추가로 줄어들 예정이라고 말했습니다.",
+        "회사는 이번 조치를 비용 절감 및 수익 개선 계획의 일부로 설명했으며, 보도에는 나머지 감원이 어느 직무나 사업 부문에 집중될지 나와 있지 않습니다."
+      ],
+      "body": [
+        {
+          "text": "Barclays는 고정비를 줄이고 수익을 개선하기 위해 AI를 포함한 기술을 활용하는 가운데 올해 약 5,000명, 전체 인력의 5%를 감원한다고 밝혔습니다. Reuters가 10월 22일 발표를 보도했고 CNBC도 감원 계획을 별도로 전했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "재무책임자 Anna Cross는 기자들에게 1,000명 감원이 이미 완료됐다고 말했습니다. Reuters에 따르면 Cross는 4분기 말까지 4,000명이 추가로 줄어들 예정이라고 밝혔습니다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "보도는 이번 감원을 AI를 포함한 기술 투자로 고정비를 낮추려는 Barclays의 계획과 연결합니다. 다만 줄어드는 모든 자리가 AI 시스템으로 대체된다거나 구체적으로 어느 팀이 영향을 받는다고 전하지는 않았습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "발표에는 계획된 감원의 규모와 일정이 제시됐지만 직무와 사업 부문별 배분은 공개되지 않았습니다. 인용한 보도는 전체 감원 가운데 AI에 직접 귀속되는 규모와 광범위한 기술·비용 조치의 몫도 수치로 나누지 않았습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 발표는 은행의 기술 중심 비용 절감 계획에 구체적인 인력 규모를 붙였지만, 회사의 설명은 모든 감원의 원인으로 AI만을 지목하지 않습니다. AI 투자가 고용 변화로 이어진다는 주장과 실제 감원 규모를 구분해 해석할 필요가 있습니다.",
+      "editorNote": "19시 KST 같은 날짜 판 병합에서 추가했습니다. 헤드라인은 Reuters 표현을 따랐고, 회사가 밝힌 기술 도입 배경과 전체 감원에서 AI가 차지하는 미공개 비중을 구분했습니다.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/22/barclays-ai-jobs-cuts.html",
+          "source": "CNBC",
+          "title": "Barclays to slash 5,000 jobs in AI efficiency push"
+        },
+        {
+          "url": "https://www.investing.com/news/economy-news/barclays-to-slash-5000-jobs-in-aipowered-costcutting-drive-4965189",
+          "source": "Investing.com",
+          "title": "Barclays to slash 5,000 jobs in AI-powered cost-cutting drive"
+        },
+        {
+          "url": "https://www.marketscreener.com/news/barclays-to-cut-5-000-jobs-this-year-ce785cd9d180f62c",
+          "source": "Reuters",
+          "title": "Barclays to cut 5,000 jobs this year"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.marketscreener.com/news/barclays-to-cut-5-000-jobs-this-year-ce785cd9d180f62c",
+          "source": "Reuters",
+          "title": "Barclays to cut 5,000 jobs this year",
+          "publishedAt": "2026-10-22"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/10/22/barclays-ai-jobs-cuts.html",
+          "source": "CNBC",
+          "title": "Barclays to slash 5,000 jobs in AI efficiency push",
+          "publishedAt": "2026-10-22"
+        }
+      ],
+      "tags": [
+        "Barclays",
+        "employment",
+        "AI",
+        "banking"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "norway-wealth-fund-third-quarter-loss-ko",
+      "headline": "노르웨이 국부펀드, 3분기 300억 달러 손실",
+      "dek": "2조 3,000억 달러 규모의 국부펀드는 금리 상승이 채권 투자에 부담을 줬다며 0.5% 마이너스 수익률을 보고했습니다.",
+      "type": "DATA",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "노르웨이 정부연기금 글로벌은 3분기 2,780억 노르웨이 크로네($29.71 billion)의 손실과 -0.5% 수익률을 보고했습니다.",
+        "Reuters가 인용한 펀드 발표에서 부최고경영자 Trond Grande는 금리 상승이 채권 투자 실적을 약화시켰다고 설명했습니다.",
+        "이번 분기 실적은 특정 기간의 손실이며 그 자체로 펀드의 장기 성과를 보여주지는 않습니다."
+      ],
+      "body": [
+        {
+          "text": "노르웨이 정부연기금 글로벌은 3분기 2,780억 노르웨이 크로네($29.71 billion)의 손실을 기록했고 글로벌 투자 수익률은 -0.5%였습니다. Reuters가 10월 22일 결과를 보도했고 CNBC도 분기 손실을 전했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "부최고경영자 Trond Grande는 금리 상승으로 채권 투자 실적이 약해져 수익률이 거의 보합이지만 소폭 마이너스였다고 말했습니다. Reuters가 펀드 발표를 인용해 보도했습니다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Reuters는 이 펀드의 규모를 약 $2.3 trillion으로 설명하고 세계 최대 국부펀드라고 전했습니다. 펀드는 노르웨이의 석유·가스 수입을 상장사와 다른 자산에 투자합니다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "이번 결과는 한 분기 동안의 수치이며 인용한 보도는 이를 전망으로 제시하지 않았습니다. 또한 이 손실만으로 장기 성과가 지속적으로 바뀌었다고 볼 수는 없습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 분기 손실은 금리 상승이 세계 최대 규모 공공 투자기금 가운데 하나, 특히 채권 투자에 미친 영향을 보여줍니다. 규모상 글로벌 자산 배분에 참고가 되지만 특정 분기 수익률을 장기 추세와 동일시해서는 안 됩니다.",
+      "editorNote": "19시 KST 같은 날짜 판 병합에서 추가했습니다. 세부 수치와 발언은 Reuters 보도에, 독립 보도 여부는 CNBC 보도에 근거합니다.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/22/norges-bank-nbim-wealth-fund-q3-results.html",
+          "source": "CNBC",
+          "title": "World’s largest wealth fund posts $30 billion loss after bond market turbulence"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.marketscreener.com/news/norway-s-wealth-fund-posts-30-billion-loss-in-third-quarter-ce785cd9d089f62c",
+          "source": "Reuters",
+          "title": "Norway’s wealth fund posts $30 billion loss in third quarter",
+          "publishedAt": "2026-10-22"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/10/22/norges-bank-nbim-wealth-fund-q3-results.html",
+          "source": "CNBC",
+          "title": "World’s largest wealth fund posts $30 billion loss after bond market turbulence",
+          "publishedAt": "2026-10-22"
+        }
+      ],
+      "tags": [
+        "Norway",
+        "sovereign wealth fund",
+        "fixed income"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "hormuz-reports-drive-brent-above-112-ko",
+      "headline": "유조선 피해 보도 뒤 국제 증시 하락…Brent유 상승",
+      "dek": "이란 국영TV가 호르무즈 해협 유조선 7척의 피해를 보도한 뒤 Brent유가 상승했습니다. 인용한 보도에서 선박별 피해는 독립적으로 확인되지 않았습니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Associated Press에 따르면 10월 22일 Brent유는 배럴당 $112.27로 3.2% 올랐고 세계 증시와 미국 주가지수 선물은 하락했습니다.",
+        "이란 국영TV는 호르무즈 해협에서 유조선 7척이 공격 또는 피해를 입었다고 보도했지만, AP는 이란 매체의 설명으로 귀속했고 각 사건을 독립적으로 확인하지 않았습니다.",
+        "Reuters와 CNBC도 중동 긴장과 사우디 기반시설 공격이 유가 우려를 키우고 있다고 별도로 보도했습니다."
+      ],
+      "body": [
+        {
+          "text": "이란 국영TV가 호르무즈 해협에서 유조선 7척이 공격 또는 피해를 입었다고 보도한 뒤 10월 22일 세계 증시와 미국 주가지수 선물이 하락하고 유가가 올랐습니다. Associated Press는 Brent유가 배럴당 $112.27로 3.2% 상승했다고 전했습니다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "선박 관련 설명은 이란 국영TV에서 나왔으며, 일부 유조선은 불이 났고 다른 선박은 기뢰에 부딪혀 손상됐다고 보도했습니다. AP는 각 선박의 피해를 독립적으로 확인하지 않았으므로 피해 규모는 이란 측 발표로 귀속됩니다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Reuters는 후티의 사우디 목표물 공격이 더 넓은 충돌과 공급 차질 우려를 키우며 유가가 상승했다고 별도로 보도했습니다. CNBC는 중동 긴장과 미국·이스라엘의 대이란 공격 검토 보도 속 Brent유가 $112를 넘었다고 전했습니다.",
+          "citations": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "보도들은 에너지 시장에서 빠르게 반영된 지정학적 위험을 다루지만, 유조선 피해의 전체 내용이나 장기적인 공급 손실 규모는 확정하지 않았습니다. 장중 가격 변화는 전망이 아니라 특정 시점의 시장 상황입니다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "호르무즈 해협은 주요 원유 수송로이므로 선박 피해 보도는 사실관계가 모두 확인되기 전에도 에너지 가격과 금융시장에 영향을 줄 수 있습니다. 보도된 피해와 확정된 공급 손실을 구분해야 가격 반응을 정확히 해석할 수 있습니다.",
+      "editorNote": "19시 KST 같은 날짜 판 병합에서 추가했습니다. 유조선 피해는 이란 국영TV 보도로 명확히 귀속했으며, 가격 수치는 각 출처의 시점에 맞췄습니다.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/22/oil-prices-today-wti-brent-saudi-arabia.html",
+          "source": "CNBC",
+          "title": "Brent crude tops $112 on Middle East worries as U.S., Israel reportedly weigh fresh Iran strikes"
+        },
+        {
+          "url": "https://www.aol.ca/articles/oil-rises-us-orders-diplomats-003606000.html",
+          "source": "Reuters",
+          "title": "Oil jumps $2 on escalating Middle East tension"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/33767691a4a0730b96d6f0c5100ea9b2",
+          "source": "Associated Press",
+          "title": "World shares retreat as report of damage to oil tankers pushes oil prices higher",
+          "publishedAt": "2026-10-22"
+        },
+        {
+          "id": 2,
+          "url": "https://www.aol.ca/articles/oil-rises-us-orders-diplomats-003606000.html",
+          "source": "Reuters",
+          "title": "Oil jumps $2 on escalating Middle East tension",
+          "publishedAt": "2026-10-22"
+        },
+        {
+          "id": 3,
+          "url": "https://www.cnbc.com/2026/10/22/oil-prices-today-wti-brent-saudi-arabia.html",
+          "source": "CNBC",
+          "title": "Brent crude tops $112 on Middle East worries as U.S., Israel reportedly weigh fresh Iran strikes",
+          "publishedAt": "2026-10-22"
+        }
+      ],
+      "tags": [
+        "oil",
+        "Brent",
+        "Strait of Hormuz",
+        "geopolitics"
+      ],
+      "confidence": "medium"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "date": "2026-10-22",
-  "generatedAt": "2026-10-21T22:04:34.793Z",
+  "generatedAt": "2026-10-22T10:07:44.074Z",
   "vertical": "geo",
   "lang": "ko",
-  "title": "지정학: 우크라이나 회담과 감비아 배상금",
-  "summary": "우크라이나 관련 외교 신호는 아직 유동적이며, 감비아는 야히야 자메 전 대통령 피해자 배상에 지정된 자금을 받았다.",
+  "title": "지정학: 우크라이나 회담, 감비아 배상, 멕시코와 걸프 안보",
+  "summary": "오늘 판은 우크라이나 회담, 감비아 배상, 멕시코의 반역 혐의 적용, 사우디 공항 공격과 미국의 사우디 비필수 인력 철수 명령을 다룹니다.",
   "stories": [
     {
       "slug": "russia-agrees-resume-ukraine-talks-ko",
@@ -256,6 +256,161 @@
         "security"
       ],
       "confidence": "medium"
+    },
+    {
+      "slug": "saudi-airport-attack-kills-two-ko",
+      "headline": "당국 “사우디 동부 공항 공격으로 2명 사망”",
+      "dek": "사우디 당국은 Dammam의 King Fahd 국제공항에서 2명이 숨지고 8명이 다쳤다고 밝혔습니다. 공격 주체는 확인되지 않았습니다.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "사우디 민간항공청은 수요일 늦게 Dammam의 King Fahd 국제공항에서 발생한 공격으로 2명이 숨지고 8명이 다쳤다고 밝혔습니다.",
+        "사망자는 사우디 시민과 현지 거주 인도 국적자로 확인됐으며, 공항 시설이 파손되고 항공편이 우회했습니다.",
+        "Associated Press 보도 당시 당국은 공격 주체를 밝히지 않았고 후티 반군도 입장을 내지 않았습니다."
+      ],
+      "body": [
+        {
+          "text": "사우디 민간항공청은 수요일 늦게 왕국 동부 Dammam의 King Fahd 국제공항에서 발생한 공격으로 2명이 숨졌다고 밝혔습니다. BBC News와 Associated Press가 사건을 보도했으며, AP는 당국이 이후 사망자가 2명으로 늘었다고 확인했다고 전했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "당국은 사망자를 사우디 시민과 사우디에 거주하던 인도 국적자로 확인했습니다. AP 보도에 따르면 다른 8명이 다쳤고 공항 시설도 물적 피해를 입었습니다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "AP는 항공편 추적 서비스 Flightradar24의 정보를 인용해 공항으로 향하던 항공편들이 우회했다고 전했습니다. 공항은 Bahrain과 Qatar 인근 페르시아만 연안에 있습니다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "AP에 따르면 사우디 당국은 공격 주체를 밝히지 않았고 사건에 관한 추가 세부사항도 공개하지 않았습니다. 보도 당시 후티 반군도 입장을 내지 않아 공격 책임은 확인되지 않았습니다.",
+          "citations": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "이번 공격은 사우디 공항과 기반시설을 겨냥한 공격이 이어지는 가운데 왕국 항공 및 걸프 지역의 안보 부담을 키웁니다. 인용한 보도에서 이번 사건의 책임 주체는 확인되지 않았으므로, 주변 정세만으로 공격 주체를 단정할 수 없습니다.",
+      "editorNote": "19시 KST 같은 날짜 판 병합에서 추가했습니다. AP의 초기 1명 사망 보도는 같은 매체의 후속 기사에서 사망자 2명으로 갱신됐으며, 본문은 갱신된 수치를 반영합니다.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/mideast-yemen-saudi-israel-october-22-2026-dde5b98a8bf961224514994b02babce9",
+          "source": "Associated Press",
+          "title": "7 tankers on fire or damaged in Strait of Hormuz, Iran says"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Two killed in attack on airport in eastern Saudi Arabia, authorities say"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/mideast-yemen-saudi-israel-october-22-2026-dde5b98a8bf961224514994b02babce9",
+          "source": "Associated Press",
+          "title": "7 tankers on fire or damaged in Strait of Hormuz, Iran says",
+          "publishedAt": "2026-10-22"
+        },
+        {
+          "id": 2,
+          "url": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "title": "Two killed in attack on airport in eastern Saudi Arabia, authorities say",
+          "publishedAt": "2026-10-22"
+        }
+      ],
+      "tags": [
+        "Saudi Arabia",
+        "Gulf security",
+        "aviation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "us-orders-nonemergency-staff-out-of-saudi-arabia-ko",
+      "headline": "미국, 사우디 내 일부 외교 인력 철수 명령…후티 공격 우려 확대",
+      "dek": "미 국무부는 민간 시설 공격이 이어지는 가운데 비필수 정부 직원과 가족에게 사우디를 떠나도록 명령했습니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "미 국무부는 비필수 정부 직원과 가족에게 사우디를 떠나라고 명령했다고 국무부와 복수 매체가 보도했습니다.",
+        "당국은 후티의 민간 공항 및 기반시설 공격이 반복됐다고 설명했으며, 국무부의 공개 정정 내용상 명령은 사우디에 적용됩니다.",
+        "이번 조치는 공격이 이어지는 가운데 나온 인력 안전 조치지만, 인용한 보도는 미군의 군사 행동 여부를 확정하지 않습니다."
+      ],
+      "body": [
+        {
+          "text": "미 국무부는 리야드 주재 미국 대사관과 위성 영사관 직원을 포함해 비필수 정부 직원과 가족에게 사우디를 떠나라고 명령했다고 국무부와 Associated Press가 보도했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "국무부 대변인 Tommy Pigott는 철수 명령이 사우디 내 비필수 미국 정부 직원과 가족에게 적용된다고 밝혔습니다. Reuters는 이번 조치가 사우디 민간 시설을 겨냥한 후티 공격 뒤에 나왔다고 전했습니다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "국무부는 민간 공항과 주요 기반시설 공격을 근거로 들었으며, 일부 사건에서는 민간인 사상자와 이동 차질이 발생했습니다. AP는 일련의 치명적 공격과 긴장 고조 우려 이후 내려진 명령이라고 설명했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Reuters는 다른 걸프 지역 공관의 가족 철수 가능성이 논의됐다고 보도했지만, 공개된 정정 내용은 사우디만을 명시했습니다. 인용한 보도는 외교 인력의 안전 조치를 다루며 미국의 군사 행동 결정까지 확인하지는 않습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "철수 명령은 사우디 민간 기반시설을 둘러싼 위험이 커지는 가운데 미국이 인력 안전을 공식 조치로 다뤘음을 보여줍니다. 이는 외교 인력의 위험을 줄이는 조치와 별도의 군사 개입 결정이 서로 다르다는 점도 드러냅니다.",
+      "editorNote": "19시 KST 같은 날짜 판 병합에서 추가했습니다. Reuters와 AP에 인용된 국무부 정정 내용에 따라 명령 범위를 사우디로 한정했으며, 미국의 군사 행동 계획을 추론하지 않았습니다.",
+      "cluster": [
+        {
+          "url": "https://www.aol.ca/articles/us-preparing-issue-ordered-departure-185740000.html",
+          "source": "Reuters",
+          "title": "US orders departure of diplomats from Saudi Arabia amid Houthi strikes"
+        },
+        {
+          "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/10/21/us-orders-departure-of-some-embassy-staff-and-families-from-saudi-arabia-amid-houthi-threat/",
+          "source": "CNN",
+          "title": "US orders departure of some embassy staff and families from Saudi Arabia amid Houthi threat"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.aol.ca/articles/us-preparing-issue-ordered-departure-185740000.html",
+          "source": "Reuters",
+          "title": "US orders departure of diplomats from Saudi Arabia amid Houthi strikes",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/fa9a4806bff404a23a16a8c209afbd2b",
+          "source": "Associated Press",
+          "title": "US orders some diplomats to leave Saudi Arabia as fears of escalating Houthi attacks rise",
+          "publishedAt": "2026-10-21"
+        }
+      ],
+      "tags": [
+        "United States",
+        "Saudi Arabia",
+        "Houthi",
+        "diplomacy"
+      ],
+      "confidence": "high"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "date": "2026-10-22",
-  "generatedAt": "2026-10-21T22:04:34.793Z",
+  "generatedAt": "2026-10-22T10:07:44.072Z",
   "vertical": "ai",
   "lang": "ko",
-  "title": "AI 동향: 클라우드 유통, 재무 공개와 이용자 보호",
-  "summary": "AI 경쟁이 클라우드 유통, IPO 재무 공개, 이용자 접점의 보호 장치로 확장되는 세 가지 움직임을 살펴본다.",
+  "title": "AI 동향: 유통, 재무 공개, 보안과 새 에이전트",
+  "summary": "오늘 판은 Google Cloud를 통한 OpenAI 모델 공급, Anthropic의 상반기 손실 보도, WhatsApp 지원 지침, PHP2Shell, Anthropic의 Claude Duet 미리보기를 다룹니다.",
   "stories": [
     {
       "slug": "openai-models-google-cloud-ko",
@@ -253,6 +253,173 @@
         "WhatsApp",
         "chatbots",
         "privacy"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "php2shell-ai-finds-critical-php-flaws-ko",
+      "headline": "PHP2Shell: AI가 인터넷의 70%에 영향을 미치는 치명적 RCE 취약점을 발견",
+      "dek": "PHP 핵심 엔진의 취약점 2건이 공개되자 긴급 수정판이 나왔고, 운영자들은 노출 범위를 확인하는 동안 일부 웹사이트를 일시 중단했습니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Wiz는 영향을 받는 서버에서 원격 코드 실행이나 프로세스 메모리 노출을 일으킬 수 있는 PHP 핵심 취약점 2건을 공개했습니다.",
+        "PHP 프로젝트는 10월 21일 수정판을 배포했으며, 미국과 유럽의 일부 기관은 업데이트를 적용하는 동안 웹사이트를 일시 중단했습니다.",
+        "OpenAI는 AI 보조 연구가 취약점 발견에 기여했다고 밝혔지만, 실제 공격과 배포 시스템의 패치 현황은 아직 분명하지 않습니다."
+      ],
+      "body": [
+        {
+          "text": "Wiz Research는 PHP 핵심 엔진에서 발견한 취약점 2건을 PHP2Shell이라는 이름으로 공개했습니다. 회사는 한 취약점은 인증 없이 원격 코드 실행을 허용하고 다른 취약점은 프로세스 메모리를 노출할 수 있으며, PHP 5.4까지 거슬러 올라가는 버전이 영향을 받는다고 밝혔습니다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "PHP 프로젝트는 메모리 안전성 문제를 해결하는 수정판을 10월 21일 배포했습니다. PHP Foundation의 보안 공지와 Wiz의 설명에 따르면 수정판은 유지 관리 중인 PHP 버전에 걸쳐 제공됐으며, 취약점 식별자는 CVE-2026-109618과 CVE-2026-109619입니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Associated Press는 FBI 사이버 부서가 취약점으로 원격 코드 실행이 가능할 수 있다고 경고했으며, 미국과 유럽의 일부 기관이 업데이트를 적용하는 동안 웹사이트를 일시 중단했다고 보도했습니다. 보도에 따르면 핀란드 정부 웹사이트도 대응 과정에서 일부 기능을 이용할 수 없었습니다.",
+          "citations": [
+            3
+          ]
+        },
+        {
+          "text": "OpenAI는 유지관리자, 연구자, 보안업체와 대응을 조율했고 AI 시스템이 연구자의 취약점 발견을 도왔다고 밝혔습니다. Axios는 공개 전후에 공격 시도가 늘었다는 Cloudflare 최고경영자 Matthew Prince의 설명도 전했지만, 실제 공격 성공 건수나 패치되지 않은 시스템 수는 인용한 보도로 확인되지 않았습니다.",
+          "citations": [
+            3,
+            4
+          ]
+        }
+      ],
+      "whyItMatters": "이 사건은 AI 연구 역량과 인터넷 기반 소프트웨어 보안을 연결합니다. 오랫동안 숨겨진 결함을 찾는 속도가 빨라질 수 있지만, 공개 뒤에는 운영자가 널리 배포된 소프트웨어를 확인하고 업데이트해야 하는 부담도 커집니다. 인용한 보도는 남은 노출 규모를 수치화하지 않았습니다.",
+      "editorNote": "19시 KST 같은 날짜 판 병합에서 추가했습니다. 기술적 심각성과 범위는 Wiz와 보도 내용을 출처에 귀속했으며, 대규모 공격 성공은 확인된 사실로 서술하지 않았습니다. TODO-review: 원문 용어 RCE의 한국어 표기 검토.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/php-websites-fbi-europe-vulnerability-a0af9576808a0963efca8df14d4b5183",
+          "source": "Associated Press",
+          "title": "Some websites go dark as operators address an AI-detected flaw in a web programming language"
+        },
+        {
+          "url": "https://www.axios.com/2026/10/21/php-openai-ai-bug-hunting-cyberattacks",
+          "source": "Axios",
+          "title": "AI uncovers massive flaw in web’s foundational code"
+        },
+        {
+          "url": "https://openai.com/index/patch-the-planet/",
+          "source": "OpenAI",
+          "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.wiz.io/blog/php2shell-php-rce",
+          "source": "Wiz Research",
+          "title": "PHP2Shell: AI uncovers critical RCE vulnerabilities affecting 70% of the Internet",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 2,
+          "url": "https://www.php.net/archive/2026.php",
+          "source": "The PHP Foundation",
+          "title": "Security advisory: Critical remote code execution vulnerabilities, update now",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 3,
+          "url": "https://apnews.com/article/php-websites-fbi-europe-vulnerability-a0af9576808a0963efca8df14d4b5183",
+          "source": "Associated Press",
+          "title": "Some websites go dark as operators address an AI-detected flaw in a web programming language",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 4,
+          "url": "https://www.axios.com/2026/10/21/php-openai-ai-bug-hunting-cyberattacks",
+          "source": "Axios",
+          "title": "AI uncovers massive flaw in web’s foundational code",
+          "publishedAt": "2026-10-21"
+        }
+      ],
+      "tags": [
+        "AI",
+        "cybersecurity",
+        "software"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "anthropic-introduces-claude-duet-ko",
+      "headline": "Claude Duet 공개: Anthropic, 선제형 AI 비서 미리보기 출시",
+      "dek": "Anthropic은 미국 내 Pro·Max 구독자를 대상으로 대기자 명단 기반 연구 미리보기를 열었습니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "Anthropic은 연결된 업무 도구를 살피고 사용자가 자리를 비운 동안에도 작업을 이어갈 수 있는 앱 Claude Duet의 연구 미리보기를 시작했습니다.",
+        "미리보기는 미국의 Claude Pro 및 Max 구독자를 대상으로 대기자 명단을 통해 iOS, Android와 웹에서 제공되며 기존 요금제 사용량을 씁니다.",
+        "정식 공개된 제품은 아니며 Anthropic은 긴급도를 잘못 판단하거나 확인 사이에 도착한 항목을 놓칠 수 있다고 밝혔습니다."
+      ],
+      "body": [
+        {
+          "text": "Anthropic은 Claude가 주의가 필요한 항목을 먼저 알려주고 요청받은 작업을 수행하며 사용자가 자리를 비운 동안에도 작업을 이어가는 앱 Claude Duet의 연구 미리보기를 발표했습니다. 회사는 사용자를 대신해 행동하기 전에 확인을 거친다고 설명합니다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "미리보기는 미국의 Claude Pro 및 Max 구독자를 대상으로 대기자 명단을 통해 제공됩니다. Anthropic은 iOS와 Android 독립 앱, 그리고 claude.ai 웹에서 사용할 수 있다고 밝혔습니다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Anthropic에 따르면 Claude Duet은 6,000개가 넘는 커넥터와 플러그인에 연결할 수 있으며 기존 Claude 요금제의 사용량 한도를 공유합니다. 백그라운드 확인과 규모가 큰 작업도 기존 한도에서 차감됩니다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Anthropic은 제품을 연구 미리보기로 표시하며 대화의 맥락이나 긴급도를 잘못 읽거나 확인 사이에 들어온 내용을 놓칠 수 있다고 안내합니다. 발표는 예정된 기능을 설명하지만 미리보기 이후의 신뢰도나 이용 확산은 아직 확인되지 않았습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 출시는 AI 제품이 질문에 답하는 채팅에서 벗어나 연결된 도구를 살피고 여러 작업을 이어가는 비서형 제품으로 확장되는 흐름을 보여줍니다. 대기자 명단 기반 연구 미리보기 단계이므로 광범위한 이용 가능성이나 안정성이 입증된 것은 아닙니다.",
+      "editorNote": "19시 KST 같은 날짜 판 병합에서 추가했습니다. 기능과 한계는 Anthropic 발표에 귀속했으며, Reddit은 높은 참여를 얻은 토론으로만 포함했습니다.",
+      "cluster": [
+        {
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xbwkgf/claude_duet_anthropic_just_casually_dropped_the/",
+          "source": "Reddit r/ClaudeAI",
+          "title": "Claude Duet: Anthropic just casually dropped the personal assistant calling it a proactive agent"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://claude.com/resources/articles/claude-duet",
+          "source": "Anthropic",
+          "title": "Introducing Claude Duet",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xbwkgf/claude_duet_anthropic_just_casually_dropped_the/",
+          "source": "Reddit r/ClaudeAI",
+          "title": "Claude Duet: Anthropic just casually dropped the personal assistant calling it a proactive agent",
+          "publishedAt": "2026-10-21"
+        }
+      ],
+      "tags": [
+        "AI agents",
+        "Anthropic",
+        "product"
       ],
       "confidence": "medium"
     }

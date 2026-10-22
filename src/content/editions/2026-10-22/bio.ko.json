@@ -1,10 +1,10 @@
 {
   "date": "2026-10-22",
-  "generatedAt": "2026-10-21T22:04:34.793Z",
+  "generatedAt": "2026-10-22T10:07:44.073Z",
   "vertical": "bio",
   "lang": "ko",
-  "title": "바이오 동향: 새 B형 간염 치료제와 포도막염 임상 결과",
-  "summary": "규제 승인과 임상 결과로 두 개발 프로그램이 진전됐지만, 대상 환자와 후속 근거가 중요하다.",
+  "title": "바이오 동향: B형 간염, 포도막염, 에볼라와 보험료",
+  "summary": "오늘 판은 새 B형 간염 치료제 승인, 포도막염 3상 결과, 나이지리아의 에볼라 유입 사례, 근로자 가족 건강보험 비용 9% 상승 보도를 다룹니다.",
   "stories": [
     {
       "slug": "fda-approves-hibsago-hepatitis-b-ko",
@@ -176,6 +176,161 @@
         "clinical trials",
         "uveitis",
         "brepocitinib"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "nigeria-imported-ebola-bundibugyo-case-ko",
+      "headline": "나이지리아, 에볼라 분디부교 바이러스병 유입 사례 확인",
+      "dek": "WHO는 우간다를 최근 방문한 환자가 Abuja에서 양성 판정을 받았다고 밝혔습니다. 당국은 접촉자 44명을 확인하고 노출 경로를 추적 중입니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "나이지리아는 콩고민주공화국에서 시작된 유행 중 Abuja에서 에볼라 분디부교 바이러스병 유입 사례 1건을 확인했으며, 이는 해당 바이러스가 보고된 다섯 번째 국가입니다.",
+        "WHO에 따르면 환자는 최근 Uganda를 방문했고 10월 20일 양성 판정을 받아 격리 치료를 받고 있으며, 조사 당국은 이동 및 노출 이력을 확인하고 있습니다.",
+        "나이지리아는 접촉자 44명을 모니터링 중이라고 밝혔고, 여러 국가에서 사례가 보고되는 가운데 Africa CDC는 10월 28일 지역 회의를 소집했습니다."
+      ],
+      "body": [
+        {
+          "text": "WHO 아프리카 지역사무소에 따르면 나이지리아는 연방수도구 Abuja에서 에볼라 분디부교 바이러스병 유입 사례 1건을 확인했습니다. WHO는 환자가 최근 Uganda를 방문한 여성이고, 10월 20일 검사에서 바이러스가 확인됐다고 밝혔습니다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "WHO에 따르면 환자는 나이지리아 도착 나흘 뒤인 10월 7일 증상이 시작됐고, 10월 11일 Abuja의 민간 의료기관에서 진료를 받았습니다. 환자는 격리돼 치료 중이며, 조사 당국은 감염원을 확인하고 이동 및 노출 이력을 재구성하고 있습니다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "나이지리아 보건부는 접촉자 44명을 확인해 모니터링하고 있으며 해당 의료기관의 감염 관리 조치를 강화하고 있다고 WHO가 전했습니다. Associated Press는 접촉자 대부분이 의료 종사자이며 환자의 배우자도 포함됐다고 보도했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "WHO는 5월 15일 콩고민주공화국에서 유행이 선언된 뒤 이번 바이러스가 확인된 다섯 번째 국가가 나이지리아라고 설명했습니다. Associated Press에 따르면 Africa CDC는 10월 28일 보건장관 대상 긴급 화상회의를 소집했으며, 이번 유입 사례에서 추가 전파가 있었는지는 조사가 진행 중입니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "확진 사례로 유행의 지리적 범위가 넓어지면서 사례 조사와 접촉자 추적, 각국 보건당국 및 지역 기관의 대응 조율이 중요해졌습니다. WHO는 감염원과 노출 이력이 계속 조사 중이라고 밝혔으므로 전파 경로와 추가 확산 여부는 아직 확정되지 않았습니다.",
+      "editorNote": "19시 KST 같은 날짜 판 병합에서 WHO와 Associated Press 보도를 바탕으로 추가했습니다. 임상 또는 예방 조언은 포함하지 않았습니다. TODO-review: Ebola Bundibugyo virus disease의 한국어 표기 확인.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/africa-health-summit-ebola-nigeria-spread-c1329a2cad0a18dda4dff2e3adadb6ca",
+          "source": "Associated Press",
+          "title": "Africa CDC calls an Ebola crisis summit as Nigeria records its first case"
+        },
+        {
+          "url": "https://www.afro.who.int/countries/nigeria/news/nigeria-confirms-imported-case-ebola-bundibugyo-virus-disease?form=FUNKUKTZPCK",
+          "source": "WHO Regional Office for Africa",
+          "title": "Nigeria confirms imported case of Ebola Bundibugyo virus disease"
+        },
+        {
+          "url": "https://www.theguardian.com/world/2026/oct/21/nigeria-first-ebola-case-africa-outbreak-latest",
+          "source": "The Guardian",
+          "title": "Nigeria confirms Ebola case as outbreak spreads into western Africa"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.afro.who.int/countries/nigeria/news/nigeria-confirms-imported-case-ebola-bundibugyo-virus-disease?form=FUNKUKTZPCK",
+          "source": "WHO Regional Office for Africa",
+          "title": "Nigeria confirms imported case of Ebola Bundibugyo virus disease",
+          "publishedAt": "2026-10-20"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/africa-health-summit-ebola-nigeria-spread-c1329a2cad0a18dda4dff2e3adadb6ca",
+          "source": "Associated Press",
+          "title": "Africa CDC calls an Ebola crisis summit as Nigeria records its first case",
+          "publishedAt": "2026-10-21"
+        }
+      ],
+      "tags": [
+        "Ebola",
+        "public health",
+        "Africa"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "family-health-coverage-costs-rise-9-percent-ko",
+      "headline": "근로자 가족 건강보험 부담액, 올해 9% 상승…최근보다 큰 폭",
+      "dek": "KFF 조사에 따르면 2026년 가족 보험에 대한 근로자 평균 부담액은 $7,471로 올랐습니다.",
+      "type": "DATA",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "KFF 조사 결과를 보도한 STAT와 Axios에 따르면 고용주 제공 가족 건강보험에 대한 근로자 평균 부담액은 2026년 $7,471로, 2025년보다 9% 올랐습니다.",
+        "연례 조사는 1,900곳이 넘는 고용주를 대상으로 했으며, 사업장 내 진료소와 의료기관과의 직접 협상 등 고용주의 대응을 확인했습니다.",
+        "보도된 상승률은 고용주 제공 보험에 해당하며 모든 근로자의 보험료나 다른 형태의 보험을 뜻하지 않습니다."
+      ],
+      "body": [
+        {
+          "text": "STAT와 Axios가 보도한 KFF 연례 고용주 조사에 따르면 2026년 고용주 제공 가족 건강보험에 대한 근로자 평균 부담액은 $7,471로, 2025년보다 9% 상승했습니다. 조사에서 확인된 상승 폭은 최근보다 컸습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "KFF 조사는 1,900곳이 넘는 고용주를 대상으로 했습니다. STAT는 가족 보험에 대한 근로자 부담액이 올랐다고 전했고, Axios는 고용주들이 비용을 관리할 방법을 찾고 있다고 보도했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Axios는 일부 고용주가 사업장 내 진료소를 설치하고 의료기관과 직접 협상하고 있다고 전했습니다. 보도는 이를 지출 증가에 대한 고용주의 대응으로 소개했지만, 이런 방식이 얼마나 널리 제공되거나 비용을 얼마나 낮추는지는 조사에서 확인되지 않았습니다.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "$7,471은 고용주 제공 가족 보험에서 근로자가 부담한 평균액이지 모든 가구에 동일하게 적용되는 보험료가 아닙니다. 보도는 모든 근로자가 같은 폭의 인상을 겪었다거나 개인 보험, 공공 보험 등 다른 보장 형태의 비용도 같다고 말하지 않습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "고용주 건강보험은 의료비 변화가 근로자와 기업에 전달되는 주요 경로입니다. 조사에서 확인된 9% 상승은 근로자의 부담 증가를 보여주지만, 고용주 제공 보험에 한정된 수치이므로 모든 가입 가구에 일반화할 수는 없습니다.",
+      "editorNote": "19시 KST 같은 날짜 판 병합에서 추가했습니다. 수치는 KFF 고용주 조사를 보도한 STAT와 Axios에 귀속했으며 건강·보험 조언은 포함하지 않았습니다.",
+      "cluster": [
+        {
+          "url": "https://www.axios.com/2026/10/22/workplace-coverage-health-cost-surge",
+          "source": "Axios",
+          "title": "Employers are looking for ways to soften health price shocks"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.statnews.com/2026/10/22/kff-2026-benefits-survey-9-percent-premium-increase/?utm_campaign=rss",
+          "source": "STAT",
+          "title": "Workers are paying 9% more for family health coverage this year, a higher jump than in the recent past",
+          "publishedAt": "2026-10-22"
+        },
+        {
+          "id": 2,
+          "url": "https://www.axios.com/2026/10/22/workplace-coverage-health-cost-surge",
+          "source": "Axios",
+          "title": "Employers are looking for ways to soften health price shocks",
+          "publishedAt": "2026-10-22"
+        }
+      ],
+      "tags": [
+        "healthcare costs",
+        "insurance",
+        "employers"
       ],
       "confidence": "medium"
     }
