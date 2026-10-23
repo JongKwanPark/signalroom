@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "generatedAt": "2026-10-22T22:06:44.340Z",
+  "generatedAt": "2026-10-23T10:05:20.903Z",
   "vertical": "geo",
   "lang": "ko",
   "title": "Geopolitics: 법원 절차와 한반도 접경 신호",
@@ -177,6 +177,155 @@
         "security"
       ],
       "confidence": "high"
+    },
+    {
+      "slug": "ukraine-says-starlink-still-restricted-ko",
+      "headline": "Trump가 제한 해제를 말했지만 우크라이나는 Starlink 제한이 계속된다고 밝혔다",
+      "dek": "도널드 Trump 대통령이 서비스가 정상 속도로 돌아왔다고 말한 뒤에도 우크라이나 당국자들은 제한이 남아 있다고 밝혔습니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "우크라이나 고문 Serhii Beskrestnov는 금요일 Starlink 제한이 해제됐다는 징후를 확인하지 못했다고 밝혔습니다.",
+        "이 발언은 목요일 Donald Trump 대통령이 서비스가 다시 정상 속도로 운영된다고 말한 뒤 나왔습니다.",
+        "우크라이나의 SpaceX 위성 서비스 접근 상태와 제한 범위는 여전히 확인되지 않았습니다."
+      ],
+      "body": [
+        {
+          "text": "도널드 Trump 대통령이 목요일 Starlink 서비스가 정상 속도로 돌아왔다고 말한 뒤에도 우크라이나는 제한이 계속된다고 밝혔습니다. BBC는 우크라이나 고문 Serhii “Flash” Beskrestnov가 제한 해제 징후를 확인하지 못했다고 전했습니다. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Associated Press는 최근 제한이 SpaceX의 군사용 위성 서비스 Starshield에 영향을 줬다고 보도했습니다. 우크라이나 당국자들은 이 서비스가 드론 작전과 통신에 중요하다고 설명했으며, AP는 지휘관들이 임무 차질을 보고했다고 전했습니다. [2]",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "두 보도에는 서로 다른 공개 주장이 담겼습니다. Trump는 서비스가 정상 운영된다고 했지만, 우크라이나 고문은 제한이 계속된다고 했습니다. 인용된 보도에는 이 차이를 해소할 SpaceX의 기술 설명이 없습니다. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "남아 있는 제한의 범위와 기간, 작전상 영향은 아직 확인되지 않았습니다. 이 사건은 상용 위성 서비스가 전시 통신에 미칠 수 있는 영향을 보여주지만, 어떤 정책·기술 변경이 뒤따를지는 보도에서 확인되지 않았습니다. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 논란은 전쟁 중 사용되는 민간 위성 인프라의 신뢰성과 접근 결정이 전장 통신에 미칠 수 있는 영향에 관한 것입니다. 공개 발언은 엇갈리며 인용된 보도만으로 기술적 상태를 확정할 수 없습니다.",
+      "editorNote": "BBC와 AP가 보도한 우크라이나 측 발언과 Trump의 주장을 대조했습니다. SpaceX가 상태를 독립적으로 설명하지 않아 쟁점은 미확정으로 남겼습니다.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/1a9279f37cfd4d2a65c8ce4cc3af6f41",
+          "source": "Associated Press",
+          "title": "Trump administration offers mixed messages on limits to Ukraine’s Starshield access"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Ukraine says Starlink still restricted after Trump says limits lifted",
+          "publishedAt": "2026-10-23T09:36:43.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/1a9279f37cfd4d2a65c8ce4cc3af6f41",
+          "source": "Associated Press",
+          "title": "Trump administration offers mixed messages on limits to Ukraine’s Starshield access",
+          "publishedAt": "2026-10-22"
+        }
+      ],
+      "tags": [
+        "Ukraine",
+        "satellite communications",
+        "United States",
+        "security"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "tibet-earthquake-kills-16-ko",
+      "headline": "티베트 강진으로 16명 사망했다고 보도",
+      "dek": "규모 7의 지진이 Nagqu 지역을 강타했으며, 관영 매체는 사망·부상과 주택 피해를 보도했습니다.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "목요일 저녁 중국 티베트 지역에서 규모 7 지진이 발생해 최소 16명이 사망했다고 중국 관영 매체를 인용한 보도들이 전했습니다.",
+        "Associated Press는 부상자 54명과 주택 수백 채 붕괴를 보도했으며, 인명 피해 집계는 갱신 중이었습니다.",
+        "외딴 피해 지역에서 구조 작업이 이어졌고 최종 피해 규모와 인명 피해는 아직 확정되지 않았습니다."
+      ],
+      "body": [
+        {
+          "text": "목요일 저녁 중국 티베트 북부에서 규모 7의 지진이 발생했습니다. BBC는 보도를 인용해 최소 16명이 사망했다고 전했고, Associated Press도 중국 관영 매체가 같은 사망자 수를 보도했다고 전했습니다. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Associated Press는 Nagqu 지역에서 54명이 다치고 주택 수백 채가 무너졌다고 보도했습니다. BBC의 첫 보도 제목도 사망자 16명을 전했으며, 후속 보도는 외딴 피해 지역에서 구조대가 수색 중이라고 설명했습니다. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "보도된 수치는 완전한 독립 피해 조사라기보다 중국 관영 매체와 현지 당국을 통해 전해졌습니다. 구조대가 각 지역에 도착하면서 초기 사상자 수가 바뀔 수 있으므로 현재 수치는 잠정치로 봐야 합니다. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "당장의 과제는 접근이 쉽지 않은 인구 희박 지역에서 구조와 수색을 이어가는 일입니다. 최종 인명 피해, 파손된 주택의 상태, 피해 지역 사회에 필요한 장기 지원은 보도 시점에 확정되지 않았습니다. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 지진은 구조와 피해 확인이 늦어질 수 있는 외딴 지역에서 발생한 대형 재난입니다. 초기 집계는 심각한 피해를 시사하지만, 중국 측 공식 수치에 의존한 보도여서 전체 피해 규모는 아직 미확정입니다.",
+      "editorNote": "BBC와 AP의 지진 및 초기 피해 보도를 대조했습니다. 수치는 중국 관영 매체에 귀속하고 잠정치로 표시했습니다.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/be27a2db79ada1c6309914d173b983a8",
+          "source": "Associated Press",
+          "title": "Powerful earthquake in China’s Tibet region collapses hundreds of homes and kills at least 16 people"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Powerful earthquake hits Tibet killing 16 people, reports say",
+          "publishedAt": "2026-10-23T05:16:37.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/be27a2db79ada1c6309914d173b983a8",
+          "source": "Associated Press",
+          "title": "Powerful earthquake in China’s Tibet region collapses hundreds of homes and kills at least 16 people",
+          "publishedAt": "2026-10-22"
+        }
+      ],
+      "tags": [
+        "China",
+        "Tibet",
+        "earthquake",
+        "disaster response"
+      ],
+      "confidence": "medium"
     }
   ]
 }

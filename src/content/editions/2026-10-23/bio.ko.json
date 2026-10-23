@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "generatedAt": "2026-10-22T22:06:44.340Z",
+  "generatedAt": "2026-10-23T10:05:20.903Z",
   "vertical": "bio",
   "lang": "ko",
   "title": "Bio: 흑색종 백신의 상세 임상 결과",
@@ -93,6 +93,94 @@
         "Merck"
       ],
       "confidence": "high"
+    },
+    {
+      "slug": "abbvie-lutikizumab-phase-3-hidradenitis-suppurativa-ko",
+      "headline": "AbbVie, 화농성 한선염 환자 대상 Phase 3 INTREPID 시험에서 lutikizumab의 주요 증상 개선 결과 발표",
+      "dek": "AbbVie는 임상시험에서 lutikizumab이 1차 평가변수를 충족했다고 밝혔고, 독립 보도는 위약 대비 반응 차이가 기대보다 작았다고 지적했습니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 5,
+      "tldr": [
+        "AbbVie는 화농성 한선염을 대상으로 한 시험용 lutikizumab의 Phase 3 INTREPID 연구가 16주차 HiSCR75 1차 평가변수를 충족했다고 밝혔습니다.",
+        "회사는 1,400명 참여자 중 lutikizumab 투여군 31.4%, 위약군 23.4%가 반응했다고 보고했습니다.",
+        "36주 연장시험의 추가 자료는 2027년에 나올 예정이며 규제 제출 계획에 반영됩니다. lutikizumab은 아직 승인되지 않았습니다."
+      ],
+      "body": [
+        {
+          "text": "AbbVie는 중등도에서 중증 화농성 한선염을 대상으로 한 시험용 IL-1α/IL-1β 억제제 lutikizumab의 Phase 3 결과를 발표했습니다. 회사에 따르면 INTREPID 시험은 1,400명을 무작위 배정했으며 1차 평가변수를 충족했습니다. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "16주차에 lutikizumab 투여군의 31.4%가 HiSCR75에 도달했고 위약군은 23.4%였습니다. AbbVie는 p≤0.001이라고 보고했습니다. HiSCR75는 농양과 염증성 결절이 최소 75% 감소하고 농양이나 배액 누공이 증가하지 않은 상태를 측정합니다. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AbbVie는 피부 통증과 질환 악화 빈도 지표를 포함해 순위가 정해진 2차 평가변수 8개도 충족했다고 밝혔습니다. Fierce Biotech은 1차 지표에서 치료군과 위약군 사이의 차이가 기대보다 작았다고 평가해, 평가변수 충족만으로 임상적 가치나 승인이 확정되지는 않는다는 점을 짚었습니다. [1][2][3]",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "회사는 36주간의 눈가림 연장시험 추가 결과가 2027년에 나올 예정이며, 그해 하반기 계획된 규제 제출을 뒷받침할 것이라고 밝혔습니다. lutikizumab은 아직 임상시험 단계이며, 인용된 자료는 규제 결정이나 장기 결과를 확정하지 않습니다. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 결과는 치료 선택지가 제한적인 질환의 후기 임상 프로그램을 진전시켰지만, 절대 반응률 차이가 크지 않고 추가 추적 결과도 남아 있어 효과의 크기와 지속성은 더 평가해야 합니다. 이 결과만으로 규제 심사가 시작된 것은 아닙니다.",
+      "editorNote": "회사 발표의 평가변수와 수치를 Fierce Biotech 및 STAT 보도와 대조했습니다. 임상시험 단계 결과로 다뤘으며 치료 지침은 포함하지 않았습니다.",
+      "cluster": [
+        {
+          "url": "https://www.statnews.com/2026/10/22/abbvie-lutikizumab-hidradenitis-suppurativa-drug-phase-3-results/",
+          "source": "STAT",
+          "title": "AbbVie skin disorder drug succeeds in late-stage trial, but results miss market expectations"
+        },
+        {
+          "url": "https://www.fiercebiotech.com/biotech/abbvie-scratches-out-phase-3-hidradenitis-suppurativa-win-falls-short-expectations",
+          "source": "Fierce Biotech",
+          "title": "AbbVie scratches out phase 3 hidradenitis suppurativa win but falls short of expectations"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://news.abbvie.com/2026-10-22-AbbVie-Announces-Topline-Results-from-the-Phase-3-INTREPID-Trial-Showing-Lutikizumab-Significantly-Improved-Signs-and-Symptoms-of-Disease-in-Patients-with-Hidradenitis-Suppurativa",
+          "source": "AbbVie",
+          "title": "AbbVie Announces Topline Results from the Phase 3 INTREPID Trial Showing Lutikizumab Significantly Improved Signs and Symptoms of Disease in Patients with Hidradenitis Suppurativa",
+          "publishedAt": "2026-10-22"
+        },
+        {
+          "id": 2,
+          "url": "https://www.fiercebiotech.com/biotech/abbvie-scratches-out-phase-3-hidradenitis-suppurativa-win-falls-short-expectations",
+          "source": "Fierce Biotech",
+          "title": "AbbVie scratches out phase 3 hidradenitis suppurativa win but falls short of expectations",
+          "publishedAt": "2026-10-22"
+        },
+        {
+          "id": 3,
+          "url": "https://www.statnews.com/2026/10/22/abbvie-lutikizumab-hidradenitis-suppurativa-drug-phase-3-results/",
+          "source": "STAT",
+          "title": "AbbVie skin disorder drug succeeds in late-stage trial, but results miss market expectations",
+          "publishedAt": "2026-10-22"
+        }
+      ],
+      "tags": [
+        "AbbVie",
+        "clinical trial",
+        "Phase 3",
+        "immunology"
+      ],
+      "confidence": "medium"
     }
   ]
 }

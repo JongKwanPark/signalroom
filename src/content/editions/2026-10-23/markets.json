@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "generatedAt": "2026-10-22T22:06:44.340Z",
+  "generatedAt": "2026-10-23T10:05:20.903Z",
   "vertical": "markets",
   "lang": "en",
   "title": "Markets: OpenAI fundraising terms",
@@ -78,6 +78,156 @@
         "private markets"
       ],
       "confidence": "medium"
+    },
+    {
+      "slug": "sk-hynix-discontinues-solidigm-ipo-review",
+      "headline": "Solidigm to Discontinue Review of Potential IPO, Reaffirming Commitment to Long-Term Growth and Shareholder Value",
+      "dek": "SK hynix said its U.S. subsidiary halted its pre-IPO and IPO review, citing capital-market conditions and share-price trends.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "SK hynix said Solidigm had discontinued its review of possible pre-IPO financing and an initial public offering.",
+        "The company said the review had been one of several ways to fund added U.S. production capacity amid rising AI-memory demand.",
+        "SK hynix said it will continue to assess funding alternatives; no replacement financing plan was specified."
+      ],
+      "body": [
+        {
+          "text": "SK hynix said its U.S. subsidiary Solidigm would stop reviewing a potential pre-IPO and IPO. The company cited market conditions and share-price trends in its October 23 statement; independent coverage reported the same decision. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "SK hynix said Solidigm had considered several funding options to finance additional U.S. production capacity for memory demand associated with AI. It described an IPO as one possible source of external capital, alongside direct investment. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The company said the need to invest in Solidigm’s growth remains, and that it will continue evaluating investment timing, scale, and financing methods. The statement did not announce a replacement funding route or a revised timetable for capacity expansion. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The decision leaves the expansion plan intact but changes the financing review, according to the company. The amount of capital required, the timing of investment, and any eventual effects on shareholder returns remain unspecified in the cited reports. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Solidigm’s funding choice intersects with the capital demands of expanding memory capacity for AI and with parent-company shareholder considerations. The company has ended one financing review but has not disclosed which alternative it will pursue.",
+      "editorNote": "SK hynix’s statement was cross-checked against separate coverage by ChosunBiz. No share-price recommendation or investment advice.",
+      "cluster": [
+        {
+          "url": "https://biz.chosun.com/en/en-it/2026/10/23/C4ZVLU3ARVB3JPM4XM6BICJY6E/?outputType=amp",
+          "source": "ChosunBiz",
+          "title": "SK hynix halts Solidigm pre-IPO and IPO plans amid market conditions"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://news.skhynix.com/en/fact-12/",
+          "source": "SK hynix",
+          "title": "Solidigm to Discontinue Review of Potential IPO, Reaffirming Commitment to Long-Term Growth and Shareholder Value",
+          "publishedAt": "2026-10-23"
+        },
+        {
+          "id": 2,
+          "url": "https://biz.chosun.com/en/en-it/2026/10/23/C4ZVLU3ARVB3JPM4XM6BICJY6E/?outputType=amp",
+          "source": "ChosunBiz",
+          "title": "SK hynix halts Solidigm pre-IPO and IPO plans amid market conditions",
+          "publishedAt": "2026-10-23"
+        }
+      ],
+      "tags": [
+        "SK hynix",
+        "Solidigm",
+        "semiconductors",
+        "capital markets"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "volvo-cars-q3-2026-results",
+      "headline": "Volvo Cars Q3 2026: taking decisive action to navigate a very tough environment",
+      "dek": "Volvo Cars reported a quarterly operating loss as revenue fell and market conditions weakened in China and the United States.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 5,
+      "tldr": [
+        "Volvo Cars reported Q3 2026 revenue of SEK 66.9 billion and operating income of SEK -5.6 billion.",
+        "The company reported an adjusted operating loss of SEK -3.7 billion and free cash flow of SEK -8.9 billion for the quarter.",
+        "Volvo Cars attributed pressure to conditions in China and the United States; the report does not settle how quickly demand or margins may recover."
+      ],
+      "body": [
+        {
+          "text": "Volvo Cars reported Q3 2026 revenue of SEK 66.9 billion, down from SEK 86.4 billion a year earlier, and operating income of SEK -5.6 billion. Its adjusted operating result, excluding joint ventures, associates, and comparability items, was SEK -3.7 billion. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The company reported an adjusted EBIT margin of -5.6% and free cash flow of SEK -8.9 billion. It said the results reflected a further deterioration in the external environment, led by market developments in China and the United States. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Volvo Cars said revenue in China fell by almost 50% year over year as legacy premium brands faced competition from local alternatives and pricing pressure. In the United States, it cited tariffs and the removal of consumer incentives for electrified cars as factors weighing on margins. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "CNBC reported that the company’s shares fell sharply after the results and quoted the chief executive describing the China sales slump as arriving faster than expected. The company’s release does not establish when conditions will improve; future demand, cash flow, and margin trends remain uncertain. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The quarter shows the pressure that weaker demand and competition in China, alongside U.S. policy and market conditions, placed on a global automaker’s earnings and cash generation. The company’s ability to stabilize margins and cash flow remains an open question.",
+      "editorNote": "Company financial figures and explanations were checked against CNBC’s coverage. Market reaction is reported without investment guidance.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/23/volvo-cars-q3-earnings-job-cuts.html",
+          "source": "CNBC",
+          "title": "Volvo Cars plunges 27% as CEO says China sales slump came ‘faster than we thought’"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://news.cision.com/volvo-car-ab--publ-/r/volvo-cars-q3-2026--taking-decisive-action-to-navigate-a-very-tough-environment,c4414242",
+          "source": "Volvo Cars",
+          "title": "Volvo Cars Q3 2026: taking decisive action to navigate a very tough environment",
+          "publishedAt": "2026-10-23"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/10/23/volvo-cars-q3-earnings-job-cuts.html",
+          "source": "CNBC",
+          "title": "Volvo Cars plunges 27% as CEO says China sales slump came “faster than we thought”",
+          "publishedAt": "2026-10-23"
+        }
+      ],
+      "tags": [
+        "Volvo Cars",
+        "earnings",
+        "automotive",
+        "China"
+      ],
+      "confidence": "high"
     }
   ]
 }

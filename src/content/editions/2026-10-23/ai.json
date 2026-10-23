@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "generatedAt": "2026-10-22T22:06:44.340Z",
+  "generatedAt": "2026-10-23T10:05:20.903Z",
   "vertical": "ai",
   "lang": "en",
   "title": "AI: Research agents",
@@ -76,6 +76,153 @@
         "AI research",
         "biotechnology",
         "agents"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "openai-models-google-cloud-partnership",
+      "headline": "OpenAI models are coming to Google Cloud",
+      "dek": "The companies said OpenAI models and Codex workflows will enter Google Cloud’s Model Garden, with broader availability planned in the coming weeks.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "OpenAI and Google Cloud announced a partnership to offer OpenAI models and Codex workflows through Google Cloud’s Model Garden.",
+        "Customers will purchase the models through Google Cloud Marketplace, and eligible enterprises can apply existing Google Cloud spending commitments.",
+        "The companies said general availability is planned in the coming weeks; access is currently being rolled out in private preview."
+      ],
+      "body": [
+        {
+          "text": "OpenAI and Google Cloud announced that OpenAI frontier models and Codex agent workflows will be offered through Google Cloud’s Model Garden. Each company published its own announcement describing the partnership. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The companies said purchases will run through Google Cloud Marketplace. OpenAI said enterprises with Google Cloud spending commitments can apply those commitments to the purchases, while Google said initial access is a private preview for selected enterprise customers. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The announcements describe integration with Google Cloud’s governance and infrastructure, and say OpenAI models are also planned for Google Antigravity and Gemini Agent. Google’s post says selected customers can access GPT-Astra, GPT-6.1 Sol, and GPT-6 Luna in the preview. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The companies said broader general availability is planned in the coming weeks, without giving a firm date in these announcements. The terms of the partnership beyond distribution, including any changes to OpenAI’s existing cloud relationships, were not specified; OpenAI said Microsoft remains its primary cloud partner. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The agreement adds a major cloud distribution channel for OpenAI and gives Google Cloud customers access to competing frontier models in the same platform. Its practical reach will depend on rollout timing, customer eligibility, and the commercial terms that have not been disclosed.",
+      "editorNote": "Matched OpenAI and Google Cloud announcements. Availability is described as a private preview with general availability planned, not as a completed broad launch.",
+      "cluster": [
+        {
+          "url": "https://www.axios.com/2026/10/21/openai-google-cloud-ai-models",
+          "source": "Axios",
+          "title": "OpenAI expands its cloud reach with Google deal"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://openai.com/index/openai-models-google-cloud/",
+          "source": "OpenAI",
+          "title": "OpenAI models are coming to Google Cloud",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 2,
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers",
+          "source": "Google Cloud",
+          "title": "Google Cloud brings OpenAI models to customers",
+          "publishedAt": "2026-10-21"
+        }
+      ],
+      "tags": [
+        "OpenAI",
+        "Google Cloud",
+        "AI infrastructure",
+        "enterprise AI"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "google-staff-resign-military-ai-contracts",
+      "headline": "Google staff resign in backlash over its AI contracts with military",
+      "dek": "The BBC reported that several Google DeepMind employees resigned over military uses of the company’s AI technology.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "The BBC reported that several Google DeepMind employees resigned over Google’s AI contracts with military customers.",
+        "One former employee spoke to the BBC about her concerns, while the report also placed the dispute in the context of earlier criticism of Project Nimbus.",
+        "The cited coverage does not establish the scale of the resignations or detail the terms and operational scope of the military contracts."
+      ],
+      "body": [
+        {
+          "text": "The BBC reported that several Google DeepMind employees had resigned amid concern about Google’s artificial intelligence contracts with military customers. The report includes an interview with one employee who said she left the company that week. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The BBC said the former employee spoke despite contractual restrictions on discussing her departure. Its reporting centers on internal objections to military applications of Google’s AI systems; it does not provide a full list of resigning staff. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The report also refers to Project Nimbus, the $1.2bn joint cloud and AI contract between Google and Amazon that has drawn criticism from employees since 2024. That earlier dispute is context for the current resignations, rather than evidence that the current contracts have identical terms. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "A Reddit discussion linked to the BBC report shows the story received public attention, but comments there are reactions rather than independent confirmation of the underlying employment claims. The number of departures, the relevant contract details, and any response from Google remain unclear in the cited material. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The resignations put a workforce and governance dimension on the growing use of commercial AI systems in defense. The available reporting documents employee objections but leaves the contracts’ precise scope and the size of the departures unresolved.",
+      "editorNote": "BBC reporting is the factual basis; a scored Reddit discussion is included only as a separate public discussion source. It is not treated as independent confirmation of the reported departures.",
+      "cluster": [
+        {
+          "url": "https://www.reddit.com/r/technology/comments/1xd5m05/google_staff_resign_in_backlash_over_its_ai/",
+          "source": "Reddit r/technology",
+          "title": "Google staff resign in backlash over its AI contracts with military"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.com/news/articles/cmreyvepnv0po",
+          "source": "BBC",
+          "title": "Google staff resign in backlash over its AI contracts with military",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reddit.com/r/technology/comments/1xd5m05/google_staff_resign_in_backlash_over_its_ai/",
+          "source": "Reddit r/technology",
+          "title": "Google staff resign in backlash over its AI contracts with military",
+          "publishedAt": "2026-10-23"
+        }
+      ],
+      "tags": [
+        "Google",
+        "AI policy",
+        "defense",
+        "workforce"
       ],
       "confidence": "medium"
     }

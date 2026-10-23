@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "generatedAt": "2026-10-22T22:06:44.340Z",
+  "generatedAt": "2026-10-23T10:05:20.903Z",
   "vertical": "geo",
   "lang": "en",
   "title": "Geopolitics: Court pressure and Korean border signaling",
@@ -177,6 +177,155 @@
         "security"
       ],
       "confidence": "high"
+    },
+    {
+      "slug": "ukraine-says-starlink-still-restricted",
+      "headline": "Ukraine says Starlink still restricted after Trump says limits lifted",
+      "dek": "Ukrainian officials said restrictions remained in place after President Donald Trump said the service had returned to full speed.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "Ukraine adviser Serhii Beskrestnov said on Friday that Kyiv had not seen evidence that Starlink restrictions were lifted.",
+        "The statement followed President Donald Trump’s assertion on Thursday that the service was running at full speed again.",
+        "The disagreement leaves the status and scope of Ukraine’s access to SpaceX satellite services unresolved."
+      ],
+      "body": [
+        {
+          "text": "Ukraine said restrictions on its Starlink access remained in place after President Donald Trump said Thursday that service had returned to full speed. The BBC reported Ukrainian adviser Serhii “Flash” Beskrestnov’s statement that officials had seen no indication the restrictions were lifted. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The Associated Press reported that the recent limitations affected Starshield, SpaceX’s military-grade satellite service, which Ukrainian officials describe as important to drone operations and communications. AP said commanders had reported disrupted missions during the restrictions. [2]",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "The accounts leave competing public claims in the record: Trump said the service was running normally, while the Ukrainian adviser said restrictions persisted. The cited reporting does not provide a technical account from SpaceX that resolves the difference. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The scope, duration, and operational effects of any remaining limits are therefore still open. The episode also exposes how a commercial satellite service can become a point of leverage in Ukraine’s military communications, but the reporting does not establish what policy or technical change will follow. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The dispute concerns the reliability of privately operated satellite infrastructure used in wartime and the degree to which access decisions can shape battlefield communications. The public accounts conflict, and the technical status remains unverified by SpaceX in the cited coverage.",
+      "editorNote": "BBC and AP report the Ukrainian statement and Trump’s claim. Attribution is preserved; service status is not presented as independently resolved.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/1a9279f37cfd4d2a65c8ce4cc3af6f41",
+          "source": "Associated Press",
+          "title": "Trump administration offers mixed messages on limits to Ukraine’s Starshield access"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Ukraine says Starlink still restricted after Trump says limits lifted",
+          "publishedAt": "2026-10-23T09:36:43.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/1a9279f37cfd4d2a65c8ce4cc3af6f41",
+          "source": "Associated Press",
+          "title": "Trump administration offers mixed messages on limits to Ukraine’s Starshield access",
+          "publishedAt": "2026-10-22"
+        }
+      ],
+      "tags": [
+        "Ukraine",
+        "satellite communications",
+        "United States",
+        "security"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "tibet-earthquake-kills-16",
+      "headline": "Powerful earthquake hits Tibet killing 16 people, reports say",
+      "dek": "A magnitude 7 earthquake struck the Nagqu area, with state media reporting deaths, injuries, and extensive damage to homes.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "A magnitude 7 earthquake struck China’s Tibet region on Thursday evening, killing at least 16 people, according to reports citing Chinese state media.",
+        "The Associated Press reported 54 injuries and hundreds of homes collapsed, while casualty figures were still being updated.",
+        "Rescue operations continued in the remote affected area, and the final toll and extent of damage remain uncertain."
+      ],
+      "body": [
+        {
+          "text": "A magnitude 7 earthquake struck the northern part of China’s Tibet region on Thursday evening. The BBC reported that at least 16 people had died, citing reports, while the Associated Press said Chinese state media reported the same death toll. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The Associated Press reported 54 people injured and hundreds of homes collapsed in the Nagqu area. The BBC’s initial headline also reported 16 deaths, while subsequent reporting described rescue teams searching the remote affected region. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The reported figures came through Chinese state media and local authorities, rather than a complete independent damage assessment. Early casualty totals can change as rescuers reach communities, so the published counts should be read as provisional. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The immediate task is search and rescue in a sparsely populated, difficult-to-reach area. The final number of casualties, the condition of damaged homes, and the longer-term needs of affected communities were not yet established in the reports. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The quake is a major disaster in a remote region where access can slow rescue and damage assessment. The early toll signals serious impact, but the reporting relies on official Chinese figures and the full extent remains open.",
+      "editorNote": "BBC and AP report the earthquake and early toll. Figures are attributed to Chinese state media and treated as provisional.",
+      "cluster": [
+        {
+          "url": "https://apnews.com/article/be27a2db79ada1c6309914d173b983a8",
+          "source": "Associated Press",
+          "title": "Powerful earthquake in China’s Tibet region collapses hundreds of homes and kills at least 16 people"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Powerful earthquake hits Tibet killing 16 people, reports say",
+          "publishedAt": "2026-10-23T05:16:37.000Z"
+        },
+        {
+          "id": 2,
+          "url": "https://apnews.com/article/be27a2db79ada1c6309914d173b983a8",
+          "source": "Associated Press",
+          "title": "Powerful earthquake in China’s Tibet region collapses hundreds of homes and kills at least 16 people",
+          "publishedAt": "2026-10-22"
+        }
+      ],
+      "tags": [
+        "China",
+        "Tibet",
+        "earthquake",
+        "disaster response"
+      ],
+      "confidence": "medium"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "generatedAt": "2026-10-22T22:06:44.340Z",
+  "generatedAt": "2026-10-23T10:05:20.903Z",
   "vertical": "markets",
   "lang": "ko",
   "title": "Markets: OpenAI 자금 조달 보도",
@@ -78,6 +78,156 @@
         "private markets"
       ],
       "confidence": "medium"
+    },
+    {
+      "slug": "sk-hynix-discontinues-solidigm-ipo-review-ko",
+      "headline": "Solidigm, 잠재적 IPO 검토 중단…장기 성장과 주주 가치에 대한 약속 재확인",
+      "dek": "SK hynix는 미국 자회사 Solidigm이 자본시장 여건과 주가 흐름을 이유로 사전 IPO 및 IPO 검토를 중단했다고 밝혔습니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "SK hynix는 Solidigm이 사전 IPO와 기업공개 가능성에 대한 검토를 중단했다고 밝혔습니다.",
+        "회사는 AI 메모리 수요에 대응할 미국 생산능력 확대 자금을 마련하기 위한 여러 방안 중 하나로 IPO를 검토해 왔습니다.",
+        "SK hynix는 대체 자금 조달 방안을 계속 평가하겠다고 했지만 새 계획은 제시하지 않았습니다."
+      ],
+      "body": [
+        {
+          "text": "SK hynix는 미국 자회사 Solidigm이 사전 IPO 및 IPO 가능성에 대한 검토를 중단한다고 밝혔습니다. 회사는 10월 23일 성명에서 자본시장 여건과 주가 흐름을 이유로 들었고, 별도 보도도 같은 결정을 전했습니다. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "SK hynix는 AI 관련 메모리 수요에 대응해 미국 생산능력을 추가로 확보할 자금을 마련하기 위해 여러 방안을 검토해 왔다고 밝혔습니다. 회사는 IPO를 직접 투자와 함께 외부 자본 조달의 한 방안으로 제시했습니다. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "회사는 Solidigm의 성장 투자 필요성은 그대로라며 투자 시기와 규모, 자금 조달 방법을 계속 검토하겠다고 했습니다. 성명은 대체 자금 조달 경로나 생산능력 확대 일정을 새로 발표하지 않았습니다. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "회사 설명에 따르면 이번 결정은 생산 확대 계획을 철회하기보다 자금 조달 검토 방식을 바꾼 것입니다. 필요한 투자액, 투자 시기, 기존 주주 수익에 미칠 영향은 인용된 보도에서 구체화되지 않았습니다. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Solidigm의 자금 조달 방안은 AI 메모리 생산능력 확대에 필요한 자본과 모회사 주주의 이해관계가 만나는 지점입니다. 회사는 한 가지 조달 방안의 검토를 끝냈지만 다음에 어떤 대안을 택할지는 공개하지 않았습니다.",
+      "editorNote": "SK hynix 발표를 ChosunBiz 보도와 대조했습니다. 주가 전망이나 투자 조언은 포함하지 않았습니다.",
+      "cluster": [
+        {
+          "url": "https://biz.chosun.com/en/en-it/2026/10/23/C4ZVLU3ARVB3JPM4XM6BICJY6E/?outputType=amp",
+          "source": "ChosunBiz",
+          "title": "SK hynix halts Solidigm pre-IPO and IPO plans amid market conditions"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://news.skhynix.com/en/fact-12/",
+          "source": "SK hynix",
+          "title": "Solidigm to Discontinue Review of Potential IPO, Reaffirming Commitment to Long-Term Growth and Shareholder Value",
+          "publishedAt": "2026-10-23"
+        },
+        {
+          "id": 2,
+          "url": "https://biz.chosun.com/en/en-it/2026/10/23/C4ZVLU3ARVB3JPM4XM6BICJY6E/?outputType=amp",
+          "source": "ChosunBiz",
+          "title": "SK hynix halts Solidigm pre-IPO and IPO plans amid market conditions",
+          "publishedAt": "2026-10-23"
+        }
+      ],
+      "tags": [
+        "SK hynix",
+        "Solidigm",
+        "semiconductors",
+        "capital markets"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "volvo-cars-q3-2026-results-ko",
+      "headline": "Volvo Cars 2026년 3분기: 매우 어려운 환경에 대응하기 위한 결단",
+      "dek": "Volvo Cars는 매출 감소와 중국·미국 시장 여건 악화 속에 분기 영업손실을 기록했다고 밝혔습니다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 5,
+      "tldr": [
+        "Volvo Cars는 2026년 3분기 매출 SEK 66.9 billion, 영업손실 SEK -5.6 billion을 보고했습니다.",
+        "회사는 조정 영업손실 SEK -3.7 billion과 분기 잉여현금흐름 SEK -8.9 billion을 기록했다고 밝혔습니다.",
+        "Volvo Cars는 중국과 미국 시장 여건을 실적 압박 요인으로 들었으며 수요와 마진이 회복될 시점은 아직 불확실합니다."
+      ],
+      "body": [
+        {
+          "text": "Volvo Cars는 2026년 3분기 매출이 전년 동기 SEK 86.4 billion에서 SEK 66.9 billion으로 감소했고, 영업손실이 SEK -5.6 billion이라고 발표했습니다. 합작사·관계기업 및 비교 가능성 항목을 제외한 조정 영업손실은 SEK -3.7 billion이었습니다. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "회사는 조정 EBIT 마진이 -5.6%, 잉여현금흐름이 SEK -8.9 billion이라고 보고했습니다. 중국과 미국의 시장 변화가 주도한 외부 환경 악화가 실적에 반영됐다고 설명했습니다. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Volvo Cars는 중국의 매출이 전년 대비 거의 50% 감소했다고 밝혔습니다. 기존 프리미엄 브랜드가 중국 업체의 경쟁과 가격 압박을 받았고, 미국에서는 관세와 전기차 소비자 인센티브 폐지가 마진에 부담을 줬다고 설명했습니다. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "CNBC는 실적 발표 뒤 회사 주가가 크게 하락했다고 보도했고, CEO는 중국 판매 감소가 예상보다 빠르게 나타났다고 말했습니다. 회사 자료만으로 시장 여건이 언제 개선될지는 알 수 없으며 향후 수요와 현금흐름, 마진 추이는 불확실합니다. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 분기는 중국의 수요 약화와 경쟁, 미국의 정책·시장 여건이 글로벌 완성차 업체의 수익성과 현금 창출에 준 압박을 보여줍니다. 마진과 현금흐름을 안정시킬 수 있을지는 아직 미지수입니다.",
+      "editorNote": "회사 재무 수치와 설명을 CNBC 보도와 대조했습니다. 시장 반응은 보도하되 투자 조언은 넣지 않았습니다.",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/23/volvo-cars-q3-earnings-job-cuts.html",
+          "source": "CNBC",
+          "title": "Volvo Cars plunges 27% as CEO says China sales slump came ‘faster than we thought’"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://news.cision.com/volvo-car-ab--publ-/r/volvo-cars-q3-2026--taking-decisive-action-to-navigate-a-very-tough-environment,c4414242",
+          "source": "Volvo Cars",
+          "title": "Volvo Cars Q3 2026: taking decisive action to navigate a very tough environment",
+          "publishedAt": "2026-10-23"
+        },
+        {
+          "id": 2,
+          "url": "https://www.cnbc.com/2026/10/23/volvo-cars-q3-earnings-job-cuts.html",
+          "source": "CNBC",
+          "title": "Volvo Cars plunges 27% as CEO says China sales slump came “faster than we thought”",
+          "publishedAt": "2026-10-23"
+        }
+      ],
+      "tags": [
+        "Volvo Cars",
+        "earnings",
+        "automotive",
+        "China"
+      ],
+      "confidence": "high"
     }
   ]
 }

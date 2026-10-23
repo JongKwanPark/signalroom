@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "generatedAt": "2026-10-22T22:06:44.340Z",
+  "generatedAt": "2026-10-23T10:05:20.903Z",
   "vertical": "bio",
   "lang": "en",
   "title": "Bio: Detailed melanoma vaccine results",
@@ -93,6 +93,94 @@
         "Merck"
       ],
       "confidence": "high"
+    },
+    {
+      "slug": "abbvie-lutikizumab-phase-3-hidradenitis-suppurativa",
+      "headline": "AbbVie Announces Topline Results from the Phase 3 INTREPID Trial Showing Lutikizumab Significantly Improved Signs and Symptoms of Disease in Patients with Hidradenitis Suppurativa",
+      "dek": "AbbVie said lutikizumab met the Phase 3 trial’s primary endpoint, while independent coverage noted the response advantage over placebo was narrower than some expectations.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 5,
+      "tldr": [
+        "AbbVie said its Phase 3 INTREPID study of investigational lutikizumab met the HiSCR75 primary endpoint at Week 16 in hidradenitis suppurativa.",
+        "The company reported response rates of 31.4% with lutikizumab and 23.4% with placebo among 1,400 participants.",
+        "Further 36-week data are expected in 2027 and will inform planned regulatory submissions; lutikizumab is not approved."
+      ],
+      "body": [
+        {
+          "text": "AbbVie announced topline Phase 3 results for lutikizumab, an investigational IL-1α/IL-1β antagonist, in adults and adolescents with moderate to severe hidradenitis suppurativa. The INTREPID trial randomized 1,400 participants and met its primary endpoint, the company said. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "At Week 16, 31.4% of participants receiving lutikizumab achieved HiSCR75, compared with 23.4% receiving placebo; AbbVie reported p≤0.001. HiSCR75 measures at least a 75% reduction in abscesses and inflammatory nodules without an increase in abscesses or draining fistulas. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AbbVie also reported that the trial met eight ranked secondary endpoints, including measures of skin pain and disease flares. Fierce Biotech described the treatment-placebo difference on the primary measure as narrower than expected, underscoring that endpoint success does not itself establish comparative clinical value or approval. [1][2][3]",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "The company said additional results from a 36-week blinded extension are expected in 2027 and will be used to support planned regulatory submissions in the second half of that year. Lutikizumab remains investigational, and the cited materials do not establish a regulatory decision or long-term outcomes. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The result advances a late-stage immunology program in a condition with limited treatment options, while the modest absolute response difference and pending longer follow-up leave the size and durability of benefit to be assessed. Regulatory review has not begun on the basis of these topline results.",
+      "editorNote": "Company-reported endpoints and percentages were checked against Fierce Biotech and STAT coverage. Results are investigational; no treatment guidance is offered.",
+      "cluster": [
+        {
+          "url": "https://www.statnews.com/2026/10/22/abbvie-lutikizumab-hidradenitis-suppurativa-drug-phase-3-results/",
+          "source": "STAT",
+          "title": "AbbVie skin disorder drug succeeds in late-stage trial, but results miss market expectations"
+        },
+        {
+          "url": "https://www.fiercebiotech.com/biotech/abbvie-scratches-out-phase-3-hidradenitis-suppurativa-win-falls-short-expectations",
+          "source": "Fierce Biotech",
+          "title": "AbbVie scratches out phase 3 hidradenitis suppurativa win but falls short of expectations"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://news.abbvie.com/2026-10-22-AbbVie-Announces-Topline-Results-from-the-Phase-3-INTREPID-Trial-Showing-Lutikizumab-Significantly-Improved-Signs-and-Symptoms-of-Disease-in-Patients-with-Hidradenitis-Suppurativa",
+          "source": "AbbVie",
+          "title": "AbbVie Announces Topline Results from the Phase 3 INTREPID Trial Showing Lutikizumab Significantly Improved Signs and Symptoms of Disease in Patients with Hidradenitis Suppurativa",
+          "publishedAt": "2026-10-22"
+        },
+        {
+          "id": 2,
+          "url": "https://www.fiercebiotech.com/biotech/abbvie-scratches-out-phase-3-hidradenitis-suppurativa-win-falls-short-expectations",
+          "source": "Fierce Biotech",
+          "title": "AbbVie scratches out phase 3 hidradenitis suppurativa win but falls short of expectations",
+          "publishedAt": "2026-10-22"
+        },
+        {
+          "id": 3,
+          "url": "https://www.statnews.com/2026/10/22/abbvie-lutikizumab-hidradenitis-suppurativa-drug-phase-3-results/",
+          "source": "STAT",
+          "title": "AbbVie skin disorder drug succeeds in late-stage trial, but results miss market expectations",
+          "publishedAt": "2026-10-22"
+        }
+      ],
+      "tags": [
+        "AbbVie",
+        "clinical trial",
+        "Phase 3",
+        "immunology"
+      ],
+      "confidence": "medium"
     }
   ]
 }

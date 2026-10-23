@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "generatedAt": "2026-10-22T22:06:44.340Z",
+  "generatedAt": "2026-10-23T10:05:20.903Z",
   "vertical": "ai",
   "lang": "ko",
   "title": "AI: 연구 에이전트",
@@ -76,6 +76,153 @@
         "AI research",
         "biotechnology",
         "agents"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "slug": "openai-models-google-cloud-partnership-ko",
+      "headline": "OpenAI 모델이 Google Cloud에 도입된다",
+      "dek": "양사는 OpenAI 모델과 Codex 워크플로를 Google Cloud Model Garden에 제공하고, 수 주 내 일반 공개를 계획한다고 밝혔다.",
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "OpenAI와 Google Cloud는 Google Cloud Model Garden을 통해 OpenAI 모델과 Codex 워크플로를 제공하는 제휴를 발표했습니다.",
+        "고객은 Google Cloud Marketplace에서 모델을 구매하며, 자격을 갖춘 기업은 기존 Google Cloud 지출 약정을 사용할 수 있습니다.",
+        "양사는 수 주 내 일반 공개를 계획한다고 밝혔으며, 현재는 비공개 프리뷰를 순차적으로 시작하고 있습니다."
+      ],
+      "body": [
+        {
+          "text": "OpenAI와 Google Cloud는 OpenAI 프런티어 모델과 Codex 에이전트 워크플로를 Google Cloud Model Garden에서 제공한다고 발표했습니다. 두 회사는 각각 제휴 내용을 발표했습니다. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "양사는 구매가 Google Cloud Marketplace를 통해 이뤄진다고 밝혔습니다. OpenAI는 Google Cloud 지출 약정이 있는 기업이 이를 구매에 사용할 수 있다고 했고, Google은 일부 기업 고객을 대상으로 초기 비공개 프리뷰를 시작했다고 설명했습니다. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "발표에 따르면 통합은 Google Cloud의 거버넌스와 인프라를 활용하며, OpenAI 모델은 Google Antigravity와 Gemini Agent에도 제공될 예정입니다. Google은 GPT-Astra, GPT-6.1 Sol, GPT-6 Luna를 프리뷰 고객에게 제공한다고 밝혔습니다. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "양사는 수 주 내 일반 공개를 계획한다고 밝혔지만 구체적인 날짜는 제시하지 않았습니다. 발표에는 기존 클라우드 관계를 포함한 제휴의 상업 조건이 공개되지 않았으며, OpenAI는 Microsoft가 여전히 주 클라우드 파트너라고 밝혔습니다. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 제휴는 OpenAI의 주요 클라우드 유통 경로를 추가하고, Google Cloud 고객이 한 플랫폼에서 경쟁 관계인 프런티어 모델을 이용할 수 있게 합니다. 실제 보급 범위는 출시 일정, 고객 자격, 공개되지 않은 상업 조건에 달려 있습니다.",
+      "editorNote": "OpenAI와 Google Cloud의 발표 내용을 대조했습니다. 현재는 비공개 프리뷰이며 일반 공개는 계획 단계라고 표현했습니다.",
+      "cluster": [
+        {
+          "url": "https://www.axios.com/2026/10/21/openai-google-cloud-ai-models",
+          "source": "Axios",
+          "title": "OpenAI expands its cloud reach with Google deal"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://openai.com/index/openai-models-google-cloud/",
+          "source": "OpenAI",
+          "title": "OpenAI models are coming to Google Cloud",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 2,
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers",
+          "source": "Google Cloud",
+          "title": "Google Cloud brings OpenAI models to customers",
+          "publishedAt": "2026-10-21"
+        }
+      ],
+      "tags": [
+        "OpenAI",
+        "Google Cloud",
+        "AI infrastructure",
+        "enterprise AI"
+      ],
+      "confidence": "high"
+    },
+    {
+      "slug": "google-staff-resign-military-ai-contracts-ko",
+      "headline": "군사 AI 계약에 반발한 Google 직원들 사임",
+      "dek": "BBC는 Google DeepMind 직원 여러 명이 회사 AI 기술의 군사적 사용에 반대해 사임했다고 보도했습니다.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tldr": [
+        "BBC는 Google의 군사 고객 대상 AI 계약에 우려를 표한 Google DeepMind 직원 여러 명이 사임했다고 보도했습니다.",
+        "전 직원 한 명은 BBC에 우려를 밝혔고, 보도는 논란의 배경으로 과거 Project Nimbus 비판도 언급했습니다.",
+        "인용된 보도만으로는 사임 규모나 군사 계약의 조건과 실제 적용 범위를 확인할 수 없습니다."
+      ],
+      "body": [
+        {
+          "text": "BBC는 Google DeepMind 직원 여러 명이 Google의 군사 고객 대상 인공지능 계약에 대한 우려 속에 사임했다고 보도했습니다. BBC는 그 주에 회사를 떠난 직원 한 명의 인터뷰를 실었습니다. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "BBC에 따르면 전 직원은 퇴사에 관해 말하지 못하게 하는 계약상 제한에도 우려를 밝혔습니다. 보도는 Google AI 시스템의 군사적 활용을 둘러싼 내부 반대를 다루지만, 사임한 직원 전체 명단은 제시하지 않습니다. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "보도는 2024년 이후 직원들의 비판을 받은 Project Nimbus도 언급합니다. 이 계약은 Google과 Amazon이 이스라엘 정부·군에 제공하는 $1.2bn 규모의 클라우드 및 AI 계약으로 소개됐습니다. 이는 현재 계약의 조건이 같다는 증거가 아니라 과거 논란의 맥락입니다. [1]",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "BBC 기사에 연결된 Reddit 토론은 이 보도가 대중의 관심을 받았음을 보여주지만, 댓글은 반응일 뿐 고용 관련 주장을 독립적으로 확인하지는 않습니다. 사임 인원, 관련 계약의 세부 내용, Google의 공식 입장은 인용된 자료에서 분명하지 않습니다. [1][2]",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 사임은 국방 분야에서 상용 AI 시스템을 사용하는 문제에 직원과 거버넌스 측면을 더합니다. 보도는 직원들의 반대를 전하지만 계약의 정확한 범위와 사임 규모는 확인되지 않았습니다.",
+      "editorNote": "사실 근거는 BBC 보도입니다. 점수가 표시된 Reddit 토론은 별도의 공개 토론 출처로만 포함하며 사임 사실을 독립적으로 확인한 자료로 취급하지 않았습니다.",
+      "cluster": [
+        {
+          "url": "https://www.reddit.com/r/technology/comments/1xd5m05/google_staff_resign_in_backlash_over_its_ai/",
+          "source": "Reddit r/technology",
+          "title": "Google staff resign in backlash over its AI contracts with military"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.com/news/articles/cmreyvepnv0po",
+          "source": "BBC",
+          "title": "Google staff resign in backlash over its AI contracts with military",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reddit.com/r/technology/comments/1xd5m05/google_staff_resign_in_backlash_over_its_ai/",
+          "source": "Reddit r/technology",
+          "title": "Google staff resign in backlash over its AI contracts with military",
+          "publishedAt": "2026-10-23"
+        }
+      ],
+      "tags": [
+        "Google",
+        "AI policy",
+        "defense",
+        "workforce"
       ],
       "confidence": "medium"
     }
