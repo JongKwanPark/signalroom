@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-24",
+  "generatedAt": "2026-10-23T22:03:54.924Z",
+  "vertical": "ai",
+  "lang": "ko",
+  "title": "AI 동향: 공공기관의 접근 통제와 배포",
+  "summary": "오늘의 AI 보도에는 정부기관의 접속 통제 변경과 산업·배포 동향이 포함됩니다.",
+  "stories": [
+    {
+      "slug": "sweden-government-chatgpt-claude-access-ko",
+      "headline": "스웨덴 정부청사, Chat GPT와 Claude 차단",
+      "dek": "스웨덴 정부청사가 직원 업무용 컴퓨터에서 두 생성형 AI 서비스에 직접 접속하지 못하도록 제한합니다.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "스웨덴 정부청사는 직원 업무용 컴퓨터에서 ChatGPT와 Claude에 직접 접속하는 것을 차단한다고 Sveriges Radio와 SVT가 보도했습니다.",
+        "변경은 10월 26일부터 시행될 예정이며, 일부 직원은 정부 내부에서 개발한 AI 비서 플랫폼을 통해 계속 이용할 수 있다고 합니다.",
+        "보도에는 구체적인 보안 이유와 내부 플랫폼의 데이터 처리 및 모델 접근 방식이 설명되지 않았습니다."
+      ],
+      "body": [
+        {
+          "text": "Sveriges Radio는 정부청사가 10월 26일부터 직원 업무용 컴퓨터에서 ChatGPT와 Claude를 차단한다고 보도했습니다. SVT도 Sveriges Radio의 최초 보도를 인용해 같은 제한 조치를 전했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이번 제한은 업무용 컴퓨터에서 서비스에 직접 접속하는 데 적용됩니다. 정부청사 대변인실은 일부 직원이 정부 자체 개발 AI 비서 플랫폼을 통해 ChatGPT와 Claude에 계속 접근할 수 있다고 Sveriges Radio에 밝혔습니다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "따라서 보도된 조치는 정부 내 해당 모델 사용을 전면 중단하는 것이 아닙니다. 보도 내용은 직원 기기의 직접 접속을 제한하고 정부 플랫폼을 통한 이용 경로는 남기는 접근 통제 변경을 설명합니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "내부 플랫폼에서 어떤 데이터를 입력할 수 있는지, 어떤 기술적 통제가 적용되는지, 제한 조치가 확대될지는 보도에 나오지 않았습니다. 인용한 보도만으로는 이 세부 사항을 확인할 수 없습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 사례는 공공기관이 모델의 이용 가능 여부와 직원이 모델에 접근하는 경로를 분리할 수 있음을 보여줍니다. 보도는 단말기 접속 제한과 내부 경로의 존속을 확인하지만, 플랫폼의 안전장치는 아직 설명하지 않습니다.",
+      "editorNote": "Sveriges Radio와 SVT 보도를 대조했습니다. SVT는 최초 보도를 Sveriges Radio에 귀속합니다. 내부 플랫폼의 통제 세부 사항은 보도되지 않았습니다.",
+      "cluster": [
+        {
+          "url": "https://www.svt.se/nyheter/inrikes/ai-tjanster-sparras-pa-regeringskansliet?mobilmeny=1",
+          "source": "SVT",
+          "title": "Regeringskansliet spärrar AI-tjänsterna"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
+          "source": "Sveriges Radio",
+          "title": "Chat GPT och Claude förbjuder Regeringskansliet",
+          "publishedAt": "2026-10-23"
+        },
+        {
+          "id": 2,
+          "url": "https://www.svt.se/nyheter/inrikes/ai-tjanster-sparras-pa-regeringskansliet?mobilmeny=1",
+          "source": "SVT",
+          "title": "Regeringskansliet spärrar AI-tjänsterna",
+          "publishedAt": "2026-10-23"
+        }
+      ],
+      "tags": [
+        "AI governance",
+        "public sector",
+        "Sweden"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

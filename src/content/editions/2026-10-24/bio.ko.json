@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-24",
+  "generatedAt": "2026-10-23T22:03:54.924Z",
+  "vertical": "bio",
+  "lang": "ko",
+  "title": "임상·규제 동향",
+  "summary": "오늘 발행할 바이오 주요 소식은 여러 독립 매체가 보도한 후기 흑색종 백신 임상 데이터입니다.",
+  "stories": [
+    {
+      "slug": "moderna-merck-melanoma-vaccine-phase-three-results-ko",
+      "headline": "Moderna mRNA 백신, 피부암 재발 위험을 거의 절반으로 낮춰",
+      "dek": "Moderna와 Merck는 후기 임상시험에서 시험용 백신을 Keytruda에 추가했을 때 흑색종 재발 또는 사망 위험이 42% 낮아졌다고 발표했습니다.",
+      "type": "DEEP",
+      "readMinutes": 5,
+      "tldr": [
+        "Moderna와 Merck는 개인 맞춤형 mRNA 백신을 Keytruda와 함께 사용했을 때 후기 임상시험에서 흑색종 재발 또는 사망 위험이 42% 감소했다고 밝혔습니다.",
+        "Nature, CNBC, Reuters는 해당 조합을 시험용 치료법으로 설명하고 결과를 임상시험 데이터로 보도했습니다.",
+        "보도 내용만으로는 규제 승인, 장기 효과의 지속성, 연구 대상 외 환자군에 대한 적용 가능성이 확정되지 않습니다."
+      ],
+      "body": [
+        {
+          "text": "Moderna와 Merck는 개인 맞춤형 mRNA 백신을 Merck의 Keytruda와 병용했을 때 후기 임상시험에서 흑색종 재발 또는 사망 위험이 42% 감소했다고 발표했습니다. Nature는 10월 23일 이 결과를 보도했고 Reuters도 회사 발표를 별도로 전했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "두 보도가 설명하는 근거는 병용 요법과 Keytruda 단독 요법의 비교입니다. 이는 시험용 백신에 대한 임상시험 결과이며, 규제 당국의 허가나 통상적인 치료 현장에서의 사용을 알리는 보도는 아닙니다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "CNBC도 데이터와 시장 반응을 다루며 회사들이 발표한 결과에 초점을 맞췄습니다. 보도는 이번 결과를 주목할 만한 진전으로 소개하지만, 임상시험 원자료를 대신하지는 않습니다.",
+          "citations": [
+            3
+          ]
+        },
+        {
+          "text": "인용한 보도만으로는 장기 추적에서 효과가 얼마나 지속되는지, 대상 환자의 정확한 범위가 어디까지인지, 규제 신청 시점이 언제인지 확정되지 않습니다. 이 질문들은 아직 열려 있습니다.",
+          "citations": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "이번 결과는 개인 맞춤형 mRNA 암 백신과 기존 면역관문 억제제 치료 맥락에 후기 임상 데이터를 더합니다. 임상·상업적 의미는 전체 임상 데이터, 추적 관찰, 규제 검토에 달려 있습니다.",
+      "editorNote": "Nature, Reuters, CNBC 보도를 대조했습니다. 42% 상대 위험 감소는 보도된 수치로 표기했으며, 인용 보도는 허가나 장기 결과를 확정하지 않습니다.",
+      "cluster": [
+        {
+          "url": "https://www.investing.com/news/stock-market-news/merckmoderna-cancer-vaccine-cuts-melanoma-death-or-recurrence-risk-by-42-shares-fall-4967507",
+          "source": "Reuters via Investing.com",
+          "title": "Merck/Moderna cancer vaccine cuts melanoma death or recurrence risk by 42%, shares fall"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/10/23/moderna-merck-cancer-vaccine-data.html",
+          "source": "CNBC",
+          "title": "Doctors call Moderna, Merck cancer vaccine data a major advancement"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.nature.com/articles/d41586-026-03417-0",
+          "source": "Nature",
+          "title": "Moderna mRNA vaccine almost halves the risk of skin cancer returning",
+          "publishedAt": "2026-10-23"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/stock-market-news/merckmoderna-cancer-vaccine-cuts-melanoma-death-or-recurrence-risk-by-42-shares-fall-4967507",
+          "source": "Reuters via Investing.com",
+          "title": "Merck/Moderna cancer vaccine cuts melanoma death or recurrence risk by 42%, shares fall",
+          "publishedAt": "2026-10-22"
+        },
+        {
+          "id": 3,
+          "url": "https://www.cnbc.com/2026/10/23/moderna-merck-cancer-vaccine-data.html",
+          "source": "CNBC",
+          "title": "Doctors call Moderna, Merck cancer vaccine data a major advancement",
+          "publishedAt": "2026-10-23"
+        }
+      ],
+      "tags": [
+        "clinical trials",
+        "mRNA",
+        "oncology"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

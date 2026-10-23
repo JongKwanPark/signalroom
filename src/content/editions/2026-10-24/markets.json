@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-24",
+  "generatedAt": "2026-10-23T22:03:54.924Z",
+  "vertical": "markets",
+  "lang": "en",
+  "title": "Trade policy and market structure",
+  "summary": "Today’s publishable market signal is a targeted change to U.S. tariffs on selected Canadian imports.",
+  "stories": [
+    {
+      "slug": "trump-exempts-some-canadian-imports-from-tariffs",
+      "headline": "Trump, seeking to help Maine Sen. Susan Collins, exempts some Canadian imports from his 50% tariffs",
+      "dek": "An executive order carved out some Canadian goods from the 50% tariffs after pressure from Senator Susan Collins, with the change framed around Maine businesses.",
+      "type": "DEEP",
+      "readMinutes": 5,
+      "tldr": [
+        "Donald Trump signed an order exempting some Canadian imports from 50% tariffs, according to AP and Reuters coverage.",
+        "The move followed lobbying by Maine Senator Susan Collins, who said local businesses rely on Canadian goods that are unavailable domestically or costly to replace.",
+        "The reports describe a targeted exemption; they do not indicate a broader reversal of the Canada tariff policy."
+      ],
+      "body": [
+        {
+          "text": "President Donald Trump signed an order removing 50% tariffs from some Canadian products, AP reported on October 23. Reuters reporting carried by MarketScreener also described an exemption for selected agricultural and forestry products.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The change followed pressure from Maine Republican Senator Susan Collins. AP quoted Collins saying some farmers and growers depend on specialized equipment, packaging materials and other Canadian products that are unavailable from U.S. suppliers or expensive to replace.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The reports frame the order as a product-specific carve-out intended to address costs for affected businesses. They do not describe the action as a general end to tariffs on Canadian imports.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The scope of the covered products and the longer-term effect on bilateral trade remain important open questions. The cited reports establish the announced exemption but do not show how broadly firms will benefit in practice.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The decision shows how tariff policy can shift through targeted exemptions responding to sector and regional pressure. The immediate business effect depends on which products qualify and how the carve-out is implemented.",
+      "editorNote": "Cross-checked AP and Reuters reporting. The headline and 50% rate follow AP’s headline; the reports support a limited exemption, not a broad tariff reversal.",
+      "cluster": [
+        {
+          "url": "https://www.marketscreener.com/news/trump-removes-50-tariffs-on-canadian-products-to-try-to-boost-to-maine-companies-ce785cdfdd81f127",
+          "source": "Reuters via MarketScreener",
+          "title": "Trump removes 50% tariffs on Canadian products to try to boost Maine companies"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/ede51283125c071561178e6455048994",
+          "source": "AP",
+          "title": "Trump, seeking to help Maine Sen. Susan Collins, exempts some Canadian imports from his 50% tariffs",
+          "publishedAt": "2026-10-23"
+        },
+        {
+          "id": 2,
+          "url": "https://www.marketscreener.com/news/trump-removes-50-tariffs-on-canadian-products-to-try-to-boost-to-maine-companies-ce785cdfdd81f127",
+          "source": "Reuters via MarketScreener",
+          "title": "Trump removes 50% tariffs on Canadian products to try to boost Maine companies",
+          "publishedAt": "2026-10-23"
+        }
+      ],
+      "tags": [
+        "tariffs",
+        "Canada",
+        "trade policy"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

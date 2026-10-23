@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-24",
+  "generatedAt": "2026-10-23T22:03:54.924Z",
+  "vertical": "geo",
+  "lang": "en",
+  "title": "Security and geopolitical developments",
+  "summary": "Today’s publishable security signal concerns the gap between public assurances and Ukraine’s account of Starlink access.",
+  "stories": [
+    {
+      "slug": "ukraine-starlink-restrictions-remain",
+      "headline": "Ukraine says Starlink still restricted after Trump says limits lifted",
+      "dek": "Kyiv says restrictions on Starlink access remain in place despite President Donald Trump’s assurance that limits had been lifted.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "Ukraine said Starlink restrictions remain in place after Donald Trump said the limits had been lifted, according to BBC and Reuters reporting.",
+        "The reports describe a disagreement between the public assurance and Kyiv’s account of current access.",
+        "The cited coverage does not establish the precise scope of restrictions or a timeline for any change."
+      ],
+      "body": [
+        {
+          "text": "Ukraine said restrictions on Starlink access remained in place after U.S. President Donald Trump said limits had been lifted. BBC reported Kyiv’s account on October 23, and Reuters separately reported that Ukraine said speed curbs remained despite Trump’s assurance.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The central confirmed point in both reports is the mismatch between the assurance and the Ukrainian account. The coverage attributes the claim about continued restrictions to Ukraine; it does not independently document the network settings in use.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The distinction matters because the reports concern access and service limits, rather than a newly announced agreement or a verified restoration. Neither cited account supplies a complete technical description of the restrictions.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The reports leave open which terminals or areas are affected, what conditions govern access, and whether the limits will change. Those details cannot be resolved from the cited reporting.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Starlink access has become part of the operational and diplomatic environment around Ukraine. The immediate story is the gap between Washington’s public statement and Kyiv’s description; the available reports leave the technical and policy details unsettled.",
+      "editorNote": "Compared BBC and Reuters coverage. The reported continued limits are attributed to Ukraine; specific network status and scope are not independently verified in the cited stories.",
+      "cluster": [
+        {
+          "url": "https://www.reuters.com/business/media-telecom/ukraine-says-starlink-speed-curbs-remain-despite-trump-assurance-2026-10-23/",
+          "source": "Reuters",
+          "title": "Ukraine says Starlink speed curbs remain despite Trump assurance"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC",
+          "title": "Ukraine says Starlink still restricted after Trump says limits lifted",
+          "publishedAt": "2026-10-23"
+        },
+        {
+          "id": 2,
+          "url": "https://www.reuters.com/business/media-telecom/ukraine-says-starlink-speed-curbs-remain-despite-trump-assurance-2026-10-23/",
+          "source": "Reuters",
+          "title": "Ukraine says Starlink speed curbs remain despite Trump assurance",
+          "publishedAt": "2026-10-23"
+        }
+      ],
+      "tags": [
+        "Ukraine",
+        "Starlink",
+        "security"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

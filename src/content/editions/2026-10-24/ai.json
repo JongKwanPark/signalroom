@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-24",
+  "generatedAt": "2026-10-23T22:03:54.924Z",
+  "vertical": "ai",
+  "lang": "en",
+  "title": "AI signals: institutional controls and deployment",
+  "summary": "Today’s AI coverage includes a government access-control change, alongside broader industry and deployment developments.",
+  "stories": [
+    {
+      "slug": "sweden-government-chatgpt-claude-access",
+      "headline": "Regeringskansliet spärrar Chat GPT och Claude",
+      "dek": "Sweden’s Government Offices are restricting direct access to two generative AI services on staff computers.",
+      "type": "DEEP",
+      "readMinutes": 4,
+      "tldr": [
+        "Sweden’s Government Offices are blocking direct use of ChatGPT and Claude on staff work computers, according to Sveriges Radio and SVT.",
+        "The change is scheduled to take effect on October 26, while some staff are expected to retain access through an internally developed assistant platform.",
+        "The reports do not specify the full security rationale or how the internal platform handles data and model access."
+      ],
+      "body": [
+        {
+          "text": "Sveriges Radio reported that the Government Offices will block ChatGPT and Claude on staff computers beginning October 26. SVT independently reported the restriction, citing Sveriges Radio’s initial report.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The restriction concerns direct access from work computers. The Government Offices’ press service told Sveriges Radio that some employees will continue to have access to an internally developed platform for AI assistants, which provides access to ChatGPT and Claude.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "That distinction means the reported change is not a complete withdrawal of the models from government use. The available reports describe an access-control change for staff devices and an approved route through a government platform.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The reports do not explain which data may be submitted through the internal platform, what technical controls it applies, or whether the restriction will expand. Those details remain open in the cited coverage.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The case illustrates how public institutions can separate model availability from the channel through which staff reach it. The reports establish an endpoint restriction and a continuing internal access path, but do not yet document the platform’s safeguards.",
+      "editorNote": "Cross-checked against Sveriges Radio and SVT; the secondary report attributes the announcement to Sveriges Radio. Details of the internal platform’s controls are not reported.",
+      "cluster": [
+        {
+          "url": "https://www.svt.se/nyheter/inrikes/ai-tjanster-sparras-pa-regeringskansliet?mobilmeny=1",
+          "source": "SVT",
+          "title": "Regeringskansliet spärrar AI-tjänsterna"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
+          "source": "Sveriges Radio",
+          "title": "Chat GPT och Claude förbjuder Regeringskansliet",
+          "publishedAt": "2026-10-23"
+        },
+        {
+          "id": 2,
+          "url": "https://www.svt.se/nyheter/inrikes/ai-tjanster-sparras-pa-regeringskansliet?mobilmeny=1",
+          "source": "SVT",
+          "title": "Regeringskansliet spärrar AI-tjänsterna",
+          "publishedAt": "2026-10-23"
+        }
+      ],
+      "tags": [
+        "AI governance",
+        "public sector",
+        "Sweden"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

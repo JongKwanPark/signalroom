@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-24",
+  "generatedAt": "2026-10-23T22:03:54.925Z",
+  "vertical": "markets",
+  "lang": "ko",
+  "title": "무역 정책과 시장 구조",
+  "summary": "오늘 발행할 시장 주요 소식은 캐나다산 일부 수입품에 대한 미국의 관세 조정입니다.",
+  "stories": [
+    {
+      "slug": "trump-exempts-some-canadian-imports-from-tariffs-ko",
+      "headline": "Susan Collins 상원의원을 돕기 위해 Trump, 캐나다산 일부 제품에 50% 관세 면제",
+      "dek": "Maine 사업체 관련 압박 이후 행정명령으로 캐나다산 일부 제품에 적용되던 50% 관세가 면제됐습니다.",
+      "type": "DEEP",
+      "readMinutes": 5,
+      "tldr": [
+        "AP와 Reuters 보도에 따르면 Donald Trump는 캐나다산 일부 수입품에 대한 50% 관세를 면제하는 행정명령에 서명했습니다.",
+        "이번 조치는 Maine주 상원의원 Susan Collins의 요청 뒤 나왔으며, Collins는 지역 사업체가 미국에서 구할 수 없거나 대체 비용이 큰 캐나다산 제품에 의존한다고 말했습니다.",
+        "보도는 일부 품목에 한정된 면제를 설명하며, 캐나다 관세 정책 전반의 철회를 알리지는 않습니다."
+      ],
+      "body": [
+        {
+          "text": "AP는 10월 23일 Donald Trump 대통령이 캐나다산 일부 제품에 대한 50% 관세를 없애는 행정명령에 서명했다고 보도했습니다. MarketScreener에 실린 Reuters 보도도 일부 농업·임업 제품에 대한 면제를 전했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이번 변경은 공화당 소속 Susan Collins Maine주 상원의원의 요청 이후 나왔습니다. AP가 인용한 Collins의 설명에 따르면 일부 농가와 생산자는 미국 공급처에서 구할 수 없거나 대체 비용이 큰 특수 장비, 포장재 및 기타 캐나다 제품에 의존합니다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "보도는 이 명령을 영향을 받는 사업체의 비용 문제에 대응하는 품목별 예외로 설명합니다. 캐나다산 수입품 전반에 대한 관세를 없애는 조치로 전하지는 않았습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "대상 품목의 범위와 양국 교역에 미칠 장기 영향은 아직 중요한 미확정 사항입니다. 인용한 보도는 면제 발표를 확인하지만 기업들이 실제로 어느 정도 혜택을 받을지는 보여주지 않습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 결정은 산업 및 지역의 압박에 따라 관세 정책이 특정 품목의 예외를 통해 바뀔 수 있음을 보여줍니다. 기업에 미치는 즉각적 영향은 어떤 제품이 대상에 포함되고 면제가 어떻게 시행되는지에 달려 있습니다.",
+      "editorNote": "AP와 Reuters 보도를 대조했습니다. 제목과 50% 수치는 AP 제목을 따랐으며, 두 매체의 보도는 제한적 면제를 뒷받침하고 전면적인 관세 철회를 뜻하지 않습니다.",
+      "cluster": [
+        {
+          "url": "https://www.marketscreener.com/news/trump-removes-50-tariffs-on-canadian-products-to-try-to-boost-to-maine-companies-ce785cdfdd81f127",
+          "source": "Reuters via MarketScreener",
+          "title": "Trump removes 50% tariffs on Canadian products to try to boost Maine companies"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/ede51283125c071561178e6455048994",
+          "source": "AP",
+          "title": "Trump, seeking to help Maine Sen. Susan Collins, exempts some Canadian imports from his 50% tariffs",
+          "publishedAt": "2026-10-23"
+        },
+        {
+          "id": 2,
+          "url": "https://www.marketscreener.com/news/trump-removes-50-tariffs-on-canadian-products-to-try-to-boost-to-maine-companies-ce785cdfdd81f127",
+          "source": "Reuters via MarketScreener",
+          "title": "Trump removes 50% tariffs on Canadian products to try to boost Maine companies",
+          "publishedAt": "2026-10-23"
+        }
+      ],
+      "tags": [
+        "tariffs",
+        "Canada",
+        "trade policy"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}
