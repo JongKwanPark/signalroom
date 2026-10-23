@@ -4,7 +4,7 @@
   "vertical": "ai",
   "lang": "ko",
   "title": "AI: 연구 에이전트",
-  "summary": "독립 보도가 확인된 연구 개발 한 건을 실었습니다. OpenAI, PerturbAI, Scripps는 대규모 생쥐 뇌 데이터 분석에 에이전트를 활용했다고 밝혔습니다. 다른 출시와 시연은 독립적인 후속 보도가 확인되지 않았고, OpenAI-Google Cloud 소식은 10월 22일 판에 이미 실렸습니다.",
+  "summary": "다중 출처 기준을 충족한 두 건을 담았습니다. 기존 OpenAI–PerturbAI 연구 보도와 군사 AI 계약을 둘러싼 Google 직원 사임에 관한 BBC 보도입니다. OpenAI–Google Cloud 제휴는 10월 22일 판에 이미 실려 제외했고, 그 밖의 제품 출시·시연 후보는 독립적인 후속 보도가 없었습니다.",
   "stories": [
     {
       "slug": "openai-perturbai-biological-research-agents-ko",
@@ -78,81 +78,6 @@
         "agents"
       ],
       "confidence": "medium"
-    },
-    {
-      "slug": "openai-models-google-cloud-partnership-ko",
-      "headline": "OpenAI 모델이 Google Cloud에 도입된다",
-      "dek": "양사는 OpenAI 모델과 Codex 워크플로를 Google Cloud Model Garden에 제공하고, 수 주 내 일반 공개를 계획한다고 밝혔다.",
-      "type": "DEEP",
-      "publication": "scheduled",
-      "readMinutes": 4,
-      "tldr": [
-        "OpenAI와 Google Cloud는 Google Cloud Model Garden을 통해 OpenAI 모델과 Codex 워크플로를 제공하는 제휴를 발표했습니다.",
-        "고객은 Google Cloud Marketplace에서 모델을 구매하며, 자격을 갖춘 기업은 기존 Google Cloud 지출 약정을 사용할 수 있습니다.",
-        "양사는 수 주 내 일반 공개를 계획한다고 밝혔으며, 현재는 비공개 프리뷰를 순차적으로 시작하고 있습니다."
-      ],
-      "body": [
-        {
-          "text": "OpenAI와 Google Cloud는 OpenAI 프런티어 모델과 Codex 에이전트 워크플로를 Google Cloud Model Garden에서 제공한다고 발표했습니다. 두 회사는 각각 제휴 내용을 발표했습니다. [1][2]",
-          "citations": [
-            1,
-            2
-          ]
-        },
-        {
-          "text": "양사는 구매가 Google Cloud Marketplace를 통해 이뤄진다고 밝혔습니다. OpenAI는 Google Cloud 지출 약정이 있는 기업이 이를 구매에 사용할 수 있다고 했고, Google은 일부 기업 고객을 대상으로 초기 비공개 프리뷰를 시작했다고 설명했습니다. [1][2]",
-          "citations": [
-            1,
-            2
-          ]
-        },
-        {
-          "text": "발표에 따르면 통합은 Google Cloud의 거버넌스와 인프라를 활용하며, OpenAI 모델은 Google Antigravity와 Gemini Agent에도 제공될 예정입니다. Google은 GPT-Astra, GPT-6.1 Sol, GPT-6 Luna를 프리뷰 고객에게 제공한다고 밝혔습니다. [1][2]",
-          "citations": [
-            1,
-            2
-          ]
-        },
-        {
-          "text": "양사는 수 주 내 일반 공개를 계획한다고 밝혔지만 구체적인 날짜는 제시하지 않았습니다. 발표에는 기존 클라우드 관계를 포함한 제휴의 상업 조건이 공개되지 않았으며, OpenAI는 Microsoft가 여전히 주 클라우드 파트너라고 밝혔습니다. [1][2]",
-          "citations": [
-            1,
-            2
-          ]
-        }
-      ],
-      "whyItMatters": "이번 제휴는 OpenAI의 주요 클라우드 유통 경로를 추가하고, Google Cloud 고객이 한 플랫폼에서 경쟁 관계인 프런티어 모델을 이용할 수 있게 합니다. 실제 보급 범위는 출시 일정, 고객 자격, 공개되지 않은 상업 조건에 달려 있습니다.",
-      "editorNote": "OpenAI와 Google Cloud의 발표 내용을 대조했습니다. 현재는 비공개 프리뷰이며 일반 공개는 계획 단계라고 표현했습니다.",
-      "cluster": [
-        {
-          "url": "https://www.axios.com/2026/10/21/openai-google-cloud-ai-models",
-          "source": "Axios",
-          "title": "OpenAI expands its cloud reach with Google deal"
-        }
-      ],
-      "sources": [
-        {
-          "id": 1,
-          "url": "https://openai.com/index/openai-models-google-cloud/",
-          "source": "OpenAI",
-          "title": "OpenAI models are coming to Google Cloud",
-          "publishedAt": "2026-10-21"
-        },
-        {
-          "id": 2,
-          "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers",
-          "source": "Google Cloud",
-          "title": "Google Cloud brings OpenAI models to customers",
-          "publishedAt": "2026-10-21"
-        }
-      ],
-      "tags": [
-        "OpenAI",
-        "Google Cloud",
-        "AI infrastructure",
-        "enterprise AI"
-      ],
-      "confidence": "high"
     },
     {
       "slug": "google-staff-resign-military-ai-contracts-ko",

@@ -4,7 +4,7 @@
   "vertical": "ai",
   "lang": "en",
   "title": "AI: Research agents",
-  "summary": "One independently reported research development qualified: OpenAI, PerturbAI, and Scripps described an agent-assisted analysis of a large mouse-brain dataset. Other launches and demos lacked independent follow-up coverage; the OpenAI-Google Cloud agreement was already covered in the Oct. 22 edition.",
+  "summary": "Two stories meet the multi-source threshold: the existing OpenAI–PerturbAI research report and BBC reporting on Google staff resignations over military AI contracts. The OpenAI–Google Cloud agreement is omitted because it appeared in the Oct. 22 edition; other collected launches and demos lacked independent follow-up coverage.",
   "stories": [
     {
       "slug": "openai-perturbai-biological-research-agents",
@@ -78,81 +78,6 @@
         "agents"
       ],
       "confidence": "medium"
-    },
-    {
-      "slug": "openai-models-google-cloud-partnership",
-      "headline": "OpenAI models are coming to Google Cloud",
-      "dek": "The companies said OpenAI models and Codex workflows will enter Google Cloud’s Model Garden, with broader availability planned in the coming weeks.",
-      "type": "DEEP",
-      "publication": "scheduled",
-      "readMinutes": 4,
-      "tldr": [
-        "OpenAI and Google Cloud announced a partnership to offer OpenAI models and Codex workflows through Google Cloud’s Model Garden.",
-        "Customers will purchase the models through Google Cloud Marketplace, and eligible enterprises can apply existing Google Cloud spending commitments.",
-        "The companies said general availability is planned in the coming weeks; access is currently being rolled out in private preview."
-      ],
-      "body": [
-        {
-          "text": "OpenAI and Google Cloud announced that OpenAI frontier models and Codex agent workflows will be offered through Google Cloud’s Model Garden. Each company published its own announcement describing the partnership. [1][2]",
-          "citations": [
-            1,
-            2
-          ]
-        },
-        {
-          "text": "The companies said purchases will run through Google Cloud Marketplace. OpenAI said enterprises with Google Cloud spending commitments can apply those commitments to the purchases, while Google said initial access is a private preview for selected enterprise customers. [1][2]",
-          "citations": [
-            1,
-            2
-          ]
-        },
-        {
-          "text": "The announcements describe integration with Google Cloud’s governance and infrastructure, and say OpenAI models are also planned for Google Antigravity and Gemini Agent. Google’s post says selected customers can access GPT-Astra, GPT-6.1 Sol, and GPT-6 Luna in the preview. [1][2]",
-          "citations": [
-            1,
-            2
-          ]
-        },
-        {
-          "text": "The companies said broader general availability is planned in the coming weeks, without giving a firm date in these announcements. The terms of the partnership beyond distribution, including any changes to OpenAI’s existing cloud relationships, were not specified; OpenAI said Microsoft remains its primary cloud partner. [1][2]",
-          "citations": [
-            1,
-            2
-          ]
-        }
-      ],
-      "whyItMatters": "The agreement adds a major cloud distribution channel for OpenAI and gives Google Cloud customers access to competing frontier models in the same platform. Its practical reach will depend on rollout timing, customer eligibility, and the commercial terms that have not been disclosed.",
-      "editorNote": "Matched OpenAI and Google Cloud announcements. Availability is described as a private preview with general availability planned, not as a completed broad launch.",
-      "cluster": [
-        {
-          "url": "https://www.axios.com/2026/10/21/openai-google-cloud-ai-models",
-          "source": "Axios",
-          "title": "OpenAI expands its cloud reach with Google deal"
-        }
-      ],
-      "sources": [
-        {
-          "id": 1,
-          "url": "https://openai.com/index/openai-models-google-cloud/",
-          "source": "OpenAI",
-          "title": "OpenAI models are coming to Google Cloud",
-          "publishedAt": "2026-10-21"
-        },
-        {
-          "id": 2,
-          "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers",
-          "source": "Google Cloud",
-          "title": "Google Cloud brings OpenAI models to customers",
-          "publishedAt": "2026-10-21"
-        }
-      ],
-      "tags": [
-        "OpenAI",
-        "Google Cloud",
-        "AI infrastructure",
-        "enterprise AI"
-      ],
-      "confidence": "high"
     },
     {
       "slug": "google-staff-resign-military-ai-contracts",
