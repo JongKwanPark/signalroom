@@ -1,10 +1,10 @@
 {
   "date": "2026-10-24",
-  "generatedAt": "2026-10-23T22:03:54.924Z",
+  "generatedAt": "2026-10-24T12:00:00.000Z",
   "vertical": "ai",
   "lang": "ko",
-  "title": "AI 동향: 공공기관의 접근 통제와 배포",
-  "summary": "오늘의 AI 보도에는 정부기관의 접속 통제 변경과 산업·배포 동향이 포함됩니다.",
+  "title": "AI 동향: 순차 진단 성능을 보고한 Microsoft",
+  "summary": "오전판의 스웨덴 정부 접근 통제 보도에 더해, Microsoft가 모의 진단 평가에서 MAI-DxO의 성능을 발표한 내용을 담았습니다. TikTok의 컴퓨팅 용량 확보 보도 등 다른 후보는 별도 매체의 독립 보도가 확인되지 않아 제외해 10편에 미치지 못합니다.",
   "stories": [
     {
       "slug": "sweden-government-chatgpt-claude-access-ko",
@@ -77,6 +77,80 @@
         "Sweden"
       ],
       "confidence": "medium"
+    },
+    {
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tags": [
+        "Microsoft",
+        "healthcare AI",
+        "diagnostics"
+      ],
+      "confidence": "medium",
+      "cluster": [
+        {
+          "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+          "source": "TechCrunch",
+          "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://microsoft.ai/news/building-medical-superintelligence/",
+          "source": "Microsoft AI",
+          "title": "Building Medical Superintelligence",
+          "publishedAt": "2026-10-22"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/stock-market-news/microsoft-develops-ai-tool-that-can-diagnose-sequentially-like-a-doctor-4967877",
+          "source": "Reuters via Investing.com",
+          "title": "Microsoft develops AI tool that can diagnose ’sequentially’ like a doctor",
+          "publishedAt": "2026-10-22"
+        }
+      ],
+      "slug": "microsoft-mai-dxo-sequential-diagnosis-ko",
+      "headline": "Microsoft, 의사처럼 ‘순차적으로’ 진단할 수 있는 AI 도구 개발",
+      "dek": "Microsoft는 MAI-DxO가 두 가지 모의 진단 평가에서 의사보다 높은 점수를 기록했다고 밝혔습니다. 실제 임상 환경에서의 검증은 아직 남아 있습니다.",
+      "tldr": [
+        "Microsoft는 복잡한 NEJM 사례에서 MAI-DxO의 진단 정확도가 83%였고 참고 자료를 이용한 의사는 36%였다고 발표했습니다.",
+        "회사는 MIMIC-IV-ED 응급실 사례 평가에서 시스템이 80%, 의사가 47%를 기록했다고 밝혔습니다.",
+        "이번 결과는 모의 평가에 해당하며 Microsoft는 전향적 병원 연구를 계획하고 있다고 밝혔습니다."
+      ],
+      "body": [
+        {
+          "text": "Microsoft는 MAI-DxO 시스템이 NEJM(의학 학술지)에 실린 복잡한 사례에서 진단 정확도 83%를 기록했다고 밝혔습니다. 회사가 비교한 의사 집단은 참고 자료를 이용했을 때 36%, 이를 이용하지 않았을 때 22%였습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이 시스템은 완성된 사례를 입력받아 즉시 답을 내는 대신, 오케스트레이터가 여러 AI 에이전트를 조율해 질문과 검사 항목을 차례로 선택하도록 설계됐습니다. Microsoft는 MIMIC-IV-ED 데이터셋의 응급실 사례에서도 시스템이 80%, 의사가 47%의 정확도를 보였다고 보고했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Microsoft는 연구 결과를 Science에 발표하고, 연구자들이 결과를 재현하고 다른 모델을 비교할 수 있도록 Sequential Diagnosis Benchmark 일부를 공개한다고 밝혔습니다. Reuters도 복잡한 진단 사례를 대상으로 한 평가라고 전하며 시스템이 질문과 검사를 순차적으로 고른다고 설명했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "이번 비교는 벤치마크 사례에 기반하며, 일상 진료에서 환자 결과가 개선된다는 전향적 임상시험 결과는 아닙니다. Microsoft는 Beth Israel Deaconess Medical Center와 시스템을 평가할 계획이라고 밝혔으며, 병원별 성능과 환자 안전성, 실제 임상 성과는 아직 확인되지 않았습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 결과는 주목받는 AI 역량 주장에서 여러 에이전트의 협업과 순차적 추론이 차지하는 비중을 보여줍니다. 의료기관에는 벤치마크 성능과 전향적 임상 근거 사이의 간극을 좁히는 일이 여전히 핵심 과제입니다.",
+      "editorNote": "Science에 발표된 회사 제공 벤치마크 결과이며 수치는 Microsoft와 Reuters 보도에 근거합니다. 모의 평가만으로 실제 임상 효과를 입증하지는 않습니다."
     }
   ]
 }

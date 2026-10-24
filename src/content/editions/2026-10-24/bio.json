@@ -1,10 +1,10 @@
 {
   "date": "2026-10-24",
-  "generatedAt": "2026-10-23T22:03:54.924Z",
+  "generatedAt": "2026-10-24T12:00:00.000Z",
   "vertical": "bio",
   "lang": "en",
   "title": "Clinical and regulatory developments",
-  "summary": "Today’s publishable bio signal is late-stage melanoma vaccine data reported across independent outlets.",
+  "summary": "Today’s edition retains the late-stage melanoma vaccine update and adds Avacta’s sponsor-reported AVA6103 development update and Kenya’s second Ebola death with AP and BBC reporting. Individual papers and trial-registry records, including recent NAC and NAD+ entries, lacked a second independent outlet; the edition remains below ten stories.",
   "stories": [
     {
       "slug": "moderna-merck-melanoma-vaccine-phase-three-results",
@@ -89,6 +89,154 @@
         "clinical trials",
         "mRNA",
         "oncology"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tags": [
+        "Avacta",
+        "peptide therapeutics",
+        "oncology",
+        "Phase 1"
+      ],
+      "confidence": "medium",
+      "cluster": [
+        {
+          "url": "https://www.sharecast.com/news/aim-bulletin/avacta-meets-important-first-quarter-milestones--22264192.html",
+          "source": "Sharecast",
+          "title": "Avacta meets “important” first-quarter milestones"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.globenewswire.com/news-release/2026/10/23/3387194/0/en/avacta-highlights-pre-cision-platform-data-and-ongoing-focus-01-trial-design-with-fap-exd-ava6103.html",
+          "source": "GlobeNewswire / Avacta",
+          "title": "Avacta Highlights pre|CISION® Platform Data and Ongoing FOCUS-01 Trial Design with FAP-Exd (AVA6103)",
+          "publishedAt": "2026-10-23"
+        },
+        {
+          "id": 2,
+          "url": "https://www.sharecast.com/news/aim-bulletin/avacta-meets-important-first-quarter-milestones--22264192.html",
+          "source": "Sharecast",
+          "title": "Avacta meets “important” first-quarter milestones",
+          "publishedAt": "2026-10-23"
+        }
+      ],
+      "slug": "avacta-ava6103-focus-01-esmo-update",
+      "headline": "Avacta Highlights pre|CISION® Platform Data and Ongoing FOCUS-01 Trial Design with FAP-Exd (AVA6103)",
+      "dek": "The company reported preclinical findings and an update on its Phase 1 peptide-drug conjugate program; efficacy claims remain company-reported and largely preclinical.",
+      "tldr": [
+        "Avacta said it presented preclinical AVA6103 findings and the ongoing FOCUS-01 Phase 1 trial design at the ESMO Congress.",
+        "The company reported tumor responses in mouse models, including models that had progressed after Enhertu treatment.",
+        "FOCUS-01 remains an ongoing early-stage study, and Avacta expects initial efficacy data in H1 2027."
+      ],
+      "body": [
+        {
+          "text": "Avacta said it presented new preclinical data on AVA6103 and the FOCUS-01 Phase 1 trial design at the ESMO Congress. The investigational drug is a FAP-activated peptide-drug conjugate designed to release the exatecan payload in the tumor environment.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The company reported that AVA6103 showed tumor-growth inhibition and partial responses in patient-derived mouse models, including models that had progressed after Enhertu treatment. These are sponsor-reported preclinical findings and do not establish benefit in patients.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Avacta described FOCUS-01 as a first-in-human, multicenter dose-escalation study enrolling people with selected solid tumors. It said enrollment was ongoing in both arms and that the study was intended to examine safety, pharmacokinetics and early activity.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The company said it expects the first efficacy data in H1 2027 while the Phase 1 trial continues. Sharecast separately covered the program’s first-quarter milestones, but available reports do not provide independently verified patient efficacy results or establish whether the preclinical findings will translate clinically.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The update puts a peptide-drug conjugate in active early clinical development, an area where delivery design and target biology are central to the program’s thesis. The immediate evidence remains sponsor-reported preclinical work; patient-level efficacy data are still pending.",
+      "editorNote": "The principal findings and timelines are from Avacta, the program sponsor; Sharecast provides separate coverage of company milestones. Mouse-model results are not clinical efficacy. TODO-review: confirm preferred Korean rendering for “peptide-drug conjugate.”"
+    },
+    {
+      "slug": "kenya-reports-second-ebola-death",
+      "headline": "Kenya announces 2nd Ebola death, a close relative of the first patient",
+      "dek": "Kenya’s health ministry said a 65-year-old woman died after developing symptoms while in quarantine, as authorities reported no evidence of community spread.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "Kenya’s health ministry announced a second Ebola death, involving a 65-year-old woman who was a close relative of the first patient.",
+        "The woman developed symptoms while in quarantine, according to AP and BBC reporting on ministry statements.",
+        "Authorities said the known cases were in one cluster with no evidence of community spread; the outbreak response remains ongoing."
+      ],
+      "body": [
+        {
+          "text": "Kenya’s health ministry announced that a 65-year-old woman had died of Ebola, the country’s second death in its first recorded outbreak. The woman was a close relative of the first patient, a man who had travelled from the Democratic Republic of Congo, according to AP.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The ministry said the woman developed symptoms while she was in quarantine. AP reported that she died after being placed in quarantine, while the BBC said seven other patients were receiving treatment at two isolation facilities.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The health ministry described the cases as belonging to one cluster and said it had found no evidence of community spread, the BBC reported. That is the official assessment cited in the coverage, rather than an independent determination of transmission risk.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Kenya’s response is continuing as authorities monitor known cases and contacts. The available reports do not provide a final outbreak size or establish how long containment measures will be needed.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The second reported death raises the stakes for Kenya’s case monitoring and cross-border outbreak response. The health ministry’s statement that cases remain within one cluster is a current assessment; the reporting does not establish the outbreak’s eventual scale.",
+      "editorNote": "Case and cluster details are attributed to Kenya’s health ministry in AP and BBC coverage. No clinical guidance or prediction is included.",
+      "cluster": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c6x2355448eyo",
+          "source": "BBC",
+          "title": "Woman, 65, becomes second patient to die of Ebola in Kenya"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/c96067b4b2fc8d3e35a97e32455e996c",
+          "source": "Associated Press",
+          "title": "Kenya announces 2nd Ebola death, a close relative of the first patient",
+          "publishedAt": "2026-10-23"
+        },
+        {
+          "id": 2,
+          "url": "https://www.bbc.co.uk/news/articles/c6x2355448eyo",
+          "source": "BBC",
+          "title": "Woman, 65, becomes second patient to die of Ebola in Kenya",
+          "publishedAt": "2026-10-24"
+        }
+      ],
+      "tags": [
+        "Ebola",
+        "Kenya",
+        "public health"
       ],
       "confidence": "medium"
     }

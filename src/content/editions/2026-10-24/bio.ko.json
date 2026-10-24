@@ -1,10 +1,10 @@
 {
   "date": "2026-10-24",
-  "generatedAt": "2026-10-23T22:03:54.924Z",
+  "generatedAt": "2026-10-24T12:00:00.000Z",
   "vertical": "bio",
   "lang": "ko",
   "title": "임상·규제 동향",
-  "summary": "오늘 발행할 바이오 주요 소식은 여러 독립 매체가 보도한 후기 흑색종 백신 임상 데이터입니다.",
+  "summary": "오전판의 후기 흑색종 백신 데이터를 유지하고, Avacta의 AVA6103 개발 업데이트와 AP·BBC가 보도한 케냐의 두 번째 에볼라 사망 소식을 추가했습니다. 최근 NAC·NAD+ 자료를 포함한 개별 논문과 임상시험 등록 기록은 별도 매체 보도가 없어 제외해 10편에 미치지 못합니다.",
   "stories": [
     {
       "slug": "moderna-merck-melanoma-vaccine-phase-three-results-ko",
@@ -89,6 +89,154 @@
         "clinical trials",
         "mRNA",
         "oncology"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tags": [
+        "Avacta",
+        "peptide therapeutics",
+        "oncology",
+        "Phase 1"
+      ],
+      "confidence": "medium",
+      "cluster": [
+        {
+          "url": "https://www.sharecast.com/news/aim-bulletin/avacta-meets-important-first-quarter-milestones--22264192.html",
+          "source": "Sharecast",
+          "title": "Avacta meets “important” first-quarter milestones"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://www.globenewswire.com/news-release/2026/10/23/3387194/0/en/avacta-highlights-pre-cision-platform-data-and-ongoing-focus-01-trial-design-with-fap-exd-ava6103.html",
+          "source": "GlobeNewswire / Avacta",
+          "title": "Avacta Highlights pre|CISION® Platform Data and Ongoing FOCUS-01 Trial Design with FAP-Exd (AVA6103)",
+          "publishedAt": "2026-10-23"
+        },
+        {
+          "id": 2,
+          "url": "https://www.sharecast.com/news/aim-bulletin/avacta-meets-important-first-quarter-milestones--22264192.html",
+          "source": "Sharecast",
+          "title": "Avacta meets “important” first-quarter milestones",
+          "publishedAt": "2026-10-23"
+        }
+      ],
+      "slug": "avacta-ava6103-focus-01-esmo-update-ko",
+      "headline": "Avacta, FAP-Exd(AVA6103)의 pre|CISION® 플랫폼 데이터와 진행 중인 FOCUS-01 시험 설계 공개",
+      "dek": "회사는 펩타이드-약물 접합체 프로그램의 전임상 결과와 1상 개발 현황을 발표했습니다. 효능 주장은 회사가 공개한 내용이며 대부분 전임상 단계입니다.",
+      "tldr": [
+        "Avacta는 ESMO 학회에서 AVA6103 전임상 결과와 진행 중인 FOCUS-01 1상 시험 설계를 발표했다고 밝혔습니다.",
+        "회사는 Enhertu 투여 후 진행한 종양 모델을 포함한 생쥐 모델에서 종양 반응이 관찰됐다고 보고했습니다.",
+        "FOCUS-01은 초기 단계 시험으로 계속 진행 중이며 회사는 첫 효능 데이터를 2027년 상반기에 공개할 것으로 예상한다고 밝혔습니다."
+      ],
+      "body": [
+        {
+          "text": "Avacta는 ESMO 학회에서 AVA6103의 새로운 전임상 데이터와 FOCUS-01 1상 시험 설계를 발표했다고 밝혔습니다. 개발 중인 약물은 종양 환경에서 엑사테칸 페이로드를 방출하도록 설계된 FAP 활성화 펩타이드-약물 접합체입니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "회사는 AVA6103이 Enhertu 치료 후 진행한 모델을 포함한 환자 유래 생쥐 종양 모델에서 종양 성장 억제와 부분 반응을 보였다고 보고했습니다. 이는 개발사가 공개한 전임상 결과이며 환자에게서의 치료 효과를 입증하지는 않습니다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Avacta는 FOCUS-01을 특정 고형암 환자를 등록하는 최초 인체 투여 다기관 용량 증량 시험으로 설명했습니다. 양쪽 시험군에서 등록이 계속되고 있으며 안전성·약동학·초기 활성도를 살피는 시험이라고 밝혔습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "회사는 2027년 상반기에 첫 효능 데이터를 내놓을 것으로 예상한다고 밝혔고 1상 시험은 계속 진행 중입니다. Sharecast도 회사의 1분기 주요 진척을 별도로 보도했지만, 현재 보도에는 독립적으로 확인된 환자 효능 결과가 없으며 전임상 결과가 임상에서 재현될지도 아직 알 수 없습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "이번 업데이트는 약물 전달 설계와 표적 생물학이 개발 가설의 핵심인 펩타이드-약물 접합체가 초기 임상 단계에 진입했음을 보여줍니다. 당장의 근거는 개발사가 공개한 전임상 자료이며 환자 대상 효능 데이터는 아직 나오지 않았습니다.",
+      "editorNote": "주요 결과와 일정은 개발사 Avacta가 공개했으며 Sharecast는 회사의 개발 진척을 별도로 보도했습니다. 생쥐 모델 결과는 임상 효능을 의미하지 않습니다. TODO-review: “peptide-drug conjugate”의 한국어 표준 표기를 확인할 것."
+    },
+    {
+      "slug": "kenya-reports-second-ebola-death-ko",
+      "headline": "케냐, 첫 환자의 가까운 친척인 두 번째 에볼라 사망자 발표",
+      "dek": "케냐 보건부는 격리 중 증상이 나타난 65세 여성이 사망했다고 밝혔습니다. 당국은 지역사회 전파 증거가 없다고 보고했습니다.",
+      "type": "BRIEF",
+      "publication": "scheduled",
+      "readMinutes": 3,
+      "tldr": [
+        "케냐 보건부는 첫 환자의 가까운 친척인 65세 여성이 에볼라로 사망해 두 번째 사망자가 나왔다고 발표했습니다.",
+        "AP와 BBC 보도에 따르면 이 여성은 격리 중 증상이 나타났습니다.",
+        "당국은 확인된 사례가 하나의 집단에 속하며 지역사회 전파 증거는 없다고 밝혔고, 대응은 계속되고 있습니다."
+      ],
+      "body": [
+        {
+          "text": "케냐 보건부는 65세 여성이 에볼라로 사망해 국내 첫 발병에서 두 번째 사망자가 나왔다고 발표했습니다. 이 여성은 콩고민주공화국에서 이동해 온 첫 환자의 가까운 친척이었다고 AP가 전했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "보건부는 이 여성이 격리 중 증상을 보였다고 밝혔습니다. AP는 여성이 격리된 뒤 사망했다고 보도했고, BBC는 다른 환자 7명이 두 곳의 격리 시설에서 치료를 받고 있다고 전했습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "BBC 보도에 따르면 보건부는 사례들이 하나의 집단에 속하며 지역사회 전파 증거를 확인하지 못했다고 밝혔습니다. 이는 보도에 인용된 당국의 현재 평가이며, 전파 위험에 대한 독립적인 판단은 아닙니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "당국은 확인된 환자와 접촉자를 계속 살피며 대응하고 있습니다. 현재 보도에는 최종 발병 규모나 방역 조치가 얼마나 지속될지에 대한 결론은 담기지 않았습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "두 번째 사망은 케냐의 환자 감시와 국경 간 감염병 대응의 중요성을 높입니다. 보건부의 ‘하나의 집단’이라는 설명은 현재 평가이며, 이번 보도만으로 최종 발병 규모를 알 수는 없습니다.",
+      "editorNote": "환자 및 집단 관련 내용은 AP와 BBC가 전한 케냐 보건부 발표에 근거합니다. 임상 조언이나 확산 예측은 포함하지 않았습니다.",
+      "cluster": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c6x2355448eyo",
+          "source": "BBC",
+          "title": "Woman, 65, becomes second patient to die of Ebola in Kenya"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/c96067b4b2fc8d3e35a97e32455e996c",
+          "source": "Associated Press",
+          "title": "Kenya announces 2nd Ebola death, a close relative of the first patient",
+          "publishedAt": "2026-10-23"
+        },
+        {
+          "id": 2,
+          "url": "https://www.bbc.co.uk/news/articles/c6x2355448eyo",
+          "source": "BBC",
+          "title": "Woman, 65, becomes second patient to die of Ebola in Kenya",
+          "publishedAt": "2026-10-24"
+        }
+      ],
+      "tags": [
+        "Ebola",
+        "Kenya",
+        "public health"
       ],
       "confidence": "medium"
     }

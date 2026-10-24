@@ -1,10 +1,10 @@
 {
   "date": "2026-10-24",
-  "generatedAt": "2026-10-23T22:03:54.924Z",
+  "generatedAt": "2026-10-24T12:00:00.000Z",
   "vertical": "markets",
   "lang": "en",
   "title": "Trade policy and market structure",
-  "summary": "Today’s publishable market signal is a targeted change to U.S. tariffs on selected Canadian imports.",
+  "summary": "Today’s edition retains the Canadian tariff exemption and adds Moody’s decision to keep France at Aa3 with a negative outlook. The collection yielded few new developments with independent multi-outlet coverage, leaving this edition below ten stories.",
   "stories": [
     {
       "slug": "trump-exempts-some-canadian-imports-from-tariffs",
@@ -77,6 +77,80 @@
         "trade policy"
       ],
       "confidence": "medium"
+    },
+    {
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tags": [
+        "France",
+        "sovereign debt",
+        "Moody’s",
+        "public finances"
+      ],
+      "confidence": "medium",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/23/moodys-holds-steady-on-frances-credit-rating-as-country-grapples-with-turmoil-and-higher-yields.html",
+          "source": "CNBC",
+          "title": "Moody’s holds steady on France’s credit rating as country grapples with turmoil and higher yields"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://live.euronext.com/en/financial-news/france-spared-moodys-ratings-downgrade-it-struggles-unrest",
+          "source": "Reuters via Euronext",
+          "title": "France spared Moody’s ratings downgrade as it struggles with unrest",
+          "publishedAt": "2026-10-23"
+        },
+        {
+          "id": 2,
+          "url": "https://www.lemonde.fr/en/economy/article/2026/10/24/moody-s-holds-france-s-credit-rating-steady-despite-budget-and-political-uncertainty_6762703_19.html",
+          "source": "Le Monde",
+          "title": "Moody’s holds France’s credit rating steady despite budget and political uncertainty",
+          "publishedAt": "2026-10-24"
+        }
+      ],
+      "slug": "moodys-keeps-france-aa3-negative-outlook",
+      "headline": "France spared Moody’s ratings downgrade as it struggles with unrest",
+      "dek": "Moody’s kept France at Aa3 with a negative outlook, offering short-term relief while leaving budget and political risks unresolved.",
+      "tldr": [
+        "Moody’s left France’s sovereign rating at Aa3 with a negative outlook after a periodic review on October 23.",
+        "Reuters reported that markets had been pricing in a downgrade and that the government still faces uncertainty over its 2027 budget.",
+        "The unchanged rating is not an upgrade, and the negative outlook leaves a future downgrade possible."
+      ],
+      "body": [
+        {
+          "text": "Moody’s kept France’s sovereign rating at Aa3 with a negative outlook in its October 23 review, according to Reuters and Le Monde. The decision avoided an immediate downgrade but did not change the outlook.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Reuters reported that bond markets had been pricing in a downgrade that would have brought Moody’s closer to the lower ratings assigned by S&P and Fitch. The review came as France’s government faces difficulty passing its 2027 budget in a fragmented parliament.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The French finance ministry said the decision reflected the credibility of the government’s proposed 2027 budget, while stressing the need to bring the deficit to 5% by year-end, Reuters reported. That is the government’s stated target, not an outcome Moody’s has guaranteed.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "France’s rating remains below the higher levels it held before its 2024 downgrade, and the negative outlook signals continuing downside risk. The next steps depend on budget negotiations and fiscal performance; the unchanged rating alone does not resolve those constraints.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "France is a major sovereign borrower, so its fiscal trajectory matters to European bond markets and the wider debate over euro-area stability. The decision removes an immediate rating shock but leaves policymakers focused on budget passage and deficit reduction, without implying a market direction.",
+      "editorNote": "Rating and outlook are reported by Reuters and Le Monde. The deficit figure is the French government target quoted by Reuters; no investment conclusion is implied."
     }
   ]
 }

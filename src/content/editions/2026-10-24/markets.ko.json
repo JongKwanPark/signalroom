@@ -1,10 +1,10 @@
 {
   "date": "2026-10-24",
-  "generatedAt": "2026-10-23T22:03:54.925Z",
+  "generatedAt": "2026-10-24T12:00:00.000Z",
   "vertical": "markets",
   "lang": "ko",
   "title": "무역 정책과 시장 구조",
-  "summary": "오늘 발행할 시장 주요 소식은 캐나다산 일부 수입품에 대한 미국의 관세 조정입니다.",
+  "summary": "오전판의 캐나다산 일부 수입품 관세 면제 보도를 유지하고, Moody’s가 프랑스의 국가신용등급을 유지한 결정을 추가했습니다. 신규 다중 매체 보도로 확인된 개발이 제한적이어서 10편에 미치지 못합니다.",
   "stories": [
     {
       "slug": "trump-exempts-some-canadian-imports-from-tariffs-ko",
@@ -77,6 +77,80 @@
         "trade policy"
       ],
       "confidence": "medium"
+    },
+    {
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tags": [
+        "France",
+        "sovereign debt",
+        "Moody’s",
+        "public finances"
+      ],
+      "confidence": "medium",
+      "cluster": [
+        {
+          "url": "https://www.cnbc.com/2026/10/23/moodys-holds-steady-on-frances-credit-rating-as-country-grapples-with-turmoil-and-higher-yields.html",
+          "source": "CNBC",
+          "title": "Moody’s holds steady on France’s credit rating as country grapples with turmoil and higher yields"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://live.euronext.com/en/financial-news/france-spared-moodys-ratings-downgrade-it-struggles-unrest",
+          "source": "Reuters via Euronext",
+          "title": "France spared Moody’s ratings downgrade as it struggles with unrest",
+          "publishedAt": "2026-10-23"
+        },
+        {
+          "id": 2,
+          "url": "https://www.lemonde.fr/en/economy/article/2026/10/24/moody-s-holds-france-s-credit-rating-steady-despite-budget-and-political-uncertainty_6762703_19.html",
+          "source": "Le Monde",
+          "title": "Moody’s holds France’s credit rating steady despite budget and political uncertainty",
+          "publishedAt": "2026-10-24"
+        }
+      ],
+      "slug": "moodys-keeps-france-aa3-negative-outlook-ko",
+      "headline": "정치·사회 불안 속 프랑스, Moody’s의 신용등급 강등 모면",
+      "dek": "Moody’s는 프랑스의 Aa3 등급과 부정적 전망을 유지했습니다. 단기 부담은 덜었지만 예산과 정치 리스크는 남아 있습니다.",
+      "tldr": [
+        "Moody’s는 10월 23일 정기 검토 후 프랑스 국가신용등급을 Aa3, 전망을 부정적으로 유지했습니다.",
+        "Reuters는 시장이 등급 강등을 예상해 왔으며 프랑스 정부가 2027년 예산 통과 불확실성에 직면해 있다고 보도했습니다.",
+        "등급 유지는 상향 조정이 아니며 부정적 전망은 향후 강등 가능성을 남깁니다."
+      ],
+      "body": [
+        {
+          "text": "Reuters와 Le Monde에 따르면 Moody’s는 10월 23일 검토에서 프랑스의 국가신용등급을 Aa3, 전망을 부정적으로 유지했습니다. 즉각적인 강등은 피했지만 등급 전망은 바뀌지 않았습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Reuters는 채권시장이 Moody’s의 강등 가능성을 가격에 반영해 왔다고 전했습니다. 강등됐다면 Moody’s 등급이 이미 더 낮아진 S&P와 Fitch 수준에 가까워졌을 수 있으며 이번 검토는 프랑스 정부가 분열된 의회에서 2027년 예산 통과에 어려움을 겪는 가운데 이뤄졌습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Reuters 보도에 따르면 프랑스 재무부는 이번 결정이 정부의 2027년 예산안 신뢰성을 반영한다고 밝혔고 연말까지 재정적자를 5%로 낮춰야 한다고 강조했습니다. 이는 정부가 제시한 목표이며 Moody’s가 달성을 보장한 결과는 아닙니다.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "프랑스 등급은 2024년 강등 이전보다 낮은 수준에 머물고 있으며 부정적 전망은 추가 하방 위험이 남아 있음을 뜻합니다. 향후 흐름은 예산 협상과 재정 성과에 달려 있으며 등급 유지만으로 이러한 제약이 해소되지는 않습니다.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "프랑스는 유럽의 주요 국채 발행국으로 재정 경로는 유럽 채권시장과 유로 지역 안정성 논의에 영향을 줍니다. 이번 결정은 당장의 등급 충격을 피했지만 예산 통과와 적자 축소에 대한 관심을 남겼으며 시장 방향을 예단하지는 않습니다.",
+      "editorNote": "등급과 전망은 Reuters와 Le Monde 보도에 근거합니다. 적자 수치는 Reuters가 전한 프랑스 정부 목표입니다. 투자 판단을 제시하지 않습니다."
     }
   ]
 }

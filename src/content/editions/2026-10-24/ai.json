@@ -1,10 +1,10 @@
 {
   "date": "2026-10-24",
-  "generatedAt": "2026-10-23T22:03:54.924Z",
+  "generatedAt": "2026-10-24T12:00:00.000Z",
   "vertical": "ai",
   "lang": "en",
   "title": "AI signals: institutional controls and deployment",
-  "summary": "Today’s AI coverage includes a government access-control change, alongside broader industry and deployment developments.",
+  "summary": "Today’s edition retains the Swedish government access-control story and adds Microsoft’s reported diagnostic benchmark. Other candidates, including TikTok’s reported compute search, lacked independent outlet confirmation and are held out, leaving this edition below ten stories.",
   "stories": [
     {
       "slug": "sweden-government-chatgpt-claude-access",
@@ -77,6 +77,80 @@
         "Sweden"
       ],
       "confidence": "medium"
+    },
+    {
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tags": [
+        "Microsoft",
+        "healthcare AI",
+        "diagnostics"
+      ],
+      "confidence": "medium",
+      "cluster": [
+        {
+          "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+          "source": "TechCrunch",
+          "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://microsoft.ai/news/building-medical-superintelligence/",
+          "source": "Microsoft AI",
+          "title": "Building Medical Superintelligence",
+          "publishedAt": "2026-10-22"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/stock-market-news/microsoft-develops-ai-tool-that-can-diagnose-sequentially-like-a-doctor-4967877",
+          "source": "Reuters via Investing.com",
+          "title": "Microsoft develops AI tool that can diagnose ’sequentially’ like a doctor",
+          "publishedAt": "2026-10-22"
+        }
+      ],
+      "slug": "microsoft-mai-dxo-sequential-diagnosis",
+      "headline": "Microsoft develops AI tool that can diagnose ’sequentially’ like a doctor",
+      "dek": "Microsoft says MAI-DxO outperformed physicians on simulated diagnostic evaluations; real-world clinical testing remains ahead.",
+      "tldr": [
+        "Microsoft reported 83% accuracy for MAI-DxO on complex New England Journal of Medicine cases, compared with 36% for physicians using reference materials.",
+        "On emergency-department cases from MIMIC-IV-ED, the system scored 80% against 47% for physicians, according to Microsoft.",
+        "The results are from simulated evaluations, and Microsoft says a prospective hospital study is planned."
+      ],
+      "body": [
+        {
+          "text": "Microsoft said its MAI-DxO system reached 83% diagnostic accuracy on complex cases drawn from the New England Journal of Medicine. The company compared that result with 36% for physicians who could consult reference materials and 22% for physicians without those resources.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The system uses an orchestrator to coordinate several AI agents through a sequence of questions, examinations and tests, rather than asking one model to produce an immediate answer from a complete case description. Microsoft also reported 80% accuracy on emergency-department cases in the MIMIC-IV-ED dataset, versus 47% for physicians.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Microsoft published the work in Science and said it is making parts of its Sequential Diagnosis Benchmark available for researchers to reproduce and compare results. Reuters described the evaluation as a study of complex diagnostic cases and noted that the system chooses questions and tests as it proceeds.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The comparison is based on benchmark cases, not a prospective trial showing improved outcomes for patients in routine care. Microsoft said it plans to evaluate the system with Beth Israel Deaconess Medical Center, leaving performance across hospitals, patient safety and clinical outcomes open questions.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The results put agent coordination and sequential reasoning at the center of a high-profile AI capability claim. For healthcare institutions, the gap between benchmark performance and prospective clinical evidence remains the key unresolved step.",
+      "editorNote": "Company-reported benchmark results published in Science; figures are from Microsoft and Reuters coverage. Simulation results do not establish real-world clinical benefit."
     }
   ]
 }

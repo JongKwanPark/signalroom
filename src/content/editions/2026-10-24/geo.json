@@ -1,10 +1,10 @@
 {
   "date": "2026-10-24",
-  "generatedAt": "2026-10-23T22:03:54.924Z",
+  "generatedAt": "2026-10-24T12:00:00.000Z",
   "vertical": "geo",
   "lang": "en",
   "title": "Security and geopolitical developments",
-  "summary": "Today’s publishable security signal concerns the gap between public assurances and Ukraine’s account of Starlink access.",
+  "summary": "Today’s edition retains the Ukraine Starlink report and adds Kim Jong Un’s reported arrival in China via the new Dandong bridge. Canada tariff relief is covered in Markets; other single-source or unconfirmed reports are held out, leaving this edition below ten stories.",
   "stories": [
     {
       "slug": "ukraine-starlink-restrictions-remain",
@@ -78,6 +78,81 @@
         "security"
       ],
       "confidence": "medium"
+    },
+    {
+      "type": "DEEP",
+      "publication": "scheduled",
+      "readMinutes": 4,
+      "tags": [
+        "North Korea",
+        "China",
+        "diplomacy",
+        "Yalu River"
+      ],
+      "confidence": "medium",
+      "cluster": [
+        {
+          "url": "https://www.theguardian.com/world/2026/oct/24/north-korea-new-yalu-river-bridge-russia-china",
+          "source": "The Guardian",
+          "title": "North Korea has opened up bridges to Russia and China – in which direction will it go?"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "url": "https://apnews.com/article/2459fe49f876ceb0c1c17296c70627f7",
+          "source": "Associated Press",
+          "title": "North Korean leader Kim Jong Un visits China, South Korean news agency reports",
+          "publishedAt": "2026-10-24"
+        },
+        {
+          "id": 2,
+          "url": "https://www.investing.com/news/world-news/north-koreas-kim-jong-un-visits-china-via-dandong-bridge-yonhap-says-4970677",
+          "source": "Reuters via Investing.com",
+          "title": "North Korea’s Kim Jong Un visits China via Dandong bridge, Yonhap says",
+          "publishedAt": "2026-10-24"
+        }
+      ],
+      "slug": "kim-jong-un-china-via-new-yalu-bridge",
+      "headline": "North Korean leader Kim Jong Un visits China, South Korean news agency reports",
+      "dek": "South Korean media and officials said Kim entered China via the newly opened Dandong bridge; the visit’s timing and purpose remain partly unclear.",
+      "tldr": [
+        "Kim Jong Un arrived in China’s border city of Dandong by crossing a newly opened bridge, according to South Korean officials and Yonhap.",
+        "Reuters and AP also carried the report, attributing the information to South Korean sources.",
+        "The reports do not establish the visit’s full itinerary or confirm a meeting with Chinese leader Xi Jinping."
+      ],
+      "body": [
+        {
+          "text": "North Korean leader Kim Jong Un arrived in the Chinese border city of Dandong via a newly opened bridge linking the two countries, according to a South Korean government source cited by Yonhap. AP reported that South Korea’s Unification Ministry also said Kim appeared to have arrived in Dandong.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Reuters reported the crossing on Saturday, citing Yonhap and a South Korean government official. The bridge is the New Yalu River crossing, which the Guardian described as having opened to traffic on 15 October after a long delay.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The trip places Kim in China ahead of the 25 October anniversary of Chinese forces entering the Korean War in 1950, a timing noted by AP. His last known China visit was in September 2025, when he attended the 80th anniversary Victory Day events in Beijing, according to the same report.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The available reporting does not establish Kim’s full schedule, whether he will meet President Xi Jinping, or what agreements may be discussed. The arrival was reported through South Korean government and media sources; public confirmation from Pyongyang or Beijing was not cited in these accounts.",
+          "citations": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "The crossing gives the newly opened land bridge immediate diplomatic visibility as Pyongyang balances ties with Beijing and Moscow. The visit’s significance will depend on whether official meetings or concrete agreements follow; those details were not confirmed in the reports available.",
+      "editorNote": "Arrival details are attributed to Yonhap and South Korean government sources in AP and Reuters coverage; itinerary and meeting claims remain unconfirmed."
     }
   ]
 }
